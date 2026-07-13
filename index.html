@@ -78,6 +78,57 @@
   .chip.on{background:var(--navy);color:#fff}
   .chip.on small{color:#c3d0ec}
   .region .chip{font-size:13px;padding:8px 12px}
+  /* Premium Care CTA Banner */
+  .premium-banner{
+    background: linear-gradient(135deg, #123a8a 0%, #0a225c 100%);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin: 18px 0;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(18,58,138,0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  .p-badge{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    background: #2563eb;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  .p-title{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+  .p-desc{
+    font-size: 12.5px;
+    color: #c3d0ec;
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }
+  .p-btn{
+    display: block;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: 800;
+    background: #fff;
+    color: #123a8a;
+    padding: 11px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+  }
+  .p-btn:active{
+    transform: scale(0.98);
+    background: #eef2fa;
+  }
   /* info */
   .info{background:#fff5e0;border:1px solid #ffd98a;border-radius:12px;padding:11px 13px;
     font-size:13px;color:#8a6410;margin:14px 0 2px;display:none;line-height:1.55}
@@ -160,6 +211,14 @@
     <!-- NEWS_END -->
   </div>
 
+  <!-- Premium Service CTA Banner -->
+  <div class="premium-banner">
+    <span class="p-badge">Kori Care Premium</span>
+    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า หรือวีซ่าแรงงาน?</div>
+    <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
+    <a href="https://koricare.kr" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
+  </div>
+
   <div class="flab">หมวดหมู่ · Category</div>
   <div class="chips" id="cats"></div>
 
@@ -189,9 +248,16 @@
   var CAT_ICON={embassy:"🏛️",admin:"📑",remittance:"💸",telecom:"📱",hospital:"🏥",support:"🤝"};
   var CAT_TH={embassy:"สถานทูต",admin:"งานราชการ",remittance:"โอนเงิน",telecom:"ซิม·มือถือ",hospital:"โรงพยาบาล",support:"ช่วยเหลือ"};
   var REGIONS = [
-    {key:"전체",th:"ทั้งหมด",en:"All"},{key:"서울",en:"Seoul"},{key:"경기",en:"Gyeonggi"},
-    {key:"인천",en:"Incheon"},{key:"강원",en:"Gangwon"},{key:"충청",en:"Chungcheong"},
-    {key:"전라",en:"Jeolla"},{key:"경상",en:"Gyeongsang"},{key:"제주",en:"Jeju"}
+    {key:"전체",th:"ทั้งหมด",en:"All"},
+    {key:"경기",en:"Gyeonggi"},
+    {key:"인천",en:"Incheon"},
+    {key:"충청",en:"Chungcheong"},
+    {key:"경북/대구/구미",en:"Gyeongbuk/Daegu/Gumi"},
+    {key:"경남/부산/울산",en:"Gyeongnam/Busan/Ulsan"},
+    {key:"전라",en:"Jeolla"},
+    {key:"서울",en:"Seoul"},
+    {key:"강원",en:"Gangwon"},
+    {key:"제주",en:"Jeju"}
   ];
   var HOTKEYS = ["วีซ่า","โอนเงิน","โรงพยาบาล","ซิม","ฉุกเฉิน"];
 
@@ -279,10 +345,24 @@
   function renderRegions(){ chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){actRegion=k;renderRegions();apply();}); }
   function boot(data){ DATA=data; renderHot(); renderCats(); renderRegions(); apply(); }
 
-  fetch("data/links.json",{cache:"no-store"})
-    .then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+  // Fix relative fetch path dynamically based on pathname
+  var jsonUrl = "data/links.json";
+  if (window.location.pathname.endsWith("/link")) {
+    jsonUrl = "link/data/links.json";
+  }
+
+  // Use 1.5-second timeout via AbortController for immediate fallback loading
+  var controller = new AbortController();
+  var timeoutId = setTimeout(function(){ controller.abort(); }, 1500);
+
+  fetch(jsonUrl, {cache:"no-store", signal: controller.signal})
+    .then(function(r){clearTimeout(timeoutId); if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
     .then(function(d){boot(d);})
-    .catch(function(e){console.warn("links.json load failed → fallback:",e.message);boot(FALLBACK);});
+    .catch(function(e){
+      clearTimeout(timeoutId);
+      console.warn("links.json load failed → fallback:", e.message);
+      boot(FALLBACK);
+    });
 
   document.getElementById("q").addEventListener("input",apply);
 </script>
