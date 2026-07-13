@@ -1,0 +1,264 @@
+[
+  {
+    "id": "emb_th",
+    "category": "embassy",
+    "name_ko": "주한 태국 대사관",
+    "name_th": "สถานเอกอัครราชทูต ณ กรุงโซล",
+    "url": "https://seoul.thaiembassy.org",
+    "desc_th": "ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",
+    "desc_en": "Passport, visa & consular services for Thai nationals",
+    "tags": [
+      "대사관",
+      "여권",
+      "비자",
+      "영사",
+      "태국"
+    ]
+  },
+  {
+    "id": "gov_hikorea",
+    "category": "admin",
+    "name_ko": "하이코리아 (HiKorea)",
+    "name_th": "ฮายโคเรีย (ตรวจคนเข้าเมือง)",
+    "url": "https://www.hikorea.go.kr",
+    "desc_th": "ต่อวีซ่า ลงทะเบียนคนต่างชาติ ยื่นเรื่อง ตม. ออนไลน์",
+    "desc_en": "Visa extension, alien registration & immigration e-services",
+    "tags": [
+      "출입국",
+      "비자연장",
+      "외국인등록",
+      "체류"
+    ]
+  },
+  {
+    "id": "gov_socinet",
+    "category": "admin",
+    "name_ko": "사회통합정보망 (소시넷/KIIP)",
+    "name_th": "โซซีเน็ต (โครงการบูรณาการสังคม KIIP)",
+    "url": "https://www.socinet.go.kr",
+    "desc_th": "สมัครโครงการ KIIP เรียนภาษา/สังคมเกาหลี (เชื่อมวีซ่า·ถิ่นที่อยู่)",
+    "desc_en": "Apply for KIIP social integration program (linked to visa/residency)",
+    "tags": [
+      "사회통합",
+      "KIIP",
+      "교육",
+      "비자",
+      "영주"
+    ]
+  },
+  {
+    "id": "gov_visa",
+    "category": "admin",
+    "name_ko": "대한민국 비자포털",
+    "name_th": "พอร์ทัลวีซ่าเกาหลี",
+    "url": "https://www.visa.go.kr",
+    "desc_th": "ยื่นวีซ่าและตรวจสอบสถานะการพิจารณาออนไลน์",
+    "desc_en": "Apply for visa & check application status online",
+    "tags": [
+      "비자",
+      "사증",
+      "신청",
+      "발급"
+    ]
+  },
+  {
+    "id": "gov_1345",
+    "category": "admin",
+    "name_ko": "외국인종합안내센터 1345",
+    "name_th": "สายด่วนช่วยเหลือคนต่างชาติ 1345",
+    "url": "tel:1345",
+    "desc_th": "สายด่วนปรึกษา ตม./การใช้ชีวิต รองรับ 20 ภาษา (กด 1345)",
+    "desc_en": "Foreigner help line, 20 languages (dial 1345)",
+    "tags": [
+      "상담",
+      "다국어",
+      "출입국",
+      "전화"
+    ]
+  },
+  {
+    "id": "gov_gov24",
+    "category": "admin",
+    "name_ko": "정부24 (Government24)",
+    "name_th": "รัฐบาล 24 (Government24)",
+    "url": "https://www.gov.kr",
+    "desc_th": "ออกเอกสารราชการและบริการภาครัฐออนไลน์",
+    "desc_en": "Government documents & civil services online",
+    "tags": [
+      "행정",
+      "서류",
+      "민원",
+      "정부"
+    ]
+  },
+  {
+    "id": "rem_hanpass",
+    "category": "remittance",
+    "name_ko": "한패스 (Hanpass)",
+    "name_th": "ฮันพาส (Hanpass)",
+    "url": "https://www.hanpass.com",
+    "desc_th": "โอนเงินกลับไทย ค่าธรรมเนียมถูก สำหรับคนต่างชาติ",
+    "desc_en": "Send money to Thailand, low fees",
+    "tags": [
+      "송금",
+      "해외송금",
+      "전자지갑"
+    ]
+  },
+  {
+    "id": "rem_gme",
+    "category": "remittance",
+    "name_ko": "GME 송금",
+    "name_th": "GME (โอนเงินต่างประเทศ)",
+    "url": "https://www.gmeremit.com",
+    "desc_th": "บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",
+    "desc_en": "International money transfer for foreigners",
+    "tags": [
+      "송금",
+      "해외송금"
+    ]
+  },
+  {
+    "id": "rem_sentbe",
+    "category": "remittance",
+    "name_ko": "센트비 (Sentbe)",
+    "name_th": "เซนต์บี (Sentbe)",
+    "url": "https://www.sentbe.com",
+    "desc_th": "โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",
+    "desc_en": "Overseas remittance with low fees",
+    "tags": [
+      "송금",
+      "해외송금",
+      "수수료"
+    ]
+  },
+  {
+    "id": "rem_wirebarley",
+    "category": "remittance",
+    "name_ko": "와이어바알리 (WireBarley)",
+    "name_th": "ไวร์บาร์ลีย์ (WireBarley)",
+    "url": "https://www.wirebarley.com",
+    "desc_th": "โอนเงินไปได้หลายประเทศ",
+    "desc_en": "Multi-country money transfer",
+    "tags": [
+      "송금",
+      "해외송금"
+    ]
+  },
+  {
+    "id": "tel_egsim",
+    "category": "telecom",
+    "name_ko": "EG SIM CARD",
+    "name_th": "EG SIM CARD (ซิมเติมเงิน)",
+    "url": "https://www.egsimcard.com",
+    "desc_th": "ซิมเติมเงิน เปิดใช้ด้วยหนังสือเดินทาง",
+    "desc_en": "Prepaid SIM, activate with passport",
+    "tags": [
+      "선불",
+      "유심",
+      "통신"
+    ]
+  },
+  {
+    "id": "tel_freet",
+    "category": "telecom",
+    "name_ko": "프리티 (Freet)",
+    "name_th": "ฟรีที (Freet · ซิมประหยัด)",
+    "url": "https://www.freet.co.kr",
+    "desc_th": "ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",
+    "desc_en": "Budget SIM, self-registration with ARC",
+    "tags": [
+      "알뜰폰",
+      "본인개통",
+      "통신"
+    ]
+  },
+  {
+    "id": "tel_chingu",
+    "category": "telecom",
+    "name_ko": "찡구모바일 (Chingu Mobile)",
+    "name_th": "ชิงกูโมบายล์ (Chingu Mobile)",
+    "url": "https://www.chingumobile.com",
+    "desc_th": "ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",
+    "desc_en": "Multilingual budget SIM (self-registration)",
+    "tags": [
+      "알뜰폰",
+      "본인개통",
+      "다국어",
+      "통신"
+    ]
+  },
+  {
+    "id": "hos_egen",
+    "category": "hospital",
+    "name_ko": "응급의료포털 E-Gen",
+    "name_th": "พอร์ทัลการแพทย์ฉุกเฉิน E-Gen",
+    "url": "https://www.e-gen.or.kr",
+    "desc_th": "ค้นหาโรงพยาบาล ร้านยา ห้องฉุกเฉินใกล้ตัว (ฉุกเฉิน 119)",
+    "desc_en": "Find nearby hospitals, pharmacies & ER (emergency 119)",
+    "tags": [
+      "병원",
+      "응급",
+      "약국",
+      "의료"
+    ]
+  },
+  {
+    "id": "hos_1339",
+    "category": "hospital",
+    "name_ko": "질병·의료상담 1339",
+    "name_th": "สายด่วนปรึกษาสุขภาพ 1339",
+    "url": "tel:1339",
+    "desc_th": "สายด่วนปรึกษาสุขภาพ/โรคติดต่อ (กด 1339)",
+    "desc_en": "Health & disease consultation line (dial 1339)",
+    "tags": [
+      "의료상담",
+      "감염병",
+      "전화"
+    ]
+  },
+  {
+    "id": "hos_nhis",
+    "category": "hospital",
+    "name_ko": "국민건강보험공단",
+    "name_th": "ประกันสุขภาพแห่งชาติ (NHIS)",
+    "url": "https://www.nhis.or.kr",
+    "desc_th": "ข้อมูลประกันสุขภาพแห่งชาติ สมัคร/สิทธิ/เบี้ยประกัน",
+    "desc_en": "National health insurance info & enrollment",
+    "tags": [
+      "건강보험",
+      "의료",
+      "보험"
+    ]
+  },
+  {
+    "id": "sup_danuri",
+    "category": "support",
+    "name_ko": "다누리콜센터 1577-1366",
+    "name_th": "ศูนย์ดานูรี 1577-1366",
+    "url": "tel:1577-1366",
+    "desc_th": "สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",
+    "desc_en": "24h helpline for migrant women & multicultural families",
+    "tags": [
+      "이주여성",
+      "긴급지원",
+      "상담",
+      "다국어"
+    ]
+  },
+  {
+    "id": "sup_global_seoul",
+    "category": "support",
+    "name_ko": "서울글로벌센터",
+    "name_th": "ศูนย์โซลโกลบอล (Seoul Global Center)",
+    "url": "https://global.seoul.go.kr",
+    "desc_th": "ปรึกษาการใช้ชีวิต กฎหมาย งาน ฟรี พร้อมล่าม",
+    "desc_en": "Free life/legal/job consultation with interpreter",
+    "tags": [
+      "상담",
+      "법률",
+      "취업",
+      "통역"
+    ]
+  }
+]

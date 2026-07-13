@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kori Care — คู่มือช่วยเหลือการใช้ชีวิตในเกาหลี (Life Helper Portal)</title>
+<meta name="description" content="รวมลิงก์ทางการที่จำเป็นสำหรับคนต่างชาติในเกาหลี — วีซ่า โอนเงิน ซิม โรงพยาบาล ราชการ. Official help links for foreigners living in Korea.">
+<link rel="canonical" href="https://koricare.kr/link">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --soft:#f3f6fb; --ink:#14203a; --sub:#5b6b86; --line:#e5eaf3;
+    --navy:#123a8a; --navy2:#0e2f72; --chip:#eef2fa; --ok:#1f9d6b; --red:#d63a3a;
+    --shadow:0 1px 10px rgba(15,30,70,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans Thai","Inter","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:840px;margin:0 auto;padding:0 16px}
+  a{text-decoration:none;color:inherit}
+  /* header */
+  header{background:var(--navy);color:#fff}
+  .hrow{display:flex;align-items:center;justify-content:space-between;padding:13px 0;min-height:56px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-img{width:38px;height:38px;object-fit:contain}
+  .logo-text{display:flex;flex-direction:column}
+  .logo b{font-size:19px;font-weight:800;letter-spacing:-.5px;line-height:1.2}
+  .logo span{display:block;font-size:11px;font-weight:600;color:#c3d0ec;margin-top:1px;line-height:1.3}
+  .flags{font-size:20px;letter-spacing:2px}
+  /* hero */
+  .hero{background:var(--navy);color:#fff;padding:6px 0 20px}
+  .hero h1{font-size:22px;font-weight:800;line-height:1.5;margin-bottom:6px}
+  .hero p{font-size:13.5px;color:#c3d0ec;line-height:1.5}
+  .sos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:14px}
+  .sos a{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:12px;
+    padding:9px 4px;text-align:center;color:#fff;min-height:56px;display:flex;flex-direction:column;justify-content:center}
+  .sos .n{font-size:19px;font-weight:800;line-height:1.1}
+  .sos .l{font-size:11px;color:#d6def3;margin-top:2px;line-height:1.3}
+  /* search */
+  .search{position:relative;margin:16px 0 8px}
+  .search input{width:100%;font-size:16px;font-weight:600;padding:15px 14px 15px 46px;min-height:52px;
+    border:2px solid var(--line);border-radius:14px;background:var(--soft);color:var(--ink);outline:none}
+  .search input:focus{border-color:var(--navy);background:#fff}
+  .search input::placeholder{color:#98a3ba;font-weight:500}
+  .search .ic{position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:19px}
+  /* hot keywords */
+  .hot{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 6px}
+  .hot b{font-size:12px;color:var(--sub);font-weight:700;align-self:center;margin-right:2px}
+  .hot .hk{font-size:14px;font-weight:700;padding:7px 13px;min-height:38px;display:inline-flex;align-items:center;
+    border-radius:999px;background:#eaf0fb;color:var(--navy2);cursor:pointer;border:1px solid #dbe5f7}
+  .hot .hk:active{transform:scale(.96)}
+  /* filters */
+  .flab{font-size:11.5px;font-weight:800;color:var(--sub);margin:14px 0 6px;letter-spacing:.4px;text-transform:uppercase}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:14px;font-weight:700;padding:9px 14px;min-height:44px;display:inline-flex;align-items:center;gap:5px;
+    border-radius:999px;background:var(--chip);color:var(--ink);border:2px solid transparent;cursor:pointer;user-select:none}
+  .chip small{font-size:11px;color:var(--sub);font-weight:600}
+  .chip:active{transform:scale(.97)}
+  .chip.on{background:var(--navy);color:#fff}
+  .chip.on small{color:#c3d0ec}
+  .region .chip{font-size:13px;padding:8px 12px}
+  /* info */
+  .info{background:#fff5e0;border:1px solid #ffd98a;border-radius:12px;padding:11px 13px;
+    font-size:13px;color:#8a6410;margin:14px 0 2px;display:none;line-height:1.55}
+  .info.show{display:block}
+  .count{font-size:13px;color:var(--sub);font-weight:700;margin:14px 0 10px}
+  /* cards */
+  .grid{display:grid;grid-template-columns:1fr;gap:12px}
+  .card{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:15px 15px 14px;box-shadow:var(--shadow)}
+  .ctop{display:flex;align-items:center;gap:11px}
+  .cico{width:46px;height:46px;border-radius:12px;background:var(--soft);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:22px}
+  .ctag{font-size:11px;font-weight:800;color:var(--navy);letter-spacing:.2px}
+  .cname{font-size:16.5px;font-weight:800;letter-spacing:-.2px;line-height:1.4;margin:1px 0 0}
+  .cko{font-size:12px;color:var(--sub);font-weight:600;margin:1px 0 0}
+  .subbadge{display:inline-block;font-size:11.5px;font-weight:800;padding:4px 10px;border-radius:8px;
+    background:#e7edfb;color:var(--navy2);margin-top:9px;line-height:1.4}
+  .cdesc{font-size:14.5px;color:#33405c;margin:9px 0 0;line-height:1.6}
+  .cen{font-size:12.5px;color:var(--sub);margin:2px 0 0;line-height:1.5}
+  .go{margin-top:12px;display:block;text-align:center;font-size:14.5px;font-weight:800;color:#fff;
+    background:var(--navy);padding:13px;border-radius:11px;min-height:48px}
+  .go.tel{background:var(--ok)}
+  .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600}
+  /* news */
+  .news-list{display:flex;flex-direction:column;gap:8px;margin:2px 0 12px}
+  .news-item{background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:var(--shadow)}
+  .news-item:active{background:var(--soft)}
+  .news-title{font-size:14.5px;font-weight:700;color:var(--ink);line-height:1.45;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .news-date{font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+  /* footer */
+  .disc{background:var(--soft);border-radius:10px;padding:11px 13px;font-size:12px;color:var(--sub);margin:20px 0 12px;line-height:1.6}
+  footer{margin:0 0 40px;color:var(--sub);font-size:12.5px;text-align:center;line-height:1.6}
+  @media(min-width:640px){
+    body{font-size:18px}
+    .grid{grid-template-columns:1fr 1fr}
+    .hero h1{font-size:26px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hrow">
+    <a href="index.html" class="logo">
+      <img src="koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
+      <div class="logo-text">
+        <b>Kori Care</b>
+        <span>เพื่อนคนเกาหลีของคุณ · Your Korean friend</span>
+      </div>
+    </a>
+    <div class="flags" aria-label="Thai Korea">🇹🇭 🇰🇷</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>ค้นหาข้อมูลที่จำเป็น<br>สำหรับชีวิตในเกาหลี ได้ในที่เดียว</h1>
+    <p>รวมลิงก์บริการทางการ · Official help links for foreigners in Korea</p>
+    <div class="sos">
+      <a href="tel:112"><div class="n">112</div><div class="l">ตำรวจ · Police</div></a>
+      <a href="tel:119"><div class="n">119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
+      <a href="tel:1345"><div class="n">1345</div><div class="l">ต่างชาติ · Foreigner</div></a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="search">
+    <span class="ic">🔍</span>
+    <input id="q" type="text" placeholder="ค้นหาที่นี่ · Search (เช่น โอนเงิน, โรงพยาบาล, วีซ่า)">
+  </div>
+  <div class="hot" id="hot">
+    <b>ยอดนิยม:</b>
+  </div>
+
+  <div class="flab">ข่าวสารล่าสุด · Recent News</div>
+  <div class="news-list" id="news-list">
+    <!-- NEWS_START -->
+    <div class="empty" style="padding:15px 0;">ยังไม่มีประกาศในขณะนี้ · No notices yet</div>
+    <!-- NEWS_END -->
+  </div>
+
+  <div class="flab">หมวดหมู่ · Category</div>
+  <div class="chips" id="cats"></div>
+
+  <div class="flab">ภูมิภาค · Region</div>
+  <div class="chips region" id="regions"></div>
+
+  <div class="info" id="regionInfo"></div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
+
+  <div class="disc">
+    ลิงก์ทั้งหมดอ้างอิงเว็บไซต์ทางการ · This portal is for information only; use of each service is at your own responsibility.
+  </div>
+  <footer>Kori Care · ลิงก์ช่วยเหลือคนต่างชาติในเกาหลี (prototype) · © 2026</footer>
+</div>
+
+<script>
+  var CATS = [
+    { key:"all",        th:"ทั้งหมด",   en:"All",        emo:"🧭" },
+    { key:"embassy",    th:"สถานทูต",   en:"Embassy",    emo:"🏛️" },
+    { key:"admin",      th:"งานราชการ", en:"Admin·Visa", emo:"📑" },
+    { key:"remittance", th:"โอนเงิน",   en:"Remittance", emo:"💸" },
+    { key:"telecom",    th:"ซิม·มือถือ", en:"Mobile",    emo:"📱" },
+    { key:"hospital",   th:"โรงพยาบาล", en:"Medical",    emo:"🏥" },
+    { key:"support",    th:"ช่วยเหลือ", en:"Support",    emo:"🤝" }
+  ];
+  var CAT_ICON={embassy:"🏛️",admin:"📑",remittance:"💸",telecom:"📱",hospital:"🏥",support:"🤝"};
+  var CAT_TH={embassy:"สถานทูต",admin:"งานราชการ",remittance:"โอนเงิน",telecom:"ซิม·มือถือ",hospital:"โรงพยาบาล",support:"ช่วยเหลือ"};
+  var REGIONS = [
+    {key:"전체",th:"ทั้งหมด",en:"All"},{key:"서울",en:"Seoul"},{key:"경기",en:"Gyeonggi"},
+    {key:"인천",en:"Incheon"},{key:"강원",en:"Gangwon"},{key:"충청",en:"Chungcheong"},
+    {key:"전라",en:"Jeolla"},{key:"경상",en:"Gyeongsang"},{key:"제주",en:"Jeju"}
+  ];
+  var HOTKEYS = ["วีซ่า","โอนเงิน","โรงพยาบาล","ซิม","ฉุกเฉิน"];
+
+  var FALLBACK = [
+    {id:"emb_th",category:"embassy",name_ko:"주한 태국 대사관",name_th:"สถานเอกอัครราชทูต ณ กรุงโซล",url:"https://seoul.thaiembassy.org",desc_th:"ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",desc_en:"Passport, visa & consular services for Thai nationals",tags:["대사관","여권","비자"]},
+    {id:"gov_hikorea",category:"admin",name_ko:"하이코리아 (HiKorea)",name_th:"ฮายโคเรีย (ตรวจคนเข้าเมือง)",url:"https://www.hikorea.go.kr",desc_th:"ต่อวีซ่า ลงทะเบียนคนต่างชาติ ยื่นเรื่อง ตม. ออนไลน์",desc_en:"Visa extension, alien registration & immigration e-services",tags:["출입국","비자연장"]},
+    {id:"gov_socinet",category:"admin",name_ko:"사회통합정보망 (소시넷/KIIP)",name_th:"โซซีเน็ต (KIIP)",url:"https://www.socinet.go.kr",desc_th:"สมัครโครงการ KIIP เรียนภาษา/สังคมเกาหลี (เชื่อมวีซ่า·ถิ่นที่อยู่)",desc_en:"Apply for KIIP program (linked to visa/residency)",tags:["KIIP","교육","비자"]},
+    {id:"gov_visa",category:"admin",name_ko:"대한민국 비자포털",name_th:"พอร์ทัลวีซ่าเกาหลี",url:"https://www.visa.go.kr",desc_th:"ยื่นวีซ่าและตรวจสอบสถานะการพิจารณาออนไลน์",desc_en:"Apply for visa & check status online",tags:["비자","신청"]},
+    {id:"gov_1345",category:"admin",name_ko:"외국인종합안내센터 1345",name_th:"สายด่วนช่วยเหลือคนต่างชาติ 1345",url:"tel:1345",desc_th:"สายด่วนปรึกษา ตม./การใช้ชีวิต 20 ภาษา (กด 1345)",desc_en:"Foreigner help line, 20 languages (dial 1345)",tags:["상담","다국어"]},
+    {id:"gov_gov24",category:"admin",name_ko:"정부24 (Government24)",name_th:"รัฐบาล 24 (Government24)",url:"https://www.gov.kr",desc_th:"ออกเอกสารราชการและบริการภาครัฐออนไลน์",desc_en:"Government documents & civil services online",tags:["행정","서류"]},
+    {id:"rem_hanpass",category:"remittance",name_ko:"한패스 (Hanpass)",name_th:"ฮันพาส (Hanpass)",url:"https://www.hanpass.com",desc_th:"โอนเงินกลับไทย ค่าธรรมเนียมถูก",desc_en:"Send money to Thailand, low fees",tags:["송금"]},
+    {id:"rem_gme",category:"remittance",name_ko:"GME 송금",name_th:"GME (โอนเงินต่างประเทศ)",url:"https://www.gmeremit.com",desc_th:"บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",desc_en:"International money transfer",tags:["송금"]},
+    {id:"rem_sentbe",category:"remittance",name_ko:"센트비 (Sentbe)",name_th:"เซนต์บี (Sentbe)",url:"https://www.sentbe.com",desc_th:"โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",desc_en:"Overseas remittance, low fees",tags:["송금"]},
+    {id:"rem_wirebarley",category:"remittance",name_ko:"와이어바알리 (WireBarley)",name_th:"ไวร์บาร์ลีย์ (WireBarley)",url:"https://www.wirebarley.com",desc_th:"โอนเงินไปได้หลายประเทศ",desc_en:"Multi-country money transfer",tags:["송금"]},
+    {id:"tel_egsim",category:"telecom",name_ko:"EG SIM CARD",name_th:"EG SIM CARD (ซิมเติมเงิน)",url:"https://www.egsimcard.com",desc_th:"ซิมเติมเงิน เปิดใช้ด้วยหนังสือเดินทาง",desc_en:"Prepaid SIM, activate with passport",tags:["선불","유심"]},
+    {id:"tel_freet",category:"telecom",name_ko:"프리티 (Freet)",name_th:"ฟรีที (ซิมประหยัด)",url:"https://www.freet.co.kr",desc_th:"ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",desc_en:"Budget SIM, self-registration with ARC",tags:["알뜰폰","본인개통"]},
+    {id:"tel_chingu",category:"telecom",name_ko:"찡구모바일 (Chingu Mobile)",name_th:"ชิงกูโมบายล์ (Chingu Mobile)",url:"https://www.chingumobile.com",desc_th:"ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",desc_en:"Multilingual budget SIM (self-registration)",tags:["알뜰폰","본인개통"]},
+    {id:"hos_egen",category:"hospital",name_ko:"응급의료포털 E-Gen",name_th:"พอร์ทัลการแพทย์ฉุกเฉิน E-Gen",url:"https://www.e-gen.or.kr",desc_th:"ค้นหาโรงพยาบาล ร้านยา ห้องฉุกเฉินใกล้ตัว (ฉุกเฉิน 119)",desc_en:"Find nearby hospitals, pharmacies & ER",tags:["병원","응급"]},
+    {id:"hos_1339",category:"hospital",name_ko:"질병·의료상담 1339",name_th:"สายด่วนปรึกษาสุขภาพ 1339",url:"tel:1339",desc_th:"สายด่วนปรึกษาสุขภาพ/โรคติดต่อ (กด 1339)",desc_en:"Health consultation line (dial 1339)",tags:["의료상담"]},
+    {id:"hos_nhis",category:"hospital",name_ko:"국민건강보험공단",name_th:"ประกันสุขภาพแห่งชาติ (NHIS)",url:"https://www.nhis.or.kr",desc_th:"ข้อมูลประกันสุขภาพแห่งชาติ สมัคร/สิทธิ/เบี้ยประกัน",desc_en:"National health insurance info",tags:["건강보험"]},
+    {id:"sup_danuri",category:"support",name_ko:"다누리콜센터 1577-1366",name_th:"ศูนย์ดานูรี 1577-1366",url:"tel:1577-1366",desc_th:"สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",desc_en:"24h helpline for migrant women & families",tags:["이주여성","긴급지원"]},
+    {id:"sup_global_seoul",category:"support",name_ko:"서울글로벌센터",name_th:"ศูนย์โซลโกลบอล (Seoul Global Center)",url:"https://global.seoul.go.kr",desc_th:"ปรึกษาการใช้ชีวิต กฎหมาย งาน ฟรี พร้อมล่าม",desc_en:"Free life/legal/job consultation with interpreter",tags:["상담","통역"]}
+  ];
+
+  var DATA=[], actCat="all", actRegion="전체";
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
+
+  function telBadge(x){
+    if(x.category!=="telecom") return "";
+    var prepaid=(x.tags||[]).indexOf("선불")!==-1;
+    return '<span class="subbadge">'+(prepaid?"ซิมเติมเงิน · เปิดด้วยพาสปอร์ต (Prepaid)":"ซิมประหยัด · เปิดชื่อตัวเอง (Self)")+'</span>';
+  }
+  function card(x){
+    var isTel=(x.url||"").indexOf("tel:")===0;
+    return '<div class="card">'
+      + '<div class="ctop"><div class="cico">'+(CAT_ICON[x.category]||"🔗")+'</div>'
+      +   '<div style="min-width:0"><div class="ctag">'+esc(CAT_TH[x.category]||x.category)+'</div>'
+      +   '<div class="cname">'+esc(x.name_th||x.name_ko)+'</div>'
+      +   '<div class="cko">'+esc(x.name_ko)+'</div></div></div>'
+      + telBadge(x)
+      + '<div class="cdesc">'+esc(x.desc_th||"")+'</div>'
+      + (x.desc_en?'<div class="cen">'+esc(x.desc_en)+'</div>':'')
+      + '<a class="go'+(isTel?' tel':'')+'" href="'+esc(x.url)+'"'+(isTel?'':' target="_blank" rel="noopener"')+'>'
+      +   (isTel?'📞 โทรเลย · Call':'ไปที่เว็บไซต์ · Open →')+'</a>'
+      + '</div>';
+  }
+
+  function chipRow(el,items,active,onPick){
+    el.innerHTML=items.map(function(it){
+      var main=it.th||it.en||it.key, sub=(it.th&&it.en)?it.en:(it.key&&it.en?it.key:"");
+      var emo=it.emo?it.emo+" ":"";
+      return '<div class="chip'+(it.key===active?' on':'')+'" data-k="'+esc(it.key)+'">'+emo+esc(main)+(sub?' <small>'+esc(sub)+'</small>':'')+'</div>';
+    }).join("");
+    el.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){onPick(this.getAttribute("data-k"));});});
+  }
+  function renderHot(){
+    var el=document.getElementById("hot");
+    el.querySelectorAll(".hk").forEach(function(n){n.remove();});
+    HOTKEYS.forEach(function(k){
+      var s=document.createElement("span"); s.className="hk"; s.textContent=k;
+      s.addEventListener("click",function(){ document.getElementById("q").value=k; apply(); });
+      el.appendChild(s);
+    });
+  }
+
+  function apply(){
+    var q=(document.getElementById("q").value||"").trim().toLowerCase();
+    var list=DATA.filter(function(x){
+      if(actCat!=="all"&&x.category!==actCat) return false;
+      if(!q) return true;
+      var hay=[x.name_th,x.name_ko,x.desc_th,x.desc_en,(x.tags||[]).join(" "),CAT_TH[x.category]].join(" ").toLowerCase();
+      return hay.indexOf(q)!==-1;
+    });
+    var info=document.getElementById("regionInfo");
+    if(actRegion!=="전체"){
+      var rObj=REGIONS.filter(function(r){return r.key===actRegion;})[0]||{};
+      info.className="info show";
+      info.innerHTML="🔧 ข้อมูลท้องถิ่น (โรงพยาบาล·มาร์ท·ร้านเสริมสวย) ของ <b>"+esc(rObj.en||actRegion)+"</b> กำลังเตรียมข้อมูล — ด้านล่างคือบริการที่ใช้ได้ทั่วประเทศ / Local listings coming soon.";
+    } else { info.className="info"; info.innerHTML=""; }
+    document.getElementById("count").textContent="ทั้งหมด "+list.length+" รายการ";
+    document.getElementById("grid").innerHTML=list.length?list.map(card).join(""):'<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
+  }
+
+  function renderCats(){ chipRow(document.getElementById("cats"),CATS,actCat,function(k){actCat=k;renderCats();apply();}); }
+  function renderRegions(){ chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){actRegion=k;renderRegions();apply();}); }
+  function boot(data){ DATA=data; renderHot(); renderCats(); renderRegions(); apply(); }
+
+  fetch("data/links.json",{cache:"no-store"})
+    .then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+    .then(function(d){boot(d);})
+    .catch(function(e){console.warn("links.json load failed → fallback:",e.message);boot(FALLBACK);});
+
+  document.getElementById("q").addEventListener("input",apply);
+</script>
+</body>
+</html>
