@@ -94,6 +94,37 @@ def call_openai_translation(title_ko, content_ko, api_key):
         print(f"[Error] OpenAI API 호출 중 오류 발생: {e}")
         return None
 
+def generate_sitemap(existing_news):
+    """Generates a standard XML sitemap for search engines."""
+    sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
+    xml_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        '  <url>',
+        '    <loc>https://koricare.kr/link</loc>',
+        '    <changefreq>daily</changefreq>',
+        '    <priority>1.0</priority>',
+        '  </url>'
+    ]
+    
+    for item in existing_news:
+        news_id = item["id"]
+        xml_lines.append('  <url>')
+        xml_lines.append(f'    <loc>https://koricare.kr/link/news/{news_id}.html</loc>')
+        xml_lines.append(f'    <lastmod>{item["date"]}</lastmod>')
+        xml_lines.append('    <changefreq>monthly</changefreq>')
+        xml_lines.append('    <priority>0.8</priority>')
+        xml_lines.append('  </url>')
+        
+    xml_lines.append('</urlset>')
+    
+    try:
+        with open(sitemap_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(xml_lines))
+        print("[Success] sitemap.xml 최신 갱신 완료!")
+    except Exception as e:
+        print(f"[Warning] sitemap.xml 생성 실패: {e}")
+
 def main():
     print("=" * 60)
     print(" Kori Care - 뉴스 번역 & 정적 기사 빌더 (SSG)")
@@ -237,6 +268,10 @@ def main():
             f'🔗 ดูประกาศต้นฉบับ (Source) / View Original Notice</a>'
         )
         
+    # Extract meta description from content_th (strip HTML, max 145 chars)
+    clean_desc = re.sub(r'<[^>]+>', '', content_th).replace("\n", " ").strip()
+    desc_th = clean_desc[:145] + "..." if len(clean_desc) > 145 else clean_desc
+
     # Replace templates placeholders
     html_rendered = template_content
     html_rendered = html_rendered.replace("{{TITLE_TH}}", title_th)
@@ -245,6 +280,8 @@ def main():
     html_rendered = html_rendered.replace("{{CONTENT_TH}}", content_th)
     html_rendered = html_rendered.replace("{{CONTENT_KO}}", content_ko)
     html_rendered = html_rendered.replace("{{URL_SECTION}}", url_section)
+    html_rendered = html_rendered.replace("{{DESC_TH}}", desc_th)
+    html_rendered = html_rendered.replace("{{NEWS_ID}}", news_id)
     
     # Save static news file
     with open(news_file_path, "w", encoding="utf-8") as f:
@@ -264,6 +301,9 @@ def main():
     existing_news.insert(0, new_item)
     with open(NEWS_LIST_PATH, "w", encoding="utf-8") as f:
         json.dump(existing_news, f, ensure_ascii=False, indent=2)
+        
+    # Generate/Update sitemap.xml automatically
+    generate_sitemap(existing_news)
         
     # 7. Update index.html (Inject top 3 news static links)
     if os.path.exists(INDEX_PATH):
