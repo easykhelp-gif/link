@@ -1,23 +1,31 @@
 [
   {
-    "id": "emb_th",
-    "category": "embassy",
-    "name_ko": "주한 태국 대사관",
-    "name_th": "สถานเอกอัครราชทูต ณ กรุงโซล",
-    "url": "https://seoul.thaiembassy.org",
-    "desc_th": "ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",
-    "desc_en": "Passport, visa & consular services for Thai nationals",
+    "id": "gov_socinet",
+    "category": "visa",
+    "name_ko": "사회통합정보망 (소시넷/KIIP)",
+    "name_th": "โซซีเน็ต (โครงการบูรณาการสังคม KIIP)",
+    "url": "https://www.socinet.go.kr",
+    "desc_th": "สมัครโครงการ KIIP (โครงการบูรณาการสังคม) เรียนภาษาและวัฒนธรรมเกาหลีเพื่อต่อวีซ่าและถิ่นที่อยู่",
+    "desc_en": "Apply for KIIP social integration program (linked to visa/residency)",
     "tags": [
-      "대사관",
-      "여권",
+      "사회통합",
+      "KIIP",
+      "교육",
       "비자",
-      "영사",
-      "태국"
-    ]
+      "영주",
+      "공부",
+      "한국어",
+      "배움"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "gov_hikorea",
-    "category": "admin",
+    "category": "visa",
     "name_ko": "하이코리아 (HiKorea)",
     "name_th": "ฮายโคเรีย (ตรวจคนเข้าเมือง)",
     "url": "https://www.hikorea.go.kr",
@@ -27,28 +35,18 @@
       "출입국",
       "비자연장",
       "외국인등록",
-      "체류"
-    ]
-  },
-  {
-    "id": "gov_socinet",
-    "category": "admin",
-    "name_ko": "사회통합정보망 (소시넷/KIIP)",
-    "name_th": "โซซีเน็ต (โครงการบูรณาการสังคม KIIP)",
-    "url": "https://www.socinet.go.kr",
-    "desc_th": "สมัครโครงการ KIIP เรียนภาษา/สังคมเกาหลี (เชื่อมวีซ่า·ถิ่นที่อยู่)",
-    "desc_en": "Apply for KIIP social integration program (linked to visa/residency)",
-    "tags": [
-      "사회통합",
-      "KIIP",
-      "교육",
-      "비자",
-      "영주"
-    ]
+      "체류",
+      "신고"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "gov_visa",
-    "category": "admin",
+    "category": "visa",
     "name_ko": "대한민국 비자포털",
     "name_th": "พอร์ทัลวีซ่าเกาหลี",
     "url": "https://www.visa.go.kr",
@@ -58,8 +56,37 @@
       "비자",
       "사증",
       "신청",
-      "발급"
-    ]
+      "발급",
+      "조회"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "sup_danuri",
+    "category": "admin",
+    "name_ko": "다누리콜센터 1577-1366",
+    "name_th": "ศูนย์ดานูรี 1577-1366",
+    "url": "tel:1577-1366",
+    "desc_th": "สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",
+    "desc_en": "24h helpline for migrant women & multicultural families",
+    "tags": [
+      "이주여성",
+      "긴급지원",
+      "상담",
+      "다국어",
+      "전화",
+      "가족",
+      "공부"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "gov_1345",
@@ -73,8 +100,162 @@
       "상담",
       "다국어",
       "출입국",
+      "전화",
+      "생활"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "emb_th",
+    "category": "admin",
+    "name_ko": "주한 태국 대사관",
+    "name_th": "สถานเอกอัครราชทูต ณ กรุงโซล",
+    "url": "https://seoul.thaiembassy.org",
+    "desc_th": "ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",
+    "desc_en": "Passport, visa & consular services for Thai nationals",
+    "tags": [
+      "대사관",
+      "여권",
+      "비자",
+      "영사",
+      "태국"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "adm_bbb_korea",
+    "category": "admin",
+    "name_ko": "BBB 코리아 (무료 통역)",
+    "name_th": "บีบีบี โคเรีย (ล่ามอาสาสมัครฟรี)",
+    "url": "http://www.bbbkorea.org",
+    "desc_th": "บริการล่ามแปลภาษาทางโทรศัพท์ฟรี 20 ภาษา ตลอด 24 ชม.",
+    "desc_en": "Free 24/7 telephone interpretation in 20 languages",
+    "tags": [
+      "통역",
+      "번역",
+      "ล่าม",
+      "공공",
+      "무료",
       "전화"
-    ]
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "adm_kto_travel",
+    "category": "admin",
+    "name_ko": "관광안내 1330",
+    "name_th": "สายด่วนบริการข้อมูลท่องเที่ยว 1330",
+    "url": "tel:1330",
+    "desc_th": "สายด่วนข้อมูลท่องเที่ยวและการช่วยเหลือฉุกเฉิน 24 ชม. (มีภาษาไทย)",
+    "desc_en": "Korea travel & interpretation helpline (dial 1330)",
+    "tags": [
+      "관광",
+      "여행",
+      "안내",
+      "통역",
+      "전화"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "sup_global_seoul",
+    "category": "admin",
+    "name_ko": "서울글로벌센터",
+    "name_th": "ศูนย์โซลโกลบอล (Seoul Global Center)",
+    "url": "https://global.seoul.go.kr",
+    "desc_th": "ปรึกษาการใช้ชีวิต กฎหมาย งาน ฟรี พร้อมล่าม",
+    "desc_en": "Free life/legal/job consultation with interpreter",
+    "tags": [
+      "상담",
+      "법률",
+      "취업",
+      "통역",
+      "생활"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "adm_sejong_academy",
+    "category": "admin",
+    "name_ko": "온라인 세종학당",
+    "name_th": "สถาบันเซจงออนไลน์ (เรียนภาษาฟรี)",
+    "url": "https://www.sejonghakdang.org",
+    "desc_th": "หลักเรียนภาษาและวัฒนธรรมเกาหลีออนไลน์ฟรีของรัฐบาล",
+    "desc_en": "Government-run free online Korean language courses",
+    "tags": [
+      "세종학당",
+      "한국어",
+      "인터넷",
+      "공부",
+      "배움",
+      "무료"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "adm_nts_call",
+    "category": "admin",
+    "name_ko": "국세청 외국인 상담 (1588-0560)",
+    "name_th": "สายด่วนภาษีคนต่างชาติ 1588-0560",
+    "url": "tel:1588-0560",
+    "desc_th": "สายด่วนให้คำปรึกษาด้านภาษีและยื่นภาษีปลายปีสำหรับต่างชาติ",
+    "desc_en": "National Tax Service foreigner helpline (dial 1588-0560)",
+    "tags": [
+      "세금",
+      "연말정산",
+      "상담",
+      "국세청"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "adm_court_interpreter",
+    "category": "admin",
+    "name_ko": "경찰·법원 국선 통역인 안내",
+    "name_th": "ข้อมูลล่ามแปลสำหรับศาลและตำรวจ (ฟรี)",
+    "url": "https://www.scourt.go.kr",
+    "desc_th": "การจัดหาล่ามแปลในกระบวนการยุติธรรมสำหรับคนต่างชาติฟรี",
+    "desc_en": "Free judicial interpretation service in legal proceedings",
+    "tags": [
+      "법률",
+      "재판",
+      "경찰",
+      "통역",
+      "무료"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "gov_gov24",
@@ -89,108 +270,16 @@
       "서류",
       "민원",
       "정부"
-    ]
-  },
-  {
-    "id": "rem_hanpass",
-    "category": "remittance",
-    "name_ko": "한패스 (Hanpass)",
-    "name_th": "ฮันพาส (Hanpass)",
-    "url": "https://www.hanpass.com",
-    "desc_th": "โอนเงินกลับไทย ค่าธรรมเนียมถูก สำหรับคนต่างชาติ",
-    "desc_en": "Send money to Thailand, low fees",
-    "tags": [
-      "송금",
-      "해외송금",
-      "전자지갑"
-    ]
-  },
-  {
-    "id": "rem_gme",
-    "category": "remittance",
-    "name_ko": "GME 송금",
-    "name_th": "GME (โอนเงินต่างประเทศ)",
-    "url": "https://www.gmeremit.com",
-    "desc_th": "บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",
-    "desc_en": "International money transfer for foreigners",
-    "tags": [
-      "송금",
-      "해외송금"
-    ]
-  },
-  {
-    "id": "rem_sentbe",
-    "category": "remittance",
-    "name_ko": "센트비 (Sentbe)",
-    "name_th": "เซนต์บี (Sentbe)",
-    "url": "https://www.sentbe.com",
-    "desc_th": "โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",
-    "desc_en": "Overseas remittance with low fees",
-    "tags": [
-      "송금",
-      "해외송금",
-      "수수료"
-    ]
-  },
-  {
-    "id": "rem_wirebarley",
-    "category": "remittance",
-    "name_ko": "와이어바알리 (WireBarley)",
-    "name_th": "ไวร์บาร์ลีย์ (WireBarley)",
-    "url": "https://www.wirebarley.com",
-    "desc_th": "โอนเงินไปได้หลายประเทศ",
-    "desc_en": "Multi-country money transfer",
-    "tags": [
-      "송금",
-      "해외송금"
-    ]
-  },
-  {
-    "id": "tel_egsim",
-    "category": "telecom",
-    "name_ko": "EG SIM CARD",
-    "name_th": "EG SIM CARD (ซิมเติมเงิน)",
-    "url": "https://www.egsimcard.com",
-    "desc_th": "ซิมเติมเงิน เปิดใช้ด้วยหนังสือเดินทาง",
-    "desc_en": "Prepaid SIM, activate with passport",
-    "tags": [
-      "선불",
-      "유심",
-      "통신"
-    ]
-  },
-  {
-    "id": "tel_freet",
-    "category": "telecom",
-    "name_ko": "프리티 (Freet)",
-    "name_th": "ฟรีที (Freet · ซิมประหยัด)",
-    "url": "https://www.freet.co.kr",
-    "desc_th": "ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",
-    "desc_en": "Budget SIM, self-registration with ARC",
-    "tags": [
-      "알뜰폰",
-      "본인개통",
-      "통신"
-    ]
-  },
-  {
-    "id": "tel_chingu",
-    "category": "telecom",
-    "name_ko": "찡구모바일 (Chingu Mobile)",
-    "name_th": "ชิงกูโมบายล์ (Chingu Mobile)",
-    "url": "https://www.chingumobile.com",
-    "desc_th": "ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",
-    "desc_en": "Multilingual budget SIM (self-registration)",
-    "tags": [
-      "알뜰폰",
-      "본인개통",
-      "다국어",
-      "통신"
-    ]
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "hos_egen",
-    "category": "hospital",
+    "category": "medical",
     "name_ko": "응급의료포털 E-Gen",
     "name_th": "พอร์ทัลการแพทย์ฉุกเฉิน E-Gen",
     "url": "https://www.e-gen.or.kr",
@@ -200,12 +289,20 @@
       "병원",
       "응급",
       "약국",
-      "의료"
-    ]
+      "의료",
+      "감기",
+      "배탈",
+      "아플때"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "hos_1339",
-    "category": "hospital",
+    "category": "medical",
     "name_ko": "질병·의료상담 1339",
     "name_th": "สายด่วนปรึกษาสุขภาพ 1339",
     "url": "tel:1339",
@@ -214,12 +311,40 @@
     "tags": [
       "의료상담",
       "감염병",
-      "전화"
-    ]
+      "전화",
+      "감기",
+      "아플때"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "hos_medical_support",
+    "category": "medical",
+    "name_ko": "외국인노동자의료공제회 (위프렌즈)",
+    "name_th": "สมาคมช่วยเหลือทางการแพทย์แรงงานต่างชาติ (WeFriends)",
+    "url": "https://www.wefriends.org",
+    "desc_th": "ช่วยเหลือค่ารักษาพยาบาลสำหรับแรงงานต่างชาติที่ไม่มีประกันสุขภาพ",
+    "desc_en": "Medical fee support for uninsured foreign workers",
+    "tags": [
+      "의료",
+      "지원",
+      "공제회",
+      "미등록",
+      "아플때"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
     "id": "hos_nhis",
-    "category": "hospital",
+    "category": "labor",
     "name_ko": "국민건강보험공단",
     "name_th": "ประกันสุขภาพแห่งชาติ (NHIS)",
     "url": "https://www.nhis.or.kr",
@@ -228,37 +353,424 @@
     "tags": [
       "건강보험",
       "의료",
-      "보험"
-    ]
+      "보험",
+      "자격"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
-    "id": "sup_danuri",
-    "category": "support",
-    "name_ko": "다누리콜센터 1577-1366",
-    "name_th": "ศูนย์ดานูรี 1577-1366",
-    "url": "tel:1577-1366",
-    "desc_th": "สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",
-    "desc_en": "24h helpline for migrant women & multicultural families",
+    "id": "lab_support_center",
+    "category": "labor",
+    "name_ko": "외국인노동자지원센터",
+    "name_th": "ศูนย์ช่วยเหลือแรงงานต่างชาติ",
+    "url": "http://www.koreanlaw.org",
+    "desc_th": "ปรึกษาปัญหาแรงงาน กฎหมาย ประกันภัยฟรี",
+    "desc_en": "Free labor, legal & insurance counseling",
     "tags": [
-      "이주여성",
-      "긴급지원",
+      "노동",
+      "임금체불",
       "상담",
-      "다국어"
-    ]
+      "센터",
+      "권리"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   },
   {
-    "id": "sup_global_seoul",
-    "category": "support",
-    "name_ko": "서울글로벌센터",
-    "name_th": "ศูนย์โซลโกลบอล (Seoul Global Center)",
-    "url": "https://global.seoul.go.kr",
-    "desc_th": "ปรึกษาการใช้ชีวิต กฎหมาย งาน ฟรี พร้อมล่าม",
-    "desc_en": "Free life/legal/job consultation with interpreter",
+    "id": "lab_eps_topik",
+    "category": "labor",
+    "name_ko": "EPS-TOPIK 시험안내",
+    "name_th": "ศูนย์ข้อมูลสอบวัดระดับภาษาเกาหลี EPS-TOPIK",
+    "url": "https://eps.hrdkorea.or.kr",
+    "desc_th": "ข้อมูลการสอบวัดระดับภาษาเพื่อการทำงานเกาหลีระบบ EPS",
+    "desc_en": "Korean language proficiency test info for EPS system",
     "tags": [
+      "토픽",
+      "한국어",
+      "시험",
+      "고용허가제",
+      "공부",
+      "배움"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "lab_moel_call",
+    "category": "labor",
+    "name_ko": "고용노동부 외국어상담 (1577-0071)",
+    "name_th": "สายด่วนกระทรวงแรงงานเกาหลี 1577-0071",
+    "url": "tel:1577-0071",
+    "desc_th": "สายด่วนปรึกษาข้อพิพาทแรงงานและกฎหมายแรงงาน (ภาษาไทย กด 7)",
+    "desc_en": "Ministry of Employment foreigner helpline (Thai ext. 7)",
+    "tags": [
+      "노동부",
+      "임금체불",
+      "부당해고",
       "상담",
-      "법률",
-      "취업",
-      "통역"
-    ]
+      "전화"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "rem_hanpass",
+    "category": "finance",
+    "name_ko": "한패스 (Hanpass)",
+    "name_th": "ฮันพาส (Hanpass)",
+    "url": "https://www.hanpass.com",
+    "desc_th": "โอนเงินกลับไทย ค่าธรรมเนียมถูก สำหรับคนต่างชาติ",
+    "desc_en": "Send money to Thailand, low fees",
+    "tags": [
+      "송금",
+      "해외송금",
+      "전자지갑",
+      "금융"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "rem_gme",
+    "category": "finance",
+    "name_ko": "GME 송금",
+    "name_th": "GME (โอนเงินต่างประเทศ)",
+    "url": "https://www.gmeremit.com",
+    "desc_th": "บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",
+    "desc_en": "International money transfer for foreigners",
+    "tags": [
+      "송금",
+      "해외송금",
+      "금융"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "rem_sentbe",
+    "category": "finance",
+    "name_ko": "센트비 (Sentbe)",
+    "name_th": "เซนต์บี (Sentbe)",
+    "url": "https://www.sentbe.com",
+    "desc_th": "โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",
+    "desc_en": "Overseas remittance with low fees",
+    "tags": [
+      "송금",
+      "해외송금",
+      "수수료",
+      "금융"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "rem_wirebarley",
+    "category": "finance",
+    "name_ko": "와이어바알리 (WireBarley)",
+    "name_th": "ไวร์บาร์ลีย์ (WireBarley)",
+    "url": "https://www.wirebarley.com",
+    "desc_th": "โอนเงินไปได้หลายประเทศ",
+    "desc_en": "Multi-country money transfer",
+    "tags": [
+      "송금",
+      "해외송금",
+      "금융"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "tel_freet",
+    "category": "transport",
+    "name_ko": "프리티 (Freet)",
+    "name_th": "ฟรีที (Freet · ซิมประหยัด)",
+    "url": "https://www.freet.co.kr",
+    "desc_th": "ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",
+    "desc_en": "Budget SIM, self-registration with ARC",
+    "tags": [
+      "알뜰폰",
+      "본인개통",
+      "통신",
+      "휴대폰"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "tel_chingu",
+    "category": "transport",
+    "name_ko": "찡구모바일 (Chingu Mobile)",
+    "name_th": "ชิงกูโมบายล์ (Chingu Mobile)",
+    "url": "https://www.chingumobile.com",
+    "desc_th": "ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",
+    "desc_en": "Multilingual budget SIM (self-registration)",
+    "tags": [
+      "알뜰폰",
+      "본인개통",
+      "다국어",
+      "통신",
+      "휴대폰"
+    ],
+    "region": "national",
+    "district": "",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_snuh",
+    "category": "medical",
+    "name_ko": "서울대학교병원 국제진료센터",
+    "name_th": "ศูนย์การแพทย์นานาชาติ รพ. มหาวิทยาลัยโซล (SNUH)",
+    "url": "https://www.snuh.org/global/en/main.do",
+    "desc_th": "บริการประสานงานล่ามภาษาอังกฤษ/จีน/รัสเซียครบวงจร",
+    "desc_en": "English/Chinese/Russian coordination services",
+    "tags": [
+      "병원",
+      "의사",
+      "대형병원",
+      "감기",
+      "아플때"
+    ],
+    "region": "seoul",
+    "district": "종로구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_severance",
+    "category": "medical",
+    "name_ko": "신촌 세브란스병원 국제진료소",
+    "name_th": "คลินิกสุขภาพนานาชาติ รพ. เซเวรานส์ (Shinchon)",
+    "url": "https://sev.severance.healthcare/sev-en/index.do",
+    "desc_th": "ศูนย์บริการทางการแพทย์ระดับสากลพร้อมทีมแพทย์เฉพาะทางช่วยเหลือต่างชาติ",
+    "desc_en": "High-quality international healthcare services",
+    "tags": [
+      "병원",
+      "응급",
+      "의료",
+      "감기",
+      "아플때"
+    ],
+    "region": "seoul",
+    "district": "서대문구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_soonsiki",
+    "category": "transport",
+    "name_ko": "순시키헤어 홍대점 (SOONSIKI)",
+    "name_th": "ซุนสิกิ แฮร์ ฮงแด (ร้านทำผมสไตล์ K-Beauty)",
+    "url": "https://www.soonsiki.com",
+    "desc_th": "ร้านทำผมที่คนต่างชาตินิยม ดีไซเนอร์สื่อสารภาษาอังกฤษได้ดี",
+    "desc_en": "Top foreigner-friendly K-Beauty hair salon",
+    "tags": [
+      "미용실",
+      "머리",
+      "헤어숍",
+      "순시키",
+      "뷰티"
+    ],
+    "region": "seoul",
+    "district": "마포구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_thedays",
+    "category": "transport",
+    "name_ko": "더데이즈헤어 홍대 (The Day's Hair)",
+    "name_th": "เดอะ เดย์ส แฮร์ ฮงแด (ดีไซเนอร์พูดภาษาอังกฤษได้ดี)",
+    "url": "https://www.instagram.com/thedayshair",
+    "desc_th": "ร้านทำผมยอดนิยมในฮงแด สื่อสารคล่องแคล่ว บริการละเอียด",
+    "desc_en": "Highly recommended English-fluent hair studio",
+    "tags": [
+      "미용실",
+      "헤어숍",
+      "커트",
+      "뷰티"
+    ],
+    "region": "seoul",
+    "district": "마포구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "daegu_dongsan",
+    "category": "medical",
+    "name_ko": "계명대학교 동산병원 국제진료센터",
+    "name_th": "ศูนย์การแพทย์นานาชาติ รพ. ดงซาน (Dongsan Hospital)",
+    "url": "https://www.dsmc.or.kr",
+    "desc_th": "บริการแพทย์เฉพาะทางพร้อมล่าม ดูแลเคสต่างชาติตลอด 24 ชม.",
+    "desc_en": "Multilingual medical services with dedicated staff",
+    "tags": [
+      "병원",
+      "치료",
+      "대형병원",
+      "감기",
+      "배탈",
+      "아플때"
+    ],
+    "region": "daegu",
+    "district": "달서구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "daegu_fatima",
+    "category": "medical",
+    "name_ko": "대구파티마병원 국제진료센터",
+    "name_th": "ศูนย์ประสานงานต่างชาติ รพ.ฟาติมา (Fatima Hospital)",
+    "url": "https://www.fatima.or.kr",
+    "desc_th": "ระบบการรักษาและประสานงานทางการแพทย์ครบวงจรสำหรับคนต่างชาติ",
+    "desc_en": "Comprehensive international patient services",
+    "tags": [
+      "병원",
+      "응급",
+      "진료",
+      "감기",
+      "아플때",
+      "파티마"
+    ],
+    "region": "daegu",
+    "district": "동구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "daegu_hairbyone",
+    "category": "transport",
+    "name_ko": "헤어바이원 (Hair By One)",
+    "name_th": "แฮร์ บาย วัน (ร้านทำผมส่วนตัว 1:1 ภาษาอังกฤษดี)",
+    "url": "https://www.instagram.com/hairbyone_daegu",
+    "desc_th": "ร้านทำผมระบบจองล่วงหน้า 1:1 ดีไซเนอร์สื่อสารภาษาอังกฤษได้",
+    "desc_en": "1-on-1 private reservation-only hair studio",
+    "tags": [
+      "미용실",
+      "커트",
+      "헤어",
+      "뷰티"
+    ],
+    "region": "daegu",
+    "district": "동구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "daegu_kimkiryoung",
+    "category": "transport",
+    "name_ko": "김기령 헤어드레싱",
+    "name_th": "คิมกีรยอง แฮร์เดรสซิ่ง (ชำนาญการตัดผมชาวต่างชาติ)",
+    "url": "https://map.naver.com/v5/entry/place/13444004",
+    "desc_th": "มีประสบการณ์ตัดผมลูกค้าต่างชาติยาวนาน ย่านบงด็อกดง",
+    "desc_en": "Specialized in foreign hair textures and styling",
+    "tags": [
+      "미용실",
+      "머리",
+      "뷰티",
+      "헤어숍"
+    ],
+    "region": "daegu",
+    "district": "남구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "busan_pnuh",
+    "category": "medical",
+    "name_ko": "부산대학교병원 국제진료센터",
+    "name_th": "ศูนย์การแพทย์นานาชาติ รพ. มหาวิทยาลัยปูซาน (PNUH)",
+    "url": "https://www.pnuh.or.kr",
+    "desc_th": "ดูแลการรักษาพยาบาลและล่ามภาษาต่างประเทศสำหรับผู้พำนักฝั่งใต้",
+    "desc_en": "Foreign patient medical helper in Busan",
+    "tags": [
+      "병원",
+      "응급",
+      "의료",
+      "감기",
+      "아플때"
+    ],
+    "region": "busan",
+    "district": "서구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "busan_salondewon",
+    "category": "transport",
+    "name_ko": "살롱드원 서면점",
+    "name_th": "ซาลอน เดอ วอน ซอมยอน (คอร์สออกแบบเฉพาะคนต่างชาติ)",
+    "url": "https://map.naver.com/v5/entry/place/1204689725",
+    "desc_th": "บริการดูแลจัดแต่งทรงผมย่านซอมยอน รองรับภาษาอังกฤษดี",
+    "desc_en": "English friendly hair styling clinic in Seomyeon",
+    "tags": [
+      "미용실",
+      "헤어숍",
+      "서면",
+      "뷰티"
+    ],
+    "region": "busan",
+    "district": "부산진구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "busan_bomhair",
+    "category": "transport",
+    "name_ko": "BOM 헤어 스튜디오",
+    "name_th": "บอม แฮร์ สตูดิโอ (BOM Hair Gwangalli)",
+    "url": "https://map.naver.com/v5/entry/place/1063124578",
+    "desc_th": "ร้านทำผมสไตล์ K-Beauty ใกล้หาดควังอันลี ภาษาอังกฤษดี",
+    "desc_en": "K-Beauty hair shop near Gwangalli beach",
+    "tags": [
+      "미용실",
+      "머리",
+      "광안리",
+      "뷰티"
+    ],
+    "region": "busan",
+    "district": "수영구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
   }
 ]
