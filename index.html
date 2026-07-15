@@ -46,7 +46,7 @@
   .logo-text{display:flex;flex-direction:column}
   .logo b{font-size:19px;font-weight:800;letter-spacing:-.5px;line-height:1.2}
   .logo span{display:block;font-size:11px;font-weight:600;color:#c3d0ec;margin-top:1px;line-height:1.3}
-  .flags{font-size:20px;letter-spacing:2px}
+  .flags{font-size:20px;letter-spacing:4px}
   /* hero */
   .hero{background:var(--navy);color:#fff;padding:6px 0 20px}
   .hero h1{font-size:22px;font-weight:800;line-height:1.5;margin-bottom:6px}
@@ -54,7 +54,7 @@
   .sos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:14px}
   .sos a{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:12px;
     padding:9px 4px;text-align:center;color:#fff;min-height:56px;display:flex;flex-direction:column;justify-content:center}
-  .sos .n{font-size:19px;font-weight:800;line-height:1.1}
+  .sos .n{font-size:17px;font-weight:800;line-height:1.1;display:flex;align-items:center;justify-content:center;gap:4px}
   .sos .l{font-size:11px;color:#d6def3;margin-top:2px;line-height:1.3}
   /* search */
   .search{position:relative;margin:16px 0 8px}
@@ -79,6 +79,7 @@
   .chip.on{background:var(--navy);color:#fff}
   .chip.on small{color:#c3d0ec}
   .region .chip{font-size:13px;padding:8px 12px}
+
   /* Premium Care CTA Banner */
   .premium-banner{
     background: linear-gradient(135deg, #123a8a 0%, #0a225c 100%);
@@ -168,6 +169,194 @@
     .grid{grid-template-columns:1fr 1fr}
     .hero h1{font-size:26px}
   }
+
+  /* search overlay styles */
+  .search-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+  }
+  .search-overlay.show {
+    display: flex;
+  }
+  .overlay-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .overlay-header .search-box {
+    position: relative;
+    flex: 1;
+  }
+  .overlay-header input {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 36px 12px 40px;
+    border: 2px solid var(--navy);
+    border-radius: 12px;
+    background: var(--soft);
+    outline: none;
+  }
+  .overlay-header .ic {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 17px;
+  }
+  .overlay-header .clear-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: var(--sub);
+    cursor: pointer;
+    display: none;
+  }
+  .overlay-header .clear-btn.show {
+    display: block;
+  }
+  .overlay-header .cancel-btn {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--navy);
+    cursor: pointer;
+  }
+  .overlay-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+  }
+  .search-guide-box {
+    background: var(--soft);
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 12.5px;
+    color: var(--sub);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .search-guide-box b {
+    color: var(--ink);
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  /* symptom guide */
+  .symptom-guide {
+    background: #f0f7ff;
+    border: 1.5px solid #bcdbfa;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-size: 13.5px;
+    color: #1e3a8a;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+  .symptom-guide b {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14.5px;
+  }
+  .symptom-guide ul {
+    list-style: none;
+  }
+  .symptom-guide li {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .symptom-guide li b {
+    display: inline;
+    color: var(--navy);
+  }
+  
+  /* submit banner */
+  .submit-banner {
+    background: #fef3c7;
+    border: 1.5px solid #fde68a;
+    border-radius: 18px;
+    padding: 16px 20px;
+    margin: 20px 0;
+    color: #92400e;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+  .submit-banner .s-title {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .submit-banner .s-desc {
+    font-size: 12.5px;
+    color: #b45309;
+    line-height: 1.45;
+  }
+  .submit-banner .s-btn {
+    display: block;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: 800;
+    background: #92400e;
+    color: #fff;
+    padding: 11px;
+    border-radius: 10px;
+  }
+  @media(min-width: 640px) {
+    .submit-banner {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .submit-banner .s-btn {
+      min-width: 140px;
+    }
+  }
+  
+  /* local directory section */
+  .local-directory-section {
+    background: #fafbfc;
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    padding: 20px 16px;
+    margin-top: 30px;
+    box-shadow: var(--shadow);
+  }
+  .local-desc {
+    font-size: 13.5px;
+    color: var(--sub);
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .district-chips {
+    margin-top: 8px;
+  }
+  .district-chips .chip {
+    font-size: 13px;
+    padding: 7px 11px;
+    min-height: 36px;
+    background: #ffffff;
+    border: 1.5px solid var(--line);
+  }
+  .district-chips .chip.on {
+    background: var(--navy);
+    color: #ffffff;
+    border-color: var(--navy);
+  }
 </style>
 </head>
 <body>
@@ -180,7 +369,7 @@
         <span>เพื่อนคนเกาหลีของคุณ · Your Korean friend</span>
       </div>
     </a>
-    <div class="flags" aria-label="Thai Korea">🇹🇭 🇰🇷</div>
+    <div class="flags" aria-label="Korea Thai">🇰🇷 🇹🇭</div>
   </div>
 </header>
 
@@ -189,9 +378,9 @@
     <h1>ค้นหาข้อมูลที่จำเป็น<br>สำหรับชีวิตในเกาหลี ได้ในที่เดียว</h1>
     <p>รวมลิงก์บริการทางการ · Official help links for foreigners in Korea</p>
     <div class="sos">
-      <a href="tel:112"><div class="n">112</div><div class="l">ตำรวจ · Police</div></a>
-      <a href="tel:119"><div class="n">119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
-      <a href="tel:1345"><div class="n">1345</div><div class="l">ต่างชาติ · Foreigner</div></a>
+      <a href="tel:112"><div class="n">📞 112</div><div class="l">ตำรวจ · Police</div></a>
+      <a href="tel:119"><div class="n">📞 119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
+      <a href="tel:1345"><div class="n">📞 1345</div><div class="l">ต่างชาติ · Foreigner</div></a>
     </div>
   </div>
 </section>
@@ -199,7 +388,7 @@
 <div class="wrap">
   <div class="search">
     <span class="ic">🔍</span>
-    <input id="q" type="text" placeholder="ค้นหาที่นี่ · Search (เช่น โอนเงิน, โรงพยาบาล, วีซ่า)">
+    <input id="q" type="text" placeholder="ค้นหาบริการ · Search (เช่น วีซ่า, โอนเงิน, โรงพยาบาล)" readonly style="cursor: pointer;">
   </div>
   <div class="hot" id="hot">
     <b>ยอดนิยม:</b>
@@ -220,15 +409,32 @@
     <a href="https://koricare.kr" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
   </div>
 
-  <div class="flab">หมวดหมู่ · Category</div>
+  <!-- National Utility Section -->
+  <div class="flab">บริการทั่วไประดับประเทศ · National Services</div>
   <div class="chips" id="cats"></div>
-
-  <div class="flab">ภูมิภาค · Region</div>
-  <div class="chips region" id="regions"></div>
-
-  <div class="info" id="regionInfo"></div>
   <div class="count" id="count"></div>
   <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
+
+  <!-- Local Curated Directory Section -->
+  <div class="local-directory-section">
+    <div class="flab">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
+    <div class="local-desc">โรงพยาบาลและร้านค้าแนะนำที่น่าเชื่อถือในเขตพื้นที่ของท่าน (Verified Local Listings)</div>
+    
+    <div class="chips region" id="regions"></div>
+    <div class="chips district-chips" id="districts" style="display:none;"></div>
+    
+    <div class="info" id="regionInfo"></div>
+    <div class="grid" id="localGrid" style="margin-top:16px;"></div>
+    
+    <!-- Submit Banner -->
+    <div class="submit-banner" id="submitBanner" style="display:none;">
+      <div class="s-content">
+        <div class="s-title">📢 แนะนำสถานที่โปรดของคุณ! (มีรางวัลคูปอง 🎁)</div>
+        <p class="s-desc">หากคลินิกหรือร้านค้าที่ท่านแนะนำได้รับการอนุมัติและเพิ่มลงในพอร์ทัล Kori Care เราจะส่งคูปองรางวัลตอบแทนเพื่อสนับสนุนการแบ่งปันข้อมูลที่มีประโยชน์ (We will reward you for verified shop recommendations!)</p>
+      </div>
+      <a href="https://forms.gle/koricareSuggestSpot" target="_blank" rel="noopener" class="s-btn">แนะนำสถานที่ · Suggest ➔</a>
+    </div>
+  </div>
 
   <div class="disc">
     ลิงก์ทั้งหมดอ้างอิงเว็บไซต์ทางการ · This portal is for information only; use of each service is at your own responsibility.
@@ -236,61 +442,117 @@
   <footer>Kori Care · ลิงก์ช่วยเหลือคนต่างชาติในเกาหลี (prototype) · © 2026</footer>
 </div>
 
+<!-- Search Overlay Modal -->
+<div id="searchOverlay" class="search-overlay">
+  <div class="overlay-header">
+    <div class="search-box">
+      <span class="ic">🔍</span>
+      <input id="overlayQ" type="text" placeholder="ค้นหาบริการในเกาหลี · Search...">
+      <button id="clearSearchBtn" class="clear-btn">✕</button>
+    </div>
+    <button id="cancelSearchBtn" class="cancel-btn">ยกเลิก</button>
+  </div>
+  <div class="overlay-content">
+    <div class="search-guide-box">
+      <b>💡 คำค้นหาแนะนำ (Try searching):</b>
+      วีซ่า (Visa), โอนเงิน (Remittance), โรงพยาบาล (Hospital), เรียนภาษา (Study), ฉุกเฉิน (Emergency)
+    </div>
+    <div class="count" id="overlayCount">พิมพ์เพื่อค้นหาบริการในเกาหลี</div>
+    <div id="searchHelperArea"></div>
+    <div class="grid" id="overlayGrid" style="margin-top: 10px;"></div>
+  </div>
+</div>
+
 <script>
   var CATS = [
     { key:"all",        th:"ทั้งหมด",   en:"All",        emo:"🧭" },
-    { key:"embassy",    th:"สถานทูต",   en:"Embassy",    emo:"🏛️" },
-    { key:"admin",      th:"งานราชการ", en:"Admin·Visa", emo:"📑" },
-    { key:"remittance", th:"โอนเงิน",   en:"Remittance", emo:"💸" },
-    { key:"telecom",    th:"ซิม·มือถือ", en:"Mobile",    emo:"📱" },
-    { key:"hospital",   th:"โรงพยาบาล", en:"Medical",    emo:"🏥" },
-    { key:"support",    th:"ช่วยเหลือ", en:"Support",    emo:"🤝" }
+    { key:"medical",    th:"การแพทย์และฉุกเฉิน", en:"Medical·ER", emo:"🏥" },
+    { key:"visa",       th:"วีซ่าและที่อยู่อาศัย", en:"Visa·Residency", emo:"📑" },
+    { key:"labor",      th:"แรงงานและประกัน", en:"Labor·Insurance", emo:"👔" },
+    { key:"finance",    th:"การเงินและโอนเงิน", en:"Finance·Remittance", emo:"💸" },
+    { key:"transport",  th:"การเดินทางและสื่อสาร", en:"Transport·Telecom", emo:"📱" },
+    { key:"admin",      th:"ล่ามและราชการ", en:"Admin·Translation", emo:"🤝" }
   ];
-  var CAT_ICON={embassy:"🏛️",admin:"📑",remittance:"💸",telecom:"📱",hospital:"🏥",support:"🤝"};
-  var CAT_TH={embassy:"สถานทูต",admin:"งานราชการ",remittance:"โอนเงิน",telecom:"ซิม·มือถือ",hospital:"โรงพยาบาล",support:"ช่วยเหลือ"};
+  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝"};
+  var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ"};
+  
   var REGIONS = [
-    {key:"전체",th:"ทั้งหมด",en:"All"},
-    {key:"경기",en:"Gyeonggi"},
-    {key:"인천",en:"Incheon"},
-    {key:"충청",en:"Chungcheong"},
-    {key:"경북/대구/구미",en:"Gyeongbuk/Daegu/Gumi"},
-    {key:"경남/부산/울산",en:"Gyeongnam/Busan/Ulsan"},
-    {key:"전라",en:"Jeolla"},
-    {key:"서울",en:"Seoul"},
-    {key:"강원",en:"Gangwon"},
-    {key:"제주",en:"Jeju"}
+    {key:"전체",th:"ทั้งหมด (All)",en:"All"},
+    {key:"seoul",th:"กรุงโซล (Seoul)",en:"Seoul"},
+    {key:"busan",th:"ปูซาน (Busan)",en:"Busan"},
+    {key:"daegu",th:"แดกู (Daegu)",en:"Daegu"},
+    {key:"other",th:"ภูมิภาคอื่น ๆ (Other Regions)",en:"Other Regions"}
   ];
-  var HOTKEYS = ["วีซ่า","โอนเงิน","โรงพยาบาล","ซิม","ฉุกเฉิน"];
+  
+  var DISTRICTS = {
+    seoul: [
+      {key:"전체",th:"ทั้งหมด",en:"All"},
+      {key:"종로구",th:"종로구 (Jongno)",en:"Jongno-gu"},
+      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
+      {key:"용산구",th:"용산구 (Yongsan)",en:"Yongsan-gu"},
+      {key:"마포구",th:"마포구 (Mapo)",en:"Mapo-gu"},
+      {key:"강남구",th:"강남구 (Gangnam)",en:"Gangnam-gu"},
+      {key:"서초구",th:"서초구 (Seocho)",en:"Seocho-gu"},
+      {key:"영등포구",th:"영등포구 (Yeongdeungpo)",en:"Yeongdeungpo-gu"},
+      {key:"구로구",th:"구로구 (Guro)",en:"Guro-gu"},
+      {key:"관악구",th:"관악구 (Gwanak)",en:"Gwanak-gu"},
+      {key:"송파구",th:"송파구 (Songpa)",en:"Songpa-gu"}
+    ],
+    busan: [
+      {key:"전체",th:"ทั้งหมด",en:"All"},
+      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
+      {key:"해운대구",th:"해운대구 (Haeundae)",en:"Haeundae-gu"},
+      {key:"부산진구",th:"부산진구 (Busanjin)",en:"Busanjin-gu"},
+      {key:"동래구",th:"동래구 (Dongnae)",en:"Dongnae-gu"},
+      {key:"사하구",th:"사하구 (Saha-gu)",en:"Saha-gu"},
+      {key:"수영구",th:"수영구 (Suyeong)",en:"Suyeong-gu"},
+      {key:"강서구",th:"강서구 (Gangseo)",en:"Gangseo-gu"}
+    ],
+    daegu: [
+      {key:"전체",th:"ทั้งหมด",en:"All"},
+      {key:"달서구",th:"달서구 (Dalseo)",en:"Dalseo-gu"},
+      {key:"동구",th:"동구 (Dong-gu)",en:"Dong-gu"},
+      {key:"서구",th:"서구 (Seo-gu)",en:"Seo-gu"},
+      {key:"남구",th:"남구 (Nam-gu)",en:"Nam-gu"},
+      {key:"북구",th:"북구 (Buk-gu)",en:"Buk-gu"},
+      {key:"수성구",th:"수성구 (Suseong)",en:"Suseong-gu"},
+      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
+      {key:"달성군",th:"달성군 (Dalseong)",en:"Dalseong-gun"},
+      {key:"군위군",th:"군위군 (Gunwi)",en:"Gunwi-gun"}
+    ]
+  };
+
+  var HOTKEYS = ["วีซ่า", "โอนเงิน", "โรงพยาบาล", "ซิม", "ฉุกเฉิน"];
 
   var FALLBACK = [
-    {id:"emb_th",category:"embassy",name_ko:"주한 태국 대사관",name_th:"สถานเอกอัครราชทูต ณ กรุงโซล",url:"https://seoul.thaiembassy.org",desc_th:"ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",desc_en:"Passport, visa & consular services for Thai nationals",tags:["대사관","여권","비자"]},
-    {id:"gov_hikorea",category:"admin",name_ko:"하이코리아 (HiKorea)",name_th:"ฮายโคเรีย (ตรวจคนเข้าเมือง)",url:"https://www.hikorea.go.kr",desc_th:"ต่อวีซ่า ลงทะเบียนคนต่างชาติ ยื่นเรื่อง ตม. ออนไลน์",desc_en:"Visa extension, alien registration & immigration e-services",tags:["출입국","비자연장"]},
-    {id:"gov_socinet",category:"admin",name_ko:"사회통합정보망 (소시넷/KIIP)",name_th:"โซซีเน็ต (KIIP)",url:"https://www.socinet.go.kr",desc_th:"สมัครโครงการ KIIP เรียนภาษา/สังคมเกาหลี (เชื่อมวีซ่า·ถิ่นที่อยู่)",desc_en:"Apply for KIIP program (linked to visa/residency)",tags:["KIIP","교육","비자"]},
-    {id:"gov_visa",category:"admin",name_ko:"대한민국 비자포털",name_th:"พอร์ทัลวีซ่าเกาหลี",url:"https://www.visa.go.kr",desc_th:"ยื่นวีซ่าและตรวจสอบสถานะการพิจารณาออนไลน์",desc_en:"Apply for visa & check status online",tags:["비자","신청"]},
-    {id:"gov_1345",category:"admin",name_ko:"외국인종합안내센터 1345",name_th:"สายด่วนช่วยเหลือคนต่างชาติ 1345",url:"tel:1345",desc_th:"สายด่วนปรึกษา ตม./การใช้ชีวิต 20 ภาษา (กด 1345)",desc_en:"Foreigner help line, 20 languages (dial 1345)",tags:["상담","다국어"]},
-    {id:"gov_gov24",category:"admin",name_ko:"정부24 (Government24)",name_th:"รัฐบาล 24 (Government24)",url:"https://www.gov.kr",desc_th:"ออกเอกสารราชการและบริการภาครัฐออนไลน์",desc_en:"Government documents & civil services online",tags:["행정","서류"]},
-    {id:"rem_hanpass",category:"remittance",name_ko:"한패스 (Hanpass)",name_th:"ฮันพาส (Hanpass)",url:"https://www.hanpass.com",desc_th:"โอนเงินกลับไทย ค่าธรรมเนียมถูก",desc_en:"Send money to Thailand, low fees",tags:["송금"]},
-    {id:"rem_gme",category:"remittance",name_ko:"GME 송금",name_th:"GME (โอนเงินต่างประเทศ)",url:"https://www.gmeremit.com",desc_th:"บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",desc_en:"International money transfer",tags:["송금"]},
-    {id:"rem_sentbe",category:"remittance",name_ko:"센트비 (Sentbe)",name_th:"เซนต์บี (Sentbe)",url:"https://www.sentbe.com",desc_th:"โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",desc_en:"Overseas remittance, low fees",tags:["송금"]},
-    {id:"rem_wirebarley",category:"remittance",name_ko:"와이어바알리 (WireBarley)",name_th:"ไวร์บาร์ลีย์ (WireBarley)",url:"https://www.wirebarley.com",desc_th:"โอนเงินไปได้หลายประเทศ",desc_en:"Multi-country money transfer",tags:["송금"]},
-    {id:"tel_egsim",category:"telecom",name_ko:"EG SIM CARD",name_th:"EG SIM CARD (ซิมเติมเงิน)",url:"https://www.egsimcard.com",desc_th:"ซิมเติมเงิน เปิดใช้ด้วยหนังสือเดินทาง",desc_en:"Prepaid SIM, activate with passport",tags:["선불","유심"]},
-    {id:"tel_freet",category:"telecom",name_ko:"프리티 (Freet)",name_th:"ฟรีที (ซิมประหยัด)",url:"https://www.freet.co.kr",desc_th:"ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",desc_en:"Budget SIM, self-registration with ARC",tags:["알뜰폰","본인개통"]},
-    {id:"tel_chingu",category:"telecom",name_ko:"찡구모바일 (Chingu Mobile)",name_th:"ชิงกูโมบายล์ (Chingu Mobile)",url:"https://www.chingumobile.com",desc_th:"ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",desc_en:"Multilingual budget SIM (self-registration)",tags:["알뜰폰","본인개통"]},
-    {id:"hos_egen",category:"hospital",name_ko:"응급의료포털 E-Gen",name_th:"พอร์ทัลการแพทย์ฉุกเฉิน E-Gen",url:"https://www.e-gen.or.kr",desc_th:"ค้นหาโรงพยาบาล ร้านยา ห้องฉุกเฉินใกล้ตัว (ฉุกเฉิน 119)",desc_en:"Find nearby hospitals, pharmacies & ER",tags:["병원","응급"]},
-    {id:"hos_1339",category:"hospital",name_ko:"질병·의료상담 1339",name_th:"สายด่วนปรึกษาสุขภาพ 1339",url:"tel:1339",desc_th:"สายด่วนปรึกษาสุขภาพ/โรคติดต่อ (กด 1339)",desc_en:"Health consultation line (dial 1339)",tags:["의료상담"]},
-    {id:"hos_nhis",category:"hospital",name_ko:"국민건강보험공단",name_th:"ประกันสุขภาพแห่งชาติ (NHIS)",url:"https://www.nhis.or.kr",desc_th:"ข้อมูลประกันสุขภาพแห่งชาติ สมัคร/สิทธิ/เบี้ยประกัน",desc_en:"National health insurance info",tags:["건강보험"]},
-    {id:"sup_danuri",category:"support",name_ko:"다누리콜센터 1577-1366",name_th:"ศูนย์ดานูรี 1577-1366",url:"tel:1577-1366",desc_th:"สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",desc_en:"24h helpline for migrant women & families",tags:["이주여성","긴급지원"]},
-    {id:"sup_global_seoul",category:"support",name_ko:"서울글로벌센터",name_th:"ศูนย์โซลโกลบอล (Seoul Global Center)",url:"https://global.seoul.go.kr",desc_th:"ปรึกษาการใช้ชีวิต กฎหมาย งาน ฟรี พร้อมล่าม",desc_en:"Free life/legal/job consultation with interpreter",tags:["상담","통역"]}
+    {id:"gov_socinet",category:"visa",name_ko:"사회통합정보망 (소시넷/KIIP)",name_th:"โซซีเน็ต (โครงการบูรณาการสังคม KIIP)",url:"https://www.socinet.go.kr",desc_th:"สมัครโครงการ KIIP เรียนภาษา/사회통합프로แกรม (เชื่อมวีซ่า·ถิ่นที่อยู่)",desc_en:"Apply for KIIP social integration program (linked to visa/residency)",tags:["사회통합","KIIP","교육","비자","영주","공부","한국어","배움"],region:"national",district:""},
+    {id:"gov_hikorea",category:"visa",name_ko:"하이코리아 (HiKorea)",name_th:"ฮายโคเรีย (ตรวจคนเข้าเมือง)",url:"https://www.hikorea.go.kr",desc_th:"ต่อวีซ่า ลงทะเบียนคนต่างชาติ ยื่นเรื่อง ตม. ออนไลน์",desc_en:"Visa extension, alien registration & immigration e-services",tags:["출입국","비자연장","체류"],region:"national",district:""},
+    {id:"gov_visa",category:"visa",name_ko:"대한민국 비자포털",name_th:"พอร์ทัลวีซ่าเกาหลี",url:"https://www.visa.go.kr",desc_th:"ยื่นวีซ่าและตรวจสอบสถานะการพิจารณาออนไลน์",desc_en:"Apply for visa & check status online",tags:["비자","신청"],region:"national",district:""},
+    {id:"sup_danuri",category:"admin",name_ko:"다누리콜센터 1577-1366",name_th:"ศูนย์ดานูรี 1577-1366",url:"tel:1577-1366",desc_th:"สายด่วนช่วยเหลือหญิงต่างชาติ/ครอบครัวพหุวัฒนธรรม 24 ชม.",desc_en:"24h helpline for migrant women & families",tags:["이주여성","긴급지원","공부"],region:"national",district:""},
+    {id:"gov_1345",category:"admin",name_ko:"외국인종합안내센터 1345",name_th:"สายด่วนช่วยเหลือคนต่างชาติ 1345",url:"tel:1345",desc_th:"สายด่วนปรึกษา ตม./การใช้ชีวิต 20 ภาษา (กด 1345)",desc_en:"Foreigner help line, 20 languages (dial 1345)",tags:["상담","다국어"],region:"national",district:""},
+    {id:"emb_th",category:"admin",name_ko:"주한 태국 대사관",name_th:"สถานเอกอัครราชทูต ณ กรุงโซล",url:"https://seoul.thaiembassy.org",desc_th:"ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",desc_en:"Passport, visa & consular services for Thai nationals",tags:["대사관","여권","비자"],region:"national",district:""},
+    {id:"rem_hanpass",category:"finance",name_ko:"한패스 (Hanpass)",name_th:"ฮันพาส (Hanpass)",url:"https://www.hanpass.com",desc_th:"โอนเงินกลับไทย ค่าธรรมเนียมถูก",desc_en:"Send money to Thailand, low fees",tags:["송금"],region:"national",district:""},
+    {id:"rem_gme",category:"finance",name_ko:"GME 송금",name_th:"GME (โอนเงินต่างประเทศ)",url:"https://www.gmeremit.com",desc_th:"บริการโอนเงินระหว่างประเทศสำหรับคนต่างชาติ",desc_en:"International money transfer",tags:["송금"],region:"national",district:""},
+    {id:"rem_sentbe",category:"finance",name_ko:"센트비 (Sentbe)",name_th:"เซนต์บี (Sentbe)",url:"https://www.sentbe.com",desc_th:"โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",desc_en:"Overseas remittance, low fees",tags:["송금"],region:"national",district:""},
+    {id:"rem_wirebarley",category:"finance",name_ko:"와이어바알리 (WireBarley)",name_th:"ไวร์บาร์ลีย์ (WireBarley)",url:"https://www.wirebarley.com",desc_th:"โอนเงินไปได้หลายประเทศ",desc_en:"Multi-country money transfer",tags:["송금"],region:"national",district:""},
+    {id:"tel_freet",category:"transport",name_ko:"프리티 (Freet)",name_th:"ฟรีที (ซิมประหยัด)",url:"https://www.freet.co.kr",desc_th:"ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",desc_en:"Budget SIM, self-registration with ARC",tags:["알뜰폰","본인개통"],region:"national",district:""},
+    {id:"tel_chingu",category:"transport",name_ko:"찡구모바일 (Chingu Mobile)",name_th:"ชิงกูโมบายล์ (Chingu Mobile)",url:"https://www.chingumobile.com",desc_th:"ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",desc_en:"Multilingual budget SIM (self-registration)",tags:["알뜰폰","본인개통"],region:"national",district:""},
+    {id:"hos_egen",category:"medical",name_ko:"응급의료포털 E-Gen",name_th:"พอร์ทัลการแพทย์ฉุกเฉิน E-Gen",url:"https://www.e-gen.or.kr",desc_th:"ค้นหาโรงพยาบาล ร้านยา ห้องฉุกเฉินใกล้ตัว (ฉุกเฉิน 119)",desc_en:"Find nearby hospitals, pharmacies & ER",tags:["병원","응급","감기","배탈"],region:"national",district:""},
+    {id:"hos_1339",category:"medical",name_ko:"질병·의료상담 1339",name_th:"สายด่วนปรึกษาสุขภาพ 1339",url:"tel:1339",desc_th:"สายด่วนปรึกษาสุขภาพ/โรคติดต่อ (กด 1339)",desc_en:"Health consultation line (dial 1339)",tags:["의료상담","감기"],region:"national",district:""},
+    {id:"hos_nhis",category:"labor",name_ko:"국민건강보험공단",name_th:"ประกันสุขภาพแห่งชาติ (NHIS)",url:"https://www.nhis.or.kr",desc_th:"ข้อมูลประกันสุขภาพแห่งชาติ สมัคร/สิทธิ/เบี้ยประกัน",desc_en:"National health insurance info",tags:["건강보험"],region:"national",district:""},
+    {id:"gov_gov24",category:"admin",name_ko:"정부24 (Government24)",name_th:"รัฐบาล 24 (Government24)",url:"https://www.gov.kr",desc_th:"ออกเอกสารราชการและบริการภาครัฐออนไลน์",desc_en:"Government documents & civil services online",tags:["행정","서류"],region:"national",district:""},
+    {id:"hos_medical_support",category:"medical",name_ko:"외국인노동자의료공제회 (위프렌즈)",name_th:"สมาคมช่วยเหลือทางการแพทย์แรงงานต่างชาติ (WeFriends)",url:"https://www.wefriends.org",desc_th:"ช่วยเหลือค่ารักษาพยาบาลสำหรับแรงงานต่างชาติที่ไม่มีประกันสุขภาพ",desc_en:"Medical fee support for uninsured foreign workers",tags:["의료","지원","무료"],region:"national",district:""}
   ];
 
-  var DATA=[], actCat="all", actRegion="전체";
+  var DATA=[], actCat="all", actRegion="전체", actDistrict="전체";
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
 
   function telBadge(x){
-    if(x.category!=="telecom") return "";
+    if(x.category!=="transport" || (x.tags||[]).indexOf("알뜰폰")===-1) return "";
     var prepaid=(x.tags||[]).indexOf("선불")!==-1;
     return '<span class="subbadge">'+(prepaid?"ซิมเติมเงิน · เปิดด้วยพาสปอร์ต (Prepaid)":"ซิมประหยัด · เปิดชื่อตัวเอง (Self)")+'</span>';
   }
+  
   function card(x){
     var isTel=(x.url||"").indexOf("tel:")===0;
     return '<div class="card">'
@@ -314,36 +576,115 @@
     }).join("");
     el.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){onPick(this.getAttribute("data-k"));});});
   }
+
   function renderHot(){
     var el=document.getElementById("hot");
     el.querySelectorAll(".hk").forEach(function(n){n.remove();});
     HOTKEYS.forEach(function(k){
       var s=document.createElement("span"); s.className="hk"; s.textContent=k;
-      s.addEventListener("click",function(){ document.getElementById("q").value=k; apply(); });
+      s.addEventListener("click",function(){ 
+        var overlay = document.getElementById("searchOverlay");
+        overlay.classList.add("show");
+        document.body.style.overflow = "hidden";
+        document.getElementById("overlayQ").value=k; 
+        applySearch(); 
+      });
       el.appendChild(s);
     });
   }
 
   function apply(){
-    var q=(document.getElementById("q").value||"").trim().toLowerCase();
+    // National links filter
     var list=DATA.filter(function(x){
+      if(x.region !== "national") return false;
       if(actCat!=="all"&&x.category!==actCat) return false;
-      if(!q) return true;
-      var hay=[x.name_th,x.name_ko,x.desc_th,x.desc_en,(x.tags||[]).join(" "),CAT_TH[x.category]].join(" ").toLowerCase();
-      return hay.indexOf(q)!==-1;
+      return true;
     });
-    var info=document.getElementById("regionInfo");
-    if(actRegion!=="전체"){
-      var rObj=REGIONS.filter(function(r){return r.key===actRegion;})[0]||{};
-      info.className="info show";
-      info.innerHTML="🔧 ข้อมูลท้องถิ่น (โรงพยาบาล·มาร์ท·ร้านเสริมสวย) ของ <b>"+esc(rObj.en||actRegion)+"</b> กำลังเตรียมข้อมูล — ด้านล่างคือบริการที่ใช้ได้ทั่วประเทศ / Local listings coming soon.";
-    } else { info.className="info"; info.innerHTML=""; }
-    document.getElementById("count").textContent="ทั้งหมด "+list.length+" รายการ";
+    document.getElementById("count").textContent="ทั้งหมด "+list.length+" รายการ (National)";
     document.getElementById("grid").innerHTML=list.length?list.map(card).join(""):'<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
+    
+    // Apply local listings
+    applyLocal();
+  }
+
+  function applyLocal(){
+    var info=document.getElementById("regionInfo");
+    var localGrid=document.getElementById("localGrid");
+    var submitBanner=document.getElementById("submitBanner");
+    
+    if(actRegion==="전체"){
+      info.className="info"; info.innerHTML="";
+      localGrid.innerHTML='<div class="empty">เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
+      document.getElementById("districts").style.display = "none";
+      submitBanner.style.display = "none";
+      return;
+    }
+    
+    submitBanner.style.display = "flex";
+    
+    if(actRegion==="other"){
+      info.className="info show";
+      info.innerHTML="📍 กำลังเตรียมข้อมูลบริการแนะนำสำหรับภูมิภาคอื่น ๆ — หากท่านมีคลินิกหรือร้านค้าที่บริการดี สามารถส่งข้อมูล 제보하기 ได้ผ่านปุ่มสีเหลืองด้านล่าง / Additional regions coming soon.";
+      localGrid.innerHTML="";
+      document.getElementById("districts").style.display = "none";
+      return;
+    }
+    
+    info.className="info"; info.innerHTML="";
+    
+    // Filter local listings
+    var localList=DATA.filter(function(x){
+      if(x.region !== actRegion) return false;
+      if(actCat!=="all"&&x.category!==actCat) return false;
+      if(actDistrict!=="전체"&&x.district!==actDistrict) return false;
+      return true;
+    });
+    
+    var guideHtml = "";
+    if (actCat === "medical") {
+      guideHtml = '<div class="symptom-guide">'
+        + '<b>💡 คลินิกเกาหลีที่ควรไปรักษาตามอาการ (Symptom Guide)</b>'
+        + '<ul>'
+        + '<li>🦴 뼈·관절 통증 ➔ <b>정형외과 (กระดูกและข้อ / Orthopedics)</b></li>'
+        + '<li>🤒 감기·몸살·배탈 ➔ <b>내과·이비인후과 (อายุรกรรม / หู คอ จมูก)</b></li>'
+        + '<li>🦷 치아·잇몸 아픔 ➔ <b>치과 (ทันตกรรม / Dental)</b></li>'
+        + '<li>👶 자녀 자식 아픔 ➔ <b>소아과 (กุมารเวช / Pediatrics)</b></li>'
+        + '<li>👩 여성 질환·임신 ➔ <b>산부인과 (สูตินรีเวช / OB-GYN)</b></li>'
+        + '</ul>'
+        + '</div>';
+    }
+    
+    localGrid.innerHTML = guideHtml + (localList.length?localList.map(card).join(""):'<div class="empty">ไม่พบข้อมูลแนะนำในเขตนี้ · No local listings found.</div>');
+  }
+
+  function renderDistricts(dists){
+    chipRow(document.getElementById("districts"), dists, actDistrict, function(k){
+      actDistrict=k;
+      var distsList = DISTRICTS[actRegion] || [];
+      renderDistricts(distsList);
+      applyLocal();
+    });
   }
 
   function renderCats(){ chipRow(document.getElementById("cats"),CATS,actCat,function(k){actCat=k;renderCats();apply();}); }
-  function renderRegions(){ chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){actRegion=k;renderRegions();apply();}); }
+  
+  function renderRegions(){ 
+    chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){
+      actRegion=k;
+      actDistrict="전체";
+      renderRegions();
+      
+      var dists = DISTRICTS[actRegion] || [];
+      if(dists.length > 0) {
+        document.getElementById("districts").style.display = "flex";
+        renderDistricts(dists);
+      } else {
+        document.getElementById("districts").style.display = "none";
+      }
+      applyLocal();
+    }); 
+  }
+  
   function boot(data){ DATA=data; renderHot(); renderCats(); renderRegions(); apply(); }
 
   // Fix relative fetch path dynamically based on pathname
@@ -365,7 +706,109 @@
       boot(FALLBACK);
     });
 
-  document.getElementById("q").addEventListener("input",apply);
+  // Search Overlay Event Handlers
+  document.getElementById("q").addEventListener("click", function() {
+    var overlay = document.getElementById("searchOverlay");
+    overlay.classList.add("show");
+    document.body.style.overflow = "hidden";
+    var overlayQ = document.getElementById("overlayQ");
+    overlayQ.value = "";
+    overlayQ.focus();
+    applySearch();
+  });
+
+  document.getElementById("cancelSearchBtn").addEventListener("click", function() {
+    var overlay = document.getElementById("searchOverlay");
+    overlay.classList.remove("show");
+    document.body.style.overflow = "";
+  });
+
+  document.getElementById("clearSearchBtn").addEventListener("click", function() {
+    var overlayQ = document.getElementById("overlayQ");
+    overlayQ.value = "";
+    overlayQ.focus();
+    applySearch();
+  });
+
+  document.getElementById("overlayQ").addEventListener("input", applySearch);
+
+  function getSearchHelperTip(q) {
+    var qLower = q.toLowerCase();
+    
+    // Symptom related search
+    if (qLower.indexOf("병원") !== -1 || qLower.indexOf("아플") !== -1 || qLower.indexOf("감기") !== -1 || 
+        qLower.indexOf("배탈") !== -1 || qLower.indexOf("치과") !== -1 || qLower.indexOf("소아과") !== -1 ||
+        qLower.indexOf("정형") !== -1 || qLower.indexOf("이비") !== -1 || qLower.indexOf("산부") !== -1 ||
+        qLower.indexOf("โรงพยาบาล") !== -1 || qLower.indexOf("ไข้") !== -1 || qLower.indexOf("ฟัน") !== -1 ||
+        qLower.indexOf("กระดูก") !== -1 || qLower.indexOf("เด็ก") !== -1 || qLower.indexOf("ท้อง") !== -1) {
+      
+      return '<div class="symptom-guide">'
+        + '<b>💡 คลินิกเกาหลีที่ควรไปรักษาตามอาการ (Symptom Matching Guide)</b>'
+        + '<ul>'
+        + '<li>🦴 뼈·관절 통증 (ปวดกระดูก) ➔ <b>정형외과 (กระดูกและข้อ)</b></li>'
+        + '<li>🤒 감기·몸살·배탈 (เป็นไข้/ปวดท้อง) ➔ <b>내과 · 이비인후과 (อายุรกรรม/หูคอจมูก)</b></li>'
+        + '<li>🦷 치아·잇몸 아픔 (ปวดฟัน) ➔ <b>치과 (ทันตกรรม)</b></li>'
+        + '<li>👶 자녀 자식 아픔 (ลูกป่วย) ➔ <b>소아과 (กุมารเวช)</b></li>'
+        + '<li>👩 여성 질환·임신 (โรคสตรี/ตั้งครรภ์) ➔ <b>산부인과 (สูตินรีเวช)</b></li>'
+        + '</ul>'
+        + '</div>';
+    }
+    
+    // Study related search
+    if (qLower.indexOf("공부") !== -1 || qLower.indexOf("한국어") !== -1 || qLower.indexOf("배움") !== -1 ||
+        qLower.indexOf("학당") !== -1 || qLower.indexOf("เรียน") !== -1 || qLower.indexOf("ภาษา") !== -1 ||
+        qLower.indexOf("เกาหลี") !== -1 || qLower.indexOf("สอบ") !== -1) {
+      
+      return '<div class="symptom-guide" style="background: #e0f2fe; border-color: #bae6fd; color: #0369a1;">'
+        + '<b>📚 คอร์สเรียนภาษาเกาหลีและเตรียมวีซ่าฟรี (Free Korean Courses)</b>'
+        + '<p style="font-size: 13px; margin-top: 4px; line-height: 1.5;">'
+        + '• <b>สังคมบูรณาการ (KIIP)</b>: เรียนภาษาเกาหลีและสังคมเพื่อรับคะแนนต่อวีซ่า/ถิ่นที่อยู่ (สมัครผ่าน โซซีเน็ต)<br>'
+        + '• <b>สถาบันเซจงออนไลน์ (Sejong)</b>: เรียนภาษาเกาหลีขั้นพื้นฐานฟรีได้จากทุกที่ทั่วโลก<br>'
+        + '• <b>ศูนย์ดานูรี / ศูนย์แรงงาน</b>: เปิดสอนภาษาเกาหลีฟรีแบบออฟไลน์สำหรับสะใภ้และแรงงาน'
+        + '</p>'
+        + '</div>';
+    }
+    
+    return "";
+  }
+
+  function applySearch() {
+    var q = (document.getElementById("overlayQ").value || "").trim().toLowerCase();
+    var clearBtn = document.getElementById("clearSearchBtn");
+    var helperArea = document.getElementById("searchHelperArea");
+    
+    if (q) {
+      clearBtn.classList.add("show");
+      helperArea.innerHTML = getSearchHelperTip(q);
+    } else {
+      clearBtn.classList.remove("show");
+      helperArea.innerHTML = "";
+    }
+    
+    var list = DATA.filter(function(x) {
+      if (!q) return false;
+      var hay = [x.name_th, x.name_ko, x.desc_th, x.desc_en, (x.tags||[]).join(" "), x.region, x.district, CAT_TH[x.category]].join(" ").toLowerCase();
+      return hay.indexOf(q) !== -1;
+    });
+    
+    // Always append Kori Care Premium counseling lead at the bottom of search results
+    var promoCard = '<div class="premium-banner" style="margin-top: 20px; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); width: 100%; grid-column: 1 / -1;">'
+      + '<span class="p-badge" style="background: #2563eb;">Kori Care Counsel</span>'
+      + '<div class="p-title" style="font-size: 15px;">ต้องการข้อมูลช่วยเหลืออื่น ๆ หรือปรึกษาเป็นพิเศษ?</div>'
+      + '<p class="p-desc" style="font-size: 12.5px; color: #94a3b8;">พอร์ทัลข้อมูลช่วยเหลือ Kori Care อัปเดตอยู่เสมอ หากมีข้อสงสัยเกี่ยวกับวีซ่า การเปลี่ยนสถานะ หรือปัญหาชีวิต กรุณาติดต่อปรึกษากับเจ้าหน้าที่ของเราโดยตรง (ปรึกษาฟรี)</p>'
+      + '<a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn" style="background: #f1f5f9; color: #0f172a; font-size: 13px; padding: 8px 16px;">💬 ติดต่อรับคำปรึกษาฟรี (Kori Care) ➔</a>'
+      + '</div>';
+      
+    document.getElementById("overlayCount").textContent = q ? "พบ " + list.length + " รายการ" : "พิมพ์เพื่อค้นหาบริการในเกาหลี";
+    
+    if (q) {
+      document.getElementById("overlayGrid").innerHTML = list.length 
+        ? list.map(card).join("") + promoCard 
+        : '<div class="empty">ไม่พบผลลัพธ์การค้นหา · No results found</div>' + promoCard;
+    } else {
+      document.getElementById("overlayGrid").innerHTML = "";
+    }
+  }
 </script>
 </body>
 </html>
