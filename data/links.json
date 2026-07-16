@@ -30,16 +30,16 @@
     "name_th": "ฮายโคเรีย (ตรวจคนเข้าเมือง)",
     "url": "https://www.hikorea.go.kr",
     "desc_th": "ต่อวีซ่า ลงทะเบียนคนต่างชาติ ยื่นเรื่อง ตม. ออนไลน์",
-    "desc_en": "Visa extension, alien registration & immigration e-services",
+    "desc_en": "Visa extension",
     "tags": [
-      "출입국",
-      "비자연장",
-      "외국인등록",
-      "체류",
-      "신고"
+      "alien",
+      "registration",
+      "&",
+      "immigration",
+      "e-services"
     ],
-    "region": "national",
-    "district": "",
+    "region": "출입국,비자연장,외국인등록,체류,신고",
+    "district": "national",
     "reviews": [],
     "rating": 0.0,
     "user_submitted": false
@@ -116,16 +116,18 @@
     "name_th": "สถานเอกอัครราชทูต ณ กรุงโซล",
     "url": "https://seoul.thaiembassy.org",
     "desc_th": "ทำหนังสือเดินทาง วีซ่า และบริการกงสุลสำหรับคนไทย",
-    "desc_en": "Passport, visa & consular services for Thai nationals",
+    "desc_en": "Passport",
     "tags": [
-      "대사관",
-      "여권",
-      "비자",
-      "영사",
-      "태국"
+      "visa",
+      "&",
+      "consular",
+      "services",
+      "for",
+      "Thai",
+      "nationals"
     ],
-    "region": "national",
-    "district": "",
+    "region": "대사관,여권,비자,영사,태국",
+    "district": "national",
     "reviews": [],
     "rating": 0.0,
     "user_submitted": false
@@ -198,7 +200,7 @@
     "id": "adm_sejong_academy",
     "category": "admin",
     "name_ko": "온라인 세종학당",
-    "name_th": "สถาบันเซจงออนไลน์ (เรียนภาษาฟรี)",
+    "name_th": "สถาบัน세จงออนไลน์ (เรียนภาษาฟรี)",
     "url": "https://www.sejonghakdang.org",
     "desc_th": "หลักเรียนภาษาและวัฒนธรรมเกาหลีออนไลน์ฟรีของรัฐบาล",
     "desc_en": "Government-run free online Korean language courses",
@@ -348,7 +350,7 @@
     "name_ko": "국민건강보험공단",
     "name_th": "ประกันสุขภาพแห่งชาติ (NHIS)",
     "url": "https://www.nhis.or.kr",
-    "desc_th": "ข้อมูลประกันสุขภาพแห่งชาติ สมัคร/สิทธิ/เบี้ยประกัน",
+    "desc_th": "정보보험안내 및 건강보험 신청/보험료 조회",
     "desc_en": "National health insurance info & enrollment",
     "tags": [
       "건강보험",
@@ -368,7 +370,7 @@
     "name_ko": "외국인노동자지원센터",
     "name_th": "ศูนย์ช่วยเหลือแรงงานต่างชาติ",
     "url": "http://www.koreanlaw.org",
-    "desc_th": "ปรึกษาปัญหาแรงงาน กฎหมาย ประกันภัยฟรี",
+    "desc_th": "ปรึกษา문제에 대한 전문상담과 무료 지원",
     "desc_en": "Free labor, legal & insurance counseling",
     "tags": [
       "노동",
@@ -389,7 +391,7 @@
     "name_ko": "EPS-TOPIK 시험안내",
     "name_th": "ศูนย์ข้อมูลสอบวัดระดับภาษาเกาหลี EPS-TOPIK",
     "url": "https://eps.hrdkorea.or.kr",
-    "desc_th": "ข้อมูลการสอบวัดระดับภาษาเพื่อการทำงานเกาหลีระบบ EPS",
+    "desc_th": "정보제공 및 시험 원수 접수 안내",
     "desc_en": "Korean language proficiency test info for EPS system",
     "tags": [
       "토픽",
@@ -469,7 +471,7 @@
     "id": "rem_sentbe",
     "category": "finance",
     "name_ko": "센트비 (Sentbe)",
-    "name_th": "เซนต์บี (Sentbe)",
+    "name_th": "세นต์บี (Sentbe)",
     "url": "https://www.sentbe.com",
     "desc_th": "โอนเงินต่างประเทศ ค่าธรรมเนียมประหยัด",
     "desc_en": "Overseas remittance with low fees",
@@ -510,7 +512,7 @@
     "name_ko": "프리티 (Freet)",
     "name_th": "ฟรีที (Freet · ซิมประหยัด)",
     "url": "https://www.freet.co.kr",
-    "desc_th": "ซิมราคาประหยัด เปิดในชื่อตัวเองด้วยบัตรต่างชาติ",
+    "desc_th": "ซิมราคาประหยัด 오픈 폰으로 본인 개통 지원",
     "desc_en": "Budget SIM, self-registration with ARC",
     "tags": [
       "알뜰폰",
@@ -530,7 +532,7 @@
     "name_ko": "찡구모바일 (Chingu Mobile)",
     "name_th": "ชิงกูโมบายล์ (Chingu Mobile)",
     "url": "https://www.chingumobile.com",
-    "desc_th": "ซิมราคาประหยัดรองรับหลายภาษา (เปิดชื่อตัวเอง)",
+    "desc_th": "ซิมราคาประหยัด개통 서비스 지원",
     "desc_en": "Multilingual budget SIM (self-registration)",
     "tags": [
       "알뜰폰",
@@ -558,7 +560,15 @@
       "의사",
       "대형병원",
       "감기",
-      "아플때"
+      "아플때",
+      "내과",
+      "소아과",
+      "피부과",
+      "이비인후과",
+      "정형외과",
+      "산부인과",
+      "치과",
+      "한의원"
     ],
     "region": "seoul",
     "district": "종로구",
@@ -570,7 +580,7 @@
     "id": "seoul_severance",
     "category": "medical",
     "name_ko": "신촌 세브란스병원 국제진료소",
-    "name_th": "คลินิกสุขภาพนานาชาติ รพ. เซเวรานส์ (Shinchon)",
+    "name_th": "คลินิกสุขภาพนานาชาติ รพ. 세เวรานส์ (Shinchon)",
     "url": "https://sev.severance.healthcare/sev-en/index.do",
     "desc_th": "ศูนย์บริการทางการแพทย์ระดับสากลพร้อมทีมแพทย์เฉพาะทางช่วยเหลือต่างชาติ",
     "desc_en": "High-quality international healthcare services",
@@ -579,7 +589,14 @@
       "응급",
       "의료",
       "감기",
-      "아플때"
+      "아플때",
+      "내과",
+      "소아과",
+      "피부과",
+      "이비인후과",
+      "정형외과",
+      "산부인과",
+      "치과"
     ],
     "region": "seoul",
     "district": "서대문구",
@@ -589,7 +606,7 @@
   },
   {
     "id": "seoul_soonsiki",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "순시키헤어 홍대점 (SOONSIKI)",
     "name_th": "ซุนสิกิ แฮร์ ฮงแด (ร้านทำผมสไตล์ K-Beauty)",
     "url": "https://www.soonsiki.com",
@@ -610,7 +627,7 @@
   },
   {
     "id": "seoul_thedays",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "더데이즈헤어 홍대 (The Day's Hair)",
     "name_th": "เดอะ เดย์ส แฮร์ ฮงแด (ดีไซเนอร์พูดภาษาอังกฤษได้ดี)",
     "url": "https://www.instagram.com/thedayshair",
@@ -629,6 +646,64 @@
     "user_submitted": false
   },
   {
+    "id": "seoul_nail_nailit",
+    "category": "nail",
+    "name_ko": "네일잇 홍대 (Nail It)",
+    "name_th": "네ลอิท ฮงแด (ร้านทำเล็บราคาประหยัดใกล้สถานี)",
+    "url": "https://map.naver.com/v5/entry/place/1987541245",
+    "desc_th": "ร้านทำเล็บเจลสไตล์เกาหลีราคาสบายกระเป๋า เดินทางสะดวก",
+    "desc_en": "Affordable gel nail salon near Hongik Univ Station",
+    "tags": [
+      "네일샵",
+      "네일",
+      "홍대",
+      "뷰티"
+    ],
+    "region": "seoul",
+    "district": "마포구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_thai_grocery",
+    "category": "thai_food",
+    "name_ko": "동대문 태국마트",
+    "name_th": "ซูเปอร์มาเก็ตไทย ทงแดมุน (Thai Groceries)",
+    "url": "https://map.naver.com/v5/entry/place/21038596",
+    "desc_th": "เครื่องปรุงรส มาม่า ปลาร้า และวัตถุดิบอาหารไทยแท้ครบวงจร",
+    "desc_en": "Authentic Thai ingredients",
+    "tags": [
+      "seasonings"
+    ],
+    "region": "and imported groceries",
+    "district": "식당,마트,태국마트,똠양꿍,식료품",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "seoul_mobile_telecom",
+    "category": "phone",
+    "name_ko": "이태원 프렌즈 모바일 (외국인 개통)",
+    "name_th": "ร้านมือถือ เฟรนด์ส โมบาย อีแทวอน (เปิดซิมคนต่างชาติ)",
+    "url": "https://map.naver.com/v5/entry/place/38596712",
+    "desc_th": "เปิดซิมเติมเงิน/รายเดือนด้วยพาสปอร์ตหรือบัตรต่างชาติอย่างรวดเร็ว",
+    "desc_en": "Foreigner-friendly mobile shop for prepaid/postpaid SIM registration",
+    "tags": [
+      "폰가게",
+      "휴대폰",
+      "개통",
+      "선불폰",
+      "이태원"
+    ],
+    "region": "seoul",
+    "district": "용산구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
     "id": "daegu_dongsan",
     "category": "medical",
     "name_ko": "계명대학교 동산병원 국제진료센터",
@@ -642,7 +717,14 @@
       "대형병원",
       "감기",
       "배탈",
-      "아플때"
+      "아플때",
+      "내과",
+      "소아과",
+      "피부과",
+      "이비인후과",
+      "정형외과",
+      "산부인과",
+      "치과"
     ],
     "region": "daegu",
     "district": "달서구",
@@ -664,7 +746,14 @@
       "진료",
       "감기",
       "아플때",
-      "파티마"
+      "파티마",
+      "내과",
+      "소아과",
+      "피부과",
+      "이비인후과",
+      "정형외과",
+      "산부인과",
+      "치과"
     ],
     "region": "daegu",
     "district": "동구",
@@ -674,7 +763,7 @@
   },
   {
     "id": "daegu_hairbyone",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "헤어바이원 (Hair By One)",
     "name_th": "แฮร์ บาย วัน (ร้านทำผมส่วนตัว 1:1 ภาษาอังกฤษดี)",
     "url": "https://www.instagram.com/hairbyone_daegu",
@@ -694,7 +783,7 @@
   },
   {
     "id": "daegu_kimkiryoung",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "김기령 헤어드레싱",
     "name_th": "คิมกีรยอง แฮร์เดรสซิ่ง (ชำนาญการตัดผมชาวต่างชาติ)",
     "url": "https://map.naver.com/v5/entry/place/13444004",
@@ -713,6 +802,46 @@
     "user_submitted": false
   },
   {
+    "id": "daegu_thai_food_krungthep",
+    "category": "thai_food",
+    "name_ko": "대구 방콕익스프레스",
+    "name_th": "ร้านอาหารไทย กรุงเทพฯ (Bangkok Express)",
+    "url": "https://map.naver.com/v5/entry/place/120958612",
+    "desc_th": "อาหารไทยรสชาติต้นตำรับ ต้มยำกุ้ง ผัดไทย ส้มตำ ย่านดงกู",
+    "desc_en": "Authentic Thai restaurant in Daegu serving pad thai and somtum",
+    "tags": [
+      "식당",
+      "맛집",
+      "태국식당",
+      "태국음식"
+    ],
+    "region": "daegu",
+    "district": "동구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "daegu_phone_smart",
+    "category": "phone",
+    "name_ko": "대구 태국인 모바일샵",
+    "name_th": "ร้านมือถือ แทกู โมบาย (บริการเปิดซิมต่างชาติภาษาไทย)",
+    "url": "https://map.naver.com/v5/entry/place/19835741",
+    "desc_th": "เปิดเบอร์มือถือ ซิมระบบเติมเงิน ดำเนินการรวดเร็วโดยพนักงานคนไทย",
+    "desc_en": "Mobile shop with Thai staff for SIM registration and phone sales",
+    "tags": [
+      "폰가게",
+      "휴대폰",
+      "개통",
+      "선불폰"
+    ],
+    "region": "daegu",
+    "district": "달서구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
     "id": "busan_pnuh",
     "category": "medical",
     "name_ko": "부산대학교병원 국제진료센터",
@@ -725,7 +854,14 @@
       "응급",
       "의료",
       "감기",
-      "아플때"
+      "아플때",
+      "내과",
+      "소아과",
+      "피부과",
+      "이비인후과",
+      "정형외과",
+      "산부인과",
+      "치과"
     ],
     "region": "busan",
     "district": "서구",
@@ -735,7 +871,7 @@
   },
   {
     "id": "busan_salondewon",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "살롱드원 서면점",
     "name_th": "ซาลอน เดอ วอน ซอมยอน (คอร์สออกแบบเฉพาะคนต่างชาติ)",
     "url": "https://map.naver.com/v5/entry/place/1204689725",
@@ -755,7 +891,7 @@
   },
   {
     "id": "busan_bomhair",
-    "category": "transport",
+    "category": "hair",
     "name_ko": "BOM 헤어 스튜디오",
     "name_th": "บอม แฮร์ สตูดิโอ (BOM Hair Gwangalli)",
     "url": "https://map.naver.com/v5/entry/place/1063124578",
@@ -769,6 +905,46 @@
     ],
     "region": "busan",
     "district": "수영구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "busan_thai_food_pattaya",
+    "category": "thai_food",
+    "name_ko": "부산 파타ยา 레스토랑",
+    "name_th": "ร้านอาหารไทย พัทยา 해운대 (Pattaya Thai Food)",
+    "url": "https://map.naver.com/v5/entry/place/12035867",
+    "desc_th": "ต้มยำกุ้ง แกงเขียวหวาน และอาหารไทยแท้ติดหาดแฮอุนแด",
+    "desc_en": "Authentic Thai restaurant near Haeundae beach",
+    "tags": [
+      "식당",
+      "맛집",
+      "태국식당",
+      "해운대"
+    ],
+    "region": "busan",
+    "district": "해운대구",
+    "reviews": [],
+    "rating": 0.0,
+    "user_submitted": false
+  },
+  {
+    "id": "busan_phone_friend",
+    "category": "phone",
+    "name_ko": "부산 다문화 모바일",
+    "name_th": "ร้านมือถือ ปูซาน โมบาย (เปิดซิมพาสปอร์ต)",
+    "url": "https://map.naver.com/v5/entry/place/18395712",
+    "desc_th": "เปิดซิมมือถือระบบเติมเงินและรายเดือนรองรับผู้ใช้บริการชาวต่างชาติ",
+    "desc_en": "Multilingual phone shop in Busan for alien registration and SIM cards",
+    "tags": [
+      "폰가게",
+      "휴대폰",
+      "개통",
+      "선불폰"
+    ],
+    "region": "busan",
+    "district": "부산진구",
     "reviews": [],
     "rating": 0.0,
     "user_submitted": false

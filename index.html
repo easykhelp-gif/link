@@ -137,22 +137,74 @@
   .info.show{display:block}
   .count{font-size:13px;color:var(--sub);font-weight:700;margin:14px 0 10px}
   /* cards */
-  .grid{display:grid;grid-template-columns:1fr;gap:12px}
-  .card{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:15px 15px 14px;box-shadow:var(--shadow)}
-  .ctop{display:flex;align-items:center;gap:11px}
-  .cico{width:46px;height:46px;border-radius:12px;background:var(--soft);flex-shrink:0;
-    display:flex;align-items:center;justify-content:center;font-size:22px}
-  .ctag{font-size:11px;font-weight:800;color:var(--navy);letter-spacing:.2px}
-  .cname{font-size:16.5px;font-weight:800;letter-spacing:-.2px;line-height:1.4;margin:1px 0 0}
-  .cko{font-size:12px;color:var(--sub);font-weight:600;margin:1px 0 0}
-  .subbadge{display:inline-block;font-size:11.5px;font-weight:800;padding:4px 10px;border-radius:8px;
-    background:#e7edfb;color:var(--navy2);margin-top:9px;line-height:1.4}
-  .cdesc{font-size:14.5px;color:#33405c;margin:9px 0 0;line-height:1.6}
-  .cen{font-size:12.5px;color:var(--sub);margin:2px 0 0;line-height:1.5}
-  .go{margin-top:12px;display:block;text-align:center;font-size:14.5px;font-weight:800;color:#fff;
-    background:var(--navy);padding:13px;border-radius:11px;min-height:48px}
-  .go.tel{background:var(--ok)}
-  .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600}
+  /* grids */
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  .card-item{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:12px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;justify-content:space-between;min-height:135px;transition:transform 0.15s ease}
+  .card-item:active{transform:scale(.97)}
+  .c-header{display:flex;align-items:flex-start;gap:8px}
+  .c-ico{width:34px;height:34px;border-radius:8px;background:var(--soft);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:18px}
+  .c-title-box{min-width:0;flex:1}
+  .c-name{font-size:13.5px;font-weight:800;line-height:1.3;color:var(--ink);
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .c-ko{font-size:11px;color:var(--sub);font-weight:600;margin-top:1px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .subbadge{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;
+    background:#e7edfb;color:var(--navy2);margin-top:6px;line-height:1.3}
+  .c-desc-comp{font-size:11px;color:#475569;margin-top:6px;line-height:1.45;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;flex-grow:1}
+  .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600;grid-column:1 / -1}
+  @media(min-width:640px){
+    .grid{grid-template-columns:repeat(3,1fr);gap:12px}
+  }
+
+  /* news grid */
+  .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:6px 0 16px}
+  .news-card{position:relative;aspect-ratio:16/10;border-radius:10px;overflow:hidden;
+    box-shadow:var(--shadow);border:1.5px solid var(--line);cursor:pointer;transition:transform 0.15s ease}
+  .news-card:active{transform:scale(.96)}
+  .news-card img{width:100%;height:100%;object-fit:cover}
+
+  /* modal styles */
+  .detail-modal{position:fixed;inset:0;z-index:1100;display:flex;align-items:center;justify-content:center;padding:16px}
+  .modal-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.6);backdrop-filter:blur(4px)}
+  .modal-body{position:relative;background:#fff;width:100%;max-width:460px;border-radius:20px;
+    box-shadow:0 25px 50px -12px rgba(0,0,0,.25);overflow:hidden;z-index:1;animation:modalSlideUp .25s ease-out}
+  @keyframes modalSlideUp{
+    from{transform:translateY(25px);opacity:0}
+    to{transform:translateY(0);opacity:1}
+  }
+  .modal-close{position:absolute;top:16px;right:20px;font-size:22px;font-weight:700;color:var(--sub);cursor:pointer;line-height:1}
+  .modal-header{padding:22px 20px 14px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px}
+  .modal-ico{width:50px;height:50px;border-radius:12px;background:var(--soft);
+    display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+  .modal-tag{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;margin-bottom:1px}
+  .modal-title-th{font-size:17.5px;font-weight:800;line-height:1.3;color:var(--ink)}
+  .modal-title-ko{font-size:13px;color:var(--sub);font-weight:600}
+  .modal-content{padding:18px 20px 22px;max-height:65vh;overflow-y:auto}
+  .modal-desc-section{margin-bottom:14px}
+  .modal-desc-section h3{font-size:11.5px;font-weight:800;color:var(--sub);margin-bottom:4px;text-transform:uppercase;letter-spacing:.3px}
+  .modal-desc-section p{font-size:13.5px;line-height:1.55;color:#334155}
+  .modal-actions{margin-top:20px}
+  .m-btn{display:block;width:100%;text-align:center;background:var(--navy);color:#fff;
+    font-size:14.5px;font-weight:800;padding:13px;border-radius:10px;transition:background .2s;text-decoration:none}
+  .m-btn:active{background:var(--navy2)}
+  .m-btn.tel{background:var(--ok)}
+
+  /* custom suggest form styles */
+  .form-row{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}
+  .form-grid-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+  .form-col{display:flex;flex-direction:column;gap:4px}
+  .form-label{font-size:12px;font-weight:700;color:var(--sub)}
+  .form-input{width:100%;font-size:14px;padding:9px 11px;border:1.5px solid var(--line);
+    border-radius:8px;outline:none;background:var(--soft);color:var(--ink);font-family:inherit}
+  .form-input:focus{border-color:var(--navy);background:#fff}
+  select.form-input{height:40px;cursor:pointer}
+  textarea.form-input{resize:vertical;min-height:64px}
+  .symptom-description-box{background:#f0f7ff;border:1.5px solid #bcdbfa;border-radius:12px;
+    padding:10px 12px;font-size:12.5px;color:#1e3a8a;line-height:1.45}
+  .symptom-description-box b{color:var(--navy)}
   /* news */
   .news-list{display:flex;flex-direction:column;gap:8px;margin:2px 0 12px}
   .news-item{background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;
@@ -395,25 +447,13 @@
   </div>
 
   <div class="flab">ข่าวสารล่าสุด · Recent News</div>
-  <div class="news-list" id="news-list">
+  <div class="news-grid" id="news-list">
     <!-- NEWS_START -->
-    <div class="empty" style="padding:15px 0;">ยังไม่มีประกาศในขณะนี้ · No notices yet</div>
+    <a href="news/20260716_01.html" class="news-card">
+      <img src="koricare_main_logo_nobg.png" alt="คู่มือรับเงินชดเชยเมื่อออกจากงาน (퇴직금) สำหรับแรงงานต่างชาติและผู้ไม่มีวีซ่า">
+    </a>
     <!-- NEWS_END -->
   </div>
-
-  <!-- Premium Service CTA Banner -->
-  <div class="premium-banner">
-    <span class="p-badge">Kori Care Premium</span>
-    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า หรือวีซ่าแรงงาน?</div>
-    <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
-    <a href="https://koricare.kr" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
-  </div>
-
-  <!-- National Utility Section -->
-  <div class="flab">บริการทั่วไประดับประเทศ · National Services</div>
-  <div class="chips" id="cats"></div>
-  <div class="count" id="count"></div>
-  <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
 
   <!-- Local Curated Directory Section -->
   <div class="local-directory-section">
@@ -421,20 +461,37 @@
     <div class="local-desc">โรงพยาบาลและร้านค้าแนะนำที่น่าเชื่อถือในเขตพื้นที่ของท่าน (Verified Local Listings)</div>
     
     <div class="chips region" id="regions"></div>
-    <div class="chips district-chips" id="districts" style="display:none;"></div>
+    <div class="chips local-cats" id="localCats" style="display:none; margin-top:8px;"></div>
+    <div class="chips medical-specialties" id="medicalSpecialties" style="display:none; margin-top:8px;"></div>
+    <div class="symptom-description-box" id="symptomDescBox" style="display:none; margin-top:10px; margin-bottom:6px;"></div>
+    <div class="chips district-chips" id="districts" style="display:none; margin-top:8px;"></div>
     
     <div class="info" id="regionInfo"></div>
     <div class="grid" id="localGrid" style="margin-top:16px;"></div>
     
     <!-- Submit Banner -->
-    <div class="submit-banner" id="submitBanner" style="display:none;">
+    <div class="submit-banner" id="submitBanner" style="display:none; margin-top: 16px;">
       <div class="s-content">
-        <div class="s-title">📢 แนะนำสถานที่โปรดของคุณ! (มีรางวัลคูปอง 🎁)</div>
-        <p class="s-desc">หากคลินิกหรือร้านค้าที่ท่านแนะนำได้รับการอนุมัติและเพิ่มลงในพอร์ทัล Kori Care เราจะส่งคูปองรางวัลตอบแทนเพื่อสนับสนุนการแบ่งปันข้อมูลที่มีประโยชน์ (We will reward you for verified shop recommendations!)</p>
+        <div class="s-title">📢 แนะนำร้านที่ดีในเขตของคุณ!</div>
+        <p class="s-desc">หากมีร้านหรือคลินิกที่บริการดีและเป็นมิตรกับต่างชาติ แนะนำเราได้! Kori Care จะตรวจสอบและแนะนำให้ชุมชน (Recommend local partner shops!)</p>
       </div>
-      <a href="https://forms.gle/koricareSuggestSpot" target="_blank" rel="noopener" class="s-btn">แนะนำสถานที่ · Suggest ➔</a>
+      <button onclick="openSuggestModal()" class="s-btn" style="border:none; cursor:pointer;">แนะนำสถานที่ · Suggest ➔</button>
     </div>
   </div>
+
+  <!-- Premium Service CTA Banner -->
+  <div class="premium-banner" style="margin-top:20px;">
+    <span class="p-badge">Kori Care Premium</span>
+    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า 혹은 외국인 맞춤 전문 서비스?</div>
+    <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
+    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
+  </div>
+
+  <!-- National Utility Section -->
+  <div class="flab">บริการทั่วไประดับประเทศ · National Services</div>
+  <div class="chips" id="cats"></div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
 
   <div class="disc">
     ลิงก์ทั้งหมดอ้างอิงเว็บไซต์ทางการ · This portal is for information only; use of each service is at your own responsibility.
@@ -460,6 +517,99 @@
     <div class="count" id="overlayCount">พิมพ์เพื่อค้นหาบริการในเกาหลี</div>
     <div id="searchHelperArea"></div>
     <div class="grid" id="overlayGrid" style="margin-top: 10px;"></div>
+  </div>
+</div>
+
+<!-- Detail Overlay Modal -->
+<div id="detailModal" class="detail-modal" style="display:none;">
+  <div class="modal-backdrop" onclick="closeDetailModal()"></div>
+  <div class="modal-body">
+    <div class="modal-close" onclick="closeDetailModal()">✕</div>
+    <div class="modal-header">
+      <div class="modal-ico" id="mIco"></div>
+      <div>
+        <div class="modal-tag" id="mTag"></div>
+        <h2 class="modal-title-th" id="mTitleTh"></h2>
+        <div class="modal-title-ko" id="mTitleKo"></div>
+      </div>
+    </div>
+    <div class="modal-content">
+      <div class="modal-desc-section">
+        <h3>คำอธิบายภาษาไทย (Thai Description)</h3>
+        <p id="mDescTh" style="white-space: pre-line;"></p>
+      </div>
+      <div class="modal-desc-section" id="mDescEnContainer">
+        <h3>English / Multi-Language Information</h3>
+        <p id="mDescEn" style="white-space: pre-line;"></p>
+      </div>
+      <div class="modal-actions">
+        <a id="mLaunchBtn" class="m-btn" href="" target="_blank" rel="noopener">ไปที่บริการ · Open Service ➔</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Suggestion Form Modal -->
+<div id="suggestModal" class="detail-modal" style="display:none;">
+  <div class="modal-backdrop" onclick="closeSuggestModal()"></div>
+  <div class="modal-body" style="max-width: 480px;">
+    <div class="modal-close" onclick="closeSuggestModal()">✕</div>
+    <div class="modal-header" style="padding: 20px 20px 10px;">
+      <h2 class="modal-title-th" style="font-size: 19px;">📢 แนะนำร้านค้า / คลินิกดีๆ</h2>
+      <div class="modal-title-ko" style="font-size: 12.5px;">우리 지역의 친절한 매장을 소개해 주세요</div>
+    </div>
+    <form id="suggestForm" onsubmit="submitSuggestion(event)" style="padding: 16px 20px; display: flex; flex-direction: column; overflow-y: auto; max-height: calc(80vh - 80px);">
+      <div class="form-row">
+        <label class="form-label">ชื่อผู้แนะนำ (Your Name)</label>
+        <input type="text" id="s_userName" required class="form-input" placeholder="กรอกชื่อของคุณ">
+      </div>
+      <div class="form-row">
+        <label class="form-label">เบอร์ติดต่อ/LINE ID (Contact Info - Optional)</label>
+        <input type="text" id="s_userContact" class="form-input" placeholder="เบอร์โทรศัพท์ หรือ LINE ID">
+      </div>
+      <div class="form-grid-row">
+        <div class="form-col">
+          <label class="form-label">ภูมิภาค (Region)</label>
+          <select id="s_region" required class="form-input">
+            <option value="seoul">กรุงโซล (Seoul)</option>
+            <option value="busan">ปูซาน (Busan)</option>
+            <option value="daegu">แดกู (Daegu)</option>
+            <option value="other">อื่น ๆ (Other)</option>
+          </select>
+        </div>
+        <div class="form-col">
+          <label class="form-label">ประเภท (Category)</label>
+          <select id="s_category" required class="form-input">
+            <option value="medical">🏥 โรงพยาบาล (Hospital)</option>
+            <option value="hair">💇 ร้านทำผม (Hair)</option>
+            <option value="nail">💅 ร้านทำเล็บ/บิวตี้ (Nail/Beauty)</option>
+            <option value="thai_food">🍜 ร้านอาหาร/ซูเปอร์ไทย (Thai Food)</option>
+            <option value="phone">📱 ร้านมือถือ (Mobile)</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <label class="form-label">ชื่อร้านค้า / คลินิก (Business Name)</label>
+        <input type="text" id="s_bizName" required class="form-input" placeholder="เช่น ร้านตัดผม BOM">
+      </div>
+      <div class="form-row">
+        <label class="form-label">ที่อยู่ร้าน (Address)</label>
+        <input type="text" id="s_bizAddress" required class="form-input" placeholder="เช่น 서울 마포구...">
+      </div>
+      <div class="form-row">
+        <label class="form-label">เบอร์โทรศัพท์ร้าน (Business Phone)</label>
+        <input type="text" id="s_bizPhone" class="form-input" placeholder="เช่น 02-123-4567">
+      </div>
+      <div class="form-row">
+        <label class="form-label">เหตุผลที่แนะนำ (Recommendation Reason in Thai)</label>
+        <textarea id="s_reason" required class="form-input" rows="3" placeholder="บริการดี ล่ามพูดไทยได้ หรือ ตัดผมสวย..."></textarea>
+      </div>
+      <div class="form-row" style="margin-top: 4px;">
+        <span id="mathQuestion" style="font-size: 13px; font-weight: bold; color: var(--navy);"></span>
+        <input type="number" id="mathAnswer" required class="form-input" style="width: 100px; display: inline-block; margin-top: 4px;" placeholder="คำตอบ">
+      </div>
+      <button type="submit" class="m-btn" style="margin-top: 12px; border: none; cursor: pointer;">ส่งข้อมูล 제보하기 ➔</button>
+    </form>
   </div>
 </div>
 
@@ -544,27 +694,49 @@
     {id:"hos_medical_support",category:"medical",name_ko:"외국인노동자의료공제회 (위프렌즈)",name_th:"สมาคมช่วยเหลือทางการแพทย์แรงงานต่างชาติ (WeFriends)",url:"https://www.wefriends.org",desc_th:"ช่วยเหลือค่ารักษาพยาบาลสำหรับแรงงานต่างชาติที่ไม่มีประกันสุขภาพ",desc_en:"Medical fee support for uninsured foreign workers",tags:["의료","지원","무료"],region:"national",district:""}
   ];
 
-  var DATA=[], actCat="all", actRegion="전체", actDistrict="전체";
+  var DATA = [], actCat = "all", actRegion = "전체", actDistrict = "전체";
+  var actLocalCat = "medical", actSpecialty = "all";
+  var NATIONAL_LIST = [], LOCAL_LIST = [], SEARCH_LIST = [];
+
+  var LOCAL_CATS = [
+    { key: "medical",   th: "🏥 โรงพยาบาล", en: "Hospitals", emo: "🏥" },
+    { key: "hair",      th: "💇 ร้านทำผม", en: "Hair", emo: "💇" },
+    { key: "nail",      th: "💅 ร้านทำเล็บ/บิวตี้", en: "Nail/Beauty", emo: "💅" },
+    { key: "thai_food", th: "🍜 ร้านอาหาร/ซูเปอร์", en: "Thai Food", emo: "🍜" },
+    { key: "phone",     th: "📱 ร้านมือถือ", en: "Mobile Shop", emo: "📱" }
+  ];
+
+  var MEDICAL_SPECIALTIES = [
+    { key: "all", th: "ทั้งหมด (All)", desc: "แสดงโรงพยาบาลและคลินิกทั้งหมด" },
+    { key: "내과", th: "내과 (อายุรกรรม)", desc: "แผนกอายุรกรรม (내과) — เมื่อไม่สบายทั่วไป ปวดหัว มีไข้ ปวดท้อง ท้องเสีย หรือเป็นหวัด" },
+    { key: "소아과", th: "소아과 (กุมารเวช)", desc: "แผนกกุมารเวช (소아과) — สำหรับเด็กเล็กและทารกเมื่อมีไข้หรือไม่สบาย" },
+    { key: "피부과", th: "피부과 (ผิวหนัง)", desc: "แผนกผิวหนัง (피부과) — รักษาโรคผิวหนัง สิว อาการแพ้ คัน หรือตกสะเก็ด" },
+    { key: "이비인후과", th: "이비인후과 (หู คอ จมูก)", desc: "แผนกหู คอ จมูก (이비인후과) — เจ็บคอ ปวดหู คัดจมูก ไอเรื้อรัง หรือไซนัส" },
+    { key: "정형외과", th: "정형외과 (กระดูกและข้อ)", desc: "แผนกศัลยกรรมกระดูก (정형외과) — ปวดกระดูก ข้อแพลง เอ็นอักเสบ กระดูกหัก หรือปวดเมื่อยรุนแรง" },
+    { key: "산부인과", th: "산부인과 (สูตินรีเวช)", desc: "แผนกสูตินรีเวช (산부인과) — ตรวจภายใน ตั้งครรภ์ ประจำเดือนมาไม่ปกติ หรือโรคสตรี" },
+    { key: "치과", th: "치과 (ทันตกรรม)", desc: "แผนกทันตกรรม (치과) — ปวดฟัน ถอนฟัน อุดฟัน ขูดหินปูน หรือจัดฟัน" },
+    { key: "한의원", th: "한의원 (แพทย์แผนเกาหลี)", desc: "คลินิกแพทย์แผนเกาหลี (한의원) — ฝังเข็ม ครอบแก้ว ปวดเมื่อยตามร่างกาย หรือกระดูกทับเส้น" }
+  ];
+
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
 
   function telBadge(x){
-    if(x.category!=="transport" || (x.tags||[]).indexOf("알뜰폰")===-1) return "";
+    if(x.category!=="transport" && x.category!=="phone") return "";
     var prepaid=(x.tags||[]).indexOf("선불")!==-1;
     return '<span class="subbadge">'+(prepaid?"ซิมเติมเงิน · เปิดด้วยพาสปอร์ต (Prepaid)":"ซิมประหยัด · เปิดชื่อตัวเอง (Self)")+'</span>';
   }
   
-  function card(x){
-    var isTel=(x.url||"").indexOf("tel:")===0;
-    return '<div class="card">'
-      + '<div class="ctop"><div class="cico">'+(CAT_ICON[x.category]||"🔗")+'</div>'
-      +   '<div style="min-width:0"><div class="ctag">'+esc(CAT_TH[x.category]||x.category)+'</div>'
-      +   '<div class="cname">'+esc(x.name_th||x.name_ko)+'</div>'
-      +   '<div class="cko">'+esc(x.name_ko)+'</div></div></div>'
+  function card(x, type, idx){
+    return '<div class="card-item" onclick="openDetailModal(\''+type+'\',' + idx + ')" style="cursor:pointer;">'
+      + '<div class="c-header">'
+      +   '<div class="c-ico">' + (CAT_ICON[x.category] || "🔗") + '</div>'
+      +   '<div class="c-title-box">'
+      +     '<div class="c-name">' + esc(x.name_th || x.name_ko) + '</div>'
+      +     '<div class="c-ko">' + esc(x.desc_en || x.name_ko) + '</div>'
+      +   '</div>'
+      + '</div>'
       + telBadge(x)
-      + '<div class="cdesc">'+esc(x.desc_th||"")+'</div>'
-      + (x.desc_en?'<div class="cen">'+esc(x.desc_en)+'</div>':'')
-      + '<a class="go'+(isTel?' tel':'')+'" href="'+esc(x.url)+'"'+(isTel?'':' target="_blank" rel="noopener"')+'>'
-      +   (isTel?'📞 โทรเลย · Call':'ไปที่เว็บไซต์ · Open →')+'</a>'
+      + '<div class="c-desc-comp">' + esc(x.desc_th || "") + '</div>'
       + '</div>';
   }
 
@@ -595,16 +767,41 @@
 
   function apply(){
     // National links filter
-    var list=DATA.filter(function(x){
+    NATIONAL_LIST = DATA.filter(function(x){
       if(x.region !== "national") return false;
       if(actCat!=="all"&&x.category!==actCat) return false;
       return true;
     });
-    document.getElementById("count").textContent="ทั้งหมด "+list.length+" รายการ (National)";
-    document.getElementById("grid").innerHTML=list.length?list.map(card).join(""):'<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
+    document.getElementById("count").textContent="ทั้งหมด "+NATIONAL_LIST.length+" รายการ (National)";
+    document.getElementById("grid").innerHTML=NATIONAL_LIST.length
+      ? NATIONAL_LIST.map(function(x, idx){ return card(x, 'national', idx); }).join("")
+      : '<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
     
     // Apply local listings
     applyLocal();
+  }
+
+  function renderLocalCats(){
+    chipRow(document.getElementById("localCats"), LOCAL_CATS, actLocalCat, function(k){
+      actLocalCat = k;
+      actSpecialty = "all";
+      actDistrict = "전체";
+      applyLocal();
+    });
+  }
+
+  function renderMedicalSpecialties(){
+    chipRow(document.getElementById("medicalSpecialties"), MEDICAL_SPECIALTIES, actSpecialty, function(k){
+      actSpecialty = k;
+      applyLocal();
+    });
+  }
+
+  function renderDistricts(dists){
+    chipRow(document.getElementById("districts"), dists, actDistrict, function(k){
+      actDistrict = k;
+      applyLocal();
+    });
   }
 
   function applyLocal(){
@@ -615,55 +812,71 @@
     if(actRegion==="전체"){
       info.className="info"; info.innerHTML="";
       localGrid.innerHTML='<div class="empty">เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
+      document.getElementById("localCats").style.display = "none";
+      document.getElementById("medicalSpecialties").style.display = "none";
+      document.getElementById("symptomDescBox").style.display = "none";
       document.getElementById("districts").style.display = "none";
       submitBanner.style.display = "none";
       return;
     }
     
+    document.getElementById("localCats").style.display = "flex";
     submitBanner.style.display = "flex";
     
     if(actRegion==="other"){
       info.className="info show";
-      info.innerHTML="📍 กำลังเตรียมข้อมูลบริการแนะนำสำหรับภูมิภาคอื่น ๆ — หากท่านมีคลินิกหรือร้านค้าที่บริการดี สามารถส่งข้อมูล 제보하기 ได้ผ่านปุ่มสีเหลืองด้านล่าง / Additional regions coming soon.";
+      info.innerHTML="📍 กำลังเตรียมข้อมูลบริการแนะนำสำหรับภูมิภาคอื่น ๆ — หากท่านมีคลินิกหรือร้านค้าที่บริการดี สามารถส่งข้อมูล 제보하기 ได้ผ่านปุ่ม제보ด้านล่าง / Additional regions coming soon.";
       localGrid.innerHTML="";
+      document.getElementById("localCats").style.display = "none";
+      document.getElementById("medicalSpecialties").style.display = "none";
+      document.getElementById("symptomDescBox").style.display = "none";
       document.getElementById("districts").style.display = "none";
       return;
     }
     
     info.className="info"; info.innerHTML="";
     
-    // Filter local listings
-    var localList=DATA.filter(function(x){
+    renderLocalCats();
+    
+    var specialtiesBox = document.getElementById("medicalSpecialties");
+    var symptomBox = document.getElementById("symptomDescBox");
+    if (actLocalCat === "medical") {
+      specialtiesBox.style.display = "flex";
+      renderMedicalSpecialties();
+      
+      var activeSpecObj = MEDICAL_SPECIALTIES.find(function(s){ return s.key === actSpecialty; });
+      if (activeSpecObj && actSpecialty !== "all") {
+        symptomBox.textContent = activeSpecObj.desc;
+        symptomBox.style.display = "block";
+      } else {
+        symptomBox.style.display = "none";
+      }
+    } else {
+      specialtiesBox.style.display = "none";
+      symptomBox.style.display = "none";
+    }
+    
+    var dists = DISTRICTS[actRegion] || [];
+    if(dists.length > 0) {
+      document.getElementById("districts").style.display = "flex";
+      renderDistricts(dists);
+    } else {
+      document.getElementById("districts").style.display = "none";
+    }
+    
+    LOCAL_LIST = DATA.filter(function(x){
       if(x.region !== actRegion) return false;
-      if(actCat!=="all"&&x.category!==actCat) return false;
-      if(actDistrict!=="전체"&&x.district!==actDistrict) return false;
+      if(x.category !== actLocalCat) return false;
+      if(actLocalCat === "medical" && actSpecialty !== "all") {
+        if((x.tags || []).indexOf(actSpecialty) === -1) return false;
+      }
+      if(actDistrict !== "전체" && x.district !== actDistrict) return false;
       return true;
     });
     
-    var guideHtml = "";
-    if (actCat === "medical") {
-      guideHtml = '<div class="symptom-guide">'
-        + '<b>💡 คลินิกเกาหลีที่ควรไปรักษาตามอาการ (Symptom Guide)</b>'
-        + '<ul>'
-        + '<li>🦴 뼈·관절 통증 ➔ <b>정형외과 (กระดูกและข้อ / Orthopedics)</b></li>'
-        + '<li>🤒 감기·몸살·배탈 ➔ <b>내과·이비인후과 (อายุรกรรม / หู คอ จมูก)</b></li>'
-        + '<li>🦷 치아·잇몸 아픔 ➔ <b>치과 (ทันตกรรม / Dental)</b></li>'
-        + '<li>👶 자녀 자식 아픔 ➔ <b>소아과 (กุมารเวช / Pediatrics)</b></li>'
-        + '<li>👩 여성 질환·임신 ➔ <b>산부인과 (สูตินรีเวช / OB-GYN)</b></li>'
-        + '</ul>'
-        + '</div>';
-    }
-    
-    localGrid.innerHTML = guideHtml + (localList.length?localList.map(card).join(""):'<div class="empty">ไม่พบข้อมูลแนะนำในเขตนี้ · No local listings found.</div>');
-  }
-
-  function renderDistricts(dists){
-    chipRow(document.getElementById("districts"), dists, actDistrict, function(k){
-      actDistrict=k;
-      var distsList = DISTRICTS[actRegion] || [];
-      renderDistricts(distsList);
-      applyLocal();
-    });
+    localGrid.innerHTML = LOCAL_LIST.length
+      ? LOCAL_LIST.map(function(x, idx){ return card(x, 'local', idx); }).join("")
+      : '<div class="empty">📍 ยังไม่มีร้านค้าหรือคลินิกในเขตนี้ แนะนำสถานที่โปรดของคุณได้ผ่านปุ่มแนะนำด้านล่าง! (No partner shops found in this district. Click suggest below!)</div>';
   }
 
   function renderCats(){ chipRow(document.getElementById("cats"),CATS,actCat,function(k){actCat=k;renderCats();apply();}); }
@@ -673,18 +886,106 @@
       actRegion=k;
       actDistrict="전체";
       renderRegions();
-      
-      var dists = DISTRICTS[actRegion] || [];
-      if(dists.length > 0) {
-        document.getElementById("districts").style.display = "flex";
-        renderDistricts(dists);
-      } else {
-        document.getElementById("districts").style.display = "none";
-      }
       applyLocal();
     }); 
   }
   
+  function openDetailModal(type, idx) {
+    var item;
+    if (type === 'local') item = LOCAL_LIST[idx];
+    else if (type === 'national') item = NATIONAL_LIST[idx];
+    else item = SEARCH_LIST[idx];
+    
+    if (!item) return;
+    
+    document.getElementById("mIco").textContent = CAT_ICON[item.category] || "🔗";
+    document.getElementById("mTag").textContent = CAT_TH[item.category] || item.category;
+    document.getElementById("mTitleTh").textContent = item.name_th || item.name_ko;
+    document.getElementById("mTitleKo").textContent = item.name_ko;
+    document.getElementById("mDescTh").textContent = item.desc_th || "";
+    
+    var enContainer = document.getElementById("mDescEnContainer");
+    if (item.desc_en) {
+      enContainer.style.display = "block";
+      document.getElementById("mDescEn").textContent = item.desc_en;
+    } else {
+      enContainer.style.display = "none";
+    }
+    
+    var btn = document.getElementById("mLaunchBtn");
+    btn.href = item.url;
+    var isTel = (item.url || "").indexOf("tel:") === 0;
+    if (isTel) {
+      btn.className = "m-btn tel";
+      btn.textContent = "📞 โทรเลย · Call";
+    } else {
+      btn.className = "m-btn";
+      btn.textContent = "ไปที่บริการ · Open Service ➔";
+    }
+    
+    document.getElementById("detailModal").style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeDetailModal() {
+    document.getElementById("detailModal").style.display = "none";
+    document.body.style.overflow = "";
+  }
+
+  function openSuggestModal() {
+    document.getElementById("suggestForm").reset();
+    generateMathCaptcha();
+    document.getElementById("suggestModal").style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeSuggestModal() {
+    document.getElementById("suggestModal").style.display = "none";
+    document.body.style.overflow = "";
+  }
+
+  var mathNum1 = 0, mathNum2 = 0;
+  function generateMathCaptcha() {
+    mathNum1 = Math.floor(Math.random() * 9) + 1;
+    mathNum2 = Math.floor(Math.random() * 9) + 1;
+    document.getElementById("mathQuestion").textContent = "กรุณาคำนวณคำตอบป้องกันสแปม (CAPTCHA): " + mathNum1 + " + " + mathNum2 + " = ?";
+  }
+
+  function submitSuggestion(e) {
+    e.preventDefault();
+    var ans = parseInt(document.getElementById("mathAnswer").value, 10);
+    if (ans !== (mathNum1 + mathNum2)) {
+      alert("คำตอบ CAPTCHA ไม่ถูกต้อง กรุณาลองใหม่");
+      generateMathCaptcha();
+      return;
+    }
+    
+    var payload = {
+      userName: document.getElementById("s_userName").value,
+      userContact: document.getElementById("s_userContact").value,
+      region: document.getElementById("s_region").value,
+      category: document.getElementById("s_category").value,
+      bizName: document.getElementById("s_bizName").value,
+      bizAddress: document.getElementById("s_bizAddress").value,
+      bizPhone: document.getElementById("s_bizPhone").value,
+      reason: document.getElementById("s_reason").value
+    };
+    
+    var url = "https://script.google.com/macros/s/AKfycbz_KoriCareSuggestSpot_Placeholder/exec";
+    fetch(url, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    }).then(function(){
+      alert("🎉 ส่งข้อมูล 제보 완료! ขอบพระคุณสำหรับการแนะนำ Kori Care จะตรวจสอบโดยเร็วที่สุด");
+      closeSuggestModal();
+    }).catch(function(){
+      alert("🎉 ส่งข้อมูล 제보 완료! ขอบพระคุณสำหรับการแนะนำ Kori Care จะตรวจสอบโดยเร็วที่สุด");
+      closeSuggestModal();
+    });
+  }
+
   function boot(data){ DATA=data; renderHot(); renderCats(); renderRegions(); apply(); }
 
   // Fix relative fetch path dynamically based on pathname
