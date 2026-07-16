@@ -409,6 +409,73 @@
     color: #ffffff;
     border-color: var(--navy);
   }
+
+  /* dev banner styles */
+  .dev-banner {
+    background: #f0f4ff;
+    border: 1.5px solid #c7d2fe;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: var(--shadow);
+  }
+  .dev-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .dev-badge {
+    background: #4f46e5;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .dev-status {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #4f46e5;
+  }
+  .dev-text p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: #374151;
+  }
+  .dev-text p:last-child {
+    margin-bottom: 0;
+  }
+  .dev-text b {
+    color: #1e1b4b;
+  }
+  .dev-progress-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .dev-progress-container {
+    flex: 1;
+    background: #e0e7ff;
+    border-radius: 999px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .dev-progress-bar {
+    background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
+    height: 100%;
+    border-radius: 999px;
+  }
+  .dev-progress-text {
+    font-size: 11.5px;
+    font-weight: 800;
+    color: #4f46e5;
+    white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -453,6 +520,25 @@
       <img src="koricare_main_logo_nobg.png" alt="คู่มือรับเงินชดเชยเมื่อออกจากงาน (퇴직금) สำหรับแรงงานต่างชาติและผู้ไม่มีวีซ่า">
     </a>
     <!-- NEWS_END -->
+  </div>
+
+  <!-- Under Development Banner -->
+  <div class="dev-banner">
+    <div class="dev-header">
+      <span class="dev-badge">Beta (v0.2)</span>
+      <span class="dev-status">🚧 กำลังพัฒนาพอร์ทัล · Active Development</span>
+    </div>
+    <div class="dev-text">
+      <p class="th"><b>เกี่ยวกับเว็บไซต์นี้:</b> พอร์ทัลช่วยเหลือฉุกเฉินสำหรับคนไทยในเกาหลีใต้ ขณะนี้พัฒนาไปแล้ว 20% โดยเรากำลังปรับปรุงหน้าตา การออกแบบ และอัปเดตข้อมูลสถานที่ต่าง ๆ ในชุมชนอย่างต่อเนื่อง</p>
+      <p class="en"><b>Under Development:</b> This portal is currently 20% complete and is undergoing active design and feature updates to better assist Thai residents in Korea.</p>
+      <p class="ko"><b>개발 안내:</b> 본 링크 포털은 현재 20% 완성 단계의 베타 버전으로, 방문자 편의를 위해 지속적으로 기능 개선과 디자인 업데이트 및 커뮤니티 장소 정보를 추가하고 있습니다.</p>
+    </div>
+    <div class="dev-progress-wrapper">
+      <div class="dev-progress-container">
+        <div class="dev-progress-bar" style="width: 20%;"></div>
+      </div>
+      <span class="dev-progress-text">Progress: 20%</span>
+    </div>
   </div>
 
   <!-- Local Curated Directory Section -->
