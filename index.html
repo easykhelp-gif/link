@@ -788,9 +788,9 @@
     { key:"transport",  th:"การเดินทางและสื่อสาร", en:"Transport·Telecom", emo:"📱" },
     { key:"admin",      th:"ล่ามและราชการ", en:"Admin·Translation", emo:"🤝" }
   ];
-  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝",hair:"💇",nail:"💅",thai_food:"🍜",phone:"📱"};
-  var CAT_BG={medical:"#ffe4e6",visa:"#e0f2fe",labor:"#d1fae5",finance:"#fef3c7",transport:"#f3e8ff",admin:"#e0e7ff",hair:"#fce7f3",nail:"#fae8ff",thai_food:"#ffedd5",phone:"#e2e8f0"};
-  var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ"};
+  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝",hair:"💇",nail:"💅",thai_food:"🍜",phone:"📱",shipping:"📦"};
+  var CAT_BG={medical:"#ffe4e6",visa:"#e0f2fe",labor:"#d1fae5",finance:"#fef3c7",transport:"#f3e8ff",admin:"#e0e7ff",hair:"#fce7f3",nail:"#fae8ff",thai_food:"#ffedd5",phone:"#e2e8f0",shipping:"#e0f7fa"};
+  var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ",hair:"ทำผม",nail:"ทำเล็บ",thai_food:"อาหารและซูเปอร์",phone:"โทรศัพท์มือถือ",shipping:"ขนส่งและส่งของ"};
   
   var REGIONS = [
     {key:"전체",th:"ทั้งหมด (All)",en:"All"},
@@ -861,15 +861,17 @@
   ];
 
   var DATA = [], actCat = "all", actRegion = "전체", actDistrict = "전체";
-  var actLocalCat = "medical", actSpecialty = "all";
+  var actLocalCat = null, actSpecialty = null;
   var NATIONAL_LIST = [], LOCAL_LIST = [], SEARCH_LIST = [];
 
   var LOCAL_CATS = [
     { key: "medical",   th: "โรงพยาบาล (Hospitals)", en: "Hospitals", emo: "🏥" },
     { key: "hair",      th: "ร้านทำผม (Hair)", en: "Hair", emo: "💇" },
     { key: "nail",      th: "ร้านทำเล็บ (Nail)", en: "Nail", emo: "💅" },
-    { key: "thai_food", th: "ร้านอาหารไทย (Thai Food)", en: "Thai Food", emo: "🍜" },
-    { key: "phone",     th: "ร้านมือถือ (Mobile)", en: "Mobile", emo: "📱" }
+    { key: "thai_food", th: "ร้านอาหาร/ซูเปอร์ (Food)", en: "Food", emo: "🍜" },
+    { key: "phone",     th: "ร้านมือถือ (Mobile)", en: "Mobile", emo: "📱" },
+    { key: "finance",   th: "โอนเงิน/ธนาคาร (Finance)", en: "Finance", emo: "💳" },
+    { key: "shipping",  th: "ขนส่ง/ส่งของ (Shipping)", en: "Shipping", emo: "📦" }
   ];
 
   var MEDICAL_SPECIALTIES = [
@@ -958,8 +960,9 @@
   function renderLocalCats(){
     chipRow(document.getElementById("localCats"), LOCAL_CATS, actLocalCat, function(k){
       actLocalCat = k;
-      actSpecialty = "all";
+      actSpecialty = (k === "medical" ? null : "all");
       actDistrict = "전체";
+      renderLocalCats();
       applyLocal();
     });
   }
@@ -967,6 +970,7 @@
   function renderMedicalSpecialties(){
     chipRow(document.getElementById("medicalSpecialties"), MEDICAL_SPECIALTIES, actSpecialty, function(k){
       actSpecialty = k;
+      renderMedicalSpecialties();
       applyLocal();
     });
   }
@@ -985,7 +989,7 @@
     
     if(actRegion==="전체"){
       info.className="info"; info.innerHTML="";
-      localGrid.innerHTML='<div class="empty">เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
+      localGrid.innerHTML='<div class="empty">📍 เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
       document.getElementById("groupLocalCats").style.display = "none";
       document.getElementById("groupMedicalSpecialties").style.display = "none";
       document.getElementById("symptomDescBox").style.display = "none";
@@ -1012,11 +1016,28 @@
     
     renderLocalCats();
     
+    // Step 1: Select Category
+    if (!actLocalCat) {
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
+      document.getElementById("symptomDescBox").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
+      localGrid.innerHTML = '<div class="empty">💼 เลือกประเภทบริการด้านบนเพื่อดำเนินการต่อ · Select a category above to continue.</div>';
+      return;
+    }
+    
     var specialtiesBox = document.getElementById("groupMedicalSpecialties");
     var symptomBox = document.getElementById("symptomDescBox");
     if (actLocalCat === "medical") {
       specialtiesBox.style.display = "block";
       renderMedicalSpecialties();
+      
+      // Step 2 (for medical): Select Specialty
+      if (!actSpecialty) {
+        symptomBox.style.display = "none";
+        document.getElementById("groupDistricts").style.display = "none";
+        localGrid.innerHTML = '<div class="empty">🩺 เลือกแผนกการแพทย์เฉพาะทางเพื่อดำเนินการต่อ · Select a medical specialty.</div>';
+        return;
+      }
       
       var activeSpecObj = MEDICAL_SPECIALTIES.find(function(s){ return s.key === actSpecialty; });
       if (activeSpecObj && actSpecialty !== "all") {
@@ -1030,6 +1051,7 @@
       symptomBox.style.display = "none";
     }
     
+    // Step 3: Select District (and show list)
     var dists = DISTRICTS[actRegion] || [];
     if(dists.length > 0) {
       document.getElementById("groupDistricts").style.display = "block";
@@ -1058,6 +1080,8 @@
   function renderRegions(){ 
     chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){
       actRegion=k;
+      actLocalCat=null;
+      actSpecialty=null;
       actDistrict="전체";
       renderRegions();
       applyLocal();
