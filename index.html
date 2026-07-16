@@ -387,12 +387,28 @@
   
   /* local directory section */
   .local-directory-section {
-    background: #fafbfc;
-    border: 1.5px solid var(--line);
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.8);
     border-radius: 20px;
     padding: 20px 16px;
     margin-top: 30px;
     box-shadow: var(--shadow);
+  }
+  .local-filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .filter-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--sub);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
   .local-desc {
     font-size: 13.5px;
@@ -584,17 +600,37 @@
 
   <!-- Local Curated Directory Section -->
   <div class="local-directory-section">
-    <div class="flab">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
-    <div class="local-desc">โรงพยาบาลและร้านค้าแนะนำที่น่าเชื่อถือในเขตพื้นที่ของท่าน (Verified Local Listings)</div>
+    <div class="flab" style="margin-top: 0; color: var(--navy); font-size:12.5px;">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
+    <div class="local-desc" style="font-size:13px; color:var(--sub); margin-bottom:18px;">โรงพยาบาลและร้านค้าแนะนำที่น่าเชื่อถือในเขตพื้นที่ของท่าน (Verified Listings)</div>
     
-    <div class="chips region" id="regions"></div>
-    <div class="chips local-cats" id="localCats" style="display:none; margin-top:8px;"></div>
-    <div class="chips medical-specialties" id="medicalSpecialties" style="display:none; margin-top:8px;"></div>
-    <div class="symptom-description-box" id="symptomDescBox" style="display:none; margin-top:10px; margin-bottom:6px;"></div>
-    <div class="chips district-chips" id="districts" style="display:none; margin-top:8px;"></div>
+    <!-- Filter Group 1: Region -->
+    <div class="local-filter-group" id="groupRegions">
+      <div class="filter-label">📍 เลือกภูมิภาค · Select Region</div>
+      <div class="chips region" id="regions"></div>
+    </div>
+    
+    <!-- Filter Group 2: Category -->
+    <div class="local-filter-group" id="groupLocalCats" style="display:none; margin-top:14px;">
+      <div class="filter-label">💼 เลือกประเภทบริการ · Service Category</div>
+      <div class="chips local-cats" id="localCats"></div>
+    </div>
+    
+    <!-- Filter Group 3: Medical Specialties -->
+    <div class="local-filter-group" id="groupMedicalSpecialties" style="display:none; margin-top:14px;">
+      <div class="filter-label">🩺 แผนกการแพทย์ · Medical Specialty</div>
+      <div class="chips medical-specialties" id="medicalSpecialties"></div>
+    </div>
+    
+    <div class="symptom-description-box" id="symptomDescBox" style="display:none; margin-top:10px; margin-bottom:6px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:10px 12px; font-size:12.5px; color:#1e40af; line-height:1.45;"></div>
+    
+    <!-- Filter Group 4: Districts -->
+    <div class="local-filter-group" id="groupDistricts" style="display:none; margin-top:14px;">
+      <div class="filter-label">🔍 เลือกเขตพื้นที่ · Select District</div>
+      <div class="chips district-chips" id="districts"></div>
+    </div>
     
     <div class="info" id="regionInfo"></div>
-    <div class="grid" id="localGrid" style="margin-top:16px;"></div>
+    <div class="grid" id="localGrid" style="margin-top:20px;"></div>
     
     <!-- Submit Banner -->
     <div class="submit-banner" id="submitBanner" style="display:none; margin-top: 16px;">
@@ -767,38 +803,38 @@
   var DISTRICTS = {
     seoul: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"종로구",th:"종로구 (Jongno)",en:"Jongno-gu"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"용산구",th:"용산구 (Yongsan)",en:"Yongsan-gu"},
-      {key:"마포구",th:"마포구 (Mapo)",en:"Mapo-gu"},
-      {key:"강남구",th:"강남구 (Gangnam)",en:"Gangnam-gu"},
-      {key:"서초구",th:"서초구 (Seocho)",en:"Seocho-gu"},
-      {key:"영등포구",th:"영등포구 (Yeongdeungpo)",en:"Yeongdeungpo-gu"},
-      {key:"구로구",th:"구로구 (Guro)",en:"Guro-gu"},
-      {key:"관악구",th:"관악구 (Gwanak)",en:"Gwanak-gu"},
-      {key:"송파구",th:"송파구 (Songpa)",en:"Songpa-gu"}
+      {key:"종로구",th:"Jongno-gu (종로구)",en:"Jongno-gu"},
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"용산구",th:"Yongsan-gu (용산구)",en:"Yongsan-gu"},
+      {key:"마포구",th:"Mapo-gu (마포구)",en:"Mapo-gu"},
+      {key:"강남구",th:"Gangnam-gu (강남구)",en:"Gangnam-gu"},
+      {key:"서초구",th:"Seocho-gu (서초구)",en:"Seocho-gu"},
+      {key:"영등포구",th:"Yeongdeungpo-gu (영등포구)",en:"Yeongdeungpo-gu"},
+      {key:"구로구",th:"Guro-gu (구로구)",en:"Guro-gu"},
+      {key:"관악구",th:"Gwanak-gu (관악구)",en:"Gwanak-gu"},
+      {key:"송파구",th:"Songpa-gu (송파구)",en:"Songpa-gu"}
     ],
     busan: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"해운대구",th:"해운대구 (Haeundae)",en:"Haeundae-gu"},
-      {key:"부산진구",th:"부산진구 (Busanjin)",en:"Busanjin-gu"},
-      {key:"동래구",th:"동래구 (Dongnae)",en:"Dongnae-gu"},
-      {key:"사하구",th:"사하구 (Saha-gu)",en:"Saha-gu"},
-      {key:"수영구",th:"수영구 (Suyeong)",en:"Suyeong-gu"},
-      {key:"강서구",th:"강서구 (Gangseo)",en:"Gangseo-gu"}
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"해운대구",th:"Haeundae-gu (해운대구)",en:"Haeundae-gu"},
+      {key:"부산진구",th:"Busanjin-gu (부산진구)",en:"Busanjin-gu"},
+      {key:"동래구",th:"Dongnae-gu (동래구)",en:"Dongnae-gu"},
+      {key:"사하구",th:"Saha-gu (사하구)",en:"Saha-gu"},
+      {key:"수영구",th:"Suyeong-gu (수영구)",en:"Suyeong-gu"},
+      {key:"강서구",th:"Gangseo-gu (강서구)",en:"Gangseo-gu"}
     ],
     daegu: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"달서구",th:"달서구 (Dalseo)",en:"Dalseo-gu"},
-      {key:"동구",th:"동구 (Dong-gu)",en:"Dong-gu"},
-      {key:"서구",th:"서구 (Seo-gu)",en:"Seo-gu"},
-      {key:"남구",th:"남구 (Nam-gu)",en:"Nam-gu"},
-      {key:"북구",th:"북구 (Buk-gu)",en:"Buk-gu"},
-      {key:"수성구",th:"수성구 (Suseong)",en:"Suseong-gu"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"달성군",th:"달성군 (Dalseong)",en:"Dalseong-gun"},
-      {key:"군위군",th:"군위군 (Gunwi)",en:"Gunwi-gun"}
+      {key:"달서구",th:"Dalseo-gu (달서구)",en:"Dalseo-gu"},
+      {key:"동구",th:"Dong-gu (동구)",en:"Dong-gu"},
+      {key:"서구",th:"Seo-gu (서구)",en:"Seo-gu"},
+      {key:"남구",th:"Nam-gu (남구)",en:"Nam-gu"},
+      {key:"북구",th:"Buk-gu (북구)",en:"Buk-gu"},
+      {key:"수성구",th:"Suseong-gu (수성구)",en:"Suseong-gu"},
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"달성군",th:"Dalseong-gun (달성군)",en:"Dalseong-gun"},
+      {key:"군위군",th:"Gunwi-gun (군위군)",en:"Gunwi-gun"}
     ]
   };
 
@@ -829,23 +865,23 @@
   var NATIONAL_LIST = [], LOCAL_LIST = [], SEARCH_LIST = [];
 
   var LOCAL_CATS = [
-    { key: "medical",   th: "🏥 โรงพยาบาล", en: "Hospitals", emo: "🏥" },
-    { key: "hair",      th: "💇 ร้านทำผม", en: "Hair", emo: "💇" },
-    { key: "nail",      th: "💅 ร้านทำเล็บ/บิวตี้", en: "Nail/Beauty", emo: "💅" },
-    { key: "thai_food", th: "🍜 ร้านอาหาร/ซูเปอร์", en: "Thai Food", emo: "🍜" },
-    { key: "phone",     th: "📱 ร้านมือถือ", en: "Mobile Shop", emo: "📱" }
+    { key: "medical",   th: "โรงพยาบาล (Hospitals)", en: "Hospitals", emo: "🏥" },
+    { key: "hair",      th: "ร้านทำผม (Hair)", en: "Hair", emo: "💇" },
+    { key: "nail",      th: "ร้านทำเล็บ (Nail)", en: "Nail", emo: "💅" },
+    { key: "thai_food", th: "ร้านอาหารไทย (Thai Food)", en: "Thai Food", emo: "🍜" },
+    { key: "phone",     th: "ร้านมือถือ (Mobile)", en: "Mobile", emo: "📱" }
   ];
 
   var MEDICAL_SPECIALTIES = [
     { key: "all", th: "ทั้งหมด (All)", desc: "แสดงโรงพยาบาลและคลินิกทั้งหมด" },
-    { key: "내과", th: "내과 (อายุรกรรม)", desc: "แผนกอายุรกรรม (내과) — เมื่อไม่สบายทั่วไป ปวดหัว มีไข้ ปวดท้อง ท้องเสีย หรือเป็นหวัด" },
-    { key: "소아과", th: "소아과 (กุมารเวช)", desc: "แผนกกุมารเวช (소아과) — สำหรับเด็กเล็กและทารกเมื่อมีไข้หรือไม่สบาย" },
-    { key: "피부과", th: "피부과 (ผิวหนัง)", desc: "แผนกผิวหนัง (피부과) — รักษาโรคผิวหนัง สิว อาการแพ้ คัน หรือตกสะเก็ด" },
-    { key: "이비인후과", th: "이비인후과 (หู คอ จมูก)", desc: "แผนกหู คอ จมูก (이비인후과) — เจ็บคอ ปวดหู คัดจมูก ไอเรื้อรัง หรือไซนัส" },
-    { key: "정형외과", th: "정형외과 (กระดูกและข้อ)", desc: "แผนกศัลยกรรมกระดูก (정형외과) — ปวดกระดูก ข้อแพลง เอ็นอักเสบ กระดูกหัก หรือปวดเมื่อยรุนแรง" },
-    { key: "산부인과", th: "산부인과 (สูตินรีเวช)", desc: "แผนกสูตินรีเวช (산부인과) — ตรวจภายใน ตั้งครรภ์ ประจำเดือนมาไม่ปกติ หรือโรคสตรี" },
-    { key: "치과", th: "치과 (ทันตกรรม)", desc: "แผนกทันตกรรม (치과) — ปวดฟัน ถอนฟัน อุดฟัน ขูดหินปูน หรือจัดฟัน" },
-    { key: "한의원", th: "한의원 (แพทย์แผนเกาหลี)", desc: "คลินิกแพทย์แผนเกาหลี (한의원) — ฝังเข็ม ครอบแก้ว ปวดเมื่อยตามร่างกาย หรือกระดูกทับเส้น" }
+    { key: "내과", th: "อายุรกรรม (내과)", desc: "แผนกอายุรกรรม (내과) — เมื่อไม่สบายทั่วไป ปวดหัว มีไข้ ปวดท้อง ท้องเสีย หรือเป็นหวัด" },
+    { key: "소아과", th: "กุมารเวช (소아과)", desc: "แผนกกุมารเวช (소아과) — สำหรับเด็กเล็กและทารกเมื่อมีไข้หรือไม่สบาย" },
+    { key: "피부과", th: "ผิวหนัง (피부과)", desc: "แผนกผิวหนัง (피부과) — รักษาโรคผิวหนัง สิว อาการแพ้ คัน หรือตกสะเก็ด" },
+    { key: "이비인후과", th: "หู คอ จมูก (이비인후과)", desc: "แผนกหู คอ จมูก (이비인후과) — เจ็บคอ ปวดหู คัดจมูก ไอเรื้อรัง หรือไซนัส" },
+    { key: "정형외과", th: "กระดูกและข้อ (정형외과)", desc: "แผนกศัลยกรรมกระดูก (정형외과) — ปวดกระดูก ข้อแพลง เอ็นอักเสบ กระดูกหัก หรือปวดเมื่อยรุนแรง" },
+    { key: "산부인과", th: "สูตินรีเวช (산부인과)", desc: "แผนกสูตินรีเวช (산부인과) — ตรวจภายใน ตั้งครรภ์ ประจำเดือนมาไม่ปกติ หรือโรคสตรี" },
+    { key: "치과", th: "ทันตกรรม (치과)", desc: "แผนกทันตกรรม (치과) — ปวดฟัน ถอนฟัน อุดฟัน ขูดหินปูน หรือจัดฟัน" },
+    { key: "한의원", th: "แพทย์แผนเกาหลี (한의원)", desc: "คลินิกแพทย์แผนเกาหลี (한의원) — ฝังเข็ม ครอบแก้ว ปวดเมื่อยตามร่างกาย หรือกระดูกทับเส้น" }
   ];
 
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
@@ -880,9 +916,9 @@
 
   function chipRow(el,items,active,onPick){
     el.innerHTML=items.map(function(it){
-      var main=it.th||it.en||it.key, sub=(it.th&&it.en)?it.en:(it.key&&it.en?it.key:"");
+      var main=it.th||it.en||it.key;
       var emo=it.emo?it.emo+" ":"";
-      return '<div class="chip'+(it.key===active?' on':'')+'" data-k="'+esc(it.key)+'">'+emo+esc(main)+(sub?' <small>'+esc(sub)+'</small>':'')+'</div>';
+      return '<div class="chip'+(it.key===active?' on':'')+'" data-k="'+esc(it.key)+'">'+emo+esc(main)+'</div>';
     }).join("");
     el.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){onPick(this.getAttribute("data-k"));});});
   }
@@ -950,25 +986,25 @@
     if(actRegion==="전체"){
       info.className="info"; info.innerHTML="";
       localGrid.innerHTML='<div class="empty">เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
-      document.getElementById("localCats").style.display = "none";
-      document.getElementById("medicalSpecialties").style.display = "none";
+      document.getElementById("groupLocalCats").style.display = "none";
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
       document.getElementById("symptomDescBox").style.display = "none";
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
       submitBanner.style.display = "none";
       return;
     }
     
-    document.getElementById("localCats").style.display = "flex";
+    document.getElementById("groupLocalCats").style.display = "block";
     submitBanner.style.display = "flex";
     
     if(actRegion==="other"){
       info.className="info show";
       info.innerHTML="📍 กำลังเตรียมข้อมูลบริการแนะนำสำหรับภูมิภาคอื่น ๆ — หากท่านมีคลินิกหรือร้านค้าที่บริการดี สามารถส่งข้อมูล 제보하기 ได้ผ่านปุ่ม제보ด้านล่าง / Additional regions coming soon.";
       localGrid.innerHTML="";
-      document.getElementById("localCats").style.display = "none";
-      document.getElementById("medicalSpecialties").style.display = "none";
+      document.getElementById("groupLocalCats").style.display = "none";
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
       document.getElementById("symptomDescBox").style.display = "none";
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
       return;
     }
     
@@ -976,10 +1012,10 @@
     
     renderLocalCats();
     
-    var specialtiesBox = document.getElementById("medicalSpecialties");
+    var specialtiesBox = document.getElementById("groupMedicalSpecialties");
     var symptomBox = document.getElementById("symptomDescBox");
     if (actLocalCat === "medical") {
-      specialtiesBox.style.display = "flex";
+      specialtiesBox.style.display = "block";
       renderMedicalSpecialties();
       
       var activeSpecObj = MEDICAL_SPECIALTIES.find(function(s){ return s.key === actSpecialty; });
@@ -996,10 +1032,10 @@
     
     var dists = DISTRICTS[actRegion] || [];
     if(dists.length > 0) {
-      document.getElementById("districts").style.display = "flex";
+      document.getElementById("groupDistricts").style.display = "block";
       renderDistricts(dists);
     } else {
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
     }
     
     LOCAL_LIST = DATA.filter(function(x){
