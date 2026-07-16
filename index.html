@@ -27,9 +27,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#ffffff; --soft:#f3f6fb; --ink:#14203a; --sub:#5b6b86; --line:#e5eaf3;
-    --navy:#123a8a; --navy2:#0e2f72; --chip:#eef2fa; --ok:#1f9d6b; --red:#d63a3a;
-    --shadow:0 1px 10px rgba(15,30,70,.06);
+    --bg:#f4f6fa; --soft:#f1f5f9; --ink:#14203a; --sub:#5b6b86; --line:#e2e8f0;
+    --navy:#123a8a; --navy2:#0e2f72; --chip:#e8edf7; --ok:#1f9d6b; --red:#d63a3a;
+    --shadow:0 8px 24px rgba(148,163,184,0.06), 0 2px 6px rgba(148,163,184,0.04);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -71,7 +71,12 @@
   .hot .hk:active{transform:scale(.96)}
   /* filters */
   .flab{font-size:11.5px;font-weight:800;color:var(--sub);margin:14px 0 6px;letter-spacing:.4px;text-transform:uppercase}
-  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chips{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px}
+  .chips::-webkit-scrollbar{display:none}
+  .chips{-ms-overflow-style:none;scrollbar-width:none}
+  @media(min-width:640px){
+    .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0}
+  }
   .chip{font-size:14px;font-weight:700;padding:9px 14px;min-height:44px;display:inline-flex;align-items:center;gap:5px;
     border-radius:999px;background:var(--chip);color:var(--ink);border:2px solid transparent;cursor:pointer;user-select:none}
   .chip small{font-size:11px;color:var(--sub);font-weight:600}
@@ -139,22 +144,22 @@
   /* cards */
   /* grids */
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
-  .card-item{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:12px;box-shadow:var(--shadow);
-    display:flex;flex-direction:column;justify-content:center;min-height:92px;transition:transform 0.15s ease, box-shadow 0.15s ease;}
-  .card-item:active{transform:scale(.97)}
-  .card-item:hover{box-shadow: 0 4px 15px rgba(15,30,70,.1); transform: translateY(-1px);}
+  .card-item{background:#fff;border:1px solid rgba(226,232,240,0.8);border-radius:18px;padding:14px 12px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;justify-content:center;min-height:96px;transition:transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;}
+  .card-item:active{transform:scale(.96)}
+  .card-item:hover{box-shadow:0 12px 30px rgba(148, 163, 184, 0.12);transform:translateY(-2px)}
   .c-header{display:flex;align-items:center;gap:10px}
   .c-ico{width:40px;height:40px;border-radius:10px;background:var(--soft);flex-shrink:0;
     display:flex;align-items:center;justify-content:center;font-size:20px}
   .c-title-box{min-width:0;flex:1}
-  .c-name{font-size:13.5px;font-weight:800;line-height:1.3;color:var(--ink);
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .c-ko{font-size:10.5px;color:var(--sub);font-weight:600;margin-top:1px;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .c-name{font-size:13px;font-weight:800;line-height:1.35;color:var(--ink);
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .c-ko{font-size:10.5px;color:var(--sub);font-weight:600;margin-top:2px;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
   .subbadge{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;
     background:#e7edfb;color:var(--navy2);margin-top:6px;line-height:1.3}
-  .c-desc-comp{font-size:11px;color:#475569;margin-top:1px;line-height:1.3;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .c-desc-comp{font-size:11px;color:#475569;margin-top:2px;line-height:1.3;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
   .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600;grid-column:1 / -1}
   @media(min-width:640px){
     .grid{grid-template-columns:repeat(3,1fr);gap:12px}
@@ -413,11 +418,11 @@
 
   /* dev banner styles */
   .dev-banner {
-    background: #f0f4ff;
-    border: 1.5px solid #c7d2fe;
-    border-radius: 16px;
-    padding: 16px;
-    margin: 16px 0;
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin: 0 0 12px;
     box-shadow: var(--shadow);
   }
   .dev-header {
@@ -498,14 +503,50 @@
     <h1>ค้นหาข้อมูลที่จำเป็น<br>สำหรับชีวิตในเกาหลี ได้ในที่เดียว</h1>
     <p>รวมลิงก์บริการทางการ · Official help links for foreigners in Korea</p>
     <div class="sos">
-      <a href="tel:112"><div class="n">📞 112</div><div class="l">ตำรวจ · Police</div></a>
-      <a href="tel:119"><div class="n">📞 119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
-      <a href="tel:1345"><div class="n">📞 1345</div><div class="l">ต่างชาติ · Foreigner</div></a>
+      <a href="tel:112">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#ef4444; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          112
+        </div>
+        <div class="l">ตำรวจ · Police</div>
+      </a>
+      <a href="tel:119">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#f97316; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          119
+        </div>
+        <div class="l">ฉุกเฉิน · Ambulance</div>
+      </a>
+      <a href="tel:1345">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#3b82f6; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          1345
+        </div>
+        <div class="l">ตม. ต่างชาติ · Info</div>
+      </a>
     </div>
   </div>
 </section>
 
 <div class="wrap">
+  <!-- Under Development Banner -->
+  <div class="dev-banner">
+    <div class="dev-header" style="margin-bottom: 6px;">
+      <span class="dev-badge" style="background: #4f46e5; color: #fff;">Beta (v0.2)</span>
+      <span class="dev-status">🟢 ระบบเปิดใช้งานได้ปกติ · Portal Active</span>
+    </div>
+    <div class="dev-text">
+      <p class="th"><b>ทีมงานกำลังคัดเลือกและอัปเดตลิงก์บริการใหม่ๆ</b> เพื่ออำนวยความสะดวกให้ชาวต่างชาติในเกาหลีอย่างต่อเนื่อง</p>
+      <p class="en"><b>We are live & updating!</b> We are curating more helpful links to make your life in Korea even easier.</p>
+    </div>
+    <div class="dev-progress-wrapper" style="margin-top: 8px;">
+      <div class="dev-progress-container">
+        <div class="dev-progress-bar" style="width: 20%;"></div>
+      </div>
+      <span class="dev-progress-text">Progress: 20%</span>
+    </div>
+  </div>
+
   <div class="search">
     <span class="ic">🔍</span>
     <input id="q" type="text" placeholder="ค้นหาบริการ · Search (เช่น วีซ่า, โอนเงิน, โรงพยาบาล)" readonly style="cursor: pointer;">
@@ -567,10 +608,10 @@
 
   <!-- Premium Service CTA Banner -->
   <div class="premium-banner" style="margin-top:20px;">
-    <span class="p-badge">Kori Care Premium</span>
-    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า หรือบริการพิเศษสำหรับคนต่างชาติโดยเฉพาะ?</div>
-    <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
-    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
+    <span class="p-badge">Kori Care Premium 1:1</span>
+    <div class="p-title">แก้ปัญหาด้านวีซ่า กฎหมาย เอกสารราชการ และการใช้ชีวิตในเกาหลีแบบเบ็ดเสร็จ</div>
+    <p class="p-desc">บริการจัดการดูแลเคสและแก้ปัญหาโดยทีมผู้เชี่ยวชาญแบบ 1:1 (ต่อวีซ่า, คดีความ, ข้อพิพาทแรงงาน, แปลเอกสาร)</p>
+    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ปรึกษาผู้เชี่ยวชาญ Kori Care ➔</a>
   </div>
 
   <!-- National Utility Section -->
@@ -624,15 +665,13 @@
       </div>
     </div>
     <div class="modal-content">
-      <div class="modal-desc-section">
-        <h3>คำอธิบายภาษาไทย (Thai Description)</h3>
+      <div class="modal-desc-section" style="margin-bottom: 0;">
         <p id="mDescTh" style="white-space: pre-line;"></p>
       </div>
-      <div class="modal-desc-section" id="mDescEnContainer">
-        <h3>English / Multi-Language Information</h3>
-        <p id="mDescEn" style="white-space: pre-line;"></p>
+      <div class="modal-desc-section" id="mDescEnContainer" style="margin-top: 12px; border-top: 1px dashed var(--line); padding-top: 12px; margin-bottom: 0;">
+        <p id="mDescEn" style="white-space: pre-line; font-size: 12.5px; color: var(--sub);"></p>
       </div>
-      <div class="modal-actions">
+      <div class="modal-actions" style="margin-top: 18px;">
         <a id="mLaunchBtn" class="m-btn" href="" target="_blank" rel="noopener">ไปที่บริการ · Open Service ➔</a>
       </div>
     </div>
