@@ -20,7 +20,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -41,7 +41,7 @@
     "region": "출입국,비자연장,외국인등록,체류,신고",
     "district": "national",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -62,7 +62,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -85,7 +85,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -106,7 +106,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -129,7 +129,7 @@
     "region": "대사관,여권,비자,영사,태국",
     "district": "national",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -151,7 +151,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -172,7 +172,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -193,7 +193,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -215,7 +215,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -235,7 +235,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -256,7 +256,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -276,7 +276,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -299,7 +299,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -320,7 +320,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -341,7 +341,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -350,7 +350,7 @@
     "name_ko": "국민건강보험공단",
     "name_th": "ประกันสุขภาพแห่งชาติ (NHIS)",
     "url": "https://www.nhis.or.kr",
-    "desc_th": "정보보험안내 및 건강보험 신청/보험료 조회",
+    "desc_th": "ข้อมูลและการสมัครประกันสุขภาพแห่งชาติ (NHIS) ตรวจสอบสิทธิ์และเบี้ยประกัน",
     "desc_en": "National health insurance info & enrollment",
     "tags": [
       "건강보험",
@@ -361,7 +361,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -370,7 +370,7 @@
     "name_ko": "외국인노동자지원센터",
     "name_th": "ศูนย์ช่วยเหลือแรงงานต่างชาติ",
     "url": "http://www.koreanlaw.org",
-    "desc_th": "ปรึกษา문제에 대한 전문상담과 무료 지원",
+    "desc_th": "บริการให้คำปรึกษาฟรีเกี่ยวกับปัญหาแรงงานและกฎหมายสำหรับต่างชาติ",
     "desc_en": "Free labor, legal & insurance counseling",
     "tags": [
       "노동",
@@ -382,7 +382,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -391,7 +391,7 @@
     "name_ko": "EPS-TOPIK 시험안내",
     "name_th": "ศูนย์ข้อมูลสอบวัดระดับภาษาเกาหลี EPS-TOPIK",
     "url": "https://eps.hrdkorea.or.kr",
-    "desc_th": "정보제공 및 시험 원수 접수 안내",
+    "desc_th": "ข้อมูลการสอบวัดระดับภาษาเกาหลี (EPS-TOPIK) และการสมัครสอบเพื่อทำงานในเกาหลี",
     "desc_en": "Korean language proficiency test info for EPS system",
     "tags": [
       "토픽",
@@ -404,7 +404,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -425,7 +425,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -445,7 +445,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -464,7 +464,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -484,7 +484,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -503,7 +503,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -512,7 +512,7 @@
     "name_ko": "프리티 (Freet)",
     "name_th": "ฟรีที (Freet · ซิมประหยัด)",
     "url": "https://www.freet.co.kr",
-    "desc_th": "ซิมราคาประหยัด 오픈 폰으로 본인 개통 지원",
+    "desc_th": "ซิมประหยัดราคาพิเศษ สมัครเปิดเบอร์ในชื่อตัวเองได้สะดวก",
     "desc_en": "Budget SIM, self-registration with ARC",
     "tags": [
       "알뜰폰",
@@ -523,7 +523,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -532,7 +532,7 @@
     "name_ko": "찡구모바일 (Chingu Mobile)",
     "name_th": "ชิงกูโมบายล์ (Chingu Mobile)",
     "url": "https://www.chingumobile.com",
-    "desc_th": "ซิมราคาประหยัด개통 서비스 지원",
+    "desc_th": "ซิมการ์ดราคาประหยัด บริการเปิดเบอร์ใหม่ด้วยพาสปอร์ตหรือบัตรต่างชาติ",
     "desc_en": "Multilingual budget SIM (self-registration)",
     "tags": [
       "알뜰폰",
@@ -544,7 +544,7 @@
     "region": "national",
     "district": "",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -573,7 +573,7 @@
     "region": "seoul",
     "district": "종로구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -601,7 +601,7 @@
     "region": "seoul",
     "district": "서대문구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -622,7 +622,7 @@
     "region": "seoul",
     "district": "마포구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -642,7 +642,7 @@
     "region": "seoul",
     "district": "마포구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -662,7 +662,7 @@
     "region": "seoul",
     "district": "마포구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -679,7 +679,7 @@
     "region": "and imported groceries",
     "district": "식당,마트,태국마트,똠양꿍,식료품",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -700,7 +700,7 @@
     "region": "seoul",
     "district": "용산구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -729,7 +729,7 @@
     "region": "daegu",
     "district": "달서구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -758,7 +758,7 @@
     "region": "daegu",
     "district": "동구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -778,7 +778,7 @@
     "region": "daegu",
     "district": "동구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -798,7 +798,7 @@
     "region": "daegu",
     "district": "남구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -818,7 +818,7 @@
     "region": "daegu",
     "district": "동구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -838,7 +838,7 @@
     "region": "daegu",
     "district": "달서구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -866,7 +866,7 @@
     "region": "busan",
     "district": "서구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -886,7 +886,7 @@
     "region": "busan",
     "district": "부산진구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -906,7 +906,7 @@
     "region": "busan",
     "district": "수영구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -926,7 +926,7 @@
     "region": "busan",
     "district": "해운대구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   },
   {
@@ -946,7 +946,7 @@
     "region": "busan",
     "district": "부산진구",
     "reviews": [],
-    "rating": 0.0,
+    "rating": 0,
     "user_submitted": false
   }
 ]

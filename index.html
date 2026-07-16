@@ -139,21 +139,22 @@
   /* cards */
   /* grids */
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
-  .card-item{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:12px;box-shadow:var(--shadow);
-    display:flex;flex-direction:column;justify-content:space-between;min-height:135px;transition:transform 0.15s ease}
+  .card-item{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:12px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;justify-content:center;min-height:92px;transition:transform 0.15s ease, box-shadow 0.15s ease;}
   .card-item:active{transform:scale(.97)}
-  .c-header{display:flex;align-items:flex-start;gap:8px}
-  .c-ico{width:34px;height:34px;border-radius:8px;background:var(--soft);flex-shrink:0;
-    display:flex;align-items:center;justify-content:center;font-size:18px}
+  .card-item:hover{box-shadow: 0 4px 15px rgba(15,30,70,.1); transform: translateY(-1px);}
+  .c-header{display:flex;align-items:center;gap:10px}
+  .c-ico{width:40px;height:40px;border-radius:10px;background:var(--soft);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:20px}
   .c-title-box{min-width:0;flex:1}
   .c-name{font-size:13.5px;font-weight:800;line-height:1.3;color:var(--ink);
-    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-  .c-ko{font-size:11px;color:var(--sub);font-weight:600;margin-top:1px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .c-ko{font-size:10.5px;color:var(--sub);font-weight:600;margin-top:1px;
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .subbadge{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;
     background:#e7edfb;color:var(--navy2);margin-top:6px;line-height:1.3}
-  .c-desc-comp{font-size:11px;color:#475569;margin-top:6px;line-height:1.45;
-    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;flex-grow:1}
+  .c-desc-comp{font-size:11px;color:#475569;margin-top:1px;line-height:1.3;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600;grid-column:1 / -1}
   @media(min-width:640px){
     .grid{grid-template-columns:repeat(3,1fr);gap:12px}
@@ -526,12 +527,11 @@
   <div class="dev-banner">
     <div class="dev-header">
       <span class="dev-badge">Beta (v0.2)</span>
-      <span class="dev-status">🚧 กำลังพัฒนาพอร์ทัล · Active Development</span>
+      <span class="dev-status">🟢 ระบบเปิดใช้งานได้ปกติ · Portal Active</span>
     </div>
     <div class="dev-text">
-      <p class="th"><b>เกี่ยวกับเว็บไซต์นี้:</b> พอร์ทัลช่วยเหลือฉุกเฉินสำหรับคนไทยในเกาหลีใต้ ขณะนี้พัฒนาไปแล้ว 20% โดยเรากำลังปรับปรุงหน้าตา การออกแบบ และอัปเดตข้อมูลสถานที่ต่าง ๆ ในชุมชนอย่างต่อเนื่อง</p>
-      <p class="en"><b>Under Development:</b> This portal is currently 20% complete and is undergoing active design and feature updates to better assist Thai residents in Korea.</p>
-      <p class="ko"><b>개발 안내:</b> 본 링크 포털은 현재 20% 완성 단계의 베타 버전으로, 방문자 편의를 위해 지속적으로 기능 개선과 디자인 업데이트 및 커뮤니티 장소 정보를 추가하고 있습니다.</p>
+      <p class="th"><b>ทีมงานกำลังคัดเลือกและอัปเดตลิงก์บริการใหม่ๆ</b> เพื่ออำนวยความสะดวกให้ชาวต่างชาติในเกาหลีอย่างต่อเนื่อง</p>
+      <p class="en"><b>We are live & updating!</b> We are curating more helpful links to make your life in Korea even easier.</p>
     </div>
     <div class="dev-progress-wrapper">
       <div class="dev-progress-container">
@@ -568,7 +568,7 @@
   <!-- Premium Service CTA Banner -->
   <div class="premium-banner" style="margin-top:20px;">
     <span class="p-badge">Kori Care Premium</span>
-    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า 혹은 외국인 맞춤 전문 서비스?</div>
+    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า หรือบริการพิเศษสำหรับคนต่างชาติโดยเฉพาะ?</div>
     <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
     <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
   </div>
@@ -579,10 +579,14 @@
   <div class="count" id="count"></div>
   <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
 
-  <div class="disc">
-    ลิงก์ทั้งหมดอ้างอิงเว็บไซต์ทางการ · This portal is for information only; use of each service is at your own responsibility.
+  <div class="disc" style="font-size:12.5px; line-height:1.6; text-align:center; padding:15px; background:var(--soft); border-radius:14px; color:var(--sub); margin-top:24px;">
+    <p style="margin-bottom:4px;"><b>🇹🇭 แนะนำการใช้งาน:</b> พอร์ทัลนี้รวบรวมเว็บไซต์และลิงก์บริการทางราชการที่ชาวต่างชาติในเกาหลีใต้ใช้งานบ่อยที่สุด เพื่ออำนวยความสะดวกในการใช้ชีวิตของคุณให้ง่ายและราบรื่นยิ่งขึ้น</p>
+    <p style="margin-bottom:4px;"><b>🇺🇸 Guide:</b> We curated the most frequently used official links for foreigners in Korea to make your daily life as convenient and easy as possible.</p>
+    <p><b>🇰🇷 안내:</b> 한국 거주 외국인분들이 보다 편리하고 안전하게 생활하실 수 있도록 자주 찾는 공식 서비스들을 한데 모았습니다. 본 사이트는 유용한 링크 정보를 지속적으로 업데이트합니다.</p>
   </div>
-  <footer>Kori Care · ลิงก์ช่วยเหลือคนต่างชาติในเกาหลี (prototype) · © 2026</footer>
+  <footer style="margin:24px 0 40px; color:var(--sub); font-size:12px; text-align:center; line-height:1.6;">
+    Kori Care · ลิงก์ช่วยเหลือการใช้ชีวิตในเกาหลี · © 2026
+  </footer>
 </div>
 
 <!-- Search Overlay Modal -->
@@ -709,7 +713,8 @@
     { key:"transport",  th:"การเดินทางและสื่อสาร", en:"Transport·Telecom", emo:"📱" },
     { key:"admin",      th:"ล่ามและราชการ", en:"Admin·Translation", emo:"🤝" }
   ];
-  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝"};
+  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝",hair:"💇",nail:"💅",thai_food:"🍜",phone:"📱"};
+  var CAT_BG={medical:"#ffe4e6",visa:"#e0f2fe",labor:"#d1fae5",finance:"#fef3c7",transport:"#f3e8ff",admin:"#e0e7ff",hair:"#fce7f3",nail:"#fae8ff",thai_food:"#ffedd5",phone:"#e2e8f0"};
   var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ"};
   
   var REGIONS = [
@@ -813,16 +818,24 @@
   }
   
   function card(x, type, idx){
+    var title = esc(x.name_th);
+    if (x.name_ko) {
+      title += ' <span style="font-size:11.5px; font-weight:600; color:var(--sub); font-family:sans-serif;">(' + esc(x.name_ko) + ')</span>';
+    }
+    
+    var summary = esc(x.desc_th || "");
+    var summaryEn = esc(x.desc_en || "");
+    
     return '<div class="card-item" onclick="openDetailModal(\''+type+'\',' + idx + ')" style="cursor:pointer;">'
       + '<div class="c-header">'
-      +   '<div class="c-ico">' + (CAT_ICON[x.category] || "🔗") + '</div>'
-      +   '<div class="c-title-box">'
-      +     '<div class="c-name">' + esc(x.name_th || x.name_ko) + '</div>'
-      +     '<div class="c-ko">' + esc(x.desc_en || x.name_ko) + '</div>'
+      +   '<div class="c-ico" style="background:' + (CAT_BG[x.category] || "#f1f5f9") + ';">' + (CAT_ICON[x.category] || "🔗") + '</div>'
+      +   '<div class="c-title-box" style="margin-left: 2px;">'
+      +     '<div class="c-name">' + title + '</div>'
+      +     '<div class="c-desc-comp">' + summary + '</div>'
+      +     '<div class="c-ko">' + summaryEn + '</div>'
       +   '</div>'
       + '</div>'
       + telBadge(x)
-      + '<div class="c-desc-comp">' + esc(x.desc_th || "") + '</div>'
       + '</div>';
   }
 
