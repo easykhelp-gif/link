@@ -1,8 +1,8 @@
 @echo off
 cd /d %~dp0
 echo ==================================================
-echo       Running Kori Care News Builder (SSG)...
+echo       Running Kori Care Facebook RSS Sync (Node)...
 echo ==================================================
-python build_news.py
+node auto_fb_sync.js
 echo.
 pause
