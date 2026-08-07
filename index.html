@@ -27,9 +27,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#ffffff; --soft:#f3f6fb; --ink:#14203a; --sub:#5b6b86; --line:#e5eaf3;
-    --navy:#123a8a; --navy2:#0e2f72; --chip:#eef2fa; --ok:#1f9d6b; --red:#d63a3a;
-    --shadow:0 1px 10px rgba(15,30,70,.06);
+    --bg:#f4f6fa; --soft:#f1f5f9; --ink:#14203a; --sub:#5b6b86; --line:#e2e8f0;
+    --navy:#123a8a; --navy2:#0e2f72; --chip:#e8edf7; --ok:#1f9d6b; --red:#d63a3a;
+    --shadow:0 8px 24px rgba(148,163,184,0.06), 0 2px 6px rgba(148,163,184,0.04);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -71,7 +71,12 @@
   .hot .hk:active{transform:scale(.96)}
   /* filters */
   .flab{font-size:11.5px;font-weight:800;color:var(--sub);margin:14px 0 6px;letter-spacing:.4px;text-transform:uppercase}
-  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chips{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px}
+  .chips::-webkit-scrollbar{display:none}
+  .chips{-ms-overflow-style:none;scrollbar-width:none}
+  @media(min-width:640px){
+    .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0}
+  }
   .chip{font-size:14px;font-weight:700;padding:9px 14px;min-height:44px;display:inline-flex;align-items:center;gap:5px;
     border-radius:999px;background:var(--chip);color:var(--ink);border:2px solid transparent;cursor:pointer;user-select:none}
   .chip small{font-size:11px;color:var(--sub);font-weight:600}
@@ -139,21 +144,22 @@
   /* cards */
   /* grids */
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
-  .card-item{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:12px;box-shadow:var(--shadow);
-    display:flex;flex-direction:column;justify-content:space-between;min-height:135px;transition:transform 0.15s ease}
-  .card-item:active{transform:scale(.97)}
-  .c-header{display:flex;align-items:flex-start;gap:8px}
-  .c-ico{width:34px;height:34px;border-radius:8px;background:var(--soft);flex-shrink:0;
-    display:flex;align-items:center;justify-content:center;font-size:18px}
+  .card-item{background:#fff;border:1px solid rgba(226,232,240,0.8);border-radius:18px;padding:14px 12px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;justify-content:center;min-height:96px;transition:transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;}
+  .card-item:active{transform:scale(.96)}
+  .card-item:hover{box-shadow:0 12px 30px rgba(148, 163, 184, 0.12);transform:translateY(-2px)}
+  .c-header{display:flex;align-items:center;gap:10px}
+  .c-ico{width:40px;height:40px;border-radius:10px;background:var(--soft);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:20px}
   .c-title-box{min-width:0;flex:1}
-  .c-name{font-size:13.5px;font-weight:800;line-height:1.3;color:var(--ink);
+  .c-name{font-size:13px;font-weight:800;line-height:1.35;color:var(--ink);
     overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-  .c-ko{font-size:11px;color:var(--sub);font-weight:600;margin-top:1px;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .c-ko{font-size:10.5px;color:var(--sub);font-weight:600;margin-top:2px;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
   .subbadge{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;
     background:#e7edfb;color:var(--navy2);margin-top:6px;line-height:1.3}
-  .c-desc-comp{font-size:11px;color:#475569;margin-top:6px;line-height:1.45;
-    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;flex-grow:1}
+  .c-desc-comp{font-size:11px;color:#475569;margin-top:2px;line-height:1.3;
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
   .empty{text-align:center;color:var(--sub);padding:34px 0;font-weight:600;grid-column:1 / -1}
   @media(min-width:640px){
     .grid{grid-template-columns:repeat(3,1fr);gap:12px}
@@ -303,7 +309,7 @@
     display: block;
     margin-bottom: 4px;
   }
-  
+
   /* symptom guide */
   .symptom-guide {
     background: #f0f7ff;
@@ -334,7 +340,7 @@
     display: inline;
     color: var(--navy);
   }
-  
+
   /* submit banner */
   .submit-banner {
     background: #fef3c7;
@@ -378,15 +384,31 @@
       min-width: 140px;
     }
   }
-  
+
   /* local directory section */
   .local-directory-section {
-    background: #fafbfc;
-    border: 1.5px solid var(--line);
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.8);
     border-radius: 20px;
     padding: 20px 16px;
     margin-top: 30px;
     box-shadow: var(--shadow);
+  }
+  .local-filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .filter-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--sub);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
   .local-desc {
     font-size: 13.5px;
@@ -409,6 +431,87 @@
     color: #ffffff;
     border-color: var(--navy);
   }
+
+  /* dev banner styles */
+  .dev-banner {
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin: 0 0 12px;
+    box-shadow: var(--shadow);
+  }
+  .dev-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .dev-badge {
+    background: #4f46e5;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .dev-status {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #4f46e5;
+  }
+  .dev-text p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: #374151;
+  }
+  .dev-text p:last-child {
+    margin-bottom: 0;
+  }
+  .dev-text b {
+    color: #1e1b4b;
+  }
+  .dev-progress-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .dev-progress-container {
+    flex: 1;
+    background: #e0e7ff;
+    border-radius: 999px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .dev-progress-bar {
+    background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
+    height: 100%;
+    border-radius: 999px;
+  }
+  .dev-progress-text {
+    font-size: 11.5px;
+    font-weight: 800;
+    color: #4f46e5;
+    white-space: nowrap;
+  }
+
+  /* ===== Severance calculator entry card (kc- prefix, 충돌 방지) ===== */
+  .kc-calc-card{display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,#143f95 0%,#0e2f72 100%);
+    border-radius:18px;padding:16px 18px;margin:16px 0 4px;box-shadow:0 10px 26px rgba(18,58,138,.28);
+    color:#fff;text-decoration:none;position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent;transition:transform .12s ease}
+  .kc-calc-card:active{transform:scale(.985)}
+  .kc-calc-card::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;
+    background:radial-gradient(circle,rgba(255,255,255,.10),transparent 70%)}
+  .kc-calc-ic{flex:none;width:52px;height:52px;border-radius:14px;background:rgba(255,255,255,.14);
+    display:flex;align-items:center;justify-content:center}
+  .kc-calc-ic svg{width:30px;height:30px;display:block}
+  .kc-calc-tx{flex:1;min-width:0;line-height:1.35}
+  .kc-calc-tx .t{font-size:18.5px;font-weight:800;letter-spacing:-.3px}
+  .kc-calc-arrow{flex:none;font-size:22px;color:#ffd166;font-weight:800;margin-left:2px}
 </style>
 </head>
 <body>
@@ -430,14 +533,53 @@
     <h1>ค้นหาข้อมูลที่จำเป็น<br>สำหรับชีวิตในเกาหลี ได้ในที่เดียว</h1>
     <p>รวมลิงก์บริการทางการ · Official help links for foreigners in Korea</p>
     <div class="sos">
-      <a href="tel:112"><div class="n">📞 112</div><div class="l">ตำรวจ · Police</div></a>
-      <a href="tel:119"><div class="n">📞 119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
-      <a href="tel:1345"><div class="n">📞 1345</div><div class="l">ต่างชาติ · Foreigner</div></a>
+      <a href="tel:112">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#ef4444; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          112
+        </div>
+        <div class="l">ตำรวจ · Police</div>
+      </a>
+      <a href="tel:119">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#f97316; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          119
+        </div>
+        <div class="l">ฉุกเฉิน · Ambulance</div>
+      </a>
+      <a href="tel:1345">
+        <div class="n">
+          <span style="display:inline-flex; align-items:center; justify-content:center; background:#3b82f6; border-radius:50%; width:22px; height:22px; margin-right:4px;"><svg width="11" height="11" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          1345
+        </div>
+        <div class="l">ตม. ต่างชาติ · Info</div>
+      </a>
     </div>
   </div>
 </section>
 
 <div class="wrap">
+  <!-- Severance calculator card start -->
+  <a class="kc-calc-card" href="/th/severance-calculator">
+    <span class="kc-calc-ic">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="9" y="6" width="30" height="36" rx="6" fill="#fff"/>
+        <rect x="13" y="10" width="22" height="9" rx="2.5" fill="#123a8a"/>
+        <path d="M18 14.5h5M20.5 12v5" stroke="#ffd166" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="16.5" cy="26" r="2.3" fill="#123a8a"/><circle cx="24" cy="26" r="2.3" fill="#123a8a"/>
+        <circle cx="31.5" cy="26" r="2.3" fill="#123a8a"/><circle cx="16.5" cy="33" r="2.3" fill="#123a8a"/>
+        <circle cx="24" cy="33" r="2.3" fill="#123a8a"/>
+        <rect x="29.2" y="30.7" width="4.6" height="6.6" rx="2.3" fill="#1f9d6b"/>
+      </svg>
+    </span>
+    <span class="kc-calc-tx">
+      <span class="t" style="font-family:'Noto Sans Thai',sans-serif">คำนวณเงินชดเชยที่คุณจะได้รับ</span>
+    </span>
+    <span class="kc-calc-arrow">→</span>
+  </a>
+  <!-- Severance calculator card end -->
+
+
   <div class="search">
     <span class="ic">🔍</span>
     <input id="q" type="text" placeholder="ค้นหาบริการ · Search (เช่น วีซ่า, โอนเงิน, โรงพยาบาล)" readonly style="cursor: pointer;">
@@ -450,43 +592,68 @@
   <div class="news-grid" id="news-list">
     <!-- NEWS_START -->
 
-    <a href="news/hotnews_1786114854712_1.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-      <img src="news/images/thumb_1786114854087_1.jpg" alt="เปิดเวที ไทยแลนด์ จูเนียร์ แชมเปี้ยนชิพ 13-16 ส.ค.นี้ ณ อัลไพน์ เชียงใหม่ เส้นทางสู่ AJGA" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
+    <a href="news/hotnews_1786127454218_1.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+      <img src="news/images/thumb_1786127453988_1.jpg" alt="แมนฯ ซิตี้ปัดข้อเสนอจากบาร์เซโลนาที่ยื่นเข้ามาเพื่อขอซื้อ โรดรี" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
       <div style="font-size:14px; font-weight:600; color:#1e293b; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; line-height:1.4;">
-        เปิดเวที ไทยแลนด์ จูเนียร์ แชมเปี้ยนชิพ 13-16 ส.ค.นี้ ณ อัลไพน์ เชียงใหม่ เส้นทางสู่ AJGA
+        แมนฯ ซิตี้ปัดข้อเสนอจากบาร์เซโลนาที่ยื่นเข้ามาเพื่อขอซื้อ โรดรี
       </div>
     </a>
 
-    <a href="news/hotnews_1786114855266_2.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-      <img src="news/images/thumb_1786114854734_2.jpg" alt="ยึดยาบ้า 2.6 ล้านเม็ด 16 กระสอบซุกกลางทุ่ง ออกหมายล่าเครือข่ายซุ้มไก่ชน เตือน“Happy Water”ปลอมเป็นคอลลาเจน" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
+    <a href="news/hotnews_1786127454488_2.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+      <img src="news/images/thumb_1786127454234_2.jpg" alt="กระแสแรง! นักท่องเที่ยวแห่เช็กอินยอดเขาพระบาทใหญ่ ชมฟูจิสุโขทัย วิวทิวทัศน์สวยงามระดับร้อยล้าน" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
       <div style="font-size:14px; font-weight:600; color:#1e293b; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; line-height:1.4;">
-        ยึดยาบ้า 2.6 ล้านเม็ด 16 กระสอบซุกกลางทุ่ง ออกหมายล่าเครือข่ายซุ้มไก่ชน เตือน“Happy Water”ปลอมเป็นคอลลาเจน
+        กระแสแรง! นักท่องเที่ยวแห่เช็กอินยอดเขาพระบาทใหญ่ ชมฟูจิสุโขทัย วิวทิวทัศน์สวยงามระดับร้อยล้าน
       </div>
     </a>
 
-    <a href="news/hotnews_1786114855319_3.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-      <img src="news/images/thumb_1786114855267_3.jpg" alt="สืบภูเก็ต ควง สสจ.จังหวัด บุกจับคาห้องพัก สาวลักลอบขายปากกาลดน้ำหนักเถื่อน" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
+    <a href="news/hotnews_1786127454552_3.html" class="news-card" style="display:flex; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+      <img src="news/images/thumb_1786127454489_3.jpg" alt="ไปไม่ถึงปลายทาง กระบะซุกชาวเมียนมา 12 ชีวิตอัดแน่นพาหนีเข้าเมือง โดนจับคาด่านที่สังขละบุรี" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
       <div style="font-size:14px; font-weight:600; color:#1e293b; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; line-height:1.4;">
-        สืบภูเก็ต ควง สสจ.จังหวัด บุกจับคาห้องพัก สาวลักลอบขายปากกาลดน้ำหนักเถื่อน
+        ไปไม่ถึงปลายทาง กระบะซุกชาวเมียนมา 12 ชีวิตอัดแน่นพาหนีเข้าเมือง โดนจับคาด่านที่สังขละบุรี
       </div>
     </a>
     <!-- NEWS_END -->
   </div>
 
+
+
   <!-- Local Curated Directory Section -->
   <div class="local-directory-section">
-    <div class="flab">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
-    <div class="local-desc">โรงพยาบาลและร้านค้าแนะนำที่น่าเชื่อถือในเขตพื้นที่ของท่าน (Verified Local Listings)</div>
-    
-    <div class="chips region" id="regions"></div>
-    <div class="chips local-cats" id="localCats" style="display:none; margin-top:8px;"></div>
-    <div class="chips medical-specialties" id="medicalSpecialties" style="display:none; margin-top:8px;"></div>
-    <div class="symptom-description-box" id="symptomDescBox" style="display:none; margin-top:10px; margin-bottom:6px;"></div>
-    <div class="chips district-chips" id="districts" style="display:none; margin-top:8px;"></div>
-    
+    <div class="flab" style="margin-top: 0; color: var(--navy); font-size:12.5px;">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
+    <div class="local-desc" style="font-size:13px; color:var(--sub); margin-bottom:18px;">เลือกพื้นที่ที่คุณอยู่ เพื่อค้นหาสถานที่และบริการใกล้ตัวคุณ · Select your area to find local places & services nearby</div>
+
+    <!-- Filter Group 1: Region Select Dropdown -->
+    <div class="local-filter-group" id="groupRegions" style="margin-bottom: 12px;">
+      <div style="position:relative; width:100%;">
+        <select id="regionDropdown" style="width:100%; font-size:15px; font-weight:700; padding:12px 16px; border-radius:12px; border:2px solid var(--navy); background:#ffffff; color:var(--navy); outline:none; cursor:pointer; appearance:none; -webkit-appearance:none; box-shadow:0 2px 8px rgba(18,58,138,0.08);">
+        </select>
+        <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; color:var(--navy); font-size:14px; font-weight:800;">▼</span>
+      </div>
+    </div>
+
+    <!-- Filter Group 2: Category -->
+    <div class="local-filter-group" id="groupLocalCats" style="display:none; margin-top:14px;">
+      <div class="filter-label">💼 เลือกประเภทบริการ · Service Category</div>
+      <div class="chips local-cats" id="localCats"></div>
+    </div>
+
+    <!-- Filter Group 3: Medical Specialties -->
+    <div class="local-filter-group" id="groupMedicalSpecialties" style="display:none; margin-top:14px;">
+      <div class="filter-label">🩺 แผนกการแพทย์ · Medical Specialty</div>
+      <div class="chips medical-specialties" id="medicalSpecialties"></div>
+    </div>
+
+    <div class="symptom-description-box" id="symptomDescBox" style="display:none; margin-top:10px; margin-bottom:6px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:10px 12px; font-size:12.5px; color:#1e40af; line-height:1.45;"></div>
+
+    <!-- Filter Group 4: Districts -->
+    <div class="local-filter-group" id="groupDistricts" style="display:none; margin-top:14px;">
+      <div class="filter-label">🔍 เลือกเขตพื้นที่ · Select District</div>
+      <div class="chips district-chips" id="districts"></div>
+    </div>
+
     <div class="info" id="regionInfo"></div>
-    <div class="grid" id="localGrid" style="margin-top:16px;"></div>
-    
+    <div class="grid" id="localGrid" style="margin-top:20px;"></div>
+
     <!-- Submit Banner -->
     <div class="submit-banner" id="submitBanner" style="display:none; margin-top: 16px;">
       <div class="s-content">
@@ -499,10 +666,10 @@
 
   <!-- Premium Service CTA Banner -->
   <div class="premium-banner" style="margin-top:20px;">
-    <span class="p-badge">Kori Care Premium</span>
-    <div class="p-title">ต้องการความช่วยเหลือทางกฎหมาย วีซ่า หรือบริการเฉพาะสำหรับชาวต่างชาติ?</div>
-    <p class="p-desc">รับบริการดูแลระดับพรีเมียมจากผู้เชี่ยวชาญคนเกาหลีและไทย (ต่อวีซ่า, คดีความ, ปัญหาแรงงาน, แปลเอกสาร)</p>
-    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ติดต่อบริการหลัก Kori Care ➔</a>
+    <span class="p-badge">Kori Care Premium 1:1</span>
+    <div class="p-title">แก้ปัญหาด้านวีซ่า กฎหมาย เอกสารราชการ และการใช้ชีวิตในเกาหลีแบบเบ็ดเสร็จ</div>
+    <p class="p-desc">บริการจัดการดูแลเคสและแก้ปัญหาโดยทีมผู้เชี่ยวชาญแบบ 1:1 (ต่อวีซ่า, คดีความ, ข้อพิพาทแรงงาน, แปลเอกสาร)</p>
+    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn">ปรึกษาผู้เชี่ยวชาญ Kori Care ➔</a>
   </div>
 
   <!-- National Utility Section -->
@@ -511,10 +678,14 @@
   <div class="count" id="count"></div>
   <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
 
-  <div class="disc">
-    ลิงก์ทั้งหมดอ้างอิงเว็บไซต์ทางการ · This portal is for information only; use of each service is at your own responsibility.
+  <div class="disc" style="font-size:12.5px; line-height:1.6; text-align:center; padding:15px; background:var(--soft); border-radius:14px; color:var(--sub); margin-top:24px;">
+    <p style="margin-bottom:4px;"><b>🇹🇭 แนะนำการใช้งาน:</b> พอร์ทัลนี้รวบรวมเว็บไซต์และลิงก์บริการทางราชการที่ชาวต่างชาติในเกาหลีใต้ใช้งานบ่อยที่สุด เพื่ออำนวยความสะดวกในการใช้ชีวิตของคุณให้ง่ายและราบรื่นยิ่งขึ้น</p>
+    <p style="margin-bottom:4px;"><b>🇺🇸 Guide:</b> We curated the most frequently used official links for foreigners in Korea to make your daily life as convenient and easy as possible.</p>
+    <p><b>🇰🇷 안내:</b> 한국 거주 외국인분들이 보다 편리하고 안전하게 생활하실 수 있도록 자주 찾는 공식 서비스들을 한데 모았습니다. 본 사이트는 유용한 링크 정보를 지속적으로 업데이트합니다.</p>
   </div>
-  <footer>Kori Care · ลิงก์ช่วยเหลือคนต่างชาติในเกาหลี (prototype) · © 2026</footer>
+  <footer style="margin:24px 0 40px; color:var(--sub); font-size:12px; text-align:center; line-height:1.6;">
+    Kori Care · ลิงก์ช่วยเหลือการใช้ชีวิตในเกาหลี · © 2026
+  </footer>
 </div>
 
 <!-- Search Overlay Modal -->
@@ -552,15 +723,13 @@
       </div>
     </div>
     <div class="modal-content">
-      <div class="modal-desc-section">
-        <h3>คำอธิบายภาษาไทย (Thai Description)</h3>
+      <div class="modal-desc-section" style="margin-bottom: 0;">
         <p id="mDescTh" style="white-space: pre-line;"></p>
       </div>
-      <div class="modal-desc-section" id="mDescEnContainer">
-        <h3>English / Multi-Language Information</h3>
-        <p id="mDescEn" style="white-space: pre-line;"></p>
+      <div class="modal-desc-section" id="mDescEnContainer" style="margin-top: 12px; border-top: 1px dashed var(--line); padding-top: 12px; margin-bottom: 0;">
+        <p id="mDescEn" style="white-space: pre-line; font-size: 12.5px; color: var(--sub);"></p>
       </div>
-      <div class="modal-actions">
+      <div class="modal-actions" style="margin-top: 18px;">
         <a id="mLaunchBtn" class="m-btn" href="" target="_blank" rel="noopener">ไปที่บริการ · Open Service ➔</a>
       </div>
     </div>
@@ -589,11 +758,10 @@
         <div class="form-col">
           <label class="form-label">ภูมิภาค (Region)</label>
           <select id="s_region" required class="form-input">
-            <option value="seoul_gyeonggi">กรุงเทพและปริมณฑล (Seoul / Gyeonggi / Incheon)</option>
-            <option value="daegu_gyeongbuk">แดกู & คย็องบุก (Daegu / Gumi / Gyeongbuk)</option>
-            <option value="busan_gyeongnam">ปูซาน & คย็องนัม (Busan / Ulsan / Gyeongnam)</option>
-            <option value="chungcheong_daejeon">ชุงช็อง & แดจ็อน (Chungcheong / Daejeon)</option>
-            <option value="other">อื่น ๆ (Other Regions)</option>
+            <option value="seoul">กรุงโซล (Seoul)</option>
+            <option value="busan">ปูซาน (Busan)</option>
+            <option value="daegu">แดกู (Daegu)</option>
+            <option value="other">อื่น ๆ (Other)</option>
           </select>
         </div>
         <div class="form-col">
@@ -642,52 +810,67 @@
     { key:"transport",  th:"การเดินทางและสื่อสาร", en:"Transport·Telecom", emo:"📱" },
     { key:"admin",      th:"ล่ามและราชการ", en:"Admin·Translation", emo:"🤝" }
   ];
-  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝"};
-  var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ"};
-  
+  var CAT_ICON={medical:"🏥",visa:"📑",labor:"👔",finance:"💸",transport:"📱",admin:"🤝",hair:"💇",nail:"💅",thai_food:"🍜",phone:"📱",shipping:"📦"};
+  var CAT_BG={medical:"#ffe4e6",visa:"#e0f2fe",labor:"#d1fae5",finance:"#fef3c7",transport:"#f3e8ff",admin:"#e0e7ff",hair:"#fce7f3",nail:"#fae8ff",thai_food:"#ffedd5",phone:"#e2e8f0",shipping:"#e0f7fa"};
+  var CAT_TH={medical:"การแพทย์และฉุกเฉิน",visa:"วีซ่าและที่อยู่อาศัย",labor:"แรงงานและประกัน",finance:"การเงินและโอนเงิน",transport:"การเดินทางและสื่อสาร",admin:"ล่ามและราชการ",hair:"ทำผม",nail:"ทำเล็บ",thai_food:"อาหารและซูเปอร์",phone:"โทรศัพท์มือถือ",shipping:"ขนส่งและส่งของ"};
+
   var REGIONS = [
-    {key:"전체",th:"ทั้งหมด (All)",en:"All"},
-    {key:"seoul",th:"กรุงโซล (Seoul)",en:"Seoul"},
-    {key:"busan",th:"ปูซาน (Busan)",en:"Busan"},
-    {key:"daegu",th:"แดกู (Daegu)",en:"Daegu"},
+    {key:"전체",th:"ทั้งหมด (All Regions)",en:"All Regions"},
+    {key:"seoul",th:"1. กรุงโซล (Seoul)",en:"Seoul"},
+    {key:"gyeonggi",th:"2. จังหวัดคยองกี (Gyeonggi)",en:"Gyeonggi"},
+    {key:"incheon",th:"3. เมืองอินชอน (Incheon)",en:"Incheon"},
+    {key:"busan",th:"4. เมืองปูซาน (Busan)",en:"Busan"},
+    {key:"daegu",th:"5. เมืองแดกู (Daegu)",en:"Daegu"},
+    {key:"gyeongnam",th:"6. จังหวัดคยองซังนัม (Gyeongnam)",en:"Gyeongnam"},
+    {key:"gyeongbuk",th:"7. จังหวัดคยองซังบุก (Gyeongbuk)",en:"Gyeongbuk"},
+    {key:"chungnam",th:"8. จังหวัดชุงช็องนัม (Chungnam)",en:"Chungnam"},
+    {key:"chungbuk",th:"9. จังหวัดชุงช็องบุก (Chungbuk)",en:"Chungbuk"},
+    {key:"daejeon",th:"10. เมืองแทจอน (Daejeon)",en:"Daejeon"},
+    {key:"jeonnam",th:"11. จังหวัดช็อลลานัม (Jeonnam)",en:"Jeonnam"},
+    {key:"jeonbuk",th:"12. จังหวัดช็อลลาบุก (Jeonbuk)",en:"Jeonbuk"},
+    {key:"gwangju",th:"13. เมืองกวางจู (Gwangju)",en:"Gwangju"},
+    {key:"gangwon",th:"14. จังหวัดคังวอน (Gangwon)",en:"Gangwon"},
+    {key:"ulsan",th:"15. เมืองอุลซาน (Ulsan)",en:"Ulsan"},
+    {key:"sejong",th:"16. เมืองเซจง (Sejong)",en:"Sejong"},
+    {key:"jeju",th:"17. เกาะเชจู (Jeju)",en:"Jeju"},
     {key:"other",th:"ภูมิภาคอื่น ๆ (Other Regions)",en:"Other Regions"}
   ];
-  
+
   var DISTRICTS = {
     seoul: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"종로구",th:"종로구 (Jongno)",en:"Jongno-gu"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"용산구",th:"용산구 (Yongsan)",en:"Yongsan-gu"},
-      {key:"마포구",th:"마포구 (Mapo)",en:"Mapo-gu"},
-      {key:"강남구",th:"강남구 (Gangnam)",en:"Gangnam-gu"},
-      {key:"서초구",th:"서초구 (Seocho)",en:"Seocho-gu"},
-      {key:"영등포구",th:"영등포구 (Yeongdeungpo)",en:"Yeongdeungpo-gu"},
-      {key:"구로구",th:"구로구 (Guro)",en:"Guro-gu"},
-      {key:"관악구",th:"관악구 (Gwanak)",en:"Gwanak-gu"},
-      {key:"송파구",th:"송파구 (Songpa)",en:"Songpa-gu"}
+      {key:"종로구",th:"Jongno-gu (종로구)",en:"Jongno-gu"},
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"용산구",th:"Yongsan-gu (용산구)",en:"Yongsan-gu"},
+      {key:"마포구",th:"Mapo-gu (마포구)",en:"Mapo-gu"},
+      {key:"강남구",th:"Gangnam-gu (강남구)",en:"Gangnam-gu"},
+      {key:"서초구",th:"Seocho-gu (서초구)",en:"Seocho-gu"},
+      {key:"영등포구",th:"Yeongdeungpo-gu (영등포구)",en:"Yeongdeungpo-gu"},
+      {key:"구로구",th:"Guro-gu (구로구)",en:"Guro-gu"},
+      {key:"관악구",th:"Gwanak-gu (관악구)",en:"Gwanak-gu"},
+      {key:"송파구",th:"Songpa-gu (송파구)",en:"Songpa-gu"}
     ],
     busan: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"해운대구",th:"해운대구 (Haeundae)",en:"Haeundae-gu"},
-      {key:"부산진구",th:"부산진구 (Busanjin)",en:"Busanjin-gu"},
-      {key:"동래구",th:"동래구 (Dongnae)",en:"Dongnae-gu"},
-      {key:"사하구",th:"사하구 (Saha-gu)",en:"Saha-gu"},
-      {key:"수영구",th:"수영구 (Suyeong)",en:"Suyeong-gu"},
-      {key:"강서구",th:"강서구 (Gangseo)",en:"Gangseo-gu"}
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"해운대구",th:"Haeundae-gu (해운대구)",en:"Haeundae-gu"},
+      {key:"부산진구",th:"Busanjin-gu (부산진구)",en:"Busanjin-gu"},
+      {key:"동래구",th:"Dongnae-gu (동래구)",en:"Dongnae-gu"},
+      {key:"사하구",th:"Saha-gu (사하구)",en:"Saha-gu"},
+      {key:"수영구",th:"Suyeong-gu (수영구)",en:"Suyeong-gu"},
+      {key:"강서구",th:"Gangseo-gu (강서구)",en:"Gangseo-gu"}
     ],
     daegu: [
       {key:"전체",th:"ทั้งหมด",en:"All"},
-      {key:"달서구",th:"달서구 (Dalseo)",en:"Dalseo-gu"},
-      {key:"동구",th:"동구 (Dong-gu)",en:"Dong-gu"},
-      {key:"서구",th:"서구 (Seo-gu)",en:"Seo-gu"},
-      {key:"남구",th:"남구 (Nam-gu)",en:"Nam-gu"},
-      {key:"북구",th:"북구 (Buk-gu)",en:"Buk-gu"},
-      {key:"수성구",th:"수성구 (Suseong)",en:"Suseong-gu"},
-      {key:"중구",th:"중구 (Jung-gu)",en:"Jung-gu"},
-      {key:"달성군",th:"달성군 (Dalseong)",en:"Dalseong-gun"},
-      {key:"군위군",th:"군위군 (Gunwi)",en:"Gunwi-gun"}
+      {key:"달서구",th:"Dalseo-gu (달서구)",en:"Dalseo-gu"},
+      {key:"동구",th:"Dong-gu (동구)",en:"Dong-gu"},
+      {key:"서구",th:"Seo-gu (서구)",en:"Seo-gu"},
+      {key:"남구",th:"Nam-gu (남구)",en:"Nam-gu"},
+      {key:"북구",th:"Buk-gu (북구)",en:"Buk-gu"},
+      {key:"수성구",th:"Suseong-gu (수성구)",en:"Suseong-gu"},
+      {key:"중구",th:"Jung-gu (중구)",en:"Jung-gu"},
+      {key:"달성군",th:"Dalseong-gun (달성군)",en:"Dalseong-gun"},
+      {key:"군위군",th:"Gunwi-gun (군위군)",en:"Gunwi-gun"}
     ]
   };
 
@@ -714,27 +897,29 @@
   ];
 
   var DATA = [], actCat = "all", actRegion = "전체", actDistrict = "전체";
-  var actLocalCat = "medical", actSpecialty = "all";
+  var actLocalCat = null, actSpecialty = null;
   var NATIONAL_LIST = [], LOCAL_LIST = [], SEARCH_LIST = [];
 
   var LOCAL_CATS = [
-    { key: "medical",   th: "🏥 โรงพยาบาล", en: "Hospitals", emo: "🏥" },
-    { key: "hair",      th: "💇 ร้านทำผม", en: "Hair", emo: "💇" },
-    { key: "nail",      th: "💅 ร้านทำเล็บ/บิวตี้", en: "Nail/Beauty", emo: "💅" },
-    { key: "thai_food", th: "🍜 ร้านอาหาร/ซูเปอร์", en: "Thai Food", emo: "🍜" },
-    { key: "phone",     th: "📱 ร้านมือถือ", en: "Mobile Shop", emo: "📱" }
+    { key: "medical",   th: "โรงพยาบาล (Hospitals)", en: "Hospitals", emo: "🏥" },
+    { key: "hair",      th: "ร้านทำผม (Hair)", en: "Hair", emo: "💇" },
+    { key: "nail",      th: "ร้านทำเล็บ (Nail)", en: "Nail", emo: "💅" },
+    { key: "thai_food", th: "ร้านอาหาร/ซูเปอร์ (Food)", en: "Food", emo: "🍜" },
+    { key: "phone",     th: "ร้านมือถือ (Mobile)", en: "Mobile", emo: "📱" },
+    { key: "finance",   th: "โอนเงิน/ธนาคาร (Finance)", en: "Finance", emo: "💳" },
+    { key: "shipping",  th: "ขนส่ง/ส่งของ (Shipping)", en: "Shipping", emo: "📦" }
   ];
 
   var MEDICAL_SPECIALTIES = [
     { key: "all", th: "ทั้งหมด (All)", desc: "แสดงโรงพยาบาลและคลินิกทั้งหมด" },
-    { key: "내과", th: "내과 (อายุรกรรม)", desc: "แผนกอายุรกรรม (내과) — เมื่อไม่สบายทั่วไป ปวดหัว มีไข้ ปวดท้อง ท้องเสีย หรือเป็นหวัด" },
-    { key: "소아과", th: "소아과 (กุมารเวช)", desc: "แผนกกุมารเวช (소아과) — สำหรับเด็กเล็กและทารกเมื่อมีไข้หรือไม่สบาย" },
-    { key: "피부과", th: "피부과 (ผิวหนัง)", desc: "แผนกผิวหนัง (피부과) — รักษาโรคผิวหนัง สิว อาการแพ้ คัน หรือตกสะเก็ด" },
-    { key: "이비인후과", th: "이비인후과 (หู คอ จมูก)", desc: "แผนกหู คอ จมูก (이비인후과) — เจ็บคอ ปวดหู คัดจมูก ไอเรื้อรัง หรือไซนัส" },
-    { key: "정형외과", th: "정형외과 (กระดูกและข้อ)", desc: "แผนกศัลยกรรมกระดูก (정형외과) — ปวดกระดูก ข้อแพลง เอ็นอักเสบ กระดูกหัก หรือปวดเมื่อยรุนแรง" },
-    { key: "산부인과", th: "산부인과 (สูตินรีเวช)", desc: "แผนกสูตินรีเวช (산부인과) — ตรวจภายใน ตั้งครรภ์ ประจำเดือนมาไม่ปกติ หรือโรคสตรี" },
-    { key: "치과", th: "치과 (ทันตกรรม)", desc: "แผนกทันตกรรม (치과) — ปวดฟัน ถอนฟัน อุดฟัน ขูดหินปูน หรือจัดฟัน" },
-    { key: "한의원", th: "한의원 (แพทย์แผนเกาหลี)", desc: "คลินิกแพทย์แผนเกาหลี (한의원) — ฝังเข็ม ครอบแก้ว ปวดเมื่อยตามร่างกาย หรือกระดูกทับเส้น" }
+    { key: "내과", th: "อายุรกรรม (내과)", desc: "แผนกอายุรกรรม (내과) — เมื่อไม่สบายทั่วไป ปวดหัว มีไข้ ปวดท้อง ท้องเสีย หรือเป็นหวัด" },
+    { key: "소아과", th: "กุมารเวช (소아과)", desc: "แผนกกุมารเวช (소아과) — สำหรับเด็กเล็กและทารกเมื่อมีไข้หรือไม่สบาย" },
+    { key: "피부과", th: "ผิวหนัง (피부과)", desc: "แผนกผิวหนัง (피부과) — รักษาโรคผิวหนัง สิว อาการแพ้ คัน หรือตกสะเก็ด" },
+    { key: "이비인후과", th: "หู คอ จมูก (이비인후과)", desc: "แผนกหู คอ จมูก (이비인후과) — เจ็บคอ ปวดหู คัดจมูก ไอเรื้อรัง หรือไซนัส" },
+    { key: "정형외과", th: "กระดูกและข้อ (정형외과)", desc: "แผนกศัลยกรรมกระดูก (정형외과) — ปวดกระดูก ข้อแพลง เอ็นอักเสบ กระดูกหัก หรือปวดเมื่อยรุนแรง" },
+    { key: "산부인과", th: "สูตินรีเวช (산부인과)", desc: "แผนกสูตินรีเวช (산부인과) — ตรวจภายใน ตั้งครรภ์ ประจำเดือนมาไม่ปกติ หรือโรคสตรี" },
+    { key: "치과", th: "ทันตกรรม (치과)", desc: "แผนกทันตกรรม (치과) — ปวดฟัน ถอนฟัน อุดฟัน ขูดหินปูน หรือจัดฟัน" },
+    { key: "한의원", th: "แพทย์แผนเกาหลี (한의원)", desc: "คลินิกแพทย์แผนเกาหลี (한의원) — ฝังเข็ม ครอบแก้ว ปวดเมื่อยตามร่างกาย หรือกระดูกทับเส้น" }
   ];
 
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
@@ -744,26 +929,34 @@
     var prepaid=(x.tags||[]).indexOf("선불")!==-1;
     return '<span class="subbadge">'+(prepaid?"ซิมเติมเงิน · เปิดด้วยพาสปอร์ต (Prepaid)":"ซิมประหยัด · เปิดชื่อตัวเอง (Self)")+'</span>';
   }
-  
+
   function card(x, type, idx){
+    var title = esc(x.name_th);
+    if (x.name_ko) {
+      title += ' <span style="font-size:11.5px; font-weight:600; color:var(--sub); font-family:sans-serif;">(' + esc(x.name_ko) + ')</span>';
+    }
+
+    var summary = esc(x.desc_th || "");
+    var summaryEn = esc(x.desc_en || "");
+
     return '<div class="card-item" onclick="openDetailModal(\''+type+'\',' + idx + ')" style="cursor:pointer;">'
       + '<div class="c-header">'
-      +   '<div class="c-ico">' + (CAT_ICON[x.category] || "🔗") + '</div>'
-      +   '<div class="c-title-box">'
-      +     '<div class="c-name">' + esc(x.name_th || x.name_ko) + '</div>'
-      +     '<div class="c-ko">' + esc(x.desc_en || x.name_ko) + '</div>'
+      +   '<div class="c-ico" style="background:' + (CAT_BG[x.category] || "#f1f5f9") + ';">' + (CAT_ICON[x.category] || "🔗") + '</div>'
+      +   '<div class="c-title-box" style="margin-left: 2px;">'
+      +     '<div class="c-name">' + title + '</div>'
+      +     '<div class="c-desc-comp">' + summary + '</div>'
+      +     '<div class="c-ko">' + summaryEn + '</div>'
       +   '</div>'
       + '</div>'
       + telBadge(x)
-      + '<div class="c-desc-comp">' + esc(x.desc_th || "") + '</div>'
       + '</div>';
   }
 
   function chipRow(el,items,active,onPick){
     el.innerHTML=items.map(function(it){
-      var main=it.th||it.en||it.key, sub=(it.th&&it.en)?it.en:(it.key&&it.en?it.key:"");
+      var main=it.th||it.en||it.key;
       var emo=it.emo?it.emo+" ":"";
-      return '<div class="chip'+(it.key===active?' on':'')+'" data-k="'+esc(it.key)+'">'+emo+esc(main)+(sub?' <small>'+esc(sub)+'</small>':'')+'</div>';
+      return '<div class="chip'+(it.key===active?' on':'')+'" data-k="'+esc(it.key)+'">'+emo+esc(main)+'</div>';
     }).join("");
     el.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){onPick(this.getAttribute("data-k"));});});
   }
@@ -773,12 +966,12 @@
     el.querySelectorAll(".hk").forEach(function(n){n.remove();});
     HOTKEYS.forEach(function(k){
       var s=document.createElement("span"); s.className="hk"; s.textContent=k;
-      s.addEventListener("click",function(){ 
+      s.addEventListener("click",function(){
         var overlay = document.getElementById("searchOverlay");
         overlay.classList.add("show");
         document.body.style.overflow = "hidden";
-        document.getElementById("overlayQ").value=k; 
-        applySearch(); 
+        document.getElementById("overlayQ").value=k;
+        applySearch();
       });
       el.appendChild(s);
     });
@@ -795,7 +988,7 @@
     document.getElementById("grid").innerHTML=NATIONAL_LIST.length
       ? NATIONAL_LIST.map(function(x, idx){ return card(x, 'national', idx); }).join("")
       : '<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
-    
+
     // Apply local listings
     applyLocal();
   }
@@ -803,8 +996,9 @@
   function renderLocalCats(){
     chipRow(document.getElementById("localCats"), LOCAL_CATS, actLocalCat, function(k){
       actLocalCat = k;
-      actSpecialty = "all";
+      actSpecialty = (k === "medical" ? null : "all");
       actDistrict = "전체";
+      renderLocalCats();
       applyLocal();
     });
   }
@@ -812,6 +1006,7 @@
   function renderMedicalSpecialties(){
     chipRow(document.getElementById("medicalSpecialties"), MEDICAL_SPECIALTIES, actSpecialty, function(k){
       actSpecialty = k;
+      renderMedicalSpecialties();
       applyLocal();
     });
   }
@@ -827,42 +1022,59 @@
     var info=document.getElementById("regionInfo");
     var localGrid=document.getElementById("localGrid");
     var submitBanner=document.getElementById("submitBanner");
-    
+
     if(actRegion==="전체"){
       info.className="info"; info.innerHTML="";
-      localGrid.innerHTML='<div class="empty">เลือกภูมิภาคด้านบนเพื่อดูโรงพยาบาลและร้านค้าแนะนำ · Select a region above to view local listings.</div>';
-      document.getElementById("localCats").style.display = "none";
-      document.getElementById("medicalSpecialties").style.display = "none";
+      localGrid.innerHTML="";
+      document.getElementById("groupLocalCats").style.display = "none";
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
       document.getElementById("symptomDescBox").style.display = "none";
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
       submitBanner.style.display = "none";
       return;
     }
-    
-    document.getElementById("localCats").style.display = "flex";
+
+    document.getElementById("groupLocalCats").style.display = "block";
     submitBanner.style.display = "flex";
-    
+
     if(actRegion==="other"){
       info.className="info show";
       info.innerHTML="📍 กำลังเตรียมข้อมูลบริการแนะนำสำหรับภูมิภาคอื่น ๆ — หากท่านมีคลินิกหรือร้านค้าที่บริการดี สามารถส่งข้อมูล 제보하기 ได้ผ่านปุ่ม제보ด้านล่าง / Additional regions coming soon.";
       localGrid.innerHTML="";
-      document.getElementById("localCats").style.display = "none";
-      document.getElementById("medicalSpecialties").style.display = "none";
+      document.getElementById("groupLocalCats").style.display = "none";
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
       document.getElementById("symptomDescBox").style.display = "none";
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
       return;
     }
-    
+
     info.className="info"; info.innerHTML="";
-    
+
     renderLocalCats();
-    
-    var specialtiesBox = document.getElementById("medicalSpecialties");
+
+    // Step 1: Select Category
+    if (!actLocalCat) {
+      document.getElementById("groupMedicalSpecialties").style.display = "none";
+      document.getElementById("symptomDescBox").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
+      localGrid.innerHTML = '<div class="empty">💼 เลือกประเภทบริการด้านบนเพื่อดำเนินการต่อ · Select a category above to continue.</div>';
+      return;
+    }
+
+    var specialtiesBox = document.getElementById("groupMedicalSpecialties");
     var symptomBox = document.getElementById("symptomDescBox");
     if (actLocalCat === "medical") {
-      specialtiesBox.style.display = "flex";
+      specialtiesBox.style.display = "block";
       renderMedicalSpecialties();
-      
+
+      // Step 2 (for medical): Select Specialty
+      if (!actSpecialty) {
+        symptomBox.style.display = "none";
+        document.getElementById("groupDistricts").style.display = "none";
+        localGrid.innerHTML = '<div class="empty">🩺 เลือกแผนกการแพทย์เฉพาะทางเพื่อดำเนินการต่อ · Select a medical specialty.</div>';
+        return;
+      }
+
       var activeSpecObj = MEDICAL_SPECIALTIES.find(function(s){ return s.key === actSpecialty; });
       if (activeSpecObj && actSpecialty !== "all") {
         symptomBox.textContent = activeSpecObj.desc;
@@ -874,15 +1086,16 @@
       specialtiesBox.style.display = "none";
       symptomBox.style.display = "none";
     }
-    
+
+    // Step 3: Select District (and show list)
     var dists = DISTRICTS[actRegion] || [];
     if(dists.length > 0) {
-      document.getElementById("districts").style.display = "flex";
+      document.getElementById("groupDistricts").style.display = "block";
       renderDistricts(dists);
     } else {
-      document.getElementById("districts").style.display = "none";
+      document.getElementById("groupDistricts").style.display = "none";
     }
-    
+
     LOCAL_LIST = DATA.filter(function(x){
       if(x.region !== actRegion) return false;
       if(x.category !== actLocalCat) return false;
@@ -892,37 +1105,45 @@
       if(actDistrict !== "전체" && x.district !== actDistrict) return false;
       return true;
     });
-    
+
     localGrid.innerHTML = LOCAL_LIST.length
       ? LOCAL_LIST.map(function(x, idx){ return card(x, 'local', idx); }).join("")
-      : '<div class="empty">📍 ยังไม่มีร้านค้าหรือคลินิกในเขตนี้ แนะนำสถานที่โปรดของคุณได้ผ่านปุ่มแนะนำด้านล่าง! (No partner shops found in this district. Click suggest below!)</div>';
+      : '<div class="empty">ข้อมูลสถานที่ในภูมิภาคนี้กำลังอยู่ระหว่างการจัดเตรียมและอัปเดตอย่างต่อเนื่อง · Listings for this region are currently being updated.</div>';
   }
 
   function renderCats(){ chipRow(document.getElementById("cats"),CATS,actCat,function(k){actCat=k;renderCats();apply();}); }
-  
-  function renderRegions(){ 
-    chipRow(document.getElementById("regions"),REGIONS,actRegion,function(k){
-      actRegion=k;
-      actDistrict="전체";
-      renderRegions();
+
+  function renderRegions(){
+    var dd = document.getElementById("regionDropdown");
+    if (!dd) return;
+    dd.innerHTML = REGIONS.map(function(it){
+      var label = (it.th || it.en || it.key);
+      return '<option value="' + it.key + '"' + (it.key === actRegion ? ' selected' : '') + '>' + label + '</option>';
+    }).join("");
+
+    dd.onchange = function(){
+      actRegion = this.value;
+      actLocalCat = null;
+      actSpecialty = null;
+      actDistrict = "전체";
       applyLocal();
-    }); 
+    };
   }
-  
+
   function openDetailModal(type, idx) {
     var item;
     if (type === 'local') item = LOCAL_LIST[idx];
     else if (type === 'national') item = NATIONAL_LIST[idx];
     else item = SEARCH_LIST[idx];
-    
+
     if (!item) return;
-    
+
     document.getElementById("mIco").textContent = CAT_ICON[item.category] || "🔗";
     document.getElementById("mTag").textContent = CAT_TH[item.category] || item.category;
     document.getElementById("mTitleTh").textContent = item.name_th || item.name_ko;
     document.getElementById("mTitleKo").textContent = item.name_ko;
     document.getElementById("mDescTh").textContent = item.desc_th || "";
-    
+
     var enContainer = document.getElementById("mDescEnContainer");
     if (item.desc_en) {
       enContainer.style.display = "block";
@@ -930,7 +1151,7 @@
     } else {
       enContainer.style.display = "none";
     }
-    
+
     var btn = document.getElementById("mLaunchBtn");
     btn.href = item.url;
     var isTel = (item.url || "").indexOf("tel:") === 0;
@@ -941,7 +1162,7 @@
       btn.className = "m-btn";
       btn.textContent = "ไปที่บริการ · Open Service ➔";
     }
-    
+
     document.getElementById("detailModal").style.display = "flex";
     document.body.style.overflow = "hidden";
   }
@@ -978,7 +1199,7 @@
       generateMathCaptcha();
       return;
     }
-    
+
     var payload = {
       userName: document.getElementById("s_userName").value,
       userContact: document.getElementById("s_userContact").value,
@@ -989,7 +1210,7 @@
       bizPhone: document.getElementById("s_bizPhone").value,
       reason: document.getElementById("s_reason").value
     };
-    
+
     var url = "https://script.google.com/macros/s/AKfycbz_KoriCareSuggestSpot_Placeholder/exec";
     fetch(url, {
       method: "POST",
@@ -1054,14 +1275,14 @@
 
   function getSearchHelperTip(q) {
     var qLower = q.toLowerCase();
-    
+
     // Symptom related search
-    if (qLower.indexOf("병원") !== -1 || qLower.indexOf("아플") !== -1 || qLower.indexOf("감기") !== -1 || 
+    if (qLower.indexOf("병원") !== -1 || qLower.indexOf("아플") !== -1 || qLower.indexOf("감기") !== -1 ||
         qLower.indexOf("배탈") !== -1 || qLower.indexOf("치과") !== -1 || qLower.indexOf("소아과") !== -1 ||
         qLower.indexOf("정형") !== -1 || qLower.indexOf("이비") !== -1 || qLower.indexOf("산부") !== -1 ||
         qLower.indexOf("โรงพยาบาล") !== -1 || qLower.indexOf("ไข้") !== -1 || qLower.indexOf("ฟัน") !== -1 ||
         qLower.indexOf("กระดูก") !== -1 || qLower.indexOf("เด็ก") !== -1 || qLower.indexOf("ท้อง") !== -1) {
-      
+
       return '<div class="symptom-guide">'
         + '<b>💡 คลินิกเกาหลีที่ควรไปรักษาตามอาการ (Symptom Matching Guide)</b>'
         + '<ul>'
@@ -1073,12 +1294,12 @@
         + '</ul>'
         + '</div>';
     }
-    
+
     // Study related search
     if (qLower.indexOf("공부") !== -1 || qLower.indexOf("한국어") !== -1 || qLower.indexOf("배움") !== -1 ||
         qLower.indexOf("학당") !== -1 || qLower.indexOf("เรียน") !== -1 || qLower.indexOf("ภาษา") !== -1 ||
         qLower.indexOf("เกาหลี") !== -1 || qLower.indexOf("สอบ") !== -1) {
-      
+
       return '<div class="symptom-guide" style="background: #e0f2fe; border-color: #bae6fd; color: #0369a1;">'
         + '<b>📚 คอร์สเรียนภาษาเกาหลีและเตรียมวีซ่าฟรี (Free Korean Courses)</b>'
         + '<p style="font-size: 13px; margin-top: 4px; line-height: 1.5;">'
@@ -1088,7 +1309,7 @@
         + '</p>'
         + '</div>';
     }
-    
+
     return "";
   }
 
@@ -1096,7 +1317,7 @@
     var q = (document.getElementById("overlayQ").value || "").trim().toLowerCase();
     var clearBtn = document.getElementById("clearSearchBtn");
     var helperArea = document.getElementById("searchHelperArea");
-    
+
     if (q) {
       clearBtn.classList.add("show");
       helperArea.innerHTML = getSearchHelperTip(q);
@@ -1104,13 +1325,13 @@
       clearBtn.classList.remove("show");
       helperArea.innerHTML = "";
     }
-    
+
     var list = DATA.filter(function(x) {
       if (!q) return false;
       var hay = [x.name_th, x.name_ko, x.desc_th, x.desc_en, (x.tags||[]).join(" "), x.region, x.district, CAT_TH[x.category]].join(" ").toLowerCase();
       return hay.indexOf(q) !== -1;
     });
-    
+
     // Always append Kori Care Premium counseling lead at the bottom of search results
     var promoCard = '<div class="premium-banner" style="margin-top: 20px; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); width: 100%; grid-column: 1 / -1;">'
       + '<span class="p-badge" style="background: #2563eb;">Kori Care Counsel</span>'
@@ -1118,12 +1339,12 @@
       + '<p class="p-desc" style="font-size: 12.5px; color: #94a3b8;">พอร์ทัลข้อมูลช่วยเหลือ Kori Care อัปเดตอยู่เสมอ หากมีข้อสงสัยเกี่ยวกับวีซ่า การเปลี่ยนสถานะ หรือปัญหาชีวิต กรุณาติดต่อปรึกษากับเจ้าหน้าที่ของเราโดยตรง (ปรึกษาฟรี)</p>'
       + '<a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn" style="background: #f1f5f9; color: #0f172a; font-size: 13px; padding: 8px 16px;">💬 ติดต่อรับคำปรึกษาฟรี (Kori Care) ➔</a>'
       + '</div>';
-      
+
     document.getElementById("overlayCount").textContent = q ? "พบ " + list.length + " รายการ" : "พิมพ์เพื่อค้นหาบริการในเกาหลี";
-    
+
     if (q) {
-      document.getElementById("overlayGrid").innerHTML = list.length 
-        ? list.map(card).join("") + promoCard 
+      document.getElementById("overlayGrid").innerHTML = list.length
+        ? list.map(card).join("") + promoCard
         : '<div class="empty">ไม่พบผลลัพธ์การค้นหา · No results found</div>' + promoCard;
     } else {
       document.getElementById("overlayGrid").innerHTML = "";
