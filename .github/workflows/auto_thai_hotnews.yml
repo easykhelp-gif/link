@@ -2,8 +2,8 @@ name: Auto Thai HotNews Pipeline (Cloud 24/7)
 
 on:
   schedule:
-    # 하루 3회 클라우드 자동 실행 (UTC 기준: 23:00=한국 08시, 03:00=한국 12시, 09:00=한국 18시)
-    - cron: '0 23,3,9 * * *'
+    # 2시간마다 클라우드 자동 수집 (하루 12회 실시간 핫이슈 파싱)
+    - cron: '0 */2 * * *'
   workflow_dispatch: # 필요 시 수동 실행 버튼 지원
 
 jobs:
