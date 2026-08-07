@@ -1,0 +1,31 @@
+name: Auto Thai HotNews Pipeline (Cloud 24/7)
+
+on:
+  schedule:
+    # 하루 3회 클라우드 자동 실행 (UTC 기준: 23:00=한국 08시, 03:00=한국 12시, 09:00=한국 18시)
+    - cron: '0 23,3,9 * * *'
+  workflow_dispatch: # 필요 시 수동 실행 버튼 지원
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Thai HotNews Auto-Pipeline
+        run: |
+          node build_thai_hotnews.js
+
+      - name: Commit and Push Updated News & Images
+        run: |
+          git config --global user.name "KoriCare AutoBot"
+          git config --global user.email "bot@koricare.kr"
+          git add news/ index.html link_index_카드추가_완성본.html
+          git diff-index --quiet HEAD || git commit -m "Auto-update Thai HotNews Top 3 & Images [Cloud System]"
+          git push
