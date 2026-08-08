@@ -674,10 +674,11 @@
   </div>
 
   <!-- National Utility Section -->
-  <div class="flab">บริการทั่วไประดับประเทศ · National Services</div>
+  <div class="flab" style="font-size:16px; font-weight:800; color:#0f172a; margin-top:28px;">KOREA ESSENTIAL SERVICES</div>
   <div class="chips" id="cats"></div>
   <div class="count" id="count"></div>
-  <div class="grid" id="grid"><div class="empty">กำลังโหลด… Loading…</div></div>
+  <div class="grid" id="grid" style="width:100%; display:grid; grid-template-columns: repeat(2, 1fr); gap:10px;"><div class="empty">กำลังโหลด… Loading…</div></div>
+  <div id="nationalMoreBox" style="width:100%; display:flex; justify-content:center; margin-top:16px;"></div>
 
   <div class="disc" style="font-size:12.5px; line-height:1.6; text-align:center; padding:15px; background:var(--soft); border-radius:14px; color:var(--sub); margin-top:24px;">
     <p style="margin-bottom:4px;"><b>🇹🇭 แนะนำการใช้งาน:</b> พอร์ทัลนี้รวบรวมเว็บไซต์และลิงก์บริการทางราชการที่ชาวต่างชาติในเกาหลีใต้ใช้งานบ่อยที่สุด เพื่ออำนวยความสะดวกในการใช้ชีวิตของคุณให้ง่ายและราบรื่นยิ่งขึ้น</p>
@@ -940,15 +941,10 @@
     var summary = esc(x.desc_th || "");
     var summaryEn = esc(x.desc_en || "");
 
-    return '<div class="card-item" onclick="openDetailModal(\''+type+'\',' + idx + ')" style="cursor:pointer;">'
-      + '<div class="c-header">'
-      +   '<div class="c-ico" style="background:' + (CAT_BG[x.category] || "#f1f5f9") + ';">' + (CAT_ICON[x.category] || "🔗") + '</div>'
-      +   '<div class="c-title-box" style="margin-left: 2px;">'
-      +     '<div class="c-name">' + title + '</div>'
-      +     '<div class="c-desc-comp">' + summary + '</div>'
-      +     '<div class="c-ko">' + summaryEn + '</div>'
-      +   '</div>'
-      + '</div>'
+    return '<div class="card-item" onclick="openDetailModal(\''+type+'\',' + idx + ')" style="padding:12px 10px; border-radius:12px; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 6px rgba(15,23,42,0.03); background:#fff; cursor:pointer; box-sizing:border-box;">'
+      + '<div style="font-size:13.5px; font-weight:800; color:#0f172a; line-height:1.35; word-break:break-word;">' + title + '</div>'
+      + '<div style="font-size:11px; color:#475569; margin-top:3px; font-weight:500; word-break:break-word;">' + summary + '</div>'
+      + '<div style="font-size:10.5px; color:#64748b; margin-top:5px; line-height:1.35; word-break:break-word;">' + summaryEn + '</div>'
       + telBadge(x)
       + '</div>';
   }
@@ -978,6 +974,13 @@
     });
   }
 
+  var nationalLimit = 10;
+
+  function loadMoreNational() {
+    nationalLimit += 10;
+    apply();
+  }
+
   function apply(){
     // National links filter
     NATIONAL_LIST = DATA.filter(function(x){
@@ -986,9 +989,20 @@
       return true;
     });
     document.getElementById("count").textContent="ทั้งหมด "+NATIONAL_LIST.length+" รายการ (National)";
-    document.getElementById("grid").innerHTML=NATIONAL_LIST.length
-      ? NATIONAL_LIST.map(function(x, idx){ return card(x, 'national', idx); }).join("")
+    
+    var visibleList = NATIONAL_LIST.slice(0, nationalLimit);
+    document.getElementById("grid").innerHTML=visibleList.length
+      ? visibleList.map(function(x, idx){ return card(x, 'national', idx); }).join("")
       : '<div class="empty">ไม่พบผลลัพธ์ · No results</div>';
+
+    var moreBox = document.getElementById("nationalMoreBox");
+    if (moreBox) {
+      if (NATIONAL_LIST.length > nationalLimit) {
+        moreBox.innerHTML = '<button onclick="loadMoreNational()" style="padding:10px 24px; background:#f1f5f9; color:#1e293b; border:1px solid #cbd5e1; border-radius:10px; font-size:13.5px; font-weight:800; cursor:pointer;">+ แสดงเพิ่มเติม (Show More ' + (NATIONAL_LIST.length - nationalLimit) + ')</button>';
+      } else {
+        moreBox.innerHTML = '';
+      }
+    }
 
     // Apply local listings
     applyLocal();
