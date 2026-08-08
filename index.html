@@ -1194,8 +1194,8 @@
 
     var districts = extractDistricts(currentRegionPlaces);
     
-    // Step 1: District Dropdown (Full Width Stretched)
-    var districtsHtml = '<div style="margin: 12px 0 10px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
+    // Step 1: District Dropdown (Option A: 100% Full Width Vertical)
+    var districtsHtml = '<div style="margin: 12px 0 14px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
       + '<label style="font-size:13px; font-weight:800; color:var(--ink);">🏙️ กรุณาเลือกเขต · Select District</label>'
       + '<select class="form-input" style="height:48px; font-size:14.5px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setDistrictFilter(this.value)">'
       + '<option value=""' + (selectedDistrict === "" ? ' selected' : '') + '>-- เลือกเขต (Select District) --</option>'
@@ -1206,7 +1206,7 @@
       + '</select>'
       + '</div>';
 
-    // Step 2: Category Dropdown (Only appears after District is selected)
+    // Step 2: Category Dropdown (Option A: 100% Full Width Vertical)
     var catsHtml = "";
     if (selectedDistrict !== "") {
       var catMap = [
@@ -1220,7 +1220,7 @@
         { key: "finance", label: "ธนาคารและการเงิน (Bank & Finance)" }
       ];
 
-      catsHtml = '<div style="margin: 0 0 18px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
+      catsHtml = '<div style="margin: 0 0 20px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
         + '<label style="font-size:13px; font-weight:800; color:var(--ink);">💼 กรุณาเลือกประเภทบริการ · Select Category</label>'
         + '<select class="form-input" style="height:48px; font-size:14.5px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setCategoryFilter(this.value)">'
         + '<option value=""' + (selectedCategory === "" ? ' selected' : '') + '>-- เลือกประเภทบริการ (Select Category) --</option>'
@@ -1231,7 +1231,7 @@
         + '</div>';
     }
 
-    // Step 3: Cards Display (Only appears after Category is selected)
+    // Step 3: Cards Display & Bottom Pagination
     var cardsHtml = "";
     if (selectedDistrict !== "" && selectedCategory !== "") {
       var filteredPlaces = currentRegionPlaces.filter(function(p){
@@ -1251,24 +1251,29 @@
       var paginatedPlaces = filteredPlaces.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
       if (paginatedPlaces.length > 0) {
-        cardsHtml = '<div class="grid">' + paginatedPlaces.map(function(x){
+        cardsHtml = '<div class="grid" style="width:100%; display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:16px;">' + paginatedPlaces.map(function(x){
           var phoneStr = (x.phone && x.phone !== "1345") ? ' · Tel ' + x.phone : (x.phone === "1345" ? ' · Call 1345' : '');
-          var engTitle = (x.name_en && x.name_en !== x.name_ko) ? '(' + x.name_en + ') ' : '';
+          var cleanNameTh = (x.name_th || x.name_ko || "").replace(/\uFFFD/g, '');
+          var cleanNameKo = (x.name_ko || "").replace(/\uFFFD/g, '');
+          var engTitle = (x.name_en && x.name_en !== x.name_ko) ? '(' + x.name_en.replace(/\uFFFD/g, '') + ') ' : '';
+
           return '<div class="card-item" onclick="window.open(\'' + (x.map_url || '#') + '\', \'_blank\')" style="padding:14px 16px; border-radius:14px; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(15,23,42,0.04); background:#fff; cursor:pointer;">'
-            + '<div style="font-size:14px; font-weight:800; color:#0f172a; line-height:1.4;">' + (x.name_th || x.name_ko) + '</div>'
-            + '<div style="font-size:12px; color:#475569; margin-top:3px; font-weight:500;">' + engTitle + '<span style="color:#64748b;">(' + (x.name_ko) + ')</span></div>'
+            + '<div style="font-size:14px; font-weight:800; color:#0f172a; line-height:1.4;">' + cleanNameTh + '</div>'
+            + '<div style="font-size:12px; color:#475569; margin-top:3px; font-weight:500;">' + engTitle + '<span style="color:#64748b;">(' + cleanNameKo + ')</span></div>'
             + '<div style="font-size:11.5px; color:#64748b; margin-top:6px; line-height:1.4;">' + (x.address || '') + phoneStr + '</div>'
             + '</div>';
         }).join("") + '</div>';
 
-        // Pagination Controls
+        // Clean Bottom Pagination Bar (Independent Container)
         if (totalPages > 1) {
           var paginationBtns = '';
           for (var p = 1; p <= totalPages; p++) {
-            var activeStyle = (p === currentPage) ? 'background:#1a54c8; color:#fff;' : 'background:#f1f5f9; color:#334155;';
-            paginationBtns += '<button onclick="changeLocalPage(' + p + ')" style="padding:6px 12px; border:none; border-radius:6px; font-weight:700; font-size:13px; cursor:pointer; ' + activeStyle + '">' + p + '</button> ';
+            var activeStyle = (p === currentPage) 
+              ? 'background:#1a54c8; color:#fff; box-shadow:0 2px 6px rgba(26,84,200,0.3);' 
+              : 'background:#e2e8f0; color:#334155;';
+            paginationBtns += '<button onclick="changeLocalPage(' + p + ')" style="width:38px; height:38px; min-width:38px; border:none; border-radius:10px; font-weight:800; font-size:14px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; transition:all 0.2s; ' + activeStyle + '">' + p + '</button>';
           }
-          cardsHtml += '<div style="display:flex; justify-content:center; gap:6px; margin-top:20px; flex-wrap:wrap;">' + paginationBtns + '</div>';
+          cardsHtml += '<div style="width:100%; display:flex; justify-content:center; align-items:center; gap:8px; margin-top:24px; margin-bottom:10px;">' + paginationBtns + '</div>';
         }
       } else {
         cardsHtml = '<div class="empty">ไม่พบสถานที่ตามเงื่อนไขที่เลือก · No listings found for the selected filters.</div>';
