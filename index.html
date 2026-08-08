@@ -1184,31 +1184,35 @@
 
     var districts = extractDistricts(currentRegionPlaces);
     
-    // Build Category Chips & District Filter Controls
-    var districtsHtml = '<div style="margin: 10px 0 12px; display:flex; flex-wrap:wrap; gap:6px; align-items:center;">'
-      + '<span style="font-size:12px; font-weight:800; color:var(--sub); margin-right:4px;">🏙️ 시·구·군 เลือกเขต:</span>'
-      + '<button class="chip' + (selectedDistrict === "all" ? " act" : "") + '" onclick="setDistrictFilter(\'all\')">전체 (All)</button>'
+    // Build Category Chips & District Select Box Controls
+    var districtsHtml = '<div style="margin: 10px 0 12px; display:flex; flex-direction:column; gap:4px;">'
+      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">🏙️ 시·구·군 선택 · Select District</label>'
+      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff;" onchange="setDistrictFilter(this.value)">'
+      + '<option value="all"' + (selectedDistrict === "all" ? ' selected' : '') + '>전체 시·구·군 (All Districts)</option>'
       + districts.map(function(d){
-          return '<button class="chip' + (selectedDistrict === d ? " act" : "") + '" onclick="setDistrictFilter(\'' + d + '\')">' + d + '</button>';
+          return '<option value="' + d + '"' + (selectedDistrict === d ? ' selected' : '') + '>' + d + '</option>';
         }).join("")
+      + '</select>'
       + '</div>';
 
     var catMap = [
-      { key: "all", label: "전체 All", icon: "🌐" },
-      { key: "hospital", label: "의료/병원 Medical", icon: "🏥" },
-      { key: "beauty", label: "뷰티/미용 Beauty", icon: "💈" },
-      { key: "mobile", label: "모바일 Mobile", icon: "📱" },
-      { key: "restaurant", label: "식당/마트 Food", icon: "🍽️" },
-      { key: "government", label: "공공/행정 Gov", icon: "📜" },
-      { key: "support", label: "지원센터 Center", icon: "🤝" },
-      { key: "finance", label: "금융/환전 Finance", icon: "💸" }
+      { key: "all", label: "전체 업종 (All Services)", icon: "🌐" },
+      { key: "hospital", label: "의료/병원 (Medical/Hospital)", icon: "🏥" },
+      { key: "beauty", label: "뷰티/미용 (Beauty/Hair)", icon: "💈" },
+      { key: "mobile", label: "모바일/통신 (Mobile/Telecom)", icon: "📱" },
+      { key: "restaurant", label: "식당/아시아마트 (Thai Food/Market)", icon: "🍽️" },
+      { key: "government", label: "공공/행정/출입국 (Gov/Immigration)", icon: "📜" },
+      { key: "support", label: "외국인 지원센터 (Support Center)", icon: "🤝" },
+      { key: "finance", label: "금융/해외송금 (Finance/Exchange)", icon: "💸" }
     ];
 
-    var catsHtml = '<div style="margin: 0 0 16px; display:flex; flex-wrap:wrap; gap:6px; align-items:center;">'
-      + '<span style="font-size:12px; font-weight:800; color:var(--sub); margin-right:4px;">💼 업종 เลือกประเภท:</span>'
+    var catsHtml = '<div style="margin: 0 0 16px; display:flex; flex-direction:column; gap:4px;">'
+      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">💼 서비스 업종 선택 · Select Category</label>'
+      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff;" onchange="setCategoryFilter(this.value)">'
       + catMap.map(function(c){
-          return '<button class="chip' + (selectedCategory === c.key ? " act" : "") + '" onclick="setCategoryFilter(\'' + c.key + '\')">' + c.icon + ' ' + c.label + '</button>';
+          return '<option value="' + c.key + '"' + (selectedCategory === c.key ? ' selected' : '') + '>' + c.icon + ' ' + c.label + '</option>';
         }).join("")
+      + '</select>'
       + '</div>';
 
     var filteredPlaces = currentRegionPlaces.filter(function(p){
