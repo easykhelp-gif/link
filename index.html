@@ -674,7 +674,7 @@
   </div>
 
   <!-- National Utility Section -->
-  <div class="flab" style="font-size:16px; font-weight:800; color:#0f172a; margin-top:28px;">KOREA ESSENTIAL SERVICES</div>
+  <div class="flab" style="font-size:16px; font-weight:800; color:#0f172a; margin-top:28px;">🌐 KOREA ESSENTIAL SERVICES</div>
   <div style="margin: 12px 0 16px; width:100%; box-sizing:border-box;">
     <select class="form-input" id="catsDropdown" style="height:48px; font-size:14.5px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setNationalCat(this.value)"></select>
   </div>
@@ -1130,7 +1130,8 @@
     var cd = document.getElementById("catsDropdown");
     if (!cd) return;
     cd.innerHTML = CATS.map(function(it){
-      var label = (it.th || it.key) + (it.en ? ' (' + it.en + ')' : '');
+      var emo = it.emo ? it.emo + ' ' : '';
+      var label = emo + (it.th || it.key) + (it.en ? ' (' + it.en + ')' : '');
       return '<option value="' + it.key + '"' + (it.key === actCat ? ' selected' : '') + '>' + label + '</option>';
     }).join("");
   }
