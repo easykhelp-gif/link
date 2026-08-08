@@ -1184,31 +1184,32 @@
 
     var districts = extractDistricts(currentRegionPlaces);
     
-    // Build Category Chips & District Select Box Controls
-    var districtsHtml = '<div style="margin: 10px 0 12px; display:flex; flex-direction:column; gap:4px;">'
-      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">🏙️ 시·구·군 선택 · Select District</label>'
-      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff;" onchange="setDistrictFilter(this.value)">'
-      + '<option value="all"' + (selectedDistrict === "all" ? ' selected' : '') + '>전체 시·구·군 (All Districts)</option>'
+    // 1. District Dropdown (Thai + English)
+    var districtsHtml = '<div style="margin: 12px 0 10px; display:flex; flex-direction:column; gap:4px; width:100%;">'
+      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">🏙️ เลือกเขต · Select District</label>'
+      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff; width:100%; border-radius:10px; border:1.5px solid var(--line);" onchange="setDistrictFilter(this.value)">'
+      + '<option value="all"' + (selectedDistrict === "all" ? ' selected' : '') + '>ทุกเขต (All Districts)</option>'
       + districts.map(function(d){
           return '<option value="' + d + '"' + (selectedDistrict === d ? ' selected' : '') + '>' + d + '</option>';
         }).join("")
       + '</select>'
       + '</div>';
 
+    // 2. Category Dropdown (Thai + English)
     var catMap = [
-      { key: "all", label: "전체 업종 (All Services)", icon: "🌐" },
-      { key: "hospital", label: "의료/병원 (Medical/Hospital)", icon: "🏥" },
-      { key: "beauty", label: "뷰티/미용 (Beauty/Hair)", icon: "💈" },
-      { key: "mobile", label: "모바일/통신 (Mobile/Telecom)", icon: "📱" },
-      { key: "restaurant", label: "식당/아시아마트 (Thai Food/Market)", icon: "🍽️" },
-      { key: "government", label: "공공/행정/출입국 (Gov/Immigration)", icon: "📜" },
-      { key: "support", label: "외국인 지원센터 (Support Center)", icon: "🤝" },
-      { key: "finance", label: "금융/해외송금 (Finance/Exchange)", icon: "💸" }
+      { key: "all", label: "ทุกประเภทบริการ (All Services)", icon: "🌐" },
+      { key: "hospital", label: "โรงพยาบาล/คลินิก (Medical & Hospital)", icon: "🏥" },
+      { key: "beauty", label: "ร้านเสริมสวย/บาร์เบอร์ (Beauty & Hair)", icon: "💈" },
+      { key: "mobile", label: "ร้านมือถือ/ซิมการ์ด (Mobile & SIM)", icon: "📱" },
+      { key: "restaurant", label: "ร้านอาหารไทย/มินิมาร์ท (Thai Food & Market)", icon: "🍽️" },
+      { key: "government", label: "สำนักงานตรวจคนเข้าเมือง/ราชการ (Immigration & Gov)", icon: "📜" },
+      { key: "support", label: "ศูนย์ช่วยเหลือชาวต่างชาติ (Support Center)", icon: "🤝" },
+      { key: "finance", label: "โอนเงินต่างประเทศ/การเงิน (Finance & Exchange)", icon: "💸" }
     ];
 
-    var catsHtml = '<div style="margin: 0 0 16px; display:flex; flex-direction:column; gap:4px;">'
-      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">💼 서비스 업종 선택 · Select Category</label>'
-      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff;" onchange="setCategoryFilter(this.value)">'
+    var catsHtml = '<div style="margin: 0 0 18px; display:flex; flex-direction:column; gap:4px; width:100%;">'
+      + '<label style="font-size:12.5px; font-weight:800; color:var(--ink);">💼 เลือกประเภทบริการ · Select Category</label>'
+      + '<select class="form-input" style="height:44px; font-weight:700; background:#fff; width:100%; border-radius:10px; border:1.5px solid var(--line);" onchange="setCategoryFilter(this.value)">'
       + catMap.map(function(c){
           return '<option value="' + c.key + '"' + (selectedCategory === c.key ? ' selected' : '') + '>' + c.icon + ' ' + c.label + '</option>';
         }).join("")
@@ -1225,8 +1226,19 @@
       return true;
     });
 
-    var cardsHtml = filteredPlaces.length
-      ? '<div class="grid">' + filteredPlaces.map(function(x){
+    // Limit initial display to prevent overwhelming card overflow
+    var isInitialAll = (selectedDistrict === "all" && selectedCategory === "all");
+    var displayList = isInitialAll ? filteredPlaces.slice(0, 6) : filteredPlaces;
+
+    var guideBanner = isInitialAll && filteredPlaces.length > 6
+      ? '<div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:10px; padding:10px 12px; margin-bottom:14px; font-size:12.5px; color:#0369a1; line-height:1.45;">'
+        + '💡 <b>เลือกเขต หรือ เลือกประเภทบริการด้านบน</b> เพื่อค้นหาสถานที่ที่คุณต้องการอย่างแม่นยำ (แสดง ' + displayList.length + ' จากทั้งหมด ' + filteredPlaces.length + ' แห่ง)<br>'
+        + '<span style="font-size:11.5px; color:#0284c7;">Select a district or category above to refine your search precisely.</span>'
+        + '</div>'
+      : '';
+
+    var cardsHtml = displayList.length
+      ? '<div class="grid">' + displayList.map(function(x){
           return '<div class="card-item" onclick="window.open(\'' + (x.map_url || '#') + '\', \'_blank\')">'
             + '<div class="c-header">'
             + '<div class="c-ico">' + (x.category === 'hospital' ? '🏥' : x.category === 'beauty' ? '💈' : x.category === 'mobile' ? '📱' : x.category === 'restaurant' ? '🍽️' : x.category === 'finance' ? '💸' : x.category === 'government' ? '📜' : '🤝') + '</div>'
@@ -1238,9 +1250,9 @@
             + '</div>'
             + '</div>';
         }).join("") + '</div>'
-      : '<div class="empty">선택한 시·구·군 및 업종에 해당하는 등록 장소가 없습니다 · No listings for this filter.</div>';
+      : '<div class="empty">ไม่พบสถานที่ตามเงื่อนไขที่เลือก · No listings found for the selected filters.</div>';
 
-    localGrid.innerHTML = districtsHtml + catsHtml + cardsHtml;
+    localGrid.innerHTML = districtsHtml + catsHtml + guideBanner + cardsHtml;
   }
 
   function setDistrictFilter(dist) {
