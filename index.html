@@ -675,7 +675,9 @@
 
   <!-- National Utility Section -->
   <div class="flab" style="font-size:16px; font-weight:800; color:#0f172a; margin-top:28px;">KOREA ESSENTIAL SERVICES</div>
-  <div class="chips" id="cats"></div>
+  <div style="margin: 12px 0 16px; width:100%; box-sizing:border-box;">
+    <select class="form-input" id="catsDropdown" style="height:48px; font-size:14.5px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setNationalCat(this.value)"></select>
+  </div>
   <div class="count" id="count"></div>
   <div class="grid" id="grid" style="width:100%; display:grid; grid-template-columns: repeat(2, 1fr); gap:10px;"><div class="empty">กำลังโหลด… Loading…</div></div>
   <div id="nationalMoreBox" style="width:100%; display:flex; justify-content:center; margin-top:16px;"></div>
@@ -1124,7 +1126,20 @@
       : '<div class="empty">ข้อมูลสถานที่ในภูมิภาคนี้กำลังอยู่ระหว่างการจัดเตรียมและอัปเดตอย่างต่อเนื่อง · Listings for this region are currently being updated.</div>';
   }
 
-  function renderCats(){ chipRow(document.getElementById("cats"),CATS,actCat,function(k){actCat=k;renderCats();apply();}); }
+  function renderCats(){
+    var cd = document.getElementById("catsDropdown");
+    if (!cd) return;
+    cd.innerHTML = CATS.map(function(it){
+      var label = (it.th || it.key) + (it.en ? ' (' + it.en + ')' : '');
+      return '<option value="' + it.key + '"' + (it.key === actCat ? ' selected' : '') + '>' + label + '</option>';
+    }).join("");
+  }
+
+  function setNationalCat(catKey) {
+    actCat = catKey;
+    nationalLimit = 10;
+    apply();
+  }
 
   function renderRegions(){
     var dd = document.getElementById("regionDropdown");
