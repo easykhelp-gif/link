@@ -161,6 +161,7 @@ def main():
         sys.exit(1)
         
     source_url = input("\n원문 링크(URL)가 있으면 입력하세요 (없으면 엔터): ").strip()
+    thumbnail_url = input("썸네일 이미지 파일명/URL을 입력하세요 (엔터 시 기본 로고 사용): ").strip()
     
     title_th = ""
     content_th = ""
@@ -182,7 +183,8 @@ def main():
         "content_ko": content_ko,
         "title_th": title_th or "[태국어 제목을 여기에 작성하세요]",
         "content_th": content_th or "<p>[태국어 본문을 HTML 형식을 활용해 여기에 작성하세요]</p>",
-        "url": source_url
+        "url": source_url,
+        "thumbnail": thumbnail_url or "koricare_main_logo_nobg.png"
     }
     
     with open(DRAFT_PATH, "w", encoding="utf-8") as f:
@@ -216,6 +218,7 @@ def main():
     title_ko = final_draft.get("title_ko", "").strip()
     content_ko = final_draft.get("content_ko", "").strip()
     source_url = final_draft.get("url", "").strip()
+    thumbnail_url = final_draft.get("thumbnail", "koricare_main_logo_nobg.png").strip()
     
     if not title_th or title_th.startswith("[태국어 제목"):
         print("[Error] 태국어 제목이 올바르게 검수되지 않았습니다.")
@@ -294,7 +297,8 @@ def main():
         "title_th": title_th,
         "title_ko": title_ko,
         "date": today_str,
-        "url": source_url
+        "url": source_url,
+        "thumbnail": thumbnail_url
     }
     
     # Insert at the beginning of the list (newest first)
@@ -323,9 +327,8 @@ def main():
             for item in latest_items:
                 # Path is news/{id}.html from the root of easyk_portal
                 html = (
-                    f'    <a href="news/{item["id"]}.html" class="news-item">\n'
-                    f'      <div class="news-title">{item["title_th"]}</div>\n'
-                    f'      <div class="news-date">{item["date"]}</div>\n'
+                    f'    <a href="news/{item["id"]}.html" class="news-card">\n'
+                    f'      <img src="{item.get("thumbnail", "koricare_main_logo_nobg.png")}" alt="{item["title_th"]}">\n'
                     f'    </a>'
                 )
                 news_items_html.append(html)
@@ -333,7 +336,7 @@ def main():
             if news_items_html:
                 news_block = "\n".join(news_items_html)
             else:
-                news_block = '    <div class="empty" style="padding:15px 0;">ยังไม่มีประกาศในขณะนี้ · No notices yet</div>'
+                news_block = '    <div class="empty" style="grid-column: 1 / -1; padding:15px 0;">ยังไม่มีประกาศในขณะนี้ · No notices yet</div>'
                 
             updated_index = (
                 index_content[:start_idx + len(start_marker)] +

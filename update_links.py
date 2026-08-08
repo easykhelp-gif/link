@@ -6,7 +6,7 @@ import re
 import sys
 
 # Define valid categories according to index.html structure
-VALID_CATEGORIES = {"embassy", "admin", "remittance", "telecom", "hospital", "support"}
+VALID_CATEGORIES = {"medical", "visa", "labor", "finance", "transport", "admin", "hair", "nail", "thai_food", "phone"}
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -84,6 +84,12 @@ def validate_and_convert():
                     # Convert comma separated tags to list
                     tags = [t.strip() for t in re.split(r'[,\s]+', tags_str) if t.strip()] if tags_str else []
                     
+                    region = row.get("region", "").strip() if "region" in row else "national"
+                    if not region:
+                        region = "national"
+                        
+                    district = row.get("district", "").strip() if "district" in row else ""
+                    
                     item = {
                         "id": row_id,
                         "category": category,
@@ -92,7 +98,12 @@ def validate_and_convert():
                         "url": url,
                         "desc_th": desc_th,
                         "desc_en": desc_en,
-                        "tags": tags
+                        "tags": tags,
+                        "region": region,
+                        "district": district,
+                        "reviews": [],
+                        "rating": 0.0,
+                        "user_submitted": False
                     }
                     items.append(item)
                     
