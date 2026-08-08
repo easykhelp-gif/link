@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-08-07T17:11:29.345Z",
+  "cities": [
+    {
+      "id": "seoul",
+      "name_th": "กรุงเทพ (Seoul)",
+      "districts": [
+        {
+          "id": "jongno",
+          "name_ko": "종로구",
+          "name_th": "จงโน (Jongno-gu)",
+          "places": [
+            {
+              "id": "place_snuh",
+              "name_ko": "서울대학교병원 국제진료센터 (SNUH)",
+              "name_th": "ศูนย์การแพทย์นานาชาติ รพ. มหาวิทยาลัยโซล",
+              "category": "hospital",
+              "rating": 4.9,
+              "reviews": 128,
+              "address": "서울특별시 종로구 대학로 101",
+              "phone": "02-2072-2894",
+              "services_th": "บริการล่ามภาษาครบวงจร (ภาษาอังกฤษ/จีน/ไทย)",
+              "map_url": "https://maps.google.com/?q=SNUH+International+Healthcare+Center"
+            }
+          ]
+        },
+        {
+          "id": "seodaemun",
+          "name_ko": "서대문구",
+          "name_th": "ซอแดมุน (Seodaemun-gu)",
+          "places": [
+            {
+              "id": "place_severance",
+              "name_ko": "신촌 세브란스병원 국제진료ศูนย์ (Severance)",
+              "name_th": "คลินิกสุขภาพนานาชาติ รพ. เซเวแรนส์",
+              "category": "hospital",
+              "rating": 4.8,
+              "reviews": 210,
+              "address": "서울특별시 서대문구 연เสโร 50-1",
+              "phone": "02-2228-5800",
+              "services_th": "ทีมแพทย์เฉพาะทางช่วยเหลือนานาชาติ 24 ชม.",
+              "map_url": "https://maps.google.com/?q=Severance+International+Health+Care+Center"
+            }
+          ]
+        },
+        {
+          "id": "guro",
+          "name_ko": "구로구",
+          "name_th": "คูโร (Guro-gu)",
+          "places": [
+            {
+              "id": "place_guro_thaifood",
+              "name_ko": "구로 태국 식당 & 아시아 마트",
+              "name_th": "ร้านอาหารไทยและมินิมาร์ท คูโร",
+              "category": "restaurant",
+              "rating": 4.7,
+              "reviews": 85,
+              "address": "서울특별시 구로구 구로동 120",
+              "phone": "02-850-1234",
+              "services_th": "วัตถุดิบอาหารไทยแท้และเครื่องปรุงครบครัน",
+              "map_url": "https://maps.google.com/?q=Guro+Thai+Market"
+            },
+            {
+              "id": "place_guro_mobile",
+              "name_ko": "구로 글로벌 모바일 샵 (외국인 개통)",
+              "name_th": "ร้านมือถือระบบซิมต่างชาติ คูโร",
+              "category": "mobile",
+              "rating": 4.9,
+              "reviews": 142,
+              "address": "서울특별시 구로구 디지털로 300",
+              "phone": "02-860-5678",
+              "services_th": "เปิดซิมการ์ดต่างชาติและบริการภาษาไทย",
+              "map_url": "https://maps.google.com/?q=Guro+Global+Mobile"
+            }
+          ]
+        },
+        {
+          "id": "yeongdeungpo",
+          "name_ko": "영등포구",
+          "name_th": "ย็องดึงโพ (Yeongdeungpo-gu)",
+          "places": [
+            {
+              "id": "place_ydp_hospital",
+              "name_ko": "영등포 성โม병원 외국인 진료센터",
+              "name_th": "ศูนย์การแพทย์ต่างชาติ ย็องดึงโพ",
+              "category": "hospital",
+              "rating": 4.8,
+              "reviews": 96,
+              "address": "서울특별시 영등포구 63โร 10",
+              "phone": "02-3779-1114",
+              "services_th": "บริการตรวจสุขภาพและให้คำปรึกษาต่างชาติ",
+              "map_url": "https://maps.google.com/?q=Yeongdeungpo+Hospital"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

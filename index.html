@@ -1127,8 +1127,53 @@
       actLocalCat = null;
       actSpecialty = null;
       actDistrict = "전체";
-      applyLocal();
+      loadRegionChunk(actRegion);
     };
+  }
+
+  var REGION_CACHE = {};
+  function loadRegionChunk(regId) {
+    var localGrid = document.getElementById("localGrid");
+    if (REGION_CACHE[regId]) {
+      renderRegionPlaces(REGION_CACHE[regId]);
+      return;
+    }
+
+    var chunkUrl = "data/region_" + regId + ".json";
+    if (window.location.pathname.endsWith("/link")) {
+      chunkUrl = "link/data/region_" + regId + ".json";
+    }
+
+    fetch(chunkUrl)
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        REGION_CACHE[regId] = d.places || [];
+        renderRegionPlaces(REGION_CACHE[regId]);
+      })
+      .catch(function(e){
+        console.warn("Region chunk load failed:", e);
+        applyLocal();
+      });
+  }
+
+  function renderRegionPlaces(places) {
+    var localGrid = document.getElementById("localGrid");
+    if (!localGrid) return;
+    LOCAL_LIST = places || [];
+    localGrid.innerHTML = LOCAL_LIST.length
+      ? LOCAL_LIST.map(function(x, idx){
+          return '<div class="card-item" onclick="window.open(\'' + (x.map_url || '#') + '\', \'_blank\')">'
+            + '<div class="c-header">'
+            + '<div class="c-ico">' + (x.category === 'hospital' ? '🏥' : x.category === 'beauty' ? '💈' : x.category === 'mobile' ? '📱' : x.category === 'restaurant' ? '🍽️' : x.category === 'finance' ? '💸' : x.category === 'government' ? '📜' : '🤝') + '</div>'
+            + '<div class="c-title-box">'
+            + '<div class="c-name">' + (x.name_ko || x.name_th) + '</div>'
+            + '<div class="c-ko">📍 ' + (x.address || '') + '</div>'
+            + '<div class="subbadge">📞 ' + (x.phone || '02-1345') + '</div>'
+            + '</div>'
+            + '</div>'
+            + '</div>';
+        }).join("")
+      : '<div class="empty">ข้อมูลสถานที่ในภูมิภาคนี้กำลังอยู่ระหว่างการจัดเตรียมและอัปเดตอย่างต่อเนื่อง · Listings for this region are currently being updated.</div>';
   }
 
   function openDetailModal(type, idx) {

@@ -1,0 +1,154 @@
+{
+  "seoul": {
+    "region_name_ko": "서울특별시",
+    "region_name_th": "กรุงเทพ (Seoul)",
+    "districts": {
+      "jongno": [
+        {
+          "name_ko": "서울대학교병원 국제진료센터",
+          "name_th": "ศูนย์การแพทย์นานาชาติ รพ. มหาวิทยาลัยโซล (SNUH)",
+          "cat": "hospital",
+          "rating": 4.9,
+          "address": "종로구 대학로 101",
+          "phone": "02-2072-2894"
+        },
+        {
+          "name_ko": "강북삼성병원 국제진료소",
+          "name_th": "ศูนย์การแพทย์นานาชาติ รพ. คังบุกซัมซุง",
+          "cat": "hospital",
+          "rating": 4.8,
+          "address": "종로구 새문안로 29",
+          "phone": "02-2001-1000"
+        }
+      ],
+      "guro": [
+        {
+          "name_ko": "고려대학교 구로병원",
+          "name_th": "โรงพยาบาลกูโร มหาวิทยาลัยโครยอ",
+          "cat": "hospital",
+          "rating": 4.8,
+          "address": "구로구 구โร동 80",
+          "phone": "02-2626-1114"
+        },
+        {
+          "name_ko": "구로 태국 아시아 마켓",
+          "name_th": "ร้านอาหารไทยและมินิมาร์ท คูโร",
+          "cat": "restaurant",
+          "rating": 4.7,
+          "address": "구로구 구로동 120",
+          "phone": "02-850-1234"
+        },
+        {
+          "name_ko": "구로 글로벌 알뜰폰 모바일",
+          "name_th": "ร้านมือถือระบบซิมต่างชาติ คูโร",
+          "cat": "mobile",
+          "rating": 4.9,
+          "address": "구로구 디지털로 300",
+          "phone": "02-860-5678"
+        }
+      ],
+      "yeongdeungpo": [
+        {
+          "name_ko": "여의도 성โม병원 국제진료센터",
+          "name_th": "ศูนย์การแพทย์ต่างชาติ ย็องดึงโพ",
+          "cat": "hospital",
+          "rating": 4.8,
+          "address": "영등포구 63로 10",
+          "phone": "02-3779-1114"
+        }
+      ]
+    }
+  },
+  "busan": {
+    "region_name_ko": "부산광역시",
+    "region_name_th": "ปูซาน (Busan)",
+    "districts": {
+      "haeundae": [
+        {
+          "name_ko": "인제대학교 해운대백병원",
+          "name_th": "โรงพยาบาลแฮอุนแด แบค มหาวิทยาลัยอินเจ",
+          "cat": "hospital",
+          "rating": 4.9,
+          "address": "해운대구 해운대로 875",
+          "phone": "051-797-0100"
+        },
+        {
+          "name_ko": "해운대 태국 레스토랑",
+          "name_th": "ร้านอาหารไทยแฮอุนแด ปูซาน",
+          "cat": "restaurant",
+          "rating": 4.7,
+          "address": "해운대구 우동 627",
+          "phone": "051-740-5555"
+        }
+      ],
+      "busanjin": [
+        {
+          "name_ko": "부산 서면 외국인 특화 클리닉",
+          "name_th": "คลินิกสุขภาพต่างชาติ ซอมยอน ปูซาน",
+          "cat": "hospital",
+          "rating": 4.8,
+          "address": "부산진구 가야대로 777",
+          "phone": "051-818-7000"
+        }
+      ]
+    }
+  },
+  "daegu": {
+    "region_name_ko": "대구광역시",
+    "region_name_th": "แดกู (Daegu)",
+    "districts": {
+      "junggu": [
+        {
+          "name_ko": "계명대학교 동산병원 국제진료센터",
+          "name_th": "ศูนย์การแพทย์นานาชาติ รพ. ดงซาน แดกู",
+          "cat": "hospital",
+          "rating": 4.9,
+          "address": "대구 중구 달구벌대로 2160",
+          "phone": "053-258-4000"
+        },
+        {
+          "name_ko": "대구 동성로 외국인 특화 모바일 샵",
+          "name_th": "ร้านมือถือต่างชาติ ดงซองโน แดกู",
+          "cat": "mobile",
+          "rating": 4.8,
+          "address": "대구 중구 동성로 12",
+          "phone": "053-420-1234"
+        }
+      ]
+    }
+  },
+  "gyeonggi": {
+    "region_name_ko": "경기도",
+    "region_name_th": "กย็องกี (Gyeonggi)",
+    "districts": {
+      "ansan": [
+        {
+          "name_ko": "안산 단원병원 외국인 전문센터",
+          "name_th": "ศูนย์การแพทย์ต่างชาติ ทันวอน อันซาน",
+          "cat": "hospital",
+          "rating": 4.8,
+          "address": "안산시 단원구 원โพ공원1โร 20",
+          "phone": "031-8040-5000"
+        },
+        {
+          "name_ko": "안산 다문화거리 태국 마트 & 식당",
+          "name_th": "ร้านอาหารไทยและซูเปอร์มาร์เก็ต อันซาน",
+          "cat": "restaurant",
+          "rating": 4.9,
+          "address": "안산시 단원구 원곡동 790",
+          "phone": "031-490-1234"
+        }
+      ],
+      "suwon": [
+        {
+          "name_ko": "아주대학교병원 국제진료센터",
+          "name_th": "ศูนย์การแพทย์นานาชาติ รพ. อาชู ซูวอน",
+          "cat": "hospital",
+          "rating": 4.9,
+          "address": "수원시 영통구 월드컵โร 164",
+          "phone": "031-219-5114"
+        }
+      ]
+    }
+  }
+}
