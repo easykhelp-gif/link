@@ -12,7 +12,7 @@ const http = require('http');
 // =========================================================================
 
 const BASE_DIR = __dirname;
-const PORTAL_DIR = path.join(BASE_DIR, "koricare-portal");
+const PORTAL_DIR = fs.existsSync(path.join(BASE_DIR, "koricare-portal")) ? path.join(BASE_DIR, "koricare-portal") : BASE_DIR;
 const NEWS_DIR = path.join(PORTAL_DIR, "news");
 const IMAGES_DIR = path.join(NEWS_DIR, "images");
 const INDEX_HTML_PATH = path.join(PORTAL_DIR, "index.html");
@@ -104,7 +104,16 @@ async function downloadImage(imgUrl, filename) {
 
 function generateArticleHtml(news, articleId) {
   const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  const htmlContent = `<!DOCTYPE html>
+  const bannerHtml = `
+  <!-- KoriCare Conversion Banner -->
+  <div style="background: linear-gradient(135deg, #1e3a8a 0%, #1a54c8 100%); border-radius: 16px; padding: 20px; color: #fff; margin: 24px 0; box-shadow: 0 4px 15px rgba(26,84,200,0.25); text-align: left;">
+    <div style="font-size: 16px; font-weight: 800; margin-bottom: 6px; color:#fff;">🇹🇭 คู่มือช่วยเหลือ & บริการในเกาหลี (Kori Care Link)</div>
+    <div style="font-size: 13px; opacity: 0.95; line-height: 1.45; margin-bottom: 14px; color:#e2e8f0;">ค้นหาสถานที่สำคัญ รพ. ต่างชาติ ร้านอาหารไทย คำนวณเงินชดเชย และบริการ 1345 ได้ในที่เดียว!</div>
+    <a href="https://www.koricare.kr/link/" target="_blank" style="display: inline-block; background: #fff; color: #1a54c8; padding: 11px 20px; border-radius: 10px; font-weight: 800; font-size: 14px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">เข้าสู่พอร์ทัล Kori Care Link ➔</a>
+  </div>
+  `;
+
+    const htmlContent = `<!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8">
@@ -132,14 +141,26 @@ function generateArticleHtml(news, articleId) {
     <h1>${news.title}</h1>
     <div class="date">อัปเดตเมื่อ: ${dateStr} · Kori Care Portal</div>
     ${news.localImgPath ? `<img src="../${news.localImgPath}" alt="${news.title}" class="hero-img">` : ''}
-    
+
     <div class="summary-box">
       <h3>📌 สรุปข่าวสำคัญ (Executive Summary)</h3>
       <div class="summary-th">${news.desc || news.title}</div>
       <div class="summary-en" style="font-size:14px; color:#475569; border-top:1px dashed #cbd5e1; padding-top:8px; margin-top:8px;">Fast updates on Thailand's trending topics</div>
     </div>
 
-    <a href="${news.link}" target="_blank" rel="noopener" class="original-link">🔗 View Original (อ่านข่าวฉบับเต็มจากแหล่งข่าวต้นฉบับ) ➔</a>
+    <!-- Magazine Topic Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin: 16px 0 20px;">
+      <span style="background:#f1f5f9; color:#475569; font-size:12px; font-weight:700; padding:5px 12px; border-radius:20px;">🏷️ #ข่าวเกาหลี</span>
+      <span style="background:#f1f5f9; color:#475569; font-size:12px; font-weight:700; padding:5px 12px; border-radius:20px;">🏷️ #ชีวิตในเกาหลี</span>
+      <span style="background:#e0f2fe; color:#0369a1; font-size:12px; font-weight:700; padding:5px 12px; border-radius:20px;">🏷️ #KoriCare</span>
+    </div>
+
+    ${bannerHtml}
+
+    <div style="margin-top: 18px; text-align:center; font-size: 11.5px; color: #94a3b8;">
+      <a href="${news.link}" target="_blank" rel="nofollow noopener" style="color:#94a3b8; text-decoration:none;">อ่านเพิ่มเติม · Reference</a>
+    </div>
+
     <a href="../index.html" class="back-btn">⬅ กลับสู่หน้าหลัก Kori Care Link (돌아가기)</a>
   </div>
 </body>

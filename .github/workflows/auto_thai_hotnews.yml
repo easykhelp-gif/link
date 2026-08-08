@@ -6,17 +6,20 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch: # 필요 시 수동 실행 버튼 지원
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Run Thai HotNews Auto-Pipeline
         run: |
@@ -26,6 +29,6 @@ jobs:
         run: |
           git config --global user.name "KoriCare AutoBot"
           git config --global user.email "bot@koricare.kr"
-          git add news/ index.html link_index_카드추가_완성본.html
+          git add .
           git diff-index --quiet HEAD || git commit -m "Auto-update Thai HotNews Top 3 & Images [Cloud System]"
           git push
