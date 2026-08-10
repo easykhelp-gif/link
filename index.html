@@ -106,12 +106,21 @@
   
   .flab{font-size:15px;font-weight:800;color:var(--navy);margin:24px 0 12px;letter-spacing:-0.2px}
   
+  /* Slim Clickable Premium Banner */
+  .slim-premium-banner{margin-top:24px; background:linear-gradient(135deg, #002366 0%, #123a8a 100%); border-radius:16px; padding:16px 20px; color:#fff; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:16px; border:1px solid rgba(255,255,255,0.15); box-shadow:0 6px 20px rgba(0,35,102,0.2); transition:transform 0.25s ease, box-shadow 0.25s ease;}
+  .slim-premium-banner:hover{transform:translateY(-2px); box-shadow:0 10px 25px rgba(0,35,102,0.3);}
+  
   /* Essential Service Cards: Sleek & Modern */
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
   .card-item{background:#fff;border-radius:14px;padding:16px;border:1px solid #e2e8f0;box-shadow:0 2px 8px rgba(15,23,42,0.03);cursor:pointer;transition:all 0.2s ease;display:flex;flex-direction:column;justify-content:space-between}
   .card-item:hover{transform:translateY(-2px);border-color:#cbd5e1;box-shadow:0 6px 18px rgba(15,23,42,0.08)}
   .card-title{font-size:14px;font-weight:800;color:#002366;line-height:1.35;word-break:break-word}
   .card-desc{font-size:12px;color:#475569;margin-top:6px;line-height:1.45;word-break:break-word}
+  
+  /* News Modal Backdrop & Modal Card */
+  .modal-backdrop{display:none; position:fixed; inset:0; background:rgba(15,23,42,0.75); z-index:3000; backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:16px;}
+  .modal-backdrop.active{display:flex; animation:fadeIn 0.2s ease;}
+  .modal-card{background:#fff; border-radius:24px; max-width:540px; width:100%; max-height:85vh; overflow-y:auto; padding:24px; box-shadow:0 24px 48px rgba(0,0,0,0.35); position:relative;}
   
   @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 </style>
@@ -133,7 +142,7 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
           <circle cx="12" cy="12" r="10" />
           <line x1="2" y1="12" x2="22" y2="12" />
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
         </svg>
         <span>English</span>
         <span style="font-size:9px; opacity:0.85; margin-left:2px;">▼</span>
@@ -197,32 +206,32 @@
     <b>Popular Search:</b>
   </div>
 
-  <!-- English Recent News Section -->
+  <!-- English News Section with In-Site Summary Modal -->
   <div class="flab">Recent Korea News & Notice</div>
   <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px;">
-    <a href="https://www.korea.net/NewsFocus/Policies" target="_blank" rel="noopener" class="news-card" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; text-decoration:none; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+    <div class="news-card" onclick="openNewsModal('visa')" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; cursor:pointer; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03); transition:transform 0.2s ease;">
       <img src="news/images/thumb_1786197200970_1.jpg" alt="Korea Visa Policy" style="width:100%; height:90px; object-fit:cover; border-radius:10px;">
       <div style="font-size:13px; font-weight:700; color:#1e293b; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
         Korea Visa & Immigration Policy Updates 2026
       </div>
-      <div style="font-size:11px; color:#64748b;">Official Foreigner Guidelines</div>
-    </a>
+      <div style="font-size:11px; color:#2563eb; font-weight:700;">Read Official Summary ➔</div>
+    </div>
 
-    <a href="https://www.moel.go.kr/english/" target="_blank" rel="noopener" class="news-card" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; text-decoration:none; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+    <div class="news-card" onclick="openNewsModal('severance')" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; cursor:pointer; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03); transition:transform 0.2s ease;">
       <img src="news/images/thumb_1786197201716_2.jpg" alt="Foreign Worker Rights" style="width:100%; height:90px; object-fit:cover; border-radius:10px;">
       <div style="font-size:13px; font-weight:700; color:#1e293b; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
         Foreign Worker Rights & Severance Pay Protection
       </div>
-      <div style="font-size:11px; color:#64748b;">Ministry of Employment Guide</div>
-    </a>
+      <div style="font-size:11px; color:#2563eb; font-weight:700;">Read Official Summary ➔</div>
+    </div>
 
-    <a href="https://www.nhis.or.kr/english/" target="_blank" rel="noopener" class="news-card" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; text-decoration:none; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+    <div class="news-card" onclick="openNewsModal('nhis')" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; cursor:pointer; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03); transition:transform 0.2s ease;">
       <img src="news/images/thumb_1786197201800_3.jpg" alt="National Health Insurance" style="width:100%; height:90px; object-fit:cover; border-radius:10px;">
       <div style="font-size:13px; font-weight:700; color:#1e293b; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
         National Health Insurance Access for Foreigners
       </div>
-      <div style="font-size:11px; color:#64748b;">NHIS Healthcare Guide</div>
-    </a>
+      <div style="font-size:11px; color:#2563eb; font-weight:700;">Read Official Summary ➔</div>
+    </div>
   </div>
 
   <!-- Local Directory Section -->
@@ -241,12 +250,14 @@
     <div id="localGrid" style="margin-top:16px; display:flex; flex-direction:column; width:100%;"></div>
   </div>
 
-  <!-- Premium Banner -->
-  <div class="premium-banner" style="margin-top:28px; background:linear-gradient(135deg, #002366 0%, #123a8a 100%); border-radius:18px; padding:22px; color:#fff;">
-    <span class="p-badge" style="background:rgba(255,255,255,0.2); padding:4px 12px; border-radius:20px; font-size:11px; font-weight:800; letter-spacing:0.5px;">Kori Care Support</span>
-    <div class="p-title" style="font-size:17px; font-weight:900; margin:8px 0 4px;">1:1 Legal, Visa & Living Support in Korea</div>
-    <p class="p-desc" style="font-size:12.5px; opacity:0.9; margin-bottom:14px;">Direct guidance for visa extension, labor rights, and administrative issues in South Korea.</p>
-    <a href="https://koricare.kr" target="_blank" rel="noopener" class="p-btn" style="display:inline-block; background:#fff; color:var(--navy); font-weight:800; font-size:13px; padding:9px 18px; border-radius:10px; text-decoration:none;">Consult Expert ➔</a>
+  <!-- Slim & Entirely Clickable Premium Banner -->
+  <div class="slim-premium-banner" onclick="window.open('https://koricare.kr', '_blank')">
+    <div style="flex:1;">
+      <div style="display:inline-block; background:rgba(255,255,255,0.2); padding:3px 10px; border-radius:14px; font-size:10.5px; font-weight:800; letter-spacing:0.5px; margin-bottom:4px;">Kori Care 1:1 Care</div>
+      <div style="font-size:15.5px; font-weight:900; line-height:1.25;">Direct Visa, Legal & Life Support in Korea</div>
+      <div style="font-size:12px; opacity:0.88; margin-top:3px;">Fast, confidential 1:1 expert guidance for foreign residents.</div>
+    </div>
+    <div style="background:#fff; color:#002366; font-size:12.5px; font-weight:800; padding:8px 16px; border-radius:10px; flex-shrink:0; white-space:nowrap;">Get Started ➔</div>
   </div>
 
   <!-- Essential Services Grid Section -->
@@ -262,6 +273,21 @@
     <div style="font-size:12px; color:#475569; font-weight:500;">Official essential service directory for foreign residents living in South Korea.</div>
     <div style="font-size:11px; color:#94a3b8; margin-top:8px;">© 2026 Kori Care. All rights reserved.</div>
   </footer>
+</div>
+
+<!-- News Summary In-Site Modal Dialog -->
+<div id="newsModalBackdrop" class="modal-backdrop" onclick="closeNewsModal(event)">
+  <div class="modal-card" onclick="event.stopPropagation()">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; border-bottom:1px solid #e2e8f0; padding-bottom:12px;">
+      <div id="modalNewsBadge" style="background:#e0e7ff; color:#3730a3; font-size:11px; font-weight:800; padding:4px 10px; border-radius:20px;">Official Guide</div>
+      <button onclick="closeNewsModal()" style="background:none; border:none; font-size:22px; cursor:pointer; color:#64748b;">✕</button>
+    </div>
+    <h3 id="modalNewsTitle" style="font-size:18px; font-weight:900; color:#0f172a; line-height:1.35; margin-bottom:12px;"></h3>
+    <div id="modalNewsContent" style="font-size:13.5px; color:#334155; line-height:1.65;"></div>
+    <div style="margin-top:20px; display:flex; justify-content:flex-end;">
+      <button onclick="closeNewsModal()" style="background:#002366; color:#fff; border:none; padding:10px 20px; border-radius:10px; font-weight:800; font-size:13px; cursor:pointer;">Close Summary</button>
+    </div>
+  </div>
 </div>
 
 <!-- Search Overlay Modal -->
@@ -286,6 +312,39 @@
     var menu = document.getElementById("langMenu");
     if (menu) menu.classList.remove("show");
   });
+
+  var NEWS_DATA = {
+    visa: {
+      badge: "Immigration Policy 2026",
+      title: "Korea Visa & Immigration Policy Updates 2026",
+      content: "<p style='margin-bottom:12px;'>The Ministry of Justice has introduced key visa updates for foreign residents in 2026 to streamline residency and employment transitions.</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>E-9 to E-7-4 Transition:</b> Quota expanded for skilled foreign workers with 4+ years of lawful employment.</li><li><b>F-2-7 Points System:</b> Additional bonus points awarded for KIIP Level 4+ completion and regional university degrees.</li><li><b>Online ARC Service:</b> Initial Alien Registration Card issuance and address changes can now be submitted online via HiKorea.</li></ul><p>For urgent questions, call the Immigration Hotline at <b>1345</b> (available in 20 languages).</p>"
+    },
+    severance: {
+      badge: "Labor Rights Guide",
+      title: "Foreign Worker Rights & Severance Pay Protection",
+      content: "<p style='margin-bottom:12px;'>Under the Korean Labor Standards Act, ALL foreign workers (regardless of visa status) who work for 1 year or longer are legally entitled to severance pay.</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>Basic Formula:</b> 30 days of average wage for each continuous year of service.</li><li><b>Payment Deadline:</b> Must be paid within 14 days of resignation or contract termination.</li><li><b>Delayed Payment Interest:</b> Employers owe 20% annual interest on overdue severance pay.</li></ul><p>Calculate your legal payout using the <b>Kori Care Severance Calculator</b> or call the Ministry of Employment helpline at <b>1350</b>.</p>"
+    },
+    nhis: {
+      badge: "Healthcare & Insurance",
+      title: "National Health Insurance Access for Foreigners",
+      content: "<p style='margin-bottom:12px;'>Foreign residents residing in South Korea for more than 6 months are automatically enrolled in the National Health Insurance Service (NHIS).</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>Coverage Benefits:</b> Up to 70-80% coverage for hospital visits, general clinic treatments, and prescription medications.</li><li><b>Emergency Care:</b> 119 ER services and emergency medical centers are accessible 24/7 nationwide.</li><li><b>Multilingual Line:</b> Call NHIS Foreigner Support Center at <b>033-811-2000</b> (English, Chinese, Vietnamese).</li></ul>"
+    }
+  };
+
+  function openNewsModal(key) {
+    var data = NEWS_DATA[key];
+    if (!data) return;
+    document.getElementById("modalNewsBadge").textContent = data.badge;
+    document.getElementById("modalNewsTitle").textContent = data.title;
+    document.getElementById("modalNewsContent").innerHTML = data.content;
+    document.getElementById("newsModalBackdrop").classList.add("active");
+  }
+
+  function closeNewsModal(e) {
+    if (!e || e.target.id === "newsModalBackdrop" || e.target.tagName === "BUTTON") {
+      document.getElementById("newsModalBackdrop").classList.remove("active");
+    }
+  }
 
   var CATS = [
     { key:"all",        en:"All Categories", emo:"🧭" },
@@ -319,9 +378,35 @@
     {key:"other", en:"Other Regions (기타 지역)"}
   ];
 
+  /* Authoritative District Mapping per Region */
+  var DISTRICTS = {
+    seoul: [
+      {key:"전체", en:"All Districts (전체)"},
+      {key:"종로구", en:"Jongno-gu (종로구)"}, {key:"중구", en:"Jung-gu (중구)"},
+      {key:"용산구", en:"Yongsan-gu (용산구)"}, {key:"마포구", en:"Mapo-gu (마포구)"},
+      {key:"강남구", en:"Gangnam-gu (강남구)"}, {key:"서초구", en:"Seocho-gu (서초구)"},
+      {key:"영등포구", en:"Yeongdeungpo-gu (영등포구)"}, {key:"구로구", en:"Guro-gu (구로구)"},
+      {key:"관악구", en:"Gwanak-gu (관악구)"}, {key:"송파구", en:"Songpa-gu (송파구)"}
+    ],
+    busan: [
+      {key:"전체", en:"All Districts (전체)"},
+      {key:"중구", en:"Jung-gu (중구)"}, {key:"해운대구", en:"Haeundae-gu (해운대구)"},
+      {key:"부산진구", en:"Busanjin-gu (부산진구)"}, {key:"동래구", en:"Dongnae-gu (동래구)"},
+      {key:"사하구", en:"Saha-gu (사하구)"}, {key:"수영구", en:"Suyeong-gu (수영구)"},
+      {key:"강서구", en:"Gangseo-gu (강서구)"}
+    ],
+    daegu: [
+      {key:"전체", en:"All Districts (전체)"},
+      {key:"달서구", en:"Dalseo-gu (달서구)"}, {key:"동구", en:"Dong-gu (동구)"},
+      {key:"서구", en:"Seo-gu (서구)"}, {key:"남구", en:"Nam-gu (남구)"},
+      {key:"북구", en:"Buk-gu (북구)"}, {key:"수성구", en:"Suseong-gu (수성구)"},
+      {key:"중구", en:"Jung-gu (중구)"}, {key:"달성군", en:"Dalseong-gun (달성군)"},
+      {key:"군위군", en:"Gunwi-gun (군위군)"}
+    ]
+  };
+
   var HOTKEYS = ["Visa", "Remittance", "Hospital", "SIM Card", "Emergency"];
 
-  /* Clean Essential Services List: Single concise title & single description */
   var FALLBACK = [
     {id:"gov_socinet",category:"visa",name_en:"KIIP Social Integration Program",url:"https://www.socinet.go.kr",desc_en:"Official Korean language & culture integration program for visa status"},
     {id:"gov_hikorea",category:"visa",name_en:"HiKorea Immigration E-Services",url:"https://www.hikorea.go.kr",desc_en:"Online visa extensions, alien registration, and appointment bookings"},
@@ -341,12 +426,11 @@
     {id:"hos_medical_support",category:"medical",name_en:"WeFriends Relief Society",url:"https://www.wefriends.org",desc_en:"Medical fee assistance & healthcare support for foreign workers"}
   ];
 
-  var actCat = "all", actRegion = "전체", actDistrict = "전체";
+  var actCat = "all", actRegion = "전체", actDistrict = "";
   var NATIONAL_LIST = [], SEARCH_LIST = [];
 
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
 
-  /* Sleek & Modern Card rendering: Clean title + Clean description */
   function card(x){
     var title = esc(x.name_en);
     var summary = esc(x.desc_en || "");
@@ -400,7 +484,6 @@
       return true;
     });
 
-    /* Render ALL essential services directly without cluttered show more button */
     document.getElementById("grid").innerHTML = NATIONAL_LIST.length
       ? NATIONAL_LIST.map(function(x){ return card(x); }).join("")
       : '<div class="empty">No services found for this category</div>';
@@ -468,57 +551,24 @@
       });
   }
 
-  var districtRomanMap = {
-    "강남구": "Gangnam-gu", "강동구": "Gangdong-gu", "강북구": "Gangbuk-gu", "강서구": "Gangseo-gu",
-    "관악구": "Gwanak-gu", "광진구": "Gwangjin-gu", "구로구": "Guro-gu", "금천구": "Geumcheon-gu",
-    "노원구": "Nowon-gu", "도봉구": "Dobong-gu", "동대문구": "Dongdaemun-gu", "동작구": "Dongjak-gu",
-    "마포구": "Mapo-gu", "서대문구": "Seodaemun-gu", "서초구": "Seocho-gu", "성동구": "Seongdong-gu",
-    "성북구": "Seongbuk-gu", "송파구": "Songpa-gu", "양천구": "Yangcheon-gu", "영등포구": "Yeongdeungpo-gu",
-    "용산구": "Yongsan-gu", "은평구": "Eunpyeong-gu", "종로구": "Jongno-gu", "중구": "Jung-gu", "중랑구": "Jungnang-gu",
-    "달서구": "Dalseo-gu", "수성구": "Suseong-gu", "달성군": "Dalseong-gun", "군위군": "Gunwi-gun", "동구": "Dong-gu",
-    "서구": "Seo-gu", "남구": "Nam-gu", "북구": "Buk-gu", "사상구": "Sasang-gu",
-    "해운대구": "Haeundae-gu", "부산진구": "Busanjin-gu", "동래구": "Dongnae-gu", "금정구": "Geumjeong-gu",
-    "연제구": "Yeonje-gu", "수영구": "Suyeong-gu", "기장군": "Gijang-gun", "유성구": "Yuseong-gu",
-    "대덕구": "Daedeok-gu", "울주군": "Ulju-gun", "춘천시": "Chuncheon-si", "청주시": "Cheongju-si",
-    "천안시": "Cheonan-si", "아산시": "Asan-si", "전주시": "Jeonju-si", "목포시": "Mokpo-si",
-    "구미시": "Gumi-si", "창원시": "Changwon-si", "제주시": "Jeju-si", "서귀포시": "Seogwipo-si"
-  };
-
-  function extractDistricts(places) {
-    var distSet = new Set();
-    var majorCities = ["서울", "서울특별시", "부산", "부산광역시", "대구", "대구광역시", "인천", "인천광역시", "광주", "광주광역시", "대전", "대전광역시", "울산", "울산광역시", "세종", "세종특별자치시", "경기", "경기도", "강원", "강원도", "충북", "충청북도", "충남", "충청남도", "전북", "전라북도", "전남", "전라남도", "경북", "경상북도", "경남", "경상남도", "제주", "제주도"];
-
-    (places || []).forEach(function(p) {
-      var addr = (p.address || "").trim();
-      var parts = addr.split(/\s+/);
-      for (var i = 0; i < parts.length; i++) {
-        var word = parts[i];
-        if (majorCities.indexOf(word) === -1 && /(구|군|시)$/.test(word)) {
-          if (!word.includes("광역시") && !word.includes("특별")) {
-            distSet.add(word);
-            break;
-          }
-        }
-      }
-    });
-    return Array.from(distSet).sort();
-  }
-
   function renderFilterControlsAndPlaces() {
     var localGrid = document.getElementById("localGrid");
     if (!localGrid) return;
 
-    var districts = extractDistricts(currentRegionPlaces);
+    var districtOptions = [];
+    if (DISTRICTS[actRegion]) {
+      districtOptions = DISTRICTS[actRegion];
+    } else {
+      districtOptions = [{key:"전체", en:"All Districts (전체)"}];
+    }
     
     // Step 1: District Dropdown
     var districtsHtml = '<div style="margin: 12px 0 14px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
       + '<label style="font-size:13px; font-weight:800; color:var(--ink);">🏙️ Select District</label>'
       + '<select class="form-input" style="height:46px; font-size:14px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setDistrictFilter(this.value)">'
       + '<option value=""' + (selectedDistrict === "" ? ' selected' : '') + '>-- Select District --</option>'
-      + '<option value="all"' + (selectedDistrict === "all" ? ' selected' : '') + '>All Districts (전체)</option>'
-      + districts.map(function(d){
-          var enLabel = districtRomanMap[d] ? districtRomanMap[d] + ' (' + d + ')' : d;
-          return '<option value="' + d + '"' + (selectedDistrict === d ? ' selected' : '') + '>' + enLabel + '</option>';
+      + districtOptions.map(function(d){
+          return '<option value="' + d.key + '"' + (selectedDistrict === d.key ? ' selected' : '') + '>' + d.en + '</option>';
         }).join("")
       + '</select>'
       + '</div>';
@@ -552,7 +602,7 @@
     var cardsHtml = "";
     if (selectedDistrict !== "" && selectedCategory !== "") {
       var filteredPlaces = currentRegionPlaces.filter(function(p){
-        if (selectedDistrict !== "all") {
+        if (selectedDistrict !== "전체" && selectedDistrict !== "all") {
           if ((p.address || "").indexOf(selectedDistrict) === -1) return false;
         }
         if (selectedCategory !== "all") {
