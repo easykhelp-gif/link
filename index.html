@@ -593,9 +593,8 @@
           var cleanNameEn = (x.name_en || "").replace(/\uFFFD/g, '');
           var primaryTitle = cleanNameEn || cleanNameKo;
 
-          var gMapUrl = (x.y && x.x)
-            ? 'https://www.google.com/maps/search/?api=1&query=' + x.y + ',' + x.x
-            : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(x.address || cleanNameKo);
+          var searchQuery = (cleanNameKo ? cleanNameKo + ' ' : (cleanNameEn ? cleanNameEn + ' ' : '')) + (x.address || '');
+          var gMapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(searchQuery.trim());
 
           return '<div class="card-item" onclick="window.open(\'' + gMapUrl + '\', \'_blank\', \'noopener,noreferrer\')">'
             + '<div>'
