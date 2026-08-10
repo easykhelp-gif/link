@@ -60,46 +60,49 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.6;}
-  .wrap{max-width:840px;margin:0 auto;padding:0 16px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 16px}
   header{background:var(--navy);color:#fff}
   .hrow{display:flex;align-items:center;justify-content:space-between;padding:12px 0;min-height:56px}
   .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
-  .logo-img{width:36px;height:36px;object-fit:contain}
-  .logo-text b{font-size:18px;font-weight:900;display:block;line-height:1.1;letter-spacing:-0.3px}
-  .logo-text span{font-size:10px;opacity:0.85;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+  .logo-img{width:34px;height:34px;object-fit:contain}
+  .logo-text b{font-size:17.5px;font-weight:900;display:block;line-height:1.1;letter-spacing:-0.3px}
+  .logo-text span{font-size:9.5px;opacity:0.85;font-weight:700;letter-spacing:1px;text-transform:uppercase}
   
   /* High-Contrast Glassmorphism Language Selector */
   .lang-dropdown-wrapper{position:relative;display:inline-block}
-  .lang-btn{display:flex;align-items:center;gap:6px;background:rgba(0,25,80,0.55);color:#ffffff;border:1.5px solid rgba(255,255,255,0.7);border-radius:20px;padding:7px 14px;font-size:13px;font-weight:800;cursor:pointer;backdrop-filter:blur(12px);box-shadow:0 4px 14px rgba(0,0,0,0.3);transition:all 0.25s ease}
+  .lang-btn{display:flex;align-items:center;gap:6px;background:rgba(0,25,80,0.55);color:#ffffff;border:1.5px solid rgba(255,255,255,0.7);border-radius:20px;padding:6px 13px;font-size:12.5px;font-weight:800;cursor:pointer;backdrop-filter:blur(12px);box-shadow:0 4px 14px rgba(0,0,0,0.3);transition:all 0.25s ease}
   .lang-btn:hover{background:rgba(0,35,102,0.85);border-color:#ffffff}
-  .lang-menu{display:none;position:absolute;right:0;top:42px;background:#002366;border:1.5px solid rgba(255,255,255,0.3);border-radius:14px;padding:6px;box-shadow:0 12px 36px rgba(0,0,0,0.45);min-width:125px;z-index:1000}
+  .lang-menu{display:none;position:absolute;right:0;top:40px;background:#002366;border:1.5px solid rgba(255,255,255,0.3);border-radius:14px;padding:6px;box-shadow:0 12px 36px rgba(0,0,0,0.45);min-width:125px;z-index:1000}
   .lang-menu.show{display:flex;flex-direction:column;gap:3px;animation:fadeIn 0.2s ease}
-  .lang-item{padding:9px 14px;color:rgba(255,255,255,0.9);font-size:13px;font-weight:700;text-decoration:none;border-radius:8px;transition:background 0.2s ease}
+  .lang-item{padding:8px 12px;color:rgba(255,255,255,0.9);font-size:12.5px;font-weight:700;text-decoration:none;border-radius:8px;transition:background 0.2s ease}
   .lang-item:hover, .lang-item.active{background:rgba(255,255,255,0.2);color:#ffffff;font-weight:800}
   
-  .hero{background:linear-gradient(180deg,#002366 0%,#0e2f72 100%);color:#fff;padding:28px 0 36px;text-align:center}
-  .hero h1{font-size:24px;font-weight:900;line-height:1.35;margin-bottom:8px;letter-spacing:-0.3px}
-  .hero p{font-size:13.5px;opacity:0.9;margin-bottom:20px;max-width:520px;margin-left:auto;margin-right:auto}
-  .sos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:480px;margin:0 auto}
-  .sos a{background:rgba(255,255,255,0.14);border-radius:14px;padding:12px 6px;text-decoration:none;color:#fff;text-align:center;border:1px solid rgba(255,255,255,0.2);transition:transform 0.2s ease}
-  .sos a:hover{transform:translateY(-2px);background:rgba(255,255,255,0.2)}
-  .sos .n{font-size:16px;font-weight:900;display:flex;align-items:center;justify-content:center;gap:4px}
-  .sos .l{font-size:11px;opacity:0.9;margin-top:3px;font-weight:600}
+  .hero{background:linear-gradient(180deg,#002366 0%,#0e2f72 100%);color:#fff;padding:24px 0 32px;text-align:center}
+  .hero h1{font-size:22px;font-weight:900;line-height:1.35;margin-bottom:8px;letter-spacing:-0.3px}
+  .hero p{font-size:13px;opacity:0.88;margin-bottom:18px;max-width:500px;margin-left:auto;margin-right:auto}
   
-  /* Calculator Card: Centered & Clean */
-  .kc-calc-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:linear-gradient(135deg,#002366 0%,#1a4fc4 100%);border-radius:18px;padding:16px 22px;margin:20px 0 16px;color:#fff;text-decoration:none;box-shadow:0 8px 24px rgba(0,35,102,0.22);border:1px solid rgba(255,255,255,0.18);transition:transform 0.25s ease, box-shadow 0.25s ease}
+  /* Compact & 3D Glassmorphic SOS Hotline Cards */
+  .sos{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:440px;margin:0 auto}
+  .sos a{background:rgba(255,255,255,0.1);border-radius:14px;padding:10px 6px;text-decoration:none;color:#fff;text-align:center;border:1px solid rgba(255,255,255,0.2);backdrop-filter:blur(10px);box-shadow:0 4px 12px rgba(0,0,0,0.15);transition:all 0.25s ease}
+  .sos a:hover{transform:translateY(-2px);background:rgba(255,255,255,0.2);box-shadow:0 6px 18px rgba(0,0,0,0.25)}
+  .sos .n{font-size:15px;font-weight:900;display:flex;align-items:center;justify-content:center;gap:5px}
+  .sos .l{font-size:10.5px;opacity:0.9;margin-top:3px;font-weight:700}
+  .sos-icon-badge{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;width:22px;height:22px;box-shadow:0 2px 6px rgba(0,0,0,0.2)}
+  
+  /* Calculator Card: Centered & Calculator Icon */
+  .kc-calc-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:linear-gradient(135deg,#002366 0%,#1a4fc4 100%);border-radius:16px;padding:15px 20px;margin:18px 0 16px;color:#fff;text-decoration:none;box-shadow:0 8px 24px rgba(0,35,102,0.22);border:1px solid rgba(255,255,255,0.18);transition:transform 0.25s ease, box-shadow 0.25s ease}
   .kc-calc-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,35,102,0.32)}
-  .kc-calc-ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+  .kc-calc-ic{width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
   .kc-calc-tx{flex:1;display:flex;flex-direction:column;justify-content:center}
-  .kc-calc-tx .t{font-size:16px;font-weight:800;line-height:1.25}
+  .kc-calc-tx .t{font-size:15.5px;font-weight:800;line-height:1.25}
   .kc-calc-tx .sub{font-size:12px;opacity:0.85;margin-top:3px;font-weight:500}
-  .kc-calc-arrow{width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;font-weight:800;flex-shrink:0}
+  .kc-calc-arrow{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;font-weight:800;flex-shrink:0}
   
   .search{margin:16px 0;position:relative}
-  .search input{width:100%;padding:14px 16px 14px 44px;border-radius:14px;border:1.5px solid var(--line);font-size:14.5px;outline:none;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
-  .search .ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:18px;color:#94a3b8}
+  .search input{width:100%;padding:13px 16px 13px 44px;border-radius:14px;border:1.5px solid var(--line);font-size:14px;outline:none;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
+  .search .ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:17px;color:#94a3b8}
   
-  .hot{margin:12px 0 20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px}
+  .hot{margin:12px 0 20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px}
   .hot b{color:var(--navy);font-weight:800}
   .hk{background:#e2e8f0;color:#1e293b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;cursor:pointer;transition:all 0.2s ease}
   .hk:hover{background:var(--navy);color:#fff}
@@ -116,11 +119,6 @@
   .card-item:hover{transform:translateY(-2px);border-color:#cbd5e1;box-shadow:0 6px 18px rgba(15,23,42,0.08)}
   .card-title{font-size:14px;font-weight:800;color:#002366;line-height:1.35;word-break:break-word}
   .card-desc{font-size:12px;color:#475569;margin-top:6px;line-height:1.45;word-break:break-word}
-  
-  /* News Modal Backdrop & Modal Card */
-  .modal-backdrop{display:none; position:fixed; inset:0; background:rgba(15,23,42,0.75); z-index:3000; backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:16px;}
-  .modal-backdrop.active{display:flex; animation:fadeIn 0.2s ease;}
-  .modal-card{background:#fff; border-radius:24px; max-width:540px; width:100%; max-height:85vh; overflow-y:auto; padding:24px; box-shadow:0 24px 48px rgba(0,0,0,0.35); position:relative;}
   
   @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 </style>
@@ -142,7 +140,7 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
           <circle cx="12" cy="12" r="10" />
           <line x1="2" y1="12" x2="22" y2="12" />
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
         <span>English</span>
         <span style="font-size:9px; opacity:0.85; margin-left:2px;">▼</span>
@@ -160,24 +158,46 @@
   <div class="wrap">
     <h1>Essential Information Portal<br>for Foreign Residents in Korea</h1>
     <p>Official services, emergency contact numbers & location directory in South Korea</p>
+
+    <!-- Compact 3D Glassmorphic SOS Hotline Cards -->
     <div class="sos">
       <a href="tel:112">
         <div class="n">
-          <span style="display:inline-flex; align-items:center; justify-content:center; background:#ef4444; border-radius:50%; width:20px; height:20px;"><svg width="10" height="10" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          <!-- Police Shield SVG Icon -->
+          <span class="sos-icon-badge" style="background:#ef4444;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </span>
           112
         </div>
         <div class="l">Police</div>
       </a>
+
       <a href="tel:119">
         <div class="n">
-          <span style="display:inline-flex; align-items:center; justify-content:center; background:#f97316; border-radius:50%; width:20px; height:20px;"><svg width="10" height="10" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          <!-- Medical / Ambulance Cross SVG Icon -->
+          <span class="sos-icon-badge" style="background:#f97316;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </span>
           119
         </div>
         <div class="l">Ambulance & ER</div>
       </a>
+
       <a href="tel:1345">
         <div class="n">
-          <span style="display:inline-flex; align-items:center; justify-content:center; background:#3b82f6; border-radius:50%; width:20px; height:20px;"><svg width="10" height="10" viewBox="0 0 24 24" fill="#fff"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .3l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg></span>
+          <!-- Passport / Immigration Globe SVG Icon -->
+          <span class="sos-icon-badge" style="background:#2563eb;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </span>
           1345
         </div>
         <div class="l">Immigration Info</div>
@@ -187,9 +207,19 @@
 </section>
 
 <div class="wrap">
-  <!-- Severance Pay Calculator Card -->
+  <!-- Severance Pay Calculator Card with Vector Calculator Icon -->
   <a class="kc-calc-card" href="/severance-calculator">
-    <span class="kc-calc-ic">💰</span>
+    <span class="kc-calc-ic">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="2" width="16" height="20" rx="3" />
+        <line x1="8" y1="6" x2="16" y2="6" />
+        <line x1="8" y1="10" x2="16" y2="10" />
+        <line x1="8" y1="14" x2="10" y2="14" />
+        <line x1="14" y1="14" x2="16" y2="14" />
+        <line x1="8" y1="18" x2="10" y2="18" />
+        <line x1="14" y1="18" x2="16" y2="18" />
+      </svg>
+    </span>
     <span class="kc-calc-tx">
       <span class="t">Severance Pay Calculator</span>
       <span class="sub">Calculate your estimated severance pay under Korean Labor Law</span>
@@ -206,7 +236,7 @@
     <b>Popular Search:</b>
   </div>
 
-  <!-- English News Section with In-Site Summary Modal -->
+  <!-- English News Section with In-Site Subpages -->
   <div class="flab">Recent Korea News & Notice</div>
   <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px;">
     <a href="news/news_visa_policy_2026.html" class="news-card" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; text-decoration:none; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03); transition:transform 0.2s ease;">
@@ -275,21 +305,6 @@
   </footer>
 </div>
 
-<!-- News Summary In-Site Modal Dialog -->
-<div id="newsModalBackdrop" class="modal-backdrop" onclick="closeNewsModal(event)">
-  <div class="modal-card" onclick="event.stopPropagation()">
-    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; border-bottom:1px solid #e2e8f0; padding-bottom:12px;">
-      <div id="modalNewsBadge" style="background:#e0e7ff; color:#3730a3; font-size:11px; font-weight:800; padding:4px 10px; border-radius:20px;">Official Guide</div>
-      <button onclick="closeNewsModal()" style="background:none; border:none; font-size:22px; cursor:pointer; color:#64748b;">✕</button>
-    </div>
-    <h3 id="modalNewsTitle" style="font-size:18px; font-weight:900; color:#0f172a; line-height:1.35; margin-bottom:12px;"></h3>
-    <div id="modalNewsContent" style="font-size:13.5px; color:#334155; line-height:1.65;"></div>
-    <div style="margin-top:20px; display:flex; justify-content:flex-end;">
-      <button onclick="closeNewsModal()" style="background:#002366; color:#fff; border:none; padding:10px 20px; border-radius:10px; font-weight:800; font-size:13px; cursor:pointer;">Close Summary</button>
-    </div>
-  </div>
-</div>
-
 <!-- Search Overlay Modal -->
 <div id="searchOverlay" class="search-overlay" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.7); z-index:2000; backdrop-filter:blur(8px);">
   <div style="max-width:540px; margin:40px auto; background:#fff; border-radius:24px; padding:24px; boxShadow:0 20px 40px rgba(0,0,0,0.3);">
@@ -312,39 +327,6 @@
     var menu = document.getElementById("langMenu");
     if (menu) menu.classList.remove("show");
   });
-
-  var NEWS_DATA = {
-    visa: {
-      badge: "Immigration Policy 2026",
-      title: "Korea Visa & Immigration Policy Updates 2026",
-      content: "<p style='margin-bottom:12px;'>The Ministry of Justice has introduced key visa updates for foreign residents in 2026 to streamline residency and employment transitions.</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>E-9 to E-7-4 Transition:</b> Quota expanded for skilled foreign workers with 4+ years of lawful employment.</li><li><b>F-2-7 Points System:</b> Additional bonus points awarded for KIIP Level 4+ completion and regional university degrees.</li><li><b>Online ARC Service:</b> Initial Alien Registration Card issuance and address changes can now be submitted online via HiKorea.</li></ul><p>For urgent questions, call the Immigration Hotline at <b>1345</b> (available in 20 languages).</p>"
-    },
-    severance: {
-      badge: "Labor Rights Guide",
-      title: "Foreign Worker Rights & Severance Pay Protection",
-      content: "<p style='margin-bottom:12px;'>Under the Korean Labor Standards Act, ALL foreign workers (regardless of visa status) who work for 1 year or longer are legally entitled to severance pay.</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>Basic Formula:</b> 30 days of average wage for each continuous year of service.</li><li><b>Payment Deadline:</b> Must be paid within 14 days of resignation or contract termination.</li><li><b>Delayed Payment Interest:</b> Employers owe 20% annual interest on overdue severance pay.</li></ul><p>Calculate your legal payout using the <b>Kori Care Severance Calculator</b> or call the Ministry of Employment helpline at <b>1350</b>.</p>"
-    },
-    nhis: {
-      badge: "Healthcare & Insurance",
-      title: "National Health Insurance Access for Foreigners",
-      content: "<p style='margin-bottom:12px;'>Foreign residents residing in South Korea for more than 6 months are automatically enrolled in the National Health Insurance Service (NHIS).</p><ul style='padding-left:20px; margin-bottom:12px;'><li><b>Coverage Benefits:</b> Up to 70-80% coverage for hospital visits, general clinic treatments, and prescription medications.</li><li><b>Emergency Care:</b> 119 ER services and emergency medical centers are accessible 24/7 nationwide.</li><li><b>Multilingual Line:</b> Call NHIS Foreigner Support Center at <b>033-811-2000</b> (English, Chinese, Vietnamese).</li></ul>"
-    }
-  };
-
-  function openNewsModal(key) {
-    var data = NEWS_DATA[key];
-    if (!data) return;
-    document.getElementById("modalNewsBadge").textContent = data.badge;
-    document.getElementById("modalNewsTitle").textContent = data.title;
-    document.getElementById("modalNewsContent").innerHTML = data.content;
-    document.getElementById("newsModalBackdrop").classList.add("active");
-  }
-
-  function closeNewsModal(e) {
-    if (!e || e.target.id === "newsModalBackdrop" || e.target.tagName === "BUTTON") {
-      document.getElementById("newsModalBackdrop").classList.remove("active");
-    }
-  }
 
   var CATS = [
     { key:"all",        en:"All Categories", emo:"🧭" },
