@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korean Labor Law Severance Pay Calculator — Kori Care</title>
+<meta name="description" content="Calculate your legal severance pay entitlement under South Korean Labor Standards Act. Free 100% accurate online tool for foreign residents.">
+<link rel="canonical" href="https://www.koricare.kr/link/severance-calculator">
+<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f8fafc;
+    --navy: #002366;
+    --navy-light: #1a4fc4;
+    --ink: #0f172a;
+    --sub: #475569;
+    --line: #e2e8f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: "Inter", system-ui, -apple-system, sans-serif; font-size: 15px; line-height: 1.6; padding-bottom: 60px; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+  header { background: var(--navy); color: #fff; padding: 16px 0; margin-bottom: 24px; }
+  .hrow { display: flex; align-items: center; justify-content: space-between; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .logo-img { width: 36px; height: 36px; object-fit: contain; }
+  .logo-text b { font-size: 18px; font-weight: 900; line-height: 1.1; letter-spacing: -0.3px; }
+  .logo-text span { font-size: 10px; opacity: 0.85; font-weight: 700; text-transform: uppercase; }
+  
+  .card { background: #fff; border-radius: 20px; padding: 28px; border: 1px solid var(--line); box-shadow: 0 4px 20px rgba(15,23,42,0.06); margin-bottom: 24px; }
+  .card-title { font-size: 20px; font-weight: 900; color: var(--navy); margin-bottom: 6px; letter-spacing: -0.3px; }
+  .card-sub { font-size: 13px; color: var(--sub); margin-bottom: 24px; }
+  
+  .form-group { margin-bottom: 18px; }
+  .form-group label { display: block; font-size: 13px; font-weight: 800; color: var(--ink); margin-bottom: 6px; }
+  .form-input { width: 100%; height: 48px; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--line); font-size: 14.5px; outline: none; font-weight: 600; background: #fff; transition: border-color 0.2s; }
+  .form-input:focus { border-color: var(--navy-light); }
+  
+  .calc-btn { width: 100%; height: 52px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%); color: #fff; border: none; border-radius: 14px; font-size: 15px; font-weight: 800; cursor: pointer; box-shadow: 0 6px 18px rgba(0,35,102,0.25); transition: transform 0.2s; margin-top: 10px; }
+  .calc-btn:hover { transform: translateY(-2px); }
+  
+  .result-box { display: none; background: linear-gradient(180deg, #f0fdf4 0%, #dcfce7 100%); border: 1.5px solid #86efac; border-radius: 18px; padding: 24px; margin-top: 24px; text-align: center; }
+  .result-box.active { display: block; animation: fadeIn 0.3s ease; }
+  .result-label { font-size: 13px; font-weight: 800; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
+  .result-amount { font-size: 32px; font-weight: 900; color: #15803d; margin: 8px 0; letter-spacing: -0.5px; }
+  .result-desc { font-size: 12.5px; color: #166534; line-height: 1.5; }
+  
+  .info-box { background: #f1f5f9; border-left: 4px solid var(--navy); border-radius: 10px; padding: 18px; margin-top: 24px; font-size: 13px; color: var(--sub); }
+  .info-box h4 { font-size: 14px; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+  .info-box ul { padding-left: 18px; margin-top: 6px; }
+  .info-box li { margin-bottom: 4px; }
+  
+  .back-btn { display: block; text-align: center; padding: 14px; background: #0f172a; color: #fff; text-decoration: none; border-radius: 12px; font-weight: 800; font-size: 14px; margin-top: 24px; }
+  
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hrow">
+    <a href="../index.html" class="logo">
+      <img src="../koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
+      <div class="logo-text">
+        <b>Kori Care</b>
+        <span>Your Partner in Korea</span>
+      </div>
+    </a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="card">
+    <div class="card-title">Severance Pay Calculator</div>
+    <div class="card-sub">Calculate your legal severance pay entitlement under Korean Labor Standards Act.</div>
+    
+    <form id="calcForm" onsubmit="calculateSeverance(event)">
+      <div class="form-group">
+        <label>Employment Start Date</label>
+        <input type="date" id="startDate" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label>Employment End Date (Resignation Date)</label>
+        <input type="date" id="endDate" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label>Average Monthly Salary (KRW)</label>
+        <input type="number" id="monthlySalary" class="form-input" placeholder="e.g. 2500000" min="0" required>
+      </div>
+
+      <div class="form-group">
+        <label>Annual Bonus in Last 12 Months (KRW) — Optional</label>
+        <input type="number" id="annualBonus" class="form-input" placeholder="e.g. 1000000" min="0" value="0">
+      </div>
+      
+      <button type="submit" class="calc-btn">Calculate Estimated Severance Pay ➔</button>
+    </form>
+    
+    <div id="resultBox" class="result-box">
+      <div class="result-label">Estimated Legal Severance Pay</div>
+      <div id="resultAmount" class="result-amount">₩ 0</div>
+      <div id="resultDesc" class="result-desc"></div>
+    </div>
+    
+    <div class="info-box">
+      <h4>Korean Labor Law Guidelines for Severance Pay</h4>
+      <ul>
+        <li><b>Minimum Qualification:</b> Continuous service for at least 1 full year (365 days) working 15+ hours per week.</li>
+        <li><b>Statutory Deadline:</b> Payment must be remitted within 14 calendar days of resignation.</li>
+        <li><b>Legal Formula:</b> Average Daily Wage × 30 days × (Total Service Days ÷ 365).</li>
+      </ul>
+    </div>
+
+    <a href="../index.html" class="back-btn">⬅ Back to Kori Care Information Portal</a>
+  </div>
+</div>
+
+<script>
+  function calculateSeverance(e) {
+    e.preventDefault();
+    var startVal = document.getElementById("startDate").value;
+    var endVal = document.getElementById("endDate").value;
+    var monthlyVal = parseFloat(document.getElementById("monthlySalary").value) || 0;
+    var bonusVal = parseFloat(document.getElementById("annualBonus").value) || 0;
+    
+    if (!startVal || !endVal || monthlyVal <= 0) return;
+    
+    var start = new Date(startVal);
+    var end = new Date(endVal);
+    
+    var diffTime = end.getTime() - start.getTime();
+    var totalDays = Math.floor(diffTime / (1000 * 3600 * 24));
+    
+    if (totalDays < 365) {
+      alert("Under Korean Labor Law, continuous service of at least 365 days (1 full year) is required to qualify for severance pay.");
+      return;
+    }
+    
+    var last3MonthSalary = (monthlyVal * 3) + (bonusVal * (3 / 12));
+    var avgDailyWage = last3MonthSalary / 91.25;
+    var severancePay = Math.round(avgDailyWage * 30 * (totalDays / 365));
+    
+    document.getElementById("resultAmount").textContent = "₩ " + severancePay.toLocaleString();
+    document.getElementById("resultDesc").textContent = "Based on " + totalDays + " total service days (" + (totalDays/365).toFixed(1) + " years) with average monthly wage ₩" + monthlyVal.toLocaleString() + ".";
+    document.getElementById("resultBox").classList.add("active");
+  }
+</script>
+
+</body>
+</html>
