@@ -177,14 +177,14 @@
   <!-- Severance Pay Calculator Card (Clean English & Parallel Korean) -->
   <a class="kc-calc-card" href="/severance-calculator">
     <span class="kc-calc-ic">💰</span>
-    <span class="kc-calc-tx">
+    <span class="kc-calc-tx" style="display:flex; flex-direction:column; justify-content:center;">
       <span class="t">Severance Pay Calculator <span style="font-size:13px; font-weight:600; opacity:0.85;">(퇴직금 계산기)</span></span>
       <span class="sub">Calculate your legal severance pay entitlement under Korean Labor Law</span>
     </span>
     <span class="kc-calc-arrow">➔</span>
   </a>
 
-  {/* Search Box */}
+  <!-- Search Box -->
   <div class="search">
     <span class="ic">🔍</span>
     <input id="q" type="text" placeholder="Search services (e.g. Visa, Remittance, Hospital)" readonly style="cursor: pointer;">
@@ -193,7 +193,7 @@
     <b>Popular Search:</b>
   </div>
 
-  {/* English Recent News Section */}
+  <!-- English Recent News Section -->
   <div class="flab">Recent Korea News & Notice</div>
   <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px;">
     <a href="https://www.korea.net/NewsFocus/Policies" target="_blank" rel="noopener" class="news-card" style="display:flex; flex-direction:column; gap:8px; padding:12px; background:#fff; border-radius:14px; text-decoration:none; border:1px solid rgba(226,232,240,0.9); box-shadow:0 2px 8px rgba(0,0,0,0.03);">
@@ -221,11 +221,11 @@
     </a>
   </div>
 
-  {/* Local Directory Section */}
+  <!-- Local Directory Section -->
   <div class="local-directory-section">
     <div class="flab" style="margin-top: 0; color: var(--navy); font-size:16px;">📍 Local Directory</div>
 
-    {/* Region Selector */}
+    <!-- Region Selector -->
     <div class="local-filter-group" id="groupRegions" style="margin-bottom: 12px;">
       <div style="position:relative; width:100%;">
         <select id="regionDropdown" style="width:100%; font-size:15px; font-weight:700; padding:12px 16px; border-radius:14px; border:2px solid var(--navy); background:#ffffff; color:var(--navy); outline:none; cursor:pointer; appearance:none; -webkit-appearance:none; box-shadow:0 2px 8px rgba(18,58,138,0.08);">
