@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE_EN}} — Kori Care News</title>
+<meta name="description" content="{{DESC_EN}}">
+<meta name="keywords" content="Kori Care, Korea Visa, Korea Immigration, Foreign Resident, Korea Labor, Korea Health Insurance, Korea News">
+<link rel="canonical" href="https://www.koricare.kr/link/news/{{NEWS_ID}}.html">
+<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.koricare.kr/link/news/{{NEWS_ID}}.html">
+<meta property="og:title" content="{{TITLE_EN}} — Kori Care News">
+<meta property="og:description" content="{{DESC_EN}}">
+<meta property="og:image" content="{{THUMBNAIL_URL}}">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Kori Care">
+
+<!-- Twitter Card -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.koricare.kr/link/news/{{NEWS_ID}}.html">
+<meta property="twitter:title" content="{{TITLE_EN}} — Kori Care News">
+<meta property="twitter:description" content="{{DESC_EN}}">
+<meta property="twitter:image" content="{{THUMBNAIL_URL}}">
+
+<!-- Google Schema.org Article Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{TITLE_EN}}",
+  "image": ["{{THUMBNAIL_URL}}"],
+  "datePublished": "{{DATE}}",
+  "author": {
+    "@type": "Organization",
+    "name": "Kori Care Information Portal",
+    "url": "https://www.koricare.kr/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kori Care",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.koricare.kr/link/koricare_main_logo_nobg.png"
+    }
+  },
+  "description": "{{DESC_EN}}"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f8fafc; --ink:#0f172a; --sub:#475569; --line:#e2e8f0;
+    --navy:#002366; --navy-light:#1a4fc4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);
+    font-family:"Inter",system-ui,-apple-system,sans-serif;
+    font-size:15.5px;line-height:1.75;padding-bottom:40px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 16px}
+  a{text-decoration:none;color:inherit}
+  header{background:var(--navy);color:#fff;padding:14px 0}
+  .hrow{display:flex;align-items:center;justify-content:space-between}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-img{width:36px;height:36px;object-fit:contain}
+  .logo b{font-size:18px;font-weight:900;line-height:1.1;letter-spacing:-0.3px;color:#fff}
+  .logo span{display:block;font-size:10px;font-weight:700;color:rgba(255,255,255,0.85);text-transform:uppercase}
+
+  .post-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin-top:20px;box-shadow:0 4px 20px rgba(15,23,42,0.05)}
+  .meta{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--sub);font-weight:600;margin-bottom:12px}
+  .meta .tag{background:#e0e7ff;color:#3730a3;padding:3px 10px;border-radius:20px;font-size:11.5px;font-weight:800}
+  h1{font-size:22px;font-weight:900;line-height:1.35;color:var(--ink);margin-bottom:14px;letter-spacing:-0.3px}
+  
+  .hero-img{width:100%;height:220px;object-fit:cover;border-radius:14px;margin-bottom:20px;}
+  
+  .summary-box{background:#f1f5f9;border-left:4px solid var(--navy);border-radius:12px;padding:20px;margin-bottom:20px}
+  .summary-box h3{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:10px}
+  .summary-box ul{padding-left:18px;margin:0}
+  .summary-box li{font-size:14px;color:#334155;margin-bottom:6px;line-height:1.6}
+  
+  .source-link{font-size:11.5px;color:#64748b;font-weight:600;margin-top:14px;display:inline-block;transition:color 0.2s}
+  .source-link:hover{color:var(--navy)}
+  
+  .back-btn{display:block;text-align:center;padding:14px;background:var(--navy);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;font-size:14px;margin-top:24px;box-shadow:0 4px 14px rgba(0,35,102,0.25)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hrow">
+    <a href="../index.html" class="logo">
+      <img src="../koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
+      <div>
+        <b>Kori Care</b>
+        <span>Your Partner in Korea</span>
+      </div>
+    </a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="post-card">
+    <div class="meta">
+      <span class="tag">Korea Policy & Notice</span>
+      <span>Updated: {{DATE}}</span>
+    </div>
+    
+    <h1>{{TITLE_EN}}</h1>
+    
+    <img src="{{THUMBNAIL_URL}}" alt="{{TITLE_EN}}" class="hero-img">
+    
+    <div class="summary-box">
+      <h3>Executive News Summary</h3>
+      {{CONTENT_EN}}
+      
+      <div>
+        <a href="{{SOURCE_URL}}" target="_blank" rel="noopener noreferrer" class="source-link">Source: {{SOURCE_NAME}} 🔗</a>
+      </div>
+    </div>
+    
+    <a href="../index.html" class="back-btn">⬅ Back to Kori Care Information Portal</a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -37,97 +37,639 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#f4f6fa;--soft:#f1f5f9;--ink:#14203a;--sub:#5b6b86;--line:#e2e8f0;--navy:#123a8a;--navy2:#0e2f72;--shadow:0 8px 24px rgba(148,163,184,0.06);}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:"Noto Sans Thai","Inter",system-ui,sans-serif;font-size:17px;line-height:1.75;}
-  .wrap{max-width:840px;margin:0 auto;padding:0 16px}
-  header{background:var(--navy);color:#fff}
-  .hrow{display:flex;align-items:center;justify-content:space-between;padding:13px 0;min-height:56px}
-  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
-  .logo-img{width:36px;height:36px;object-fit:contain}
-  .logo-text b{font-size:18px;font-weight:800;display:block;line-height:1.1}
-  .logo-text span{font-size:11px;opacity:0.8;font-weight:500}
-  .lang-select{background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3);border-radius:8px;padding:5px 8px;font-size:13px;font-weight:700;outline:none;cursor:pointer}
-  .lang-select option{background:#fff;color:#14203a}
-  .hero{background:linear-gradient(180deg,#123a8a 0%,#0e2f72 100%);color:#fff;padding:24px 0 32px;text-align:center}
-  .hero h1{font-size:24px;font-weight:800;line-height:1.35;margin-bottom:8px}
-  .hero p{font-size:13.5px;opacity:0.9;margin-bottom:18px}
-  .sos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:480px;margin:0 auto}
-  .sos a{background:rgba(255,255,255,0.12);border-radius:12px;padding:10px 4px;text-decoration:none;color:#fff;text-align:center}
-  .sos .n{font-size:16px;font-weight:800}
-  .sos .l{font-size:10.5px;opacity:0.85;margin-top:2px}
-  .kc-calc-card{display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,#143f95 0%,#0e2f72 100%);border-radius:18px;padding:16px 18px;margin:12px 0 4px;color:#fff;text-decoration:none;box-shadow:0 8px 20px rgba(18,58,138,0.2)}
-  .kc-calc-ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-  .kc-calc-tx{flex:1;min-width:0}
-  .kc-calc-tx .t{font-size:16px;font-weight:800}
-  .kc-calc-arrow{font-size:20px;color:#ffd166;font-weight:800}
-  .search{margin:16px 0;position:relative}
-  .search input{width:100%;padding:14px 16px 14px 44px;border-radius:14px;border:1.5px solid var(--line);font-size:15px;outline:none;background:#fff}
-  .search .ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:18px}
-  .flab{font-size:14px;font-weight:800;color:var(--navy);margin:20px 0 10px}
-  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-  .card-item{background:#fff;border-radius:12px;padding:12px 10px;border:1px solid var(--line);box-shadow:var(--shadow);cursor:pointer}
+  :root {
+    --bg: #f8fafc;
+    --soft: #f1f5f9;
+    --ink: #0f172a;
+    --sub: #475569;
+    --line: #e2e8f0;
+    --navy: #002366;
+    --navy2: #0e2f72;
+    --accent: #2563eb;
+    --shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans Thai", "Inter", system-ui, -apple-system, sans-serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+  header {
+    background: var(--navy);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0,35,102,0.15);
+  }
+  .hrow { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; min-height: 56px; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .logo-img { width: 34px; height: 34px; object-fit: contain; }
+  .logo-text b { font-size: 18px; font-weight: 800; display: block; line-height: 1.1; letter-spacing: -0.4px; }
+  .logo-text span { font-size: 10.5px; opacity: 0.88; font-weight: 600; }
+  
+  .lang-dropdown-wrapper { position: relative; display: inline-block; }
+  .lang-btn {
+    display: flex; align-items: center; gap: 6px;
+    background: rgba(255, 255, 255, 0.15); color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px; padding: 6px 14px;
+    font-size: 12.5px; font-weight: 800; cursor: pointer;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    transition: all 0.25s ease;
+  }
+  .lang-btn:hover { background: rgba(255,255,255,0.25); border-color: #ffffff; }
+  .lang-menu {
+    display: none; position: absolute; right: 0; top: 42px;
+    background: #002366; border: 1.5px solid rgba(255,255,255,0.3);
+    border-radius: 16px; padding: 6px;
+    box-shadow: 0 14px 40px rgba(0,0,0,0.45);
+    min-width: 135px; z-index: 1000;
+  }
+  .lang-menu.show { display: flex; flex-direction: column; gap: 4px; animation: fadeIn 0.2s ease; }
+  .lang-item {
+    padding: 9px 12px; color: rgba(255,255,255,0.9);
+    font-size: 12.5px; font-weight: 700; text-decoration: none;
+    border-radius: 10px; transition: background 0.2s ease;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .lang-item:hover, .lang-item.active { background: rgba(255,255,255,0.2); color: #ffffff; font-weight: 800; }
+  
+  .hero {
+    background: linear-gradient(180deg, #002366 0%, #0e2f72 100%);
+    color: #fff; padding: 28px 0 36px; text-align: center;
+  }
+  .hero h1 { font-size: 23px; font-weight: 800; line-height: 1.35; margin-bottom: 8px; }
+  .hero p { font-size: 13.5px; opacity: 0.9; margin-bottom: 20px; max-width: 500px; margin-left: auto; margin-right: auto; }
+  
+  .sos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 460px; margin: 0 auto; }
+  .sos a {
+    background: rgba(255, 255, 255, 0.12); border-radius: 16px;
+    padding: 11px 6px; text-decoration: none; color: #fff; text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.22); backdrop-filter: blur(10px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15); transition: all 0.25s ease;
+  }
+  .sos a:hover { transform: translateY(-2px); background: rgba(255,255,255,0.22); }
+  .sos .n { font-size: 15.5px; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 5px; }
+  .sos .l { font-size: 10.5px; opacity: 0.9; margin-top: 3px; font-weight: 600; }
+  
+  .kc-calc-card {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    background: linear-gradient(135deg, #002366 0%, #1a4fc4 100%);
+    border-radius: 18px; padding: 16px 20px; margin: 20px 0 16px;
+    color: #fff; text-decoration: none;
+    box-shadow: 0 8px 24px rgba(0,35,102,0.22);
+    border: 1px solid rgba(255,255,255,0.18); transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .kc-calc-card:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0,35,102,0.32); }
+  .kc-calc-ic {
+    width: 44px; height: 44px; border-radius: 14px;
+    background: rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .kc-calc-tx { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .kc-calc-tx .t { font-size: 16px; font-weight: 800; line-height: 1.25; }
+  .kc-calc-tx .sub { font-size: 12px; opacity: 0.88; margin-top: 3px; font-weight: 500; }
+  .kc-calc-arrow {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center;
+    font-size: 14px; color: #fff; font-weight: 800; flex-shrink: 0;
+  }
+  
+  .search { margin: 16px 0; position: relative; }
+  .search input {
+    width: 100%; padding: 14px 16px 14px 44px; border-radius: 16px;
+    border: 1.5px solid var(--line); font-size: 14.5px; outline: none; background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: all 0.2s ease;
+  }
+  .search input:hover { border-color: #cbd5e1; }
+  .search .ic { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 17px; color: #94a3b8; }
+  
+  .hot { margin: 12px 0 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12.5px; }
+  .hot b { color: var(--navy); font-weight: 800; }
+  .hk {
+    background: #e2e8f0; color: #1e293b; padding: 5px 13px; border-radius: 20px;
+    font-size: 12px; font-weight: 700; cursor: pointer; transition: all 0.2s ease;
+  }
+  .hk:hover { background: var(--navy); color: #fff; }
+  
+  .flab { font-size: 16px; font-weight: 800; color: var(--navy); margin: 24px 0 12px; letter-spacing: -0.3px; }
+  
+  .slim-premium-banner {
+    margin-top: 28px; background: linear-gradient(135deg, #002366 0%, #123a8a 100%);
+    border-radius: 18px; padding: 18px 20px; color: #fff; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 6px 20px rgba(0,35,102,0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .slim-premium-banner:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,35,102,0.3); }
+  
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .card-item {
+    background: #fff; border-radius: 16px; padding: 16px; border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(15,23,42,0.03); cursor: pointer; transition: all 0.2s ease;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .card-item:hover { transform: translateY(-2px); border-color: #cbd5e1; box-shadow: 0 8px 20px rgba(15,23,42,0.08); }
+  .card-title { font-size: 14.5px; font-weight: 800; color: #002366; line-height: 1.35; word-break: break-word; }
+  .card-desc { font-size: 12.5px; color: #475569; margin-top: 5px; line-height: 1.45; word-break: break-word; }
+  .card-ko { font-size: 11.5px; color: #64748b; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-weight: 600; }
+
+  .news-card {
+    display: flex; flex-direction: column; gap: 8px; padding: 14px;
+    background: #fff; border-radius: 16px; text-decoration: none;
+    border: 1px solid #e2e8f0; box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    transition: all 0.2s ease;
+  }
+  .news-card:hover { transform: translateY(-2px); border-color: #cbd5e1; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+  .news-thumb { width: 100%; height: 95px; object-fit: cover; border-radius: 10px; }
+  .news-title {
+    font-size: 13px; font-weight: 800; color: #0f172a; line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .news-link { font-size: 11.5px; color: #2563eb; font-weight: 800; margin-top: auto; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 </head>
 <body>
+
 <header>
   <div class="wrap hrow">
-    <a href="/th/link" class="logo">
+    <a href="https://www.koricare.kr/th/link" class="logo">
       <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
         <span>เพื่อนคนเกาหลีของคุณ · Your Korean friend</span>
       </div>
     </a>
-    <select class="lang-select" onchange="location.href=this.value">
-      <option value="https://www.koricare.kr/link">English</option>
-      <option value="https://www.koricare.kr/th/link" selected>ไทย</option>
-      <option value="https://www.koricare.kr/vi/link">Tiếng Việt</option>
-    </select>
+    
+    <div class="lang-dropdown-wrapper">
+      <button class="lang-btn" onclick="toggleLangMenu(event)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
+        </svg>
+        <span>ไทย</span>
+        <span style="font-size:9px; opacity:0.85; margin-left:2px;">▼</span>
+      </button>
+      <div class="lang-menu" id="langMenu">
+        <a href="https://www.koricare.kr/link" class="lang-item">🇺🇸 English</a>
+        <a href="https://www.koricare.kr/th/link" class="lang-item active">🇹🇭 ไทย</a>
+        <a href="https://www.koricare.kr/vi/link" class="lang-item">🇻🇳 Tiếng Việt</a>
+      </div>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="wrap">
     <h1>ค้นหาข้อมูลที่จำเป็น<br>สำหรับชีวิตในเกาหลี ได้ในที่เดียว</h1>
-    <p>รวมลิงก์บริการทางการสำหรับคนต่างชาติในเกาหลี</p>
+    <p>รวมลิงก์บริการทางการ เบอร์โทรฉุกเฉิน และสถานที่สำคัญสำหรับคนต่างชาติในเกาหลี</p>
+
     <div class="sos">
-      <a href="tel:112"><div class="n">112</div><div class="l">ตำรวจ · Police</div></a>
-      <a href="tel:119"><div class="n">119</div><div class="l">ฉุกเฉิน · Ambulance</div></a>
-      <a href="tel:1345"><div class="n">1345</div><div class="l">ตม. ต่างชาติ · Info</div></a>
+      <a href="tel:112">
+        <div class="n">🚨 112</div>
+        <div class="l">ตำรวจ · Police</div>
+      </a>
+      <a href="tel:119">
+        <div class="n">🚑 119</div>
+        <div class="l">ฉุกเฉิน · ER</div>
+      </a>
+      <a href="tel:1345">
+        <div class="n">🛂 1345</div>
+        <div class="l">ตม. ต่างชาติ · Info</div>
+      </a>
     </div>
   </div>
 </section>
 
 <div class="wrap">
-  <!-- Severance Pay -->
-  <a class="kc-calc-card" href="/th/severance-calculator">
-    <span class="kc-calc-ic">💰</span>
-    <span class="kc-calc-tx"><span class="t">คำนวณเงินชดเชยที่คุณจะได้รับ</span></span>
-    <span class="kc-calc-arrow">→</span>
+  <!-- Severance Pay Calculator Card -->
+  <a class="kc-calc-card" href="https://www.koricare.kr/th/severance-calculator">
+    <span class="kc-calc-ic">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="2" width="16" height="20" rx="3" />
+        <line x1="8" y1="6" x2="16" y2="6" />
+        <line x1="8" y1="10" x2="16" y2="10" />
+        <line x1="8" y1="14" x2="10" y2="14" />
+        <line x1="14" y1="14" x2="16" y2="14" />
+        <line x1="8" y1="18" x2="10" y2="18" />
+        <line x1="14" y1="18" x2="16" y2="18" />
+      </svg>
+    </span>
+    <span class="kc-calc-tx">
+      <span class="t">คำนวณเงินชดเชยของคุณ (퇴직금)</span>
+      <span class="sub">คำนวณเงินชดเชยที่ประเมินตามกฎหมายแรงงานเกาหลี</span>
+    </span>
+    <span class="kc-calc-arrow">➔</span>
   </a>
 
-  <div class="flab">📍 แนะนำสถานที่ในท้องถิ่น · Local Directory</div>
-  <div id="localGrid"></div>
+  <!-- Search Box -->
+  <div class="search" onclick="document.getElementById('searchOverlay').style.display='block'; document.getElementById('overlayQ').focus();">
+    <span class="ic">🔍</span>
+    <input id="q" type="text" placeholder="ค้นหาบริการ (เช่น วีซ่า โอนเงิน โรงพยาบาล)" readonly style="cursor: pointer;">
+  </div>
+  <div class="hot" id="hot">
+    <b>คำค้นหายอดนิยม:</b>
+  </div>
+
+  <!-- Recent News Section -->
+  <div class="flab">ข่าวสารล่าสุด (Recent News)</div>
+  <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:24px;">
+    <a href="https://www.koricare.kr/link/news/news_policy_1.html" class="news-card">
+      <img src="https://www.koricare.kr/link/news/images/thumb_1786197200970_1.jpg" alt="วีซ่าเกาหลี" class="news-thumb">
+      <div class="news-title">คู่มืออัปเดตนโยบายวีซ่าและการตรวจคนเข้าเมืองเกาหลี 2026</div>
+      <div class="news-link">อ่านสรุปข่าว ➔</div>
+    </a>
+    <a href="https://www.koricare.kr/link/news/news_policy_2.html" class="news-card">
+      <img src="https://www.koricare.kr/link/news/images/thumb_1786197201716_2.jpg" alt="เงินชดเชยเกาหลี" class="news-thumb">
+      <div class="news-title">คู่มือสิทธิแรงงานต่างชาติและการรับเงินชดเชยเมื่อออกจากงาน</div>
+      <div class="news-link">อ่านสรุปข่าว ➔</div>
+    </a>
+    <a href="https://www.koricare.kr/link/news/news_policy_3.html" class="news-card">
+      <img src="https://www.koricare.kr/link/news/images/thumb_1786197201800_3.jpg" alt="ประกันสุขภาพเกาหลี" class="news-thumb">
+      <div class="news-title">คู่มือการใช้สิทธิประกันสุขภาพและการรักษาพยาบาลฉุกเฉินในเกาหลี</div>
+      <div class="news-link">อ่านสรุปข่าว ➔</div>
+    </a>
+  </div>
+
+  <!-- Local Directory Section -->
+  <div class="local-directory-section">
+    <div class="flab" style="margin-top: 0; color: var(--navy); font-size:16px;">📍 แนะนำสถานที่ในท้องถิ่น (Local Directory)</div>
+
+    <div class="local-filter-group" id="groupRegions" style="margin-bottom: 12px;">
+      <div style="position:relative; width:100%;">
+        <select id="regionDropdown" style="width:100%; font-size:14.5px; font-weight:700; padding:12px 16px; border-radius:14px; border:1.5px solid var(--line); background:#ffffff; color:var(--navy); outline:none; cursor:pointer; appearance:none; -webkit-appearance:none; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+        </select>
+        <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; color:var(--navy); font-size:13px; font-weight:800;">▼</span>
+      </div>
+    </div>
+
+    <div id="localGrid" style="margin-top:16px; display:flex; flex-direction:column; width:100%;"></div>
+  </div>
+
+  <!-- Official Banner -->
+  <div class="slim-premium-banner" onclick="window.open('https://koricare.kr', '_blank')">
+    <div style="flex:1;">
+      <div style="font-size:20px; font-weight:900; color:#ffffff; line-height:1.2;">Kori Care</div>
+      <div style="font-size:12.5px; opacity:0.88; margin-top:3px; font-weight:500;">คำปรึกษาการใช้ชีวิต วีซ่า และข้อกฎหมายในเกาหลี</div>
+    </div>
+    <div style="background:#fff; color:#002366; font-size:13px; font-weight:800; padding:10px 18px; border-radius:12px; flex-shrink:0; white-space:nowrap;">เข้าสู่เว็บไซต์ ➔</div>
+  </div>
+
+  <!-- Essential Services Grid Section -->
+  <div class="flab" style="font-size:16px; font-weight:800; color:#0f172a; margin-top:32px;">🌐 บริการสำคัญในเกาหลี (KOREA ESSENTIAL SERVICES)</div>
+  <div style="margin: 12px 0 16px; width:100%; box-sizing:border-box;">
+    <select class="form-input" id="catsDropdown" style="height:46px; font-size:14px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:14px; border:1.5px solid var(--line); padding:0 14px;" onchange="setNationalCat(this.value)"></select>
+  </div>
+  
+  <div class="grid" id="grid" style="width:100%; display:grid; grid-template-columns: repeat(2, 1fr); gap:12px;"><div class="empty">กำลังโหลด...</div></div>
+
+  <footer style="margin:48px auto 40px; color:#64748b; font-size:12px; text-align:center; line-height:1.6; border-top:1px solid #e2e8f0; padding-top:24px; max-width:600px;">
+    <div style="font-weight:800; color:#0f172a; font-size:14px; margin-bottom:4px;">Kori Care Information Portal</div>
+    <div style="font-size:12px; color:#475569; font-weight:500;">พอร์ทัลรวบรวมบริการทางการและสถานที่สำคัญสำหรับคนต่างชาติในเกาหลี</div>
+    <div style="font-size:11px; color:#94a3b8; margin-top:8px;">© 2026 Kori Care. สงวนลิขสิทธิ์ทั้งหมด</div>
+  </footer>
+</div>
+
+<!-- Search Overlay Modal -->
+<div id="searchOverlay" class="search-overlay" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.7); z-index:2000; backdrop-filter:blur(8px);">
+  <div style="max-width:540px; margin:40px auto; background:#fff; border-radius:24px; padding:24px; box-shadow:0 20px 40px rgba(0,0,0,0.3);">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+      <input id="overlayQ" type="text" placeholder="ค้นหาบริการในเกาหลี (เช่น วีซ่า โรงพยาบาล)..." style="flex:1; padding:12px 16px; border-radius:12px; border:1.5px solid var(--line); font-size:14px; outline:none;" oninput="applySearch()">
+      <button onclick="closeSearchOverlay()" style="background:none; border:none; font-size:20px; cursor:pointer; color:#64748b;">✕</button>
+    </div>
+    <div id="overlayGrid" style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px; max-height:400px; overflow-y:auto;"></div>
+  </div>
 </div>
 
 <script>
+  function toggleLangMenu(e) {
+    if (e) e.stopPropagation();
+    var menu = document.getElementById("langMenu");
+    if (menu) menu.classList.toggle("show");
+  }
+
+  document.addEventListener("click", function() {
+    var menu = document.getElementById("langMenu");
+    if (menu) menu.classList.remove("show");
+  });
+
+  var CATS = [
+    { key:"all",        en:"ทุกหมวดหมู่ (All Categories)" },
+    { key:"medical",    en:"โรงพยาบาลและการแพทย์ (Medical)" },
+    { key:"visa",       en:"วีซ่าและที่พัก (Visa & Housing)" },
+    { key:"labor",      en:"แรงงานและสิทธิ (Labor & Rights)" },
+    { key:"finance",    en:"การเงินและการโอนเงิน (Finance)" },
+    { key:"transport",  en:"การเดินทางและซิมการ์ด (Telecom)" },
+    { key:"admin",      en:"งานทะเบียนและการแปล (Admin)" }
+  ];
+
+  var REGIONS = [
+    {key:"전체", en:"ทุกภูมิภาค (All Regions)"},
+    {key:"seoul", en:"โซล (Seoul - 서울)"},
+    {key:"gyeonggi", en:"คยองกี (Gyeonggi - 경기)"},
+    {key:"incheon", en:"อินชอน (Incheon - 인천)"},
+    {key:"busan", en:"ปูซาน (Busan - 부산)"},
+    {key:"daegu", en:"แดกู (Daegu - 대구)"},
+    {key:"ulsan", en:"อุลซาน (Ulsan - 울산)"},
+    {key:"gwangju", en:"ควังจู (Gwangju - 광주)"},
+    {key:"daejeon", en:"แดจอน (Daejeon - 대전)"},
+    {key:"sejong", en:"เซจง (Sejong - 세종)"},
+    {key:"gyeongnam", en:"คยองนัม (Gyeongnam - 경남)"},
+    {key:"gyeongbuk", en:"คยองบุก (Gyeongbuk - 경북)"},
+    {key:"chungnam", en:"ชุงนัม (Chungnam - 충남)"},
+    {key:"chungbuk", en:"ชุงบุก (Chungbuk - 충북)"},
+    {key:"jeonnam", en:"ชอนนัม (Jeonnam - 전남)"},
+    {key:"jeonbuk", en:"ชอนบุก (Jeonbuk - 전북)"},
+    {key:"gangwon", en:"คังวอน (Gangwon - 강원)"},
+    {key:"jeju", en:"เชจู (Jeju - 제주)"},
+    {key:"other", en:"ภูมิภาคอื่นๆ (Other Regions)"}
+  ];
+
+  var DISTRICTS = {
+    seoul: [
+      {key:"전체", en:"ทุกเขต (All Districts)"},
+      {key:"종로구", en:"Jongno-gu (종로구)"}, {key:"중구", en:"Jung-gu (중구)"}, {key:"용산구", en:"Yongsan-gu (용산구)"},
+      {key:"성동구", en:"Seongdong-gu (성동구)"}, {key:"광진구", en:"Gwangjin-gu (광진구)"}, {key:"동대문구", en:"Dongdaemun-gu (동대문구)"},
+      {key:"중랑구", en:"Jungnang-gu (중랑구)"}, {key:"성북구", en:"Seongbuk-gu (성북구)"}, {key:"강북구", en:"Gangbuk-gu (강북구)"},
+      {key:"도봉구", en:"Dobong-gu (도봉구)"}, {key:"노원구", en:"Nowon-gu (노원구)"}, {key:"은평구", en:"Eunpyeong-gu (은평구)"},
+      {key:"서대문구", en:"Seodaemun-gu (서대문구)"}, {key:"마포구", en:"Mapo-gu (마포구)"}, {key:"양천구", en:"Yangcheon-gu (양천구)"},
+      {key:"강서구", en:"Gangseo-gu (강서구)"}, {key:"구로구", en:"Guro-gu (구로구)"}, {key:"금천구", en:"Geumcheon-gu (금천구)"},
+      {key:"영등포구", en:"Yeongdeungpo-gu (영등포구)"}, {key:"동작구", en:"Dongjak-gu (동작구)"}, {key:"관악구", en:"Gwanak-gu (관악구)"},
+      {key:"서초구", en:"Seocho-gu (서초구)"}, {key:"강남구", en:"Gangnam-gu (강남구)"}, {key:"송파구", en:"Songpa-gu (송파구)"}, {key:"강동구", en:"Gangdong-gu (강동구)"}
+    ]
+  };
+
+  var HOTKEYS = ["วีซ่า (Visa)", "โอนเงิน (Remittance)", "โรงพยาบาล", "ซิมการ์ด", "ฉุกเฉิน"];
+
+  var FALLBACK = [
+    {id:"gov_socinet",category:"visa",name_en:"KIIP Social Integration Program",desc_en:"โครงการบูรณาการทางสังคมและภาษาเกาหลี",name_ko:"사회통합프로그램 (KIIP)",desc_ko:"법무부 체류자격 및 영주·귀화 신청용 한국어 공식 교육",url:"https://www.socinet.go.kr"},
+    {id:"gov_hikorea",category:"visa",name_en:"HiKorea Immigration E-Services",desc_en:"ระบบบริการตม.ออนไลน์ ต่ออายุวีซ่าและจองคิว",name_ko:"하이코리아 (HiKorea)",desc_ko:"출입국 체류기간 연장 및 จองคิวออนไลน์",url:"https://www.hikorea.go.kr"},
+    {id:"gov_1345",category:"admin",name_en:"1345 Foreigner Contact Center",desc_en:"ศูนย์สอบถามข้อมูลตม. ภาษาไทย 24 ชม.",name_ko:"1345 외국인 종합안내센터",desc_ko:"법무부 외국인 체류 20개국어 전화상담",url:"tel:1345"},
+    {id:"rem_hanpass",category:"finance",name_en:"Hanpass Remittance",desc_en:"บริการโอนเงินกลับไทยอย่างรวดเร็ว ค่าธรรมเนียมถูก",name_ko:"한패스 (Hanpass)",desc_ko:"외국인 전용 소액 해외송금 앱",url:"https://www.hanpass.com"},
+    {id:"hos_egen",category:"medical",name_en:"E-Gen Emergency Medical Portal",desc_en:"ค้นหาโรงพยาบาลและร้านขายยาที่เปิดช่วงกลางคืน",name_ko:"응급의료포털 E-Gen",desc_ko:"주변 야간·휴일 진료 병의원 실시간 검색",url:"https://www.e-gen.or.kr"}
+  ];
+
+  var actCat = "all", actRegion = "전체", actDistrict = "";
+  var NATIONAL_LIST = [], SEARCH_LIST = [];
+
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
+
+  function card(x){
+    var title = esc(x.name_en);
+    var summary = esc(x.desc_en || "");
+    var nameKo = esc(x.name_ko || "");
+
+    return '<div class="card-item" onclick="window.open(\'' + esc(x.url) + '\', \'_blank\', \'noopener,noreferrer\')">'
+      + '<div>'
+      + '<div class="card-title">' + title + '</div>'
+      + '<div class="card-desc">' + summary + '</div>'
+      + (nameKo ? '<div class="card-ko">' + nameKo + '</div>' : '')
+      + '</div>'
+      + '</div>';
+  }
+
+  function renderHot(){
+    var el=document.getElementById("hot");
+    if (!el) return;
+    el.querySelectorAll(".hk").forEach(function(n){n.remove();});
+    HOTKEYS.forEach(function(k){
+      var s=document.createElement("span"); s.className="hk"; s.textContent=k;
+      s.addEventListener("click",function(){
+        document.getElementById("q").value = k;
+        document.getElementById("searchOverlay").style.display = "block";
+        document.getElementById("overlayQ").value = k;
+        applySearch();
+      });
+      el.appendChild(s);
+    });
+  }
+
+  function closeSearchOverlay(){
+    document.getElementById("searchOverlay").style.display = "none";
+  }
+
+  function applySearch(){
+    var q = (document.getElementById("overlayQ").value || "").toLowerCase().trim();
+    if (!q) {
+      document.getElementById("overlayGrid").innerHTML = '<div style="font-size:13px; color:#64748b; padding:20px 0; text-align:center;">พิมพ์คำค้นหาเพื่อเริ่มค้นหา</div>';
+      return;
+    }
+    SEARCH_LIST = FALLBACK.filter(function(x){
+      return (x.name_en || "").toLowerCase().includes(q) || (x.desc_en || "").toLowerCase().includes(q) || (x.name_ko || "").toLowerCase().includes(q);
+    });
+
+    document.getElementById("overlayGrid").innerHTML = SEARCH_LIST.length
+      ? SEARCH_LIST.map(function(x){ return card(x); }).join("")
+      : '<div style="font-size:13px; color:#64748b; padding:20px 0; text-align:center;">ไม่พบข้อมูลที่ตรงกัน</div>';
+  }
+
+  function apply(){
+    NATIONAL_LIST = FALLBACK.filter(function(x){
+      if(actCat!=="all" && x.category!==actCat) return false;
+      return true;
+    });
+
+    document.getElementById("grid").innerHTML = NATIONAL_LIST.length
+      ? NATIONAL_LIST.map(function(x){ return card(x); }).join("")
+      : '<div class="empty">ไม่พบบริการในหมวดหมู่นี้</div>';
+  }
+
+  function renderCats(){
+    var cd = document.getElementById("catsDropdown");
+    if (!cd) return;
+    cd.innerHTML = CATS.map(function(it){
+      return '<option value="' + it.key + '"' + (it.key === actCat ? ' selected' : '') + '>' + it.en + '</option>';
+    }).join("");
+  }
+
+  function setNationalCat(catKey) {
+    actCat = catKey;
+    apply();
+  }
+
+  function renderRegions(){
+    var dd = document.getElementById("regionDropdown");
+    if (!dd) return;
+    dd.innerHTML = REGIONS.map(function(it){
+      return '<option value="' + it.key + '"' + (it.key === actRegion ? ' selected' : '') + '>' + it.en + '</option>';
+    }).join("");
+
+    dd.onchange = function(){
+      actRegion = this.value;
+      loadRegionChunk(actRegion);
+    };
+  }
+
   var REGION_CACHE = {};
   var currentRegionPlaces = [];
-  fetch("https://www.koricare.kr/link/data/region_seoul.json")
-    .then(r => r.json())
-    .then(d => {
-      currentRegionPlaces = d.places || [];
-      var grid = document.getElementById("localGrid");
-      grid.innerHTML = '<div class="grid">' + currentRegionPlaces.slice(0, 10).map(x => {
-        var gMapUrl = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(x.address || x.name_ko);
-        return '<div class="card-item" onclick="window.open(\'' + gMapUrl + '\', \'_blank\', \'noopener,noreferrer\')">'
-          + '<div style="font-size:13.5px; font-weight:800; color:#1a54c8;">' + (x.name_ko || '') + '</div>'
-          + '<div style="font-size:11px; color:#64748b;">(' + (x.name_en || '') + ')</div>'
-          + '<div style="font-size:10.5px; color:#475569; margin-top:4px;">📍 ' + (x.address || '') + '</div>'
-          + '</div>';
-      }).join('') + '</div>';
-    });
+  var selectedDistrict = "";
+  var selectedCategory = "";
+  var currentPage = 1;
+  var ITEMS_PER_PAGE = 8;
+
+  function loadRegionChunk(regId) {
+    selectedDistrict = "";
+    selectedCategory = "";
+    currentPage = 1;
+
+    if (REGION_CACHE[regId]) {
+      currentRegionPlaces = REGION_CACHE[regId];
+      renderFilterControlsAndPlaces();
+      return;
+    }
+
+    var chunkUrl = "https://www.koricare.kr/link/data/region_" + regId + ".json";
+
+    fetch(chunkUrl)
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        REGION_CACHE[regId] = d.places || [];
+        currentRegionPlaces = REGION_CACHE[regId];
+        renderFilterControlsAndPlaces();
+      })
+      .catch(function(e){
+        console.warn("Region chunk load failed:", e);
+      });
+  }
+
+  function renderFilterControlsAndPlaces() {
+    var localGrid = document.getElementById("localGrid");
+    if (!localGrid) return;
+
+    var districtOptions = DISTRICTS[actRegion] || [{key:"전체", en:"ทุกเขต (All Districts)"}];
+    
+    var districtsHtml = '<div style="margin: 12px 0 14px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
+      + '<label style="font-size:13px; font-weight:800; color:var(--ink);">เลือกเขต (Select District)</label>'
+      + '<select class="form-input" style="height:46px; font-size:14px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setDistrictFilter(this.value)">'
+      + '<option value=""' + (selectedDistrict === "" ? ' selected' : '') + '>-- เลือกเขต --</option>'
+      + districtOptions.map(function(d){
+          return '<option value="' + d.key + '"' + (selectedDistrict === d.key ? ' selected' : '') + '>' + d.en + '</option>';
+        }).join("")
+      + '</select>'
+      + '</div>';
+
+    var catsHtml = "";
+    if (selectedDistrict !== "") {
+      var catMap = [
+        { key: "all", label: "ทุกหมวดหมู่ (All)" },
+        { key: "hospital", label: "โรงพยาบาล (Hospital)" },
+        { key: "beauty", label: "ร้านเสริมสวย/ทำผม (Beauty)" },
+        { key: "mobile", label: "ร้านมือถือ/ซิม (Mobile)" },
+        { key: "restaurant", label: "ร้านอาหาร/มินิมาร์ท (Food)" },
+        { key: "government", label: "สำนักงาน ตม./ราชการ (Gov)" },
+        { key: "support", label: "ศูนย์ช่วยเหลือต่างชาติ (Support)" }
+      ];
+
+      catsHtml = '<div style="margin: 0 0 20px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
+        + '<label style="font-size:13px; font-weight:800; color:var(--ink);">เลือกประเภทธุรกิจ (Category)</label>'
+        + '<select class="form-input" style="height:46px; font-size:14px; font-weight:700; background:#fff; width:100% !important; box-sizing:border-box; border-radius:12px; border:1.5px solid var(--line); padding:0 14px;" onchange="setCategoryFilter(this.value)">'
+        + '<option value=""' + (selectedCategory === "" ? ' selected' : '') + '>-- เลือกประเภท --</option>'
+        + catMap.map(function(c){
+            return '<option value="' + c.key + '"' + (selectedCategory === c.key ? ' selected' : '') + '>' + c.label + '</option>';
+          }).join("")
+        + '</select>'
+        + '</div>';
+    }
+
+    var cardsHtml = "";
+    if (selectedDistrict !== "" && selectedCategory !== "") {
+      var filteredPlaces = currentRegionPlaces.filter(function(p){
+        if (selectedDistrict !== "전체" && selectedDistrict !== "all") {
+          if ((p.address || "").indexOf(selectedDistrict) === -1) return false;
+        }
+        if (selectedCategory !== "all") {
+          if (p.category !== selectedCategory) return false;
+        }
+        return true;
+      });
+
+      var totalPages = Math.ceil(filteredPlaces.length / ITEMS_PER_PAGE);
+      if (currentPage > totalPages) currentPage = 1;
+
+      var startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+      var paginatedPlaces = filteredPlaces.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+      if (paginatedPlaces.length > 0) {
+        cardsHtml = '<div class="grid" style="width:100%; display:grid; grid-template-columns: repeat(2, 1fr); gap:12px;">' + paginatedPlaces.map(function(x){
+          var phoneStr = x.phone ? ' · โทร ' + x.phone : '';
+          var cleanNameKo = (x.name_ko || "").replace(/\uFFFD/g, '');
+          var cleanNameEn = (x.name_en || "").replace(/\uFFFD/g, '');
+          var primaryTitle = cleanNameKo || cleanNameEn;
+
+          var searchQuery = (cleanNameKo ? cleanNameKo + ' ' : (cleanNameEn ? cleanNameEn + ' ' : '')) + (x.address || '');
+          var gMapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(searchQuery.trim());
+
+          return '<div class="card-item" onclick="window.open(\'' + gMapUrl + '\', \'_blank\', \'noopener,noreferrer\')">'
+            + '<div>'
+            + '<div class="card-title">' + primaryTitle + '</div>'
+            + '<div class="card-desc">' + (x.address || '') + phoneStr + '</div>'
+            + '</div>'
+            + '</div>';
+        }).join("") + '</div>';
+
+        if (totalPages > 1) {
+          var maxButtons = 5;
+          var startPage = Math.max(1, currentPage - 2);
+          var endPage = Math.min(totalPages, startPage + maxButtons - 1);
+          if (endPage - startPage < maxButtons - 1) {
+            startPage = Math.max(1, endPage - maxButtons + 1);
+          }
+
+          var paginationBtns = '';
+          if (currentPage > 1) {
+            paginationBtns += '<button onclick="changeLocalPage(' + (currentPage - 1) + ')" style="padding:0 12px; height:36px; border:none; border-radius:10px; font-weight:800; font-size:13px; cursor:pointer; background:#e2e8f0; color:#334155;">‹ ย้อนกลับ</button>';
+          }
+          for (var p = startPage; p <= endPage; p++) {
+            var activeStyle = (p === currentPage) 
+              ? 'background:#002366; color:#fff; box-shadow:0 2px 6px rgba(0,35,102,0.3);' 
+              : 'background:#e2e8f0; color:#334155;';
+            paginationBtns += '<button onclick="changeLocalPage(' + p + ')" style="width:36px; height:36px; min-width:36px; border:none; border-radius:10px; font-weight:800; font-size:13.5px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; transition:all 0.2s; ' + activeStyle + '">' + p + '</button>';
+          }
+          if (currentPage < totalPages) {
+            paginationBtns += '<button onclick="changeLocalPage(' + (currentPage + 1) + ')" style="padding:0 12px; height:36px; border:none; border-radius:10px; font-weight:800; font-size:13px; cursor:pointer; background:#e2e8f0; color:#334155;">ถัดไป ›</button>';
+          }
+          cardsHtml += '<div style="width:100%; display:flex; justify-content:center; align-items:center; gap:8px; margin-top:20px; flex-wrap:wrap;">' + paginationBtns + '</div>';
+        }
+      } else {
+        cardsHtml = '<div class="empty" style="font-size:13px; color:#64748b; padding:20px 0; text-align:center;">ไม่พบตัวเลือกตามเงื่อนไขที่ระบุ</div>';
+      }
+    }
+
+    localGrid.innerHTML = districtsHtml + catsHtml + cardsHtml;
+  }
+
+  function setDistrictFilter(dist) {
+    selectedDistrict = dist;
+    selectedCategory = "";
+    currentPage = 1;
+    renderFilterControlsAndPlaces();
+  }
+
+  function setCategoryFilter(cat) {
+    selectedCategory = cat;
+    currentPage = 1;
+    renderFilterControlsAndPlaces();
+  }
+
+  function changeLocalPage(page) {
+    currentPage = page;
+    renderFilterControlsAndPlaces();
+  }
+
+  window.onload = function(){
+    renderRegions();
+    renderCats();
+    renderHot();
+    apply();
+  };
 </script>
 </body>
 </html>

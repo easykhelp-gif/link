@@ -1,10 +1,44 @@
 [
   {
-    "id": "20260716_01",
-    "title_th": "คู่มือรับเงินชดเชยเมื่อออกจากงาน (퇴직금) สำหรับแรงงานต่างชาติและผู้ไม่มีวีซ่า",
-    "title_ko": "외국인 근로자(미등록 포함) 퇴직금 권리 및 증거 수집 가이드",
+    "id": "news_policy_1",
     "date": "2026-07-16",
-    "url": "",
-    "thumbnail": "koricare_main_logo_nobg.png"
+    "thumbnail": "news/images/thumb_1786197200970_1.jpg",
+    "title_en": "Korea Visa & Immigration Policy Updates 2026",
+    "summary_en": "Essential updates on visa extensions, voluntary departure programs, and foreigner registration in South Korea.",
+    "title_th": "คู่มืออัปเดตนโยบายวีซ่าและการตรวจคนเข้าเมืองเกาหลี 2026",
+    "summary_th": "ข้อมูลสำคัญเกี่ยวกับการต่ออายุวีซ่า โครงการรายงานตัวกลับโดยสมัครใจ และการลงทะเบียนแรงงานต่างชาติ",
+    "title_vi": "Cập nhật chính sách Visa & Xuất nhập cảnh Hàn Quốc 2026",
+    "summary_vi": "Thông tin quan trọng về gia hạn visa, chương trình tự nguyện xuất cảnh và đăng ký cư trú cho người nước ngoài.",
+    "title_ko": "2026년 대한민국 비자 및 출입국 정책 핵심 가이드",
+    "summary_ko": "외국인 근로자 및 체류자를 위한 비자 연장, 자진출국 제도 및 체류 자격 주요 변경사항 안내",
+    "url": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "news_policy_2",
+    "date": "2026-07-15",
+    "thumbnail": "news/images/thumb_1786197201716_2.jpg",
+    "title_en": "Foreign Worker Rights & Severance Pay Protection Guide",
+    "summary_en": "Comprehensive guide on severance pay eligibility, unpaid wage recovery, and legal rights for foreign workers.",
+    "title_th": "คู่มือสิทธิแรงงานต่างชาติและการรับเงินชดเชยเมื่อออกจากงาน (퇴직금)",
+    "summary_th": "ขั้นตอนการคำนวณเงินชดเชย การเรียกร้องค่าจ้างค้างชำระ และการคุ้มครองสิทธิทางกฎหมายสำหรับแรงงานต่างชาติ",
+    "title_vi": "Hướng dẫn quyền lợi lao động & Bảo vệ tiền trợ cấp thôi việc (퇴직금)",
+    "summary_vi": "Quy trình tính tiền trợ cấp thôi việc, đòi nợ lương và bảo vệ quyền lợi hợp pháp cho lao động nước ngoài.",
+    "title_ko": "외국인 근로자(미등록 포함) 퇴직금 권리 및 증거 수집 가이드",
+    "summary_ko": "1년 이상 근무 시 미등록 체류자 포함 퇴직금 지급 의무 및 사업주 임금체불 대응 수칙",
+    "url": "https://www.moel.go.kr"
+  },
+  {
+    "id": "news_policy_3",
+    "date": "2026-07-14",
+    "thumbnail": "news/images/thumb_1786197201800_3.jpg",
+    "title_en": "National Health Insurance Access & ER Services for Foreigners",
+    "summary_en": "How to access emergency care (119), find multilingual hospitals, and check health insurance benefits.",
+    "title_th": "คู่มือการใช้สิทธิประกันสุขภาพและการรักษาพยาบาลฉุกเฉินในเกาหลี",
+    "summary_th": "การติดต่อเบอร์ฉุกเฉิน 119 การค้นหาโรงพยาบาลที่รองรับภาษาต่างชาติ และการใช้สิทธิประกันสุขภาพ NHIS",
+    "title_vi": "Hướng dẫn Bảo hiểm Y tế Quốc gia & Dịch vụ Cấp cứu cho người nước ngoài",
+    "summary_vi": "Cách gọi cấp cứu 119, tìm bệnh viện hỗ trợ đa ngôn ngữ và kiểm tra quyền lợi bảo hiểm y tế tại Hàn Quốc.",
+    "title_ko": "외국인 국민건강보험 혜택 및 야간·응급 의료기관 이용 안내",
+    "summary_ko": "외국인 지역가입자 건강보험 적용 범위 및 24시간 응급실(119), 다국어 지원 병원 검색 방법",
+    "url": "https://www.e-gen.or.kr"
   }
 ]
