@@ -9,43 +9,35 @@
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&family=Prompt:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800;900&family=Sarabun:wght@400;500;600;700;800&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --navy: #002366;
     --navy-dark: #001950;
     --blue-accent: #2563eb;
     --blue-glow: rgba(37, 99, 235, 0.35);
-    --bg-slate: #0f172a;
     --body-bg: #f8fafc;
     --card-bg: #ffffff;
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --border-color: #cbd5e1;
-    --success: #10b981;
-    --success-bg: #ecfdf5;
-    --warning: #f59e0b;
-    --warning-bg: #fffbe8;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  
+  html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
   body {
     background: var(--body-bg);
     color: var(--text-primary);
-    font-family: "Sarabun", "Prompt", "Plus Jakarta Sans", sans-serif;
-    font-size: 16px;
-    line-height: 1.65;
+    font-family: "Prompt", "Sarabun", "Inter", sans-serif;
+    font-size: 15.5px;
+    line-height: 1.6;
     padding-bottom: 60px;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  @keyframes pulseGlow {
-    0%, 100% { box-shadow: 0 0 15px rgba(37,99,235,0.2); }
-    50% { box-shadow: 0 0 30px rgba(37,99,235,0.5); }
-  }
-  @keyframes slideUpFade {
-    from { opacity: 0; transform: translateY(18px); }
-    to { opacity: 1; transform: translateY(0); }
   }
 
   .wrap { max-width: 580px; margin: 0 auto; padding: 0 16px; }
@@ -63,7 +55,7 @@
   .hrow { display: flex; align-items: center; justify-content: space-between; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
-  .logo-text b { font-size: 17.5px; font-weight: 900; line-height: 1.1; letter-spacing: -0.3px; display: block; }
+  .logo-text b { font-size: 17.5px; font-weight: 800; line-height: 1.1; letter-spacing: -0.3px; display: block; font-family: "Prompt", sans-serif; }
   .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
 
   .nav-back {
@@ -92,16 +84,6 @@
     overflow: hidden;
     margin-bottom: -20px;
   }
-  .hero-banner::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 60%);
-    pointer-events: none;
-  }
   .hero-badge {
     display: inline-flex;
     align-items: center;
@@ -119,10 +101,11 @@
   }
   .hero-banner h1 {
     font-size: 24px;
-    font-weight: 900;
-    line-height: 1.3;
+    font-weight: 800;
+    line-height: 1.35;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
+    font-family: "Prompt", sans-serif;
   }
   .hero-banner p {
     font-size: 13px;
@@ -141,17 +124,16 @@
     border: 1px solid var(--border-color);
     position: relative;
     z-index: 10;
-    animation: slideUpFade 0.4s ease-out;
   }
 
   .toggle-label {
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 800;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
+    color: var(--navy);
+    letter-spacing: 0.3px;
     margin-bottom: 10px;
     display: block;
+    font-family: "Prompt", sans-serif;
   }
   .tab-container {
     display: grid;
@@ -168,26 +150,28 @@
     border: none;
     background: transparent;
     color: var(--text-secondary);
-    font-size: 13.5px;
+    font-size: 14.5px;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.25s ease;
     text-align: center;
     line-height: 1.3;
+    font-family: "Prompt", sans-serif;
   }
   .tab-btn small {
     display: block;
-    font-size: 10.5px;
-    font-weight: 500;
-    opacity: 0.75;
-    margin-top: 2px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #64748b;
+    margin-top: 3px;
   }
   .tab-btn.active {
     background: #ffffff;
     color: var(--navy);
     box-shadow: 0 4px 14px rgba(0,35,102,0.12);
-    font-weight: 900;
+    font-weight: 800;
   }
+  .tab-btn.active small { color: #334155; }
 
   .form-group { margin-bottom: 20px; }
   .form-group label {
@@ -198,6 +182,7 @@
     font-weight: 800;
     color: var(--text-primary);
     margin-bottom: 8px;
+    font-family: "Prompt", sans-serif;
   }
   .form-group label .sub-hint {
     font-size: 11.5px;
@@ -212,17 +197,18 @@
   }
   .form-input {
     width: 100%;
-    height: 52px;
-    padding: 0 58px 0 16px;
-    border-radius: 14px;
+    height: 48px;
+    padding: 0 54px 0 14px;
+    border-radius: 12px;
     border: 2px solid var(--border-color);
-    font-size: 18px;
+    font-size: 16.5px;
     font-weight: 800;
     color: var(--text-primary);
     background: #fafafa;
     outline: none;
     text-align: right;
     transition: all 0.2s ease;
+    font-family: "Prompt", sans-serif;
   }
   .form-input::placeholder {
     color: #94a3b8;
@@ -230,7 +216,7 @@
     opacity: 0.65;
   }
   .grid-2col .form-input {
-    padding-right: 85px;
+    padding-right: 68px;
   }
   .form-input:focus {
     border-color: var(--blue-accent);
@@ -240,10 +226,30 @@
   .input-unit {
     position: absolute;
     right: 14px;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 700;
     color: #64748b;
     pointer-events: none;
+  }
+
+  .salary-inputs-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .salary-input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .salary-input-row span.month-tag {
+    font-size: 13px;
+    font-weight: 700;
+    color: #334155;
+    white-space: nowrap;
+    width: 140px;
+    flex-shrink: 0;
   }
 
   .grid-2col {
@@ -254,13 +260,13 @@
 
   .btn-calculate {
     width: 100%;
-    height: 56px;
+    height: 54px;
     background: linear-gradient(135deg, var(--navy) 0%, #1e3a8a 100%);
     color: #ffffff;
     border: none;
     border-radius: 16px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 800;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -268,16 +274,12 @@
     gap: 8px;
     box-shadow: 0 8px 24px rgba(0,35,102,0.28);
     transition: all 0.25s ease;
-    margin-top: 12px;
-    position: relative;
-    overflow: hidden;
+    margin-top: 16px;
+    font-family: "Prompt", sans-serif;
   }
   .btn-calculate:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 30px rgba(0,35,102,0.38);
-  }
-  .btn-calculate:active {
-    transform: translateY(0);
   }
 
   .result-card {
@@ -290,7 +292,6 @@
     text-align: center;
     box-shadow: 0 14px 40px rgba(0,25,80,0.25);
     border: 1px solid rgba(255,255,255,0.15);
-    animation: slideUpFade 0.4s ease-out;
   }
   .result-card.show { display: block; }
   .result-header {
@@ -298,54 +299,32 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #93c5fd;
+    opacity: 0.85;
+    margin-bottom: 8px;
   }
   .result-amount {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 900;
-    color: #ffffff;
-    margin: 8px 0;
-    letter-spacing: -0.5px;
-    line-height: 1.15;
-  }
-  .result-amount span {
-    font-size: 20px;
-    font-weight: 700;
     color: #60a5fa;
-    margin-left: 4px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    text-shadow: 0 4px 16px rgba(96,165,250,0.4);
+    font-family: "Prompt", sans-serif;
   }
-  .result-sub {
-    font-size: 13px;
-    color: #cbd5e1;
-    font-weight: 500;
-    margin-top: 4px;
-  }
+  .result-amount span { font-size: 16px; color: #93c5fd; font-weight: 700; }
+  .result-sub { font-size: 13.5px; opacity: 0.9; margin-bottom: 20px; }
 
   .guideline-box {
-    margin-top: 16px;
-    padding: 16px 18px;
-    border-radius: 14px;
-    font-size: 13px;
-    line-height: 1.6;
-    text-align: left;
-  }
-  .guideline-box.legal {
     background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.18);
-    color: #f1f5f9;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-size: 12.5px;
+    text-align: left;
+    line-height: 1.55;
+    margin-bottom: 20px;
   }
-  .guideline-box.undoc {
-    background: rgba(16, 185, 129, 0.12);
-    border: 1px solid rgba(16, 185, 129, 0.3);
-    color: #ecfdf5;
-  }
-  .guideline-box strong {
-    display: block;
-    font-size: 14px;
-    font-weight: 800;
-    margin-bottom: 4px;
-    color: #ffffff;
-  }
+  .guideline-box strong { display: block; color: #93c5fd; font-weight: 800; margin-bottom: 4px; }
 
   .action-grid {
     display: grid;
@@ -407,27 +386,27 @@
 
 <header>
   <div class="wrap hrow">
-    <a href="../th/" class="logo">
-      <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
+    <a href="index.html" class="logo">
+      <img src="../koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
-        <span>Thai Portal</span>
+        <span>Your Partner in Korea</span>
       </div>
     </a>
-    <a href="../th/" class="nav-back">
+    <a href="index.html" class="nav-back">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M19 12H5M12 19l-7-7 7-7"/>
       </svg>
-      กลับหน้าหลัก
+      หน้าหลักพอร์ทัล
     </a>
   </div>
 </header>
 
 <section class="hero-banner">
   <div class="wrap">
-    <div class="hero-badge">ตามกฎหมายแรงงานเกาหลี</div>
-    <h1>โปรแกรมคำนวณเงินชดเชย</h1>
-    <p>คำนวณเงินชดเชยประเมินตามกฎหมายสำหรับคนไทยที่ทำงานในเกาหลี</p>
+    <div class="hero-badge">พระราชบัญญัติมาตรฐานแรงงาน มาตรา 34</div>
+    <h1>โปรแกรมคำนวณเงินชดเชยเกาหลี</h1>
+    <p>สิทธิตามกฎหมายที่ได้รับการคุ้มครองสำหรับแรงงานทุกคนที่ทำงานต่อเนื่อง 1 ปีขึ้นไปในเกาหลีใต้</p>
   </div>
 </section>
 
@@ -436,30 +415,53 @@
     <span class="toggle-label">1. สถานะวีซ่าและเงื่อนไขการทำงาน</span>
     <div class="tab-container">
       <button id="tabLegal" class="tab-btn active" onclick="setVisaStatus('legal')">
-        วีซ่าทั่วไป
-        <small>E-9 · H-2 · E-7 · F-series</small>
+        วีซ่าปกติ
+        <small>E-9 · H-2 · E-7 · ตระกูล F</small>
       </button>
       <button id="tabUndoc" class="tab-btn" onclick="setVisaStatus('undoc')">
-        เกินกำหนด
-        <small>คุ้มครองสิทธิเงินชดเชย 100%</small>
+        ไม่มีวีซ่า (ผีน้อย)
+        <small>ได้รับคุ้มครองสิทธิเงินชดเชย 100%</small>
       </button>
     </div>
 
+    <!-- Section 2: Last 3 Monthly Salaries (Thai) -->
     <div class="form-group">
       <label>
-        <span>2. เงินเดือนเฉลี่ยต่อเดือน</span>
-        <span class="sub-hint">เงินเดือนก่อนหักภาษี 3 เดือนล่าสุด</span>
+        <span>2. เงินเดือน 3 เดือนล่าสุด (ก่อนหักภาษี)</span>
+        <span class="sub-hint">ตามสลิปเงินเดือน</span>
       </label>
-      <div class="input-wrapper">
-        <input type="text" id="monthlySalary" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
-        <span class="input-unit">KRW</span>
+      
+      <div class="salary-inputs-grid">
+        <div class="salary-input-row">
+          <span class="month-tag">เดือนที่แล้ว:</span>
+          <div class="input-wrapper" style="flex:1;">
+            <input type="text" id="salaryMonth1" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
+            <span class="input-unit">KRW</span>
+          </div>
+        </div>
+
+        <div class="salary-input-row">
+          <span class="month-tag">2 เดือนที่แล้ว:</span>
+          <div class="input-wrapper" style="flex:1;">
+            <input type="text" id="salaryMonth2" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
+            <span class="input-unit">KRW</span>
+          </div>
+        </div>
+
+        <div class="salary-input-row">
+          <span class="month-tag">3 เดือนที่แล้ว:</span>
+          <div class="input-wrapper" style="flex:1;">
+            <input type="text" id="salaryMonth3" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
+            <span class="input-unit">KRW</span>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="form-group">
       <label>
         <span>3. ระยะเวลาการทำงานทั้งหมด</span>
-        <span class="sub-hint">ปีและเดือนที่ทำงาน</span>
+        <span class="sub-hint">จำนวนปีและเดือนที่ทำงาน</span>
       </label>
       <div class="grid-2col">
         <div class="input-wrapper">
@@ -475,8 +477,8 @@
 
     <div class="form-group">
       <label>
-        <span>4. โบนัสประจำปีใน 12 เดือนล่าสุด</span>
-        <span class="sub-hint">ตัวเลือก (เช่น 1,000,000)</span>
+        <span>4. โบนัสประจำปีตลอด 12 เดือนล่าสุด</span>
+        <span class="sub-hint">ถ้ามี (เช่น 1,000,000)</span>
       </label>
       <div class="input-wrapper">
         <input type="text" id="annualBonus" class="form-input" inputmode="numeric" placeholder="0" oninput="formatNumberInput(this)">
@@ -485,25 +487,25 @@
     </div>
 
     <button type="button" class="btn-calculate" onclick="calculateSeverance()">
-      <span>คำนวณเงินชดเชยทันที</span>
+      <span>คำนวณเงินชดเชย</span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M5 12h14M12 5l7 7-7 7"/>
       </svg>
     </button>
 
     <div id="resultCard" class="result-card">
-      <div class="result-header">ประมาณการเงินชดเชยสุทธิ (Estimated Legal Severance Pay)</div>
+      <div class="result-header">ประมาณการเงินชดเชยตามกฎหมาย</div>
       <div id="resultAmount" class="result-amount">₩ 0 <span>KRW</span></div>
       <div id="resultRange" class="result-sub"></div>
 
       <div id="guideLegal" class="guideline-box legal">
-        <strong>ตรวจสอบประกันการเดินทางกลับประเทศ (출국만기보험)</strong>
-        สำหรับผู้ถือวีซ่า E-9 และ H-2 เงินชดเชยส่วนหนึ่งจะสะสมอยู่ในประกัน หากเงินชดเชยตามกฎหมายสูงกว่ายอดประกัน นายจ้างต้องจ่ายส่วนต่างเพิ่มเติมตามกฎหมาย
+        <strong>ข้อควรทราบ: ประกันการเดินทางกลับประเทศ (출국만기보험)</strong>
+        สำหรับผู้ถือวีซ่า E-9 และ H-2 เงินชดเชยส่วนหนึ่งจะถูกออมไว้ในประกันหากเงินชดเชยตามกฎหมายสูงกว่ายอดประกัน นายจ้างต้องจ่ายส่วนต่างเพิ่มเติมตามกฎหมาย
       </div>
 
       <div id="guideUndoc" class="guideline-box undoc" style="display:none;">
-        <strong>คุ้มครองสิทธิตามกฎหมาย (ตามคำพิพากษาศาลฎีกาเกาหลี)</strong>
-        ไม่ว่าสถานะวีซ่าจะเป็นอย่างไร แรงงานต่างชาติทุกคนมีสิทธิ์ได้รับเงินชดเชย 100% ตามกฎหมาย กระทรวงแรงงานเกาหลีจะไม่แจ้งเบาะแสผู้เสียหายจากการค้างชำระค่าจ้างแก่ตม.
+        <strong>ได้รับคุ้มครองสิทธิเงินชดเชย 100% (คำพิพากษาศาลฎีกา)</strong>
+        ไม่ว่าสถานะวีซ่าจะเป็นอย่างไรหรือเกินระยะเวลาพำนัก แรงงานต่างชาติทุกคนในเกาหลีมีสิทธิได้รับเงินชดเชยตามกฎหมาย 100% และกระทรวงแรงงานจะไม่แจ้งตม.
       </div>
 
       <div class="action-grid">
@@ -511,26 +513,26 @@
           ปรึกษาผ่าน LINE
         </a>
         <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg">
-          ปรึกษาผ่าน Messenger
+          ปรึกษา Messenger
         </a>
         <button type="button" class="action-btn share" onclick="shareCalculator()">
-          แชร์ลิงก์โปรแกรมคำนวณ
+          แชร์ลิงก์โปรแกรม
         </button>
       </div>
     </div>
   </div>
 
   <div class="notice-card">
-    <h4>ข้อกำหนดตามกฎหมายแรงงานเกาหลี (Labor Standards Act)</h4>
+    <h4>ข้อกำหนดตามกฎหมายมาตรฐานแรงงานเกาหลี</h4>
     <ul>
-      <li><b>สิทธิ์ในการรับ:</b> ทำงานติดต่อกันที่สถานที่เดียวกัน 1 ปีขึ้นไป (365 วัน) และทำงาน 15 ชั่วโมงขึ้นไปต่อสัปดาห์</li>
-      <li><b>กำหนดชำระ:</b> นายจ้างต้องชำระเงินชดเชยทั้งหมดภายใน 14 วันนับจากวันที่ลาออก</li>
-      <li><b>ค่าปรับกรณีล่าช้า:</b> ยอดที่ค้างชำระเกิน 14 วัน จะคิดดอกเบี้ยปรับ 20% ต่อปีตามกฎหมาย</li>
+      <li><b>เงื่อนไข:</b> ทำงานต่อเนื่องในสถานที่เดียวกัน 1 ปีขึ้นไป (365 วัน) และทำงาน 15 ชั่วโมงขึ้นไปต่อสัปดาห์</li>
+      <li><b>กำหนดชำระ:</b> นายจ้างต้องจ่ายเงินชดเชยทั้งหมดภายใน 14 วันหลังวันลาออก</li>
+      <li><b>ดอกเบี้ยปรับ:</b> หากจ่ายล่าช้าเกิน 14 วัน จะมีดอกเบี้ยปรับ 20% ต่อปีตามกฎหมาย</li>
     </ul>
   </div>
 
   <footer>
-    © 2026 Kori Care Information Portal. All rights reserved.
+    © 2026 Kori Care Information Portal. สงวนลิขสิทธิ์ทั้งหมด
   </footer>
 </div>
 
@@ -578,7 +580,13 @@
   }
 
   function calculateSeverance() {
-    const salary = parseFormattedNumber(document.getElementById("monthlySalary").value);
+    const s1 = parseFormattedNumber(document.getElementById("salaryMonth1").value);
+    const s2 = parseFormattedNumber(document.getElementById("salaryMonth2").value);
+    const s3 = parseFormattedNumber(document.getElementById("salaryMonth3").value);
+
+    const entered = [s1, s2, s3].filter(v => v > 0);
+    const salary = entered.length > 0 ? (s1 + s2 + s3) / entered.length : 0;
+
     const years = parseFloat(document.getElementById("workYears").value) || 0;
     const months = parseFloat(document.getElementById("workMonths").value) || 0;
     const bonus = parseFormattedNumber(document.getElementById("annualBonus").value);
@@ -587,7 +595,7 @@
     const resultCard = document.getElementById("resultCard");
 
     if (salary <= 0 || totalDays <= 0) {
-      alert("กรุณากรอกเงินเดือนและระยะเวลาการทำงานให้ถูกต้อง");
+      alert("กรุณากรอกเงินเดือนอย่างน้อย 1 เดือนและระยะเวลาการทำงานที่ถูกต้อง");
       return;
     }
 
@@ -595,8 +603,8 @@
     updateGuidelineVisibility();
 
     if (totalDays < 365) {
-      document.getElementById("resultAmount").innerHTML = "ไม่มีสิทธิ์ได้รับ <span>(ไม่ถึง 1 ปี)</span>";
-      document.getElementById("resultRange").innerHTML = "การได้รับเงินชดเชยตามกฎหมายต้องทำงานติดต่อกัน <b>1 ปีขึ้นไป (365 วัน)</b>";
+      document.getElementById("resultAmount").innerHTML = "ไม่มีสิทธิ์รับเงินชดเชย <span>(ทำงานไม่ถึง 1 ปี)</span>";
+      document.getElementById("resultRange").innerHTML = "เงินชดเชยตามกฎหมายต้องทำงานต่อเนื่อง <b>1 ปีขึ้นไป (365 วัน)</b>";
       resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
@@ -607,7 +615,7 @@
     const maxRange = Math.round(baseSeverance * 1.15);
 
     animateNumberCounter(baseSeverance);
-    document.getElementById("resultRange").innerHTML = "ช่วงเงินชดเชยประเมิน: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
+    document.getElementById("resultRange").innerHTML = "ช่วงประมาณการ: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
 
     resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
   }
@@ -621,7 +629,7 @@
       }).catch(() => {});
     } else {
       navigator.clipboard.writeText(shareUrl).then(() => {
-        alert("คัดลอกลิงก์โปรแกรมคำนวณเรียบร้อยแล้ว!");
+        alert("คัดลอกลิงก์เรียบร้อยแล้ว!");
       }).catch(() => {
         window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl), "_blank");
       });
