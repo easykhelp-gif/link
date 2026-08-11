@@ -16,7 +16,7 @@ for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 }
 
-// 100% Valid Live RSS Feeds
+// Officially Verified Live RSS Feeds
 const RSS_FEEDS = {
   en: ['https://en.yna.co.kr/RSS/news.xml', 'https://www.koreatimes.co.kr/www/rss/rss.xml'],
   th: ['https://www.khaosod.co.th/feed'],
@@ -64,7 +64,7 @@ function parseXmlItems(xmlText) {
       items.push({
         title: cleanTitle,
         link: cleanLink,
-        desc: cleanDesc.slice(0, 500),
+        desc: cleanDesc,
         image: actualImg,
         date: pubDateMatch ? new Date(pubDateMatch[1]).toISOString().slice(0, 10) : new Date().toISOString().slice(0, 10)
       });
@@ -73,27 +73,29 @@ function parseXmlItems(xmlText) {
   return items;
 }
 
+// Clean, Minimalist, Centered Conversion Banner
 function buildArticleHtml(newsItem, lang) {
   const dateStr = newsItem.date || new Date().toISOString().slice(0, 10);
+  
+  // Minimalist, Centered Conversion Banner (No redundant Specialist Support title)
   const bannerHtml = `
-    <div style="background: linear-gradient(135deg, #002366 0%, #1e40af 100%); border-radius: 18px; padding: 22px; color: #ffffff; margin: 32px 0 20px; box-shadow: 0 8px 24px rgba(0,35,102,0.2); border: 1px solid rgba(255,255,255,0.15);">
-      <div style="font-size: 18px; font-weight: 800; margin-bottom: 6px; color:#ffffff;">Kori Care 1:1 Specialist Support</div>
-      <div style="font-size: 13px; opacity: 0.92; line-height: 1.5; margin-bottom: 16px; color:#e2e8f0;">Struggling with Visa, Labor Rights, or Legal Help in Korea? Talk to Your Specialist.</div>
-      <a href="https://www.koricare.kr" target="_blank" style="display: inline-block; background: #ffffff; color: #002366; padding: 12px 22px; border-radius: 12px; font-weight: 800; font-size: 14px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">Get 1:1 Help ➔</a>
+    <div style="background: linear-gradient(135deg, #002366 0%, #1e40af 100%); border-radius: 18px; padding: 24px 20px; color: #ffffff; margin: 36px 0 20px; box-shadow: 0 8px 24px rgba(0,35,102,0.18); text-align: center;">
+      <div style="font-size: 13.5px; opacity: 0.95; line-height: 1.55; margin-bottom: 16px; color:#e2e8f0; max-width: 540px; margin-left: auto; margin-right: auto; font-weight: 500;">Struggling with Visa, Labor Rights, or Legal Help in Korea? Talk to Your Specialist.</div>
+      <a href="https://www.koricare.kr" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; background: #ffffff; color: #002366; padding: 9px 20px; border-radius: 10px; font-weight: 800; font-size: 13px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.12);">Kori Care 1:1 Help ➔</a>
     </div>
   `;
 
   let engSummarySection = '';
   if (lang !== 'en') {
     engSummarySection = `
-      <div style="margin-top:28px; padding:20px; background:#eff6ff; border-radius:16px; border:1px solid #bfdbfe;">
-        <div style="font-size:14px; font-weight:800; color:#1e40af; margin-bottom:8px;">🌐 Executive English Summary</div>
-        <div style="font-size:14.5px; color:#1e3a8a; line-height:1.65;">${newsItem.title} — Key trending updates and comprehensive highlights derived from verified media reports.</div>
+      <div style="margin-top:28px; padding:18px; background:#eff6ff; border-radius:14px; border:1px solid #bfdbfe;">
+        <div style="font-size:13.5px; font-weight:800; color:#1e40af; margin-bottom:6px;">Executive English Summary</div>
+        <div style="font-size:14px; color:#1e3a8a; line-height:1.6;">${newsItem.title}</div>
       </div>
     `;
   }
 
-  const heroImgTag = newsItem.image ? `<img src="${newsItem.image}" alt="${newsItem.title}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 20px 0 24px;">` : '';
+  const heroImgTag = newsItem.image ? `<img src="${newsItem.image}" alt="${newsItem.title}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 18px 0 22px;">` : '';
 
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -108,7 +110,7 @@ function buildArticleHtml(newsItem, lang) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #f8fafc; --card: #ffffff; --ink: #0f172a; --sub: #475569; --navy: #002366; --line: #e2e8f0; }
+  :root { --bg: #f8fafc; --card: #ffffff; --ink: #0f172a; --sub: #64748b; --navy: #002366; --line: #e2e8f0; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--ink); font-family: "Inter", "Noto Sans Thai", system-ui, sans-serif; font-size: 16px; line-height: 1.8; padding-bottom: 48px; }
   .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
@@ -119,11 +121,10 @@ function buildArticleHtml(newsItem, lang) {
   .logo-text b { font-size: 18px; font-weight: 900; }
   .logo-text span { font-size: 9.5px; opacity: 0.85; text-transform: uppercase; font-weight: 700; }
   .post-card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px 28px; margin-top: 24px; box-shadow: 0 10px 30px rgba(15,23,42,0.05); }
-  .tag-bar { display: flex; align-items: center; gap: 10px; font-size: 12.5px; color: var(--sub); font-weight: 700; margin-bottom: 14px; }
-  .tag { background: #e0e7ff; color: #1e40af; padding: 3px 10px; border-radius: 8px; font-size: 11.5px; font-weight: 800; }
+  .date-bar { font-size: 13px; color: var(--sub); font-weight: 600; margin-bottom: 12px; }
   h1 { font-size: 24px; font-weight: 900; color: var(--navy); line-height: 1.4; margin-bottom: 12px; }
   .article-content { font-size: 16.5px; color: #334155; line-height: 1.85; margin-top: 18px; }
-  .src-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 24px; font-size: 13.5px; font-weight: 700; color: #2563eb; text-decoration: underline; }
+  .src-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 22px; font-size: 13.5px; font-weight: 700; color: #2563eb; text-decoration: underline; }
   .back-btn { display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 800; color: var(--navy); background: #ffffff; border: 1.5px solid var(--line); padding: 14px; border-radius: 16px; margin-top: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
 </style>
 </head>
@@ -142,16 +143,12 @@ function buildArticleHtml(newsItem, lang) {
 
 <main class="wrap">
   <article class="post-card">
-    <div class="tag-bar">
-      <span class="tag">🔥 Hot Issue</span>
-      <span>📅 ${dateStr}</span>
-    </div>
+    <div class="date-bar">${dateStr}</div>
     <h1>${newsItem.title}</h1>
-    <hr style="border:none; border-top:1px solid #e2e8f0; margin:16px 0;">
+    <hr style="border:none; border-top:1px solid #e2e8f0; margin:14px 0 20px;">
     ${heroImgTag}
     <div class="article-content">
-      <p style="margin-bottom:18px;">${newsItem.desc || newsItem.title}</p>
-      <p style="margin-bottom:18px;">This story presents key verified insights gathered from primary news sources. Re-curated by Kori Care to provide clear, reliable updates for residents and international readers in Korea.</p>
+      <p style="margin-bottom:18px; font-size:16.5px; line-height:1.85;">${newsItem.desc || newsItem.title}</p>
     </div>
 
     ${engSummarySection}
@@ -200,9 +197,9 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
 }
 
 async function runPipeline() {
-  console.log('🚀 실시간 핫뉴스 RSS 파싱 & 가로 3열 주입 집행...');
+  console.log('🚀 기사 정제 및 중앙 정렬 미니멀 유입 배너 정제 파이프라인...');
 
-  // 1. English (EN) - Yonhap News EN / Korea Times
+  // 1. English (EN)
   let enItems = [];
   for (const feedUrl of RSS_FEEDS.en) {
     const xml = await fetchUrl(feedUrl);
@@ -246,7 +243,29 @@ async function runPipeline() {
   fs.writeFileSync(path.join(DATA_DIR, 'news_list_th.json'), JSON.stringify(thList, null, 2), 'utf-8');
   injectGridCardsToIndex(INDEX_TH_PATH, thList, 'https://www.koricare.kr/link');
 
-  console.log('🎉 실시간 뉴스 데이터 및 이미지 파싱 완결!');
+  // 3. Vietnamese (VI)
+  let viItems = [];
+  for (const feedUrl of RSS_FEEDS.vi) {
+    const xml = await fetchUrl(feedUrl);
+    const items = parseXmlItems(xml);
+    if (items.length > 0) {
+      viItems = items;
+      break;
+    }
+  }
+
+  const viList = viItems.slice(0, 10).map((item, idx) => {
+    const id = `hotnews_vi_${idx + 1}`;
+    item.id = id;
+    const html = buildArticleHtml(item, 'vi');
+    fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
+    return { id, date: item.date, image: item.image, title: item.title, link: item.link };
+  });
+
+  fs.writeFileSync(path.join(DATA_DIR, 'news_list_vi.json'), JSON.stringify(viList, null, 2), 'utf-8');
+  injectGridCardsToIndex(INDEX_VI_PATH, viList, 'https://www.koricare.kr/link');
+
+  console.log('🎉 4가지 정제 완료!');
 }
 
 runPipeline();
