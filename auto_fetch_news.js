@@ -205,7 +205,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
     const cardsHtml = top3.map(item => {
       const thumb = item.image ? item.image : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
       const title = item.title;
-      const href = `https://www.koricare.kr/link/news/${item.id}.html`;
+      const href = `https://www.koricare.kr/link/news/${item.id}.html?v=20260812_v2`;
 
       return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #cbd5e1; box-shadow:0 3px 10px rgba(15,23,42,0.05); overflow:hidden; transition:all 0.2s ease;">
       <div style="width:100%; height:100px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
