@@ -209,19 +209,16 @@
     </a>
     
     <div class="lang-dropdown-wrapper">
-      <button class="lang-btn" onclick="toggleLangMenu(event)">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
-          <circle cx="12" cy="12" r="10" />
-          <line x1="2" y1="12" x2="22" y2="12" />
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
-        </svg>
-        <span>ไทย</span>
-        <span style="font-size:9px; opacity:0.85; margin-left:2px;">▼</span>
-      </button>
-      <div class="lang-menu" id="langMenu">
-        <a href="../index.html" class="lang-item">🇺🇸 English</a>
-        <a href="index.html" class="lang-item active">🇹🇭 ไทย</a>
-        <a href="../vi/index.html" class="lang-item">🇻🇳 Tiếng Việt</a>
+      <div style="position:relative;">
+        <button id="langSelectBtn" onclick="toggleLangDropdown(event)" style="display:flex; align-items:center; gap:6px; background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); font-size:13px; font-weight:700; padding:8px 16px; border-radius:20px; cursor:pointer; backdrop-filter:blur(8px);">
+          <span>🌐 ไทย</span>
+          <span style="font-size:10px; opacity:0.85; margin-left:2px;">▼</span>
+        </button>
+        <div id="langDropdownMenu" style="display:none; position:absolute; right:0; top:calc(100% + 8px); background:#ffffff; border-radius:14px; box-shadow:0 10px 30px rgba(0,0,0,0.18); border:1px solid #e2e8f0; width:140px; z-index:9999; overflow:hidden; padding:6px 0;">
+          <a href="https://www.koricare.kr/link/" style="display:block; padding:10px 16px; font-size:13px; font-weight:700; color:#334155; text-decoration:none;">English</a>
+          <a href="https://www.koricare.kr/link/th/" style="display:block; padding:10px 16px; font-size:13px; font-weight:800; color:#002366; text-decoration:none; background:#f1f5f9;">ไทย</a>
+          <a href="https://www.koricare.kr/link/vi/" style="display:block; padding:10px 16px; font-size:13px; font-weight:700; color:#334155; text-decoration:none;">Tiếng Việt</a>
+        </div>
       </div>
     </div>
   </div>
