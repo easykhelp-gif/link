@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Tính tiền trợ cấp thôi việc Hàn Quốc (Korea Severance Pay Calculator) | Kori Care</title>
-<meta name="description" content="Công cụ tính tiền trợ cấp thôi việc theo Luật Tiêu chuẩn Lao động Hàn Quốc cho lao động Việt Nam.">
+<title>Korea Severance Pay Calculator | Kori Care (Tính tiền trợ cấp thôi việc)</title>
+<meta name="description" content="Official Korean Labor Standards Act Severance Pay Calculator for foreign residents and workers in South Korea.">
 <link rel="canonical" href="https://www.koricare.kr/link/vi/severance-calculator">
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +24,8 @@
     --border-color: #e2e8f0;
     --success: #10b981;
     --success-bg: #ecfdf5;
+    --warning: #f59e0b;
+    --warning-bg: #fffbe8;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
@@ -89,6 +91,16 @@
     overflow: hidden;
     margin-bottom: -20px;
   }
+  .hero-banner::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
   .hero-badge {
     display: inline-flex;
     align-items: center;
@@ -102,7 +114,6 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 12px;
-    color: #93c5fd;
     backdrop-filter: blur(8px);
   }
   .hero-banner h1 {
@@ -119,7 +130,6 @@
     margin: 0 auto;
     font-weight: 400;
     line-height: 1.5;
-    color: #cbd5e1;
   }
 
   .calc-card {
@@ -160,7 +170,7 @@
     font-size: 13.5px;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.25s ease;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
     line-height: 1.3;
   }
@@ -240,45 +250,147 @@
     color: #ffffff;
     border: none;
     border-radius: 16px;
-    font-size: 16.5px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 900;
     cursor: pointer;
-    box-shadow: 0 8px 24px rgba(0,35,102,0.3);
-    transition: all 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    box-shadow: 0 8px 24px rgba(0,35,102,0.28);
+    transition: all 0.25s ease;
+    margin-top: 12px;
+    position: relative;
+    overflow: hidden;
   }
-  .btn-calculate:active { transform: scale(0.98); }
+  .btn-calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0,35,102,0.38);
+  }
+  .btn-calculate:active {
+    transform: translateY(0);
+  }
 
   .result-card {
     display: none;
     margin-top: 28px;
-    background: #ffffff;
     border-radius: 20px;
-    border: 2px solid #bfdbfe;
-    padding: 24px;
-    box-shadow: 0 12px 30px rgba(37,99,235,0.12);
-    animation: slideUpFade 0.35s ease-out;
-  }
-  .result-header { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--blue-accent); letter-spacing: 1px; margin-bottom: 6px; }
-  .result-main-val { font-size: 32px; font-weight: 900; color: var(--navy); line-height: 1.1; margin-bottom: 16px; }
-
-  .slim-premium-banner {
-    background: linear-gradient(135deg, #002366 0%, #1e40af 100%);
-    border-radius: 18px;
-    padding: 24px 20px;
+    background: linear-gradient(180deg, #001950 0%, #002366 100%);
     color: #ffffff;
+    padding: 28px 22px;
     text-align: center;
+    box-shadow: 0 14px 40px rgba(0,25,80,0.25);
+    border: 1px solid rgba(255,255,255,0.15);
+    animation: slideUpFade 0.4s ease-out;
+  }
+  .result-card.show { display: block; }
+  .result-header {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #93c5fd;
+  }
+  .result-amount {
+    font-size: 34px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 8px 0;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+  }
+  .result-amount span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #60a5fa;
+    margin-left: 4px;
+  }
+  .result-sub {
+    font-size: 13px;
+    color: #cbd5e1;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+
+  .guideline-box {
+    margin-top: 16px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .guideline-box.legal {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: #f1f5f9;
+  }
+  .guideline-box.undoc {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #ecfdf5;
+  }
+  .guideline-box strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #ffffff;
+  }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .action-btn {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 14px;
-    margin: 28px 0;
-    box-shadow: 0 8px 24px rgba(0,35,102,0.18);
+    gap: 8px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 13.5px;
+    font-weight: 800;
+    text-decoration: none;
+    border: none;
     cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .action-btn.line { background: #06C755; color: #ffffff; }
+  .action-btn.msg { background: #0084FF; color: #ffffff; }
+  .action-btn.share {
+    grid-column: 1 / -1;
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+
+  .notice-card {
+    background: #f8fafc;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .notice-card h4 {
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+  }
+  .notice-card ul { padding-left: 18px; }
+  .notice-card li { margin-bottom: 4px; }
+
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 32px;
   }
 </style>
 </head>
@@ -293,97 +405,218 @@
         <span>Vietnamese Portal</span>
       </div>
     </a>
-    <a href="../vi/" class="nav-back">← Trang chủ</a>
+    <a href="../vi/" class="nav-back">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      ← Trang chủ
+    </a>
   </div>
 </header>
 
 <section class="hero-banner">
   <div class="wrap">
-    <div class="hero-badge">⚖️ Theo Luật Lao động Hàn Quốc</div>
+    <div class="hero-badge">Labor Standards Act Art. 34 (Theo Luật Lao động Hàn Quốc)</div>
     <h1>Tính tiền trợ cấp thôi việc (퇴직금)</h1>
-    <p>Ước tính tiền trợ cấp thôi việc dựa trên thời gian làm việc và lương trung bình cho lao động Việt Nam tại Hàn Quốc</p>
+    <p>Quyền lợi hợp pháp được đảm bảo cho tất cả lao động làm việc liên tục từ 1 năm trở lên tại Hàn Quốc.</p>
   </div>
 </section>
 
-<main class="wrap" style="margin-top: 36px;">
+<div class="wrap">
   <div class="calc-card">
-    <span class="toggle-label">Chọn chế độ tính (Calculation Mode)</span>
+    <span class="toggle-label">1. Loại Visa & Điều kiện làm việc (Visa Status & Condition)</span>
     <div class="tab-container">
-      <button class="tab-btn active" id="tabGeneral" onclick="setMode('general')">
-        Thông thường (General Worker)
-        <small>Bao gồm bảo hiểm xuất cảnh (E-9 / E-7)</small>
+      <button id="tabLegal" class="tab-btn active" onclick="setVisaStatus('legal')">
+        Visa Tiêu chuẩn (Standard Visa)
+        <small>E-9 · H-2 · E-7 · Dòng F</small>
       </button>
-      <button class="tab-btn" id="tabDetailed" onclick="setMode('detailed')">
-        Chi tiết (Detailed)
-        <small>Tính theo lương 3 tháng gần nhất</small>
+      <button id="tabUndoc" class="tab-btn" onclick="setVisaStatus('undoc')">
+        Quá hạn (Undocumented)
+        <small>Được bảo hộ 100% quyền lợi thôi việc</small>
       </button>
-    </div>
-
-    <div class="grid-2col">
-      <div class="form-group">
-        <label>📅 Ngày bắt đầu làm việc <span class="sub-hint">Start Date</span></label>
-        <input type="date" id="startDate" class="form-input" style="padding:0 12px; font-size:14px; text-align:left;">
-      </div>
-      <div class="form-group">
-        <label>🏁 Ngày nghỉ việc <span class="sub-hint">End Date</span></label>
-        <input type="date" id="endDate" class="form-input" style="padding:0 12px; font-size:14px; text-align:left;">
-      </div>
     </div>
 
     <div class="form-group">
-      <label>💰 Lương trung bình hàng tháng <span class="sub-hint">Average Monthly Salary</span></label>
+      <label>
+        <span>2. Lương trung bình hàng tháng (Monthly Wage)</span>
+        <span class="sub-hint">Tổng lương trước thuế 3 tháng gần nhất</span>
+      </label>
       <div class="input-wrapper">
-        <input type="number" id="avgSalary" class="form-input" placeholder="2,500,000">
+        <input type="text" id="monthlySalary" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
         <span class="input-unit">KRW</span>
       </div>
     </div>
 
-    <button class="btn-calculate" onclick="calculateSeverance()">🧮 Tính ngay tiền thôi việc</button>
+    <div class="form-group">
+      <label>
+        <span>3. Tổng thời gian làm việc (Total Employment Period)</span>
+        <span class="sub-hint">Số năm & số tháng đã làm việc</span>
+      </label>
+      <div class="grid-2col">
+        <div class="input-wrapper">
+          <input type="number" id="workYears" class="form-input" inputmode="numeric" placeholder="1" min="0">
+          <span class="input-unit">Năm (Years)</span>
+        </div>
+        <div class="input-wrapper">
+          <input type="number" id="workMonths" class="form-input" inputmode="numeric" placeholder="0" min="0" max="11">
+          <span class="input-unit">Tháng (Months)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>
+        <span>4. Tiền thưởng năm trong 12 tháng qua (Annual Bonus)</span>
+        <span class="sub-hint">Tùy chọn (Ví dụ: 1,000,000)</span>
+      </label>
+      <div class="input-wrapper">
+        <input type="text" id="annualBonus" class="form-input" inputmode="numeric" placeholder="0" oninput="formatNumberInput(this)">
+        <span class="input-unit">KRW</span>
+      </div>
+    </div>
+
+    <button type="button" class="btn-calculate" onclick="calculateSeverance()">
+      <span>Tính tiền trợ cấp thôi việc ngay</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </button>
 
     <div id="resultCard" class="result-card">
-      <div class="result-header">Tiền trợ cấp thôi việc ước tính (Estimated Severance Pay)</div>
-      <div id="resultVal" class="result-main-val">0 KRW</div>
-      <div style="font-size:13px; color:#475569; line-height:1.6; border-top:1px solid #e2e8f0; padding-top:12px;">
-        * Tính theo tiêu chuẩn Luật Tiêu chuẩn Lao động Hàn Quốc (làm việc từ 1 năm trở lên)<br>
-        * Thắc mắc về trợ cấp thôi việc hoặc bị sa thải? Nhận tư vấn trực tiếp 24/7 từ Kori Care.
+      <div class="result-header">Tiền trợ cấp thôi việc ước tính (Estimated Legal Severance Pay)</div>
+      <div id="resultAmount" class="result-amount">₩ 0 <span>KRW</span></div>
+      <div id="resultRange" class="result-sub"></div>
+
+      <div id="guideLegal" class="guideline-box legal">
+        <strong>Kiểm tra Bảo hiểm mãn hạn xuất cảnh (출국만기보험)</strong>
+        Đối với lao động E-9 và H-2, một phần tiền thôi việc được tích lũy trong bảo hiểm xuất cảnh. Nếu tổng tiền thôi việc theo luật cao hơn tiền bảo hiểm chi trả, chủ sử dụng lao động có nghĩa vụ pháp lý phải trả phần chênh lệch còn lại.
+      </div>
+
+      <div id="guideUndoc" class="guideline-box undoc" style="display:none;">
+        <strong>Quyền lợi hợp pháp được bảo hộ (Án lệ Tòa án Tối cao Hàn Quốc)</strong>
+        Dù trong tình trạng quá hạn lưu trú, tất cả lao động nước ngoài tại Hàn Quốc đều giữ nguyên 100% quyền hợp pháp nhận trợ cấp thôi việc. Bộ Lao động không tố giác lao động quá hạn bị nợ lương cho Cục xuất nhập cảnh.
+      </div>
+
+      <div class="action-grid">
+        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line">
+          Tư vấn qua LINE
+        </a>
+        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg">
+          Hỗ trợ qua Messenger
+        </a>
+        <button type="button" class="action-btn share" onclick="shareCalculator()">
+          Chia sẻ công cụ tính
+        </button>
       </div>
     </div>
   </div>
 
-  <div class="slim-premium-banner" onclick="window.open('https://koricare.kr', '_blank')">
-    <div style="font-size: 13.5px; opacity: 0.95; font-weight: 500; line-height: 1.5; color: #e2e8f0; max-width: 560px;">Gặp khó khăn về trợ cấp thôi việc, visa hoặc quyền lao động? Nhận tư vấn từ chuyên gia Kori Care.</div>
-    <div style="background: #ffffff; color: #002366; font-size: 13px; font-weight: 800; padding: 9px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: inline-flex; align-items: center; gap: 6px;">Kori Care 1:1 Help ➔</div>
+  <div class="notice-card">
+    <h4>Quy định theo Luật Tiêu chuẩn Lao động Hàn Quốc (Labor Standards Act)</h4>
+    <ul>
+      <li><b>Điều kiện nhận:</b> Làm việc liên tục tại một nơi từ 1 năm trở lên (365 ngày) với thời gian làm việc từ 15 giờ/tuần trở lên.</li>
+      <li><b>Thời hạn thanh toán:</b> Toàn bộ tiền thôi việc phải được chi trả trong vòng 14 ngày kể từ ngày nghỉ việc.</li>
+      <li><b>Phạt chậm trả:</b> Khoản chưa thanh toán sau 14 ngày sẽ chịu lãi suất phạt 20%/năm theo quy định pháp luật.</li>
+    </ul>
   </div>
-</main>
+
+  <footer>
+    © 2026 Kori Care Information Portal. All rights reserved.
+  </footer>
+</div>
 
 <script>
-  function setMode(mode) {
-    document.getElementById('tabGeneral').classList.toggle('active', mode === 'general');
-    document.getElementById('tabDetailed').classList.toggle('active', mode === 'detailed');
+  let currentVisaStatus = "legal";
+
+  function setVisaStatus(status) {
+    currentVisaStatus = status;
+    document.getElementById("tabLegal").classList.toggle("active", status === "legal");
+    document.getElementById("tabUndoc").classList.toggle("active", status === "undoc");
+    if (document.getElementById("resultCard").classList.contains("show")) {
+      updateGuidelineVisibility();
+    }
+  }
+
+  function updateGuidelineVisibility() {
+    document.getElementById("guideLegal").style.display = currentVisaStatus === "legal" ? "block" : "none";
+    document.getElementById("guideUndoc").style.display = currentVisaStatus === "undoc" ? "block" : "none";
+  }
+
+  function formatNumberInput(el) {
+    let val = el.value.replace(/[^\d]/g, "");
+    el.value = val ? Number(val).toLocaleString("en-US") : "";
+  }
+
+  function parseFormattedNumber(val) {
+    return parseFloat((val || "").replace(/,/g, "")) || 0;
+  }
+
+  function animateNumberCounter(targetVal) {
+    const el = document.getElementById("resultAmount");
+    const duration = 600;
+    const startTime = performance.now();
+
+    function updateCounter(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const currentVal = Math.round(targetVal * (1 - Math.pow(1 - progress, 2)));
+      el.innerHTML = "₩ " + currentVal.toLocaleString("en-US") + " <span>KRW</span>";
+      if (progress < 1) {
+        requestAnimationFrame(updateCounter);
+      }
+    }
+    requestAnimationFrame(updateCounter);
   }
 
   function calculateSeverance() {
-    var startVal = document.getElementById('startDate').value;
-    var endVal = document.getElementById('endDate').value;
-    var salary = parseFloat(document.getElementById('avgSalary').value) || 0;
+    const salary = parseFormattedNumber(document.getElementById("monthlySalary").value);
+    const years = parseFloat(document.getElementById("workYears").value) || 0;
+    const months = parseFloat(document.getElementById("workMonths").value) || 0;
+    const bonus = parseFormattedNumber(document.getElementById("annualBonus").value);
 
-    if (!startVal || !endVal || salary <= 0) {
-      alert("Vui lòng nhập đầy đủ ngày bắt đầu, ngày nghỉ việc và mức lương trung bình");
+    const totalDays = (years * 365) + (months * 30);
+    const resultCard = document.getElementById("resultCard");
+
+    if (salary <= 0 || totalDays <= 0) {
+      alert("Vui lòng nhập mức lương tháng và thời gian làm việc hợp lệ.");
       return;
     }
 
-    var start = new Date(startVal);
-    var end = new Date(endVal);
-    var diffDays = Math.floor((end - start) / (1000 * 60 * 60 * 24));
+    resultCard.classList.add("show");
+    updateGuidelineVisibility();
 
-    if (diffDays < 365) {
-      alert("Thời gian làm việc phải từ 365 ngày trở lên mới đủ điều kiện nhận trợ cấp thôi việc");
+    if (totalDays < 365) {
+      document.getElementById("resultAmount").innerHTML = "Không đủ điều kiện <span>(Dưới 1 năm)</span>";
+      document.getElementById("resultRange").innerHTML = "Trợ cấp thôi việc theo luật yêu cầu làm việc liên tục <b>từ 1 năm trở lên (365 ngày)</b>.";
+      resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
 
-    var severance = Math.floor(salary * (diffDays / 365));
-    document.getElementById('resultVal').textContent = severance.toLocaleString('ko-KR') + " KRW";
-    document.getElementById('resultCard').style.display = 'block';
+    const avgDailyWage = ((salary * 3) + (bonus * 0.25)) / 91.25;
+    const baseSeverance = Math.round(avgDailyWage * 30 * (totalDays / 365));
+    const minRange = Math.round(baseSeverance * 0.95);
+    const maxRange = Math.round(baseSeverance * 1.15);
+
+    animateNumberCounter(baseSeverance);
+    document.getElementById("resultRange").innerHTML = "Khoảng trợ cấp ước tính: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
+
+    resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function shareCalculator() {
+    const shareUrl = "https://www.koricare.kr/link/vi/severance-calculator";
+    if (navigator.share) {
+      navigator.share({
+        title: "Korea Severance Pay Calculator | Kori Care",
+        url: shareUrl
+      }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        alert("Đã sao chép liên kết công cụ tính!");
+      }).catch(() => {
+        window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl), "_blank");
+      });
+    }
   }
 </script>
 
