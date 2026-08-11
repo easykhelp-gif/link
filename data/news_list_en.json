@@ -1,0 +1,23 @@
+[
+  {
+    "id": "news_policy_1",
+    "date": "2026-07-16",
+    "thumbnail": "news/images/news_thumb_visa.png",
+    "title": "Korea Visa & Immigration Policy Updates 2026",
+    "link": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "news_policy_2",
+    "date": "2026-07-15",
+    "thumbnail": "news/images/news_thumb_labor.png",
+    "title": "Foreign Worker Rights & Severance Pay Protection Guide",
+    "link": "https://www.moel.go.kr"
+  },
+  {
+    "id": "news_policy_3",
+    "date": "2026-07-14",
+    "thumbnail": "news/images/news_thumb_health.png",
+    "title": "National Health Insurance Access & ER Services for Foreigners",
+    "link": "https://www.e-gen.or.kr"
+  }
+]

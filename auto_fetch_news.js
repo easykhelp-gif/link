@@ -7,30 +7,21 @@ const BASE_DIR = __dirname;
 const DATA_DIR = path.join(BASE_DIR, 'data');
 const NEWS_DIR = path.join(BASE_DIR, 'news');
 const IMAGES_DIR = path.join(NEWS_DIR, 'images');
-const NEWS_LIST_PATH = path.join(DATA_DIR, 'news_list.json');
-const INDEX_PATH = path.join(BASE_DIR, 'index.html');
-const TH_INDEX_PATH = path.join(BASE_DIR, 'th', 'index.html');
-const VI_INDEX_PATH = path.join(BASE_DIR, 'vi', 'index.html');
+
+const INDEX_EN_PATH = path.join(BASE_DIR, 'index.html');
+const INDEX_TH_PATH = path.join(BASE_DIR, 'th', 'index.html');
+const INDEX_VI_PATH = path.join(BASE_DIR, 'vi', 'index.html');
 const SITEMAP_PATH = path.join(BASE_DIR, 'sitemap.xml');
 
 for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 }
 
-// 1. RSS Feeds for Trending Issues (No Keyword Restriction)
+// Language Specific RSS Feeds
 const RSS_FEEDS = {
-  th: [
-    'https://www.khaosod.co.th/feed',
-    'https://www.sanook.com/news/archive/rss/',
-    'https://www.thairath.co.th/rss/news'
-  ],
-  vi: [
-    'https://vnexpress.net/rss/tin-moi-nhat.rss',
-    'https://tuoitre.vn/rss/tin-moi-nhat.rss'
-  ],
-  en: [
-    'https://www.koreatimes.co.kr/www/rss/rss.xml'
-  ]
+  en: ['https://www.koreatimes.co.kr/www/rss/rss.xml'],
+  th: ['https://www.khaosod.co.th/feed', 'https://www.sanook.com/news/archive/rss/'],
+  vi: ['https://vnexpress.net/rss/tin-moi-nhat.rss']
 };
 
 function fetchUrl(url) {
@@ -86,7 +77,7 @@ function buildArticleHtml(newsItem, lang) {
     engSummarySection = `
       <div style="margin-top:24px; padding:18px; background:#eff6ff; border-radius:14px; border:1px solid #bfdbfe;">
         <div style="font-size:13.5px; font-weight:800; color:#1e40af; margin-bottom:6px;">🌐 Executive English Summary</div>
-        <div style="font-size:14px; color:#1e3a8a; line-height:1.6;">${newsItem.title} - Key trending updates and core highlights from local media coverage.</div>
+        <div style="font-size:14px; color:#1e3a8a; line-height:1.6;">${newsItem.title} - Key highlights from accredited media coverage.</div>
       </div>
     `;
   }
@@ -162,12 +153,96 @@ function buildArticleHtml(newsItem, lang) {
 </html>`;
 }
 
-async function runAutoPipeline() {
-  console.log('🚀 1시간 주기 실시간 핫이슈 무인 자동 크롤링 시작...');
+function injectCardsToIndex(indexPath, newsList, langPrefix) {
+  if (!fs.existsSync(indexPath)) return;
+  let content = fs.readFileSync(indexPath, 'utf-8');
+  const startM = '<!-- NEWS_START -->';
+  const endM = '<!-- NEWS_END -->';
+  const sIdx = content.indexOf(startM);
+  const eIdx = content.indexOf(endM);
 
-  const existingList = fs.existsSync(NEWS_LIST_PATH) ? JSON.parse(fs.readFileSync(NEWS_LIST_PATH, 'utf-8')) : [];
+  if (sIdx !== -1 && eIdx !== -1) {
+    const top3 = newsList.slice(0, 3);
+    const cardsHtml = top3.map(item => {
+      const thumb = item.thumbnail || 'news/images/news_thumb_visa.png';
+      const title = item.title;
+      const dateStr = (item.date || 'TODAY').toUpperCase();
+      const href = langPrefix ? `${langPrefix}/news/${item.id}.html` : `news/${item.id}.html`;
 
-  // Scrape Thai Trending News
+      return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:row; align-items:center; gap:14px; padding:12px 16px; background:#fff; border-radius:16px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(15,23,42,0.03); transition:all 0.2s ease;">
+      <img src="${thumb}" alt="${title}" style="width:72px; height:72px; object-fit:cover; border-radius:12px; flex-shrink:0;">
+      <div style="flex:1; min-width:0;">
+        <div style="font-size:11.5px; color:#2563eb; font-weight:800; margin-bottom:3px;">${dateStr}</div>
+        <div style="font-size:14px; font-weight:800; color:#002366; line-height:1.35; word-break:break-word;">${title}</div>
+      </div>
+    </a>`;
+    }).join('\n');
+
+    const updated = content.slice(0, sIdx + startM.length) + '\n  <div class="news-grid" id="news-list" style="display:flex; flex-direction:column; gap:10px; margin-bottom:24px;">\n' + cardsHtml + '\n  </div>\n  ' + content.slice(eIdx);
+    fs.writeFileSync(indexPath, updated, 'utf-8');
+  }
+}
+
+async function runLanguageIsolatedPipeline() {
+  console.log('🚀 언어별 뉴스 데이터 격리(Language Isolation) 및 크롤링 집행...');
+
+  // 1. English (EN)
+  const enListPath = path.join(DATA_DIR, 'news_list_en.json');
+  const enList = fs.existsSync(enListPath) ? JSON.parse(fs.readFileSync(enListPath, 'utf-8')) : [
+    {
+      id: 'news_policy_1',
+      date: '2026-07-16',
+      thumbnail: 'news/images/news_thumb_visa.png',
+      title: 'Korea Visa & Immigration Policy Updates 2026',
+      link: 'https://www.hikorea.go.kr'
+    },
+    {
+      id: 'news_policy_2',
+      date: '2026-07-15',
+      thumbnail: 'news/images/news_thumb_labor.png',
+      title: 'Foreign Worker Rights & Severance Pay Protection Guide',
+      link: 'https://www.moel.go.kr'
+    },
+    {
+      id: 'news_policy_3',
+      date: '2026-07-14',
+      thumbnail: 'news/images/news_thumb_health.png',
+      title: 'National Health Insurance Access & ER Services for Foreigners',
+      link: 'https://www.e-gen.or.kr'
+    }
+  ];
+
+  try {
+    const xmlEn = await fetchUrl(RSS_FEEDS.en[0]);
+    const itemsEn = parseXmlItems(xmlEn);
+    if (itemsEn.length > 0) {
+      const topEn = itemsEn[0];
+      const newId = `hotnews_en_${Date.now()}`;
+      topEn.id = newId;
+      topEn.thumbnail = 'news/images/news_thumb_visa.png';
+
+      const html = buildArticleHtml(topEn, 'en');
+      fs.writeFileSync(path.join(NEWS_DIR, `${newId}.html`), html, 'utf-8');
+
+      enList.unshift({
+        id: newId,
+        date: topEn.date,
+        thumbnail: topEn.thumbnail,
+        title: topEn.title,
+        link: topEn.link
+      });
+    }
+  } catch (err) {
+    console.warn('EN RSS fetch skipped:', err.message);
+  }
+
+  const finalEn = enList.slice(0, 10);
+  fs.writeFileSync(enListPath, JSON.stringify(finalEn, null, 2), 'utf-8');
+  injectCardsToIndex(INDEX_EN_PATH, finalEn, '');
+
+  // 2. Thai (TH)
+  const thListPath = path.join(DATA_DIR, 'news_list_th.json');
+  const thList = fs.existsSync(thListPath) ? JSON.parse(fs.readFileSync(thListPath, 'utf-8')) : [];
   try {
     const xmlTh = await fetchUrl(RSS_FEEDS.th[0]);
     const itemsTh = parseXmlItems(xmlTh);
@@ -175,58 +250,27 @@ async function runAutoPipeline() {
       const topTh = itemsTh[0];
       const newId = `hotnews_th_${Date.now()}`;
       topTh.id = newId;
-      topTh.thumbnail = 'news/images/news_thumb_visa.png';
+      topTh.thumbnail = 'https://www.koricare.kr/link/news/images/news_thumb_visa.png';
 
       const html = buildArticleHtml(topTh, 'th');
       fs.writeFileSync(path.join(NEWS_DIR, `${newId}.html`), html, 'utf-8');
 
-      existingList.unshift({
+      thList.unshift({
         id: newId,
         date: topTh.date,
         thumbnail: topTh.thumbnail,
-        title_th: topTh.title,
-        title_en: topTh.title,
-        url: topTh.link
+        title: topTh.title,
+        link: topTh.link
       });
     }
   } catch (err) {
-    console.warn('Thai RSS fetch skipped:', err.message);
+    console.warn('TH RSS fetch skipped:', err.message);
   }
+  const finalTh = thList.slice(0, 10);
+  fs.writeFileSync(thListPath, JSON.stringify(finalTh, null, 2), 'utf-8');
+  injectCardsToIndex(INDEX_TH_PATH, finalTh, 'https://www.koricare.kr/link');
 
-  // Keep top 10 items
-  const finalList = existingList.slice(0, 10);
-  fs.writeFileSync(NEWS_LIST_PATH, JSON.stringify(finalList, null, 2), 'utf-8');
-
-  // Update Horizontal Row Grid Cards on index.html
-  const top3 = finalList.slice(0, 3);
-  if (fs.existsSync(INDEX_PATH)) {
-    let content = fs.readFileSync(INDEX_PATH, 'utf-8');
-    const startM = '<!-- NEWS_START -->';
-    const endM = '<!-- NEWS_END -->';
-    const sIdx = content.indexOf(startM);
-    const eIdx = content.indexOf(endM);
-
-    if (sIdx !== -1 && eIdx !== -1) {
-      const cardsHtml = top3.map(item => {
-        const thumb = item.thumbnail || 'news/images/news_thumb_visa.png';
-        const title = item.title_en || item.title_th || item.title_ko || item.title;
-        const dateStr = (item.date || 'TODAY').toUpperCase();
-        return `    <a href="news/${item.id}.html" class="news-card" style="display:flex; flex-direction:row; align-items:center; gap:14px; padding:12px 16px; background:#fff; border-radius:16px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(15,23,42,0.03); transition:all 0.2s ease;">
-      <img src="${thumb}" alt="${title}" style="width:72px; height:72px; object-fit:cover; border-radius:12px; flex-shrink:0;">
-      <div style="flex:1; min-width:0;">
-        <div style="font-size:11.5px; color:#2563eb; font-weight:800; margin-bottom:3px;">${dateStr}</div>
-        <div style="font-size:14px; font-weight:800; color:#002366; line-height:1.35; word-break:break-word;">${title}</div>
-      </div>
-    </a>`;
-      }).join('\n');
-
-      const updated = content.slice(0, sIdx + startM.length) + '\n  <div class="news-grid" id="news-list" style="display:flex; flex-direction:column; gap:10px; margin-bottom:24px;">\n' + cardsHtml + '\n  </div>\n  ' + content.slice(eIdx);
-      fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
-      console.log('[Success] 메인 포털 인덱스 실시간 뉴스 주입 완료!');
-    }
-  }
-
-  console.log('🎉 1시간 주기 실시간 뉴스 무인 크롤링 & 동기화 완료!');
+  console.log('🎉 언어별 뉴스 데이터 완벽 격리 및 영문 포털 순수 영문 뉴스 주입 완료!');
 }
 
-runAutoPipeline();
+runLanguageIsolatedPipeline();
