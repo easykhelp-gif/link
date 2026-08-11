@@ -205,19 +205,19 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
     const cardsHtml = top3.map(item => {
       const thumb = item.image ? item.image : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
       const title = item.title;
-      const dateStr = item.date || 'TODAY';
-      const href = langPrefix ? `${langPrefix}/news/${item.id}.html` : `news/${item.id}.html`;
+      const href = `https://www.koricare.kr/link/news/${item.id}.html`;
 
-      return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:16px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 4px 14px rgba(15,23,42,0.04); overflow:hidden; transition:all 0.2s ease;">
-      <img src="${thumb}" alt="${title}" style="width:100%; height:130px; object-fit:cover; background:#f1f5f9;">
-      <div style="padding:14px; display:flex; flex-direction:column; flex:1;">
-        <div style="font-size:11px; color:#2563eb; font-weight:800; margin-bottom:4px;">${dateStr}</div>
-        <div style="font-size:13.5px; font-weight:800; color:#002366; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; height:38px; word-break:break-word;">${title}</div>
+      return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #cbd5e1; box-shadow:0 3px 10px rgba(15,23,42,0.05); overflow:hidden; transition:all 0.2s ease;">
+      <div style="width:100%; height:100px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+        <img src="${thumb}" alt="${title}" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div style="padding:8px 10px; display:flex; flex-direction:column; flex:1; justify-content:center;">
+        <div style="font-size:12px; font-weight:800; color:#002366; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
       </div>
     </a>`;
     }).join('\n');
 
-    const gridWrapper = `\n  <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-bottom:28px;">\n${cardsHtml}\n  </div>\n  `;
+    const gridWrapper = `\n  <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:28px;">\n${cardsHtml}\n  </div>\n  `;
 
     const updated = content.slice(0, sIdx + startM.length) + gridWrapper + content.slice(eIdx);
     fs.writeFileSync(indexPath, updated, 'utf-8');
