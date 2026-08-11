@@ -6,26 +6,31 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Run 1-Hour News Scraper
+      - name: Run 1-Hour News Scraper Engine
         run: |
           node auto_fetch_news.js
 
-      - name: Commit and Push Updates to Trigger Vercel Deploy
+      - name: Commit & Push Live News Updates
         run: |
           git config --global user.name "Theo Park AutoBot"
           git config --global user.email "koricare.help@gmail.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Auto: 1-Hour Live Trending News Update & Deploy"
-          git push origin main
+          git diff-index --quiet HEAD || (git commit -m "Auto: 1-Hour Live Trending News Update & Deploy" && git push origin main)
