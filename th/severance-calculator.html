@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>โปรแกรมคำนวณเงินชดเชยเกาหลี (Severance Pay Calculator) | Kori Care</title>
+<title>โปรแกรมคำนวณเงินชดเชยเกาหลี (Korea Severance Pay Calculator) | Kori Care</title>
 <meta name="description" content="โปรแกรมคำนวณเงินชดเชยตามกฎหมายแรงงานเกาหลี สำหรับแรงงานต่างชาติและคนไทยในเกาหลี">
 <link rel="canonical" href="https://www.koricare.kr/link/th/severance-calculator">
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
@@ -15,39 +15,271 @@
     --navy: #002366;
     --navy-dark: #001950;
     --blue-accent: #2563eb;
+    --blue-glow: rgba(37, 99, 235, 0.35);
+    --bg-slate: #0f172a;
     --body-bg: #f8fafc;
     --card-bg: #ffffff;
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --border-color: #e2e8f0;
+    --success: #10b981;
+    --success-bg: #ecfdf5;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--body-bg); color: var(--text-primary); font-family: "Inter", "Noto Sans Thai", system-ui, sans-serif; font-size: 15px; line-height: 1.6; padding-bottom: 60px; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    background: var(--body-bg);
+    color: var(--text-primary);
+    font-family: "Inter", "Noto Sans Thai", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-bottom: 60px;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 15px rgba(37,99,235,0.2); }
+    50% { box-shadow: 0 0 30px rgba(37,99,235,0.5); }
+  }
+  @keyframes slideUpFade {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   .wrap { max-width: 580px; margin: 0 auto; padding: 0 16px; }
 
-  header { background: var(--navy-dark); color: #ffffff; padding: 14px 0; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.1); }
+  header {
+    background: var(--navy-dark);
+    color: #ffffff;
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
   .hrow { display: flex; align-items: center; justify-content: space-between; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
   .logo-text b { font-size: 17.5px; font-weight: 900; line-height: 1.1; letter-spacing: -0.3px; display: block; }
   .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
 
-  .nav-back { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); color: #fff; text-decoration: none; font-size: 12.5px; font-weight: 700; padding: 6px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.25); }
+  .nav-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.25);
+    transition: all 0.2s ease;
+  }
+  .nav-back:hover { background: rgba(255,255,255,0.22); }
 
-  .hero-banner { background: linear-gradient(135deg, #001950 0%, #002366 50%, #1e3a8a 100%); color: #ffffff; padding: 32px 20px 44px; border-radius: 0 0 28px 28px; text-align: center; margin-bottom: -20px; }
-  .hero-pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); padding: 4px 14px; border-radius: 20px; font-size: 11.5px; font-weight: 700; color: #93c5fd; margin-bottom: 12px; }
-  .hero-title { font-size: 24px; font-weight: 900; line-height: 1.3; margin-bottom: 8px; }
-  .hero-sub { font-size: 13.5px; opacity: 0.9; max-width: 440px; margin: 0 auto; line-height: 1.5; color: #cbd5e1; }
+  .hero-banner {
+    background: linear-gradient(135deg, #001950 0%, #002366 50%, #1e3a8a 100%);
+    color: #ffffff;
+    padding: 32px 20px 44px;
+    border-radius: 0 0 28px 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -20px;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #93c5fd;
+    backdrop-filter: blur(8px);
+  }
+  .hero-banner h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+  }
+  .hero-banner p {
+    font-size: 13px;
+    opacity: 0.88;
+    max-width: 460px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #cbd5e1;
+  }
 
-  .calc-card { background: var(--card-bg); border-radius: 24px; border: 1px solid var(--border-color); padding: 28px 22px; box-shadow: 0 12px 32px rgba(15,23,42,0.06); position: relative; z-index: 10; margin-bottom: 24px; }
+  .calc-card {
+    background: var(--card-bg);
+    border-radius: 24px;
+    padding: 28px 24px;
+    box-shadow: 0 12px 36px rgba(15,23,42,0.08), 0 2px 6px rgba(15,23,42,0.04);
+    border: 1px solid var(--border-color);
+    position: relative;
+    z-index: 10;
+    animation: slideUpFade 0.4s ease-out;
+  }
+
+  .toggle-label {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .tab-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  .tab-btn {
+    padding: 12px 10px;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .tab-btn small {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 500;
+    opacity: 0.75;
+    margin-top: 2px;
+  }
+  .tab-btn.active {
+    background: #ffffff;
+    color: var(--navy);
+    box-shadow: 0 4px 14px rgba(0,35,102,0.12);
+    font-weight: 900;
+  }
+
   .form-group { margin-bottom: 20px; }
-  .form-label { display: block; font-size: 13.5px; font-weight: 800; color: var(--navy); margin-bottom: 8px; }
-  .form-input { width: 100%; height: 48px; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--border-color); font-size: 15px; font-weight: 600; color: var(--text-primary); outline: none; background: #fff; }
-  .form-input:focus { border-color: var(--blue-accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+  .form-group label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .form-group label .sub-hint {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
 
-  .btn-calc { width: 100%; height: 52px; background: linear-gradient(135deg, #002366 0%, #1e40af 100%); color: #ffffff; border: none; border-radius: 14px; font-size: 16px; font-weight: 800; cursor: pointer; box-shadow: 0 8px 20px rgba(0,35,102,0.25); display: flex; align-items: center; justify-content: center; gap: 8px; }
-  .result-box { display: none; margin-top: 24px; padding: 20px; background: #eff6ff; border-radius: 16px; border: 1.5px solid #bfdbfe; text-align: center; }
-  .result-val { font-size: 28px; font-weight: 900; color: #1e40af; margin: 8px 0; }
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .form-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 54px 0 16px;
+    border-radius: 14px;
+    border: 2px solid var(--border-color);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-primary);
+    background: #fafafa;
+    outline: none;
+    text-align: right;
+    transition: all 0.2s ease;
+  }
+  .form-input:focus {
+    border-color: var(--blue-accent);
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(37,99,235,0.12);
+  }
+  .input-unit {
+    position: absolute;
+    right: 16px;
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-secondary);
+    pointer-events: none;
+  }
+
+  .grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .btn-calculate {
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(135deg, var(--navy) 0%, #1e3a8a 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    font-size: 16.5px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0,35,102,0.3);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .btn-calculate:active { transform: scale(0.98); }
+
+  .result-card {
+    display: none;
+    margin-top: 28px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #bfdbfe;
+    padding: 24px;
+    box-shadow: 0 12px 30px rgba(37,99,235,0.12);
+    animation: slideUpFade 0.35s ease-out;
+  }
+  .result-header { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--blue-accent); letter-spacing: 1px; margin-bottom: 6px; }
+  .result-main-val { font-size: 32px; font-weight: 900; color: var(--navy); line-height: 1.1; margin-bottom: 16px; }
+
+  .slim-premium-banner {
+    background: linear-gradient(135deg, #002366 0%, #1e40af 100%);
+    border-radius: 18px;
+    padding: 24px 20px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 28px 0;
+    box-shadow: 0 8px 24px rgba(0,35,102,0.18);
+    cursor: pointer;
+  }
 </style>
 </head>
 <body>
@@ -67,59 +299,91 @@
 
 <section class="hero-banner">
   <div class="wrap">
-    <div class="hero-pill">⚖️ ตามกฎหมายแรงงานเกาหลี</div>
-    <h1 class="hero-title">โปรแกรมคำนวณเงินชดเชย (퇴직금)</h1>
-    <p class="hero-sub">คำนวณเงินชดเชยที่ประมาณการตามระยะเวลาการทำงานและค่าจ้างเฉลี่ย</p>
+    <div class="hero-badge">⚖️ ตามกฎหมายแรงงานเกาหลี</div>
+    <h1>โปรแกรมคำนวณเงินชดเชย (퇴직금)</h1>
+    <p>คำนวณเงินชดเชยที่ประมาณการตามระยะเวลาการทำงานและค่าจ้างเฉลี่ยสำหรับแรงงานไทยในเกาหลี</p>
   </div>
 </section>
 
 <main class="wrap" style="margin-top: 36px;">
   <div class="calc-card">
-    <div class="form-group">
-      <label class="form-label">📅 วันเริ่มทำงาน (Start Date)</label>
-      <input type="date" id="startDate" class="form-input">
+    <span class="toggle-label">เลือกประเภทการคำนวณ (Calculation Mode)</span>
+    <div class="tab-container">
+      <button class="tab-btn active" id="tabGeneral" onclick="setMode('general')">
+        ทั่วไป (General Worker)
+        <small>รวมเงินจูงใจประกันภัย (E-9 / E-7)</small>
+      </button>
+      <button class="tab-btn" id="tabDetailed" onclick="setMode('detailed')">
+        แบบละเอียด (Detailed)
+        <small>คำนวณจากค่าจ้างเฉลี่ย 3 เดือน</small>
+      </button>
+    </div>
+
+    <div class="grid-2col">
+      <div class="form-group">
+        <label>📅 วันเริ่มทำงาน <span class="sub-hint">Start Date</span></label>
+        <input type="date" id="startDate" class="form-input" style="padding:0 12px; font-size:14px; text-align:left;">
+      </div>
+      <div class="form-group">
+        <label>🏁 วันทำงานวันสุดท้าย <span class="sub-hint">End Date</span></label>
+        <input type="date" id="endDate" class="form-input" style="padding:0 12px; font-size:14px; text-align:left;">
+      </div>
     </div>
 
     <div class="form-group">
-      <label class="form-label">🏁 วันสุดท้ายที่ทำงาน (End Date)</label>
-      <input type="date" id="endDate" class="form-input">
+      <label>💰 เงินเดือนเฉลี่ยต่อเดือน <span class="sub-hint">Average Monthly Salary</span></label>
+      <div class="input-wrapper">
+        <input type="number" id="avgSalary" class="form-input" placeholder="2,500,000">
+        <span class="input-unit">KRW</span>
+      </div>
     </div>
 
-    <div class="form-group">
-      <label class="form-label">💰 เงินเดือนเฉลี่ยต่อเดือน (บาท/วอน KRW)</label>
-      <input type="number" id="avgSalary" class="form-input" placeholder="เช่น 2500000">
-    </div>
+    <button class="btn-calculate" onclick="calculateSeverance()">🧮 คำนวณเงินชดเชยทันที</button>
 
-    <button class="btn-calc" onclick="calculateSeverance()">🧮 คำนวณเงินชดเชย</button>
-
-    <div id="resultBox" class="result-box">
-      <div style="font-size:13px; font-weight:700; color:#1e40af;">ประมาณการเงินชดเชยสุทธิที่คุณควรได้รับ</div>
-      <div id="resultVal" class="result-val">0 KRW</div>
-      <div style="font-size:12px; color:#64748b;">* คำนวณตามมาตรฐานกฎหมายแรงงานเกาหลี (ทำงาน 1 ปีขึ้นไป)</div>
+    <div id="resultCard" class="result-card">
+      <div class="result-header">ประมาณการเงินชดเชยสุทธิ (Estimated Severance Pay)</div>
+      <div id="resultVal" class="result-main-val">0 KRW</div>
+      <div style="font-size:13px; color:#475569; line-height:1.6; border-top:1px solid #e2e8f0; padding-top:12px;">
+        * คำนวณตามมาตรฐานกฎหมายแรงงานเกาหลี (ทำงานตั้งแต่ 1 ปีขึ้นไป)<br>
+        * มีข้อสงสัยเรื่องเงินชดเชยหรือการเลิกจ้าง? ปรึกษาทีมงาน Kori Care ได้ตลอด 24 ชั่วโมง
+      </div>
     </div>
+  </div>
+
+  <div class="slim-premium-banner" onclick="window.open('https://koricare.kr', '_blank')">
+    <div style="font-size: 13.5px; opacity: 0.95; font-weight: 500; line-height: 1.5; color: #e2e8f0; max-width: 560px;">มีปัญหาเรื่องเงินชดเชย วีซ่า หรือถูกเลิกจ้างไม่เป็นธรรม? ปรึกษาผู้เชี่ยวชาญได้ทันที</div>
+    <div style="background: #ffffff; color: #002366; font-size: 13px; font-weight: 800; padding: 9px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: inline-flex; align-items: center; gap: 6px;">Kori Care 1:1 Help ➔</div>
   </div>
 </main>
 
 <script>
+  function setMode(mode) {
+    document.getElementById('tabGeneral').classList.toggle('active', mode === 'general');
+    document.getElementById('tabDetailed').classList.toggle('active', mode === 'detailed');
+  }
+
   function calculateSeverance() {
-    var start = new Date(document.getElementById('startDate').value);
-    var end = new Date(document.getElementById('endDate').value);
+    var startVal = document.getElementById('startDate').value;
+    var endVal = document.getElementById('endDate').value;
     var salary = parseFloat(document.getElementById('avgSalary').value) || 0;
 
-    if (!startDate.value || !endDate.value || salary <= 0) {
-      alert("กรุณากรอกข้อมูลให้ครบถ้วน");
+    if (!startVal || !endVal || salary <= 0) {
+      alert("กรุณากรอกวันที่เริ่มทำงาน วันสุดท้าย และเงินเดือนเฉลี่ยให้ครบถ้วน");
       return;
     }
 
+    var start = new Date(startVal);
+    var end = new Date(endVal);
     var diffDays = Math.floor((end - start) / (1000 * 60 * 60 * 24));
+
     if (diffDays < 365) {
-      alert("ระยะเวลาการทำงานต้องมากกว่า 365 วันขึ้นไปจึงจะมีสิทธิ์ได้รับเงินชดเชย");
+      alert("ระยะเวลาการทำงานต้องมากกว่า 365 วันขึ้นไปจึงจะมีสิทธิ์ได้รับเงินชดเชยตามกฎหมาย");
       return;
     }
 
     var severance = Math.floor(salary * (diffDays / 365));
     document.getElementById('resultVal').textContent = severance.toLocaleString('ko-KR') + " KRW";
-    document.getElementById('resultBox').style.display = 'block';
+    document.getElementById('resultCard').style.display = 'block';
   }
 </script>
 
