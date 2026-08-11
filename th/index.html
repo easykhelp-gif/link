@@ -353,6 +353,7 @@
   </div>
   
   <div class="grid" id="grid" style="width:100%; display:grid; grid-template-columns: repeat(2, 1fr); gap:12px;"><div class="empty">กำลังโหลด...</div></div>
+  <div id="natPg" class="pg" style="margin-top:20px; display:flex; justify-content:center; gap:8px;"></div>
   </div>
 
   <footer style="margin:48px auto 40px; color:#64748b; font-size:12px; text-align:center; line-height:1.6; border-top:1px solid #e2e8f0; padding-top:24px; max-width:600px;">
@@ -572,15 +573,51 @@
       : '<div style="font-size:13px; color:#64748b; padding:20px 0; text-align:center;">ไม่พบข้อมูลที่ตรงกัน</div>';
   }
 
+  var natPage = 1;
+  var NAT_PAGE_SIZE = 8;
+
   function apply(){
     NATIONAL_LIST = FALLBACK.filter(function(x){
       if(actCat!=="all" && x.category!==actCat) return false;
       return true;
     });
 
-    document.getElementById("grid").innerHTML = NATIONAL_LIST.length
-      ? NATIONAL_LIST.map(function(x){ return card(x); }).join("")
+    natPage = 1;
+    renderNationalPage();
+  }
+
+  function renderNationalPage() {
+    var start = (natPage - 1) * NAT_PAGE_SIZE;
+    var pageItems = NATIONAL_LIST.slice(start, start + NAT_PAGE_SIZE);
+
+    document.getElementById("grid").innerHTML = pageItems.length
+      ? pageItems.map(function(x){ return card(x); }).join("")
       : '<div class="empty">ไม่พบบริการในหมวดหมู่นี้</div>';
+
+    renderNationalPagination();
+  }
+
+  function renderNationalPagination() {
+    var totalPages = Math.ceil(NATIONAL_LIST.length / NAT_PAGE_SIZE);
+    var pgEl = document.getElementById("natPg");
+    if (!pgEl) return;
+
+    if (totalPages <= 1) {
+      pgEl.innerHTML = "";
+      return;
+    }
+
+    var html = "";
+    for (var i = 1; i <= totalPages; i++) {
+      var activeClass = (i === natPage) ? "active" : "";
+      html += '<button type="button" class="pg-btn ' + activeClass + '" style="padding:6px 14px; border-radius:10px; border:1px solid #cbd5e1; background:' + (i === natPage ? '#002366' : '#ffffff') + '; color:' + (i === natPage ? '#ffffff' : '#0f172a') + '; font-weight:800; font-size:13px; cursor:pointer;" onclick="changeNatPage(' + i + ')">' + i + '</button>';
+    }
+    pgEl.innerHTML = html;
+  }
+
+  function changeNatPage(p) {
+    natPage = p;
+    renderNationalPage();
   }
 
   function renderCats(){
