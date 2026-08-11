@@ -1,0 +1,31 @@
+name: 1-Hour Auto News Scraper & Live Deployment
+
+on:
+  schedule:
+    # Run every 1 hour (cron: '0 * * * *')
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run 1-Hour News Scraper
+        run: |
+          node auto_fetch_news.js
+
+      - name: Commit and Push Updates to Trigger Vercel Deploy
+        run: |
+          git config --global user.name "Theo Park AutoBot"
+          git config --global user.email "koricare.help@gmail.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto: 1-Hour Live Trending News Update & Deploy"
+          git push origin main
