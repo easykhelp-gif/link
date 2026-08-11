@@ -16,19 +16,32 @@ for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 }
 
-// Officially Verified Live RSS Feeds
+// 3 Major Verified Outlets Per Language
 const RSS_FEEDS = {
-  en: ['https://en.yna.co.kr/RSS/news.xml', 'https://www.koreatimes.co.kr/www/rss/rss.xml'],
-  th: ['https://www.khaosod.co.th/feed'],
-  vi: ['https://vnexpress.net/rss/tin-moi-nhat.rss']
+  en: [
+    'https://en.yna.co.kr/RSS/news.xml',
+    'https://www.koreatimes.co.kr/www/rss/rss.xml',
+    'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml'
+  ],
+  th: [
+    'https://www.khaosod.co.th/feed',
+    'https://www.thairath.co.th/rss/news',
+    'https://www.dailynews.co.th/feed/'
+  ],
+  vi: [
+    'https://vnexpress.net/rss/tin-moi-nhat.rss',
+    'https://tuoitre.vn/rss/tin-moi-nhat.rss',
+    'https://thanhnien.vn/rss/home.rss'
+  ]
 };
 
 function cleanText(str) {
   if (!str) return '';
   return str
     .replace(/<[^>]+>/g, '')
-    .replace(/\uFFFD/g, '') // Remove Replacement Character
+    .replace(/\uFFFD/g, '')
     .replace(/\[\.\.\.\]/g, '')
+    .replace(/&#\d+;/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -47,7 +60,7 @@ function fetchUrl(url) {
       res.on('end', () => resolve(data));
     });
     req.on('error', () => resolve(''));
-    req.setTimeout(6000, () => { req.destroy(); resolve(''); });
+    req.setTimeout(7000, () => { req.destroy(); resolve(''); });
   });
 }
 
@@ -70,7 +83,7 @@ function parseXmlItems(xmlText) {
     let cleanDesc = descMatch ? cleanText(descMatch[1]) : '';
     let actualImg = imgMatch ? imgMatch[1] : '';
 
-    if (cleanTitle && cleanLink) {
+    if (cleanTitle && cleanLink && cleanTitle.length > 5) {
       items.push({
         title: cleanTitle,
         link: cleanLink,
@@ -83,11 +96,9 @@ function parseXmlItems(xmlText) {
   return items;
 }
 
-// Clean, Minimalist Article Renderer
 function buildArticleHtml(newsItem, lang) {
   const dateStr = newsItem.date || new Date().toISOString().slice(0, 10);
   
-  // Minimalist, Centered Conversion Banner
   const bannerHtml = `
     <div style="background: linear-gradient(135deg, #002366 0%, #1e40af 100%); border-radius: 18px; padding: 24px 20px; color: #ffffff; margin: 36px 0 20px; box-shadow: 0 8px 24px rgba(0,35,102,0.18); text-align: center;">
       <div style="font-size: 13.5px; opacity: 0.95; line-height: 1.55; margin-bottom: 16px; color:#e2e8f0; max-width: 540px; margin-left: auto; margin-right: auto; font-weight: 500;">Struggling with Visa, Labor Rights, or Legal Help in Korea? Talk to Your Specialist.</div>
@@ -95,7 +106,6 @@ function buildArticleHtml(newsItem, lang) {
     </div>
   `;
 
-  // Subtle 3-line English Summary (No redundant "Executive English Summary" title)
   let engSummarySection = '';
   if (lang !== 'en') {
     engSummarySection = `
@@ -207,75 +217,43 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
 }
 
 async function runPipeline() {
-  console.log('🚀 뉴스 생성 스크립트 정제 집행...');
+  console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
 
-  // 1. English (EN)
-  let enItems = [];
-  for (const feedUrl of RSS_FEEDS.en) {
-    const xml = await fetchUrl(feedUrl);
-    const items = parseXmlItems(xml);
-    if (items.length > 0) {
-      enItems = items;
-      break;
+  for (const lang of ['en', 'th', 'vi']) {
+    let combinedItems = [];
+    for (const feedUrl of RSS_FEEDS[lang]) {
+      const xml = await fetchUrl(feedUrl);
+      const items = parseXmlItems(xml);
+      if (items.length > 0) {
+        combinedItems.push(...items);
+      }
     }
+
+    // Filter unique titles
+    const seen = new Set();
+    const uniqueItems = combinedItems.filter(item => {
+      if (seen.has(item.title)) return false;
+      seen.add(item.title);
+      return true;
+    });
+
+    const newsList = uniqueItems.slice(0, 10).map((item, idx) => {
+      const id = `hotnews_${lang}_${idx + 1}`;
+      item.id = id;
+      const html = buildArticleHtml(item, lang);
+      fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
+      return { id, date: item.date, image: item.image, title: item.title, link: item.link };
+    });
+
+    const dataPath = path.join(DATA_DIR, `news_list_${lang}.json`);
+    fs.writeFileSync(dataPath, JSON.stringify(newsList, null, 2), 'utf-8');
+
+    const targetIndexPath = lang === 'en' ? INDEX_EN_PATH : (lang === 'th' ? INDEX_TH_PATH : INDEX_VI_PATH);
+    const langPrefix = lang === 'en' ? '' : 'https://www.koricare.kr/link';
+    injectGridCardsToIndex(targetIndexPath, newsList, langPrefix);
   }
 
-  const enList = enItems.slice(0, 10).map((item, idx) => {
-    const id = `hotnews_en_${idx + 1}`;
-    item.id = id;
-    const html = buildArticleHtml(item, 'en');
-    fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
-    return { id, date: item.date, image: item.image, title: item.title, link: item.link };
-  });
-
-  fs.writeFileSync(path.join(DATA_DIR, 'news_list_en.json'), JSON.stringify(enList, null, 2), 'utf-8');
-  injectGridCardsToIndex(INDEX_EN_PATH, enList, '');
-
-  // 2. Thai (TH)
-  let thItems = [];
-  for (const feedUrl of RSS_FEEDS.th) {
-    const xml = await fetchUrl(feedUrl);
-    const items = parseXmlItems(xml);
-    if (items.length > 0) {
-      thItems = items;
-      break;
-    }
-  }
-
-  const thList = thItems.slice(0, 10).map((item, idx) => {
-    const id = `hotnews_th_${idx + 1}`;
-    item.id = id;
-    const html = buildArticleHtml(item, 'th');
-    fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
-    return { id, date: item.date, image: item.image, title: item.title, link: item.link };
-  });
-
-  fs.writeFileSync(path.join(DATA_DIR, 'news_list_th.json'), JSON.stringify(thList, null, 2), 'utf-8');
-  injectGridCardsToIndex(INDEX_TH_PATH, thList, 'https://www.koricare.kr/link');
-
-  // 3. Vietnamese (VI)
-  let viItems = [];
-  for (const feedUrl of RSS_FEEDS.vi) {
-    const xml = await fetchUrl(feedUrl);
-    const items = parseXmlItems(xml);
-    if (items.length > 0) {
-      viItems = items;
-      break;
-    }
-  }
-
-  const viList = viItems.slice(0, 10).map((item, idx) => {
-    const id = `hotnews_vi_${idx + 1}`;
-    item.id = id;
-    const html = buildArticleHtml(item, 'vi');
-    fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
-    return { id, date: item.date, image: item.image, title: item.title, link: item.link };
-  });
-
-  fs.writeFileSync(path.join(DATA_DIR, 'news_list_vi.json'), JSON.stringify(viList, null, 2), 'utf-8');
-  injectGridCardsToIndex(INDEX_VI_PATH, viList, 'https://www.koricare.kr/link');
-
-  console.log('🎉 뉴스 생성 정제 완결!');
+  console.log('🎉 3대 언론사 교차 파싱 완료!');
 }
 
 runPipeline();
