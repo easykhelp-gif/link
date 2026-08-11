@@ -525,9 +525,15 @@
     {id:"hos_egen",category:"medical",name_en:"E-Gen Emergency Medical Portal",desc_en:"Find open hospitals, pharmacies, & emergency rooms nearby",name_ko:"응급의료포털 E-Gen",desc_ko:"주변 야간·휴일 진료 병의원 실시간 검색",url:"https://www.e-gen.or.kr"},
     {id:"lab_moel",category:"labor",name_en:"Ministry of Employment and Labor",desc_en:"Consultation on wages, severance pay, & labor standards",name_ko:"고용노동부 (MOEL)",desc_ko:"임금체불·퇴직금·근로기준법 상담",url:"https://www.moel.go.kr"},
     {id:"visa_kvac",category:"visa",name_en:"Korea Visa Portal",desc_en:"Official portal to apply for visas and check application status",name_ko:"대한민국 비자포털",desc_ko:"비자 발급 신청 및 진행상황 조회",url:"https://www.visa.go.kr"},
-    {id:"rem_cross",category:"finance",name_en:"Cross International Transfer",desc_en:"High-speed international money transfer service for foreigners",name_ko:"크로스 (Cross Remittance)",desc_ko:"외국인 전용 해외송금",url:"https://www.cross-en.com"}
-  ];
-    {id:"hos_medical_support",category:"medical",name_en:"WeFriends Relief Society",desc_en:"Medical fee assistance & healthcare support for foreign workers",name_ko:"희망의 친구들 (한국이주민건강협회)",desc_ko:"이주민 진료비 지원, 건강검진 및 의료 혜택 지원 구호단체",url:"https://www.wefriends.org"}
+    {id:"rem_cross",category:"finance",name_en:"Cross International Transfer",desc_en:"High-speed international money transfer service for foreigners",name_ko:"크로스 (Cross Remittance)",desc_ko:"외국인 전용 해외송금",url:"https://www.cross-en.com"},
+    {id:"rem_gme",category:"finance",name_en:"GME Global Remittance",desc_en:"International money transfer service tailored for foreign workers",name_ko:"GME 글로벌 해외송금",desc_ko:"외국인 근로자 맞춤형 실시간 국외 송금",url:"https://www.gmeremit.com"},
+    {id:"rem_sentbe",category:"finance",name_en:"Sentbe Remittance",desc_en:"Reliable online remittance service with competitive exchange rates",name_ko:"센트비 (Sentbe)",desc_ko:"낮은 수수료와 경쟁력 있는 환율 해외송금",url:"https://www.sentbe.com"},
+    {id:"tel_freet",category:"transport",name_en:"Freet Budget SIM",desc_en:"Low-cost mobile SIM plans with easy ARC self-activation",name_ko:"프리티 알뜰폰 (Freet)",desc_ko:"외국인등록증(ARC) 온라인 자가개통 알뜰폰 요금제",url:"https://www.freet.co.kr"},
+    {id:"tel_chingu",category:"transport",name_en:"Chingu Mobile SIM",desc_en:"Multilingual customer support budget SIM cards for foreigners",name_ko:"친구모바일 (Chingu)",desc_ko:"외국인 전용 다국어 고객지원 알뜰폰 SIM",url:"https://www.chingumobile.com"},
+    {id:"hos_1339",category:"medical",name_en:"1339 Health Helpline",desc_en:"24/7 medical advice & infectious disease consultation line",name_ko:"1339 질병관리청 콜센터",desc_ko:"24시간 응급의료 상담 및 감염병 예방안내",url:"tel:1339"},
+    {id:"hos_nhis",category:"labor",name_en:"National Health Insurance (NHIS)",desc_en:"Official foreign resident health insurance enrollment & eligibility",name_ko:"국민건강보험공단 (NHIS)",desc_ko:"외국인 지역가입자 건강보험 자격 및 안내",url:"https://www.nhis.or.kr"},
+    {id:"gov_gov24",category:"admin",name_en:"Government24 Civil Services",desc_en:"Issue official Korean documents & civil forms online",name_ko:"정부24 민원포털",desc_ko:"외국인 사실증명 등 각종 인터넷 민원발급",url:"https://www.gov.kr"},
+    {id:"hos_medical_support",category:"medical",name_en:"WeFriends Relief Society",desc_en:"Medical fee assistance & healthcare support for foreign workers",name_ko:"희망의 친구들",desc_ko:"이주민 진료비 지원 및 건강검진 구호단체",url:"https://www.wefriends.org"}
   ];
 
   var actCat = "all", actRegion = "전체", actDistrict = "";
@@ -586,7 +592,7 @@
   }
 
   var natPage = 1;
-  var NAT_PAGE_SIZE = 4;
+  var NAT_PAGE_SIZE = 8;
 
   function apply(){
     NATIONAL_LIST = FALLBACK.filter(function(x){
