@@ -213,7 +213,7 @@
   .form-input {
     width: 100%;
     height: 52px;
-    padding: 0 54px 0 16px;
+    padding: 0 58px 0 16px;
     border-radius: 14px;
     border: 2px solid var(--border-color);
     font-size: 18px;
@@ -224,6 +224,14 @@
     text-align: right;
     transition: all 0.2s ease;
   }
+  .form-input::placeholder {
+    color: #94a3b8;
+    font-weight: 500;
+    opacity: 0.65;
+  }
+  .grid-2col .form-input {
+    padding-right: 76px;
+  }
   .form-input:focus {
     border-color: var(--blue-accent);
     background: #ffffff;
@@ -231,10 +239,10 @@
   }
   .input-unit {
     position: absolute;
-    right: 16px;
-    font-size: 13.5px;
-    font-weight: 800;
-    color: var(--text-secondary);
+    right: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64748b;
     pointer-events: none;
   }
 
