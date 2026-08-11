@@ -23,6 +23,16 @@ const RSS_FEEDS = {
   vi: ['https://vnexpress.net/rss/tin-moi-nhat.rss']
 };
 
+function cleanText(str) {
+  if (!str) return '';
+  return str
+    .replace(/<[^>]+>/g, '')
+    .replace(/\uFFFD/g, '') // Remove Replacement Character
+    .replace(/\[\.\.\.\]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function fetchUrl(url) {
   return new Promise((resolve) => {
     const client = url.startsWith('https') ? https : http;
@@ -55,9 +65,9 @@ function parseXmlItems(xmlText) {
                      itemXml.match(/<enclosure[^>]+url=["']([^"']+)["']/i) ||
                      itemXml.match(/<img[^>]+src=["']([^"']+)["']/i);
 
-    let cleanTitle = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').trim() : '';
+    let cleanTitle = titleMatch ? cleanText(titleMatch[1]) : '';
     let cleanLink = linkMatch ? linkMatch[1].trim() : '';
-    let cleanDesc = descMatch ? descMatch[1].replace(/<[^>]+>/g, '').trim() : '';
+    let cleanDesc = descMatch ? cleanText(descMatch[1]) : '';
     let actualImg = imgMatch ? imgMatch[1] : '';
 
     if (cleanTitle && cleanLink) {
@@ -73,11 +83,11 @@ function parseXmlItems(xmlText) {
   return items;
 }
 
-// Clean, Minimalist, Centered Conversion Banner
+// Clean, Minimalist Article Renderer
 function buildArticleHtml(newsItem, lang) {
   const dateStr = newsItem.date || new Date().toISOString().slice(0, 10);
   
-  // Minimalist, Centered Conversion Banner (No redundant Specialist Support title)
+  // Minimalist, Centered Conversion Banner
   const bannerHtml = `
     <div style="background: linear-gradient(135deg, #002366 0%, #1e40af 100%); border-radius: 18px; padding: 24px 20px; color: #ffffff; margin: 36px 0 20px; box-shadow: 0 8px 24px rgba(0,35,102,0.18); text-align: center;">
       <div style="font-size: 13.5px; opacity: 0.95; line-height: 1.55; margin-bottom: 16px; color:#e2e8f0; max-width: 540px; margin-left: auto; margin-right: auto; font-weight: 500;">Struggling with Visa, Labor Rights, or Legal Help in Korea? Talk to Your Specialist.</div>
@@ -85,17 +95,18 @@ function buildArticleHtml(newsItem, lang) {
     </div>
   `;
 
+  // Subtle 3-line English Summary (No redundant "Executive English Summary" title)
   let engSummarySection = '';
   if (lang !== 'en') {
     engSummarySection = `
-      <div style="margin-top:28px; padding:18px; background:#eff6ff; border-radius:14px; border:1px solid #bfdbfe;">
-        <div style="font-size:13.5px; font-weight:800; color:#1e40af; margin-bottom:6px;">Executive English Summary</div>
-        <div style="font-size:14px; color:#1e3a8a; line-height:1.6;">${newsItem.title}</div>
+      <div style="margin-top:24px; padding:16px 20px; background:#f8fafc; border-radius:12px; border:1px solid #e2e8f0;">
+        <div style="font-size:13.5px; color:#475569; line-height:1.65; font-weight:500;">${newsItem.title}</div>
       </div>
     `;
   }
 
   const heroImgTag = newsItem.image ? `<img src="${newsItem.image}" alt="${newsItem.title}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 18px 0 22px;">` : '';
+  const backHref = lang === 'th' ? '../th/' : (lang === 'vi' ? '../vi/' : '../');
 
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -122,20 +133,20 @@ function buildArticleHtml(newsItem, lang) {
   .logo-text span { font-size: 9.5px; opacity: 0.85; text-transform: uppercase; font-weight: 700; }
   .post-card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px 28px; margin-top: 24px; box-shadow: 0 10px 30px rgba(15,23,42,0.05); }
   .date-bar { font-size: 13px; color: var(--sub); font-weight: 600; margin-bottom: 12px; }
-  h1 { font-size: 24px; font-weight: 900; color: var(--navy); line-height: 1.4; margin-bottom: 12px; }
-  .article-content { font-size: 16.5px; color: #334155; line-height: 1.85; margin-top: 18px; }
-  .src-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 22px; font-size: 13.5px; font-weight: 700; color: #2563eb; text-decoration: underline; }
-  .back-btn { display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 800; color: var(--navy); background: #ffffff; border: 1.5px solid var(--line); padding: 14px; border-radius: 16px; margin-top: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+  h1 { font-size: 22px; font-weight: 900; color: var(--navy); line-height: 1.45; margin-bottom: 12px; }
+  .article-content { font-size: 16px; color: #334155; line-height: 1.8; margin-top: 18px; }
+  .src-link-subtle { display: inline-flex; align-items: center; gap: 4px; margin-top: 16px; font-size: 12px; color: #94a3b8; font-weight: 500; text-decoration: underline; }
+  .back-btn-minimal { display: flex; align-items: center; justify-content: center; font-size: 13.5px; font-weight: 700; color: #475569; background: #ffffff; border: 1px solid var(--line); padding: 12px; border-radius: 14px; margin-top: 20px; transition: all 0.2s; }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
-    <a href="../index.html" class="logo">
-      <img src="../koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
+    <a href="${backHref}" class="logo">
+      <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
-        <span>Trending News & Policy</span>
+        <span>Trending News</span>
       </div>
     </a>
   </div>
@@ -148,17 +159,16 @@ function buildArticleHtml(newsItem, lang) {
     <hr style="border:none; border-top:1px solid #e2e8f0; margin:14px 0 20px;">
     ${heroImgTag}
     <div class="article-content">
-      <p style="margin-bottom:18px; font-size:16.5px; line-height:1.85;">${newsItem.desc || newsItem.title}</p>
+      <p style="margin-bottom:14px;">${newsItem.desc || newsItem.title}</p>
+      <a href="${newsItem.link}" class="src-link-subtle" target="_blank" rel="noopener">Original Source ➔</a>
     </div>
 
     ${engSummarySection}
 
-    <a href="${newsItem.link}" class="src-link" target="_blank" rel="noopener">🔗 Reference Original Source ➔</a>
-
     ${bannerHtml}
   </article>
 
-  <a href="../index.html" class="back-btn">⬅️ Back to Main Portal</a>
+  <a href="${backHref}" class="back-btn-minimal">Back to Main Portal</a>
 </main>
 </body>
 </html>`;
@@ -177,7 +187,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
     const cardsHtml = top3.map(item => {
       const thumb = item.image ? item.image : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
       const title = item.title;
-      const dateStr = (item.date || 'TODAY').toUpperCase();
+      const dateStr = item.date || 'TODAY';
       const href = langPrefix ? `${langPrefix}/news/${item.id}.html` : `news/${item.id}.html`;
 
       return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:16px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 4px 14px rgba(15,23,42,0.04); overflow:hidden; transition:all 0.2s ease;">
@@ -197,7 +207,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
 }
 
 async function runPipeline() {
-  console.log('🚀 기사 정제 및 중앙 정렬 미니멀 유입 배너 정제 파이프라인...');
+  console.log('🚀 뉴스 생성 스크립트 정제 집행...');
 
   // 1. English (EN)
   let enItems = [];
@@ -265,7 +275,7 @@ async function runPipeline() {
   fs.writeFileSync(path.join(DATA_DIR, 'news_list_vi.json'), JSON.stringify(viList, null, 2), 'utf-8');
   injectGridCardsToIndex(INDEX_VI_PATH, viList, 'https://www.koricare.kr/link');
 
-  console.log('🎉 4가지 정제 완료!');
+  console.log('🎉 뉴스 생성 정제 완결!');
 }
 
 runPipeline();

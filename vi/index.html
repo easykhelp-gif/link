@@ -200,7 +200,7 @@
 
 <header>
   <div class="wrap hrow">
-    <a href="https://www.koricare.kr/vi/link" class="logo">
+    <a href="https://www.koricare.kr/link/vi/" class="logo">
       <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
@@ -248,7 +248,7 @@
 
 <div class="wrap">
   <!-- Severance Pay Calculator Card -->
-  <a class="kc-calc-card" href="https://www.koricare.kr/vi/severance-calculator">
+  <a class="kc-calc-card" href="https://www.koricare.kr/link/vi/severance-calculator">
     <span class="kc-calc-ic">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <rect x="4" y="2" width="16" height="20" rx="3" />
@@ -261,7 +261,7 @@
       </svg>
     </span>
     <span class="kc-calc-tx">
-      <span class="t">Tính trợ cấp thôi việc (퇴직금)</span>
+      <span class="t">Tính trợ cấp thôi việc</span>
       <span class="sub">Tính ước lượng khoản trợ cấp thôi việc theo Luật Lao động Hàn Quốc</span>
     </span>
     <span class="kc-calc-arrow">➔</span>
@@ -663,6 +663,22 @@
     currentPage = page;
     renderFilterControlsAndPlaces();
   }
+
+  function toggleLangDropdown(event) {
+    if (event) event.stopPropagation();
+    var menu = document.getElementById('langDropdownMenu');
+    if (menu) {
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
+  }
+
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('langDropdownMenu');
+    var btn = document.getElementById('langSelectBtn');
+    if (menu && btn && !btn.contains(e.target) && !menu.contains(e.target)) {
+      menu.style.display = 'none';
+    }
+  });
 
   window.onload = function(){
     renderRegions();
