@@ -6,7 +6,7 @@ const BASE_DIR = __dirname;
 const DATA_DIR = path.join(BASE_DIR, "data");
 const NEWS_DIR = path.join(BASE_DIR, "news");
 const TEMPLATE_PATH = path.join(BASE_DIR, "templates", "news_template.html");
-const INDEX_PATH = path.join(BASE_DIR, "index.html");
+const INDEX_PATH = path.join(BASE_DIR, "th", "index.html");
 const NEWS_LIST_PATH = path.join(DATA_DIR, "news_list.json");
 
 // Ensure directories exist

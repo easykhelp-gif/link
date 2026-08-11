@@ -239,9 +239,8 @@ async function runPipeline() {
     });
   }
   
-  updateHtmlFile(INDEX_HTML_PATH, generatedNewsCards);
-  updateHtmlFile(ROOT_LINK_INDEX_PATH, generatedNewsCards);
-  updateHtmlFile(TEMP_REPO_INDEX_PATH, generatedNewsCards);
+  const THAI_INDEX_PATH = path.join(BASE_DIR, "th", "index.html");
+  updateHtmlFile(THAI_INDEX_PATH, generatedNewsCards);
 
   // Sync news folder to temp_link_repo3
   const tempRepoNewsDir = path.join(BASE_DIR, "temp_link_repo3", "news");
