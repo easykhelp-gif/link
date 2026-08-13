@@ -14,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Run 1-Hour News Scraper Engine
         run: |
@@ -33,4 +33,4 @@ jobs:
           git config --global user.name "Theo Park AutoBot"
           git config --global user.email "koricare.help@gmail.com"
           git add .
-          git diff-index --quiet HEAD || (git commit -m "Auto: 1-Hour Live Trending News Update & Deploy" && git push origin main)
+          git diff-index --quiet HEAD || (git pull --rebase origin main || true && git commit -m "Auto: 1-Hour Live Trending News Update & Deploy" && git push origin main)
