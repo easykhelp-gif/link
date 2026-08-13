@@ -1,6 +1,6 @@
 {
   "region_id": "jeonbuk",
-  "places_count": 404,
+  "places_count": 397,
   "places": [
     {
       "id": "17521910",
@@ -1524,58 +1524,6 @@
       "y": "35.96963811791678"
     },
     {
-      "id": "27576055",
-      "name_ko": "서울정형외과의원",
-      "name_en": "서울 Orthopedics Clinic 의원",
-      "name_th": "서울 Orthopedics Clinic 의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충남 서천군 장항읍 성주로 6",
-      "phone": "041-956-7351",
-      "map_url": "http://place.map.kakao.com/27576055",
-      "x": "126.70104021875936",
-      "y": "36.01103116140563"
-    },
-    {
-      "id": "10166044",
-      "name_ko": "고려정형외과",
-      "name_en": "고려 Orthopedics Clinic",
-      "name_th": "고려 Orthopedics Clinic",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충남 서천군 서천읍 충절로 50",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/10166044",
-      "x": "126.688347095083",
-      "y": "36.0749640679028"
-    },
-    {
-      "id": "8744347",
-      "name_ko": "공정형외과의원",
-      "name_en": "공 Orthopedics Clinic 의원",
-      "name_th": "공 Orthopedics Clinic 의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충남 서천군 서천읍 충절로59번길 31-7",
-      "phone": "041-952-0788",
-      "map_url": "http://place.map.kakao.com/8744347",
-      "x": "126.689447341347",
-      "y": "36.0763511949951"
-    },
-    {
-      "id": "1646853186",
-      "name_ko": "튼튼마디의원",
-      "name_en": "튼튼마디의원",
-      "name_th": "튼튼마디의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충남 서천군 서천읍 충절로49번길 11-11",
-      "phone": "041-952-9582",
-      "map_url": "http://place.map.kakao.com/1646853186",
-      "x": "126.687928169028",
-      "y": "36.0756280769942"
-    },
-    {
       "id": "17187556",
       "name_ko": "태국음식점타이",
       "name_en": "태국음식점타이",
@@ -2460,19 +2408,6 @@
       "y": "35.94107783915619"
     },
     {
-      "id": "500794761",
-      "name_ko": "크루아반픈태국식당",
-      "name_en": "크루아반픈 Thai Restaurant",
-      "name_th": "크루아반픈 Thai Restaurant",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "충남 논산시 강경읍 여강로 1315-8",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/500794761",
-      "x": "127.010960100954",
-      "y": "36.1522632501983"
-    },
-    {
       "id": "1659220803",
       "name_ko": "익산아시아마트",
       "name_en": "익산 Asia Mart",
@@ -2484,32 +2419,6 @@
       "map_url": "http://place.map.kakao.com/1659220803",
       "x": "126.9639273887997",
       "y": "35.935161712734654"
-    },
-    {
-      "id": "406423505",
-      "name_ko": "아시아마트",
-      "name_en": "Asia Mart",
-      "name_th": "Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 식품판매",
-      "address": "충남 논산시 연무읍 안심로 72",
-      "phone": "010-2963-8356",
-      "map_url": "http://place.map.kakao.com/406423505",
-      "x": "127.099205292865",
-      "y": "36.1274663595408"
-    },
-    {
-      "id": "1448531359",
-      "name_ko": "우노스아시아월드푸드 강경점",
-      "name_en": "우노스아시아월드푸드 강경점",
-      "name_th": "우노스아시아월드푸드 강경점",
-      "category": "support",
-      "category_detail": "가정,생활 > 슈퍼마켓",
-      "address": "충남 논산시 강경읍 계백로 132-1",
-      "phone": "010-2067-1119",
-      "map_url": "http://place.map.kakao.com/1448531359",
-      "x": "127.015353620121",
-      "y": "36.1564245576945"
     },
     {
       "id": "1664179988",

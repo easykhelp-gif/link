@@ -1,20 +1,7 @@
 {
   "region_id": "sejong",
-  "places_count": 205,
+  "places_count": 199,
   "places": [
-    {
-      "id": "1944058316",
-      "name_ko": "충북대학교병원 오송임상시험센터",
-      "name_en": "충북대학교병원 오송임상시험센터",
-      "name_th": "충북대학교병원 오송임상시험센터",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원부속시설",
-      "address": "충북 청주시 흥덕구 오송읍 오송생명로 77",
-      "phone": "043-835-1701",
-      "map_url": "http://place.map.kakao.com/1944058316",
-      "x": "127.320296451259",
-      "y": "36.6365162341821"
-    },
     {
       "id": "27465756",
       "name_ko": "서울치과의원",
@@ -276,32 +263,6 @@
       "y": "36.5998436497694"
     },
     {
-      "id": "1527707022",
-      "name_ko": "서문365정형외과의원 오송점",
-      "name_en": "서문365 Orthopedics Clinic 의원 오송점",
-      "name_th": "서문365 Orthopedics Clinic 의원 오송점",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충북 청주시 흥덕구 오송읍 오송생명11로 46",
-      "phone": "043-715-7582",
-      "map_url": "http://place.map.kakao.com/1527707022",
-      "x": "127.31654736047031",
-      "y": "36.61875677440443"
-    },
-    {
-      "id": "18935961",
-      "name_ko": "성모정형외과의원",
-      "name_en": "성모 Orthopedics Clinic 의원",
-      "name_th": "성모 Orthopedics Clinic 의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "충북 청주시 흥덕구 오송읍 오송생명로 208-8",
-      "phone": "043-238-3550",
-      "map_url": "http://place.map.kakao.com/18935961",
-      "x": "127.331891206925",
-      "y": "36.6299080237081"
-    },
-    {
       "id": "786922891",
       "name_ko": "해밀바른정형외과의원",
       "name_en": "해밀바른 Orthopedics Clinic 의원",
@@ -326,32 +287,6 @@
       "map_url": "http://place.map.kakao.com/94998374",
       "x": "127.29679672040383",
       "y": "36.60743074307683"
-    },
-    {
-      "id": "1832672656",
-      "name_ko": "아시아마트",
-      "name_en": "Asia Mart",
-      "name_th": "Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 슈퍼마켓",
-      "address": "충북 청주시 흥덕구 옥산면 청주역로 629",
-      "phone": "010-5415-5867",
-      "map_url": "http://place.map.kakao.com/1832672656",
-      "x": "127.375604266514",
-      "y": "36.663694082819"
-    },
-    {
-      "id": "1385574251",
-      "name_ko": "옥산휴대폰 모모",
-      "name_en": "옥산휴대폰 모모",
-      "name_th": "옥산휴대폰 모모",
-      "category": "mobile",
-      "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
-      "address": "충북 청주시 흥덕구 옥산면 옥산시내5길 8",
-      "phone": "010-9986-4026",
-      "map_url": "http://place.map.kakao.com/1385574251",
-      "x": "127.371857400855",
-      "y": "36.6656009119473"
     },
     {
       "id": "10050764",
@@ -2068,19 +2003,6 @@
       "map_url": "http://place.map.kakao.com/25099522",
       "x": "127.26258433350512",
       "y": "36.479313589658155"
-    },
-    {
-      "id": "1701402364",
-      "name_ko": "타이허브",
-      "name_en": "타이허브",
-      "name_th": "타이허브",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "대전 유성구 지족북로66번길 2",
-      "phone": "042-826-6622",
-      "map_url": "http://place.map.kakao.com/1701402364",
-      "x": "127.306165794399",
-      "y": "36.3891960239077"
     },
     {
       "id": "633989386",

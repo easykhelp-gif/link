@@ -1,6 +1,6 @@
 {
   "region_id": "jeonnam",
-  "places_count": 406,
+  "places_count": 402,
   "places": [
     {
       "id": "1415371617",
@@ -1223,19 +1223,6 @@
       "map_url": "http://place.map.kakao.com/26926763",
       "x": "127.663162445602",
       "y": "34.765455182869"
-    },
-    {
-      "id": "1935871334",
-      "name_ko": "시원한마디의원",
-      "name_en": "시원한마디의원",
-      "name_th": "시원한마디의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "남광주통합특별시 여수시 충무1길 14",
-      "phone": "061-665-7501",
-      "map_url": "http://place.map.kakao.com/1935871334",
-      "x": "127.730090861411",
-      "y": "34.7406561800148"
     },
     {
       "id": "1532745319",
@@ -4748,19 +4735,6 @@
       "y": "35.3149837507154"
     },
     {
-      "id": "205626806",
-      "name_ko": "구두대학병원",
-      "name_en": "구두 University Hospital",
-      "name_th": "구두 University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "전북특별자치도 순창군 순창읍 순창로 193",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/205626806",
-      "x": "127.14199868252678",
-      "y": "35.37240738481025"
-    },
-    {
       "id": "8239772",
       "name_ko": "김치과의원",
       "name_en": "김 Dental Clinic 의원",
@@ -5099,19 +5073,6 @@
       "y": "35.27567117177605"
     },
     {
-      "id": "27608328",
-      "name_ko": "화개치과의원",
-      "name_en": "화개 Dental Clinic 의원",
-      "name_th": "화개 Dental Clinic 의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 치과",
-      "address": "경남 하동군 화개면 화개로 2-15",
-      "phone": "055-883-2879",
-      "map_url": "http://place.map.kakao.com/27608328",
-      "x": "127.62338582082478",
-      "y": "35.189530192900946"
-    },
-    {
       "id": "827003993",
       "name_ko": "구례약국",
       "name_en": "구례 Pharmacy",
@@ -5253,19 +5214,6 @@
       "map_url": "http://place.map.kakao.com/24014965",
       "x": "127.464390024034",
       "y": "35.2116944166671"
-    },
-    {
-      "id": "14590308",
-      "name_ko": "화개약국",
-      "name_en": "화개 Pharmacy",
-      "name_th": "화개 Pharmacy",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 약국",
-      "address": "경남 하동군 화개면 화개로 26",
-      "phone": "055-883-3232",
-      "map_url": "http://place.map.kakao.com/14590308",
-      "x": "127.62399450136917",
-      "y": "35.19044642201653"
     },
     {
       "id": "10382686",

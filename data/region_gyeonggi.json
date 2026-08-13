@@ -1,6 +1,6 @@
 {
   "region_id": "gyeonggi",
-  "places_count": 699,
+  "places_count": 678,
   "places": [
     {
       "id": "7964601",
@@ -4527,19 +4527,6 @@
       "y": "37.5007148224888"
     },
     {
-      "id": "15209711",
-      "name_ko": "김포공항 출입국외국인사무소",
-      "name_en": "김포공항 Immigration & Foreigner Office",
-      "name_th": "김포공항 Immigration & Foreigner Office",
-      "category": "government",
-      "category_detail": "사회,공공기관 > 행정기관 > 법무부 > 출입국/외국인정책본부",
-      "address": "서울 강서구 하늘길 38",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/15209711",
-      "x": "126.800878157533",
-      "y": "37.5657337913865"
-    },
-    {
       "id": "11411360",
       "name_ko": "가톨릭대학교 부천성모병원",
       "name_en": "가톨릭대학교 부천성모병원",
@@ -4564,19 +4551,6 @@
       "map_url": "http://place.map.kakao.com/10553497",
       "x": "126.76301359551704",
       "y": "37.49872502271403"
-    },
-    {
-      "id": "19199691",
-      "name_ko": "가톨릭대학교 인천성모병원",
-      "name_en": "가톨릭대학교 인천성모병원",
-      "name_th": "가톨릭대학교 인천성모병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 대학병원",
-      "address": "인천 부평구 동수로 56",
-      "phone": "1544-9004",
-      "map_url": "http://place.map.kakao.com/19199691",
-      "x": "126.72487531422655",
-      "y": "37.48473084534116"
     },
     {
       "id": "11468088",
@@ -5216,110 +5190,6 @@
       "y": "37.51851201495728"
     },
     {
-      "id": "1275174272",
-      "name_ko": "덱센타이푸드",
-      "name_en": "덱센타이푸드",
-      "name_th": "덱센타이푸드",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 부평문화로66번길 15",
-      "phone": "010-2445-5653",
-      "map_url": "http://place.map.kakao.com/1275174272",
-      "x": "126.723820247095",
-      "y": "37.4933735273001"
-    },
-    {
-      "id": "1830481511",
-      "name_ko": "방샌타이레스토랑",
-      "name_en": "방샌타이레스토랑",
-      "name_th": "방샌타이레스토랑",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 육동로 30-1",
-      "phone": "032-719-8555",
-      "map_url": "http://place.map.kakao.com/1830481511",
-      "x": "126.725392706197",
-      "y": "37.4879432326335"
-    },
-    {
-      "id": "278349141",
-      "name_ko": "쌥쌥이싼 태국식당",
-      "name_en": "쌥쌥이싼 Thai Restaurant",
-      "name_th": "쌥쌥이싼 Thai Restaurant",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 광장로 16",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/278349141",
-      "x": "126.723350305695",
-      "y": "37.4895674850004"
-    },
-    {
-      "id": "553156200",
-      "name_ko": "방콕",
-      "name_en": "방콕",
-      "name_th": "방콕",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 광장로 16",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/553156200",
-      "x": "126.72325034365",
-      "y": "37.4899979312418"
-    },
-    {
-      "id": "144512107",
-      "name_ko": "부리람타이키친",
-      "name_en": "부리람타이키친",
-      "name_th": "부리람타이키친",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 광장로 16",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/144512107",
-      "x": "126.723350305697",
-      "y": "37.4895674849931"
-    },
-    {
-      "id": "746194785",
-      "name_ko": "타이스타일",
-      "name_en": "타이스타일",
-      "name_th": "타이스타일",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 광장로 16",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/746194785",
-      "x": "126.723350305697",
-      "y": "37.4895674849931"
-    },
-    {
-      "id": "1804817768",
-      "name_ko": "태국식당",
-      "name_en": "Thai Restaurant",
-      "name_th": "Thai Restaurant",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "인천 부평구 경인로 924",
-      "phone": "010-6651-6861",
-      "map_url": "http://place.map.kakao.com/1804817768",
-      "x": "126.722589550884",
-      "y": "37.4870591048132"
-    },
-    {
-      "id": "2014858868",
-      "name_ko": "제이라오",
-      "name_en": "제이라오",
-      "name_th": "제이라오",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "서울 구로구 연동로11길 5",
-      "phone": "070-7613-8299",
-      "map_url": "http://place.map.kakao.com/2014858868",
-      "x": "126.82155096562",
-      "y": "37.4835631014385"
-    },
-    {
       "id": "1956890187",
       "name_ko": "아시아마트",
       "name_en": "Asia Mart",
@@ -5357,71 +5227,6 @@
       "map_url": "http://place.map.kakao.com/605090819",
       "x": "126.78146538329118",
       "y": "37.50749943476028"
-    },
-    {
-      "id": "1194480943",
-      "name_ko": "아시아마트",
-      "name_en": "Asia Mart",
-      "name_th": "Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 식품판매",
-      "address": "인천 부평구 경원대로 1374-1",
-      "phone": "010-9541-9218",
-      "map_url": "http://place.map.kakao.com/1194480943",
-      "x": "126.721623710633",
-      "y": "37.4910807214216"
-    },
-    {
-      "id": "608009951",
-      "name_ko": "T&T아시아마트",
-      "name_en": "T&T Asia Mart",
-      "name_th": "T&T Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 슈퍼마켓",
-      "address": "인천 부평구 광장로4번길 24",
-      "phone": "010-7343-9575",
-      "map_url": "http://place.map.kakao.com/608009951",
-      "x": "126.721453887733",
-      "y": "37.4908325448487"
-    },
-    {
-      "id": "1468814520",
-      "name_ko": "로시아시아마트",
-      "name_en": "로시 Asia Mart",
-      "name_th": "로시 Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 슈퍼마켓",
-      "address": "인천 부평구 동수북로 146-3",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1468814520",
-      "x": "126.72259993577815",
-      "y": "37.489143154177306"
-    },
-    {
-      "id": "1565770229",
-      "name_ko": "아시아마트",
-      "name_en": "Asia Mart",
-      "name_th": "Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 식품판매",
-      "address": "인천 남동구 만경로 12",
-      "phone": "010-5528-7482",
-      "map_url": "http://place.map.kakao.com/1565770229",
-      "x": "126.72734667467",
-      "y": "37.456482767358"
-    },
-    {
-      "id": "1063565004",
-      "name_ko": "68아시아마트",
-      "name_en": "68 Asia Mart",
-      "name_th": "68 Asia Mart",
-      "category": "restaurant",
-      "category_detail": "가정,생활 > 슈퍼마켓",
-      "address": "인천 남동구 백범로 312-88",
-      "phone": "010-8668-2706",
-      "map_url": "http://place.map.kakao.com/1063565004",
-      "x": "126.715640154327",
-      "y": "37.4635208944364"
     },
     {
       "id": "1405893924",
@@ -5658,58 +5463,6 @@
       "y": "37.502535578953484"
     },
     {
-      "id": "1998144888",
-      "name_ko": "부평선불폰 알뜰폰 갓블레스",
-      "name_en": "부평선불폰 Prepaid Mobile Shop 갓블레스",
-      "name_th": "부평선불폰 Prepaid Mobile Shop 갓블레스",
-      "category": "mobile",
-      "category_detail": "가정,생활 > 통신판매",
-      "address": "인천 부평구 부평대로64번길 14",
-      "phone": "010-8313-8004",
-      "map_url": "http://place.map.kakao.com/1998144888",
-      "x": "126.723399225725",
-      "y": "37.497152254527"
-    },
-    {
-      "id": "1276439509",
-      "name_ko": "알뜰폰플러스 작전점",
-      "name_en": "Prepaid Mobile Shop 플러스 작전점",
-      "name_th": "Prepaid Mobile Shop 플러스 작전점",
-      "category": "mobile",
-      "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
-      "address": "인천 계양구 계양대로 27",
-      "phone": "070-7537-2388",
-      "map_url": "http://place.map.kakao.com/1276439509",
-      "x": "126.72125803811",
-      "y": "37.5261774919724"
-    },
-    {
-      "id": "1425306964",
-      "name_ko": "명문알뜰폰",
-      "name_en": "명문 Prepaid Mobile Shop",
-      "name_th": "명문 Prepaid Mobile Shop",
-      "category": "mobile",
-      "category_detail": "금융,보험 > 금융서비스",
-      "address": "인천 남동구 경인로613번길 40",
-      "phone": "1833-2171",
-      "map_url": "http://place.map.kakao.com/1425306964",
-      "x": "126.706223646162",
-      "y": "37.466891057462"
-    },
-    {
-      "id": "1975883512",
-      "name_ko": "알뜰폰 선불후불유심 중고폰매입전문매장 인천계양점",
-      "name_en": "Prepaid Mobile Shop 선불후불유심 중고폰매입전문매장 인천계양점",
-      "name_th": "Prepaid Mobile Shop 선불후불유심 중고폰매입전문매장 인천계양점",
-      "category": "mobile",
-      "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
-      "address": "인천 계양구 계양대로 140",
-      "phone": "010-4892-8255",
-      "map_url": "http://place.map.kakao.com/1975883512",
-      "x": "126.72292902154",
-      "y": "37.5362509843749"
-    },
-    {
       "id": "1535791365",
       "name_ko": "앤텔레콤 개미선불폰",
       "name_en": "앤텔레콤 개미선불폰",
@@ -5721,19 +5474,6 @@
       "map_url": "http://place.map.kakao.com/1535791365",
       "x": "126.77716608618",
       "y": "37.479067386225"
-    },
-    {
-      "id": "604203598",
-      "name_ko": "헬로폰",
-      "name_en": "헬로폰",
-      "name_th": "헬로폰",
-      "category": "mobile",
-      "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
-      "address": "서울 양천구 지양로9길 11",
-      "phone": "010-2434-7412",
-      "map_url": "http://place.map.kakao.com/604203598",
-      "x": "126.832540826011",
-      "y": "37.5215538351643"
     },
     {
       "id": "825711284",
@@ -7931,19 +7671,6 @@
       "map_url": "http://place.map.kakao.com/1899483092",
       "x": "127.00875872067",
       "y": "37.3733472764286"
-    },
-    {
-      "id": "1905880464",
-      "name_ko": "카오셉",
-      "name_en": "카오셉",
-      "name_th": "카오셉",
-      "category": "restaurant",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
-      "address": "서울 금천구 시흥대로30길 8",
-      "phone": "0503-7152-9537",
-      "map_url": "http://place.map.kakao.com/1905880464",
-      "x": "126.904602703997",
-      "y": "37.4426200803691"
     },
     {
       "id": "1913701771",

@@ -1,6 +1,6 @@
 {
   "region_id": "gyeongnam",
-  "places_count": 501,
+  "places_count": 488,
   "places": [
     {
       "id": "826000149",
@@ -3474,45 +3474,6 @@
       "y": "35.231748275901"
     },
     {
-      "id": "8242109",
-      "name_ko": "김해공항 출입국외국인사무소",
-      "name_en": "김해공항 Immigration & Foreigner Office",
-      "name_th": "김해공항 Immigration & Foreigner Office",
-      "category": "government",
-      "category_detail": "사회,공공기관 > 행정기관 > 법무부 > 출입국/외국인정책본부",
-      "address": "부산 강서구 공항진입로 108",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/8242109",
-      "x": "128.946720132678",
-      "y": "35.1732070504453"
-    },
-    {
-      "id": "2114524411",
-      "name_ko": "김해공항 출입국외국인사무소 민원실",
-      "name_en": "김해공항 Immigration & Foreigner Office 민원실",
-      "name_th": "김해공항 Immigration & Foreigner Office 민원실",
-      "category": "government",
-      "category_detail": "사회,공공기관 > 행정기관부속시설",
-      "address": "부산 강서구 대저2동 2350-1",
-      "phone": "051-979-1300",
-      "map_url": "http://place.map.kakao.com/2114524411",
-      "x": "128.94682462391768",
-      "y": "35.172986383414276"
-    },
-    {
-      "id": "8047472",
-      "name_ko": "인제대학교 부산백병원",
-      "name_en": "인제대학교 부산백병원",
-      "name_th": "인제대학교 부산백병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 대학병원",
-      "address": "부산 부산진구 복지로 75",
-      "phone": "051-890-6114",
-      "map_url": "http://place.map.kakao.com/8047472",
-      "x": "129.02083868922023",
-      "y": "35.14616704460037"
-    },
-    {
       "id": "17799354",
       "name_ko": "양산부산대학교병원",
       "name_en": "양산부산대학교병원",
@@ -3537,32 +3498,6 @@
       "map_url": "http://place.map.kakao.com/8365910",
       "x": "129.006486011007",
       "y": "35.3287881899928"
-    },
-    {
-      "id": "13565511",
-      "name_ko": "부산대학교병원",
-      "name_en": "부산대학교병원",
-      "name_th": "부산대학교병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 대학병원",
-      "address": "부산 서구 구덕로 179",
-      "phone": "051-240-7000",
-      "map_url": "http://place.map.kakao.com/13565511",
-      "x": "129.01873160552452",
-      "y": "35.10081903570709"
-    },
-    {
-      "id": "7841044",
-      "name_ko": "동아대학교병원",
-      "name_en": "동아대학교병원",
-      "name_th": "동아대학교병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 종합병원",
-      "address": "부산 서구 대신공원로 26",
-      "phone": "051-240-2000",
-      "map_url": "http://place.map.kakao.com/7841044",
-      "x": "129.0175947240924",
-      "y": "35.1200870946648"
     },
     {
       "id": "17795131",
@@ -3591,45 +3526,6 @@
       "y": "35.327915689663"
     },
     {
-      "id": "18039572",
-      "name_ko": "동아대학교병원 장례식장",
-      "name_en": "동아대학교병원 장례식장",
-      "name_th": "동아대학교병원 장례식장",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "부산 서구 동대로 6",
-      "phone": "051-256-7070",
-      "map_url": "http://place.map.kakao.com/18039572",
-      "x": "129.01700302061857",
-      "y": "35.11926516135441"
-    },
-    {
-      "id": "10839641",
-      "name_ko": "춘해보건대학교병원",
-      "name_en": "춘해보건대학교병원",
-      "name_th": "춘해보건대학교병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 종합병원",
-      "address": "부산 부산진구 중앙대로 605",
-      "phone": "051-638-8000",
-      "map_url": "http://place.map.kakao.com/10839641",
-      "x": "129.05852280492925",
-      "y": "35.14691844957294"
-    },
-    {
-      "id": "1442819062",
-      "name_ko": "동아대학교 대신병원",
-      "name_en": "동아대학교 대신병원",
-      "name_th": "동아대학교 대신병원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 재활의학과",
-      "address": "부산 서구 대신공원로 26",
-      "phone": "051-960-0100",
-      "map_url": "http://place.map.kakao.com/1442819062",
-      "x": "129.01899346557312",
-      "y": "35.12009984210604"
-    },
-    {
       "id": "24165974",
       "name_ko": "양산부산대학교병원 주차장",
       "name_en": "양산부산대학교병원 주차장",
@@ -3654,19 +3550,6 @@
       "map_url": "http://place.map.kakao.com/13032502",
       "x": "129.00657793394763",
       "y": "35.326457191016004"
-    },
-    {
-      "id": "10290945",
-      "name_ko": "동아대학교병원 권역응급의료센터",
-      "name_en": "동아대학교병원 권역응급의료센터",
-      "name_th": "동아대학교병원 권역응급의료센터",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 응급실",
-      "address": "부산 서구 대신공원로 26",
-      "phone": "051-240-5300",
-      "map_url": "http://place.map.kakao.com/10290945",
-      "x": "129.017449779787",
-      "y": "35.1206139921127"
     },
     {
       "id": "8856517",
@@ -4319,32 +4202,6 @@
       "y": "35.2335811316625"
     },
     {
-      "id": "1741585229",
-      "name_ko": "머니박스 김해공항지점",
-      "name_en": "머니박스 김해공항지점",
-      "name_th": "머니박스 김해공항지점",
-      "category": "support",
-      "category_detail": "금융,보험 > 외환,환율 > 환전",
-      "address": "부산 강서구 공항진입로 165",
-      "phone": "051-973-9996",
-      "map_url": "http://place.map.kakao.com/1741585229",
-      "x": "128.948395162549",
-      "y": "35.172019388348"
-    },
-    {
-      "id": "1526130143",
-      "name_ko": "BNK부산은행 환전소 김해국제공항국제선청사",
-      "name_en": "BNK부산은행 Money Exchange 김해국제공항국제선청사",
-      "name_th": "BNK부산은행 Money Exchange 김해국제공항국제선청사",
-      "category": "government",
-      "category_detail": "금융,보험 > 외환,환율 > 환전",
-      "address": "부산 강서구 대저2동 2350-1",
-      "phone": "051-971-2643",
-      "map_url": "http://place.map.kakao.com/1526130143",
-      "x": "128.947100588608",
-      "y": "35.1726845564022"
-    },
-    {
       "id": "2097183136",
       "name_ko": "김해알뜰폰",
       "name_en": "김해 Prepaid Mobile Shop",
@@ -4798,32 +4655,6 @@
       "map_url": "http://place.map.kakao.com/20247445",
       "x": "128.744204031265",
       "y": "35.4984702559725"
-    },
-    {
-      "id": "1468737202",
-      "name_ko": "삼성S정형외과연합의원",
-      "name_en": "삼성S Orthopedics Clinic 연합의원",
-      "name_th": "삼성S Orthopedics Clinic 연합의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "경북 청도군 청도읍 청화로 193",
-      "phone": "054-371-8800",
-      "map_url": "http://place.map.kakao.com/1468737202",
-      "x": "128.745918324367",
-      "y": "35.6418257237348"
-    },
-    {
-      "id": "19970506",
-      "name_ko": "마디연합정형외과의원",
-      "name_en": "마디연합 Orthopedics Clinic 의원",
-      "name_th": "마디연합 Orthopedics Clinic 의원",
-      "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외과",
-      "address": "경북 청도군 청도읍 청화로 99",
-      "phone": "054-373-9263",
-      "map_url": "http://place.map.kakao.com/19970506",
-      "x": "128.738253121913",
-      "y": "35.6473092921189"
     },
     {
       "id": "848069249",
