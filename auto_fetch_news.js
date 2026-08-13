@@ -81,7 +81,7 @@ function parseXmlItems(xmlText) {
     let cleanTitle = titleMatch ? cleanText(titleMatch[1]) : '';
     let cleanLink = linkMatch ? linkMatch[1].trim() : '';
     let cleanDesc = descMatch ? cleanText(descMatch[1]) : '';
-    let actualImg = imgMatch ? imgMatch[1] : '';
+    let actualImg = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
 
     if (cleanTitle && cleanLink && cleanTitle.length > 5) {
       items.push({
@@ -203,13 +203,14 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
   const top3 = newsList.slice(0, 3);
   if (sIdx !== -1 && eIdx !== -1 && top3.length > 0) {
     const cardsHtml = top3.map(item => {
-      const thumb = item.image ? item.image : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      const rawThumb = item.image ? item.image.replace(/&amp;/g, '&') : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      const thumb = rawThumb;
       const title = item.title;
       const href = `https://www.koricare.kr/link/news/${item.id}.html?v=20260812_v2`;
 
       return `    <a href="${href}" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #cbd5e1; box-shadow:0 3px 10px rgba(15,23,42,0.05); overflow:hidden; transition:all 0.2s ease;">
       <div style="width:100%; height:100px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-        <img src="${thumb}" alt="${title}" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
       <div style="padding:8px 10px; display:flex; flex-direction:column; flex:1; justify-content:center;">
         <div style="font-size:12px; font-weight:800; color:#002366; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
