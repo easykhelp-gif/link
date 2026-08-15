@@ -2,71 +2,71 @@
   {
     "id": "hotnews_vi_1",
     "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/wm1-wm1-dji-jpg-1786763047-2938-1786763187.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=UpB4hvyeXGxfL26j5DGTGg",
+    "title": "Văn phòng hạng A trống gần 30%",
+    "link": "https://vnexpress.net/van-phong-hang-a-trong-gan-30-5109403.html"
+  },
+  {
+    "id": "hotnews_vi_2",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/wm1-wm1-img-jpeg-1786727993-3566-1786729154.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fIxRJNApth6tsTxpZ29T_Q",
+    "title": "Trúng đấu giá, được cấp sổ đỏ nhưng 19 năm không tìm thấy đất",
+    "link": "https://vnexpress.net/trung-dau-gia-duoc-cap-so-do-nhung-19-nam-khong-tim-thay-dat-5109316.html"
+  },
+  {
+    "id": "hotnews_vi_3",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/akr20241228045500084-i-p4-jpeg-1580-8861-1786762011.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=iSTpJhtjZNaJdzDvAqQIKg",
+    "title": "Chủ nhà hàng Hàn Quốc bị đồng hương đánh tử vong bằng bình khí cười",
+    "link": "https://vnexpress.net/chu-nha-hang-han-quoc-bi-dong-huong-danh-tu-vong-bang-binh-khi-cuoi-5109391.html"
+  },
+  {
+    "id": "hotnews_vi_4",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/15/singapore-1786761231-2247-1786761531.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Gb3-oD7Wyw1O6xkkOAlrTw",
+    "title": "Singapore - Thái Lan: Hứa hẹn bất ngờ ở bán kết ASEAN Cup 2026",
+    "link": "https://vnexpress.net/singapore-thai-lan-hua-hen-bat-ngo-o-ban-ket-asean-cup-2026-5109390.html"
+  },
+  {
+    "id": "hotnews_vi_5",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/15/lai66-1786762974-8349-1786763418.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WAZKiGVPgx2W2Vnmk573fQ",
+    "title": "Phim hoạt hình nổi tiếng vì 'quá dở'",
+    "link": "https://vnexpress.net/phim-hoat-hinh-noi-tieng-vi-qua-do-5109384.html"
+  },
+  {
+    "id": "hotnews_vi_6",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/Sequence01-1786763861-7772-1786763884.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=58AM3z6SQoip9D1nCjOMNQ&t=image",
+    "title": "Khoảnh khắc nhà đổ sập trong động đất 7,7 độ ngoài khơi Indonesia",
+    "link": "https://vnexpress.net/khoanh-khac-nha-do-sap-trong-dong-dat-7-7-do-ngoai-khoi-indonesia-5109405.html"
+  },
+  {
+    "id": "hotnews_vi_7",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/14/21691666254517169638346465701-2697-2027-1786694559.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2okKo6jn6GLaPKqXOg3tVw",
+    "title": "Đường đi của quỹ phụ huynh 40 triệu đồng một năm lớp con tôi",
+    "link": "https://vnexpress.net/quy-phu-huynh-hoc-sinh-de-lam-gi-quy-phu-huynh-40-trieu-mot-nam-cua-lop-con-toi-chi-vao-dau-5109194.html"
+  },
+  {
+    "id": "hotnews_vi_8",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/15/robot-ta-p-di-1786762673-6955-1786762988.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wFTZQr4grOm2RBdgtgTFsQ",
+    "title": "Robot giúp người bệnh đột quỵ tập đi",
+    "link": "https://vnexpress.net/robot-giup-nguoi-benh-dot-quy-tap-di-5109302.html"
+  },
+  {
+    "id": "hotnews_vi_9",
+    "date": "2026-08-15",
     "image": "https://vcdn1-giaitri.vnecdn.net/2026/07/30/huynh-lap-1785406256-2051-1785406564.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=I1JlG_yhYtKScxWct41bZQ",
     "title": "Huỳnh Lập, chàng trai trượt đại học thành đạo diễn ăn khách",
     "link": "https://vnexpress.net/huynh-lap-chang-trai-truot-dai-hoc-thanh-dao-dien-an-khach-5102946.html"
   },
   {
-    "id": "hotnews_vi_2",
+    "id": "hotnews_vi_10",
     "date": "2026-08-15",
     "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/15/Screenshot20260815095218-17867-4076-8619-1786762727.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=ccngqUCMgVU9_CqaDYK0Xw",
     "title": "Công ty mẹ Google lãi gấp 100 lần từ khoản đầu tư vào SpaceX",
     "link": "https://vnexpress.net/cong-ty-me-google-lai-gap-100-lan-tu-khoan-dau-tu-vao-spacex-5109400.html"
-  },
-  {
-    "id": "hotnews_vi_3",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/ben-trong-spa-1786762230-5950-1786762270.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wIHD8cKcPGC1KikiteYT1g",
-    "title": "Giả bác sĩ, vờ tiêm 'tiêm nano canxi trị xương khớp' lừa tiền nhiều người cao tuổi",
-    "link": "https://vnexpress.net/gia-bac-si-vo-tiem-tiem-nano-canxi-tri-xuong-khop-lua-tien-nhieu-nguoi-cao-tuoi-5109396.html"
-  },
-  {
-    "id": "hotnews_vi_4",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/afp20260705b9ay3g4v1highresisr-7678-3859-1786761951.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=eL5u9BeFo55tLqz6pn1Uyw",
-    "title": "Thủ tướng Israel chế giễu Anh là nước 'cộng hòa Hồi giáo'",
-    "link": "https://vnexpress.net/thu-tuong-israel-che-gieu-anh-la-nuoc-cong-hoa-hoi-giao-5109361.html"
-  },
-  {
-    "id": "hotnews_vi_5",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/2-jpg-1786759701-1445-1786759799.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=IcsvzMmh6HRqEw3C5QT8Xw",
-    "title": "Nợ nhiều tiền, mở công ty 'ma' tạo vỏ bọc doanh nhân đi lừa đảo",
-    "link": "https://vnexpress.net/no-nhieu-tien-mo-cong-ty-ma-tao-vo-boc-doanh-nhan-di-lua-dao-5109374.html"
-  },
-  {
-    "id": "hotnews_vi_6",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/14/dsc03631jpg-1786711609-5168-1786711926.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FYLKxDOd0lXkuDOMrrsaCw",
-    "title": "Tác nhân AI của Anthropic 'cản trở, đấu đá' trong thử nghiệm",
-    "link": "https://vnexpress.net/tac-nhan-ai-cua-anthropic-can-tro-dau-da-trong-thu-nghiem-5109287.html"
-  },
-  {
-    "id": "hotnews_vi_7",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-dulich.vnecdn.net/2026/08/14/545387840102326640252520406350-5281-4618-1786677046.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=i3Vk4lq2XeRUTVJ17DNvCQ",
-    "title": "Cẩm nang du lịch bản Tả Van",
-    "link": "https://vnexpress.net/cam-nang-du-lich-ban-ta-van-5108616.html"
-  },
-  {
-    "id": "hotnews_vi_8",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/15/cnv-f-1786759912-8829-1786760058.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=NDzlWitar-EIldNHPO6oAw",
-    "title": "Masan Consumer ứng dụng khoa học cảm quan trong cải tiến sản phẩm",
-    "link": "https://vnexpress.net/masan-consumer-ung-dung-khoa-hoc-cam-quan-trong-cai-tien-san-pham-5109373.html"
-  },
-  {
-    "id": "hotnews_vi_9",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/15/dong1964-copy-1786762437-8022-1786762499.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=eFIZW7g6HiS2Xi96JoOkTQ",
-    "title": "HLV Kim Sang-sik họp báo trước bán kết ASEAN Cup 2026",
-    "link": "https://vnexpress.net/hlv-kim-sang-sik-hop-bao-truoc-ban-ket-asean-cup-2026-5109397.html"
-  },
-  {
-    "id": "hotnews_vi_10",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/thi-the-1786762539-4347-1786762595.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=aWy6qlu4APatn128yao71w",
-    "title": "Thầy giáo phi tang thi thể nữ đồng nghiệp bị bắt",
-    "link": "https://vnexpress.net/thay-giao-phi-tang-thi-the-nu-dong-nghiep-bi-bat-5109382.html"
   }
 ]
