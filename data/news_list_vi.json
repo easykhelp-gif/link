@@ -2,71 +2,71 @@
   {
     "id": "hotnews_vi_1",
     "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/14/vne317516288512259175162899584-6355-9658-1786707082.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=nI0AtMBtw5WW-5O47bjskw",
+    "title": "Nước nào có mỏ đất hiếm lớn nhất thế giới?",
+    "link": "https://vnexpress.net/nuoc-nao-co-mo-dat-hiem-lon-nhat-the-gioi-5109277.html"
+  },
+  {
+    "id": "hotnews_vi_2",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/gemini-generated-image-jrkpz9j-8422-7944-1786767381.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=FZuzzG0qulZtKsYTHR_T4A",
+    "title": "Vợ gọi tên người cũ trong lúc ngủ",
+    "link": "https://vnexpress.net/vo-goi-ten-nguoi-cu-trong-luc-ngu-5109167.html"
+  },
+  {
+    "id": "hotnews_vi_3",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/15/wm1-don-jpg-1786796812.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=anjspU6_hgxnpW_lxyrktQ",
+    "title": "Malaysia chỉ có 16 cầu thủ tập chờ đấu Việt Nam",
+    "link": "https://vnexpress.net/malaysia-chi-co-16-cau-thu-tap-cho-dau-viet-nam-5109552.html"
+  },
+  {
+    "id": "hotnews_vi_4",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/wpdjjedb75lf7bqc5kihfptyzq-178-9561-5947-1786797316.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Tc469axsBZYoBCybbuBpJQ",
+    "title": "Tàu chở dầu UAE bị tấn công ở eo biển Hormuz",
+    "link": "https://vnexpress.net/tau-cho-dau-uae-bi-tan-cong-o-eo-bien-hormuz-5109524.html"
+  },
+  {
+    "id": "hotnews_vi_5",
+    "date": "2026-08-15",
     "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/12/hjg1yw8aan9pv-1786518729.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7Ps2oLjrqO1tjPi68YwBXQ",
     "title": "Dàn sao phim 'Troy' ngày ấy - bây giờ",
     "link": "https://vnexpress.net/dan-sao-phim-troy-ngay-ay-bay-gio-5108306.html"
   },
   {
-    "id": "hotnews_vi_2",
+    "id": "hotnews_vi_6",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/Sequence591-1786796208-6822-1786796216.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=sKsu0nQN6MNED91EkPC80w&t=image",
     "title": "Cô gái giằng co khiến tên cướp bỏ xe máy, chạy bộ trong hẻm TP HCM",
     "link": "https://vnexpress.net/co-gai-giang-co-khien-ten-cuop-bo-xe-may-chay-bo-trong-hem-tp-hcm-5109550.html"
   },
   {
-    "id": "hotnews_vi_3",
+    "id": "hotnews_vi_7",
     "date": "2026-08-15",
     "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/15/ba-n-sao-cu-a-huya2860-1786790-2582-1171-1786790335.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BrcEOTmSqDHgWcOi31LvMA",
     "title": "Thời trang Elise đồng hành Miss World 2026",
     "link": "https://vnexpress.net/thoi-trang-elise-dong-hanh-miss-world-2026-5109531.html"
   },
   {
-    "id": "hotnews_vi_4",
+    "id": "hotnews_vi_8",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/wm1wm1thivao10thpttranphu-1786-4172-3519-1786778213.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qnIBTJxuJWorhEQvqu3fRA",
     "title": "'Bỏ môn thứ ba thi vào lớp 10 - giảm tải hay áp lực lớn hơn?'",
     "link": "https://vnexpress.net/mon-thi-thu-ba-vao-lop-10-ap-luc-khung-khiep-khi-bo-mon-thu-ba-thi-vao-lop-10-5109437.html"
   },
   {
-    "id": "hotnews_vi_5",
+    "id": "hotnews_vi_9",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/TrusoConganBaRiaVungTau-178679-5803-8758-1786791504.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=pN9dRxp7-qJVFJmy9_2ZfA",
     "title": "Trụ sở Công an Bà Rịa - Vũng Tàu cũ thành trường nội trú gần 900 học sinh",
     "link": "https://vnexpress.net/tru-so-cong-an-ba-ria-vung-tau-cu-thanh-truong-noi-tru-gan-900-hoc-sinh-5109537.html"
   },
   {
-    "id": "hotnews_vi_6",
+    "id": "hotnews_vi_10",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/2aOboQrgzTrjSoaOHl9xOq8BuBJuYk-7927-8999-1786797055.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qWZtkzdB8MnGMCtfENfpRQ",
     "title": "Giám đốc Ban Quản lý dự án Đầu tư xây dựng và Phát triển đô thị thành phố Huế bị bắt",
     "link": "https://vnexpress.net/giam-doc-ban-quan-ly-du-an-dau-tu-xay-dung-va-phat-trien-do-thi-thanh-pho-hue-bi-bat-5109551.html"
-  },
-  {
-    "id": "hotnews_vi_7",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/afp-c4pu6cb-v2-highres-indones-1273-4160-1786785202.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=j0qjxc3jm-SG6PxpD0X0kA",
-    "title": "Phút tháo chạy của người dân Indonesia giữa động đất 7,7 độ",
-    "link": "https://vnexpress.net/phut-thao-chay-cua-nguoi-dan-indonesia-giua-dong-dat-7-7-do-5109502.html"
-  },
-  {
-    "id": "hotnews_vi_8",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/xa-muong-kim-1786793824-1850-1786793893.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=8z4xrK7Hi9nP60AUA4kT7g",
-    "title": "Bắc Bộ và Bắc Trung Bộ sắp mưa lớn 300-450 mm",
-    "link": "https://vnexpress.net/bac-bo-va-bac-trung-bo-sap-mua-lon-300-450-mm-5109545.html"
-  },
-  {
-    "id": "hotnews_vi_9",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/87ae7095d59cdc49a7b7f8e1d-1786-8268-6596-1786795412.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=UTEq6rdggxuoUEXKqhD4Og",
-    "title": "Hà Nội sắp có thêm 6.000 camera AI giao thông",
-    "link": "https://vnexpress.net/ha-noi-sap-co-them-6-000-camera-ai-giao-thong-5109548.html"
-  },
-  {
-    "id": "hotnews_vi_10",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/pottel-jpg-1786792861-2426-1786792872.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0QubWBhImYOeYR44EJUcLg",
-    "title": "Thêm nhà mạng mới gia nhập thị trường di động",
-    "link": "https://vnexpress.net/them-nha-mang-moi-gia-nhap-thi-truong-di-dong-5109539.html"
   }
 ]
