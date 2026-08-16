@@ -1,72 +1,72 @@
 [
   {
     "id": "hotnews_vi_1",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/anh-man-hinh-luc-1786837205-7087-1786837236.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=-0tx3ahsQc8rEXy3lq11HQ",
+    "title": "Máy bay Việt Nam quay đầu hạ cánh ở Munich",
+    "link": "https://vnexpress.net/may-bay-viet-nam-quay-dau-ha-canh-o-munich-5109601.html"
+  },
+  {
+    "id": "hotnews_vi_2",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-giadinh.vnecdn.net/2026/08/15/01-jpeg-1786754988-8859-1786755643.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MUcuIpYp-WykUjaM0bDJ-g",
+    "title": "Bán nhà, làm vườn hoa 80 ha tặng vợ",
+    "link": "https://vnexpress.net/ban-nha-lam-vuon-hoa-80-ha-tang-vo-5109354.html"
+  },
+  {
+    "id": "hotnews_vi_3",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-dulich.vnecdn.net/2026/08/14/2hgb6f3quzkewy5pzpkgyrn7ybbhuifcnaqa-1786686163.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5lfRKM6Jd1TV-yxp2jf1Pw",
+    "title": "Bánh mì chảo 345.000 đồng ở TP HCM",
+    "link": "https://vnexpress.net/banh-mi-chao-345-000-dong-o-tp-hcm-5108448.html"
+  },
+  {
+    "id": "hotnews_vi_4",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/4a-1786769799.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=J1-z480IfvlrRAWO0RdG2g",
+    "title": "Nhà ba thế hệ thu nhỏ phòng riêng để nới không gian chung",
+    "link": "https://vnexpress.net/nha-ba-the-he-thu-nho-phong-rieng-de-noi-khong-gian-chung-5109446.html"
+  },
+  {
+    "id": "hotnews_vi_5",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/16/wm1-81-mua-binh-yen-1786833713.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=oVbpOzuNSVVo-S9A5p1g8A",
+    "title": "Đêm nghệ thuật '81 mùa bình yên' tôn vinh lực lượng công an thủ đô",
+    "link": "https://vnexpress.net/dem-nghe-thuat-81-mua-binh-yen-ton-vinh-luc-luong-cong-an-thu-do-5109587.html"
+  },
+  {
+    "id": "hotnews_vi_6",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/matuy-jpeg-jpe-jpeg-1786802923-3622-1786803572.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=i3XHclHS51x5YmCgpDHkWw",
+    "title": "Những điểm đặc biệt trong đại án ma túy bắt nguồn từ 4 valy của tiếp viên hàng không",
+    "link": "https://vnexpress.net/nhung-diem-dac-biet-trong-dai-an-ma-tuy-bat-nguon-tu-4-valy-cua-tiep-vien-hang-khong-5109529.html"
+  },
+  {
+    "id": "hotnews_vi_7",
+    "date": "2026-08-15",
+    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/07/screenshot-at-1786078475-5338-1786078866.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=vG9Wew5G6bpegQNGL9usDg",
+    "title": "Ảo giác điện thoại rung ở người trẻ",
+    "link": "https://vnexpress.net/ao-giac-dien-thoai-rung-o-nguoi-tre-5106317.html"
+  },
+  {
+    "id": "hotnews_vi_8",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/havard-1786812124-1510-1786812371.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KqQZLMubngWVBVnR1aOr0A",
     "title": "20 đại học tốt nhất thế giới về học thuật năm 2026",
     "link": "https://vnexpress.net/20-dai-hoc-tot-nhat-the-gioi-ve-hoc-thuat-nam-2026-5109583.html"
   },
   {
-    "id": "hotnews_vi_2",
+    "id": "hotnews_vi_9",
     "date": "2026-08-15",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/14/afp-a2fw8nq-v2-highres-topshot-9057-2892-1786682717.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WggdSo-ms-N-t4zcGvCpWA",
     "title": "Tính toán của Lãnh tụ Tối cao Iran khi cải tổ bộ máy an ninh",
     "link": "https://vnexpress.net/tinh-toan-cua-lanh-tu-toi-cao-iran-khi-cai-to-bo-may-an-ninh-5108964.html"
   },
   {
-    "id": "hotnews_vi_3",
+    "id": "hotnews_vi_10",
     "date": "2026-08-15",
     "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/13/wm1-wm1-screenshot-at-1786611847-9182-1786611978.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=2DJTnsZyUWR67o5wONicOA",
     "title": "3 lợi ích sức khỏe khi duy trì ăn trứng gà mỗi ngày",
     "link": "https://vnexpress.net/3-loi-ich-suc-khoe-khi-duy-tri-an-trung-ga-moi-ngay-5108800.html"
-  },
-  {
-    "id": "hotnews_vi_4",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/12/catrich-7-1786526969.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Q51_0ndEsOVRW_STlx9A-Q",
-    "title": "Thuyền thúng đầy ắp cá trích về bờ biển Long Hải",
-    "link": "https://vnexpress.net/thuyen-thung-day-ap-ca-trich-ve-bo-bien-long-hai-5108289.html"
-  },
-  {
-    "id": "hotnews_vi_5",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/12/wm1-wm1-img-1786504122-5593-1786505835.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nyU5bnUSNZEPNn_IyCr3Sw",
-    "title": "Trung Quốc chiếm 97% sản lượng robot hình người",
-    "link": "https://vnexpress.net/trung-quoc-chiem-97-san-luong-robot-hinh-nguoi-5108147.html"
-  },
-  {
-    "id": "hotnews_vi_6",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/CATL1-1786762728-7140-1786763535.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d-UvgKrla1pZENoGl7zHDQ",
-    "title": "'Gã khổng lồ' pin xe điện mở rộng dịch vụ sửa từng cell ra toàn thế giới",
-    "link": "https://vnexpress.net/ga-khong-lo-pin-xe-dien-mo-rong-dich-vu-sua-tung-cell-ra-toan-the-gioi-5109387.html"
-  },
-  {
-    "id": "hotnews_vi_7",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/15/ezgif75e3da84de6af8f5-17867657-9997-8652-1786766344.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=Yix1_jshv57p5zjzCep3TA&t=image",
-    "title": "Cách cảnh sát thử nghiệm xe như thực tế",
-    "link": "https://vnexpress.net/cach-canh-sat-thu-nghiem-xe-nhu-thuc-te-5108775.html"
-  },
-  {
-    "id": "hotnews_vi_8",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/14/img-1786697234-7123-1786697257.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wBLiqipdgTmVtEyg5wjLWQ",
-    "title": "Những thói quen đơn giản mỗi ngày giúp thận khỏe",
-    "link": "https://vnexpress.net/nhung-thoi-quen-don-gian-moi-ngay-giup-than-khoe-5109215.html"
-  },
-  {
-    "id": "hotnews_vi_9",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/14/kho-ngu-1786699131-6800-1786699160.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=z2zkQG4oxIME1lexyO8FZA",
-    "title": "Vì sao khó ngủ, dễ tỉnh giấc ban đêm?",
-    "link": "https://vnexpress.net/vi-sao-kho-ngu-de-tinh-giac-ban-dem-5109230.html"
-  },
-  {
-    "id": "hotnews_vi_10",
-    "date": "2026-08-15",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/14/nh-1786697606-6856-1786698417.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=NQzdaW7dgw_A8fA0Es8piw",
-    "title": "Ba lần Iran khiến Israel 'đứng hình' vì tốc độ phục hồi kho tên lửa",
-    "link": "https://vnexpress.net/ba-lan-iran-khien-israel-dung-hinh-vi-toc-do-phuc-hoi-kho-ten-lua-5109147.html"
   }
 ]
