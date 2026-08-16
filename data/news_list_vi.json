@@ -2,71 +2,71 @@
   {
     "id": "hotnews_vi_1",
     "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/Cuungudan-1786894579-7955-1786894820.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=tbwUMyQSeRDUr4NYZd7C2g&t=image",
+    "title": "Tàu Hải quân cứu người đàn ông trôi dạt ngoài khơi Vũng Tàu",
+    "link": "https://vnexpress.net/tau-hai-quan-cuu-nguoi-dan-ong-troi-dat-ngoai-khoi-vung-tau-5109787.html"
+  },
+  {
+    "id": "hotnews_vi_2",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/16/1786888326403-g651265587011251-4155-8724-1786893837.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rupGZuXOZ8YLHvirbpN_BA",
+    "title": "Xuân Son phá kỷ lục ghi bàn của Việt Nam ở vòng knock-out ASEAN Cup",
+    "link": "https://vnexpress.net/xuan-son-pha-ky-luc-ghi-ban-cua-viet-nam-o-vong-knock-out-asean-cup-5109781.html"
+  },
+  {
+    "id": "hotnews_vi_3",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/Anhmanhinh20260816luc221139-17-4216-5210-1786893293.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=viud10QRff9MZEC9SgvvfQ",
+    "title": "Lê Giang Patrik thoát thẻ đỏ nhờ VAR",
+    "link": "https://vnexpress.net/le-giang-patrik-thoat-the-do-nho-var-5109772.html"
+  },
+  {
+    "id": "hotnews_vi_4",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/13/umich2-1786597483-2879-1786597517.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Slg0hgLjU08eAIR1-0gulg",
+    "title": "Đại học công top 3 Mỹ 'giấu điểm' để sinh viên bớt áp lực",
+    "link": "https://vnexpress.net/dai-hoc-cong-top-3-my-giau-diem-de-sinh-vien-bot-ap-luc-5108687.html"
+  },
+  {
+    "id": "hotnews_vi_5",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/16/dong4157-jpg-1786886050-7654-1786886516.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=UxcldkNXSDIwO6eDai2e_g",
+    "title": "HLV Kim Sang-sik: 'Tôi chưa thỏa mãn với trận thắng Malaysia'",
+    "link": "https://vnexpress.net/hlv-kim-sang-sik-toi-chua-thoa-man-voi-tran-thang-malaysia-5109763.html"
+  },
+  {
+    "id": "hotnews_vi_6",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/16/vochongbeckham-1786890446-7756-1786890716.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=DFM4X8kOi-uf2FETqoDblQ",
+    "title": "Vợ chồng David Beckham về nơi hẹn hò 29 năm trước",
+    "link": "https://vnexpress.net/vo-chong-david-beckham-ve-noi-hen-ho-29-nam-truoc-5109770.html"
+  },
+  {
+    "id": "hotnews_vi_7",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/anh-thanh-ke-lai-su-viec-17868-2785-8124-1786886285.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7K84zIU1B5Nq55866DP7Jw",
+    "title": "10 tiếng bơi tìm đường sống của người đàn ông cào nghêu",
+    "link": "https://vnexpress.net/10-tieng-boi-tim-duong-song-cua-nguoi-dan-ong-cao-ngheu-5109761.html"
+  },
+  {
+    "id": "hotnews_vi_8",
+    "date": "2026-08-16",
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/Sequence02ezgifcomresize-17868-4047-8145-1786891050.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=2kjZOpfbHk4q4lF2j-SUMg&t=image",
+    "title": "Cú tung người đánh đầu của Xuân Son mở tỷ số trước Malaysia",
+    "link": "https://vnexpress.net/cu-tung-nguoi-danh-dau-cua-xuan-son-mo-ty-so-truoc-malaysia-5109774.html"
+  },
+  {
+    "id": "hotnews_vi_9",
+    "date": "2026-08-16",
     "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/nh-1786884853-2007-1786885177.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=veob5S8WbOFEn56YSWZ_qg",
     "title": "Hàn Quốc nổ súng cảnh cáo binh sĩ Triều Tiên vượt giới tuyến",
     "link": "https://vnexpress.net/han-quoc-no-sung-canh-cao-binh-si-trieu-tien-vuot-gioi-tuyen-5109753.html"
   },
   {
-    "id": "hotnews_vi_2",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/wm1-2aoboqrxoxwoxzxk1ioldu0jstqvwnsp4hsshtwe-1786890066.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Rd_i6_ItGsKmb3mb7AZYqQ",
-    "title": "CĐV ở phố đi bộ Nguyễn Huệ vỡ oà khi Xuân Son mở tỷ số",
-    "link": "https://vnexpress.net/cdv-o-pho-di-bo-nguyen-hue-vo-oa-khi-xuan-son-mo-ty-so-5109762.html"
-  },
-  {
-    "id": "hotnews_vi_3",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/GeminiGeneratedImagegg1c22gg1c-6067-9034-1786869877.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=uyvsmb_SmAwrtpyAmKamzg",
-    "title": "Đêm tân hôn, tôi đã muốn bỏ chồng vì anh đòi giữ hết tiền, vàng",
-    "link": "https://vnexpress.net/dem-tan-hon-toi-da-muon-bo-chong-vi-anh-doi-giu-het-tien-vang-5109713.html"
-  },
-  {
-    "id": "hotnews_vi_4",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/wm1-wm1-unknown-1786884812-9370-1786885196.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1hopGfZvt5Aex2Q_NyJGqw",
-    "title": "Bố trí hành trình thay thế cho 240 hành khách từ Munich về Hà Nội",
-    "link": "https://vnexpress.net/bo-tri-hanh-trinh-thay-the-cho-240-hanh-khach-tu-munich-ve-ha-noi-5109757.html"
-  },
-  {
-    "id": "hotnews_vi_5",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/1786883580448-1786886826-8529-1786886858.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=x5-qPZgFSgFUjwBIhsnv6w",
-    "title": "Cháy lớn tại quán bánh mì Vợ Anh ở Hải Phòng",
-    "link": "https://vnexpress.net/chay-lon-tai-quan-banh-mi-vo-anh-o-hai-phong-5109756.html"
-  },
-  {
-    "id": "hotnews_vi_6",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/16/a-nh-ma-n-hi-nh-lu-c-178688947-3878-2034-1786889482.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=Iyi8u5ARC37ndOoTMUaktQ",
-    "title": "Arsenal 2-0 Man City (H1): Havertz nhân đôi cách biệt",
-    "link": "https://vnexpress.net/arsenal-man-city-mo-man-mua-giai-moi-5109652.html"
-  },
-  {
-    "id": "hotnews_vi_7",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/Settop-1786880812-3051-1786881601.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=Uith4p7_OhN2zdTMW78erw&t=image",
-    "title": "Nga tập kích 'nhà máy tên lửa Flamingo, UAV' ở Kiev",
-    "link": "https://vnexpress.net/nga-tap-kich-nha-may-ten-lua-flamingo-uav-o-kiev-5109742.html"
-  },
-  {
-    "id": "hotnews_vi_8",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/20220526164502rotomairewhenu17-4772-5021-1786878901.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=KuMBQFjJiQo4ObKIJHbdfg",
-    "title": "Quốc gia nào có 'hồ nước trong xanh nhất thế giới'?",
-    "link": "https://vnexpress.net/quoc-gia-nao-co-ho-nuoc-trong-xanh-nhat-the-gioi-5109747.html"
-  },
-  {
-    "id": "hotnews_vi_9",
-    "date": "2026-08-16",
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/15/1-mam-com-chung-1786787690-6574-1786787791.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=2gPqfpaCLdb3Zqec54H7-A",
-    "title": "Ba thói quen 'vừa đủ' giúp đẩy lui bệnh tật",
-    "link": "https://vnexpress.net/ba-thoi-quen-vua-du-giup-day-lui-benh-tat-5109520.html"
-  },
-  {
     "id": "hotnews_vi_10",
     "date": "2026-08-16",
-    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/16/hoa-hau-thanh-thuy-1786884441-8645-1786884448.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7nCWhURSbO9smbGuac6BWg",
-    "title": "Thanh Thủy gây sốt về sắc vóc",
-    "link": "https://vnexpress.net/thanh-thuy-gay-sot-ve-sac-voc-5109715.html"
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/16/2aoboqrxpxyknlbunqbymyohapjq0j4e0efkz8lm-1786892598.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=aGBpbv2dQ-JPHnWOZj6Nng",
+    "title": "CĐV ở phố đi bộ Nguyễn Huệ reo hò khi Việt Nam thắng Malaysia 2-0",
+    "link": "https://vnexpress.net/cdv-o-pho-di-bo-nguyen-hue-reo-ho-khi-viet-nam-thang-malaysia-2-0-5109762.html"
   }
 ]
