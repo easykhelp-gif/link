@@ -1,72 +1,72 @@
 [
   {
     "id": "hotnews_en_1",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817000252315_01_i_P2.jpg",
+    "title": "(2nd LD) Trump orders Pentagon to 'substantially' reduce S. Korea-U.S. military exercises",
+    "link": "https://en.yna.co.kr/view/AEN20260817000252315"
+  },
+  {
+    "id": "hotnews_en_2",
+    "date": "2026-08-17",
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Aug. 17)",
+    "link": "https://en.yna.co.kr/view/AEN20260817000800315"
+  },
+  {
+    "id": "hotnews_en_3",
+    "date": "2026-08-17",
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20260817000700315"
+  },
+  {
+    "id": "hotnews_en_4",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817128001009_P2.jpg",
+    "title": "2 S. Koreans finish top 5 in 1st PGA Tour playoff event, move up in key standings",
+    "link": "https://en.yna.co.kr/view/AEN20260817000300315"
+  },
+  {
+    "id": "hotnews_en_5",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/13/PYH2026081306750006000_P2.jpg",
+    "title": "Key S. Korea-U.S. military drills begin amid OPCON transition push",
+    "link": "https://en.yna.co.kr/view/AEN20260814009400315"
+  },
+  {
+    "id": "hotnews_en_6",
     "date": "2026-08-16",
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817000251315_01_i_P2.jpg",
     "title": "(LEAD) Trump says he instructed Pentagon chief to 'substantially' reduce S. Korea-U.S. military drills",
     "link": "https://en.yna.co.kr/view/AEN20260817000251315"
   },
   {
-    "id": "hotnews_en_2",
+    "id": "hotnews_en_7",
     "date": "2026-08-16",
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817000200315_01_i_P2.jpg",
     "title": "Trump says he instructed Pentagon chief to 'substantially' reduce S. Korea-U.S. military drills",
     "link": "https://en.yna.co.kr/view/AEN20260817000200315"
   },
   {
-    "id": "hotnews_en_3",
+    "id": "hotnews_en_8",
     "date": "2026-08-16",
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/16/PYH2026081603430005200_P2.jpg",
     "title": "Heavy rainfall offers drought relief, causes damage in southeastern region",
     "link": "https://en.yna.co.kr/view/AEN20260816003400315"
   },
   {
-    "id": "hotnews_en_4",
+    "id": "hotnews_en_9",
     "date": "2026-08-16",
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/16/AEN20260816003300315_01_i_P2.jpg",
     "title": "Google takes down 449 S. Korean YouTube channels in Q2 over political content",
     "link": "https://en.yna.co.kr/view/AEN20260816003300315"
   },
   {
-    "id": "hotnews_en_5",
+    "id": "hotnews_en_10",
     "date": "2026-08-16",
     "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/13/PEP20260813242701009_P2.jpg",
     "title": "(LEAD) Director Hong Sang-soo, actor Kim Min-hee win awards at Locarno Film Festival",
     "link": "https://en.yna.co.kr/view/AEN20260816001751315"
-  },
-  {
-    "id": "hotnews_en_6",
-    "date": "2026-08-16",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/16/PYH2026081604440001300_P2.jpg",
-    "title": "Ex-PM Kim wins capital region primaries in ruling party leadership race",
-    "link": "https://en.yna.co.kr/view/AEN20260816002900315"
-  },
-  {
-    "id": "hotnews_en_7",
-    "date": "2026-08-16",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/16/AEN20260816002800315_01_i_P2.jpg",
-    "title": "Sports organization to host int'l academic conference to celebrate 1988 Seoul Olympics",
-    "link": "https://en.yna.co.kr/view/AEN20260816002800315"
-  },
-  {
-    "id": "hotnews_en_8",
-    "date": "2026-08-16",
-    "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/16/PGT20260816324901009_P2.jpg",
-    "title": "Son Heung-min's MLS scoring streak snapped at 4 matches",
-    "link": "https://en.yna.co.kr/view/AEN20260816002700315"
-  },
-  {
-    "id": "hotnews_en_9",
-    "date": "2026-08-16",
-    "image": "https://img.yna.co.kr/photo/reuters/2026/08/13/PRU20260813208301009_P2.jpg",
-    "title": "Bae Ji-hwan designated for assignment by Brewers",
-    "link": "https://en.yna.co.kr/view/AEN20260816002600315"
-  },
-  {
-    "id": "hotnews_en_10",
-    "date": "2026-08-16",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/16/AEN20260816001800320_01_i_P2.jpg",
-    "title": "Stock loans on roll amid market rebound",
-    "link": "https://en.yna.co.kr/view/AEN20260816001800320"
   }
 ]
