@@ -314,7 +314,7 @@ function updateIndexHtml(guides) {
     const updated = content.slice(0, sIdx + startM.length) + 
       '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
       cardsHtml + 
-      '\n    <a href="en/guides/index.html" style="display:block; text-align:center; padding:12px; background:#eff6ff; color:#1e40af; border-radius:12px; font-weight:700; text-decoration:none; margin-top:16px; transition: background 0.2s;" onmouseover="this.style.background=\'#dbeafe\'" onmouseout="this.style.background=\'#eff6ff\'">View All Guides ➔</a>\n  </div>\n  ' + content.slice(eIdx);
+      '\n    <a href="en/guides/index.html" style="display:flex; justify-content:center; align-items:center; gap:8px; padding:14px; background:#ffffff; color:#1e40af; border:1.5px solid #bfdbfe; border-radius:14px; font-weight:800; font-size:15px; text-decoration:none; margin-top:16px; transition:all 0.2s ease; box-shadow:0 2px 6px rgba(37,99,235,0.06);" onmouseover="this.style.background=\'#eff6ff\'; this.style.transform=\'translateY(-2px)\'; this.style.boxShadow=\'0 4px 12px rgba(37,99,235,0.12)\';" onmouseout="this.style.background=\'#ffffff\'; this.style.transform=\'translateY(0)\'; this.style.boxShadow=\'0 2px 6px rgba(37,99,235,0.06)\';">View All Guides ➔</a>\n  </div>\n  ' + content.slice(eIdx);
     
     fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
     
@@ -346,7 +346,7 @@ function updateIndexHtml(guides) {
         let up = c.slice(0, c.indexOf(startM) + startM.length) + 
           '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
           langCards + 
-          `\n    <a href="guides/index.html" style="display:block; text-align:center; padding:12px; background:#eff6ff; color:#1e40af; border-radius:12px; font-weight:700; text-decoration:none; margin-top:16px; transition: background 0.2s;" onmouseover="this.style.background='#dbeafe'" onmouseout="this.style.background='#eff6ff'">${viewAllText}</a>\n  </div>\n  ` + c.slice(c.indexOf(endM));
+          `\n    <a href="guides/index.html" style="display:flex; justify-content:center; align-items:center; gap:8px; padding:14px; background:#ffffff; color:#1e40af; border:1.5px solid #bfdbfe; border-radius:14px; font-weight:800; font-size:15px; text-decoration:none; margin-top:16px; transition:all 0.2s ease; box-shadow:0 2px 6px rgba(37,99,235,0.06);" onmouseover="this.style.background='#eff6ff'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(37,99,235,0.12)';" onmouseout="this.style.background='#ffffff'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 6px rgba(37,99,235,0.06)';">${viewAllText}</a>\n  </div>\n  ` + c.slice(c.indexOf(endM));
         fs.writeFileSync(p, up, 'utf-8');
       }
     });
