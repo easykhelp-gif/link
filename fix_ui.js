@@ -56,15 +56,6 @@ const originalGoodUI = `  <!-- Local Directory Section -->
 
     <div id="localGrid" style="margin-top:16px; display:flex; flex-direction:column; width:100%;"></div>
 
-    <!-- SEO Links Block -->
-    <details style="margin-top:16px; border:1px solid #e2e8f0; border-radius:12px; padding:12px; background:#f8fafc;">
-      <summary style="font-size:13px; font-weight:700; color:#64748b; cursor:pointer; outline:none; list-style:none; text-align:center;">
-        View All Regional Directories (Sitemap)
-      </summary>
-      <div style="margin-top:16px; display:grid; grid-template-columns:1fr 1fr; gap:12px; text-align:left;">
-${seoLinks}
-      </div>
-    </details>
   </div>`;
 
 const files = [

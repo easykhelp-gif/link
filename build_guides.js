@@ -314,7 +314,7 @@ function updateIndexHtml(guides) {
     const updated = content.slice(0, sIdx + startM.length) + 
       '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
       cardsHtml + 
-      '\n  </div>\n  ' + content.slice(eIdx);
+      '\n    <a href="en/guides/index.html" style="display:block; text-align:center; padding:12px; background:#eff6ff; color:#1e40af; border-radius:12px; font-weight:700; text-decoration:none; margin-top:16px; transition: background 0.2s;" onmouseover="this.style.background=\'#dbeafe\'" onmouseout="this.style.background=\'#eff6ff\'">View All Guides ➔</a>\n  </div>\n  ' + content.slice(eIdx);
     
     fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
     
@@ -342,10 +342,11 @@ function updateIndexHtml(guides) {
         </a>`;
         }).join('\n');
         
+        let viewAllText = lang === 'th' ? 'ดูคู่มือทั้งหมด ➔' : 'Xem tất cả Hướng dẫn ➔';
         let up = c.slice(0, c.indexOf(startM) + startM.length) + 
           '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
           langCards + 
-          '\n  </div>\n  ' + c.slice(c.indexOf(endM));
+          `\n    <a href="guides/index.html" style="display:block; text-align:center; padding:12px; background:#eff6ff; color:#1e40af; border-radius:12px; font-weight:700; text-decoration:none; margin-top:16px; transition: background 0.2s;" onmouseover="this.style.background='#dbeafe'" onmouseout="this.style.background='#eff6ff'">${viewAllText}</a>\n  </div>\n  ` + c.slice(c.indexOf(endM));
         fs.writeFileSync(p, up, 'utf-8');
       }
     });
