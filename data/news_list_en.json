@@ -1,33 +1,5 @@
 [
   {
-    "id": "hotnews_en_ac3f9cdd",
-    "date": "2026-08-14",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814007600315_01_i_P2.jpg",
-    "title": "Only .400 hitter in S. Korean baseball history in critical condition",
-    "link": "https://en.yna.co.kr/view/AEN20260814007600315"
-  },
-  {
-    "id": "hotnews_en_ed88d874",
-    "date": "2026-08-14",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814007700315_01_i_P2.jpg",
-    "title": "U.S. favorability for BTS hits record 46 pct in Q2: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260814007700315"
-  },
-  {
-    "id": "hotnews_en_d5daa8b7",
-    "date": "2026-08-14",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/13/PYH2026081315110006300_P2.jpg",
-    "title": "Gov't provides 77.8 bln won to Homeplus workers over 5 months",
-    "link": "https://en.yna.co.kr/view/AEN20260814007800320"
-  },
-  {
-    "id": "hotnews_en_c9d69c26",
-    "date": "2026-08-14",
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Seoul shares spike for 5th straight day on chip rally",
-    "link": "https://en.yna.co.kr/view/AEN20260814007900320"
-  },
-  {
     "id": "hotnews_en_15e30cb8",
     "date": "2026-08-14",
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081401710001300_P2.jpg",
@@ -348,5 +320,33 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/15/PYH2026081502830001300_P2.jpg",
     "title": "Lee calls for swift measures to minimize damage from heavy rains",
     "link": "https://en.yna.co.kr/view/AEN20260817003300315"
+  },
+  {
+    "id": "hotnews_en_1659bb93",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/ap/2023/12/14/PAP20231214120101009_P2.jpg",
+    "title": "Pentagon says 'no changes' to announce about ongoing S. Korea-U.S. exercise",
+    "link": "https://en.yna.co.kr/view/AEN20260818000200315"
+  },
+  {
+    "id": "hotnews_en_2368c934",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Trump says N. Korea's Kim has responded to him",
+    "link": "https://en.yna.co.kr/view/AEN20260818000300315"
+  },
+  {
+    "id": "hotnews_en_00465e05",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Trump says N. Korea's Kim has treated him with great respect",
+    "link": "https://en.yna.co.kr/view/AEN20260818000400315"
+  },
+  {
+    "id": "hotnews_en_98f7b1ff",
+    "date": "2026-08-17",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Trump says he gets along with Kim 'very well,' is making things safer",
+    "link": "https://en.yna.co.kr/view/AEN20260818000500315"
   }
 ]

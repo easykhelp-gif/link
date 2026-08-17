@@ -244,8 +244,8 @@ async function runPipeline() {
     
     generatedNewsCards.push({
       title: news.title,
-      link: articleLinkPath,
-      imgPath: news.localImgPath
+      link: "../" + articleLinkPath,
+      imgPath: news.localImgPath.startsWith("koricare_main_logo_nobg") ? "https://www.koricare.kr/link/koricare_main_logo_nobg.png" : "../" + news.localImgPath
     });
   }
   
