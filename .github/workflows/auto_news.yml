@@ -28,6 +28,7 @@ jobs:
         run: |
           node auto_fetch_news.js
           node build_guides.js
+          node check_links.js
 
       - name: Commit & Push Live News Updates
         run: |

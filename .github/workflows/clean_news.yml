@@ -1,0 +1,32 @@
+name: 40-Day Old News Auto Cleanup
+
+on:
+  schedule:
+    # 19:00 UTC = 04:00 KST
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Run Cleanup Script
+        run: node clean_old_news.js
+          
+      - name: Commit & Push Deleted Files
+        run: |
+          git config --global user.name "Theo Park AutoBot"
+          git config --global user.email "koricare.help@gmail.com"
+          git add news/ || true
+          git diff-index --quiet HEAD || (git commit -m "Auto: Delete news older than 40 days" && git push origin main)
