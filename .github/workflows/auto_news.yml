@@ -2,8 +2,8 @@ name: 1-Hour Auto News Scraper & Live Deployment
 
 on:
   schedule:
-    # Run every 1 hour (cron: '0 * * * *')
-    - cron: '0 * * * *'
+    # Run every 4 hours (cron: '0 */4 * * *')
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
