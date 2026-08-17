@@ -1,0 +1,16 @@
+[
+  {
+    "id": "life_001",
+    "category": "life",
+    "title_en": "How to Use Public Transport in Korea",
+    "title_th": "วิธีใช้ระบบขนส่งสาธารณะในเกาหลี",
+    "title_vi": "Cách sử dụng giao thông công cộng tại Hàn Quốc",
+    "title_ko": "한국 대중교통 이용 방법",
+    "image": "https://www.koricare.kr/link/koricare_main_logo_nobg.png",
+    "date": "2026-08-17",
+    "content_en": "<p>In South Korea, you can use a T-Money card for subways, buses, and taxis. You can buy and recharge it at any convenience store.</p><p>Transferring between bus and subway is free within 30 minutes.</p>",
+    "content_th": "<p>ในเกาหลีใต้ คุณสามารถใช้บัตร T-Money สำหรับรถไฟใต้ดิน รถบัส และแท็กซี่ สามารถซื้อและเติมเงินได้ที่ร้านสะดวกซื้อทุกแห่ง</p><p>การเปลี่ยนสายระหว่างรถบัสและรถไฟใต้ดินฟรีภายใน 30 นาที</p>",
+    "content_vi": "<p>Tại Hàn Quốc, bạn có thể sử dụng thẻ T-Money cho tàu điện ngầm, xe buýt và taxi. Bạn có thể mua và nạp tiền tại bất kỳ cửa hàng tiện lợi nào.</p><p>Chuyển đổi giữa xe buýt và tàu điện ngầm miễn phí trong vòng 30 phút.</p>",
+    "content_ko": "<p>한국에서는 지하철, 버스, 택시에서 티머니 카드를 사용할 수 있습니다. 편의점에서 구매 및 충전이 가능합니다.</p><p>버스-지하철 환승은 30분 내에 무료입니다.</p>"
+  }
+]
