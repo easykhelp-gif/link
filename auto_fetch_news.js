@@ -281,13 +281,7 @@ async function runPipeline() {
     const keptList = existingList.slice(0, 50);
     const removedList = existingList.slice(50);
     
-    // Delete old files
-    for (const oldItem of removedList) {
-      const oldPath = path.join(NEWS_DIR, `${oldItem.id}.html`);
-      if (fs.existsSync(oldPath)) {
-        fs.unlinkSync(oldPath);
-      }
-    }
+    // HTML files are kept permanently to prevent 404s.
 
     fs.writeFileSync(dataPath, JSON.stringify(keptList, null, 2), 'utf-8');
     const newsList = keptList;

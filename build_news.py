@@ -20,7 +20,7 @@ for d in [DATA_DIR, NEWS_DIR]:
     if not os.path.exists(d):
         os.makedirs(d)
 
-def generate_sitemap(existing_news):
+def :
     """Generates a standard XML sitemap for search engines."""
     sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
     xml_lines = [
@@ -52,6 +52,21 @@ def generate_sitemap(existing_news):
         xml_lines.append('    <priority>0.8</priority>')
         xml_lines.append('  </url>')
         
+    dir_sitemap_path = os.path.join(DATA_DIR, "directory_sitemap.json")
+    if os.path.exists(dir_sitemap_path):
+        try:
+            with open(dir_sitemap_path, "r", encoding="utf-8") as f:
+                dir_urls = json.load(f)
+            for d in dir_urls:
+                xml_lines.append('  <url>')
+                xml_lines.append(f'    <loc>{d["loc"]}</loc>')
+                xml_lines.append(f'    <lastmod>{d["lastmod"]}</lastmod>')
+                xml_lines.append(f'    <changefreq>{d["changefreq"]}</changefreq>')
+                xml_lines.append(f'    <priority>{d["priority"]}</priority>')
+                xml_lines.append('  </url>')
+        except Exception as e:
+            print(f"[Warning] Failed to load directory_sitemap.json: {e}")
+
     xml_lines.append('</urlset>')
     
     try:

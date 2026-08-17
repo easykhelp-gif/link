@@ -301,10 +301,7 @@ async function main() {
   if (newPostsProcessed > 0) {
     const keptList = existingNews.slice(0, 50);
     const removedList = existingNews.slice(50);
-    for (const oldItem of removedList) {
-      const oldPath = path.join(NEWS_DIR, `${oldItem.id}.html`);
-      if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
-    }
+    // HTML files are kept permanently to prevent 404s.
     fs.writeFileSync(NEWS_LIST_PATH, JSON.stringify(keptList, null, 2), 'utf-8');
     existingNews = keptList;
     console.log(`\n🎉 총 ${newPostsProcessed}개의 페이스북 새 글 동기화 완료!`);

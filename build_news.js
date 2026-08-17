@@ -7,7 +7,7 @@ const NEWS_LIST_PATH = path.join(DATA_DIR, 'news_list.json');
 const INDEX_PATH = path.join(BASE_DIR, 'index.html');
 const SITEMAP_PATH = path.join(BASE_DIR, 'sitemap.xml');
 
-function generateSitemap(newsList) {
+function generateSitemap() {
   const xmlLines = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -28,19 +28,38 @@ function generateSitemap(newsList) {
     '  </url>'
   ];
 
-  newsList.forEach(item => {
+  const dirSitemapPath = path.join(DATA_DIR, 'directory_sitemap.json');
+  if (!fs.existsSync(dirSitemapPath)) {
+    console.error('[Error] directory_sitemap.json is missing. Fail-hard triggered.');
+    process.exit(1);
+  }
+  
+  let dirUrls;
+  try {
+    dirUrls = JSON.parse(fs.readFileSync(dirSitemapPath, 'utf-8'));
+  } catch (e) {
+    console.error('[Error] directory_sitemap.json is invalid. Fail-hard triggered.');
+    process.exit(1);
+  }
+
+  if (!Array.isArray(dirUrls) || dirUrls.length < 216) {
+    console.error('[Error] directory_sitemap.json has fewer than 216 entries. Fail-hard triggered.');
+    process.exit(1);
+  }
+
+  dirUrls.forEach(d => {
     xmlLines.push('  <url>');
-    xmlLines.push(`    <loc>https://www.koricare.kr/link/news/${item.id}.html</loc>`);
-    xmlLines.push(`    <lastmod>${item.date || '2026-07-16'}</lastmod>`);
-    xmlLines.push('    <changefreq>monthly</changefreq>');
-    xmlLines.push('    <priority>0.8</priority>');
+    xmlLines.push(`    <loc>${d.loc}</loc>`);
+    xmlLines.push(`    <lastmod>${d.lastmod}</lastmod>`);
+    xmlLines.push(`    <changefreq>${d.changefreq}</changefreq>`);
+    xmlLines.push(`    <priority>${d.priority}</priority>`);
     xmlLines.push('  </url>');
   });
 
   xmlLines.push('</urlset>');
 
   fs.writeFileSync(SITEMAP_PATH, xmlLines.join('\n'), 'utf-8');
-  console.log('[Success] sitemap.xml updated successfully!');
+  console.log('[Success] sitemap.xml updated successfully without news items!');
 }
 
 function syncNewsIndex() {
@@ -76,7 +95,7 @@ function syncNewsIndex() {
     }
   }
 
-  generateSitemap(newsList);
+  generateSitemap();
 }
 
 syncNewsIndex();

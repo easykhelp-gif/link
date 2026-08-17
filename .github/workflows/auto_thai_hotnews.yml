@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --global user.name "KoriCare AutoBot"
           git config --global user.email "bot@koricare.kr"
-          git add .
+          git add data/ news/ index.html th/ vi/ sitemap.xml templates/ || true
           git diff-index --quiet HEAD || git commit -m "Auto-update Thai HotNews Top 3 & Images [Cloud System]"
           git push
