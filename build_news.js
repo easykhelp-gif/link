@@ -25,6 +25,21 @@ function generateSitemap() {
     '    <loc>https://www.koricare.kr/link/vi/</loc>',
     '    <changefreq>daily</changefreq>',
     '    <priority>0.9</priority>',
+    '  </url>',
+    '  <url>',
+    '    <loc>https://www.koricare.kr/link/severance-calculator</loc>',
+    '    <changefreq>weekly</changefreq>',
+    '    <priority>0.8</priority>',
+    '  </url>',
+    '  <url>',
+    '    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>',
+    '    <changefreq>weekly</changefreq>',
+    '    <priority>0.8</priority>',
+    '  </url>',
+    '  <url>',
+    '    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>',
+    '    <changefreq>weekly</changefreq>',
+    '    <priority>0.8</priority>',
     '  </url>'
   ];
 
