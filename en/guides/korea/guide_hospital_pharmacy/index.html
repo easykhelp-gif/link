@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies - Kori Care</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE_EN}} - Kori Care</title>
 <link rel="canonical" href="https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/">
 <link rel="alternate" hreflang="x-default" href="https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/">
 <link rel="alternate" hreflang="en" href="https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/">
@@ -19,13 +19,13 @@
   gtag('config', 'G-F0R2ZQNNPZ');
 </script>
 <meta name="description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:title" content="[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies">
+<meta property="og:title" content="{{TITLE_EN}}">
 <meta property="og:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:image" content="news/images/news_thumb_visa.png">
+<meta property="og:image" content="/link/news/images/news_thumb_visa.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies">
+<meta name="twitter:title" content="{{TITLE_EN}}">
 <meta name="twitter:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta name="twitter:image" content="news/images/news_thumb_visa.png">
+<meta name="twitter:image" content="/link/news/images/news_thumb_visa.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,19 +79,9 @@
   
   .logo { display: flex; align-items: center; gap: 10px; }
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
-  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; line-height: 1.1; }
-  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; }
-  
-  .flags-badge {
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-radius: 20px;
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: 800;
-    color: #fff;
-    backdrop-filter: blur(8px);
-  }
+  .logo-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
+  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; }
+  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; margin-top: 2px; }
 
   .post-card {
     background: var(--card-bg);
@@ -103,8 +93,7 @@
 
   .hero-image {
     width: 100%;
-    height: 280px;
-    background: #f1f5f9;
+    background: transparent;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 24px;
@@ -113,8 +102,9 @@
 
   .hero-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
     display: block;
   }
 
@@ -140,51 +130,60 @@
   }
 
   h1.main-title {
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 1.35;
-    color: var(--navy);
-    margin-bottom: 24px;
-    letter-spacing: -0.4px;
-  }
-
-  /* Multi-language Tabs - Clean UI at the top */
-  .lang-tabs-nav {
-    display: flex;
-    gap: 8px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--ink);
     margin-bottom: 20px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
-  
-  .tab-btn {
-    padding: 8px 16px;
-    border: 1.5px solid var(--line);
-    background: #ffffff;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--sub);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-  }
-  
-  .tab-btn.active {
-    background: var(--navy);
-    color: #ffffff;
-    border-color: var(--navy);
-    box-shadow: 0 4px 12px rgba(0,35,102,0.2);
+    letter-spacing: -0.3px;
   }
 
-  .tab-content {
-    display: none;
-    animation: fadeIn 0.3s ease;
+  /* Multi-language Dropdown */
+  .lang-dropdown {
+    position: relative;
+    display: inline-block;
   }
+  .lang-dropdown-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: #ffffff;
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--navy);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .lang-dropdown-btn .arrow { font-size: 10px; opacity: 0.7; }
   
-  .tab-content.active {
-    display: block;
+  .lang-dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,35,102,0.1);
+    min-width: 140px;
+    overflow: hidden;
+    z-index: 200;
   }
+  .lang-dropdown-menu.show { display: flex; flex-direction: column; }
+  .lang-option {
+    padding: 12px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--sub);
+    text-decoration: none;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .lang-option:last-child { border-bottom: none; }
+  .lang-option:hover { background: #f8fafc; color: var(--navy); }
 
   .article-body {
     font-size: 15.5px;
@@ -246,6 +245,24 @@
     from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
   }
+
+  /* Media Queries for Responsive Design */
+  @media (min-width: 480px) {
+    .logo-img { width: 40px; height: 40px; }
+    .logo-text b { font-size: 20px; }
+    .logo-text span { font-size: 10px; }
+    h1.main-title { font-size: 24px; }
+  }
+  
+  @media (min-width: 768px) {
+    .wrap { padding: 0 24px; }
+    .hrow { padding: 16px 0; }
+    .logo-img { width: 44px; height: 44px; }
+    .logo-text b { font-size: 22px; }
+    .logo-text span { font-size: 11px; }
+    h1.main-title { font-size: 28px; }
+    .hero-image { border-radius: 20px; }
+  }
 </style>
 </head>
 <body>
@@ -259,7 +276,17 @@
         <span>Korea Guide</span>
       </div>
     </a>
-    <div class="flags-badge">🌐 EN/TH/VI</div>
+    <div class="lang-dropdown">
+      <button class="lang-dropdown-btn" onclick="document.getElementById('langMenu').classList.toggle('show')">
+        English <span class="arrow">▼</span>
+      </button>
+      <div class="lang-dropdown-menu" id="langMenu">
+        
+          <a href="/link/th/guides/korea/guide_hospital_pharmacy/" class="lang-option">ภาษาไทย</a>
+          <a href="/link/vi/guides/korea/guide_hospital_pharmacy/" class="lang-option">Tiếng Việt</a>
+        
+      </div>
+    </div>
   </div>
 </header>
 
@@ -271,23 +298,14 @@
       <span style="color: #64748b; font-weight: 500;">2026-08-17</span>
     </div>
 
-    <!-- Clean Language Switcher at the very top under category tag -->
-    <div class="lang-tabs-nav">
-      <button class="tab-btn active" onclick="switchLang('en', this)">🇬🇧 English</button>
-      <button class="tab-btn" onclick="switchLang('th', this)">🇹🇭 ภาษาไทย</button>
-      <button class="tab-btn" onclick="switchLang('vi', this)">🇻🇳 Tiếng Việt</button>
-    </div>
-    
     <h1 class="main-title" id="displayTitle">[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies</h1>
 
     <div class="hero-image">
-      <img src="news/images/news_thumb_visa.png" alt="Cover Image" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';">
+      <img src="/link/news/images/news_thumb_visa.png" alt="Cover Image" onerror="this.onerror=null;this.src='/link/koricare_main_logo_nobg.png';">
     </div>
 
-    <!-- SEO Multi-Language Content Blocks (semantic structure) -->
-    <div id="lang-en" class="tab-content active" lang="en">
-      <div class="article-body">
-        <h2>Using Hospitals in South Korea</h2>
+    <div class="article-body">
+      <h2>Using Hospitals in South Korea</h2>
 South Korea has one of the best and most accessible healthcare systems in the world. However, if you are a foreign resident, navigating the medical system—especially the costs and emergency rooms—can be confusing.
 <h3>Medical Costs: With vs. Without National Health Insurance (NHIS)</h3>
 The cost of medical care in Korea depends entirely on whether you are enrolled in the <strong>National Health Insurance Service (NHIS)</strong>. By law, any foreigner staying in Korea for more than 6 months must enroll in the NHIS.
@@ -303,49 +321,6 @@ Unlike many countries, you <strong>cannot</strong> buy antibiotics, high-dose pa
 <ul><li><strong>Over-The-Counter (OTC)</strong>: You can buy basic painkillers (Tylenol), cold medicine, digestion pills, and bandages without a prescription.</li>
 <li><strong>Convenience Stores</strong>: At night when pharmacies are closed, you can buy emergency medicines (Tylenol, Panpyrin, Festal) at CU, GS25, or 7-Eleven.</li></ul>
 <p>Use the [Kori Care Local Directory](/link/) to find foreign-language-friendly hospitals and pharmacies in your specific region.</p>
-      </div>
-    </div>
-
-    <div id="lang-th" class="tab-content" lang="th">
-      <div class="article-body">
-        <h2>การใช้โรงพยาบาลในเกาหลีใต้</h2>
-เกาหลีใต้มีระบบการดูแลสุขภาพที่ดีและเข้าถึงง่ายที่สุดแห่งหนึ่งในโลก อย่างไรก็ตาม หากคุณเป็นชาวต่างชาติ การทำความเข้าใจระบบการแพทย์—โดยเฉพาะค่าใช้จ่ายและห้องฉุกเฉิน—อาจเป็นเรื่องน่าสับสน
-<h3>ค่ารักษาพยาบาล: มี vs. ไม่มี ประกันสุขภาพแห่งชาติ (NHIS)</h3>
-ค่ารักษาพยาบาลในเกาหลีขึ้นอยู่กับว่าคุณลงทะเบียนใน <strong>บริการประกันสุขภาพแห่งชาติ (NHIS)</strong> หรือไม่ ตามกฎหมาย ชาวต่างชาติที่พำนักในเกาหลีเกิน 6 เดือนจะต้องลงทะเบียน NHIS
-<p>หากคุณเป็นแรงงานผิดกฎหมาย (ผีน้อย) หรือนักท่องเที่ยวระยะสั้น คุณจะไม่มีความคุ้มครองจาก NHIS ซึ่งหมายความว่าคุณต้องจ่ายเงิน <strong>100% ด้วยตัวเอง (อัตราผู้ไม่มีประกัน / 일반수가)</strong></p>
-<table><thead><tr><th>ประเภทการรักษา</th><th>ค่าใช้จ่ายโดยประมาณ (มี NHIS)</th><th>ค่าใช้จ่ายโดยประมาณ (ไม่มี NHIS)</th></tr></thead><tbody><tr><td>ตรวจคลินิกทั่วไป (ไข้/หวัด)</td><td>5,000 ~ 10,000 วอน</td><td>20,000 ~ 30,000 วอน</td></tr><tr><td>เข้าห้องฉุกเฉิน (ER)</td><td>30,000 ~ 60,000 วอน</td><td>150,000 ~ 300,000+ วอน</td></tr><tr><td>เอกซเรย์ / ตรวจเลือดพื้นฐาน</td><td>10,000 ~ 20,000 วอน</td><td>50,000 ~ 100,000 วอน</td></tr><tr><td>สแกน MRI</td><td>150,000 ~ 250,000 วอน</td><td>400,000 ~ 800,000 วอน</td></tr></tbody></table>
-*หมายเหตุ: ค่าใช้จ่ายจะแตกต่างกันไปตามระดับของโรงพยาบาล (คลินิก vs. โรงพยาบาลทั่วไป vs. โรงพยาบาลมหาวิทยาลัย)*
-<h3>การใช้ห้องฉุกเฉิน (ER / 응급실)</h3>
-หากคุณมีเหตุฉุกเฉินที่คุกคามถึงชีวิต ให้โทร <strong>119</strong> พนักงานรับสายฉุกเฉินสามารถเชื่อมต่อคุณกับล่ามได้
-<ul><li>ห้องฉุกเฉินในโรงพยาบาลขนาดใหญ่มีราคาแพงมาก หากอาการของคุณไม่รุนแรง (เช่น แผลบาดเล็กน้อย, ปวดท้อง) การไปคลินิกใกล้บ้านในเวลาทำการจะถูกและเร็วกว่ามาก</li>
-<li><strong>การรักษาช่วงวันหยุด</strong>: มองหา "คลินิก 365" (365 의원) ที่เปิดทำการในวันหยุดสุดสัปดาห์และตอนกลางคืนสำหรับอาการที่ไม่เร่งด่วน</li></ul>
-<h3>กฎของร้านขายยาเกาหลี (약국)</h3>
-แตกต่างจากหลายประเทศ คุณ <strong>ไม่สามารถ</strong> ซื้อยาปฏิชีวนะ ยาแก้ปวดโดสสูง หรือยาเฉพาะทางโดยตรงจากร้านขายยาได้หากไม่มีใบสั่งยาจากแพทย์
-<ul><li><strong>ยาสามัญประจำบ้าน (OTC)</strong>: คุณสามารถซื้อยาแก้ปวดพื้นฐาน (Tylenol), ยาแก้หวัด, ยาช่วยย่อย, และพลาสเตอร์ได้โดยไม่ต้องใช้ใบสั่งยา</li>
-<li><strong>ร้านสะดวกซื้อ</strong>: ในตอนกลางคืนที่ร้านขายยาปิด คุณสามารถซื้อยาฉุกเฉิน (Tylenol, Panpyrin, Festal) ได้ที่ CU, GS25, หรือ 7-Eleven</li></ul>
-<p>ใช้ [ไดเรกทอรีท้องถิ่นของ Kori Care](/link/) เพื่อค้นหาโรงพยาบาลและร้านขายยาที่รองรับภาษาต่างประเทศในภูมิภาคของคุณ</p>
-      </div>
-    </div>
-
-    <div id="lang-vi" class="tab-content" lang="vi">
-      <div class="article-body">
-        <h2>Sử dụng Bệnh viện tại Hàn Quốc</h2>
-Hàn Quốc có một trong những hệ thống chăm sóc sức khỏe tốt nhất và dễ tiếp cận nhất thế giới. Tuy nhiên, nếu bạn là người nước ngoài, việc hiểu hệ thống y tế—đặc biệt là chi phí và phòng cấp cứu—có thể gây bối rối.
-<h3>Chi phí Y tế: Có vs. Không có Bảo hiểm Y tế Quốc gia (NHIS)</h3>
-Chi phí khám chữa bệnh tại Hàn Quốc phụ thuộc hoàn toàn vào việc bạn có đăng ký <strong>Dịch vụ Bảo hiểm Y tế Quốc gia (NHIS)</strong> hay không. Theo luật, bất kỳ người nước ngoài nào ở Hàn Quốc quá 6 tháng đều phải tham gia NHIS.
-<p>Nếu bạn là người cư trú bất hợp pháp hoặc khách du lịch ngắn hạn, bạn sẽ không có bảo hiểm NHIS, nghĩa là bạn phải trả <strong>100% chi phí từ tiền túi (Mức giá không bảo hiểm / 일반수가)</strong>.</p>
-<table><thead><tr><th>Loại điều trị</th><th>Chi phí ước tính (Có NHIS)</th><th>Chi phí ước tính (Không NHIS)</th></tr></thead><tbody><tr><td>Khám phòng khám cơ bản (Cảm/Sốt)</td><td>5,000 ~ 10,000 KRW</td><td>20,000 ~ 30,000 KRW</td></tr><tr><td>Vào Phòng Cấp cứu (ER)</td><td>30,000 ~ 60,000 KRW</td><td>150,000 ~ 300,000+ KRW</td></tr><tr><td>Chụp X-Quang / Xét nghiệm máu</td><td>10,000 ~ 20,000 KRW</td><td>50,000 ~ 100,000 KRW</td></tr><tr><td>Chụp MRI</td><td>150,000 ~ 250,000 KRW</td><td>400,000 ~ 800,000 KRW</td></tr></tbody></table>
-*Lưu ý: Chi phí thay đổi tùy theo cấp độ bệnh viện (Phòng khám vs. Bệnh viện Đa khoa vs. Bệnh viện Đại học).*
-<h3>Sử dụng Phòng Cấp cứu (ER / 응급실)</h3>
-Nếu bạn có trường hợp khẩn cấp đe dọa tính mạng, hãy gọi <strong>119</strong>. Tổng đài viên khẩn cấp có thể kết nối bạn với thông dịch viên.
-<ul><li>Phòng cấp cứu ở các bệnh viện lớn cực kỳ đắt đỏ. Nếu tình trạng của bạn không đe dọa tính mạng (ví dụ: vết cắt nhỏ, đau bụng), việc đến phòng khám địa phương trong giờ làm việc sẽ rẻ và nhanh hơn nhiều.</li>
-<li><strong>Chăm sóc cuối tuần</strong>: Hãy tìm các "Phòng khám 365" (365 의원) hoạt động vào cuối tuần và ban đêm cho các bệnh không khẩn cấp.</li></ul>
-<h3>Quy định tại Hiệu thuốc Hàn Quốc (약국)</h3>
-Khác với nhiều quốc gia, bạn <strong>không thể</strong> mua thuốc kháng sinh, thuốc giảm đau liều cao hoặc thuốc đặc trị trực tiếp từ hiệu thuốc mà không có đơn của bác sĩ.
-<ul><li><strong>Thuốc không kê đơn (OTC)</strong>: Bạn có thể mua thuốc giảm đau cơ bản (Tylenol), thuốc cảm, thuốc tiêu hóa và băng gạc mà không cần đơn thuốc.</li>
-<li><strong>Cửa hàng tiện lợi</strong>: Vào ban đêm khi hiệu thuốc đóng cửa, bạn có thể mua các loại thuốc khẩn cấp (Tylenol, Panpyrin, Festal) tại CU, GS25 hoặc 7-Eleven.</li></ul>
-<p>Sử dụng [Danh mục Địa phương Kori Care](/link/) để tìm các bệnh viện và hiệu thuốc hỗ trợ ngoại ngữ trong khu vực cụ thể của bạn.</p>
-      </div>
     </div>
 
   </article>
@@ -357,26 +332,5 @@ Khác với nhiều quốc gia, bạn <strong>không thể</strong> mua thuốc 
   <footer>© 2026 Kori Care. All rights reserved.</footer>
 </main>
 
-<script>
-  var titles = {
-    en: "[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies",
-    th: "[อัปเดต 2026] คู่มือการใช้โรงพยาบาลและร้านขายยาในเกาหลีสำหรับชาวต่างชาติ",
-    vi: "[Cập nhật 2026] Hướng dẫn sử dụng Bệnh viện & Hiệu thuốc Hàn Quốc"
-  };
-
-  function switchLang(langKey, btnEl) {
-    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
-    document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
-
-    if (btnEl) btnEl.classList.add('active');
-    var targetContent = document.getElementById('lang-' + langKey);
-    if (targetContent) targetContent.classList.add('active');
-
-    var displayTitle = document.getElementById('displayTitle');
-    if (displayTitle && titles[langKey]) {
-      displayTitle.textContent = titles[langKey];
-    }
-  }
-</script>
 </body>
 </html>

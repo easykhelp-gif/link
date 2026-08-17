@@ -2,8 +2,8 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown - Kori Care</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE_EN}} - Kori Care</title>
 <link rel="canonical" href="https://www.koricare.kr/link/th/guides/travel/travel_incheon_ocean/">
 <link rel="alternate" hreflang="x-default" href="https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/">
 <link rel="alternate" hreflang="en" href="https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/">
@@ -19,13 +19,13 @@
   gtag('config', 'G-F0R2ZQNNPZ');
 </script>
 <meta name="description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:title" content="[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown">
+<meta property="og:title" content="{{TITLE_EN}}">
 <meta property="og:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:image" content="news/images/news_thumb_visa.png">
+<meta property="og:image" content="/link/news/images/news_thumb_visa.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown">
+<meta name="twitter:title" content="{{TITLE_EN}}">
 <meta name="twitter:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta name="twitter:image" content="news/images/news_thumb_visa.png">
+<meta name="twitter:image" content="/link/news/images/news_thumb_visa.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,19 +79,9 @@
   
   .logo { display: flex; align-items: center; gap: 10px; }
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
-  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; line-height: 1.1; }
-  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; }
-  
-  .flags-badge {
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-radius: 20px;
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: 800;
-    color: #fff;
-    backdrop-filter: blur(8px);
-  }
+  .logo-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
+  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; }
+  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; margin-top: 2px; }
 
   .post-card {
     background: var(--card-bg);
@@ -103,8 +93,7 @@
 
   .hero-image {
     width: 100%;
-    height: 280px;
-    background: #f1f5f9;
+    background: transparent;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 24px;
@@ -113,8 +102,9 @@
 
   .hero-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
     display: block;
   }
 
@@ -140,51 +130,60 @@
   }
 
   h1.main-title {
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 1.35;
-    color: var(--navy);
-    margin-bottom: 24px;
-    letter-spacing: -0.4px;
-  }
-
-  /* Multi-language Tabs - Clean UI at the top */
-  .lang-tabs-nav {
-    display: flex;
-    gap: 8px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--ink);
     margin-bottom: 20px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
-  
-  .tab-btn {
-    padding: 8px 16px;
-    border: 1.5px solid var(--line);
-    background: #ffffff;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--sub);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-  }
-  
-  .tab-btn.active {
-    background: var(--navy);
-    color: #ffffff;
-    border-color: var(--navy);
-    box-shadow: 0 4px 12px rgba(0,35,102,0.2);
+    letter-spacing: -0.3px;
   }
 
-  .tab-content {
-    display: none;
-    animation: fadeIn 0.3s ease;
+  /* Multi-language Dropdown */
+  .lang-dropdown {
+    position: relative;
+    display: inline-block;
   }
+  .lang-dropdown-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: #ffffff;
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--navy);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .lang-dropdown-btn .arrow { font-size: 10px; opacity: 0.7; }
   
-  .tab-content.active {
-    display: block;
+  .lang-dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,35,102,0.1);
+    min-width: 140px;
+    overflow: hidden;
+    z-index: 200;
   }
+  .lang-dropdown-menu.show { display: flex; flex-direction: column; }
+  .lang-option {
+    padding: 12px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--sub);
+    text-decoration: none;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .lang-option:last-child { border-bottom: none; }
+  .lang-option:hover { background: #f8fafc; color: var(--navy); }
 
   .article-body {
     font-size: 15.5px;
@@ -246,6 +245,24 @@
     from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
   }
+
+  /* Media Queries for Responsive Design */
+  @media (min-width: 480px) {
+    .logo-img { width: 40px; height: 40px; }
+    .logo-text b { font-size: 20px; }
+    .logo-text span { font-size: 10px; }
+    h1.main-title { font-size: 24px; }
+  }
+  
+  @media (min-width: 768px) {
+    .wrap { padding: 0 24px; }
+    .hrow { padding: 16px 0; }
+    .logo-img { width: 44px; height: 44px; }
+    .logo-text b { font-size: 22px; }
+    .logo-text span { font-size: 11px; }
+    h1.main-title { font-size: 28px; }
+    .hero-image { border-radius: 20px; }
+  }
 </style>
 </head>
 <body>
@@ -259,7 +276,17 @@
         <span>Korea Guide</span>
       </div>
     </a>
-    <div class="flags-badge">🌐 EN/TH/VI</div>
+    <div class="lang-dropdown">
+      <button class="lang-dropdown-btn" onclick="document.getElementById('langMenu').classList.toggle('show')">
+        ภาษาไทย <span class="arrow">▼</span>
+      </button>
+      <div class="lang-dropdown-menu" id="langMenu">
+        
+          <a href="/link/en/guides/travel/travel_incheon_ocean/" class="lang-option">English</a>
+          <a href="/link/vi/guides/travel/travel_incheon_ocean/" class="lang-option">Tiếng Việt</a>
+        
+      </div>
+    </div>
   </div>
 </header>
 
@@ -271,42 +298,14 @@
       <span style="color: #64748b; font-weight: 500;">2026-08-17</span>
     </div>
 
-    <!-- Clean Language Switcher at the very top under category tag -->
-    <div class="lang-tabs-nav">
-      <button class="tab-btn active" onclick="switchLang('en', this)">🇬🇧 English</button>
-      <button class="tab-btn" onclick="switchLang('th', this)">🇹🇭 ภาษาไทย</button>
-      <button class="tab-btn" onclick="switchLang('vi', this)">🇻🇳 Tiếng Việt</button>
-    </div>
-    
-    <h1 class="main-title" id="displayTitle">[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown</h1>
+    <h1 class="main-title" id="displayTitle">[อัปเดต 2026] ทะเลที่ใกล้ที่สุดด้วยรถไฟใต้ดิน: อินชอน วอลมิโด และ ไชน่าทาวน์</h1>
 
     <div class="hero-image">
-      <img src="news/images/news_thumb_visa.png" alt="Cover Image" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';">
+      <img src="/link/news/images/news_thumb_visa.png" alt="Cover Image" onerror="this.onerror=null;this.src='/link/koricare_main_logo_nobg.png';">
     </div>
 
-    <!-- SEO Multi-Language Content Blocks (semantic structure) -->
-    <div id="lang-en" class="tab-content active" lang="en">
-      <div class="article-body">
-        <h2>See the Ocean Without a Car</h2>
-If you work in the Gyeonggi or Incheon manufacturing zones, you don't need a car or an expensive KTX ticket to see the ocean. <strong>Wolmido Island (월미도)</strong> in Incheon is the easiest and most affordable ocean getaway for a weekend day trip.
-<h3>How to Get There (Subway Line 1)</h3>
-Getting there is incredibly easy. Just take <strong>Subway Line 1 (Dark Blue Line)</strong> all the way to the end of the line: <strong>Incheon Station (인천역)</strong>. 
-<ul><li>From Incheon Station, Chinatown is directly across the street.</li>
-<li>To get to Wolmido, take Bus #2, #10, or #45 from the bus stop right outside Incheon Station. It takes about 10 minutes.</li></ul>
-<h3>Estimated Budget for 1 Day</h3>
-<table><thead><tr><th>Item</th><th>Estimated Cost</th><th>Notes</th></tr></thead><tbody><tr><td>Subway (Line 1)</td><td>~2,000 KRW</td><td>One-way from Seoul/Gyeonggi</td></tr><tr><td>Jajangmyeon (Chinatown)</td><td>7,000 ~ 10,000 KRW</td><td>A must-try local specialty</td></tr><tr><td>Wolmido Theme Park Ride</td><td>5,500 KRW (per ride)</td><td>Disco Pang-Pang or Viking</td></tr><tr><td>Sea Train (Wolmi Bada Train)</td><td>8,000 KRW (Adult)</td><td>A scenic monorail around the island</td></tr></tbody></table>
-<h3>Highlights of the Trip</h3>
-<strong>1. Incheon Chinatown (인천 차이나타운)</strong>
-As soon as you step out of Incheon Station, you will see a massive traditional Chinese gate. This is the birthplace of <strong>Jajangmyeon (Black Bean Noodles)</strong> in Korea.
-<ul><li>Try grabbing a quick Tanghulu (candied fruit) or a Chinese mooncake while walking up the colorful red streets.</li></ul>
-<p><strong>2. Wolmido Ocean Boardwalk (월미도 문화พ의 거리)</strong><br>Take the bus to Wolmido and walk along the beautiful ocean boardwalk. <br><ul><li>You can feed seagulls with shrimp crackers (Saeukkang). The seagulls here are famous for flying right up to your hand!</li><br><li>Watch the sunset over the West Sea. It is one of the most romantic spots near Seoul.</li></ul></p>
-<p><strong>3. Wolmi Theme Park (월미테마파크)</strong><br>Even if you don't like scary rides, you must watch people ride the <strong>"Disco Pang-Pang"</strong>. The DJ is famous for making fun of the riders in a hilarious way, and large crowds gather just to watch the spectacle. If you are brave, try the <strong>Viking</strong> ship, which swings so high it feels like you will fall into the ocean!</p>
-      </div>
-    </div>
-
-    <div id="lang-th" class="tab-content" lang="th">
-      <div class="article-body">
-        <h2>ดูทะเลโดยไม่ต้องมีรถยนต์</h2>
+    <div class="article-body">
+      <h2>ดูทะเลโดยไม่ต้องมีรถยนต์</h2>
 หากคุณทำงานในเขตอุตสาหกรรมคยองกีหรืออินชอน คุณไม่จำเป็นต้องมีรถยนต์หรือตั๋ว KTX ราคาแพงเพื่อไปดูทะเล <strong>เกาะวอลมิโด (월미도)</strong> ในอินชอนเป็นสถานที่พักผ่อนริมทะเลที่ไปง่ายและราคาไม่แพงที่สุดสำหรับทริปสั้นๆ ในวันหยุดสุดสัปดาห์
 <h3>วิธีการเดินทาง (รถไฟใต้ดินสาย 1)</h3>
 การเดินทางไปนั้นง่ายมาก เพียงแค่นั่ง <strong>รถไฟใต้ดินสาย 1 (สายสีน้ำเงินเข้ม)</strong> ไปจนสุดสายที่: <strong>สถานีอินชอน (인천역)</strong>
@@ -320,26 +319,6 @@ As soon as you step out of Incheon Station, you will see a massive traditional C
 <ul><li>ลองซื้อทังหูลู่ (ผลไม้เคลือบน้ำตาล) หรือขนมไหว้พระจันทร์กินเล่นขณะเดินชมถนนสีแดงที่เต็มไปด้วยสีสัน</li></ul>
 <p><strong>2. ทางเดินริมทะเลวอลมิโด (월미도 문화의 거리)</strong><br>นั่งรถบัสไปวอลมิโดและเดินเล่นไปตามทางเดินริมทะเลที่สวยงาม<br><ul><li>คุณสามารถให้อาหารนกนางนวลด้วยขนมกุ้ง (Saeukkang) นกนางนวลที่นี่โด่งดังเรื่องการบินมาโฉบอาหารจากมือของคุณ!</li><br><li>ชมพระอาทิตย์ตกดินเหนือทะเลตะวันตก ที่นี่เป็นหนึ่งในจุดที่โรแมนติกที่สุดใกล้กรุงโซล</li></ul></p>
 <p><strong>3. สวนสนุกวอลมิ (월미테마파크)</strong><br>แม้ว่าคุณจะไม่ชอบเครื่องเล่นที่น่ากลัว คุณก็ต้องดูคนเล่น <strong>"ดิสโก้ปังปัง" (Disco Pang-Pang)</strong> ดีเจที่นี่โด่งดังจากการแซวผู้เล่นอย่างตลกขบขัน และมีฝูงชนจำนวนมากมารวมตัวกันเพื่อดูความสนุกสนาน หากคุณกล้าพอ ลองเล่นเรือ <strong>ไวกิ้ง</strong> ที่แกว่งสูงมากจนรู้สึกเหมือนจะตกลงไปในทะเล!</p>
-      </div>
-    </div>
-
-    <div id="lang-vi" class="tab-content" lang="vi">
-      <div class="article-body">
-        <h2>Ngắm biển không cần Ô tô</h2>
-Nếu bạn làm việc tại các khu công nghiệp Gyeonggi hoặc Incheon, bạn không cần ô tô hay vé KTX đắt tiền để đi ngắm biển. <strong>Đảo Wolmido (월미도)</strong> ở Incheon là điểm đến trốn thoát ra biển dễ dàng và tiết kiệm nhất cho một chuyến đi trong ngày vào cuối tuần.
-<h3>Cách di chuyển (Tàu điện ngầm Tuyến 1)</h3>
-Việc đi lại cực kỳ dễ dàng. Chỉ cần đi <strong>Tàu điện ngầm Tuyến 1 (Tuyến màu xanh đậm)</strong> đến ga cuối cùng: <strong>Ga Incheon (인천역)</strong>.
-<ul><li>Từ Ga Incheon, Phố Tàu nằm ngay bên kia đường.</li>
-<li>Để đến Wolmido, hãy bắt xe buýt số 2, 10 hoặc 45 từ trạm xe buýt ngay ngoài Ga Incheon. Sẽ mất khoảng 10 phút.</li></ul>
-<h3>Ngân sách Ước tính cho 1 Ngày</h3>
-<table><thead><tr><th>Hạng mục</th><th>Chi phí Ước tính</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Tàu điện ngầm (Tuyến 1)</td><td>~2,000 KRW</td><td>Một chiều từ Seoul/Gyeonggi</td></tr><tr><td>Mì tương đen (Phố Tàu)</td><td>7,000 ~ 10,000 KRW</td><td>Đặc sản địa phương nhất định phải thử</td></tr><tr><td>Trò chơi Công viên Wolmido</td><td>5,500 KRW (mỗi lượt)</td><td>Disco Pang-Pang hoặc Tàu cướp biển</td></tr><tr><td>Tàu hỏa trên biển (Wolmi Bada Train)</td><td>8,000 KRW (Người lớn)</td><td>Tàu điện trên cao ngắm cảnh quanh đảo</td></tr></tbody></table>
-<h3>Điểm nổi bật của chuyến đi</h3>
-<strong>1. Phố Tàu Incheon (인천 차이나타운)</strong>
-Ngay khi bước ra khỏi Ga Incheon, bạn sẽ thấy một cổng chào truyền thống khổng lồ của Trung Quốc. Đây là nơi ra đời của món <strong>Jajangmyeon (Mì tương đen)</strong> ở Hàn Quốc.
-<ul><li>Hãy thử mua nhanh một xiên Tanghulu (kẹo hồ lô) hoặc một chiếc bánh trung thu trong khi đi dạo trên con phố màu đỏ rực rỡ.</li></ul>
-<p><strong>2. Đường đi bộ ven biển Wolmido (월미도 문화의 거리)</strong><br>Bắt xe buýt đến Wolmido và đi dạo dọc theo con đường ven biển tuyệt đẹp.<br><ul><li>Bạn có thể cho hải âu ăn bim bim tôm (Saeukkang). Hải âu ở đây nổi tiếng với việc bay đến tận tay bạn để ăn!</li><br><li>Ngắm cảnh hoàng hôn trên Biển Tây. Đây là một trong những địa điểm lãng mạn nhất gần Seoul.</li></ul></p>
-<p><strong>3. Công viên Giải trí Wolmi (월미테마파크)</strong><br>Ngay cả khi bạn không thích các trò chơi cảm giác mạnh, bạn nhất định phải xem người ta chơi <strong>"Disco Pang-Pang"</strong>. DJ ở đây nổi tiếng với việc trêu chọc người chơi một cách hài hước, và những đám đông lớn tụ tập chỉ để xem cảnh tượng này. Nếu bạn dũng cảm, hãy thử tàu <strong>Viking</strong>, nó vung cao đến mức bạn sẽ có cảm giác như sắp rơi xuống biển!</p>
-      </div>
     </div>
 
   </article>
@@ -351,26 +330,5 @@ Ngay khi bước ra khỏi Ga Incheon, bạn sẽ thấy một cổng chào truy
   <footer>© 2026 Kori Care. All rights reserved.</footer>
 </main>
 
-<script>
-  var titles = {
-    en: "[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown",
-    th: "[อัปเดต 2026] ทะเลที่ใกล้ที่สุดด้วยรถไฟใต้ดิน: อินชอน วอลมิโด และ ไชน่าทาวน์",
-    vi: "[Cập nhật 2026] Biển gần nhất bằng Tàu điện ngầm: Wolmido & Phố Tàu Incheon"
-  };
-
-  function switchLang(langKey, btnEl) {
-    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
-    document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
-
-    if (btnEl) btnEl.classList.add('active');
-    var targetContent = document.getElementById('lang-' + langKey);
-    if (targetContent) targetContent.classList.add('active');
-
-    var displayTitle = document.getElementById('displayTitle');
-    if (displayTitle && titles[langKey]) {
-      displayTitle.textContent = titles[langKey];
-    }
-  }
-</script>
 </body>
 </html>

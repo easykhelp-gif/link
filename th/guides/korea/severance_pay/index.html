@@ -2,8 +2,8 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide - Kori Care</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE_EN}} - Kori Care</title>
 <link rel="canonical" href="https://www.koricare.kr/link/th/guides/korea/severance_pay/">
 <link rel="alternate" hreflang="x-default" href="https://www.koricare.kr/link/en/guides/korea/severance_pay/">
 <link rel="alternate" hreflang="en" href="https://www.koricare.kr/link/en/guides/korea/severance_pay/">
@@ -19,13 +19,13 @@
   gtag('config', 'G-F0R2ZQNNPZ');
 </script>
 <meta name="description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:title" content="[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide">
+<meta property="og:title" content="{{TITLE_EN}}">
 <meta property="og:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta property="og:image" content="news/images/news_thumb_labor.png">
+<meta property="og:image" content="/link/news/images/news_thumb_labor.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide">
+<meta name="twitter:title" content="{{TITLE_EN}}">
 <meta name="twitter:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
-<meta name="twitter:image" content="news/images/news_thumb_labor.png">
+<meta name="twitter:image" content="/link/news/images/news_thumb_labor.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,19 +79,9 @@
   
   .logo { display: flex; align-items: center; gap: 10px; }
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
-  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; line-height: 1.1; }
-  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; }
-  
-  .flags-badge {
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-radius: 20px;
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: 800;
-    color: #fff;
-    backdrop-filter: blur(8px);
-  }
+  .logo-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
+  .logo-text b { font-size: 18px; font-weight: 900; letter-spacing: -0.4px; }
+  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; margin-top: 2px; }
 
   .post-card {
     background: var(--card-bg);
@@ -103,8 +93,7 @@
 
   .hero-image {
     width: 100%;
-    height: 280px;
-    background: #f1f5f9;
+    background: transparent;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 24px;
@@ -113,8 +102,9 @@
 
   .hero-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
     display: block;
   }
 
@@ -140,51 +130,60 @@
   }
 
   h1.main-title {
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 1.35;
-    color: var(--navy);
-    margin-bottom: 24px;
-    letter-spacing: -0.4px;
-  }
-
-  /* Multi-language Tabs - Clean UI at the top */
-  .lang-tabs-nav {
-    display: flex;
-    gap: 8px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--ink);
     margin-bottom: 20px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
-  
-  .tab-btn {
-    padding: 8px 16px;
-    border: 1.5px solid var(--line);
-    background: #ffffff;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--sub);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-  }
-  
-  .tab-btn.active {
-    background: var(--navy);
-    color: #ffffff;
-    border-color: var(--navy);
-    box-shadow: 0 4px 12px rgba(0,35,102,0.2);
+    letter-spacing: -0.3px;
   }
 
-  .tab-content {
-    display: none;
-    animation: fadeIn 0.3s ease;
+  /* Multi-language Dropdown */
+  .lang-dropdown {
+    position: relative;
+    display: inline-block;
   }
+  .lang-dropdown-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: #ffffff;
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--navy);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .lang-dropdown-btn .arrow { font-size: 10px; opacity: 0.7; }
   
-  .tab-content.active {
-    display: block;
+  .lang-dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,35,102,0.1);
+    min-width: 140px;
+    overflow: hidden;
+    z-index: 200;
   }
+  .lang-dropdown-menu.show { display: flex; flex-direction: column; }
+  .lang-option {
+    padding: 12px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--sub);
+    text-decoration: none;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .lang-option:last-child { border-bottom: none; }
+  .lang-option:hover { background: #f8fafc; color: var(--navy); }
 
   .article-body {
     font-size: 15.5px;
@@ -246,6 +245,24 @@
     from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
   }
+
+  /* Media Queries for Responsive Design */
+  @media (min-width: 480px) {
+    .logo-img { width: 40px; height: 40px; }
+    .logo-text b { font-size: 20px; }
+    .logo-text span { font-size: 10px; }
+    h1.main-title { font-size: 24px; }
+  }
+  
+  @media (min-width: 768px) {
+    .wrap { padding: 0 24px; }
+    .hrow { padding: 16px 0; }
+    .logo-img { width: 44px; height: 44px; }
+    .logo-text b { font-size: 22px; }
+    .logo-text span { font-size: 11px; }
+    h1.main-title { font-size: 28px; }
+    .hero-image { border-radius: 20px; }
+  }
 </style>
 </head>
 <body>
@@ -259,7 +276,17 @@
         <span>Korea Guide</span>
       </div>
     </a>
-    <div class="flags-badge">🌐 EN/TH/VI</div>
+    <div class="lang-dropdown">
+      <button class="lang-dropdown-btn" onclick="document.getElementById('langMenu').classList.toggle('show')">
+        ภาษาไทย <span class="arrow">▼</span>
+      </button>
+      <div class="lang-dropdown-menu" id="langMenu">
+        
+          <a href="/link/en/guides/korea/severance_pay/" class="lang-option">English</a>
+          <a href="/link/vi/guides/korea/severance_pay/" class="lang-option">Tiếng Việt</a>
+        
+      </div>
+    </div>
   </div>
 </header>
 
@@ -271,42 +298,14 @@
       <span style="color: #64748b; font-weight: 500;">2026-08-17</span>
     </div>
 
-    <!-- Clean Language Switcher at the very top under category tag -->
-    <div class="lang-tabs-nav">
-      <button class="tab-btn active" onclick="switchLang('en', this)">🇬🇧 English</button>
-      <button class="tab-btn" onclick="switchLang('th', this)">🇹🇭 ภาษาไทย</button>
-      <button class="tab-btn" onclick="switchLang('vi', this)">🇻🇳 Tiếng Việt</button>
-    </div>
-    
-    <h1 class="main-title" id="displayTitle">[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide</h1>
+    <h1 class="main-title" id="displayTitle">[อัปเดต 2026] คู่มือการรับเงินชดเชย (EPS) สำหรับแรงงานต่างชาติในเกาหลี</h1>
 
     <div class="hero-image">
-      <img src="news/images/news_thumb_labor.png" alt="Cover Image" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';">
+      <img src="/link/news/images/news_thumb_labor.png" alt="Cover Image" onerror="this.onerror=null;this.src='/link/koricare_main_logo_nobg.png';">
     </div>
 
-    <!-- SEO Multi-Language Content Blocks (semantic structure) -->
-    <div id="lang-en" class="tab-content active" lang="en">
-      <div class="article-body">
-        <h2>Understanding Departure Guarantee Insurance (Severance Pay)</h2>
-Under the Korean Labor Standard Act, any worker who has worked continuously for more than 1 year at the same workplace is entitled to Severance Pay. For E-9 foreign workers under the EPS system, this is managed securely through the <strong>Samsung Fire & Marine Insurance (Departure Guarantee Insurance)</strong>. 
-<h3>Critical Fact: Can Undocumented Immigrants Claim Severance Pay?</h3>
-<strong>YES.</strong> Your immigration status does not affect your labor rights. Even if you are an <strong>undocumented immigrant (불법체류자)</strong>, if you have worked for more than 1 year, your employer is legally obligated to pay your severance pay. The Korean Ministry of Employment and Labor strictly enforces this rule.
-<h3>How to Claim Your EPS Severance Pay (2026 Rules)</h3>
-For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance cannot be claimed in cash while you are still staying in Korea. It is specifically designed to be given to you <strong>upon your departure from South Korea</strong>. 
-<p>You have two official methods to receive the money when leaving:<br>1. <strong>Airport Pickup</strong>: Receive cash at the Departure Gate (after passing immigration).<br>2. <strong>Overseas Remittance</strong>: The money is sent directly to your home country bank account within 14 days after your departure is confirmed.</p>
-<h3>Comparison: Airport Pickup vs. Overseas Remittance</h3>
-<table><thead><tr><th>Feature</th><th>Airport Pickup (Cash)</th><th>Overseas Remittance (Bank)</th></tr></thead><tbody><tr><td><strong>When you receive it</strong></td><td>Immediately before boarding the flight</td><td>Within 14 days after departure</td></tr><tr><td><strong>Currency</strong></td><td>Changed to USD or Home Currency</td><td>Directly to Home Currency</td></tr><tr><td><strong>Risk of Loss</strong></td><td>High (Carrying large amounts of cash)</td><td>Completely Safe</td></tr><tr><td><strong>Required Documents</strong></td><td>Passport, ARC, Flight Ticket</td><td>Passport, ARC, Flight Ticket, Home Bank Book</td></tr><tr><td><strong>Samsung Fire Processing</strong></td><td>Requires visiting the airport desk early</td><td>Automatic transfer</td></tr></tbody></table>
-<h3>Steps to Apply</h3>
-1. Submit your <strong>Application for Payment of Departure Guarantee Insurance</strong> to Samsung Fire & Marine Insurance at least <strong>1 month before your departure date</strong>.
-2. You can apply via Fax, the Samsung Fire mobile app, or by visiting a local EPS center.
-3. If the amount accumulated in the Samsung Insurance is <strong>less than your legal severance pay</strong>, your employer must pay the remaining difference directly to your Korean bank account before you leave.
-<p>Always calculate your estimated severance pay using the [Kori Care Severance Calculator](/link/en/calculator/severance) to ensure your employer pays you the exact legal amount.</p>
-      </div>
-    </div>
-
-    <div id="lang-th" class="tab-content" lang="th">
-      <div class="article-body">
-        <h2>ทำความเข้าใจเรื่องเงินประกันการเดินทางกลับ (เงินชดเชย)</h2>
+    <div class="article-body">
+      <h2>ทำความเข้าใจเรื่องเงินประกันการเดินทางกลับ (เงินชดเชย)</h2>
 ภายใต้พระราชบัญญัติมาตรฐานแรงงานของเกาหลี คนงานที่ทำงานติดต่อกันมากกว่า 1 ปีในสถานที่ทำงานเดียวกัน มีสิทธิได้รับเงินชดเชย (Severance Pay) สำหรับแรงงานต่างชาติ E-9 ภายใต้ระบบ EPS เงินส่วนนี้จะถูกจัดการอย่างปลอดภัยผ่าน <strong>Samsung Fire & Marine Insurance (ประกันการเดินทางกลับ)</strong>
 <h3>ข้อเท็จจริงสำคัญ: แรงงานผิดกฎหมาย (ผีน้อย) สามารถรับเงินชดเชยได้หรือไม่?</h3>
 <strong>ได้แน่นอน</strong> สถานะการเข้าเมืองของคุณไม่มีผลต่อสิทธิแรงงานของคุณ แม้ว่าคุณจะเป็น <strong>แรงงานผิดกฎหมาย (불법체류자)</strong> หากคุณทำงานเกิน 1 ปี นายจ้างมีหน้าที่ตามกฎหมายที่จะต้องจ่ายเงินชดเชยให้คุณ กระทรวงการจ้างงานและแรงงานของเกาหลีบังคับใช้กฎนี้อย่างเข้มงวด
@@ -320,26 +319,6 @@ For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance c
 2. สมัครผ่านแฟกซ์, แอปพลิเคชัน Samsung Fire, หรือไปที่ศูนย์ EPS ใกล้บ้าน
 3. หากยอดเงินที่สะสมในประกัน Samsung <strong>น้อยกว่าเงินชดเชยตามกฎหมายของคุณ</strong> นายจ้างจะต้องจ่ายส่วนต่างเข้าบัญชีเกาหลีของคุณก่อนเดินทางกลับ
 <p>แนะนำให้คำนวณเงินชดเชยล่วงหน้าโดยใช้ [เครื่องคำนวณเงินชดเชย Kori Care](/link/th/calculator/severance) เพื่อให้แน่ใจว่านายจ้างจ่ายเงินครบถ้วนตามกฎหมาย</p>
-      </div>
-    </div>
-
-    <div id="lang-vi" class="tab-content" lang="vi">
-      <div class="article-body">
-        <h2>Hiểu về Bảo hiểm Bảo lãnh Xuất cảnh (Tiền trợ cấp thôi việc)</h2>
-Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao động nào làm việc liên tục trên 1 năm tại cùng một nơi làm việc đều có quyền nhận Tiền trợ cấp thôi việc. Đối với lao động nước ngoài E-9 theo hệ thống EPS, khoản tiền này được quản lý an toàn thông qua <strong>Bảo hiểm Samsung Fire & Marine (Bảo hiểm Bảo lãnh Xuất cảnh)</strong>.
-<h3>Sự thật quan trọng: Lao động bất hợp pháp có được nhận Tiền thôi việc không?</h3>
-<strong>CÓ.</strong> Tình trạng cư trú không ảnh hưởng đến quyền lợi lao động của bạn. Ngay cả khi bạn là <strong>người cư trú bất hợp pháp (불법체류자)</strong>, nếu bạn đã làm việc hơn 1 năm, chủ sử dụng lao động có nghĩa vụ pháp lý phải trả tiền trợ cấp thôi việc cho bạn. Bộ Việc làm và Lao động Hàn Quốc thực thi quy định này rất nghiêm ngặt.
-<h3>Cách nhận Tiền trợ cấp thôi việc EPS (Quy định 2026)</h3>
-Đối với lao động EPS (E-9), tiền thôi việc tích lũy trong Bảo hiểm Samsung không thể nhận bằng tiền mặt khi bạn vẫn đang ở Hàn Quốc. Khoản tiền này được thiết kế để trao cho bạn <strong>khi bạn xuất cảnh khỏi Hàn Quốc</strong>.
-<p>Bạn có 2 phương pháp chính thức để nhận tiền khi về nước:<br>1. <strong>Nhận tại Sân bay</strong>: Nhận tiền mặt tại Cửa khởi hành (sau khi qua hải quan).<br>2. <strong>Chuyển khoản Nước ngoài</strong>: Tiền được chuyển trực tiếp vào tài khoản ngân hàng tại quê hương bạn trong vòng 14 ngày sau khi xác nhận xuất cảnh.</p>
-<h3>Bảng So sánh: Nhận tại Sân bay vs Chuyển khoản Nước ngoài</h3>
-<table><thead><tr><th>Tính năng</th><th>Nhận tại Sân bay (Tiền mặt)</th><th>Chuyển khoản Nước ngoài</th></tr></thead><tbody><tr><td><strong>Thời gian nhận</strong></td><td>Ngay trước khi lên máy bay</td><td>Trong vòng 14 ngày sau xuất cảnh</td></tr><tr><td><strong>Tiền tệ</strong></td><td>Chuyển sang USD hoặc tiền quê hương</td><td>Chuyển trực tiếp sang tiền quê hương</td></tr><tr><td><strong>Rủi ro</strong></td><td>Cao (Mang nhiều tiền mặt)</td><td>An toàn tuyệt đối</td></tr><tr><td><strong>Giấy tờ yêu cầu</strong></td><td>Hộ chiếu, Thẻ cư trú (ARC), Vé máy bay</td><td>Hộ chiếu, Thẻ cư trú, Vé máy bay, Sổ ngân hàng quê nhà</td></tr><tr><td><strong>Xử lý của Samsung</strong></td><td>Phải đến quầy sân bay sớm</td><td>Chuyển khoản tự động</td></tr></tbody></table>
-<h3>Các bước Đăng ký</h3>
-1. Nộp <strong>Đơn xin nhận Bảo hiểm Bảo lãnh Xuất cảnh</strong> cho Bảo hiểm Samsung Fire & Marine ít nhất <strong>1 tháng trước ngày xuất cảnh</strong>.
-2. Bạn có thể nộp qua Fax, ứng dụng di động Samsung Fire, hoặc đến trung tâm EPS địa phương.
-3. Nếu số tiền tích lũy trong Bảo hiểm Samsung <strong>ít hơn tiền thôi việc hợp pháp của bạn</strong>, chủ lao động phải trả khoản chênh lệch còn lại trực tiếp vào tài khoản ngân hàng Hàn Quốc của bạn trước khi bạn về nước.
-<p>Hãy luôn tính toán trước khoản tiền thôi việc dự kiến bằng [Công cụ tính Tiền thôi việc Kori Care](/link/vi/calculator/severance) để đảm bảo chủ lao động trả đúng số tiền hợp pháp.</p>
-      </div>
     </div>
 
   </article>
@@ -351,26 +330,5 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
   <footer>© 2026 Kori Care. All rights reserved.</footer>
 </main>
 
-<script>
-  var titles = {
-    en: "[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide",
-    th: "[อัปเดต 2026] คู่มือการรับเงินชดเชย (EPS) สำหรับแรงงานต่างชาติในเกาหลี",
-    vi: "[Cập nhật 2026] Hướng dẫn nhận Tiền trợ cấp thôi việc (EPS) tại Hàn Quốc"
-  };
-
-  function switchLang(langKey, btnEl) {
-    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
-    document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
-
-    if (btnEl) btnEl.classList.add('active');
-    var targetContent = document.getElementById('lang-' + langKey);
-    if (targetContent) targetContent.classList.add('active');
-
-    var displayTitle = document.getElementById('displayTitle');
-    if (displayTitle && titles[langKey]) {
-      displayTitle.textContent = titles[langKey];
-    }
-  }
-</script>
 </body>
 </html>

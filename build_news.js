@@ -110,19 +110,31 @@ function syncNewsIndex() {
 
     if (sIdx !== -1 && eIdx !== -1) {
       const cardsHtml = top3.map(item => {
-        const thumb = (item.image || item.thumbnail || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png').replace(/&amp;/g, '&');
+        let thumb = (item.image || item.thumbnail || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png').replace(/&amp;/g, '&');
+        if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
         const title = item.title_en || item.title || item.title_th || item.title_ko;
-        return `    <a href="news/${item.id}.html" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #cbd5e1; box-shadow:0 3px 10px rgba(15,23,42,0.05); overflow:hidden; transition:all 0.2s ease;">
-      <div style="width:100%; height:100px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+        
+        let sourceName = 'News';
+        try {
+            const urlObj = new URL(item.link || item.url || 'https://news/');
+            sourceName = urlObj.hostname.replace('www.', '');
+            sourceName = sourceName.charAt(0).toUpperCase() + sourceName.slice(1).split('.')[0];
+        } catch(e) {}
+        
+        const dateStr = item.date || '';
+
+        return `    <a href="news/${item.id}.html" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
+      <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
         <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
-      <div style="padding:8px 10px; display:flex; flex-direction:column; flex:1; justify-content:center;">
-        <div style="font-size:12px; font-weight:800; color:#002366; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+      <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
+        <div class="list-title" style="font-size:16px; font-weight:700; color:var(--ink); line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+        <div style="font-size:13px; color:var(--sub); margin-top:6px; font-weight:500;">${sourceName} &middot; ${dateStr}</div>
       </div>
     </a>`;
       }).join('\n');
 
-      const updated = content.slice(0, sIdx + startM.length) + '\n  <div class="news-grid" id="news-list" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:28px;">\n' + cardsHtml + '\n  </div>\n  ' + content.slice(eIdx);
+      const updated = content.slice(0, sIdx + startM.length) + '\n  <div class="news-list" id="news-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + cardsHtml + '\n  </div>\n  ' + content.slice(eIdx);
       fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
       console.log('[Success] index.html horizontal news cards synced!');
     }

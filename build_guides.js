@@ -57,27 +57,52 @@ function buildGuides() {
       html = html.replace(/\{\{CANONICAL_URL_TH\}\}/g, canonicalTh);
       html = html.replace(/\{\{CANONICAL_URL_VI\}\}/g, canonicalVi);
       
-      html = html.replace(/\{\{TITLE_EN\}\}/g, guide.title_en || '');
+      const currTitle = lang === 'en' ? guide.title_en : (lang === 'th' ? guide.title_th : guide.title_vi);
+      html = html.replace(/\{\{TITLE\}\}/g, currTitle || guide.title_en || '');
       html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
-      html = html.replace(/\{\{IMAGE_URL\}\}/g, guide.image || '');
+      
+      const imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
+      html = html.replace(/\{\{IMAGE_URL\}\}/g, imgUrl);
       
       let catName = guide.tag ? guide.tag : (guide.category.charAt(0).toUpperCase() + guide.category.slice(1));
       html = html.replace(/\{\{CATEGORY_NAME\}\}/g, catName);
       
-      html = html.replace(/\{\{CONTENT_EN\}\}/g, guide.content_en || '');
-      html = html.replace(/\{\{CONTENT_TH\}\}/g, guide.content_th || '');
-      html = html.replace(/\{\{CONTENT_VI\}\}/g, guide.content_vi || '');
-      html = html.replace(/\{\{CONTENT_KO\}\}/g, guide.content_ko || '');
+      const currContent = lang === 'en' ? guide.content_en : (lang === 'th' ? guide.content_th : guide.content_vi);
+      let contentHtml = currContent || '';
+      contentHtml = contentHtml.replace(/src="news\//g, 'src="/link/news/');
+      contentHtml = contentHtml.replace(/href="news\//g, 'href="/link/news/');
+      html = html.replace(/\{\{CONTENT\}\}/g, contentHtml);
 
-      html = html.replace(/\{\{TITLE_EN_JSON\}\}/g, JSON.stringify(guide.title_en || ''));
-      html = html.replace(/\{\{TITLE_TH_JSON\}\}/g, JSON.stringify(guide.title_th || ''));
-      html = html.replace(/\{\{TITLE_VI_JSON\}\}/g, JSON.stringify(guide.title_vi || ''));
-      html = html.replace(/\{\{TITLE_KO_JSON\}\}/g, JSON.stringify(guide.title_ko || ''));
+      html = html.replace(/\{\{CATEGORY\}\}/g, guide.category);
+      html = html.replace(/\{\{ID\}\}/g, guide.id);
+      
+      let currLangName = '';
+      let otherLangLinks = '';
+      
+      if (lang === 'en') {
+        currLangName = 'English';
+        otherLangLinks = `
+          <a href="/link/th/guides/${guide.category}/${guide.id}/" class="lang-option">ภาษาไทย</a>
+          <a href="/link/vi/guides/${guide.category}/${guide.id}/" class="lang-option">Tiếng Việt</a>
+        `;
+      } else if (lang === 'th') {
+        currLangName = 'ภาษาไทย';
+        otherLangLinks = `
+          <a href="/link/en/guides/${guide.category}/${guide.id}/" class="lang-option">English</a>
+          <a href="/link/vi/guides/${guide.category}/${guide.id}/" class="lang-option">Tiếng Việt</a>
+        `;
+      } else if (lang === 'vi') {
+        currLangName = 'Tiếng Việt';
+        otherLangLinks = `
+          <a href="/link/en/guides/${guide.category}/${guide.id}/" class="lang-option">English</a>
+          <a href="/link/th/guides/${guide.category}/${guide.id}/" class="lang-option">ภาษาไทย</a>
+        `;
+      }
+      
+      html = html.replace(/\{\{CURRENT_LANG_NAME\}\}/g, currLangName);
+      html = html.replace(/\{\{OTHER_LANG_LINKS\}\}/g, otherLangLinks);
 
-      // Fix the "Back to Main Portal" link to point to the correct language home
-      html = html.replace(/href="\.\.\/\.\.\/index\.html"/g, `href="/link/${lang}/index.html"`);
-      // Fix logo link
-      html = html.replace(/src="\.\.\/\.\.\/koricare_main_logo_nobg\.png"/g, 'src="/link/koricare_main_logo_nobg.png"');
+      html = html.replace(/\{\{LANG_HOME_URL\}\}/g, `/link/${lang}/index.html`);
 
       const outputPath = path.join(guideDir, 'index.html');
       fs.writeFileSync(outputPath, html, 'utf-8');
@@ -157,23 +182,26 @@ function updateIndexHtml(guides) {
     const sortedGuides = guides.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
     const top3 = sortedGuides.slice(0, 3);
     const cardsHtml = top3.map(item => {
-      const thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
       const title = item.title_en || item.title_ko || item.title_th || item.title_vi;
-      let tagHtml = item.tag ? `<div style="position:absolute; top:8px; left:8px; background:rgba(0,0,0,0.6); color:#fff; font-size:10px; font-weight:700; padding:3px 8px; border-radius:4px; backdrop-filter:blur(4px);">${item.tag}</div>` : '';
+      let badgeHtml = item.tag ? `<div style="font-size:11px; font-weight:800; color:#2563eb; background:#eff6ff; padding:2px 6px; border-radius:4px; margin-bottom:4px; display:inline-block;">${item.tag}</div>` : '';
+      const dateStr = item.date || '';
       
-      return `    <a href="en/guides/${item.category}/${item.id}/" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 4px 12px rgba(15,23,42,0.03); overflow:hidden; transition:all 0.2s ease; position:relative;">
-      <div style="width:100%; height:130px; background:#f8fafc; display:flex; align-items:center; justify-content:center; overflow:hidden; position:relative;">
-        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:contain; display:block;">
-        ${tagHtml}
+      return `    <a href="en/guides/${item.category}/${item.id}/" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
+      <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
+        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
-      <div style="padding:12px 14px; display:flex; flex-direction:column; flex:1; justify-content:flex-start;">
-        <div style="font-size:13.5px; font-weight:800; color:#0f172a; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+      <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
+        <div>${badgeHtml}</div>
+        <div class="list-title" style="font-size:16px; font-weight:700; color:var(--ink); line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+        <div style="font-size:13px; color:var(--sub); margin-top:6px; font-weight:500;">Kori Care Guide &middot; ${dateStr}</div>
       </div>
     </a>`;
     }).join('\n');
 
     const updated = content.slice(0, sIdx + startM.length) + 
-      '\n  <div class="news-grid" id="guide-list" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:28px;">\n' + 
+      '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
       cardsHtml + 
       '\n  </div>\n  ' + content.slice(eIdx);
     
@@ -185,22 +213,26 @@ function updateIndexHtml(guides) {
       if (fs.existsSync(p)) {
         let c = fs.readFileSync(p, 'utf-8');
         let langCards = top3.map(item => {
-          const thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+          let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+          if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
           const title = (lang === 'th' ? item.title_th : item.title_vi) || item.title_en;
-          let tagHtml = item.tag ? `<div style="position:absolute; top:8px; left:8px; background:rgba(0,0,0,0.6); color:#fff; font-size:10px; font-weight:700; padding:3px 8px; border-radius:4px; backdrop-filter:blur(4px);">${item.tag}</div>` : '';
-          return `    <a href="guides/${item.category}/${item.id}/" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 4px 12px rgba(15,23,42,0.03); overflow:hidden; transition:all 0.2s ease; position:relative;">
-          <div style="width:100%; height:130px; background:#f8fafc; display:flex; align-items:center; justify-content:center; overflow:hidden; position:relative;">
-            <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:contain; display:block;">
-            ${tagHtml}
+          let badgeHtml = item.tag ? `<div style="font-size:11px; font-weight:800; color:#2563eb; background:#eff6ff; padding:2px 6px; border-radius:4px; margin-bottom:4px; display:inline-block;">${item.tag}</div>` : '';
+          const dateStr = item.date || '';
+
+          return `    <a href="guides/${item.category}/${item.id}/" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
+          <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
+            <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
           </div>
-          <div style="padding:12px 14px; display:flex; flex-direction:column; flex:1; justify-content:flex-start;">
-            <div style="font-size:13.5px; font-weight:800; color:#0f172a; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+          <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
+            <div>${badgeHtml}</div>
+            <div class="list-title" style="font-size:16px; font-weight:700; color:var(--ink); line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+            <div style="font-size:13px; color:var(--sub); margin-top:6px; font-weight:500;">Kori Care Guide &middot; ${dateStr}</div>
           </div>
         </a>`;
         }).join('\n');
         
         let up = c.slice(0, c.indexOf(startM) + startM.length) + 
-          '\n  <div class="news-grid" id="guide-list" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:28px;">\n' + 
+          '\n  <div class="news-list" id="guide-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + 
           langCards + 
           '\n  </div>\n  ' + c.slice(c.indexOf(endM));
         fs.writeFileSync(p, up, 'utf-8');
