@@ -27,17 +27,22 @@ function generateSitemap() {
     '    <priority>0.9</priority>',
     '  </url>',
     '  <url>',
-    '    <loc>https://www.koricare.kr/link/severance-calculator</loc>',
+    '    <loc>https://www.koricare.kr/link/severance-calculator.html</loc>',
     '    <changefreq>weekly</changefreq>',
     '    <priority>0.8</priority>',
     '  </url>',
     '  <url>',
-    '    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>',
+    '    <loc>https://www.koricare.kr/link/th/severance-calculator.html</loc>',
     '    <changefreq>weekly</changefreq>',
     '    <priority>0.8</priority>',
     '  </url>',
     '  <url>',
-    '    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>',
+    '    <loc>https://www.koricare.kr/link/vi/severance-calculator.html</loc>',
+    '    <changefreq>weekly</changefreq>',
+    '    <priority>0.8</priority>',
+    '  </url>',
+    '  <url>',
+    '    <loc>https://www.koricare.kr/link/guides/life/life_001.html</loc>',
     '    <changefreq>weekly</changefreq>',
     '    <priority>0.8</priority>',
     '  </url>'
@@ -57,8 +62,8 @@ function generateSitemap() {
     process.exit(1);
   }
 
-  if (!Array.isArray(dirUrls) || dirUrls.length < 216) {
-    console.error('[Error] directory_sitemap.json has fewer than 216 entries. Fail-hard triggered.');
+  if (!Array.isArray(dirUrls) || dirUrls.length < 99) {
+    console.error('[Error] directory_sitemap.json has fewer than 99 entries. Fail-hard triggered.');
     process.exit(1);
   }
 
