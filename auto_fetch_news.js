@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const http = require('http');
+const crypto = require('crypto');
 
 const BASE_DIR = __dirname;
 const DATA_DIR = path.join(BASE_DIR, 'data');
@@ -126,6 +127,15 @@ function buildArticleHtml(newsItem, lang) {
 <title>${newsItem.title} — Kori Care News</title>
 <meta name="description" content="${newsItem.desc.slice(0, 150)}">
 <link rel="canonical" href="https://www.koricare.kr/link/news/${newsItem.id}.html">
+<meta name="robots" content="noindex, follow">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-F0R2ZQNNPZ');
+</script>
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -178,7 +188,7 @@ function buildArticleHtml(newsItem, lang) {
           This news update has been automatically verified and curated for foreign residents living in South Korea. For full unedited coverage, please reference the official source below.
         </div>
       </div>
-      <a href="${newsItem.link}" class="src-link-subtle" target="_blank" rel="noopener">Read Full Article on Original Source ➔</a>
+      <a href="${newsItem.link || '#'}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb;">🔗 Read Full Article on Original Source ➔</a>
     </div>
 
     ${engSummarySection}
@@ -246,16 +256,41 @@ async function runPipeline() {
       return true;
     });
 
-    const newsList = uniqueItems.slice(0, 10).map((item, idx) => {
-      const id = `hotnews_${lang}_${idx + 1}`;
+    const dataPath = path.join(DATA_DIR, `news_list_${lang}.json`);
+    let existingList = [];
+    if (fs.existsSync(dataPath)) {
+      try { existingList = JSON.parse(fs.readFileSync(dataPath, 'utf-8')); } catch(e){}
+    }
+
+    const newItemsList = uniqueItems.map((item) => {
+      const hash = crypto.createHash('md5').update(item.link || item.title).digest('hex').slice(0,8);
+      const id = `hotnews_${lang}_${hash}`;
       item.id = id;
-      const html = buildArticleHtml(item, lang);
-      fs.writeFileSync(path.join(NEWS_DIR, `${id}.html`), html, 'utf-8');
-      return { id, date: item.date, image: item.image, title: item.title, link: item.link };
+      return item;
     });
 
-    const dataPath = path.join(DATA_DIR, `news_list_${lang}.json`);
-    fs.writeFileSync(dataPath, JSON.stringify(newsList, null, 2), 'utf-8');
+    for (const item of newItemsList) {
+      if (!existingList.find(x => x.link === item.link)) {
+        const html = buildArticleHtml(item, lang);
+        fs.writeFileSync(path.join(NEWS_DIR, `${item.id}.html`), html, 'utf-8');
+        existingList.unshift({ id: item.id, date: item.date, image: item.image, title: item.title, link: item.link });
+      }
+    }
+
+    // Rolling retention (keep 50)
+    const keptList = existingList.slice(0, 50);
+    const removedList = existingList.slice(50);
+    
+    // Delete old files
+    for (const oldItem of removedList) {
+      const oldPath = path.join(NEWS_DIR, `${oldItem.id}.html`);
+      if (fs.existsSync(oldPath)) {
+        fs.unlinkSync(oldPath);
+      }
+    }
+
+    fs.writeFileSync(dataPath, JSON.stringify(keptList, null, 2), 'utf-8');
+    const newsList = keptList;
 
     const targetIndexPath = lang === 'en' ? INDEX_EN_PATH : (lang === 'th' ? INDEX_TH_PATH : INDEX_VI_PATH);
     const langPrefix = lang === 'en' ? '' : 'https://www.koricare.kr/link';

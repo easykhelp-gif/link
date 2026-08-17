@@ -167,20 +167,7 @@ Output raw JSON:`;
   return callGeminiApi(prompt, apiKey);
 }
 
-function generateSitemap(existingNews) {
-  const sitemapPath = path.join(BASE_DIR, "sitemap.xml");
-  const xmlLines = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    '  <url>',
-    '    <loc>https://koricare.kr/link</loc>',
-    '    <changefreq>daily</changefreq>',
-    '    <priority>1.0</priority>',
-    '  </url>'
-  ];
-  existingNews.forEach(item => {
-    xmlLines.push('  <url>');
-    xmlLines.push(`    <loc>https://koricare.kr/link/news/${item.id}.html</loc>`);
+.html</loc>`);
     xmlLines.push(`    <lastmod>${item.date}</lastmod>`);
     xmlLines.push('    <changefreq>monthly</changefreq>');
     xmlLines.push('    <priority>0.8</priority>');
@@ -312,8 +299,14 @@ async function main() {
   }
 
   if (newPostsProcessed > 0) {
-    fs.writeFileSync(NEWS_LIST_PATH, JSON.stringify(existingNews, null, 2), 'utf-8');
-    generateSitemap(existingNews);
+    const keptList = existingNews.slice(0, 50);
+    const removedList = existingNews.slice(50);
+    for (const oldItem of removedList) {
+      const oldPath = path.join(NEWS_DIR, `${oldItem.id}.html`);
+      if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+    }
+    fs.writeFileSync(NEWS_LIST_PATH, JSON.stringify(keptList, null, 2), 'utf-8');
+    existingNews = keptList;
     console.log(`\n🎉 총 ${newPostsProcessed}개의 페이스북 새 글 동기화 완료!`);
   } else {
     console.log("\n✅ 동기화할 새로운 페이스북 포스트가 없습니다. 최신 상태입니다.");

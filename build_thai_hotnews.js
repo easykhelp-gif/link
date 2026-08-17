@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const http = require('http');
+const crypto = require('crypto');
 
 // =========================================================================
 // KoriCare Thai HotNews Auto-Pipeline (v2.1 Full Production)
@@ -119,7 +120,16 @@ function generateArticleHtml(news, articleId) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${news.title} - Kori Care News</title>
-  <link rel="canonical" href="https://koricare.kr/link/news/${articleId}.html">
+  <link rel="canonical" href="https://www.koricare.kr/link/news/${articleId}.html">
+  <meta name="robots" content="noindex, follow">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F0R2ZQNNPZ');
+  </script>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #0f172a; margin: 0; padding: 20px; line-height: 1.6; }
     .container { max-width: 680px; margin: 0 auto; background: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
@@ -158,7 +168,7 @@ function generateArticleHtml(news, articleId) {
     ${bannerHtml}
 
     <div style="margin-top: 18px; text-align:center; font-size: 11.5px; color: #94a3b8;">
-      <a href="${news.link}" target="_blank" rel="nofollow noopener" style="color:#94a3b8; text-decoration:none;">อ่านเพิ่มเติม · Reference</a>
+      <a href="${news.link || '#'}" target="_blank" rel="nofollow noopener" style="color:#2563eb; text-decoration:none; font-weight:bold;">🔗 อ่านเพิ่มเติม · Reference (Original Source)</a>
     </div>
 
     <a href="../index.html" class="back-btn">⬅ กลับสู่หน้าหลัก Kori Care Link (돌아가기)</a>
