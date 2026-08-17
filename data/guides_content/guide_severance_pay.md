@@ -1,6 +1,6 @@
 ---
 id: severance_pay
-category: life
+category: korea
 tag: Finance
 image: news/images/news_thumb_labor.png
 date: 2026-08-17

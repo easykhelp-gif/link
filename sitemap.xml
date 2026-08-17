@@ -29,12 +29,6 @@
     <loc>https://www.koricare.kr/link/vi/severance-calculator.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/guides/life/life_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
   <url>
     <loc>https://www.koricare.kr/link/en/busan/restaurant/</loc>
     <lastmod>2026-08-17</lastmod>
@@ -628,5 +622,80 @@
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/korea/guide_hospital_pharmacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/korea/guide_hospital_pharmacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/korea/severance_pay/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/korea/severance_pay/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/korea/severance_pay/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/travel/travel_incheon_ocean/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/travel/travel_incheon_ocean/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/travel/travel_seoul_free/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/travel/travel_seoul_free/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/travel/travel_seoul_free/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

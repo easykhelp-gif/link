@@ -40,12 +40,6 @@ function generateSitemap() {
     '    <loc>https://www.koricare.kr/link/vi/severance-calculator.html</loc>',
     '    <changefreq>weekly</changefreq>',
     '    <priority>0.8</priority>',
-    '  </url>',
-    '  <url>',
-    '    <loc>https://www.koricare.kr/link/guides/life/life_001.html</loc>',
-    '    <changefreq>weekly</changefreq>',
-    '    <priority>0.8</priority>',
-    '  </url>'
   ];
 
   const dirSitemapPath = path.join(DATA_DIR, 'directory_sitemap.json');
@@ -76,10 +70,29 @@ function generateSitemap() {
     xmlLines.push('  </url>');
   });
 
+  const guidesSitemapPath = path.join(DATA_DIR, 'guides_sitemap.json');
+  if (fs.existsSync(guidesSitemapPath)) {
+    try {
+      const guideUrls = JSON.parse(fs.readFileSync(guidesSitemapPath, 'utf-8'));
+      if (Array.isArray(guideUrls)) {
+        guideUrls.forEach(urlObj => {
+          xmlLines.push('  <url>');
+          xmlLines.push(`    <loc>${urlObj.loc}</loc>`);
+          if (urlObj.lastmod) xmlLines.push(`    <lastmod>${urlObj.lastmod}</lastmod>`);
+          if (urlObj.changefreq) xmlLines.push(`    <changefreq>${urlObj.changefreq}</changefreq>`);
+          if (urlObj.priority) xmlLines.push(`    <priority>${urlObj.priority}</priority>`);
+          xmlLines.push('  </url>');
+        });
+      }
+    } catch(e) {
+      console.error('[Warning] guides_sitemap.json is invalid, skipping guides in sitemap.');
+    }
+  }
+
   xmlLines.push('</urlset>');
 
   fs.writeFileSync(SITEMAP_PATH, xmlLines.join('\n'), 'utf-8');
-  console.log('[Success] sitemap.xml updated successfully without news items!');
+  console.log('[Success] sitemap.xml updated successfully!');
 }
 
 function syncNewsIndex() {

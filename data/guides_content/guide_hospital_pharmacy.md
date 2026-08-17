@@ -1,6 +1,6 @@
 ---
 id: guide_hospital_pharmacy
-category: life
+category: korea
 tag: Medical
 image: news/images/news_thumb_visa.png
 date: 2026-08-17

@@ -1,7 +1,7 @@
 [
   {
     "id": "guide_hospital_pharmacy",
-    "category": "life",
+    "category": "korea",
     "tag": "Medical",
     "title_en": "[2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies",
     "title_th": "[อัปเดต 2026] คู่มือการใช้โรงพยาบาลและร้านขายยาในเกาหลีสำหรับชาวต่างชาติ",
@@ -14,7 +14,7 @@
   },
   {
     "id": "severance_pay",
-    "category": "life",
+    "category": "korea",
     "tag": "Finance",
     "title_en": "[2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide",
     "title_th": "[อัปเดต 2026] คู่มือการรับเงินชดเชย (EPS) สำหรับแรงงานต่างชาติในเกาหลี",
@@ -27,7 +27,7 @@
   },
   {
     "id": "travel_incheon_ocean",
-    "category": "life",
+    "category": "travel",
     "tag": "Travel",
     "title_en": "[2026 Updated] The Closest Ocean by Subway: Incheon Wolmido & Chinatown",
     "title_th": "[อัปเดต 2026] ทะเลที่ใกล้ที่สุดด้วยรถไฟใต้ดิน: อินชอน วอลมิโด และ ไชน่าทาวน์",
@@ -40,7 +40,7 @@
   },
   {
     "id": "travel_seoul_free",
-    "category": "life",
+    "category": "travel",
     "tag": "Travel",
     "title_en": "[2026 Updated] Seoul 1-Day Free Travel & Photo Course",
     "title_th": "[อัปเดต 2026] คอร์สเที่ยวและถ่ายรูปฟรี 1 วันในกรุงโซล",

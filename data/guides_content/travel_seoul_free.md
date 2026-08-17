@@ -1,6 +1,6 @@
 ---
 id: travel_seoul_free
-category: life
+category: travel
 tag: Travel
 image: news/images/news_thumb_visa.png
 date: 2026-08-17
