@@ -50,24 +50,22 @@ html += `    </div>
   </div>`;
 
 const files = [
-    'index.html',
     'th/index.html',
     'vi/index.html'
 ];
 
-const pattern = /<!-- Local Directory Section -->.*?<\/div>\s*<\/div>\s*<\/div>/s;
+// In th and vi files, the banner comment is <!-- Official Banner -->
+const pattern = /[\s]*<!-- Local Directory Section -->[\s\S]*?(?=<!-- Official Banner -->)/;
 
 files.forEach(f => {
     const fullPath = path.join(__dirname, f);
     let content = fs.readFileSync(fullPath, 'utf8');
     
-    // Fallback pattern if previous replacement style is found
-    const pattern2 = /<!-- Local Directory Section -->.*?<div id="localGrid".*?<\/div>/s;
-    const pattern3 = /<!-- Local Directory Section -->[\s\S]*?(?=<!-- Kori Care Official Banner)/;
-    
-    if (content.includes('<!-- Local Directory Section -->')) {
-       content = content.replace(pattern3, html + '\n\n    ');
+    if (content.match(pattern)) {
+       content = content.replace(pattern, '\n' + html + '\n\n    ');
        fs.writeFileSync(fullPath, content, 'utf8');
        console.log(`Updated ${f}`);
+    } else {
+       console.log(`Pattern not found in ${f}`);
     }
 });
