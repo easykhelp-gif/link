@@ -34,5 +34,5 @@ jobs:
         run: |
           git config --global user.name "Theo Park AutoBot"
           git config --global user.email "koricare.help@gmail.com"
-          git add data/ news/ guides/ index.html th/ vi/ sitemap.xml templates/ || true
+          git add data/ news/ en/guides/ th/guides/ vi/guides/ index.html th/ vi/ sitemap.xml templates/ || true
           git diff-index --quiet HEAD || (git pull --rebase origin main || true && git commit -m "Auto: 1-Hour Live Trending News Update & Deploy" && git push origin main)
