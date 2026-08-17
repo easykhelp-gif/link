@@ -122,7 +122,9 @@ function buildGuides() {
       hubLinks[lang].push({
         url: currCanonical,
         title: title,
-        date: guide.date
+        date: guide.date,
+        category: guide.category,
+        id: guide.id
       });
     });
   });
@@ -132,29 +134,134 @@ function buildGuides() {
     const hubDir = path.join(BASE_DIR, lang, 'guides');
     ensureDir(hubDir);
     
-    let linksHtml = hubLinks[lang].sort((a,b) => new Date(b.date) - new Date(a.date)).map(l => 
-      `<li style="margin-bottom: 10px;"><a href="${l.url}" style="color: #2563eb; text-decoration: none; font-size: 16px;">${l.title}</a> <span style="color: #64748b; font-size: 12px; margin-left: 10px;">${l.date}</span></li>`
-    ).join('');
+    // Translations for categories and descriptions
+    const t = {
+      en: {
+        title: "Kori Care Guides",
+        back: "← Back to Home",
+        korea_title: "Living in Korea",
+        korea_desc: "Essential information for a smooth and safe life in South Korea. From navigating healthcare and insurance to understanding your legal labor rights as a foreign resident.",
+        travel_title: "Travel & Leisure",
+        travel_desc: "Discover the best places to visit during your weekends and holidays. We provide budget-friendly itineraries, transportation tips, and hidden local gems.",
+        desc_hospital: "A comprehensive guide to medical costs, ER usage, and pharmacy rules for foreigners with or without NHIS.",
+        desc_severance: "Learn how to claim your EPS Departure Guarantee Insurance legally and safely before leaving Korea.",
+        desc_incheon: "A perfect 1-day itinerary to see the ocean, ride the Wolmido Viking, and eat Jajangmyeon in Chinatown.",
+        desc_seoul: "Explore Gyeongbokgung, Bukchon, and Cheonggyecheon on a budget with this free photo course."
+      },
+      th: {
+        title: "คู่มือ Kori Care",
+        back: "← กลับสู่หน้าหลัก",
+        korea_title: "การใช้ชีวิตในเกาหลี",
+        korea_desc: "ข้อมูลสำคัญเพื่อการใช้ชีวิตที่ราบรื่นและปลอดภัยในเกาหลีใต้ ตั้งแต่การใช้บริการด้านสุขภาพและประกัน ไปจนถึงการทำความเข้าใจสิทธิแรงงานตามกฎหมายของคุณในฐานะชาวต่างชาติ",
+        travel_title: "การท่องเที่ยวและการพักผ่อน",
+        travel_desc: "ค้นพบสถานที่ท่องเที่ยวที่ดีที่สุดในช่วงวันหยุดสุดสัปดาห์และวันหยุดยาว เรามีแผนการเดินทางที่ประหยัดงบ เคล็ดลับการเดินทาง และสถานที่ลับยอดฮิตของคนท้องถิ่น",
+        desc_hospital: "คู่มือที่ครอบคลุมเกี่ยวกับค่ารักษาพยาบาล การใช้ห้องฉุกเฉิน และกฎของร้านขายยาสำหรับชาวต่างชาติที่มีและไม่มี NHIS",
+        desc_severance: "เรียนรู้วิธีการขอรับเงินประกันการเดินทางกลับ EPS อย่างถูกต้องตามกฎหมายและปลอดภัยก่อนเดินทางออกจากเกาหลี",
+        desc_incheon: "แผนการเดินทาง 1 วันที่สมบูรณ์แบบเพื่อไปดูทะเล เล่นเครื่องเล่นไวกิ้งที่วอลมิโด และกินจาจังมยอนในไชน่าทาวน์",
+        desc_seoul: "สำรวจคยองบกกุง บุกชอน และชองกเยชอนแบบประหยัดงบด้วยคอร์สถ่ายรูปฟรีนี้"
+      },
+      vi: {
+        title: "Hướng dẫn Kori Care",
+        back: "← Quay lại Trang chủ",
+        korea_title: "Cuộc sống tại Hàn Quốc",
+        korea_desc: "Thông tin thiết yếu để có một cuộc sống suôn sẻ và an toàn tại Hàn Quốc. Từ việc điều hướng chăm sóc sức khỏe và bảo hiểm đến việc hiểu quyền lợi lao động hợp pháp của bạn với tư cách là người cư trú nước ngoài.",
+        travel_title: "Du lịch & Giải trí",
+        travel_desc: "Khám phá những địa điểm tham quan tốt nhất trong những ngày cuối tuần và ngày lễ. Chúng tôi cung cấp các lịch trình tiết kiệm, mẹo di chuyển và những viên ngọc ẩn giấu của địa phương.",
+        desc_hospital: "Hướng dẫn toàn diện về chi phí y tế, sử dụng phòng cấp cứu và các quy định tại hiệu thuốc cho người nước ngoài có hoặc không có NHIS.",
+        desc_severance: "Tìm hiểu cách yêu cầu Bảo hiểm Bảo lãnh Xuất cảnh EPS của bạn một cách hợp pháp và an toàn trước khi rời khỏi Hàn Quốc.",
+        desc_incheon: "Lịch trình 1 ngày hoàn hảo để ngắm biển, đi tàu Viking Wolmido và ăn Jajangmyeon ở Phố Tàu.",
+        desc_seoul: "Khám phá Gyeongbokgung, Bukchon và Cheonggyecheon với ngân sách tiết kiệm cùng khóa học chụp ảnh miễn phí này."
+      }
+    };
+    const texts = t[lang];
+
+    const koreaGuides = hubLinks[lang].filter(l => l.category === 'korea').sort((a,b) => new Date(b.date) - new Date(a.date));
+    const travelGuides = hubLinks[lang].filter(l => l.category === 'travel').sort((a,b) => new Date(b.date) - new Date(a.date));
     
+    let position = 1;
+    const itemListElements = [];
+
+    const buildGuideList = (guides) => {
+      return guides.map(l => {
+        let desc = texts['desc_' + l.id.replace('guide_', '').replace('travel_', '').split('_')[0]];
+        if (!desc) desc = "";
+        
+        itemListElements.push(`{
+          "@type": "ListItem",
+          "position": ${position++},
+          "item": {
+            "@type": "Article",
+            "url": "${l.url}",
+            "name": "${l.title}"
+          }
+        }`);
+
+        return `
+        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'" onclick="window.location.href='${l.url}'">
+          <a href="${l.url}" style="color: #1e40af; text-decoration: none; font-size: 18px; font-weight: 700; display: block; margin-bottom: 8px;">${l.title}</a>
+          <p style="color: #475569; font-size: 14.5px; margin: 0 0 10px 0; line-height: 1.6;">${desc}</p>
+          <span style="color: #94a3b8; font-size: 12.5px; font-weight: 500;">${l.date}</span>
+        </div>`;
+      }).join('');
+    };
+
+    const koreaGuidesHtml = buildGuideList(koreaGuides);
+    const travelGuidesHtml = buildGuideList(travelGuides);
+
     const hubHtml = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kori Care Guides</title>
+<title>${texts.title}</title>
 <link rel="canonical" href="https://www.koricare.kr/link/${lang}/guides/">
+<meta name="description" content="${texts.korea_desc} ${texts.travel_desc}">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-F0R2ZQNNPZ');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    ${itemListElements.join(',\n    ')}
+  ]
+}
+</script>
 <style>
-  body { font-family: "Inter", sans-serif; background: #f8fafc; color: #0f172a; padding: 20px; }
-  .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+  body { font-family: "Inter", system-ui, sans-serif; background: #f8fafc; color: #0f172a; padding: 20px; line-height: 1.6; margin: 0; }
+  .container { max-width: 800px; margin: 0 auto; }
+  .header-card { background: #002366; color: #ffffff; padding: 40px 30px; border-radius: 16px; margin-bottom: 30px; box-shadow: 0 10px 25px rgba(0,35,102,0.15); }
+  .header-card h1 { margin: 0 0 10px 0; font-size: 28px; font-weight: 800; }
+  .header-card p { margin: 0; color: #e0e7ff; font-size: 16px; }
+  .back-link { display: inline-block; color: #64748b; text-decoration: none; font-weight: 600; margin-bottom: 20px; transition: color 0.2s; }
+  .back-link:hover { color: #0f172a; }
+  .section-title { font-size: 22px; font-weight: 800; color: #0f172a; margin: 40px 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+  .section-desc { font-size: 15px; color: #475569; margin-bottom: 24px; }
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>Kori Care Guides</h1>
-  <p><a href="/link/index.html" style="color: #64748b; text-decoration: none;">&larr; Back to Home</a></p>
-  <ul style="list-style-type: none; padding: 0; margin-top: 20px;">
-    ${linksHtml}
-  </ul>
+  <a href="/link/${lang === 'en' ? 'index.html' : lang + '/index.html'}" class="back-link">${texts.back}</a>
+  
+  <div class="header-card">
+    <h1>${texts.title}</h1>
+    <p>Comprehensive guides for your journey in Korea.</p>
+  </div>
+
+  <h2 class="section-title">${texts.korea_title}</h2>
+  <p class="section-desc">${texts.korea_desc}</p>
+  ${koreaGuidesHtml}
+
+  <h2 class="section-title">${texts.travel_title}</h2>
+  <p class="section-desc">${texts.travel_desc}</p>
+  ${travelGuidesHtml}
+
 </div>
 </body>
 </html>`;
