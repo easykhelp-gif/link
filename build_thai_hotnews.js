@@ -242,9 +242,16 @@ async function runPipeline() {
   const THAI_INDEX_PATH = path.join(BASE_DIR, "th", "index.html");
   updateHtmlFile(THAI_INDEX_PATH, generatedNewsCards);
 
-  // Sync news folder to temp_link_repo3
-  const tempRepoNewsDir = path.join(BASE_DIR, "temp_link_repo3", "news");
-  copyFolderRecursiveSync(NEWS_DIR, tempRepoNewsDir);
+  // Sync news folder to the local temp_link_repo3 clone.
+  // 로컬 개발 환경(BASE_DIR = 작업 폴더, PORTAL_DIR = koricare-portal)에서만 수행한다.
+  // GitHub Actions 러너에서는 BASE_DIR == PORTAL_DIR == 저장소 루트라서,
+  // 그대로 두면 저장소가 자기 자신 안으로 news/를 복사해 중복 URL을 만든다.
+  const tempRepoDir = path.join(BASE_DIR, "temp_link_repo3");
+  const isSeparateClone =
+    PORTAL_DIR !== BASE_DIR && fs.existsSync(path.join(tempRepoDir, ".git"));
+  if (isSeparateClone) {
+    copyFolderRecursiveSync(NEWS_DIR, path.join(tempRepoDir, "news"));
+  }
 }
 
 runPipeline();

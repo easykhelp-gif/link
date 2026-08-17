@@ -1,1 +1,4 @@
 .env
+
+# 저장소가 자기 자신 안으로 복사되는 사고 방지 (build_thai_hotnews.js 로컬 동기화 경로)
+/temp_link_repo3/
