@@ -48,6 +48,10 @@ function buildGuides() {
     html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
     html = html.replace(/\{\{IMAGE_URL\}\}/g, guide.image || '');
     
+    // Capitalize category or use tag
+    let catName = guide.tag ? guide.tag : (guide.category.charAt(0).toUpperCase() + guide.category.slice(1));
+    html = html.replace(/\{\{CATEGORY_NAME\}\}/g, catName);
+    
     html = html.replace(/\{\{CONTENT_EN\}\}/g, guide.content_en || '');
     html = html.replace(/\{\{CONTENT_TH\}\}/g, guide.content_th || '');
     html = html.replace(/\{\{CONTENT_VI\}\}/g, guide.content_vi || '');
@@ -76,17 +80,25 @@ function updateIndexHtml(guides) {
   const eIdx = content.indexOf(endM);
 
   if (sIdx !== -1 && eIdx !== -1) {
+    // Sort by date descending
+    const sortedGuides = guides.slice().sort((a, b) => {
+      return new Date(b.date) - new Date(a.date);
+    });
+
     // Take top 3 latest guides
-    const top3 = guides.slice(0, 3);
+    const top3 = sortedGuides.slice(0, 3);
     const cardsHtml = top3.map(item => {
       const thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
       const title = item.title_en || item.title_ko || item.title_th || item.title_vi;
-      return `    <a href="guides/${item.category}/${item.id}.html" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #cbd5e1; box-shadow:0 3px 10px rgba(15,23,42,0.05); overflow:hidden; transition:all 0.2s ease;">
-      <div style="width:100%; height:100px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; overflow:hidden;">
-        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
+      let tagHtml = item.tag ? `<div style="position:absolute; top:8px; left:8px; background:rgba(0,0,0,0.6); color:#fff; font-size:10px; font-weight:700; padding:3px 8px; border-radius:4px; backdrop-filter:blur(4px);">${item.tag}</div>` : '';
+      
+      return `    <a href="guides/${item.category}/${item.id}.html" class="news-card" style="display:flex; flex-direction:column; background:#fff; border-radius:14px; text-decoration:none; border:1px solid #e2e8f0; box-shadow:0 4px 12px rgba(15,23,42,0.03); overflow:hidden; transition:all 0.2s ease; position:relative;">
+      <div style="width:100%; height:130px; background:#f8fafc; display:flex; align-items:center; justify-content:center; overflow:hidden; position:relative;">
+        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:contain; display:block;">
+        ${tagHtml}
       </div>
-      <div style="padding:8px 10px; display:flex; flex-direction:column; flex:1; justify-content:center;">
-        <div style="font-size:12px; font-weight:800; color:#002366; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
+      <div style="padding:12px 14px; display:flex; flex-direction:column; flex:1; justify-content:flex-start;">
+        <div style="font-size:13.5px; font-weight:800; color:#0f172a; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>
       </div>
     </a>`;
     }).join('\n');

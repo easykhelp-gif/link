@@ -240,7 +240,7 @@
       <img src="../../koricare_main_logo_nobg.png" alt="Kori Care Logo" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
-        <span>Korea Life & Travel Guide</span>
+        <span>Korea Guide</span>
       </div>
     </a>
     <div class="flags-badge">🌐 Multi-Language</div>
@@ -248,17 +248,19 @@
 </header>
 
 <main class="wrap">
-  <article class="post-card">
-    <div class="hero-image">
-      <img src="{{IMAGE_URL}}" alt="{{TITLE_EN}}">
-    </div>
-
-    <div class="meta-bar">
-      <span class="meta-tag">📘 Essential Guide</span>
-      <span>📅 {{DATE}}</span>
+  <article class="post-card" style="border: none; box-shadow: none; padding: 0; background: transparent; margin-top: 32px;">
+    
+    <div class="meta-bar" style="margin-bottom: 20px;">
+      <span class="meta-tag" style="background: #f1f5f9; color: #475569;">{{CATEGORY_NAME}}</span>
+      <span style="color: #94a3b8;">•</span>
+      <span style="color: #64748b; font-weight: 500;">{{DATE}}</span>
     </div>
     
-    <h1 class="main-title" id="displayTitle">{{TITLE_EN}}</h1>
+    <h1 class="main-title" id="displayTitle" style="font-size: 28px; letter-spacing: -0.5px; line-height: 1.4; color: #0f172a; margin-bottom: 24px;">{{TITLE_EN}}</h1>
+
+    <div class="hero-image" style="margin: 0 0 32px 0; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); height: auto;">
+      <img src="{{IMAGE_URL}}" alt="{{TITLE_EN}}" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; display: block;">
+    </div>
 
     <div class="lang-tabs-nav">
       <button class="tab-btn active" onclick="switchLang('en', this)">🇺🇸 English</button>
