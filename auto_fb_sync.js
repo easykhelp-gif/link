@@ -167,16 +167,6 @@ Output raw JSON:`;
   return callGeminiApi(prompt, apiKey);
 }
 
-.html</loc>`);
-    xmlLines.push(`    <lastmod>${item.date}</lastmod>`);
-    xmlLines.push('    <changefreq>monthly</changefreq>');
-    xmlLines.push('    <priority>0.8</priority>');
-    xmlLines.push('  </url>');
-  });
-  xmlLines.push('</urlset>');
-  fs.writeFileSync(sitemapPath, xmlLines.join('\n'), 'utf-8');
-}
-
 async function main() {
   console.log("==================================================");
   console.log(" 🚀 Kori Care - 페이스북 RSS 연동 자동 뉴스 빌더 (Node.js)");

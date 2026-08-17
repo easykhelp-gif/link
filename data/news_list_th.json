@@ -1,5 +1,271 @@
 [
   {
+    "id": "hotnews_th_0ad229c2",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSaC6dAJOeMnL.jpg",
+    "title": "สภา กทม. เห็นชอบตั้ง 3 สก. เป็นกรรมการสอบข้อเท็จจริงปมกดบัตรแทนกัน ตีกรอบ 60 วัน",
+    "link": "https://www.thairath.co.th/news/politic/2953370"
+  },
+  {
+    "id": "hotnews_th_d712c1a9",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSJEW1Gy6HN6k.jpg",
+    "title": "แฉ 3.6 หมื่นนิติบุคคลต่างชาติ ถือครองที่ดินไทย 16 จังหวัด จ่อสอบนอมินีฮุบคอนโด",
+    "link": "https://www.thairath.co.th/news/governmentpolicy/2953367"
+  },
+  {
+    "id": "hotnews_th_6abebef4",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSaaqHnVuc4GC.jpg",
+    "title": "ป.ป.ช. สุราษฎร์ธานี สุ่มตรวจอาหารกลางวัน 6 โรงเรียน พบพิรุธอื้อ",
+    "link": "https://www.thairath.co.th/news/politic/2953374"
+  },
+  {
+    "id": "hotnews_th_8541f228",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSaJvtntLbLmt.jpg",
+    "title": "\"วีระยุทธ\" ชำแหละจีดีพีไตรมาส 2 \"โตทิพย์\"! แฉรัฐบาลปล่อยผี Data Center",
+    "link": "https://www.thairath.co.th/news/politic/2953371"
+  },
+  {
+    "id": "hotnews_th_24d37848",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSZ35BbjBhumg.jpg",
+    "title": "ปลูกจิตสำนึกรักบ้านเกิด จัดกิจกรรม \"ป่าเขาขยาย\" ร่วมดูแลต้นไม้ เรียนรู้ชุมชน",
+    "link": "https://www.thairath.co.th/news/local/central/2953372"
+  },
+  {
+    "id": "hotnews_th_324d112e",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkXPEUqunxuqBU.jpg",
+    "title": "“พริษฐ์” จับผิดคำชี้แจง “วิทยา” เรียกร้อง DSI-กกต. แจงสำนวนสืบสวน",
+    "link": "https://www.thairath.co.th/news/politic/2953398"
+  },
+  {
+    "id": "hotnews_th_dfb29591",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkXOe72zBgd51p.jpg",
+    "title": "เปิดประวัติ \"พระพรหมวชิรมุนีฯ\" ผู้ช่วยเจ้าอาวาสวัดสุทัศนเทพวราราม",
+    "link": "https://www.thairath.co.th/news/society/2953393"
+  },
+  {
+    "id": "hotnews_th_51bbf289",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkXPDMMpfyWDoY.jpg",
+    "title": "ที่ดินจังหวัด เตรียมแจ้งความเอาผิด ผู้จัดการมรดกตาเฮียง ให้ถ้อยคำเท็จ อ้างโฉนดหาย",
+    "link": "https://www.thairath.co.th/news/local/northeast/2953399"
+  },
+  {
+    "id": "hotnews_th_d8550a34",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZKcOGDuhxNqQ0.jpg",
+    "title": "เงียบเหงา วันแรกไร้ผู้สมัคร ชิงตำแหน่งนายก อบจ.นนทบุรี",
+    "link": "https://www.thairath.co.th/news/politic/2953400"
+  },
+  {
+    "id": "hotnews_th_31fd42d1",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZKcAztwQMJtOQ.jpg",
+    "title": "อัปเดตราคาทองวันนี้ 17 ส.ค. 69 ปิดตลาดปรับลด 50 บาท ทองรูปพรรณขายออก 69,500",
+    "link": "https://www.thairath.co.th/news/society/2953402"
+  },
+  {
+    "id": "hotnews_th_b9f7ca59",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZKcUbXthMO95H.jpg",
+    "title": "นายกฯ ถึงซิดนีย์เร่งขับเคลื่อน “หุ้นส่วนทางยุทธศาสตร์” รอบด้าน",
+    "link": "https://www.thairath.co.th/news/politic/2953401"
+  },
+  {
+    "id": "hotnews_th_54fcf590",
+    "date": "2026-08-17",
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSJII0TnvIOx3.jpg",
+    "title": "กฟน. แจ้งไฟฟ้าดับ วันที่ 18 สิงหาคม 2569 หลายจุดในพื้นที่กรุงเทพฯ",
+    "link": "https://www.thairath.co.th/news/society/2953366"
+  },
+  {
+    "id": "hotnews_th_23c54963",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Horoscope8778-3-1-1-2.jpg",
+    "title": "เปิดดวง ดาวอาทิตย์ย้าย 17 ส.ค. เปิดราศีเตรียมรับโชค 2 ชั้น เตือนราศีระวัง ศัตรูซ่อนมุมมืด",
+    "link": "https://www.khaosod.co.th/horoscope/news_10363616"
+  },
+  {
+    "id": "hotnews_th_51b5c83c",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/GR-D.jpg",
+    "title": "เห็นแล้วท้อ! หญิงตั้งปลุก 06.30 น. หวังหนีฝูงชน ‘ซานโตรินี’ แต่เจอนทท. หลักพัน",
+    "link": "https://www.khaosod.co.th/around-the-world-news/news_10363380"
+  },
+  {
+    "id": "hotnews_th_be02b6c6",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Tricolor-skin-complexion-1.jpg",
+    "title": "จเรตร. สั่งตำรวจ ทุกสถานีทั่วไทย ตรวจสอบ-เฝ้าระวัง บุคคลพ้นโทษเรือนจำ ป้องปรามอาชญากรรม",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363607"
+  },
+  {
+    "id": "hotnews_th_771b1d80",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/khonen.jpg",
+    "title": "ผอ.แจงดราม่าเดือด พยาบาลแช่งคนไข้ไล่กลับไปตายที่บ้าน ยันไม่ใช่บุคลากรรพ.ขอนแก่น เผยสาเหตุผู้ป่วยเสียชีวิต",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363610"
+  },
+  {
+    "id": "hotnews_th_83e37236",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/paknam.jpg",
+    "title": "ตำรวจปากน้ำ รวบเยาวชนเย้ยคำสั่งนายกฯ ควงปืนแว้นรถไล่ยิงอริกลางถนนสาหัส 2",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363496"
+  },
+  {
+    "id": "hotnews_th_2fa3333b",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/IMG_9108.jpeg",
+    "title": "“วราวุธ” สั่ง กพร.คุมเข้มเหมืองทั่วประเทศ หวั่นซ้ำเติมสารพิษแม่น้ำกก",
+    "link": "https://www.khaosod.co.th/economics/news_10363633"
+  },
+  {
+    "id": "hotnews_th_737cce0c",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/wrewe1.jpg",
+    "title": "จับเครือข่ายไอซ์ข้ามชาติ 4 ราย ยึด 205 กก. มูลค่า 43 ล้าน ขนลงชายแดนใต้",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363593"
+  },
+  {
+    "id": "hotnews_th_f31c3752",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B8%9B%E0%B8%9B.jpg",
+    "title": "บพท.จัดงาน ล้านนาคดีดาราเทวี ศรีเชียงใหม่ มองล้านนาในมิติใหม่ผ่านมรดกที่มีชีวิต หนุนสินค้าล้านนาพรีเมี่ยม",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363646"
+  },
+  {
+    "id": "hotnews_th_dc312bf4",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/pun.jpg",
+    "title": "โสดแล้ว! ปันปัน สุทัตตา ไหว้ขอพระแม่เด้งคนที่ไม่ใช่ออกไป ได้ผลทันที จบแล้วรักทางไกล",
+    "link": "https://www.khaosod.co.th/entertainment/news_10363391"
+  },
+  {
+    "id": "hotnews_th_3141bd9b",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/wed0817-1w.jpg",
+    "title": "คู่บ่าวสาวอินโดฯเศร้า จัดพิธีต่อหน้าร่างคุณพ่อ หลังเสียชีวิตกะทันหัน",
+    "link": "https://www.khaosod.co.th/around-the-world-news/news_10363464"
+  },
+  {
+    "id": "hotnews_th_4ca24644",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/17-parite.jpg",
+    "title": "พริษฐ์ รอคำตอบ กกต.-ดีเอสไอ ไขข้อสงสัย ปมคำชี้แจง ‘วิทยา’ เอี่ยวคดีโกงเลือก สว.",
+    "link": "https://www.khaosod.co.th/politics/news_10363650"
+  },
+  {
+    "id": "hotnews_th_cf5e41ab",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/0-feat-47-728x410-1.jpg",
+    "title": "Thailand steps up dugong protection after 209 strandings in 10 years",
+    "link": "https://www.khaosodenglish.com/news/environment/2026/08/17/thailand-steps-up-dugong-protection-after-209-strandings-in-10-years/"
+  },
+  {
+    "id": "hotnews_th_047410ac",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Tragic-motorcycle-accident.jpg",
+    "title": "เหตุสลด จยย. ขี่เปลี่ยนเลน ตัดหน้า กระบะ กระชั้นชิด เบรกไม่ทัน ชนเต็มแรง เสียชีวิตคาที่เกิดเหตุ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363635"
+  },
+  {
+    "id": "hotnews_th_f448d4fc",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/cg04.jpg",
+    "title": "นักวิจัยพัฒนา หมากฝรั่งช่วยต่อสู้มะเร็ง ลดเชื้อ HPV ในช่องปากได้ถึง 93%",
+    "link": "https://www.khaosod.co.th/special-stories/news_10363625"
+  },
+  {
+    "id": "hotnews_th_dea461d6",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/kk-2.jpg",
+    "title": "โรงพยาบาลขอนแก่น แจงดราม่า พยาบาลแช่งผู้ป่วยให้กลับไปตายบ้าน ไม่ใช่บุคลากร รพ.",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363794"
+  },
+  {
+    "id": "hotnews_th_e7264141",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/news155031_VGgTGKWDP81786967616.jpg",
+    "title": "มหาวิทยาลัยเกษตรฯ จัดพิธีรับ พระบรมราชโองการฯ แต่งตั้ง อธิการบดี มก. คนที่16 ​",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363825"
+  },
+  {
+    "id": "hotnews_th_89535b77",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/IMG_2871.jpeg",
+    "title": "เอไอเอส ชวนอัปสกิล AI ฟรี ในงาน AIS ACADEMY For THAIs 11-12 ก.ย.นี้",
+    "link": "https://www.khaosod.co.th/economics/news_10363841"
+  },
+  {
+    "id": "hotnews_th_94cf5198",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AP26229039169081-728x410-1.jpg",
+    "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+    "link": "https://www.khaosodenglish.com/news/international/2026/08/17/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea/"
+  },
+  {
+    "id": "hotnews_th_c328daeb",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/0-0-feat-5-728x410-1.jpg",
+    "title": "Prachin Buri residents rally against EEC expansion, demand Anutin cancel plan",
+    "link": "https://www.khaosodenglish.com/politics/2026/08/17/prachin-buri-residents-rally-against-eec-expansion-demand-anutin-cancel-plan/"
+  },
+  {
+    "id": "hotnews_th_19a1c6e8",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Thai-immigration-police-raid-visa-agency-over-fake-bank-statements-728x410-1.jpg",
+    "title": "Thai immigration police raid visa agency over fake bank statements",
+    "link": "https://www.khaosodenglish.com/news/2026/08/17/thai-immigration-police-raid-visa-agency-over-fake-bank-statements/"
+  },
+  {
+    "id": "hotnews_th_783eca1a",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Bangkok-728x410-1.jpg",
+    "title": "Discover the giant Buddha at Bangkok’s Wat Paknam",
+    "link": "https://www.khaosodenglish.com/featured/2026/08/17/discover-the-giant-buddha-at-bangkoks-wat-paknam/"
+  },
+  {
+    "id": "hotnews_th_ebacd55e",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Hat-Yai-Police.jpg",
+    "title": "ตร.หาดใหญ่ แจงดราม่า ไบค์เกอร์มาเลย์ โพสต์โวยถูกจับ-ปลุกบอยคอต ยันทำตามกฎหมาย-ไม่ได้รังแก นทท.",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10363875"
+  },
+  {
+    "id": "hotnews_th_39f10755",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/pada1.jpg",
+    "title": "“ป้าดา” เปิดใจยืนยันไม่ได้คิดแย่งที่ดินวัด ลั่นหากพบเป็นของวัดจริงพร้อมยอมรับ",
+    "link": "https://www.khaosod.co.th/special-stories/news_10363843"
+  },
+  {
+    "id": "hotnews_th_8cf718c9",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/648385727_1233837128926032_7819363125195015596_n-728x410-1.jpg",
+    "title": "Suvarnabhumi to open Auto Gates to 31 more nationalities",
+    "link": "https://www.khaosodenglish.com/featured/2026/08/17/suvarnabhumi-to-open-auto-gates-to-31-more-nationalities/"
+  },
+  {
+    "id": "hotnews_th_8f76d11f",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Anutin-Charnvirakul-8.jpg",
+    "title": "นายกฯ เดินทางถึง นครซิดนีย์ พร้อมขับเคลื่อนหุ้นส่วนยุทธศาสตร์ ไท-ออสเตรเลีย ทุกมิติ",
+    "link": "https://www.khaosod.co.th/politics/news_10363896"
+  },
+  {
+    "id": "hotnews_th_4afb3158",
+    "date": "2026-08-17",
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/supercom-4089.jpg",
+    "title": "ซูเปอร์คอมพิวเตอร์ ทำนายแล้วทีมใดคว้าแชมป์ พรีเมียร์ลีก 2026-27",
+    "link": "https://www.khaosod.co.th/sports/news_10363904"
+  },
+  {
     "id": "hotnews_th_f8a1657e",
     "date": "2026-08-17",
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSqBBSAIvWPru.jpg",
@@ -82,271 +348,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/di.jpg",
     "title": "DITTO แกร่ง ไตรมาส 2 กำไรแตะ 190 ล้านบาทโต 13% ครึ่งปีเกือบ 350 ล้าน ตุนแบ็กล็อก 4.8 พันล้านบาท-บริษัทยักษ์ต่างชาติรุมจีบ",
     "link": "https://www.khaosod.co.th/monitor-news/news_10363511"
-  },
-  {
-    "id": "hotnews_th_85c9e26b",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/jeenswim1.jpg",
-    "title": "สุดยื้อชีวิต หนุ่มจีนวัย44 เสียชีวิต หลังลงว่ายน้ำในสระลึก 2 เมตร โรงแรมดังภูเก็ต",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363509"
-  },
-  {
-    "id": "hotnews_th_8e9c5bcd",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/news154976_5S6YEvLeNe1786956918.jpg",
-    "title": "วัยรุ่นอาชีวะ ปืนดุกระหน่ำยิงคู่อริ เด็กม.5 หน้าบ้าน กระสุนเข้า ราวนม-หน้าอก 4 นัด เสียชีวิตคาที่",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363408"
-  },
-  {
-    "id": "hotnews_th_abe46ed9",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/775537606_1462214875941858_6145678336103321442_n_0.jpg",
-    "title": "มก.จัดพิธีรับพระบรมราชโองการฯ แต่งตั้งอธิการบดีมหาวิทยาลัยเกษตรศาสตร์ คนที่ 16",
-    "link": "https://www.khaosod.co.th/monitor-news/news_10363550"
-  },
-  {
-    "id": "hotnews_th_4e666f93",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/russai.jpg",
-    "title": "หอการค้า-สีหศักดิ์ บินรัสเซีย ดัน FTA ไทย–EAEU ลุยขยายการค้า 5,000 ล้านดอลล์ใน 5 ปี",
-    "link": "https://www.khaosod.co.th/economics/news_10363547"
-  },
-  {
-    "id": "hotnews_th_831d47fd",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/iraola-1.jpg",
-    "title": "อิราโอลา แสดงความเห็นถึงสองกองหลังใหม่ อเราโฮ-ฌักเกต์",
-    "link": "https://www.khaosod.co.th/sports/news_10363521"
-  },
-  {
-    "id": "hotnews_th_8ea8ada1",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Monsoon-batters-Thailand-1.jpg",
-    "title": "เตือน 18 จังหวัด รับมือน้ำหลาก-ท่วม 19–21 ส.ค. หลังมรสุมซัดเหนือ-อีสาน",
-    "link": "https://www.khaosod.co.th/economics/news_10363570"
-  },
-  {
-    "id": "hotnews_th_7dff58cd",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/yaihalun2.jpg",
-    "title": "มอส พี่ชาย ฮลุน โซโล่ เผย คุณยายติดโควิด ฝากถึงเอฟซี งดเดินทางมาเยี่ยมชั่วคราว",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363564"
-  },
-  {
-    "id": "hotnews_th_e1586d52",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/weather5.jpg",
-    "title": "เริ่มถล่มพรุ่งนี้ กรมอุตุนิยมวิทยา เตือนฝนตกหนักมาก ฉบับที่ 5 เปิดชื่อจังหวัดโดนเต็มๆ จับตา 4 วัน 96 ชั่วโมง",
-    "link": "https://www.khaosod.co.th/breaking-news/news_10363520"
-  },
-  {
-    "id": "hotnews_th_92c03d00",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/images_11zon17821.jpg",
-    "title": "อย่าเสี่ยง อินฟลูฯ บราซิล เผยภาพ โดนฉลามกัด ขณะทำคอนเทนต์ไวรัล แม้เตือนแล้ว",
-    "link": "https://www.khaosod.co.th/around-the-world-news/news_10363312"
-  },
-  {
-    "id": "hotnews_th_818419d0",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Hunting-down-a-scammer-network.jpg",
-    "title": "ตร.ไซเบอร์ ล่าแก๊งสแกมเมอร์ทั่วอีสาน รวบผู้ต้องหา 20 ราย อายัดเงินคืนผู้เสียหาย นับล้าน",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363549"
-  },
-  {
-    "id": "hotnews_th_f8e4f069",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/IMG_9107.jpeg",
-    "title": "“ศุภจี” ลุยแก้คอขวด ตม. สุวรรณภูมิ เพิ่ม Auto Gate รองรับ 33 สัญชาติทันไฮซีซั่น",
-    "link": "https://www.khaosod.co.th/economics/news_10363608"
-  },
-  {
-    "id": "hotnews_th_dd88631b",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/j04.jpg",
-    "title": "“เจนิส” แชร์อุทาหรณ์หลังลงแข่ง Hyrox ทำร่างพัง จนต้องไปทำกายภาพบำบัด!",
-    "link": "https://www.khaosod.co.th/entertainment/news_10363508"
-  },
-  {
-    "id": "hotnews_th_a65483ed",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/S__5226513_0.jpg",
-    "title": "ตร.ออกตรวจเจอลุงขี่ จยย.มีพิรุธ ขอค้นเจอปืนบรรจุกระสุนเต็มโม่ อ้างมีไว้ป้องกันตัว",
-    "link": "https://www.khaosod.co.th/crime/news_10363739"
-  },
-  {
-    "id": "hotnews_th_e9408df5",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/mcot-land.jpg-.jpg",
-    "title": "อสมท. เปิดขายซองประมูลที่ดินรัชดาฯ ห้วยขวาง 50 ไร่ เก็บเงินสดต่อยอด MCOT Next ลุยละคร AI",
-    "link": "https://www.khaosod.co.th/economics/news_10363431"
-  },
-  {
-    "id": "hotnews_th_3d809507",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/amazon.jpg",
-    "title": "Café Amazon จับมือ บาชุนดารา รุกตลาดบังกลาเทศ ตั้งเป้าปูพรม 8 สาขา",
-    "link": "https://www.khaosod.co.th/economics/news_10363748"
-  },
-  {
-    "id": "hotnews_th_874da2ef",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/d04-4.jpg",
-    "title": "ชนะคู่! คุณพ่อสร้างสถิติโลก วิ่งพร้อมเข็นลูกสาววัย 1 ขวบ เข้าเส้นชัยพร้อมกัน",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363728"
-  },
-  {
-    "id": "hotnews_th_e4b72431",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/carbmw12.jpg",
-    "title": "ตร.ตามรวบ เก๋งBMW สวมป้ายทะเบียนปลอม หลังเจ้าของรถกระบะ ร้องอยู่ดีๆโดนใบสั่ง",
-    "link": "https://www.khaosod.co.th/crime/news_10363755"
-  },
-  {
-    "id": "hotnews_th_97654d4c",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/hospital03.jpg",
-    "title": "รพ.วชิรพยาบาล แจงชัดดราม่า ติดป้าย งดให้อาหารสัตว์ หวั่นเป็นแหล่งเพาะพันธุ์เชื้อโรค",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363577"
-  },
-  {
-    "id": "hotnews_th_1408a364",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/BN19.jpg",
-    "title": "บทบรรณาธิการ แต่งตั้งบิ๊กขรก.",
-    "link": "https://www.khaosod.co.th/politics/hot-topics/news_10363735"
-  },
-  {
-    "id": "hotnews_th_726dd3e9",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Woman-blowing-nose-during-dinner17831.jpg",
-    "title": "ทำไมกินข้าวแล้วน้ำมูกชอบไหล? แพทย์เผยสาเหตุอันดับ 1 ที่หลายคนไม่รู้",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363760"
-  },
-  {
-    "id": "hotnews_th_fb73bfe6",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/TTm.jpg",
-    "title": "ทิ้งหมัดเข้ามุม คดีโกง-ฮั้วสว. ต้องส่งศาลเท่านั้น",
-    "link": "https://www.khaosod.co.th/newspaper-column/relevant/news_10363747"
-  },
-  {
-    "id": "hotnews_th_42d671ff",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/17-ppp.jpg",
-    "title": "เงียบเหงา! วันแรกไร้เงาผู้สมัคร นายกอบจ.นนทบุรี จับตา ‘นฤพนธ์’ ชิงชัย ‘เดชรัต’",
-    "link": "https://www.khaosod.co.th/politics/news_10363774"
-  },
-  {
-    "id": "hotnews_th_67b604ce",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/honggggg1.jpg",
-    "title": "ทนายหงส์ รับไม้ลุยฟ้องแพ่ง-วินัย ผอ.โรงเรียนดัง แอบเป็นชู้เพื่อนสนิทเมีย",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363730"
-  },
-  {
-    "id": "hotnews_th_3170cbd7",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Mother-seeks-justice.jpg",
-    "title": "แม่ ร้องขอความเป็นธรรม ลูกชายเสียชีวิต ติดใจ ตำรวจ ทำเกินกว่าเหตุหรือไม่ ผกก.พุทไธสง ชี้แจง",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363761"
-  },
-  {
-    "id": "hotnews_th_da3ab132",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B8%9B%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%97%E0%B8%B1%E0%B8%AA.jpg",
-    "title": "มงลง แจ็ค ไททัส คว้าตำแหน่ง Mister Supranational Asia 2026",
-    "link": "https://www.khaosod.co.th/lifestyle/beauty/news_10363799"
-  },
-  {
-    "id": "hotnews_th_c9e5893d",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dadaddfasw.jpg",
-    "title": "ปิดฉากหนีคุก 4 ปี CIB ตามจับลูกน้อง เสี่ยโจ้ พ่อค้าน้ำมันเถื่อนได้ประกันหนีขึ้นเรือออกทะเลทำงานเป็นลูกเรือ",
-    "link": "https://www.khaosod.co.th/crime/news_10363815"
-  },
-  {
-    "id": "hotnews_th_18539fd8",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/twss.jpg",
-    "title": "ทวี ร่วม กมธ.กฎหมาย ดูงานยะลา-สงขลา เกาะติดปัญหาสิทธิมนุษยชน-กระบวนการยุติธรรมชายแดนใต้",
-    "link": "https://www.khaosod.co.th/politics/news_10363823"
-  },
-  {
-    "id": "hotnews_th_e506e397",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkTzH5aB6FMWnQ.jpg",
-    "title": "\"เต้ มงคลกิตติ์\" บุก ตร. ยื่น ผบ.ตร.ตั้งด่านค้นรถนักการเมือง อ้างซุกอาวุธสงคราม",
-    "link": "https://www.thairath.co.th/news/politic/2953333"
-  },
-  {
-    "id": "hotnews_th_6e283111",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkTyq4CLSK3PWO.jpg",
-    "title": "สปส.เปิดรับฟังความคิดเห็นร่างระเบียบเลือกตั้งฉบับแก้ไขเพิ่มเติม เปิดโอกาสให้ใช้สิทธิอย่างทั่วถึง",
-    "link": "https://www.thairath.co.th/news/politic/2953338"
-  },
-  {
-    "id": "hotnews_th_abf8b79c",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSaSHYYKT78ie.jpg",
-    "title": "สกัดแอบอ้างถิ่นกำเนิดสินค้า พาณิชย์งัด AI ตรวจเข้ม จ่อถกสหรัฐฯ ส.ค.นี้",
-    "link": "https://www.thairath.co.th/news/governmentpolicy/2953377"
-  },
-  {
-    "id": "hotnews_th_4160cd9f",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkSa0lllFe9LlW.jpg",
-    "title": "“ภัทรพงศ์” ถกเอกชนยกระดับศูนย์ซ่อมบำรุงอากาศยาน",
-    "link": "https://www.thairath.co.th/news/politic/2953379"
-  },
-  {
-    "id": "hotnews_th_a4a3c07d",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkW9WlJIbdseze.jpg",
-    "title": "“ศุภจี” นำทีม 3 รมต. เร่งแก้คอขวด ตม.สุวรรณภูมิ เพิ่ม Auto Gate เป็น 33 สัญชาติ",
-    "link": "https://www.thairath.co.th/news/politic/2953382"
-  },
-  {
-    "id": "hotnews_th_92a881a5",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedkW9OzBkzCP28i.jpg",
-    "title": "สภากลาโหม 20 ส.ค.นี้ เคาะโผทหารโค้งสุดท้าย ดัน “ชาคริต” นั่ง มทภ.4 ดับไฟใต้",
-    "link": "https://www.thairath.co.th/news/politic/2953380"
-  },
-  {
-    "id": "hotnews_th_d72d3481",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/pakpaobite2.jpg",
-    "title": "ผวา ปักเป้าหวงไข่ กู้ภัยดำน้ำ ค้นหาร่างผู้สูญหายในแม่น้ำแม่กลอง โดนกัดหูแหว่ง",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363385"
-  },
-  {
-    "id": "hotnews_th_bdb549e5",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/458-1.jpg",
-    "title": "ป้าดา จ่อยื่นสำนักพุทธฯ สอบที่มาวัดป่าอดุลยาราม ฝากถึงนายกฯอนุทิน",
-    "link": "https://www.khaosod.co.th/special-stories/news_10363414"
-  },
-  {
-    "id": "hotnews_th_53087b0b",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Phu-Langka.jpg",
-    "title": "อุทยานแห่งชาติฯ เชิญชวนนักท่องเที่ยวชม ดวงตาพญานาคา ที่ภูลังกา",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363284"
-  },
-  {
-    "id": "hotnews_th_b64e4d9f",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ttb-1.jpg",
-    "title": "ทีทีบี ชี้สงครามดันต้นทุนวัสดุก่อสร้างพุ่ง 20% แนะเร่งบริหารวัตถุดิบ",
-    "link": "https://www.khaosod.co.th/economics/news_10363410"
-  },
-  {
-    "id": "hotnews_th_cd79a9e2",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/3.1.jpg",
-    "title": "ประกันภัยสุขภาพเหมาจ่ายดีไหม ใครควรทำ รู้ก่อนตัดสินใจ",
-    "link": "https://www.khaosod.co.th/monitor-news/news_10363427"
   }
 ]
