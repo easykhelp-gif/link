@@ -100,9 +100,13 @@ function syncNewsIndex() {
   const newsList = JSON.parse(fs.readFileSync(NEWS_LIST_PATH, 'utf-8'));
   const top3 = newsList.slice(0, 3);
 
-  // English main index
-  if (fs.existsSync(INDEX_PATH)) {
-    let content = fs.readFileSync(INDEX_PATH, 'utf-8');
+  const langs = ['', 'th/', 'vi/'];
+  
+  langs.forEach(lang => {
+    const langPath = path.join(BASE_DIR, lang, 'index.html');
+    if (!fs.existsSync(langPath)) return;
+    
+    let content = fs.readFileSync(langPath, 'utf-8');
     const startM = '<!-- NEWS_START -->';
     const endM = '<!-- NEWS_END -->';
     const sIdx = content.indexOf(startM);
@@ -110,9 +114,15 @@ function syncNewsIndex() {
 
     if (sIdx !== -1 && eIdx !== -1) {
       const cardsHtml = top3.map(item => {
+        const rootPrefix = lang === '' ? '' : '../';
+
         let thumb = (item.image || item.thumbnail || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png').replace(/&amp;/g, '&');
-        if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
-        const title = item.title_en || item.title || item.title_th || item.title_ko;
+        if (thumb.startsWith('news/')) thumb = rootPrefix + thumb;
+        
+        let title = item.title_en || item.title;
+        if (lang === 'th/' && item.title_th) title = item.title_th;
+        if (lang === 'vi/' && item.title_vi) title = item.title_vi;
+        if (!title) title = item.title_en || item.title || item.title_ko || '';
         
         let sourceName = 'News';
         try {
@@ -122,8 +132,10 @@ function syncNewsIndex() {
         } catch(e) {}
         
         const dateStr = item.date || '';
+        
+        const newsHref = rootPrefix + `news/${item.id}.html`;
 
-        return `    <a href="news/${item.id}.html" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
+        return `    <a href="${newsHref}" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
       <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
         <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
@@ -135,10 +147,10 @@ function syncNewsIndex() {
       }).join('\n');
 
       const updated = content.slice(0, sIdx + startM.length) + '\n  <div class="news-list" id="news-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n' + cardsHtml + '\n  </div>\n  ' + content.slice(eIdx);
-      fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
-      console.log('[Success] index.html horizontal news cards synced!');
+      fs.writeFileSync(langPath, updated, 'utf-8');
+      console.log(`[Success] ${lang}index.html horizontal news cards synced!`);
     }
-  }
+  });
 
   generateSitemap();
 }
