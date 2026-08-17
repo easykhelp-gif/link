@@ -1,72 +1,352 @@
 [
   {
-    "id": "hotnews_en_1",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001800315_01_i_P2.jpg",
-    "title": "31 Chinese nationals caught after illegally entering S. Korea via Taean coast",
-    "link": "https://en.yna.co.kr/view/AEN20260817001800315"
+    "id": "hotnews_en_1d829640",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814006351315_01_i_P2.jpg",
+    "title": "4 PPP lawmakers indicted for blocking investigators from detaining ex-President Yoon in 2025",
+    "link": "https://en.yna.co.kr/view/AEN20260814006351315"
   },
   {
-    "id": "hotnews_en_2",
-    "date": "2026-08-17",
+    "id": "hotnews_en_0fa4cba4",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814006352315_01_i_P2.jpg",
+    "title": "(LEAD) 4 PPP lawmakers indicted for blocking investigators from detaining ex-President Yoon in 2025",
+    "link": "https://en.yna.co.kr/view/AEN20260814006352315"
+  },
+  {
+    "id": "hotnews_en_1a456923",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/13/PYH2026081306690006000_P2.jpg",
+    "title": "U.S. military notes upcoming drills with S. Korea focused on 'modernizing alliance,' security in Northeast Asia",
+    "link": "https://en.yna.co.kr/view/AEN20260814006800315"
+  },
+  {
+    "id": "hotnews_en_db10dc00",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/ap/2026/08/13/PAP20260813229401009_P2.jpg",
+    "title": "Son Heung-min's LAFC eliminated from Leagues Cup tournament",
+    "link": "https://en.yna.co.kr/view/AEN20260814007100315"
+  },
+  {
+    "id": "hotnews_en_e6c53b30",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081405290001300_P2.jpg",
+    "title": "Lee vows to restore honor of women sexually enslaved by imperial Japan",
+    "link": "https://en.yna.co.kr/view/AEN20260814007200315"
+  },
+  {
+    "id": "hotnews_en_e9c5e1cd",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/cms/2026/04/30/33/PCM20260430000133003_P2.jpg",
+    "title": "LG Innotek's Apple revenue believed to reach record high in H1",
+    "link": "https://en.yna.co.kr/view/AEN20260814007300320"
+  },
+  {
+    "id": "hotnews_en_ac3f9cdd",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814007600315_01_i_P2.jpg",
+    "title": "Only .400 hitter in S. Korean baseball history in critical condition",
+    "link": "https://en.yna.co.kr/view/AEN20260814007600315"
+  },
+  {
+    "id": "hotnews_en_ed88d874",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814007700315_01_i_P2.jpg",
+    "title": "U.S. favorability for BTS hits record 46 pct in Q2: poll",
+    "link": "https://en.yna.co.kr/view/AEN20260814007700315"
+  },
+  {
+    "id": "hotnews_en_d5daa8b7",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/13/PYH2026081315110006300_P2.jpg",
+    "title": "Gov't provides 77.8 bln won to Homeplus workers over 5 months",
+    "link": "https://en.yna.co.kr/view/AEN20260814007800320"
+  },
+  {
+    "id": "hotnews_en_c9d69c26",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Seoul shares spike for 5th straight day on chip rally",
+    "link": "https://en.yna.co.kr/view/AEN20260814007900320"
+  },
+  {
+    "id": "hotnews_en_15e30cb8",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081401710001300_P2.jpg",
+    "title": "Seoul shares spike for 5th straight day on chip rally",
+    "link": "https://en.yna.co.kr/view/AEN20260814008000320"
+  },
+  {
+    "id": "hotnews_en_1674fa10",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814009200315_01_i_P2.jpg",
+    "title": "PM vows to put highest priority on overseeing housing supply",
+    "link": "https://en.yna.co.kr/view/AEN20260814009200315"
+  },
+  {
+    "id": "hotnews_en_2762a596",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080506510001300_P2.jpg",
+    "title": "PPP lawmaker sends letters to U.S. House members over Coupang data breach",
+    "link": "https://en.yna.co.kr/view/AEN20260814009300315"
+  },
+  {
+    "id": "hotnews_en_d56ee29e",
+    "date": "2026-08-14",
     "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260817001500315"
+    "title": "Summary of external news of North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20260814006700315"
   },
   {
-    "id": "hotnews_en_3",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001700320_01_i_P2.jpg",
-    "title": "CJ eyes 12 tln won in annual sales in N. America by 2028",
-    "link": "https://en.yna.co.kr/view/AEN20260817001700320"
+    "id": "hotnews_en_c82914d0",
+    "date": "2026-08-14",
+    "image": "",
+    "title": "Summary of inter-Korean news this week",
+    "link": "https://en.yna.co.kr/view/AEN20260814006600315"
   },
   {
-    "id": "hotnews_en_4",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001300320_01_i_P2.jpg",
-    "title": "Nvidia executive to visit LG Electronics robotics hub on Tuesday",
-    "link": "https://en.yna.co.kr/view/AEN20260817001300320"
+    "id": "hotnews_en_6271a6a9",
+    "date": "2026-08-14",
+    "image": "",
+    "title": "Summary of domestic news in North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20260814006500315"
   },
   {
-    "id": "hotnews_en_5",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001400315_01_i_P2.jpg",
-    "title": "Lee's approval rating edges down to new low: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260817001400315"
+    "id": "hotnews_en_4b3ace8b",
+    "date": "2026-08-14",
+    "image": "",
+    "title": "Key developments on North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20260814006400315"
   },
   {
-    "id": "hotnews_en_6",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001200315_02_i_P2.jpg",
-    "title": "Ruling DP set to elect new leader",
-    "link": "https://en.yna.co.kr/view/AEN20260817001200315"
+    "id": "hotnews_en_c1cd483b",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081411540001300_P2.jpg",
+    "title": "(LEAD) Seoul shares spike for 5th straight day on chip rally",
+    "link": "https://en.yna.co.kr/view/AEN20260814008051320"
   },
   {
-    "id": "hotnews_en_7",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817000951315_04_i_P2.jpg",
-    "title": "(LEAD) More than 800 mm of rain pummels Geoje, southeastern region; 1 killed in landslide",
-    "link": "https://en.yna.co.kr/view/AEN20260817000951315"
+    "id": "hotnews_en_f1650dc3",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814010400320_01_i_P2.jpg",
+    "title": "S. Korean won gains slightly after soft U.S. inflation data",
+    "link": "https://en.yna.co.kr/view/AEN20260814010400320"
   },
   {
-    "id": "hotnews_en_8",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817000253315_01_i_P2.jpg",
-    "title": "(3rd LD) Trump orders Pentagon to 'substantially' reduce S. Korea-U.S. military exercises",
-    "link": "https://en.yna.co.kr/view/AEN20260817000253315"
+    "id": "hotnews_en_f68e0d04",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/22/PYH2025082211840001300_P2.jpg",
+    "title": "HD Hyundai, Hyundai E&C, TerraPower to collaborate to tap into U.S. SMR market",
+    "link": "https://en.yna.co.kr/view/AEN20260814010100320"
   },
   {
-    "id": "hotnews_en_9",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001100315_01_i_P2.jpg",
-    "title": "Stray Kids lands atop Billboard 200 with 'This & That,' group's 9th No. 1",
-    "link": "https://en.yna.co.kr/view/AEN20260817001100315"
+    "id": "hotnews_en_1ee50f89",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081402660001300_P2.jpg",
+    "title": "Two candidates shortlisted for special counsel investigating ballot shortages",
+    "link": "https://en.yna.co.kr/view/AEN20260814010500315"
   },
   {
-    "id": "hotnews_en_10",
-    "date": "2026-08-17",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/17/AEN20260817001000320_01_i_P2.jpg",
-    "title": "Industry minister says S. Korea, U.S. seek to resolve outstanding issues over investment plan",
-    "link": "https://en.yna.co.kr/view/AEN20260817001000320"
+    "id": "hotnews_en_079f968d",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081411540001300_P2.jpg",
+    "title": "(2nd LD) Seoul shares spike for 5th straight day on chip rally",
+    "link": "https://en.yna.co.kr/view/AEN20260814008052320"
+  },
+  {
+    "id": "hotnews_en_99bbf002",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814010800320_01_i_P2.jpg",
+    "title": "Yonhap News Summary",
+    "link": "https://en.yna.co.kr/view/AEN20260814010800320"
+  },
+  {
+    "id": "hotnews_en_fe66d9e4",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081401210001300_P2.jpg",
+    "title": "(LEAD) UNC not to proceed with plan for security brigade after talks with S. Korea: defense minister",
+    "link": "https://en.yna.co.kr/view/AEN20260814003451315"
+  },
+  {
+    "id": "hotnews_en_874b50d8",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814011000315_01_i_P2.jpg",
+    "title": "PM meets with Bill Gates, discusses cooperation on SMRs",
+    "link": "https://en.yna.co.kr/view/AEN20260814011000315"
+  },
+  {
+    "id": "hotnews_en_41220f35",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/cms/2024/11/14/42/PCM20241114000242990_P2.jpg",
+    "title": "Super app Toss operator Viva Republica's H1 net income up 120 pct on-year",
+    "link": "https://en.yna.co.kr/view/AEN20260814011100320"
+  },
+  {
+    "id": "hotnews_en_0715baee",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814011300315_01_i_P2.jpg",
+    "title": "Football league bans matches at old stadium over safety issues",
+    "link": "https://en.yna.co.kr/view/AEN20260814011300315"
+  },
+  {
+    "id": "hotnews_en_48b3ef77",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814002551315_02_i_P2.jpg",
+    "title": "(LEAD) Lee calls for youth policy shift amid jobless growth, fewer opportunities",
+    "link": "https://en.yna.co.kr/view/AEN20260814002551315"
+  },
+  {
+    "id": "hotnews_en_99df8a97",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081013890005400_P2.jpg",
+    "title": "1st Fighter Wing to be temporarily relocated amid chip cluster project push",
+    "link": "https://en.yna.co.kr/view/AEN20260814011200315"
+  },
+  {
+    "id": "hotnews_en_531339ab",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073007970001300_P2.jpg",
+    "title": "Samsung Electronics spends record 27 tln won on R&D in H1",
+    "link": "https://en.yna.co.kr/view/AEN20260814011400320"
+  },
+  {
+    "id": "hotnews_en_25bdf177",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814011500315_01_i_P2.jpg",
+    "title": "Justice minister seeks discipline for two prosecutors over courtroom walkout",
+    "link": "https://en.yna.co.kr/view/AEN20260814011500315"
+  },
+  {
+    "id": "hotnews_en_b4b88fa1",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/07/PYH2026070717650001300_P2.jpg",
+    "title": "Samsung chairman remains unpaid; SK Group chief receives 1.75 bln won in H1",
+    "link": "https://en.yna.co.kr/view/AEN20260814011600320"
+  },
+  {
+    "id": "hotnews_en_9fa573f7",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/14/AEN20260814005151315_01_i_P2.jpg",
+    "title": "(LEAD) Lee reiterates support for four-year, two-term presidential system",
+    "link": "https://en.yna.co.kr/view/AEN20260814005151315"
+  },
+  {
+    "id": "hotnews_en_eb6156c6",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081414330001300_P2.jpg",
+    "title": "(LEAD) HD Hyundai, Hyundai E&C, TerraPower to collaborate to tap into U.S. SMR market",
+    "link": "https://en.yna.co.kr/view/AEN20260814010151320"
+  },
+  {
+    "id": "hotnews_en_bc659fbc",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) SK Group chief appeals divorce ruling again to Supreme Court",
+    "link": "https://en.yna.co.kr/view/AEN20260814011700320"
+  },
+  {
+    "id": "hotnews_en_87e5fbd9",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072410530031500_P2.jpg",
+    "title": "SK Group chairman again appeals divorce suit to Supreme Court",
+    "link": "https://en.yna.co.kr/view/AEN20260814011800320"
+  },
+  {
+    "id": "hotnews_en_5a8ce8f9",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/06/PEP20260806010501009_P2.jpg",
+    "title": "Rubio calls S. Korea 'indispensable partner' in Liberation Day message",
+    "link": "https://en.yna.co.kr/view/AEN20260815000200315"
+  },
+  {
+    "id": "hotnews_en_0b9cf28a",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/reuters/2026/08/15/PRU20260815077501009_P2.jpg",
+    "title": "Trump says he will declare Strait of Hormuz U.S. territory 'pretty soon'",
+    "link": "https://en.yna.co.kr/view/AEN20260815000300315"
+  },
+  {
+    "id": "hotnews_en_045ce42e",
+    "date": "2026-08-14",
+    "image": "https://img.yna.co.kr/photo/reuters/2026/08/15/PRU20260815077501009_P2.jpg",
+    "title": "(LEAD) Trump says he will declare Strait of Hormuz U.S. territory 'pretty soon'",
+    "link": "https://en.yna.co.kr/view/AEN20260815000351315"
+  },
+  {
+    "id": "hotnews_en_60f8bda4",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/15/AEN20260815000400315_01_i_P2.jpg",
+    "title": "Only .400 hitter in S. Korean baseball history dies",
+    "link": "https://en.yna.co.kr/view/AEN20260815000400315"
+  },
+  {
+    "id": "hotnews_en_bc80327e",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/15/AEN20260815001100315_01_i_P2.jpg",
+    "title": "Japan PM sends offering to Yasukuni Shrine, but refrains from visit",
+    "link": "https://en.yna.co.kr/view/AEN20260815001100315"
+  },
+  {
+    "id": "hotnews_en_04daa618",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/15/PYH2026081500980004200_P2.jpg",
+    "title": "N. Korean leader pays tribute to Soviet soldiers amid deepening Russia ties",
+    "link": "https://en.yna.co.kr/view/AEN20260815001500320"
+  },
+  {
+    "id": "hotnews_en_fc3de0ec",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Lee says South, North Korea should respect each other, halt unnecessary confrontations",
+    "link": "https://en.yna.co.kr/view/AEN20260815000800315"
+  },
+  {
+    "id": "hotnews_en_29b7b593",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Lee says hopes South, North Korea will work together for peaceful coexistence, mutual growth",
+    "link": "https://en.yna.co.kr/view/AEN20260815000900315"
+  },
+  {
+    "id": "hotnews_en_07745cf8",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Lee says will work to replace unstable armistice with peace regime on Korean Peninsula",
+    "link": "https://en.yna.co.kr/view/AEN20260815001000315"
+  },
+  {
+    "id": "hotnews_en_416e2974",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Lee proposes dialogue with N. Korea to officially end Korean War, halt Pyongyang's nuclear program",
+    "link": "https://en.yna.co.kr/view/AEN20260815001200315"
+  },
+  {
+    "id": "hotnews_en_763fb957",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/15/AEN20260815001400315_01_i_P2.jpg",
+    "title": "Lee proposes dialogue with N. Korea to officially end Korean War, halt Pyongyang's nuclear program",
+    "link": "https://en.yna.co.kr/view/AEN20260815001400315"
+  },
+  {
+    "id": "hotnews_en_5065d223",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Lee says will expand cooperation with Japan for mutual interests, address shared challenges",
+    "link": "https://en.yna.co.kr/view/AEN20260815001300315"
+  },
+  {
+    "id": "hotnews_en_1bbfe070",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/08/PYH2026060807940001300_P2.jpg",
+    "title": "S. Korea's chief trade negotiator sacked amid growing U.S. tariff pressure",
+    "link": "https://en.yna.co.kr/view/AEN20260815001600320"
+  },
+  {
+    "id": "hotnews_en_2a392b39",
+    "date": "2026-08-15",
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/15/AEN20260815001451315_03_i_P2.jpg",
+    "title": "(LEAD) Lee proposes dialogue with N. Korea to officially end Korean War, halt Pyongyang's nuclear program",
+    "link": "https://en.yna.co.kr/view/AEN20260815001451315"
   }
 ]
