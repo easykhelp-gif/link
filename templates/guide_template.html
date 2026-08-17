@@ -2,32 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{TITLE_EN}} — Kori Care Guide</title>
-<meta name="description" content="{{TITLE_EN}}">
-<meta name="keywords" content="Kori Care, Korea Guide, Foreigners in Korea, Korea Life, Korea Travel">
-<link rel="canonical" href="https://www.koricare.kr/link/guides/{{GUIDE_ID}}.html">
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-F0R2ZQNNPZ');
-  </script>
-
-<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://www.koricare.kr/link/guides/{{GUIDE_ID}}.html">
-<meta property="og:title" content="{{TITLE_EN}} — Kori Care Guide">
-<meta property="og:description" content="{{TITLE_EN}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>{{TITLE_EN}} - Kori Care</title>
+<meta name="description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
+<meta property="og:title" content="{{TITLE_EN}}">
+<meta property="og:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
 <meta property="og:image" content="{{IMAGE_URL}}">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Kori Care">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE_EN}}">
+<meta name="twitter:description" content="Kori Care Guide - Essential information for foreigners living and working in South Korea.">
 <meta name="twitter:image" content="{{IMAGE_URL}}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,20 +81,20 @@
 
   .post-card {
     background: var(--card-bg);
-    border: 1px solid var(--line);
-    border-radius: 24px;
-    padding: 24px;
+    border: none;
+    padding: 0;
     margin-top: 24px;
-    box-shadow: var(--shadow);
-    overflow: hidden;
+    box-shadow: none;
   }
 
   .hero-image {
-    width: calc(100% + 48px);
-    margin: -24px -24px 24px -24px;
-    height: 300px;
+    width: 100%;
+    height: 280px;
     background: #f1f5f9;
-    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   }
 
   .hero-image img {
@@ -124,7 +107,7 @@
   .meta-bar {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
     font-size: 12.5px;
     color: var(--sub);
     font-weight: 700;
@@ -134,54 +117,55 @@
   .meta-tag {
     background: #e0e7ff;
     color: var(--navy-light);
-    padding: 3px 10px;
+    padding: 4px 12px;
     border-radius: 8px;
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
   h1.main-title {
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 900;
     line-height: 1.35;
     color: var(--navy);
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     letter-spacing: -0.4px;
   }
 
-  /* Multi-language Tabs */
+  /* Multi-language Tabs - Clean UI at the top */
   .lang-tabs-nav {
     display: flex;
-    background: #f1f5f9;
-    padding: 4px;
-    border-radius: 14px;
-    gap: 4px;
-    margin: 20px 0;
+    gap: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 4px;
   }
   
   .tab-btn {
-    flex: 1;
-    padding: 10px 6px;
-    border: none;
-    background: transparent;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border: 1.5px solid var(--line);
+    background: #ffffff;
+    border-radius: 20px;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--sub);
     cursor: pointer;
     transition: all 0.2s ease;
-    text-align: center;
+    white-space: nowrap;
   }
   
   .tab-btn.active {
-    background: #ffffff;
-    color: var(--navy);
-    box-shadow: 0 2px 8px rgba(15,23,42,0.08);
+    background: var(--navy);
+    color: #ffffff;
+    border-color: var(--navy);
+    box-shadow: 0 4px 12px rgba(0,35,102,0.2);
   }
 
   .tab-content {
     display: none;
-    animation: fadeIn 0.25s ease;
+    animation: fadeIn 0.3s ease;
   }
   
   .tab-content.active {
@@ -194,13 +178,31 @@
     line-height: 1.8;
   }
   
-  .article-body p { margin-bottom: 16px; }
+  .article-body p { margin-bottom: 18px; }
   .article-body strong { color: var(--navy); font-weight: 800; }
-  .article-body ul { margin: 12px 0 16px 20px; }
+  .article-body h2 { font-size: 19px; color: var(--navy); margin: 28px 0 16px 0; font-weight: 800; }
+  .article-body h3 { font-size: 16.5px; color: var(--ink); margin: 20px 0 12px 0; font-weight: 700; }
+  .article-body ul { margin: 12px 0 20px 24px; }
   .article-body li { margin-bottom: 8px; }
-  .article-body img { max-width: 100%; height: auto; border-radius: 12px; margin: 16px 0; }
+  
+  .article-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  }
+  .article-body th, .article-body td {
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    text-align: left;
+    font-size: 14px;
+  }
+  .article-body th { background: #f8fafc; color: var(--navy); font-weight: 800; }
 
-  .nav-btns { margin-top: 24px; }
+  .nav-btns { margin-top: 32px; }
   .back-btn {
     display: flex;
     align-items: center;
@@ -223,11 +225,11 @@
     color: var(--sub);
     font-size: 12px;
     text-align: center;
-    margin-top: 28px;
+    margin-top: 36px;
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
+    from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
   }
 </style>
@@ -243,55 +245,50 @@
         <span>Korea Guide</span>
       </div>
     </a>
-    <div class="flags-badge">🌐 Multi-Language</div>
+    <div class="flags-badge">🌐 EN/TH/VI</div>
   </div>
 </header>
 
 <main class="wrap">
-  <article class="post-card" style="border: none; box-shadow: none; padding: 0; background: transparent; margin-top: 32px;">
+  <article class="post-card">
     
-    <div class="meta-bar" style="margin-bottom: 20px;">
-      <span class="meta-tag" style="background: #f1f5f9; color: #475569;">{{CATEGORY_NAME}}</span>
-      <span style="color: #94a3b8;">•</span>
+    <div class="meta-bar">
+      <span class="meta-tag">{{CATEGORY_NAME}}</span>
       <span style="color: #64748b; font-weight: 500;">{{DATE}}</span>
     </div>
-    
-    <h1 class="main-title" id="displayTitle" style="font-size: 28px; letter-spacing: -0.5px; line-height: 1.4; color: #0f172a; margin-bottom: 24px;">{{TITLE_EN}}</h1>
 
-    <div class="hero-image" style="margin: 0 0 32px 0; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); height: auto;">
-      <img src="{{IMAGE_URL}}" alt="{{TITLE_EN}}" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; display: block;">
-    </div>
-
+    <!-- Clean Language Switcher at the very top under category tag -->
     <div class="lang-tabs-nav">
-      <button class="tab-btn active" onclick="switchLang('en', this)">🇺🇸 English</button>
-      <button class="tab-btn" onclick="switchLang('th', this)">🇹🇭 ไทย</button>
+      <button class="tab-btn active" onclick="switchLang('en', this)">🇬🇧 English</button>
+      <button class="tab-btn" onclick="switchLang('th', this)">🇹🇭 ภาษาไทย</button>
       <button class="tab-btn" onclick="switchLang('vi', this)">🇻🇳 Tiếng Việt</button>
-      <button class="tab-btn" onclick="switchLang('ko', this)">🇰🇷 한국어</button>
+    </div>
+    
+    <h1 class="main-title" id="displayTitle">{{TITLE_EN}}</h1>
+
+    <div class="hero-image">
+      <img src="{{IMAGE_URL}}" alt="Cover Image" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';">
     </div>
 
-    <div id="lang-en" class="tab-content active">
+    <!-- SEO Multi-Language Content Blocks (semantic structure) -->
+    <div id="lang-en" class="tab-content active" lang="en">
       <div class="article-body">
         {{CONTENT_EN}}
       </div>
     </div>
 
-    <div id="lang-th" class="tab-content">
+    <div id="lang-th" class="tab-content" lang="th">
       <div class="article-body">
         {{CONTENT_TH}}
       </div>
     </div>
 
-    <div id="lang-vi" class="tab-content">
+    <div id="lang-vi" class="tab-content" lang="vi">
       <div class="article-body">
         {{CONTENT_VI}}
       </div>
     </div>
 
-    <div id="lang-ko" class="tab-content">
-      <div class="article-body">
-        {{CONTENT_KO}}
-      </div>
-    </div>
   </article>
 
   <div class="nav-btns">
@@ -305,8 +302,7 @@
   var titles = {
     en: {{TITLE_EN_JSON}},
     th: {{TITLE_TH_JSON}},
-    vi: {{TITLE_VI_JSON}},
-    ko: {{TITLE_KO_JSON}}
+    vi: {{TITLE_VI_JSON}}
   };
 
   function switchLang(langKey, btnEl) {

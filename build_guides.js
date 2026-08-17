@@ -43,7 +43,7 @@ function buildGuides() {
     let html = template;
     
     // Replace placeholders
-    html = html.replace(/\{\{GUIDE_ID\}\}/g, guide.category + '/' + guide.id);
+    html = html.replace(/const title = item.title_en || item.title_th || item.title_vi;{\{GUIDE_ID\}\}/g, guide.category + '/' + guide.id);
     html = html.replace(/\{\{TITLE_EN\}\}/g, guide.title_en || '');
     html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
     html = html.replace(/\{\{IMAGE_URL\}\}/g, guide.image || '');
