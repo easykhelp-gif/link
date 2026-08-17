@@ -102,7 +102,11 @@ function buildGuides() {
       html = html.replace(/\{\{CURRENT_LANG_NAME\}\}/g, currLangName);
       html = html.replace(/\{\{OTHER_LANG_LINKS\}\}/g, otherLangLinks);
 
-      html = html.replace(/\{\{LANG_HOME_URL\}\}/g, `/link/${lang}/index.html`);
+      let homeUrl = `/link/${lang}/index.html`;
+      if (lang === 'en') {
+        homeUrl = '/link/index.html';
+      }
+      html = html.replace(/\{\{LANG_HOME_URL\}\}/g, homeUrl);
 
       const outputPath = path.join(guideDir, 'index.html');
       fs.writeFileSync(outputPath, html, 'utf-8');
@@ -147,7 +151,7 @@ function buildGuides() {
 <body>
 <div class="container">
   <h1>Kori Care Guides</h1>
-  <p><a href="/link/${lang}/index.html" style="color: #64748b; text-decoration: none;">&larr; Back to Home</a></p>
+  <p><a href="/link/index.html" style="color: #64748b; text-decoration: none;">&larr; Back to Home</a></p>
   <ul style="list-style-type: none; padding: 0; margin-top: 20px;">
     ${linksHtml}
   </ul>
