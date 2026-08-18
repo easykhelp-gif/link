@@ -24,7 +24,12 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install Dependencies
+        run: npm install
+
       - name: Run 1-Hour News Scraper Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           node auto_fetch_news.js
           node build_guides.js

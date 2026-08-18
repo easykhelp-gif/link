@@ -22,9 +22,9 @@ for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
 // 3 Major Verified Outlets Per Language
 const RSS_FEEDS = {
   en: [
-    'https://en.yna.co.kr/RSS/news.xml',
-    'https://www.koreatimes.co.kr/www/rss/rss.xml',
-    'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml'
+    'https://en.yna.co.kr/RSS/news.xml'
+    // 'https://www.koreatimes.co.kr/www/rss/rss.xml', (301)
+    // 'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml' (404)
   ],
   th: [
     'https://www.khaosod.co.th/feed',
@@ -127,7 +127,7 @@ function buildArticleHtml(newsItem, lang) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${newsItem.title} — Kori Care News</title>
-<meta name="description" content="${newsItem.desc.slice(0, 150)}">
+<meta name="description" content="${newsItem.desc.slice(0, 150).replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}">
 <link rel="canonical" href="https://www.koricare.kr/link/news/${newsItem.id}.html">
 <meta name="robots" content="noindex, follow">
 <!-- Google tag (gtag.js) -->
@@ -182,7 +182,7 @@ function buildArticleHtml(newsItem, lang) {
     ${heroImgTag}
     <div class="article-content">
       <div style="margin-bottom:16px; font-size:15.5px; line-height:1.8; color:#1e293b; font-weight:500;">
-        ${newsItem.desc ? newsItem.desc.replace(/\\n/g, '<br>') : newsItem.title}
+        ${newsItem.desc ? newsItem.desc.replace(/\n/g, '<br>') : newsItem.title}
       </div>
       <a href="${newsItem.link || '#'}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb; margin-top:12px; display:inline-block;">🔗 Read Full Article on Original Source ➔</a>
     </div>
@@ -213,7 +213,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
       const thumb = rawThumb;
       const title = item.title;
       const href = `/link/news/${item.id}.html`;
-      const dateStr = item.pubDate ? new Date(item.pubDate).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+      const dateStr = item.date ? new Date(item.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
 
       return `    <a href="${href}" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
       <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
