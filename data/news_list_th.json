@@ -77,69 +77,6 @@
     "link": "https://www.thairath.co.th/news/local/northeast/2953413"
   },
   {
-    "id": "hotnews_th_2a75d1fe",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZKX8QP4pMfz7t.jpg",
-    "title": "เจ้าหญิงยูจีนี ประกาศตั้งชื่อลูกสาวคนเล็กว่า “แอดิเลด เอลิซาเบธ แอนนินา”",
-    "link": "https://www.thairath.co.th/news/foreign/2953419"
-  },
-  {
-    "id": "hotnews_th_55a56921",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJ6I8o2Dsy9uZ.jpg",
-    "title": "เมียนมาเผย อหิวาตกโรคระบาดในย่างกุ้ง เข้าโรงพยาบาลแล้ว 500 คน",
-    "link": "https://www.thairath.co.th/news/foreign/2953420"
-  },
-  {
-    "id": "hotnews_th_a7b23a79",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJ6J6fgyqnmV7.jpg",
-    "title": "สิงคโปร์-จีน ลงนามความร่วมมือ ใช้เทคโนโลยีนิวเคลียร์อย่างสันติ",
-    "link": "https://www.thairath.co.th/news/foreign/2953421"
-  },
-  {
-    "id": "hotnews_th_02ef46b4",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJ6QSPjTA9DP9.jpg",
-    "title": "ศาลรัสเซียตัดสิน จำคุกฝ่ายค้านผู้ต่อต้านสงคราม นาน 11 ปี ข้อหาเผยแพร่ข่าวเท็จ",
-    "link": "https://www.thairath.co.th/news/foreign/2953422"
-  },
-  {
-    "id": "hotnews_th_2bf4c95a",
-    "date": "2026-08-17",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJ6iJb4eok8F6.jpg",
-    "title": "กษัตริย์นอร์เวย์เข้าประทับที่โรงพยาบาล จากภาวะคั่งของน้ำในร่างกาย",
-    "link": "https://www.thairath.co.th/news/foreign/2953425"
-  },
-  {
-    "id": "hotnews_th_3fe53275",
-    "date": "2026-08-18",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJ5ajD4vLcsFW.jpg",
-    "title": "ราคาน้ำมันวันนี้ 18 สิงหาคม 2569 อัปเดตล่าสุด \"เบนซิน-ดีเซล\" ลิตรละกี่บาท",
-    "link": "https://www.thairath.co.th/news/society/2953428"
-  },
-  {
-    "id": "hotnews_th_e91b32c8",
-    "date": "2026-08-18",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJWwoYJ7Rq4yT.jpg",
-    "title": "กรมอุตุฯ ประกาศฉบับ 6 เตือน \"ฝนตกหนักถึงหนักมากบริเวณประเทศไทยตอนบน\" 18-21 ส.ค.นี้",
-    "link": "https://www.thairath.co.th/news/local/2953430"
-  },
-  {
-    "id": "hotnews_th_628ab75c",
-    "date": "2026-08-18",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJWj0Xj7BM94I.jpg",
-    "title": "\"มิน อ่อง หล่าย\" เยือนรัสเซียครั้งแรกในฐานะปธน. เตรียมหารือปูติน ขยายความร่วมมือ",
-    "link": "https://www.thairath.co.th/news/foreign/2953437"
-  },
-  {
-    "id": "hotnews_th_42580603",
-    "date": "2026-08-18",
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yedZJHnbPnhISiH4.jpg",
-    "title": "ค้นบริษัทรับยื่นวีซ่าปลอมเอกสาร พบมีลูกค้ากว่า 400 ราย มูลค่าความเสียหายกว่า 16 ล้าน",
-    "link": "https://www.thairath.co.th/news/crime/2953440"
-  },
-  {
     "id": "hotnews_th_e4b72431",
     "date": "2026-08-17",
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/carbmw12.jpg",
@@ -306,47 +243,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/icetonglor1.jpg",
     "title": "ไอซ์ รักชนก รับทราบข้อกล่าวหา ทนาย สุชาติ โต้เดือด ชี้โพสต์แซะไม่ใช่วิจารณ์โดยสุจริต",
     "link": "https://www.khaosod.co.th/breaking-news/news_10363923"
-  },
-  {
-    "id": "hotnews_th_9ea725a8",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ayu.jpg",
-    "title": "รมว.ท่องเที่ยวฯ สั่งดูแล 4 นักท่องเที่ยวสเปน หลังถูกต้นไม้ล้มทับบาดเจ็บที่อยุธยา",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363867"
-  },
-  {
-    "id": "hotnews_th_5b46217e",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Double-track-railway-project.jpg",
-    "title": "รฟท. สนองนโยบายรัฐบาล ศึกษา รถไฟทางคู่ หาดใหญ่ ถึง สุไหงโก-ลก เชื่อมมาเลย์ ยกระดับคุณภาพชีวิต จชต.",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363921"
-  },
-  {
-    "id": "hotnews_th_3586e1b4",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/bluda1.jpg",
-    "title": "พบซากวาฬบรูด้าขนาดใหญ่ลอยติดเกาะแสมสาร เตรียมกู้ซากผ่าพิสูจน์หาสาเหตุการตาย",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363955"
-  },
-  {
-    "id": "hotnews_th_93269568",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/getq.jpg",
-    "title": "บอคเซียไทย วางเป้า 1 เหรียญทอง ศึกชิงแชมป์โลก ที่เกาหลีใต้",
-    "link": "https://www.khaosod.co.th/sports/news_10363962"
-  },
-  {
-    "id": "hotnews_th_03fa5f41",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Ya-Mo-Plaza.jpg",
-    "title": "ชาวบ้าน จี้ ตร.เร่งล่าตัว ชายคล้ายคนเมา มาดำเนินคดี บุกลานย่าโม ลบหลู่ สิ่งศักดิ์สิทธิ์คู่บ้านคู่เมือง",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10363956"
-  },
-  {
-    "id": "hotnews_th_c8470e9f",
-    "date": "2026-08-17",
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/skb.jpg",
-    "title": "สั่ง สคบ. สอบสายการบินขายตั๋วเกินที่นั่ง ชี้ชดเชยแค่ 1,500 ไม่พอ",
-    "link": "https://www.khaosod.co.th/politics/news_10363953"
   }
 ]
