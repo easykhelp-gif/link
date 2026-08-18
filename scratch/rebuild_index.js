@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_DIR = __dirname;
+const BASE_DIR = path.join(__dirname, '..');
 const DATA_DIR = path.join(BASE_DIR, 'data');
 
 function injectGridCardsToIndex(newsList, lang) {
@@ -38,15 +38,28 @@ function injectGridCardsToIndex(newsList, lang) {
   const startMarker = '<!-- NEWS_START -->';
   const endMarker = '<!-- NEWS_END -->';
   const startIdx = htmlContent.indexOf(startMarker);
+  
+  const blockEnd = `    <a href="${lang === 'en' ? '' : '../'}news_archive.html" style="display:flex; justify-content:center; align-items:center; gap:8px; padding:12px; background:#f8fafc; color:#475569; border:1px solid #e2e8f0; border-radius:12px; font-weight:700; font-size:13.5px; text-decoration:none; margin-top:8px; transition:all 0.2s ease;" onmouseover="this.style.background='#f1f5f9'; this.style.color='#1e293b';" onmouseout="this.style.background='#f8fafc'; this.style.color='#475569';">View All News ➔</a>\n  </div>\n  <!-- NEWS_END -->\n`;
+
+  let after = '';
   const endIdx = htmlContent.indexOf(endMarker);
+  if (endIdx !== -1) {
+    after = htmlContent.substring(endIdx + endMarker.length);
+  } else {
+    // If endMarker is missing, try to find the end of the news block.
+    const viewAllIdx = htmlContent.indexOf("View All News");
+    if (viewAllIdx !== -1) {
+       const divEndIdx = htmlContent.indexOf("</div>", viewAllIdx);
+       if (divEndIdx !== -1) {
+          after = htmlContent.substring(divEndIdx + 6); // skip </div>
+       }
+    }
+  }
 
-  if (startIdx !== -1 && endIdx !== -1) {
+  if (startIdx !== -1) {
     const before = htmlContent.substring(0, startIdx + startMarker.length);
-    const after = htmlContent.substring(endIdx);
-    
     const blockStart = `\n  <div class="news-list" id="news-list" style="display:flex; flex-direction:column; margin-bottom:28px;">\n`;
-    const blockEnd = `    <a href="${lang === 'en' ? '' : '../'}news_archive.html" style="display:flex; justify-content:center; align-items:center; gap:8px; padding:12px; background:#f8fafc; color:#475569; border:1px solid #e2e8f0; border-radius:12px; font-weight:700; font-size:13.5px; text-decoration:none; margin-top:8px; transition:all 0.2s ease;" onmouseover="this.style.background='#f1f5f9'; this.style.color='#1e293b';" onmouseout="this.style.background='#f8fafc'; this.style.color='#475569';">View All News ➔</a>\n  </div>\n  `;
-
+    
     const updatedHtml = before + blockStart + newCardsHtml + blockEnd + after;
     fs.writeFileSync(indexHtmlPath, updatedHtml, 'utf8');
     console.log(`Successfully updated ${lang} index.html with top 5 news.`);

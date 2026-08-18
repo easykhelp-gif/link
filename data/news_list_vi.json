@@ -1,1 +1,352 @@
-[]
+[
+  {
+    "id": "hotnews_vi_777b090c",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/avatar1786955573806-1786955574810102573822.jpeg",
+    "title": "Cựu quản lý công ty đa quốc gia U.60 đem kinh nghiệm đóng container vào bán bưởi tại nhà",
+    "link": "https://thanhnien.vn/cuu-quan-ly-cong-ty-da-quoc-gia-u60-dem-kinh-nghiem-dong-container-vao-ban-buoi-tai-nha-185260813013431418.htm"
+  },
+  {
+    "id": "hotnews_vi_175d587d",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/15/2aoboqreardjsrtubiupyva6yh4isj7hjydwjxaw-1786785225029117375346-160-0-960-1280-crop-17867856282521732230855.jpg",
+    "title": "Làng nghề nước mắm hơn 150 năm tuổi, nhiều thế hệ vẫn giữ nghề",
+    "link": "https://thanhnien.vn/lang-nghe-nuoc-mam-hon-150-nam-tuoi-nhieu-the-he-van-giu-nghe-185260815162132474.htm"
+  },
+  {
+    "id": "hotnews_vi_c7c49432",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-a-1-trang-16-230-17869706039241209056701-154-0-1754-2560-crop-17869706297861008177608.jpg",
+    "title": "Năm học mới, TP.HCM giảm khoảng 32,18% đầu mối trường học",
+    "link": "https://thanhnien.vn/nam-hoc-moi-tphcm-giam-khoang-3218-dau-moi-truong-hoc-185260817194752592.htm"
+  },
+  {
+    "id": "hotnews_vi_0d2fdf15",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/ebola-17869806478151224471487-0-0-1600-2560-crop-17869810862721504698606.jpg",
+    "title": "Đợt bùng phát Ebola chết chóc nhất lịch sử CHDC Congo",
+    "link": "https://thanhnien.vn/dot-bung-phat-ebola-chet-choc-nhat-lich-su-chdc-congo-185260817223904527.htm"
+  },
+  {
+    "id": "hotnews_vi_726937d5",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-ak0i9691-17870043863291316455565-36-0-1636-2560-crop-17870045465921297851164.jpg",
+    "title": "Nguyễn Thùy Linh, Vũ Thị Trang xuất trận ở giải cầu lông vô địch thế giới 2026",
+    "link": "https://thanhnien.vn/nguyen-thuy-linh-vu-thi-trang-xuat-tran-o-giai-cau-long-vo-dich-the-gioi-2026-185260818051219263.htm"
+  },
+  {
+    "id": "hotnews_vi_7ca6371d",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-aaaaaaaaaaaaaa-17869832165931941186109-42-0-1292-2000-crop-1786983226141694805419-1786983237180557614354.png",
+    "title": "Tin tức đặc biệt trên báo in Thanh Niên 18.8.2026",
+    "link": "https://thanhnien.vn/tin-tuc-dac-biet-tren-bao-in-thanh-nien-1882026-18526081723033454.htm"
+  },
+  {
+    "id": "hotnews_vi_cbb957e3",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/avata-chao-ngay-moi-1786984105461593264885.jpg",
+    "title": "Đừng để thú vui thành hiểm họa",
+    "link": "https://thanhnien.vn/dung-de-thu-vui-thanh-hiem-hoa-1852608172328318.htm"
+  },
+  {
+    "id": "hotnews_vi_1503d796",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-photo-1786983520199-1786983521348520799098-1786983539268585548606-250-0-1500-2000-crop-17869835482221246628504.jpeg",
+    "title": "Sắp xếp trường học: Chọn hiệu trưởng ra sao để tạo thay đổi thực chất?",
+    "link": "https://thanhnien.vn/sap-xep-truong-hoc-chon-hieu-truong-ra-sao-de-tao-thay-doi-thuc-chat-185260817232342882.htm"
+  },
+  {
+    "id": "hotnews_vi_3ea111e3",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/avatar1787017274818-17870172754541267245333.jpeg",
+    "title": "Bản tin sức khỏe 18.8: Nguy cơ ung thư phổi ở nữ giới | Magie có giúp hạ huyết áp?",
+    "link": "https://thanhnien.vn/ban-tin-suc-khoe-188-nguy-co-ung-thu-phoi-o-nu-gioi-magie-co-giup-ha-huyet-ap-185260817092557044.htm"
+  },
+  {
+    "id": "hotnews_vi_3163128b",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/avatar1786953543438-178695354415225574136.jpeg",
+    "title": "Hà Nội: Người dân thích nghi sau hơn 1 tháng thí điểm vùng phát thải thấp",
+    "link": "https://thanhnien.vn/ha-noi-nguoi-dan-thich-nghi-sau-hon-1-thang-thi-diem-vung-phat-thai-thap-185260817145902457.htm"
+  },
+  {
+    "id": "hotnews_vi_a9912a6f",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tim-chu-son-huu-17869613796292015514933-0-130-559-1024-crop-17869616210101489534438.jpg",
+    "title": "Công an phường Lái Thiêu tìm chủ phương tiện liên quan 2 vụ tai nạn giao thông",
+    "link": "https://thanhnien.vn/cong-an-phuong-lai-thieu-tim-chu-phuong-tien-lien-quan-2-vu-tai-nan-giao-thong-18526081717150686.htm"
+  },
+  {
+    "id": "hotnews_vi_8b656ff6",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/18a-phi-van-bai-17869770492491016850109-295-0-1641-2153-crop-17869770730221427186170.png",
+    "title": "Bí mật đi in 'Tiến quân ca' trước ngày Độc lập",
+    "link": "https://thanhnien.vn/bi-mat-di-in-tien-quan-ca-truoc-ngay-doc-lap-185260817213637513.htm"
+  },
+  {
+    "id": "hotnews_vi_290b24a4",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/23a-1786980647786926843714-0-0-768-1229-crop-1786980669262514422314.jpg",
+    "title": "Hai lãnh đạo Donald Trump và Kim Jong-un trước cơ hội 'trùng phùng'",
+    "link": "https://thanhnien.vn/hai-lanh-dao-donald-trump-va-kim-jong-un-truoc-co-hoi-trung-phung-185260817223553076.htm"
+  },
+  {
+    "id": "hotnews_vi_8e48bfb7",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/16/base64-1786845707280132892255-281-0-1531-2000-crop-1786845742589851875261.jpeg",
+    "title": "Bánh trái cây thủ công ở TP.HCM có gì mà khách chạy xe vòng quanh tìm mua?",
+    "link": "https://thanhnien.vn/banh-trai-cay-thu-cong-o-tphcm-co-gi-ma-khach-chay-xe-vong-quanh-tim-mua-185260816090421937.htm"
+  },
+  {
+    "id": "hotnews_vi_71917cd2",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tram-thu-phi-17853887700151263757864-68-0-1081-1620-crop-17869837153812078704058.jpg",
+    "title": "VETC, ePass giải thích thu 6.600 đồng/tháng, tài xế không muốn có thể đóng ví điện tử",
+    "link": "https://thanhnien.vn/vetc-epass-giai-thich-thu-6600-dong-thang-tai-xe-khong-muon-co-the-dong-vi-dien-tu-185260817230204795.htm"
+  },
+  {
+    "id": "hotnews_vi_f7a9395a",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/photo-1786984206355-1786984207754496652015-358-0-1608-2000-crop-17869912436001322558380.jpeg",
+    "title": "Biến những tấm 'ngói gỗ' cũ của người Mông thành tranh",
+    "link": "https://thanhnien.vn/bien-nhung-tam-ngoi-go-cu-cua-nguoi-mong-thanh-tranh-185260817233433326.htm"
+  },
+  {
+    "id": "hotnews_vi_25557fcd",
+    "date": "2026-08-17",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/thumb-screen-shot-2026-08-18-at-063339-1787009635711927599378-17870096415461994090349-115-220-972-1591-crop-17870096721962007211049.png",
+    "title": "Áp thấp nhiệt đới mới hình thành trên Biển Đông",
+    "link": "https://thanhnien.vn/ap-thap-nhiet-doi-moi-hinh-thanh-tren-bien-dong-185260818063557902.htm"
+  },
+  {
+    "id": "hotnews_vi_9adccbb4",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/1-17869514123171176918909-0-0-1600-2560-crop-1786951509206313346253.png",
+    "title": "Sứ mệnh và tầm nhìn",
+    "link": "https://thanhnien.vn/su-menh-va-tam-nhin-185260817142658259.htm"
+  },
+  {
+    "id": "hotnews_vi_1f1001a3",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/19e01-1786977910765781065747-0-0-1222-1955-crop-1786977917292747988026.png",
+    "title": "Đời thường nghệ sĩ 'níu chân' khán giả",
+    "link": "https://thanhnien.vn/doi-thuong-nghe-si-niu-chan-khan-gia-185260817214658262.htm"
+  },
+  {
+    "id": "hotnews_vi_266980ba",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/20a2-17869830511761010170771-157-0-1723-2505-crop-17869830608841963177316.jpg",
+    "title": "Tiến Anh: 'Máy chạy' với năng lượng bất tận",
+    "link": "https://thanhnien.vn/tien-anh-may-chay-voi-nang-luong-bat-tan-185260817231251561.htm"
+  },
+  {
+    "id": "hotnews_vi_b76aef57",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/17868856226096354767530019044581g6090037921466385489453c7338a533651aec66f49a03b2e8ff-1787007373686610690971-0-0-1600-2560-crop-17870076099921412983387.jpg",
+    "title": "Dự đoán tỷ số Việt Nam - Malaysia, bán kết lượt về ASEAN Cup 2026: Chủ nhà thắng lớn!",
+    "link": "https://thanhnien.vn/du-doan-ty-so-viet-nam-malaysia-ban-ket-luot-ve-asean-cup-2026-chu-nha-thang-lon-185260818060136491.htm"
+  },
+  {
+    "id": "hotnews_vi_34a28594",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/img2911-1786975081207899339862-114-0-975-1378-crop-1786975413600497421528.jpeg",
+    "title": "Công an bắt giữ vụ buôn bán hơn 50.000 bao thuốc lá nhập lậu",
+    "link": "https://thanhnien.vn/cong-an-bat-giu-vu-buon-ban-hon-50000-bao-thuoc-la-nhap-lau-18526081721110962.htm"
+  },
+  {
+    "id": "hotnews_vi_4ef18e30",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/2aoboqsbzh7msiwkc3lsjaqm3hzqsif4lumoswsy-1786975551915380159293-35-0-837-1284-crop-17869755868691120443182.jpg",
+    "title": "Clip thuyền rồng xả rác xuống sông Hương: Sở Du lịch thành phố Huế phản hồi gì?",
+    "link": "https://thanhnien.vn/clip-thuyen-rong-xa-rac-xuong-song-huong-so-du-lich-thanh-pho-hue-phan-hoi-gi-185260817210817984.htm"
+  },
+  {
+    "id": "hotnews_vi_a18b4de0",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/chef-the-son-nau-com-noi-gang-17869809788961599188100-0-105-646-1139-crop-17869811149441727802909.png",
+    "title": "Chef Thế Sơn mang nồi gang của mẹ đi thi, nhận 'mưa lời khen'",
+    "link": "https://thanhnien.vn/chef-the-son-mang-theo-noi-gang-cua-me-di-thi-nhan-duoc-mua-loi-khen-185260817155404999.htm"
+  },
+  {
+    "id": "hotnews_vi_b0ed9d62",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-gia-bitcoin-hom-nay-66thanh-nien-1787010563901814480790-17870105789441355552935-51-0-1551-2400-crop-1787010589483832291484.jpg",
+    "title": "Giá Bitcoin hôm nay 18.8.2026: Vọt lên 64.000 USD khi giá vàng tăng, giá dầu giảm",
+    "link": "https://thanhnien.vn/gia-bitcoin-hom-nay-1882026-vot-len-64000-usd-khi-gia-vang-tang-gia-dau-giam-185260818065040283.htm"
+  },
+  {
+    "id": "hotnews_vi_6a17a2df",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/16/1-178688552177888763175-34-0-784-1200-crop-17868855302451907960774.jpg",
+    "title": "Vì sao RAM đắt chưa từng thấy trong năm 2026?",
+    "link": "https://thanhnien.vn/vi-sao-ram-dat-chua-tung-thay-trong-nam-2026-185260816201429605.htm"
+  },
+  {
+    "id": "hotnews_vi_7d677b9a",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/photo-1786979069964-17869790708471202981512-0-156-896-1589-crop-1787012744568819160310.jpeg",
+    "title": "Ngành AI 30 điểm: Liệu còn 'hot' trong 5 - 10 năm tới ?",
+    "link": "https://thanhnien.vn/nganh-ai-30-diem-lieu-con-hot-trong-5-10-nam-toi-185260817220802337.htm"
+  },
+  {
+    "id": "hotnews_vi_1782a7ed",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-lop-1-tt-17869828930801829479577-67-0-1667-2560-crop-1786983043709205802021.jpg",
+    "title": "TP.HCM bổ nhiệm hiệu trưởng, hiệu phó sau sắp xếp với những tiêu chí nào?",
+    "link": "https://thanhnien.vn/tphcm-bo-nhiem-hieu-truong-hieu-pho-sau-sap-xep-voi-nhung-tieu-chi-nao-185260817231748359.htm"
+  },
+  {
+    "id": "hotnews_vi_eb8e3e18",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/57c2dfb52971d586890d63cef90200de-17870123664751889713939-0-0-1268-2028-crop-17870124792151351462208.jpg",
+    "title": "Moscow cảnh báo London vì Ukraine dùng UAV Anh tấn công Nga",
+    "link": "https://thanhnien.vn/moscow-canh-bao-london-vi-ukraine-dung-uav-anh-tan-cong-nga-185260818072344068.htm"
+  },
+  {
+    "id": "hotnews_vi_b12b099c",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/trump-tap-1787011892142373956833-0-0-640-1024-crop-17870119027401482084288.jpg",
+    "title": "Tổng thống Trump nói lãnh đạo Triều Tiên đã phản hồi tín hiệu",
+    "link": "https://thanhnien.vn/tong-thong-trump-noi-lanh-dao-trieu-tien-da-phan-hoi-tin-hieu-185260818071548624.htm"
+  },
+  {
+    "id": "hotnews_vi_0774d263",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/tnw-photo-1787010622426-17870106228101028989049-1787010703028679820422-112-0-986-1398-crop-17870112361901119640348.png",
+    "title": "Áp thấp nhiệt đới trên Biển Đông, gió giật cấp 8, sóng cao 3,5 m",
+    "link": "https://thanhnien.vn/ap-thap-nhiet-doi-tren-bien-dong-gio-giat-cap-8-song-cao-35-m-18526081807005114.htm"
+  },
+  {
+    "id": "hotnews_vi_3a896dfa",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/14/mint-boutique-blazer-ngan-tay-17866736955261681822671-205-0-1024-1311-crop-178667374012313386481.jpg",
+    "title": "Blazer ngắn tay, chiếc áo khoác hợp mọi phong cách lúc giao mùa",
+    "link": "https://thanhnien.vn/thoi-trang-tre/blazer-ngan-tay-chiec-ao-khoac-hop-moi-phong-cach-luc-giao-mua-185260814091629513.htm"
+  },
+  {
+    "id": "hotnews_vi_9528f8d5",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/avatar1786953642984-1786953643847237185818.jpeg",
+    "title": "Trúng tuyển đại học, thí sinh cần chuẩn bị hồ sơ nhập học ra sao?",
+    "link": "https://thanhnien.vn/trung-tuyen-dai-hoc-thi-sinh-can-chuan-bi-ho-so-nhap-hoc-ra-sao-185260815143200234.htm"
+  },
+  {
+    "id": "hotnews_vi_863ff360",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/avatar1786980315745-17869803164551617920850.jpeg",
+    "title": "TP.HCM đề xuất hỗ trợ bệnh nhân chạy thận: Kỳ vọng giảm gánh nặng viện phí",
+    "link": "https://thanhnien.vn/tphcm-de-xuat-ho-tro-benh-nhan-chay-than-ky-vong-giam-ganh-nang-vien-phi-185260817073006148.htm"
+  },
+  {
+    "id": "hotnews_vi_81fa69a5",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/640x400-17869529373432041735942.png",
+    "title": "Chuẩn bị sức khỏe toàn diện cho trẻ trước thềm năm học mới",
+    "link": "https://thanhnien.vn/chuan-bi-suc-khoe-toan-dien-cho-tre-truoc-them-nam-hoc-moi-185260817145058854.htm"
+  },
+  {
+    "id": "hotnews_vi_5392257c",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/19a-1786977536319192983532-0-256-1440-2560-crop-1786977552285778378616.png",
+    "title": "Phim nhà nước đặt hàng bước vào 'cuộc chơi' phòng vé",
+    "link": "https://thanhnien.vn/phim-nha-nuoc-dat-hang-buoc-vao-cuoc-choi-phong-ve-185260817214133735.htm"
+  },
+  {
+    "id": "hotnews_vi_ff787d4e",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/2-1787016635517875650411-0-124-1152-1967-crop-1787016836444566493717.jpg",
+    "title": "Hệ sinh thái KCN - Đô Thị: ‘Nhà gần chỗ làm’ thành tiêu chí an cư mới",
+    "link": "https://thanhnien.vn/he-sinh-thai-kcn-do-thi-nha-gan-cho-lam-thanh-tieu-chi-an-cu-moi-185260818083621709.htm"
+  },
+  {
+    "id": "hotnews_vi_a94fdc0e",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/2026-07-20t215655z456007491rc2vzhalf8csrtrmadp3usa-trump-harvard-1787014298144391242795-107-0-1707-2560-crop-1787014354602929819316.jpg",
+    "title": "Mỹ siết hợp tác nghiên cứu nước ngoài tại 30 trường đại học",
+    "link": "https://thanhnien.vn/my-siet-hop-tac-nghien-cuu-nuoc-ngoai-tai-30-truong-dai-hoc-185260818075549333.htm"
+  },
+  {
+    "id": "hotnews_vi_785c48a1",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/tnw-am-thuc-vn2-1784366845930995004661-17870148068751027055031-40-0-680-1024-crop-17870149050211306972129.jpg",
+    "title": "Vượt qua Nhật, Ý, Thái Lan... Việt Nam là điểm đến ẩm thực hàng đầu thế giới",
+    "link": "https://thanhnien.vn/vuot-qua-nhat-y-thai-lan-viet-nam-la-diem-den-am-thuc-hang-dau-the-gioi-185260818080325153.htm"
+  },
+  {
+    "id": "hotnews_vi_16fa550c",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/7623-17870071715871511592262-0-0-779-1246-crop-17870075809731441471422.jpg",
+    "title": "Đà Nẵng: Bắt quả tang kẻ trộm tài sản du khách tại biển Mỹ Khê",
+    "link": "https://thanhnien.vn/da-nang-bat-qua-tang-ke-trom-tai-san-du-khach-tai-bien-my-khe-18526081806042618.htm"
+  },
+  {
+    "id": "hotnews_vi_cf576703",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/anh-1-kem-tin-tan-son-nhat-1-178669788716296985451-69-0-613-870-crop-17870157016372081895681.jpg",
+    "title": "Chính phủ yêu cầu điều tra, xử lý nghiêm vụ UAV gây 'náo loạn' sân bay",
+    "link": "https://thanhnien.vn/chinh-phu-yeu-cau-dieu-tra-xu-ly-nghiem-vu-uav-gay-nao-loan-san-bay-185260818081526679.htm"
+  },
+  {
+    "id": "hotnews_vi_23f424fa",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/thai-lan-1735364116469824114256-0-0-1600-2560-crop-17870162200901629058846.jpg",
+    "title": "Thái Lan mạo hiểm xoay tua đội hình chờ đấu Việt Nam ở chung kết ASEAN Cup?",
+    "link": "https://thanhnien.vn/thai-lan-mao-hiem-xoay-tua-doi-hinh-cho-dau-viet-nam-o-chung-ket-asean-cup-185260818082459423.htm"
+  },
+  {
+    "id": "hotnews_vi_d24c4e76",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/toi-yeu-to-quoc-toi-ava-17869789301172043295324-0-59-1120-1851-crop-17869789367232048550846.jpg",
+    "title": "Hãy để AI giúp bạn biến giai điệu ý tưởng thành ca khúc",
+    "link": "https://thanhnien.vn/hay-de-ai-giup-ban-bien-giai-dieu-y-tuong-thanh-ca-khuc-185260817220252922.htm"
+  },
+  {
+    "id": "hotnews_vi_b93d0aa5",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/1-17870173069251147874618-0-0-1152-1843-crop-17870175470401130023878.png",
+    "title": "Thẩm mỹ viện Hannah: Làm đẹp an toàn, thông minh giúp phụ nữ tự tin",
+    "link": "https://thanhnien.vn/tham-my-vien-hannah-lam-dep-an-toan-thong-minh-giup-phu-nu-tu-tin-185260818084816968.htm"
+  },
+  {
+    "id": "hotnews_vi_817befbe",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-la-lanh-1-1786961045167851381510-0-86-1377-2289-crop-17869610687461166955737.png",
+    "title": "Hơn 6 năm gồng gánh chăm vợ, con gái và cháu ngoại trọng bệnh",
+    "link": "https://thanhnien.vn/hon-6-nam-gong-ganh-cham-vo-con-gai-va-chau-ngoai-trong-benh-185260817170817549.htm"
+  },
+  {
+    "id": "hotnews_vi_814382a4",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/4379-1787016386907482605082-142-0-1362-1952-crop-17870166875321415474538.jpg",
+    "title": "Điều tra vụ chiếc đèn làm việc để quên trong cánh máy bay",
+    "link": "https://thanhnien.vn/dieu-tra-vu-chiec-den-lam-viec-de-quen-trong-canh-may-bay-185260818081628797.htm"
+  },
+  {
+    "id": "hotnews_vi_ab0de5ab",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/16/tnw-1-1786863336889236487195-0-0-916-1466-crop-1786863340254475766242-17868633551752141546879.jpg",
+    "title": "Samsung sắp dừng cập nhật cho những điện thoại Galaxy nào?",
+    "link": "https://thanhnien.vn/samsung-sap-dung-cap-nhat-cho-nhung-dien-thoai-galaxy-nao-185260816135841094.htm"
+  },
+  {
+    "id": "hotnews_vi_7b39e905",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/17/tnw-d62a3247-17869838148341834182888-81-0-1681-2560-crop-17869840898901467197413.jpg",
+    "title": "Thiếu tá công an 'đi tìm' mái nhà cho dân vùng sạt lở",
+    "link": "https://thanhnien.vn/thieu-ta-cong-an-di-tim-mai-nha-cho-dan-vung-sat-lo-18526081723365888.htm"
+  },
+  {
+    "id": "hotnews_vi_6342e1bd",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/tram-dung-nghi-ttc-chau-thanh-17852878150011779725012-72-0-1672-2560-crop-1787016126656618737182.jpg",
+    "title": "Tới 1.1.2027, toàn bộ trạm dừng nghỉ phải có trụ sạc xe điện",
+    "link": "https://thanhnien.vn/toi-112027-toan-bo-tram-dung-nghi-phai-co-tru-sac-xe-dien-185260818082243507.htm"
+  },
+  {
+    "id": "hotnews_vi_bd634b76",
+    "date": "2026-08-18",
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/18/tnw-ebc011e43112bf4ce603-1787014896022370362309-0-0-800-1280-crop-1787015004039536820346-17870150161851623348871.jpg",
+    "title": "Giá heo hơi hôm nay 18.8.2026: Thấp nhất trong gần một năm qua",
+    "link": "https://thanhnien.vn/gia-heo-hoi-hom-nay-1882026-thap-nhat-trong-gan-mot-nam-qua-185260818080411114.htm"
+  }
+]
