@@ -59,6 +59,7 @@ function buildGuides() {
       
       const currTitle = lang === 'en' ? guide.title_en : (lang === 'th' ? guide.title_th : guide.title_vi);
       html = html.replace(/\{\{TITLE\}\}/g, currTitle || guide.title_en || '');
+      html = html.replace(/\{\{TITLE_EN\}\}/g, currTitle || guide.title_en || '');
       html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
       
       const imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
