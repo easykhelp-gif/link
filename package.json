@@ -1,0 +1,24 @@
+{
+  "name": "temp_link_repo3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auto_fb_sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easykhelp-gif/link.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/easykhelp-gif/link/issues"
+  },
+  "homepage": "https://github.com/easykhelp-gif/link#readme",
+  "dependencies": {
+    "@google/genai": "^2.17.1"
+  }
+}

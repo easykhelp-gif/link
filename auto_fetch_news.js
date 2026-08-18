@@ -4,6 +4,8 @@ const https = require('https');
 const http = require('http');
 const crypto = require('crypto');
 
+const { GoogleGenAI } = require('@google/genai');
+
 const BASE_DIR = __dirname;
 const DATA_DIR = path.join(BASE_DIR, 'data');
 const NEWS_DIR = path.join(BASE_DIR, 'news');
@@ -179,16 +181,10 @@ function buildArticleHtml(newsItem, lang) {
     <hr style="border:none; border-top:1px solid #e2e8f0; margin:14px 0 20px;">
     ${heroImgTag}
     <div class="article-content">
-      <p style="margin-bottom:16px; font-size:15.5px; line-height:1.8; color:#1e293b; font-weight:500;">
-        ${newsItem.desc ? newsItem.desc.replace(/&lt;[^&gt;]*&gt;/g, '').replace(/<[^>]*>/g, '').trim() : newsItem.title}
-      </p>
-      <div style="background:#f1f5f9; padding:16px 20px; border-radius:14px; border-left:4px solid #002366; margin:20px 0;">
-        <div style="font-size:13px; font-weight:800; color:#002366; margin-bottom:6px;">📌 Key Summary & Verification</div>
-        <div style="font-size:13.5px; color:#475569; line-height:1.65;">
-          This news update has been automatically verified and curated for foreign residents living in South Korea. For full unedited coverage, please reference the official source below.
-        </div>
+      <div style="margin-bottom:16px; font-size:15.5px; line-height:1.8; color:#1e293b; font-weight:500;">
+        ${newsItem.desc ? newsItem.desc.replace(/\\n/g, '<br>') : newsItem.title}
       </div>
-      <a href="${newsItem.link || '#'}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb;">🔗 Read Full Article on Original Source ➔</a>
+      <a href="${newsItem.link || '#'}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb; margin-top:12px; display:inline-block;">🔗 Read Full Article on Original Source ➔</a>
     </div>
 
     ${engSummarySection}
@@ -216,7 +212,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
       const rawThumb = item.image ? item.image.replace(/&amp;/g, '&') : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
       const thumb = rawThumb;
       const title = item.title;
-      const href = `${langPrefix}news/${item.id}.html`;
+      const href = `/link/news/${item.id}.html`;
       const dateStr = item.pubDate ? new Date(item.pubDate).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
 
       return `    <a href="${href}" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
@@ -273,6 +269,33 @@ async function runPipeline() {
 
     for (const item of newItemsList) {
       if (!existingList.find(x => x.link === item.link)) {
+        
+        let fullText = item.desc;
+        if (process.env.GEMINI_API_KEY) {
+          try {
+            const htmlContent = await fetchUrl(item.link);
+            const pMatches = htmlContent.match(/<p[^>]*>([\s\S]*?)<\/p>/gi);
+            if (pMatches && pMatches.length > 0) {
+              const extracted = pMatches.map(p => cleanText(p)).join('\n').trim();
+              if (extracted.length > 200) {
+                 fullText = extracted.slice(0, 4000);
+              }
+            }
+            
+            const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+            const prompt = `Summarize the following news article into 3 clear, easy-to-understand bullet points. Keep it concise but informative. Do not use complex vocabulary. Write the summary in ${lang === 'en' ? 'English' : (lang === 'vi' ? 'Vietnamese' : 'Thai')}.\n\nText:\n${fullText}`;
+            const response = await ai.models.generateContent({
+              model: 'gemini-2.5-flash',
+              contents: prompt,
+            });
+            if (response.text) {
+              item.desc = response.text;
+            }
+          } catch (e) {
+            console.error("AI Summarize error for item " + item.title, e);
+          }
+        }
+
         const html = buildArticleHtml(item, lang);
         fs.writeFileSync(path.join(NEWS_DIR, `${item.id}.html`), html, 'utf-8');
         existingList.unshift({ id: item.id, date: item.date, image: item.image, title: item.title, link: item.link });
