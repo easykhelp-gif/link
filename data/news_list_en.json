@@ -1,164 +1,395 @@
 [
   {
-    "id": "hotnews_en_7c13309a",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081921190001300_P2.jpg",
-    "title": "(2nd LD) Chinese FM pledges to keep playing 'constructive role' for peace on Korean Peninsula",
-    "link": "https://en.yna.co.kr/view/AEN20260819000852315"
+    "id": "hotnews_en_0c739cf5",
+    "date": "2026-08-20",
+    "ts": 1787228157000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/08/19/01/PCM20260819000001990_P2.jpg",
+    "title": "PPP ethics committee suspends membership rights of 4 lawmakers",
+    "link": "https://en.yna.co.kr/view/AEN20260820011200320"
   },
   {
-    "id": "hotnews_en_0328f096",
-    "date": "2026-08-19",
+    "id": "hotnews_en_8a739857",
+    "date": "2026-08-20",
+    "ts": 1787228061000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Kim Yo-jong says N. Korea more focused on fact S. Korea-U.S. drills continuing than reduced scale",
-    "link": "https://en.yna.co.kr/view/AEN20260819011100315"
+    "title": "(URGENT) N.K. leader's sister says Lee's 'double-dealing remarks' show Seoul's uneasiness, impatience",
+    "link": "https://en.yna.co.kr/view/AEN20260820011500320"
   },
   {
-    "id": "hotnews_en_107ceac1",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081906900001301_P2.jpg",
-    "title": "(LEAD) Land minister says gov't considering part of Yongsan Park as housing site",
-    "link": "https://en.yna.co.kr/view/AEN20260819008751320"
-  },
-  {
-    "id": "hotnews_en_9248766c",
-    "date": "2026-08-19",
+    "id": "hotnews_en_4424461a",
+    "date": "2026-08-20",
+    "ts": 1787227938000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Kim Yo-jong says unaware of any recent communication between N.K., U.S. leaders",
-    "link": "https://en.yna.co.kr/view/AEN20260819011200315"
+    "title": "(URGENT) N.K. leader's sister says scaling down Ulchi Freedom Shield put Seoul 'in poor plight of canceling war games it liked very much'",
+    "link": "https://en.yna.co.kr/view/AEN20260820011400320"
   },
   {
-    "id": "hotnews_en_5d18d547",
-    "date": "2026-08-19",
+    "id": "hotnews_en_58f8ba96",
+    "date": "2026-08-20",
+    "ts": 1787226384000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820011300315_02_i_P2.jpg",
+    "title": "Senior official appointed as BOK's No. 2",
+    "link": "https://en.yna.co.kr/view/AEN20260820011300315"
+  },
+  {
+    "id": "hotnews_en_af005c1b",
+    "date": "2026-08-20",
+    "ts": 1787223349000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082022440001300_P2.jpg",
+    "title": "Industry minister says 'meaningful progress' achieved in talks with U.S.",
+    "link": "https://en.yna.co.kr/view/AEN20260820011000320"
+  },
+  {
+    "id": "hotnews_en_45dda8dc",
+    "date": "2026-08-20",
+    "ts": 1787223258000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082016930001300_P2.jpg",
+    "title": "Lee meets Chinese FM, calls for close communication on Korean Peninsula issues",
+    "link": "https://en.yna.co.kr/view/AEN20260820011100315"
+  },
+  {
+    "id": "hotnews_en_425407ea",
+    "date": "2026-08-20",
+    "ts": 1787222375000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010900320_01_i_P2.jpg",
+    "title": "Chinese national gets 20 years for hacking accounts of BTS' Jungkook, others",
+    "link": "https://en.yna.co.kr/view/AEN20260820010900320"
+  },
+  {
+    "id": "hotnews_en_0a8d02b8",
+    "date": "2026-08-20",
+    "ts": 1787221602000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010253315_02_i_P2.jpg",
+    "title": "(3rd LD) N. Korea fires barrage of short-range ballistic missiles despite Trump overture",
+    "link": "https://en.yna.co.kr/view/AEN20260820010253315"
+  },
+  {
+    "id": "hotnews_en_a09ab665",
+    "date": "2026-08-20",
+    "ts": 1787220021000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082016640001300_P2.jpg",
+    "title": "Lee vows stern measures against circulation of illegally filmed sexual content",
+    "link": "https://en.yna.co.kr/view/AEN20260820010800320"
+  },
+  {
+    "id": "hotnews_en_5e0bc3bd",
+    "date": "2026-08-20",
+    "ts": 1787218998000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010252315_01_i_P2.jpg",
+    "title": "(2nd LD) N. Korea fires barrage of short-range ballistic missiles toward East Sea: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010252315"
+  },
+  {
+    "id": "hotnews_en_c3b3f650",
+    "date": "2026-08-20",
+    "ts": 1787218708000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Kim Yo-jong denies N. Korea sent additional troops to Russia for Ukraine war",
-    "link": "https://en.yna.co.kr/view/AEN20260819011300315"
+    "title": "(URGENT) N. Korea's missiles flew about 300 kilometers: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010700315"
   },
   {
-    "id": "hotnews_en_bafa04b1",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/19/AEN20260819011400315_01_i_P2.jpg",
-    "title": "N.K. leader's sister says Pyongyang more focused on fact S. Korea-U.S. drills continuing than reduced scale",
-    "link": "https://en.yna.co.kr/view/AEN20260819011400315"
+    "id": "hotnews_en_a0e7408f",
+    "date": "2026-08-20",
+    "ts": 1787217978000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010300315_02_i_P2.jpg",
+    "title": "S. Korea says China's stance on Korean Peninsula unchanged despite no reference to denuclearization",
+    "link": "https://en.yna.co.kr/view/AEN20260820010300315"
   },
   {
-    "id": "hotnews_en_ebfdfdf4",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/19/AEN20260819011500315_01_i_P2.jpg",
-    "title": "Bipartisan senators call for reversing UFS exercise cuts in letters to Trump, Hegseth",
-    "link": "https://en.yna.co.kr/view/AEN20260819011500315"
+    "id": "hotnews_en_41b02b8f",
+    "date": "2026-08-20",
+    "ts": 1787217541000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/11/PYH2026081118510005200_P2.jpg",
+    "title": "NC Dinos withdraw relocation threat, to stay put in current city",
+    "link": "https://en.yna.co.kr/view/AEN20260820010500315"
   },
   {
-    "id": "hotnews_en_b6c3ba24",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/19/AEN20260819011600315_01_i_P2.jpg",
-    "title": "K League 1 champions Jeonbuk stunned at top nat'l football tournament",
-    "link": "https://en.yna.co.kr/view/AEN20260819011600315"
+    "id": "hotnews_en_e922c113",
+    "date": "2026-08-20",
+    "ts": 1787217442000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010251315_01_i_P2.jpg",
+    "title": "(LEAD) N. Korea fires barrage of short-range ballistic missiles toward East Sea: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010251315"
   },
   {
-    "id": "hotnews_en_03c3a485",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/19/AEN20260819011451315_01_i_P2.jpg",
-    "title": "(LEAD) N.K. leader's sister says Pyongyang more focused on S. Korea-U.S. drills continuing than reduced scale",
-    "link": "https://en.yna.co.kr/view/AEN20260819011451315"
+    "id": "hotnews_en_7106f3c3",
+    "date": "2026-08-20",
+    "ts": 1787216255000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820009800315_01_i_P2.jpg",
+    "title": "Police tracking down man for sexual harassment near Seoul university",
+    "link": "https://en.yna.co.kr/view/AEN20260820009800315"
   },
   {
-    "id": "hotnews_en_bf5e6b80",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081921350001300_P2.jpg",
-    "title": "Lee calls for unity among new DP chair, former leadership contenders",
-    "link": "https://en.yna.co.kr/view/AEN20260819011700315"
-  },
-  {
-    "id": "hotnews_en_1a6702da",
-    "date": "2026-08-19",
+    "id": "hotnews_en_120609df",
+    "date": "2026-08-20",
+    "ts": 1787216031000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Trump says N. Korea's Kim has 57 nuclear weapons, Kim will be 'fine'",
-    "link": "https://en.yna.co.kr/view/AEN20260820000200315"
+    "title": "(URGENT) N. Korea fires around dozen short-range ballistic missiles from Pyongyang: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010600315"
   },
   {
-    "id": "hotnews_en_f195d26b",
-    "date": "2026-08-19",
+    "id": "hotnews_en_aae6d543",
+    "date": "2026-08-20",
+    "ts": 1787215781000,
+    "image": "https://img.yna.co.kr/photo/cms/2021/06/07/62/PCM20210607000162990_P2.jpg",
+    "title": "Media watchdog sends letter to U.S. lawmakers over Network Act pushback",
+    "link": "https://en.yna.co.kr/view/AEN20260820010400320"
+  },
+  {
+    "id": "hotnews_en_554508d0",
+    "date": "2026-08-20",
+    "ts": 1787214217000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082020310001300_P2.jpg",
+    "title": "S. Korean judoka sets sights on Asian Games gold in native Japan",
+    "link": "https://en.yna.co.kr/view/AEN20260820010000315"
+  },
+  {
+    "id": "hotnews_en_05cc5a90",
+    "date": "2026-08-20",
+    "ts": 1787214070000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820010200315_01_i_P2.jpg",
+    "title": "N. Korea fires unidentified projectile toward East Sea: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010200315"
+  },
+  {
+    "id": "hotnews_en_162e5c19",
+    "date": "2026-08-20",
+    "ts": 1787213447000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Asked whether he's expecting to meet Kim later this year, Trump says, 'Yeah, I will be'",
-    "link": "https://en.yna.co.kr/view/AEN20260820000300315"
+    "title": "(URGENT) N. Korea fires unidentified projectile toward East Sea: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260820010100315"
   },
   {
-    "id": "hotnews_en_5cb546f5",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/20/PAF20260820004201009_P2.jpg",
-    "title": "Trump says he will meet N. Korea's Kim this year",
-    "link": "https://en.yna.co.kr/view/AEN20260820000351315"
+    "id": "hotnews_en_aec3eae8",
+    "date": "2026-08-20",
+    "ts": 1787213085000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820009700315_01_i_P2.jpg",
+    "title": "Enhypen returns as six-member group with new EP, 'The Sin: Bliss'",
+    "link": "https://en.yna.co.kr/view/AEN20260820009700315"
   },
   {
-    "id": "hotnews_en_aaa911f7",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/20/PAF20260820004201009_P2.jpg",
-    "title": "(LEAD) Trump says he will meet N. Korea's Kim this year, puts N.K. nukes at 57",
-    "link": "https://en.yna.co.kr/view/AEN20260820000352315"
+    "id": "hotnews_en_12bf567a",
+    "date": "2026-08-20",
+    "ts": 1787212801000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820009300320_01_i_P2.jpg",
+    "title": "Yonhap News Summary",
+    "link": "https://en.yna.co.kr/view/AEN20260820009300320"
   },
   {
-    "id": "hotnews_en_3207f31b",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/20/PAF20260820004201009_P2.jpg",
-    "title": "(2nd LD) Trump says he will meet N. Korea's Kim this year, puts N.K. nukes at 57",
-    "link": "https://en.yna.co.kr/view/AEN20260820000353315"
+    "id": "hotnews_en_8f06b5ca",
+    "date": "2026-08-20",
+    "ts": 1787212655000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082017890001302_P2.jpg",
+    "title": "Top swimmers say are confident S. Korea can repeat Asian Games success",
+    "link": "https://en.yna.co.kr/view/AEN20260820009500315"
   },
   {
-    "id": "hotnews_en_ccd5a6f4",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/ap/2026/08/20/PAP20260820042901009_P2.jpg",
-    "title": "(3rd LD) Trump says he will meet N. Korea's Kim this year, puts N.K. nukes at 57",
-    "link": "https://en.yna.co.kr/view/AEN20260820000354315"
+    "id": "hotnews_en_8d726a7b",
+    "date": "2026-08-20",
+    "ts": 1787212303000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820009600315_01_i_P2.jpg",
+    "title": "PM vows to boldly improve regulations on new industries, technologies",
+    "link": "https://en.yna.co.kr/view/AEN20260820009600315"
   },
   {
-    "id": "hotnews_en_e0f08e73",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/20/PEP20260820073001009_P2.jpg",
-    "title": "Lee Kang-in marks Spain return with 1st goal for Atletico Madrid",
-    "link": "https://en.yna.co.kr/view/AEN20260820000400315"
+    "id": "hotnews_en_c8a4bc9f",
+    "date": "2026-08-20",
+    "ts": 1787212033000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082019000001300_P2.jpg",
+    "title": "Nat'l Assembly passes bill to speed up review of fast-track bills",
+    "link": "https://en.yna.co.kr/view/AEN20260820008100315"
   },
   {
-    "id": "hotnews_en_2b0702e7",
-    "date": "2026-08-19",
-    "image": "",
-    "title": "Top headlines in major S. Korean newspapers",
-    "link": "https://en.yna.co.kr/view/AEN20260820000500320"
+    "id": "hotnews_en_e74f0f32",
+    "date": "2026-08-20",
+    "ts": 1787211575000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082018420001300_P2.jpg",
+    "title": "(2nd LD) Seoul stocks spike nearly 6 pct on chip rally, eased U.S. bond yield concerns",
+    "link": "https://en.yna.co.kr/view/AEN20260820006152320"
   },
   {
-    "id": "hotnews_en_1b360e88",
-    "date": "2026-08-19",
-    "image": "",
-    "title": "(EDITORIAL from Korea Herald on Aug. 20)",
-    "link": "https://en.yna.co.kr/view/AEN20260820000600320"
+    "id": "hotnews_en_9eb392d0",
+    "date": "2026-08-20",
+    "ts": 1787210734000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082016590001300_P2.jpg",
+    "title": "Lee calls for uninterrupted reforms for continued nat'l development",
+    "link": "https://en.yna.co.kr/view/AEN20260820007700315"
   },
   {
-    "id": "hotnews_en_3998a4e8",
-    "date": "2026-08-19",
-    "image": "",
-    "title": "(EDITORIAL from Korea Times on Aug. 20)",
-    "link": "https://en.yna.co.kr/view/AEN20260820000700320"
+    "id": "hotnews_en_800c39bf",
+    "date": "2026-08-20",
+    "ts": 1787210435000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820007900320_01_i_P2.jpg",
+    "title": "S. Korean won hits fresh 11-month high on dollar selling",
+    "link": "https://en.yna.co.kr/view/AEN20260820007900320"
   },
   {
-    "id": "hotnews_en_24ccff1b",
-    "date": "2026-08-19",
-    "image": "",
-    "title": "(EDITORIAL from Korea JoongAng Daily on Aug. 20)",
-    "link": "https://en.yna.co.kr/view/AEN20260820000800320"
+    "id": "hotnews_en_0b83b43f",
+    "date": "2026-08-20",
+    "ts": 1787210286000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820007800315_01_i_P2.jpg",
+    "title": "Police launch probe into suspected leak of data on presidential officials",
+    "link": "https://en.yna.co.kr/view/AEN20260820007800315"
   },
   {
-    "id": "hotnews_en_53fb2897",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072409510001300_P2.jpg",
-    "title": "Gov't extends hoarding bans on urea, medical supplies for 2 months",
-    "link": "https://en.yna.co.kr/view/AEN20260820001000320"
+    "id": "hotnews_en_922aa439",
+    "date": "2026-08-20",
+    "ts": 1787209694000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820007400315_01_i_P2.jpg",
+    "title": "32 booked, 13 detained over alleged distribution of newly classified narcotic etomidate",
+    "link": "https://en.yna.co.kr/view/AEN20260820007400315"
   },
   {
-    "id": "hotnews_en_61203ad9",
-    "date": "2026-08-19",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/18/PYH2026081804210001300_P2.jpg",
-    "title": "Lee says respects Trump's decision to promote dialogue with N.K. through scaled-back military exercises",
-    "link": "https://en.yna.co.kr/view/AEN20260820001200315"
+    "id": "hotnews_en_41a7d5e5",
+    "date": "2026-08-20",
+    "ts": 1787209649000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082012570001300_P2.jpg",
+    "title": "S. Korean athletes keeping focus on selves, not opponents, ahead of Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260820007500315"
+  },
+  {
+    "id": "hotnews_en_6717a1f1",
+    "date": "2026-08-20",
+    "ts": 1787208571000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082002870001300_P2.jpg",
+    "title": "(LEAD) Seoul stocks spike nearly 6 pct on chip rally, eased U.S. bond yield concerns",
+    "link": "https://en.yna.co.kr/view/AEN20260820006151320"
+  },
+  {
+    "id": "hotnews_en_da5c8f81",
+    "date": "2026-08-20",
+    "ts": 1787208141000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082010590001701_P2.jpg",
+    "title": "Unionized members at Naver demand company engage in centralized bargaining",
+    "link": "https://en.yna.co.kr/view/AEN20260820006400320"
+  },
+  {
+    "id": "hotnews_en_79ae16ea",
+    "date": "2026-08-20",
+    "ts": 1787207698000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082002870001300_P2.jpg",
+    "title": "Seoul stocks spike nearly 6 pct on chip rally, eased U.S. bond yield concerns",
+    "link": "https://en.yna.co.kr/view/AEN20260820006100320"
+  },
+  {
+    "id": "hotnews_en_d5c4a559",
+    "date": "2026-08-20",
+    "ts": 1787207672000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820006300315_01_i_P2.jpg",
+    "title": "S. Korean FM to meet with Mexico, Kuwait counterparts in Seoul next week",
+    "link": "https://en.yna.co.kr/view/AEN20260820006300315"
+  },
+  {
+    "id": "hotnews_en_fd1a8800",
+    "date": "2026-08-20",
+    "ts": 1787207618000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Seoul stocks spike nearly 6 pct on chip rally, eased U.S. bond yield concerns",
+    "link": "https://en.yna.co.kr/view/AEN20260820005800320"
+  },
+  {
+    "id": "hotnews_en_355949ca",
+    "date": "2026-08-20",
+    "ts": 1787207492000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820006500315_01_i_P2.jpg",
+    "title": "Seventeen's Vernon to drop new song marking enlistment",
+    "link": "https://en.yna.co.kr/view/AEN20260820006500315"
+  },
+  {
+    "id": "hotnews_en_18d1193f",
+    "date": "2026-08-20",
+    "ts": 1787207293000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820006200315_02_i_P2.jpg",
+    "title": "Unification minister says U.S.-N. Korea dialogue key first step to halting Pyongyang's nuclear program",
+    "link": "https://en.yna.co.kr/view/AEN20260820006200315"
+  },
+  {
+    "id": "hotnews_en_4cb2a1d6",
+    "date": "2026-08-20",
+    "ts": 1787192610000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820003500315_02_i_P2.jpg",
+    "title": "Opposition leader blasts Lee's praise of Trump's decision to reduce S. Korea-U.S. drills",
+    "link": "https://en.yna.co.kr/view/AEN20260820003500315"
+  },
+  {
+    "id": "hotnews_en_93540a24",
+    "date": "2026-08-20",
+    "ts": 1787190769000,
+    "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/17/PGT20260817101701009_P2.jpg",
+    "title": "Im Sung-jae eyes another appearance at PGA Tour playoff finale",
+    "link": "https://en.yna.co.kr/view/AEN20260820002900315"
+  },
+  {
+    "id": "hotnews_en_5e4f4f25",
+    "date": "2026-08-20",
+    "ts": 1787189642000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002800315_01_i_P2.jpg",
+    "title": "Foreign workers should be granted reemployment in case of employer mistake: watchdog",
+    "link": "https://en.yna.co.kr/view/AEN20260820002800315"
+  },
+  {
+    "id": "hotnews_en_250f43a7",
+    "date": "2026-08-20",
+    "ts": 1787189121000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002700320_01_i_P2.jpg",
+    "title": "AI-based anti-phishing platform prevents over 66 bln won in financial damage",
+    "link": "https://en.yna.co.kr/view/AEN20260820002700320"
+  },
+  {
+    "id": "hotnews_en_fc7ae9b4",
+    "date": "2026-08-20",
+    "ts": 1787188423000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002600320_01_i_P2.jpg",
+    "title": "Unionized workers at No. 1 internet-only Kakao Bank to stage 5-day strike",
+    "link": "https://en.yna.co.kr/view/AEN20260820002600320"
+  },
+  {
+    "id": "hotnews_en_915f8b73",
+    "date": "2026-08-20",
+    "ts": 1787187737000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820001600320_01_i_P2.jpg",
+    "title": "KRX activates buy-side sidecar for KOSPI on sharp rise",
+    "link": "https://en.yna.co.kr/view/AEN20260820001600320"
+  },
+  {
+    "id": "hotnews_en_72a1cd65",
+    "date": "2026-08-20",
+    "ts": 1787187502000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Bourse operator issues buy-side sidecar on KOSPI's sharp rise",
+    "link": "https://en.yna.co.kr/view/AEN20260820001500320"
+  },
+  {
+    "id": "hotnews_en_47957dbf",
+    "date": "2026-08-20",
+    "ts": 1787187165000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002500320_01_i_P2.jpg",
+    "title": "Innospace terminates 1st rocket test flight as Sebit veers off course",
+    "link": "https://en.yna.co.kr/view/AEN20260820002500320"
+  },
+  {
+    "id": "hotnews_en_9bbca40f",
+    "date": "2026-08-20",
+    "ts": 1787186733000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002400315_01_i_P2.jpg",
+    "title": "Navy to hold civil-military anti-terrorism drills on eastern island",
+    "link": "https://en.yna.co.kr/view/AEN20260820002400315"
+  },
+  {
+    "id": "hotnews_en_1083f564",
+    "date": "2026-08-20",
+    "ts": 1787186044000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/15/PYH2026031503940001700_P2.jpg",
+    "title": "S. Korea's Kakao Mobility confidentially files for U.S. listing",
+    "link": "https://en.yna.co.kr/view/AEN20260820002300320"
+  },
+  {
+    "id": "hotnews_en_789d6fb6",
+    "date": "2026-08-20",
+    "ts": 1787185387000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082002030001300_P2.jpg",
+    "title": "(LEAD) Seoul shares open higher as U.S. bond yields retreat",
+    "link": "https://en.yna.co.kr/view/AEN20260820001351320"
   },
   {
     "id": "hotnews_en_6bd32d8a",
@@ -166,187 +397,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "(URGENT) Seoul open over 3 pct higher as U.S. bond yields retreat",
     "link": "https://en.yna.co.kr/view/AEN20260820001400320"
-  },
-  {
-    "id": "hotnews_en_d299a4ad",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820001800320_01_i_P2.jpg",
-    "title": "Daily turnover of ETFs plunges in Aug. after curbs on leveraged investment",
-    "link": "https://en.yna.co.kr/view/AEN20260820001800320"
-  },
-  {
-    "id": "hotnews_en_067635d1",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081917370001300_P2.jpg",
-    "title": "Seoul shares open over 3 pct higher as U.S. bond yields retreat",
-    "link": "https://en.yna.co.kr/view/AEN20260820001300320"
-  },
-  {
-    "id": "hotnews_en_9efb8959",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820001100315_04_i_P2.jpg",
-    "title": "New Twins pitcher Kennedy pumped to play before big crowds in KBO",
-    "link": "https://en.yna.co.kr/view/AEN20260820001100315"
-  },
-  {
-    "id": "hotnews_en_8e6bb51e",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820002200320_02_i_P2.jpg",
-    "title": "Samsung announces Galaxy launch event for Aug. 27, likely for S26 FE",
-    "link": "https://en.yna.co.kr/view/AEN20260820002200320"
-  },
-  {
-    "id": "hotnews_en_8612f5a5",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820003300320_01_i_P2.jpg",
-    "title": "New U.S. ambassador meets American biz community in S. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260820003300320"
-  },
-  {
-    "id": "hotnews_en_c14afc52",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082002870001300_P2.jpg",
-    "title": "Seoul shares up over 6 pct late Thu. morning on chip rally",
-    "link": "https://en.yna.co.kr/view/AEN20260820003700320"
-  },
-  {
-    "id": "hotnews_en_66412e4b",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820003800315_01_i_P2.jpg",
-    "title": "Gov't to offer counseling service for construction workers amid economic hardship",
-    "link": "https://en.yna.co.kr/view/AEN20260820003800315"
-  },
-  {
-    "id": "hotnews_en_8df98e8f",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2020/01/16/PYH2020011617500001300_P2.jpg",
-    "title": "S. Korea seeks to allow lawful hacking by investigators to delete illegal sexual material",
-    "link": "https://en.yna.co.kr/view/AEN20260820003000315"
-  },
-  {
-    "id": "hotnews_en_2735d39f",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Defense minister says N. Korea typically estimated to have 80-120 nuclear weapons",
-    "link": "https://en.yna.co.kr/view/AEN20260820004600315"
-  },
-  {
-    "id": "hotnews_en_bf42576b",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082007500001301_P2.jpg",
-    "title": "Defense minister says N. Korea typically estimated to have 80-120 nuclear weapons",
-    "link": "https://en.yna.co.kr/view/AEN20260820004700315"
-  },
-  {
-    "id": "hotnews_en_a7fc52e5",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820004500320_02_i_P2.jpg",
-    "title": "FTC conditionally approves merger plan under gov't-led petrochemical restructuring scheme",
-    "link": "https://en.yna.co.kr/view/AEN20260820004500320"
-  },
-  {
-    "id": "hotnews_en_1a3ba044",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820004200320_01_i_P2.jpg",
-    "title": "Number of centenarians nearly triples in 10 yrs: data",
-    "link": "https://en.yna.co.kr/view/AEN20260820004200320"
-  },
-  {
-    "id": "hotnews_en_9a68df73",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820003400320_02_i_P2.jpg",
-    "title": "Genesis debuts GV90 flagship electric SUV with 500-km range",
-    "link": "https://en.yna.co.kr/view/AEN20260820003400320"
-  },
-  {
-    "id": "hotnews_en_b0c7c739",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/18/PYH2026061816580001301_P2.jpg",
-    "title": "Foreign investment in S. Korea rises at fastest clip in Q2 on stock rally",
-    "link": "https://en.yna.co.kr/view/AEN20260820003100320"
-  },
-  {
-    "id": "hotnews_en_b87d6604",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082003300031500_P2.jpg",
-    "title": "New ruling party leader steps up unity drive amid factional tensions",
-    "link": "https://en.yna.co.kr/view/AEN20260820004800315"
-  },
-  {
-    "id": "hotnews_en_cd6f3d0e",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082007500001301_P2.jpg",
-    "title": "(LEAD) N. Korea typically estimated to have 80-120 nuclear weapons: defense minister",
-    "link": "https://en.yna.co.kr/view/AEN20260820004751315"
-  },
-  {
-    "id": "hotnews_en_6c5fcd77",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820001700320_02_i_P2.jpg",
-    "title": "Trade watchdog to recommend antidumping duties on Chinese, Taiwanese industrial material",
-    "link": "https://en.yna.co.kr/view/AEN20260820001700320"
-  },
-  {
-    "id": "hotnews_en_f89d8dc0",
-    "date": "2026-08-20",
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260820000900320"
-  },
-  {
-    "id": "hotnews_en_bde59630",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082007500001301_P2.jpg",
-    "title": "(2nd LD) N. Korea typically estimated to have 80-120 nuclear weapons: defense minister",
-    "link": "https://en.yna.co.kr/view/AEN20260820004752315"
-  },
-  {
-    "id": "hotnews_en_a23fe494",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005100315_01_i_P2.jpg",
-    "title": "NCT Dream renews contract as full group with SM Entertainment",
-    "link": "https://en.yna.co.kr/view/AEN20260820005100315"
-  },
-  {
-    "id": "hotnews_en_5a4696b5",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/cms/2026/08/19/31/PCM20260819000031990_P2.jpg",
-    "title": "Police officer booked for allegedly skipping confirmation of missing person's safety before closing case",
-    "link": "https://en.yna.co.kr/view/AEN20260820004300315"
-  },
-  {
-    "id": "hotnews_en_c426d466",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005400320_01_i_P2.jpg",
-    "title": "S. Korea's space agency tests delivery system connecting drones with robots",
-    "link": "https://en.yna.co.kr/view/AEN20260820005400320"
-  },
-  {
-    "id": "hotnews_en_e6ebb628",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082010470034400_P2.jpg",
-    "title": "Suspense thriller 'Mousetrap' reinvents Korean folktale: director",
-    "link": "https://en.yna.co.kr/view/AEN20260820005500315"
-  },
-  {
-    "id": "hotnews_en_9441062a",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005600315_01_i_P2.jpg",
-    "title": "Police move to tackle high suicide rate of officers",
-    "link": "https://en.yna.co.kr/view/AEN20260820005600315"
-  },
-  {
-    "id": "hotnews_en_64a34220",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005700315_02_i_P2.jpg",
-    "title": "Seoul mayor rejects gov't proposal to build apartments in Yongsan Park",
-    "link": "https://en.yna.co.kr/view/AEN20260820005700315"
-  },
-  {
-    "id": "hotnews_en_f1075fde",
-    "date": "2026-08-20",
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082013990001301_P2.jpg",
-    "title": "S. Korea targets up to 45 gold medals at Asian Games as countdown reaches D-30",
-    "link": "https://en.yna.co.kr/view/AEN20260820006000315"
   }
 ]
