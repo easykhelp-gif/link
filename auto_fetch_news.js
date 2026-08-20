@@ -49,6 +49,26 @@ function cleanText(str) {
     .trim();
 }
 
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+// href/src 전용. http(s) 절대경로와 콜론 없는 상대경로만 통과.
+// javascript:, data:, vbscript: 등 스킴은 전부 '#'으로 차단.
+function safeUrl(u) {
+  const s = String(u || '').trim();
+  if (!s) return '#';
+  if (/^https?:\/\//i.test(s) && !/[\s<>"']/.test(s)) return escapeHtml(s);
+  if (!/[:\s<>"']/.test(s)) return escapeHtml(s);
+  return '#';
+}
+
 function fetchUrl(url) {
   return new Promise((resolve) => {
     const client = url.startsWith('https') ? https : http;
@@ -113,12 +133,12 @@ function buildArticleHtml(newsItem, lang) {
   if (lang !== 'en') {
     engSummarySection = `
       <div style="margin-top:24px; padding:16px 20px; background:#f8fafc; border-radius:12px; border:1px solid #e2e8f0;">
-        <div style="font-size:13.5px; color:#475569; line-height:1.65; font-weight:500;">${newsItem.title}</div>
+        <div style="font-size:13.5px; color:#475569; line-height:1.65; font-weight:500;">${escapeHtml(newsItem.title)}</div>
       </div>
     `;
   }
 
-  const heroImgTag = newsItem.image ? `<img src="${newsItem.image}" alt="${newsItem.title}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 18px 0 22px;">` : '';
+  const heroImgTag = newsItem.image ? `<img src="${safeUrl(newsItem.image)}" alt="${escapeHtml(newsItem.title)}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 18px 0 22px;">` : '';
   const backHref = lang === 'th' ? '../th/' : (lang === 'vi' ? '../vi/' : '../');
 
   return `<!DOCTYPE html>
@@ -126,8 +146,8 @@ function buildArticleHtml(newsItem, lang) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${newsItem.title} — Kori Care News</title>
-<meta name="description" content="${newsItem.desc.slice(0, 150).replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ')}">
+<title>${escapeHtml(newsItem.title)} — Kori Care News</title>
+<meta name="description" content="${escapeHtml(newsItem.desc.slice(0, 150)).replace(/[\r\n]+/g, ' ')}">
 <link rel="canonical" href="https://www.koricare.kr/link/news/${newsItem.id}.html">
 <meta name="robots" content="noindex, follow">
 <!-- Google tag (gtag.js) -->
@@ -177,14 +197,14 @@ function buildArticleHtml(newsItem, lang) {
 <main class="wrap">
   <article class="post-card">
     <div class="date-bar">${dateStr}</div>
-    <h1>${newsItem.title}</h1>
+    <h1>${escapeHtml(newsItem.title)}</h1>
     <hr style="border:none; border-top:1px solid #e2e8f0; margin:14px 0 20px;">
     ${heroImgTag}
     <div class="article-content">
       <div style="margin-bottom:16px; font-size:15.5px; line-height:1.8; color:#1e293b; font-weight:500;">
-        ${newsItem.desc ? newsItem.desc.replace(/\n/g, '<br>') : newsItem.title}
+        ${newsItem.desc ? escapeHtml(newsItem.desc).replace(/\n/g, '<br>') : escapeHtml(newsItem.title)}
       </div>
-      <a href="${newsItem.link || '#'}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb; margin-top:12px; display:inline-block;">🔗 Read Full Article on Original Source ➔</a>
+      <a href="${safeUrl(newsItem.link)}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb; margin-top:12px; display:inline-block;">🔗 Read Full Article on Original Source ➔</a>
     </div>
 
     ${engSummarySection}
@@ -210,9 +230,9 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
   if (sIdx !== -1 && eIdx !== -1 && top3.length > 0) {
     const cardsHtml = top3.map(item => {
       const rawThumb = item.image ? item.image.replace(/&amp;/g, '&') : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
-      const thumb = rawThumb;
-      const title = item.title;
-      const href = `/link/news/${item.id}.html`;
+      const thumb = safeUrl(rawThumb);
+      const title = escapeHtml(item.title);
+      const href = escapeHtml(`/link/news/${item.id}.html`);
       const dateStr = item.date ? new Date(item.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
 
       return `    <a href="${href}" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">

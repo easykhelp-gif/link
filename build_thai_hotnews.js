@@ -84,6 +84,26 @@ function extractItems(xmlStr) {
   return items;
 }
 
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+// href/src 전용. http(s) 절대경로와 콜론 없는 상대경로만 통과.
+// javascript:, data:, vbscript: 등 스킴은 전부 '#'으로 차단.
+function safeUrl(u) {
+  const s = String(u || '').trim();
+  if (!s) return '#';
+  if (/^https?:\/\//i.test(s) && !/[\s<>"']/.test(s)) return escapeHtml(s);
+  if (!/[:\s<>"']/.test(s)) return escapeHtml(s);
+  return '#';
+}
+
 async function downloadImage(imgUrl, filename) {
   if (!imgUrl) return null;
   const filePath = path.join(IMAGES_DIR, filename);
@@ -119,7 +139,7 @@ function generateArticleHtml(news, articleId) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${news.title} - Kori Care News</title>
+  <title>${escapeHtml(news.title)} - Kori Care News</title>
   <link rel="canonical" href="https://www.koricare.kr/link/news/${articleId}.html">
   <meta name="robots" content="noindex, follow">
   <!-- Google tag (gtag.js) -->
@@ -148,13 +168,13 @@ function generateArticleHtml(news, articleId) {
 <body>
   <div class="container">
     <span class="header-badge">ข่าวสารล่าสุด · Breaking News</span>
-    <h1>${news.title}</h1>
+    <h1>${escapeHtml(news.title)}</h1>
     <div class="date">อัปเดตเมื่อ: ${dateStr} · Kori Care Portal</div>
-    ${news.localImgPath ? `<img src="../${news.localImgPath}" alt="${news.title}" class="hero-img">` : ''}
+    ${news.localImgPath ? `<img src="../${escapeHtml(news.localImgPath)}" alt="${escapeHtml(news.title)}" class="hero-img">` : ''}
 
     <div class="summary-box">
       <h3>📌 สรุปข่าวสำคัญ (Executive Summary)</h3>
-      <div class="summary-th">${news.desc || news.title}</div>
+      <div class="summary-th">${news.desc ? escapeHtml(news.desc).replace(/\n/g, '<br>') : escapeHtml(news.title)}</div>
       <div class="summary-en" style="font-size:14px; color:#475569; border-top:1px dashed #cbd5e1; padding-top:8px; margin-top:8px;">Fast updates on Thailand's trending topics</div>
     </div>
 
@@ -168,7 +188,7 @@ function generateArticleHtml(news, articleId) {
     ${bannerHtml}
 
     <div style="margin-top: 18px; text-align:center; font-size: 11.5px; color: #94a3b8;">
-      <a href="${news.link || '#'}" target="_blank" rel="nofollow noopener" style="color:#2563eb; text-decoration:none; font-weight:bold;">🔗 อ่านเพิ่มเติม · Reference (Original Source)</a>
+      <a href="${safeUrl(news.link)}" target="_blank" rel="nofollow noopener" style="color:#2563eb; text-decoration:none; font-weight:bold;">🔗 อ่านเพิ่มเติม · Reference (Original Source)</a>
     </div>
 
     <a href="../index.html" class="back-btn">⬅ กลับสู่หน้าหลัก Kori Care Link (돌아가기)</a>
@@ -186,10 +206,10 @@ function updateHtmlFile(filePath, generatedNewsCards) {
   let html = fs.readFileSync(filePath, 'utf-8');
   
   const newCardsHtml = generatedNewsCards.map(card => `
-    <a href="${card.link}" class="news-card" style="display:flex; align-items:flex-start; height:fit-content; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-      <img src="${card.imgPath}" alt="${card.title}" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
+    <a href="${safeUrl(card.link)}" class="news-card" style="display:flex; align-items:flex-start; height:fit-content; gap:12px; padding:12px; background:#fff; border-radius:12px; text-decoration:none; margin-bottom:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+      <img src="${escapeHtml(card.imgPath)}" alt="${escapeHtml(card.title)}" style="width:90px; height:65px; object-fit:cover; border-radius:8px; flex-shrink:0;">
       <div style="font-size:14px; font-weight:600; color:#1e293b; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; line-height:1.4;">
-        ${card.title}
+        ${escapeHtml(card.title)}
       </div>
     </a>`).join('\n');
 
