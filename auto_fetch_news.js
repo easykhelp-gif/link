@@ -112,7 +112,9 @@ function parseXmlItems(xmlText) {
         link: cleanLink,
         desc: cleanDesc,
         image: actualImg,
-        date: pubDateMatch ? new Date(pubDateMatch[1]).toISOString().slice(0, 10) : new Date().toISOString().slice(0, 10)
+        date: pubDateMatch ? new Date(pubDateMatch[1]).toISOString().slice(0, 10) : new Date().toISOString().slice(0, 10),
+        // 정렬용 발행 시각(ms). date는 일 단위라 같은 날 기사 순서를 못 가림.
+        ts: pubDateMatch && !isNaN(new Date(pubDateMatch[1]).getTime()) ? new Date(pubDateMatch[1]).getTime() : Date.now()
       });
     }
   }
@@ -318,15 +320,21 @@ async function runPipeline() {
 
         const html = buildArticleHtml(item, lang);
         fs.writeFileSync(path.join(NEWS_DIR, `${item.id}.html`), html, 'utf-8');
-        existingList.unshift({ id: item.id, date: item.date, image: item.image, title: item.title, link: item.link });
+        existingList.push({ id: item.id, date: item.date, ts: item.ts, image: item.image, title: item.title, link: item.link });
       }
     }
+
+    // 발행 시각 내림차순 정렬. 예전에는 최신순 루프 안에서 unshift를 돌려
+    // 배치에서 가장 오래된 기사가 맨 앞으로 가고, 최신 기사는 뒤로 밀려
+    // slice(0,50)에서 잘려나갔다.
+    const tsOf = (x) => x.ts || Date.parse(x.date + 'T00:00:00Z') || 0;
+    existingList.sort((a, b) => tsOf(b) - tsOf(a));
 
     // Rolling retention (keep 50)
     const keptList = existingList.slice(0, 50);
     const removedList = existingList.slice(50);
-    
-    // HTML files are kept permanently to prevent 404s.
+
+    // 오래된 HTML은 clean_old_news.js가 날짜 기준으로 정리한다.
 
     fs.writeFileSync(dataPath, JSON.stringify(keptList, null, 2), 'utf-8');
     const newsList = keptList;
