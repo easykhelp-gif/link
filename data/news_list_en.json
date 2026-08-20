@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_79441b34",
+    "date": "2026-08-20",
+    "ts": 1787255875000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821000400315_01_i_P2.jpg",
+    "title": "U.S. military says it is aware of N.K. missile launches, reaffirms defense commitment to allies",
+    "link": "https://en.yna.co.kr/view/AEN20260821000400315"
+  },
+  {
+    "id": "hotnews_en_519e54ec",
+    "date": "2026-08-20",
+    "ts": 1787255592000,
+    "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/21/PEP20260821015301009_P2.jpg",
+    "title": "Bessent urges U.S. allies to join economic pressure campaign on Iran",
+    "link": "https://en.yna.co.kr/view/AEN20260821000300315"
+  },
+  {
+    "id": "hotnews_en_8945eb07",
+    "date": "2026-08-20",
+    "ts": 1787254130000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/20/PAF20260820027301009_P2.jpg",
+    "title": "(News Focus) Questions grow over Trump's commitment to N. Korea denuclearization goal",
+    "link": "https://en.yna.co.kr/view/AEN20260821000200315"
+  },
+  {
     "id": "hotnews_en_083ec40e",
     "date": "2026-08-20",
     "ts": 1787236848000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082010470034400_P2.jpg",
     "title": "Suspense thriller 'Mousetrap' reinvents Korean folktale: director",
     "link": "https://en.yna.co.kr/view/AEN20260820005500315"
-  },
-  {
-    "id": "hotnews_en_c426d466",
-    "date": "2026-08-20",
-    "ts": 1787204365000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005400320_01_i_P2.jpg",
-    "title": "S. Korea's space agency tests delivery system connecting drones with robots",
-    "link": "https://en.yna.co.kr/view/AEN20260820005400320"
-  },
-  {
-    "id": "hotnews_en_5a4696b5",
-    "date": "2026-08-20",
-    "ts": 1787203471000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/08/19/31/PCM20260819000031990_P2.jpg",
-    "title": "Police officer booked for allegedly skipping confirmation of missing person's safety before closing case",
-    "link": "https://en.yna.co.kr/view/AEN20260820004300315"
-  },
-  {
-    "id": "hotnews_en_a23fe494",
-    "date": "2026-08-20",
-    "ts": 1787202740000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/20/AEN20260820005100315_01_i_P2.jpg",
-    "title": "NCT Dream renews contract as full group with SM Entertainment",
-    "link": "https://en.yna.co.kr/view/AEN20260820005100315"
   }
 ]
