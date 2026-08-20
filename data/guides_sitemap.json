@@ -60,6 +60,21 @@
     "priority": 0.7
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/",
     "changefreq": "weekly",
     "priority": 0.8

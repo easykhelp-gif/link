@@ -684,6 +684,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.koricare.kr/link/en/guides/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

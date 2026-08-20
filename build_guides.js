@@ -62,13 +62,22 @@ function buildGuides() {
       html = html.replace(/\{\{TITLE_EN\}\}/g, currTitle || guide.title_en || '');
       html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
       
-      const imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
+      const currContent = lang === 'en' ? guide.content_en : (lang === 'th' ? guide.content_th : guide.content_vi);
+      let description = guide['description_' + lang];
+      if (!description && currContent) {
+        description = currContent.replace(/<[^>]*>?/gm, '').substring(0, 150).trim() + '...';
+      }
+      html = html.replace(/\{\{DESCRIPTION\}\}/g, description || '');
+      
+      let imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
+      if (imgUrl.startsWith('/link/')) {
+        imgUrl = 'https://www.koricare.kr' + imgUrl;
+      }
       html = html.replace(/\{\{IMAGE_URL\}\}/g, imgUrl);
       
       let catName = guide.tag ? guide.tag : (guide.category.charAt(0).toUpperCase() + guide.category.slice(1));
       html = html.replace(/\{\{CATEGORY_NAME\}\}/g, catName);
       
-      const currContent = lang === 'en' ? guide.content_en : (lang === 'th' ? guide.content_th : guide.content_vi);
       let contentHtml = currContent || '';
       contentHtml = contentHtml.replace(/src="news\//g, 'src="/link/news/');
       contentHtml = contentHtml.replace(/href="news\//g, 'href="/link/news/');
@@ -278,7 +287,30 @@ function buildGuides() {
   fs.writeFileSync(GUIDES_SITEMAP_PATH, JSON.stringify(sitemapUrls, null, 2), 'utf-8');
   console.log('[Success] Generated data/guides_sitemap.json');
 
+  mergeSitemap(sitemapUrls);
   updateIndexHtml(guides);
+}
+
+function mergeSitemap(sitemapUrls) {
+  const SITEMAP_PATH = path.join(BASE_DIR, 'sitemap.xml');
+  if (!fs.existsSync(SITEMAP_PATH)) return;
+  let content = fs.readFileSync(SITEMAP_PATH, 'utf-8');
+  
+  // Remove all existing guide URLs from sitemap
+  content = content.replace(/<url>\s*<loc>[^<]*\/guides\/[^<]*<\/loc>[\s\S]*?<\/url>/g, '');
+  
+  // Remove any double blank lines left behind
+  content = content.replace(/^\s*[\r\n]/gm, '');
+  if (!content.endsWith('\n')) content += '\n';
+  
+  // Create XML for new URLs
+  const newXml = sitemapUrls.map(u => `  <url>\n    <loc>${u.loc}</loc>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n');
+  
+  // Insert before </urlset>
+  content = content.replace('</urlset>', newXml + '\n</urlset>');
+  
+  fs.writeFileSync(SITEMAP_PATH, content, 'utf-8');
+  console.log('[Success] Merged guides into sitemap.xml');
 }
 
 function updateIndexHtml(guides) {
