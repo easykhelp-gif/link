@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_ec101253",
+    "date": "2026-08-21",
+    "ts": 1787340572000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822000400315_01_i_P2.jpg",
+    "title": "Democrats step up offensive over Trump's reduction of drills with S. Korea, push for summitry with Kim",
+    "link": "https://en.yna.co.kr/view/AEN20260822000400315"
+  },
+  {
+    "id": "hotnews_en_1c4952d7",
+    "date": "2026-08-21",
+    "ts": 1787337610000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/20/PYH2026052002540001300_P2.jpg",
+    "title": "U.S. approves potential sale to S. Korea of AIM-9X air-to-air missiles",
+    "link": "https://en.yna.co.kr/view/AEN20260822000300315"
+  },
+  {
+    "id": "hotnews_en_983c8812",
+    "date": "2026-08-21",
+    "ts": 1787335640000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822000200315_01_i_P2.jpg",
+    "title": "Expert: S. Korea, U.S. need to address fallout from Trump's exercise reduction for 'productive' engagement with Kim",
+    "link": "https://en.yna.co.kr/view/AEN20260822000200315"
+  },
+  {
     "id": "hotnews_en_5abba33b",
     "date": "2026-08-21",
     "ts": 1787320864000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004400315_02_i_P2.jpg",
     "title": "Moon Geun-young to return as film lead after 9 years",
     "link": "https://en.yna.co.kr/view/AEN20260821004400315"
-  },
-  {
-    "id": "hotnews_en_73a5e4fa",
-    "date": "2026-08-21",
-    "ts": 1787276278000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062908000001300_P2.jpg",
-    "title": "Kakao Corp. to spinoff core biz to strengthen AI capabilities",
-    "link": "https://en.yna.co.kr/view/AEN20260821004200320"
-  },
-  {
-    "id": "hotnews_en_dc604d77",
-    "date": "2026-08-21",
-    "ts": 1787275669000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002551320_01_i_P2.jpg",
-    "title": "(LEAD) Philip Morris to launch VEEV e-vapor product in S. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260821002551320"
-  },
-  {
-    "id": "hotnews_en_a7afb544",
-    "date": "2026-08-21",
-    "ts": 1787274679000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002900320_02_i_P2.jpg",
-    "title": "S. Korea to monitor impact of rising bond yields around globe",
-    "link": "https://en.yna.co.kr/view/AEN20260821002900320"
   }
 ]

@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_e829df29",
+    "date": "2026-08-21",
+    "ts": 1787340638000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/HQRHAEoXEAEeXoY.jpg",
+    "title": "อินเตอร์ มิลาน แถลงเปิดตัว เคอร์ติส โจนส์ เป็นนักเตะใหม่ เซ็นสัญญาถึงปี 2031",
+    "link": "https://www.khaosod.co.th/sports/news_10370214"
+  },
+  {
+    "id": "hotnews_th_23a9a2e3",
+    "date": "2026-08-21",
+    "ts": 1787335448000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Worried-about-a-repeat-of-Aunt-Das-incident.jpg",
+    "title": "หวั่นซ้ำรอย ป้าดา ชาวบ้านเดือด ลุกฮือปกป้องที่ดินวัด หลังทายาททวงคืน อ้างเป็นกรรมสิทธิ์พ่อ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10370202"
+  },
+  {
+    "id": "hotnews_th_ddcf57ff",
+    "date": "2026-08-21",
+    "ts": 1787334243000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Don-Yai-Thong-Archaeological-Site.jpg",
+    "title": "กรมศิลปากร ยกโครงกระดูกมนุษย์ แหล่งโบราณคดีดอนยายทอง 2 ชุดสุดท้าย ขึ้นพ้นหลุมขุดค้น",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10370188"
+  },
+  {
+    "id": "hotnews_th_241cb8ef",
+    "date": "2026-08-21",
+    "ts": 1787333527000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/War-grade-arms-trafficking-network.jpg",
+    "title": "สนธิกำลัง ไล่ล่า ขบวนการค้าอาวุธสงคราม ขนจากเขมรส่งไทย รวบยกแก๊ง3ราย ยึดอาร์ก้า2กระบอก-กระสุนอื้อ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10370174"
+  },
+  {
+    "id": "hotnews_th_2d505052",
+    "date": "2026-08-21",
+    "ts": 1787332038000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/HQQgnPyakAAyNbA.jpg",
+    "title": "สะกดคำนี้ไม่เป็น! สโมสรดังแห่ง มาเลเซีย ทุบสถิติโลกไร้พ่ายติดกันในลีกนานที่สุด",
+    "link": "https://www.khaosod.co.th/sports/news_10370165"
+  },
+  {
+    "id": "hotnews_th_8e7fabdc",
+    "date": "2026-08-21",
+    "ts": 1787331776000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Skylab-vehicle-motorized-tricycle-taxi.jpg",
+    "title": "กรี๊ดตกใจลั่น รถตู้โดยสาร ชนสนั่นท้าย สกายแลป ผู้สูงอายุเจ็บ2ราย ตร.เร่งสอบปมอุบัติเหตุ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10370163"
+  },
+  {
+    "id": "hotnews_th_069edc60",
+    "date": "2026-08-21",
+    "ts": 1787330203000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/The-son-of-a-traitor.jpg",
+    "title": "ลูกชายทรพี ก่อเหตุ ปิตุฆาต ใช้อาวุธปืนยิง พ่อตัวเอง เข้าศีรษะ เสียชีวิตคาบ้าน ก่อนขับกระบะหลบหนี",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10370160"
+  },
+  {
     "id": "hotnews_th_f974e155",
     "date": "2026-08-21",
     "ts": 1787328571000,
@@ -342,61 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Phra-Khru-Adulsarnnithet-2.jpg",
     "title": "หลวงพ่ออดุล สนทนา ญาติโยม อารมณ์ดี สีหน้ายิ้มแย้ม บอก ไม่มีอะไรน่าห่วง-ชนะมาหมดแล้ว",
     "link": "https://www.khaosod.co.th/around-thailand/news_10369913"
-  },
-  {
-    "id": "hotnews_th_5df5fd19",
-    "date": "2026-08-21",
-    "ts": 1787316003000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeY1HnLpb11Ic77A.jpg",
-    "title": "อุตุฯ ฉบับ 13 ไทยเริ่มมีฝนลดลง “ภาคเหนือ-กลาง” ยังตกหนักบางพื้นที่",
-    "link": "https://www.thairath.co.th/news/society/2954410"
-  },
-  {
-    "id": "hotnews_th_bc1a4fa4",
-    "date": "2026-08-21",
-    "ts": 1787315952000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/S__5472342.jpg",
-    "title": "ตร.บางรัก บุกรวบชายวัย45 ชอบทำ-สะสมไว้ภายในบ้าน หลังชาวบ้านแจ้งได้ยินเสียงปืน",
-    "link": "https://www.khaosod.co.th/crime/news_10369922"
-  },
-  {
-    "id": "hotnews_th_b9fd9976",
-    "date": "2026-08-21",
-    "ts": 1787315823000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/para.jpg",
-    "title": "หมอวรงค์ เดือดท้า ภราดร ดีเบต ปมกองทุนบำนาญ สส. เผยเคยรับจริง แต่ตอนนี้มีสำนึก",
-    "link": "https://www.khaosod.co.th/politics/news_10369876"
-  },
-  {
-    "id": "hotnews_th_5d3f2acf",
-    "date": "2026-08-21",
-    "ts": 1787315743000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/300.jpg",
-    "title": "อบจ.ปทุมธานี ประกาศรางวัลประกวดภาพถ่าย 2569 เชิดชู 10 ผลงาน ถ่ายทอดเสน่ห์เมืองปทุมฯ",
-    "link": "https://www.khaosod.co.th/monitor-news/news_10369906"
-  },
-  {
-    "id": "hotnews_th_1e1e5486",
-    "date": "2026-08-21",
-    "ts": 1787315723000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/nomine1.jpg",
-    "title": "สนธิกำลัง บุกค้นพัทยา 3 จุด เครือข่ายนอมินี ถือครองที่ดิน ทำธุรกิจแทนต่างชาติ",
-    "link": "https://www.khaosod.co.th/crime/news_10369840"
-  },
-  {
-    "id": "hotnews_th_273cacef",
-    "date": "2026-08-21",
-    "ts": 1787315372000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dqrq.jpg",
-    "title": "ไฟแรง เด็กมหัศจรรย์ ขอวัดชั้นมวย “โยธิน” อดีตแชมป์ราชดำเนิน ศึก RWS เสาร์นี้",
-    "link": "https://www.khaosod.co.th/sports/news_10369895"
-  },
-  {
-    "id": "hotnews_th_76170722",
-    "date": "2026-08-21",
-    "ts": 1787315370000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeY1IGDsvqRLff3O.jpg",
-    "title": "คมนาคมลุยสร้างทางรถไฟสายใหม่ สุพรรณบุรี-บ้านภาชี หนุนขนส่งสินค้าไม่ผ่าน กทม.",
-    "link": "https://www.thairath.co.th/news/governmentpolicy/2954401"
   }
 ]
