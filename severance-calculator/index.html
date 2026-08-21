@@ -2,10 +2,642 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=../severance-calculator.html">
-<title>Redirecting...</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Korea Severance Pay Calculator | Kori Care</title>
+<meta name="description" content="Official Korean Labor Standards Act Severance Pay Calculator for foreign residents and workers in South Korea.">
+<link rel="canonical" href="https://www.koricare.kr/link/severance-calculator">
+<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #002366;
+    --navy-dark: #001950;
+    --blue-accent: #2563eb;
+    --blue-glow: rgba(37, 99, 235, 0.35);
+    --bg-slate: #0f172a;
+    --body-bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --border-color: #e2e8f0;
+    --success: #10b981;
+    --success-bg: #ecfdf5;
+    --warning: #f59e0b;
+    --warning-bg: #fffbe8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    background: var(--body-bg);
+    color: var(--text-primary);
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-bottom: 60px;
+  }
+
+  /* Keyframe Animations */
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 15px rgba(37,99,235,0.2); }
+    50% { box-shadow: 0 0 30px rgba(37,99,235,0.5); }
+  }
+  @keyframes slideUpFade {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  .wrap { max-width: 580px; margin: 0 auto; padding: 0 16px; }
+
+  /* Header Section */
+  header {
+    background: var(--navy-dark);
+    color: #ffffff;
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .hrow { display: flex; align-items: center; justify-content: space-between; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .logo-img { width: 34px; height: 34px; object-fit: contain; }
+  .logo-text b { font-size: 17.5px; font-weight: 900; line-height: 1.1; letter-spacing: -0.3px; display: block; }
+  .logo-text span { font-size: 9.5px; opacity: 0.85; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+
+  .nav-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.25);
+    transition: all 0.2s ease;
+  }
+  .nav-back:hover { background: rgba(255,255,255,0.22); }
+
+  /* Hero Banner */
+  .hero-banner {
+    background: linear-gradient(135deg, #001950 0%, #002366 50%, #1e3a8a 100%);
+    color: #ffffff;
+    padding: 32px 20px 44px;
+    border-radius: 0 0 28px 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -20px;
+  }
+  .hero-banner::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    backdrop-filter: blur(8px);
+  }
+  .hero-banner h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+  }
+  .hero-banner p {
+    font-size: 13px;
+    opacity: 0.88;
+    max-width: 460px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* Main Container Card */
+  .calc-card {
+    background: var(--card-bg);
+    border-radius: 24px;
+    padding: 28px 24px;
+    box-shadow: 0 12px 36px rgba(15,23,42,0.08), 0 2px 6px rgba(15,23,42,0.04);
+    border: 1px solid var(--border-color);
+    position: relative;
+    z-index: 10;
+    animation: slideUpFade 0.4s ease-out;
+  }
+
+  /* Situation Toggle Tabs */
+  .toggle-label {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .tab-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  .tab-btn {
+    padding: 12px 10px;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    line-height: 1.3;
+  }
+  .tab-btn small {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 500;
+    opacity: 0.75;
+    margin-top: 2px;
+  }
+  .tab-btn.active {
+    background: #ffffff;
+    color: var(--navy);
+    box-shadow: 0 4px 14px rgba(0,35,102,0.12);
+    font-weight: 900;
+  }
+
+  /* Form Fields */
+  .form-group { margin-bottom: 20px; }
+  .form-group label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .form-group label .sub-hint {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .form-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 54px 0 16px;
+    border-radius: 14px;
+    border: 2px solid var(--border-color);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-primary);
+    background: #fafafa;
+    outline: none;
+    text-align: right;
+    transition: all 0.2s ease;
+  }
+  .form-input:focus {
+    border-color: var(--blue-accent);
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(37,99,235,0.12);
+  }
+  .input-unit {
+    position: absolute;
+    right: 16px;
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-secondary);
+    pointer-events: none;
+  }
+
+  .grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  /* Motion Calculate Button */
+  .btn-calculate {
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(135deg, var(--navy) 0%, #1e3a8a 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 8px 24px rgba(0,35,102,0.28);
+    transition: all 0.25s ease;
+    margin-top: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0,35,102,0.38);
+  }
+  .btn-calculate:active {
+    transform: translateY(0);
+  }
+
+  /* Result Box with Motion Reveal */
+  .result-card {
+    display: none;
+    margin-top: 28px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #001950 0%, #002366 100%);
+    color: #ffffff;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 14px 40px rgba(0,25,80,0.25);
+    border: 1px solid rgba(255,255,255,0.15);
+    animation: slideUpFade 0.4s ease-out;
+  }
+  .result-card.show { display: block; }
+  .result-header {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #93c5fd;
+  }
+  .result-amount {
+    font-size: 34px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 8px 0;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+  }
+  .result-amount span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #60a5fa;
+    margin-left: 4px;
+  }
+  .result-sub {
+    font-size: 13px;
+    color: #cbd5e1;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+
+  /* Info & Legal Guidelines */
+  .guideline-box {
+    margin-top: 16px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .guideline-box.legal {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: #f1f5f9;
+  }
+  .guideline-box.undoc {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #ecfdf5;
+  }
+  .guideline-box strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #ffffff;
+  }
+
+  /* Consultation & Action Buttons */
+  .action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 13.5px;
+    font-weight: 800;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .action-btn.line { background: #06C755; color: #ffffff; }
+  .action-btn.msg { background: #0084FF; color: #ffffff; }
+  .action-btn.share {
+    grid-column: 1 / -1;
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+
+  /* Legal Notice Box */
+  .notice-card {
+    background: #f8fafc;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .notice-card h4 {
+    font-size: 13.5px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+  }
+  .notice-card ul { padding-left: 18px; }
+  .notice-card li { margin-bottom: 4px; }
+
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 32px;
+  }
+</style>
 </head>
 <body>
-<script>window.location.href="../severance-calculator.html";</script>
+
+<header>
+  <div class="wrap hrow">
+    <a href="../index.html" class="logo">
+      <img src="../koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
+      <div class="logo-text">
+        <b>Kori Care</b>
+        <span>Your Partner in Korea</span>
+      </div>
+    </a>
+    <a href="../index.html" class="nav-back">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      Portal Home
+    </a>
+  </div>
+</header>
+
+<section class="hero-banner">
+  <div class="wrap">
+    <div class="hero-badge">Act on the Guarantee of Workers' Retirement Benefits</div>
+    <h1>Korea Severance Pay Calculator</h1>
+    <p>Guaranteed legal right for all workers continuously employed for 1+ year in South Korea.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="calc-card">
+    <span class="toggle-label">1. Visa Status & Employment Condition</span>
+    <div class="tab-container">
+      <button id="tabLegal" class="tab-btn active" onclick="setVisaStatus('legal')">
+        Standard Visa
+        <small>E-9 · H-2 · E-7 · F-series</small>
+      </button>
+      <button id="tabUndoc" class="tab-btn" onclick="setVisaStatus('undoc')">
+        Undocumented
+        <small>Overstayed status protected</small>
+      </button>
+    </div>
+
+    <div class="form-group">
+      <label>
+        <span>2. Monthly Wage (Last 3 Months Average)</span>
+        <span class="sub-hint">Gross salary before tax</span>
+      </label>
+      <div class="input-wrapper">
+        <input type="text" id="monthlySalary" class="form-input" inputmode="numeric" placeholder="2,500,000" oninput="formatNumberInput(this)">
+        <span class="input-unit">KRW</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>
+        <span>3. Total Employment Period</span>
+        <span class="sub-hint">Years & Months worked</span>
+      </label>
+      <div class="grid-2col">
+        <div class="input-wrapper">
+          <input type="number" id="workYears" class="form-input" inputmode="numeric" placeholder="1" min="0">
+          <span class="input-unit">Years</span>
+        </div>
+        <div class="input-wrapper">
+          <input type="number" id="workMonths" class="form-input" inputmode="numeric" placeholder="0" min="0" max="11">
+          <span class="input-unit">Months</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>
+        <span>4. Annual Bonus in Last 12 Months</span>
+        <span class="sub-hint">Optional (e.g. 1,000,000)</span>
+      </label>
+      <div class="input-wrapper">
+        <input type="text" id="annualBonus" class="form-input" inputmode="numeric" placeholder="0" oninput="formatNumberInput(this)">
+        <span class="input-unit">KRW</span>
+      </div>
+    </div>
+
+    <button type="button" class="btn-calculate" onclick="calculateSeverance()">
+      <span>Calculate Severance Pay</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </button>
+
+    <!-- Dynamic Result Box -->
+    <div id="resultCard" class="result-card">
+      <div class="result-header">Estimated Legal Severance Pay</div>
+      <div id="resultAmount" class="result-amount">₩ 0 <span>KRW</span></div>
+      <div id="resultRange" class="result-sub"></div>
+
+      <!-- Legal Status Specific Guidance -->
+      <div id="guideLegal" class="guideline-box legal">
+        <strong>Departure Guarantee Insurance (출국만기보험) Check</strong>
+        For E-9 and H-2 visa holders, a portion of severance is saved in Departure Guarantee Insurance. If your total legal severance exceeds the insurance payout, your employer is legally obligated to pay the remaining gap.
+      </div>
+
+      <div id="guideUndoc" class="guideline-box undoc" style="display:none;">
+        <strong>Legal Right Protected (Supreme Court Precedent)</strong>
+        Regardless of visa status or overstaying, all foreign workers in Korea retain full legal rights to 100% severance pay. Since Nov 6, 2025, a labor inspector investigating unpaid wages does not report you to immigration. (This does not make your stay legal.)
+      </div>
+
+      <div class="action-grid">
+        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line">
+          LINE Consultation
+        </a>
+        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg">
+          Messenger Assistance
+        </a>
+        <button type="button" class="action-btn share" onclick="shareCalculator()">
+          Share Calculator Link
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="notice-card">
+    <h4>Korean Labor Standards Act Regulations</h4>
+    <ul>
+      <li><b>Qualification:</b> Continuous service at the same workplace for 1+ year (365 days) working 15+ hours weekly.</li>
+      <li><b>Statutory Deadline:</b> Full severance must be remitted within 14 calendar days of resignation.</li>
+      <li><b>Late Penalty:</b> Unpaid balances past 14 days accrue 20% annual interest penalty by law.</li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2026 Kori Care Information Portal. All rights reserved.
+  </footer>
+</div>
+
+<script>
+  let currentVisaStatus = "legal";
+
+  function setVisaStatus(status) {
+    currentVisaStatus = status;
+    document.getElementById("tabLegal").classList.toggle("active", status === "legal");
+    document.getElementById("tabUndoc").classList.toggle("active", status === "undoc");
+    if (document.getElementById("resultCard").classList.contains("show")) {
+      updateGuidelineVisibility();
+    }
+  }
+
+  function updateGuidelineVisibility() {
+    document.getElementById("guideLegal").style.display = currentVisaStatus === "legal" ? "block" : "none";
+    document.getElementById("guideUndoc").style.display = currentVisaStatus === "undoc" ? "block" : "none";
+  }
+
+  function formatNumberInput(el) {
+    let val = el.value.replace(/[^\d]/g, "");
+    el.value = val ? Number(val).toLocaleString("en-US") : "";
+  }
+
+  function parseFormattedNumber(val) {
+    return parseFloat((val || "").replace(/,/g, "")) || 0;
+  }
+
+  function animateNumberCounter(targetVal) {
+    const el = document.getElementById("resultAmount");
+    const duration = 600; // ms
+    const startTime = performance.now();
+
+    function updateCounter(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease out quad
+      const currentVal = Math.round(targetVal * (1 - Math.pow(1 - progress, 2)));
+      el.innerHTML = "₩ " + currentVal.toLocaleString("en-US") + " <span>KRW</span>";
+      if (progress < 1) {
+        requestAnimationFrame(updateCounter);
+      }
+    }
+    requestAnimationFrame(updateCounter);
+  }
+
+  function calculateSeverance() {
+    const salary = parseFormattedNumber(document.getElementById("monthlySalary").value);
+    const years = parseFloat(document.getElementById("workYears").value) || 0;
+    const months = parseFloat(document.getElementById("workMonths").value) || 0;
+    const bonus = parseFormattedNumber(document.getElementById("annualBonus").value);
+
+    const totalDays = (years * 365) + (months * 30);
+    const resultCard = document.getElementById("resultCard");
+
+    if (salary <= 0 || totalDays <= 0) {
+      alert("Please enter a valid monthly wage and service duration.");
+      return;
+    }
+
+    resultCard.classList.add("show");
+    updateGuidelineVisibility();
+
+    if (totalDays < 365) {
+      document.getElementById("resultAmount").innerHTML = "Not Eligible <span>(Under 1 Year)</span>";
+      document.getElementById("resultRange").innerHTML = "Legal severance requires <b>1+ year (365 days)</b> of continuous employment.";
+      resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
+
+    // Formula: (Monthly Salary * 3 + Bonus * 0.25) / 91.25 * 30 * (totalDays / 365)
+    const avgDailyWage = ((salary * 3) + (bonus * 0.25)) / 91.25;
+    const baseSeverance = Math.round(avgDailyWage * 30 * (totalDays / 365));
+    const minRange = Math.round(baseSeverance * 0.95);
+    const maxRange = Math.round(baseSeverance * 1.15);
+
+    animateNumberCounter(baseSeverance);
+    document.getElementById("resultRange").innerHTML = "Estimated range: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
+
+    resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function shareCalculator() {
+    const shareUrl = "https://www.koricare.kr/link/severance-calculator";
+    if (navigator.share) {
+      navigator.share({
+        title: "Korea Severance Pay Calculator | Kori Care",
+        url: shareUrl
+      }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        alert("Calculator link copied to clipboard!");
+      }).catch(() => {
+        window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl), "_blank");
+      });
+    }
+  }
+</script>
+
 </body>
 </html>
