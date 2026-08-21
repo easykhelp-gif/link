@@ -73,8 +73,13 @@
   .header-card { background: #002366; color: #ffffff; padding: 20px 22px; border-radius: 14px; margin-bottom: 20px; box-shadow: 0 6px 16px rgba(0,35,102,0.13); }
   .header-card h1 { margin: 0 0 5px 0; font-size: 21px; font-weight: 800; letter-spacing: -0.4px; }
   .header-card p { margin: 0; color: #c7d2fe; font-size: 13.5px; line-height: 1.45; }
-  .back-link { display: inline-block; color: #64748b; text-decoration: none; font-weight: 600; margin-bottom: 20px; transition: color 0.2s; }
-  .back-link:hover { color: #0f172a; }
+  .back-link { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px 9px 13px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 999px; color: #475569; text-decoration: none; font-weight: 600; font-size: 14px; margin-bottom: 20px; box-shadow: 0 1px 2px rgba(15,23,42,0.05); transition: color .2s, border-color .2s, box-shadow .2s, transform .2s; }
+  .back-link svg { width: 16px; height: 16px; flex: none; transition: transform .2s; }
+  .back-link:hover { color: #002366; border-color: #c7d7f5; box-shadow: 0 4px 12px rgba(0,35,102,0.13); transform: translateY(-1px); }
+  .back-link:hover svg { transform: translateX(-3px); }
+  .back-link:active { transform: translateY(0); box-shadow: 0 1px 2px rgba(15,23,42,0.05); }
+  .back-link:focus-visible { outline: 2px solid #2f6ad4; outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .back-link, .back-link svg { transition: none; } .back-link:hover { transform: none; } .back-link:hover svg { transform: none; } }
   .section-title { font-size: 22px; font-weight: 800; color: #0f172a; margin: 40px 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
   .section-desc { font-size: 15px; color: #475569; margin-bottom: 24px; }
 </style>
@@ -94,7 +99,7 @@
 </head>
 <body>
 <div class="container">
-  <a href="/link/vi/index.html" class="back-link">← Quay lại Trang chủ</a>
+  <a href="/link/vi/index.html" class="back-link"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 10H4.6"/><path d="M9.6 15 4.6 10l5-5"/></svg>Quay lại Trang chủ</a>
   
   <div class="header-card">
     <h1>Hướng dẫn Kori Care</h1>
@@ -112,7 +117,7 @@
           </div>
         </div>
         <div class="guide-card">
-          <a href="https://www.koricare.kr/link/vi/guides/korea/severance_pay/" class="guide-thumb"><img src="https://www.koricare.kr/link/news/images/news_thumb_labor.png" alt="" loading="lazy"></a>
+          <a href="https://www.koricare.kr/link/vi/guides/korea/severance_pay/" class="guide-thumb"><img src="https://www.koricare.kr/link/news/images/guide_severance_hero.webp" alt="" loading="lazy"></a>
           <div class="guide-body">
             <a href="https://www.koricare.kr/link/vi/guides/korea/severance_pay/" class="guide-title">[Cập nhật 2026] Hướng dẫn nhận Tiền trợ cấp thôi việc (EPS) tại Hàn Quốc</a>
             <p class="guide-desc">Tìm hiểu cách yêu cầu Bảo hiểm Bảo lãnh Xuất cảnh EPS của bạn một cách hợp pháp và an toàn trước khi rời khỏi Hàn Quốc.</p>
