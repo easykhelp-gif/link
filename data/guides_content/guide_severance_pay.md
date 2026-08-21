@@ -2,7 +2,7 @@
 id: severance_pay
 category: korea
 tag: Finance
-image: news/images/guide_severance_hero.webp
+image: news/images/guide_severance_hero_v2.webp
 date: 2026-08-17
 ---
 <!-- TITLE_EN START -->
