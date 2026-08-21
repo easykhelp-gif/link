@@ -223,7 +223,6 @@ function buildGuides() {
           <div class="guide-body">
             <a href="${l.url}" class="guide-title">${l.title}</a>
             <p class="guide-desc">${desc}</p>
-            <span class="guide-date">${l.date}</span>
           </div>
         </div>`;
       }).join('');
@@ -276,7 +275,6 @@ function buildGuides() {
   .guide-body{min-width:0;flex:1}
   .guide-title{color:#1e40af;text-decoration:none;font-size:17px;font-weight:700;display:block;margin-bottom:6px;line-height:1.35}
   .guide-desc{color:#475569;font-size:14px;margin:0 0 8px 0;line-height:1.55}
-  .guide-date{color:#94a3b8;font-size:12.5px;font-weight:500}
   @media (max-width:480px){
     .guide-thumb{width:76px;height:60px}
     .guide-title{font-size:15.5px}
