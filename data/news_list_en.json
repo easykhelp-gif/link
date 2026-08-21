@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_en_05dff30e",
+    "date": "2026-08-21",
+    "ts": 1787306400000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082109250001300_P2.jpg",
+    "title": "Gov't freezes fuel price caps amid Mideast tensions",
+    "link": "https://en.yna.co.kr/view/AEN20260821008500320"
+  },
+  {
+    "id": "hotnews_en_d6782340",
+    "date": "2026-08-21",
+    "ts": 1787305443000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082112180001300_P2.jpg",
+    "title": "Lee designates flood-hit Geoje, Tongyeong as special disaster zones",
+    "link": "https://en.yna.co.kr/view/AEN20260821010200315"
+  },
+  {
+    "id": "hotnews_en_0790b076",
+    "date": "2026-08-21",
+    "ts": 1787304103000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082113660001300_P2.jpg",
+    "title": "(2nd LD) Samsung Electronics expects up to 110 tln won for shareholder returns this year",
+    "link": "https://en.yna.co.kr/view/AEN20260821010151315"
+  },
+  {
+    "id": "hotnews_en_9a5f304b",
+    "date": "2026-08-21",
+    "ts": 1787302802000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821006200320_01_i_P2.jpg",
+    "title": "S. Korea, Japan finance ministries discuss bilateral exchanges, latest economic developments",
+    "link": "https://en.yna.co.kr/view/AEN20260821006200320"
+  },
+  {
+    "id": "hotnews_en_51c63d38",
+    "date": "2026-08-21",
+    "ts": 1787301572000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082113660001300_P2.jpg",
+    "title": "(LEAD) Samsung Electronics expects up to 110 tln won for shareholder returns this year",
+    "link": "https://en.yna.co.kr/view/AEN20260821010100315"
+  },
+  {
     "id": "hotnews_en_f1c2d7b6",
     "date": "2026-08-21",
     "ts": 1787300647000,
@@ -358,45 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821003000315_01_i_P2.jpg",
     "title": "S. Korea, U.S., Japan share information, discuss response to N.K. missile launch",
     "link": "https://en.yna.co.kr/view/AEN20260821003000315"
-  },
-  {
-    "id": "hotnews_en_ca254636",
-    "date": "2026-08-21",
-    "ts": 1787274435000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002800320_04_i_P2.jpg",
-    "title": "Samsung Electronics wins 45 awards at 2026 IDEA",
-    "link": "https://en.yna.co.kr/view/AEN20260821002800320"
-  },
-  {
-    "id": "hotnews_en_b209f0e4",
-    "date": "2026-08-21",
-    "ts": 1787274002000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405320006100_P2.jpg",
-    "title": "S. Korea to impose antidumping tariffs on Thai seamless copper pipes",
-    "link": "https://en.yna.co.kr/view/AEN20260821002400320"
-  },
-  {
-    "id": "hotnews_en_1deff1f7",
-    "date": "2026-08-21",
-    "ts": 1787274001000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002500320_01_i_P2.jpg",
-    "title": "Philip Morris to launch VEEV e-vapor product in S. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260821002500320"
-  },
-  {
-    "id": "hotnews_en_3dcbf189",
-    "date": "2026-08-21",
-    "ts": 1787273790000,
-    "image": "https://img.yna.co.kr/photo/cms/2024/03/13/32/PCM20240313000032003_P2.jpg",
-    "title": "Doosan Enerbility wins 930 bln-won gas plant deal in Oman",
-    "link": "https://en.yna.co.kr/view/AEN20260821002700320"
-  },
-  {
-    "id": "hotnews_en_2724a878",
-    "date": "2026-08-21",
-    "ts": 1787273539000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002600315_01_i_P2.jpg",
-    "title": "Lee to discuss pan-government drive to eradicate corruption",
-    "link": "https://en.yna.co.kr/view/AEN20260821002600315"
   }
 ]
