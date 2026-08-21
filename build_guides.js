@@ -134,7 +134,8 @@ function buildGuides() {
         title: title,
         date: guide.date,
         category: guide.category,
-        id: guide.id
+        id: guide.id,
+        image: guide.image
       });
     });
   });
@@ -151,18 +152,23 @@ function buildGuides() {
         back: "← Back to Home",
         korea_title: "Living in Korea",
         korea_desc: "Essential information for a smooth and safe life in South Korea. From navigating healthcare and insurance to understanding your legal labor rights as a foreign resident.",
+        safety_title: "Safety & Money",
+        safety_desc: "How to protect your money, your identity and yourself in Korea — scams, banking and what to do if something goes wrong.",
         travel_title: "Travel & Leisure",
         travel_desc: "Discover the best places to visit during your weekends and holidays. We provide budget-friendly itineraries, transportation tips, and hidden local gems.",
         desc_hospital: "A comprehensive guide to medical costs, ER usage, and pharmacy rules for foreigners with or without NHIS.",
         desc_severance: "Learn how to claim your EPS Departure Guarantee Insurance legally and safely before leaving Korea.",
         desc_incheon: "A perfect 1-day itinerary to see the ocean, ride the Wolmido Viking, and eat Jajangmyeon in Chinatown.",
-        desc_seoul: "Explore Gyeongbokgung, Bukchon, and Cheonggyecheon on a budget with this free photo course."
+        desc_seoul: "Explore Gyeongbokgung, Bukchon, and Cheonggyecheon on a budget with this free photo course.",
+        desc_scam: "How voice phishing and identity theft work in Korea, the penalties, and how to protect your account and ARC."
       },
       th: {
         title: "คู่มือ Kori Care",
         back: "← กลับสู่หน้าหลัก",
         korea_title: "การใช้ชีวิตในเกาหลี",
         korea_desc: "ข้อมูลสำคัญเพื่อการใช้ชีวิตที่ราบรื่นและปลอดภัยในเกาหลีใต้ ตั้งแต่การใช้บริการด้านสุขภาพและประกัน ไปจนถึงการทำความเข้าใจสิทธิแรงงานตามกฎหมายของคุณในฐานะชาวต่างชาติ",
+        safety_title: "ความปลอดภัยและการเงิน",
+        safety_desc: "วิธีปกป้องเงิน ข้อมูลส่วนตัว และตัวคุณเองในเกาหลี ทั้งเรื่องมิจฉาชีพ ธนาคาร และสิ่งที่ต้องทำเมื่อเกิดปัญหา",
         travel_title: "การท่องเที่ยวและการพักผ่อน",
         travel_desc: "ค้นพบสถานที่ท่องเที่ยวที่ดีที่สุดในช่วงวันหยุดสุดสัปดาห์และวันหยุดยาว เรามีแผนการเดินทางที่ประหยัดงบ เคล็ดลับการเดินทาง และสถานที่ลับยอดฮิตของคนท้องถิ่น",
         desc_hospital: "คู่มือที่ครอบคลุมเกี่ยวกับค่ารักษาพยาบาล การใช้ห้องฉุกเฉิน และกฎของร้านขายยาสำหรับชาวต่างชาติที่มีและไม่มี NHIS",
@@ -175,6 +181,8 @@ function buildGuides() {
         back: "← Quay lại Trang chủ",
         korea_title: "Cuộc sống tại Hàn Quốc",
         korea_desc: "Thông tin thiết yếu để có một cuộc sống suôn sẻ và an toàn tại Hàn Quốc. Từ việc điều hướng chăm sóc sức khỏe và bảo hiểm đến việc hiểu quyền lợi lao động hợp pháp của bạn với tư cách là người cư trú nước ngoài.",
+        safety_title: "An toàn & Tài chính",
+        safety_desc: "Cách bảo vệ tiền bạc, danh tính và bản thân bạn tại Hàn Quốc — lừa đảo, ngân hàng và những việc cần làm khi có sự cố.",
         travel_title: "Du lịch & Giải trí",
         travel_desc: "Khám phá những địa điểm tham quan tốt nhất trong những ngày cuối tuần và ngày lễ. Chúng tôi cung cấp các lịch trình tiết kiệm, mẹo di chuyển và những viên ngọc ẩn giấu của địa phương.",
         desc_hospital: "Hướng dẫn toàn diện về chi phí y tế, sử dụng phòng cấp cứu và các quy định tại hiệu thuốc cho người nước ngoài có hoặc không có NHIS.",
@@ -187,13 +195,15 @@ function buildGuides() {
 
     const koreaGuides = hubLinks[lang].filter(l => l.category === 'korea').sort((a,b) => new Date(b.date) - new Date(a.date));
     const travelGuides = hubLinks[lang].filter(l => l.category === 'travel').sort((a,b) => new Date(b.date) - new Date(a.date));
+    const safetyGuides = hubLinks[lang].filter(l => l.category === 'safety').sort((a,b) => new Date(b.date) - new Date(a.date));
     
     let position = 1;
     const itemListElements = [];
 
     const buildGuideList = (guides) => {
       return guides.map(l => {
-        let desc = texts['desc_' + l.id.replace('guide_', '').replace('travel_', '').split('_')[0]];
+        const descKey = l.id.indexOf('scam') === 0 || l.id.indexOf('scam') > -1 ? 'scam' : l.id.replace('guide_', '').replace('travel_', '').split('_')[0];
+        let desc = texts['desc_' + descKey];
         if (!desc) desc = "";
         
         itemListElements.push(`{
@@ -206,17 +216,22 @@ function buildGuides() {
           }
         }`);
 
+        const thumb = l.image ? `https://www.koricare.kr/link/${l.image}` : '';
         return `
-        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'" onclick="window.location.href='${l.url}'">
-          <a href="${l.url}" style="color: #1e40af; text-decoration: none; font-size: 18px; font-weight: 700; display: block; margin-bottom: 8px;">${l.title}</a>
-          <p style="color: #475569; font-size: 14.5px; margin: 0 0 10px 0; line-height: 1.6;">${desc}</p>
-          <span style="color: #94a3b8; font-size: 12.5px; font-weight: 500;">${l.date}</span>
+        <div class="guide-card">
+          ${thumb ? `<a href="${l.url}" class="guide-thumb"><img src="${thumb}" alt="" loading="lazy"></a>` : ''}
+          <div class="guide-body">
+            <a href="${l.url}" class="guide-title">${l.title}</a>
+            <p class="guide-desc">${desc}</p>
+            <span class="guide-date">${l.date}</span>
+          </div>
         </div>`;
       }).join('');
     };
 
     const koreaGuidesHtml = buildGuideList(koreaGuides);
     const travelGuidesHtml = buildGuideList(travelGuides);
+    const safetyGuidesHtml = buildGuideList(safetyGuides);
 
     const hubHtml = `<!DOCTYPE html>
 <html lang="${lang}">
@@ -254,6 +269,20 @@ function buildGuides() {
   .section-title { font-size: 22px; font-weight: 800; color: #0f172a; margin: 40px 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
   .section-desc { font-size: 15px; color: #475569; margin-bottom: 24px; }
 </style>
+<style>
+  .guide-card{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px;margin-bottom:14px;box-shadow:0 2px 4px rgba(0,0,0,0.02)}
+  .guide-thumb{flex:none;width:96px;height:72px;border-radius:8px;overflow:hidden;display:block;background:#f1f5f9}
+  .guide-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .guide-body{min-width:0;flex:1}
+  .guide-title{color:#1e40af;text-decoration:none;font-size:17px;font-weight:700;display:block;margin-bottom:6px;line-height:1.35}
+  .guide-desc{color:#475569;font-size:14px;margin:0 0 8px 0;line-height:1.55}
+  .guide-date{color:#94a3b8;font-size:12.5px;font-weight:500}
+  @media (max-width:480px){
+    .guide-thumb{width:76px;height:60px}
+    .guide-title{font-size:15.5px}
+    .guide-desc{font-size:13.5px}
+  }
+</style>
 </head>
 <body>
 <div class="container">
@@ -268,6 +297,9 @@ function buildGuides() {
   <p class="section-desc">${texts.korea_desc}</p>
   ${koreaGuidesHtml}
 
+  <h2 class="section-title">${texts.safety_title}</h2>
+  <p class="section-desc">${texts.safety_desc}</p>
+  ${safetyGuidesHtml}
   <h2 class="section-title">${texts.travel_title}</h2>
   <p class="section-desc">${texts.travel_desc}</p>
   ${travelGuidesHtml}
