@@ -318,6 +318,22 @@ You don't need a lot of money to experience the beauty of Seoul. If you are a fo
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
+  /* 모바일 표 가독성 (2026-08-22 추가) */
+  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  @media (max-width: 600px) {
+    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body table th:first-child,
+    .article-body table td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 2;
+      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
+    }
+    .article-body table th:first-child { background: #f8fafc; }
+    .article-body table td:first-child { background: #ffffff; }
+  }
+
   /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
   @media (max-width: 600px) {
     .article-body table {
