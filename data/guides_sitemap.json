@@ -15,6 +15,21 @@
     "priority": 0.7
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/korea/severance_pay/",
     "changefreq": "monthly",
     "priority": 0.7
@@ -56,21 +71,6 @@
   },
   {
     "loc": "https://www.koricare.kr/link/vi/guides/travel/travel_seoul_free/",
-    "changefreq": "monthly",
-    "priority": 0.7
-  },
-  {
-    "loc": "https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/",
-    "changefreq": "monthly",
-    "priority": 0.7
-  },
-  {
-    "loc": "https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/",
-    "changefreq": "monthly",
-    "priority": 0.7
-  },
-  {
-    "loc": "https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/",
     "changefreq": "monthly",
     "priority": 0.7
   },

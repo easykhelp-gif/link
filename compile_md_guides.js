@@ -50,7 +50,7 @@ function mdToHtml(md) {
   
   // Paragraphs
   html = html.split('\n\n').map(p => {
-    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<table')) return p;
+    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<table') || p.startsWith('<figure')) return p;
     return `<p>${p.trim().replace(/\n/g, '<br>')}</p>`;
   }).join('\n');
   
@@ -62,7 +62,7 @@ function processGuides() {
   let guides = [];
   
   files.forEach(file => {
-    const content = fs.readFileSync(path.join(dataDir, file), 'utf8');
+    const content = fs.readFileSync(path.join(dataDir, file), 'utf8').replace(/\r\n/g, '\n');
     
     // Parse Meta
     const metaMatch = content.match(/---\n([\s\S]*?)\n---/);

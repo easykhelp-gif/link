@@ -311,6 +311,22 @@ Hàn Quốc có một trong những hệ thống chăm sóc sức khỏe tốt n
     h1.main-title { font-size: 28px; }
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
+
+  /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
+  .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+  .article-body figure { margin: 18px 0 22px; }
+  .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
+
+  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
+  @media (max-width: 600px) {
+    .article-body table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
 </style>
 </head>
 <body>
@@ -354,20 +370,16 @@ Hàn Quốc có một trong những hệ thống chăm sóc sức khỏe tốt n
 
     <div class="article-body">
       <h2>Sử dụng Bệnh viện tại Hàn Quốc</h2>
-Hàn Quốc có một trong những hệ thống chăm sóc sức khỏe tốt nhất và dễ tiếp cận nhất thế giới. Tuy nhiên, nếu bạn là người nước ngoài, việc hiểu hệ thống y tế—đặc biệt là chi phí và phòng cấp cứu—có thể gây bối rối.
+<p>Hàn Quốc có một trong những hệ thống chăm sóc sức khỏe tốt nhất và dễ tiếp cận nhất thế giới. Tuy nhiên, nếu bạn là người nước ngoài, việc hiểu hệ thống y tế—đặc biệt là chi phí và phòng cấp cứu—có thể gây bối rối.</p>
 <h3>Chi phí Y tế: Có vs. Không có Bảo hiểm Y tế Quốc gia (NHIS)</h3>
-Chi phí khám chữa bệnh tại Hàn Quốc phụ thuộc hoàn toàn vào việc bạn có đăng ký <strong>Dịch vụ Bảo hiểm Y tế Quốc gia (NHIS)</strong> hay không. Theo luật, bất kỳ người nước ngoài nào ở Hàn Quốc quá 6 tháng đều phải tham gia NHIS.
+<p>Chi phí khám chữa bệnh tại Hàn Quốc phụ thuộc hoàn toàn vào việc bạn có đăng ký <strong>Dịch vụ Bảo hiểm Y tế Quốc gia (NHIS)</strong> hay không. Theo luật, bất kỳ người nước ngoài nào ở Hàn Quốc quá 6 tháng đều phải tham gia NHIS.</p>
 <p>Nếu bạn là người cư trú bất hợp pháp hoặc khách du lịch ngắn hạn, bạn sẽ không có bảo hiểm NHIS, nghĩa là bạn phải trả <strong>100% chi phí từ tiền túi (Mức giá không bảo hiểm / 일반수가)</strong>.</p>
 <table><thead><tr><th>Loại điều trị</th><th>Chi phí ước tính (Có NHIS)</th><th>Chi phí ước tính (Không NHIS)</th></tr></thead><tbody><tr><td>Khám phòng khám cơ bản (Cảm/Sốt)</td><td>5,000 ~ 10,000 KRW</td><td>20,000 ~ 30,000 KRW</td></tr><tr><td>Vào Phòng Cấp cứu (ER)</td><td>30,000 ~ 60,000 KRW</td><td>150,000 ~ 300,000+ KRW</td></tr><tr><td>Chụp X-Quang / Xét nghiệm máu</td><td>10,000 ~ 20,000 KRW</td><td>50,000 ~ 100,000 KRW</td></tr><tr><td>Chụp MRI</td><td>150,000 ~ 250,000 KRW</td><td>400,000 ~ 800,000 KRW</td></tr></tbody></table>
 *Lưu ý: Chi phí thay đổi tùy theo cấp độ bệnh viện (Phòng khám vs. Bệnh viện Đa khoa vs. Bệnh viện Đại học).*
 <h3>Sử dụng Phòng Cấp cứu (ER / 응급실)</h3>
-Nếu bạn có trường hợp khẩn cấp đe dọa tính mạng, hãy gọi <strong>119</strong>. Tổng đài viên khẩn cấp có thể kết nối bạn với thông dịch viên.
-<ul><li>Phòng cấp cứu ở các bệnh viện lớn cực kỳ đắt đỏ. Nếu tình trạng của bạn không đe dọa tính mạng (ví dụ: vết cắt nhỏ, đau bụng), việc đến phòng khám địa phương trong giờ làm việc sẽ rẻ và nhanh hơn nhiều.</li>
-<li><strong>Chăm sóc cuối tuần</strong>: Hãy tìm các "Phòng khám 365" (365 의원) hoạt động vào cuối tuần và ban đêm cho các bệnh không khẩn cấp.</li></ul>
+<p>Nếu bạn có trường hợp khẩn cấp đe dọa tính mạng, hãy gọi <strong>119</strong>. Tổng đài viên khẩn cấp có thể kết nối bạn với thông dịch viên.<br><ul><li>Phòng cấp cứu ở các bệnh viện lớn cực kỳ đắt đỏ. Nếu tình trạng của bạn không đe dọa tính mạng (ví dụ: vết cắt nhỏ, đau bụng), việc đến phòng khám địa phương trong giờ làm việc sẽ rẻ và nhanh hơn nhiều.</li><br><li><strong>Chăm sóc cuối tuần</strong>: Hãy tìm các "Phòng khám 365" (365 의원) hoạt động vào cuối tuần và ban đêm cho các bệnh không khẩn cấp.</li></ul></p>
 <h3>Quy định tại Hiệu thuốc Hàn Quốc (약국)</h3>
-Khác với nhiều quốc gia, bạn <strong>không thể</strong> mua thuốc kháng sinh, thuốc giảm đau liều cao hoặc thuốc đặc trị trực tiếp từ hiệu thuốc mà không có đơn của bác sĩ.
-<ul><li><strong>Thuốc không kê đơn (OTC)</strong>: Bạn có thể mua thuốc giảm đau cơ bản (Tylenol), thuốc cảm, thuốc tiêu hóa và băng gạc mà không cần đơn thuốc.</li>
-<li><strong>Cửa hàng tiện lợi</strong>: Vào ban đêm khi hiệu thuốc đóng cửa, bạn có thể mua các loại thuốc khẩn cấp (Tylenol, Panpyrin, Festal) tại CU, GS25 hoặc 7-Eleven.</li></ul>
+<p>Khác với nhiều quốc gia, bạn <strong>không thể</strong> mua thuốc kháng sinh, thuốc giảm đau liều cao hoặc thuốc đặc trị trực tiếp từ hiệu thuốc mà không có đơn của bác sĩ.<br><ul><li><strong>Thuốc không kê đơn (OTC)</strong>: Bạn có thể mua thuốc giảm đau cơ bản (Tylenol), thuốc cảm, thuốc tiêu hóa và băng gạc mà không cần đơn thuốc.</li><br><li><strong>Cửa hàng tiện lợi</strong>: Vào ban đêm khi hiệu thuốc đóng cửa, bạn có thể mua các loại thuốc khẩn cấp (Tylenol, Panpyrin, Festal) tại CU, GS25 hoặc 7-Eleven.</li></ul></p>
 <p>Sử dụng [Danh mục Địa phương Kori Care](/link/) để tìm các bệnh viện và hiệu thuốc hỗ trợ ngoại ngữ trong khu vực cụ thể của bạn.</p>
     </div>
 

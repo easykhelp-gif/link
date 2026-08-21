@@ -1,630 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.koricare.kr/link</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/busan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/busan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/busan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/busan/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/busan/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/busan/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungbuk/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungbuk/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungbuk/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/chungnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/chungnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/chungnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/daegu/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/daegu/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/daegu/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/daejeon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/daejeon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/daejeon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gangwon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gangwon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gangwon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gwangju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gwangju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gwangju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeongbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeongbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeongbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeongbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeongbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeongbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeonggi/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeonggi/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeonggi/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeonggi/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeonggi/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeonggi/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeonggi/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeonggi/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeonggi/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeongnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeongnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeongnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/gyeongnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/gyeongnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/gyeongnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/incheon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/incheon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/incheon/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/incheon/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/incheon/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/incheon/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeju/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeju/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeju/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeju/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeonbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeonbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeonbuk/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeonbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeonbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeonbuk/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeonnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeonnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeonnam/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeonnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeonnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeonnam/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/jeonnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/jeonnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/jeonnam/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/sejong/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/sejong/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/sejong/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/seoul/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/seoul/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/seoul/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/seoul/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/seoul/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/seoul/support/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/seoul/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/seoul/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/seoul/government/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/ulsan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/ulsan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/ulsan/restaurant/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  <url>    <loc>https://www.koricare.kr/link</loc>    <changefreq>daily</changefreq>    <priority>1.0</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/busan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/busan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/busan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/busan/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/busan/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/busan/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungbuk/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungbuk/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungbuk/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/chungnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/chungnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/chungnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/daegu/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/daegu/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/daegu/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/daejeon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/daejeon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/daejeon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gangwon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gangwon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gangwon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gwangju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gwangju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gwangju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeongbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeongbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeongbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeongbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeongbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeongbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeonggi/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeonggi/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeonggi/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeonggi/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeonggi/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeonggi/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeonggi/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeonggi/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeonggi/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeongnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeongnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeongnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/gyeongnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/gyeongnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/gyeongnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/incheon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/incheon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/incheon/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/incheon/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/incheon/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/incheon/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeju/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeju/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeju/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeju/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeonbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeonbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeonbuk/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeonbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeonbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeonbuk/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeonnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeonnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeonnam/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeonnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeonnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeonnam/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/jeonnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/jeonnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/jeonnam/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/sejong/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/sejong/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/sejong/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/seoul/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/seoul/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/seoul/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/seoul/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/seoul/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/seoul/support/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/seoul/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/seoul/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/seoul/government/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/en/ulsan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/ulsan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/ulsan/restaurant/</loc>    <lastmod>2026-08-17</lastmod>    <changefreq>monthly</changefreq>    <priority>0.7</priority>  </url>  <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -636,6 +10,21 @@
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_hospital_pharmacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -681,21 +70,6 @@
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/travel/travel_seoul_free/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

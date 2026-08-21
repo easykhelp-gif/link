@@ -311,6 +311,22 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
     h1.main-title { font-size: 28px; }
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
+
+  /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
+  .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+  .article-body figure { margin: 18px 0 22px; }
+  .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
+
+  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
+  @media (max-width: 600px) {
+    .article-body table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
 </style>
 </head>
 <body>
@@ -354,18 +370,16 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
 
     <div class="article-body">
       <h2>Hiểu về Bảo hiểm Bảo lãnh Xuất cảnh (Tiền trợ cấp thôi việc)</h2>
-Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao động nào làm việc liên tục trên 1 năm tại cùng một nơi làm việc đều có quyền nhận Tiền trợ cấp thôi việc. Đối với lao động nước ngoài E-9 theo hệ thống EPS, khoản tiền này được quản lý an toàn thông qua <strong>Bảo hiểm Samsung Fire & Marine (Bảo hiểm Bảo lãnh Xuất cảnh)</strong>.
+<p>Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao động nào làm việc liên tục trên 1 năm tại cùng một nơi làm việc đều có quyền nhận Tiền trợ cấp thôi việc. Đối với lao động nước ngoài E-9 theo hệ thống EPS, khoản tiền này được quản lý an toàn thông qua <strong>Bảo hiểm Samsung Fire & Marine (Bảo hiểm Bảo lãnh Xuất cảnh)</strong>.</p>
 <h3>Sự thật quan trọng: Lao động bất hợp pháp có được nhận Tiền thôi việc không?</h3>
-<strong>CÓ.</strong> Tình trạng cư trú không ảnh hưởng đến quyền lợi lao động của bạn. Ngay cả khi bạn là <strong>người cư trú bất hợp pháp (불법체류자)</strong>, nếu bạn đã làm việc hơn 1 năm, chủ sử dụng lao động có nghĩa vụ pháp lý phải trả tiền trợ cấp thôi việc cho bạn. Bộ Việc làm và Lao động Hàn Quốc thực thi quy định này rất nghiêm ngặt.
+<p><strong>CÓ.</strong> Tình trạng cư trú không ảnh hưởng đến quyền lợi lao động của bạn. Ngay cả khi bạn là <strong>người cư trú bất hợp pháp (불법체류자)</strong>, nếu bạn đã làm việc hơn 1 năm, chủ sử dụng lao động có nghĩa vụ pháp lý phải trả tiền trợ cấp thôi việc cho bạn. Bộ Việc làm và Lao động Hàn Quốc thực thi quy định này rất nghiêm ngặt.</p>
 <h3>Cách nhận Tiền trợ cấp thôi việc EPS (Quy định 2026)</h3>
-Đối với lao động EPS (E-9), tiền thôi việc tích lũy trong Bảo hiểm Samsung không thể nhận bằng tiền mặt khi bạn vẫn đang ở Hàn Quốc. Khoản tiền này được thiết kế để trao cho bạn <strong>khi bạn xuất cảnh khỏi Hàn Quốc</strong>.
+<p>Đối với lao động EPS (E-9), tiền thôi việc tích lũy trong Bảo hiểm Samsung không thể nhận bằng tiền mặt khi bạn vẫn đang ở Hàn Quốc. Khoản tiền này được thiết kế để trao cho bạn <strong>khi bạn xuất cảnh khỏi Hàn Quốc</strong>.</p>
 <p>Bạn có 2 phương pháp chính thức để nhận tiền khi về nước:<br>1. <strong>Nhận tại Sân bay</strong>: Nhận tiền mặt tại Cửa khởi hành (sau khi qua hải quan).<br>2. <strong>Chuyển khoản Nước ngoài</strong>: Tiền được chuyển trực tiếp vào tài khoản ngân hàng tại quê hương bạn trong vòng 14 ngày sau khi xác nhận xuất cảnh.</p>
 <h3>Bảng So sánh: Nhận tại Sân bay vs Chuyển khoản Nước ngoài</h3>
 <table><thead><tr><th>Tính năng</th><th>Nhận tại Sân bay (Tiền mặt)</th><th>Chuyển khoản Nước ngoài</th></tr></thead><tbody><tr><td><strong>Thời gian nhận</strong></td><td>Ngay trước khi lên máy bay</td><td>Trong vòng 14 ngày sau xuất cảnh</td></tr><tr><td><strong>Tiền tệ</strong></td><td>Chuyển sang USD hoặc tiền quê hương</td><td>Chuyển trực tiếp sang tiền quê hương</td></tr><tr><td><strong>Rủi ro</strong></td><td>Cao (Mang nhiều tiền mặt)</td><td>An toàn tuyệt đối</td></tr><tr><td><strong>Giấy tờ yêu cầu</strong></td><td>Hộ chiếu, Thẻ cư trú (ARC), Vé máy bay</td><td>Hộ chiếu, Thẻ cư trú, Vé máy bay, Sổ ngân hàng quê nhà</td></tr><tr><td><strong>Xử lý của Samsung</strong></td><td>Phải đến quầy sân bay sớm</td><td>Chuyển khoản tự động</td></tr></tbody></table>
 <h3>Các bước Đăng ký</h3>
-1. Nộp <strong>Đơn xin nhận Bảo hiểm Bảo lãnh Xuất cảnh</strong> cho Bảo hiểm Samsung Fire & Marine ít nhất <strong>1 tháng trước ngày xuất cảnh</strong>.
-2. Bạn có thể nộp qua Fax, ứng dụng di động Samsung Fire, hoặc đến trung tâm EPS địa phương.
-3. Nếu số tiền tích lũy trong Bảo hiểm Samsung <strong>ít hơn tiền thôi việc hợp pháp của bạn</strong>, chủ lao động phải trả khoản chênh lệch còn lại trực tiếp vào tài khoản ngân hàng Hàn Quốc của bạn trước khi bạn về nước.
+<p>1. Nộp <strong>Đơn xin nhận Bảo hiểm Bảo lãnh Xuất cảnh</strong> cho Bảo hiểm Samsung Fire & Marine ít nhất <strong>1 tháng trước ngày xuất cảnh</strong>.<br>2. Bạn có thể nộp qua Fax, ứng dụng di động Samsung Fire, hoặc đến trung tâm EPS địa phương.<br>3. Nếu số tiền tích lũy trong Bảo hiểm Samsung <strong>ít hơn tiền thôi việc hợp pháp của bạn</strong>, chủ lao động phải trả khoản chênh lệch còn lại trực tiếp vào tài khoản ngân hàng Hàn Quốc của bạn trước khi bạn về nước.</p>
 <p>Hãy luôn tính toán trước khoản tiền thôi việc dự kiến bằng [Công cụ tính Tiền thôi việc Kori Care](/link/vi/calculator/severance) để đảm bảo chủ lao động trả đúng số tiền hợp pháp.</p>
     </div>
 

@@ -311,6 +311,22 @@ Nếu bạn làm việc tại các khu công nghiệp Gyeonggi hoặc Incheon, b
     h1.main-title { font-size: 28px; }
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
+
+  /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
+  .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+  .article-body figure { margin: 18px 0 22px; }
+  .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
+
+  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
+  @media (max-width: 600px) {
+    .article-body table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
 </style>
 </head>
 <body>
@@ -354,17 +370,13 @@ Nếu bạn làm việc tại các khu công nghiệp Gyeonggi hoặc Incheon, b
 
     <div class="article-body">
       <h2>Ngắm biển không cần Ô tô</h2>
-Nếu bạn làm việc tại các khu công nghiệp Gyeonggi hoặc Incheon, bạn không cần ô tô hay vé KTX đắt tiền để đi ngắm biển. <strong>Đảo Wolmido (월미도)</strong> ở Incheon là điểm đến trốn thoát ra biển dễ dàng và tiết kiệm nhất cho một chuyến đi trong ngày vào cuối tuần.
+<p>Nếu bạn làm việc tại các khu công nghiệp Gyeonggi hoặc Incheon, bạn không cần ô tô hay vé KTX đắt tiền để đi ngắm biển. <strong>Đảo Wolmido (월미도)</strong> ở Incheon là điểm đến trốn thoát ra biển dễ dàng và tiết kiệm nhất cho một chuyến đi trong ngày vào cuối tuần.</p>
 <h3>Cách di chuyển (Tàu điện ngầm Tuyến 1)</h3>
-Việc đi lại cực kỳ dễ dàng. Chỉ cần đi <strong>Tàu điện ngầm Tuyến 1 (Tuyến màu xanh đậm)</strong> đến ga cuối cùng: <strong>Ga Incheon (인천역)</strong>.
-<ul><li>Từ Ga Incheon, Phố Tàu nằm ngay bên kia đường.</li>
-<li>Để đến Wolmido, hãy bắt xe buýt số 2, 10 hoặc 45 từ trạm xe buýt ngay ngoài Ga Incheon. Sẽ mất khoảng 10 phút.</li></ul>
+<p>Việc đi lại cực kỳ dễ dàng. Chỉ cần đi <strong>Tàu điện ngầm Tuyến 1 (Tuyến màu xanh đậm)</strong> đến ga cuối cùng: <strong>Ga Incheon (인천역)</strong>.<br><ul><li>Từ Ga Incheon, Phố Tàu nằm ngay bên kia đường.</li><br><li>Để đến Wolmido, hãy bắt xe buýt số 2, 10 hoặc 45 từ trạm xe buýt ngay ngoài Ga Incheon. Sẽ mất khoảng 10 phút.</li></ul></p>
 <h3>Ngân sách Ước tính cho 1 Ngày</h3>
 <table><thead><tr><th>Hạng mục</th><th>Chi phí Ước tính</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Tàu điện ngầm (Tuyến 1)</td><td>~2,000 KRW</td><td>Một chiều từ Seoul/Gyeonggi</td></tr><tr><td>Mì tương đen (Phố Tàu)</td><td>7,000 ~ 10,000 KRW</td><td>Đặc sản địa phương nhất định phải thử</td></tr><tr><td>Trò chơi Công viên Wolmido</td><td>~ 5,000 - 6,000 KRW (Tùy trò chơi)</td><td>Disco Pang-Pang hoặc Tàu cướp biển</td></tr><tr><td>Tàu hỏa trên biển (Wolmi Bada Train)</td><td>8,000 KRW (Người lớn)</td><td>Tàu điện trên cao ngắm cảnh quanh đảo (Đóng cửa vào Thứ Hai)</td></tr></tbody></table>
 <h3>Điểm nổi bật của chuyến đi</h3>
-<strong>1. Phố Tàu Incheon (인천 차이나타운)</strong>
-Ngay khi bước ra khỏi Ga Incheon, bạn sẽ thấy một cổng chào truyền thống khổng lồ của Trung Quốc. Đây là nơi ra đời của món <strong>Jajangmyeon (Mì tương đen)</strong> ở Hàn Quốc.
-<ul><li>Hãy thử mua nhanh một xiên Tanghulu (kẹo hồ lô) hoặc một chiếc bánh trung thu trong khi đi dạo trên con phố màu đỏ rực rỡ.</li></ul>
+<p><strong>1. Phố Tàu Incheon (인천 차이나타운)</strong><br>Ngay khi bước ra khỏi Ga Incheon, bạn sẽ thấy một cổng chào truyền thống khổng lồ của Trung Quốc. Đây là nơi ra đời của món <strong>Jajangmyeon (Mì tương đen)</strong> ở Hàn Quốc.<br><ul><li>Hãy thử mua nhanh một xiên Tanghulu (kẹo hồ lô) hoặc một chiếc bánh trung thu trong khi đi dạo trên con phố màu đỏ rực rỡ.</li></ul></p>
 <p><strong>2. Đường đi bộ ven biển Wolmido (월미도 문화의 거리)</strong><br>Bắt xe buýt đến Wolmido và đi dạo dọc theo con đường ven biển tuyệt đẹp.<br><ul><li>Bạn có thể cho hải âu ăn bim bim tôm (Saeukkang). Hải âu ở đây nổi tiếng với việc bay đến tận tay bạn để ăn!</li><br><li>Ngắm cảnh hoàng hôn trên Biển Tây. Đây là một trong những địa điểm lãng mạn nhất gần Seoul.</li></ul></p>
 <p><strong>3. Công viên Giải trí Wolmi (월미테마파크)</strong><br>Ngay cả khi bạn không thích các trò chơi cảm giác mạnh, bạn nhất định phải xem người ta chơi <strong>"Disco Pang-Pang"</strong>. DJ ở đây nổi tiếng với việc trêu chọc người chơi một cách hài hước, và những đám đông lớn tụ tập chỉ để xem cảnh tượng này. Nếu bạn dũng cảm, hãy thử tàu <strong>Viking</strong>, nó vung cao đến mức bạn sẽ có cảm giác như sắp rơi xuống biển!</p>
     </div>

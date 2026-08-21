@@ -311,6 +311,22 @@ Under the Korean Labor Standard Act, any worker who has worked continuously for 
     h1.main-title { font-size: 28px; }
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
+
+  /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
+  .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+  .article-body figure { margin: 18px 0 22px; }
+  .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
+
+  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
+  @media (max-width: 600px) {
+    .article-body table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
 </style>
 </head>
 <body>
@@ -354,18 +370,16 @@ Under the Korean Labor Standard Act, any worker who has worked continuously for 
 
     <div class="article-body">
       <h2>Understanding Departure Guarantee Insurance (Severance Pay)</h2>
-Under the Korean Labor Standard Act, any worker who has worked continuously for more than 1 year at the same workplace is entitled to Severance Pay. For E-9 foreign workers under the EPS system, this is managed securely through the <strong>Samsung Fire & Marine Insurance (Departure Guarantee Insurance)</strong>. 
+<p>Under the Korean Labor Standard Act, any worker who has worked continuously for more than 1 year at the same workplace is entitled to Severance Pay. For E-9 foreign workers under the EPS system, this is managed securely through the <strong>Samsung Fire & Marine Insurance (Departure Guarantee Insurance)</strong>.</p>
 <h3>Critical Fact: Can Undocumented Immigrants Claim Severance Pay?</h3>
-<strong>YES.</strong> Your immigration status does not affect your labor rights. Even if you are an <strong>undocumented immigrant (불법체류자)</strong>, if you have worked for more than 1 year, your employer is legally obligated to pay your severance pay. The Korean Ministry of Employment and Labor strictly enforces this rule.
+<p><strong>YES.</strong> Your immigration status does not affect your labor rights. Even if you are an <strong>undocumented immigrant (불법체류자)</strong>, if you have worked for more than 1 year, your employer is legally obligated to pay your severance pay. The Korean Ministry of Employment and Labor strictly enforces this rule.</p>
 <h3>How to Claim Your EPS Severance Pay (2026 Rules)</h3>
-For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance cannot be claimed in cash while you are still staying in Korea. It is specifically designed to be given to you <strong>upon your departure from South Korea</strong>. 
+<p>For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance cannot be claimed in cash while you are still staying in Korea. It is specifically designed to be given to you <strong>upon your departure from South Korea</strong>.</p>
 <p>You have two official methods to receive the money when leaving:<br>1. <strong>Airport Pickup</strong>: Receive cash at the Departure Gate (after passing immigration).<br>2. <strong>Overseas Remittance</strong>: The money is sent directly to your home country bank account within 14 days after your departure is confirmed.</p>
 <h3>Comparison: Airport Pickup vs. Overseas Remittance</h3>
 <table><thead><tr><th>Feature</th><th>Airport Pickup (Cash)</th><th>Overseas Remittance (Bank)</th></tr></thead><tbody><tr><td><strong>When you receive it</strong></td><td>Immediately before boarding the flight</td><td>Within 14 days after departure</td></tr><tr><td><strong>Currency</strong></td><td>Changed to USD or Home Currency</td><td>Directly to Home Currency</td></tr><tr><td><strong>Risk of Loss</strong></td><td>High (Carrying large amounts of cash)</td><td>Completely Safe</td></tr><tr><td><strong>Required Documents</strong></td><td>Passport, ARC, Flight Ticket</td><td>Passport, ARC, Flight Ticket, Home Bank Book</td></tr><tr><td><strong>Samsung Fire Processing</strong></td><td>Requires visiting the airport desk early</td><td>Automatic transfer</td></tr></tbody></table>
 <h3>Steps to Apply</h3>
-1. Submit your <strong>Application for Payment of Departure Guarantee Insurance</strong> to Samsung Fire & Marine Insurance at least <strong>1 month before your departure date</strong>.
-2. You can apply via Fax, the Samsung Fire mobile app, or by visiting a local EPS center.
-3. If the amount accumulated in the Samsung Insurance is <strong>less than your legal severance pay</strong>, your employer must pay the remaining difference directly to your Korean bank account before you leave.
+<p>1. Submit your <strong>Application for Payment of Departure Guarantee Insurance</strong> to Samsung Fire & Marine Insurance at least <strong>1 month before your departure date</strong>.<br>2. You can apply via Fax, the Samsung Fire mobile app, or by visiting a local EPS center.<br>3. If the amount accumulated in the Samsung Insurance is <strong>less than your legal severance pay</strong>, your employer must pay the remaining difference directly to your Korean bank account before you leave.</p>
 <p>Always calculate your estimated severance pay using the [Kori Care Severance Calculator](/link/en/calculator/severance) to ensure your employer pays you the exact legal amount.</p>
     </div>
 

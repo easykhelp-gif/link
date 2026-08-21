@@ -307,6 +307,22 @@
     h1.main-title { font-size: 28px; }
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
+
+  /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
+  .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+  .article-body figure { margin: 18px 0 22px; }
+  .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
+
+  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
+  @media (max-width: 600px) {
+    .article-body table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
 </style>
 </head>
 <body>
