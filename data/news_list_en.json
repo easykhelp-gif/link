@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_5abba33b",
+    "date": "2026-08-21",
+    "ts": 1787320864000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821010300320_01_i_P2.jpg",
+    "title": "Top-ranked An Se-young reaches semifinals at badminton world championships",
+    "link": "https://en.yna.co.kr/view/AEN20260821010300320"
+  },
+  {
     "id": "hotnews_en_05dff30e",
     "date": "2026-08-21",
     "ts": 1787306400000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821002900320_02_i_P2.jpg",
     "title": "S. Korea to monitor impact of rising bond yields around globe",
     "link": "https://en.yna.co.kr/view/AEN20260821002900320"
-  },
-  {
-    "id": "hotnews_en_0056c36b",
-    "date": "2026-08-21",
-    "ts": 1787274525000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821003000315_01_i_P2.jpg",
-    "title": "S. Korea, U.S., Japan share information, discuss response to N.K. missile launch",
-    "link": "https://en.yna.co.kr/view/AEN20260821003000315"
   }
 ]
