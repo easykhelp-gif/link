@@ -20,6 +20,11 @@ function mdToHtml(md) {
   // Bold
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   
+  // Images  ![alt](src) -> <img>   (링크 변환보다 먼저 처리)
+  html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, function (_m, alt, src) {
+    return '<img src="' + src + '" alt="' + alt + '" loading="lazy">';
+  });
+
   // Links  [text](url) -> <a href="url">text</a>
   html = html.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_m, text, url) {
     var ext = /^https?:/.test(url);
@@ -30,6 +35,15 @@ function mdToHtml(md) {
   html = html.replace(/^\s*\- (.*$)/gim, '<ul><li>$1</li></ul>');
   html = html.replace(/<\/ul>\n<ul>/g, '\n');
   
+  // Blockquote  "> text" -> <blockquote>
+  html = html.replace(/^\s*&gt; (.*$)/gim, '<blockquote>$1</blockquote>');
+  html = html.replace(/^\s*> (.*$)/gim, '<blockquote>$1</blockquote>');
+  html = html.replace(/<\/blockquote>\n<blockquote>/g, '<br>');
+
+  // Ordered list  "1. text" -> <ol><li>
+  html = html.replace(/^\s*\d+\. (.*$)/gim, '<ol><li>$1</li></ol>');
+  html = html.replace(/<\/ol>\n<ol>/g, '');
+
   // Tables
   // Detect table blocks
   let tableRegex = /((?:\|.*\|\n)+)/g;
@@ -56,7 +70,7 @@ function mdToHtml(md) {
   
   // Paragraphs
   html = html.split('\n\n').map(p => {
-    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<table') || p.startsWith('<div') || p.startsWith('<figure')) return p;
+    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<ol') || p.startsWith('<table') || p.startsWith('<div') || p.startsWith('<figure') || p.startsWith('<blockquote')) return p;
     return `<p>${p.trim().replace(/\n/g, '<br>')}</p>`;
   }).join('\n');
   
