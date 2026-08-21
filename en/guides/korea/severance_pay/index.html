@@ -312,37 +312,53 @@ Under the Korean Labor Standard Act, any worker who has worked continuously for 
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -393,7 +409,7 @@ Under the Korean Labor Standard Act, any worker who has worked continuously for 
 <p>For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance cannot be claimed in cash while you are still staying in Korea. It is specifically designed to be given to you <strong>upon your departure from South Korea</strong>.</p>
 <p>You have two official methods to receive the money when leaving:<br>1. <strong>Airport Pickup</strong>: Receive cash at the Departure Gate (after passing immigration).<br>2. <strong>Overseas Remittance</strong>: The money is sent directly to your home country bank account within 14 days after your departure is confirmed.</p>
 <h3>Comparison: Airport Pickup vs. Overseas Remittance</h3>
-<table><thead><tr><th>Feature</th><th>Airport Pickup (Cash)</th><th>Overseas Remittance (Bank)</th></tr></thead><tbody><tr><td><strong>When you receive it</strong></td><td>Immediately before boarding the flight</td><td>Within 14 days after departure</td></tr><tr><td><strong>Currency</strong></td><td>Changed to USD or Home Currency</td><td>Directly to Home Currency</td></tr><tr><td><strong>Risk of Loss</strong></td><td>High (Carrying large amounts of cash)</td><td>Completely Safe</td></tr><tr><td><strong>Required Documents</strong></td><td>Passport, ARC, Flight Ticket</td><td>Passport, ARC, Flight Ticket, Home Bank Book</td></tr><tr><td><strong>Samsung Fire Processing</strong></td><td>Requires visiting the airport desk early</td><td>Automatic transfer</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Feature</th><th>Airport Pickup (Cash)</th><th>Overseas Remittance (Bank)</th></tr></thead><tbody><tr><td><strong>When you receive it</strong></td><td>Immediately before boarding the flight</td><td>Within 14 days after departure</td></tr><tr><td><strong>Currency</strong></td><td>Changed to USD or Home Currency</td><td>Directly to Home Currency</td></tr><tr><td><strong>Risk of Loss</strong></td><td>High (Carrying large amounts of cash)</td><td>Completely Safe</td></tr><tr><td><strong>Required Documents</strong></td><td>Passport, ARC, Flight Ticket</td><td>Passport, ARC, Flight Ticket, Home Bank Book</td></tr><tr><td><strong>Samsung Fire Processing</strong></td><td>Requires visiting the airport desk early</td><td>Automatic transfer</td></tr></tbody></table></div></div>
 <h3>Steps to Apply</h3>
 <p>1. Submit your <strong>Application for Payment of Departure Guarantee Insurance</strong> to Samsung Fire & Marine Insurance at least <strong>1 month before your departure date</strong>.<br>2. You can apply via Fax, the Samsung Fire mobile app, or by visiting a local EPS center.<br>3. If the amount accumulated in the Samsung Insurance is <strong>less than your legal severance pay</strong>, your employer must pay the remaining difference directly to your Korean bank account before you leave.</p>
 <p>Always calculate your estimated severance pay using the [Kori Care Severance Calculator](/link/en/calculator/severance) to ensure your employer pays you the exact legal amount.</p>

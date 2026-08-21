@@ -31,7 +31,7 @@ function mdToHtml(md) {
     let lines = match.trim().split('\n');
     if (lines.length < 3) return match; // Not a valid table
     
-    let tableHtml = '<table><thead><tr>';
+    let tableHtml = '<div class="table-wrap"><div class="table-scroll"><table><thead><tr>';
     let headers = lines[0].split('|').filter(c => c.trim() !== '');
     headers.forEach(h => { tableHtml += `<th>${h.trim()}</th>`; });
     tableHtml += '</tr></thead><tbody>';
@@ -44,13 +44,13 @@ function mdToHtml(md) {
         tableHtml += '</tr>';
       }
     }
-    tableHtml += '</tbody></table>';
+    tableHtml += '</tbody></table></div></div>';
     return tableHtml;
   });
   
   // Paragraphs
   html = html.split('\n\n').map(p => {
-    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<table') || p.startsWith('<figure')) return p;
+    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<table') || p.startsWith('<div') || p.startsWith('<figure')) return p;
     return `<p>${p.trim().replace(/\n/g, '<br>')}</p>`;
   }).join('\n');
   

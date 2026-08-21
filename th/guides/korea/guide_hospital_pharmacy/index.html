@@ -312,37 +312,53 @@
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -390,7 +406,7 @@
 <h3>ค่ารักษาพยาบาล: มี vs. ไม่มี ประกันสุขภาพแห่งชาติ (NHIS)</h3>
 <p>ค่ารักษาพยาบาลในเกาหลีขึ้นอยู่กับว่าคุณลงทะเบียนใน <strong>บริการประกันสุขภาพแห่งชาติ (NHIS)</strong> หรือไม่ ตามกฎหมาย ชาวต่างชาติที่พำนักในเกาหลีเกิน 6 เดือนจะต้องลงทะเบียน NHIS</p>
 <p>หากคุณเป็นแรงงานผิดกฎหมาย (ผีน้อย) หรือนักท่องเที่ยวระยะสั้น คุณจะไม่มีความคุ้มครองจาก NHIS ซึ่งหมายความว่าคุณต้องจ่ายเงิน <strong>100% ด้วยตัวเอง (อัตราผู้ไม่มีประกัน / 일반수가)</strong></p>
-<table><thead><tr><th>ประเภทการรักษา</th><th>ค่าใช้จ่ายโดยประมาณ (มี NHIS)</th><th>ค่าใช้จ่ายโดยประมาณ (ไม่มี NHIS)</th></tr></thead><tbody><tr><td>ตรวจคลินิกทั่วไป (ไข้/หวัด)</td><td>5,000 ~ 10,000 วอน</td><td>20,000 ~ 30,000 วอน</td></tr><tr><td>เข้าห้องฉุกเฉิน (ER)</td><td>30,000 ~ 60,000 วอน</td><td>150,000 ~ 300,000+ วอน</td></tr><tr><td>เอกซเรย์ / ตรวจเลือดพื้นฐาน</td><td>10,000 ~ 20,000 วอน</td><td>50,000 ~ 100,000 วอน</td></tr><tr><td>สแกน MRI</td><td>150,000 ~ 250,000 วอน</td><td>400,000 ~ 800,000 วอน</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>ประเภทการรักษา</th><th>ค่าใช้จ่ายโดยประมาณ (มี NHIS)</th><th>ค่าใช้จ่ายโดยประมาณ (ไม่มี NHIS)</th></tr></thead><tbody><tr><td>ตรวจคลินิกทั่วไป (ไข้/หวัด)</td><td>5,000 ~ 10,000 วอน</td><td>20,000 ~ 30,000 วอน</td></tr><tr><td>เข้าห้องฉุกเฉิน (ER)</td><td>30,000 ~ 60,000 วอน</td><td>150,000 ~ 300,000+ วอน</td></tr><tr><td>เอกซเรย์ / ตรวจเลือดพื้นฐาน</td><td>10,000 ~ 20,000 วอน</td><td>50,000 ~ 100,000 วอน</td></tr><tr><td>สแกน MRI</td><td>150,000 ~ 250,000 วอน</td><td>400,000 ~ 800,000 วอน</td></tr></tbody></table></div></div>
 *หมายเหตุ: ค่าใช้จ่ายจะแตกต่างกันไปตามระดับของโรงพยาบาล (คลินิก vs. โรงพยาบาลทั่วไป vs. โรงพยาบาลมหาวิทยาลัย)*
 <h3>การใช้ห้องฉุกเฉิน (ER / 응급실)</h3>
 <p>หากคุณมีเหตุฉุกเฉินที่คุกคามถึงชีวิต ให้โทร <strong>119</strong> พนักงานรับสายฉุกเฉินสามารถเชื่อมต่อคุณกับล่ามได้<br><ul><li>ห้องฉุกเฉินในโรงพยาบาลขนาดใหญ่มีราคาแพงมาก หากอาการของคุณไม่รุนแรง (เช่น แผลบาดเล็กน้อย, ปวดท้อง) การไปคลินิกใกล้บ้านในเวลาทำการจะถูกและเร็วกว่ามาก</li><br><li><strong>การรักษาช่วงวันหยุด</strong>: มองหา "คลินิก 365" (365 의원) ที่เปิดทำการในวันหยุดสุดสัปดาห์และตอนกลางคืนสำหรับอาการที่ไม่เร่งด่วน</li></ul></p>

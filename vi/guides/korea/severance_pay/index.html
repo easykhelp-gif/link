@@ -312,37 +312,53 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -393,7 +409,7 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
 <p>Đối với lao động EPS (E-9), tiền thôi việc tích lũy trong Bảo hiểm Samsung không thể nhận bằng tiền mặt khi bạn vẫn đang ở Hàn Quốc. Khoản tiền này được thiết kế để trao cho bạn <strong>khi bạn xuất cảnh khỏi Hàn Quốc</strong>.</p>
 <p>Bạn có 2 phương pháp chính thức để nhận tiền khi về nước:<br>1. <strong>Nhận tại Sân bay</strong>: Nhận tiền mặt tại Cửa khởi hành (sau khi qua hải quan).<br>2. <strong>Chuyển khoản Nước ngoài</strong>: Tiền được chuyển trực tiếp vào tài khoản ngân hàng tại quê hương bạn trong vòng 14 ngày sau khi xác nhận xuất cảnh.</p>
 <h3>Bảng So sánh: Nhận tại Sân bay vs Chuyển khoản Nước ngoài</h3>
-<table><thead><tr><th>Tính năng</th><th>Nhận tại Sân bay (Tiền mặt)</th><th>Chuyển khoản Nước ngoài</th></tr></thead><tbody><tr><td><strong>Thời gian nhận</strong></td><td>Ngay trước khi lên máy bay</td><td>Trong vòng 14 ngày sau xuất cảnh</td></tr><tr><td><strong>Tiền tệ</strong></td><td>Chuyển sang USD hoặc tiền quê hương</td><td>Chuyển trực tiếp sang tiền quê hương</td></tr><tr><td><strong>Rủi ro</strong></td><td>Cao (Mang nhiều tiền mặt)</td><td>An toàn tuyệt đối</td></tr><tr><td><strong>Giấy tờ yêu cầu</strong></td><td>Hộ chiếu, Thẻ cư trú (ARC), Vé máy bay</td><td>Hộ chiếu, Thẻ cư trú, Vé máy bay, Sổ ngân hàng quê nhà</td></tr><tr><td><strong>Xử lý của Samsung</strong></td><td>Phải đến quầy sân bay sớm</td><td>Chuyển khoản tự động</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Tính năng</th><th>Nhận tại Sân bay (Tiền mặt)</th><th>Chuyển khoản Nước ngoài</th></tr></thead><tbody><tr><td><strong>Thời gian nhận</strong></td><td>Ngay trước khi lên máy bay</td><td>Trong vòng 14 ngày sau xuất cảnh</td></tr><tr><td><strong>Tiền tệ</strong></td><td>Chuyển sang USD hoặc tiền quê hương</td><td>Chuyển trực tiếp sang tiền quê hương</td></tr><tr><td><strong>Rủi ro</strong></td><td>Cao (Mang nhiều tiền mặt)</td><td>An toàn tuyệt đối</td></tr><tr><td><strong>Giấy tờ yêu cầu</strong></td><td>Hộ chiếu, Thẻ cư trú (ARC), Vé máy bay</td><td>Hộ chiếu, Thẻ cư trú, Vé máy bay, Sổ ngân hàng quê nhà</td></tr><tr><td><strong>Xử lý của Samsung</strong></td><td>Phải đến quầy sân bay sớm</td><td>Chuyển khoản tự động</td></tr></tbody></table></div></div>
 <h3>Các bước Đăng ký</h3>
 <p>1. Nộp <strong>Đơn xin nhận Bảo hiểm Bảo lãnh Xuất cảnh</strong> cho Bảo hiểm Samsung Fire & Marine ít nhất <strong>1 tháng trước ngày xuất cảnh</strong>.<br>2. Bạn có thể nộp qua Fax, ứng dụng di động Samsung Fire, hoặc đến trung tâm EPS địa phương.<br>3. Nếu số tiền tích lũy trong Bảo hiểm Samsung <strong>ít hơn tiền thôi việc hợp pháp của bạn</strong>, chủ lao động phải trả khoản chênh lệch còn lại trực tiếp vào tài khoản ngân hàng Hàn Quốc của bạn trước khi bạn về nước.</p>
 <p>Hãy luôn tính toán trước khoản tiền thôi việc dự kiến bằng [Công cụ tính Tiền thôi việc Kori Care](/link/vi/calculator/severance) để đảm bảo chủ lao động trả đúng số tiền hợp pháp.</p>

@@ -312,37 +312,53 @@
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -390,7 +406,7 @@
 <h3>วิธีการเดินทาง (รถไฟใต้ดินสาย 1)</h3>
 <p>การเดินทางไปนั้นง่ายมาก เพียงแค่นั่ง <strong>รถไฟใต้ดินสาย 1 (สายสีน้ำเงินเข้ม)</strong> ไปจนสุดสายที่: <strong>สถานีอินชอน (인천역)</strong><br><ul><li>จากสถานีอินชอน ไชน่าทาวน์จะอยู่ฝั่งตรงข้ามถนนพอดี</li><br><li>หากต้องการไปวอลมิโด ให้นั่งรถบัสสาย 2, 10, หรือ 45 จากป้ายรถบัสหน้าสถานีอินชอน ใช้เวลาประมาณ 10 นาที</li></ul></p>
 <h3>งบประมาณโดยประมาณสำหรับ 1 วัน</h3>
-<table><thead><tr><th>รายการ</th><th>ค่าใช้จ่ายโดยประมาณ</th><th>หมายเหตุ</th></tr></thead><tbody><tr><td>รถไฟใต้ดิน (สาย 1)</td><td>~2,000 วอน</td><td>เที่ยวเดียวจากโซล/คยองกี</td></tr><tr><td>จาจังมยอน (ไชน่าทาวน์)</td><td>7,000 ~ 10,000 วอน</td><td>อาหารท้องถิ่นที่ต้องลอง</td></tr><tr><td>เครื่องเล่นสวนสนุกวอลมิโด</td><td>~ 5,000 - 6,000 วอน (แล้วแต่เครื่องเล่น)</td><td>ดิสโก้ปังปัง หรือ ไวกิ้ง</td></tr><tr><td>รถไฟชมทะเล (Wolmi Bada Train)</td><td>8,000 วอน (ผู้ใหญ่)</td><td>รถไฟโมโนเรลชมวิวรอบเกาะ (ปิดทำการวันจันทร์)</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>รายการ</th><th>ค่าใช้จ่ายโดยประมาณ</th><th>หมายเหตุ</th></tr></thead><tbody><tr><td>รถไฟใต้ดิน (สาย 1)</td><td>~2,000 วอน</td><td>เที่ยวเดียวจากโซล/คยองกี</td></tr><tr><td>จาจังมยอน (ไชน่าทาวน์)</td><td>7,000 ~ 10,000 วอน</td><td>อาหารท้องถิ่นที่ต้องลอง</td></tr><tr><td>เครื่องเล่นสวนสนุกวอลมิโด</td><td>~ 5,000 - 6,000 วอน (แล้วแต่เครื่องเล่น)</td><td>ดิสโก้ปังปัง หรือ ไวกิ้ง</td></tr><tr><td>รถไฟชมทะเล (Wolmi Bada Train)</td><td>8,000 วอน (ผู้ใหญ่)</td><td>รถไฟโมโนเรลชมวิวรอบเกาะ (ปิดทำการวันจันทร์)</td></tr></tbody></table></div></div>
 <h3>ไฮไลท์ของทริป</h3>
 <p><strong>1. ไชน่าทาวน์ อินชอน (인천 차이나타운)</strong><br>ทันทีที่คุณก้าวออกจากสถานีอินชอน คุณจะเห็นซุ้มประตูจีนแบบดั้งเดิมขนาดใหญ่ นี่คือจุดกำเนิดของ <strong>จาจังมยอน (บะหมี่ดำ)</strong> ในเกาหลี<br><ul><li>ลองซื้อทังหูลู่ (ผลไม้เคลือบน้ำตาล) หรือขนมไหว้พระจันทร์กินเล่นขณะเดินชมถนนสีแดงที่เต็มไปด้วยสีสัน</li></ul></p>
 <p><strong>2. ทางเดินริมทะเลวอลมิโด (월미도 문화의 거리)</strong><br>นั่งรถบัสไปวอลมิโดและเดินเล่นไปตามทางเดินริมทะเลที่สวยงาม<br><ul><li>คุณสามารถให้อาหารนกนางนวลด้วยขนมกุ้ง (Saeukkang) นกนางนวลที่นี่โด่งดังเรื่องการบินมาโฉบอาหารจากมือของคุณ!</li><br><li>ชมพระอาทิตย์ตกดินเหนือทะเลตะวันตก ที่นี่เป็นหนึ่งในจุดที่โรแมนติกที่สุดใกล้กรุงโซล</li></ul></p>

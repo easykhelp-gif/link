@@ -312,37 +312,53 @@
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -388,7 +404,7 @@
       <h2>ทำความเข้าใจเรื่องแก๊งคอลเซ็นเตอร์ (Voice Phishing) และการขโมยข้อมูลส่วนบุคคล</h2>
 <p>ชาวต่างชาติที่อาศัยอยู่ในเกาหลีใต้ โดยเฉพาะแรงงาน E-9 และนักศึกษาต่างชาติ มักตกเป็นเป้าหมายของการฉ้อโกงทางการเงิน องค์กรอาชญากรรมใช้ชื่อชาวต่างชาติเพื่อเปิด <strong>โทรศัพท์ผี (대포폰)</strong> หรือ <strong>บัญชีม้า (대포통장)</strong> เพื่อฟอกเงิน หากชื่อของคุณถูกนำไปใช้ คุณจะถูกปฏิบัติเหมือนเป็นผู้สมรู้ร่วมคิดภายใต้กฎหมายเกาหลี</p>
 <h3>การหลอกลวงทั่วไปที่มุ่งเป้าไปที่ชาวต่างชาติ</h3>
-<table><thead><tr><th>สิ่งที่นายหน้าบอก</th><th>อาชญากรรมที่ซ่อนอยู่</th><th>ผลทางกฎหมายของคุณ</th></tr></thead><tbody><tr><td>"ให้ฉันยืมบัญชีธนาคารของคุณ ให้เดือนละ 300,000 วอน"</td><td>ใช้สำหรับรับเงินแก๊งคอลเซ็นเตอร์</td><td>จำคุกสูงสุด 5 ปี หรือปรับ 30 ล้านวอน (Electronic Financial Transactions Act Article 49 Paragraph 4)</td></tr><tr><td>"เปิดซิมการ์ดเติมเงินด้วยบัตรกงจูของคุณ"</td><td>ใช้เพื่อหลอกลวงเหยื่อโดยไม่ระบุตัวตน</td><td>จำคุกสูงสุด 3 ปี หรือปรับ 100 ล้านวอน (Telecommunications Business Act Article 95-2)</td></tr><tr><td>"รับเงินสดและโอนเข้าบัญชีนี้"</td><td>ทำหน้าที่เป็นม้ากดเงิน (수거책)</td><td>ผู้สมรู้ร่วมคิดในการฉ้อโกง (ถูกเนรเทศ)</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>สิ่งที่นายหน้าบอก</th><th>อาชญากรรมที่ซ่อนอยู่</th><th>ผลทางกฎหมายของคุณ</th></tr></thead><tbody><tr><td>"ให้ฉันยืมบัญชีธนาคารของคุณ ให้เดือนละ 300,000 วอน"</td><td>ใช้สำหรับรับเงินแก๊งคอลเซ็นเตอร์</td><td>จำคุกสูงสุด 5 ปี หรือปรับ 30 ล้านวอน (Electronic Financial Transactions Act Article 49 Paragraph 4)</td></tr><tr><td>"เปิดซิมการ์ดเติมเงินด้วยบัตรกงจูของคุณ"</td><td>ใช้เพื่อหลอกลวงเหยื่อโดยไม่ระบุตัวตน</td><td>จำคุกสูงสุด 3 ปี หรือปรับ 100 ล้านวอน (Telecommunications Business Act Article 95-2)</td></tr><tr><td>"รับเงินสดและโอนเข้าบัญชีนี้"</td><td>ทำหน้าที่เป็นม้ากดเงิน (수거책)</td><td>ผู้สมรู้ร่วมคิดในการฉ้อโกง (ถูกเนรเทศ)</td></tr></tbody></table></div></div>
 <h3>คำว่า "ฉันไม่รู้" ไม่สามารถใช้เป็นข้อแก้ตัวได้</h3>
 <p>เกือบทุกคนที่ถูกจับจะพูดเหมือนกันว่า <em>"ฉันไม่รู้ว่ามันคือแก๊งคอลเซ็นเตอร์ ฉันแค่ช่วยเพื่อน"</em> คำแก้ตัวนี้แทบจะไม่ได้ผล ศาลเกาหลีถือว่าหากคุณรับเงิน หรือมีเหตุให้สงสัยว่าข้อตกลงนั้นผิดกฎหมาย แสดงว่าคุณกระทำโดยเจตนา — ไม่ใช่เรื่องบังเอิญ</p>
 <p>การถูกตัดสินว่ามีความผิดจะทำให้การพำนักในเกาหลีของคุณตกอยู่ในความเสี่ยง ขึ้นอยู่กับบทลงโทษ มันอาจนำไปสู่การยกเลิกวีซ่า การเนรเทศ และการห้ามเข้าประเทศซ้ำ</p>

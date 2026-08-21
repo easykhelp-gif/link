@@ -312,37 +312,53 @@ Foreign residents in South Korea, especially E-9 workers and international stude
     .hero-image { border-radius: 20px; aspect-ratio: 16 / 9; }
   }
 
+  /* ── 표: 모바일 가로 스크롤 (2026-08-22) ─────────────
+     스크롤 그림자로 '옆에 더 있음'을 표시. 글자·아이콘 없이,
+     끝까지 밀면 그림자가 자연히 사라진다. */
+  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .article-body .table-wrap { margin: 24px 0; }
+  .article-body .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, #ffffff 40%, rgba(255,255,255,0)),
+      linear-gradient(to left,  #ffffff 40%, rgba(255,255,255,0)),
+      radial-gradient(farthest-side at 0 50%,   rgba(15,23,42,0.16), rgba(15,23,42,0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(15,23,42,0.16), rgba(15,23,42,0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 16px 100%, 16px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body .table-scroll table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  @media (max-width: 600px) {
+    .article-body .table-scroll table { white-space: nowrap; }
+    /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
+    .article-body .table-scroll th:first-child,
+    .article-body .table-scroll td:first-child {
+      position: sticky; left: 0; z-index: 2;
+    }
+    .article-body .table-scroll th:first-child { background: #f8fafc; }
+    .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
   /* 본문 이미지 (2026-08-21 추가) — 규격 고정, 비율 왜곡 없음 */
   .article-body img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
   .article-body figure { margin: 18px 0 22px; }
   .article-body figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
   .article-body figcaption { font-size: 13px; color: var(--sub); text-align: center; margin-top: 8px; line-height: 1.45; }
 
-  /* 모바일 표 가독성 (2026-08-22 추가) */
-  /* 브라우저 자동 글자 확대 차단 — 안드로이드에서 마지막 열만 커지던 문제 */
-  html, body, .article-body, .article-body table { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-  @media (max-width: 600px) {
-    /* 첫 열(시간) 고정 — 옆으로 밀어도 어느 행인지 보이게 */
-    .article-body table th:first-child,
-    .article-body table td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 2;
-      box-shadow: 2px 0 4px rgba(0,0,0,0.08);
-    }
-    .article-body table th:first-child { background: #f8fafc; }
-    .article-body table td:first-child { background: #ffffff; }
-  }
-
-  /* 모바일 표 가로 스크롤 (2026-08-21 추가) */
-  @media (max-width: 600px) {
-    .article-body table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      white-space: nowrap;
-    }
-  }
 </style>
 </head>
 <body>
@@ -388,7 +404,7 @@ Foreign residents in South Korea, especially E-9 workers and international stude
       <h2>Understanding Voice Phishing and Identity Theft Scams</h2>
 <p>Foreign residents in South Korea, especially E-9 workers and international students, are frequent targets for financial fraud. Criminal organizations use foreign names to open <strong>burner phones (대포폰)</strong> or <strong>burner accounts (대포통장)</strong> to launder money. If your name is used, you will be treated as an accomplice under Korean law.</p>
 <h3>Common Scams Targeting Foreigners</h3>
-<table><thead><tr><th>What the Broker Says</th><th>The Hidden Crime</th><th>Your Legal Consequence</th></tr></thead><tbody><tr><td>"Lend me your bank account for 300,000 KRW/month."</td><td>Used for receiving Voice Phishing funds.</td><td>Up to 5 years in prison or a ₩30M fine (Electronic Financial Transactions Act Article 49 Paragraph 4).</td></tr><tr><td>"Open a prepaid SIM card under your ARC."</td><td>Used to scam victims anonymously.</td><td>Up to 3 years in prison or a ₩100M fine (Telecommunications Business Act Article 95-2).</td></tr><tr><td>"Receive cash and transfer it to this account."</td><td>Acting as a money mule (수거책).</td><td>Accomplice to Fraud (Deportation).</td></tr></tbody></table>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>What the Broker Says</th><th>The Hidden Crime</th><th>Your Legal Consequence</th></tr></thead><tbody><tr><td>"Lend me your bank account for 300,000 KRW/month."</td><td>Used for receiving Voice Phishing funds.</td><td>Up to 5 years in prison or a ₩30M fine (Electronic Financial Transactions Act Article 49 Paragraph 4).</td></tr><tr><td>"Open a prepaid SIM card under your ARC."</td><td>Used to scam victims anonymously.</td><td>Up to 3 years in prison or a ₩100M fine (Telecommunications Business Act Article 95-2).</td></tr><tr><td>"Receive cash and transfer it to this account."</td><td>Acting as a money mule (수거책).</td><td>Accomplice to Fraud (Deportation).</td></tr></tbody></table></div></div>
 <h3>"I Didn't Know" Is Not a Defence</h3>
 <p>Almost everyone caught says the same thing: <em>"I didn't know it was for voice phishing. I was just helping a friend."</em> It rarely works. Korean courts hold that if you took money, or had reason to suspect the deal was illegal, you acted with intent — not by accident.</p>
 <p>A conviction puts your stay in Korea at risk. Depending on the sentence, it can lead to visa cancellation, deportation, and a ban on re-entry.</p>
