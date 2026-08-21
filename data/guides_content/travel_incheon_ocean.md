@@ -2,7 +2,7 @@
 id: travel_incheon_ocean
 category: travel
 tag: Travel
-image: news/images/guide_incheon_ocean_hero.webp
+image: news/images/guide_incheon_ocean_hero_v2.webp
 date: 2026-08-17
 ---
 <!-- TITLE_EN START -->
