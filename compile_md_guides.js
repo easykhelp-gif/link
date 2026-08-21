@@ -20,6 +20,12 @@ function mdToHtml(md) {
   // Bold
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   
+  // Links  [text](url) -> <a href="url">text</a>
+  html = html.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_m, text, url) {
+    var ext = /^https?:/.test(url);
+    return '<a href="' + url + '"' + (ext ? ' target="_blank" rel="noopener noreferrer"' : '') + '>' + text + '</a>';
+  });
+
   // Lists
   html = html.replace(/^\s*\- (.*$)/gim, '<ul><li>$1</li></ul>');
   html = html.replace(/<\/ul>\n<ul>/g, '\n');
