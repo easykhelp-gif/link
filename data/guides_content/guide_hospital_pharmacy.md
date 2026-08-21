@@ -2,7 +2,7 @@
 id: guide_hospital_pharmacy
 category: korea
 tag: Medical
-image: news/images/news_thumb_visa.png
+image: news/images/guide_hospital_hero.webp
 date: 2026-08-17
 ---
 <!-- TITLE_EN START -->
