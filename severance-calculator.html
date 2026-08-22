@@ -6,6 +6,24 @@
 <title>Korea Severance Pay Calculator | Kori Care</title>
 <meta name="description" content="Official Korean Labor Standards Act Severance Pay Calculator for foreign residents and workers in South Korea.">
 <link rel="canonical" href="https://www.koricare.kr/link/severance-calculator">
+
+<!-- 공유 카드: 없으면 페북이 500x500 로고를 집어 작은 썸네일 카드로 만든다 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kori Care">
+<meta property="og:url" content="https://www.koricare.kr/link/severance-calculator">
+<meta property="og:title" content="How much severance pay are you owed?">
+<meta property="og:description" content="Worked 1 year or more in Korea? Severance pay (퇴직금) is your legal right. Check your figure in about a minute — free, no sign-up, nobody is notified.">
+<meta property="og:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Korea severance pay calculator">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How much severance pay are you owed?">
+<meta name="twitter:description" content="Worked 1 year or more in Korea? Check your severance figure in about a minute — free, no sign-up.">
+<meta name="twitter:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
 <link rel="alternate" hreflang="x-default" href="https://www.koricare.kr/link/severance-calculator" />
 <link rel="alternate" hreflang="en" href="https://www.koricare.kr/link/severance-calculator" />
 <link rel="alternate" hreflang="th" href="https://www.koricare.kr/link/th/severance-calculator" />
@@ -18,6 +36,13 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-F0R2ZQNNPZ');
+
+    // 전환 추적 헬퍼. gtag가 차단·미로드여도 페이지 동작에 영향 없음
+    function trackEvent(name, params) {
+      try {
+        if (typeof gtag === 'function') gtag('event', name, params || {});
+      } catch (e) { /* 추적 실패가 계산기를 막으면 안 된다 */ }
+    }
   </script>
 
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
@@ -527,10 +552,12 @@
       </div>
 
       <div class="action-grid">
-        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line">
+        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line"
+           onclick="trackEvent('contact_click', { method: 'line', source: 'calculator_result' })">
           LINE Consultation
         </a>
-        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg">
+        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg"
+           onclick="trackEvent('contact_click', { method: 'messenger', source: 'calculator_result' })">
           Messenger Assistance
         </a>
         <button type="button" class="action-btn share" onclick="shareCalculator()">
@@ -582,14 +609,21 @@
 
   function animateNumberCounter(targetVal) {
     const el = document.getElementById("resultAmount");
+    const render = (v) =>
+      el.innerHTML = "₩ " + Math.round(v).toLocaleString("en-US") + " <span>KRW</span>";
+
+    // 먼저 최종값을 확정해 둔다. requestAnimationFrame이 돌지 않는 경우
+    // (백그라운드 탭·절전 모드 등) 직전 계산의 문구가 그대로 남는 것을 막는다.
+    render(targetVal);
+    if (document.hidden || typeof requestAnimationFrame !== "function") return;
+
     const duration = 600;
     const startTime = performance.now();
 
     function updateCounter(currentTime) {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      const currentVal = Math.round(targetVal * (1 - Math.pow(1 - progress, 2)));
-      el.innerHTML = "₩ " + currentVal.toLocaleString("en-US") + " <span>KRW</span>";
+      render(targetVal * (1 - Math.pow(1 - progress, 2)));
       if (progress < 1) {
         requestAnimationFrame(updateCounter);
       }
@@ -624,6 +658,11 @@
     if (totalDays < 365) {
       document.getElementById("resultAmount").innerHTML = "Not Eligible <span>(Under 1 Year)</span>";
       document.getElementById("resultRange").innerHTML = "Legal severance requires <b>1+ year (365 days)</b> of continuous employment.";
+      trackEvent('calculate_complete', {
+        eligible: false,
+        months_worked: Math.round(totalDays / 30),
+        visa_status: currentVisaStatus
+      });
       resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
@@ -635,6 +674,16 @@
 
     animateNumberCounter(baseSeverance);
     document.getElementById("resultRange").innerHTML = "Estimated range: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
+
+    // 금액은 구간으로만 보낸다 (개인 식별 방지)
+    trackEvent('calculate_complete', {
+      eligible: true,
+      years_worked: Math.round(totalDays / 365),
+      severance_band: baseSeverance < 3000000 ? 'under_3m'
+        : baseSeverance < 6000000 ? '3m_6m'
+        : baseSeverance < 10000000 ? '6m_10m' : 'over_10m',
+      visa_status: currentVisaStatus
+    });
 
     resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
   }
