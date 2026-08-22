@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_1f2ccf7a",
+    "date": "2026-08-22",
+    "ts": 1787407892000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/22/PYH2026082202330001300_P2.jpg",
+    "title": "President expresses condolence over death of Ven. Myeongjin",
+    "link": "https://en.yna.co.kr/view/AEN20260822002800315"
+  },
+  {
+    "id": "hotnews_en_bb50fe00",
+    "date": "2026-08-22",
+    "ts": 1787405414000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/22/PYH2026082202660005100_P2.jpg",
+    "title": "S. Korean container ship leaves for Europe via Arctic route for 1st time",
+    "link": "https://en.yna.co.kr/view/AEN20260822002600315"
+  },
+  {
     "id": "hotnews_en_6d2ed4da",
     "date": "2026-08-22",
     "ts": 1787382571000,
@@ -382,21 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821005200315_01_i_P2.jpg",
     "title": "Ex-pilot gets life sentence for killing former airline colleague",
     "link": "https://en.yna.co.kr/view/AEN20260821005200315"
-  },
-  {
-    "id": "hotnews_en_e6147e0f",
-    "date": "2026-08-21",
-    "ts": 1787279224000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082016680001300_P2.jpg",
-    "title": "Lee's approval rating inches up from record low to 45 pct: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260821005000315"
-  },
-  {
-    "id": "hotnews_en_055956e8",
-    "date": "2026-08-21",
-    "ts": 1787279223000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082101820001300_P2.jpg",
-    "title": "Seoul stocks tad higher late Fri. morning on chip gains",
-    "link": "https://en.yna.co.kr/view/AEN20260821005100320"
   }
 ]
