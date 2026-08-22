@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_6d2ed4da",
+    "date": "2026-08-22",
+    "ts": 1787382571000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822001500315_01_i_P2.jpg",
+    "title": "Lee to host all ruling party lawmakers for luncheon next week",
+    "link": "https://en.yna.co.kr/view/AEN20260822001500315"
+  },
+  {
+    "id": "hotnews_en_4a473e6b",
+    "date": "2026-08-22",
+    "ts": 1787374800000,
+    "image": "",
+    "title": "Today in Korean history",
+    "link": "https://en.yna.co.kr/view/AEN20260822000900315"
+  },
+  {
+    "id": "hotnews_en_42ba8ecd",
+    "date": "2026-08-22",
+    "ts": 1787373791000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822001400315_01_i_P2.jpg",
+    "title": "Enhypen's new EP sells 1.77 mln copies on release day",
+    "link": "https://en.yna.co.kr/view/AEN20260822001400315"
+  },
+  {
     "id": "hotnews_en_c79f169a",
     "date": "2026-08-22",
     "ts": 1787366426000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082101820001300_P2.jpg",
     "title": "Seoul stocks tad higher late Fri. morning on chip gains",
     "link": "https://en.yna.co.kr/view/AEN20260821005100320"
-  },
-  {
-    "id": "hotnews_en_40972c00",
-    "date": "2026-08-21",
-    "ts": 1787278202000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/07/03/10/PCM20260703000110061_P2.jpg",
-    "title": "S. Korea to launch 'Future Fund' with 'windfall revenue' amid chip boom",
-    "link": "https://en.yna.co.kr/view/AEN20260821003200320"
-  },
-  {
-    "id": "hotnews_en_4cb086e7",
-    "date": "2026-08-21",
-    "ts": 1787278157000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004700315_01_i_P2.jpg",
-    "title": "Int'l track and field competition for veteran athletes kicks off in Daegu",
-    "link": "https://en.yna.co.kr/view/AEN20260821004700315"
-  },
-  {
-    "id": "hotnews_en_4fed0244",
-    "date": "2026-08-21",
-    "ts": 1787277947000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062907930001300_P2.jpg",
-    "title": "(LEAD) Kakao Corp. to spinoff core biz to strengthen AI capabilities",
-    "link": "https://en.yna.co.kr/view/AEN20260821004251320"
   }
 ]
