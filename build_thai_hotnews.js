@@ -143,12 +143,12 @@ function generateArticleHtml(news, articleId) {
   <link rel="canonical" href="https://www.koricare.kr/link/news/${articleId}.html">
   <meta name="robots" content="noindex, follow">
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YESCHJX46K"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-F0R2ZQNNPZ');
+    gtag('config', 'G-YESCHJX46K');
   </script>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #0f172a; margin: 0; padding: 20px; line-height: 1.6; }

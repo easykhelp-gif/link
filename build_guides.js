@@ -241,12 +241,12 @@ function buildGuides() {
 <link rel="canonical" href="https://www.koricare.kr/link/${lang}/guides/">
 <meta name="description" content="${texts.korea_desc} ${texts.travel_desc}">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YESCHJX46K"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-F0R2ZQNNPZ');
+  gtag('config', 'G-YESCHJX46K');
 </script>
 <script type="application/ld+json">
 {
