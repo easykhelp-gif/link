@@ -1,5 +1,341 @@
 [
   {
+    "id": "hotnews_vi_b2d6b433",
+    "date": "2026-08-22",
+    "ts": 1787425200000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/23/bongda-51-1787419514.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=vOeOphgrFNgr8sQHBTj2Jg",
+    "title": "Muôn kiểu xuống phố ăn mừng chiến thắng của CĐV Việt Nam",
+    "link": "https://vnexpress.net/muon-kieu-xuong-pho-an-mung-chien-thang-cua-cdv-viet-nam-5112299.html"
+  },
+  {
+    "id": "hotnews_vi_af0d81fb",
+    "date": "2026-08-22",
+    "ts": 1787421720000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874040721209120236419514964652g822500330148751823278abca3ce3a99b6b0314b5425ca4b04f-1787419506041172846805-390-0-1990-2560-crop-17874197021421561707512.jpg",
+    "title": "Đội trưởng Thái Lan: ‘Việt Nam phản công thật đáng sợ nhưng khoảng cách 2 bàn chưa lớn’",
+    "link": "https://thanhnien.vn/doi-truong-thai-lan-viet-nam-phan-cong-that-dang-so-nhung-khoang-cach-2-ban-chua-lon-185260823003954244.htm"
+  },
+  {
+    "id": "hotnews_vi_c6863ee1",
+    "date": "2026-08-22",
+    "ts": 1787421600000,
+    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/21/gemini-generated-image-sk950ds-7143-5268-1787303269.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=UjZ_JgK1wDTYSmrR4VbaIw",
+    "title": "Các dấu hiệu bất thường ngoài khớp có thể do acid uric cao",
+    "link": "https://vnexpress.net/cac-dau-hieu-bat-thuong-ngoai-khop-co-the-do-acid-uric-cao-5111779.html"
+  },
+  {
+    "id": "hotnews_vi_26bb8335",
+    "date": "2026-08-22",
+    "ts": 1787421600000,
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/21/congninhtop1-1787309921-9923-1787309987.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nSO8kVY7fEUMuVCjbWS5Dw",
+    "title": "Hôn nhân của nghệ sĩ Công Ninh và vợ kém 22 tuổi",
+    "link": "https://vnexpress.net/hon-nhan-cua-nghe-si-cong-ninh-va-vo-kem-22-tuoi-5111167.html"
+  },
+  {
+    "id": "hotnews_vi_14dc34fa",
+    "date": "2026-08-22",
+    "ts": 1787421600000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874059171569120236419514964652g8225003301487518232bbdebd94c7773f43229a97c9b1ac61ff-1787416383401458873274-70-0-1670-2560-crop-17874166136711351817509.jpg",
+    "title": "Chuyên gia châu Á: ‘Những điều chỉnh kỳ diệu của ông Kim Sang-sik khiến Thái Lan hoàn toàn bất lực’",
+    "link": "https://thanhnien.vn/chuyen-gia-chau-a-nhung-dieu-chinh-ky-dieu-cua-ong-kim-sang-sik-khien-thai-lan-hoan-toan-bat-luc-185260822233933733.htm"
+  },
+  {
+    "id": "hotnews_vi_6cc2a54c",
+    "date": "2026-08-22",
+    "ts": 1787420640000,
+    "image": "https://thanhnien.mediacdn.vn/zoom/600_315/325084952045817856/2026/8/22/base64-17874182480511264659026.jpeg",
+    "title": "Thua đội tuyển Việt Nam, HLV Thái Lan vẫn tin vào cuộc ngược dòng ở Mỹ Đình",
+    "link": "https://thanhnien.vn/thua-doi-tuyen-viet-nam-hlv-thai-lan-van-tin-vao-cuoc-nguoc-dong-o-my-dinh-185260823000519047.htm"
+  },
+  {
+    "id": "hotnews_vi_31308658",
+    "date": "2026-08-22",
+    "ts": 1787420580000,
+    "image": "https://thanhnien.mediacdn.vn/zoom/600_315/325084952045817856/2026/8/22/base64-17874201422711424211505.jpeg",
+    "title": "Quang Hải được AFF vinh danh: Cầu thủ giàu năng lượng nhất chung kết lượt đi",
+    "link": "https://thanhnien.vn/quang-hai-duoc-aff-vinh-danh-cau-thu-giau-nang-luong-nhat-chung-ket-luot-di-185260823003610301.htm"
+  },
+  {
+    "id": "hotnews_vi_b8a8db36",
+    "date": "2026-08-22",
+    "ts": 1787420580000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787419840925-17874198416901943651565.jpeg",
+    "title": "HLV Kim Sang-sik khen Lê Giang Patrik vững như ‘bức tường’, Messi hay Ronaldo cũng khó ghi bàn",
+    "link": "https://thanhnien.vn/hlv-kim-sang-sik-khen-le-giang-patrik-vung-nhu-buc-tuong-messi-hay-ronaldo-cung-kho-ghi-ban-185260823000350712.htm"
+  },
+  {
+    "id": "hotnews_vi_02ea9893",
+    "date": "2026-08-22",
+    "ts": 1787420280000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/tnw-1787416796879566336880573918928256633688057391892824c130432c68b2ec2e9c3b6622f01a7f6-1787418399193738732542-94-0-1694-2560-crop-17874203614752000801653.jpg",
+    "title": "Nửa đêm, trung tâm TP.HCM rợp cờ đỏ sao vàng sau chiến thắng của tuyển Việt Nam",
+    "link": "https://thanhnien.vn/nua-dem-trung-tam-tphcm-rop-co-do-sao-vang-sau-chien-thang-cua-tuyen-viet-nam-185260823002516299.htm"
+  },
+  {
+    "id": "hotnews_vi_d3500288",
+    "date": "2026-08-22",
+    "ts": 1787419640000,
+    "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/22/wm1-wm1-huy-1787416429-1285-1787416463.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=RK7PdZ2pWsNEJ30WD6TbuQ",
+    "title": "Hai em nhỏ mồ côi cha mẹ vì điện giật được ngân hàng xoá nợ 1,7 tỷ đồng",
+    "link": "https://vnexpress.net/hai-em-nho-mo-coi-cha-me-vi-dien-giat-duoc-ngan-hang-xoa-no-1-7-ty-dong-5112294.html"
+  },
+  {
+    "id": "hotnews_vi_63c0b12d",
+    "date": "2026-08-22",
+    "ts": 1787419620000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874059171561541684032607809825g1860456322087766421bbdebd94c7773f43229a97c9b1ac61ff-1787418788058148979956-525-618-1669-2448-crop-17874190360641623370489.jpg",
+    "title": "Báo Đông Nam Á: 'Việt Nam đã chứng tỏ bản lĩnh của nhà đương kim vô địch'",
+    "link": "https://thanhnien.vn/bao-dong-nam-a-viet-nam-da-chung-to-ban-linh-cua-nha-duong-kim-vo-dich-185260823001859062.htm"
+  },
+  {
+    "id": "hotnews_vi_e4325732",
+    "date": "2026-08-22",
+    "ts": 1787419260000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/quay-cham-ban-thang-cua-quang-hai-vao-luoi-doi-tuyen-thai-lan-chung-ket-luot-di-asean-cup-2026-1787415256686753711295-0-42-388-663-crop-1787419019472722722818.gif",
+    "title": "Quang Hải được AFF vinh danh đặc biệt sau trận thắng Thái Lan, xứng tầm ngôi sao trận cầu lớn",
+    "link": "https://thanhnien.vn/quang-hai-duoc-aff-vinh-danh-dac-biet-sau-tran-thang-thai-lan-xung-tam-ngoi-sao-tran-cau-lon-185260823002024473.htm"
+  },
+  {
+    "id": "hotnews_vi_180fddae",
+    "date": "2026-08-22",
+    "ts": 1787419222000,
+    "image": "https://vcdn1-giadinh.vnecdn.net/2026/08/22/z8111798201252-cd4a3fa9d33fb9f-9714-4396-1787415701.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=R_B_-83fJ8CCbqTqqWchWQ",
+    "title": "Bố Hai Long 'không tin vào mắt khi con ghi bàn'",
+    "link": "https://vnexpress.net/bo-hai-long-khong-tin-vao-mat-khi-con-ghi-ban-5112288.html"
+  },
+  {
+    "id": "hotnews_vi_27832357",
+    "date": "2026-08-22",
+    "ts": 1787419200000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874153690899084670912693770808g8261781294745035404dd970646526153a85377bb5e0028f2ad-17874170876862072497563-62-0-1662-2560-crop-1787418328848866090893.jpg",
+    "title": "Hình ảnh không thấy trên truyền hình: Đội tuyển Việt Nam ‘check-in’ chỗ xịn, ở nhà CĐV xuống đường đi ‘bão’",
+    "link": "https://thanhnien.vn/hinh-anh-khong-thay-tren-truyen-hinh-doi-tuyen-viet-nam-check-in-cho-xin-o-nha-cdv-xuong-duong-di-bao-185260822235755171.htm"
+  },
+  {
+    "id": "hotnews_vi_d86d6c95",
+    "date": "2026-08-22",
+    "ts": 1787418980000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/1-jpeg-1787398609-4147-1787398831.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dwQJ8W_RcoP_PqhyvJy6rg",
+    "title": "Lo ngại dự án kè biển làm mất bãi tắm Hải Tiến",
+    "link": "https://vnexpress.net/lo-ngai-du-an-ke-bien-lam-mat-bai-tam-hai-tien-5112241.html"
+  },
+  {
+    "id": "hotnews_vi_cd9e06fd",
+    "date": "2026-08-22",
+    "ts": 1787418867000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/DJI-20260821145220-0007-D-1787387172.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=oskAl60OVpepRZaru_z01g",
+    "title": "Hiện trạng 5 khu đất vàng Thủ Thiêm sắp được đấu giá",
+    "link": "https://vnexpress.net/hien-trang-5-khu-dat-vang-thu-thiem-sap-duoc-dau-gia-5112186.html"
+  },
+  {
+    "id": "hotnews_vi_1b3b4214",
+    "date": "2026-08-22",
+    "ts": 1787418780000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874048805769120236419514964652g822500330148751823214a30db2971edbbf262ae7e727fe7741-1787412963429437033668-334-0-1934-2560-crop-1787413297749560984639.jpg",
+    "title": "Nhà báo Thái Lan: ‘Chúng ta còn non nớt, Việt Nam thắng vì chiến thuật quá hay’",
+    "link": "https://thanhnien.vn/nha-bao-thai-lan-chung-ta-con-non-not-viet-nam-thang-vi-chien-thuat-qua-hay-185260822224558956.htm"
+  },
+  {
+    "id": "hotnews_vi_11de8ca8",
+    "date": "2026-08-22",
+    "ts": 1787418587000,
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/22/Tinhhasayhivngloitr2-178741720-4571-7332-1787417963.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WEZx8dLE-uwPPI-UNRPajw",
+    "title": "Bốn thí sinh đầu tiên bị loại khỏi 'Tinh hà say hi'",
+    "link": "https://vnexpress.net/bon-thi-sinh-dau-tien-bi-loai-khoi-tinh-ha-say-hi-5112292.html"
+  },
+  {
+    "id": "hotnews_vi_8305a9fb",
+    "date": "2026-08-22",
+    "ts": 1787418540000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/kev1266-17874142434842046869791-40-0-1640-2560-crop-1787414500213374166623.jpg",
+    "title": "10.000 lượt khách đổ về Lễ hội ngàn hoa giữa phố biển Quy Nhơn",
+    "link": "https://thanhnien.vn/10000-luot-khach-do-ve-le-hoi-ngan-hoa-giua-pho-bien-quy-nhon-185260822212331724.htm"
+  },
+  {
+    "id": "hotnews_vi_8f01fc75",
+    "date": "2026-08-22",
+    "ts": 1787418180000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/landscape-for-featured-image-1-6975-9218-1787406757.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=JbRPDEypYSYPfQdqdgqIRA",
+    "title": "Cần thu nhập 110.000 USD để mua căn nhà tầm trung ở Mỹ",
+    "link": "https://vnexpress.net/can-thu-nhap-110-000-usd-de-mua-can-nha-tam-trung-o-my-5112252.html"
+  },
+  {
+    "id": "hotnews_vi_e54328f1",
+    "date": "2026-08-22",
+    "ts": 1787418180000,
+    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/21/di-bo-1787296924-8482-1787296947.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=df0Pbs8XmBtLFGnABw-fgA",
+    "title": "7 việc người sống thọ thường làm mỗi tuần",
+    "link": "https://vnexpress.net/7-viec-nguoi-song-tho-thuong-lam-moi-tuan-5111724.html"
+  },
+  {
+    "id": "hotnews_vi_6561793c",
+    "date": "2026-08-22",
+    "ts": 1787418060000,
+    "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/22/2025t145432z-mt1sipa0000qteia-9438-2035-1787403039.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lx6EmfTBDW4TrzGkbuIxTw",
+    "title": "Người Mỹ thắt hầu bao",
+    "link": "https://vnexpress.net/nguoi-my-that-hau-bao-5112243.html"
+  },
+  {
+    "id": "hotnews_vi_4b1fb083",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/1-1787413421-7674-1787413495.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FK9shHImUk_5nskQ7dkVNw",
+    "title": "Thanh tra: Đất công tại Bảo tàng Lịch sử Quốc gia bị lấn chiếm",
+    "link": "https://vnexpress.net/thanh-tra-dat-cong-tai-bao-tang-lich-su-quoc-gia-bi-lan-chiem-5112282.html"
+  },
+  {
+    "id": "hotnews_vi_1e648589",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/GeminiGeneratedImageqcmz21qcmz-4786-9263-1787410680.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=Y1VprW7aN8WD315QW1Uo9g",
+    "title": "Tôi không dám cưới bạn gái hơn 12 tuổi",
+    "link": "https://vnexpress.net/toi-khong-dam-cuoi-ban-gai-hon-12-tuoi-5112270.html"
+  },
+  {
+    "id": "hotnews_vi_5d9a769e",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/IMG3266-1787396486-5592-1787397837.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qFKMY-pJtrMyoLxCbBuuQA",
+    "title": "Người đàn ông gom đất trồng lúa thu tiền tỷ",
+    "link": "https://vnexpress.net/nguoi-dan-ong-gom-dat-trong-lua-thu-tien-ty-5112230.html"
+  },
+  {
+    "id": "hotnews_vi_d995f677",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-dulich.vnecdn.net/2026/08/22/sby-bp-1787380050-8764-1787380084.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=-SAPJbe4FIQSE3cW7kkI-Q",
+    "title": "Ý nghĩa chữ 'SBY' trên vé máy bay",
+    "link": "https://vnexpress.net/y-nghia-chu-sby-tren-ve-may-bay-5112094.html"
+  },
+  {
+    "id": "hotnews_vi_a8970dc8",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/matuy2178062118195231780621252-5942-7245-1787378326.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sIgw2Lo1BOt1P06tBU60oA",
+    "title": "Quản lý khách sạn tổ chức sử dụng ma túy cùng 2 cảnh sát",
+    "link": "https://vnexpress.net/quan-ly-khach-san-to-chuc-su-dung-ma-tuy-cung-2-canh-sat-5112086.html"
+  },
+  {
+    "id": "hotnews_vi_967f5447",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/22/nganquynh1-1787380930-7834-1787381002.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OyPyP3JRhUf2VKKfR1Q56g",
+    "title": "Ngân Quỳnh: Nhớ nồi canh chua, thịt kho mẹ nấu",
+    "link": "https://vnexpress.net/ngan-quynh-nho-noi-canh-chua-thit-kho-me-nau-5111971.html"
+  },
+  {
+    "id": "hotnews_vi_f9021a04",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/21/ya8nxmnhkg8ltcelfmvfme120080-1-5895-2795-1787291563.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=miOlaSgkodlxl3H8fTXUZQ",
+    "title": "Súng bắn plasma giúp 'giặt quần áo' ngoài vũ trụ",
+    "link": "https://vnexpress.net/sung-ban-plasma-giup-giat-quan-ao-ngoai-vu-tru-5111690.html"
+  },
+  {
+    "id": "hotnews_vi_8087f3e6",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/19/10-1787115163.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=x1uFSYZMgkEpTuU7YGL8bw",
+    "title": "Cách đưa phong cách Mid-Century Modern vào nhà ở Việt",
+    "link": "https://vnexpress.net/cach-dua-phong-cach-mid-century-modern-vao-nha-o-viet-5110810.html"
+  },
+  {
+    "id": "hotnews_vi_4f36bc9a",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/av-1787411015-2570-1787411036.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lt0J2SUTMWYxfb9S34qRBw",
+    "title": "Nếu hạnh phúc bị 'điểm liệt'",
+    "link": "https://vnexpress.net/neu-hanh-phuc-bi-diem-liet-5109037.html"
+  },
+  {
+    "id": "hotnews_vi_9a878f36",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/thailan-vietnam-8-17874078993281053165143-185-0-1333-1837-crop-1787416243363536575147.jpg",
+    "title": "Đội tuyển Thái Lan chốt giờ đến Hà Nội, chỉ sau Việt Nam 2 tiếng: Chung kết lượt về vẫn nóng",
+    "link": "https://thanhnien.vn/doi-tuyen-thai-lan-chot-gio-den-ha-noi-chi-sau-viet-nam-2-tieng-chung-ket-luot-ve-van-nong-185260822233105235.htm"
+  },
+  {
+    "id": "hotnews_vi_52ae99f8",
+    "date": "2026-08-22",
+    "ts": 1787418000000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/giai-pickleball-17874135548951801916904-22-0-662-1024-crop-17874148558971674176459.jpg",
+    "title": "Nghĩa tình từ giải pickleball 'Cùng con đi tiếp cuộc đời' lần V - 2026",
+    "link": "https://thanhnien.vn/nghia-tinh-tu-giai-pickleball-cung-con-di-tiep-cuoc-doi-lan-v-2026-185260822224600558.htm"
+  },
+  {
+    "id": "hotnews_vi_197181b4",
+    "date": "2026-08-22",
+    "ts": 1787417731000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/afpu4fx-v1-midres-franceukrain-4932-6349-1787414110.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VE2lZMlRjbhHWq4ULMnFQQ",
+    "title": "Pháp sẽ cung cấp tên lửa đánh chặn cho Ukraine",
+    "link": "https://vnexpress.net/phap-se-cung-cap-ten-lua-danh-chan-cho-ukraine-5112276.html"
+  },
+  {
+    "id": "hotnews_vi_ebeff4a5",
+    "date": "2026-08-22",
+    "ts": 1787416500000,
+    "image": "https://thanhnien.mediacdn.vn/zoom/600_315/325084952045817856/2026/8/22/base64-17874162612341749506783.jpeg",
+    "title": "Lê Giang Patrik xuất thần, được vinh danh sau màn trình diễn trước Thái Lan",
+    "link": "https://thanhnien.vn/le-giang-patrik-xuat-than-duoc-vinh-danh-sau-man-trinh-dien-truoc-thai-lan-185260822233208179.htm"
+  },
+  {
+    "id": "hotnews_vi_b2bcb5ba",
+    "date": "2026-08-22",
+    "ts": 1787416347000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/cats-1787412974-7427-1787413029.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=PhtDHGWKh3SXSuUxHV4fnQ",
+    "title": "Tài xế bị cản đường khi lái ôtô ngược chiều trên cầu Bãi Cháy",
+    "link": "https://vnexpress.net/tai-xe-bi-can-duong-khi-lai-oto-nguoc-chieu-tren-cau-bai-chay-5112283.html"
+  },
+  {
+    "id": "hotnews_vi_e969cb99",
+    "date": "2026-08-22",
+    "ts": 1787416320000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/anh-man-hinh-2026-08-22-luc-230344-17874160429821767489171-0-0-859-1374-crop-1787416178596627601835.png",
+    "title": "Hai Long nghẹn ngào giữa lúc thăng hoa, tưởng nhớ người thầy thân yêu Phan Thanh Hùng",
+    "link": "https://thanhnien.vn/hai-long-nghen-ngao-giua-luc-thang-hoa-tuong-nho-nguoi-thay-than-yeu-phan-thanh-hung-185260822233017517.htm"
+  },
+  {
+    "id": "hotnews_vi_066fbbcc",
+    "date": "2026-08-22",
+    "ts": 1787416140000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/edit-tnw-vt00220-17874097647611070475532-0-123-1387-2342-crop-1787410175277332847007.jpeg",
+    "title": "Doanh nghiệp 'để mắt' đến dự án du lịch từ cây bần, tranh kiếng của sinh viên",
+    "link": "https://thanhnien.vn/doanh-nghiep-de-mat-den-du-an-du-lich-tu-cay-ban-tranh-kieng-cua-sinh-vien-185260822182015819.htm"
+  },
+  {
+    "id": "hotnews_vi_007f6fe6",
+    "date": "2026-08-22",
+    "ts": 1787415540000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/khanh-van-4-17874149276421638746799-350-0-1310-1536-crop-17874151893251403563086.jpeg",
+    "title": "Khánh Vân cùng dàn sao Việt vỡ òa trước chiến thắng của tuyển Việt Nam trên đất Thái",
+    "link": "https://thanhnien.vn/khanh-van-cung-dan-sao-viet-vo-oa-truoc-chien-thang-cua-tuyen-viet-nam-tren-dat-thai-185260822231351581.htm"
+  },
+  {
+    "id": "hotnews_vi_5884f73b",
+    "date": "2026-08-22",
+    "ts": 1787415532000,
+    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/le-giang-patrik-jpeg-178741453-1399-4873-1787415072.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=UmnVPKl8s3aAbPaeSibtCA",
+    "title": "Lê Giang Patrik hay nhất trận lượt đi chung kết ASEAN Cup 2026",
+    "link": "https://vnexpress.net/le-giang-patrik-hay-nhat-tran-luot-di-chung-ket-asean-cup-2026-5112289.html"
+  },
+  {
+    "id": "hotnews_vi_8e50ccba",
+    "date": "2026-08-22",
+    "ts": 1787415520000,
+    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/20260822231354-1787415483-7038-1787415520.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9xibOT7LKXQtyR4-vbR0mA",
+    "title": "CĐV đội mưa 'đi bão', đốt pháo sáng mừng chiến thắng của Việt Nam",
+    "link": "https://vnexpress.net/cdv-doi-mua-di-bao-dot-phao-sang-mung-chien-thang-cua-viet-nam-5112290.html"
+  },
+  {
+    "id": "hotnews_vi_084907fa",
+    "date": "2026-08-22",
+    "ts": 1787415420000,
+    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/can-canh-pha-bay-nguoi-cuu-thua-cua-le-giang-patrik-truoc-cu-sut-cua-yotsakorn-burapha-1787415256384353565248-0-0-388-621-crop-178741566168394304359.gif",
+    "title": "Ngả mũ trước 'người nhện' Lê Giang Patrik: Thủ môn siêu đẳng nói gì sau trận đấu xuất thần thắng Thái?",
+    "link": "https://thanhnien.vn/nga-mu-truoc-nguoi-nhen-le-giang-patrik-thu-mon-sieu-dang-noi-gi-sau-tran-dau-xuat-than-thang-thai-185260822230929101.htm"
+  },
+  {
     "id": "hotnews_vi_4533fba4",
     "date": "2026-08-22",
     "ts": 1787415360000,
@@ -62,341 +398,5 @@
     "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/chu-tich-vff-va-pho-chu-tich-vff-xuong-san-chuc-mung-toan-doi-17874135037681193123484-0-26-1264-2048-crop-1787413511569840961915.jpg",
     "title": "Chủ tịch VFF ôm chặt Hai Long, chúc mừng đội tuyển Việt Nam: Thưởng nóng 2,5 tỉ đồng",
     "link": "https://thanhnien.vn/chu-tich-vff-om-chat-hai-long-chuc-mung-doi-tuyen-viet-nam-thuong-nong-25-ti-dong-185260822224651807.htm"
-  },
-  {
-    "id": "hotnews_vi_5b1034d9",
-    "date": "2026-08-22",
-    "ts": 1787413717000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/geminigeneratedimagexdjjbdxdjj-4736-4794-1787413676.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=-TD3K7VpOxSPcyMWF6w2Hw",
-    "title": "Patrik Lê Giang 'bay nhảy như chim' làm nản lòng các chân sút Thái Lan",
-    "link": "https://vnexpress.net/tuyen-viet-nam-ha-guc-thai-lan-2-0-nguoi-hung-mang-ten-patrik-le-giang-5112173.html"
-  },
-  {
-    "id": "hotnews_vi_6267069a",
-    "date": "2026-08-22",
-    "ts": 1787413620000,
-    "image": "https://thanhnien.mediacdn.vn/zoom/600_315/325084952045817856/2026/8/22/base64-17874128925251778672884.jpeg",
-    "title": "Những bóng hồng trên sân đấu giải pickleball 'Cùng con đi tiếp cuộc đời'",
-    "link": "https://thanhnien.vn/nhung-bong-hong-tren-san-dau-giai-pickleball-cung-con-di-tiep-cuoc-doi-18526082222363316.htm"
-  },
-  {
-    "id": "hotnews_vi_e089afcd",
-    "date": "2026-08-22",
-    "ts": 1787413080000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/hlv-kim-sang-sik-1787412548900818388048-71-0-1189-1788-crop-1787412916687236073319.jpg",
-    "title": "Báo Indonesia ngỡ ngàng vì HLV Kim Sang-sik thay người quá hay giúp Việt Nam thắng Thái Lan",
-    "link": "https://thanhnien.vn/bao-indonesia-ngo-ngang-vi-hlv-kim-sang-sik-thay-nguoi-qua-hay-giup-viet-nam-thang-thai-lan-185260822223625658.htm"
-  },
-  {
-    "id": "hotnews_vi_7e5c36d5",
-    "date": "2026-08-22",
-    "ts": 1787413045000,
-    "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/22/781296399-n-1787411153-3813-1787411667.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FygGMuEHKMUzAU6FSMN0JA",
-    "title": "Vợ cầu thủ Quang Hải vỡ òa khi chồng ghi bàn",
-    "link": "https://vnexpress.net/vo-cau-thu-quang-hai-vo-oa-khi-chong-ghi-ban-5112264.html"
-  },
-  {
-    "id": "hotnews_vi_655facb9",
-    "date": "2026-08-22",
-    "ts": 1787412600000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/qh-1787410448794979871422-116-0-1716-2560-crop-17874104602691599878144.jpg",
-    "title": "Chấm điểm Thái Lan - Việt Nam: Người hùng Hai Long, Quang Hải cao nhất, Patrik Lê Giang và Đình Bắc thế nào?",
-    "link": "https://thanhnien.vn/cham-diem-thai-lan-viet-nam-nguoi-hung-hai-long-quang-hai-cao-nhat-patrik-le-giang-va-dinh-bac-the-nao-185260822221207779.htm"
-  },
-  {
-    "id": "hotnews_vi_8fa9d1aa",
-    "date": "2026-08-22",
-    "ts": 1787412085000,
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/vie-t-nam-jpeg-1787411636-6096-1787411951.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZxJ4nk_CDdn4BFkSSDPsww",
-    "title": "Việt Nam lần đầu thắng hai bàn trên sân Thái Lan",
-    "link": "https://vnexpress.net/viet-nam-lan-dau-thang-hai-ban-tren-san-thai-lan-5112278.html"
-  },
-  {
-    "id": "hotnews_vi_162861c7",
-    "date": "2026-08-22",
-    "ts": 1787411820000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/thailan-vietnam-4-1787407899218679765257-116-0-1121-1608-crop-17874115720911221655296.jpg",
-    "title": "Kịch bản nào giúp đội tuyển Việt Nam vô địch ASEAN Cup 2026: 90%, rất gần rồi!",
-    "link": "https://thanhnien.vn/kich-ban-nao-giup-doi-tuyen-viet-nam-vo-dich-asean-cup-2026-90-rat-gan-roi-18526082222120272.htm"
-  },
-  {
-    "id": "hotnews_vi_ed43d654",
-    "date": "2026-08-22",
-    "ts": 1787411816000,
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/2aoboqtkwfk8fy7fqdma8avts74z9g-8720-4899-1787411779.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BrYuVbQRATDL3BQUonySCw",
-    "title": "Thái Lan 0-2 Việt Nam",
-    "link": "https://vnexpress.net/thai-lan-0-2-viet-nam-5112277.html"
-  },
-  {
-    "id": "hotnews_vi_121b51eb",
-    "date": "2026-08-22",
-    "ts": 1787411700000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/781251066137808540035766935190-5525-7862-1787414891.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VBFdSZKG2_8QOknICZy1_g",
-    "title": "Người hâm mộ xuống đường mừng Việt Nam hạ Thái Lan",
-    "link": "https://vnexpress.net/nguoi-ham-mo-xuong-duong-mung-viet-nam-ha-thai-lan-5110999.html"
-  },
-  {
-    "id": "hotnews_vi_6002ee05",
-    "date": "2026-08-22",
-    "ts": 1787411460000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/quanghai2ngoclinhtn22-8-26-17874110056261725846750-0-0-1600-2560-crop-178741156867714505427.jpg",
-    "title": "Quang Hải quá hoàn hảo, bàn thắng đẹp tầm cỡ thế giới: Đẳng cấp là mãi mãi!",
-    "link": "https://thanhnien.vn/quang-hai-qua-hoan-hao-ban-thang-dep-tam-co-the-gioi-dang-cap-la-mai-mai-185260822220518203.htm"
-  },
-  {
-    "id": "hotnews_vi_383961c7",
-    "date": "2026-08-22",
-    "ts": 1787411220000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787413869250-17874138696881151176348.jpeg",
-    "title": "Hai Long, Quang Hải tỏa sáng: Đội tuyển Việt Nam tiến gần ngôi vương ASEAN Cup 2026",
-    "link": "https://thanhnien.vn/hai-long-quang-hai-toa-sang-doi-tuyen-viet-nam-tien-gan-ngoi-vuong-asean-cup-2026-185260822221914647.htm"
-  },
-  {
-    "id": "hotnews_vi_fdeac03a",
-    "date": "2026-08-22",
-    "ts": 1787411100000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/quanghai1ngoclinhtn22-8-26-178741100551262835308-138-0-1427-2062-crop-17874110628241799061650.jpg",
-    "title": "Lịch thi đấu chung kết lượt về Việt Nam - Thái Lan mới nhất: Giờ đẹp, xem trên các kênh nào?",
-    "link": "https://thanhnien.vn/lich-thi-dau-chung-ket-luot-ve-viet-nam-thai-lan-moi-nhat-gio-dep-xem-tren-cac-kenh-nao-18526082221590005.htm"
-  },
-  {
-    "id": "hotnews_vi_90880ef8",
-    "date": "2026-08-22",
-    "ts": 1787410878000,
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/dong7151-jpg-1787409632-5277-1787409933.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7K4_uuubE69oe7E52TdnNw",
-    "title": "HLV Kim: 'Ronaldo, Messi cũng khó ghi bàn vào lưới Lê Giang Patrik hôm nay'",
-    "link": "https://vnexpress.net/hlv-kim-ronaldo-messi-cung-kho-ghi-ban-vao-luoi-le-giang-patrik-hom-nay-5112266.html"
-  },
-  {
-    "id": "hotnews_vi_37851eae",
-    "date": "2026-08-22",
-    "ts": 1787410800000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/img5630-17874105782241886554829-0-0-1250-2000-crop-1787410811207675282837.jpeg",
-    "title": "Đội tuyển Việt Nam khiến Thái Lan ôm hận nhờ bản lĩnh vua Đông Nam Á",
-    "link": "https://thanhnien.vn/doi-tuyen-viet-nam-khien-thai-lan-om-han-nho-ban-linh-vua-dong-nam-a-185260822214433031.htm"
-  },
-  {
-    "id": "hotnews_vi_f5878eb7",
-    "date": "2026-08-22",
-    "ts": 1787410781000,
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/dong8798-jpg-1787409916-7135-1787409928.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=4eUoOJYwugLx7girW_lQVA",
-    "title": "HLV Thái Lan: 'Chúng tôi không đáng thua Việt Nam'",
-    "link": "https://vnexpress.net/hlv-thai-lan-chung-toi-khong-dang-thua-viet-nam-5112265.html"
-  },
-  {
-    "id": "hotnews_vi_4d6012f7",
-    "date": "2026-08-22",
-    "ts": 1787410680000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/hai-long-va-quang-hai-nguoi-hung-cua-doi-tuyen-viet-nam-o-tran-chung-ket-luot-di-17874090246221795494626-106-0-1706-2560-crop-17874092628921895270886.jpg",
-    "title": "Ông Kim thay người thần sầu, Việt Nam thắng đẹp Thái Lan: Chạm một tay vào ngôi vương, nhận thưởng 7,5 tỉ",
-    "link": "https://thanhnien.vn/ong-kim-thay-nguoi-than-sau-viet-nam-thang-dep-thai-lan-cham-mot-tay-vao-ngoi-vuong-vff-lai-thuong-lon-185260822213922875.htm"
-  },
-  {
-    "id": "hotnews_vi_c026a83a",
-    "date": "2026-08-22",
-    "ts": 1787410560000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787410597225-1787410597547201845815.jpeg",
-    "title": "Bão số 4 cách Quảng Ninh khoảng 110 km",
-    "link": "https://thanhnien.vn/bao-so-4-cach-quang-ninh-khoang-110-km-185260822215509664.htm"
-  },
-  {
-    "id": "hotnews_vi_f19ab106",
-    "date": "2026-08-22",
-    "ts": 1787410200000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/17874087621191541684032607809825g18604563220877664216d363f14287078569686308f6d463719-17874100330481744442898-0-0-1600-2560-crop-17874100392571187563461.jpg",
-    "title": "Tại sao trọng tài không lập tức công nhận bàn thắng mở tỷ số của Hai Long vào lưới Thái Lan?",
-    "link": "https://thanhnien.vn/tai-sao-trong-tai-khong-lap-tuc-cong-nhan-ban-thang-mo-ty-so-cua-hai-long-vao-luoi-thai-lan-185260822214958235.htm"
-  },
-  {
-    "id": "hotnews_vi_0b167156",
-    "date": "2026-08-22",
-    "ts": 1787409949000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/Lark20260822224232-1787413385-2891-1787413389.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=FwQVghLOCkeKDdtC5heyCw&t=image",
-    "title": "Hai Long, Quang Hải ghi bàn sau khi HLV Kim tung vào sân",
-    "link": "https://vnexpress.net/hai-long-quang-hai-ghi-ban-sau-khi-hlv-kim-tung-vao-san-5112260.html"
-  },
-  {
-    "id": "hotnews_vi_4b500848",
-    "date": "2026-08-22",
-    "ts": 1787409683000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/wm1-wm1-img-8528-jpg-1787390101-7987-1787390581.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GXgsA20eaoefvxOgi_D9Uw",
-    "title": "Lừa đảo trực tuyến tại Việt Nam 'có dấu hiệu giảm rõ rệt'",
-    "link": "https://vnexpress.net/lua-dao-truc-tuyen-tai-viet-nam-co-dau-hieu-giam-ro-ret-5112146.html"
-  },
-  {
-    "id": "hotnews_vi_2f07e136",
-    "date": "2026-08-22",
-    "ts": 1787409600000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787409387038-1787409388543601493384.png",
-    "title": "Cuộc sống của Mạc Văn Khoa ra sao trước tin đồn vỡ nợ trăm tỉ?",
-    "link": "https://thanhnien.vn/cuoc-song-cua-mac-van-khoa-ra-sao-truoc-tin-don-vo-no-tram-ti-185260822211214305.htm"
-  },
-  {
-    "id": "hotnews_vi_a42ea859",
-    "date": "2026-08-22",
-    "ts": 1787409434000,
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/22/00-1787406375-3304-1787406935.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FVxsfRGksYbHw5vAFzSLjw",
-    "title": "Cú hích lịch sử từ vaccine mRNA ngừa tái phát ung thư",
-    "link": "https://vnexpress.net/cu-hich-lich-su-tu-vaccine-mrna-ngua-tai-phat-ung-thu-5112081.html"
-  },
-  {
-    "id": "hotnews_vi_a376a8c1",
-    "date": "2026-08-22",
-    "ts": 1787409060000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787409034426-1787409034988465207388.jpeg",
-    "title": "Phạm Tuấn khai lý do làm phim bạo lực: 'Cảnh đánh nhau thu hút nhiều người xem hơn'",
-    "link": "https://thanhnien.vn/pham-tuan-khai-ly-do-lam-phim-bao-luc-canh-danh-nhau-thu-hut-nhieu-nguoi-xem-hon-185260822212854396.htm"
-  },
-  {
-    "id": "hotnews_vi_9b34a2d7",
-    "date": "2026-08-22",
-    "ts": 1787408700000,
-    "image": "https://thanhnien.mediacdn.vn/zoom/600_315/325084952045817856/2026/8/22/base64-178740820045353646008.jpeg",
-    "title": "'Cô giáo Hương' khai không biết công dụng của Loramen nhưng vẫn bán vì tiền",
-    "link": "https://thanhnien.vn/co-giao-huong-khai-khong-biet-cong-dung-cua-loramen-nhung-van-ban-vi-tien-185260822211705626.htm"
-  },
-  {
-    "id": "hotnews_vi_0176888b",
-    "date": "2026-08-22",
-    "ts": 1787408460000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/edit-74d87ef8784ef910a05f-17874051290731069822160-0-50-348-607-crop-17874051900851687896011.jpeg",
-    "title": "Quảng Ninh huy động gần 4.000 người ứng phó bão số 4",
-    "link": "https://thanhnien.vn/quang-ninh-huy-dong-gan-4000-nguoi-ung-pho-bao-so-4-185260822203023696.htm"
-  },
-  {
-    "id": "hotnews_vi_ac2b54dc",
-    "date": "2026-08-22",
-    "ts": 1787407860000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/dsc05012-17874059550161549540994-83-0-1333-2000-crop-1787406218748859249210.jpeg",
-    "title": "Văn hóa Việt được người trẻ lan tỏa mạnh mẽ trên nền tảng số",
-    "link": "https://thanhnien.vn/van-hoa-viet-duoc-nguoi-tre-lan-toa-manh-me-tren-nen-tang-so-185260821102506865.htm"
-  },
-  {
-    "id": "hotnews_vi_badf99cb",
-    "date": "2026-08-22",
-    "ts": 1787407680000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/visa-17874058273942124976504-0-49-720-1201-crop-1787405864555608619053.jpg",
-    "title": "Thẩm phán bác lệnh cấm thị thực của ông Trump đối với công dân 75 quốc gia",
-    "link": "https://thanhnien.vn/tham-phan-bac-lenh-cam-thi-thuc-cua-ong-trump-doi-voi-cong-dan-75-quoc-gia-185260822203839672.htm"
-  },
-  {
-    "id": "hotnews_vi_b93fb7b8",
-    "date": "2026-08-22",
-    "ts": 1787407680000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/aden-1787403441384274057589-0-0-429-687-crop-17874034784071211320413.jpg",
-    "title": "Cướp biển Somalia chiếm giữ tàu dầu ngoài khơi Yemen",
-    "link": "https://thanhnien.vn/cuop-bien-somalia-chiem-giu-tau-dau-ngoai-khoi-yemen-185260822195811154.htm"
-  },
-  {
-    "id": "hotnews_vi_2a1a3d2b",
-    "date": "2026-08-22",
-    "ts": 1787407581000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/top3-1787409989.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Rp3CqcN4p0JZ_vt1QcQQgg",
-    "title": "Phố Nguyễn Huệ bùng nổ khi Quang Hải vô lê tung lưới Thái Lan",
-    "link": "https://vnexpress.net/pho-nguyen-hue-bung-no-khi-quang-hai-vo-le-tung-luoi-thai-lan-5112250.html"
-  },
-  {
-    "id": "hotnews_vi_e1920454",
-    "date": "2026-08-22",
-    "ts": 1787407450000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/Lark20260822205652-1787407082-3560-1787407194.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=kJKF3JZWENug73SFfJ9bmQ&t=image",
-    "title": "Những pha bay người cứu thua xuất thần của Patrik Lê Giang",
-    "link": "https://vnexpress.net/nhung-pha-bay-nguoi-cuu-thua-xuat-than-cua-patrik-le-giang-5112259.html"
-  },
-  {
-    "id": "hotnews_vi_7bd46d65",
-    "date": "2026-08-22",
-    "ts": 1787407200000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/GeminiGeneratedImage1l2eso1l2e-9315-7739-1787382551.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=aCZkAINbJuFIec5zQH6QZw",
-    "title": "Tôi bị các con coi thường vì lỡ có vợ bé con riêng",
-    "link": "https://vnexpress.net/toi-bi-cac-con-coi-thuong-vi-lo-co-vo-be-con-rieng-5112123.html"
-  },
-  {
-    "id": "hotnews_vi_d874b521",
-    "date": "2026-08-22",
-    "ts": 1787407020000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/2aoboqtijnquzsejg2wiocymitvrdshtm64xr040-17874058788041703324546-0-73-720-1225-crop-1787406207545341871636.jpeg",
-    "title": "Tạm giữ chủ tài khoản TikTok 'QuyHoi' vì đăng video xuyên tạc, xúc phạm lãnh đạo",
-    "link": "https://thanhnien.vn/tam-giu-chu-tai-khoan-tiktok-quyhoi-vi-dang-video-xuyen-tac-xuc-pham-lanh-dao-185260822203940436.htm"
-  },
-  {
-    "id": "hotnews_vi_b1d0106a",
-    "date": "2026-08-22",
-    "ts": 1787406660000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/gmail-1787388366448725878599-0-0-905-1448-crop-17873884578651842271366.jpg",
-    "title": "Mã độc mới tự tạo passkey chiếm đoạt email ngay cả khi đã đổi mật khẩu",
-    "link": "https://thanhnien.vn/ma-doc-moi-tu-tao-passkey-chiem-doat-email-ngay-ca-khi-da-doi-mat-khau-185260822154658984.htm"
-  },
-  {
-    "id": "hotnews_vi_f8598fc4",
-    "date": "2026-08-22",
-    "ts": 1787406540000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/img2967-17874027077462040347530-0-0-1251-2001-crop-1787402714391906199297.jpeg",
-    "title": "‘Cô giáo Hương’ khai quay video cùng Phú Lê, Huấn Hoa Hồng, Hải SaPa để bán Loramen",
-    "link": "https://thanhnien.vn/co-giao-huong-khai-quay-video-cung-phu-le-huan-hoa-hong-hai-sapa-de-ban-loramen-185260822194524374.htm"
-  },
-  {
-    "id": "hotnews_vi_f48617ed",
-    "date": "2026-08-22",
-    "ts": 1787406480000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/edit-tnw-tham-o-17874030414161368951874-123-0-1552-2287-crop-1787403127680937586424.jpeg",
-    "title": "Bị tuyên 5 năm tù vì tham ô 4 triệu đồng, nữ công chức xã kháng cáo",
-    "link": "https://thanhnien.vn/bi-tuyen-5-nam-tu-vi-tham-o-4-trieu-dong-nu-cong-chuc-xa-khang-cao-185260822195255489.htm"
-  },
-  {
-    "id": "hotnews_vi_4e156f75",
-    "date": "2026-08-22",
-    "ts": 1787406180000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/edit-thi-sinh-tuyen-quang-trung-tuyen-dai-hoc-top-tren-178740101761861499173-0-100-716-1246-crop-17874015667641461593934.png",
-    "title": "Sẽ không có nhiều thí sinh tại chuyên Tuyên Quang trúng tuyển đại học trường top trên",
-    "link": "https://thanhnien.vn/se-khong-co-nhieu-thi-sinh-tai-chuyen-tuyen-quang-trung-tuyen-dai-hoc-truong-top-tren-185260822192952533.htm"
-  },
-  {
-    "id": "hotnews_vi_8b451f6d",
-    "date": "2026-08-22",
-    "ts": 1787405736000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/giadinh-1787388555-3533-1787388579.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=rtTrkhjzocFxW3didphdnQ",
-    "title": "Tôi bất lực khuyên em gái bỏ chồng vũ phu, gây nợ 3 tỷ đồng",
-    "link": "https://vnexpress.net/toi-bat-luc-khuyen-em-gai-bo-chong-vu-phu-gay-no-3-ty-dong-5112193.html"
-  },
-  {
-    "id": "hotnews_vi_ab67b9d7",
-    "date": "2026-08-22",
-    "ts": 1787405280000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/nhan-vien-trung-tam-lai-xe-bi-moi-lam-viec-1787402277537563274921-162-0-1442-2048-crop-1787402318250104570526.jpg",
-    "title": "Bị công an mời làm việc vì đăng video gây hiểu nhầm về sát hạch lái xe",
-    "link": "https://thanhnien.vn/bi-cong-an-moi-lam-viec-vi-dang-video-gay-hieu-nham-ve-sat-hach-lai-xe-185260822194322064.htm"
-  },
-  {
-    "id": "hotnews_vi_79f9ebb8",
-    "date": "2026-08-22",
-    "ts": 1787405246000,
-    "image": "https://vcdn1-thethao.vnecdn.net/2026/08/22/a-nh-ma-n-hi-nh-lu-c-178740474-7687-9490-1787404879.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=JnZkR76YDt5gG6X8TlvGeA",
-    "title": "Man Utd thua sốc tân binh Ngoại hạng Anh",
-    "link": "https://vnexpress.net/man-utd-thua-soc-tan-binh-ngoai-hang-anh-5112254.html"
-  },
-  {
-    "id": "hotnews_vi_5e893deb",
-    "date": "2026-08-22",
-    "ts": 1787405100000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/avatar1787406475327-1787406475964564977293.jpeg",
-    "title": "Canada nói sẽ đáp trả tương xứng thuế của Mỹ sau khi đàm phán thất bại",
-    "link": "https://thanhnien.vn/canada-noi-se-dap-tra-tuong-xung-thue-cua-my-sau-khi-dam-phan-that-bai-185260822195803968.htm"
-  },
-  {
-    "id": "hotnews_vi_e64c196f",
-    "date": "2026-08-22",
-    "ts": 1787405040000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/hinh-4-1787397699266481318490-0-0-1600-2560-crop-178739803868378350329.jpg",
-    "title": "Tại lễ tốt nghiệp, chủ tịch hội đồng trường nói với sinh viên về sự tử tế",
-    "link": "https://thanhnien.vn/tai-le-tot-nghiep-chu-tich-hoi-dong-truong-noi-voi-sinh-vien-ve-su-tu-te-185260822183023158.htm"
-  },
-  {
-    "id": "hotnews_vi_ee07d690",
-    "date": "2026-08-22",
-    "ts": 1787404920000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/22/a56i9751-1787401346878407477677-105-0-1705-2560-crop-1787402444123474506124.jpg",
-    "title": "Trai tài gái sắc rực sáng trên sân đấu giải pickleball 'Cùng con đi tiếp cuộc đời'",
-    "link": "https://thanhnien.vn/trai-tai-gai-sac-ruc-sang-tren-san-dau-giai-pickleball-cung-con-di-tiep-cuoc-doi-185260822194713954.htm"
   }
 ]
