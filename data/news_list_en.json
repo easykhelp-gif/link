@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_0f79f6f8",
+    "date": "2026-08-22",
+    "ts": 1787357481000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20260822000800315"
+  },
+  {
     "id": "hotnews_en_ec101253",
     "date": "2026-08-21",
     "ts": 1787340572000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004500315_01_i_P2.jpg",
     "title": "Korea National Opera chief reports largest assets",
     "link": "https://en.yna.co.kr/view/AEN20260821004500315"
-  },
-  {
-    "id": "hotnews_en_32d67c6a",
-    "date": "2026-08-21",
-    "ts": 1787277287000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004400315_02_i_P2.jpg",
-    "title": "Moon Geun-young to return as film lead after 9 years",
-    "link": "https://en.yna.co.kr/view/AEN20260821004400315"
   }
 ]
