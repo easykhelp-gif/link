@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>코리케어(Kori Care) · 당신 곁의 한국 생활 파트너</title>
+<meta name="description" content="코리케어(Kori Care)는 한국에 사는 외국인 곁에 서는 브랜드입니다. 한국의 모든 서비스를 당신 편에 서서 생각합니다. 편하게 메시지 주세요. 메시지에는 비용이 들지 않습니다.">
+<meta name="keywords" content="코리케어, 코리케어 서비스, 코리케어 계산기, 코리케어 퇴직금, 외국인 생활 지원, Kori Care, Koricare">
+<link rel="canonical" href="https://www.koricare.kr/link/ko/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kori Care 코리케어">
+<meta property="og:url" content="https://www.koricare.kr/link/ko/">
+<meta property="og:title" content="코리케어 · 당신 곁의 한국 생활 파트너">
+<meta property="og:description" content="한국의 모든 서비스를 당신 편에 서서 생각합니다. 당신은 혼자가 아닙니다. 편하게 메시지 주세요.">
+<meta property="og:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="코리케어 · 당신 곁의 한국 생활 파트너">
+<meta name="twitter:description" content="한국의 모든 서비스를 당신 편에 서서 생각합니다. 편하게 메시지 주세요.">
+<meta name="twitter:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0R2ZQNNPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-F0R2ZQNNPZ');
+  function trackEvent(name, params) {
+    try { if (typeof gtag === 'function') gtag('event', name, params || {}); }
+    catch (e) { /* 추적 실패가 페이지를 막으면 안 된다 */ }
+  }
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "코리케어",
+  "alternateName": ["Kori Care", "Koricare", "KoriCare", "코리케어"],
+  "slogan": "BRAVE STEPS, SAFE LIFE",
+  "url": "https://www.koricare.kr",
+  "logo": "https://www.koricare.kr/link/koricare_main_logo_nobg.png",
+  "description": "한국에 사는 외국인 곁에 서는 브랜드. 한국의 모든 서비스를 당신 편에 서서 생각합니다.",
+  "sameAs": ["https://www.facebook.com/koricare.kr/", "https://m.me/koricare.kr", "https://line.me/R/ti/p/@768mkjml"]
+}
+</script>
+
+<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+  /* 그레이딩 수치는 메인 랜딩(app/globals.css)에서 승인된 값을 그대로 옮긴 것.
+     파일에 굽지 않고 CSS로 두면 숫자만 바꿔 색감을 조정할 수 있고,
+     영상을 못 받는 기기가 보는 정지컷에도 똑같이 적용된다. */
+  :root {
+    --navy: #002366;
+    --navy-deep: #1b3053;   /* 배경. 채도를 낮춰 푸른 기운을 뺐다 */
+    --ice: #cfe2ff;
+
+    --grade-contrast: 1.34;
+    --grade-saturate: 1.5;
+    --grade-brightness: 0.88;
+    --grade-navy: #081a4a;
+    --grade-navy-opacity: 0.5;
+    --grade-warm: #ff9a3c;
+    --grade-warm-opacity: 0.07;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    position: relative;
+    /* fixed로 두면 그라데이션이 화면 기준으로 매핑돼
+       히어로가 끝나는 지점에서 스크림 색과 어긋나 띠가 생긴다. */
+    background: linear-gradient(180deg, #1b3053 0%, #16273f 54%, #101a2b 100%);
+    color: #fff;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+                 "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+    line-height: 1.78;
+    letter-spacing: -0.015em;
+    word-break: keep-all;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* 우측 상단 언어 선택. 메인 Navbar와 같은 드롭다운 방식.
+     이 페이지는 번역본이 아니라 성격이 다른 페이지라서
+     페이지 단위 hreflang은 걸지 않는다. 앵커 속성은 힌트일 뿐이다. */
+  .langbar { position: absolute; top: 0; right: 0; z-index: 20; padding: 16px 20px; }
+  .lang-btn {
+    display: flex; align-items: center; gap: 6px; cursor: pointer;
+    background: rgba(0,25,80,.55); border: 1px solid rgba(255,255,255,.42);
+    color: #fff; padding: 7px 12px; border-radius: 20px;
+    font-size: 12.5px; font-weight: 500; font-family: inherit; letter-spacing: -.01em;
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    transition: background .2s ease;
+  }
+  .lang-btn:hover { background: rgba(0,25,80,.75); }
+  .lang-btn svg { width: 15px; height: 15px; flex: none; }
+  .lang-btn .caret { font-size: 8px; opacity: .8; margin-left: 1px; }
+  .lang-menu {
+    position: absolute; right: 20px; top: 52px;
+    display: flex; flex-direction: column; gap: 3px;
+    background: #0d2a55; border: 1px solid rgba(255,255,255,.24);
+    border-radius: 14px; padding: 6px; min-width: 132px;
+    box-shadow: 0 12px 36px rgba(0,8,32,.5);
+  }
+  .lang-menu[hidden] { display: none; }
+  .lang-menu a {
+    padding: 9px 14px; border-radius: 9px; text-decoration: none;
+    color: rgba(255,255,255,.9); font-size: 13px; font-weight: 500; letter-spacing: -.01em;
+    transition: background .18s ease, color .18s ease;
+  }
+  .lang-menu a:hover { background: rgba(255,255,255,.14); color: #fff; }
+
+  /* ================= 1. 히어로 ================= */
+  .hero {
+    position: relative; min-height: 92svh; display: flex; align-items: center;
+    justify-content: center; text-align: center; overflow: hidden; isolation: isolate;
+  }
+  .hero-media, .hero-grade-navy, .hero-grade-warm, .hero-scrim { position: absolute; inset: 0; z-index: -1; }
+  .hero-media {
+    background: url("https://www.koricare.kr/seoul-night-poster.webp") center/cover no-repeat #001233;
+    filter: contrast(var(--grade-contrast)) saturate(var(--grade-saturate)) brightness(var(--grade-brightness));
+  }
+  .hero-media video { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity .9s ease; }
+  .hero-media video.is-playing { opacity: 1; }
+  .hero-grade-navy { background: var(--grade-navy); opacity: var(--grade-navy-opacity); mix-blend-mode: soft-light; }
+  .hero-grade-warm { background: var(--grade-warm); opacity: var(--grade-warm-opacity); mix-blend-mode: screen; }
+  .hero-scrim {
+    background: linear-gradient(180deg,
+      rgba(0,8,32,.60) 0%, rgba(0,8,32,.24) 34%, rgba(0,8,32,.30) 100%);
+  }
+  /* 아래로 길게 깔리는 페이드. 정지점을 여러 개 두어
+     '여기서부터 불투명' 하는 경계가 생기지 않게 한다. */
+  .hero-fade {
+    position: absolute; left: 0; right: 0; bottom: -1px; height: 52%; z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(180deg,
+      rgba(27,48,83,0)    0%,
+      rgba(27,48,83,.10) 18%,
+      rgba(27,48,83,.24) 33%,
+      rgba(27,48,83,.42) 47%,
+      rgba(27,48,83,.62) 60%,
+      rgba(27,48,83,.80) 72%,
+      rgba(27,48,83,.93) 84%,
+      rgba(27,48,83,1)   94%);
+  }
+
+  /* 유리 느낌의 청량한 네이비블루. 브랜드명과 같은 색 계열로 묶는다. */
+  .badge {
+    display: inline-block; font-size: 10.5px; font-weight: 500; letter-spacing: .22em;
+    padding: 7px 16px; border-radius: 40px; color: rgba(224,238,255,.9);
+    background: linear-gradient(135deg, rgba(56,120,255,.30) 0%, rgba(10,40,110,.42) 100%);
+    border: 1px solid rgba(150,200,255,.3);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.14);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    margin-bottom: 26px;
+  }
+  /* 큰 글씨 전용. 명조는 안 맞아서 되돌리고, 대신 Pretendard를 가장 굵게
+     + 자간을 크게 좁혀 디스플레이 조판으로 쓴다. */
+  /* 굵기로 존재감을 내지 않는다. 크기와 자간으로 낸다. */
+  .serif {
+    font-weight: 600;
+    letter-spacing: -.045em;
+  }
+  .hero h1 { font-size: clamp(40px, 8.6vw, 58px); font-weight: 600; line-height: 1.08; letter-spacing: -.03em; }
+  .hero h1 .brand {
+    display: block; position: relative;
+    background: linear-gradient(168deg, #ffffff 0%, #eaf3ff 46%, var(--ice) 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: var(--ice);
+    filter: drop-shadow(0 3px 18px rgba(0,10,40,.45));
+  }
+  /* 로고타이프 아래 가는 선 — 글자만 놓았을 때의 허전함을 메운다 */
+  .brand-rule {
+    display: block; width: 46px; height: 2px; margin: 20px auto 0; border-radius: 2px;
+    background: linear-gradient(90deg, rgba(207,226,255,.15), var(--ice), rgba(207,226,255,.15));
+  }
+  .hero h1 .romanized {
+    display: block; margin-top: 16px;
+    font-size: clamp(10.5px, 2.2vw, 12px); font-weight: 600; letter-spacing: .46em;
+    text-indent: .46em; color: rgba(207,226,255,.55); -webkit-text-fill-color: currentColor;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+  }
+  /* 부제와 그 아래 문장은 한 덩어리로 읽혀야 한다 — 사이를 좁힌다 */
+  .hero h1 .sub-title {
+    display: block; font-size: clamp(16px, 3.2vw, 18.5px); font-weight: 400;
+    color: rgba(255,255,255,.86); margin-top: 34px; letter-spacing: -.02em;
+    -webkit-text-fill-color: currentColor;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+  }
+  /* 문장 대신 키워드. 이 자리에 문장을 넣으면 브랜드명과 부딪힌다. */
+  .hero .keywords {
+    margin: 20px auto 0; font-size: clamp(14px, 3.1vw, 16px); font-weight: 500;
+    letter-spacing: .02em; color: rgba(255,255,255,.9); line-height: 1.9;
+  }
+  .hero .keywords i {
+    font-style: normal; color: rgba(207,226,255,.42); margin: 0 3px;
+  }
+  /* 이 페이지에서 가장 하고 싶은 말. 명조로 크게. */
+  .hero .friend {
+    margin-top: 34px; font-size: clamp(23px, 5.4vw, 31px); font-weight: 500;
+    letter-spacing: -.02em; line-height: 1.4; color: var(--ice);
+    text-shadow: 0 2px 24px rgba(0,10,40,.5);
+  }
+  .hero .invite {
+    margin: 20px auto 0; font-size: clamp(14px, 3.2vw, 15.5px); line-height: 1.8;
+    color: rgba(255,255,255,.62); letter-spacing: -.02em;
+  }
+  .hero .invite b { color: rgba(255,255,255,.95); font-weight: 600; }
+  /* 두 채널을 같은 무게로. 각자 브랜드 색을 쓴다. */
+  .hero-cta {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    max-width: 292px; margin: 30px auto 0;
+  }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+    text-decoration: none; font-weight: 500; font-size: 13.5px; padding: 9px 16px;
+    border-radius: 980px; border: 1px solid transparent; letter-spacing: -.01em; color: #fff;
+    transition: filter .2s ease, transform .2s ease;
+  }
+  .btn svg { width: 15px; height: 15px; fill: currentColor; flex: none; }
+  .btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .btn-fb   { background: #1877f2; }
+  .btn-line { background: #06c755; }
+  .scroll-hint {
+    position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%);
+    font-size: 11px; letter-spacing: .18em; color: rgba(255,255,255,.42);
+  }
+
+  /* ================= 2. 마음가짐 ================= */
+  .creed { padding: 76px 0 76px; text-align: center; position: relative; }
+  .creed::before {
+    content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 1px; height: 36px; background: linear-gradient(180deg, rgba(207,226,255,.42), transparent);
+  }
+  .creed .eyebrow {
+    font-size: 11.5px; font-weight: 700; letter-spacing: .2em; color: var(--ice);
+    opacity: .8; margin-bottom: 26px;
+  }
+  .creed .decl { margin-top: 0 }
+  .creed .who {
+    font-size: clamp(19px, 4.4vw, 25px); font-weight: 500; line-height: 1.85;
+    color: rgba(255,255,255,.72); letter-spacing: -.03em;
+  }
+  .creed .who span { display: block; }
+  .creed .decl {
+    margin-top: 44px; font-size: clamp(24px, 5.6vw, 34px); font-weight: 700;
+    line-height: 1.5; letter-spacing: -.04em; color: #fff;
+  }
+  .creed .decl .ice { color: var(--ice); }
+  .creed .side {
+    margin-top: 34px; font-size: clamp(17px, 3.8vw, 20px); line-height: 1.8;
+    color: rgba(255,255,255,.8); letter-spacing: -.025em;
+  }
+  .creed .friend {
+    margin-top: 12px; font-size: clamp(20px, 4.6vw, 26px); font-weight: 700;
+    letter-spacing: -.035em; color: var(--ice);
+  }
+  .creed .invite { margin-top: 52px; font-size: clamp(17px, 3.8vw, 20px); line-height: 1.85; color: rgba(255,255,255,.88); }
+  .creed .invite b { font-weight: 600; color: #fff; }
+  .creed .quiet { margin-top: 10px; font-size: 15.5px; color: rgba(255,255,255,.55); }
+
+  
+  .contact-btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    text-decoration: none; font-weight: 600; font-size: 16px; padding: 18px 12px;
+    border-radius: 16px; background: #fff; color: var(--navy); letter-spacing: -.02em;
+  }
+  .contact-btn.line { background: #06c755; color: #fff; }
+
+  /* 세 갈래 입구 */
+  .entries-section { padding: 76px 0 0; }
+  .entries {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+    margin: 0 auto; position: relative; z-index: 2;
+    align-items: stretch;   /* 카드 높이를 서로 맞춘다 */
+  }
+  .entry {
+    /* 세로 플렉스 — 설명 길이가 달라도 '바로가기' 줄이 같은 높이에 온다 */
+    position: relative; display: flex; flex-direction: column; text-align: center;
+    text-decoration: none; color: #fff; padding: 30px 22px 24px; overflow: hidden;
+    border-radius: 22px; border: 1px solid rgba(170,195,225,.20);
+    background: linear-gradient(158deg, rgba(255,255,255,.10) 0%, rgba(255,255,255,.035) 52%, rgba(150,180,220,.05) 100%);
+    backdrop-filter: blur(14px) saturate(1.2); -webkit-backdrop-filter: blur(14px) saturate(1.2);
+    /* 그림자를 여러 겹으로 — 한 겹 큰 그림자보다 물리적으로 떠 보인다 */
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.22),
+      0 2px 5px rgba(0,8,32,.20),
+      0 8px 18px rgba(0,8,32,.24),
+      0 20px 44px rgba(0,8,32,.30);
+    transition: transform .34s cubic-bezier(.2,.7,.3,1), box-shadow .34s ease,
+                border-color .3s ease, background .3s ease;
+  }
+  /* 윗면을 스치는 빛 한 줄 */
+  .entry::before {
+    content: ""; position: absolute; top: 0; left: 16%; right: 16%; height: 1px; pointer-events: none;
+    background: linear-gradient(90deg, transparent, rgba(207,226,255,.75), transparent);
+  }
+  /* 카드 안쪽 위에서 번지는 광원 */
+  .entry::after {
+    content: ""; position: absolute; top: -48%; left: 50%; transform: translateX(-50%);
+    width: 120%; aspect-ratio: 1.6/1; pointer-events: none; opacity: 0; transition: opacity .34s ease;
+    background: radial-gradient(ellipse at center, rgba(130,185,255,.28) 0%, rgba(130,185,255,0) 66%);
+  }
+  .entry:hover {
+    transform: translateY(-6px);
+    border-color: rgba(207,226,255,.46);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.3),
+      0 4px 10px rgba(0,8,32,.24),
+      0 14px 28px rgba(0,8,32,.30),
+      0 32px 66px rgba(0,8,32,.40);
+  }
+  .entry:hover::after { opacity: 1; }
+
+  /* 번호는 모서리에 작게 — 제목 자리를 뺏지 않는다 */
+  .entry .n {
+    position: absolute; top: 16px; right: 18px;
+    font-size: 11px; font-weight: 700; letter-spacing: .12em;
+    color: var(--ice); opacity: .38;
+  }
+  .entry b { position: relative; display: block; font-size: 17.5px; font-weight: 700; letter-spacing: -.034em; margin-bottom: 9px; }
+  .entry p { position: relative; font-size: 14.5px; line-height: 1.68; color: rgba(255,255,255,.74); letter-spacing: -.02em; }
+  .entry .go {
+    position: relative; display: inline-flex; align-items: center; gap: 6px;
+    margin-top: auto; padding-top: 20px;   /* 항상 카드 바닥에 붙는다 */
+    align-self: center; font-size: 13.5px; font-weight: 600; color: var(--ice);
+  }
+  .entry .go .arw { transition: transform .3s cubic-bezier(.2,.7,.3,1); display: inline-block; }
+  .entry:hover .go .arw { transform: translateX(4px); }
+
+  /* 하는 일 설명 — 유리판 한 장을 띄운 느낌.
+     반투명 + 블러 + 위쪽 하이라이트 + 아래로 깔리는 그림자 네 겹. */
+  .about {
+    position: relative; margin: 52px auto 0; max-width: 620px;
+    padding: 48px 44px 42px; border-radius: 26px; overflow: hidden;
+    text-align: center;
+    background: linear-gradient(158deg, rgba(255,255,255,.085) 0%, rgba(255,255,255,.035) 46%, rgba(150,180,220,.045) 100%);
+    border: 1px solid rgba(160,205,255,.20);
+    backdrop-filter: blur(16px) saturate(1.2); -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.20),
+      0 2px 6px rgba(0,8,32,.20),
+      0 10px 24px rgba(0,8,32,.26),
+      0 28px 64px rgba(0,8,32,.34);
+  }
+  /* 유리 위를 지나는 빛 한 줄 */
+  .about::before {
+    content: ""; position: absolute; top: 0; left: 12%; right: 12%; height: 1px; pointer-events: none;
+    background: linear-gradient(90deg, transparent, rgba(207,226,255,.7), transparent);
+  }
+  /* 왼쪽 위 모서리에 도는 옅은 광원 */
+  .about::after {
+    content: ""; position: absolute; top: -60%; left: -20%; width: 90%; aspect-ratio: 1/1;
+    pointer-events: none; border-radius: 50%;
+    background: radial-gradient(circle at center, rgba(120,180,255,.16) 0%, rgba(120,180,255,0) 66%);
+  }
+  .about p {
+    position: relative; font-size: 16px; line-height: 1.85;
+    color: rgba(255,255,255,.7); letter-spacing: -.022em; margin-bottom: 14px;
+    text-wrap: balance;
+  }
+  /* 첫 문장은 리드. 여기서 위계가 갈린다. */
+  .about .lead-line {
+    font-size: clamp(18px, 4vw, 21px); font-weight: 600; line-height: 1.6;
+    color: #fff; letter-spacing: -.032em; margin-bottom: 24px;
+  }
+  .about .sep {
+    margin-top: 28px; padding-top: 26px;
+    border-top: 1px solid rgba(160,205,255,.16);
+  }
+  .about p:last-child { margin-bottom: 0; }
+  .about b { color: rgba(255,255,255,.96); font-weight: 600; }
+
+  /* 맺음 — 가운데 정렬. 상자 대신 뒤에서 번지는 빛으로만 마무리한다. */
+  .closing {
+    position: relative; margin: 0 auto; max-width: 560px;
+    padding: 66px 24px 8px; text-align: center; isolation: isolate;
+  }
+  /* 뒤에서 올라오는 빛무리 */
+  .closing::before {
+    content: ""; position: absolute; z-index: -1; top: 6%; left: 50%; transform: translateX(-50%);
+    width: 132%; aspect-ratio: 1.9 / 1; pointer-events: none;
+    background: radial-gradient(ellipse at center, rgba(110,175,255,.22) 0%, rgba(110,175,255,.07) 42%, rgba(110,175,255,0) 70%);
+  }
+  /* 위쪽 중앙에서 내려오는 가는 선 */
+  .closing::after {
+    content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 1px; height: 42px;
+    background: linear-gradient(180deg, rgba(207,226,255,.62), transparent);
+  }
+  .closing-mark {
+    display: inline-block; padding: 8px 18px; border-radius: 40px;
+    font-size: 10.5px; font-weight: 700; letter-spacing: .28em; text-indent: .28em;
+    color: var(--ice);
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(160,205,255,.24);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  }
+  .closing-line {
+    margin-top: 22px; font-size: clamp(19px, 4.4vw, 25px); font-weight: 600;
+    line-height: 1.62; letter-spacing: -.038em; color: #fff;
+  }
+
+  footer {
+    padding: 40px 0 56px; text-align: center; font-size: 13px;
+    color: rgba(255,255,255,.4); border-top: 1px solid rgba(255,255,255,.08);
+  }
+  footer a { color: rgba(255,255,255,.55); text-decoration: none; }
+
+  /* 태블릿 이하 — 3열을 유지하면 카드가 세로로 길게 눌린다 */
+  @media (max-width: 860px) {
+    .entries { grid-template-columns: 1fr; gap: 12px; max-width: 440px; }
+    .entry { text-align: left; padding: 22px 22px 20px; }
+    .entry .body { flex: 1; min-width: 0; }
+    .entry b { font-size: 16.5px; margin-bottom: 4px; }
+    .entry p { font-size: 14px; line-height: 1.6; }
+    .entry .n { top: 22px; right: 22px; }
+    .entry .go { margin: 10px 0 0; padding-top: 0; align-self: flex-start; font-size: 13px; }
+  }
+  @media (max-width: 560px) {
+    .entries-section { padding: 56px 0 0; }
+    .creed { padding: 60px 0 64px; }
+    .contact-grid { grid-template-columns: 1fr; max-width: 320px; }
+    .about { padding: 34px 22px 30px; border-radius: 22px; }
+    /* 넓은 화면용 줄바꿈은 좁은 화면에서 오히려 어색하게 끊긴다 */
+    .about br { display: none; }
+    .entry .n { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-media video { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="langbar">
+  <button type="button" class="lang-btn" id="langBtn" aria-expanded="false" aria-haspopup="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    <span>한국어</span>
+    <span class="caret">▼</span>
+  </button>
+  <div class="lang-menu" id="langMenu" hidden>
+    <a href="https://www.koricare.kr/" hreflang="en" lang="en"
+       onclick="trackEvent('lang_switch', { to: 'en', source: 'ko_page' })">English</a>
+    <a href="https://www.koricare.kr/th" hreflang="th" lang="th"
+       onclick="trackEvent('lang_switch', { to: 'th', source: 'ko_page' })">ไทย</a>
+    <a href="https://www.koricare.kr/vi" hreflang="vi" lang="vi"
+       onclick="trackEvent('lang_switch', { to: 'vi', source: 'ko_page' })">Tiếng Việt</a>
+  </div>
+</nav>
+
+<!-- ============ 1. 슬로건 ============ -->
+<div class="hero">
+  <div class="hero-media" id="heroMedia"></div>
+  <div class="hero-grade-navy"></div>
+  <div class="hero-grade-warm"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-fade"></div>
+
+  <div class="wrap">
+    <span class="badge">BRAVE STEPS, SAFE LIFE</span>
+    <h1>
+      <span class="brand serif">코리케어</span>
+      <span class="brand-rule"></span>
+      <span class="romanized">KoriCare</span>
+    </h1>
+    <p class="friend serif">당신은 혼자가 아닙니다</p>
+    <p class="keywords">퇴직금 <i>·</i> 법률 <i>·</i> 생활 <i>·</i> 안전 <i>·</i> 이사</p>
+    <p class="invite">
+      편하게 메시지 주세요. <b>메시지에는 비용이 들지 않습니다.</b>
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-fb" href="https://m.me/koricare.kr" target="_blank" rel="noopener"
+         onclick="trackEvent('contact_click', { method: 'messenger', source: 'ko_hero' })">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook
+      </a>
+      <a class="btn btn-line" href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener"
+         onclick="trackEvent('contact_click', { method: 'line', source: 'ko_hero' })">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314M7.868 13.147H5.484a.63.63 0 0 1-.63-.629V8.108a.63.63 0 1 1 1.26 0v3.781h1.754a.63.63 0 0 1 0 1.258m2.467-.629a.63.63 0 0 1-1.258 0V8.108a.63.63 0 1 1 1.258 0zm5.741 0a.63.63 0 0 1-.431.596.7.7 0 0 1-.199.031.62.62 0 0 1-.51-.25l-2.443-3.317v2.94a.63.63 0 0 1-1.257 0V8.108a.63.63 0 0 1 .43-.595.6.6 0 0 1 .194-.033c.195 0 .375.104.495.254l2.462 3.33V8.108a.63.63 0 1 1 1.26 0zm3.855-2.996a.63.63 0 0 1 0 1.259H18.24v1.125h1.691a.63.63 0 0 1 0 1.258h-2.32a.63.63 0 0 1-.628-.629V8.108a.63.63 0 0 1 .629-.63h2.32a.63.63 0 0 1 0 1.26H18.24v1.124z"/></svg>
+        LINE
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 2. 마음가짐 ============ -->
+<!-- ============ 2. 세 갈래 입구 ============ -->
+<div class="wrap entries-section">
+  <div class="entries">
+    <a class="entry" href="../index.html"
+       onclick="trackEvent('entry_click', { target: 'links', source: 'ko_page' })">
+      <span class="n">01</span>
+      <div class="body">
+        <b>코리케어 링크 서비스</b>
+      <p>병원·관공서·은행·긴급번호를<br>지역별로 모았습니다</p>
+      <span class="go">바로가기 <span class="arw">→</span></span>
+      </div>
+    </a>
+    <a class="entry" href="../severance-calculator.html"
+       onclick="trackEvent('entry_click', { target: 'calculator', source: 'ko_page' })">
+      <span class="n">02</span>
+      <div class="body">
+        <b>코리케어 퇴직금 계산기</b>
+      <p>내 예상 퇴직금은 얼마일까?<br>간단히 계산해보세요</p>
+      <span class="go">계산해보기 <span class="arw">→</span></span>
+      </div>
+    </a>
+    <a class="entry" href="../en/guides/"
+       onclick="trackEvent('entry_click', { target: 'guides', source: 'ko_page' })">
+      <span class="n">03</span>
+      <div class="body">
+        <b>코리케어 가이드</b>
+      <p>한국 생활에 필요한 정보를<br>주제별로 정리했습니다</p>
+      <span class="go">읽어보기 <span class="arw">→</span></span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<section class="creed">
+  <div class="wrap">
+    
+    <p class="decl serif">코리케어가<br><span class="ice">하는 일</span></p>
+
+    <div class="about">
+      <p class=lead-line><b>법률·노동 문제</b>부터 <b>일상의 작은 일</b>까지 함께 봅니다.</p>
+      <p>퇴직금과 임금체불, 근로계약과 부당한 대우처럼<br><b>권리가 걸린 일</b>이 있습니다.</p>
+      <p>병원과 관공서 서류, 은행과 통신,<br>집을 구하고 옮기는 일, 물건을 사고파는 일처럼<br>사소해 보여도 <b>언어가 막히면 어려워지는 일</b>도 있습니다.</p>
+      <p class=sep>무엇이 <b>법으로 정해진 권리</b>인지부터 알려드립니다.<br>혼자서도 되는 일이면 그 방법을 알려드리고,<br>도움이 필요하면 옆에서 같이 하겠습니다.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 4. 맺음 ============ -->
+<section class="closing-wrap" style="padding:0 0 96px">
+  <div class="wrap">
+  <div class="closing">
+    <span class="closing-mark">BRAVE STEPS, SAFE LIFE</span>
+    <p class="closing-line serif">당신의 한 걸음을<br>곁에서 응원하겠습니다.</p>
+  </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 코리케어 Kori Care · <a href="../index.html">포털 홈</a>
+</footer>
+
+<script>
+(function () {
+  // 언어 드롭다운
+  var lb = document.getElementById('langBtn');
+  var lm = document.getElementById('langMenu');
+  if (lb && lm) {
+    var setOpen = function (open) {
+      lm.hidden = !open;
+      lb.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    lb.addEventListener('click', function (e) {
+      e.stopPropagation();
+      setOpen(lm.hidden);
+    });
+    document.addEventListener('click', function () { setOpen(false); });
+    lm.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setOpen(false);
+    });
+  }
+})();
+
+(function () {
+  // 영상 로드 판정 — 메인 랜딩 useSceneQuality와 같은 기준.
+  // 절전·데이터 절약·2G·저메모리·모션 최소화 기기는 정지컷만 본다.
+  function wantsVideo() {
+    try {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+      var c = navigator.connection || {};
+      if (c.saveData) return false;
+      if (c.effectiveType && /(^|-)2g$/.test(c.effectiveType)) return false;
+      if (navigator.deviceMemory && navigator.deviceMemory < 2) return false;
+      return true;
+    } catch (e) { return false; }
+  }
+
+  if (wantsVideo()) {
+    var v = document.createElement('video');
+    v.src = 'https://www.koricare.kr/seoul-night.mp4';
+    v.muted = true; v.loop = true; v.playsInline = true;
+    v.setAttribute('muted', ''); v.setAttribute('playsinline', '');
+    v.preload = 'metadata'; v.setAttribute('aria-hidden', 'true');
+    document.getElementById('heroMedia').appendChild(v);
+
+    var play = function () {
+      v.play().then(function () { v.classList.add('is-playing'); })
+              .catch(function () { /* 자동재생 거부 — 정지컷이 남는다 */ });
+    };
+    if (v.readyState >= 3) play();
+    v.addEventListener('canplay', play);
+
+    // 화면 밖이면 멈춘다. 배경 영상이 배터리를 먹으면 안 된다.
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) {
+        es.forEach(function (e) { e.isIntersecting ? play() : v.pause(); });
+      }, { threshold: 0.05 }).observe(document.getElementById('heroMedia'));
+    }
+  }
+})();
+</script>
+
+</body>
+</html>
