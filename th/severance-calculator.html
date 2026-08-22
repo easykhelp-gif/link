@@ -3,9 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Korea Severance Pay Calculator | Kori Care (โปรแกรมคำนวณเงินชดเชยเกาหลี)</title>
-<meta name="description" content="Official Korean Labor Standards Act Severance Pay Calculator for foreign residents and workers in South Korea.">
+<title>โปรแกรมคำนวณเงินชดเชยเกาหลี 퇴직금 계산기 | Kori Care 코리케어</title>
+<meta name="description" content="Kori Care(코리케어) โปรแกรมคำนวณเงินชดเชย (퇴직금) สำหรับแรงงานต่างชาติในเกาหลี ทำงานครบ 1 ปีขึ้นไปก็มีสิทธิ์ เช็กยอดฟรีใน 1 นาที ไม่ต้องสมัครสมาชิก">
+<meta name="keywords" content="코리케어, 코리케어 계산기, 코리케어 퇴직금, 외국인 퇴직금 계산기, Kori Care, Koricare, โปรแกรมคำนวณเงินชดเชย, เงินชดเชยเกาหลี">
 <link rel="canonical" href="https://www.koricare.kr/link/th/severance-calculator">
+
+<!-- 공유 카드: 없으면 페북이 500x500 로고를 집어 작은 썸네일 카드로 만든다 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kori Care 코리케어">
+<meta property="og:url" content="https://www.koricare.kr/link/th/severance-calculator">
+<meta property="og:title" content="เงินชดเชย (퇴직금) ของคุณเท่าไหร่?">
+<meta property="og:description" content="ทำงานในเกาหลีครบ 1 ปีขึ้นไป? เงินชดเชย (퇴직금) เป็นสิทธิ์ตามกฎหมายของคุณ เช็กยอดฟรีใน 1 นาที ไม่ต้องสมัครสมาชิก">
+<meta property="og:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="th_TH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เงินชดเชย (퇴직금) ของคุณเท่าไหร่?">
+<meta name="twitter:description" content="ทำงานครบ 1 ปีขึ้นไปก็มีสิทธิ์ เช็กยอดฟรีใน 1 นาที">
+<meta name="twitter:image" content="https://www.koricare.kr/link/news/images/og_severance_calculator.jpg">
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +33,13 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-F0R2ZQNNPZ');
+
+  // 전환 추적 헬퍼. gtag가 차단·미로드여도 페이지 동작에 영향 없음
+  function trackEvent(name, params) {
+    try {
+      if (typeof gtag === 'function') gtag('event', name, params || {});
+    } catch (e) { /* 추적 실패가 계산기를 막으면 안 된다 */ }
+  }
 </script>
 <style>
   :root {
@@ -517,10 +540,12 @@
       </div>
 
       <div class="action-grid">
-        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line">
+        <a href="https://line.me/R/ti/p/@768mkjml" target="_blank" rel="noopener" class="action-btn line"
+           onclick="trackEvent('contact_click', { method: 'line', source: 'calculator_result' })">
           ปรึกษาผ่าน LINE
         </a>
-        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg">
+        <a href="https://m.me/koricare.kr" target="_blank" rel="noopener" class="action-btn msg"
+           onclick="trackEvent('contact_click', { method: 'messenger', source: 'calculator_result' })">
           ปรึกษา Messenger
         </a>
         <button type="button" class="action-btn share" onclick="shareCalculator()">
@@ -572,14 +597,21 @@
 
   function animateNumberCounter(targetVal) {
     const el = document.getElementById("resultAmount");
+    const render = (v) =>
+      el.innerHTML = "₩ " + Math.round(v).toLocaleString("en-US") + " <span>KRW</span>";
+
+    // 먼저 최종값을 확정해 둔다. requestAnimationFrame이 돌지 않는 경우
+    // (백그라운드 탭·절전 모드 등) 직전 계산의 문구가 그대로 남는 것을 막는다.
+    render(targetVal);
+    if (document.hidden || typeof requestAnimationFrame !== "function") return;
+
     const duration = 600;
     const startTime = performance.now();
 
     function updateCounter(currentTime) {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      const currentVal = Math.round(targetVal * (1 - Math.pow(1 - progress, 2)));
-      el.innerHTML = "₩ " + currentVal.toLocaleString("en-US") + " <span>KRW</span>";
+      render(targetVal * (1 - Math.pow(1 - progress, 2)));
       if (progress < 1) {
         requestAnimationFrame(updateCounter);
       }
@@ -613,6 +645,11 @@
     if (totalDays < 365) {
       document.getElementById("resultAmount").innerHTML = "ไม่มีสิทธิ์รับเงินชดเชย <span>(ทำงานไม่ถึง 1 ปี)</span>";
       document.getElementById("resultRange").innerHTML = "เงินชดเชยตามกฎหมายต้องทำงานต่อเนื่อง <b>1 ปีขึ้นไป (365 วัน)</b>";
+      trackEvent('calculate_complete', {
+        eligible: false,
+        months_worked: Math.round(totalDays / 30),
+        visa_status: currentVisaStatus
+      });
       resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
@@ -624,6 +661,16 @@
 
     animateNumberCounter(baseSeverance);
     document.getElementById("resultRange").innerHTML = "ช่วงประมาณการ: <b>₩ " + minRange.toLocaleString() + "</b> ~ <b>₩ " + maxRange.toLocaleString() + " KRW</b>";
+
+    // 금액은 구간으로만 보낸다 (개인 식별 방지)
+    trackEvent('calculate_complete', {
+      eligible: true,
+      years_worked: Math.round((totalDays / 365) * 10) / 10,
+      severance_band: baseSeverance < 3000000 ? 'under_3m'
+        : baseSeverance < 6000000 ? '3m_6m'
+        : baseSeverance < 10000000 ? '6m_10m' : 'over_10m',
+      visa_status: currentVisaStatus
+    });
 
     resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
   }
