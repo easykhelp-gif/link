@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_c79f169a",
+    "date": "2026-08-22",
+    "ts": 1787366426000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822001200315_12_i_P2.jpg",
+    "title": "Girls' Generation's HRS unit to debut with 'Skibidi' single",
+    "link": "https://en.yna.co.kr/view/AEN20260822001200315"
+  },
+  {
+    "id": "hotnews_en_0b04fd86",
+    "date": "2026-08-22",
+    "ts": 1787360223000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822001100315_01_i_P2.jpg",
+    "title": "N. Korea denounces Japan's record defense budget as 'war preparation'",
+    "link": "https://en.yna.co.kr/view/AEN20260822001100315"
+  },
+  {
+    "id": "hotnews_en_3b3129e1",
+    "date": "2026-08-22",
+    "ts": 1787360098000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/22/AEN20260822001000315_04_i_P2.jpg",
+    "title": "Katseye scores career-best No. 2 on British albums chart",
+    "link": "https://en.yna.co.kr/view/AEN20260822001000315"
+  },
+  {
     "id": "hotnews_en_0f79f6f8",
     "date": "2026-08-22",
     "ts": 1787357481000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062907930001300_P2.jpg",
     "title": "(LEAD) Kakao Corp. to spinoff core biz to strengthen AI capabilities",
     "link": "https://en.yna.co.kr/view/AEN20260821004251320"
-  },
-  {
-    "id": "hotnews_en_ed737f26",
-    "date": "2026-08-21",
-    "ts": 1787277815000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004600320_01_i_P2.jpg",
-    "title": "Genesis' cumulative U.S. sales surpass 450,000 units",
-    "link": "https://en.yna.co.kr/view/AEN20260821004600320"
-  },
-  {
-    "id": "hotnews_en_35b6e42d",
-    "date": "2026-08-21",
-    "ts": 1787277524000,
-    "image": "",
-    "title": "Supervisor's approval to be required for police officer to close missing person case",
-    "link": "https://en.yna.co.kr/view/AEN20260821003100315"
-  },
-  {
-    "id": "hotnews_en_c098a5d9",
-    "date": "2026-08-21",
-    "ts": 1787277299000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821004500315_01_i_P2.jpg",
-    "title": "Korea National Opera chief reports largest assets",
-    "link": "https://en.yna.co.kr/view/AEN20260821004500315"
   }
 ]
