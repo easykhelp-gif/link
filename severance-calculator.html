@@ -678,7 +678,7 @@
     // 금액은 구간으로만 보낸다 (개인 식별 방지)
     trackEvent('calculate_complete', {
       eligible: true,
-      years_worked: Math.round(totalDays / 365),
+      years_worked: Math.round((totalDays / 365) * 10) / 10,
       severance_band: baseSeverance < 3000000 ? 'under_3m'
         : baseSeverance < 6000000 ? '3m_6m'
         : baseSeverance < 10000000 ? '6m_10m' : 'over_10m',
