@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_db90071f",
+    "date": "2026-08-23",
+    "ts": 1787493726000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/23/AEN20260823006000315_01_i_P2.jpg",
+    "title": "BIGBANG launches 20th anniv. world tour with hit-filled Goyang shows",
+    "link": "https://en.yna.co.kr/view/AEN20260823006000315"
+  },
+  {
+    "id": "hotnews_en_dd1fbf33",
+    "date": "2026-08-23",
+    "ts": 1787489668000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/23/PAF20260823177701009_P2.jpg",
+    "title": "(2nd LD) An Se-young captures 2nd career badminton world title",
+    "link": "https://en.yna.co.kr/view/AEN20260823005752315"
+  },
+  {
+    "id": "hotnews_en_5ce2280e",
+    "date": "2026-08-23",
+    "ts": 1787489067000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/08/23/PAF20260823173201009_P2.jpg",
+    "title": "(LEAD) An Se-young captures 2nd career badminton world title",
+    "link": "https://en.yna.co.kr/view/AEN20260823005751315"
+  },
+  {
     "id": "hotnews_en_fc201d80",
     "date": "2026-08-23",
     "ts": 1787481878000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2025/05/01/PYH2025050106680001300_P2.jpg",
     "title": "(URGENT) Lee appoints senior trade official Park Jung-sung as chief trade negotiator",
     "link": "https://en.yna.co.kr/view/AEN20260821007300315"
-  },
-  {
-    "id": "hotnews_en_f37c5fdc",
-    "date": "2026-08-21",
-    "ts": 1787294141000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082101790001300_P2.jpg",
-    "title": "Stocks end higher on chip gains amid hopes for shareholder return plans",
-    "link": "https://en.yna.co.kr/view/AEN20260821006900320"
-  },
-  {
-    "id": "hotnews_en_f39c5a42",
-    "date": "2026-08-21",
-    "ts": 1787294022000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Stocks end higher on chip gains amid hopes for shareholder return plans",
-    "link": "https://en.yna.co.kr/view/AEN20260821006700320"
-  },
-  {
-    "id": "hotnews_en_cab0c964",
-    "date": "2026-08-21",
-    "ts": 1787293912000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821006800315_02_i_P2.jpg",
-    "title": "U.S.-N. Korea talks key to breaking stalemate: Seoul official",
-    "link": "https://en.yna.co.kr/view/AEN20260821006800315"
   }
 ]
