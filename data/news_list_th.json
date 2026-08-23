@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_d6f9fac0",
+    "date": "2026-08-23",
+    "ts": 1787444100000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYzPTMbTVv0gaQR.jpg",
+    "title": "ราคาน้ำมันวันนี้ 23 สิงหาคม 2569 อัปเดตล่าสุด \"เบนซิน-ดีเซล\" ลิตรละกี่บาท",
+    "link": "https://www.thairath.co.th/news/society/2954578"
+  },
+  {
+    "id": "hotnews_th_3650898d",
+    "date": "2026-08-22",
+    "ts": 1787442435000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/weather-10.jpg",
+    "title": "สภาพอากาศวันนี้ กรมอุตุนิยมวิทยา เตือน 4 ภาคฝนหนัก กทม.อ่วม 70% เปิดชื่อจังหวัดโดนเต็มๆ",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10371090"
+  },
+  {
+    "id": "hotnews_th_d92b26d5",
+    "date": "2026-08-22",
+    "ts": 1787440257000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYyLG3LqrfIUxKn.jpg",
+    "title": "เกาหลีใต้ส่งเรือบรรทุกตู้คอนเทนเนอร์ผ่านเส้นทางอาร์กติกเป็นครั้งแรก",
+    "link": "https://www.thairath.co.th/news/foreign/2954619"
+  },
+  {
+    "id": "hotnews_th_c71aa76a",
+    "date": "2026-08-22",
+    "ts": 1787438759000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYyLG8giMcH9deL.jpg",
+    "title": "ญี่ปุ่นระทึก แผ่นดินไหวเขย่าคันโตกลางดึก ไม่มีเตือนภัยสึนามิ",
+    "link": "https://www.thairath.co.th/news/foreign/2954618"
+  },
+  {
+    "id": "hotnews_th_2153efc0",
+    "date": "2026-08-22",
+    "ts": 1787437015000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYyLGs1U0WqfBP6.jpg",
+    "title": "อิสราเอลเปิดฉากโจมตีซีเรียรอบใหม่ หลังเพิ่งโดนสหรัฐฯ วิจารณ์",
+    "link": "https://www.thairath.co.th/news/foreign/2954617"
+  },
+  {
+    "id": "hotnews_th_29501eec",
+    "date": "2026-08-22",
+    "ts": 1787436000000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYzNeGeYClHnFRV.jpg",
+    "title": "“Future SUPPORT” ต่อยอดงานศิลปาชีพไปสู่อนาคต “เจ้าฟ้าสิริวัณณวรีฯ” ทรงสานต่อพระราชปณิธานสมเด็จย่า",
+    "link": "https://www.thairath.co.th/news/royal/2954509"
+  },
+  {
+    "id": "hotnews_th_0e11493c",
+    "date": "2026-08-22",
+    "ts": 1787431620000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYyLGwu6TmpeR4H.jpg",
+    "title": "ศาลสหรัฐฯ ยกเลิกคำสั่งระงับวีซ่าย้ายถิ่นฐาน 75 ประเทศของทรัมป์",
+    "link": "https://www.thairath.co.th/news/foreign/2954616"
+  },
+  {
+    "id": "hotnews_th_60ccef84",
+    "date": "2026-08-22",
+    "ts": 1787430535000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/bayern.jpg",
+    "title": "บาเยิร์น เือน ดอร์ตมุนด์ ผงาดแชมป์ ซูเปอร์ คัพ เยอรมนี",
+    "link": "https://www.khaosod.co.th/sports/news_10371087"
+  },
+  {
+    "id": "hotnews_th_6b4175c2",
+    "date": "2026-08-22",
+    "ts": 1787428140000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYyLGlIzMwDrmgE.jpg",
+    "title": "อิหร่านลั่น “โลกยอมรับชัยชนะของเรา” ชี้สงครามกับสหรัฐฯ ควรยุติ",
+    "link": "https://www.thairath.co.th/news/foreign/2954615"
+  },
+  {
     "id": "hotnews_th_37fc6d13",
     "date": "2026-08-22",
     "ts": 1787422957000,
@@ -326,77 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/news156285_CUVIYbTSem1787389223-728x410-1.jpg",
     "title": "Surat Thani seeks visa revocation for Israeli, French nationals over Palestinian flag dispute",
     "link": "https://www.khaosodenglish.com/featured/2026/08/22/surat-thani-seeks-visa-revocation-for-israeli-french-nationals-over-palestinian-flag-dispute/"
-  },
-  {
-    "id": "hotnews_th_e6ad451a",
-    "date": "2026-08-22",
-    "ts": 1787403392000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYzPTsHPoSelzZI.jpg",
-    "title": "เศร้า “คุณยายคำมั่น” น้องสาวหลวงพ่อคูณ เสียชีวิตด้วยโรคชรา รวมสิริอายุ 100 ปี",
-    "link": "https://www.thairath.co.th/news/local/2954576"
-  },
-  {
-    "id": "hotnews_th_1ae9f3b3",
-    "date": "2026-08-22",
-    "ts": 1787402549000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/tennis2.jpg",
-    "title": "กมลวรรณ จับคู่สาวจีน พลิกชนะมือวาง2 คว้าแชมป์ศึกเทนนิส W15เทียนจิน",
-    "link": "https://www.khaosod.co.th/sports/news_10370944"
-  },
-  {
-    "id": "hotnews_th_d3d1764a",
-    "date": "2026-08-22",
-    "ts": 1787402541000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dfghgf.jpg",
-    "title": "รมว.สุชาติ เผย ฮ.ทส. ลำเลียงถุงยังชีพพระราชทานช่วยผู้ประสบภัยบนดอยภูคา หลังน้ำป่า–ดินสไลด์ตัดขาด 11 หมู่บ้าน",
-    "link": "https://www.khaosod.co.th/politics/news_10370946"
-  },
-  {
-    "id": "hotnews_th_0415e2f6",
-    "date": "2026-08-22",
-    "ts": 1787402118000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/KHOK3-scaled.jpg",
-    "title": "ชกไม่มีมุม วิกฤตน้ำ-น่าน จังหวะของเพื่อไทย",
-    "link": "https://www.khaosod.co.th/newspaper-column/blunt-opinion/news_10370766"
-  },
-  {
-    "id": "hotnews_th_22cb8b83",
-    "date": "2026-08-22",
-    "ts": 1787401776000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYzPUEr3Bas93Nl.jpg",
-    "title": "“เจเศรษฐ์” ย้ำประชาชนไม่ต้องถ่ายเอกสาร ยื่นขอเยียวยาน้ำท่วมน่าน",
-    "link": "https://www.thairath.co.th/news/politic/2954572"
-  },
-  {
-    "id": "hotnews_th_50c00489",
-    "date": "2026-08-22",
-    "ts": 1787401400000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/nan-aaaaa.jpg",
-    "title": "ปภ. เผย กรมบัญชีกลางอนุมัติขยายวงเงินทดรองราชการ 100 ล้าน ช่วยน้ำท่วมน่าน",
-    "link": "https://www.khaosod.co.th/politics/news_10370912"
-  },
-  {
-    "id": "hotnews_th_54743ef7",
-    "date": "2026-08-22",
-    "ts": 1787401033000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/wichai.jpg",
-    "title": "ชีวิตพลิกผัน จากดีเจชื่อดังสู่คนเร่ร่อน ก่อนถูก ต้อม จับโยนสระน้ำสวนเบญจสิริ จนเสียชีวิต",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10370917"
-  },
-  {
-    "id": "hotnews_th_c605eddb",
-    "date": "2026-08-22",
-    "ts": 1787400692000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYzPT3lbeorbi7A.jpg",
-    "title": "“สส.กังฟู” ติดตามการเยียวยา “จ่าโจ้” ประสานหน่วยงานเร่งช่วยเหลือครอบครัว",
-    "link": "https://www.thairath.co.th/news/politic/2954570"
-  },
-  {
-    "id": "hotnews_th_8b0c7fbe",
-    "date": "2026-08-22",
-    "ts": 1787400393000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Changsuek-7.jpg",
-    "title": "ทีมชาติไทย จัดชุดดีสุดบู๊เวียดนาม คคนะ ธีรศักดิ์ ยศกร ตัวจริงลุ้นแชมป์อาเซียน",
-    "link": "https://www.khaosod.co.th/sports/news_10370913"
   }
 ]

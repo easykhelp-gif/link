@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_13f7d497",
+    "date": "2026-08-23",
+    "ts": 1787445977000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082008950005600_P2.jpg",
+    "title": "Police officer under arrest for prematurely closing missing person cases in Jeju",
+    "link": "https://en.yna.co.kr/view/AEN20260823000500315"
+  },
+  {
     "id": "hotnews_en_1f2ccf7a",
     "date": "2026-08-22",
     "ts": 1787407892000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2026/07/03/10/PCM20260703000110061_P2.jpg",
     "title": "(LEAD) S. Korea to launch 'Future Fund' with 'windfall revenue' amid chip boom",
     "link": "https://en.yna.co.kr/view/AEN20260821003251320"
-  },
-  {
-    "id": "hotnews_en_5f218111",
-    "date": "2026-08-21",
-    "ts": 1787279903000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821005200315_01_i_P2.jpg",
-    "title": "Ex-pilot gets life sentence for killing former airline colleague",
-    "link": "https://en.yna.co.kr/view/AEN20260821005200315"
   }
 ]
