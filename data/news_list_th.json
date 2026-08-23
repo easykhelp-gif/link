@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_7629af2c",
+    "date": "2026-08-23",
+    "ts": 1787514737000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOWkok5fzIdk2.jpg",
+    "title": "กองภูเขาขยะในกินี ถล่มทับบ้านเรือนใกล้เคียง ดับแล้ว 30 ศพ เจ็บอื้อ",
+    "link": "https://www.thairath.co.th/news/foreign/2954766"
+  },
+  {
+    "id": "hotnews_th_fb4a6791",
+    "date": "2026-08-23",
+    "ts": 1787511924000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOWcGMRxVJSKJ.jpg",
+    "title": "ดีอาร์คองโก-กบฏ M23 ตกลงโร้ดแมปไปสู่การเจรจาสันติภาพแล้ว",
+    "link": "https://www.thairath.co.th/news/foreign/2954765"
+  },
+  {
+    "id": "hotnews_th_03042886",
+    "date": "2026-08-23",
+    "ts": 1787506917000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/tarina1.jpg",
+    "title": "ขนม ทารีน่า เปิดใจ ตื่นมาแล้วรู้สึกวันนี้เป็นวันของฉัน ก่อนจะคว้ามงสำเร็จ",
+    "link": "https://www.khaosod.co.th/entertainment/news_10371820"
+  },
+  {
+    "id": "hotnews_th_8e6b3449",
+    "date": "2026-08-23",
+    "ts": 1787506494000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-23T172935Z_1174681945_UP1EM8N1CL9BC_RTRMADP_3_SOCCER-ENGLAND-NEW-LIV.jpg",
+    "title": "ลิเวอร์พูลกดจุดโทษทดเจ็บแบ่งแต้มนิวคาสเซิลนัดแรกฤดูกาลใหม่ พรีเมียร์ลีก",
+    "link": "https://www.khaosod.co.th/sports/news_10371821"
+  },
+  {
+    "id": "hotnews_th_ddfcf94e",
+    "date": "2026-08-23",
+    "ts": 1787505831000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/news156538_Q5nXQAYVME1787500922.jpg",
+    "title": "คนร้ายลอบวางเพลิงโรงรถ-วางระเบิดป้อมยาม สำนักงานเทศบาลตำบลพ่อมิ่ง",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10371815"
+  },
+  {
+    "id": "hotnews_th_c947b511",
+    "date": "2026-08-23",
+    "ts": 1787504485000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOW35XgIzggH6.jpg",
+    "title": "เซเลนสกีอ้าง ปีนี้รัสเซียเสียทหาร 1.5 แสนนาย จ่อเกณฑ์เพิ่มอีก 3 แสนคน",
+    "link": "https://www.thairath.co.th/news/foreign/2954762"
+  },
+  {
+    "id": "hotnews_th_30a3a9b1",
+    "date": "2026-08-23",
+    "ts": 1787504471000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwNvRz7R3n977X.jpg",
+    "title": "พายุโซนร้อน \"นาร์รา\" จ่อขึ้นฝั่งจีน 24-25 ส.ค. ไม่กระทบโดยตรงต่อลักษณะอากาศไทย",
+    "link": "https://www.thairath.co.th/news/local/2954759"
+  },
+  {
+    "id": "hotnews_th_b4061869",
+    "date": "2026-08-23",
+    "ts": 1787502002000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/1138202_0-696x392.jpg",
+    "title": "มงลงแล้ว! ทารีน่า โบเทส สู้สมศักดิ์ศรี คว้าตำแหน่งมิสยูนิเวิร์ส ไทยแลนด์ 2026",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10371804"
+  },
+  {
+    "id": "hotnews_th_e04d7f45",
+    "date": "2026-08-23",
+    "ts": 1787501945000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwNvJhTDIz9QLo.jpg",
+    "title": "ปัตตานีป่วนอีก คนร้ายลอบวางเพลิงโรงรถ - วางระเบิดป้อมยาม \"เทศบาลตำบลพ่อมิ่ง\"",
+    "link": "https://www.thairath.co.th/news/local/south/2954757"
+  },
+  {
     "id": "hotnews_th_e8aa9afe",
     "date": "2026-08-23",
     "ts": 1787500551000,
@@ -326,77 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/0-feat-67-728x410-1.jpg",
     "title": "Miss Universe West backs Fatima Bosch: Women should not have to stay silent to protect their dreams",
     "link": "https://www.khaosodenglish.com/news/international/2026/08/23/miss-universe-west-backs-fatima-bosch-women-should-not-have-to-stay-silent-to-protect-their-dreams/"
-  },
-  {
-    "id": "hotnews_th_12f154d1",
-    "date": "2026-08-23",
-    "ts": 1787483403000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/gom.jpg",
-    "title": "กรมกรพัฒนาชุมชน เปิดการประกวดนักออกแบบผ้าไทย ใส่ให้สนุกรุ่นใหม่ 2569",
-    "link": "https://www.khaosod.co.th/monitor-news/news_10371646"
-  },
-  {
-    "id": "hotnews_th_1d678e5a",
-    "date": "2026-08-23",
-    "ts": 1787482728000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwMrrjHyKCrJQY.jpg",
-    "title": "รัฐปรับเพิ่มเงินชดเชยเยียวยาเกษตรกรฉบับใหม่ สูงสุด 30 ไร่ต่อครัวเรือน",
-    "link": "https://www.thairath.co.th/news/politic/2954724"
-  },
-  {
-    "id": "hotnews_th_d76980c8",
-    "date": "2026-08-23",
-    "ts": 1787482621000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%9A%E0%B8%AD%E0%B8%A5.jpg",
-    "title": "โปรแกรมบอล 23 ส.ค. 2569 นิวคาสเซิลเปิดบ้านบู๊ลิเวอร์พูลนัดแรกฤดูกาลใหม่",
-    "link": "https://www.khaosod.co.th/sports/news_10371623"
-  },
-  {
-    "id": "hotnews_th_d8b77b1d",
-    "date": "2026-08-23",
-    "ts": 1787482573000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ee.jpg",
-    "title": "‘โสภณ’ ส่งมอบบ้านเฉลิมพระเกียรติ 2 หลัง เติมคุณภาพชีวิตผู้ยากไร้–ผู้ด้อยโอกาส ถวายเป็นพระราชกุศล",
-    "link": "https://www.khaosod.co.th/politics/news_10371627"
-  },
-  {
-    "id": "hotnews_th_9f59d338",
-    "date": "2026-08-23",
-    "ts": 1787482294000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwMrmiqvgf6fxA.jpg",
-    "title": "เลือกตั้งนายก อบจ.นนทบุรี “เดชรัต” ลุยหาเสียงต่อ ย้ำนโยบาย “NEW นนท์”",
-    "link": "https://www.thairath.co.th/news/politic/2954723"
-  },
-  {
-    "id": "hotnews_th_123e0ee6",
-    "date": "2026-08-23",
-    "ts": 1787482132000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwMrfpWCEM7hib.jpg",
-    "title": "\"ดีเอสไอ\" สรุปสำนวน เห็นสั่งฟ้อง \"ชนนพัฒฐ์\" นัดเข้าพบอัยการคดีพิเศษพรุ่งนี้ 24 ส.ค.",
-    "link": "https://www.thairath.co.th/news/crime/2954722"
-  },
-  {
-    "id": "hotnews_th_2bbefbb1",
-    "date": "2026-08-23",
-    "ts": 1787482010000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/44548-11.jpg",
-    "title": "หมอช้าง เปิด 3 ราศี ลูกรักดาวโชคลาภ ถึงเวลาข่าวดีที่รอคอย โชคไม่คาดฝัน",
-    "link": "https://www.khaosod.co.th/horoscope/news_10371617"
-  },
-  {
-    "id": "hotnews_th_e7fe11d0",
-    "date": "2026-08-23",
-    "ts": 1787482006000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/fwei.jpg",
-    "title": "ปิ่นภัค เชียงสวน ดาวรุ่งเสือภูเขาไทย โชว์ผลงานเจ๋งที่มาเลเซีย",
-    "link": "https://www.khaosod.co.th/sports/news_10371661"
-  },
-  {
-    "id": "hotnews_th_6a370ca7",
-    "date": "2026-08-23",
-    "ts": 1787481834000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/91606e288ef59bb55a8dce11965e4060_11zon23841.jpg",
-    "title": "ชาวประมง ลอยเคว้งกลางมหาสมุทร นาน 5 วัน ไม่มีข้าว-น้ำ สุดท้ายรอดปาฏิหาริย์",
-    "link": "https://www.khaosod.co.th/around-the-world-news/news_10371585"
   }
 ]
