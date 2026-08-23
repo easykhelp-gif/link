@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_en_bf3e414c",
+    "date": "2026-08-23",
+    "ts": 1787468892000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/23/PYH2026082303810031500_P2.jpg",
+    "title": "(LEAD) Gov't, ruling party share need to relax tax rule for single-home owners not living in property",
+    "link": "https://en.yna.co.kr/view/AEN20260823001951315"
+  },
+  {
+    "id": "hotnews_en_2a372151",
+    "date": "2026-08-23",
+    "ts": 1787464859000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080510090001300_P2.jpg",
+    "title": "Admissions for 'Spider-Man' top 8 mln, 'The Odyssey' at 7 mln: data",
+    "link": "https://en.yna.co.kr/view/AEN20260823002000320"
+  },
+  {
+    "id": "hotnews_en_9246b870",
+    "date": "2026-08-23",
+    "ts": 1787462393000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/23/PYH2026082303810031500_P2.jpg",
+    "title": "Gov't, ruling party discuss housing policy at high-level meeting",
+    "link": "https://en.yna.co.kr/view/AEN20260823001900315"
+  },
+  {
+    "id": "hotnews_en_bdc8892b",
+    "date": "2026-08-23",
+    "ts": 1787462360000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/16/PYH2026081602450001300_P2.jpg",
+    "title": "Banks' net income falls in H1; interest profit hits record high: data",
+    "link": "https://en.yna.co.kr/view/AEN20260823001800320"
+  },
+  {
+    "id": "hotnews_en_14c1cb50",
+    "date": "2026-08-23",
+    "ts": 1787461200000,
+    "image": "",
+    "title": "Today in Korean history",
+    "link": "https://en.yna.co.kr/view/AEN20260823000900315"
+  },
+  {
     "id": "hotnews_en_c1cd6712",
     "date": "2026-08-23",
     "ts": 1787458857000,
@@ -358,45 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062907930001300_P2.jpg",
     "title": "(3rd LD) Kakao Corp. to spinoff core biz to strengthen AI capabilities",
     "link": "https://en.yna.co.kr/view/AEN20260821004253320"
-  },
-  {
-    "id": "hotnews_en_aee34547",
-    "date": "2026-08-21",
-    "ts": 1787291926000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821006500315_02_i_P2.jpg",
-    "title": "Ruling party slams opposition for attacking Lee over nat'l security",
-    "link": "https://en.yna.co.kr/view/AEN20260821006500315"
-  },
-  {
-    "id": "hotnews_en_f6651e70",
-    "date": "2026-08-21",
-    "ts": 1787291282000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082103550005700_P2.jpg",
-    "title": "(LEAD) Hyundai Motor workers stage full-scale strike over wage disputes",
-    "link": "https://en.yna.co.kr/view/AEN20260821001251320"
-  },
-  {
-    "id": "hotnews_en_c7a26280",
-    "date": "2026-08-21",
-    "ts": 1787291021000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082104350031500_P2.jpg",
-    "title": "DP leader vows support for Lee's efforts to promote dialogue with N. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260821006400315"
-  },
-  {
-    "id": "hotnews_en_2c76cfa0",
-    "date": "2026-08-21",
-    "ts": 1787290487000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821006100315_01_i_P2.jpg",
-    "title": "Cheong Wa Dae says N. Korea's derogatory remarks unhelpful to building mutual trust",
-    "link": "https://en.yna.co.kr/view/AEN20260821006100315"
-  },
-  {
-    "id": "hotnews_en_02648774",
-    "date": "2026-08-21",
-    "ts": 1787290464000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062907930001300_P2.jpg",
-    "title": "(2nd LD) Kakao Corp. to spinoff core biz to strengthen AI capabilities",
-    "link": "https://en.yna.co.kr/view/AEN20260821004252320"
   }
 ]
