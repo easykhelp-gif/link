@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_fc201d80",
+    "date": "2026-08-23",
+    "ts": 1787481878000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/08/23/PAP20260823261901009_P2.jpg",
+    "title": "S. Korean women's badminton doubles team captures world title",
+    "link": "https://en.yna.co.kr/view/AEN20260823005700315"
+  },
+  {
     "id": "hotnews_en_bf3e414c",
     "date": "2026-08-23",
     "ts": 1787468892000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821006800315_02_i_P2.jpg",
     "title": "U.S.-N. Korea talks key to breaking stalemate: Seoul official",
     "link": "https://en.yna.co.kr/view/AEN20260821006800315"
-  },
-  {
-    "id": "hotnews_en_3301d9f5",
-    "date": "2026-08-21",
-    "ts": 1787293198000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062907930001300_P2.jpg",
-    "title": "(3rd LD) Kakao Corp. to spinoff core biz to strengthen AI capabilities",
-    "link": "https://en.yna.co.kr/view/AEN20260821004253320"
   }
 ]
