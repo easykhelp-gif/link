@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_1dc7b609",
+    "date": "2026-08-24",
+    "ts": 1787585988000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/04/PYH2026020402590001300_P2.jpg",
+    "title": "Top diplomats of S. Korea, U.S. stress 'close' communication on N. Korea's nuclear issue",
+    "link": "https://en.yna.co.kr/view/AEN20260825000300315"
+  },
+  {
+    "id": "hotnews_en_cb7b6f95",
+    "date": "2026-08-24",
+    "ts": 1787584331000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Top diplomats of S. Korea, U.S. stress 'close' communication over N. Korea, peninsula peace: foreign ministry",
+    "link": "https://en.yna.co.kr/view/AEN20260825000200315"
+  },
+  {
     "id": "hotnews_en_137e5c8b",
     "date": "2026-08-24",
     "ts": 1787566878000,
@@ -382,21 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824003800315_01_i_P2.jpg",
     "title": "Special counsel wraps up 180-day probe after indicting Yoon, 57 others",
     "link": "https://en.yna.co.kr/view/AEN20260824003800315"
-  },
-  {
-    "id": "hotnews_en_af1baffc",
-    "date": "2026-08-24",
-    "ts": 1787538970000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824003600315_01_i_P2.jpg",
-    "title": "Man gets 1-yr prison term for defaming Sewol ferry, Itaewon crush victims",
-    "link": "https://en.yna.co.kr/view/AEN20260824003600315"
-  },
-  {
-    "id": "hotnews_en_0f1d3780",
-    "date": "2026-08-24",
-    "ts": 1787538503000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401820001300_P2.jpg",
-    "title": "Stocks extend losses late Mon. morning on chip profit-taking",
-    "link": "https://en.yna.co.kr/view/AEN20260824003500320"
   }
 ]
