@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_96ea2c08",
+    "date": "2026-08-24",
+    "ts": 1787601718000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrksUg2Bk8kuk.jpg",
+    "title": "สหรัฐฯ เปิดตัวมาตรการคว่ำบาตร “D-Day ทางเศรษฐกิจ” มุ่งโดดเดี่ยวอิหร่าน",
+    "link": "https://www.thairath.co.th/news/foreign/2955002"
+  },
+  {
+    "id": "hotnews_th_25ffdc07",
+    "date": "2026-08-24",
+    "ts": 1787597164000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrk4EI0sxjg1g.jpg",
+    "title": "นายกฯ UK มอบแปลนขีปนาวุธให้ยูเครน ไปผลิตเองในประเทศ",
+    "link": "https://www.thairath.co.th/news/foreign/2955001"
+  },
+  {
+    "id": "hotnews_th_c88998c6",
+    "date": "2026-08-24",
+    "ts": 1787593016000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/By-Royal-Command-2.jpg",
+    "title": "โปรดเกล้าฯ พระราชทาน เครื่องราชอิสริยาภรณ์จุลจอมเกล้า ฝ่ายใน และชั้นอื่นๆ 11 ราย",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10373155"
+  },
+  {
+    "id": "hotnews_th_3467e32d",
+    "date": "2026-08-24",
+    "ts": 1787591699000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Gakpo-39.jpg",
+    "title": "แมนฯ ซิตี้ เปิดศึก สเปอร์ส แย่งตัว โคดี กักโป เสริมแกร่งเกมรุก ติดต่อเอเยนต์นักเตะแล้ว",
+    "link": "https://www.khaosod.co.th/sports/news_10373145"
+  },
+  {
+    "id": "hotnews_th_b86cc04f",
+    "date": "2026-08-24",
+    "ts": 1787591681000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/kvaaa1.jpg",
+    "title": "เก่งในทางที่ผิด โจรลอบขโมยหม้อแปลงไฟฟ้าแรงสูง เอาทองแดงขาย",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10373144"
+  },
+  {
+    "id": "hotnews_th_7a0eb3dd",
+    "date": "2026-08-24",
+    "ts": 1787590386000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrk21fLm6EFGb.jpg",
+    "title": "เกาหลีใต้เผย สหรัฐฯ ยกเลิกซ้อมรบร่วมเดือนหน้า เพราะสงครามอิหร่าน",
+    "link": "https://www.thairath.co.th/news/foreign/2955000"
+  },
+  {
+    "id": "hotnews_th_8e7d081e",
+    "date": "2026-08-24",
+    "ts": 1787588981000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/TSS-2.jpg",
+    "title": "TSS The Super Series by B-Quik สนาม 3 ซิ่งเดือดทั้งแบบกลางวัน-กลางคืนแดนเสือเหลือง",
+    "link": "https://www.khaosod.co.th/sports/news_10373132"
+  },
+  {
     "id": "hotnews_th_8785f4b3",
     "date": "2026-08-24",
     "ts": 1787587487000,
@@ -342,61 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQoFYUHg527yG.jpg",
     "title": "อช.เขาแหลม ประกาศปิดเที่ยว \"น้ำตกเกริกกระเวีย\" ชั่วคราว หลังฝนตกหนัก น้ำไหลเชี่ยว",
     "link": "https://www.thairath.co.th/news/local/2954967"
-  },
-  {
-    "id": "hotnews_th_66861b60",
-    "date": "2026-08-24",
-    "ts": 1787573367000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiRjrysd6FHCUF.jpg",
-    "title": "สรุปป่วนใต้ 4 จังหวัด 75 เหตุการณ์ เร่งขยายผล ล่าตัวคนร้ายดำเนินคดี",
-    "link": "https://www.thairath.co.th/news/crime/2954959"
-  },
-  {
-    "id": "hotnews_th_e836c720",
-    "date": "2026-08-24",
-    "ts": 1787573285000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/POK-BBNN.jpg",
-    "title": "บทบรรณาธิการ ต้องทำคู่กันไป",
-    "link": "https://www.khaosod.co.th/politics/hot-topics/news_10372768"
-  },
-  {
-    "id": "hotnews_th_4abb0131",
-    "date": "2026-08-24",
-    "ts": 1787573269000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQnAKsvCXf0Xm.jpg",
-    "title": "ปลัด มท. สั่งด่วน 5 ผู้ว่าฯ ชายแดนใต้ ยกระดับความปลอดภัยขั้นสูงสุด-เข้มพื้นที่เสี่ยง",
-    "link": "https://www.thairath.co.th/news/politic/2954968"
-  },
-  {
-    "id": "hotnews_th_afa06543",
-    "date": "2026-08-24",
-    "ts": 1787572954000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/11-8.jpg",
-    "title": "ซี ทวินันท์ เล่าเบื้องหลังถ่ายแบบหุ่นแซ่บ! ฟิตหุ่น 15 วันก่อนถ่าย ดีใจที่ทุกคนชอบ ตั้งเป้าเปลี่ยน “โพแม่” เป็น “โพแฟน”",
-    "link": "https://www.khaosod.co.th/entertainment/news_10372864"
-  },
-  {
-    "id": "hotnews_th_1c583182",
-    "date": "2026-08-24",
-    "ts": 1787572910000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/963-728x410-1.jpg",
-    "title": "Hungarian air force Gripen jet crashes, pilot ejects safely, prime minister says",
-    "link": "https://www.khaosodenglish.com/news/international/2026/08/24/hungarian-air-force-gripen-jet-crashes-pilot-ejects-safely-prime-minister-says/"
-  },
-  {
-    "id": "hotnews_th_6df6bd86",
-    "date": "2026-08-24",
-    "ts": 1787572901000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Phuket-tour-seller-speaks-out-after-Israeli-tourist-clash-728x410-1.jpg",
-    "title": "Phuket tour seller speaks out after Israeli tourist clash",
-    "link": "https://www.khaosodenglish.com/life/socialmedia/2026/08/24/phuket-tour-seller-speaks-out-after-israeli-tourist-clash/"
-  },
-  {
-    "id": "hotnews_th_de869b50",
-    "date": "2026-08-24",
-    "ts": 1787572674000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/sunaree8-.jpg",
-    "title": "สุนารี เล่าบทเรียน ลำไส้อักเสบจนขาดเลือด โล่งไม่ใช่เนื้อร้าย น้ำตาคลอ เสก ทักมา",
-    "link": "https://www.khaosod.co.th/entertainment/news_10372877"
   }
 ]
