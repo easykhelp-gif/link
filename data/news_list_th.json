@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_7d5edd8f",
+    "date": "2026-08-24",
+    "ts": 1787531737000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/boa.jpg",
+    "title": "สองสามีผวา งูเหลือม 2 ตัว เลื้อยเข้าบ้าน-รถกระบะ แจ้งกู้ภัยช่วยจับวุ่น",
+    "link": "https://www.khaosod.co.th/lottery/news_10371848"
+  },
+  {
+    "id": "hotnews_th_deb695b0",
+    "date": "2026-08-24",
+    "ts": 1787531400000,
+    "image": "https://static.thairath.co.th/media/Kg2lj2gY7z4zNnRd7cUdgbQYhHofAa6Ojxi.jpg",
+    "title": "มันมีไว้เพื่ออะไร? แป้นเหยียด้านซ้ายที่วางเท้าในรถเกียร์ออโต้ มีประโยชน์มากกว่าที่คิด !!",
+    "link": "https://www.thairath.co.th/news/auto/tips/2954643"
+  },
+  {
+    "id": "hotnews_th_4133b123",
+    "date": "2026-08-24",
+    "ts": 1787531100000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOaZXEc7vvDY5.jpg",
+    "title": "ราคาน้ำมันวันนี้ 24 สิงหาคม 2569 อัปเดตล่าสุด \"เบนซิน-ดีเซล\" ลิตรละกี่บาท",
+    "link": "https://www.thairath.co.th/news/society/2954770"
+  },
+  {
+    "id": "hotnews_th_b164abef",
+    "date": "2026-08-24",
+    "ts": 1787531031000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/noiusalamduan9248699998.jpg",
+    "title": "ลำดวน บางรักซอย9 เผยแล้วหลังมีคนประกาศตามหาจนตกใจ คดีพลิก ลูกก็โพสต์เคลียร์",
+    "link": "https://www.khaosod.co.th/entertainment/news_10371847"
+  },
+  {
+    "id": "hotnews_th_45c2e3bd",
+    "date": "2026-08-23",
+    "ts": 1787529527000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Fortuner.jpg",
+    "title": "ฟอร์จูนเนอร์ ประกบยิง จักรยานยนต์ หนุ่มวัย23 บนถนนนวมินทร์",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10371839"
+  },
+  {
+    "id": "hotnews_th_e2fb82d7",
+    "date": "2026-08-23",
+    "ts": 1787528018000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Todays-weather-15.jpg",
+    "title": "สภาพอากาศวันนี้ กรมอุตุฯ เปิดชื่อ 30 จังหวัด เตือน ฝนตกหนัก",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10371834"
+  },
+  {
+    "id": "hotnews_th_77bc9353",
+    "date": "2026-08-23",
+    "ts": 1787522586000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AP26235712522250.jpg",
+    "title": "ผลฟุตบอล 23 ส.ค. 2569 บาร์เซโลนาชนะขาดลอย เปแอสเชจบเจ๊า",
+    "link": "https://www.khaosod.co.th/sports/news_10371831"
+  },
+  {
+    "id": "hotnews_th_0fd9839a",
+    "date": "2026-08-23",
+    "ts": 1787521782000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOWGEc7Bqkvze.jpg",
+    "title": "เซเลนสกีปฏิเสธจัดเลือกตั้งในช่วงสงคราม เสี่ยงสร้างความแตกแยกภายใน",
+    "link": "https://www.thairath.co.th/news/foreign/2954768"
+  },
+  {
+    "id": "hotnews_th_1ceb36cc",
+    "date": "2026-08-23",
+    "ts": 1787518038000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYwOWnUSvFGnyTt.jpg",
+    "title": "ความร้อนเป็นเหตุ ฝรั่งเศสจมน้ำดับทะลุ 300 ศพ ขณะหาทางคลายร้อน",
+    "link": "https://www.thairath.co.th/news/foreign/2954767"
+  },
+  {
+    "id": "hotnews_th_396c5d81",
+    "date": "2026-08-23",
+    "ts": 1787516976000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-15T172324Z_1692484051_UP1EM8F1CAZ6O_RTRMADP_3_SOCCER-TURKEY-KAS-TS.jpg",
+    "title": "โมฮาเหม็ด ซาลาห์ ยิงประตูให้ทรับซอนสปอร์ได้แล้ว แถมยังเป็นการนำชัยสู่ทีมด้วย",
+    "link": "https://www.khaosod.co.th/sports/news_10371828"
+  },
+  {
     "id": "hotnews_th_7629af2c",
     "date": "2026-08-23",
     "ts": 1787514737000,
@@ -318,85 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/TTMM25.jpg",
     "title": "ทิ้งหมัดเข้ามุม บทเรียนจากน้ำท่วม (อีกแล้ว)",
     "link": "https://www.khaosod.co.th/newspaper-column/relevant/news_10371461"
-  },
-  {
-    "id": "hotnews_th_728c003d",
-    "date": "2026-08-23",
-    "ts": 1787485977000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/BN-225.jpg",
-    "title": "บทบรรณาธิการ สันติสุขยังห่างไกล",
-    "link": "https://www.khaosod.co.th/politics/hot-topics/news_10371465"
-  },
-  {
-    "id": "hotnews_th_865d726e",
-    "date": "2026-08-23",
-    "ts": 1787485937000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/kalasin-1.jpg",
-    "title": "ผลเลือกตั้ง นายก อบจ.กาฬสินธุ์ เฉลิมขวัญ เพ่อไทย ทิ้งห่างคู่แข่งกว่า 4 เท่าตัว",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10371703"
-  },
-  {
-    "id": "hotnews_th_66338a66",
-    "date": "2026-08-23",
-    "ts": 1787485852000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/fwrqr-1.jpg",
-    "title": "ทีชาติไทย เร่งฟื้นฟูร่างกาย ก่อนบุกเวียดนาม ศึกชิงแชมป์อาเซียน",
-    "link": "https://www.khaosod.co.th/sports/news_10371712"
-  },
-  {
-    "id": "hotnews_th_ce540f8b",
-    "date": "2026-08-23",
-    "ts": 1787485745000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/awmncsl-2.jpg",
-    "title": "ตื่นกลางดึก อาจไม่ใช่แค่นอนไม่หลับ เช็ก 5 สัญญาณสุขภาพที่ไม่ควรมองข้าม",
-    "link": "https://www.khaosod.co.th/lifestyle/news_10371691"
-  },
-  {
-    "id": "hotnews_th_c377b6f7",
-    "date": "2026-08-23",
-    "ts": 1787485640000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/eldlyyy_11zon23851.jpg",
-    "title": "ไวรัลซึ้ง ยายจำรหัสไม่ได้ เลยขอให้ร้าน ช่วยปลดล็อกโทรศัพท์สามีผู้ล่วงลับ สำเร็จ",
-    "link": "https://www.khaosod.co.th/around-the-world-news/news_10371655"
-  },
-  {
-    "id": "hotnews_th_ca195e2b",
-    "date": "2026-08-23",
-    "ts": 1787485612000,
-    "image": "https://static.thairath.co.th/media/Kg2lj2gY7z4zNnRd7cUdgTCYak8E9oAEVdT.jpg",
-    "title": "นายกฯ ลงพื้นที่บำรุงขวัญทหารหาญที่ช่องอานม้า อวยพรแคล้วคลาด-ประสบแต่ชัยชนะ",
-    "link": "https://www.thairath.co.th/news/politic/2954728"
-  },
-  {
-    "id": "hotnews_th_b6436697",
-    "date": "2026-08-23",
-    "ts": 1787484958000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Snooker1.jpg",
-    "title": "หมู-เอฟ แทงโชว์ร่วม นครสวรรค์- ส.บิลเลียด เตรียมเปิดศึก สนุกเกอร์ ชิงแชมป์ ปทท.",
-    "link": "https://www.khaosod.co.th/sports/news_10371668"
-  },
-  {
-    "id": "hotnews_th_a1aaf3f5",
-    "date": "2026-08-23",
-    "ts": 1787484826000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ksteong-2.jpg",
-    "title": "สาวใจเด็ด แชร์ประสบการณ์โดนเทก่อนแต่ง 7 วัน แต่ยืนยันจัดงานต่อ แม้ไร้เจ้าบ่าว",
-    "link": "https://www.khaosod.co.th/special-stories/news_10371512"
-  },
-  {
-    "id": "hotnews_th_0ac496ed",
-    "date": "2026-08-23",
-    "ts": 1787484747000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/jkiee.jpg",
-    "title": "ป้าปาน ทุบสถิติโลก ผงาดแชมป์วิ่งข้ามรั้ว 80 ม.รุ่นอายุ 70 ปี กรีฑาสูงอายุโลก",
-    "link": "https://www.khaosod.co.th/sports/news_10371667"
-  },
-  {
-    "id": "hotnews_th_be6e9e8c",
-    "date": "2026-08-23",
-    "ts": 1787484720000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/0-feat-67-728x410-1.jpg",
-    "title": "Miss Universe West backs Fatima Bosch: Women should not have to stay silent to protect their dreams",
-    "link": "https://www.khaosodenglish.com/news/international/2026/08/23/miss-universe-west-backs-fatima-bosch-women-should-not-have-to-stay-silent-to-protect-their-dreams/"
   }
 ]
