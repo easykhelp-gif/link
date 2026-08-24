@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_en_137e5c8b",
+    "date": "2026-08-24",
+    "ts": 1787566878000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824006053315_02_i_P2.jpg",
+    "title": "(2nd LD) Presumed body of missing woman found on Jeju Island",
+    "link": "https://en.yna.co.kr/view/AEN20260824006053315"
+  },
+  {
+    "id": "hotnews_en_89539574",
+    "date": "2026-08-24",
+    "ts": 1787562446000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082416740001300_P2.jpg",
+    "title": "Hybe's new girl group Tuide debuts with EP 'Tune & Play'",
+    "link": "https://en.yna.co.kr/view/AEN20260824010400315"
+  },
+  {
+    "id": "hotnews_en_039a20a2",
+    "date": "2026-08-24",
+    "ts": 1787561421000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824005153315_02_i_P2.jpg",
+    "title": "(3rd LD) PM vows zero tolerance for mishandling of missing person cases",
+    "link": "https://en.yna.co.kr/view/AEN20260824005153315"
+  },
+  {
+    "id": "hotnews_en_f0ab7c18",
+    "date": "2026-08-24",
+    "ts": 1787560603000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824010300320_01_i_P2.jpg",
+    "title": "President Lee likely to meet Samsung Electronics chief for possible discussion on chip projects: sources",
+    "link": "https://en.yna.co.kr/view/AEN20260824010300320"
+  },
+  {
     "id": "hotnews_en_ea9f9718",
     "date": "2026-08-24",
     "ts": 1787559119000,
@@ -366,37 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401820001300_P2.jpg",
     "title": "Stocks extend losses late Mon. morning on chip profit-taking",
     "link": "https://en.yna.co.kr/view/AEN20260824003500320"
-  },
-  {
-    "id": "hotnews_en_f7f35b60",
-    "date": "2026-08-24",
-    "ts": 1787537735000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824003300320_01_i_P2.jpg",
-    "title": "HD KSOE secures 515.4 bln-won contract for 4 LPG carriers",
-    "link": "https://en.yna.co.kr/view/AEN20260824003300320"
-  },
-  {
-    "id": "hotnews_en_3fc39118",
-    "date": "2026-08-24",
-    "ts": 1787537509000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824003000315_01_i_P2.jpg",
-    "title": "12 sent to prosecution for allegedly operating illegal gambling site",
-    "link": "https://en.yna.co.kr/view/AEN20260824003000315"
-  },
-  {
-    "id": "hotnews_en_b09bc82a",
-    "date": "2026-08-24",
-    "ts": 1787537406000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824002300315_01_i_P2.jpg",
-    "title": "S. Korea creates domestic guidelines on NATO standards to help boost defense exports",
-    "link": "https://en.yna.co.kr/view/AEN20260824002300315"
-  },
-  {
-    "id": "hotnews_en_38bf3065",
-    "date": "2026-08-24",
-    "ts": 1787535019000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/24/AEN20260824002500315_02_i_P2.jpg",
-    "title": "BLACKPINK's Jennie to release new album this week",
-    "link": "https://en.yna.co.kr/view/AEN20260824002500315"
   }
 ]
