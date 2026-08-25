@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_ca1a70dd",
+    "date": "2026-08-25",
+    "ts": 1787685339000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2019/06/30/PYH2019063010050001300_P2.jpg",
+    "title": "Expert says chance of Trump-Kim meeting is 'slim to none'",
+    "link": "https://en.yna.co.kr/view/AEN20260826000400315"
+  },
+  {
+    "id": "hotnews_en_03d28db4",
+    "date": "2026-08-25",
+    "ts": 1787679962000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826000300315_01_i_P2.jpg",
+    "title": "Trump reiterates remarks on S. Korea-U.S. exercise cuts, 'very good' ties with N. Korea's Kim",
+    "link": "https://en.yna.co.kr/view/AEN20260826000300315"
+  },
+  {
     "id": "hotnews_en_69c42a8f",
     "date": "2026-08-25",
     "ts": 1787673274000,
@@ -382,21 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825005200315_01_i_P2.jpg",
     "title": "Over 100 people referred to prosecution in Vietnam-based illegal gambling site bust",
     "link": "https://en.yna.co.kr/view/AEN20260825005200315"
-  },
-  {
-    "id": "hotnews_en_7f0759ba",
-    "date": "2026-08-25",
-    "ts": 1787624512000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825004100315_01_i_P2.jpg",
-    "title": "Foreign tourist arrivals to S. Korea top 2 mln in July",
-    "link": "https://en.yna.co.kr/view/AEN20260825004100315"
-  },
-  {
-    "id": "hotnews_en_38f3722e",
-    "date": "2026-08-25",
-    "ts": 1787623990000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825003551315_01_i_P2.jpg",
-    "title": "(LEAD) Lee says police will be biggest power, stresses need for reform by gov't body",
-    "link": "https://en.yna.co.kr/view/AEN20260825003551315"
   }
 ]

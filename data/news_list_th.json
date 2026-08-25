@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_th_8c1037d7",
+    "date": "2026-08-25",
+    "ts": 1787683956000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN9tHpLn6RPHyq.jpg",
+    "title": "ผู้อำนวยการ CIA แอบเดินทางเยือนรัสเซีย จุดประสงค์ไม่แน่ชัด",
+    "link": "https://www.thairath.co.th/news/foreign/2955256"
+  },
+  {
+    "id": "hotnews_th_09c4212c",
+    "date": "2026-08-25",
+    "ts": 1787680224000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/monk1.jpg",
+    "title": "เวรกรรมตามทัน รวบหลวงพ่อวัย50 หนีคดีขืนใจสาว19 นาน 20 ปี เหลือเดือนเดียวหมดอายุความ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10374396"
+  },
+  {
+    "id": "hotnews_th_0e0971a9",
+    "date": "2026-08-25",
+    "ts": 1787675703000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN9tJ54Mi2xzQd.jpg",
+    "title": "ทรัมป์อ้าง กู้ทุ่นระเบิดในฮอร์มุซหมดแล้ว ขู่จมเรืออิหร่านหากกลับมาวางใหม่",
+    "link": "https://www.thairath.co.th/news/foreign/2955255"
+  },
+  {
+    "id": "hotnews_th_36c90a9a",
+    "date": "2026-08-25",
+    "ts": 1787675386000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-25T153738Z_1020800555_UP1EM8P17EOX5_RTRMADP_3_SOCCER-NETHERLANDS.jpg",
+    "title": "เนเธอร์แลนด์เปิดตัว ชาบี เอร์นานเดซ นั่งกุนซือ ผอ. เผยเป็นตัวเลือกลำดับ 3",
+    "link": "https://www.khaosod.co.th/sports/news_10374390"
+  },
+  {
+    "id": "hotnews_th_dd59b2a2",
+    "date": "2026-08-25",
+    "ts": 1787674939000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/fdfid1.jpg",
+    "title": "รวบวัยรุ่นเมียนมา ฆ่าชิงทรัพย์เจาของร้านชำวัย78 แล้ว พร้อมของกลาง",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10374377"
+  },
+  {
     "id": "hotnews_th_d44afffb",
     "date": "2026-08-25",
     "ts": 1787673892000,
@@ -358,45 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN8UexEWk5AVoX.jpg",
     "title": "ชายพิการร้องถูกสวมสิทธิ์บัตรคนจน ช็อกซ้ำ พบชื่อจดทะเบียนสมรส มีลูก 4",
     "link": "https://www.thairath.co.th/news/local/bangkok/2955219"
-  },
-  {
-    "id": "hotnews_th_5f12e514",
-    "date": "2026-08-25",
-    "ts": 1787659865000,
-    "image": "https://static.thairath.co.th/media/Kg2lj2gY7z4zNnRd7cUdFPrDYV6aQVEiRqF.jpg",
-    "title": "พาณิชย์เช็กตลาดก่อนสารทจีน ยืนยันสินค้าเพียงพอ ไม่แพง เตือนผู้ค้าห้ามฉวยโอกาส",
-    "link": "https://www.thairath.co.th/news/governmentpolicy/2955216"
-  },
-  {
-    "id": "hotnews_th_aa0c5a34",
-    "date": "2026-08-25",
-    "ts": 1787659710000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN8UjaINk1Xc7N.jpg",
-    "title": "ไฟไหม้บ้านไม้สักทรงไทย ย่านบางบัวทอง วอดกว่า 10 ล้าน พฐ.เร่งตรวจสอบหาสาเหตุ",
-    "link": "https://www.thairath.co.th/news/crime/2955218"
-  },
-  {
-    "id": "hotnews_th_48b4a4ba",
-    "date": "2026-08-25",
-    "ts": 1787659496000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/BBNN27.jpg",
-    "title": "ทิ้งหมัดเข้ามุม ดึงเกมซักฟอก รอจังหวะสุกงอม",
-    "link": "https://www.khaosod.co.th/newspaper-column/relevant/news_10374206"
-  },
-  {
-    "id": "hotnews_th_1c6ff334",
-    "date": "2026-08-25",
-    "ts": 1787659424000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN7zSodvOlaSN8.jpg",
-    "title": "ครูสาวสะอื้น จ่ายหนี้แทนเพื่อนรวม 16 ล้าน ค้ำประกันให้ สุดท้ายเบี้ยว ปล่อยล้มละลาย",
-    "link": "https://www.thairath.co.th/news/local/northeast/2955207"
-  },
-  {
-    "id": "hotnews_th_fe75abb2",
-    "date": "2026-08-25",
-    "ts": 1787659277000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSN8TgpGwUbQ49Y.jpg",
-    "title": "เห็นชอบขยายเวลาโครงการนำเรือประมงออกนอกระบบ ถึง 30 ก.ย. 69 บรรเทาความเดือดร้อน",
-    "link": "https://www.thairath.co.th/news/politic/2955214"
   }
 ]
