@@ -9,11 +9,8 @@ function generateSitemap() {
   const xmlLines = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    '  <url>',
-    '    <loc>https://www.koricare.kr/link</loc>',
-    '    <changefreq>daily</changefreq>',
-    '    <priority>1.0</priority>',
-    '  </url>',
+    // https://www.koricare.kr/link 는 /link/ 로 301 리디렉션되므로 sitemap 에 넣지 않는다.
+    // 정규 URL(/link/)은 루트 sitemap.xml 에 있다.
     '  <url>',
     '    <loc>https://www.koricare.kr/link/th/</loc>',
     '    <changefreq>daily</changefreq>',
