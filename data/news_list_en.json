@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_69c42a8f",
+    "date": "2026-08-25",
+    "ts": 1787673274000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825085501009_P2.jpg",
+    "title": "Trump says all Hormuz mines removed, threatens to destroy any ship placing new mines",
+    "link": "https://en.yna.co.kr/view/AEN20260826000200315"
+  },
+  {
+    "id": "hotnews_en_dc79990a",
+    "date": "2026-08-25",
+    "ts": 1787665244000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825011000320_01_i_P2.jpg",
+    "title": "Kia, labor union tentatively reach wage deal",
+    "link": "https://en.yna.co.kr/view/AEN20260825011000320"
+  },
+  {
+    "id": "hotnews_en_d2592ab0",
+    "date": "2026-08-25",
+    "ts": 1787663868000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825010900320_01_i_P2.jpg",
+    "title": "Body of missing Chinese student found in Gyeongsan",
+    "link": "https://en.yna.co.kr/view/AEN20260825010900320"
+  },
+  {
     "id": "hotnews_en_5f0ac8b9",
     "date": "2026-08-25",
     "ts": 1787658391000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825003551315_01_i_P2.jpg",
     "title": "(LEAD) Lee says police will be biggest power, stresses need for reform by gov't body",
     "link": "https://en.yna.co.kr/view/AEN20260825003551315"
-  },
-  {
-    "id": "hotnews_en_40a5400a",
-    "date": "2026-08-25",
-    "ts": 1787623417000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825003900320_01_i_P2.jpg",
-    "title": "Coffee franchise Angel in Us to reenter Indonesian market",
-    "link": "https://en.yna.co.kr/view/AEN20260825003900320"
-  },
-  {
-    "id": "hotnews_en_aaa32be2",
-    "date": "2026-08-25",
-    "ts": 1787623119000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082501320001300_P2.jpg",
-    "title": "Men's badminton doubles team trying to learn from recent losses",
-    "link": "https://en.yna.co.kr/view/AEN20260825003700315"
-  },
-  {
-    "id": "hotnews_en_4d3d2dc4",
-    "date": "2026-08-25",
-    "ts": 1787622881000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/25/AEN20260825003500315_01_i_P2.jpg",
-    "title": "Lee says police will be biggest power, stresses need for reform by gov't body",
-    "link": "https://en.yna.co.kr/view/AEN20260825003500315"
   }
 ]
