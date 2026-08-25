@@ -1,5 +1,101 @@
 [
   {
+    "id": "hotnews_th_25d7f19f",
+    "date": "2026-08-25",
+    "ts": 1787619300000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKq6BIujC4VwU3.jpg",
+    "title": "\"กรมอุตุนิยมวิทยา\" เตือนฝนตกหนักบางพื้นที่ \"พายุโซนร้อนนาร์รา\" ไม่เคลื่อนเข้าไทย",
+    "link": "https://www.thairath.co.th/news/local/2955012"
+  },
+  {
+    "id": "hotnews_th_d2e90b0e",
+    "date": "2026-08-25",
+    "ts": 1787617812000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Deathtollfrom7.7Indonesiaquakerisesto100-02.jpg",
+    "title": "เหยื่อดินไหวในอินโดนีเซีย “ทะลุร้อยศพ” อ่วมอาฟเตอร์ช็อกหลายพันครั้ง-ยังรัวเขย่า",
+    "link": "https://www.khaosod.co.th/around-the-world-news/news_10372978"
+  },
+  {
+    "id": "hotnews_th_a628e93c",
+    "date": "2026-08-25",
+    "ts": 1787617800000,
+    "image": "https://static.thairath.co.th/media/xWxt25hqwLj9p5GwnVLp65spI9WYO6W0GNE12K1Z.jpg",
+    "title": "ส่อง จุดอันตรายต้องใช้ความระมัดระวัง ทางหลวงพิเศษระหว่างเมืองหมายเลข 82 (มอเตอร์เวย์ M82)",
+    "link": "https://www.thairath.co.th/news/auto/tips/2954998"
+  },
+  {
+    "id": "hotnews_th_dc8717d8",
+    "date": "2026-08-25",
+    "ts": 1787617339000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/domeworwaen258699998.jpg",
+    "title": "อย่างพีก! สาวโพสต์คลิปถึง โดม ปกรณ์ ลัม ลั่นพี่จะมามือลั่นใส่หนูไม่ได้ เมทัล คอมเมนต์",
+    "link": "https://www.khaosod.co.th/entertainment/news_10373177"
+  },
+  {
+    "id": "hotnews_th_6d8a2e1b",
+    "date": "2026-08-24",
+    "ts": 1787615940000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrlk7G0gsAkyp.jpg",
+    "title": "ราคาน้ำมันวันนี้ 25 สิงหาคม 2569 อัปเดตล่าสุด \"เบนซิน-ดีเซล\" ลิตรละกี่บาท",
+    "link": "https://www.thairath.co.th/news/society/2955009"
+  },
+  {
+    "id": "hotnews_th_3f363c90",
+    "date": "2026-08-24",
+    "ts": 1787615385000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Watch-Womens-Volleyball-Live.jpg",
+    "title": "ชมสด วอลเลย์บอลหญิง ไทย พบ คาซัคสถาน ชิงแชมป์เอเชีย 2026",
+    "link": "https://www.khaosod.co.th/sports/news_10373172"
+  },
+  {
+    "id": "hotnews_th_a40bf915",
+    "date": "2026-08-24",
+    "ts": 1787613987000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Todays-weather-16.jpg",
+    "title": "สภาพอากาศวันนี้ กรมอุตุฯ เตือน บ่ายถึงค่ำ ฝนถล่ม เปิดชื่อ 23 จังหวัด",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10373167"
+  },
+  {
+    "id": "hotnews_th_3d0d9326",
+    "date": "2026-08-24",
+    "ts": 1787613679000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrkVnTOGGQ2TP.jpg",
+    "title": "มหาสมุทรทั่วโลก อุณหภูมิเฉลี่ยทุบสถิติสูงสุด เอลนีโญทวีความรุนแรง",
+    "link": "https://www.thairath.co.th/news/foreign/2955006"
+  },
+  {
+    "id": "hotnews_th_1b30a1ed",
+    "date": "2026-08-24",
+    "ts": 1787609418000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrkfpwtUUUQbz.jpg",
+    "title": "เจ้าชายแฮร์รี่ ลาออกมูลนิธิสัตว์ป่าแอฟริกา หลังพบ จนท.ละเมิดสิทธิมนุษยชน",
+    "link": "https://www.thairath.co.th/news/foreign/2955004"
+  },
+  {
+    "id": "hotnews_th_40cc8d0f",
+    "date": "2026-08-24",
+    "ts": 1787607175000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSKrkx2vFryfyxE.jpg",
+    "title": "ชาวเนปาลเดือด เหตุข่มขืนและฆาตกรรมเด็กหญิงวัย 3 ขวบ",
+    "link": "https://www.thairath.co.th/news/foreign/2955003"
+  },
+  {
+    "id": "hotnews_th_210b4ac6",
+    "date": "2026-08-24",
+    "ts": 1787605793000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/palmi.jpg",
+    "title": "แมนเชสเตอร์ ซิตี้ บรรลุข้อตกลงคว้าตัว อัลลัน ปีกดาวรุ่งบราซิล",
+    "link": "https://www.khaosod.co.th/sports/news_10373164"
+  },
+  {
+    "id": "hotnews_th_63642679",
+    "date": "2026-08-24",
+    "ts": 1787604897000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/jao.jpg",
+    "title": "เชลซี บุกเฉือน ฟูแลม สุดมันส์ เปโดร ยิงไวตั้งแต่ 31 วินาทีแรก",
+    "link": "https://www.khaosod.co.th/sports/news_10373161"
+  },
+  {
     "id": "hotnews_th_96ea2c08",
     "date": "2026-08-24",
     "ts": 1787601718000,
@@ -302,101 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQ1qGsQ9fOaMp.jpg",
     "title": "ซ่อมเสร็จแล้ว ทางรถไฟสายใต้ช่วงสถานี \"มะรือโบ-ตันหยงมัส\" พร้อมเปิดเดินรถตามปกติ",
     "link": "https://www.thairath.co.th/news/local/south/2954976"
-  },
-  {
-    "id": "hotnews_th_8b017a5f",
-    "date": "2026-08-24",
-    "ts": 1787575345000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dead21.jpg",
-    "title": "ทหารพรานปะทะเดือด แก๊งขนยาเสพติด วิสามัญ2ราย ยึดยาบ้า 4 เป้",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10372953"
-  },
-  {
-    "id": "hotnews_th_de7d8af6",
-    "date": "2026-08-24",
-    "ts": 1787575128000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Twinings-%E0%B8%9B%E0%B8%81.gif",
-    "title": "เยือนร้านทไวนิงส์ บินลอนดอน สัมผัสวัฒนธรรม-เคล็ดลับดื่มชา",
-    "link": "https://www.khaosod.co.th/lifestyle/news_10372958"
-  },
-  {
-    "id": "hotnews_th_5e86a0b2",
-    "date": "2026-08-24",
-    "ts": 1787575113000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dadase.jpg",
-    "title": "กอ.รมน.ภาค 4 สน. สรุปเหตุป่วน 4 จว.ชายแดนใต้ 75 เหตุการณ์ เจ็บ 11 ราย อาคารเสียหาย 17 แห่ง",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10372954"
-  },
-  {
-    "id": "hotnews_th_0c6c096f",
-    "date": "2026-08-24",
-    "ts": 1787574961000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQ1wTzTZ2mTFT.jpg",
-    "title": "โปรดเกล้าฯ พระราชทานเครื่องราชอิสริยาภรณ์จุลจอมเกล้า ฝ่ายใน และชั้นอื่นๆ รวม 11 ราย",
-    "link": "https://www.thairath.co.th/news/politic/2954974"
-  },
-  {
-    "id": "hotnews_th_d4df6682",
-    "date": "2026-08-24",
-    "ts": 1787574959000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQ1XDFNdrjbBg.jpg",
-    "title": "น้องสุดทน ยิงพี่ชายดับคาที่ หลังคลั่งยา ถือปืนยิงพ่อ โชคดีกระสุนด้าน",
-    "link": "https://www.thairath.co.th/news/crime/2954973"
-  },
-  {
-    "id": "hotnews_th_d69a23df",
-    "date": "2026-08-24",
-    "ts": 1787574796000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ggfgsgsf.jpg",
-    "title": "ซ่อมเสร็จแล้ว ทางรถไฟสายใต้ ช่วงสถานีมะรือโบ – ตันหยงมัส เปิดเดินรถ หลังถูกระเบิดเสียหาย",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10372959"
-  },
-  {
-    "id": "hotnews_th_f6511d55",
-    "date": "2026-08-24",
-    "ts": 1787574237000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQm2jZUaUptXy.jpg",
-    "title": "“ธรรมนัส” ลุยช่วยผู้ประสบภัย อ.ปัว จี้รัฐเร่งแผนบริหารจัดการน้ำ หวั่นปีหน้าท่วมซ้ำ",
-    "link": "https://www.thairath.co.th/news/politic/2954969"
-  },
-  {
-    "id": "hotnews_th_094e2850",
-    "date": "2026-08-24",
-    "ts": 1787574223000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/sin-1.jpg",
-    "title": "สิงคโปร์ ประกาศแจกเงินทารกแรกเกิด 10,000 ดอลลาร์ ช่วยถึง 70,000 ดอลลาร์จนอายุ 17",
-    "link": "https://www.khaosod.co.th/special-stories/news_10372900"
-  },
-  {
-    "id": "hotnews_th_42fe62c6",
-    "date": "2026-08-24",
-    "ts": 1787573973000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/IMG_2107-1.jpeg",
-    "title": "สัปดาห์ที่แล้ว นักท่องเที่ยวระยะใกล้เข้าไทย 3. แสนคน ลดลง 4.7%",
-    "link": "https://www.khaosod.co.th/economics/news_10372813"
-  },
-  {
-    "id": "hotnews_th_0f716bb0",
-    "date": "2026-08-24",
-    "ts": 1787573419000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/POK-TTMM.jpg",
-    "title": "ทิ้งหมัดเข้ามุม คดีฮั้วสว.ตัวชี้วัด วิกฤตศรัทธากกต.?",
-    "link": "https://www.khaosod.co.th/newspaper-column/relevant/news_10372758"
-  },
-  {
-    "id": "hotnews_th_b620a2bd",
-    "date": "2026-08-24",
-    "ts": 1787573396000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B8%9B%E0%B8%9B%E0%B8%9B.jpg",
-    "title": "หอการค้าเชียงใหม่ เตรียมเปิดศึกดวลวงสวิงสานสัมพันธ์เครือข่ายรัฐ-เอกชน ขับเคลื่อนเศรษฐกิจ-สังคมเชียงใหม่",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10372937"
-  },
-  {
-    "id": "hotnews_th_3b273dbd",
-    "date": "2026-08-24",
-    "ts": 1787573396000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeYiQoFYUHg527yG.jpg",
-    "title": "อช.เขาแหลม ประกาศปิดเที่ยว \"น้ำตกเกริกกระเวีย\" ชั่วคราว หลังฝนตกหนัก น้ำไหลเชี่ยว",
-    "link": "https://www.thairath.co.th/news/local/2954967"
   }
 ]
