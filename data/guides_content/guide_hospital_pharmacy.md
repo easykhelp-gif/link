@@ -35,7 +35,7 @@ If you are an undocumented immigrant or a short-term visitor, you will not have 
 | X-Ray / Basic Blood Test | 10,000 ~ 20,000 KRW | 50,000 ~ 100,000 KRW |
 | MRI Scan | 150,000 ~ 250,000 KRW | 400,000 ~ 800,000 KRW |
 
-*Note: Costs vary by hospital level (Clinic vs. General Hospital vs. University Hospital).*
+Note: Costs vary by hospital level (Clinic vs. General Hospital vs. University Hospital).
 
 ### Using the Emergency Room (ER / 응급실)
 
@@ -72,7 +72,7 @@ Use the [Kori Care Local Directory](/link/) to find foreign-language-friendly ho
 | เอกซเรย์ / ตรวจเลือดพื้นฐาน | 10,000 ~ 20,000 วอน | 50,000 ~ 100,000 วอน |
 | สแกน MRI | 150,000 ~ 250,000 วอน | 400,000 ~ 800,000 วอน |
 
-*หมายเหตุ: ค่าใช้จ่ายจะแตกต่างกันไปตามระดับของโรงพยาบาล (คลินิก vs. โรงพยาบาลทั่วไป vs. โรงพยาบาลมหาวิทยาลัย)*
+หมายเหตุ: ค่าใช้จ่ายจะแตกต่างกันไปตามระดับของโรงพยาบาล (คลินิก vs. โรงพยาบาลทั่วไป vs. โรงพยาบาลมหาวิทยาลัย)
 
 ### การใช้ห้องฉุกเฉิน (ER / 응급실)
 
@@ -109,7 +109,7 @@ Nếu bạn là người cư trú bất hợp pháp hoặc khách du lịch ng�
 | Chụp X-Quang / Xét nghiệm máu | 10,000 ~ 20,000 KRW | 50,000 ~ 100,000 KRW |
 | Chụp MRI | 150,000 ~ 250,000 KRW | 400,000 ~ 800,000 KRW |
 
-*Lưu ý: Chi phí thay đổi tùy theo cấp độ bệnh viện (Phòng khám vs. Bệnh viện Đa khoa vs. Bệnh viện Đại học).*
+Lưu ý: Chi phí thay đổi tùy theo cấp độ bệnh viện (Phòng khám vs. Bệnh viện Đa khoa vs. Bệnh viện Đại học).
 
 ### Sử dụng Phòng Cấp cứu (ER / 응급실)
 
