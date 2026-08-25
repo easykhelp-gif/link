@@ -8,6 +8,25 @@ const TEMPLATE_PATH = path.join(BASE_DIR, 'templates', 'guide_template.html');
 const INDEX_PATH = path.join(BASE_DIR, 'index.html');
 const GUIDES_SITEMAP_PATH = path.join(DATA_DIR, 'guides_sitemap.json');
 
+// HTML 속성용 이스케이프
+function escAttr(s) {
+  return String(s == null ? '' : s)
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// JSON-LD 문자열용 이스케이프
+// script 블록 안에서는 HTML 엔티티가 해석되지 않으므로 &quot; 를 쓰면 안 된다
+function escJson(s) {
+  return JSON.stringify(String(s == null ? '' : s).replace(/\s+/g, ' ').trim())
+    .slice(1, -1)
+    .replace(/</g, '\\u003c');
+}
+
 function ensureDir(dirPath) {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
@@ -58,8 +77,10 @@ function buildGuides() {
       html = html.replace(/\{\{CANONICAL_URL_VI\}\}/g, canonicalVi);
       
       const currTitle = lang === 'en' ? guide.title_en : (lang === 'th' ? guide.title_th : guide.title_vi);
-      html = html.replace(/\{\{TITLE\}\}/g, currTitle || guide.title_en || '');
-      html = html.replace(/\{\{TITLE_EN\}\}/g, currTitle || guide.title_en || '');
+      const titleRaw = currTitle || guide.title_en || '';
+      html = html.replace(/\{\{TITLE\}\}/g, escAttr(titleRaw));
+      html = html.replace(/\{\{TITLE_EN\}\}/g, escAttr(titleRaw));
+      html = html.replace(/\{\{TITLE_JSON\}\}/g, escJson(titleRaw));
       html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
       
       const currContent = lang === 'en' ? guide.content_en : (lang === 'th' ? guide.content_th : guide.content_vi);
@@ -67,7 +88,8 @@ function buildGuides() {
       if (!description && currContent) {
         description = currContent.replace(/<[^>]*>?/gm, '').substring(0, 150).trim() + '...';
       }
-      html = html.replace(/\{\{DESCRIPTION\}\}/g, description || '');
+      html = html.replace(/\{\{DESCRIPTION\}\}/g, escAttr(description));
+      html = html.replace(/\{\{DESCRIPTION_JSON\}\}/g, escJson(description));
       
       let imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
       if (imgUrl.startsWith('/link/')) {
