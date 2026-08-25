@@ -45,6 +45,21 @@
     "priority": 0.7
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/korea/industrial_accident/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/korea/industrial_accident/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/korea/industrial_accident/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/",
     "changefreq": "monthly",
     "priority": 0.7
