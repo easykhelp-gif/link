@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_d56e27e8",
+    "date": "2026-08-26",
+    "ts": 1787757396000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827000300315_01_i_P2.jpg",
+    "title": "U.S. official says there has been 'no change' in U.S. policy toward N. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20260827000300315"
+  },
+  {
+    "id": "hotnews_en_7edc31e5",
+    "date": "2026-08-26",
+    "ts": 1787756998000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) U.S. official says there has been 'no change' in U.S. policy toward N. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20260827000200315"
+  },
+  {
+    "id": "hotnews_en_f384ed21",
+    "date": "2026-08-26",
+    "ts": 1787754613000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082623080001300_P2.jpg",
+    "title": "(3rd LD) 9 S. Koreans missing in Nepal floods; 10 others confirmed safe",
+    "link": "https://en.yna.co.kr/view/AEN20260826009253320"
+  },
+  {
+    "id": "hotnews_en_d674f218",
+    "date": "2026-08-26",
+    "ts": 1787753317000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082623220001300_P2.jpg",
+    "title": "KBO attendance tops 10 mln in fewest games ever",
+    "link": "https://en.yna.co.kr/view/AEN20260826010600315"
+  },
+  {
+    "id": "hotnews_en_2f40523d",
+    "date": "2026-08-26",
+    "ts": 1787752714000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) 10 S. Koreans stranded in Nepal's flood safely evacuated: foreign minister",
+    "link": "https://en.yna.co.kr/view/AEN20260826010500320"
+  },
+  {
+    "id": "hotnews_en_fd83a9b1",
+    "date": "2026-08-26",
+    "ts": 1787748238000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/06/PYH2025080606380001300_P2.jpg",
+    "title": "(2nd LD) 8 S. Koreans missing, 10 stranded in flood in Nepal",
+    "link": "https://en.yna.co.kr/view/AEN20260826009252320"
+  },
+  {
     "id": "hotnews_en_44b6036e",
     "date": "2026-08-26",
     "ts": 1787745600000,
@@ -350,53 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602720001300_P2.jpg",
     "title": "Seoul stocks up late Wed. morning ahead of Nvidia earnings",
     "link": "https://en.yna.co.kr/view/AEN20260826004000320"
-  },
-  {
-    "id": "hotnews_en_1e125173",
-    "date": "2026-08-26",
-    "ts": 1787711236000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826003800315_02_i_P2.jpg",
-    "title": "DP leader asks Lee not to appoint ex-PPP lawmaker as Red Cross chief",
-    "link": "https://en.yna.co.kr/view/AEN20260826003800315"
-  },
-  {
-    "id": "hotnews_en_132521c3",
-    "date": "2026-08-26",
-    "ts": 1787711006000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826002451315_01_i_P2.jpg",
-    "title": "(LEAD) Chinese man questioned over alleged murder in Gyeongsan",
-    "link": "https://en.yna.co.kr/view/AEN20260826002451315"
-  },
-  {
-    "id": "hotnews_en_a0ddefa0",
-    "date": "2026-08-26",
-    "ts": 1787710274000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082604360001301_P2.jpg",
-    "title": "Land minister says additional greenbelt housing supply to be limited to Gyeonggi Province",
-    "link": "https://en.yna.co.kr/view/AEN20260826003000320"
-  },
-  {
-    "id": "hotnews_en_7e886069",
-    "date": "2026-08-26",
-    "ts": 1787709607000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/02/PYH2026080204600001300_P2.jpg",
-    "title": "Retail sales rise 6.4 pct in July spurred by vacation season spending",
-    "link": "https://en.yna.co.kr/view/AEN20260826001100320"
-  },
-  {
-    "id": "hotnews_en_333ab5b7",
-    "date": "2026-08-26",
-    "ts": 1787708531000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826002400315_01_i_P2.jpg",
-    "title": "Chinese man questioned over alleged murder in Gyeongsan",
-    "link": "https://en.yna.co.kr/view/AEN20260826002400315"
-  },
-  {
-    "id": "hotnews_en_1f574543",
-    "date": "2026-08-26",
-    "ts": 1787707045000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826002600315_01_i_P2.jpg",
-    "title": "U.S. preparing for Freedom Edge joint exercise with S. Korea, Japan: U.S. Pacific Command",
-    "link": "https://en.yna.co.kr/view/AEN20260826002600315"
   }
 ]
