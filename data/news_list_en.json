@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_en_0842abf3",
+    "date": "2026-08-26",
+    "ts": 1787783018000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827000352315_01_i_P2.jpg",
+    "title": "(2nd LD) State Dept. reaffirms U.S. commitment to 'complete' denuclearization of N. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20260827000352315"
+  },
+  {
+    "id": "hotnews_en_cae45fdb",
+    "date": "2026-08-26",
+    "ts": 1787782840000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827001000315_01_i_P2.jpg",
+    "title": "9 S. Koreans remain missing in Nepal floods; gov't team to be dispatched",
+    "link": "https://en.yna.co.kr/view/AEN20260827001000315"
+  },
+  {
+    "id": "hotnews_en_22fdd70f",
+    "date": "2026-08-26",
+    "ts": 1787782224000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Aug. 27)",
+    "link": "https://en.yna.co.kr/view/AEN20260827000900320"
+  },
+  {
+    "id": "hotnews_en_73c37ee7",
+    "date": "2026-08-26",
+    "ts": 1787782212000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Times on Aug. 27)",
+    "link": "https://en.yna.co.kr/view/AEN20260827000800320"
+  },
+  {
+    "id": "hotnews_en_227442cb",
+    "date": "2026-08-26",
+    "ts": 1787782192000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Herald on Aug. 27)",
+    "link": "https://en.yna.co.kr/view/AEN20260827000700320"
+  },
+  {
+    "id": "hotnews_en_b983a662",
+    "date": "2026-08-26",
+    "ts": 1787782185000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20260827000600320"
+  },
+  {
+    "id": "hotnews_en_c7882965",
+    "date": "2026-08-26",
+    "ts": 1787778012000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826004900320_01_i_P2.jpg",
+    "title": "Card firms' H1 net rises over 5 pct on rise in commission income",
+    "link": "https://en.yna.co.kr/view/AEN20260826004900320"
+  },
+  {
+    "id": "hotnews_en_72cfea92",
+    "date": "2026-08-26",
+    "ts": 1787778012000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826005100320_01_i_P2.jpg",
+    "title": "Insurance firms' H1 net jumps 13 pct on rise in investment returns",
+    "link": "https://en.yna.co.kr/view/AEN20260826005100320"
+  },
+  {
+    "id": "hotnews_en_358e2b84",
+    "date": "2026-08-26",
+    "ts": 1787763949000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827000351315_01_i_P2.jpg",
+    "title": "(LEAD) U.S. official says 'no change' in U.S. policy toward N. Korea amid denuclearization concerns",
+    "link": "https://en.yna.co.kr/view/AEN20260827000351315"
+  },
+  {
     "id": "hotnews_en_d56e27e8",
     "date": "2026-08-26",
     "ts": 1787757396000,
@@ -326,77 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826001500315_01_i_P2.jpg",
     "title": "Navy aborts suicide drone test off southern coast after launch failure",
     "link": "https://en.yna.co.kr/view/AEN20260826001500315"
-  },
-  {
-    "id": "hotnews_en_523518ee",
-    "date": "2026-08-26",
-    "ts": 1787713211000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/26/AEN20260826001900320_02_i_P2.jpg",
-    "title": "Fair trade watchdog fines matchmaking firm for exaggerating membership figures",
-    "link": "https://en.yna.co.kr/view/AEN20260826001900320"
-  },
-  {
-    "id": "hotnews_en_a77c0c13",
-    "date": "2026-08-26",
-    "ts": 1787713206000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/16/PYH2026081602400001300_P2.jpg",
-    "title": "Banks' household mortgage lending rates rise for 3rd month in July",
-    "link": "https://en.yna.co.kr/view/AEN20260826002800320"
-  },
-  {
-    "id": "hotnews_en_f4dfb195",
-    "date": "2026-08-26",
-    "ts": 1787713206000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/07/PYH2025090707190001300_P2.jpg",
-    "title": "Population mobility falls in July amid housing market slowdown",
-    "link": "https://en.yna.co.kr/view/AEN20260826002900320"
-  },
-  {
-    "id": "hotnews_en_e96cbf19",
-    "date": "2026-08-26",
-    "ts": 1787713202000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/24/PYH2026062413420001300_P2.jpg",
-    "title": "Births up 15.6 pct in June, extend gains for 24th month",
-    "link": "https://en.yna.co.kr/view/AEN20260826004100320"
-  },
-  {
-    "id": "hotnews_en_fac618e9",
-    "date": "2026-08-26",
-    "ts": 1787713200000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072915690006000_P2.jpg",
-    "title": "S. Korea's births rise 6.7 pct to 254,300 in 2025",
-    "link": "https://en.yna.co.kr/view/AEN20260826004400320"
-  },
-  {
-    "id": "hotnews_en_2f2da911",
-    "date": "2026-08-26",
-    "ts": 1787713126000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082604360001301_P2.jpg",
-    "title": "(LEAD) Land minister says additional greenbelt housing supply to be limited to Gyeonggi Province",
-    "link": "https://en.yna.co.kr/view/AEN20260826003051320"
-  },
-  {
-    "id": "hotnews_en_c6ce07cf",
-    "date": "2026-08-26",
-    "ts": 1787712664000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082606530031500_P2.jpg",
-    "title": "PPP leader vows sweeping party overhaul to win 2028 general elections",
-    "link": "https://en.yna.co.kr/view/AEN20260826004200315"
-  },
-  {
-    "id": "hotnews_en_e47843bb",
-    "date": "2026-08-26",
-    "ts": 1787711792000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082502760001300_P2.jpg",
-    "title": "5 commercial banks listed as top 7 FX market traders",
-    "link": "https://en.yna.co.kr/view/AEN20260826003900320"
-  },
-  {
-    "id": "hotnews_en_a00c60d3",
-    "date": "2026-08-26",
-    "ts": 1787711503000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602720001300_P2.jpg",
-    "title": "Seoul stocks up late Wed. morning ahead of Nvidia earnings",
-    "link": "https://en.yna.co.kr/view/AEN20260826004000320"
   }
 ]
