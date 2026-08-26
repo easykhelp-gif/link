@@ -1,6 +1,6 @@
 {
   "region_id": "incheon",
-  "places_count": 325,
+  "places_count": 314,
   "places": [
     {
       "id": "7893623",
@@ -81,32 +81,6 @@
       "y": "37.47373605183955"
     },
     {
-      "id": "26511168",
-      "name_ko": "가톨릭대학교 인천성모병원 장례식장",
-      "name_en": "Catholic University Incheonseongmo Hospital Funeral Hall",
-      "name_th": "Catholic University Incheonseongmo Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "인천 부평구 동수로 56",
-      "phone": "032-517-0710",
-      "map_url": "http://place.map.kakao.com/26511168",
-      "x": "126.7249110507514",
-      "y": "37.48423537537544"
-    },
-    {
-      "id": "23727896",
-      "name_ko": "가천의과학대학교 병원경영대학원",
-      "name_en": "Gacheon Medical University Hospital Gyeongyeong University Won",
-      "name_th": "Gacheon Medical University Hospital Gyeongyeong University Won",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교 > 대학원",
-      "address": "인천 연수구 함박뫼로 191",
-      "phone": "032-820-4034",
-      "map_url": "http://place.map.kakao.com/23727896",
-      "x": "126.687846680544",
-      "y": "37.4225934867574"
-    },
-    {
       "id": "1946290349",
       "name_ko": "가톨릭대학교 인천성모병원 뇌병원",
       "name_en": "Catholic University Incheonseongmo Hospital Noe Hospital",
@@ -118,19 +92,6 @@
       "map_url": "http://place.map.kakao.com/1946290349",
       "x": "126.72571716736965",
       "y": "37.48517429551256"
-    },
-    {
-      "id": "18039462",
-      "name_ko": "가톨릭대학교 인천성모병원 주차장",
-      "name_en": "Catholic University Incheonseongmo Hospital Parking",
-      "name_th": "Catholic University Incheonseongmo Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "인천 부평구 동수로 56",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18039462",
-      "x": "126.725932008983",
-      "y": "37.4845512981039"
     },
     {
       "id": "26455775",
@@ -170,32 +131,6 @@
       "map_url": "http://place.map.kakao.com/18039435",
       "x": "126.72522716953723",
       "y": "37.48436225179186"
-    },
-    {
-      "id": "778797383",
-      "name_ko": "가톨릭대학교 인천성모병원 주차타워1",
-      "name_en": "Catholic University Incheonseongmo Hospital Jucha Tower 1",
-      "name_th": "Catholic University Incheonseongmo Hospital Jucha Tower 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 주차빌딩",
-      "address": "인천 부평구 동수로 56",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/778797383",
-      "x": "126.725996848889",
-      "y": "37.484134282792205"
-    },
-    {
-      "id": "354590817",
-      "name_ko": "가톨릭대학교 인천성모병원 제2주차타워",
-      "name_en": "Catholic University Incheonseongmo Hospital Je 2 Jucha Tower",
-      "name_th": "Catholic University Incheonseongmo Hospital Je 2 Jucha Tower",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "인천 부평구 동수로52번길 2",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/354590817",
-      "x": "126.724197407275",
-      "y": "37.4849049609063"
     },
     {
       "id": "1250074548",
@@ -631,7 +566,7 @@
       "name_ko": "타이반쩜 인천시청점",
       "name_en": "Taibanjjeom Incheon City Hall Jeom",
       "name_th": "Taibanjjeom Incheon City Hall Jeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "인천 남동구 남동대로799번길 34",
       "phone": "1345",
@@ -1164,7 +1099,7 @@
       "name_ko": "스마트 폰면세점 주안점",
       "name_en": "Seu Market Phone Myeonsejeom Juanjeom",
       "name_th": "Seu Market Phone Myeonsejeom Juanjeom",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "인천 미추홀구 길파로 15",
       "phone": "010-7732-8087",
@@ -1472,19 +1407,6 @@
       "y": "37.46187822386895"
     },
     {
-      "id": "14650782",
-      "name_ko": "가천대길병원 장례식장",
-      "name_en": "Gacheondaegil Hospital Funeral Hall",
-      "name_th": "Gacheondaegil Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "인천 남동구 인주대로653번길 56",
-      "phone": "032-460-3444",
-      "map_url": "http://place.map.kakao.com/14650782",
-      "x": "126.70992978449",
-      "y": "37.4520768083983"
-    },
-    {
       "id": "14920073",
       "name_ko": "가천대길병원 암센터",
       "name_en": "Gacheondaegil Hospital Am Center",
@@ -1498,24 +1420,11 @@
       "y": "37.452484995034"
     },
     {
-      "id": "17577742",
-      "name_ko": "하대병원 장례식장",
-      "name_en": "Hadae Hospital Funeral Hall",
-      "name_th": "Hadae Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "인천 제물포구 인항로 27",
-      "phone": "032-890-3180",
-      "map_url": "http://place.map.kakao.com/17577742",
-      "x": "126.633988126364",
-      "y": "37.4592506810497"
-    },
-    {
       "id": "9538958",
       "name_ko": "하나은행 인하대병원출장소",
       "name_en": "Hana Bank Inha Dae Hospital Branch Office",
       "name_th": "Hana Bank Inha Dae Hospital Branch Office",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 하나은행",
       "address": "인천 제물포구 인항로 27",
       "phone": "032-889-1111",
@@ -1524,37 +1433,11 @@
       "y": "37.458668323846624"
     },
     {
-      "id": "789964922",
-      "name_ko": "가천대학교길병원 전기차충전소",
-      "name_en": "Gacheon University Gil Hospital Jeongichachungjeonso",
-      "name_th": "Gacheon University Gil Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "인천 남동구 인주대로653번길 56",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/789964922",
-      "x": "126.71002715934236",
-      "y": "37.45173736640956"
-    },
-    {
-      "id": "396576682",
-      "name_ko": "인하대학교 의과대학 부속병원 전기차충전소",
-      "name_en": "Inha University College of Medicine Busok Hospital Jeongichachungjeonso",
-      "name_th": "Inha University College of Medicine Busok Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "인천 제물포구 인항로 27",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/396576682",
-      "x": "126.634159618478",
-      "y": "37.4588502637041"
-    },
-    {
       "id": "123988342",
       "name_ko": "하나은행365 가천대 길병원 의과대학",
       "name_en": "Hana Bank 365 Gacheondae Gil Hospital College of Medicine",
       "name_th": "Hana Bank 365 Gacheondae Gil Hospital College of Medicine",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > ATM",
       "address": "인천 남동구 독점로3번길 38-13",
       "phone": "1345",
@@ -1867,7 +1750,7 @@
       "name_en": "Songdorideoseu Orthopedics Clinic Plastic Surgery Clinic Clinic",
       "name_th": "Songdorideoseu Orthopedics Clinic Plastic Surgery Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건��� > 병원 > 정형외과",
+      "category_detail": "의료,건강 > 병원 > 정형외과",
       "address": "인천 연수구 송도국제대로 157",
       "phone": "032-814-8002",
       "map_url": "http://place.map.kakao.com/1433880958",
@@ -3576,32 +3459,6 @@
       "map_url": "http://place.map.kakao.com/1080293108",
       "x": "126.72528848147476",
       "y": "37.485527394747315"
-    },
-    {
-      "id": "63018634",
-      "name_ko": "가톨릭관동대학교 국제성모병원 장례식장 주차장",
-      "name_en": "Catholic Gwandong University Gukjeseongmo Hospital Funeral Hall Parking",
-      "name_th": "Catholic Gwandong University Gukjeseongmo Hospital Funeral Hall Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "인천 서해구 심곡동 291",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/63018634",
-      "x": "126.684051733498",
-      "y": "37.5426621691295"
-    },
-    {
-      "id": "512775962",
-      "name_ko": "가톨릭관동대학교 국제성모병원 주차장",
-      "name_en": "Catholic Gwandong University Gukjeseongmo Hospital Parking",
-      "name_th": "Catholic Gwandong University Gukjeseongmo Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "인천 서해구 심곡로100번길 25",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/512775962",
-      "x": "126.68324847415192",
-      "y": "37.54263118532697"
     },
     {
       "id": "817419557",

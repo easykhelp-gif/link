@@ -1,6 +1,6 @@
 {
   "region_id": "jeju",
-  "places_count": 142,
+  "places_count": 132,
   "places": [
     {
       "id": "8066549",
@@ -42,45 +42,6 @@
       "y": "33.46746253732843"
     },
     {
-      "id": "246637104",
-      "name_ko": "구두수선대학병원",
-      "name_en": "Gudususeon University Hospital",
-      "name_th": "Gudususeon University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "제주특별자치도 제주시 신대로14길 5",
-      "phone": "010-7942-0863",
-      "map_url": "http://place.map.kakao.com/246637104",
-      "x": "126.495895285509",
-      "y": "33.4876155480801"
-    },
-    {
-      "id": "17564217",
-      "name_ko": "제주대학교 수의과대학 부설동물병원",
-      "name_en": "Jeju University Su College of Medicine Buseoldongmul Hospital",
-      "name_th": "Jeju University Su College of Medicine Buseoldongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "제주특별자치도 제주시 제주대학로 102",
-      "phone": "064-754-3380",
-      "map_url": "http://place.map.kakao.com/17564217",
-      "x": "126.558852466949",
-      "y": "33.4514076393825"
-    },
-    {
-      "id": "1363708319",
-      "name_ko": "대학병원 안경원",
-      "name_en": "University Hospital Angyeongwon",
-      "name_th": "University Hospital Angyeongwon",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 패션잡화점 > 안경,렌즈",
-      "address": "제주특별자치도 제주시 일주동로 205",
-      "phone": "064-752-1007",
-      "map_url": "http://place.map.kakao.com/1363708319",
-      "x": "126.567263594655",
-      "y": "33.5190669284464"
-    },
-    {
       "id": "13565375",
       "name_ko": "제주대학교병원 건강증진센터",
       "name_en": "Jeju University Hospital Geongangjeungjin Center",
@@ -107,32 +68,6 @@
       "y": "33.4670836961884"
     },
     {
-      "id": "26100129",
-      "name_ko": "제주대학교 수의과대학부설 말전문동물병원",
-      "name_en": "Jeju University Su College of Medicine Buseol Maljeonmundongmul Hospital",
-      "name_th": "Jeju University Su College of Medicine Buseol Maljeonmundongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "제주특별자치도 제주시 산천단남길 42",
-      "phone": "064-725-0175",
-      "map_url": "http://place.map.kakao.com/26100129",
-      "x": "126.562699378254",
-      "y": "33.4469745681299"
-    },
-    {
-      "id": "481073855",
-      "name_ko": "제주대학교병원 어린이집",
-      "name_en": "Jeju University Hospital Daycare Center",
-      "name_th": "Jeju University Hospital Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "제주특별자치도 제주시 아라일동 1863",
-      "phone": "064-717-2980",
-      "map_url": "http://place.map.kakao.com/481073855",
-      "x": "126.54467060929011",
-      "y": "33.46409597004825"
-    },
-    {
       "id": "11879993",
       "name_ko": "제주대학교병원 권역심뇌혈관질환센터",
       "name_en": "Jeju University Hospital Gwonyeoksimnoehyeolgwanjilhwan Center",
@@ -144,58 +79,6 @@
       "map_url": "http://place.map.kakao.com/11879993",
       "x": "126.545251883683",
       "y": "33.4673168091932"
-    },
-    {
-      "id": "17579444",
-      "name_ko": "제주대학교병원 주차장3",
-      "name_en": "Jeju University Hospital Parking 3",
-      "name_th": "Jeju University Hospital Parking 3",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "제주특별자치도 제주시 아라일동 1781",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17579444",
-      "x": "126.5442183354",
-      "y": "33.4682975582689"
-    },
-    {
-      "id": "1295901659",
-      "name_ko": "제주대학교병원 주차장7",
-      "name_en": "Jeju University Hospital Parking 7",
-      "name_th": "Jeju University Hospital Parking 7",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "제주특별자치도 제주시 아라일동 1836",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1295901659",
-      "x": "126.546936735456",
-      "y": "33.4660318899008"
-    },
-    {
-      "id": "278295995",
-      "name_ko": "제주대학교병원 주차장1",
-      "name_en": "Jeju University Hospital Parking 1",
-      "name_th": "Jeju University Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "제주특별자치도 제주시 아라일동 1857-3",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/278295995",
-      "x": "126.54463888436",
-      "y": "33.4660487153388"
-    },
-    {
-      "id": "1294868639",
-      "name_ko": "나이스파크 제주대학교병원주차장",
-      "name_en": "Naiseupakeu Jeju University Hospital Parking",
-      "name_th": "Naiseupakeu Jeju University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "제주특별자치도 제주시 아란13길 15",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1294868639",
-      "x": "126.54545346821",
-      "y": "33.4672364047013"
     },
     {
       "id": "2029522498",
@@ -722,7 +605,7 @@
       "name_ko": "드렁킨타이 제주시청점",
       "name_en": "Deureongkintai Jeju City Hall Jeom",
       "name_th": "Deureongkintai Jeju City Hall Jeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "제주특별자치도 제주시 신성로 109",
       "phone": "064-805-9733",
@@ -736,7 +619,7 @@
       "name_en": "Ranahantai Woljeong",
       "name_th": "Ranahantai Woljeong",
       "category": "restaurant",
-      "category_detail": "음식점 > 아시아음��� > 동남아음식 > 태국음식",
+      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "제주특별자치도 제주시 구좌읍 행원로1길 32-5",
       "phone": "064-764-0106",
       "map_url": "http://place.map.kakao.com/115229312",
@@ -1210,19 +1093,6 @@
       "map_url": "http://place.map.kakao.com/730028837",
       "x": "126.543587884735",
       "y": "33.4777475820477"
-    },
-    {
-      "id": "1440280163",
-      "name_ko": "제주대학교병원 주차장2",
-      "name_en": "Jeju University Hospital Parking 2",
-      "name_th": "Jeju University Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "제주특별자치도 제주시 아라일동 1863",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1440280163",
-      "x": "126.54436366203",
-      "y": "33.4651947922097"
     },
     {
       "id": "778442632",

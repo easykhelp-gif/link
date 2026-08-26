@@ -1,6 +1,6 @@
 {
   "region_id": "sejong",
-  "places_count": 199,
+  "places_count": 192,
   "places": [
     {
       "id": "27465756",
@@ -497,32 +497,6 @@
       "y": "36.519632033403575"
     },
     {
-      "id": "278709509",
-      "name_ko": "세종충남대학교병원 지하1층주차장",
-      "name_en": "Sejongchungnam University Hospital Jiha 1 Cheung Parking",
-      "name_th": "Sejongchungnam University Hospital Jiha 1 Cheung Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "세종특별자치시 도담동 407",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/278709509",
-      "x": "127.25787277695183",
-      "y": "36.5189431757001"
-    },
-    {
-      "id": "817587374",
-      "name_ko": "세종충남대학교병원 장례식장및방문업자 주차구역",
-      "name_en": "Sejongchungnam University Hospital Funeral Hall Mitbangmuneopja Juchaguyeok",
-      "name_th": "Sejongchungnam University Hospital Funeral Hall Mitbangmuneopja Juchaguyeok",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "세종특별자치시 도담동 407",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/817587374",
-      "x": "127.25849736367596",
-      "y": "36.520433231390946"
-    },
-    {
       "id": "2105332207",
       "name_ko": "세종충남대학교병원 헬스케어센터",
       "name_en": "Sejongchungnam University Hospital Health Care Center",
@@ -601,19 +575,6 @@
       "y": "36.5195247221134"
     },
     {
-      "id": "1812740174",
-      "name_ko": "세종충남대학교병원 지하2층주차장",
-      "name_en": "Sejongchungnam University Hospital Jiha 2 Cheung Parking",
-      "name_th": "Sejongchungnam University Hospital Jiha 2 Cheung Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "세종특별자치시 보듬7로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1812740174",
-      "x": "127.25857839981",
-      "y": "36.5196220184255"
-    },
-    {
       "id": "849780599",
       "name_ko": "단국대학교 치과대학 세종치과병원",
       "name_en": "Dankook University Dental Clinic University Sejong Dental Clinic Hospital",
@@ -625,58 +586,6 @@
       "map_url": "http://place.map.kakao.com/849780599",
       "x": "127.271318490645",
       "y": "36.50431556382"
-    },
-    {
-      "id": "385637644",
-      "name_ko": "세종충북대학교동물병원",
-      "name_en": "Sejongchungbuk University Dongmul Hospital",
-      "name_th": "Sejongchungbuk University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "세종특별자치시 집현북로 109",
-      "phone": "044-589-1122",
-      "map_url": "http://place.map.kakao.com/385637644",
-      "x": "127.33402773941127",
-      "y": "36.50250195016058"
-    },
-    {
-      "id": "2083835471",
-      "name_ko": "쉴낙원 세종충남대학교병원장례식장",
-      "name_en": "Swilnagwon Sejongchungnam University Hospital Funeral Hall",
-      "name_th": "Swilnagwon Sejongchungnam University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "세종특별자치시 보듬7로 20",
-      "phone": "044-863-4444",
-      "map_url": "http://place.map.kakao.com/2083835471",
-      "x": "127.25806643259476",
-      "y": "36.52010524379788"
-    },
-    {
-      "id": "924668182",
-      "name_ko": "스타벅스 세종충남대학교병원점",
-      "name_en": "Seutabeokseu Sejongchungnam University Hospital Jeom",
-      "name_th": "Seutabeokseu Sejongchungnam University Hospital Jeom",
-      "category": "hospital",
-      "category_detail": "음식점 > 카페 > 커피전문점 > 스타벅스",
-      "address": "세종특별자치시 보듬7로 20",
-      "phone": "1522-3232",
-      "map_url": "http://place.map.kakao.com/924668182",
-      "x": "127.25717412034938",
-      "y": "36.51867884400149"
-    },
-    {
-      "id": "1210805286",
-      "name_ko": "세종충남대학교병원 전기차충전소",
-      "name_en": "Sejongchungnam University Hospital Jeongichachungjeonso",
-      "name_th": "Sejongchungnam University Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "세종특별자치시 보듬7로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1210805286",
-      "x": "127.258170475457",
-      "y": "36.5194967406509"
     },
     {
       "id": "27363831",

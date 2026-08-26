@@ -1,6 +1,6 @@
 {
   "region_id": "busan",
-  "places_count": 246,
+  "places_count": 234,
   "places": [
     {
       "id": "26360298",
@@ -68,32 +68,6 @@
       "y": "35.1001513303874"
     },
     {
-      "id": "9043159",
-      "name_ko": "부산대학교병원 장례식장",
-      "name_en": "Busan University Hospital Funeral Hall",
-      "name_th": "Busan University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "부산 서구 구덕로 179",
-      "phone": "051-240-7161",
-      "map_url": "http://place.map.kakao.com/9043159",
-      "x": "129.01900777764",
-      "y": "35.1010793812843"
-    },
-    {
-      "id": "26938722",
-      "name_ko": "고신대학교 복음병원 장례식장",
-      "name_en": "Gosin University Bogeum Hospital Funeral Hall",
-      "name_th": "Gosin University Bogeum Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "부산 서구 감천로 262",
-      "phone": "051-990-6444",
-      "map_url": "http://place.map.kakao.com/26938722",
-      "x": "129.015183505454",
-      "y": "35.0811404547576"
-    },
-    {
       "id": "7841044",
       "name_ko": "동아대학교병원",
       "name_en": "Donga University Hospital",
@@ -107,69 +81,17 @@
       "y": "35.1200870946648"
     },
     {
-      "id": "1284907518",
-      "name_ko": "부산대학교병원 5주차장",
-      "name_en": "Busan University Hospital 5 Parking",
-      "name_th": "Busan University Hospital 5 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "부산 서구 구덕로 179",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1284907518",
-      "x": "129.018323017575",
-      "y": "35.1002580990985"
-    },
-    {
       "id": "18956887",
       "name_ko": "부산대학교병원새마을금고 본점",
       "name_en": "Busan University Hospital Community Credit Cooperative Main Branch",
       "name_th": "Busan University Hospital Community Credit Cooperative Main Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 새마을금고",
       "address": "부산 서구 구덕로 179",
       "phone": "051-240-7861",
       "map_url": "http://place.map.kakao.com/18956887",
       "x": "129.019068684555",
       "y": "35.1007034768193"
-    },
-    {
-      "id": "21812413",
-      "name_ko": "부산학교병원작은도서관",
-      "name_en": "Busan School Hospital Small Library",
-      "name_th": "Busan School Hospital Small Library",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학습시설 > 도서관 > 작은도서관",
-      "address": "부산 서구 구덕로 179",
-      "phone": "051-240-7494",
-      "map_url": "http://place.map.kakao.com/21812413",
-      "x": "129.01929278943015",
-      "y": "35.10023113077335"
-    },
-    {
-      "id": "1039813499",
-      "name_ko": "부산대학교병원 제2주차장",
-      "name_en": "Busan University Hospital Je 2 Parking",
-      "name_th": "Busan University Hospital Je 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "부산 서구 구덕로 187",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1039813499",
-      "x": "129.018720183442",
-      "y": "35.101689763288"
-    },
-    {
-      "id": "2011459458",
-      "name_ko": "고신대학교복음병원 정문",
-      "name_en": "Gosin University Bogeum Hospital Jeongmun",
-      "name_th": "Gosin University Bogeum Hospital Jeongmun",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "부산 서구 감천로 262",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/2011459458",
-      "x": "129.016277389274",
-      "y": "35.0810429614488"
     },
     {
       "id": "27532334",
@@ -196,19 +118,6 @@
       "map_url": "http://place.map.kakao.com/27239791",
       "x": "129.017579827514",
       "y": "35.1009806016542"
-    },
-    {
-      "id": "809434236",
-      "name_ko": "대학병원안경",
-      "name_en": "University Hospital Angyeong",
-      "name_th": "University Hospital Angyeong",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 패션잡화점 > 안경,렌즈",
-      "address": "부산 서구 구덕로 188",
-      "phone": "051-256-1067",
-      "map_url": "http://place.map.kakao.com/809434236",
-      "x": "129.02002059920486",
-      "y": "35.10133015354965"
     },
     {
       "id": "1442819062",
@@ -671,7 +580,7 @@
       "name_en": "Aungsan Asian Market",
       "name_th": "Aungsan Asian Market",
       "category": "restaurant",
-      "category_detail": "가정,생활 > 슈퍼마��",
+      "category_detail": "가정,생활 > 슈퍼마켓",
       "address": "부산 동구 중앙대로180번길 12-2",
       "phone": "1345",
       "map_url": "http://place.map.kakao.com/989022241",
@@ -1186,19 +1095,6 @@
       "y": "35.16984644009577"
     },
     {
-      "id": "24207672",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "부산 부산진구 부전동 573-1",
-      "phone": "010-9874-5230",
-      "map_url": "http://place.map.kakao.com/24207672",
-      "x": "129.0621354979914",
-      "y": "35.16047085423764"
-    },
-    {
       "id": "11088353",
       "name_ko": "동의대학교 부속한방병원 응급실",
       "name_en": "Dongui University Busok Korean Medicine Hospital Emergency Room",
@@ -1210,32 +1106,6 @@
       "map_url": "http://place.map.kakao.com/11088353",
       "x": "129.076099877186",
       "y": "35.1695655547712"
-    },
-    {
-      "id": "26307824",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "부산 연제구 중앙대로 1078",
-      "phone": "010-4674-2944",
-      "map_url": "http://place.map.kakao.com/26307824",
-      "x": "129.08066816172743",
-      "y": "35.183800198765375"
-    },
-    {
-      "id": "18039572",
-      "name_ko": "동아대학교병원 장례식장",
-      "name_en": "Donga University Hospital Funeral Hall",
-      "name_th": "Donga University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "부산 서구 동대로 6",
-      "phone": "051-256-7070",
-      "map_url": "http://place.map.kakao.com/18039572",
-      "x": "129.01700302061857",
-      "y": "35.11926516135441"
     },
     {
       "id": "10290945",
@@ -1275,19 +1145,6 @@
       "map_url": "http://place.map.kakao.com/8262042",
       "x": "129.01811519596197",
       "y": "35.1198441212616"
-    },
-    {
-      "id": "17534301",
-      "name_ko": "동아대학교병원 신용협동조합 본점",
-      "name_en": "Donga University Hospital Credit Union Main Branch",
-      "name_th": "Donga University Hospital Credit Union Main Branch",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 단체,협회 > 협동,소비조합 > 신용협동조합",
-      "address": "부산 서구 대신공원로 26",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17534301",
-      "x": "129.017550292204",
-      "y": "35.1200644040204"
     },
     {
       "id": "871043270",
@@ -2460,19 +2317,6 @@
       "y": "35.1552710182303"
     },
     {
-      "id": "7897981",
-      "name_ko": "부산가톨릭대학교 병원경영학과",
-      "name_en": "Busan Catholic University Hospital Gyeongyeonghakgwa",
-      "name_th": "Busan Catholic University Hospital Gyeongyeonghakgwa",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교부속시설",
-      "address": "부산 금정구 오륜대로 57",
-      "phone": "051-510-0619",
-      "map_url": "http://place.map.kakao.com/7897981",
-      "x": "129.097426951226",
-      "y": "35.2442204312364"
-    },
-    {
       "id": "8946999",
       "name_ko": "동의의료원 장례식장",
       "name_en": "Dongui Medical Center Funeral Hall",
@@ -2997,7 +2841,7 @@
       "name_ko": "휴대폰할인마트",
       "name_en": "Hyudae Phone Harin Market",
       "name_th": "Hyudae Phone Harin Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "부산 금정구 팔송로18번길 2",
       "phone": "1345",

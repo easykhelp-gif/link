@@ -1,6 +1,6 @@
 {
   "region_id": "jeonnam",
-  "places_count": 402,
+  "places_count": 387,
   "places": [
     {
       "id": "1415371617",
@@ -68,24 +68,11 @@
       "y": "34.8049245242558"
     },
     {
-      "id": "17573909",
-      "name_ko": "목포동신대학교한방병원 주차장",
-      "name_en": "Mokpodongsin University Korean Medicine Hospital Parking",
-      "name_th": "Mokpodongsin University Korean Medicine Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 목포시 백년대로 313",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17573909",
-      "x": "126.421352980612",
-      "y": "34.804613893099"
-    },
-    {
       "id": "732370655",
       "name_ko": "하나은행365 동심대학교목포한방병원",
       "name_en": "Hana Bank 365 Dongsim University Mokpo Korean Medicine Hospital",
       "name_th": "Hana Bank 365 Dongsim University Mokpo Korean Medicine Hospital",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > ATM",
       "address": "전남광주통합특별시 목포시 백년대로 313",
       "phone": "1345",
@@ -924,19 +911,6 @@
       "map_url": "http://place.map.kakao.com/79902855",
       "x": "127.645182780981",
       "y": "34.7806997620446"
-    },
-    {
-      "id": "19899809",
-      "name_ko": "시계대학병원",
-      "name_en": "Sigye University Hospital",
-      "name_th": "Sigye University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 보석,귀금속 > 시계",
-      "address": "전남광주통합특별시 여수시 여문2로 151",
-      "phone": "061-654-5325",
-      "map_url": "http://place.map.kakao.com/19899809",
-      "x": "127.700682076882",
-      "y": "34.7526940130745"
     },
     {
       "id": "9000819",
@@ -2265,50 +2239,11 @@
       "y": "35.09418652270655"
     },
     {
-      "id": "694044867",
-      "name_ko": "나주동신대학교한방병원 주차장1",
-      "name_en": "Najudongsin University Korean Medicine Hospital Parking 1",
-      "name_th": "Najudongsin University Korean Medicine Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 나주시 빛가람동 937",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/694044867",
-      "x": "126.779221433395",
-      "y": "35.0183011194728"
-    },
-    {
-      "id": "693131213",
-      "name_ko": "나주동신대학교한방병원 주차장2",
-      "name_en": "Najudongsin University Korean Medicine Hospital Parking 2",
-      "name_th": "Najudongsin University Korean Medicine Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 나주시 빛가람동 937",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/693131213",
-      "x": "126.779230972831",
-      "y": "35.0188284431911"
-    },
-    {
-      "id": "676663377",
-      "name_ko": "나주동신대학교한방병원 지하주차장",
-      "name_en": "Najudongsin University Korean Medicine Hospital Jiha Parking",
-      "name_th": "Najudongsin University Korean Medicine Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 나주시 교육길 14",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/676663377",
-      "x": "126.778870589101",
-      "y": "35.0183861117024"
-    },
-    {
       "id": "24535873",
       "name_ko": "전남대학교병원새마을금고 빛고을전남대학교병원지점",
       "name_en": "Jeonnam University Hospital Community Credit Cooperative Bitgoeuljeonnam University Hospital Branch",
       "name_th": "Jeonnam University Hospital Community Credit Cooperative Bitgoeuljeonnam University Hospital Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 새마을금고",
       "address": "전남광주통합특별시 남구 덕남길 80",
       "phone": "062-670-9890",
@@ -2328,19 +2263,6 @@
       "map_url": "http://place.map.kakao.com/650266674",
       "x": "126.896626078509",
       "y": "35.0941147787073"
-    },
-    {
-      "id": "910919239",
-      "name_ko": "빛고을전남대학교병원 주차장",
-      "name_en": "Bitgoeuljeonnam University Hospital Parking",
-      "name_th": "Bitgoeuljeonnam University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 남구 덕남길 100",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/910919239",
-      "x": "126.896198269833",
-      "y": "35.0941937336946"
     },
     {
       "id": "1667636304",
@@ -2393,45 +2315,6 @@
       "map_url": "http://place.map.kakao.com/1678554961",
       "x": "126.896198269834",
       "y": "35.0941937336503"
-    },
-    {
-      "id": "789837090",
-      "name_ko": "나주 동신대학교 한방병원(T) 전기차충전소",
-      "name_en": "Naju Dongsin University Korean Medicine Hospital (T) Jeongichachungjeonso",
-      "name_th": "Naju Dongsin University Korean Medicine Hospital (T) Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 나주시 교육길 14",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/789837090",
-      "x": "126.778478249609",
-      "y": "35.0184187472376"
-    },
-    {
-      "id": "352720917",
-      "name_ko": "나주동신대학교한방병원 전기차충전소",
-      "name_en": "Najudongsin University Korean Medicine Hospital Jeongichachungjeonso",
-      "name_th": "Najudongsin University Korean Medicine Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 나주시 교육길 14",
-      "phone": "1833-8017",
-      "map_url": "http://place.map.kakao.com/352720917",
-      "x": "126.7784782496078",
-      "y": "35.01841874728322"
-    },
-    {
-      "id": "1772742275",
-      "name_ko": "빛고을전남대학교병원 전기차충전소",
-      "name_en": "Bitgoeuljeonnam University Hospital Jeongichachungjeonso",
-      "name_th": "Bitgoeuljeonnam University Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 남구 덕남길 80",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1772742275",
-      "x": "126.8963043953021",
-      "y": "35.094393928356936"
     },
     {
       "id": "1450926054",
@@ -3682,19 +3565,6 @@
       "y": "35.14181571534401"
     },
     {
-      "id": "889331734",
-      "name_ko": "전남대학교 동물병원",
-      "name_en": "Jeonnam University Dongmul Hospital",
-      "name_th": "Jeonnam University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "전남광주통합특별시 북구 용봉로 77",
-      "phone": "062-530-2882",
-      "map_url": "http://place.map.kakao.com/889331734",
-      "x": "126.90116906695101",
-      "y": "35.17451023246218"
-    },
-    {
       "id": "8084149",
       "name_ko": "조선대학교치과병원",
       "name_en": "Chosun University Dental Clinic Hospital",
@@ -3706,19 +3576,6 @@
       "map_url": "http://place.map.kakao.com/8084149",
       "x": "126.926766303464",
       "y": "35.1444599619779"
-    },
-    {
-      "id": "25115124",
-      "name_ko": "조선대학교호남권역재활병원 주차장",
-      "name_en": "Chosun University Honamgwonyeokjaehwal Hospital Parking",
-      "name_th": "Chosun University Honamgwonyeokjaehwal Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 북구 하서로 590",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/25115124",
-      "x": "126.883677596718",
-      "y": "35.2258655112302"
     },
     {
       "id": "17574706",
@@ -3734,19 +3591,6 @@
       "y": "35.1405563058864"
     },
     {
-      "id": "18090813",
-      "name_ko": "전남대학교병원 제1주차장",
-      "name_en": "Jeonnam University Hospital Je 1 Parking",
-      "name_th": "Jeonnam University Hospital Je 1 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 동구 제봉로 42",
-      "phone": "062-220-5052",
-      "map_url": "http://place.map.kakao.com/18090813",
-      "x": "126.92159280472",
-      "y": "35.1427188993889"
-    },
-    {
       "id": "10091432",
       "name_ko": "전남대학교치과병원 소아치과",
       "name_en": "Jeonnam University Dental Clinic Hospital Soa Dental Clinic",
@@ -3758,45 +3602,6 @@
       "map_url": "http://place.map.kakao.com/10091432",
       "x": "126.9006151177659",
       "y": "35.172358239648126"
-    },
-    {
-      "id": "8066099",
-      "name_ko": "조선대학교병원 장례식장",
-      "name_en": "Chosun University Hospital Funeral Hall",
-      "name_th": "Chosun University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "전남광주통합특별시 동구 필문대로 365",
-      "phone": "062-220-3352",
-      "map_url": "http://place.map.kakao.com/8066099",
-      "x": "126.924312398294",
-      "y": "35.1399336167358"
-    },
-    {
-      "id": "732575194",
-      "name_ko": "전남대학교병원 융합의료기기산업지원센터",
-      "name_en": "Jeonnam University Hospital Yunghabuiryogigisaneopjiwon Center",
-      "name_th": "Jeonnam University Hospital Yunghabuiryogigisaneopjiwon Center",
-      "category": "hospital",
-      "category_detail": "서비스,산업 > 제조업 > 의료용품 > 의료기기제조",
-      "address": "전남광주통합특별시 북구 월출동 987",
-      "phone": "062-970-3006",
-      "map_url": "http://place.map.kakao.com/732575194",
-      "x": "126.8671630430432",
-      "y": "35.23954720261089"
-    },
-    {
-      "id": "18090815",
-      "name_ko": "전남대학교병원 2주차장",
-      "name_en": "Jeonnam University Hospital 2 Parking",
-      "name_th": "Jeonnam University Hospital 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 동구 제봉로 42",
-      "phone": "062-220-5052",
-      "map_url": "http://place.map.kakao.com/18090815",
-      "x": "126.923165652374",
-      "y": "35.1411695641206"
     },
     {
       "id": "19783541",
@@ -3842,7 +3647,7 @@
       "name_ko": "전남대학교병원새마을금고 본점",
       "name_en": "Jeonnam University Hospital Community Credit Cooperative Main Branch",
       "name_th": "Jeonnam University Hospital Community Credit Cooperative Main Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 새마을금고",
       "address": "전남광주통합특별시 동구 제봉로 42",
       "phone": "062-220-5067",

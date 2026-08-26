@@ -1,6 +1,6 @@
 {
   "region_id": "gyeonggi",
-  "places_count": 678,
+  "places_count": 643,
   "places": [
     {
       "id": "7964601",
@@ -81,32 +81,6 @@
       "y": "37.2164632870585"
     },
     {
-      "id": "17578912",
-      "name_ko": "아주대학교병원 장례식장",
-      "name_en": "Ajou University Hospital Funeral Hall",
-      "name_th": "Ajou University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 수원시 영통구 광교중앙로49번길 46",
-      "phone": "031-219-6975",
-      "map_url": "http://place.map.kakao.com/17578912",
-      "x": "127.04954720370763",
-      "y": "37.28094986073233"
-    },
-    {
-      "id": "8635458",
-      "name_ko": "가톨릭대학교 성빈센트병원 장례식장",
-      "name_en": "Catholic University Seongbinsenteu Hospital Funeral Hall",
-      "name_th": "Catholic University Seongbinsenteu Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 수원시 팔달구 중부대로 93",
-      "phone": "031-249-8444",
-      "map_url": "http://place.map.kakao.com/8635458",
-      "x": "127.0283020474605",
-      "y": "37.27834383132663"
-    },
-    {
       "id": "1224548234",
       "name_ko": "아주대학교요양병원",
       "name_en": "Ajou University Nursing Hospital",
@@ -146,19 +120,6 @@
       "y": "37.2789652827671"
     },
     {
-      "id": "2068689609",
-      "name_ko": "아주대학병원 지하주차장",
-      "name_en": "Ajou University Hospital Jiha Parking",
-      "name_th": "Ajou University Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 수원시 영통구 월드컵로 164",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/2068689609",
-      "x": "127.048423794332",
-      "y": "37.2787067368347"
-    },
-    {
       "id": "1180090120",
       "name_ko": "아주대학교의료원 치과병원",
       "name_en": "Ajou University Medical Center Dental Clinic Hospital",
@@ -170,19 +131,6 @@
       "map_url": "http://place.map.kakao.com/1180090120",
       "x": "127.046456515294",
       "y": "37.2792643678222"
-    },
-    {
-      "id": "1824420061",
-      "name_ko": "가톨릭대학교 성빈센트병원 장례식장 주차장",
-      "name_en": "Catholic University Seongbinsenteu Hospital Funeral Hall Parking",
-      "name_th": "Catholic University Seongbinsenteu Hospital Funeral Hall Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 수원시 팔달구 중부대로 93",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1824420061",
-      "x": "127.028775648064",
-      "y": "37.2783977795476"
     },
     {
       "id": "329451088",
@@ -657,7 +605,7 @@
       "name_ko": "타이소울 영통구청본점",
       "name_en": "Taisoul Yeongtong District Office Main Branch",
       "name_th": "Taisoul Yeongtong District Office Main Branch",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "경기 수원시 영통구 효원로 397",
       "phone": "031-221-4660",
@@ -1368,19 +1316,6 @@
       "y": "37.41028152014102"
     },
     {
-      "id": "13559585",
-      "name_ko": "분당서울대학교병원 장례식장",
-      "name_en": "Bundangseoul University Hospital Funeral Hall",
-      "name_th": "Bundangseoul University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "031-787-1500",
-      "map_url": "http://place.map.kakao.com/13559585",
-      "x": "127.1259417802578",
-      "y": "37.34796619726659"
-    },
-    {
       "id": "8273879",
       "name_ko": "동국대학교 분당한방병원",
       "name_en": "Dongguk University Bundang Korean Medicine Hospital",
@@ -1405,58 +1340,6 @@
       "map_url": "http://place.map.kakao.com/26912047",
       "x": "127.12081425933866",
       "y": "37.35415530242817"
-    },
-    {
-      "id": "12740798",
-      "name_ko": "분당서울대학교병원 제1주차장",
-      "name_en": "Bundangseoul University Hospital Je 1 Parking",
-      "name_th": "Bundangseoul University Hospital Je 1 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/12740798",
-      "x": "127.12480191474458",
-      "y": "37.34798542584292"
-    },
-    {
-      "id": "311766023",
-      "name_ko": "분당서울대학교병원 장례식장 69000근조화환",
-      "name_en": "Bundangseoul University Hospital Funeral Hall 69000 Geunjohwahwan",
-      "name_th": "Bundangseoul University Hospital Funeral Hall 69000 Geunjohwahwan",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 꽃집,꽃배달",
-      "address": "경기 성남시 분당구 성남대로779번길 20",
-      "phone": "0507-984-0539",
-      "map_url": "http://place.map.kakao.com/311766023",
-      "x": "127.126116243594",
-      "y": "37.3996100517496"
-    },
-    {
-      "id": "99845751",
-      "name_ko": "분당서울대학교병원 스누하우스",
-      "name_en": "Bundangseoul University Hospital Seunuhauseu",
-      "name_th": "Bundangseoul University Hospital Seunuhauseu",
-      "category": "hospital",
-      "category_detail": "부동산 > 주거시설 > 기숙사,기숙시설",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "1588-3369",
-      "map_url": "http://place.map.kakao.com/99845751",
-      "x": "127.124776330673",
-      "y": "37.3461653743971"
-    },
-    {
-      "id": "1641540928",
-      "name_ko": "분당서울대학교병원 지하주차장",
-      "name_en": "Bundangseoul University Hospital Jiha Parking",
-      "name_th": "Bundangseoul University Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1641540928",
-      "x": "127.12257207214851",
-      "y": "37.35094313095175"
     },
     {
       "id": "1158865192",
@@ -1496,32 +1379,6 @@
       "map_url": "http://place.map.kakao.com/1710789948",
       "x": "127.123211555154",
       "y": "37.3520399190463"
-    },
-    {
-      "id": "17572739",
-      "name_ko": "분당서울대학교병원 제2주차장",
-      "name_en": "Bundangseoul University Hospital Je 2 Parking",
-      "name_th": "Bundangseoul University Hospital Je 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572739",
-      "x": "127.12503610575179",
-      "y": "37.34696701592943"
-    },
-    {
-      "id": "27371354",
-      "name_ko": "분당서울대학교병원 어린이집",
-      "name_en": "Bundangseoul University Hospital Daycare Center",
-      "name_th": "Bundangseoul University Hospital Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "경기 성남시 분당구 구미로173번길 82",
-      "phone": "031-787-4180",
-      "map_url": "http://place.map.kakao.com/27371354",
-      "x": "127.12322622786856",
-      "y": "37.35203990377221"
     },
     {
       "id": "795098531",
@@ -2499,19 +2356,6 @@
       "y": "37.65412603785443"
     },
     {
-      "id": "10746269",
-      "name_ko": "동국대학교일산병원 장례식장",
-      "name_en": "Dongguk University Ilsan Hospital Funeral Hall",
-      "name_th": "Dongguk University Ilsan Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 고양시 일산동구 동국로 27",
-      "phone": "031-961-9400",
-      "map_url": "http://place.map.kakao.com/10746269",
-      "x": "126.80550752895647",
-      "y": "37.67662768812109"
-    },
-    {
       "id": "11387615",
       "name_ko": "동국대학교 일산한방병원",
       "name_en": "Dongguk University Ilsan Korean Medicine Hospital",
@@ -2523,19 +2367,6 @@
       "map_url": "http://place.map.kakao.com/11387615",
       "x": "126.806585755292",
       "y": "37.6765501751964"
-    },
-    {
-      "id": "17579437",
-      "name_ko": "동국대학교일산병원 주차장",
-      "name_en": "Dongguk University Ilsan Hospital Parking",
-      "name_th": "Dongguk University Ilsan Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 고양시 일산동구 동국로 27",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17579437",
-      "x": "126.806569648525",
-      "y": "37.6757681000028"
     },
     {
       "id": "2130885946",
@@ -2575,45 +2406,6 @@
       "map_url": "http://place.map.kakao.com/17531975",
       "x": "126.806417772453",
       "y": "37.676632789557"
-    },
-    {
-      "id": "18082911",
-      "name_ko": "동국대학교일산병원 주차장2",
-      "name_en": "Dongguk University Ilsan Hospital Parking 2",
-      "name_th": "Dongguk University Ilsan Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 고양시 일산동구 동국로 27",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18082911",
-      "x": "126.80553543540142",
-      "y": "37.676793514044306"
-    },
-    {
-      "id": "18082910",
-      "name_ko": "동국대학교일산병원 주차장4",
-      "name_en": "Dongguk University Ilsan Hospital Parking 4",
-      "name_th": "Dongguk University Ilsan Hospital Parking 4",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 고양시 일산동구 동국로 27",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18082910",
-      "x": "126.8051374614",
-      "y": "37.6772613655928"
-    },
-    {
-      "id": "18082908",
-      "name_ko": "동국대학교일산병원 주차장3",
-      "name_en": "Dongguk University Ilsan Hospital Parking 3",
-      "name_th": "Dongguk University Ilsan Hospital Parking 3",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 고양시 일산동구 식사동 807",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18082908",
-      "x": "126.804537922282",
-      "y": "37.6776459919377"
     },
     {
       "id": "686707929",
@@ -3296,7 +3088,7 @@
       "name_ko": "알뜰한도매폰마트",
       "name_en": "Altteulhandomae Phone Market",
       "name_th": "Altteulhandomae Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경기 고양시 덕양구 신원로 40",
       "phone": "02-381-5430",
@@ -3656,37 +3448,11 @@
       "y": "37.322089704164654"
     },
     {
-      "id": "10318815",
-      "name_ko": "대학동물병원",
-      "name_en": "University Dongmul Hospital",
-      "name_th": "University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "경기 용인시 수지구 문인로39번길 3-1",
-      "phone": "031-261-8277",
-      "map_url": "http://place.map.kakao.com/10318815",
-      "x": "127.098449461134",
-      "y": "37.3329054220319"
-    },
-    {
-      "id": "129186242",
-      "name_ko": "옷병원대학",
-      "name_en": "Ot Hospital University",
-      "name_th": "Ot Hospital University",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 세탁소",
-      "address": "경기 용인시 기흥구 신구로53번길 10-7",
-      "phone": "010-2687-2598",
-      "map_url": "http://place.map.kakao.com/129186242",
-      "x": "127.108283025298",
-      "y": "37.27761560343"
-    },
-    {
       "id": "1047951438",
       "name_ko": "우리은행365코너 단국대학교죽전캠퍼스 치과병원현관1층",
       "name_en": "Woori Bank 365 Koneo Dankook University Jukjeonkaempeoseu Dental Clinic Hospital Hyeongwan 1 Cheung",
       "name_th": "Woori Bank 365 Koneo Dankook University Jukjeonkaempeoseu Dental Clinic Hospital Hyeongwan 1 Cheung",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > ATM",
       "address": "경기 용인시 수지구 죽전동 1491-2",
       "phone": "1345",
@@ -4553,37 +4319,11 @@
       "y": "37.49872502271403"
     },
     {
-      "id": "11468088",
-      "name_ko": "가톨릭대학교 부천성모병원 장례식장",
-      "name_en": "Catholic University Bucheonseongmo Hospital Funeral Hall",
-      "name_th": "Catholic University Bucheonseongmo Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 부천시 원미구 소사로 327",
-      "phone": "032-340-7300",
-      "map_url": "http://place.map.kakao.com/11468088",
-      "x": "126.79322803422006",
-      "y": "37.487338999885154"
-    },
-    {
-      "id": "8436907",
-      "name_ko": "순천향대학교부천병원 장례식장",
-      "name_en": "Soonchunhyang University Bucheon Hospital Funeral Hall",
-      "name_th": "Soonchunhyang University Bucheon Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 부천시 원미구 조마루로 170",
-      "phone": "032-327-4444",
-      "map_url": "http://place.map.kakao.com/8436907",
-      "x": "126.76299094969454",
-      "y": "37.49873398732535"
-    },
-    {
       "id": "17534632",
       "name_ko": "가톨릭대학교부천성모병원신협 본점",
       "name_en": "Catholic University Bucheonseongmo Hospital Sinhyeop Main Branch",
       "name_th": "Catholic University Bucheonseongmo Hospital Sinhyeop Main Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 신협",
       "address": "경기 부천시 원미구 소사로 327",
       "phone": "032-233-2632",
@@ -4603,19 +4343,6 @@
       "map_url": "http://place.map.kakao.com/16624526",
       "x": "126.76294853467644",
       "y": "37.497841907894234"
-    },
-    {
-      "id": "17579443",
-      "name_ko": "가톨릭대학교 부천성모병원 주차장2",
-      "name_en": "Catholic University Bucheonseongmo Hospital Parking 2",
-      "name_th": "Catholic University Bucheonseongmo Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 부천시 원미구 소사로 327",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17579443",
-      "x": "126.791749316098",
-      "y": "37.4864371981123"
     },
     {
       "id": "1897391593",
@@ -4655,45 +4382,6 @@
       "map_url": "http://place.map.kakao.com/27138121",
       "x": "126.763008792996",
       "y": "37.4988133115009"
-    },
-    {
-      "id": "17577921",
-      "name_ko": "순천향대학교부천병원 주차장1",
-      "name_en": "Soonchunhyang University Bucheon Hospital Parking 1",
-      "name_th": "Soonchunhyang University Bucheon Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 부천시 원미구 조마루로 170",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17577921",
-      "x": "126.7621613174704",
-      "y": "37.4978853758436"
-    },
-    {
-      "id": "234971912",
-      "name_ko": "순천향대학교부천병원 직장어린이집",
-      "name_en": "Soonchunhyang University Bucheon Hospital Jikjang Daycare Center",
-      "name_th": "Soonchunhyang University Bucheon Hospital Jikjang Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "경기 부천시 원미구 중동로161번길 80-1",
-      "phone": "032-219-0117",
-      "map_url": "http://place.map.kakao.com/234971912",
-      "x": "126.76272280992596",
-      "y": "37.494841109202646"
-    },
-    {
-      "id": "17573972",
-      "name_ko": "순천향대학교부천병원 주차장2",
-      "name_en": "Soonchunhyang University Bucheon Hospital Parking 2",
-      "name_th": "Soonchunhyang University Bucheon Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 부천시 원미구 조마루로 170",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17573972",
-      "x": "126.763116809917",
-      "y": "37.4989865209695"
     },
     {
       "id": "18061311",
@@ -5013,7 +4701,7 @@
       "name_en": "Yeokgokseoulseongmo Orthopedics Clinic Clinic",
       "name_th": "Yeokgokseoulseongmo Orthopedics Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병��� > 정형외과",
+      "category_detail": "의료,건강 > 병원 > 정형외과",
       "address": "경기 부천시 원미구 부일로 748",
       "phone": "032-342-1119",
       "map_url": "http://place.map.kakao.com/1793555255",
@@ -5506,7 +5194,7 @@
       "name_ko": "스마트플래닛",
       "name_en": "Seu Market Peullaenit",
       "name_th": "Seu Market Peullaenit",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경기 부천시 원미구 원미로 131",
       "phone": "032-614-2332",
@@ -5814,19 +5502,6 @@
       "y": "37.31841295087898"
     },
     {
-      "id": "16078860",
-      "name_ko": "고려대학교 안산병원 장례식장",
-      "name_en": "Korea University Ansan Hospital Funeral Hall",
-      "name_th": "Korea University Ansan Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "031-411-4441",
-      "map_url": "http://place.map.kakao.com/16078860",
-      "x": "126.82511976063871",
-      "y": "37.31957557930407"
-    },
-    {
       "id": "16659947",
       "name_ko": "안산고려대학교병원 커피숍",
       "name_en": "Ansan Korea University Hospital Keopi Shop",
@@ -5838,32 +5513,6 @@
       "map_url": "http://place.map.kakao.com/16659947",
       "x": "126.824812780252",
       "y": "37.3186524678092"
-    },
-    {
-      "id": "17572746",
-      "name_ko": "고려대학교 안산병원 장례식장주차장",
-      "name_en": "Korea University Ansan Hospital Funeral Hall Parking",
-      "name_th": "Korea University Ansan Hospital Funeral Hall Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572746",
-      "x": "126.82550313422401",
-      "y": "37.31966624851865"
-    },
-    {
-      "id": "8908171",
-      "name_ko": "대학동물병원",
-      "name_en": "University Dongmul Hospital",
-      "name_th": "University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "경기 안산시 상록구 예술광장1로 16",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/8908171",
-      "x": "126.84430869836",
-      "y": "37.3290560108702"
     },
     {
       "id": "8757772",
@@ -5879,19 +5528,6 @@
       "y": "37.31903838224201"
     },
     {
-      "id": "17579453",
-      "name_ko": "고려대학교 안산병원 주차장1",
-      "name_en": "Korea University Ansan Hospital Parking 1",
-      "name_th": "Korea University Ansan Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17579453",
-      "x": "126.8254337552403",
-      "y": "37.32039598251623"
-    },
-    {
       "id": "894239350",
       "name_ko": "고려대학교안산병원 피부과",
       "name_en": "Korea University Ansan Hospital Dermatology Clinic",
@@ -5903,19 +5539,6 @@
       "map_url": "http://place.map.kakao.com/894239350",
       "x": "126.824812713332",
       "y": "37.3186813007566"
-    },
-    {
-      "id": "381478764",
-      "name_ko": "고려대학교안산병원 주차장",
-      "name_en": "Korea University Ansan Hospital Parking",
-      "name_th": "Korea University Ansan Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/381478764",
-      "x": "126.825549500656",
-      "y": "37.3191302024861"
     },
     {
       "id": "18051570",
@@ -5944,19 +5567,6 @@
       "y": "37.3186813141179"
     },
     {
-      "id": "20583993",
-      "name_ko": "고려대학교안산병원 지하주차장",
-      "name_en": "Korea University Ansan Hospital Jiha Parking",
-      "name_th": "Korea University Ansan Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/20583993",
-      "x": "126.82540612041412",
-      "y": "37.31771086444512"
-    },
-    {
       "id": "1904941930",
       "name_ko": "고려대학교 안산병원 미래의학관",
       "name_en": "Korea University Ansan Hospital Miraeuihakgwan",
@@ -5968,19 +5578,6 @@
       "map_url": "http://place.map.kakao.com/1904941930",
       "x": "126.824883607525",
       "y": "37.3192454521353"
-    },
-    {
-      "id": "2017545176",
-      "name_ko": "고려대학교안산병원 주차장2",
-      "name_en": "Korea University Ansan Hospital Parking 2",
-      "name_th": "Korea University Ansan Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안산시 단원구 적금로 123",
-      "phone": "031-412-5807",
-      "map_url": "http://place.map.kakao.com/2017545176",
-      "x": "126.82553825014125",
-      "y": "37.319116670410025"
     },
     {
       "id": "1632288541",
@@ -6997,32 +6594,6 @@
       "y": "37.39165119649022"
     },
     {
-      "id": "18039597",
-      "name_ko": "한림대학교성심병원 장례식장",
-      "name_en": "Hallim University Seongsim Hospital Funeral Hall",
-      "name_th": "Hallim University Seongsim Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경기 안양시 동안구 관평로170번길 22",
-      "phone": "031-382-5004",
-      "map_url": "http://place.map.kakao.com/18039597",
-      "x": "126.961586596136",
-      "y": "37.3921880814108"
-    },
-    {
-      "id": "17573985",
-      "name_ko": "한림대학교성심병원 주차장",
-      "name_en": "Hallim University Seongsim Hospital Parking",
-      "name_th": "Hallim University Seongsim Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안양시 동안구 관평로170번길 22",
-      "phone": "031-380-4140",
-      "map_url": "http://place.map.kakao.com/17573985",
-      "x": "126.96132244871085",
-      "y": "37.39198796829964"
-    },
-    {
       "id": "11215750",
       "name_ko": "한림대학교성심병원 응급실",
       "name_en": "Hallim University Seongsim Hospital Emergency Room",
@@ -7073,19 +6644,6 @@
       "map_url": "http://place.map.kakao.com/10952746",
       "x": "126.961306348997",
       "y": "37.3925520031401"
-    },
-    {
-      "id": "17572598",
-      "name_ko": "한림대학교성심병원 주차장4",
-      "name_en": "Hallim University Seongsim Hospital Parking 4",
-      "name_th": "Hallim University Seongsim Hospital Parking 4",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경기 안양시 동안구 관평로170번길 22",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572598",
-      "x": "126.962837935309",
-      "y": "37.3919794440455"
     },
     {
       "id": "1483538748",
@@ -7288,7 +6846,7 @@
       "name_en": "Seoul Yonsei Dental Clinic Clinic",
       "name_th": "Seoul Yonsei Dental Clinic Clinic",
       "category": "hospital",
-      "category_detail": "��료,건강 > 병원 > 치과",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "경기 안양시 동안구 관악대로 236",
       "phone": "031-385-2275",
       "map_url": "http://place.map.kakao.com/2139732474",
@@ -8035,19 +7593,6 @@
       "map_url": "http://place.map.kakao.com/1104044453",
       "x": "126.95224805881836",
       "y": "37.389520354896696"
-    },
-    {
-      "id": "11437204",
-      "name_ko": "대학동물병원 화도마석",
-      "name_en": "University Dongmul Hospital Hwadomaseok",
-      "name_th": "University Dongmul Hospital Hwadomaseok",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "경기 남양주시 화도읍 맷돌로91번길 4-18",
-      "phone": "031-559-7581",
-      "map_url": "http://place.map.kakao.com/11437204",
-      "x": "127.301513740929",
-      "y": "37.6581092045439"
     },
     {
       "id": "680638676",

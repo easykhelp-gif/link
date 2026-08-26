@@ -1,6 +1,6 @@
 {
   "region_id": "gwangju",
-  "places_count": 162,
+  "places_count": 153,
   "places": [
     {
       "id": "2052051910",
@@ -107,19 +107,6 @@
       "y": "35.05945418746359"
     },
     {
-      "id": "889331734",
-      "name_ko": "전남대학교 동물병원",
-      "name_en": "Jeonnam University Dongmul Hospital",
-      "name_th": "Jeonnam University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "전남광주통합특별시 북구 용봉로 77",
-      "phone": "062-530-2882",
-      "map_url": "http://place.map.kakao.com/889331734",
-      "x": "126.90116906695101",
-      "y": "35.17451023246218"
-    },
-    {
       "id": "10091432",
       "name_ko": "전남대학교치과병원 소아치과",
       "name_en": "Jeonnam University Dental Clinic Hospital Soa Dental Clinic",
@@ -131,19 +118,6 @@
       "map_url": "http://place.map.kakao.com/10091432",
       "x": "126.9006151177659",
       "y": "35.172358239648126"
-    },
-    {
-      "id": "25115124",
-      "name_ko": "조선대학교호남권역재활병원 주차장",
-      "name_en": "Chosun University Honamgwonyeokjaehwal Hospital Parking",
-      "name_th": "Chosun University Honamgwonyeokjaehwal Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 북구 하서로 590",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/25115124",
-      "x": "126.883677596718",
-      "y": "35.2258655112302"
     },
     {
       "id": "831216353",
@@ -170,45 +144,6 @@
       "map_url": "http://place.map.kakao.com/26319994",
       "x": "126.90053411133735",
       "y": "35.172172493502394"
-    },
-    {
-      "id": "1193724665",
-      "name_ko": "전남대학교동물병원 응급의료센터",
-      "name_en": "Jeonnam University Dongmul Hospital Emergency Medical Center",
-      "name_th": "Jeonnam University Dongmul Hospital Emergency Medical Center",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "전남광주통합특별시 북구 용봉로 77",
-      "phone": "062-530-2882",
-      "map_url": "http://place.map.kakao.com/1193724665",
-      "x": "126.901157083163",
-      "y": "35.1744345086507"
-    },
-    {
-      "id": "732575194",
-      "name_ko": "전남대학교병원 융합의료기기산업지원센터",
-      "name_en": "Jeonnam University Hospital Yunghabuiryogigisaneopjiwon Center",
-      "name_th": "Jeonnam University Hospital Yunghabuiryogigisaneopjiwon Center",
-      "category": "hospital",
-      "category_detail": "서비스,산업 > 제조업 > 의료용품 > 의료기기제조",
-      "address": "전남광주통합특별시 북구 월출동 987",
-      "phone": "062-970-3006",
-      "map_url": "http://place.map.kakao.com/732575194",
-      "x": "126.8671630430432",
-      "y": "35.23954720261089"
-    },
-    {
-      "id": "1097879025",
-      "name_ko": "전남대학교 동물병원 반려동물건강검진센터",
-      "name_en": "Jeonnam University Dongmul Hospital Ballyeodongmul Health Screening Center",
-      "name_th": "Jeonnam University Dongmul Hospital Ballyeodongmul Health Screening Center",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "전남광주통합특별시 북구 용봉로 77",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1097879025",
-      "x": "126.901168085905",
-      "y": "35.1744137864164"
     },
     {
       "id": "13565554",
@@ -248,19 +183,6 @@
       "map_url": "http://place.map.kakao.com/17574706",
       "x": "126.922643908332",
       "y": "35.1405563058864"
-    },
-    {
-      "id": "18090813",
-      "name_ko": "전남대학교병원 제1주차장",
-      "name_en": "Jeonnam University Hospital Je 1 Parking",
-      "name_th": "Jeonnam University Hospital Je 1 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 동구 제봉로 42",
-      "phone": "062-220-5052",
-      "map_url": "http://place.map.kakao.com/18090813",
-      "x": "126.92159280472",
-      "y": "35.1427188993889"
     },
     {
       "id": "654023462",
@@ -1368,50 +1290,11 @@
       "y": "35.1282817262574"
     },
     {
-      "id": "8066099",
-      "name_ko": "조선대학교병원 장례식장",
-      "name_en": "Chosun University Hospital Funeral Hall",
-      "name_th": "Chosun University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "전남광주통합특별시 동구 필문대로 365",
-      "phone": "062-220-3352",
-      "map_url": "http://place.map.kakao.com/8066099",
-      "x": "126.924312398294",
-      "y": "35.1399336167358"
-    },
-    {
-      "id": "15135624",
-      "name_ko": "원광대학병원교차로",
-      "name_en": "Wonkwang University Hospital Gyocharo",
-      "name_th": "Wonkwang University Hospital Gyocharo",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 도로시설 > 교차로",
-      "address": "전남광주통합특별시 서구 풍암동",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/15135624",
-      "x": "126.886490907519",
-      "y": "35.1301946131278"
-    },
-    {
-      "id": "18090815",
-      "name_ko": "전남대학교병원 2주차장",
-      "name_en": "Jeonnam University Hospital 2 Parking",
-      "name_th": "Jeonnam University Hospital 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전남광주통합특별시 동구 제봉로 42",
-      "phone": "062-220-5052",
-      "map_url": "http://place.map.kakao.com/18090815",
-      "x": "126.923165652374",
-      "y": "35.1411695641206"
-    },
-    {
       "id": "18957570",
       "name_ko": "전남대학교병원새마을금고 본점",
       "name_en": "Jeonnam University Hospital Community Credit Cooperative Main Branch",
       "name_th": "Jeonnam University Hospital Community Credit Cooperative Main Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 새마을금고",
       "address": "전남광주통합특별시 동구 제봉로 42",
       "phone": "062-220-5067",

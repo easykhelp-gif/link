@@ -1,6 +1,6 @@
 {
   "region_id": "ulsan",
-  "places_count": 55,
+  "places_count": 54,
   "places": [
     {
       "id": "194792003",
@@ -339,19 +339,6 @@
       "map_url": "http://place.map.kakao.com/9239225",
       "x": "129.12503623053829",
       "y": "35.5653781297955"
-    },
-    {
-      "id": "1469422425",
-      "name_ko": "백인정형외과의원 주차장",
-      "name_en": "Baegin Orthopedics Clinic Clinic Parking",
-      "name_th": "Baegin Orthopedics Clinic Clinic Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "울산 울주군 언양읍 남부리 300",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1469422425",
-      "x": "129.122673557141",
-      "y": "35.5644844314931"
     },
     {
       "id": "2022813242",

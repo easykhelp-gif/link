@@ -149,6 +149,13 @@ function buildHTML(lang, region, category, places, generatedDirs) {
     `<link rel="alternate" hreflang="${l}" href="https://www.koricare.kr/link/${l}/${region}/${category}/" />`
   ).join('\n  ');
 
+  // 1345 는 외국인종합안내센터 번호다. 수집 당시 전화번호가 없던 업소에 채워진 값이라
+  // 실제 업소 번호가 아니다. 표시하지도, 구조화 데이터에 넣지도 않는다.
+  const realPhone = (p) => {
+    const v = (p.telephone || p.phone || '').trim();
+    return v === '1345' ? '' : v;
+  };
+
   // JSON-LD
   const itemListElements = places.map((p, idx) => ({
     "@type": "ListItem",
@@ -157,7 +164,7 @@ function buildHTML(lang, region, category, places, generatedDirs) {
       "@type": "LocalBusiness",
       "name": p.name_en || p.name_ko,
       "address": p.address,
-      "telephone": p.telephone || p.phone || "",
+      "telephone": realPhone(p),
       "url": p.map_url || ""
     }
   }));
@@ -208,7 +215,7 @@ function buildHTML(lang, region, category, places, generatedDirs) {
       <h3 style="margin-top:0; color:#0f172a;">${p.name_en || p.name_ko}</h3>
       ${p.name_en && p.name_ko && p.name_en !== p.name_ko ? `<p style="color:#64748b; font-size:14px; margin:4px 0;">${p.name_ko}</p>` : ''}
       <p style="margin:8px 0;">📍 ${p.address}</p>
-      ${p.phone ? `<p style="margin:8px 0;">📞 ${p.phone}</p>` : ''}
+      ${realPhone(p) ? `<p style="margin:8px 0;">📞 ${realPhone(p)}</p>` : ''}
       <a href="${p.map_url}" target="_blank" style="color:#2563eb; text-decoration:none; font-weight:bold;">Kakao Map ➔</a>
     </div>
   `).join('');

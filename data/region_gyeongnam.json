@@ -1,6 +1,6 @@
 {
   "region_id": "gyeongnam",
-  "places_count": 488,
+  "places_count": 470,
   "places": [
     {
       "id": "826000149",
@@ -68,45 +68,6 @@
       "y": "35.1992048136343"
     },
     {
-      "id": "2074852708",
-      "name_ko": "창원경상국립대학교병원 장례식장",
-      "name_en": "Changwongyeongsanggungnip University Hospital Funeral Hall",
-      "name_th": "Changwongyeongsanggungnip University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경남 창원시 성산구 삼정자로 9",
-      "phone": "055-214-1900",
-      "map_url": "http://place.map.kakao.com/2074852708",
-      "x": "128.705251286447",
-      "y": "35.1987948001408"
-    },
-    {
-      "id": "8964803",
-      "name_ko": "성균관대학교 삼성창원병원 장례식장",
-      "name_en": "Sungkyunkwan University Samsung Changwon Hospital Funeral Hall",
-      "name_th": "Sungkyunkwan University Samsung Changwon Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경남 창원시 마산회원구 팔용로 158",
-      "phone": "055-233-5131",
-      "map_url": "http://place.map.kakao.com/8964803",
-      "x": "128.593048832931",
-      "y": "35.2423099046323"
-    },
-    {
-      "id": "981219835",
-      "name_ko": "창원경상국립대학교병원 주차장",
-      "name_en": "Changwongyeongsanggungnip University Hospital Parking",
-      "name_th": "Changwongyeongsanggungnip University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경남 창원시 성산구 삼정자로 11",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/981219835",
-      "x": "128.7078087932",
-      "y": "35.1991823208409"
-    },
-    {
       "id": "8330686",
       "name_ko": "성균관대학교 삼성창원병원 권역응급의료센터",
       "name_en": "Sungkyunkwan University Samsung Changwon Hospital Gwonyeok Emergency Medical Center",
@@ -159,19 +120,6 @@
       "y": "35.1992068914004"
     },
     {
-      "id": "1289949008",
-      "name_ko": "창원경상국립대학교병원 동문",
-      "name_en": "Changwongyeongsanggungnip University Hospital Dongmun",
-      "name_th": "Changwongyeongsanggungnip University Hospital Dongmun",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "경남 창원시 성산구 삼정자로 11",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1289949008",
-      "x": "128.708530660602",
-      "y": "35.1998363329923"
-    },
-    {
       "id": "10341499",
       "name_ko": "성균관대학교 삼성창원병원 종합검진센터",
       "name_en": "Sungkyunkwan University Samsung Changwon Hospital Jonghapgeomjin Center",
@@ -185,19 +133,6 @@
       "y": "35.24188505857646"
     },
     {
-      "id": "41292196",
-      "name_ko": "창원경상국립대학교병원 직원기숙사",
-      "name_en": "Changwongyeongsanggungnip University Hospital Jigwongisuksa",
-      "name_th": "Changwongyeongsanggungnip University Hospital Jigwongisuksa",
-      "category": "hospital",
-      "category_detail": "부동산 > 주거시설 > 기숙사,기숙시설",
-      "address": "경남 창원시 성산구 삼정자로 11",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/41292196",
-      "x": "128.7075519795132",
-      "y": "35.20097035563062"
-    },
-    {
       "id": "595066913",
       "name_ko": "창원경상국립대학교병원 GNUH의료기",
       "name_en": "Changwongyeongsanggungnip University Hospital GNUH Uiryogi",
@@ -209,19 +144,6 @@
       "map_url": "http://place.map.kakao.com/595066913",
       "x": "128.707845614537",
       "y": "35.1992629110405"
-    },
-    {
-      "id": "17572670",
-      "name_ko": "성균관대학교 삼성창원병원 주차빌딩",
-      "name_en": "Sungkyunkwan University Samsung Changwon Hospital Jucha Building",
-      "name_th": "Sungkyunkwan University Samsung Changwon Hospital Jucha Building",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 주차빌딩",
-      "address": "경남 창원시 마산회원구 팔용로 158",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572670",
-      "x": "128.593100540233",
-      "y": "35.2424822600145"
     },
     {
       "id": "328526916",
@@ -1290,19 +1212,6 @@
       "y": "35.176453083288166"
     },
     {
-      "id": "13565708",
-      "name_ko": "경상국립대학교병원 장례식장",
-      "name_en": "Gyeongsanggungnip University Hospital Funeral Hall",
-      "name_th": "Gyeongsanggungnip University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경남 진주시 강남로 79",
-      "phone": "055-750-8448",
-      "map_url": "http://place.map.kakao.com/13565708",
-      "x": "128.09513153763046",
-      "y": "35.17729350132048"
-    },
-    {
       "id": "17572058",
       "name_ko": "경상국립대학교병원 응급의료센터",
       "name_en": "Gyeongsanggungnip University Hospital Emergency Medical Center",
@@ -1340,19 +1249,6 @@
       "map_url": "http://place.map.kakao.com/17667505",
       "x": "128.095653554149",
       "y": "35.1763559332912"
-    },
-    {
-      "id": "17572658",
-      "name_ko": "경상국립대학교병원 주차장3",
-      "name_en": "Gyeongsanggungnip University Hospital Parking 3",
-      "name_th": "Gyeongsanggungnip University Hospital Parking 3",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경남 진주시 강남로 79",
-      "phone": "055-750-8119",
-      "map_url": "http://place.map.kakao.com/17572658",
-      "x": "128.096104960881",
-      "y": "35.1756380182135"
     },
     {
       "id": "13565710",
@@ -1405,19 +1301,6 @@
       "map_url": "http://place.map.kakao.com/13565702",
       "x": "128.0955757665991",
       "y": "35.17661260653022"
-    },
-    {
-      "id": "17577838",
-      "name_ko": "경상국립대학교병원 주차장1",
-      "name_en": "Gyeongsanggungnip University Hospital Parking 1",
-      "name_th": "Gyeongsanggungnip University Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경남 진주시 강남로 79",
-      "phone": "055-750-8119",
-      "map_url": "http://place.map.kakao.com/17577838",
-      "x": "128.09549110055303",
-      "y": "35.1775020553759"
     },
     {
       "id": "17666247",
@@ -1983,7 +1866,7 @@
       "name_ko": "아시아폰마트 진주점",
       "name_en": "Asia Phone Market Jinjujeom",
       "name_th": "Asia Phone Market Jinjujeom",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경남 진주시 동진로216번길 23",
       "phone": "1345",
@@ -2061,7 +1944,7 @@
       "name_ko": "휴대폰성지가호통신 평거탑마트점",
       "name_en": "Hyudae Phone Seongjigaho Telecom Pyeonggeotap Market Jeom",
       "name_th": "Hyudae Phone Seongjigaho Telecom Pyeonggeotap Market Jeom",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경남 진주시 새평거로 136",
       "phone": "1345",
@@ -2302,19 +2185,6 @@
       "map_url": "http://place.map.kakao.com/2085318107",
       "x": "128.427230352228",
       "y": "34.843976347679"
-    },
-    {
-      "id": "700742772",
-      "name_ko": "부산대학교병원 인재개발원",
-      "name_en": "Busan University Hospital Injaegaebarwon",
-      "name_th": "Busan University Hospital Injaegaebarwon",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 교육단체 > 연수원",
-      "address": "경남 거제시 하청면 대곡2길 9",
-      "phone": "055-638-5350",
-      "map_url": "http://place.map.kakao.com/700742772",
-      "x": "128.6363461770581",
-      "y": "34.998709082182216"
     },
     {
       "id": "1273248190",
@@ -2954,19 +2824,6 @@
       "y": "34.93817408694294"
     },
     {
-      "id": "13014592",
-      "name_ko": "경상국립대학교부속동물병원 접수실",
-      "name_en": "Gyeongsanggungnip University Busokdongmul Hospital Jeopsusil",
-      "name_th": "Gyeongsanggungnip University Busokdongmul Hospital Jeopsusil",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "경남 진주시 가좌동 900",
-      "phone": "055-772-1111",
-      "map_url": "http://place.map.kakao.com/13014592",
-      "x": "128.09681032651665",
-      "y": "35.150834982404476"
-    },
-    {
       "id": "24632759",
       "name_ko": "사천미소치과의원",
       "name_en": "Sacheonmiso Dental Clinic Clinic",
@@ -3076,7 +2933,7 @@
       "name_en": "Cheong Dental Clinic Clinic",
       "name_th": "Cheong Dental Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > ���과",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "경남 사천시 사천읍 읍내1길 60",
       "phone": "055-852-4852",
       "map_url": "http://place.map.kakao.com/10857753",
@@ -3511,32 +3368,6 @@
       "map_url": "http://place.map.kakao.com/17795131",
       "x": "129.00710739771074",
       "y": "35.32688005013603"
-    },
-    {
-      "id": "104599373",
-      "name_ko": "양산부산대학교병원 장례식장",
-      "name_en": "Yangsanbusan University Hospital Funeral Hall",
-      "name_th": "Yangsanbusan University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경남 양산시 물금읍 금오로 20",
-      "phone": "055-372-4447",
-      "map_url": "http://place.map.kakao.com/104599373",
-      "x": "129.004542318927",
-      "y": "35.327915689663"
-    },
-    {
-      "id": "24165974",
-      "name_ko": "양산부산대학교병원 주차장",
-      "name_en": "Yangsanbusan University Hospital Parking",
-      "name_th": "Yangsanbusan University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경남 양산시 물금읍 금오로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/24165974",
-      "x": "129.008143292298",
-      "y": "35.3282163692016"
     },
     {
       "id": "13032502",
@@ -4167,7 +3998,7 @@
       "name_ko": "아시아폰마트",
       "name_en": "Asia Phone Market",
       "name_th": "Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경남 김해시 내외중앙로 137",
       "phone": "055-320-9777",
@@ -5273,7 +5104,7 @@
       "name_en": "Asia Pudeu Market",
       "name_th": "Asia Pudeu Market",
       "category": "restaurant",
-      "category_detail": "가정,생활 > ���퍼마켓",
+      "category_detail": "가정,생활 > 슈퍼마켓",
       "address": "경남 거제시 거제대로 3433",
       "phone": "055-682-6472",
       "map_url": "http://place.map.kakao.com/491443253",
@@ -5489,19 +5320,6 @@
       "y": "34.89509397808581"
     },
     {
-      "id": "24165909",
-      "name_ko": "양산부산대학교병원장례식장 주차장",
-      "name_en": "Yangsanbusan University Hospital Funeral Hall Parking",
-      "name_th": "Yangsanbusan University Hospital Funeral Hall Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경남 양산시 물금읍 금오로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/24165909",
-      "x": "129.005664986539",
-      "y": "35.3288486780846"
-    },
-    {
       "id": "1628080905",
       "name_ko": "부산대학교어린이병원 소아응급센터",
       "name_en": "Busan University Eorini Hospital Soaeunggeup Center",
@@ -5528,19 +5346,6 @@
       "y": "35.32782933904771"
     },
     {
-      "id": "27369459",
-      "name_ko": "양산부산대학교병원어린이집",
-      "name_en": "Yangsanbusan University Hospital Daycare Center",
-      "name_th": "Yangsanbusan University Hospital Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "경남 양산시 물금읍 범어리 2762-1",
-      "phone": "055-365-7773",
-      "map_url": "http://place.map.kakao.com/27369459",
-      "x": "129.00802382639418",
-      "y": "35.32489851801538"
-    },
-    {
       "id": "23835459",
       "name_ko": "양산부산대학교병원 외래진료동",
       "name_en": "Yangsanbusan University Hospital Oeraejillyodong",
@@ -5552,45 +5357,6 @@
       "map_url": "http://place.map.kakao.com/23835459",
       "x": "129.00661840218",
       "y": "35.3275604279803"
-    },
-    {
-      "id": "674764833",
-      "name_ko": "양산부산대학교병원 택시승강장",
-      "name_en": "Yangsanbusan University Hospital Taeksiseunggangjang",
-      "name_th": "Yangsanbusan University Hospital Taeksiseunggangjang",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 택시",
-      "address": "경남 양산시 물금읍 금오로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/674764833",
-      "x": "129.006587583628",
-      "y": "35.3285377861782"
-    },
-    {
-      "id": "1560270408",
-      "name_ko": "양산부산대학교병원 직원기숙사",
-      "name_en": "Yangsanbusan University Hospital Jigwongisuksa",
-      "name_th": "Yangsanbusan University Hospital Jigwongisuksa",
-      "category": "hospital",
-      "category_detail": "부동산 > 주거시설 > 기숙사,기숙시설",
-      "address": "경남 양산시 물금읍 범어리 2762-1",
-      "phone": "1577-7512",
-      "map_url": "http://place.map.kakao.com/1560270408",
-      "x": "129.0092791974377",
-      "y": "35.323996329523254"
-    },
-    {
-      "id": "430883577",
-      "name_ko": "양산부산대학교병원 로날드맥도날드하우스",
-      "name_en": "Yangsanbusan University Hospital Ronaldeumaekdonaldeuhauseu",
-      "name_th": "Yangsanbusan University Hospital Ronaldeumaekdonaldeuhauseu",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 단체,협회 > 사회복지시설 > 아동복지시설",
-      "address": "경남 양산시 물금읍 범어리 2762-1",
-      "phone": "055-360-3893",
-      "map_url": "http://place.map.kakao.com/430883577",
-      "x": "129.00837387515702",
-      "y": "35.32509185578768"
     },
     {
       "id": "1524088124",
@@ -5702,7 +5468,7 @@
       "name_en": "Yueoseu Dental Clinic Hospital",
       "name_th": "Yueoseu Dental Clinic Hospital",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 치���",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "경남 양산시 양산역로 71",
       "phone": "055-364-7600",
       "map_url": "http://place.map.kakao.com/26844230",

@@ -1,6 +1,6 @@
 {
   "region_id": "daejeon",
-  "places_count": 196,
+  "places_count": 183,
   "places": [
     {
       "id": "1926456501",
@@ -81,19 +81,6 @@
       "y": "36.3067114406784"
     },
     {
-      "id": "1589754436",
-      "name_ko": "건양대학교병원 장례식장",
-      "name_en": "Geonyang University Hospital Funeral Hall",
-      "name_th": "Geonyang University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대전 서구 관저동로 158",
-      "phone": "042-600-6660",
-      "map_url": "http://place.map.kakao.com/1589754436",
-      "x": "127.34269289007",
-      "y": "36.3077854708997"
-    },
-    {
       "id": "23873223",
       "name_ko": "원광대학교 대전치과병원",
       "name_en": "Wonkwang University Daejeon Dental Clinic Hospital",
@@ -105,19 +92,6 @@
       "map_url": "http://place.map.kakao.com/23873223",
       "x": "127.38241349128842",
       "y": "36.351565000188124"
-    },
-    {
-      "id": "10672795",
-      "name_ko": "대전을지대학교병원 장례식장",
-      "name_en": "Daejeon Eulji University Hospital Funeral Hall",
-      "name_th": "Daejeon Eulji University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대전 서구 둔산서로 95",
-      "phone": "042-611-3980",
-      "map_url": "http://place.map.kakao.com/10672795",
-      "x": "127.3815953528123",
-      "y": "36.355586853677664"
     },
     {
       "id": "10319168",
@@ -196,32 +170,6 @@
       "map_url": "http://place.map.kakao.com/1304763945",
       "x": "127.379798982906",
       "y": "36.3458661959413"
-    },
-    {
-      "id": "811390393",
-      "name_ko": "대전대학교 대전한방병원 주차장",
-      "name_en": "Daejeon University Daejeon Korean Medicine Hospital Parking",
-      "name_th": "Daejeon University Daejeon Korean Medicine Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대전 서구 둔산동 1147",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/811390393",
-      "x": "127.379779749615",
-      "y": "36.346493475294"
-    },
-    {
-      "id": "20585573",
-      "name_ko": "을지대학교병원 지하주차장",
-      "name_en": "Eulji University Hospital Jiha Parking",
-      "name_th": "Eulji University Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대전 서구 둔산서로 95",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/20585573",
-      "x": "127.3820098128",
-      "y": "36.3551331399352"
     },
     {
       "id": "1058512824",
@@ -1173,71 +1121,6 @@
       "y": "36.31667083648953"
     },
     {
-      "id": "17567302",
-      "name_ko": "충남대학교 수의과대학 부속동물병원",
-      "name_en": "Chungnam University Su College of Medicine Busokdongmul Hospital",
-      "name_th": "Chungnam University Su College of Medicine Busokdongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "대전 유성구 대학로 99",
-      "phone": "042-821-6704",
-      "map_url": "http://place.map.kakao.com/17567302",
-      "x": "127.34302857784",
-      "y": "36.377250856133"
-    },
-    {
-      "id": "1767056551",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "대전 유성구 문화원로 13",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1767056551",
-      "x": "127.3382095644091",
-      "y": "36.36148595222829"
-    },
-    {
-      "id": "27202576",
-      "name_ko": "충남대학교 동물병원",
-      "name_en": "Chungnam University Dongmul Hospital",
-      "name_th": "Chungnam University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교부속시설",
-      "address": "대전 유성구 대학로 99",
-      "phone": "042-821-6704",
-      "map_url": "http://place.map.kakao.com/27202576",
-      "x": "127.343024310158",
-      "y": "36.3772941246445"
-    },
-    {
-      "id": "26013758",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "대전 유성구 온천로 53",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/26013758",
-      "x": "127.34398534866138",
-      "y": "36.35561633313655"
-    },
-    {
-      "id": "25891915",
-      "name_ko": "컴퓨터대학병원",
-      "name_en": "Keompyuteo University Hospital",
-      "name_th": "Keompyuteo University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 전자제품 > 전자제품서비스센터 > 컴퓨터수리",
-      "address": "대전 서구 신갈마로195번길 26",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/25891915",
-      "x": "127.36660765363804",
-      "y": "36.35116214747684"
-    },
-    {
       "id": "785412242",
       "name_ko": "대전을지대학교병원 건강증진센터",
       "name_en": "Daejeon Eulji University Hospital Geongangjeungjin Center",
@@ -1862,19 +1745,6 @@
       "y": "36.3329441163056"
     },
     {
-      "id": "10843980",
-      "name_ko": "충남대학교병원 장례식장",
-      "name_en": "Chungnam University Hospital Funeral Hall",
-      "name_th": "Chungnam University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대전 중구 문화로 282",
-      "phone": "042-280-8181",
-      "map_url": "http://place.map.kakao.com/10843980",
-      "x": "127.41701854635082",
-      "y": "36.31590324786086"
-    },
-    {
       "id": "17574716",
       "name_ko": "충남대학교병원 대전권역응급의료센터",
       "name_en": "Chungnam University Hospital Daejeongwonyeok Emergency Medical Center",
@@ -1914,19 +1784,6 @@
       "y": "36.31756699892309"
     },
     {
-      "id": "1636041760",
-      "name_ko": "충남대학교병원 재활&관절염센터 주차장",
-      "name_en": "Chungnam University Hospital Jaehwal & Gwanjeoryeom Center Parking",
-      "name_th": "Chungnam University Hospital Jaehwal & Gwanjeoryeom Center Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대전 중구 문화로 266",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1636041760",
-      "x": "127.411290436427",
-      "y": "36.3161069337255"
-    },
-    {
       "id": "21909567",
       "name_ko": "충남대학교병원 대전지역암센터",
       "name_en": "Chungnam University Hospital Daejeon Regional Am Center",
@@ -1938,32 +1795,6 @@
       "map_url": "http://place.map.kakao.com/21909567",
       "x": "127.415926146329",
       "y": "36.3163197936755"
-    },
-    {
-      "id": "17577802",
-      "name_ko": "가톨릭대학교 대전성모병원 주차장",
-      "name_en": "Catholic University Daejeonseongmo Hospital Parking",
-      "name_th": "Catholic University Daejeonseongmo Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대전 중구 대흥로 64",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17577802",
-      "x": "127.420708168467",
-      "y": "36.322618516907"
-    },
-    {
-      "id": "18060114",
-      "name_ko": "충남대학교병원 주차장",
-      "name_en": "Chungnam University Hospital Parking",
-      "name_th": "Chungnam University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대전 중구 문화로 282",
-      "phone": "1599-7123",
-      "map_url": "http://place.map.kakao.com/18060114",
-      "x": "127.416315659711",
-      "y": "36.3175332268131"
     },
     {
       "id": "817264967",

@@ -1,6 +1,6 @@
 {
   "region_id": "gangwon",
-  "places_count": 356,
+  "places_count": 346,
   "places": [
     {
       "id": "11421966",
@@ -42,19 +42,6 @@
       "y": "37.87476092645687"
     },
     {
-      "id": "17572052",
-      "name_ko": "강원대학교병원 장례식장",
-      "name_en": "Gangwon University Hospital Funeral Hall",
-      "name_th": "Gangwon University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "강원특별자치도 춘천시 백령로 156",
-      "phone": "033-254-5611",
-      "map_url": "http://place.map.kakao.com/17572052",
-      "x": "127.745457990962",
-      "y": "37.8750581655849"
-    },
-    {
       "id": "17577681",
       "name_ko": "한림대학교 춘천성심병원 권역응급의료센터",
       "name_en": "Hallim University Chuncheonseongsim Hospital Gwonyeok Emergency Medical Center",
@@ -79,19 +66,6 @@
       "map_url": "http://place.map.kakao.com/25131258",
       "x": "127.744557488812",
       "y": "37.8745737583352"
-    },
-    {
-      "id": "8728062",
-      "name_ko": "강원대학교 동물병원",
-      "name_en": "Gangwon University Dongmul Hospital",
-      "name_th": "Gangwon University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "강원특별자치도 춘천시 강원대학길 1",
-      "phone": "033-250-8606",
-      "map_url": "http://place.map.kakao.com/8728062",
-      "x": "127.751203609966",
-      "y": "37.8682502545868"
     },
     {
       "id": "25131257",
@@ -133,19 +107,6 @@
       "y": "37.8847092026861"
     },
     {
-      "id": "17577807",
-      "name_ko": "강원대학교병원 철골주차장",
-      "name_en": "Gangwon University Hospital Cheolgol Parking",
-      "name_th": "Gangwon University Hospital Cheolgol Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "강원특별자치도 춘천시 백령로 156",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17577807",
-      "x": "127.74507686786166",
-      "y": "37.87423172283964"
-    },
-    {
       "id": "25131256",
       "name_ko": "강원대학교병원 어린이병원",
       "name_en": "Gangwon University Hospital Eorini Hospital",
@@ -176,7 +137,7 @@
       "name_ko": "강원대학교병원 장례식장매점",
       "name_en": "Gangwon University Hospital Funeral Hall Maejeom",
       "name_th": "Gangwon University Hospital Funeral Hall Maejeom",
-      "category": "hospital",
+      "category": "restaurant",
       "category_detail": "가정,생활 > 슈퍼마켓",
       "address": "강원특별자치도 춘천시 백령로 156",
       "phone": "1345",
@@ -196,19 +157,6 @@
       "map_url": "http://place.map.kakao.com/1163522631",
       "x": "127.740208373085",
       "y": "37.8840555357391"
-    },
-    {
-      "id": "18082760",
-      "name_ko": "한림대학교 춘천성심병원 주차장",
-      "name_en": "Hallim University Chuncheonseongsim Hospital Parking",
-      "name_th": "Hallim University Chuncheonseongsim Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "강원특별자치도 춘천시 교동 4-2",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18082760",
-      "x": "127.739438391769",
-      "y": "37.8841270435247"
     },
     {
       "id": "9316407",
@@ -978,19 +926,6 @@
       "y": "37.3704228604707"
     },
     {
-      "id": "21344115",
-      "name_ko": "상지대학교 부속한방병원 노동조합",
-      "name_en": "Sangji University Busok Korean Medicine Hospital Nodongjohap",
-      "name_th": "Sangji University Busok Korean Medicine Hospital Nodongjohap",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 단체,협회 > 노동조합",
-      "address": "강원특별자치도 원주시 상지대길 80",
-      "phone": "033-741-9161",
-      "map_url": "http://place.map.kakao.com/21344115",
-      "x": "127.934251808368",
-      "y": "37.3703756923588"
-    },
-    {
       "id": "9863594",
       "name_ko": "상지대학교 부속한방병원 한방재활의학과",
       "name_en": "Sangji University Busok Korean Medicine Hospital Hanbangjaehwaruihakgwa",
@@ -1015,19 +950,6 @@
       "map_url": "http://place.map.kakao.com/19152765",
       "x": "127.9455206930221",
       "y": "37.34789460759956"
-    },
-    {
-      "id": "3250655",
-      "name_ko": "연세대학교 원주세브란스기독병원 택시정류장",
-      "name_en": "Yonsei University Wonju Severance Gidok Hospital Taeksijeongnyujang",
-      "name_th": "Yonsei University Wonju Severance Gidok Hospital Taeksijeongnyujang",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설",
-      "address": "강원특별자치도 원주시 일산로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/3250655",
-      "x": "127.946277175315",
-      "y": "37.3487309901916"
     },
     {
       "id": "790134502",
@@ -1080,19 +1002,6 @@
       "map_url": "http://place.map.kakao.com/26417760",
       "x": "127.94618219473826",
       "y": "37.34790733813442"
-    },
-    {
-      "id": "17573833",
-      "name_ko": "원주세브란스기독병원 노동조합",
-      "name_en": "Wonju Severance Gidok Hospital Nodongjohap",
-      "name_th": "Wonju Severance Gidok Hospital Nodongjohap",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 단체,협회 > 노동조합",
-      "address": "강원특별자치도 원주시 일산로 20",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17573833",
-      "x": "127.94451298143",
-      "y": "37.3481729572088"
     },
     {
       "id": "389733894",
@@ -4090,7 +3999,7 @@
       "name_en": "Pyeonhan Pharmacy",
       "name_th": "Pyeonhan Pharmacy",
       "category": "hospital",
-      "category_detail": "의료,건강 > 약��",
+      "category_detail": "의료,건강 > 약국",
       "address": "강원특별자치도 삼척시 도계읍 도계우회로1길 4",
       "phone": "033-541-3677",
       "map_url": "http://place.map.kakao.com/17461098",
@@ -4174,32 +4083,6 @@
       "map_url": "http://place.map.kakao.com/9424645",
       "x": "129.16388341533",
       "y": "37.442093561432"
-    },
-    {
-      "id": "1727797493",
-      "name_ko": "강원대학교 동물병원 응급의료센터",
-      "name_en": "Gangwon University Dongmul Hospital Emergency Medical Center",
-      "name_th": "Gangwon University Dongmul Hospital Emergency Medical Center",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "강원특별자치도 춘천시 강원대학길 1",
-      "phone": "033-250-8606",
-      "map_url": "http://place.map.kakao.com/1727797493",
-      "x": "127.751204755515",
-      "y": "37.8682511482081"
-    },
-    {
-      "id": "1778957508",
-      "name_ko": "강원대학교병원 직장어린이집 및 직원주차장",
-      "name_en": "Gangwon University Hospital Jikjang Daycare Center Mit Jigwon Parking",
-      "name_th": "Gangwon University Hospital Jikjang Daycare Center Mit Jigwon Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "강원특별자치도 춘천시 서부대성로 257",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1778957508",
-      "x": "127.747290840309",
-      "y": "37.8728753048916"
     },
     {
       "id": "26302972",
@@ -4371,19 +4254,6 @@
       "y": "37.6916231153161"
     },
     {
-      "id": "2036115720",
-      "name_ko": "홍천치과기공소",
-      "name_en": "Hongcheon Dental Clinic Gigongso",
-      "name_th": "Hongcheon Dental Clinic Gigongso",
-      "category": "hospital",
-      "category_detail": "서비스,산업 > 제조업 > 의료용품 > 의료기기제조",
-      "address": "강원특별자치도 홍천군 홍천읍 희망로14길 4-3",
-      "phone": "033-433-2879",
-      "map_url": "http://place.map.kakao.com/2036115720",
-      "x": "127.890111116607",
-      "y": "37.6936140230289"
-    },
-    {
       "id": "16654714",
       "name_ko": "서울정형외과",
       "name_en": "Seoul Orthopedics Clinic",
@@ -4427,7 +4297,7 @@
       "name_ko": "폰마트 갈마점",
       "name_en": "Phone Market Galmajeom",
       "name_th": "Phone Market Galmajeom",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "강원특별자치도 홍천군 홍천읍 공작산로 37",
       "phone": "033-433-1009",

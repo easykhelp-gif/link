@@ -1,6 +1,6 @@
 {
   "region_id": "chungbuk",
-  "places_count": 378,
+  "places_count": 365,
   "places": [
     {
       "id": "332634119",
@@ -68,19 +68,6 @@
       "y": "36.624028374258906"
     },
     {
-      "id": "24067131",
-      "name_ko": "충북대학교병원 장례식장",
-      "name_en": "Chungbuk University Hospital Funeral Hall",
-      "name_th": "Chungbuk University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "충북 청주시 서원구 1순환로 776",
-      "phone": "043-269-6969",
-      "map_url": "http://place.map.kakao.com/24067131",
-      "x": "127.46158037269142",
-      "y": "36.62416671217877"
-    },
-    {
       "id": "17572332",
       "name_ko": "충북대학교병원 충북권역 응급의료센터",
       "name_en": "Chungbuk University Hospital Chungbukgwonyeok Emergency Medical Center",
@@ -92,32 +79,6 @@
       "map_url": "http://place.map.kakao.com/17572332",
       "x": "127.462503916778",
       "y": "36.6243721932406"
-    },
-    {
-      "id": "540879160",
-      "name_ko": "충북대학교병원 치유의나눔길",
-      "name_en": "Chungbuk University Hospital Chiyuuinanumgil",
-      "name_th": "Chungbuk University Hospital Chiyuuinanumgil",
-      "category": "hospital",
-      "category_detail": "여행 > 관광,명소 > 도보여행 > 무장애나눔길",
-      "address": "충북 청주시 서원구 충대로 1",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/540879160",
-      "x": "127.460251324593",
-      "y": "36.6240132543752"
-    },
-    {
-      "id": "1906242644",
-      "name_ko": "충북대학교 동물병원",
-      "name_en": "Chungbuk University Dongmul Hospital",
-      "name_th": "Chungbuk University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "충북 청주시 서원구 충대로 1",
-      "phone": "043-261-2602",
-      "map_url": "http://place.map.kakao.com/1906242644",
-      "x": "127.456068120589",
-      "y": "36.6232868075757"
     },
     {
       "id": "13565593",
@@ -133,19 +94,6 @@
       "y": "36.6242249331775"
     },
     {
-      "id": "929681145",
-      "name_ko": "충북대학교병원별책방",
-      "name_en": "Chungbuk University Hospital Byeolchaekbang",
-      "name_th": "Chungbuk University Hospital Byeolchaekbang",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학습시설 > 도서관 > 작은도서관",
-      "address": "충북 청주시 서원구 1순환로 776",
-      "phone": "043-269-7272",
-      "map_url": "http://place.map.kakao.com/929681145",
-      "x": "127.461608530585",
-      "y": "36.6242017472012"
-    },
-    {
       "id": "9517478",
       "name_ko": "충북대학교병원 피부과",
       "name_en": "Chungbuk University Hospital Dermatology Clinic",
@@ -157,19 +105,6 @@
       "map_url": "http://place.map.kakao.com/9517478",
       "x": "127.461456368014",
       "y": "36.6241816106164"
-    },
-    {
-      "id": "17555780",
-      "name_ko": "충북대학교 개신캠퍼스 수의과대학 및 동물병원",
-      "name_en": "Chungbuk University Gaesinkaempeoseu Su College of Medicine Mit Dongmul Hospital",
-      "name_th": "Chungbuk University Gaesinkaempeoseu Su College of Medicine Mit Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교부속시설",
-      "address": "충북 청주시 서원구 충대로 1",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17555780",
-      "x": "127.455933128026",
-      "y": "36.62333418303"
     },
     {
       "id": "13565588",
@@ -198,19 +133,6 @@
       "y": "36.6243005917948"
     },
     {
-      "id": "9504814",
-      "name_ko": "청주 자동차대학병원",
-      "name_en": "Cheongju Jadongcha University Hospital",
-      "name_th": "Cheongju Jadongcha University Hospital",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 자동차정비",
-      "address": "충북 청주시 서원구 모충로 80",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/9504814",
-      "x": "127.472336015439",
-      "y": "36.6270586404736"
-    },
-    {
       "id": "11236066",
       "name_ko": "충북대학교 병원 신경외과",
       "name_en": "Chungbuk University Hospital Neurosurgery Clinic",
@@ -235,19 +157,6 @@
       "map_url": "http://place.map.kakao.com/464460741",
       "x": "127.461551814184",
       "y": "36.6231269175964"
-    },
-    {
-      "id": "17572721",
-      "name_ko": "충북대학교병원 주차장8",
-      "name_en": "Chungbuk University Hospital Parking 8",
-      "name_th": "Chungbuk University Hospital Parking 8",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "충북 청주시 서원구 1순환로 776",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572721",
-      "x": "127.46172544617",
-      "y": "36.6235605900647"
     },
     {
       "id": "558930570",
@@ -359,7 +268,7 @@
       "name_en": "Yonsei Teunteun Dental Clinic Clinic",
       "name_th": "Yonsei Teunteun Dental Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건강 > ��원 > 치과",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "충북 청주시 청원구 사뜸로 54",
       "phone": "043-241-2080",
       "map_url": "http://place.map.kakao.com/786620968",
@@ -683,7 +592,7 @@
       "name_ko": "청주 무카타&시푸드",
       "name_en": "Cheongju Mukata & Sipudeu",
       "name_th": "Cheongju Mukata & Sipudeu",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "충북 청주시 상당구 상당로13번길 15",
       "phone": "0506-115-9945",
@@ -722,7 +631,7 @@
       "name_ko": "엘리펀트테라스 현대백화점충청점",
       "name_en": "Ellipeonteuteraseu Hyundai Department Store Chungcheongjeom",
       "name_th": "Ellipeonteuteraseu Hyundai Department Store Chungcheongjeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "충북 청주시 흥덕구 직지대로 308",
       "phone": "043-909-2813",
@@ -852,7 +761,7 @@
       "name_ko": "신한은행 환전소 청주국제공항",
       "name_en": "Shinhan Bank Money Exchange Cheongjugukje Airport",
       "name_th": "Shinhan Bank Money Exchange Cheongjugukje Airport",
-      "category": "government",
+      "category": "finance",
       "category_detail": "금융,보험 > 외환,환율 > 환전",
       "address": "충북 청주시 청원구 내수읍 오창대로 980",
       "phone": "043-904-6412",
@@ -904,7 +813,7 @@
       "name_ko": "청주폰성지 휴대폰할인매장",
       "name_en": "Cheongju Phone Seongji Hyudae Phone Harinmaejang",
       "name_th": "Cheongju Phone Seongji Hyudae Phone Harinmaejang",
-      "category": "government",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충북 청주시 상당구 중흥로 135",
       "phone": "010-2453-5267",
@@ -930,7 +839,7 @@
       "name_ko": "휴대폰성지 직폰 청주점",
       "name_en": "Hyudae Phone Seongji Jik Phone Cheongjujeom",
       "name_th": "Hyudae Phone Seongji Jik Phone Cheongjujeom",
-      "category": "government",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충북 청주시 상당구 중고개로 129",
       "phone": "010-7410-4711",
@@ -1186,32 +1095,6 @@
       "y": "36.9709586401678"
     },
     {
-      "id": "15926496",
-      "name_ko": "건국대학교충주병원 장례식장",
-      "name_en": "Konkuk University Chungju Hospital Funeral Hall",
-      "name_th": "Konkuk University Chungju Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "충북 충주시 국원대로 82",
-      "phone": "043-840-8443",
-      "map_url": "http://place.map.kakao.com/15926496",
-      "x": "127.929349060018",
-      "y": "36.9788799662186"
-    },
-    {
-      "id": "1721824842",
-      "name_ko": "대학구두병원",
-      "name_en": "University Gudu Hospital",
-      "name_th": "University Gudu Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "충북 충주시 예성로 104",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1721824842",
-      "x": "127.933770022092",
-      "y": "36.9661404247673"
-    },
-    {
       "id": "8780223",
       "name_ko": "건국대학교충주병원 응급의료센터",
       "name_en": "Konkuk University Chungju Hospital Emergency Medical Center",
@@ -1236,19 +1119,6 @@
       "map_url": "http://place.map.kakao.com/1482157811",
       "x": "127.915241425292",
       "y": "36.9710620954022"
-    },
-    {
-      "id": "20582837",
-      "name_ko": "건국대학교충주병원 주차장",
-      "name_en": "Konkuk University Chungju Hospital Parking",
-      "name_th": "Konkuk University Chungju Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "충북 충주시 교현동 618-1",
-      "phone": "1899-1485",
-      "map_url": "http://place.map.kakao.com/20582837",
-      "x": "127.92867250967493",
-      "y": "36.97934244357114"
     },
     {
       "id": "8779419",
@@ -1307,7 +1177,7 @@
       "name_ko": "건국대학교충주병원 매점",
       "name_en": "Konkuk University Chungju Hospital Maejeom",
       "name_th": "Konkuk University Chungju Hospital Maejeom",
-      "category": "hospital",
+      "category": "restaurant",
       "category_detail": "가정,생활 > 슈퍼마켓",
       "address": "충북 충주시 국원대로 82",
       "phone": "1345",
@@ -2031,19 +1901,6 @@
       "y": "37.1811756285395"
     },
     {
-      "id": "18039748",
-      "name_ko": "세명대학교 부속제천한방병원 주차장",
-      "name_en": "Semyeong University Busokjecheon Korean Medicine Hospital Parking",
-      "name_th": "Semyeong University Busokjecheon Korean Medicine Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "충북 제천시 세명로 66",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18039748",
-      "x": "128.200175041652",
-      "y": "37.1809670400537"
-    },
-    {
       "id": "1462205050",
       "name_ko": "세명대학교부속제천한방병원 한방부인과",
       "name_en": "Semyeong University Busokjecheon Korean Medicine Hospital Hanbangbuingwa",
@@ -2094,19 +1951,6 @@
       "map_url": "http://place.map.kakao.com/10478538",
       "x": "128.19995439879423",
       "y": "37.181255793387514"
-    },
-    {
-      "id": "11317352",
-      "name_ko": "세명대학교 부속제천한방병원 정문",
-      "name_en": "Semyeong University Busokjecheon Korean Medicine Hospital Jeongmun",
-      "name_th": "Semyeong University Busokjecheon Korean Medicine Hospital Jeongmun",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "충북 제천시 세명로 66",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/11317352",
-      "x": "128.19998150541",
-      "y": "37.1812609248378"
     },
     {
       "id": "11131934",
@@ -3396,19 +3240,6 @@
       "y": "36.17480888024736"
     },
     {
-      "id": "23988260",
-      "name_ko": "치과약국미용실",
-      "name_en": "Dental Clinic Pharmacy Hair Salon",
-      "name_th": "Dental Clinic Pharmacy Hair Salon",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 미용 > 미용실",
-      "address": "충북 영동군 영동읍 중앙로 31",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/23988260",
-      "x": "127.776894497714",
-      "y": "36.1750462812099"
-    },
-    {
       "id": "21659311",
       "name_ko": "이원면보건지소",
       "name_en": "Iwonmyeonbogeonjiso",
@@ -3660,7 +3491,7 @@
       "name_ko": "신한은행 청주동남",
       "name_en": "Shinhan Bank Cheongjudongnam",
       "name_th": "Shinhan Bank Cheongjudongnam",
-      "category": "government",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 신한은행",
       "address": "충북 청주시 상당구 중고개로 129",
       "phone": "043-291-6070",

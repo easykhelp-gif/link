@@ -1,6 +1,6 @@
 {
   "region_id": "chungnam",
-  "places_count": 390,
+  "places_count": 377,
   "places": [
     {
       "id": "188603405",
@@ -81,32 +81,6 @@
       "y": "36.837561280349476"
     },
     {
-      "id": "21275798",
-      "name_ko": "단국대학교의과대학부속병원 장례식장",
-      "name_en": "Dankook University College of Medicine Busok Hospital Funeral Hall",
-      "name_th": "Dankook University College of Medicine Busok Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "충남 천안시 동남구 망향로 201",
-      "phone": "041-550-7474",
-      "map_url": "http://place.map.kakao.com/21275798",
-      "x": "127.17250904664",
-      "y": "36.8431911578906"
-    },
-    {
-      "id": "26447139",
-      "name_ko": "순천향대학교 천안병원 장례식장",
-      "name_en": "Soonchunhyang University Cheonan Hospital Funeral Hall",
-      "name_th": "Soonchunhyang University Cheonan Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "충남 천안시 동남구 순천향6길 30",
-      "phone": "041-570-2444",
-      "map_url": "http://place.map.kakao.com/26447139",
-      "x": "127.13444755740781",
-      "y": "36.802411062413874"
-    },
-    {
       "id": "7829224",
       "name_ko": "대전대학교 천안한방병원",
       "name_en": "Daejeon University Cheonan Korean Medicine Hospital",
@@ -159,32 +133,6 @@
       "y": "36.84275962937501"
     },
     {
-      "id": "18085124",
-      "name_ko": "순천향대학교 천안병원 출입구",
-      "name_en": "Soonchunhyang University Cheonan Hospital Churipgu",
-      "name_th": "Soonchunhyang University Cheonan Hospital Churipgu",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "충남 천안시 동남구 순천향6길 31",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18085124",
-      "x": "127.135264373425",
-      "y": "36.8023722895776"
-    },
-    {
-      "id": "728481065",
-      "name_ko": "순천향대학교 천안병원 제2주차장",
-      "name_en": "Soonchunhyang University Cheonan Hospital Je 2 Parking",
-      "name_th": "Soonchunhyang University Cheonan Hospital Je 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 주차빌딩",
-      "address": "충남 천안시 동남구 순천향6길 31",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/728481065",
-      "x": "127.134671680796",
-      "y": "36.8017782283976"
-    },
-    {
       "id": "26379946",
       "name_ko": "순천향대학교 부속 천안병원 건강증진센터",
       "name_en": "Soonchunhyang University Busok Cheonan Hospital Geongangjeungjin Center",
@@ -196,45 +144,6 @@
       "map_url": "http://place.map.kakao.com/26379946",
       "x": "127.13494245415932",
       "y": "36.80218972957715"
-    },
-    {
-      "id": "493171742",
-      "name_ko": "단국대학교의과대학부속병원 주차타워",
-      "name_en": "Dankook University College of Medicine Busok Hospital Jucha Tower",
-      "name_th": "Dankook University College of Medicine Busok Hospital Jucha Tower",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 주차빌딩",
-      "address": "충남 천안시 동남구 망향로 201",
-      "phone": "041-550-7331",
-      "map_url": "http://place.map.kakao.com/493171742",
-      "x": "127.174033048432",
-      "y": "36.8418661143317"
-    },
-    {
-      "id": "18097918",
-      "name_ko": "단국대학교의과대학부속병원 출입구",
-      "name_en": "Dankook University College of Medicine Busok Hospital Churipgu",
-      "name_th": "Dankook University College of Medicine Busok Hospital Churipgu",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "충남 천안시 동남구 망향로 201",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18097918",
-      "x": "127.174455065428",
-      "y": "36.8410869408171"
-    },
-    {
-      "id": "657796799",
-      "name_ko": "순천향대학교천안병원 제1주차장",
-      "name_en": "Soonchunhyang University Cheonan Hospital Je 1 Parking",
-      "name_th": "Soonchunhyang University Cheonan Hospital Je 1 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 주차빌딩",
-      "address": "충남 천안시 동남구 순천향4길 36",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/657796799",
-      "x": "127.134935774834",
-      "y": "36.8015760800167"
     },
     {
       "id": "12372941",
@@ -670,7 +579,7 @@
       "name_ko": "메콩타이 천안청당점",
       "name_en": "Mekongtai Cheonancheongdangjeom",
       "name_th": "Mekongtai Cheonancheongdangjeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식 > 메콩타이",
       "address": "충남 천안시 동남구 청수14로 102",
       "phone": "041-566-2281",
@@ -696,7 +605,7 @@
       "name_ko": "리얼타이 천안청당점",
       "name_en": "Rieoltai Cheonancheongdangjeom",
       "name_th": "Rieoltai Cheonancheongdangjeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "충남 천안시 동남구 청수5로 4",
       "phone": "041-555-8897",
@@ -956,7 +865,7 @@
       "name_ko": "휴대폰성지 아산마트",
       "name_en": "Hyudae Phone Seongji Asan Market",
       "name_th": "Hyudae Phone Seongji Asan Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충남 아산시 배방읍 고속철대로 147",
       "phone": "010-9111-2920",
@@ -1628,32 +1537,6 @@
       "y": "36.27554467388237"
     },
     {
-      "id": "23066928",
-      "name_ko": "건양대학교 부여병원 장례식장",
-      "name_en": "Geonyang University Buyeo Hospital Funeral Hall",
-      "name_th": "Geonyang University Buyeo Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "충남 부여군 부여읍 계백로 200",
-      "phone": "041-837-4441",
-      "map_url": "http://place.map.kakao.com/23066928",
-      "x": "126.9021174954236",
-      "y": "36.275058371289425"
-    },
-    {
-      "id": "829286370",
-      "name_ko": "무인민원발급창구 건양대학교 부여병원",
-      "name_en": "Muinminwonbalgeupchanggu Geonyang University Buyeo Hospital",
-      "name_th": "Muinminwonbalgeupchanggu Geonyang University Buyeo Hospital",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 지방행정기관 > 무인민원발급창구",
-      "address": "충남 부여군 부여읍 계백로 200",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/829286370",
-      "x": "126.90170172494238",
-      "y": "36.27556269770039"
-    },
-    {
       "id": "544399763",
       "name_ko": "하나플란트치과의원",
       "name_en": "Hana Peullanteu Dental Clinic Clinic",
@@ -2135,19 +2018,6 @@
       "y": "36.4459140789361"
     },
     {
-      "id": "17578961",
-      "name_ko": "순천향대학교천안병원 3주차장",
-      "name_en": "Soonchunhyang University Cheonan Hospital 3 Parking",
-      "name_th": "Soonchunhyang University Cheonan Hospital 3 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "충남 천안시 동남구 순천향4길 50",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17578961",
-      "x": "127.136560582262",
-      "y": "36.8028501997463"
-    },
-    {
       "id": "1449881038",
       "name_ko": "순천향대학교천안병원 호흡기알레르기내과",
       "name_en": "Soonchunhyang University Cheonan Hospital Hoheupgiallereugi Internal Medicine Clinic",
@@ -2538,19 +2408,6 @@
       "y": "36.9232589525677"
     },
     {
-      "id": "1147171431",
-      "name_ko": "메콩타이 아산충무병원점",
-      "name_en": "Mekongtai Asanchungmu Hospital Jeom",
-      "name_th": "Mekongtai Asanchungmu Hospital Jeom",
-      "category": "hospital",
-      "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식 > 메콩타이",
-      "address": "충남 아산시 모종남로12번길 5",
-      "phone": "041-541-8586",
-      "map_url": "http://place.map.kakao.com/1147171431",
-      "x": "127.020813716381",
-      "y": "36.7794869977629"
-    },
-    {
       "id": "1760176536",
       "name_ko": "따왓쏨수에이",
       "name_en": "Ttawatssomsuei",
@@ -2698,7 +2555,7 @@
       "name_ko": "앤텔레콤 스마트센터",
       "name_en": "Aen Telecom Seu Market Center",
       "name_th": "Aen Telecom Seu Market Center",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충남 아산시 충무로 8",
       "phone": "0503-7151-4670",
@@ -2711,7 +2568,7 @@
       "name_ko": "휴대폰성지 아산 청년휴대폰",
       "name_en": "Hyudae Phone Seongji Asan Cheongnyeonhyudae Phone",
       "name_th": "Hyudae Phone Seongji Asan Cheongnyeonhyudae Phone",
-      "category": "government",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충남 아산시 모종로 21",
       "phone": "010-5700-0528",
@@ -3251,19 +3108,6 @@
       "map_url": "http://place.map.kakao.com/10794560",
       "x": "126.302998811862",
       "y": "36.7487703388227"
-    },
-    {
-      "id": "676193312",
-      "name_ko": "서울정형외과 ~ 청송갈비 노상공영주차장",
-      "name_en": "Seoul Orthopedics Clinic ~ Cheongsonggalbi Nosanggongyeong Parking",
-      "name_th": "Seoul Orthopedics Clinic ~ Cheongsonggalbi Nosanggongyeong Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
-      "address": "충남 서산시 동문동 284-17",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/676193312",
-      "x": "126.45862548549",
-      "y": "36.7798942705608"
     },
     {
       "id": "182373268",
@@ -3838,19 +3682,6 @@
       "y": "36.2891819302093"
     },
     {
-      "id": "1098316959",
-      "name_ko": "가톨릭정형외과의원 주차장",
-      "name_en": "Catholic Orthopedics Clinic Clinic Parking",
-      "name_th": "Catholic Orthopedics Clinic Clinic Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "충남 논산시 취암동 606-10",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1098316959",
-      "x": "127.087675545547",
-      "y": "36.2034192944603"
-    },
-    {
       "id": "7885191",
       "name_ko": "백제종합병원",
       "name_en": "Baekje General Hospital",
@@ -3998,7 +3829,7 @@
       "name_ko": "청년폰",
       "name_en": "Cheongnyeon Phone",
       "name_th": "Cheongnyeon Phone",
-      "category": "government",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충남 계룡시 두마면 대실남북3길 16",
       "phone": "010-3232-7743",
@@ -4869,7 +4700,7 @@
       "name_ko": "휴대폰마트",
       "name_en": "Hyudae Phone Market",
       "name_th": "Hyudae Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "충남 당진시 당진중앙2로 202",
       "phone": "070-4200-6011",

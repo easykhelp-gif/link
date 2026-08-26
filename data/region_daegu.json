@@ -1,6 +1,6 @@
 {
   "region_id": "daegu",
-  "places_count": 281,
+  "places_count": 271,
   "places": [
     {
       "id": "2079748389",
@@ -107,45 +107,6 @@
       "y": "35.87333381545762"
     },
     {
-      "id": "1514805525",
-      "name_ko": "경북대학교병원 첨단임상시험센터 주차장",
-      "name_en": "Gyeongbuk University Hospital Cheomdanimsangsiheom Center Parking",
-      "name_th": "Gyeongbuk University Hospital Cheomdanimsangsiheom Center Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대구 동구 대림동 886-2",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1514805525",
-      "x": "128.742930175166",
-      "y": "35.8731331781281"
-    },
-    {
-      "id": "17562241",
-      "name_ko": "경북대학교 수의과대학부속동물병원",
-      "name_en": "Gyeongbuk University Su College of Medicine Busokdongmul Hospital",
-      "name_th": "Gyeongbuk University Su College of Medicine Busokdongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "대구 북구 대학로 80",
-      "phone": "053-950-6898",
-      "map_url": "http://place.map.kakao.com/17562241",
-      "x": "128.613802473303",
-      "y": "35.8866507681026"
-    },
-    {
-      "id": "20513073",
-      "name_ko": "경북대학교병원 주차장",
-      "name_en": "Gyeongbuk University Hospital Parking",
-      "name_th": "Gyeongbuk University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시�� > 주차장",
-      "address": "대구 중구 동덕로 130",
-      "phone": "053-200-5135",
-      "map_url": "http://place.map.kakao.com/20513073",
-      "x": "128.605353540254",
-      "y": "35.8668055563541"
-    },
-    {
       "id": "10171401",
       "name_ko": "경북대학교병원 대구권역응급의료센터",
       "name_en": "Gyeongbuk University Hospital Daegugwonyeok Emergency Medical Center",
@@ -157,45 +118,6 @@
       "map_url": "http://place.map.kakao.com/10171401",
       "x": "128.60381496900865",
       "y": "35.86605112844671"
-    },
-    {
-      "id": "17092809",
-      "name_ko": "경북대학교병원 장례식장",
-      "name_en": "Gyeongbuk University Hospital Funeral Hall",
-      "name_th": "Gyeongbuk University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대구 중구 동덕로 130",
-      "phone": "053-200-6464",
-      "map_url": "http://place.map.kakao.com/17092809",
-      "x": "128.605400232286",
-      "y": "35.8653883369487"
-    },
-    {
-      "id": "1329872461",
-      "name_ko": "경북대학교병원어린이집",
-      "name_en": "Gyeongbuk University Hospital Daycare Center",
-      "name_th": "Gyeongbuk University Hospital Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "대구 중구 국채보상로140길 24-7",
-      "phone": "053-261-1710",
-      "map_url": "http://place.map.kakao.com/1329872461",
-      "x": "128.60583341679356",
-      "y": "35.86765342391795"
-    },
-    {
-      "id": "304395960",
-      "name_ko": "경북대학교병원 정문",
-      "name_en": "Gyeongbuk University Hospital Jeongmun",
-      "name_th": "Gyeongbuk University Hospital Jeongmun",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "대구 중구 삼덕동2가",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/304395960",
-      "x": "128.603930722205",
-      "y": "35.8656422664316"
     },
     {
       "id": "12483248",
@@ -852,7 +774,7 @@
       "name_ko": "아시아폰마트",
       "name_en": "Asia Phone Market",
       "name_th": "Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "대구 서구 서대구로 303-10",
       "phone": "053-352-9920",
@@ -865,7 +787,7 @@
       "name_ko": "월드아시아마트",
       "name_en": "Woldeu Asian Market",
       "name_th": "Woldeu Asian Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "대구 서구 서대구로 303-10",
       "phone": "1345",
@@ -1034,7 +956,7 @@
       "name_ko": "알뜰폰 이마트칠성점",
       "name_en": "Budget Mobile I Market Chilseongjeom",
       "name_th": "Budget Mobile I Market Chilseongjeom",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "대구 북구 침산로 93",
       "phone": "1345",
@@ -1966,19 +1888,6 @@
       "y": "35.8538900332608"
     },
     {
-      "id": "1966229954",
-      "name_ko": "계명대학교 동산병원 백합원",
-      "name_en": "Keimyung University Dongsan Hospital Baekhabwon",
-      "name_th": "Keimyung University Dongsan Hospital Baekhabwon",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대구 달서구 달구벌대로 1095",
-      "phone": "053-258-4444",
-      "map_url": "http://place.map.kakao.com/1966229954",
-      "x": "128.48177874394503",
-      "y": "35.85333797883187"
-    },
-    {
       "id": "12803404",
       "name_ko": "계명대학교 동산병원 암치유센터",
       "name_en": "Keimyung University Dongsan Hospital Amchiyu Center",
@@ -2023,25 +1932,12 @@
       "name_en": "Keimyung University Dongsan Hospital Sumyeon Clinic",
       "name_th": "Keimyung University Dongsan Hospital Sumyeon Clinic",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병원부��시설",
+      "category_detail": "의료,건강 > 병원부속시설",
       "address": "대구 달서구 달구벌대로 1035",
       "phone": "053-258-4368",
       "map_url": "http://place.map.kakao.com/12750422",
       "x": "128.48012966656506",
       "y": "35.85388728949213"
-    },
-    {
-      "id": "13494405",
-      "name_ko": "대구가톨릭대학교병원 장례식장",
-      "name_en": "Daegu Catholic University Hospital Funeral Hall",
-      "name_th": "Daegu Catholic University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대구 남구 두류공원로17길 33",
-      "phone": "053-650-4444",
-      "map_url": "http://place.map.kakao.com/13494405",
-      "x": "128.5684463133182",
-      "y": "35.84316041866484"
     },
     {
       "id": "25754666",
@@ -2068,19 +1964,6 @@
       "map_url": "http://place.map.kakao.com/22213599",
       "x": "128.5682845639711",
       "y": "35.843658162816574"
-    },
-    {
-      "id": "18097996",
-      "name_ko": "대구가톨릭대학교병원 남문주차장 A",
-      "name_en": "Daegu Catholic University Hospital Nammun Parking A",
-      "name_th": "Daegu Catholic University Hospital Nammun Parking A",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "대구 남구 두류공원로17길 33",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18097996",
-      "x": "128.56752242949574",
-      "y": "35.84289311963348"
     },
     {
       "id": "7816213",
@@ -2952,19 +2835,6 @@
       "map_url": "http://place.map.kakao.com/408549330",
       "x": "128.547601113784",
       "y": "35.8225266580933"
-    },
-    {
-      "id": "17577720",
-      "name_ko": "영남대학교병원 장례식장",
-      "name_en": "Yeungnam University Hospital Funeral Hall",
-      "name_th": "Yeungnam University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "대구 남구 현충로 170",
-      "phone": "053-620-4647",
-      "map_url": "http://place.map.kakao.com/17577720",
-      "x": "128.58495429238",
-      "y": "35.8477991590951"
     },
     {
       "id": "10166692",

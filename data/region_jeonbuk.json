@@ -1,6 +1,6 @@
 {
   "region_id": "jeonbuk",
-  "places_count": 397,
+  "places_count": 389,
   "places": [
     {
       "id": "17521910",
@@ -27,19 +27,6 @@
       "map_url": "http://place.map.kakao.com/11168001",
       "x": "127.1412368084105",
       "y": "35.84692474186958"
-    },
-    {
-      "id": "8509459",
-      "name_ko": "전북대학교병원 장례식장",
-      "name_en": "Jeonbuk University Hospital Funeral Hall",
-      "name_th": "Jeonbuk University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "전북특별자치도 전주시 덕진구 권삼득로 308",
-      "phone": "063-250-1443",
-      "map_url": "http://place.map.kakao.com/8509459",
-      "x": "127.140901813799",
-      "y": "35.8490358761904"
     },
     {
       "id": "8523709",
@@ -137,7 +124,7 @@
       "name_ko": "전북대학교병원새마을금고 본점",
       "name_en": "Jeonbuk University Hospital Community Credit Cooperative Main Branch",
       "name_th": "Jeonbuk University Hospital Community Credit Cooperative Main Branch",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > 새마을금고",
       "address": "전북특별자치도 전주시 덕진구 건지로 20",
       "phone": "063-250-1951",
@@ -196,19 +183,6 @@
       "map_url": "http://place.map.kakao.com/8504907",
       "x": "127.14117746410221",
       "y": "35.84716815070419"
-    },
-    {
-      "id": "35130761",
-      "name_ko": "전북대학교병원작은도서관",
-      "name_en": "Jeonbuk University Hospital Small Library",
-      "name_th": "Jeonbuk University Hospital Small Library",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학습시설 > 도서관 > 작은도서관",
-      "address": "전북특별자치도 전주시 덕진구 건지로 20",
-      "phone": "063-250-1029",
-      "map_url": "http://place.map.kakao.com/35130761",
-      "x": "127.141245322064",
-      "y": "35.8467318630879"
     },
     {
       "id": "18526270",
@@ -1160,32 +1134,6 @@
       "y": "35.961127943046286"
     },
     {
-      "id": "1786516211",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "전북특별자치도 군산시 검다메1길 36",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1786516211",
-      "x": "126.739766106975",
-      "y": "35.9678253251967"
-    },
-    {
-      "id": "24249221",
-      "name_ko": "대학동물병원",
-      "name_en": "University Dongmul Hospital",
-      "name_th": "University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "전북특별자치도 익산시 인북로 139",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/24249221",
-      "x": "126.954033155382",
-      "y": "35.9414841563583"
-    },
-    {
       "id": "18686535",
       "name_ko": "닥터스치과의원",
       "name_en": "Dakteoseu Dental Clinic Clinic",
@@ -1862,19 +1810,6 @@
       "y": "35.96434344778693"
     },
     {
-      "id": "9492822",
-      "name_ko": "원광대학교병원 장례문화원",
-      "name_en": "Wonkwang University Hospital Jangnyemunhwawon",
-      "name_th": "Wonkwang University Hospital Jangnyemunhwawon",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "전북특별자치도 익산시 인북로 409",
-      "phone": "063-855-1734",
-      "map_url": "http://place.map.kakao.com/9492822",
-      "x": "126.96312797890785",
-      "y": "35.96466270138013"
-    },
-    {
       "id": "1319139071",
       "name_ko": "원광대학교 치과병원",
       "name_en": "Wonkwang University Dental Clinic Hospital",
@@ -1951,19 +1886,6 @@
       "map_url": "http://place.map.kakao.com/9958986",
       "x": "126.958591610781",
       "y": "35.9646224686015"
-    },
-    {
-      "id": "1732611357",
-      "name_ko": "원광대학교병원 장례문화원 주차장",
-      "name_en": "Wonkwang University Hospital Jangnyemunhwawon Parking",
-      "name_th": "Wonkwang University Hospital Jangnyemunhwawon Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "전북특별자치도 익산시 신동 117",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1732611357",
-      "x": "126.9634780419",
-      "y": "35.9652152679657"
     },
     {
       "id": "23587632",
@@ -3240,19 +3162,6 @@
       "y": "35.5642458175604"
     },
     {
-      "id": "205626806",
-      "name_ko": "구두대학병원",
-      "name_en": "Gudu University Hospital",
-      "name_th": "Gudu University Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 패션 > 구두수선",
-      "address": "전북특별자치도 순창군 순창읍 순창로 193",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/205626806",
-      "x": "127.14199868252678",
-      "y": "35.37240738481025"
-    },
-    {
       "id": "1478958739",
       "name_ko": "그랜드치과의원",
       "name_en": "Geuraendeu Dental Clinic Clinic",
@@ -4278,19 +4187,6 @@
       "map_url": "http://place.map.kakao.com/9583388",
       "x": "126.884986219197",
       "y": "35.8014553118227"
-    },
-    {
-      "id": "1034358692",
-      "name_ko": "전북대학교병원어린이집",
-      "name_en": "Jeonbuk University Hospital Daycare Center",
-      "name_th": "Jeonbuk University Hospital Daycare Center",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 유아교육 > 어린이집",
-      "address": "전북특별자치도 전주시 덕진구 건지로 20",
-      "phone": "063-253-0126",
-      "map_url": "http://place.map.kakao.com/1034358692",
-      "x": "127.14107608281924",
-      "y": "35.84805240174986"
     },
     {
       "id": "535407796",

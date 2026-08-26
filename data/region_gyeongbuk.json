@@ -1,6 +1,6 @@
 {
   "region_id": "gyeongbuk",
-  "places_count": 451,
+  "places_count": 432,
   "places": [
     {
       "id": "19180522",
@@ -14,19 +14,6 @@
       "map_url": "http://place.map.kakao.com/19180522",
       "x": "129.36678370796523",
       "y": "36.060728323148446"
-    },
-    {
-      "id": "2075243706",
-      "name_ko": "경북대학교 경북대학병원 인재원",
-      "name_en": "Gyeongbuk University Gyeongbuk University Hospital Injaewon",
-      "name_th": "Gyeongbuk University Gyeongbuk University Hospital Injaewon",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 교육단체 > 연수원",
-      "address": "경북 포항시 남구 구룡포읍 하정로 153",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/2075243706",
-      "x": "129.549220410009",
-      "y": "35.97618691784863"
     },
     {
       "id": "9872387",
@@ -527,7 +514,7 @@
       "name_ko": "아시아폰마트",
       "name_en": "Asia Phone Market",
       "name_th": "Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경북 포항시 남구 오천읍 문덕로 35",
       "phone": "1345",
@@ -822,32 +809,6 @@
       "y": "35.84545861340015"
     },
     {
-      "id": "11043183",
-      "name_ko": "계명대학교 경주동산병원 장례식장",
-      "name_en": "Keimyung University Gyeongjudongsan Hospital Funeral Hall",
-      "name_th": "Keimyung University Gyeongjudongsan Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경북 경주시 봉황로 65",
-      "phone": "054-744-0288",
-      "map_url": "http://place.map.kakao.com/11043183",
-      "x": "129.20962873057",
-      "y": "35.8454333970214"
-    },
-    {
-      "id": "13106556",
-      "name_ko": "동국대학교 경주병원 장례식장",
-      "name_en": "Dongguk University Gyeongju Hospital Funeral Hall",
-      "name_th": "Dongguk University Gyeongju Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경북 경주시 동대로 87",
-      "phone": "054-770-8333",
-      "map_url": "http://place.map.kakao.com/13106556",
-      "x": "129.1928963660815",
-      "y": "35.85851329535699"
-    },
-    {
       "id": "14093838",
       "name_ko": "동국대학교경주병원 응급실",
       "name_en": "Dongguk University Gyeongju Hospital Emergency Room",
@@ -887,19 +848,6 @@
       "y": "35.8454838086877"
     },
     {
-      "id": "17578988",
-      "name_ko": "동국 대학교 경주병원 주차장1",
-      "name_en": "Dongguk University Gyeongju Hospital Parking 1",
-      "name_th": "Dongguk University Gyeongju Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 경주시 석장동 1091-6",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17578988",
-      "x": "129.195888666882",
-      "y": "35.8589307665076"
-    },
-    {
       "id": "14084184",
       "name_ko": "동국대학교 경주한방병원 내과",
       "name_en": "Dongguk University Gyeongju Korean Medicine Hospital Internal Medicine Clinic",
@@ -911,19 +859,6 @@
       "map_url": "http://place.map.kakao.com/14084184",
       "x": "129.196698735353",
       "y": "35.8584438037776"
-    },
-    {
-      "id": "17577847",
-      "name_ko": "동국대학교경주병원 주차장4",
-      "name_en": "Dongguk University Gyeongju Hospital Parking 4",
-      "name_th": "Dongguk University Gyeongju Hospital Parking 4",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 경주시 동대로 87",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17577847",
-      "x": "129.192993594411",
-      "y": "35.8583060813787"
     },
     {
       "id": "1501712544",
@@ -939,32 +874,6 @@
       "y": "35.8587318400913"
     },
     {
-      "id": "17572666",
-      "name_ko": "동국대학교경주병원 주차장2",
-      "name_en": "Dongguk University Gyeongju Hospital Parking 2",
-      "name_th": "Dongguk University Gyeongju Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 경주시 동대로 87",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572666",
-      "x": "129.196654883056",
-      "y": "35.8578174781662"
-    },
-    {
-      "id": "647174005",
-      "name_ko": "동국대학교경주병원 주차장5",
-      "name_en": "Dongguk University Gyeongju Hospital Parking 5",
-      "name_th": "Dongguk University Gyeongju Hospital Parking 5",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 경주시 석장동 1094-1",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/647174005",
-      "x": "129.194661583048",
-      "y": "35.8589063431035"
-    },
-    {
       "id": "9783113",
       "name_ko": "동국대학교경주병원 소화기내과",
       "name_en": "Dongguk University Gyeongju Hospital Sohwagi Internal Medicine Clinic",
@@ -976,19 +885,6 @@
       "map_url": "http://place.map.kakao.com/9783113",
       "x": "129.19667178658474",
       "y": "35.85834968692951"
-    },
-    {
-      "id": "26444550",
-      "name_ko": "계명대학교경주동산병원 경비실",
-      "name_en": "Keimyung University Gyeongjudongsan Hospital Gyeongbisil",
-      "name_th": "Keimyung University Gyeongjudongsan Hospital Gyeongbisil",
-      "category": "hospital",
-      "category_detail": "서비스,산업 > 관리,운영 > 건물관리사무소",
-      "address": "경북 경주시 봉황로 65",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/26444550",
-      "x": "129.20913876257",
-      "y": "35.8458028277609"
     },
     {
       "id": "19208546",
@@ -1275,19 +1171,6 @@
       "map_url": "http://place.map.kakao.com/1947534597",
       "x": "129.2989041421682",
       "y": "35.77537221436127"
-    },
-    {
-      "id": "493070071",
-      "name_ko": "안강성모정형외과",
-      "name_en": "Angangseongmo Orthopedics Clinic",
-      "name_th": "Angangseongmo Orthopedics Clinic",
-      "category": "hospital",
-      "category_detail": "부동산 > 주거시설 > 빌라,주택",
-      "address": "경북 경주시 안강읍 안현로 1517",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/493070071",
-      "x": "129.22799628503964",
-      "y": "35.99059993769129"
     },
     {
       "id": "552697804",
@@ -1771,19 +1654,6 @@
       "y": "36.102865413819934"
     },
     {
-      "id": "12658723",
-      "name_ko": "차의과학대학교부속 구미차병원 장례식장",
-      "name_en": "CHA University Busok Gumicha Hospital Funeral Hall",
-      "name_th": "CHA University Busok Gumicha Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경북 구미시 신시로10길 12",
-      "phone": "054-450-9984",
-      "map_url": "http://place.map.kakao.com/12658723",
-      "x": "128.340806006176",
-      "y": "36.1147684850385"
-    },
-    {
       "id": "9542348",
       "name_ko": "차의과학대학교부속 구미차병원 정신과",
       "name_en": "CHA University Busok Gumicha Hospital Jeongsingwa",
@@ -1795,19 +1665,6 @@
       "map_url": "http://place.map.kakao.com/9542348",
       "x": "128.340557368405",
       "y": "36.1145153440001"
-    },
-    {
-      "id": "16284176",
-      "name_ko": "순천향대학교 구미병원 장례식장",
-      "name_en": "Soonchunhyang University Gumi Hospital Funeral Hall",
-      "name_th": "Soonchunhyang University Gumi Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "경북 구미시 1공단로 179",
-      "phone": "054-464-4444",
-      "map_url": "http://place.map.kakao.com/16284176",
-      "x": "128.38238361044",
-      "y": "36.1031578195303"
     },
     {
       "id": "8579940",
@@ -2564,19 +2421,6 @@
       "y": "36.5422734367437"
     },
     {
-      "id": "17706701",
-      "name_ko": "국립경국대학교 식물종합병원",
-      "name_en": "Gungnipgyeongguk University Singmul General Hospital",
-      "name_th": "Gungnipgyeongguk University Singmul General Hospital",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교부속시설",
-      "address": "경북 안동시 경동로 1375",
-      "phone": "054-820-7119",
-      "map_url": "http://place.map.kakao.com/17706701",
-      "x": "128.799338417745",
-      "y": "36.541702221411"
-    },
-    {
       "id": "786857862",
       "name_ko": "로이스제일치과병원",
       "name_en": "Roiseujeil Dental Clinic Hospital",
@@ -2842,7 +2686,7 @@
       "name_en": "Andong Hospital Orthopedics Clinic",
       "name_th": "Andong Hospital Orthopedics Clinic",
       "category": "hospital",
-      "category_detail": "의료,건��� > 병원 > 정형외과",
+      "category_detail": "의료,건강 > 병원 > 정형외과",
       "address": "경북 안동시 앙실로 11",
       "phone": "054-840-0137",
       "map_url": "http://place.map.kakao.com/8414692",
@@ -3699,7 +3543,7 @@
       "name_ko": "월드아시아폰마트",
       "name_en": "Woldeu Asia Phone Market",
       "name_th": "Woldeu Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경북 구미시 구미대로16길 10",
       "phone": "010-5211-0588",
@@ -4116,7 +3960,7 @@
       "name_en": "Yonsei Somang Dental Clinic Clinic",
       "name_th": "Yonsei Somang Dental Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건�� > 병원 > 치과",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "경북 영주시 영주로 227",
       "phone": "054-633-7333",
       "map_url": "http://place.map.kakao.com/10513939",
@@ -4618,19 +4462,6 @@
       "y": "35.9572753706539"
     },
     {
-      "id": "17573930",
-      "name_ko": "영남대학교영천병원 주차장1",
-      "name_en": "Yeungnam University Yeongcheon Hospital Parking 1",
-      "name_th": "Yeungnam University Yeongcheon Hospital Parking 1",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 영천시 오수동 306",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17573930",
-      "x": "128.914169177717",
-      "y": "35.9571186686551"
-    },
-    {
       "id": "25620838",
       "name_ko": "영남대학교영천병원 응급의료센터",
       "name_en": "Yeungnam University Yeongcheon Hospital Emergency Medical Center",
@@ -4642,58 +4473,6 @@
       "map_url": "http://place.map.kakao.com/25620838",
       "x": "128.913675374051",
       "y": "35.9574148928156"
-    },
-    {
-      "id": "18080022",
-      "name_ko": "영남대학교영천병원 주차장2",
-      "name_en": "Yeungnam University Yeongcheon Hospital Parking 2",
-      "name_th": "Yeungnam University Yeongcheon Hospital Parking 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 영천시 오수1길 10",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18080022",
-      "x": "128.913573714793",
-      "y": "35.9577949691133"
-    },
-    {
-      "id": "311009992",
-      "name_ko": "아벨리안 영남대학교병원점",
-      "name_en": "Abellian Yeungnam University Hospital Jeom",
-      "name_th": "Abellian Yeungnam University Hospital Jeom",
-      "category": "hospital",
-      "category_detail": "음식점 > 카페",
-      "address": "경북 영천시 오수1길 10",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/311009992",
-      "x": "128.91327484277076",
-      "y": "35.957350996527815"
-    },
-    {
-      "id": "1190610204",
-      "name_ko": "무인민원발급창구 영남대학교영천병원",
-      "name_en": "Muinminwonbalgeupchanggu Yeungnam University Yeongcheon Hospital",
-      "name_th": "Muinminwonbalgeupchanggu Yeungnam University Yeongcheon Hospital",
-      "category": "hospital",
-      "category_detail": "사회,공공기관 > 지방행정기관 > 무인민원발급창구",
-      "address": "경북 영천시 오수1길 10",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1190610204",
-      "x": "128.913163837716",
-      "y": "35.9573437559509"
-    },
-    {
-      "id": "231857476",
-      "name_ko": "영남대학교 영천병원 전기차충전소",
-      "name_en": "Yeungnam University Yeongcheon Hospital Jeongichachungjeonso",
-      "name_th": "Yeungnam University Yeongcheon Hospital Jeongichachungjeonso",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "경북 영천시 오수1길 10",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/231857476",
-      "x": "128.91277979445402",
-      "y": "35.95709036764011"
     },
     {
       "id": "16434466",
@@ -5064,7 +4843,7 @@
       "name_ko": "기업은행 진량정형외과 ATM",
       "name_en": "IBK Bank Jillyang Orthopedics Clinic ATM",
       "name_th": "IBK Bank Jillyang Orthopedics Clinic ATM",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 금융서비스 > 은행 > ATM",
       "address": "경북 경산시 진량읍 다문로 65",
       "phone": "1345",
@@ -5103,7 +4882,7 @@
       "name_ko": "아시아폰마트",
       "name_en": "Asia Phone Market",
       "name_th": "Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경북 영천시 시장5길 7",
       "phone": "010-7163-3102",
@@ -5155,7 +4934,7 @@
       "name_ko": "아시아폰마트",
       "name_en": "Asia Phone Market",
       "name_th": "Asia Phone Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "경북 경산시 진량읍 공단6로 151-2",
       "phone": "010-4907-0000",
@@ -5398,19 +5177,6 @@
       "y": "35.976899595597985"
     },
     {
-      "id": "26832308",
-      "name_ko": "경북대학교 수의과대학 부속동물병원분원",
-      "name_en": "Gyeongbuk University Su College of Medicine Busokdongmul Hospital Bunwon",
-      "name_th": "Gyeongbuk University Su College of Medicine Busokdongmul Hospital Bunwon",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "경북 상주시 존애원로 68",
-      "phone": "054-530-1960",
-      "map_url": "http://place.map.kakao.com/26832308",
-      "x": "128.13941942204",
-      "y": "36.3729329282183"
-    },
-    {
       "id": "10798633",
       "name_ko": "조경환치과의원",
       "name_en": "Jogyeonghwan Dental Clinic Clinic",
@@ -5643,19 +5409,6 @@
       "map_url": "http://place.map.kakao.com/9611627",
       "x": "128.152186003015",
       "y": "36.4180178439546"
-    },
-    {
-      "id": "1294104076",
-      "name_ko": "현대정형외과의원 전용주차장",
-      "name_en": "Hyundai Orthopedics Clinic Clinic Parking",
-      "name_th": "Hyundai Orthopedics Clinic Clinic Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "경북 상주시 무양동 281-17",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1294104076",
-      "x": "128.152174795375",
-      "y": "36.4178629600823"
     },
     {
       "id": "1414274656",

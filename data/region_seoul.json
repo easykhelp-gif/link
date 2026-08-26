@@ -1,6 +1,6 @@
 {
   "region_id": "seoul",
-  "places_count": 709,
+  "places_count": 681,
   "places": [
     {
       "id": "310790302",
@@ -94,32 +94,6 @@
       "y": "37.5001824781151"
     },
     {
-      "id": "1988752929",
-      "name_ko": "연세대학교 의과대학 강남세브란스병원 1동 입구",
-      "name_en": "Yonsei University College of Medicine Gangnam Severance Hospital 1 Dong Ipgu",
-      "name_th": "Yonsei University College of Medicine Gangnam Severance Hospital 1 Dong Ipgu",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "서울 강남구 언주로 211",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1988752929",
-      "x": "127.04667845157928",
-      "y": "37.492059004650784"
-    },
-    {
-      "id": "706044734",
-      "name_ko": "연세대학교 의과대학 강남세브란스병원 2동 입구",
-      "name_en": "Yonsei University College of Medicine Gangnam Severance Hospital 2 Dong Ipgu",
-      "name_th": "Yonsei University College of Medicine Gangnam Severance Hospital 2 Dong Ipgu",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "서울 강남구 언주로 211",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/706044734",
-      "x": "127.04685183008",
-      "y": "37.4926508977615"
-    },
-    {
       "id": "761443761",
       "name_ko": "연세대학교 의과대학 강남세브란스병원 2동",
       "name_en": "Yonsei University College of Medicine Gangnam Severance Hospital 2 Dong",
@@ -170,19 +144,6 @@
       "map_url": "http://place.map.kakao.com/9252644",
       "x": "127.0465925002827",
       "y": "37.49203921641964"
-    },
-    {
-      "id": "9675681",
-      "name_ko": "건국대학교병원 장례식장",
-      "name_en": "Konkuk University Hospital Funeral Hall",
-      "name_th": "Konkuk University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 광진구 능동로 120-1",
-      "phone": "02-2030-7900",
-      "map_url": "http://place.map.kakao.com/9675681",
-      "x": "127.07197248004147",
-      "y": "37.54120685048105"
     },
     {
       "id": "1682185557",
@@ -683,7 +644,7 @@
       "name_ko": "레몬그라스타이 강남구청점",
       "name_en": "Remongeuraseutai Gangnam District Office Jeom",
       "name_th": "Remongeuraseutai Gangnam District Office Jeom",
-      "category": "government",
+      "category": "restaurant",
       "category_detail": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
       "address": "서울 강남구 학동로 338",
       "phone": "02-511-3029",
@@ -839,7 +800,7 @@
       "name_ko": "더즌익스체인지 신논현역제일그랜드약국",
       "name_en": "Deojeunikseucheinji Sinnonhyeonyeokjeilgeuraendeu Pharmacy",
       "name_th": "Deojeunikseucheinji Sinnonhyeonyeokjeilgeuraendeu Pharmacy",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 외환,환율 > 환전",
       "address": "서울 강남구 강남대로 478",
       "phone": "070-5154-9610",
@@ -982,7 +943,7 @@
       "name_ko": "더즌익스체인지 르치과의원 내부",
       "name_en": "Deojeunikseucheinji Reu Dental Clinic Clinic Naebu",
       "name_th": "Deojeunikseucheinji Reu Dental Clinic Clinic Naebu",
-      "category": "hospital",
+      "category": "finance",
       "category_detail": "금융,보험 > 외환,환율 > 환전",
       "address": "서울 강남구 봉은사로 108",
       "phone": "070-5154-9610",
@@ -1316,19 +1277,6 @@
       "y": "37.55351227765928"
     },
     {
-      "id": "21401763",
-      "name_ko": "강동경희대학교병원 장례식장",
-      "name_en": "Gangdong Kyung Hee University Hospital Funeral Hall",
-      "name_th": "Gangdong Kyung Hee University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 강동구 동남로 892",
-      "phone": "02-440-8800",
-      "map_url": "http://place.map.kakao.com/21401763",
-      "x": "127.157055759415",
-      "y": "37.552503947925004"
-    },
-    {
       "id": "116608380",
       "name_ko": "강동경희대학교한방병원",
       "name_en": "Gangdong Kyung Hee University Korean Medicine Hospital",
@@ -1340,19 +1288,6 @@
       "map_url": "http://place.map.kakao.com/116608380",
       "x": "127.1576193900371",
       "y": "37.55360241337137"
-    },
-    {
-      "id": "2089926941",
-      "name_ko": "강동경희대학교병원 주차장",
-      "name_en": "Gangdong Kyung Hee University Hospital Parking",
-      "name_th": "Gangdong Kyung Hee University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 강동구 동남로 892",
-      "phone": "02-440-8800",
-      "map_url": "http://place.map.kakao.com/2089926941",
-      "x": "127.15736248884457",
-      "y": "37.553062157782"
     },
     {
       "id": "11666061",
@@ -1420,19 +1355,6 @@
       "y": "37.5532332894325"
     },
     {
-      "id": "883269244",
-      "name_ko": "아이파킹 강동경희대학교병원 주차장",
-      "name_en": "Aipaking Gangdong Kyung Hee University Hospital Parking",
-      "name_th": "Aipaking Gangdong Kyung Hee University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 강동구 동남로 892",
-      "phone": "02-440-8800",
-      "map_url": "http://place.map.kakao.com/883269244",
-      "x": "127.1573579526",
-      "y": "37.5530576588419"
-    },
-    {
       "id": "536934623",
       "name_ko": "강동경희대학교병원 건강증진센터",
       "name_en": "Gangdong Kyung Hee University Hospital Geongangjeungjin Center",
@@ -1483,19 +1405,6 @@
       "map_url": "http://place.map.kakao.com/932521286",
       "x": "127.157605798236",
       "y": "37.5535970255323"
-    },
-    {
-      "id": "390697108",
-      "name_ko": "강동경희대학교병원 택시승강장",
-      "name_en": "Gangdong Kyung Hee University Hospital Taeksiseunggangjang",
-      "name_th": "Gangdong Kyung Hee University Hospital Taeksiseunggangjang",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 택시",
-      "address": "서울 강동구 상일동 147",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/390697108",
-      "x": "127.156580621432",
-      "y": "37.5525856687077"
     },
     {
       "id": "8443046",
@@ -2356,32 +2265,6 @@
       "y": "37.5787787078733"
     },
     {
-      "id": "10667300",
-      "name_ko": "노원을지대학교병원 장례식장",
-      "name_en": "Nowon Eulji University Hospital Funeral Hall",
-      "name_th": "Nowon Eulji University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 노원구 공릉로 327",
-      "phone": "02-970-8444",
-      "map_url": "http://place.map.kakao.com/10667300",
-      "x": "127.07056030433472",
-      "y": "37.63591551901222"
-    },
-    {
-      "id": "27020260",
-      "name_ko": "노원을지대학교병원 의학도서실",
-      "name_en": "Nowon Eulji University Hospital Uihakdoseosil",
-      "name_th": "Nowon Eulji University Hospital Uihakdoseosil",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학습시설 > 도서관 > 작은도서관",
-      "address": "서울 노원구 공릉로59나길 52",
-      "phone": "02-970-8445",
-      "map_url": "http://place.map.kakao.com/27020260",
-      "x": "127.0698780309277",
-      "y": "37.63566364921676"
-    },
-    {
       "id": "26371578",
       "name_ko": "노원을지대학교병원 제1별관",
       "name_en": "Nowon Eulji University Hospital Je 1 Annex",
@@ -2408,19 +2291,6 @@
       "y": "37.63659160496174"
     },
     {
-      "id": "17572043",
-      "name_ko": "노원을지대학교병원 연구동",
-      "name_en": "Nowon Eulji University Hospital Yeongudong",
-      "name_th": "Nowon Eulji University Hospital Yeongudong",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 연구소 > 의학,약학연구소",
-      "address": "서울 노원구 공릉로59나길 52",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17572043",
-      "x": "127.069835033703",
-      "y": "37.6357222387118"
-    },
-    {
       "id": "1734006830",
       "name_ko": "을지대학교병원모자보건센터",
       "name_en": "Eulji University Hospital Mojabogeon Center",
@@ -2432,32 +2302,6 @@
       "map_url": "http://place.map.kakao.com/1734006830",
       "x": "127.070031301963",
       "y": "37.6360077346763"
-    },
-    {
-      "id": "15789319",
-      "name_ko": "고려대학교 안암병원 장례식장",
-      "name_en": "Korea University Anam Hospital Funeral Hall",
-      "name_th": "Korea University Anam Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 성북구 안암로 145",
-      "phone": "02-923-4442",
-      "map_url": "http://place.map.kakao.com/15789319",
-      "x": "127.02583787260157",
-      "y": "37.58935716924624"
-    },
-    {
-      "id": "8909682",
-      "name_ko": "대학동물병원",
-      "name_en": "University Dongmul Hospital",
-      "name_th": "University Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "서울 성북구 화랑로 299",
-      "phone": "02-918-3344",
-      "map_url": "http://place.map.kakao.com/8909682",
-      "x": "127.06118716880256",
-      "y": "37.613538435371986"
     },
     {
       "id": "13500178",
@@ -2491,7 +2335,7 @@
       "name_en": "Miraero Dental Clinic Clinic",
       "name_th": "Miraero Dental Clinic Clinic",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병��� > 치과",
+      "category_detail": "의료,건강 > 병원 > 치과",
       "address": "서울 강북구 한천로 1035",
       "phone": "02-999-2228",
       "map_url": "http://place.map.kakao.com/1613993787",
@@ -3205,7 +3049,7 @@
       "name_ko": "알뜰폰마트",
       "name_en": "Budget Mobile Market",
       "name_th": "Budget Mobile Market",
-      "category": "restaurant",
+      "category": "mobile",
       "category_detail": "가정,생활 > 전자제품 > 전자제품판매 > 휴대폰판매",
       "address": "서울 도봉구 방학로 169",
       "phone": "02-998-3010",
@@ -3466,7 +3310,7 @@
       "name_en": "Gangbukjeil Pharmacy",
       "name_th": "Gangbukjeil Pharmacy",
       "category": "hospital",
-      "category_detail": "의료,건강 > ��국",
+      "category_detail": "의료,건강 > 약국",
       "address": "서울 강북구 도봉로37길 7",
       "phone": "02-985-3116",
       "map_url": "http://place.map.kakao.com/13502570",
@@ -3695,32 +3539,6 @@
       "y": "37.5231769362129"
     },
     {
-      "id": "12216118",
-      "name_ko": "한림대학교 한강성심병원 장례식장",
-      "name_en": "Hallim University Hangangseongsim Hospital Funeral Hall",
-      "name_th": "Hallim University Hangangseongsim Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 영등포구 국회대로56길 18",
-      "phone": "02-2633-1444",
-      "map_url": "http://place.map.kakao.com/12216118",
-      "x": "126.90954844402384",
-      "y": "37.52361831784256"
-    },
-    {
-      "id": "16932750",
-      "name_ko": "고려대학교구로병원 장례식장",
-      "name_en": "Korea University Guro Hospital Funeral Hall",
-      "name_th": "Korea University Guro Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 구로구 구로동로 148",
-      "phone": "02-857-0444",
-      "map_url": "http://place.map.kakao.com/16932750",
-      "x": "126.88549638269271",
-      "y": "37.492852475569435"
-    },
-    {
       "id": "10940252",
       "name_ko": "한림대학교 한강성심병원 화상전문병원 응급실",
       "name_en": "Hallim University Hangangseongsim Hospital Hwasangjeonmun Hospital Emergency Room",
@@ -3732,19 +3550,6 @@
       "map_url": "http://place.map.kakao.com/10940252",
       "x": "126.91015618955849",
       "y": "37.52339893717036"
-    },
-    {
-      "id": "968853561",
-      "name_ko": "한림대학교 한강성심병원 성당",
-      "name_en": "Hallim University Hangangseongsim Hospital Seongdang",
-      "name_th": "Hallim University Hangangseongsim Hospital Seongdang",
-      "category": "hospital",
-      "category_detail": "문화,예술 > 종교 > 천주교 > 성당",
-      "address": "서울 영등포구 버드나루로7길 12",
-      "phone": "02-2639-5054",
-      "map_url": "http://place.map.kakao.com/968853561",
-      "x": "126.909726683375",
-      "y": "37.5230931698926"
     },
     {
       "id": "1608848945",
@@ -4622,7 +4427,7 @@
       "name_ko": "청도환전소",
       "name_en": "Cheongdo Money Exchange",
       "name_th": "Cheongdo Money Exchange",
-      "category": "government",
+      "category": "finance",
       "category_detail": "금융,보험 > 외환,환율 > 환전",
       "address": "서울 구로구 구로중앙로27길 28-1",
       "phone": "010-5818-0666",
@@ -5047,19 +4852,6 @@
       "y": "37.51832644177245"
     },
     {
-      "id": "17807930",
-      "name_ko": "서울대학교 관악캠퍼스 수의과대학 동물병원",
-      "name_en": "Seoul University Gwanakkaempeoseu Su College of Medicine Dongmul Hospital",
-      "name_th": "Seoul University Gwanakkaempeoseu Su College of Medicine Dongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "서울 관악구 관악로 1",
-      "phone": "02-880-8661",
-      "map_url": "http://place.map.kakao.com/17807930",
-      "x": "126.95317815988197",
-      "y": "37.4681506717463"
-    },
-    {
       "id": "26518818",
       "name_ko": "서울대학교 관악캠퍼스 관악서울대학교치과병원",
       "name_en": "Seoul University Gwanakkaempeoseu Gwanakseoul University Dental Clinic Hospital",
@@ -5073,32 +4865,6 @@
       "y": "37.46885339497586"
     },
     {
-      "id": "1667646518",
-      "name_ko": "서울대학교 식물병원",
-      "name_en": "Seoul University Singmul Hospital",
-      "name_th": "Seoul University Singmul Hospital",
-      "category": "hospital",
-      "category_detail": "교육,학문 > 학교부속시설",
-      "address": "서울 관악구 관악로 1",
-      "phone": "02-880-4697",
-      "map_url": "http://place.map.kakao.com/1667646518",
-      "x": "126.948251776166",
-      "y": "37.4583537194435"
-    },
-    {
-      "id": "14650826",
-      "name_ko": "중앙대학교병원 장례식장",
-      "name_en": "Chung-Ang University Hospital Funeral Hall",
-      "name_th": "Chung-Ang University Hospital Funeral Hall",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 장례 > 장례식장",
-      "address": "서울 동작구 흑석로 102",
-      "phone": "02-860-3500",
-      "map_url": "http://place.map.kakao.com/14650826",
-      "x": "126.96051698303502",
-      "y": "37.506515569619054"
-    },
-    {
       "id": "24013990",
       "name_ko": "중앙대학교병원 응급의료센터",
       "name_en": "Chung-Ang University Hospital Emergency Medical Center",
@@ -5110,19 +4876,6 @@
       "map_url": "http://place.map.kakao.com/24013990",
       "x": "126.960790444247",
       "y": "37.5069733712658"
-    },
-    {
-      "id": "20583022",
-      "name_ko": "중앙대학교병원 주차장",
-      "name_en": "Chung-Ang University Hospital Parking",
-      "name_th": "Chung-Ang University Hospital Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 동작구 흑석로 102",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/20583022",
-      "x": "126.96030173629556",
-      "y": "37.507191251243654"
     },
     {
       "id": "17578496",
@@ -6295,45 +6048,6 @@
       "y": "37.55949306162162"
     },
     {
-      "id": "24046086",
-      "name_ko": "건국대학교 부속동물병원",
-      "name_en": "Konkuk University Busokdongmul Hospital",
-      "name_th": "Konkuk University Busokdongmul Hospital",
-      "category": "hospital",
-      "category_detail": "가정,생활 > 반려동물 > 동물병원",
-      "address": "서울 광진구 능동로 120",
-      "phone": "02-450-3664",
-      "map_url": "http://place.map.kakao.com/24046086",
-      "x": "127.0747518652519",
-      "y": "37.539317529277"
-    },
-    {
-      "id": "381426557",
-      "name_ko": "건국대학교병원 입구",
-      "name_en": "Konkuk University Hospital Ipgu",
-      "name_th": "Konkuk University Hospital Ipgu",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "서울 광진구 능동로 120-1",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/381426557",
-      "x": "127.072629091964",
-      "y": "37.5403820337445"
-    },
-    {
-      "id": "2072971628",
-      "name_ko": "건국대학교병원 지하주차장",
-      "name_en": "Konkuk University Hospital Jiha Parking",
-      "name_th": "Konkuk University Hospital Jiha Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 광진구 능동로 120-1",
-      "phone": "02-2030-7967",
-      "map_url": "http://place.map.kakao.com/2072971628",
-      "x": "127.072824179638",
-      "y": "37.5408639484493"
-    },
-    {
       "id": "1549375784",
       "name_ko": "광진정플란트치과의원",
       "name_en": "Gwangjinjeongpeullanteu Dental Clinic Clinic",
@@ -7322,19 +7036,6 @@
       "y": "37.49195978755076"
     },
     {
-      "id": "18071512",
-      "name_ko": "고려대학교구로병원 정문",
-      "name_en": "Korea University Guro Hospital Jeongmun",
-      "name_th": "Korea University Guro Hospital Jeongmun",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "서울 구로구 구로동로 148",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18071512",
-      "x": "126.88406206694572",
-      "y": "37.491697787965705"
-    },
-    {
       "id": "10168819",
       "name_ko": "고려대학교구로병원 응급의료센터",
       "name_en": "Korea University Guro Hospital Emergency Medical Center",
@@ -7359,19 +7060,6 @@
       "map_url": "http://place.map.kakao.com/18071496",
       "x": "126.88613540096613",
       "y": "37.49351623412084"
-    },
-    {
-      "id": "17578921",
-      "name_ko": "고려대학교구로병원 1주차장",
-      "name_en": "Korea University Guro Hospital 1 Parking",
-      "name_th": "Korea University Guro Hospital 1 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 구로구 구로동로 148",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/17578921",
-      "x": "126.88586965181305",
-      "y": "37.492780756217655"
     },
     {
       "id": "2128696223",
@@ -7437,19 +7125,6 @@
       "map_url": "http://place.map.kakao.com/1458336043",
       "x": "126.884653614465",
       "y": "37.4930678973456"
-    },
-    {
-      "id": "18071511",
-      "name_ko": "고려대학교구로병원 출입구2",
-      "name_en": "Korea University Guro Hospital Churipgu 2",
-      "name_th": "Korea University Guro Hospital Churipgu 2",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 입출구",
-      "address": "서울 구로구 가마산로 220",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18071511",
-      "x": "126.885436758842",
-      "y": "37.4933912197763"
     },
     {
       "id": "220823157",
@@ -7743,7 +7418,7 @@
       "name_en": "Areumjeil Hospital Annex Cheokchugwanjeol Center",
       "name_th": "Areumjeil Hospital Annex Cheokchugwanjeol Center",
       "category": "hospital",
-      "category_detail": "의료,건강 > 병원 > 정형외��",
+      "category_detail": "의료,건강 > 병원 > 정형외과",
       "address": "서울 구로구 새말로 110",
       "phone": "02-6375-9911",
       "map_url": "http://place.map.kakao.com/1825845170",
@@ -8388,19 +8063,6 @@
       "y": "37.49126403150506"
     },
     {
-      "id": "79121120",
-      "name_ko": "한림대학교 강남성심병원 신관1동 주차장",
-      "name_en": "Hallim University Gangnamseongsim Hospital New Building 1 Dong Parking",
-      "name_th": "Hallim University Gangnamseongsim Hospital New Building 1 Dong Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 영등포구 시흥대로 665",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/79121120",
-      "x": "126.907444445995",
-      "y": "37.4914499201523"
-    },
-    {
       "id": "12398533",
       "name_ko": "한림대학교강남성심병원 안과",
       "name_en": "Hallim University Gangnamseongsim Hospital Eye Clinic",
@@ -8412,19 +8074,6 @@
       "map_url": "http://place.map.kakao.com/12398533",
       "x": "126.90724689510537",
       "y": "37.4911803640916"
-    },
-    {
-      "id": "79284049",
-      "name_ko": "한림대학교 강남성심병원 신관2동 주차장",
-      "name_en": "Hallim University Gangnamseongsim Hospital New Building 2 Dong Parking",
-      "name_th": "Hallim University Gangnamseongsim Hospital New Building 2 Dong Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 영등포구 시흥대로 665-3",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/79284049",
-      "x": "126.907229906936",
-      "y": "37.4912019749177"
     },
     {
       "id": "8072432",
@@ -8464,19 +8113,6 @@
       "map_url": "http://place.map.kakao.com/10052238",
       "x": "126.90748065494947",
       "y": "37.49143012636425"
-    },
-    {
-      "id": "18071518",
-      "name_ko": "고려대학교구로병원 2주차장",
-      "name_en": "Korea University Guro Hospital 2 Parking",
-      "name_th": "Korea University Guro Hospital 2 Parking",
-      "category": "hospital",
-      "category_detail": "교통,수송 > 교통시설 > 주차장",
-      "address": "서울 구로구 구로동로 148",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/18071518",
-      "x": "126.88501210605668",
-      "y": "37.491572575493045"
     },
     {
       "id": "442745833",
@@ -8990,7 +8626,7 @@
       "name_ko": "청도",
       "name_en": "Cheongdo",
       "name_th": "Cheongdo",
-      "category": "government",
+      "category": "finance",
       "category_detail": "금융,보험 > 외환,환율 > 환전",
       "address": "서울 금천구 시흥대로148길 37-10",
       "phone": "1345",
