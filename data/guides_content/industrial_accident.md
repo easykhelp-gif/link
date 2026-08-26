@@ -106,7 +106,9 @@ Witness names are especially valuable. Ask now, before people change jobs.
 
 ## Where to get help
 
-**1350** — Ministry of Employment and Labor counseling line. Free. Interpretation available.
+**1577-0071** — Foreign Workforce Counselling Centre, run by HRD Korea. 18 languages including Vietnamese, Thai, Khmer and Nepali. Open every day, 09:00 to 18:00. The consultation itself costs nothing; you pay only your normal call charge.
+
+**1350** — Ministry of Employment and Labor counselling line. English and Chinese only. Weekdays, 09:00 to 18:00.
 
 **Korea Workers' Compensation and Welfare Service (근로복지공단)** — where claims are filed.
 
@@ -206,7 +208,9 @@ This guide explains Korean law in general terms. It is not legal advice for your
 
 ## ขอความช่วยเหลือได้ที่ไหน
 
-**1350** — สายให้คำปรึกษาของกระทรวงแรงงาน ฟรี มีล่าม
+**1577-0071** — ศูนย์ให้คำปรึกษาแรงงานต่างชาติ (한국산업인력공단) รองรับ 18 ภาษา รวมภาษาไทย เปิดทุกวัน 09:00 ถึง 18:00 น. การปรึกษาไม่มีค่าใช้จ่าย เสียเฉพาะค่าโทรตามแพ็กเกจของคุณ
+
+**1350** — สายให้คำปรึกษาของกระทรวงแรงงาน มีเฉพาะภาษาอังกฤษและภาษาจีน จันทร์ถึงศุกร์ 09:00 ถึง 18:00 น.
 
 **สำนักงานประกันค่าตอบแทนแรงงาน (근로복지공단)** — สถานที่ยื่นเรื่อง
 
@@ -306,7 +310,9 @@ Tên người làm chứng đặc biệt có giá trị. Hãy hỏi ngay bây gi
 
 ## Nơi có thể nhận trợ giúp
 
-**1350** — Đường dây tư vấn của Bộ Lao động. Miễn phí. Có phiên dịch.
+**1577-0071** — Trung tâm tư vấn lao động nước ngoài (한국산업인력공단). Hỗ trợ 18 ngôn ngữ, có tiếng Việt. Mở tất cả các ngày, 09:00 đến 18:00. Tư vấn không mất phí, bạn chỉ trả cước điện thoại theo gói cước của mình.
+
+**1350** — Đường dây tư vấn của Bộ Lao động. Chỉ có tiếng Anh và tiếng Trung. Thứ Hai đến thứ Sáu, 09:00 đến 18:00.
 
 **Cơ quan Bồi thường và Phúc lợi Lao động (근로복지공단)** — nơi nộp đơn.
 

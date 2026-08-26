@@ -90,7 +90,8 @@ So calculate your legal figure first, then compare it with what Samsung Fire tel
 
 **Start with the free routes.**
 
-- **1350** — the [Ministry of Employment and Labor](https://www.moel.go.kr/english/)'s counselling line.
+- **1577-0071** — Foreign Workforce Counselling Centre. 18 languages including Vietnamese and Thai, open every day 09:00 to 18:00.
+- **1350** — the [Ministry of Employment and Labor](https://www.moel.go.kr/english/)'s counselling line. English and Chinese only, weekdays.
 - **Your local labor office** — file a report (진정) at no cost.
 - **Korea Legal Aid Corporation** — free legal representation if you earned under about ₩4,000,000 a month.
 
@@ -176,7 +177,8 @@ Not sure which route fits your case? Message Kori Care in your own language. We 
 
 **เริ่มจากช่องทางฟรีก่อน**
 
-- **1350** สายให้คำปรึกษาของ[กระทรวงแรงงาน](https://www.moel.go.kr/english/) (고용노동부)
+- **1577-0071** ศูนย์ให้คำปรึกษาแรงงานต่างชาติ รองรับภาษาไทย เปิดทุกวัน 09:00 ถึง 18:00 น.
+- **1350** สายให้คำปรึกษาของ[กระทรวงแรงงาน](https://www.moel.go.kr/english/) (고용노동부) มีเฉพาะภาษาอังกฤษและภาษาจีน
 - **สำนักงานแรงงานในพื้นที่** ยื่นเรื่องร้องเรียน (진정) ได้โดยไม่มีค่าใช้จ่าย
 - **องค์กรช่วยเหลือทางกฎหมาย (대한법률구조공단)** ว่าความให้ฟรี หากรายได้ต่ำกว่าประมาณ 4,000,000 วอนต่อเดือน
 
@@ -262,7 +264,8 @@ Vì vậy hãy tính con số theo luật trước, rồi so với số tiền S
 
 **Hãy bắt đầu từ các kênh miễn phí.**
 
-- **1350** — đường dây tư vấn của [Bộ Lao động](https://www.moel.go.kr/english/) (고용노동부).
+- **1577-0071** — Trung tâm tư vấn lao động nước ngoài, có tiếng Việt, mở tất cả các ngày 09:00 đến 18:00.
+- **1350** — đường dây tư vấn của [Bộ Lao động](https://www.moel.go.kr/english/) (고용노동부). Chỉ có tiếng Anh và tiếng Trung.
 - **Văn phòng lao động địa phương** — nộp đơn khiếu nại (진정), không mất phí.
 - **Trung tâm Trợ giúp Pháp lý (대한법률구조공단)** — đại diện pháp lý miễn phí nếu thu nhập dưới khoảng 4.000.000 won/tháng.
 
