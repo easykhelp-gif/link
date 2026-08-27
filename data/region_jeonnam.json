@@ -1,6 +1,6 @@
 {
   "region_id": "jeonnam",
-  "places_count": 387,
+  "places_count": 384,
   "places": [
     {
       "id": "1415371617",
@@ -900,19 +900,6 @@
       "y": "34.780705973123"
     },
     {
-      "id": "79902855",
-      "name_ko": "여수출입국 외국인사무소 전기차충전소",
-      "name_en": "Yeosuchuripguk Oegugin Office Jeongichachungjeonso",
-      "name_th": "Yeosuchuripguk Oegugin Office Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 여수시 무선로 265",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/79902855",
-      "x": "127.645182780981",
-      "y": "34.7806997620446"
-    },
-    {
       "id": "9000819",
       "name_ko": "여수모아치과병원",
       "name_en": "Yeosumoa Dental Clinic Hospital",
@@ -1567,7 +1554,7 @@
       "name_ko": "출입국외국인행정사사무소",
       "name_en": "Churipgugoegugin Administrative Attorney Office",
       "name_th": "Churipgugoegugin Administrative Attorney Office",
-      "category": "government",
+      "category": "support",
       "category_detail": "서비스,산업 > 법률,행정 > 행정사",
       "address": "전남광주통합특별시 순천시 왕지로 6",
       "phone": "061-721-0048",
@@ -3511,32 +3498,6 @@
       "map_url": "http://place.map.kakao.com/1350489464",
       "x": "126.86209566574448",
       "y": "35.15339288883355"
-    },
-    {
-      "id": "1772266467",
-      "name_ko": "광주출입국외국인사무소 공영주차장",
-      "name_en": "Gwangju Immigration Office Gongyeong Parking",
-      "name_th": "Gwangju Immigration Office Gongyeong Parking",
-      "category": "government",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
-      "address": "전남광주통합특별시 서구 상무대로911번길 22",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1772266467",
-      "x": "126.862138864334",
-      "y": "35.1531576830962"
-    },
-    {
-      "id": "1665934832",
-      "name_ko": "광주출입국 외국인사무소 전기차충전소",
-      "name_en": "Gwangjuchuripguk Oegugin Office Jeongichachungjeonso",
-      "name_th": "Gwangjuchuripguk Oegugin Office Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 서구 상무대로911번길 22",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1665934832",
-      "x": "126.8619154615986",
-      "y": "35.15287169760462"
     },
     {
       "id": "11962962",

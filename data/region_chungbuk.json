@@ -1,6 +1,6 @@
 {
   "region_id": "chungbuk",
-  "places_count": 365,
+  "places_count": 364,
   "places": [
     {
       "id": "332634119",
@@ -742,19 +742,6 @@
       "map_url": "http://place.map.kakao.com/1504777205",
       "x": "127.427505940437",
       "y": "36.6352768307408"
-    },
-    {
-      "id": "360658646",
-      "name_ko": "청주오창시장급속(ENH) 전기차충전소",
-      "name_en": "Cheongjuochang Market Geupsok (ENH) Jeongichachungjeonso",
-      "name_th": "Cheongjuochang Market Geupsok (ENH) Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "충북 청주시 청원구 오창읍 팔결로 712",
-      "phone": "043-260-1123",
-      "map_url": "http://place.map.kakao.com/360658646",
-      "x": "127.45642028244802",
-      "y": "36.74088013440682"
     },
     {
       "id": "468453199",

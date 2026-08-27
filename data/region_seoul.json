@@ -1,6 +1,6 @@
 {
   "region_id": "seoul",
-  "places_count": 681,
+  "places_count": 679,
   "places": [
     {
       "id": "310790302",
@@ -3459,32 +3459,6 @@
       "map_url": "http://place.map.kakao.com/16589541",
       "x": "126.879784543063",
       "y": "37.5035777815216"
-    },
-    {
-      "id": "700169392",
-      "name_ko": "서울남부출입국외국인 사무소 전기차충전소",
-      "name_en": "Seoulnambuchuripgugoegugin Office Jeongichachungjeonso",
-      "name_th": "Seoulnambuchuripgugoegugin Office Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "서울 강서구 마곡서1로 48",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/700169392",
-      "x": "126.821325385632",
-      "y": "37.5611290843395"
-    },
-    {
-      "id": "1606236721",
-      "name_ko": "서울남부출입국 외국인사무소 전기차충전소",
-      "name_en": "Seoulnambuchuripguk Oegugin Office Jeongichachungjeonso",
-      "name_th": "Seoulnambuchuripguk Oegugin Office Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "서울 강서구 마곡서1로 48",
-      "phone": "1899-2100",
-      "map_url": "http://place.map.kakao.com/1606236721",
-      "x": "126.82137264003102",
-      "y": "37.56124718626998"
     },
     {
       "id": "27272811",

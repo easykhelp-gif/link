@@ -1,6 +1,6 @@
 {
   "region_id": "gwangju",
-  "places_count": 153,
+  "places_count": 151,
   "places": [
     {
       "id": "2052051910",
@@ -40,32 +40,6 @@
       "map_url": "http://place.map.kakao.com/1350489464",
       "x": "126.86209566574448",
       "y": "35.15339288883355"
-    },
-    {
-      "id": "1772266467",
-      "name_ko": "광주출입국외국인사무소 공영주차장",
-      "name_en": "Gwangju Immigration Office Gongyeong Parking",
-      "name_th": "Gwangju Immigration Office Gongyeong Parking",
-      "category": "government",
-      "category_detail": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
-      "address": "전남광주통합특별시 서구 상무대로911번길 22",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1772266467",
-      "x": "126.862138864334",
-      "y": "35.1531576830962"
-    },
-    {
-      "id": "1665934832",
-      "name_ko": "광주출입국 외국인사무소 전기차충전소",
-      "name_en": "Gwangjuchuripguk Oegugin Office Jeongichachungjeonso",
-      "name_th": "Gwangjuchuripguk Oegugin Office Jeongichachungjeonso",
-      "category": "government",
-      "category_detail": "교통,수송 > 자동차 > 전기차 충전소",
-      "address": "전남광주통합특별시 서구 상무대로911번길 22",
-      "phone": "1345",
-      "map_url": "http://place.map.kakao.com/1665934832",
-      "x": "126.8619154615986",
-      "y": "35.15287169760462"
     },
     {
       "id": "11962962",
