@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_28895916",
+    "date": "2026-08-29",
+    "ts": 1788041141000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000351315_03_i_P2.jpg",
+    "title": "(LEAD) N. Korea replaces defense minister with Kim Song-gi in military reshuffle: KCNA",
+    "link": "https://en.yna.co.kr/view/AEN20260830000351315"
+  },
+  {
+    "id": "hotnews_en_76c512a8",
+    "date": "2026-08-29",
+    "ts": 1788038751000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000300315_02_i_P2.jpg",
+    "title": "N. Korea replaces defense minister with Kim Song-gi in military reshuffle: state media",
+    "link": "https://en.yna.co.kr/view/AEN20260830000300315"
+  },
+  {
+    "id": "hotnews_en_3f7a546f",
+    "date": "2026-08-29",
+    "ts": 1788038287000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) N. Korea replaces defense minister with Kim Song-gi in military reshuffle: state media",
+    "link": "https://en.yna.co.kr/view/AEN20260830000200315"
+  },
+  {
     "id": "hotnews_en_40fddb38",
     "date": "2026-08-29",
     "ts": 1788009531000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082802350001300_P2.jpg",
     "title": "Seoul stocks snap 3-day rise on tech slump",
     "link": "https://en.yna.co.kr/view/AEN20260828006600320"
-  },
-  {
-    "id": "hotnews_en_9702256f",
-    "date": "2026-08-28",
-    "ts": 1787898886000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828004351315_01_i_P2.jpg",
-    "title": "(LEAD) Jeju police officer partially admits to alleged mishandling of missing person case",
-    "link": "https://en.yna.co.kr/view/AEN20260828004351315"
-  },
-  {
-    "id": "hotnews_en_789ae66f",
-    "date": "2026-08-28",
-    "ts": 1787898833000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/03/30/49/PCM20230330000049990_P2.jpg",
-    "title": "(URGENT) Seoul stocks snap 3-day winning streak on tech slump",
-    "link": "https://en.yna.co.kr/view/AEN20260828006300320"
-  },
-  {
-    "id": "hotnews_en_d7ce2fa4",
-    "date": "2026-08-28",
-    "ts": 1787898337000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828005951315_01_i_P2.jpg",
-    "title": "(LEAD) Cheong Wa Dae says asked chief justice to make new recommendation for Supreme Court justice",
-    "link": "https://en.yna.co.kr/view/AEN20260828005951315"
   }
 ]
