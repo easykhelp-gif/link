@@ -30,18 +30,24 @@ Under the Korean Labor Standard Act, any worker who has worked continuously for 
 
 For EPS (E-9) workers, the severance pay accumulated in Samsung Fire Insurance cannot be claimed in cash while you are still staying in Korea. It is specifically designed to be given to you **upon your departure from South Korea**.
 
-You have two official methods to receive the money when leaving:
-1. **Airport Pickup**: Receive cash at the Departure Gate (after passing immigration).
-2. **Overseas Remittance**: The money is sent directly to your home country bank account within 14 days after your departure is confirmed.
+You have four official methods to receive the money when leaving:
+1. **Remittance-only Korean account** (Kookmin, Shinhan, KEB Hana, Woori). You must visit the bank in person to register it as your foreign-exchange bank.
+2. **Ordinary Korean account**. Some banks ask for extra documents.
+3. **Your home-country account**. Must be an account in your own country, and the SWIFT code is required.
+4. **Cash at the airport**. Incheon: KEB Hana, Woori, Kookmin. Gimhae: Busan Bank.
+
+If you choose a bank account, the money is sent after the Ministry of Justice confirms you have actually left Korea.
 
 ### Which payout method should I choose?
 
-**Overseas remittance is the safer choice.** The money reaches your home bank account within 14 days of your departure, and you are not carrying a large amount of cash through an airport. Airport pickup gives you the money before boarding, but you take on the risk of carrying it. Both need your passport, ARC and flight ticket; remittance also needs your home bank details.
+**A bank account is the safer choice.** You are not carrying a large amount of cash through an airport, and the transfer is made once your departure is confirmed. Airport pickup gives you the money before boarding, but you take on the risk of carrying it — and it has a hard time limit.
+
+⚠️ **At Incheon, the exchange counters only handle this between 07:30 and 01:59, and you must arrive 4 hours before your flight.** If you are on an early-morning flight, choose a bank account instead.
 
 ### Steps to Apply
 
-1. Submit your **Application for Payment of Departure Guarantee Insurance** to Samsung Fire & Marine Insurance at least **1 month before your departure date**.
-2. You can apply via Fax, the Samsung Fire mobile app, or by visiting a local EPS center.
+1. **One month before departure** — report your planned departure to the Employment Center.
+2. **At least 7 days before departure** — apply to Samsung Fire & Marine Insurance for payment. Fax: 0505-161-1421 (from overseas 82-505-161-1421).
 3. If the insurance total is less than your legal severance pay, your employer must pay the difference — see **How Much Am I Owed?** below.
 
 Always calculate your estimated severance pay using the [Kori Care Severance Calculator](/link/severance-calculator) to ensure your employer pays you the exact legal amount.
@@ -119,18 +125,24 @@ Not sure which route fits your case? Message Kori Care in your own language. We 
 
 สำหรับแรงงาน EPS (E-9) เงินชดเชยที่สะสมอยู่ในประกัน Samsung ไม่สามารถเบิกเป็นเงินสดในขณะที่คุณยังอยู่ในเกาหลีได้ ระบบถูกออกแบบมาให้มอบเงินให้คุณ **เมื่อเดินทางออกจากเกาหลีใต้เท่านั้น**
 
-คุณมี 2 วิธีในการรับเงินเมื่อเดินทางกลับ:
-1. **รับที่สนามบิน**: รับเงินสดที่ประตูขึ้นเครื่อง (หลังจากผ่านด่านตรวจคนเข้าเมือง)
-2. **โอนเงินต่างประเทศ**: เงินจะถูกโอนเข้าบัญชีธนาคารในประเทศบ้านเกิดของคุณภายใน 14 วันหลังจากยืนยันการเดินทางออก
+คุณมี 4 วิธีในการรับเงินเมื่อเดินทางกลับ:
+1. **บัญชีเกาหลีเฉพาะการโอน** (Kookmin, Shinhan, KEB Hana, Woori) ต้องไปที่ธนาคารด้วยตนเองเพื่อลงทะเบียนธนาคารแลกเปลี่ยนเงินตราต่างประเทศ
+2. **บัญชีเกาหลีทั่วไป** บางธนาคารอาจขอเอกสารเพิ่ม
+3. **บัญชีในประเทศของคุณ** ต้องเป็นบัญชีของประเทศที่คุณถือสัญชาติ และต้องระบุ SWIFT CODE
+4. **รับเงินสดที่สนามบิน** อินชอน: KEB Hana, Woori, Kookmin / กิมแฮ: Busan Bank
+
+หากเลือกรับเข้าบัญชี เงินจะโอนหลังจากกระทรวงยุติธรรมยืนยันว่าคุณเดินทางออกจากเกาหลีแล้ว
 
 ### ควรเลือกรับเงินแบบไหน?
 
-**การโอนเงินไปต่างประเทศปลอดภัยกว่า** เงินเข้าบัญชีในประเทศของคุณภายใน 14 วันหลังเดินทางออก และไม่ต้องถือเงินสดจำนวนมากผ่านสนามบิน ส่วนการรับที่สนามบินได้เงินก่อนขึ้นเครื่อง แต่คุณรับความเสี่ยงเอง ทั้งสองวิธีใช้หนังสือเดินทาง บัตร ARC และตั๋วเครื่องบิน การโอนต้องมีข้อมูลบัญชีธนาคารเพิ่ม
+**การรับเข้าบัญชีปลอดภัยกว่า** คุณไม่ต้องถือเงินสดจำนวนมากผ่านสนามบิน และเงินจะโอนเมื่อยืนยันการเดินทางออกแล้ว ส่วนการรับที่สนามบินได้เงินก่อนขึ้นเครื่อง แต่คุณรับความเสี่ยงเอง และมีข้อจำกัดเรื่องเวลา
+
+⚠️ **ที่สนามบินอินชอน จุดแลกเงินให้บริการเฉพาะเที่ยวบินออกเวลา 07:30 – 01:59 เท่านั้น และต้องถึงสนามบินก่อนเครื่องออก 4 ชั่วโมง** หากเป็นเที่ยวบินเช้ามืด ให้เลือกรับเข้าบัญชีแทน
 
 ### ขั้นตอนการสมัคร
 
-1. ส่ง **คำร้องขอรับเงินประกันการเดินทางกลับ** ไปยัง Samsung Fire & Marine Insurance ล่วงหน้าอย่างน้อย **1 เดือนก่อนวันเดินทาง**
-2. สมัครผ่านแฟกซ์, แอปพลิเคชัน Samsung Fire, หรือไปที่ศูนย์ EPS ใกล้บ้าน
+1. **1 เดือนก่อนเดินทาง** — แจ้งกำหนดการเดินทางออกที่ศูนย์จัดหางาน (고용센터)
+2. **อย่างน้อย 7 วันก่อนเดินทาง** — ยื่นคำร้องขอรับเงินที่ Samsung Fire & Marine Insurance แฟกซ์ 0505-161-1421 (จากต่างประเทศ 82-505-161-1421)
 3. หากยอดเงินที่สะสมในประกัน Samsung **น้อยกว่าเงินชดเชยตามกฎหมายของคุณ** นายจ้างจะต้องจ่ายส่วนต่างเข้าบัญชีเกาหลีของคุณก่อนเดินทางกลับ
 
 แนะนำให้คำนวณเงินชดเชยล่วงหน้าโดยใช้ [เครื่องคำนวณเงินชดเชย Kori Care](/link/th/severance-calculator) เพื่อให้แน่ใจว่านายจ้างจ่ายเงินครบถ้วนตามกฎหมาย
@@ -206,18 +218,24 @@ Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao độ
 
 Đối với lao động EPS (E-9), tiền thôi việc tích lũy trong Bảo hiểm Samsung không thể nhận bằng tiền mặt khi bạn vẫn đang ở Hàn Quốc. Khoản tiền này được thiết kế để trao cho bạn **khi bạn xuất cảnh khỏi Hàn Quốc**.
 
-Bạn có 2 phương pháp chính thức để nhận tiền khi về nước:
-1. **Nhận tại Sân bay**: Nhận tiền mặt tại Cửa khởi hành (sau khi qua hải quan).
-2. **Chuyển khoản Nước ngoài**: Tiền được chuyển trực tiếp vào tài khoản ngân hàng tại quê hương bạn trong vòng 14 ngày sau khi xác nhận xuất cảnh.
+Bạn có 4 phương pháp chính thức để nhận tiền khi về nước:
+1. **Tài khoản Hàn Quốc chuyên dùng để chuyển tiền** (Kookmin, Shinhan, KEB Hana, Woori). Bạn phải đến ngân hàng để đăng ký ngân hàng ngoại hối.
+2. **Tài khoản Hàn Quốc thông thường**. Một số ngân hàng yêu cầu thêm giấy tờ.
+3. **Tài khoản tại nước bạn**. Phải là tài khoản thuộc quốc gia bạn mang quốc tịch, và bắt buộc ghi mã SWIFT.
+4. **Nhận tiền mặt tại sân bay**. Incheon: KEB Hana, Woori, Kookmin / Gimhae: Busan Bank.
+
+Nếu chọn nhận qua tài khoản, tiền sẽ được chuyển sau khi Bộ Tư pháp xác nhận bạn đã rời Hàn Quốc.
 
 ### Nên chọn cách nhận tiền nào?
 
-**Chuyển khoản quốc tế an toàn hơn.** Tiền về tài khoản ở nước bạn trong vòng 14 ngày sau khi xuất cảnh, và bạn không phải mang tiền mặt lớn qua sân bay. Nhận tại sân bay có tiền ngay trước khi lên máy bay nhưng bạn tự chịu rủi ro. Cả hai cần hộ chiếu, thẻ ARC và vé máy bay; chuyển khoản cần thêm thông tin ngân hàng.
+**Nhận qua tài khoản an toàn hơn.** Bạn không phải mang tiền mặt lớn qua sân bay, và tiền được chuyển sau khi xác nhận xuất cảnh. Nhận tại sân bay có tiền ngay trước khi lên máy bay nhưng bạn tự chịu rủi ro, và có giới hạn thời gian.
+
+⚠️ **Tại sân bay Incheon, quầy đổi tiền chỉ xử lý cho chuyến bay khởi hành từ 07:30 đến 01:59, và bạn phải có mặt trước giờ bay 4 tiếng.** Nếu là chuyến bay sáng sớm, hãy chọn nhận qua tài khoản.
 
 ### Các bước Đăng ký
 
-1. Nộp **Đơn xin nhận Bảo hiểm Bảo lãnh Xuất cảnh** cho Bảo hiểm Samsung Fire & Marine ít nhất **1 tháng trước ngày xuất cảnh**.
-2. Bạn có thể nộp qua Fax, ứng dụng di động Samsung Fire, hoặc đến trung tâm EPS địa phương.
+1. **1 tháng trước khi xuất cảnh** — khai báo kế hoạch xuất cảnh tại Trung tâm Việc làm (고용센터).
+2. **Ít nhất 7 ngày trước khi xuất cảnh** — nộp đơn xin nhận tiền cho Bảo hiểm Samsung Fire & Marine. Fax: 0505-161-1421 (từ nước ngoài 82-505-161-1421).
 3. Nếu số tiền tích lũy trong Bảo hiểm Samsung **ít hơn tiền thôi việc hợp pháp của bạn**, chủ lao động phải trả khoản chênh lệch còn lại trực tiếp vào tài khoản ngân hàng Hàn Quốc của bạn trước khi bạn về nước.
 
 Hãy luôn tính toán trước khoản tiền thôi việc dự kiến bằng [Công cụ tính Tiền thôi việc Kori Care](/link/vi/severance-calculator) để đảm bảo chủ lao động trả đúng số tiền hợp pháp.
