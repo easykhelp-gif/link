@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_40fddb38",
+    "date": "2026-08-29",
+    "ts": 1788009531000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082903810005300_P2.jpg",
+    "title": "(LEAD) Centenarian athlete grabs 2 golds at Daegu WMAC",
+    "link": "https://en.yna.co.kr/view/AEN20260829002251315"
+  },
+  {
+    "id": "hotnews_en_2df13fe2",
+    "date": "2026-08-29",
+    "ts": 1788008115000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/08/29/PRU20260829182501009_P2.jpg",
+    "title": "(4th LD) S. Korean response team heads to flood site in Nepal in search of 9 missing",
+    "link": "https://en.yna.co.kr/view/AEN20260829000954315"
+  },
+  {
+    "id": "hotnews_en_1cbd1e30",
+    "date": "2026-08-29",
+    "ts": 1788003509000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082903810005300_P2.jpg",
+    "title": "Centenarian athlete grabs 2 golds at Daegu WMAC",
+    "link": "https://en.yna.co.kr/view/AEN20260829002200315"
+  },
+  {
     "id": "hotnews_en_90f7dadb",
     "date": "2026-08-29",
     "ts": 1787996933000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828005951315_01_i_P2.jpg",
     "title": "(LEAD) Cheong Wa Dae says asked chief justice to make new recommendation for Supreme Court justice",
     "link": "https://en.yna.co.kr/view/AEN20260828005951315"
-  },
-  {
-    "id": "hotnews_en_f3d227fe",
-    "date": "2026-08-28",
-    "ts": 1787896287000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828006400315_02_i_P2.jpg",
-    "title": "65 pct of S. Koreans support nuclear armament: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260828006400315"
-  },
-  {
-    "id": "hotnews_en_27b76740",
-    "date": "2026-08-28",
-    "ts": 1787895753000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828005651315_02_i_P2.jpg",
-    "title": "(LEAD) 3 killed, 2 injured in paint ingredient factory fire in Cheonan",
-    "link": "https://en.yna.co.kr/view/AEN20260828005651315"
-  },
-  {
-    "id": "hotnews_en_f2eacb60",
-    "date": "2026-08-28",
-    "ts": 1787895589000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828006100320_01_i_P2.jpg",
-    "title": "Global foundry market grows 29 pct in Q2 on strong AI chip demand: report",
-    "link": "https://en.yna.co.kr/view/AEN20260828006100320"
   }
 ]
