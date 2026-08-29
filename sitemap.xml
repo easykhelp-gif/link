@@ -26,6 +26,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.koricare.kr/link/en/guides/korea/departure_insurance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/korea/departure_insurance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/korea/departure_insurance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

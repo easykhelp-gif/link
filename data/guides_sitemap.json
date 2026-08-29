@@ -1,5 +1,20 @@
 [
   {
+    "loc": "https://www.koricare.kr/link/en/guides/korea/departure_insurance/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/korea/departure_insurance/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/korea/departure_insurance/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/",
     "changefreq": "monthly",
     "priority": 0.7
