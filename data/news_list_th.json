@@ -1,5 +1,149 @@
 [
   {
+    "id": "hotnews_th_fb1cc9ba",
+    "date": "2026-08-29",
+    "ts": 1787962776000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/oonnuchfire298699998.jpg",
+    "title": "ไฟไหม้ตึก3ชั้น เร่งระงับเหตุ สลดพบร่างหญิงวัย77 เสียชีวิต เผยต้นเพลิงรถจยย.ไฟฟ้า",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10378557"
+  },
+  {
+    "id": "hotnews_th_2b8c6eb1",
+    "date": "2026-08-29",
+    "ts": 1787962533000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKexRpWS0hmmjG1.jpg",
+    "title": "อุตุฯ ฉบับ 6 เช็กพื้นที่ฝนตกหนัก จนถึง 2 ก.ย. เตือนระวังน้ำท่วมฉับพลัน",
+    "link": "https://www.thairath.co.th/news/local/south/2956014"
+  },
+  {
+    "id": "hotnews_th_e5aa5b21",
+    "date": "2026-08-28",
+    "ts": 1787961021000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/16-9-Red-39.jpg",
+    "title": "เต้ย ชวนเพื่อนซี้ ไผ่ เช็กอินพังงา ชมวิวพาโนรามาเสม็ดนางชี",
+    "link": "https://www.khaosod.co.th/newspaper-column/tv-guide/news_10377843"
+  },
+  {
+    "id": "hotnews_th_e6290ef5",
+    "date": "2026-08-28",
+    "ts": 1787958476000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKexRqTp0pxdCcJ.jpg",
+    "title": "กรุงโรม ของอิตาลี เผชิญคลื่นความร้อนระลอกที่ 5 อุณหภูมิแตะ 39 องศาฯ ทางการเตือนภัยระดับสูงสุด",
+    "link": "https://www.thairath.co.th/news/foreign/2956013"
+  },
+  {
+    "id": "hotnews_th_cb78b8f1",
+    "date": "2026-08-28",
+    "ts": 1787954643000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKexRxvKIsJFpED.jpg",
+    "title": "สหรัฐฯ-อิสราเอล ถล่มอิหร่านครบ 6 เดือน สงครามยังไร้ทางออก ช่องแคบฮอร์มุซปิดตาย",
+    "link": "https://www.thairath.co.th/news/foreign/2956012"
+  },
+  {
+    "id": "hotnews_th_f93ac660",
+    "date": "2026-08-28",
+    "ts": 1787953924000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-28T200951Z_1522342593_UP1EM8S1J2FU4_RTRMADP_3_SOCCER-GERMANY-FCB-VFB.jpg",
+    "title": "ผลฟุตบอล 28 ส.ค. 2569 บาเยิร์นถล่มสตุตการ์ตนัดเปิดฤดูกาลใหม่บุนเดสลีกา",
+    "link": "https://www.khaosod.co.th/sports/news_10378554"
+  },
+  {
+    "id": "hotnews_th_86d238ea",
+    "date": "2026-08-28",
+    "ts": 1787951030000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-28T194429Z_887496795_UP1EM8S1IU4TO_RTRMADP_3_SOCCER-ENGLAND-CRY-MCI.jpg",
+    "title": "แมนฯ ซิตี้โชว์ฟอร์มดุบุกถล่มพาเลซ ชนะรวด 2 นัด ขึ้นนำจ่าฝูง พรีเมียร์ลีก",
+    "link": "https://www.khaosod.co.th/sports/news_10378551"
+  },
+  {
+    "id": "hotnews_th_0be3ccc2",
+    "date": "2026-08-28",
+    "ts": 1787943763000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew9NIOgYr6H1y.jpg",
+    "title": "ควบคุมได้หมดแล้ว \"ไฟไหม้คลองถมเซ็นเตอร์\" หลังไฟเกิดประทุอีกรอบในอาคารข้างเคียง",
+    "link": "https://www.thairath.co.th/news/local/bangkok/2956009"
+  },
+  {
+    "id": "hotnews_th_b27a8f6c",
+    "date": "2026-08-28",
+    "ts": 1787940785000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/vdsvifjv1.jpg",
+    "title": "สาวลาว ลูบกิ่งมะเดื่อคำชะโนดหาโชค เจอเลขเด็ด 3 ตัวโผล่เต็มตา",
+    "link": "https://www.khaosod.co.th/lottery/news_10378546"
+  },
+  {
+    "id": "hotnews_th_8301f7c0",
+    "date": "2026-08-28",
+    "ts": 1787939724000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKexR843MDxRPNL.jpg",
+    "title": "\"ไฟไหม้คลองถมเซ็นเตอร์\" ประทุขึ้นอีกรอบ คาดเกิดความร้อนสะสม เร่งระดมฉีดน้ำดับ",
+    "link": "https://www.thairath.co.th/news/local/bangkok/2956010"
+  },
+  {
+    "id": "hotnews_th_3aebe1d8",
+    "date": "2026-08-28",
+    "ts": 1787939095000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/nene1.jpg",
+    "title": "สุดอบอุ่น ผู้ว่าฯภูเก็ตและมวลชน แห่รอต้อนรับ น้องเนเน่ กลับบ้านแน่สนามบิน",
+    "link": "https://www.khaosod.co.th/special-stories/news_10378531"
+  },
+  {
+    "id": "hotnews_th_f641a209",
+    "date": "2026-08-28",
+    "ts": 1787937939000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/yk9b1.jpg",
+    "title": "ผู้ว่าฯ ชัชชาติ ลงื้นที่เพลิงไหม้ “คลองถมเซ็นเตอร์” เผยไร้ผู้ติดค้าง เสี่ยงยุบตัว",
+    "link": "https://www.khaosod.co.th/breaking-news/news_10378524"
+  },
+  {
+    "id": "hotnews_th_d585588b",
+    "date": "2026-08-28",
+    "ts": 1787937702000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew8V8cTptJR4R.jpg",
+    "title": "สนง.เขตป้อมปราบฯ ตั้งศูนย์รับลงทะเบียนผู้ได้รับผลกระทบ \"ไฟไหม้คลองถมเซ็นเตอร์\"",
+    "link": "https://www.thairath.co.th/news/local/2956007"
+  },
+  {
+    "id": "hotnews_th_7e8db683",
+    "date": "2026-08-28",
+    "ts": 1787936105000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew9SeH9Xi8UKG.jpg",
+    "title": "คุมเพลิงได้แล้ว ไฟไหม้คลองถมเซ็นเตอร์ เจ้าหน้าที่ยังฉีดน้ำเลี้ยงจากภายนอก",
+    "link": "https://www.thairath.co.th/news/local/bangkok/2956008"
+  },
+  {
+    "id": "hotnews_th_e6cb6dc3",
+    "date": "2026-08-28",
+    "ts": 1787936033000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew8aI1Swey4ZM.jpg",
+    "title": "ศาลจีนตัดสินประหารชีวิตอดีตเจ้าหน้าที่ระดับสูงจีน รับสินบนกว่า 3.7 พันล้านบาท",
+    "link": "https://www.thairath.co.th/news/foreign/2956006"
+  },
+  {
+    "id": "hotnews_th_2422e19c",
+    "date": "2026-08-28",
+    "ts": 1787934520000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew8Qezxclj74U.jpg",
+    "title": "กว่า 2 ชม. ไฟไหม้คลองถม ฉีดน้ำเลี้ยงจากนอกอาคาร เหตุเริ่มทรุดตัว หวั่นไม่ปลอดภัย",
+    "link": "https://www.thairath.co.th/news/local/bangkok/2956004"
+  },
+  {
+    "id": "hotnews_th_e83cbd80",
+    "date": "2026-08-28",
+    "ts": 1787933446000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKew8ri2uoqkr39.jpg",
+    "title": "กษัตริย์โอโยแห่งยูกันดา อดีตราชาที่อายุน้อยที่สุดในโลก สิ้นพระชนม์ในวัย 34 ปี",
+    "link": "https://www.thairath.co.th/news/foreign/2956002"
+  },
+  {
+    "id": "hotnews_th_922e36d4",
+    "date": "2026-08-28",
+    "ts": 1787933186000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/rayong-1.jpg",
+    "title": "หนุ่มโรงงาน ลงหาปลามาทำอาหาร ถูกอวนพันข้อเท้า จมน้ำเสียชีวิต",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10378517"
+  },
+  {
     "id": "hotnews_th_489f0a3a",
     "date": "2026-08-28",
     "ts": 1787932551000,
@@ -254,149 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/snakeee.jpg",
     "title": "เจ้านายข้าใครอย่าแตะ สุนัขตัวน้อย กระโดดเข้าไล่งูตัวใหญ่ ที่เลื้อยเข้าบ้าน",
     "link": "https://www.khaosod.co.th/special-stories/news_10378376"
-  },
-  {
-    "id": "hotnews_th_077b99e7",
-    "date": "2026-08-28",
-    "ts": 1787920951000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/water-forest.jpg",
-    "title": "ปภ.แจ้ง51จว.-กทม.เฝ้าระวังน้ำท่วมฉับพลัน น้ำป่าหลาก ดินโคลนถล่ม คลื่นลมแรงช่วง 29 ส.ค.-2 ก.ย.",
-    "link": "https://www.khaosod.co.th/breaking-news/news_10378373"
-  },
-  {
-    "id": "hotnews_th_f6e0f5bf",
-    "date": "2026-08-28",
-    "ts": 1787920937000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/GOLFSENIOR1.jpg",
-    "title": "กองทุนกีฬา หนุนจัดกอล์ฟอาวุโส ไทย ซีเนียร์ ทัวร์ SAT-NSDF ชิง 1.5 ล้านบาท",
-    "link": "https://www.khaosod.co.th/sports/news_10378385"
-  },
-  {
-    "id": "hotnews_th_189e9c55",
-    "date": "2026-08-28",
-    "ts": 1787920032000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/S__5840948_0.jpg",
-    "title": "จบอกหนึ่งรุ่น ครูแดร์ ต้นแบบ้องกันยาสพติดคุณภาพ รุ่น 271",
-    "link": "https://www.khaosod.co.th/monitor-news/news_10378377"
-  },
-  {
-    "id": "hotnews_th_04194595",
-    "date": "2026-08-28",
-    "ts": 1787919991000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Bar-Host01.jpg",
-    "title": "แม่พาลูกสาววัย 18 แจ้งความ ถูกโกนผมที่บาร์โฮสต์ เจ้าตัวยอมรับเที่ยวทั้งที่ไม่มีเงินเพราะรักเขา ตอนนี้เข็ดแล้ว",
-    "link": "https://www.khaosod.co.th/special-stories/news_10378359"
-  },
-  {
-    "id": "hotnews_th_ffb5d949",
-    "date": "2026-08-28",
-    "ts": 1787919437000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSXoACSq4JjVAVE.jpg",
-    "title": "\"อช.ถ้ำหลวง\" ประกาศปิดการท่องเที่ยว 1 ก.ย.-30 ก.ย. เปิดโอกาสให้ธรรมชาติฟื้นตัว",
-    "link": "https://www.thairath.co.th/news/local/2955964"
-  },
-  {
-    "id": "hotnews_th_64bb926c",
-    "date": "2026-08-28",
-    "ts": 1787919054000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/2026-08-28T093942Z_1817860901_UP1EM8S0QU5FJ_RTRMADP_3_SOCCER-EUROPA-DRAW.jpg",
-    "title": "พาเลซ-บอร์นมัธมีเหนื่อย ซันเดอร์แลนด์งานเบารอบลีกยูฟ่า ยูโรปา ลีก",
-    "link": "https://www.khaosod.co.th/sports/news_10378365"
-  },
-  {
-    "id": "hotnews_th_0d874151",
-    "date": "2026-08-28",
-    "ts": 1787918741000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSXoAMkGq2XkNfu.jpg",
-    "title": "“ณัฐกานต์” ซัด “ศุภชัย” กินปูนร้อนท้อง รีบรับสารภาพ",
-    "link": "https://www.thairath.co.th/news/politic/2955965"
-  },
-  {
-    "id": "hotnews_th_12733028",
-    "date": "2026-08-28",
-    "ts": 1787918510000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/cbr.jpg",
-    "title": "ผู้ว่าฯชลบุรี สั่งเข้มรับ กำลังพลสหรัฐ 5,000 นาย ขอให้เป็นเจ้าบ้านที่ดี ไม่ฉวยโอกาสขึ้นราคา",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10378251"
-  },
-  {
-    "id": "hotnews_th_e55e93c3",
-    "date": "2026-08-28",
-    "ts": 1787918065000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/sangthomh1.jpg",
-    "title": "รมว.ศึกษาฯ โพสต์ให้กำลังใจครอบครัว นักเรียนที่พลัดตกอาคารเรียน เสียชีวิต",
-    "link": "https://www.khaosod.co.th/special-stories/news_10378341"
-  },
-  {
-    "id": "hotnews_th_551b704b",
-    "date": "2026-08-28",
-    "ts": 1787917822000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSXoWZbc3VRka63.jpg",
-    "title": "“อนุทิน” นั่งหัวโต๊ะ ก.ตร. เคาะโผนายพลสีกากี “รอง ผบ.ตร.-ผู้ช่วย” เรียงตามอาวุโส",
-    "link": "https://www.thairath.co.th/news/crime/2955952"
-  },
-  {
-    "id": "hotnews_th_5166f3f2",
-    "date": "2026-08-28",
-    "ts": 1787917723000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Bar-Host.jpg",
-    "title": "ผู้จัดการบาร์โฮสต์ แจงดราม่าโกนผมสาว ค้างบิล 6 หมื่น ยืนยันไม่ได้ทำร้าย",
-    "link": "https://www.khaosod.co.th/special-stories/news_10377764"
-  },
-  {
-    "id": "hotnews_th_73061c81",
-    "date": "2026-08-28",
-    "ts": 1787917609000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/poegndrgfs2.jpg",
-    "title": "อนุทิน นั่งหัวโต๊ะ ก.ตร. เคาะโผนายพลสีกากี เปิดชื่อ ตร.คนดังใครบ้างได้ขยับ ใครนั่งที่เดิม",
-    "link": "https://www.khaosod.co.th/breaking-news/news_10378349"
-  },
-  {
-    "id": "hotnews_th_2caadc22",
-    "date": "2026-08-28",
-    "ts": 1787917487000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AAAAA-scaled.jpg",
-    "title": "มงคลข่าวสด น้อมรำลึกอาลัย‘หลวงปู่จื่อ’ พระราชภาวนาวชิรคุณ วิ.",
-    "link": "https://www.khaosod.co.th/newspaper-column/amulets/news_10378008"
-  },
-  {
-    "id": "hotnews_th_5849759b",
-    "date": "2026-08-28",
-    "ts": 1787917433000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSXoV9KcuhRWjdf.jpg",
-    "title": "“ยศชนัน” ดีลตรง OpenAI ผุด “AI Accelerator” ระดับโลกครั้งแรกของเอเชีย",
-    "link": "https://www.thairath.co.th/news/politic/2955955"
-  },
-  {
-    "id": "hotnews_th_41296687",
-    "date": "2026-08-28",
-    "ts": 1787917315000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/ddaddf.jpg",
-    "title": "ตร.บุกแคมป์คนงาน รวบแก๊งโจรเขมรออกตระเวนปล้นยิงขู่เหยื่อ เจอปืน 2 กระบอก ระเบิดทำเองอีก 2 ลูก",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10378317"
-  },
-  {
-    "id": "hotnews_th_93b23d74",
-    "date": "2026-08-28",
-    "ts": 1787917239000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/on-30Aug69.jpg",
-    "title": "รายงานพิเศษ ฝ่าคลื่นภาษีสหรัฐที่ยังไม่จบ-ไทยต้องยกเครื่องการค้าสู่สร้างขีดแข่งขัน",
-    "link": "https://www.khaosod.co.th/economics/news_10377851"
-  },
-  {
-    "id": "hotnews_th_0fa875d0",
-    "date": "2026-08-28",
-    "ts": 1787916531000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeSXoospEjNQu9oY.jpg",
-    "title": "“พรรคเศรษฐกิจ” ชูตั้ง “ICE Thailand” ทุบไทยเทา-กวาดแรงงานเถื่อนที่ต้นตอให้สิ้นซาก",
-    "link": "https://www.thairath.co.th/news/politic/2955949"
-  },
-  {
-    "id": "hotnews_th_d47fc1c7",
-    "date": "2026-08-28",
-    "ts": 1787916154000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/bobebj1.jpg",
-    "title": "​สาวโวยลั่น ร้องเพจดัง สุนัขที่เลี้ยงไว้ป่วยเจียนตาย หลังได้รับสารเคมีจากการพ่นยุง ที่ไม่ได้แจ้งล่วงหน้า",
-    "link": "https://www.khaosod.co.th/special-stories/news_10378107"
   }
 ]
