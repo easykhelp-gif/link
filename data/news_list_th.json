@@ -1,11 +1,115 @@
 [
   {
+    "id": "hotnews_th_e0d4d561",
+    "date": "2026-08-30",
+    "ts": 1788115294000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/vdghfd.jpg",
+    "title": "ไม่พลิกโผ อธิการ แก้วเครือศรี จาก ภูมิใจไทย คว้าชัยเลือกตั้งซ่อม สส.เขต 3 อุดรธานี",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10380437"
+  },
+  {
+    "id": "hotnews_th_4ce1a488",
+    "date": "2026-08-30",
+    "ts": 1788111387000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/snake-1.jpg",
+    "title": "เวทนางูเหลือม ถูกรถทับกระดูกสันหลงหัก ควบคุมท่อนล่างไม่ได้ ทรมานกว่า 30 วัน",
+    "link": "https://www.khaosod.co.th/special-stories/news_10380434"
+  },
+  {
+    "id": "hotnews_th_c70679a4",
+    "date": "2026-08-30",
+    "ts": 1788110835000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/brunoo.jpg",
+    "title": "แมนเชสเตอร์ ยูไนเต็ด เปิดบ้านไล่ถล่ม อิปสวิช บรูโน ซัดแฮตทริก",
+    "link": "https://www.khaosod.co.th/sports/news_10380423"
+  },
+  {
+    "id": "hotnews_th_31a67d2a",
+    "date": "2026-08-30",
+    "ts": 1788110524000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakvMqqEYURIku.jpg",
+    "title": "ดับแล้ว 7 ศพ เรือข้ามฟากล่มนอกฝั่งไซปรัสเหนือ สูญหายอีกจำนวนมาก",
+    "link": "https://www.thairath.co.th/news/foreign/2956346"
+  },
+  {
+    "id": "hotnews_th_5963d1c1",
+    "date": "2026-08-30",
+    "ts": 1788109782000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/kjhgfd.jpg",
+    "title": "ผอ.JIC ไทย โต้ กัมพูชา นำบทความสื่อฝรั่งเศสชี้ไทย ผู้บุกรุก ถามกลับใครเริ่มใช้กำลังก่อน",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10380429"
+  },
+  {
+    "id": "hotnews_th_8c38eafa",
+    "date": "2026-08-30",
+    "ts": 1788109480000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/eerrttg.jpg",
+    "title": "สุดสลดครูสาว เสียชีวิตในรถเก๋ง หลังตั้งครรภ์ แต่แฟนหนุ่มว่าที่ ร.ต. ไม่ยอมรับเป็นพ่อเด็ก",
+    "link": "https://www.khaosod.co.th/crime/news_10380426"
+  },
+  {
+    "id": "hotnews_th_8e85ca6a",
+    "date": "2026-08-30",
+    "ts": 1788106198000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakvoiNVNTIiI8.jpg",
+    "title": "อำนาจเจริญ ตำรวจ สภ.ชานุมาน สกัดจับรถตู้ขนยาบ้าลอตใหญ่ กว่า 4 ล้านเม็ด เร่งขยายผล",
+    "link": "https://www.thairath.co.th/news/crime/2956343"
+  },
+  {
+    "id": "hotnews_th_096919f2",
+    "date": "2026-08-30",
+    "ts": 1788106162000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Volleyball-7.jpg",
+    "title": "หัตถยา กลั้นน้ำตาไม่อยู่นาทีวอลเลย์บอลสาวไทยซิวแชมป์เอเชียได้ไปโอลิมปิก",
+    "link": "https://www.khaosod.co.th/sports/news_10380416"
+  },
+  {
+    "id": "hotnews_th_d4eed14d",
+    "date": "2026-08-30",
+    "ts": 1788106134000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/grgefsww.jpg",
+    "title": "หยิบมาเคี้ยวกลางวงเหล้า หนุ่มพม่าคิดว่าแหนม ที่ไหนได้ ยาเบื่อหนู อ้วกไป 3-4 รอบ",
+    "link": "https://www.khaosod.co.th/around-thailand/news_10380417"
+  },
+  {
+    "id": "hotnews_th_2a71cc68",
+    "date": "2026-08-30",
+    "ts": 1788105806000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Rasamee.jpg",
+    "title": "รัศมีแข เตรียมทำตามสัญญา วิ่งรอบวัดพระแก้ว 100 รอบ หลังลูกยางสาวไทยคว้าตั๋ว อลป.",
+    "link": "https://www.khaosod.co.th/sports/news_10380412"
+  },
+  {
+    "id": "hotnews_th_e62c598b",
+    "date": "2026-08-30",
+    "ts": 1788105323000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/LA.jpg",
+    "title": "โอลิมปิก ร่วมโพสต์ยินดี หลังทีมลูกยางสาวไทยคว้าตั๋วลุย แอลเอ 2028",
+    "link": "https://www.khaosod.co.th/sports/news_10380408"
+  },
+  {
     "id": "hotnews_th_e1384ed4",
     "date": "2026-08-30",
     "ts": 1788105037000,
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakvhu3J3tb0La.jpg",
     "title": "ไอซ์แลนด์ลงประชามติ ค้านรื้อฟื้นเจรจาเพื่อเข้าเป็นสมาชิกสหภาพยุโรป",
     "link": "https://www.thairath.co.th/news/foreign/2956342"
+  },
+  {
+    "id": "hotnews_th_4fe7e953",
+    "date": "2026-08-30",
+    "ts": 1788104955000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/NanAomsin.jpg",
+    "title": "ทัดดาว ศศิภาพร เปิดใจหลังนำลูกยางสาวไทยคว้าตั๋ว อลป. ปล่อยวลีเด็ด หนูจะอยู่",
+    "link": "https://www.khaosod.co.th/sports/news_10380403"
+  },
+  {
+    "id": "hotnews_th_f0ffb9d1",
+    "date": "2026-08-30",
+    "ts": 1788104871000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/Volleyball-6.jpg",
+    "title": "พิชญ์ โพธารามิก เตรียมมอบ 5 ล้าน อัดฉีดนักตบสาวไทยคว้าแชมป์ลูกยางเอเชีย",
+    "link": "https://www.khaosod.co.th/sports/news_10380404"
   },
   {
     "id": "hotnews_th_4ecda577",
@@ -294,109 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AP26241728607738000-728x410-1.jpg",
     "title": "USS Abraham Lincoln sails past Singapore on its way home from Middle East",
     "link": "https://www.khaosodenglish.com/news/international/2026/08/30/uss-abraham-lincoln-sails-past-singapore-on-its-way-home-from-middle-east/"
-  },
-  {
-    "id": "hotnews_th_d961fe7e",
-    "date": "2026-08-30",
-    "ts": 1788093697000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/9993-728x410-1.jpg",
-    "title": "Matichon Group joins forces with Weibo for FEED x KHAOSOD AWARDS 2026",
-    "link": "https://www.khaosodenglish.com/featured/2026/08/30/matichon-group-joins-forces-with-weibo-for-feed-x-khaosod-awards-2026/"
-  },
-  {
-    "id": "hotnews_th_86c7614b",
-    "date": "2026-08-30",
-    "ts": 1788093506000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKajskIMY70e7id.jpg",
-    "title": "“วีระยุทธ” ถกตั้งสาขาพรรคที่อยุธยา ชวนตั้งข้อสังเกตปัญหามลพิษ-ทุจริตมาจากจังหวัดสีน้ำเงิน",
-    "link": "https://www.thairath.co.th/news/politic/2956319"
-  },
-  {
-    "id": "hotnews_th_5000846a",
-    "date": "2026-08-30",
-    "ts": 1788093083000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/wwerrfds.jpg",
-    "title": "เจออีก ปลายถ้ำหงส์ อ่าวยายหมึก ผู้ใหญ่ยันมีมานานแล้ว ตำนานเล่าขานเชื่อมยงถ้ำที่วัดธงหงส์",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10380284"
-  },
-  {
-    "id": "hotnews_th_d1ef196c",
-    "date": "2026-08-30",
-    "ts": 1788092955000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/U-20-1.jpg",
-    "title": "ทีมชาติไทย รุ่นไม่เกิน 20 ปีซ้อมส่งท้ายก่อนเปิดหัวดวลยูเออีคัดเลือกถ้วยเอเชีย",
-    "link": "https://www.khaosod.co.th/sports/news_10380158"
-  },
-  {
-    "id": "hotnews_th_277d79c1",
-    "date": "2026-08-30",
-    "ts": 1788092668000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/dfrtgfds.jpg",
-    "title": "อนุทิน ลงพื้นที่อุดรธานี ลุ้นเลือกตั้งซ่อม สส. เขต 3 หลังผู้สมัครพรรคภูมิใจไทยคะแนนนำโด่ง",
-    "link": "https://www.khaosod.co.th/politics/news_10380279"
-  },
-  {
-    "id": "hotnews_th_29571aba",
-    "date": "2026-08-30",
-    "ts": 1788091916000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/bu-4.jpg",
-    "title": "ศจย. ผนึก อินฟลูฯ สายสุขภาพ เครือข่าย ทำคอนเทนต์ สู้การตลาดแฝงบุหรี่ไฟฟ้า",
-    "link": "https://www.khaosod.co.th/pr-news/news_10380273"
-  },
-  {
-    "id": "hotnews_th_c562a398",
-    "date": "2026-08-30",
-    "ts": 1788091876000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKajsXIiM2DnmkV.jpg",
-    "title": "เลือกตั้งซ่อมเขต 3 อุดรฯ “อนุทิน” พยักหน้ารับ หลังลูกเขย “หรั่ง ธุระพล” คะแนนนำโด่ง",
-    "link": "https://www.thairath.co.th/news/politic/2956317"
-  },
-  {
-    "id": "hotnews_th_65aaae79",
-    "date": "2026-08-30",
-    "ts": 1788091795000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B9%81%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%81.jpg",
-    "title": "กรมควบคุมโรคยืนยัน โควิด ระบาดปกติตามฤดูกาล ไม่มีสายพันธุ์รุนแรง",
-    "link": "https://www.khaosod.co.th/breaking-news/news_10380269"
-  },
-  {
-    "id": "hotnews_th_7b14755d",
-    "date": "2026-08-30",
-    "ts": 1788091789000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKajsW3ZumBLEFI.jpg",
-    "title": "“พิธา-เดชรัต” ชู “เรียนระดับโลกที่นนทบุรี” ย้ำ ปชน. ไม่คิดตัดงบการลงทุนด้านการศึกษา",
-    "link": "https://www.thairath.co.th/news/politic/2956316"
-  },
-  {
-    "id": "hotnews_th_d164eca7",
-    "date": "2026-08-30",
-    "ts": 1788091353000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/fgrgr.jpg",
-    "title": "“รมว.สุชาติ” เผยภารกิจตัด–แปรรูปไม้จันทน์หอมกุยบุรี สร้างพระโกศจันทน์และพระหีบจันทน์",
-    "link": "https://www.khaosod.co.th/politics/news_10380261"
-  },
-  {
-    "id": "hotnews_th_86d72466",
-    "date": "2026-08-30",
-    "ts": 1788091241000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/det.jpg",
-    "title": "เดชรัต เปิด 5 นโยบายการศึกษา ย้ำหากได้บริหาร อบจ.นนทบุรี ยังคงงบ 1.6 พันล้าน",
-    "link": "https://www.khaosod.co.th/politics/news_10380153"
-  },
-  {
-    "id": "hotnews_th_7385409a",
-    "date": "2026-08-30",
-    "ts": 1788090936000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/hsvsdtgr.jpg",
-    "title": "สาวสุดอั้น ไม่ทันไป รพ. คลอดลูกกลางทาง โชคดีพยาบาลผ่านมาเจอ ช่วยทำคลอดภัยทั้งคู่",
-    "link": "https://www.khaosod.co.th/special-stories/news_10380248"
-  },
-  {
-    "id": "hotnews_th_7973a68c",
-    "date": "2026-08-30",
-    "ts": 1788090591000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKajr7pLIYRz0Fn.jpg",
-    "title": "“ศุภจี” ยันส่งออกไทยโตต่อเนื่อง 25 เดือน เดินหน้า 3 สมดุล “ตลาด–สินค้า–รายได้”",
-    "link": "https://www.thairath.co.th/news/politic/2956312"
   }
 ]
