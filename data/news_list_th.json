@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_th_cc89e9ec",
+    "date": "2026-08-30",
+    "ts": 1788121092000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakuybxyKbFKin.jpg",
+    "title": "นาซาส่งกล้องโทรทรรศน์ \"โรมัน\" ขึ้นสู่อวกาศ มุ่งไขปริศนาจักรวาล",
+    "link": "https://www.thairath.co.th/news/foreign/2956349"
+  },
+  {
+    "id": "hotnews_th_48b8ee16",
+    "date": "2026-08-30",
+    "ts": 1788118199000,
+    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/786303489_1408971071114388_5324406266905032090_n00-728x410-1.jpg",
+    "title": "Thailand’s historic volleyball triumph sends them to LA 2028",
+    "link": "https://www.khaosodenglish.com/featured/2026/08/31/thailands-historic-volleyball-triumph-sends-them-to-la-2028/"
+  },
+  {
+    "id": "hotnews_th_7cfae474",
+    "date": "2026-08-30",
+    "ts": 1788116194000,
+    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakuq3YMzWunkq.jpg",
+    "title": "แคนาดาติดป้ายชื่อ “ทะเลสาบออนแทริโอ” ตอบโต้ทรัมป์สั่งเปลี่ยนชื่อ",
+    "link": "https://www.thairath.co.th/news/foreign/2956348"
+  },
+  {
     "id": "hotnews_th_e0d4d561",
     "date": "2026-08-30",
     "ts": 1788115294000,
@@ -374,29 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakCbwf4cp7bz6.jpg",
     "title": "ตำรวจ ปอศ.จับเครือข่ายขายน้ำหอมปลอมกลางห้างพัทยา แกะรอยเส้นเงินโยงนายทุนมาเลเซีย",
     "link": "https://www.thairath.co.th/news/crime/2956322"
-  },
-  {
-    "id": "hotnews_th_83df5ede",
-    "date": "2026-08-30",
-    "ts": 1788094639000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/bkp.jpg",
-    "title": "รวบผู้ต้องหา ทำร้ายคู่อริเสียชีวิต หนีคดีกว่า 10 ปี มาโดนจับก่อนหมดอายุความ 1 วัน",
-    "link": "https://www.khaosod.co.th/special-stories/news_10380270"
-  },
-  {
-    "id": "hotnews_th_036a2690",
-    "date": "2026-08-30",
-    "ts": 1788094537000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKakCr8wlSXYc9n.jpg",
-    "title": "“อนุทิน” หัวเราะ ยันใช้เงินกู้ 4 แสนล้านโปร่งใส บอก “ไอลอว์” อย่าผิดกฎหมายก็แล้วกัน",
-    "link": "https://www.thairath.co.th/news/politic/2956321"
-  },
-  {
-    "id": "hotnews_th_19ef23d0",
-    "date": "2026-08-30",
-    "ts": 1788093708000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AP26241728607738000-728x410-1.jpg",
-    "title": "USS Abraham Lincoln sails past Singapore on its way home from Middle East",
-    "link": "https://www.khaosodenglish.com/news/international/2026/08/30/uss-abraham-lincoln-sails-past-singapore-on-its-way-home-from-middle-east/"
   }
 ]
