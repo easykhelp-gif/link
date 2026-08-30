@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_ceb35b99",
+    "date": "2026-08-30",
+    "ts": 1788097769000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830002751315_02_i_P2.jpg",
+    "title": "(LEAD) S. Korean helicopter search canceled for 9 missing in Nepal floods",
+    "link": "https://en.yna.co.kr/view/AEN20260830002751315"
+  },
+  {
+    "id": "hotnews_en_0676d48f",
+    "date": "2026-08-30",
+    "ts": 1788096959000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/30/PYH2026083007140005200_P2.jpg",
+    "title": "Heavy rains batter southern region, flooding roads, trapping hikers",
+    "link": "https://en.yna.co.kr/view/AEN20260830004300315"
+  },
+  {
+    "id": "hotnews_en_86a2f69e",
+    "date": "2026-08-30",
+    "ts": 1788089274000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082901700001300_P2.jpg",
+    "title": "PM orders thorough readiness against heavy rain",
+    "link": "https://en.yna.co.kr/view/AEN20260830003300315"
+  },
+  {
     "id": "hotnews_en_39aa68ee",
     "date": "2026-08-30",
     "ts": 1788079468000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828011400315_01_i_P2.jpg",
     "title": "S. Korea issues special travel advisory for 4 Nepal provinces due to additional flood risks",
     "link": "https://en.yna.co.kr/view/AEN20260828011400315"
-  },
-  {
-    "id": "hotnews_en_aa696148",
-    "date": "2026-08-28",
-    "ts": 1787922211000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828011300315_02_i_P2.jpg",
-    "title": "N. Korean leader sends message of sympathy to Chinese, Nepali presidents over deadly floods",
-    "link": "https://en.yna.co.kr/view/AEN20260828011300315"
-  },
-  {
-    "id": "hotnews_en_19044f7b",
-    "date": "2026-08-28",
-    "ts": 1787920083000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081013860005400_P2.jpg",
-    "title": "(2nd LD) Gov't finalizes Muan County area as site for Gwangju Air Base relocation",
-    "link": "https://en.yna.co.kr/view/AEN20260828010952315"
-  },
-  {
-    "id": "hotnews_en_34a671c0",
-    "date": "2026-08-28",
-    "ts": 1787915498000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/28/AEN20260828011200315_01_i_P2.jpg",
-    "title": "'The Odyssey' becomes fastest film to top 8 mln admissions in S. Korea this year",
-    "link": "https://en.yna.co.kr/view/AEN20260828011200315"
   }
 ]
