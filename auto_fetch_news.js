@@ -29,11 +29,12 @@ const RSS_FEEDS = {
   th: [
     'https://www.khaosod.co.th/feed',
     'https://www.thairath.co.th/rss/news',
-    'https://www.dailynews.co.th/feed/'
+    'https://www.matichon.co.th/feed'
+    // dailynews.co.th/feed/ 제거 (2026-08-31 실측: 200 응답이나 기사 0건인 빈 피드)
   ],
   vi: [
     'https://vnexpress.net/rss/tin-moi-nhat.rss',
-    'https://tuoitre.vn/rss/tin-moi-nhat.rss',
+    'https://tuoitre.vn/home.rss',  // tin-moi-nhat.rss 는 301 리디렉션. 최종 주소로 교체
     'https://thanhnien.vn/rss/home.rss'
   ]
 };
@@ -69,7 +70,7 @@ function safeUrl(u) {
   return '#';
 }
 
-function fetchUrl(url) {
+function fetchUrl(url, redirectsLeft = 3) {
   return new Promise((resolve) => {
     const client = url.startsWith('https') ? https : http;
     const req = client.get(url, {
@@ -78,6 +79,16 @@ function fetchUrl(url) {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
       }
     }, (res) => {
+      // 301/302 를 따라가지 않으면 빈 문자열이 돌아온다.
+      // 실측: tuoitre.vn RSS 가 301, vnexpress 기사가 302 라 본문이 0자였다.
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && redirectsLeft > 0) {
+        res.resume();
+        const next = new URL(res.headers.location, url).href;
+        return resolve(fetchUrl(next, redirectsLeft - 1));
+      }
+      // setEncoding 없이 Buffer 를 문자열에 더하면 태국어·베트남어처럼
+      // 멀티바이트 문자가 청크 경계에서 쪼개져 깨진다.
+      res.setEncoding('utf8');
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
@@ -296,9 +307,18 @@ async function runPipeline() {
         if (process.env.GEMINI_API_KEY) {
           try {
             const htmlContent = await fetchUrl(item.link);
-            const pMatches = htmlContent.match(/<p[^>]*>([\s\S]*?)<\/p>/gi);
+            // script·style 을 먼저 걷어낸다. 이걸 안 하면 태국 thairath 처럼
+            // <p> 안에 CSS 가 통째로 들어와 요약 대상이 코드가 된다 (실측 32,531자 중 앞부분 전부 CSS).
+            const articleHtml = htmlContent
+              .replace(/<script[\s\S]*?<\/script>/gi, '')
+              .replace(/<style[\s\S]*?<\/style>/gi, '');
+            const pMatches = articleHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/gi);
             if (pMatches && pMatches.length > 0) {
-              const extracted = pMatches.map(p => cleanText(p)).join('\n').trim();
+              const extracted = pMatches
+                .map(p => cleanText(p))
+                // 40자 미만은 내비게이션·버튼 문구, 중괄호가 있으면 남은 CSS 조각이다.
+                .filter(t => t.length >= 40 && !/[{}]/.test(t))
+                .join('\n').trim();
               if (extracted.length > 200) {
                  fullText = extracted.slice(0, 4000);
               }
