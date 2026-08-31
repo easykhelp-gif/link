@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_1316d64b",
+    "date": "2026-08-31",
+    "ts": 1788198569000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831006053315_03_i_P2.jpg",
+    "title": "(3rd LD) Despite helicopter, drone searches, no meaningful progress in finding missing Koreans in Nepal: official",
+    "link": "https://en.yna.co.kr/view/AEN20260831006053315"
+  },
+  {
+    "id": "hotnews_en_c79672b4",
+    "date": "2026-08-31",
+    "ts": 1788176371000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831010300320_02_i_P2.jpg",
+    "title": "Nine S. Koreans rescued from Nepal floods return home",
+    "link": "https://en.yna.co.kr/view/AEN20260831010300320"
+  },
+  {
+    "id": "hotnews_en_8e121ae1",
+    "date": "2026-08-31",
+    "ts": 1788175199000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831006052315_01_i_P2.jpg",
+    "title": "(2nd LD) Helicopter search resumes for 9 missing Koreans in Nepal floods",
+    "link": "https://en.yna.co.kr/view/AEN20260831006052315"
+  },
+  {
     "id": "hotnews_en_afd08d72",
     "date": "2026-08-31",
     "ts": 1788171159000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082709420001300_P2.jpg",
     "title": "(2nd LD) Industrial output flat in July; retail sales down, facility investment up",
     "link": "https://en.yna.co.kr/view/AEN20260831001152320"
-  },
-  {
-    "id": "hotnews_en_8f414706",
-    "date": "2026-08-31",
-    "ts": 1788137345000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081402400001300_P2.jpg",
-    "title": "Gov't launches 2nd half program to recover remains of fallen Korean War soldiers",
-    "link": "https://en.yna.co.kr/view/AEN20260831002900315"
-  },
-  {
-    "id": "hotnews_en_b65262ad",
-    "date": "2026-08-31",
-    "ts": 1788136382000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083102160001300_P2.jpg",
-    "title": "(LEAD) Seoul shares open sharply lower on Fed chief's hawkish comments",
-    "link": "https://en.yna.co.kr/view/AEN20260831001851320"
-  },
-  {
-    "id": "hotnews_en_74fb7339",
-    "date": "2026-08-31",
-    "ts": 1788136273000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/08/11/PAP20260811120401009_P2.jpg",
-    "title": "Song Sung-mun marks MLB return with RBI for Padres",
-    "link": "https://en.yna.co.kr/view/AEN20260831002800315"
   }
 ]
