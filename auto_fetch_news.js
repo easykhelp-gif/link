@@ -307,7 +307,7 @@ async function runPipeline() {
             const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
             const prompt = `Summarize the following news article into 3 clear, easy-to-understand bullet points. Keep it concise but informative. Do not use complex vocabulary. Write the summary in ${lang === 'en' ? 'English' : (lang === 'vi' ? 'Vietnamese' : 'Thai')}.\n\nText:\n${fullText}`;
             const response = await ai.models.generateContent({
-              model: 'gemini-2.5-flash',
+              model: 'gemini-3.6-flash',
               contents: prompt,
             });
             if (response.text) {
