@@ -6,7 +6,7 @@ const path = require('path');
 // 뉴스 상세 페이지는 전부 noindex + 사이트맵 미포함이라
 // 검색 색인에 잡히지 않는다 → 짧게 잡아도 SEO 손실이 없다.
 // 다만 외부(페북 등)에 공유한 뉴스 링크는 이 기간이 지나면 404가 된다.
-const MAX_AGE_DAYS = 40;
+const MAX_AGE_DAYS = 3;
 // ─────────────────────────────────────────────────────────────
 
 const BASE_DIR = __dirname;

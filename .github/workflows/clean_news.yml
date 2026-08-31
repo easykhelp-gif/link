@@ -1,4 +1,4 @@
-name: 40-Day Old News Auto Cleanup
+name: 3-Day Old News Auto Cleanup
 
 on:
   schedule:
@@ -29,4 +29,4 @@ jobs:
           git config --global user.name "Theo Park AutoBot"
           git config --global user.email "koricare.help@gmail.com"
           git add news/ || true
-          git diff-index --quiet HEAD || (git commit -m "Auto: Delete news older than 40 days" && git push origin main)
+          git diff-index --quiet HEAD || (git commit -m "Auto: Delete news older than 3 days" && git push origin main)
