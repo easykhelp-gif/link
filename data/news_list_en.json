@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_en_afd08d72",
+    "date": "2026-08-31",
+    "ts": 1788171159000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831010200320_01_i_P2.jpg",
+    "title": "S. Korea imposes travel ban on parts of Pakistan",
+    "link": "https://en.yna.co.kr/view/AEN20260831010200320"
+  },
+  {
+    "id": "hotnews_en_b9103855",
+    "date": "2026-08-31",
+    "ts": 1788170698000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082709450005300_P2.jpg",
+    "title": "Police to disclose identity of suspect in murder of Chinese graduate student",
+    "link": "https://en.yna.co.kr/view/AEN20260831010100315"
+  },
+  {
+    "id": "hotnews_en_39cc8898",
+    "date": "2026-08-31",
+    "ts": 1788168972000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/14/PYH2026051401140005400_P2.jpg",
+    "title": "Prosecutors seek death penalty for Gwangju murder suspect",
+    "link": "https://en.yna.co.kr/view/AEN20260831010000315"
+  },
+  {
+    "id": "hotnews_en_b41df839",
+    "date": "2026-08-31",
+    "ts": 1788167875000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831006051315_01_i_P2.jpg",
+    "title": "(LEAD) Gov't team begins ground search for 9 missing Koreans in Nepal floods",
+    "link": "https://en.yna.co.kr/view/AEN20260831006051315"
+  },
+  {
+    "id": "hotnews_en_1caf8d16",
+    "date": "2026-08-31",
+    "ts": 1788166358000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083112740001300_P2.jpg",
+    "title": "Outgoing defense minister expresses 'mixed' feelings following Cabinet reshuffle",
+    "link": "https://en.yna.co.kr/view/AEN20260831009800315"
+  },
+  {
     "id": "hotnews_en_076febe9",
     "date": "2026-08-31",
     "ts": 1788163494000,
@@ -358,45 +398,5 @@
     "image": "https://img.yna.co.kr/photo/ap/2026/08/11/PAP20260811120401009_P2.jpg",
     "title": "Song Sung-mun marks MLB return with RBI for Padres",
     "link": "https://en.yna.co.kr/view/AEN20260831002800315"
-  },
-  {
-    "id": "hotnews_en_7f8d603e",
-    "date": "2026-08-31",
-    "ts": 1788136200000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062906490001300_P2.jpg",
-    "title": "S. Korea, U.S. discuss energy cooperation amid heightened uncertainty",
-    "link": "https://en.yna.co.kr/view/AEN20260831002400320"
-  },
-  {
-    "id": "hotnews_en_8fa6a53f",
-    "date": "2026-08-31",
-    "ts": 1788136160000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831002500315_02_i_P2.jpg",
-    "title": "Late U.S. captain named Korean War hero of Sept.",
-    "link": "https://en.yna.co.kr/view/AEN20260831002500315"
-  },
-  {
-    "id": "hotnews_en_64be0101",
-    "date": "2026-08-31",
-    "ts": 1788136147000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831002700320_01_i_P2.jpg",
-    "title": "Samsung Heavy wins 444.5 bln-won deal for 2 container ships",
-    "link": "https://en.yna.co.kr/view/AEN20260831002700320"
-  },
-  {
-    "id": "hotnews_en_97d3fffc",
-    "date": "2026-08-31",
-    "ts": 1788134674000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082811550001300_P2.jpg",
-    "title": "Seoul shares open sharply lower on Fed chief's hawkish comments",
-    "link": "https://en.yna.co.kr/view/AEN20260831001800320"
-  },
-  {
-    "id": "hotnews_en_d3e33876",
-    "date": "2026-08-31",
-    "ts": 1788134582000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831001900315_01_i_P2.jpg",
-    "title": "KBO's Seoul rivals set for final 3-game series at historic stadium",
-    "link": "https://en.yna.co.kr/view/AEN20260831001900315"
   }
 ]
