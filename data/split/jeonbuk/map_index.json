@@ -1,0 +1,74 @@
+{
+  "region_id": "jeonbuk",
+  "total_places": 8075,
+  "districts": [
+    {
+      "name": "군산시",
+      "count": 1188
+    },
+    {
+      "name": "김제시",
+      "count": 407
+    },
+    {
+      "name": "부안군",
+      "count": 219
+    },
+    {
+      "name": "알수없음",
+      "count": 1
+    },
+    {
+      "name": "익산시",
+      "count": 1170
+    },
+    {
+      "name": "완주군",
+      "count": 389
+    },
+    {
+      "name": "무주군",
+      "count": 107
+    },
+    {
+      "name": "전주시",
+      "count": 3115
+    },
+    {
+      "name": "진안군",
+      "count": 81
+    },
+    {
+      "name": "장수군",
+      "count": 71
+    },
+    {
+      "name": "정읍시",
+      "count": 540
+    },
+    {
+      "name": "고창군",
+      "count": 216
+    },
+    {
+      "name": "임실군",
+      "count": 100
+    },
+    {
+      "name": "순창군",
+      "count": 114
+    },
+    {
+      "name": "남원시",
+      "count": 355
+    },
+    {
+      "name": "완산구",
+      "count": 1
+    },
+    {
+      "name": "��산시",
+      "count": 1
+    }
+  ]
+}

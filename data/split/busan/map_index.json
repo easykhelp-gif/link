@@ -1,0 +1,110 @@
+{
+  "region_id": "busan",
+  "total_places": 16786,
+  "districts": [
+    {
+      "name": "북구",
+      "count": 1138
+    },
+    {
+      "name": "강서구",
+      "count": 603
+    },
+    {
+      "name": "사상구",
+      "count": 945
+    },
+    {
+      "name": "부산진구",
+      "count": 2038
+    },
+    {
+      "name": "금정구",
+      "count": 1129
+    },
+    {
+      "name": "기장군",
+      "count": 763
+    },
+    {
+      "name": "동래구",
+      "count": 1490
+    },
+    {
+      "name": "연제구",
+      "count": 1161
+    },
+    {
+      "name": "해운대구",
+      "count": 1898
+    },
+    {
+      "name": "동구",
+      "count": 531
+    },
+    {
+      "name": "남구",
+      "count": 1236
+    },
+    {
+      "name": "수영구",
+      "count": 958
+    },
+    {
+      "name": "사하구",
+      "count": 1433
+    },
+    {
+      "name": "서구",
+      "count": 485
+    },
+    {
+      "name": "중구",
+      "count": 473
+    },
+    {
+      "name": "영도구",
+      "count": 487
+    },
+    {
+      "name": "알수없음",
+      "count": 7
+    },
+    {
+      "name": "��래구",
+      "count": 2
+    },
+    {
+      "name": "��산진구",
+      "count": 1
+    },
+    {
+      "name": "부산���구",
+      "count": 1
+    },
+    {
+      "name": "해���대구",
+      "count": 1
+    },
+    {
+      "name": "���구",
+      "count": 2
+    },
+    {
+      "name": "연���구",
+      "count": 1
+    },
+    {
+      "name": "사���구",
+      "count": 1
+    },
+    {
+      "name": "해��대구",
+      "count": 1
+    },
+    {
+      "name": "���운대구",
+      "count": 1
+    }
+  ]
+}

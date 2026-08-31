@@ -1,0 +1,54 @@
+{
+  "region_id": "daegu",
+  "total_places": 13967,
+  "districts": [
+    {
+      "name": "북구",
+      "count": 2209
+    },
+    {
+      "name": "달성군",
+      "count": 1036
+    },
+    {
+      "name": "달서구",
+      "count": 3007
+    },
+    {
+      "name": "서구",
+      "count": 1059
+    },
+    {
+      "name": "남구",
+      "count": 1008
+    },
+    {
+      "name": "알수없음",
+      "count": 6
+    },
+    {
+      "name": "중구",
+      "count": 1213
+    },
+    {
+      "name": "동구",
+      "count": 1878
+    },
+    {
+      "name": "수성구",
+      "count": 2546
+    },
+    {
+      "name": "��서구",
+      "count": 1
+    },
+    {
+      "name": "���구",
+      "count": 2
+    },
+    {
+      "name": "��구",
+      "count": 2
+    }
+  ]
+}

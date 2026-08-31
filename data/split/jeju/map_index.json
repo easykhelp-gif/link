@@ -1,0 +1,22 @@
+{
+  "region_id": "jeju",
+  "total_places": 3430,
+  "districts": [
+    {
+      "name": "제주시",
+      "count": 2511
+    },
+    {
+      "name": "서귀포시",
+      "count": 915
+    },
+    {
+      "name": "알수없음",
+      "count": 3
+    },
+    {
+      "name": "서��포시",
+      "count": 1
+    }
+  ]
+}

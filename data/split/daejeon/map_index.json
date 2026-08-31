@@ -1,0 +1,50 @@
+{
+  "region_id": "daejeon",
+  "total_places": 8485,
+  "districts": [
+    {
+      "name": "유성구",
+      "count": 1914
+    },
+    {
+      "name": "��성구",
+      "count": 1
+    },
+    {
+      "name": "서구",
+      "count": 3120
+    },
+    {
+      "name": "대덕구",
+      "count": 878
+    },
+    {
+      "name": "���성구",
+      "count": 1
+    },
+    {
+      "name": "동구",
+      "count": 1226
+    },
+    {
+      "name": "���구",
+      "count": 2
+    },
+    {
+      "name": "중구",
+      "count": 1335
+    },
+    {
+      "name": "알수없음",
+      "count": 5
+    },
+    {
+      "name": "���덕구",
+      "count": 2
+    },
+    {
+      "name": "��구",
+      "count": 1
+    }
+  ]
+}

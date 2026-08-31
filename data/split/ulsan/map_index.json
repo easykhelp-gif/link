@@ -1,0 +1,34 @@
+{
+  "region_id": "ulsan",
+  "total_places": 5574,
+  "districts": [
+    {
+      "name": "울주군",
+      "count": 832
+    },
+    {
+      "name": "중구",
+      "count": 1049
+    },
+    {
+      "name": "북구",
+      "count": 838
+    },
+    {
+      "name": "남구",
+      "count": 2101
+    },
+    {
+      "name": "알수없음",
+      "count": 3
+    },
+    {
+      "name": "동구",
+      "count": 748
+    },
+    {
+      "name": "���구",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "region_id": "incheon",
+  "total_places": 12069,
+  "districts": [
+    {
+      "name": "영종구",
+      "count": 499
+    },
+    {
+      "name": "서해구",
+      "count": 1733
+    },
+    {
+      "name": "검단구",
+      "count": 21
+    },
+    {
+      "name": "계양구",
+      "count": 1137
+    },
+    {
+      "name": "부평구",
+      "count": 2099
+    },
+    {
+      "name": "제물포구",
+      "count": 570
+    },
+    {
+      "name": "미추홀구",
+      "count": 1935
+    },
+    {
+      "name": "남동구",
+      "count": 2297
+    },
+    {
+      "name": "연수구",
+      "count": 1728
+    },
+    {
+      "name": "��수구",
+      "count": 1
+    },
+    {
+      "name": "연���구",
+      "count": 1
+    },
+    {
+      "name": "옹진군",
+      "count": 34
+    },
+    {
+      "name": "��종구",
+      "count": 2
+    },
+    {
+      "name": "미추���구",
+      "count": 1
+    },
+    {
+      "name": "미��홀구",
+      "count": 1
+    },
+    {
+      "name": "계��구",
+      "count": 2
+    },
+    {
+      "name": "���추홀구",
+      "count": 1
+    },
+    {
+      "name": "알수없음",
+      "count": 2
+    },
+    {
+      "name": "��동구",
+      "count": 2
+    },
+    {
+      "name": "연��구",
+      "count": 1
+    },
+    {
+      "name": "��추홀구",
+      "count": 1
+    },
+    {
+      "name": "��평구",
+      "count": 1
+    }
+  ]
+}

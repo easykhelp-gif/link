@@ -1,0 +1,82 @@
+{
+  "region_id": "gangwon",
+  "total_places": 5846,
+  "districts": [
+    {
+      "name": "철원군",
+      "count": 178
+    },
+    {
+      "name": "화천군",
+      "count": 79
+    },
+    {
+      "name": "춘천시",
+      "count": 948
+    },
+    {
+      "name": "인제군",
+      "count": 110
+    },
+    {
+      "name": "양구군",
+      "count": 91
+    },
+    {
+      "name": "속초시",
+      "count": 401
+    },
+    {
+      "name": "고성군",
+      "count": 95
+    },
+    {
+      "name": "양양군",
+      "count": 95
+    },
+    {
+      "name": "강릉시",
+      "count": 770
+    },
+    {
+      "name": "홍천군",
+      "count": 242
+    },
+    {
+      "name": "횡성군",
+      "count": 144
+    },
+    {
+      "name": "원주시",
+      "count": 1411
+    },
+    {
+      "name": "평창군",
+      "count": 161
+    },
+    {
+      "name": "정선군",
+      "count": 128
+    },
+    {
+      "name": "동해시",
+      "count": 429
+    },
+    {
+      "name": "삼척시",
+      "count": 244
+    },
+    {
+      "name": "영월군",
+      "count": 124
+    },
+    {
+      "name": "태백시",
+      "count": 195
+    },
+    {
+      "name": "���월군",
+      "count": 1
+    }
+  ]
+}

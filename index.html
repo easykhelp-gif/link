@@ -464,108 +464,66 @@
     {key:"busan", en:"Busan (부산)"},
     {key:"daegu", en:"Daegu (대구)"},
     {key:"ulsan", en:"Ulsan (울산)"},
-    {key:"gwangju", en:"Gwangju (광주)"},
     {key:"daejeon", en:"Daejeon (대전)"},
     {key:"sejong", en:"Sejong (세종)"},
-    {key:"gyeongnam", en:"Gyeongnam (경남)"},
-    {key:"gyeongbuk", en:"Gyeongbuk (경북)"},
     {key:"chungnam", en:"Chungnam (충남)"},
     {key:"chungbuk", en:"Chungbuk (충북)"},
-    {key:"jeonnam", en:"Jeonnam (전남)"},
+    {key:"jeonnam_gwangju", en:"Jeonnam-Gwangju (전남광주)"},
     {key:"jeonbuk", en:"Jeonbuk (전북)"},
+    {key:"gyeongnam", en:"Gyeongnam (경남)"},
+    {key:"gyeongbuk", en:"Gyeongbuk (경북)"},
     {key:"gangwon", en:"Gangwon (강원)"},
-    {key:"jeju", en:"Jeju (제주)"},
-    {key:"other", en:"Other Regions (기타 지역)"}
+    {key:"jeju", en:"Jeju (제주)"}
   ];
 
   var DISTRICTS = {
     seoul: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"종로구", en:"Jongno-gu (종로구)"}, {key:"중구", en:"Jung-gu (중구)"}, {key:"용산구", en:"Yongsan-gu (용산구)"},
-      {key:"성동구", en:"Seongdong-gu (성동구)"}, {key:"광진구", en:"Gwangjin-gu (광진구)"}, {key:"동대문구", en:"Dongdaemun-gu (동대문구)"},
-      {key:"중랑구", en:"Jungnang-gu (중랑구)"}, {key:"성북구", en:"Seongbuk-gu (성북구)"}, {key:"강북구", en:"Gangbuk-gu (강북구)"},
-      {key:"도봉구", en:"Dobong-gu (도봉구)"}, {key:"노원구", en:"Nowon-gu (노원구)"}, {key:"은평구", en:"Eunpyeong-gu (은평구)"},
-      {key:"서대문구", en:"Seodaemun-gu (서대문구)"}, {key:"마포구", en:"Mapo-gu (마포구)"}, {key:"양천구", en:"Yangcheon-gu (양천구)"},
-      {key:"강서구", en:"Gangseo-gu (강서구)"}, {key:"구로구", en:"Guro-gu (구로구)"}, {key:"금천구", en:"Geumcheon-gu (금천구)"},
-      {key:"영등포구", en:"Yeongdeungpo-gu (영등포구)"}, {key:"동작구", en:"Dongjak-gu (동작구)"}, {key:"관악구", en:"Gwanak-gu (관악구)"},
-      {key:"서초구", en:"Seocho-gu (서초구)"}, {key:"강남구", en:"Gangnam-gu (강남구)"}, {key:"송파구", en:"Songpa-gu (송파구)"}, {key:"강동구", en:"Gangdong-gu (강동구)"}
+      {key:"gangnam-gu", en:"Gangnam-gu (강남구)"}, {key:"gangdong-gu", en:"Gangdong-gu (강동구)"}, {key:"gangbuk-gu", en:"Gangbuk-gu (강북구)"}, {key:"gangseo-gu", en:"Gangseo-gu (강서구)"}, {key:"gwanak-gu", en:"Gwanak-gu (관악구)"}, {key:"gwangjin-gu", en:"Gwangjin-gu (광진구)"}, {key:"guro-gu", en:"Guro-gu (구로구)"}, {key:"geumcheon-gu", en:"Geumcheon-gu (금천구)"}, {key:"nowon-gu", en:"Nowon-gu (노원구)"}, {key:"dobong-gu", en:"Dobong-gu (도봉구)"}, {key:"dongdaemun-gu", en:"Dongdaemun-gu (동대문구)"}, {key:"dongjak-gu", en:"Dongjak-gu (동작구)"}, {key:"mapo-gu", en:"Mapo-gu (마포구)"}, {key:"seodaemun-gu", en:"Seodaemun-gu (서대문구)"}, {key:"seocho-gu", en:"Seocho-gu (서초구)"}, {key:"seongdong-gu", en:"Seongdong-gu (성동구)"}, {key:"seongbuk-gu", en:"Seongbuk-gu (성북구)"}, {key:"songpa-gu", en:"Songpa-gu (송파구)"}, {key:"yangcheon-gu", en:"Yangcheon-gu (양천구)"}, {key:"yeongdeungpo-gu", en:"Yeongdeungpo-gu (영등포구)"}, {key:"yongsan-gu", en:"Yongsan-gu (용산구)"}, {key:"eunpyeong-gu", en:"Eunpyeong-gu (은평구)"}, {key:"jongno-gu", en:"Jongno-gu (종로구)"}, {key:"jung-gu", en:"Jung-gu (중구)"}, {key:"jungnang-gu", en:"Jungnang-gu (중랑구)"}
     ],
     gyeonggi: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"수원시", en:"Suwon-si (수원시)"}, {key:"성남시", en:"Seongnam-si (성남시)"}, {key:"고양시", en:"Goyang-si (고양시)"}, {key:"용인시", en:"Yongin-si (용인시)"},
-      {key:"부천시", en:"Bucheon-si (부천시)"}, {key:"안산시", en:"Ansan-si (안산시)"}, {key:"남양주시", en:"Namyangju-si (남양주시)"}, {key:"안양시", en:"Anyang-si (안양시)"},
-      {key:"평택시", en:"Pyeongtaek-si (평택시)"}, {key:"시흥시", en:"Siheung-si (시흥시)"}, {key:"파주시", en:"Paju-si (파주시)"}, {key:"의정부시", en:"Uijeongbu-si (의정부시)"},
-      {key:"김포시", en:"Gimpo-si (김포시)"}, {key:"광주시", en:"Gwangju-si (광주시)"}, {key:"광명시", en:"Gwangmyeong-si (광명시)"}, {key:"군포시", en:"Gunpo-si (군포시)"},
-      {key:"하남시", en:"Hanam-si (하남시)"}, {key:"오산시", en:"Osan-si (오산시)"}, {key:"양주시", en:"Yangju-si (양주시)"}, {key:"이천시", en:"Icheon-si (이천시)"},
-      {key:"구리시", en:"Guri-si (구리시)"}, {key:"안성시", en:"Anseong-si (안성시)"}, {key:"포천시", en:"Pocheon-si (포천시)"}, {key:"의왕시", en:"Uiwang-si (의왕시)"},
-      {key:"양평군", en:"Yangpyeong-gun (양평군)"}, {key:"여주시", en:"Yeoju-si (여주시)"}, {key:"동두천시", en:"Dongducheon-si (동두천시)"}, {key:"가평군", en:"Gapyeong-gun (가평군)"}, {key:"연천군", en:"Yeoncheon-gun (연천군)"}
+      {key:"gapyeong-gun", en:"Gapyeong-gun (가평군)"}, {key:"goyang-si", en:"Goyang-si (고양시)"}, {key:"gwacheon-si", en:"Gwacheon-si (과천시)"}, {key:"gwangmyeong-si", en:"Gwangmyeong-si (광명시)"}, {key:"gwangju-si", en:"Gwangju-si (광주시)"}, {key:"guri-si", en:"Guri-si (구리시)"}, {key:"gunpo-si", en:"Gunpo-si (군포시)"}, {key:"gimpo-si", en:"Gimpo-si (김포시)"}, {key:"namyangju-si", en:"Namyangju-si (남양주시)"}, {key:"dongducheon-si", en:"Dongducheon-si (동두천시)"}, {key:"bucheon-si", en:"Bucheon-si (부천시)"}, {key:"seongnam-si", en:"Seongnam-si (성남시)"}, {key:"suwon-si", en:"Suwon-si (수원시)"}, {key:"siheung-si", en:"Siheung-si (시흥시)"}, {key:"ansan-si", en:"Ansan-si (안산시)"}, {key:"anseong-si", en:"Anseong-si (안성시)"}, {key:"anyang-si", en:"Anyang-si (안양시)"}, {key:"yangju-si", en:"Yangju-si (양주시)"}, {key:"yangpyeong-gun", en:"Yangpyeong-gun (양평군)"}, {key:"yeoju-si", en:"Yeoju-si (여주시)"}, {key:"yeoncheon-gun", en:"Yeoncheon-gun (연천군)"}, {key:"osan-si", en:"Osan-si (오산시)"}, {key:"yongin-si", en:"Yongin-si (용인시)"}, {key:"uiwang-si", en:"Uiwang-si (의왕시)"}, {key:"uijeongbu-si", en:"Uijeongbu-si (의정부시)"}, {key:"icheon-si", en:"Icheon-si (이천시)"}, {key:"paju-si", en:"Paju-si (파주시)"}, {key:"pyeongtaek-si", en:"Pyeongtaek-si (평택시)"}, {key:"pocheon-si", en:"Pocheon-si (포천시)"}, {key:"hanam-si", en:"Hanam-si (하남시)"}, {key:"hwaseong-si", en:"Hwaseong-si (화성시)"}
     ],
     incheon: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"중구", en:"Jung-gu (중구)"}, {key:"동구", en:"Dong-gu (동구)"}, {key:"미추홀구", en:"Michuhol-gu (미추홀구)"}, {key:"연수구", en:"Yeonsu-gu (연수구)"},
-      {key:"남동구", en:"Namdong-gu (남동구)"}, {key:"부평구", en:"Bupyeong-gu (부평구)"}, {key:"계양구", en:"Gyeyang-gu (계양구)"}, {key:"서구", en:"Seo-gu (서구)"},
-      {key:"강화군", en:"Ganghwa-gun (강화군)"}, {key:"옹진군", en:"Ongjin-gun (옹진군)"}
+      {key:"geomdan-gu", en:"Geomdan-gu (검단구)"}, {key:"gyeyang-gu", en:"Gyeyang-gu (계양구)"}, {key:"namdong-gu", en:"Namdong-gu (남동구)"}, {key:"michuhol-gu", en:"Michuhol-gu (미추홀구)"}, {key:"bupyeong-gu", en:"Bupyeong-gu (부평구)"}, {key:"seohae-gu", en:"Seohae-gu (서해구)"}, {key:"yeonsu-gu", en:"Yeonsu-gu (연수구)"}, {key:"yeongjong-gu", en:"Yeongjong-gu (영종구)"}, {key:"ongjin-gun", en:"Ongjin-gun (옹진군)"}, {key:"jemulpo-gu", en:"Jemulpo-gu (제물포구)"}
     ],
     busan: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"중구", en:"Jung-gu (중구)"}, {key:"서구", en:"Seo-gu (서구)"}, {key:"동구", en:"Dong-gu (동구)"}, {key:"영도구", en:"Yeongdo-gu (영도구)"},
-      {key:"부산진구", en:"Busanjin-gu (부산진구)"}, {key:"동래구", en:"Dongnae-gu (동래구)"}, {key:"남구", en:"Nam-gu (남구)"}, {key:"북구", en:"Buk-gu (북구)"},
-      {key:"해운대구", en:"Haeundae-gu (해운대구)"}, {key:"사하구", en:"Saha-gu (사하구)"}, {key:"금정구", en:"Geumjeong-gu (금정구)"}, {key:"강서구", en:"Gangseo-gu (강서구)"},
-      {key:"연제구", en:"Yeonje-gu (연제구)"}, {key:"수영구", en:"Suyeong-gu (수영구)"}, {key:"사상구", en:"Sasang-gu (사상구)"}, {key:"기장군", en:"Gijang-gun (기장군)"}
+      {key:"gangseo-gu", en:"Gangseo-gu (강서구)"}, {key:"geumjeong-gu", en:"Geumjeong-gu (금정구)"}, {key:"gijang-gun", en:"Gijang-gun (기장군)"}, {key:"nam-gu", en:"Nam-gu (남구)"}, {key:"dong-gu", en:"Dong-gu (동구)"}, {key:"dongnae-gu", en:"Dongnae-gu (동래구)"}, {key:"busanjin-gu", en:"Busanjin-gu (부산진구)"}, {key:"buk-gu", en:"Buk-gu (북구)"}, {key:"sasang-gu", en:"Sasang-gu (사상구)"}, {key:"saha-gu", en:"Saha-gu (사하구)"}, {key:"seo-gu", en:"Seo-gu (서구)"}, {key:"suyeong-gu", en:"Suyeong-gu (수영구)"}, {key:"yeonje-gu", en:"Yeonje-gu (연제구)"}, {key:"yeongdo-gu", en:"Yeongdo-gu (영도구)"}, {key:"jung-gu", en:"Jung-gu (중구)"}, {key:"haeundae-gu", en:"Haeundae-gu (해운대구)"}
     ],
     daegu: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"중구", en:"Jung-gu (중구)"}, {key:"동구", en:"Dong-gu (동구)"}, {key:"서구", en:"Seo-gu (서구)"}, {key:"남구", en:"Nam-gu (남구)"},
-      {key:"북구", en:"Buk-gu (북구)"}, {key:"수성구", en:"Suseong-gu (수성구)"}, {key:"달서구", en:"Dalseo-gu (달서구)"}, {key:"달성군", en:"Dalseong-gun (달성군)"}, {key:"군위군", en:"Gunwi-gun (군위군)"}
-    ],
-    gwangju: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"동구", en:"Dong-gu (동구)"}, {key:"서구", en:"Seo-gu (서구)"}, {key:"남구", en:"Nam-gu (남구)"}, {key:"북구", en:"Buk-gu (북구)"}, {key:"광산구", en:"Gwangsan-gu (광산구)"}
-    ],
-    daejeon: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"동구", en:"Dong-gu (동구)"}, {key:"중구", en:"Jung-gu (중구)"}, {key:"서구", en:"Seo-gu (서구)"}, {key:"유성구", en:"Yuseong-gu (유성구)"}, {key:"대덕구", en:"Daedeok-gu (대덕구)"}
+      {key:"nam-gu", en:"Nam-gu (남구)"}, {key:"dalseo-gu", en:"Dalseo-gu (달서구)"}, {key:"dalseong-gun", en:"Dalseong-gun (달성군)"}, {key:"dong-gu", en:"Dong-gu (동구)"}, {key:"buk-gu", en:"Buk-gu (북구)"}, {key:"seo-gu", en:"Seo-gu (서구)"}, {key:"suseong-gu", en:"Suseong-gu (수성구)"}, {key:"jung-gu", en:"Jung-gu (중구)"}
     ],
     ulsan: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"중구", en:"Jung-gu (중구)"}, {key:"남구", en:"Nam-gu (남구)"}, {key:"동구", en:"Dong-gu (동구)"}, {key:"북구", en:"Buk-gu (북구)"}, {key:"울주군", en:"Ulju-gun (울주군)"}
+      {key:"nam-gu", en:"Nam-gu (남구)"}, {key:"dong-gu", en:"Dong-gu (동구)"}, {key:"buk-gu", en:"Buk-gu (북구)"}, {key:"ulju-gun", en:"Ulju-gun (울주군)"}, {key:"jung-gu", en:"Jung-gu (중구)"}
+    ],
+    daejeon: [
+      {key:"daedeok-gu", en:"Daedeok-gu (대덕구)"}, {key:"dong-gu", en:"Dong-gu (동구)"}, {key:"seo-gu", en:"Seo-gu (서구)"}, {key:"yuseong-gu", en:"Yuseong-gu (유성구)"}, {key:"jung-gu", en:"Jung-gu (중구)"}
     ],
     sejong: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"세종시", en:"Sejong City (세종시)"}
-    ],
-    gangwon: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"춘천시", en:"Chuncheon-si (춘천시)"}, {key:"원주시", en:"Wonju-si (원주시)"}, {key:"강릉시", en:"Gangneung-si (강릉시)"}, {key:"동해시", en:"Donghae-si (동해시)"},
-      {key:"태백시", en:"Taebaek-si (태백시)"}, {key:"속초시", en:"Sokcho-si (속초시)"}, {key:"삼척시", en:"Samcheok-si (삼척시)"}, {key:"홍천군", en:"Hongcheon-gun (홍천군)"}
-    ],
-    chungbuk: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"청주시", en:"Cheongju-si (청주시)"}, {key:"충주시", en:"Chungju-si (충주시)"}, {key:"제천시", en:"Jecheon-si (제천시)"}, {key:"보은군", en:"Boeun-gun (보은군)"}, {key:"옥천군", en:"Okcheon-gun (옥천군)"}, {key:"음성군", en:"Eumseong-gun (음성군)"}, {key:"진천군", en:"Jincheon-gun (진천군)"}
+      {key:"sejong-si", en:"Sejong-si (세종시)"}
     ],
     chungnam: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"천안시", en:"Cheonan-si (천안시)"}, {key:"공주시", en:"Gongju-si (공주시)"}, {key:"보령시", en:"Boryeong-si (보령시)"}, {key:"아산시", en:"Asan-si (아산시)"}, {key:"서산시", en:"Seosan-si (서산시)"}, {key:"논산시", en:"Nonsan-si (논산시)"}, {key:"당진시", en:"Dangjin-si (당진시)"}, {key:"홍성군", en:"Hongseong-gun (홍성군)"}
+      {key:"gyeryong-si", en:"Gyeryong-si (계룡시)"}, {key:"gongju-si", en:"Gongju-si (공주시)"}, {key:"geumsan-gun", en:"Geumsan-gun (금산군)"}, {key:"nonsan-si", en:"Nonsan-si (논산시)"}, {key:"dangjin-si", en:"Dangjin-si (당진시)"}, {key:"boryeong-si", en:"Boryeong-si (보령시)"}, {key:"buyeo-gun", en:"Buyeo-gun (부여군)"}, {key:"seosan-si", en:"Seosan-si (서산시)"}, {key:"seocheon-gun", en:"Seocheon-gun (서천군)"}, {key:"asan-si", en:"Asan-si (아산시)"}, {key:"yesan-gun", en:"Yesan-gun (예산군)"}, {key:"cheonan-si", en:"Cheonan-si (천안시)"}, {key:"cheongyang-gun", en:"Cheongyang-gun (청양군)"}, {key:"taean-gun", en:"Taean-gun (태안군)"}, {key:"hongseong-gun", en:"Hongseong-gun (홍성군)"}
+    ],
+    chungbuk: [
+      {key:"goesan-gun", en:"Goesan-gun (괴산군)"}, {key:"danyang-gun", en:"Danyang-gun (단양군)"}, {key:"boeun-gun", en:"Boeun-gun (보은군)"}, {key:"yeongdong-gun", en:"Yeongdong-gun (영동군)"}, {key:"okcheon-gun", en:"Okcheon-gun (옥천군)"}, {key:"eumseong-gun", en:"Eumseong-gun (음성군)"}, {key:"jecheon-si", en:"Jecheon-si (제천시)"}, {key:"jeungpyeong-gun", en:"Jeungpyeong-gun (증평군)"}, {key:"jincheon-gun", en:"Jincheon-gun (진천군)"}, {key:"cheongju-si", en:"Cheongju-si (청주시)"}, {key:"chungju-si", en:"Chungju-si (충주시)"}
+    ],
+    jeonnam_gwangju: [
+      {key:"gangjin-gun", en:"Gangjin-gun (강진군)"}, {key:"goheung-gun", en:"Goheung-gun (고흥군)"}, {key:"gokseong-gun", en:"Gokseong-gun (곡성군)"}, {key:"gwangsan-gu", en:"Gwangsan-gu (광산구)"}, {key:"gwangyang-si", en:"Gwangyang-si (광양시)"}, {key:"gurye-gun", en:"Gurye-gun (구례군)"}, {key:"naju-si", en:"Naju-si (나주시)"}, {key:"nam-gu", en:"Nam-gu (남구)"}, {key:"damyang-gun", en:"Damyang-gun (담양군)"}, {key:"dong-gu", en:"Dong-gu (동구)"}, {key:"mokpo-si", en:"Mokpo-si (목포시)"}, {key:"muan-gun", en:"Muan-gun (무안군)"}, {key:"boseong-gun", en:"Boseong-gun (보성군)"}, {key:"buk-gu", en:"Buk-gu (북구)"}, {key:"seo-gu", en:"Seo-gu (서구)"}, {key:"suncheon-si", en:"Suncheon-si (순천시)"}, {key:"sinan-gun", en:"Sinan-gun (신안군)"}, {key:"yeosu-si", en:"Yeosu-si (여수시)"}, {key:"yeonggwang-gun", en:"Yeonggwang-gun (영광군)"}, {key:"yeongam-gun", en:"Yeongam-gun (영암군)"}, {key:"wando-gun", en:"Wando-gun (완도군)"}, {key:"jangseong-gun", en:"Jangseong-gun (장성군)"}, {key:"jangheung-gun", en:"Jangheung-gun (장흥군)"}, {key:"jindo-gun", en:"Jindo-gun (진도군)"}, {key:"hampyeong-gun", en:"Hampyeong-gun (함평군)"}, {key:"haenam-gun", en:"Haenam-gun (해남군)"}, {key:"hwasun-gun", en:"Hwasun-gun (화순군)"}
     ],
     jeonbuk: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"전주시", en:"Jeonju-si (전주시)"}, {key:"군산시", en:"Gunsan-si (군산시)"}, {key:"익산시", en:"Iksan-si (익산시)"}, {key:"정읍시", en:"Jeongeup-si (정읍시)"}, {key:"남원시", en:"Namwon-si (남원시)"}, {key:"김제시", en:"Gimje-si (김제시)"}, {key:"완주군", en:"Wanju-gun (완주군)"}
-    ],
-    jeonnam: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"목포시", en:"Mokpo-si (목포시)"}, {key:"여수시", en:"Yeosu-si (여수시)"}, {key:"순천시", en:"Suncheon-si (순천시)"}, {key:"나주시", en:"Naju-si (나주시)"}, {key:"광양시", en:"Gwangyang-si (광양시)"}, {key:"무안군", en:"Muan-gun (무안군)"}, {key:"영암군", en:"Yeongam-gun (영암군)"}
-    ],
-    gyeongbuk: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"포항시", en:"Pohang-si (포항시)"}, {key:"경주시", en:"Gyeongju-si (경주시)"}, {key:"김천시", en:"Gimcheon-si (김천시)"}, {key:"안동시", en:"Andong-si (안동시)"}, {key:"구미시", en:"Gumi-si (구미시)"}, {key:"영주시", en:"Yeongju-si (영주시)"}, {key:"영천시", en:"Yeongcheon-si (영천시)"}, {key:"상주시", en:"Sangju-si (상주시)"}, {key:"문경시", en:"Mungyeong-si (문경시)"}, {key:"경산시", en:"Gyeongsan-si (경산시)"}, {key:"칠곡군", en:"Chilgok-gun (칠곡군)"}
+      {key:"gochang-gun", en:"Gochang-gun (고창군)"}, {key:"gunsan-si", en:"Gunsan-si (군산시)"}, {key:"gimje-si", en:"Gimje-si (김제시)"}, {key:"namwon-si", en:"Namwon-si (남원시)"}, {key:"muju-gun", en:"Muju-gun (무주군)"}, {key:"buan-gun", en:"Buan-gun (부안군)"}, {key:"sunchang-gun", en:"Sunchang-gun (순창군)"}, {key:"wanju-gun", en:"Wanju-gun (완주군)"}, {key:"iksan-si", en:"Iksan-si (익산시)"}, {key:"imsil-gun", en:"Imsil-gun (임실군)"}, {key:"jangsu-gun", en:"Jangsu-gun (장수군)"}, {key:"jeonju-si", en:"Jeonju-si (전주시)"}, {key:"jeongeup-si", en:"Jeongeup-si (정읍시)"}, {key:"jinan-gun", en:"Jinan-gun (진안군)"}
     ],
     gyeongnam: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"창원시", en:"Changwon-si (창원시)"}, {key:"진주시", en:"Jinju-si (진주시)"}, {key:"통영시", en:"Tongyeong-si (통영시)"}, {key:"사천시", en:"Sacheon-si (사천시)"}, {key:"김해시", en:"Gimhae-si (김해시)"}, {key:"밀양시", en:"Miryang-si (밀양시)"}, {key:"거제시", en:"Geoje-si (거제시)"}, {key:"양산시", en:"Yangsan-si (양산시)"}, {key:"함안군", en:"Haman-gun (함안군)"}, {key:"창녕군", en:"Changnyeong-gun (창녕군)"}
+      {key:"geoje-si", en:"Geoje-si (거제시)"}, {key:"geochang-gun", en:"Geochang-gun (거창군)"}, {key:"goseong-gun", en:"Goseong-gun (고성군)"}, {key:"gimhae-si", en:"Gimhae-si (김해시)"}, {key:"namhae-gun", en:"Namhae-gun (남해군)"}, {key:"miryang-si", en:"Miryang-si (밀양시)"}, {key:"sacheon-si", en:"Sacheon-si (사천시)"}, {key:"sancheong-gun", en:"Sancheong-gun (산청군)"}, {key:"yangsan-si", en:"Yangsan-si (양산시)"}, {key:"uiryeong-gun", en:"Uiryeong-gun (의령군)"}, {key:"jinju-si", en:"Jinju-si (진주시)"}, {key:"changnyeong-gun", en:"Changnyeong-gun (창녕군)"}, {key:"changwon-si", en:"Changwon-si (창원시)"}, {key:"tongyeong-si", en:"Tongyeong-si (통영시)"}, {key:"hadong-gun", en:"Hadong-gun (하동군)"}, {key:"haman-gun", en:"Haman-gun (함안군)"}, {key:"hamyang-gun", en:"Hamyang-gun (함양군)"}, {key:"hapcheon-gun", en:"Hapcheon-gun (합천군)"}
+    ],
+    gyeongbuk: [
+      {key:"gyeongsan-si", en:"Gyeongsan-si (경산시)"}, {key:"gyeongju-si", en:"Gyeongju-si (경주시)"}, {key:"goryeong-gun", en:"Goryeong-gun (고령군)"}, {key:"gumi-si", en:"Gumi-si (구미시)"}, {key:"gimcheon-si", en:"Gimcheon-si (김천시)"}, {key:"mungyeong-si", en:"Mungyeong-si (문경시)"}, {key:"bonghwa-gun", en:"Bonghwa-gun (봉화군)"}, {key:"sangju-si", en:"Sangju-si (상주시)"}, {key:"seongju-gun", en:"Seongju-gun (성주군)"}, {key:"andong-si", en:"Andong-si (안동시)"}, {key:"yeongdeok-gun", en:"Yeongdeok-gun (영덕군)"}, {key:"yeongyang-gun", en:"Yeongyang-gun (영양군)"}, {key:"yeongju-si", en:"Yeongju-si (영주시)"}, {key:"yeongcheon-si", en:"Yeongcheon-si (영천시)"}, {key:"yecheon-gun", en:"Yecheon-gun (예천군)"}, {key:"ulleung-gun", en:"Ulleung-gun (울릉군)"}, {key:"uljin-gun", en:"Uljin-gun (울진군)"}, {key:"uiseong-gun", en:"Uiseong-gun (의성군)"}, {key:"cheongdo-gun", en:"Cheongdo-gun (청도군)"}, {key:"cheongsong-gun", en:"Cheongsong-gun (청송군)"}, {key:"chilgok-gun", en:"Chilgok-gun (칠곡군)"}, {key:"pohang-si", en:"Pohang-si (포항시)"}
+    ],
+    gangwon: [
+      {key:"gangneung-si", en:"Gangneung-si (강릉시)"}, {key:"goseong-gun", en:"Goseong-gun (고성군)"}, {key:"donghae-si", en:"Donghae-si (동해시)"}, {key:"samcheok-si", en:"Samcheok-si (삼척시)"}, {key:"sokcho-si", en:"Sokcho-si (속초시)"}, {key:"yanggu-gun", en:"Yanggu-gun (양구군)"}, {key:"yangyang-gun", en:"Yangyang-gun (양양군)"}, {key:"yeongwol-gun", en:"Yeongwol-gun (영월군)"}, {key:"wonju-si", en:"Wonju-si (원주시)"}, {key:"inje-gun", en:"Inje-gun (인제군)"}, {key:"jeongseon-gun", en:"Jeongseon-gun (정선군)"}, {key:"cheorwon-gun", en:"Cheorwon-gun (철원군)"}, {key:"chuncheon-si", en:"Chuncheon-si (춘천시)"}, {key:"taebaek-si", en:"Taebaek-si (태백시)"}, {key:"pyeongchang-gun", en:"Pyeongchang-gun (평창군)"}, {key:"hongcheon-gun", en:"Hongcheon-gun (홍천군)"}, {key:"hwacheon-gun", en:"Hwacheon-gun (화천군)"}, {key:"hoengseong-gun", en:"Hoengseong-gun (횡성군)"}
     ],
     jeju: [
-      {key:"전체", en:"All Districts (전체)"},
-      {key:"제주시", en:"Jeju-si (제주시)"}, {key:"서귀포시", en:"Seogwipo-si (서귀포시)"}
+      {key:"seogwipo-si", en:"Seogwipo-si (서귀포시)"}, {key:"jeju-si", en:"Jeju-si (제주시)"}
     ]
   };
 
@@ -726,32 +684,49 @@
   var currentPage = 1;
   var ITEMS_PER_PAGE = 8;
 
+  // 데이터는 data/split/{지역}/{행정구}/{업태}.json 로 쪼개져 있다.
+  // 시도 전체를 한 번에 받으면 20MB가 넘어 모바일이 멈추므로,
+  // 행정구와 업태가 모두 정해진 뒤에 해당 파일만 받는다.
+  var CATEGORY_KEYS = ["hospital","beauty","mobile","restaurant","government","support","finance","pharmacy"];
+  var PLACE_CACHE = {};   // "지역/구/업태" -> places[]
+  var loadToken = 0;      // 늦게 도착한 응답이 화면을 덮어쓰지 않게
+
+  function dataBase() {
+    return window.location.pathname.endsWith("/link") ? "link/data/split/" : "data/split/";
+  }
+
   function loadRegionChunk(regId) {
+    // 시도를 고르는 시점에는 아무것도 받지 않는다. 행정구 선택 화면만 그린다.
     selectedDistrict = "";
     selectedCategory = "";
     currentPage = 1;
+    currentRegionPlaces = [];
+    renderFilterControlsAndPlaces();
+  }
 
-    if (REGION_CACHE[regId]) {
-      currentRegionPlaces = REGION_CACHE[regId];
-      renderFilterControlsAndPlaces();
-      return;
-    }
+  function loadPlaces(regId, distKey, catKey, done) {
+    var cats = (catKey === "all") ? CATEGORY_KEYS : [catKey];
+    var myToken = ++loadToken;
+    var base = dataBase() + regId + "/" + distKey + "/";
 
-    var chunkUrl = "data/region_" + regId + ".json";
-    if (window.location.pathname.endsWith("/link")) {
-      chunkUrl = "link/data/region_" + regId + ".json";
-    }
-
-    fetch(chunkUrl)
-      .then(function(r){ return r.json(); })
-      .then(function(d){
-        REGION_CACHE[regId] = d.places || [];
-        currentRegionPlaces = REGION_CACHE[regId];
-        renderFilterControlsAndPlaces();
-      })
-      .catch(function(e){
-        console.warn("Region chunk load failed:", e);
-      });
+    Promise.all(cats.map(function(c){
+      var key = regId + "/" + distKey + "/" + c;
+      if (PLACE_CACHE[key]) return Promise.resolve(PLACE_CACHE[key]);
+      return fetch(base + c + ".json")
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(d){
+          var arr = (d && d.places) || [];
+          PLACE_CACHE[key] = arr;
+          return arr;
+        })
+        .catch(function(){ PLACE_CACHE[key] = []; return []; });
+    })).then(function(lists){
+      if (myToken !== loadToken) return;   // 그 사이 다른 선택이 들어왔다
+      var all = [];
+      for (var i = 0; i < lists.length; i++) all = all.concat(lists[i]);
+      currentRegionPlaces = all;
+      done && done();
+    });
   }
 
   function renderFilterControlsAndPlaces() {
@@ -782,15 +757,18 @@
 
     var catsHtml = "";
     if (selectedDistrict !== "") {
+      // 데이터 실측 건수 순. pharmacy 는 데이터가 있는데 목록에 없어서 추가했다.
+      // "전체"는 8개 파일을 동시에 받는다. 큰 시(고양시 3MB)에서는 모바일이 느려지고
+      // 결과도 수천 건이라 쓸모가 없다. 업태를 고르게 한다.
       var catMap = [
-        { key: "all", label: "All Categories (전체)" },
         { key: "hospital", label: "Medical & Hospital (병원)" },
+        { key: "pharmacy", label: "Pharmacy (약국)" },
         { key: "beauty", label: "Beauty & Hair (미용)" },
+        { key: "finance", label: "Bank & Finance (은행/금융)" },
         { key: "mobile", label: "Mobile & SIM Card (휴대폰)" },
         { key: "restaurant", label: "Food & Grocery (식당/마트)" },
         { key: "government", label: "Immigration & Gov (출입국/관공서)" },
-        { key: "support", label: "Foreigner Support Center (외국인지원센터)" },
-        { key: "finance", label: "Bank & Finance (은행/금융)" }
+        { key: "support", label: "Foreigner Support Center (외국인지원센터)" }
       ];
 
       catsHtml = '<div style="margin: 0 0 20px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
@@ -806,15 +784,8 @@
 
     var cardsHtml = "";
     if (selectedDistrict !== "" && selectedCategory !== "") {
-      var filteredPlaces = currentRegionPlaces.filter(function(p){
-        if (selectedDistrict !== "전체" && selectedDistrict !== "all") {
-          if ((p.address || "").indexOf(selectedDistrict) === -1) return false;
-        }
-        if (selectedCategory !== "all") {
-          if (p.category !== selectedCategory) return false;
-        }
-        return true;
-      });
+      // 받아온 파일이 이미 해당 행정구·업태다. 별도 필터가 필요 없다.
+      var filteredPlaces = currentRegionPlaces;
 
       var totalPages = Math.ceil(filteredPlaces.length / ITEMS_PER_PAGE);
       if (currentPage > totalPages) currentPage = 1;
@@ -873,15 +844,26 @@
 
   function setDistrictFilter(dist) {
     selectedDistrict = dist;
-    selectedCategory = "";
+    selectedCategory = "";   // 구가 바뀌면 업태를 다시 고른다
     currentPage = 1;
+    currentRegionPlaces = [];
     renderFilterControlsAndPlaces();
   }
 
   function setCategoryFilter(cat) {
     selectedCategory = cat;
     currentPage = 1;
-    renderFilterControlsAndPlaces();
+    if (!cat || !selectedDistrict) { renderFilterControlsAndPlaces(); return; }
+
+    // 이 시점에 비로소 파일을 받는다
+    var grid = document.getElementById("localGrid");
+    if (grid) {
+      var hold = grid.innerHTML;
+      grid.innerHTML = hold + '<div id="localLoading" style="text-align:center; padding:26px 20px; font-size:14px; color:#64748b;">Loading…</div>';
+    }
+    loadPlaces(actRegion, selectedDistrict, cat, function(){
+      renderFilterControlsAndPlaces();
+    });
   }
 
   function changeLocalPage(page) {

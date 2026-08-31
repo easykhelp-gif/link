@@ -1,0 +1,10 @@
+{
+  "region_id": "sejong",
+  "total_places": 1565,
+  "districts": [
+    {
+      "name": "세종시",
+      "count": 1565
+    }
+  ]
+}
