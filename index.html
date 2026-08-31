@@ -689,10 +689,25 @@
   // 행정구와 업태가 모두 정해진 뒤에 해당 파일만 받는다.
   var CATEGORY_KEYS = ["hospital","beauty","mobile","restaurant","government","support","finance","pharmacy"];
   var PLACE_CACHE = {};   // "지역/구/업태" -> places[]
+  var SIZE_INDEX = null;  // 행정구별 전체 업태 합계(KB). "전체" 노출 판단에 쓴다
   var loadToken = 0;      // 늦게 도착한 응답이 화면을 덮어쓰지 않게
+  var ALL_CAT_LIMIT_KB = 1500;
 
   function dataBase() {
     return window.location.pathname.endsWith("/link") ? "link/data/split/" : "data/split/";
+  }
+
+  fetch(dataBase() + "_sizeindex.json")
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){ SIZE_INDEX = d || {}; })
+    .catch(function(){ SIZE_INDEX = {}; });
+
+  // 해당 행정구가 "전체 업태"를 감당할 만한 크기인가.
+  // 강남구 2.2MB · 고양시 3.3MB 같은 곳은 8개 파일을 동시에 받으면 모바일이 느려진다.
+  function allowAllCategories(reg, dist) {
+    if (!SIZE_INDEX || !SIZE_INDEX[reg]) return false;
+    var kb = SIZE_INDEX[reg][dist];
+    return typeof kb === "number" && kb <= ALL_CAT_LIMIT_KB;
   }
 
   function loadRegionChunk(regId) {
@@ -758,9 +773,10 @@
     var catsHtml = "";
     if (selectedDistrict !== "") {
       // 데이터 실측 건수 순. pharmacy 는 데이터가 있는데 목록에 없어서 추가했다.
-      // "전체"는 8개 파일을 동시에 받는다. 큰 시(고양시 3MB)에서는 모바일이 느려지고
-      // 결과도 수천 건이라 쓸모가 없다. 업태를 고르게 한다.
-      var catMap = [
+      // 큰 행정구(1.5MB 초과)에서는 "전체"를 빼서 모바일 부하를 막는다.
+      var catMap = [];
+      if (allowAllCategories(actRegion, selectedDistrict)) catMap.push({ key: "all", label: "All Categories (전체)" });
+      catMap = catMap.concat([
         { key: "hospital", label: "Medical & Hospital (병원)" },
         { key: "pharmacy", label: "Pharmacy (약국)" },
         { key: "beauty", label: "Beauty & Hair (미용)" },
@@ -769,7 +785,7 @@
         { key: "restaurant", label: "Food & Grocery (식당/마트)" },
         { key: "government", label: "Immigration & Gov (출입국/관공서)" },
         { key: "support", label: "Foreigner Support Center (외국인지원센터)" }
-      ];
+      ]);
 
       catsHtml = '<div style="margin: 0 0 20px; display:flex; flex-direction:column; gap:6px; width:100%; box-sizing:border-box;">'
         + '<label style="font-size:13px; font-weight:800; color:var(--ink);">Select Category</label>'
@@ -798,7 +814,11 @@
           var phoneStr = x.phone ? ' · Tel ' + x.phone : '';
           var cleanNameKo = (x.name_ko || "").replace(/\uFFFD/g, '');
           var cleanNameEn = (x.name_en || "").replace(/\uFFFD/g, '');
-          var primaryTitle = cleanNameEn || cleanNameKo;
+          // \uB85C\uB9C8\uC790\uB97C \uC55E\uC5D0, \uD55C\uAE00\uC740 \uC791\uAC8C \uBCD1\uAE30\uD55C\uB2E4.
+          // \uC77D\uC744 \uC218 \uC788\uC5B4\uC57C \uD558\uACE0, \uBCD1\uC6D0 \uC811\uC218\uB300\uC5D0\uC11C \uD55C\uAE00\uC744 \uBCF4\uC5EC\uC904 \uC218\uB3C4 \uC788\uC5B4\uC57C \uD55C\uB2E4.
+          var primaryTitle = cleanNameEn
+            ? cleanNameEn + (cleanNameKo ? ' <span style="font-weight:600; font-size:0.85em; color:#94a3b8;">' + cleanNameKo + '</span>' : '')
+            : cleanNameKo;
 
           var searchQuery = (cleanNameKo ? cleanNameKo + ' ' : (cleanNameEn ? cleanNameEn + ' ' : '')) + (x.address || '');
           var gMapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(searchQuery.trim());
