@@ -1,5 +1,277 @@
 [
   {
+    "id": "hotnews_en_93e4d4ef",
+    "date": "2026-08-31",
+    "ts": 1788143552000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083102500001300_P2.jpg",
+    "title": "Seoul shares trim losses late Mon. morning amid tech sell-off",
+    "link": "https://en.yna.co.kr/view/AEN20260831004500320"
+  },
+  {
+    "id": "hotnews_en_69da674a",
+    "date": "2026-08-31",
+    "ts": 1788143349000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831004400315_01_i_P2.jpg",
+    "title": "S. Korea not to attend Russia's economic forum this week",
+    "link": "https://en.yna.co.kr/view/AEN20260831004400315"
+  },
+  {
+    "id": "hotnews_en_ddab5c50",
+    "date": "2026-08-31",
+    "ts": 1788142921000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914110001300_P2.jpg",
+    "title": "GS Retail fined 12.8 bln won over personal data leak of 1.66 mln customers",
+    "link": "https://en.yna.co.kr/view/AEN20260831003900315"
+  },
+  {
+    "id": "hotnews_en_00c048f8",
+    "date": "2026-08-31",
+    "ts": 1788142709000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003800315_01_i_P2.jpg",
+    "title": "Korean films set for back-to-back release after 'The Odyssey,' 'Spider-Man' hype",
+    "link": "https://en.yna.co.kr/view/AEN20260831003800315"
+  },
+  {
+    "id": "hotnews_en_87cc444c",
+    "date": "2026-08-31",
+    "ts": 1788142612000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831004100315_01_i_P2.jpg",
+    "title": "Prosecution-police team wraps up probe into political-religious collusion",
+    "link": "https://en.yna.co.kr/view/AEN20260831004100315"
+  },
+  {
+    "id": "hotnews_en_83c9ed1e",
+    "date": "2026-08-31",
+    "ts": 1788142036000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/01/PYH2025100111250006300_P2.jpg",
+    "title": "Hanwha Aerospace signs deal to export K9 howitzers to Spain",
+    "link": "https://en.yna.co.kr/view/AEN20260831004000320"
+  },
+  {
+    "id": "hotnews_en_87c016a4",
+    "date": "2026-08-31",
+    "ts": 1788141608000,
+    "image": "https://img.yna.co.kr/photo/cms/2019/08/29/31/PCM20190829000231990_P2.jpg",
+    "title": "Tax revenue up 8.4 tln won in July on higher wages, brisk stock trading",
+    "link": "https://en.yna.co.kr/view/AEN20260831002300320"
+  },
+  {
+    "id": "hotnews_en_6ea2dc1a",
+    "date": "2026-08-31",
+    "ts": 1788141388000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831002451320_01_i_P2.jpg",
+    "title": "(LEAD) S. Korea, U.S. discuss energy cooperation amid heightened uncertainty",
+    "link": "https://en.yna.co.kr/view/AEN20260831002451320"
+  },
+  {
+    "id": "hotnews_en_fa2f9f8c",
+    "date": "2026-08-31",
+    "ts": 1788140519000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003600315_01_i_P2.jpg",
+    "title": "DAPA completes development of armored medical evacuation vehicle",
+    "link": "https://en.yna.co.kr/view/AEN20260831003600315"
+  },
+  {
+    "id": "hotnews_en_24a03e24",
+    "date": "2026-08-31",
+    "ts": 1788139971000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003500320_01_i_P2.jpg",
+    "title": "SK On signs ESS battery deal with U.S. firm NeoVolta Power",
+    "link": "https://en.yna.co.kr/view/AEN20260831003500320"
+  },
+  {
+    "id": "hotnews_en_275221b0",
+    "date": "2026-08-31",
+    "ts": 1788139743000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003700315_03_i_P2.jpg",
+    "title": "NCT to mark 10th anniv. with fountain show, fashion exhibit in Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20260831003700315"
+  },
+  {
+    "id": "hotnews_en_d0d3255e",
+    "date": "2026-08-31",
+    "ts": 1788138314000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003200320_01_i_P2.jpg",
+    "title": "Korea Exchange to hold investor road show in New York",
+    "link": "https://en.yna.co.kr/view/AEN20260831003200320"
+  },
+  {
+    "id": "hotnews_en_579befb9",
+    "date": "2026-08-31",
+    "ts": 1788138163000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003300320_02_i_P2.jpg",
+    "title": "T'way Air to operate as Trinity Airways from Sept. 10",
+    "link": "https://en.yna.co.kr/view/AEN20260831003300320"
+  },
+  {
+    "id": "hotnews_en_f0420a7d",
+    "date": "2026-08-31",
+    "ts": 1788137894000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831003400315_03_i_P2.jpg",
+    "title": "Girls' Generation's HRS unit to drop debut single",
+    "link": "https://en.yna.co.kr/view/AEN20260831003400315"
+  },
+  {
+    "id": "hotnews_en_93e369f4",
+    "date": "2026-08-31",
+    "ts": 1788137696000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083101680001301_P2.jpg",
+    "title": "Land minister nominee vows close consultations with Seoul on housing supply",
+    "link": "https://en.yna.co.kr/view/AEN20260831003100320"
+  },
+  {
+    "id": "hotnews_en_47dddb4c",
+    "date": "2026-08-31",
+    "ts": 1788137576000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082709420001300_P2.jpg",
+    "title": "(2nd LD) Industrial output flat in July; retail sales down, facility investment up",
+    "link": "https://en.yna.co.kr/view/AEN20260831001152320"
+  },
+  {
+    "id": "hotnews_en_8f414706",
+    "date": "2026-08-31",
+    "ts": 1788137345000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081402400001300_P2.jpg",
+    "title": "Gov't launches 2nd half program to recover remains of fallen Korean War soldiers",
+    "link": "https://en.yna.co.kr/view/AEN20260831002900315"
+  },
+  {
+    "id": "hotnews_en_b65262ad",
+    "date": "2026-08-31",
+    "ts": 1788136382000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083102160001300_P2.jpg",
+    "title": "(LEAD) Seoul shares open sharply lower on Fed chief's hawkish comments",
+    "link": "https://en.yna.co.kr/view/AEN20260831001851320"
+  },
+  {
+    "id": "hotnews_en_74fb7339",
+    "date": "2026-08-31",
+    "ts": 1788136273000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/08/11/PAP20260811120401009_P2.jpg",
+    "title": "Song Sung-mun marks MLB return with RBI for Padres",
+    "link": "https://en.yna.co.kr/view/AEN20260831002800315"
+  },
+  {
+    "id": "hotnews_en_7f8d603e",
+    "date": "2026-08-31",
+    "ts": 1788136200000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/29/PYH2026062906490001300_P2.jpg",
+    "title": "S. Korea, U.S. discuss energy cooperation amid heightened uncertainty",
+    "link": "https://en.yna.co.kr/view/AEN20260831002400320"
+  },
+  {
+    "id": "hotnews_en_8fa6a53f",
+    "date": "2026-08-31",
+    "ts": 1788136160000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831002500315_02_i_P2.jpg",
+    "title": "Late U.S. captain named Korean War hero of Sept.",
+    "link": "https://en.yna.co.kr/view/AEN20260831002500315"
+  },
+  {
+    "id": "hotnews_en_64be0101",
+    "date": "2026-08-31",
+    "ts": 1788136147000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831002700320_01_i_P2.jpg",
+    "title": "Samsung Heavy wins 444.5 bln-won deal for 2 container ships",
+    "link": "https://en.yna.co.kr/view/AEN20260831002700320"
+  },
+  {
+    "id": "hotnews_en_97d3fffc",
+    "date": "2026-08-31",
+    "ts": 1788134674000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082811550001300_P2.jpg",
+    "title": "Seoul shares open sharply lower on Fed chief's hawkish comments",
+    "link": "https://en.yna.co.kr/view/AEN20260831001800320"
+  },
+  {
+    "id": "hotnews_en_d3e33876",
+    "date": "2026-08-31",
+    "ts": 1788134582000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831001900315_01_i_P2.jpg",
+    "title": "KBO's Seoul rivals set for final 3-game series at historic stadium",
+    "link": "https://en.yna.co.kr/view/AEN20260831001900315"
+  },
+  {
+    "id": "hotnews_en_1e0e18e0",
+    "date": "2026-08-31",
+    "ts": 1788134502000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Seoul shares open 2.58 pct lower on Fed chief's hawkish comments",
+    "link": "https://en.yna.co.kr/view/AEN20260831001700320"
+  },
+  {
+    "id": "hotnews_en_efd71255",
+    "date": "2026-08-30",
+    "ts": 1788134158000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/31/AEN20260831001600315_01_i_P2.jpg",
+    "title": "Court set to rule on Unification Church leader's bribery case involving ex-first lady",
+    "link": "https://en.yna.co.kr/view/AEN20260831001600315"
+  },
+  {
+    "id": "hotnews_en_b61df4ee",
+    "date": "2026-08-30",
+    "ts": 1788133534000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082810120001300_P2.jpg",
+    "title": "Lee's approval rating falls below 40 pct for 1st time: poll",
+    "link": "https://en.yna.co.kr/view/AEN20260831001500315"
+  },
+  {
+    "id": "hotnews_en_255a507d",
+    "date": "2026-08-30",
+    "ts": 1788133135000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/08/30/PAP20260830081001009_P2.jpg",
+    "title": "(LEAD) 2 S. Koreans tie for 14th at PGA Tour playoff finale",
+    "link": "https://en.yna.co.kr/view/AEN20260831001251315"
+  },
+  {
+    "id": "hotnews_en_e937f794",
+    "date": "2026-08-30",
+    "ts": 1788132976000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082808040001300_P2.jpg",
+    "title": "'The Odyssey' becomes most-watched foreign film in S. Korea this year",
+    "link": "https://en.yna.co.kr/view/AEN20260831001300315"
+  },
+  {
+    "id": "hotnews_en_20b59838",
+    "date": "2026-08-30",
+    "ts": 1788131851000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/30/PYH2026083004780001300_P2.jpg",
+    "title": "(LEAD) Industrial output flat in July; retail sales down, facility investment up",
+    "link": "https://en.yna.co.kr/view/AEN20260831001151320"
+  },
+  {
+    "id": "hotnews_en_2315e7a2",
+    "date": "2026-08-30",
+    "ts": 1788130805000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/30/PYH2026083004780001300_P2.jpg",
+    "title": "Industrial output flat in July; retail sales down, facility investment up",
+    "link": "https://en.yna.co.kr/view/AEN20260831001100320"
+  },
+  {
+    "id": "hotnews_en_e8f6cc79",
+    "date": "2026-08-30",
+    "ts": 1788130801000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Industrial output flat in July; retail sales down, facility investment up",
+    "link": "https://en.yna.co.kr/view/AEN20260831001000320"
+  },
+  {
+    "id": "hotnews_en_09bc509f",
+    "date": "2026-08-30",
+    "ts": 1788130623000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/08/30/PAP20260830081001009_P2.jpg",
+    "title": "2 S. Koreans tie for 14th at PGA Tour playoff finale",
+    "link": "https://en.yna.co.kr/view/AEN20260831001200315"
+  },
+  {
+    "id": "hotnews_en_9242fa8b",
+    "date": "2026-08-30",
+    "ts": 1788128637000,
+    "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/31/PGT20260831103601009_P2.jpg",
+    "title": "Kim Hyo-joo finishes runner-up on LPGA Tour",
+    "link": "https://en.yna.co.kr/view/AEN20260831000900315"
+  },
+  {
     "id": "hotnews_en_04ec92a4",
     "date": "2026-08-30",
     "ts": 1788127111000,
@@ -126,277 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830002200315_01_i_P2.jpg",
     "title": "(profile) Ambassador to Saudi Arabia tapped as new defense minister nominee",
     "link": "https://en.yna.co.kr/view/AEN20260830002200315"
-  },
-  {
-    "id": "hotnews_en_ad553a53",
-    "date": "2026-08-30",
-    "ts": 1788066036000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260830000400315"
-  },
-  {
-    "id": "hotnews_en_aae62351",
-    "date": "2026-08-30",
-    "ts": 1788065953000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830002100320_02_i_P2.jpg",
-    "title": "(profile) Climate lawyer tapped as new SME minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830002100320"
-  },
-  {
-    "id": "hotnews_en_d9bd192c",
-    "date": "2026-08-30",
-    "ts": 1788064172000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/03/PYH2026080316160001300_P2.jpg",
-    "title": "(profile) Macroeconomic expert tapped as new finance minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830002000320"
-  },
-  {
-    "id": "hotnews_en_c491f8fd",
-    "date": "2026-08-30",
-    "ts": 1788063723000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001652315_02_i_P2.jpg",
-    "title": "(2nd LD) Lee nominates 6 ministers in major Cabinet reshuffle, including finance minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001652315"
-  },
-  {
-    "id": "hotnews_en_8e463a71",
-    "date": "2026-08-30",
-    "ts": 1788062929000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/08/PYH2026070810000001300_P2.jpg",
-    "title": "(profile) Seasoned gov't official in housing, transport policy named new land minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001900320"
-  },
-  {
-    "id": "hotnews_en_54bdb152",
-    "date": "2026-08-30",
-    "ts": 1788061927000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001651315_02_i_P2.jpg",
-    "title": "(LEAD) Lee nominates 6 ministers in major Cabinet reshuffle, including finance minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001651315"
-  },
-  {
-    "id": "hotnews_en_39c4347c",
-    "date": "2026-08-30",
-    "ts": 1788061746000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001800320_02_i_P2.jpg",
-    "title": "Samsung Electronics, SK hynix's corporate tax tops 11 tln won in H1",
-    "link": "https://en.yna.co.kr/view/AEN20260830001800320"
-  },
-  {
-    "id": "hotnews_en_791e6359",
-    "date": "2026-08-30",
-    "ts": 1788059516000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001600315_01_i_P2.jpg",
-    "title": "Lee nominates 6 ministers in major Cabinet reshuffle, including finance minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001600315"
-  },
-  {
-    "id": "hotnews_en_a7823c41",
-    "date": "2026-08-30",
-    "ts": 1788059278000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001500315_03_i_P2.jpg",
-    "title": "Over 350 police disciplinary actions overturned on appeal over 5 years",
-    "link": "https://en.yna.co.kr/view/AEN20260830001500315"
-  },
-  {
-    "id": "hotnews_en_0968b1a5",
-    "date": "2026-08-30",
-    "ts": 1788058965000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000951320_02_i_P2.jpg",
-    "title": "(LEAD) Finance minister proceeds with planned trip to G20 meeting",
-    "link": "https://en.yna.co.kr/view/AEN20260830000951320"
-  },
-  {
-    "id": "hotnews_en_295cbc03",
-    "date": "2026-08-30",
-    "ts": 1788058813000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082709330001300_P2.jpg",
-    "title": "BOK highlights demand-pull inflation pressure from strong export growth",
-    "link": "https://en.yna.co.kr/view/AEN20260828008100320"
-  },
-  {
-    "id": "hotnews_en_79edb1b9",
-    "date": "2026-08-30",
-    "ts": 1788057965000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Lee taps ruling party lawmaker Kim Seung-won as new justice minister, minor party lawmaker Yong Hye-in as new gender equality minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001400315"
-  },
-  {
-    "id": "hotnews_en_4ca516a1",
-    "date": "2026-08-30",
-    "ts": 1788057730000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Lee taps Vice Land Minister Hong Jee-sun as new land minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001300315"
-  },
-  {
-    "id": "hotnews_en_8ae9adf8",
-    "date": "2026-08-30",
-    "ts": 1788057610000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830001000320_02_i_P2.jpg",
-    "title": "New jobs held by people in 20s, 30s decrease to record low in Q1",
-    "link": "https://en.yna.co.kr/view/AEN20260830001000320"
-  },
-  {
-    "id": "hotnews_en_2cd1fe4f",
-    "date": "2026-08-30",
-    "ts": 1788057564000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Lee taps Kang Shin-chul, ex-deputy commander of the South Korea-U.S. Combined Forces Command, as new defense minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001200315"
-  },
-  {
-    "id": "hotnews_en_34ec1057",
-    "date": "2026-08-30",
-    "ts": 1788057516000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Lee taps Vice Finance Minister Lee Hyoung-il as new finance minister",
-    "link": "https://en.yna.co.kr/view/AEN20260830001100315"
-  },
-  {
-    "id": "hotnews_en_929f6d75",
-    "date": "2026-08-30",
-    "ts": 1788055522000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000900320_02_i_P2.jpg",
-    "title": "Finance minister cancels planned trip to attend G20 meeting in U.S.: sources",
-    "link": "https://en.yna.co.kr/view/AEN20260830000900320"
-  },
-  {
-    "id": "hotnews_en_505cc3e3",
-    "date": "2026-08-30",
-    "ts": 1788054277000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082710800001300_P2.jpg",
-    "title": "S. Korea attracts more than 2 million foreign medical tourists in 2025",
-    "link": "https://en.yna.co.kr/view/AEN20260830000800320"
-  },
-  {
-    "id": "hotnews_en_ad876937",
-    "date": "2026-08-30",
-    "ts": 1788054105000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000700315_02_i_P2.jpg",
-    "title": "Traffic, crime, fine dust top Seoul residents' smart city concerns: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260830000700315"
-  },
-  {
-    "id": "hotnews_en_0317e254",
-    "date": "2026-08-30",
-    "ts": 1788051920000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082811560001300_P2.jpg",
-    "title": "S. Korean individual investors purchase net US$7 bln worth of U.S. stocks in 2 months",
-    "link": "https://en.yna.co.kr/view/AEN20260830000600320"
-  },
-  {
-    "id": "hotnews_en_402ea25f",
-    "date": "2026-08-30",
-    "ts": 1788050978000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000352315_08_i_P2.jpg",
-    "title": "(2nd LD) N. Korea names new defense minister amid modernization drive",
-    "link": "https://en.yna.co.kr/view/AEN20260830000352315"
-  },
-  {
-    "id": "hotnews_en_28895916",
-    "date": "2026-08-29",
-    "ts": 1788041141000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000351315_03_i_P2.jpg",
-    "title": "(LEAD) N. Korea replaces defense minister with Kim Song-gi in military reshuffle: KCNA",
-    "link": "https://en.yna.co.kr/view/AEN20260830000351315"
-  },
-  {
-    "id": "hotnews_en_76c512a8",
-    "date": "2026-08-29",
-    "ts": 1788038751000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/30/AEN20260830000300315_02_i_P2.jpg",
-    "title": "N. Korea replaces defense minister with Kim Song-gi in military reshuffle: state media",
-    "link": "https://en.yna.co.kr/view/AEN20260830000300315"
-  },
-  {
-    "id": "hotnews_en_3f7a546f",
-    "date": "2026-08-29",
-    "ts": 1788038287000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) N. Korea replaces defense minister with Kim Song-gi in military reshuffle: state media",
-    "link": "https://en.yna.co.kr/view/AEN20260830000200315"
-  },
-  {
-    "id": "hotnews_en_40fddb38",
-    "date": "2026-08-29",
-    "ts": 1788009531000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082903810005300_P2.jpg",
-    "title": "(LEAD) Centenarian athlete grabs 2 golds at Daegu WMAC",
-    "link": "https://en.yna.co.kr/view/AEN20260829002251315"
-  },
-  {
-    "id": "hotnews_en_2df13fe2",
-    "date": "2026-08-29",
-    "ts": 1788008115000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/08/29/PRU20260829182501009_P2.jpg",
-    "title": "(4th LD) S. Korean response team heads to flood site in Nepal in search of 9 missing",
-    "link": "https://en.yna.co.kr/view/AEN20260829000954315"
-  },
-  {
-    "id": "hotnews_en_1cbd1e30",
-    "date": "2026-08-29",
-    "ts": 1788003509000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082903810005300_P2.jpg",
-    "title": "Centenarian athlete grabs 2 golds at Daegu WMAC",
-    "link": "https://en.yna.co.kr/view/AEN20260829002200315"
-  },
-  {
-    "id": "hotnews_en_90f7dadb",
-    "date": "2026-08-29",
-    "ts": 1787996933000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2019/06/13/PYH2019061312610001300_P2.jpg",
-    "title": "Minor Justice Party elects new leader",
-    "link": "https://en.yna.co.kr/view/AEN20260829002100315"
-  },
-  {
-    "id": "hotnews_en_31261c5b",
-    "date": "2026-08-29",
-    "ts": 1787989500000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/08/29/PRU20260829182501009_P2.jpg",
-    "title": "(3rd LD) S. Korean response team heads to flood site in Nepal in search of 9 missing",
-    "link": "https://en.yna.co.kr/view/AEN20260829000953315"
-  },
-  {
-    "id": "hotnews_en_277b8237",
-    "date": "2026-08-29",
-    "ts": 1787982546000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082902160031500_P2.jpg",
-    "title": "PM vows to boost housing supply",
-    "link": "https://en.yna.co.kr/view/AEN20260829001800320"
-  },
-  {
-    "id": "hotnews_en_fc492356",
-    "date": "2026-08-29",
-    "ts": 1787979601000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260829000600315"
-  },
-  {
-    "id": "hotnews_en_53841acc",
-    "date": "2026-08-29",
-    "ts": 1787977586000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/08/29/PRU20260829182501009_P2.jpg",
-    "title": "(2nd LD) S. Korean response teams continue search for 9 missing in Nepal floods",
-    "link": "https://en.yna.co.kr/view/AEN20260829000952315"
-  },
-  {
-    "id": "hotnews_en_95f406f6",
-    "date": "2026-08-29",
-    "ts": 1787975177000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/08/29/PRU20260829182501009_P2.jpg",
-    "title": "(LEAD) S. Korean response teams continue search for 9 missing in Nepal floods",
-    "link": "https://en.yna.co.kr/view/AEN20260829000951315"
-  },
-  {
-    "id": "hotnews_en_69499443",
-    "date": "2026-08-29",
-    "ts": 1787972331000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/29/PYH2026082901860001300_P2.jpg",
-    "title": "Globally popular 'Baby Shark' aims to expand storyline with younger sibling",
-    "link": "https://en.yna.co.kr/view/AEN20260829001100320"
   }
 ]
