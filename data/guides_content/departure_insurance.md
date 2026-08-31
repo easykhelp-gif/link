@@ -46,7 +46,7 @@ This is not your employer's choice. The law makes it an obligation (Enforcement 
 > A migrant worker can find out the expected insurance payout in writing before departure, **and use that as the basis to claim the severance difference from the employer.**
 > — Ministry of Employment and Labor, Uijeongbu Office, 18 July 2022
 
-[Work out your legal severance with the Kori Care Severance Calculator](/link/severance-calculator) — one minute, free, no sign-up.
+<a class="calc-cta" href="/link/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Severance Calculator</span><span class="calc-cta-sub">Work out your legal severance — one minute, free, no sign-up</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 ## How do I find out what is actually in my insurance?
 
@@ -159,7 +159,7 @@ If the Korean paperwork does not make sense, or you do not know who to ask about
 
 Some cases cannot be settled with basic support and need a licensed labour attorney (공인노무사). Even then, a professional working with Kori Care will speak on your side.
 
-[Run your figure through the Kori Care Severance Calculator](/link/severance-calculator) if you have not already.
+<a class="calc-cta" href="/link/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Severance Calculator</span><span class="calc-cta-sub">Check your figure before you file</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -191,7 +191,7 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 > แรงงานต่างชาติสามารถทราบยอดเงินประกันที่จะได้รับเป็นลายลักษณ์อักษรก่อนเดินทางออก **และใช้เป็นหลักฐานเรียกร้องส่วนต่างเงินชดเชยจากนายจ้างได้**
 > — กระทรวงแรงงาน สำนักงานอึยจองบู 18 ก.ค. 2022
 
-[คำนวณเงินชดเชยตามกฎหมายด้วยเครื่องคำนวณ Kori Care](/link/th/severance-calculator) — 1 นาที ฟรี ไม่ต้องสมัคร
+<a class="calc-cta" href="/link/th/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">เครื่องคำนวณเงินชดเชย Kori Care</span><span class="calc-cta-sub">คำนวณเงินชดเชยตามกฎหมาย — 1 นาที ฟรี ไม่ต้องสมัคร</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 ## จะรู้ได้อย่างไรว่าเงินประกันของฉันสะสมไว้เท่าไหร่?
 
@@ -304,7 +304,7 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 
 บางกรณีไม่สามารถจบด้วยการช่วยเหลือเบื้องต้นและต้องจ้างนักกฎหมายแรงงานที่มีใบอนุญาต (공인노무사) แม้ในกรณีนั้น ผู้เชี่ยวชาญที่ทำงานร่วมกับ Kori Care จะพูดอยู่ข้างคุณ
 
-[ลองคำนวณด้วยเครื่องคำนวณเงินชดเชย Kori Care](/link/th/severance-calculator) หากยังไม่ได้ลอง
+<a class="calc-cta" href="/link/th/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">เครื่องคำนวณเงินชดเชย Kori Care</span><span class="calc-cta-sub">เช็กยอดของคุณก่อนยื่นเรื่อง</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -336,7 +336,7 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 > Người lao động nước ngoài có thể biết trước số tiền bảo hiểm dự kiến bằng văn bản trước khi xuất cảnh, **và dùng đó làm căn cứ yêu cầu chủ lao động trả phần chênh lệch tiền thôi việc.**
 > — Bộ Lao động, Văn phòng Uijeongbu, ngày 18/7/2022
 
-[Tính tiền thôi việc theo luật bằng Công cụ tính Kori Care](/link/vi/severance-calculator) — 1 phút, miễn phí, không cần đăng ký.
+<a class="calc-cta" href="/link/vi/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Công cụ tính Tiền thôi việc Kori Care</span><span class="calc-cta-sub">Tính tiền thôi việc theo luật — 1 phút, miễn phí, không cần đăng ký</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 ## Làm sao biết bảo hiểm của tôi thực sự tích lũy bao nhiêu?
 
@@ -449,5 +449,5 @@ Nếu giấy tờ tiếng Hàn không hiểu được, hoặc bạn không biế
 
 Một số trường hợp không thể giải quyết bằng hỗ trợ cơ bản và cần thuê chuyên viên luật lao động có chứng chỉ (공인노무사). Ngay cả khi đó, chuyên gia làm việc cùng Kori Care sẽ nói chuyện đứng về phía bạn.
 
-[Thử tính bằng Công cụ tính Tiền thôi việc Kori Care](/link/vi/severance-calculator) nếu bạn chưa thử.
+<a class="calc-cta" href="/link/vi/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Công cụ tính Tiền thôi việc Kori Care</span><span class="calc-cta-sub">Kiểm tra số tiền của bạn trước khi nộp đơn</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 <!-- VI END -->

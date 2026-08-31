@@ -219,7 +219,7 @@
     line-height: 1.8;
   }
   
-  .article-body p { margin-bottom: 18px; }
+  .article-body p { margin-bottom: 26px; }
   .article-body strong { color: var(--navy); font-weight: 800; }
   .article-body h2 { font-size: 19px; color: var(--navy); margin: 28px 0 16px 0; font-weight: 800; }
   .article-body h3 { font-size: 16.5px; color: var(--ink); margin: 20px 0 12px 0; font-weight: 700; }
@@ -338,8 +338,70 @@
     box-shadow: none;
     border-radius: 0;
   }
+  /* 2열 표는 화면 폭에 맞춰 줄바꿈 — 금액이 잘리지 않게 (2026-08-31) */
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
   @media (max-width: 600px) {
     .article-body .table-scroll table { white-space: nowrap; }
+    /* 2열 표는 줄바꿈해서 화면에 다 들어오게 (2026-08-31)
+       3열 이상만 가로 스크롤 유지 */
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+      white-space: normal;
+      width: 100%;
+      min-width: 0;
+      table-layout: auto;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th:first-child,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td:first-child {
+      position: static;
+    }
+    /* 첫 칸이 비어 있는 2열 표 = 라벨/값 구조.
+       모바일에서는 위아래로 쌓아 가로 낭비와 세로 길이를 함께 줄인다. */
+    .article-body .table-scroll table:has(thead th:first-child:empty) { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) thead { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tbody,
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e8edf5;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr:last-child { border-bottom: 0; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td {
+      display: block;
+      width: auto;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child {
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .01em;
+      color: #4a5b78;
+      background: transparent;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child:empty { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td + td {
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
     /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
     .article-body .table-scroll th:first-child,
     .article-body .table-scroll td:first-child {
@@ -347,6 +409,112 @@
     }
     .article-body .table-scroll th:first-child { background: #f8fafc; }
     .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
+  /* 계산기 버튼 (2026-08-31) — 입체 음영, 아이콘은 인라인 SVG */
+  .article-body .calc-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 30px 0;
+    padding: 15px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(130% 150% at 6% 0%, #1d4d97 0%, rgba(29,77,151,0) 58%),
+      linear-gradient(162deg, #143870 0%, #0c2049 60%, #0a1a39 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.18),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 1px 2px rgba(8,17,36,0.30),
+      0 14px 30px -10px rgba(8,17,36,0.62);
+    transition: transform .15s cubic-bezier(.2,.8,.3,1), box-shadow .15s ease;
+  }
+  /* 상단 광택 */
+  .article-body .calc-cta::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 54%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.11), rgba(255,255,255,0));
+    pointer-events: none;
+    z-index: 0;
+  }
+  .article-body .calc-cta:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 2px 4px rgba(8,17,36,0.30),
+      0 20px 38px -12px rgba(8,17,36,0.70);
+  }
+  .article-body .calc-cta:active {
+    transform: translateY(1px);
+    box-shadow:
+      inset 0 2px 5px rgba(0,0,0,0.42),
+      0 1px 2px rgba(8,17,36,0.28);
+  }
+
+  .article-body .calc-cta > * { position: relative; z-index: 1; }
+
+  .article-body .calc-cta-icon {
+    flex: 0 0 46px;
+    width: 46px; height: 46px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,0.10);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'1.7'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Crect%20x%3D'4'%20y%3D'2.5'%20width%3D'16'%20height%3D'19'%20rx%3D'3.2'%2F%3E%3Crect%20x%3D'7.6'%20y%3D'6'%20width%3D'8.8'%20height%3D'3.6'%20rx%3D'1.2'%2F%3E%3Cpath%20d%3D'M8.2%2013.4h.01M12%2013.4h.01M15.8%2013.4h.01M8.2%2017.4h.01M12%2017.4h.01M15.8%2017.4h.01'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.28),
+      inset 0 -1px 0 rgba(0,0,0,0.28),
+      0 2px 6px rgba(0,0,0,0.22);
+  }
+
+  .article-body .calc-cta-text { flex: 1 1 auto; min-width: 0; }
+  .article-body .calc-cta-label {
+    display: block;
+    font-size: 15.5px;
+    font-weight: 800;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.28);
+  }
+  .article-body .calc-cta-sub {
+    display: block;
+    margin-top: 4px;
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: rgba(226,236,252,0.80);
+  }
+
+  .article-body .calc-cta-arrow {
+    flex: 0 0 32px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.12);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2.2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Cpath%20d%3D'M9%205.5l6.5%206.5L9%2018.5'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 53% center;
+    background-size: 15px 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24);
+    transition: transform .15s ease, background-color .15s ease;
+  }
+  .article-body .calc-cta:hover .calc-cta-arrow {
+    transform: translateX(3px);
+    background-color: rgba(255,255,255,0.19);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-body .calc-cta,
+    .article-body .calc-cta-arrow { transition: none; }
+    .article-body .calc-cta:hover { transform: none; }
   }
 
   /* 인용구·숫자목록 (2026-08-22 추가) */
@@ -431,7 +599,8 @@
 <div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>ระยะเวลาทำงาน</th><th>ยอดโดยประมาณ</th></tr></thead><tbody><tr><td>1 ปี</td><td>≈ 2,500,000 วอน</td></tr><tr><td>2 ปี</td><td>≈ 5,000,000 วอน</td></tr><tr><td>3 ปี</td><td>≈ 7,500,000 วอน</td></tr><tr><td>4 ปี 10 เดือน</td><td>≈ 12,000,000 วอน</td></tr></tbody></table></div></div>
 ตัวเลขนี้เป็นเพียงตัวอย่าง ยอดจริงขึ้นอยู่กับค่าจ้างและวันทำงานของคุณเอง <a href="/link/th/severance-calculator">คำนวณยอดของคุณเองด้วยเครื่องคำนวณ Kori Care</a> ใช้เวลาประมาณ 1 นาที ฟรี และไม่มีการแจ้งใคร
 <h3>สำหรับแรงงาน E-9: เงินประกันมักไม่เท่ากับยอดเต็ม</h3>
-<p>จุดนี้คนส่วนใหญ่พลาด ประกันการเดินทางกลับประเทศ (Departure Guarantee Insurance) <strong>ไม่ใช่</strong> ยอดเดียวกับเงินชดเชยตามกฎหมายเสมอไป เบี้ยประกันที่นายจ้างจ่ายอาจรวมแล้ว <strong>น้อยกว่า</strong> สิ่งที่กฎหมายกำหนด<br><blockquote><strong>เงินชดเชยตามกฎหมาย − เงินประกันที่ได้รับ = ส่วนต่างที่นายจ้างต้องจ่ายคุณโดยตรง</strong></blockquote></p>
+<p>จุดนี้คนส่วนใหญ่พลาด ประกันการเดินทางกลับประเทศ (Departure Guarantee Insurance) <strong>ไม่ใช่</strong> ยอดเดียวกับเงินชดเชยตามกฎหมายเสมอไป เบี้ยประกันที่นายจ้างจ่ายอาจรวมแล้ว <strong>น้อยกว่า</strong> สิ่งที่กฎหมายกำหนด</p>
+<blockquote><strong>เงินชดเชยตามกฎหมาย − เงินประกันที่ได้รับ = ส่วนต่างที่นายจ้างต้องจ่ายคุณโดยตรง</strong></blockquote>
 <p>ดังนั้นให้คำนวณยอดตามกฎหมายก่อน แล้วเทียบกับยอดที่ Samsung Fire แจ้ง หากเงินประกันน้อยกว่า ส่วนต่างนั้นยังคงเป็นเงินของคุณ</p>
 <h2>สองเรื่องที่คนมักเข้าใจผิด</h2>
 <p><strong>ทำงานที่นายจ้างรายนั้นไม่ถึง 1 ปี = 0 วอน</strong> วันที่คุณเริ่มงานสำคัญกว่าที่คิด</p>
@@ -442,7 +611,7 @@
 <li><strong>3 ปี</strong> เรียกร้องได้ภายใน 3 ปีหลังออกจากงาน (มาตรา 10) <strong>แม้อยู่นอกประเทศเกาหลีแล้ว</strong></li>
 <li><strong>จ่ายล่าช้า</strong> กฎหมายอนุญาตให้เรียกดอกเบี้ย 20% ต่อปี โดยยื่นผ่านกระบวนการทางแพ่ง</li></ul>
 <h2>หากคุณยังไม่ได้รับเงิน</h2>
-<p><strong>เริ่มจากช่องทางฟรีก่อน</strong><br><ul><li><strong>1577-0071</strong> ศูนย์ให้คำปรึกษาแรงงานต่างชาติ รองรับภาษาไทย เปิดทุกวัน 09:00 ถึง 18:00 น.</li><br><li><strong>1350</strong> สายให้คำปรึกษาของ<a href="https://www.moel.go.kr/english/" target="_blank" rel="noopener noreferrer">กระทรวงแรงงาน</a> (고용노동부) มีเฉพาะภาษาอังกฤษและภาษาจีน</li><br><li><strong>สำนักงานแรงงานในพื้นที่</strong> ยื่นเรื่องร้องเรียน (진정) ได้โดยไม่มีค่าใช้จ่าย</li><br><li><strong>องค์กรช่วยเหลือทางกฎหมาย (대한법률구조공단)</strong> ว่าความให้ฟรี หากรายได้ต่ำกว่าประมาณ 4,000,000 วอนต่อเดือน</li></ul></p>
+<p><strong>เริ่มจากช่องทางฟรีก่อน</strong><br><ul><li><strong>1577-0071</strong> ศูนย์ให้คำปรึกษาแรงงานต่างชาติ รองรับภาษาไทย เปิดทุกวัน 09:00 ถึง 18:00 น.</li><li><strong>1350</strong> สายให้คำปรึกษาของ<a href="https://www.moel.go.kr/english/" target="_blank" rel="noopener noreferrer">กระทรวงแรงงาน</a> (고용노동부) มีเฉพาะภาษาอังกฤษและภาษาจีน</li><li><strong>สำนักงานแรงงานในพื้นที่</strong> ยื่นเรื่องร้องเรียน (진정) ได้โดยไม่มีค่าใช้จ่าย</li><li><strong>องค์กรช่วยเหลือทางกฎหมาย (대한법률구조공단)</strong> ว่าความให้ฟรี หากรายได้ต่ำกว่าประมาณ 4,000,000 วอนต่อเดือน</li></ul></p>
 <p>ตั้งแต่ <strong>6 พฤศจิกายน 2025</strong> เมื่อเจ้าหน้าที่ตรวจแรงงานสอบสวนเรื่องค่าจ้างค้างจ่าย จะไม่แจ้ง ตม. (แต่ไม่ได้ทำให้สถานะวีซ่าถูกกฎหมาย และไม่ครอบคลุมการถูกตรวจพบทางอื่น)</p>
 <p><strong>เมื่อใดที่การมอบอำนาจคุ้มค่า</strong> ช่องทางฟรีไม่มีค่าใช้จ่ายก็จริง แต่คุณต้องโทรเป็นภาษาเกาหลี ไปสำนักงานแรงงานเอง และจัดการเอกสารเอง หากคุณกลับประเทศแล้ว แทบเป็นไปไม่ได้ ในกรณีนั้นคุณสามารถทำ <strong>หนังสือมอบอำนาจ</strong> ให้ที่ปรึกษาแรงงานเกาหลีที่มีใบอนุญาต (노무사) ดำเนินการแทนได้จากประเทศของคุณ โดยไม่ต้องเผชิญหน้ากับนายจ้างเดิม มีค่าใช้จ่ายและแตกต่างกันไปในแต่ละสำนักงาน</p>
 <h2>ขั้นตอนถัดไป</h2>

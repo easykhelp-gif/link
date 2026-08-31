@@ -219,7 +219,7 @@
     line-height: 1.8;
   }
   
-  .article-body p { margin-bottom: 18px; }
+  .article-body p { margin-bottom: 26px; }
   .article-body strong { color: var(--navy); font-weight: 800; }
   .article-body h2 { font-size: 19px; color: var(--navy); margin: 28px 0 16px 0; font-weight: 800; }
   .article-body h3 { font-size: 16.5px; color: var(--ink); margin: 20px 0 12px 0; font-weight: 700; }
@@ -338,8 +338,70 @@
     box-shadow: none;
     border-radius: 0;
   }
+  /* 2열 표는 화면 폭에 맞춰 줄바꿈 — 금액이 잘리지 않게 (2026-08-31) */
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
   @media (max-width: 600px) {
     .article-body .table-scroll table { white-space: nowrap; }
+    /* 2열 표는 줄바꿈해서 화면에 다 들어오게 (2026-08-31)
+       3열 이상만 가로 스크롤 유지 */
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+      white-space: normal;
+      width: 100%;
+      min-width: 0;
+      table-layout: auto;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th:first-child,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td:first-child {
+      position: static;
+    }
+    /* 첫 칸이 비어 있는 2열 표 = 라벨/값 구조.
+       모바일에서는 위아래로 쌓아 가로 낭비와 세로 길이를 함께 줄인다. */
+    .article-body .table-scroll table:has(thead th:first-child:empty) { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) thead { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tbody,
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e8edf5;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr:last-child { border-bottom: 0; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td {
+      display: block;
+      width: auto;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child {
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .01em;
+      color: #4a5b78;
+      background: transparent;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child:empty { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td + td {
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
     /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
     .article-body .table-scroll th:first-child,
     .article-body .table-scroll td:first-child {
@@ -347,6 +409,112 @@
     }
     .article-body .table-scroll th:first-child { background: #f8fafc; }
     .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
+  /* 계산기 버튼 (2026-08-31) — 입체 음영, 아이콘은 인라인 SVG */
+  .article-body .calc-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 30px 0;
+    padding: 15px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(130% 150% at 6% 0%, #1d4d97 0%, rgba(29,77,151,0) 58%),
+      linear-gradient(162deg, #143870 0%, #0c2049 60%, #0a1a39 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.18),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 1px 2px rgba(8,17,36,0.30),
+      0 14px 30px -10px rgba(8,17,36,0.62);
+    transition: transform .15s cubic-bezier(.2,.8,.3,1), box-shadow .15s ease;
+  }
+  /* 상단 광택 */
+  .article-body .calc-cta::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 54%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.11), rgba(255,255,255,0));
+    pointer-events: none;
+    z-index: 0;
+  }
+  .article-body .calc-cta:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 2px 4px rgba(8,17,36,0.30),
+      0 20px 38px -12px rgba(8,17,36,0.70);
+  }
+  .article-body .calc-cta:active {
+    transform: translateY(1px);
+    box-shadow:
+      inset 0 2px 5px rgba(0,0,0,0.42),
+      0 1px 2px rgba(8,17,36,0.28);
+  }
+
+  .article-body .calc-cta > * { position: relative; z-index: 1; }
+
+  .article-body .calc-cta-icon {
+    flex: 0 0 46px;
+    width: 46px; height: 46px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,0.10);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'1.7'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Crect%20x%3D'4'%20y%3D'2.5'%20width%3D'16'%20height%3D'19'%20rx%3D'3.2'%2F%3E%3Crect%20x%3D'7.6'%20y%3D'6'%20width%3D'8.8'%20height%3D'3.6'%20rx%3D'1.2'%2F%3E%3Cpath%20d%3D'M8.2%2013.4h.01M12%2013.4h.01M15.8%2013.4h.01M8.2%2017.4h.01M12%2017.4h.01M15.8%2017.4h.01'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.28),
+      inset 0 -1px 0 rgba(0,0,0,0.28),
+      0 2px 6px rgba(0,0,0,0.22);
+  }
+
+  .article-body .calc-cta-text { flex: 1 1 auto; min-width: 0; }
+  .article-body .calc-cta-label {
+    display: block;
+    font-size: 15.5px;
+    font-weight: 800;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.28);
+  }
+  .article-body .calc-cta-sub {
+    display: block;
+    margin-top: 4px;
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: rgba(226,236,252,0.80);
+  }
+
+  .article-body .calc-cta-arrow {
+    flex: 0 0 32px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.12);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2.2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Cpath%20d%3D'M9%205.5l6.5%206.5L9%2018.5'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 53% center;
+    background-size: 15px 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24);
+    transition: transform .15s ease, background-color .15s ease;
+  }
+  .article-body .calc-cta:hover .calc-cta-arrow {
+    transform: translateX(3px);
+    background-color: rgba(255,255,255,0.19);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-body .calc-cta,
+    .article-body .calc-cta-arrow { transition: none; }
+    .article-body .calc-cta:hover { transform: none; }
   }
 
   /* 인용구·숫자목록 (2026-08-22 추가) */
@@ -431,7 +599,8 @@
 <div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Thời gian làm việc</th><th>Số tiền ước tính</th></tr></thead><tbody><tr><td>1 năm</td><td>≈ 2.500.000 won</td></tr><tr><td>2 năm</td><td>≈ 5.000.000 won</td></tr><tr><td>3 năm</td><td>≈ 7.500.000 won</td></tr><tr><td>4 năm 10 tháng</td><td>≈ 12.000.000 won</td></tr></tbody></table></div></div>
 Đây chỉ là ví dụ — mức lương và ngày làm việc của bạn quyết định con số thật. <a href="/link/vi/severance-calculator">Tính con số của riêng bạn bằng công cụ Kori Care</a>. Mất khoảng một phút, miễn phí, và không ai được thông báo.
 <h3>Với lao động E-9: tiền bảo hiểm thường không phải toàn bộ</h3>
-<p>Đây là điều nhiều người bỏ sót. Bảo hiểm Bảo đảm Xuất cảnh (Departure Guarantee Insurance) <strong>không</strong> đương nhiên bằng khoản trợ cấp thôi việc theo luật. Phí bảo hiểm mà chủ sử dụng lao động đã đóng có thể <strong>ít hơn</strong> mức luật quy định.<br><blockquote><strong>Trợ cấp theo luật − tiền bảo hiểm nhận được = phần chênh lệch chủ sử dụng lao động phải trả trực tiếp cho bạn.</strong></blockquote></p>
+<p>Đây là điều nhiều người bỏ sót. Bảo hiểm Bảo đảm Xuất cảnh (Departure Guarantee Insurance) <strong>không</strong> đương nhiên bằng khoản trợ cấp thôi việc theo luật. Phí bảo hiểm mà chủ sử dụng lao động đã đóng có thể <strong>ít hơn</strong> mức luật quy định.</p>
+<blockquote><strong>Trợ cấp theo luật − tiền bảo hiểm nhận được = phần chênh lệch chủ sử dụng lao động phải trả trực tiếp cho bạn.</strong></blockquote>
 <p>Vì vậy hãy tính con số theo luật trước, rồi so với số tiền Samsung Fire thông báo. Nếu tiền bảo hiểm thấp hơn, phần chênh lệch vẫn là tiền của bạn.</p>
 <h2>Hai điều nhiều người hiểu sai</h2>
 <p><strong>Làm dưới 1 năm tại nơi đó = 0 won.</strong> Ngày bạn bắt đầu làm quan trọng hơn bạn tưởng.</p>
@@ -442,7 +611,7 @@
 <li><strong>3 năm</strong> — bạn có thể đòi trong vòng 3 năm sau khi nghỉ việc (Điều 10), <strong>kể cả khi đang ở ngoài Hàn Quốc</strong>.</li>
 <li><strong>Trả chậm</strong> — luật cho phép đòi lãi 20%/năm đối với khoản quá hạn, thông qua thủ tục dân sự.</li></ul>
 <h2>Nếu bạn chưa được trả</h2>
-<p><strong>Hãy bắt đầu từ các kênh miễn phí.</strong><br><ul><li><strong>1577-0071</strong> — Trung tâm tư vấn lao động nước ngoài, có tiếng Việt, mở tất cả các ngày 09:00 đến 18:00.</li><br><li><strong>1350</strong> — đường dây tư vấn của <a href="https://www.moel.go.kr/english/" target="_blank" rel="noopener noreferrer">Bộ Lao động</a> (고용노동부). Chỉ có tiếng Anh và tiếng Trung.</li><br><li><strong>Văn phòng lao động địa phương</strong> — nộp đơn khiếu nại (진정), không mất phí.</li><br><li><strong>Trung tâm Trợ giúp Pháp lý (대한법률구조공단)</strong> — đại diện pháp lý miễn phí nếu thu nhập dưới khoảng 4.000.000 won/tháng.</li></ul></p>
+<p><strong>Hãy bắt đầu từ các kênh miễn phí.</strong><br><ul><li><strong>1577-0071</strong> — Trung tâm tư vấn lao động nước ngoài, có tiếng Việt, mở tất cả các ngày 09:00 đến 18:00.</li><li><strong>1350</strong> — đường dây tư vấn của <a href="https://www.moel.go.kr/english/" target="_blank" rel="noopener noreferrer">Bộ Lao động</a> (고용노동부). Chỉ có tiếng Anh và tiếng Trung.</li><li><strong>Văn phòng lao động địa phương</strong> — nộp đơn khiếu nại (진정), không mất phí.</li><li><strong>Trung tâm Trợ giúp Pháp lý (대한법률구조공단)</strong> — đại diện pháp lý miễn phí nếu thu nhập dưới khoảng 4.000.000 won/tháng.</li></ul></p>
 <p>Từ <strong>ngày 6 tháng 11 năm 2025</strong>, khi thanh tra lao động điều tra vụ nợ lương, họ không báo bạn cho Cục Xuất nhập cảnh. (Điều này không làm cho tình trạng cư trú của bạn trở thành hợp pháp, và không áp dụng cho việc bị phát hiện theo cách khác.)</p>
 <p><strong>Khi nào nên ủy quyền.</strong> Các kênh miễn phí không tốn tiền, nhưng bạn phải tự gọi điện bằng tiếng Hàn, tự đến văn phòng lao động và tự lo giấy tờ. Nếu bạn đã rời Hàn Quốc, điều đó gần như không thể. Khi đó bạn có thể ký <strong>giấy ủy quyền</strong> để một chuyên viên lao động Hàn Quốc có chứng chỉ (노무사) làm thay bạn — ngay từ nước bạn, không phải đối mặt với chủ cũ. Có chi phí và khác nhau tùy văn phòng.</p>
 <h2>Bước tiếp theo</h2>

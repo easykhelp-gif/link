@@ -9,6 +9,10 @@ if (!fs.existsSync(dataDir)) {
 }
 
 // Simple markdown to HTML parser tailored for our needs
+function stripPipes(line) {
+  return line.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|');
+}
+
 function mdToHtml(md) {
   let html = md.trim();
   if (!html) return '';
@@ -36,8 +40,8 @@ function mdToHtml(md) {
   html = html.replace(/<\/ul>\n<ul>/g, '\n');
   
   // Blockquote  "> text" -> <blockquote>
-  html = html.replace(/^\s*&gt; (.*$)/gim, '<blockquote>$1</blockquote>');
-  html = html.replace(/^\s*> (.*$)/gim, '<blockquote>$1</blockquote>');
+  html = html.replace(/^[ \t]*&gt; (.*$)/gim, '<blockquote>$1</blockquote>');
+  html = html.replace(/^[ \t]*> (.*$)/gim, '<blockquote>$1</blockquote>');
   html = html.replace(/<\/blockquote>\n<blockquote>/g, '<br>');
 
   // Ordered list  "1. text" -> <ol><li>
@@ -52,12 +56,12 @@ function mdToHtml(md) {
     if (lines.length < 3) return match; // Not a valid table
     
     let tableHtml = '<div class="table-wrap"><div class="table-scroll"><table><thead><tr>';
-    let headers = lines[0].split('|').filter(c => c.trim() !== '');
+    let headers = stripPipes(lines[0]);
     headers.forEach(h => { tableHtml += `<th>${h.trim()}</th>`; });
     tableHtml += '</tr></thead><tbody>';
     
     for (let i = 2; i < lines.length; i++) {
-      let cells = lines[i].split('|').filter(c => c.trim() !== '');
+      let cells = stripPipes(lines[i]);
       if (cells.length > 0) {
         tableHtml += '<tr>';
         cells.forEach(c => { tableHtml += `<td>${c.trim()}</td>`; });
@@ -74,6 +78,13 @@ function mdToHtml(md) {
     return `<p>${p.trim().replace(/\n/g, '<br>')}</p>`;
   }).join('\n');
   
+  // 목록 항목 사이에 끼어드는 <br> 제거 (2026-08-31)
+  html = html.replace(/<\/li>\s*<br>\s*<li>/g, '</li><li>');
+  html = html.replace(/<(ul|ol)>\s*<br>\s*/g, '<$1>');
+  html = html.replace(/\s*<br>\s*<\/(ul|ol)>/g, '</$1>');
+  // 문단 끝에 남는 <br> 제거
+  html = html.replace(/(<br>)+<\/p>/g, '</p>');
+
   return html;
 }
 

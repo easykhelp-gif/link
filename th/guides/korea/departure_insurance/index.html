@@ -219,7 +219,7 @@
     line-height: 1.8;
   }
   
-  .article-body p { margin-bottom: 18px; }
+  .article-body p { margin-bottom: 26px; }
   .article-body strong { color: var(--navy); font-weight: 800; }
   .article-body h2 { font-size: 19px; color: var(--navy); margin: 28px 0 16px 0; font-weight: 800; }
   .article-body h3 { font-size: 16.5px; color: var(--ink); margin: 20px 0 12px 0; font-weight: 700; }
@@ -338,8 +338,70 @@
     box-shadow: none;
     border-radius: 0;
   }
+  /* 2열 표는 화면 폭에 맞춰 줄바꿈 — 금액이 잘리지 않게 (2026-08-31) */
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
   @media (max-width: 600px) {
     .article-body .table-scroll table { white-space: nowrap; }
+    /* 2열 표는 줄바꿈해서 화면에 다 들어오게 (2026-08-31)
+       3열 이상만 가로 스크롤 유지 */
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+      white-space: normal;
+      width: 100%;
+      min-width: 0;
+      table-layout: auto;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th:first-child,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td:first-child {
+      position: static;
+    }
+    /* 첫 칸이 비어 있는 2열 표 = 라벨/값 구조.
+       모바일에서는 위아래로 쌓아 가로 낭비와 세로 길이를 함께 줄인다. */
+    .article-body .table-scroll table:has(thead th:first-child:empty) { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) thead { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tbody,
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e8edf5;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr:last-child { border-bottom: 0; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td {
+      display: block;
+      width: auto;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child {
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .01em;
+      color: #4a5b78;
+      background: transparent;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child:empty { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td + td {
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
     /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
     .article-body .table-scroll th:first-child,
     .article-body .table-scroll td:first-child {
@@ -347,6 +409,112 @@
     }
     .article-body .table-scroll th:first-child { background: #f8fafc; }
     .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
+  /* 계산기 버튼 (2026-08-31) — 입체 음영, 아이콘은 인라인 SVG */
+  .article-body .calc-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 30px 0;
+    padding: 15px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(130% 150% at 6% 0%, #1d4d97 0%, rgba(29,77,151,0) 58%),
+      linear-gradient(162deg, #143870 0%, #0c2049 60%, #0a1a39 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.18),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 1px 2px rgba(8,17,36,0.30),
+      0 14px 30px -10px rgba(8,17,36,0.62);
+    transition: transform .15s cubic-bezier(.2,.8,.3,1), box-shadow .15s ease;
+  }
+  /* 상단 광택 */
+  .article-body .calc-cta::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 54%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.11), rgba(255,255,255,0));
+    pointer-events: none;
+    z-index: 0;
+  }
+  .article-body .calc-cta:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 2px 4px rgba(8,17,36,0.30),
+      0 20px 38px -12px rgba(8,17,36,0.70);
+  }
+  .article-body .calc-cta:active {
+    transform: translateY(1px);
+    box-shadow:
+      inset 0 2px 5px rgba(0,0,0,0.42),
+      0 1px 2px rgba(8,17,36,0.28);
+  }
+
+  .article-body .calc-cta > * { position: relative; z-index: 1; }
+
+  .article-body .calc-cta-icon {
+    flex: 0 0 46px;
+    width: 46px; height: 46px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,0.10);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'1.7'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Crect%20x%3D'4'%20y%3D'2.5'%20width%3D'16'%20height%3D'19'%20rx%3D'3.2'%2F%3E%3Crect%20x%3D'7.6'%20y%3D'6'%20width%3D'8.8'%20height%3D'3.6'%20rx%3D'1.2'%2F%3E%3Cpath%20d%3D'M8.2%2013.4h.01M12%2013.4h.01M15.8%2013.4h.01M8.2%2017.4h.01M12%2017.4h.01M15.8%2017.4h.01'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.28),
+      inset 0 -1px 0 rgba(0,0,0,0.28),
+      0 2px 6px rgba(0,0,0,0.22);
+  }
+
+  .article-body .calc-cta-text { flex: 1 1 auto; min-width: 0; }
+  .article-body .calc-cta-label {
+    display: block;
+    font-size: 15.5px;
+    font-weight: 800;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.28);
+  }
+  .article-body .calc-cta-sub {
+    display: block;
+    margin-top: 4px;
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: rgba(226,236,252,0.80);
+  }
+
+  .article-body .calc-cta-arrow {
+    flex: 0 0 32px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.12);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2.2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Cpath%20d%3D'M9%205.5l6.5%206.5L9%2018.5'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 53% center;
+    background-size: 15px 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24);
+    transition: transform .15s ease, background-color .15s ease;
+  }
+  .article-body .calc-cta:hover .calc-cta-arrow {
+    transform: translateX(3px);
+    background-color: rgba(255,255,255,0.19);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-body .calc-cta,
+    .article-body .calc-cta-arrow { transition: none; }
+    .article-body .calc-cta:hover { transform: none; }
   }
 
   /* 인용구·숫자목록 (2026-08-22 추가) */
@@ -413,22 +581,24 @@
     <div class="article-body">
       <h2>เงินที่ได้รับน้อยกว่าที่คำนวณไว้ ทำไม?</h2>
 <p>ไม่ใช่ความผิดพลาด <strong>เงินประกันการเดินทางกลับกับเงินชดเชยตามกฎหมาย ใช้ฐานการคำนวณคนละแบบ</strong></p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>ฐานคำนวณ</th></tr></thead><tbody><tr><td><strong>เงินประกันการเดินทางกลับ</strong></td><td><strong>8.3% ขึ้นไปของค่าจ้างปกติรายเดือนที่ระบุในใบอนุญาตจ้างงาน</strong> สะสมทุกเดือน (ประกาศกระทรวงแรงงานฉบับที่ 2011-33)</td></tr><tr><td><strong>เงินชดเชยตามกฎหมาย</strong></td><td><strong>ค่าจ้างเฉลี่ย 3 เดือนสุดท้าย × 30 วัน × จำนวนปีที่ทำงาน</strong> (พ.ร.บ.คุ้มครองเงินบำเหน็จลูกจ้าง มาตรา 8)</td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th>ฐานคำนวณ</th></tr></thead><tbody><tr><td><strong>เงินประกันการเดินทางกลับ</strong></td><td><strong>8.3% ขึ้นไปของค่าจ้างปกติรายเดือนที่ระบุในใบอนุญาตจ้างงาน</strong> สะสมทุกเดือน (ประกาศกระทรวงแรงงานฉบับที่ 2011-33)</td></tr><tr><td><strong>เงินชดเชยตามกฎหมาย</strong></td><td><strong>ค่าจ้างเฉลี่ย 3 เดือนสุดท้าย × 30 วัน × จำนวนปีที่ทำงาน</strong> (พ.ร.บ.คุ้มครองเงินบำเหน็จลูกจ้าง มาตรา 8)</td></tr></tbody></table></div></div>
 <strong>ค่าจ้างในใบอนุญาตจ้างงานคือตัวเลขที่แจ้งไว้ตอนเริ่มงาน</strong> ไม่มีกฎหมายบังคับให้ปรับฐานนี้เมื่อเงินเดือนขึ้น ดังนั้นหากค่าจ้างคุณเพิ่มขึ้น ทำโอทีมาก หรือเปลี่ยนสถานประกอบการ เงินประกันก็ยังสะสมด้วยตัวเลขเดิมที่ต่ำกว่า
 <p><strong>ตัวอย่างที่เกิดขึ้นจริง</strong> สมมติใบอนุญาตจ้างงานแจ้งไว้ที่ 2,100,000 วอนต่อเดือน สามปีต่อมา รวมโอทีแล้วคุณได้ 2,900,000 วอน</p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>จำนวนเงิน</th></tr></thead><tbody><tr><td>เงินประกันที่สะสม (2.1 ล้าน × 8.3% × 36 เดือน + ดอกเบี้ย)</td><td>ประมาณ 6,300,000 วอนขึ้นไป</td></tr><tr><td>เงินชดเชยตามกฎหมาย (2.9 ล้าน × 3 ปี)</td><td>8,700,000 วอน</td></tr><tr><td><strong>ส่วนต่างที่นายจ้างต้องจ่าย</strong></td><td><strong>ประมาณ 2,000,000 – 2,400,000 วอน</strong></td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th>จำนวนเงิน</th></tr></thead><tbody><tr><td>เงินประกันที่สะสม (2.1 ล้าน × 8.3% × 36 เดือน + ดอกเบี้ย)</td><td>ประมาณ 6,300,000 วอนขึ้นไป</td></tr><tr><td>เงินชดเชยตามกฎหมาย (2.9 ล้าน × 3 ปี)</td><td>8,700,000 วอน</td></tr><tr><td><strong>ส่วนต่างที่นายจ้างต้องจ่าย</strong></td><td><strong>ประมาณ 2,000,000 – 2,400,000 วอน</strong></td></tr></tbody></table></div></div>
 นี่เป็นเพียงตัวอย่าง ตัวเลขจริงขึ้นอยู่กับค่าจ้างและระยะเวลาทำงานของคุณ เงินสะสมมีดอกเบี้ยเพิ่ม ดังนั้นยอดจริงจะสูงกว่า 6,300,000 วอน กรมธรรม์ระบุว่าคิดดอกเบี้ยทบต้นรายปีตาม "อัตราสะสม ณ เวลาจ่ายเงิน" แต่ไม่ได้เปิดเผยอัตรานั้น
 <blockquote><strong>เงินชดเชยตามกฎหมาย − เงินประกัน = ส่วนต่างที่นายจ้างต้องจ่ายคุณ</strong></blockquote>
-<p>นี่ไม่ใช่ทางเลือกของนายจ้าง กฎหมายกำหนดเป็นหน้าที่ (กฎกระทรวงมาตรา 21 วรรค 3) กระทรวงแรงงานเกาหลีระบุเรื่องเดียวกัน<br><blockquote>แรงงานต่างชาติสามารถทราบยอดเงินประกันที่จะได้รับเป็นลายลักษณ์อักษรก่อนเดินทางออก <strong>และใช้เป็นหลักฐานเรียกร้องส่วนต่างเงินชดเชยจากนายจ้างได้</strong><br>— กระทรวงแรงงาน สำนักงานอึยจองบู 18 ก.ค. 2022</blockquote></p>
-<p><a href="/link/th/severance-calculator">คำนวณเงินชดเชยตามกฎหมายด้วยเครื่องคำนวณ Kori Care</a> — 1 นาที ฟรี ไม่ต้องสมัคร</p>
+<p>นี่ไม่ใช่ทางเลือกของนายจ้าง กฎหมายกำหนดเป็นหน้าที่ (กฎกระทรวงมาตรา 21 วรรค 3) กระทรวงแรงงานเกาหลีระบุเรื่องเดียวกัน</p>
+<blockquote>แรงงานต่างชาติสามารถทราบยอดเงินประกันที่จะได้รับเป็นลายลักษณ์อักษรก่อนเดินทางออก <strong>และใช้เป็นหลักฐานเรียกร้องส่วนต่างเงินชดเชยจากนายจ้างได้</strong><br>— กระทรวงแรงงาน สำนักงานอึยจองบู 18 ก.ค. 2022</blockquote>
+<p><a class="calc-cta" href="/link/th/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">เครื่องคำนวณเงินชดเชย Kori Care</span><span class="calc-cta-sub">คำนวณเงินชดเชยตามกฎหมาย — 1 นาที ฟรี ไม่ต้องสมัคร</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a></p>
 <h2>จะรู้ได้อย่างไรว่าเงินประกันของฉันสะสมไว้เท่าไหร่?</h2>
 <p>ไม่ต้องเสียค่านายหน้า <strong>มี 2 วิธี และฟรีทั้งคู่</strong></p>
 <h3>1. ดูเองในแอป — เร็วที่สุด</h3>
-<p>ติดตั้งแอป <strong>EPS 전용보험</strong> เป็นแอปทางการของ Samsung Fire & Marine Insurance ค้นหาใน Google Play หรือ App Store<br><ul><li><strong>ดูยอดที่คาดว่าจะได้รับ</strong> — เห็นยอดที่สะสมไว้จนถึงตอนนี้ได้ทันที</li><br><li>ยื่นเรื่องขอรับเงินและเช็คสถานะได้ในแอปเช่นกัน</li><br><li>รองรับ <strong>19 ภาษา รวมภาษาไทยและเวียดนาม</strong></li></ul></p>
+<p>ติดตั้งแอป <strong>EPS 전용보험</strong> เป็นแอปทางการของ Samsung Fire & Marine Insurance ค้นหาใน Google Play หรือ App Store<br><ul><li><strong>ดูยอดที่คาดว่าจะได้รับ</strong> — เห็นยอดที่สะสมไว้จนถึงตอนนี้ได้ทันที</li><li>ยื่นเรื่องขอรับเงินและเช็คสถานะได้ในแอปเช่นกัน</li><li>รองรับ <strong>19 ภาษา รวมภาษาไทยและเวียดนาม</strong></li></ul></p>
 <p>ไม่ต้องโทร ไม่ต้องใช้เอกสาร</p>
 <h3>2. ขอเป็นลายลักษณ์อักษร — รัฐบาลจัดระบบนี้ไว้แล้ว</h3>
 <blockquote>เมื่อนายจ้างหรือแรงงานต่างชาติร้องขอให้บริษัทประกันยืนยันยอดเงินประกัน บริษัทประกัน <strong>ออกเอกสารแจ้งยอดที่คาดว่าจะได้รับเป็นลายลักษณ์อักษรทันที</strong> ระบบนี้กำลังดำเนินการอยู่<br>— กระทรวงแรงงานเกาหลี</blockquote>
-<p>กฎหมายก็ระบุเช่นเดียวกัน<br><blockquote>บริษัทประกันต้องยืนยันยอดเงินก้อน <strong>เป็นลายลักษณ์อักษร (รวมเอกสารอิเล็กทรอนิกส์) โดยไม่ชักช้า</strong><br>— กฎกระทรวงตาม พ.ร.บ.การจ้างแรงงานต่างชาติ มาตรา 21 วรรค 4</blockquote></p>
+<p>กฎหมายก็ระบุเช่นเดียวกัน</p>
+<blockquote>บริษัทประกันต้องยืนยันยอดเงินก้อน <strong>เป็นลายลักษณ์อักษร (รวมเอกสารอิเล็กทรอนิกส์) โดยไม่ชักช้า</strong><br>— กฎกระทรวงตาม พ.ร.บ.การจ้างแรงงานต่างชาติ มาตรา 21 วรรค 4</blockquote>
 <p>หากคุณร้องขอ บริษัทประกันปฏิเสธไม่ได้ สายด่วนแรงงานต่างชาติ Samsung Fire <strong>1600-0266</strong> (จากต่างประเทศ 82-2-2261-8400) วันจันทร์–ศุกร์ 09:00–18:00 น. ในระบบ ARS เลือกประเทศของคุณแล้วพูดภาษาของคุณเองได้</p>
 <h3>3 ขั้นตอน</h3>
 <ol><li>คำนวณเงินชดเชยตามกฎหมายด้วย <strong>เครื่องคำนวณ Kori Care</strong></li><li>ตรวจยอดที่คาดว่าจะได้รับในแอป <strong>EPS 전용보험</strong></li><li>เทียบสองตัวเลข <strong>ถ้าเงินประกันน้อยกว่า ส่วนต่างนั้นคือเงินที่คุณควรได้</strong></li></ol>
@@ -441,11 +611,12 @@
 <p><strong>สิทธิ์เงินชดเชยของคุณยังคงอยู่</strong> หากไม่มีเงินประกัน นายจ้างต้องจ่ายให้คุณโดยตรง</p>
 <p>หากคุณอยู่ในเกณฑ์แต่นายจ้างไม่สมัคร มีโทษปรับไม่เกิน 5,000,000 วอน การค้างชำระเบี้ยประกัน 3 ครั้งขึ้นไปมีค่าปรับ 800,000 / 1,600,000 / 3,200,000 วอน ตามลำดับครั้งที่ 1, 2 และ 3</p>
 <h2>ถ้าทำงานไม่ถึง 1 ปีจะเป็นอย่างไร?</h2>
-<p><strong>คุณจะไม่ได้อะไรเลย และเงินนั้นกลับไปที่นายจ้าง</strong><br><blockquote>กรณีผู้เอาประกันทำงานไม่ถึง 1 ปี เงินก้อนนั้น <strong>ตกเป็นของนายจ้าง</strong><br>— กฎกระทรวงมาตรา 21 วรรค 2 ข้อ 2 ข้อยกเว้น</blockquote></p>
+<p><strong>คุณจะไม่ได้อะไรเลย และเงินนั้นกลับไปที่นายจ้าง</strong></p>
+<blockquote>กรณีผู้เอาประกันทำงานไม่ถึง 1 ปี เงินก้อนนั้น <strong>ตกเป็นของนายจ้าง</strong><br>— กฎกระทรวงมาตรา 21 วรรค 2 ข้อ 2 ข้อยกเว้น</blockquote>
 <p>นี่คือเหตุผลที่บางครั้งสัญญาสิ้นสุดก่อนครบ 1 ปีพอดี <strong>จดบันทึกวันและเวลาทำงานของคุณเองไว้</strong> แม้งานจะถูกแบ่งเป็นสัญญาสั้นหลายฉบับ ศาลเกาหลีก็นับระยะเวลาที่ต่อเนื่องกันรวมเป็นช่วงเดียว</p>
 <h2>ยื่นเรื่องเมื่อไหร่และอย่างไร?</h2>
 <p><strong>ต้องทำที่ 2 แห่ง ทำที่เดียวเงินจะไม่ออก</strong></p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr></tr></thead><tbody><tr><td><strong>1 เดือนก่อนเดินทาง</strong></td><td>แจ้งกำหนดการเดินทางออกที่ศูนย์จัดหางาน</td></tr><tr><td><strong>อย่างน้อย 7 วันก่อนเดินทาง</strong></td><td>ยื่นขอรับเงินที่ Samsung Fire — ผ่านแอป ศูนย์ให้บริการเฉพาะ หรือแฟกซ์ 0505-161-1421 (จากต่างประเทศ 82-505-161-1421)</td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>1 เดือนก่อนเดินทาง</strong></td><td>แจ้งกำหนดการเดินทางออกที่ศูนย์จัดหางาน</td></tr><tr><td><strong>อย่างน้อย 7 วันก่อนเดินทาง</strong></td><td>ยื่นขอรับเงินที่ Samsung Fire — ผ่านแอป ศูนย์ให้บริการเฉพาะ หรือแฟกซ์ 0505-161-1421 (จากต่างประเทศ 82-505-161-1421)</td></tr></tbody></table></div></div>
 จ่ายเงิน <strong>ภายใน 14 วันนับจากวันที่คุณเดินทางออกจากประเทศ</strong> (มาตรา 13 วรรค 3)
 <h3>วิธีรับเงิน 4 แบบ</h3>
 <div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>วิธี</th><th>สิ่งที่ต้องระวัง</th></tr></thead><tbody><tr><td>บัญชีเกาหลีเฉพาะการโอน</td><td>Kookmin, Shinhan, KEB Hana, Woori ต้องไปที่ธนาคารนั้นด้วยตนเองเพื่อลงทะเบียนธนาคารแลกเปลี่ยนเงินตราต่างประเทศ</td></tr><tr><td>บัญชีเกาหลีทั่วไป</td><td>บางธนาคารอาจขอเอกสารเพิ่ม</td></tr><tr><td>บัญชีในประเทศของคุณ</td><td>ต้องเป็นบัญชีของประเทศที่คุณถือสัญชาติ <strong>ต้องระบุ SWIFT code</strong></td></tr><tr><td>รับเงินสดที่สนามบิน</td><td>ดูขั้นตอนและข้อจำกัดเวลาด้านล่าง</td></tr></tbody></table></div></div>
@@ -457,12 +628,12 @@
 <p><strong>คุณมีเวลา 3 ปี</strong> หากไม่ยื่นเรื่องภายใน 3 ปีนับจากวันที่เกิดสิทธิ์ สิทธิ์จะหมดอายุ และสถาบันการเงินจะโอนเงินไปยัง HRD Korea ภายใน 1 เดือน (มาตรา 13 วรรค 4)</p>
 <p>หลังจากนั้น Samsung Fire ระบุว่า HRD Korea มีบริการค้นหาเงินประกันที่ไม่มีผู้รับ แต่ขั้นตอนที่บุคคลจะเรียกคืนเงินนั้นไม่มีการยืนยันในเอกสารสาธารณะ <strong>การยื่นเรื่องก่อนครบ 3 ปีคือทางที่แน่นอน</strong></p>
 <h2>ถ้านายจ้างไม่ยอมจ่ายส่วนต่าง?</h2>
-<p>เริ่มจากช่องทางที่ฟรีก่อน<br><ul><li><strong>1577-0071</strong> — ศูนย์ให้คำปรึกษาแรงงานต่างชาติ รองรับภาษาไทยและเวียดนาม ทุกวัน 09:00–18:00 น.</li><br><li><strong>1350</strong> — กระทรวงแรงงาน ภาษาอังกฤษและจีน วันจันทร์–ศุกร์ 09:00–18:00 น.</li><br><li><strong>ยื่นเรื่องที่สำนักงานแรงงานเขตที่คุณอยู่</strong> ไม่มีค่าใช้จ่าย</li></ul></p>
+<p>เริ่มจากช่องทางที่ฟรีก่อน<br><ul><li><strong>1577-0071</strong> — ศูนย์ให้คำปรึกษาแรงงานต่างชาติ รองรับภาษาไทยและเวียดนาม ทุกวัน 09:00–18:00 น.</li><li><strong>1350</strong> — กระทรวงแรงงาน ภาษาอังกฤษและจีน วันจันทร์–ศุกร์ 09:00–18:00 น.</li><li><strong>ยื่นเรื่องที่สำนักงานแรงงานเขตที่คุณอยู่</strong> ไม่มีค่าใช้จ่าย</li></ul></p>
 <p>ตั้งแต่วันที่ 6 พฤศจิกายน 2025 เมื่อเจ้าหน้าที่ตรวจแรงงานสอบสวนเรื่องค่าจ้างค้างจ่าย จะไม่แจ้งสำนักงานตรวจคนเข้าเมือง แต่ไม่ได้ทำให้สถานะการพำนักของคุณถูกกฎหมาย และไม่ได้ครอบคลุมกรณีที่ถูกตรวจพบด้วยเหตุอื่น</p>
 <h2>Kori Care ช่วยคุณได้</h2>
 <p>หากเอกสารภาษาเกาหลีอ่านไม่เข้าใจ หรือไม่รู้ว่าต้องถามใครเรื่องอะไร ติดต่อ Kori Care ได้ <strong>ฟรี</strong></p>
 <p>บางกรณีไม่สามารถจบด้วยการช่วยเหลือเบื้องต้นและต้องจ้างนักกฎหมายแรงงานที่มีใบอนุญาต (공인노무사) แม้ในกรณีนั้น ผู้เชี่ยวชาญที่ทำงานร่วมกับ Kori Care จะพูดอยู่ข้างคุณ</p>
-<p><a href="/link/th/severance-calculator">ลองคำนวณด้วยเครื่องคำนวณเงินชดเชย Kori Care</a> หากยังไม่ได้ลอง</p>
+<p><a class="calc-cta" href="/link/th/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">เครื่องคำนวณเงินชดเชย Kori Care</span><span class="calc-cta-sub">เช็กยอดของคุณก่อนยื่นเรื่อง</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a></p>
     </div>
 
   </article>

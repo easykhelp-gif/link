@@ -219,7 +219,7 @@
     line-height: 1.8;
   }
   
-  .article-body p { margin-bottom: 18px; }
+  .article-body p { margin-bottom: 26px; }
   .article-body strong { color: var(--navy); font-weight: 800; }
   .article-body h2 { font-size: 19px; color: var(--navy); margin: 28px 0 16px 0; font-weight: 800; }
   .article-body h3 { font-size: 16.5px; color: var(--ink); margin: 20px 0 12px 0; font-weight: 700; }
@@ -338,8 +338,70 @@
     box-shadow: none;
     border-radius: 0;
   }
+  /* 2열 표는 화면 폭에 맞춰 줄바꿈 — 금액이 잘리지 않게 (2026-08-31) */
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+  .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
   @media (max-width: 600px) {
     .article-body .table-scroll table { white-space: nowrap; }
+    /* 2열 표는 줄바꿈해서 화면에 다 들어오게 (2026-08-31)
+       3열 이상만 가로 스크롤 유지 */
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) {
+      white-space: normal;
+      width: 100%;
+      min-width: 0;
+      table-layout: auto;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) th:first-child,
+    .article-body .table-scroll table:not(:has(th:nth-child(3))) td:first-child {
+      position: static;
+    }
+    /* 첫 칸이 비어 있는 2열 표 = 라벨/값 구조.
+       모바일에서는 위아래로 쌓아 가로 낭비와 세로 길이를 함께 줄인다. */
+    .article-body .table-scroll table:has(thead th:first-child:empty) { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) thead { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tbody,
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr { display: block; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e8edf5;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) tr:last-child { border-bottom: 0; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td {
+      display: block;
+      width: auto;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child {
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .01em;
+      color: #4a5b78;
+      background: transparent;
+    }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td:first-child:empty { display: none; }
+    .article-body .table-scroll table:has(thead th:first-child:empty) td + td {
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
     /* 첫 열 고정 — 옆으로 밀어도 어느 행인지 보이게 */
     .article-body .table-scroll th:first-child,
     .article-body .table-scroll td:first-child {
@@ -347,6 +409,112 @@
     }
     .article-body .table-scroll th:first-child { background: #f8fafc; }
     .article-body .table-scroll td:first-child { background: #ffffff; }
+  }
+
+  /* 계산기 버튼 (2026-08-31) — 입체 음영, 아이콘은 인라인 SVG */
+  .article-body .calc-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 30px 0;
+    padding: 15px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(130% 150% at 6% 0%, #1d4d97 0%, rgba(29,77,151,0) 58%),
+      linear-gradient(162deg, #143870 0%, #0c2049 60%, #0a1a39 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.18),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 1px 2px rgba(8,17,36,0.30),
+      0 14px 30px -10px rgba(8,17,36,0.62);
+    transition: transform .15s cubic-bezier(.2,.8,.3,1), box-shadow .15s ease;
+  }
+  /* 상단 광택 */
+  .article-body .calc-cta::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 54%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.11), rgba(255,255,255,0));
+    pointer-events: none;
+    z-index: 0;
+  }
+  .article-body .calc-cta:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22),
+      inset 0 -1px 0 rgba(0,0,0,0.38),
+      0 2px 4px rgba(8,17,36,0.30),
+      0 20px 38px -12px rgba(8,17,36,0.70);
+  }
+  .article-body .calc-cta:active {
+    transform: translateY(1px);
+    box-shadow:
+      inset 0 2px 5px rgba(0,0,0,0.42),
+      0 1px 2px rgba(8,17,36,0.28);
+  }
+
+  .article-body .calc-cta > * { position: relative; z-index: 1; }
+
+  .article-body .calc-cta-icon {
+    flex: 0 0 46px;
+    width: 46px; height: 46px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,0.10);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'1.7'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Crect%20x%3D'4'%20y%3D'2.5'%20width%3D'16'%20height%3D'19'%20rx%3D'3.2'%2F%3E%3Crect%20x%3D'7.6'%20y%3D'6'%20width%3D'8.8'%20height%3D'3.6'%20rx%3D'1.2'%2F%3E%3Cpath%20d%3D'M8.2%2013.4h.01M12%2013.4h.01M15.8%2013.4h.01M8.2%2017.4h.01M12%2017.4h.01M15.8%2017.4h.01'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.28),
+      inset 0 -1px 0 rgba(0,0,0,0.28),
+      0 2px 6px rgba(0,0,0,0.22);
+  }
+
+  .article-body .calc-cta-text { flex: 1 1 auto; min-width: 0; }
+  .article-body .calc-cta-label {
+    display: block;
+    font-size: 15.5px;
+    font-weight: 800;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.28);
+  }
+  .article-body .calc-cta-sub {
+    display: block;
+    margin-top: 4px;
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: rgba(226,236,252,0.80);
+  }
+
+  .article-body .calc-cta-arrow {
+    flex: 0 0 32px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.12);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2.2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%3E%3Cpath%20d%3D'M9%205.5l6.5%206.5L9%2018.5'%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 53% center;
+    background-size: 15px 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24);
+    transition: transform .15s ease, background-color .15s ease;
+  }
+  .article-body .calc-cta:hover .calc-cta-arrow {
+    transform: translateX(3px);
+    background-color: rgba(255,255,255,0.19);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-body .calc-cta,
+    .article-body .calc-cta-arrow { transition: none; }
+    .article-body .calc-cta:hover { transform: none; }
   }
 
   /* 인용구·숫자목록 (2026-08-22 추가) */
@@ -413,22 +581,24 @@
     <div class="article-body">
       <h2>Số tiền tôi nhận được ít hơn số tôi tính. Tại sao?</h2>
 <p>Đây không phải nhầm lẫn. <strong>Bảo hiểm Bảo lãnh Xuất cảnh và tiền trợ cấp thôi việc theo luật được tính trên hai cơ sở khác nhau.</strong></p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Cơ sở tính</th></tr></thead><tbody><tr><td><strong>Bảo hiểm Bảo lãnh Xuất cảnh</strong></td><td><strong>Từ 8.3% trở lên của lương thông thường hàng tháng ghi trên Giấy phép Tuyển dụng</strong>, tích lũy mỗi tháng (Thông báo Bộ Lao động số 2011-33)</td></tr><tr><td><strong>Tiền thôi việc theo luật</strong></td><td><strong>Lương bình quân 3 tháng cuối × 30 ngày × số năm làm việc</strong> (Luật Bảo đảm Trợ cấp Hưu trí, Điều 8)</td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th>Cơ sở tính</th></tr></thead><tbody><tr><td><strong>Bảo hiểm Bảo lãnh Xuất cảnh</strong></td><td><strong>Từ 8.3% trở lên của lương thông thường hàng tháng ghi trên Giấy phép Tuyển dụng</strong>, tích lũy mỗi tháng (Thông báo Bộ Lao động số 2011-33)</td></tr><tr><td><strong>Tiền thôi việc theo luật</strong></td><td><strong>Lương bình quân 3 tháng cuối × 30 ngày × số năm làm việc</strong> (Luật Bảo đảm Trợ cấp Hưu trí, Điều 8)</td></tr></tbody></table></div></div>
 <strong>Mức lương trên Giấy phép Tuyển dụng là con số khai báo khi bạn được nhận vào làm.</strong> Không có quy định nào bắt buộc cập nhật cơ sở này khi lương của bạn tăng. Vì vậy nếu lương tăng, nếu bạn làm nhiều tăng ca, hoặc nếu bạn đổi nơi làm việc, bảo hiểm vẫn tích lũy theo con số cũ thấp hơn.
 <p><strong>Đây là điều xảy ra trên thực tế.</strong> Giả sử Giấy phép Tuyển dụng của bạn khai 2.100.000 won/tháng. Ba năm sau, kể cả tăng ca, bạn đang nhận 2.900.000 won.</p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Số tiền</th></tr></thead><tbody><tr><td>Bảo hiểm tích lũy (2,1 triệu × 8.3% × 36 tháng + lãi)</td><td>khoảng 6.300.000 won trở lên</td></tr><tr><td>Tiền thôi việc theo luật (2,9 triệu × 3 năm)</td><td>8.700.000 won</td></tr><tr><td><strong>Phần chênh lệch chủ lao động phải trả</strong></td><td><strong>khoảng 2.000.000 – 2.400.000 won</strong></td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th>Số tiền</th></tr></thead><tbody><tr><td>Bảo hiểm tích lũy (2,1 triệu × 8.3% × 36 tháng + lãi)</td><td>khoảng 6.300.000 won trở lên</td></tr><tr><td>Tiền thôi việc theo luật (2,9 triệu × 3 năm)</td><td>8.700.000 won</td></tr><tr><td><strong>Phần chênh lệch chủ lao động phải trả</strong></td><td><strong>khoảng 2.000.000 – 2.400.000 won</strong></td></tr></tbody></table></div></div>
 Đây chỉ là ví dụ. Con số thực tế phụ thuộc vào lương và thời gian làm việc của bạn. Khoản tích lũy có cộng lãi nên số thực nhận cao hơn 6.300.000 won — hợp đồng bảo hiểm ghi lãi kép hàng năm theo "lãi suất tích lũy tại thời điểm chi trả", nhưng lãi suất đó không được công bố.
 <blockquote><strong>Tiền thôi việc theo luật − tiền bảo hiểm = phần chênh lệch chủ lao động phải trả bạn</strong></blockquote>
-<p>Đây không phải lựa chọn của chủ lao động. Luật quy định đó là nghĩa vụ (Nghị định thi hành Điều 21 khoản 3). Bộ Lao động Hàn Quốc cũng nêu điều tương tự:<br><blockquote>Người lao động nước ngoài có thể biết trước số tiền bảo hiểm dự kiến bằng văn bản trước khi xuất cảnh, <strong>và dùng đó làm căn cứ yêu cầu chủ lao động trả phần chênh lệch tiền thôi việc.</strong><br>— Bộ Lao động, Văn phòng Uijeongbu, ngày 18/7/2022</blockquote></p>
-<p><a href="/link/vi/severance-calculator">Tính tiền thôi việc theo luật bằng Công cụ tính Kori Care</a> — 1 phút, miễn phí, không cần đăng ký.</p>
+<p>Đây không phải lựa chọn của chủ lao động. Luật quy định đó là nghĩa vụ (Nghị định thi hành Điều 21 khoản 3). Bộ Lao động Hàn Quốc cũng nêu điều tương tự:</p>
+<blockquote>Người lao động nước ngoài có thể biết trước số tiền bảo hiểm dự kiến bằng văn bản trước khi xuất cảnh, <strong>và dùng đó làm căn cứ yêu cầu chủ lao động trả phần chênh lệch tiền thôi việc.</strong><br>— Bộ Lao động, Văn phòng Uijeongbu, ngày 18/7/2022</blockquote>
+<p><a class="calc-cta" href="/link/vi/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Công cụ tính Tiền thôi việc Kori Care</span><span class="calc-cta-sub">Tính tiền thôi việc theo luật — 1 phút, miễn phí, không cần đăng ký</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a></p>
 <h2>Làm sao biết bảo hiểm của tôi thực sự tích lũy bao nhiêu?</h2>
 <p>Bạn không cần trả phí cho môi giới. <strong>Có hai cách, và cả hai đều miễn phí.</strong></p>
 <h3>1. Tự xem trong ứng dụng — cách nhanh nhất</h3>
-<p>Cài ứng dụng <strong>EPS 전용보험</strong>. Đây là ứng dụng chính thức của Samsung Fire & Marine Insurance. Tìm trên Google Play hoặc App Store.<br><ul><li><strong>Xem số tiền dự kiến nhận</strong> — thấy ngay số đã tích lũy đến hiện tại</li><br><li>Nộp hồ sơ và kiểm tra tình trạng cũng làm được trong ứng dụng</li><br><li>Hỗ trợ <strong>19 ngôn ngữ, bao gồm tiếng Việt và tiếng Thái</strong></li></ul></p>
+<p>Cài ứng dụng <strong>EPS 전용보험</strong>. Đây là ứng dụng chính thức của Samsung Fire & Marine Insurance. Tìm trên Google Play hoặc App Store.<br><ul><li><strong>Xem số tiền dự kiến nhận</strong> — thấy ngay số đã tích lũy đến hiện tại</li><li>Nộp hồ sơ và kiểm tra tình trạng cũng làm được trong ứng dụng</li><li>Hỗ trợ <strong>19 ngôn ngữ, bao gồm tiếng Việt và tiếng Thái</strong></li></ul></p>
 <p>Không cần gọi điện, không cần giấy tờ.</p>
 <h3>2. Yêu cầu bằng văn bản — chính phủ đã lập ra chế độ này</h3>
 <blockquote>Khi chủ lao động hoặc người lao động nước ngoài yêu cầu công ty bảo hiểm xác nhận số tiền bảo hiểm, công ty bảo hiểm <strong>cấp ngay văn bản xác nhận số tiền dự kiến nhận.</strong> Chế độ này đang được thực hiện.<br>— Bộ Lao động Hàn Quốc</blockquote>
-<p>Luật cũng quy định như vậy:<br><blockquote>Công ty bảo hiểm phải xác nhận khoản tiền một lần <strong>bằng văn bản (bao gồm văn bản điện tử) không chậm trễ.</strong><br>— Nghị định thi hành Luật Tuyển dụng Lao động Nước ngoài, Điều 21 khoản 4</blockquote></p>
+<p>Luật cũng quy định như vậy:</p>
+<blockquote>Công ty bảo hiểm phải xác nhận khoản tiền một lần <strong>bằng văn bản (bao gồm văn bản điện tử) không chậm trễ.</strong><br>— Nghị định thi hành Luật Tuyển dụng Lao động Nước ngoài, Điều 21 khoản 4</blockquote>
 <p>Nếu bạn yêu cầu, công ty bảo hiểm không thể từ chối. Đường dây dành cho lao động nước ngoài của Samsung Fire <strong>1600-0266</strong> (từ nước ngoài 82-2-2261-8400), thứ Hai–thứ Sáu 09:00–18:00. Trên menu ARS bạn có thể chọn quốc gia và nói bằng tiếng của mình.</p>
 <h3>Ba bước</h3>
 <ol><li>Tính tiền thôi việc theo luật bằng <strong>công cụ tính Kori Care</strong></li><li>Kiểm tra số tiền dự kiến nhận trong ứng dụng <strong>EPS 전용보험</strong></li><li>So sánh hai con số. <strong>Nếu bảo hiểm thấp hơn, phần chênh lệch đó là tiền của bạn</strong></li></ol>
@@ -441,11 +611,12 @@
 <p><strong>Quyền hưởng tiền thôi việc của bạn vẫn còn.</strong> Nếu không có bảo hiểm, chủ lao động phải trả trực tiếp cho bạn.</p>
 <p>Nếu bạn thuộc diện mà chủ lao động không tham gia, đó là hành vi bị phạt tiền đến 5.000.000 won. Chậm đóng phí bảo hiểm từ 3 kỳ trở lên cũng bị phạt 800.000 / 1.600.000 / 3.200.000 won cho lần vi phạm thứ nhất, thứ hai và thứ ba.</p>
 <h2>Nếu tôi không làm đủ một năm thì sao?</h2>
-<p><strong>Bạn không nhận được gì, và số tiền đó quay về chủ lao động.</strong><br><blockquote>Trường hợp người được bảo hiểm làm việc dưới một năm, khoản tiền một lần đó <strong>thuộc về chủ lao động</strong>.<br>— Nghị định thi hành Điều 21 khoản 2 mục 2, phần loại trừ</blockquote></p>
+<p><strong>Bạn không nhận được gì, và số tiền đó quay về chủ lao động.</strong></p>
+<blockquote>Trường hợp người được bảo hiểm làm việc dưới một năm, khoản tiền một lần đó <strong>thuộc về chủ lao động</strong>.<br>— Nghị định thi hành Điều 21 khoản 2 mục 2, phần loại trừ</blockquote>
 <p>Đây là lý do đôi khi hợp đồng kết thúc ngay trước mốc một năm. <strong>Hãy tự ghi lại ngày và giờ bạn đã làm việc.</strong> Ngay cả khi công việc bị chia thành nhiều hợp đồng ngắn, tòa án Hàn Quốc vẫn cộng các giai đoạn liên tục lại với nhau.</p>
 <h2>Khi nào và làm thế nào để nộp hồ sơ?</h2>
 <p><strong>Bạn phải làm ở hai nơi. Chỉ làm một nơi thì tiền sẽ không được giải ngân.</strong></p>
-<div class="table-wrap"><div class="table-scroll"><table><thead><tr></tr></thead><tbody><tr><td><strong>1 tháng trước khi xuất cảnh</strong></td><td>Khai báo kế hoạch xuất cảnh tại Trung tâm Việc làm</td></tr><tr><td><strong>Ít nhất 7 ngày trước khi xuất cảnh</strong></td><td>Nộp đơn xin nhận tiền cho Samsung Fire — qua ứng dụng, tổng đài chuyên trách, hoặc fax 0505-161-1421 (từ nước ngoài 82-505-161-1421)</td></tr></tbody></table></div></div>
+<div class="table-wrap"><div class="table-scroll"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>1 tháng trước khi xuất cảnh</strong></td><td>Khai báo kế hoạch xuất cảnh tại Trung tâm Việc làm</td></tr><tr><td><strong>Ít nhất 7 ngày trước khi xuất cảnh</strong></td><td>Nộp đơn xin nhận tiền cho Samsung Fire — qua ứng dụng, tổng đài chuyên trách, hoặc fax 0505-161-1421 (từ nước ngoài 82-505-161-1421)</td></tr></tbody></table></div></div>
 Tiền được chi trả <strong>trong vòng 14 ngày kể từ ngày bạn rời khỏi Hàn Quốc</strong> (Điều 13 khoản 3).
 <h3>Bốn cách nhận tiền</h3>
 <div class="table-wrap"><div class="table-scroll"><table><thead><tr><th>Cách</th><th>Điều cần lưu ý</th></tr></thead><tbody><tr><td>Tài khoản Hàn Quốc chuyên chuyển tiền</td><td>Kookmin, Shinhan, KEB Hana, Woori. Bạn phải đến ngân hàng đó để đăng ký làm ngân hàng ngoại hối</td></tr><tr><td>Tài khoản Hàn Quốc thông thường</td><td>Một số ngân hàng yêu cầu thêm giấy tờ</td></tr><tr><td>Tài khoản tại nước bạn</td><td>Phải là tài khoản thuộc quốc gia bạn mang quốc tịch. <strong>Bắt buộc có mã SWIFT</strong></td></tr><tr><td>Nhận tiền mặt tại sân bay</td><td>Xem quy trình và giới hạn thời gian bên dưới</td></tr></tbody></table></div></div>
@@ -457,12 +628,12 @@ Nếu chọn tài khoản ngân hàng, tiền được chuyển sau khi Bộ Tư
 <p><strong>Bạn có ba năm.</strong> Nếu không yêu cầu trong vòng ba năm kể từ khi phát sinh quyền nhận tiền, quyền đó mất hiệu lực và tổ chức tài chính chuyển số tiền cho HRD Korea trong vòng một tháng (Điều 13 khoản 4).</p>
 <p>Sau đó, Samsung Fire cho biết HRD Korea có dịch vụ tìm kiếm bảo hiểm không người nhận. Tuy nhiên quy trình để cá nhân đòi lại không được xác nhận trong tài liệu công khai. <strong>Yêu cầu trước khi hết ba năm là con đường chắc chắn.</strong></p>
 <h2>Nếu chủ lao động không trả phần chênh lệch?</h2>
-<p>Hãy bắt đầu từ những gì miễn phí.<br><ul><li><strong>1577-0071</strong> — Trung tâm Tư vấn Lao động Nước ngoài. Hỗ trợ tiếng Việt và tiếng Thái. Hàng ngày 09:00–18:00</li><br><li><strong>1350</strong> — Bộ Lao động. Tiếng Anh và tiếng Trung. Thứ Hai–thứ Sáu 09:00–18:00</li><br><li><strong>Nộp đơn tại văn phòng lao động nơi bạn cư trú.</strong> Không mất phí</li></ul></p>
+<p>Hãy bắt đầu từ những gì miễn phí.<br><ul><li><strong>1577-0071</strong> — Trung tâm Tư vấn Lao động Nước ngoài. Hỗ trợ tiếng Việt và tiếng Thái. Hàng ngày 09:00–18:00</li><li><strong>1350</strong> — Bộ Lao động. Tiếng Anh và tiếng Trung. Thứ Hai–thứ Sáu 09:00–18:00</li><li><strong>Nộp đơn tại văn phòng lao động nơi bạn cư trú.</strong> Không mất phí</li></ul></p>
 <p>Từ ngày 6 tháng 11 năm 2025, khi thanh tra lao động điều tra vụ nợ lương, họ không báo cho cơ quan xuất nhập cảnh. Điều này không làm cho tình trạng cư trú của bạn hợp pháp, và không bảo vệ bạn khỏi việc bị phát hiện qua con đường khác.</p>
 <h2>Kori Care có thể giúp bạn</h2>
 <p>Nếu giấy tờ tiếng Hàn không hiểu được, hoặc bạn không biết phải hỏi ai về việc gì, hãy liên hệ Kori Care. <strong>Miễn phí.</strong></p>
 <p>Một số trường hợp không thể giải quyết bằng hỗ trợ cơ bản và cần thuê chuyên viên luật lao động có chứng chỉ (공인노무사). Ngay cả khi đó, chuyên gia làm việc cùng Kori Care sẽ nói chuyện đứng về phía bạn.</p>
-<p><a href="/link/vi/severance-calculator">Thử tính bằng Công cụ tính Tiền thôi việc Kori Care</a> nếu bạn chưa thử.</p>
+<p><a class="calc-cta" href="/link/vi/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Công cụ tính Tiền thôi việc Kori Care</span><span class="calc-cta-sub">Kiểm tra số tiền của bạn trước khi nộp đơn</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a></p>
     </div>
 
   </article>
