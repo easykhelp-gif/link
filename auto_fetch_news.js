@@ -56,9 +56,9 @@ function cleanText(str) {
     //   (URGENT) (LEAD) (2nd LD) (News Focus) (Yonhap Interview) …
     .replace(/^\s*\((?:URGENT|LEAD|\d+(?:st|nd|rd|th)\s+LD|News Focus|Yonhap [^)]+|Newsmaker|Update|Photo|Graphic)\)\s*/i, '')
     .replace(/\uFFFD/g, '')
-    // \uC5D4\uD2F0\uD2F0\uB294 \uAE00\uC790\uB85C \uB418\uB3CC\uB9B0\uB2E4. \uC9C0\uC6CC \uBC84\uB9AC\uBA74 \uC548 \uB41C\uB2E4.
-    // \uC608\uC804\uC5D0\uB294 &#\d+; \uB97C \uD1B5\uC9F8\uB85C \uC9C0\uC6CC\uC11C, \uD0DC\uAD6D \uB9E4\uCCB4\uAC00 \uBCF4\uB0B8 "[&#8230;]" \uC774
-    // \uB300\uAD04\uD638\uB9CC \uB0A8\uC740 "[]" \uAC00 \uB418\uC5B4 \uD654\uBA74\uC5D0 \uADF8\uB300\uB85C \uB098\uAC14\uB2E4.
+    // 엔티티는 글자로 되돌린다. 지워 버리면 안 된다.
+    // 예전에는 &#\d+; 를 통째로 지워서, 태국 매체가 보낸 "[&#8230;]" 이
+    // 대괄호만 남은 "[]" 가 되어 화면에 그대로 나갔다.
     .replace(/&(#\d+|#x[0-9a-fA-F]+|amp|lt|gt|quot|apos|nbsp|hellip|mdash|ndash|lsquo|rsquo|ldquo|rdquo);/g, function (m, e) {
       var named = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
                     hellip: '\u2026', mdash: '\u2014', ndash: '\u2013',
@@ -71,7 +71,7 @@ function cleanText(str) {
       }
       return '';
     })
-    // \uB9E4\uCCB4\uAC00 \uBCF8\uBB38\uC744 \uC790\uB97C \uB54C \uBD99\uC774\uB294 \uD45C\uC2DC. \uB0A8\uC73C\uBA74 \uBB38\uC7A5\uC774 \uB04A\uAE34 \uAC83\uCC98\uB7FC \uBCF4\uC778\uB2E4.
+    // 매체가 본문을 자를 때 붙이는 표시. 남으면 문장이 끊긴 것처럼 보인다.
     .replace(/\[\s*(?:\.\.\.|\u2026)?\s*\]/g, '')
     .replace(/(?:\.\.\.|\u2026)\s*$/, '')
     .replace(/\s+/g, ' ')
@@ -126,6 +126,9 @@ function fetchUrl(url, redirectsLeft = 3) {
   });
 }
 
+// 매체가 하루 넘게 앞선 날짜를 준 기사. 어느 매체가 이러는지 보이게 남긴다.
+const futureDateWarnings = [];
+
 function parseXmlItems(xmlText) {
   const items = [];
   if (!xmlText) return items;
@@ -147,14 +150,24 @@ function parseXmlItems(xmlText) {
 
     if (cleanTitle && cleanLink && cleanTitle.length > 5) {
       // 매체가 미래 날짜를 주는 일이 있다. 실측: 태국 매체가 2026-09-01 에
-      // 2026-09-03 짜리 기사를 내보냈다.
-      // 정렬이 최신순이라 그런 기사가 목록 맨 앞에 박히고,
-      // 3일 보존은 미래 날짜를 영원히 지우지 못한다.
-      // 오늘보다 뒤면 오늘로 끌어내린다.
+      // 2026-09-03 짜리 기사를 내보냈다. 시간대 차이라면 최대 하루이므로
+      // 이틀 앞은 매체가 잘못 적은 것이다.
+      //
+      // 기사는 버리지 않고 날짜만 고친다. 내용은 멀쩡한데 날짜 오타 하나로
+      // 버리면 멀쩡한 기사를 잃는다.
+      //
+      // 그대로 두면 두 가지가 깨진다.
+      //   목록이 최신순이라 그 기사가 영원히 맨 앞에 박힌다
+      //   3일 보존은 (지금 − 발행)이 음수라 절대 지우지 못한다
       const now = Date.now();
       let ts = pubDateMatch && !isNaN(new Date(pubDateMatch[1]).getTime())
         ? new Date(pubDateMatch[1]).getTime() : now;
-      if (ts > now) ts = now;
+      if (ts > now) {
+        const ahead = Math.round((ts - now) / 3600000);
+        // 하루를 넘게 앞서면 매체 잘못이다. 어느 매체인지 기록에 남긴다.
+        if (ahead > 24) futureDateWarnings.push({ hours: ahead, title: cleanTitle.slice(0, 50) });
+        ts = now;
+      }
 
       items.push({
         title: cleanTitle,
@@ -808,6 +821,10 @@ async function runPipeline() {
   }
 
   console.log('🎉 3대 언론사 교차 파싱 완료!');
+  if (futureDateWarnings.length) {
+    console.log(`★ 발행 날짜가 미래인 기사 ${futureDateWarnings.length}건 — 매체 오류다. 날짜만 고쳐 실었다.`);
+    futureDateWarnings.slice(0, 5).forEach(w => console.log(`    +${w.hours}시간  ${w.title}`));
+  }
   console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
   console.log(`코리케어 시선이 붙은 기사 ${angled}건 / 요약 ${summarized}건`);
   console.log(`월간 정리용으로 보관 ${archived}건`);
