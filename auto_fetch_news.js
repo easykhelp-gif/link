@@ -19,25 +19,31 @@ for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 }
 
-// 3 Major Verified Outlets Per Language
+// 세 언어 모두 한국 뉴스를 받는다.
+//
+// 2026-09-01 이전에는 태국어·베트남어가 그 나라 국내 뉴스를 받고 있었다.
+// 실측: 태국어 50건 중 한국 관련 1건(2%), 베트남어 50건 중 0건.
+// 파리가 옮기는 병원균, 메시, 캄보디아 사업 철수 같은 기사였다.
+// 한국 사는 사람에게 쓸모가 없고, 쌓여도 카오솟 기사 요약본일 뿐이라
+// 우리 자산이 되지 않는다.
+//
+// 이제 연합뉴스 영문을 받아 태국어·베트남어로 옮겨서 낸다.
+// 태국어로 된 한국 뉴스는 세상에 거의 없다. 옮기는 일 자체가 우리 몫이다.
+const KOREA_FEEDS = [
+  'https://en.yna.co.kr/RSS/news.xml'
+  // 'https://www.koreatimes.co.kr/www/rss/rss.xml' (301)
+  // 'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml' (404)
+];
+
 const RSS_FEEDS = {
-  en: [
-    'https://en.yna.co.kr/RSS/news.xml'
-    // 'https://www.koreatimes.co.kr/www/rss/rss.xml', (301)
-    // 'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml' (404)
-  ],
-  th: [
-    'https://www.khaosod.co.th/feed',
-    'https://www.thairath.co.th/rss/news',
-    'https://www.matichon.co.th/feed'
-    // dailynews.co.th/feed/ 제거 (2026-08-31 실측: 200 응답이나 기사 0건인 빈 피드)
-  ],
-  vi: [
-    'https://vnexpress.net/rss/tin-moi-nhat.rss',
-    'https://tuoitre.vn/home.rss',  // tin-moi-nhat.rss 는 301 리디렉션. 최종 주소로 교체
-    'https://thanhnien.vn/rss/home.rss'
-  ]
+  en: KOREA_FEEDS,
+  th: KOREA_FEEDS,
+  vi: KOREA_FEEDS
 };
+
+// 원문이 영어라 번역이 필요한 언어. 번역이 실패하면 그 기사는 내보내지 않는다.
+// 영어 제목이 태국어 페이지에 뜨면 지금보다 나빠진다.
+const NEEDS_TRANSLATION = { th: 'Thai', vi: 'Vietnamese' };
 
 function cleanText(str) {
   if (!str) return '';
@@ -213,6 +219,68 @@ async function summarizeOnce(ai, prompt) {
     }
   }
   throw lastErr || new Error('요약 실패');
+}
+
+// 어떤 기사를 먼저 처리할지 점수를 매긴다.
+//
+// 한 회차에 물어오는 기사는 수십 건인데 요약 몫은 언어당 10건이다.
+// 아무거나 먼저 잡으면 조선업 수주나 주가 기사가 자리를 차지한다.
+// 한국 사는 사람이 실제로 찾아볼 것부터 쓴다.
+const TOPIC_WEIGHT = [
+  // 제도·생활 — 바로 영향을 받는 것
+  [/visa|immigration|residence|deport|sojourn|alien registration/i, 10],
+  [/foreign(er|ers)?|migrant|multicultural|expat/i, 9],
+  [/employment permit|work permit|E-9|EPS|labor|labour|wage|minimum wage/i, 9],
+  [/health insurance|NHIS|medical|hospital|pension|industrial accident|workplace safety/i, 8],
+  [/housing|jeonse|rent|deposit|scam|fraud|phishing/i, 7],
+  [/tax|remittance|exchange rate|won-dollar|bank/i, 6],
+  // 한국 생활·문화·연예 — 관심으로 들어오는 것
+  [/K-pop|BTS|BLACKPINK|idol|actor|actress|drama|film|entertainment|celebrity/i, 6],
+  [/festival|holiday|Chuseok|Seollal|weather|typhoon|heat wave|snow/i, 5],
+  [/subway|KTX|transport|airport|traffic/i, 4],
+  [/university|student|scholarship|school/i, 4],
+  // 굳이 먼저 다룰 이유가 없는 것 — 뒤로 민다
+  [/shares|stocks|KOSPI|bond|won order|shipbuilding|semiconductor export/i, -4],
+  [/(URGENT)|\(LEAD\)|\(2nd LD\)/i, -1]
+];
+
+function topicScore(item) {
+  const t = (item.title || '') + ' ' + (item.desc || '');
+  let s = 0;
+  for (const [re, w] of TOPIC_WEIGHT) if (re.test(t)) s += w;
+  return s;
+}
+
+// 영어 원문을 그 나라 말로 옮기고 3줄로 줄인다.
+// 제목까지 같이 받아야 한다. 제목만 영어로 남으면 페이지가 반쪽이 된다.
+async function translateAndSummarize(ai, fullText, title, langName) {
+  const prompt =
+    `You are preparing a Korean news item for ${langName} speakers who live in South Korea.\n\n` +
+    `Write in ${langName} only. Output exactly this shape and nothing else:\n\n` +
+    `TITLE: <the headline in ${langName}, under 70 characters>\n` +
+    `- <fact 1>\n` +
+    `- <fact 2>\n` +
+    `- <fact 3>\n\n` +
+    `Rules:\n` +
+    `- No preamble, no heading, no closing remark.\n` +
+    `- One fact per bullet, 1 to 2 sentences, plain words.\n` +
+    `- Keep Korean proper nouns recognisable.\n` +
+    `- Do not invent anything that is not in the article.\n\n` +
+    `Article (English):\n${title}\n\n${fullText}`;
+
+  const raw = await summarizeOnce(ai, prompt);
+  const lines = String(raw).split('\n');
+  let outTitle = '';
+  const body = [];
+  for (const line of lines) {
+    const m = line.match(/^\s*TITLE\s*[:：]\s*(.+)$/i);
+    if (m && !outTitle) { outTitle = m[1].trim(); continue; }
+    if (line.trim()) body.push(line);
+  }
+  const summary = stripPreamble(body.join('\n'));
+  // 제목이나 본문이 비면 실패로 본다. 반쪽짜리를 내보내지 않는다.
+  if (!outTitle || !summary) throw new Error('번역 결과가 불완전하다');
+  return { title: outTitle, summary };
 }
 
 // 화면 문구
@@ -410,7 +478,7 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
-  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0;
+  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -442,11 +510,16 @@ async function runPipeline() {
       const id = `hotnews_${lang}_${hash}`;
       item.id = id;
       return item;
-    });
+    })
+    // 처리 몫이 언어당 10건이므로, 한국 사는 사람에게 걸리는 것부터 쓴다.
+    // 같은 점수면 최신 기사가 먼저다.
+    .sort((a, b) => (topicScore(b) - topicScore(a)) || ((b.ts || 0) - (a.ts || 0)));
+
+    const needsTranslation = NEEDS_TRANSLATION[lang];
 
     for (const item of newItemsList) {
       if (!existingList.find(x => x.link === item.link)) {
-        
+
         let fullText = item.desc;
         if (process.env.GEMINI_API_KEY && summarizedThisLang >= SUMMARY_LIMIT_PER_LANG) {
           summarizeSkipped++;
@@ -471,31 +544,44 @@ async function runPipeline() {
             }
             
             const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-            const langName = lang === 'en' ? 'English' : (lang === 'vi' ? 'Vietnamese' : 'Thai');
-            // 인사말을 쓰지 말라고 못 박는다. 예전 프롬프트로는
-            // "Here is a 3-bullet point summary of the news:" 가 본문에 그대로 실렸다.
-            const prompt =
-              `Summarize the news article below in exactly 3 bullet points, in ${langName}.\n\n` +
-              `Rules:\n` +
-              `- Output ONLY the 3 bullets. No preamble, no heading, no closing remark.\n` +
-              `- Start each line with "- ".\n` +
-              `- One fact per bullet. Plain words. 1 to 2 sentences each.\n` +
-              `- Do not invent anything that is not in the text.\n\n` +
-              `Article:\n${fullText}`;
+
             // 호출 사이를 띄운다. 쉬지 않고 던지면 분당 한도에 걸려
             // 앞의 스무 건만 통과하고 나머지가 전부 튕긴다.
             if (summarized > 0) await delay(GEMINI.CALL_INTERVAL_MS);
 
-            const text = await summarizeOnce(ai, prompt);
-            if (text) {
+            if (needsTranslation) {
+              // 원문이 영어다. 제목과 본문을 함께 그 나라 말로 옮긴다.
+              const out = await translateAndSummarize(ai, fullText, item.title, needsTranslation);
+              item.title = out.title;
+              item.desc = out.summary;
+              item.translated = true;
+            } else {
+              const prompt =
+                `Summarize the news article below in exactly 3 bullet points, in English.\n\n` +
+                `Rules:\n` +
+                `- Output ONLY the 3 bullets. No preamble, no heading, no closing remark.\n` +
+                `- Start each line with "- ".\n` +
+                `- One fact per bullet. Plain words. 1 to 2 sentences each.\n` +
+                `- Do not invent anything that is not in the text.\n\n` +
+                `Article:\n${fullText}`;
+              const text = await summarizeOnce(ai, prompt);
+              if (!text) throw new Error('빈 요약');
               item.desc = stripPreamble(text);
-              summarized++;
-              summarizedThisLang++;
             }
+            summarized++;
+            summarizedThisLang++;
           } catch (e) {
             summarizeFailed++;
             console.error('[요약 실패] ' + item.title + ' — ' + (e && e.message ? e.message : e));
           }
+        }
+
+        // 번역이 필요한 언어인데 번역이 안 된 기사는 내보내지 않는다.
+        // 영어 제목과 영어 본문이 태국어 페이지에 그대로 뜨면
+        // 지금보다 나빠진다. 다음 회차에 다시 시도한다.
+        if (needsTranslation && !item.translated) {
+          notTranslated++;
+          continue;
         }
 
         const html = buildArticleHtml(item, lang);
@@ -526,6 +612,9 @@ async function runPipeline() {
 
   console.log('🎉 3대 언론사 교차 파싱 완료!');
   console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
+  if (notTranslated) {
+    console.log(`번역이 안 되어 내보내지 않은 기사 ${notTranslated}건 (다음 회차에 다시 시도한다)`);
+  }
 
   // 전건 실패일 때만 작업을 실패로 표시한다.
   // 한 건 실패마다 멈추면 기사 하나 때문에 갱신 전체가 안 올라간다.
