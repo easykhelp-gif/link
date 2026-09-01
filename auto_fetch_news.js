@@ -29,10 +29,13 @@ for (const d of [DATA_DIR, NEWS_DIR, IMAGES_DIR]) {
 //
 // 이제 연합뉴스 영문을 받아 태국어·베트남어로 옮겨서 낸다.
 // 태국어로 된 한국 뉴스는 세상에 거의 없다. 옮기는 일 자체가 우리 몫이다.
+// 한 곳만 보면 그 매체가 그날 무엇을 크게 다뤘는지에 끌려간다.
+// 네 곳을 보고, 둘 이상이 함께 다루는 것을 먼저 고른다. (2026-09-01 실측으로 살아있음 확인)
 const KOREA_FEEDS = [
-  'https://en.yna.co.kr/RSS/news.xml'
-  // 'https://www.koreatimes.co.kr/www/rss/rss.xml' (301)
-  // 'https://www.koreaherald.com/common_prog/rssdata/rss_all_0000.xml' (404)
+  'https://en.yna.co.kr/RSS/news.xml',           // 연합뉴스 영문   104건
+  'https://www.koreaherald.com/rss/newsAll',      // 코리아헤럴드     50건
+  'http://world.kbs.co.kr/rss/rss_news.htm?lang=e', // KBS World     30건
+  'https://www.koreatimes.co.kr/www/rss/nation.xml' // 코리아타임스   19건
 ];
 
 const RSS_FEEDS = {
@@ -49,6 +52,9 @@ function cleanText(str) {
   if (!str) return '';
   return str
     .replace(/<[^>]+>/g, '')
+    // 통신사 내부 표시. 독자에게는 뜻이 없는 말이라 걷어낸다.
+    //   (URGENT) (LEAD) (2nd LD) (News Focus) (Yonhap Interview) …
+    .replace(/^\s*\((?:URGENT|LEAD|\d+(?:st|nd|rd|th)\s+LD|News Focus|Yonhap [^)]+|Newsmaker|Update|Photo|Graphic)\)\s*/i, '')
     .replace(/\uFFFD/g, '')
     .replace(/\[\.\.\.\]/g, '')
     .replace(/&#\d+;/g, '')
@@ -284,15 +290,114 @@ async function translateAndSummarize(ai, fullText, title, langName) {
   return { title: outTitle, summary };
 }
 
+// ── 여러 매체가 함께 다루는 것 ─────────────────────────────────
+//
+// 같은 사건을 매체마다 다른 문장으로 쓴다. 제목에서 흔한 말을 걷어내고
+// 남은 낱말이 겹치면 같은 사건으로 본다.
+const STOP_WORDS = new Set(['the','a','an','of','in','on','at','to','for','and','or','with','by',
+  'from','as','is','are','was','were','be','been','has','have','had','it','its','this','that',
+  'over','after','before','amid','said','says','new','more','than','pct','percent','korea',
+  'korean','south','seoul','north','yonhap','update','lead','urgent','photo','news','report']);
+
+function keyWords(title) {
+  return new Set(String(title).toLowerCase()
+    .replace(/[^a-z0-9\s'-]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 4 && !STOP_WORDS.has(w)));
+}
+
+// 두 기사가 같은 사건인가. 뜻이 담긴 낱말이 둘 이상 겹치면 같다고 본다.
+function sameStory(a, b) {
+  const x = keyWords(a.title), y = keyWords(b.title);
+  if (x.size < 2 || y.size < 2) return false;
+  let hit = 0;
+  for (const w of x) if (y.has(w)) hit++;
+  return hit >= 2;
+}
+
+// 같은 사건을 묶는다.
+//
+// 네 매체가 같은 사건을 저마다 다른 제목으로 쓴다.
+//   "Police disclose identity of Chinese man suspected of murdering..."
+//   "Police identify suspect in killing of Chinese student"
+//   "Police Reveal Identity of Chinese Lecturer Accused of Killing..."
+// 제목이 달라 중복 제거에 안 걸리고, 그대로 두면 뉴스 세 칸이 같은 사건으로 찬다.
+//
+// 묶은 뒤 대표 한 건만 남기고, 몇 개 매체가 다뤘는지를 그 건에 달아 준다.
+function clusterStories(items) {
+  const clusters = [];
+  for (const it of items) {
+    const c = clusters.find(c => c.some(x => sameStory(x, it)));
+    if (c) c.push(it); else clusters.push([it]);
+  }
+  return clusters.map(group => {
+    const outlets = new Set(group.map(x => x.source));
+    // 대표는 제목이 가장 구체적인 것 — 뜻이 담긴 낱말이 많은 쪽
+    const lead = group.slice().sort((a, b) => keyWords(b.title).size - keyWords(a.title).size)[0];
+    lead.coverage = outlets.size;
+    lead.outlets = [...outlets];
+    return lead;
+  });
+}
+
+// ── 코리케어의 시선 ────────────────────────────────────────────
+//
+// 기사에 없는 각도를 붙이는 것이 이 서비스가 하는 일이다.
+// 자동차 판매 기사도 "부품사 잔업이 줄어든다"로 읽으면 우리 독자의 일이 된다.
+//
+// 다만 모델이 법 조항이나 금액을 지어내면 틀린 정보가 나간다.
+// 아래 목록에 있는 것만 인용하게 하고, 그 밖의 숫자·조문은 금지한다.
+const VERIFIED_FACTS = [
+  '휴업수당 (shutdown pay): if the employer suspends work, the worker is owed 70% of average wage under the Labor Standards Act.',
+  '퇴직금 (severance pay): any worker employed continuously for one year or more is entitled to it, regardless of nationality or visa.',
+  'E-9 workers may change workplace within the same industry under the Employment Permit System; the number of changes is limited by law.',
+  '1345 — Immigration Contact Center, about 20 languages.',
+  '1339 — medical information and emergency guidance, interpretation available.',
+  '119 — ambulance and fire, multilingual dispatch.',
+  '1577-1366 — Danuri call centre, 24 hours, 15 languages.',
+  '응급의료비 대지급제도: the state can pay an emergency room bill on the spot and be repaid in instalments; not limited to citizens or the insured.',
+  'Foreign residents staying six months or more must enrol in National Health Insurance.'
+];
+
+async function writeAngle(ai, item, langName) {
+  const prompt =
+    `You write one short passage for Kori Care, a guide site read by people living in South Korea ` +
+    `on a foreign passport — mostly E-9 manufacturing workers, students, and marriage migrants ` +
+    `from Thailand, Vietnam, Nepal and the Philippines.\n\n` +
+    `News item:\n${item.title}\n${String(item.desc || '').slice(0, 1200)}\n\n` +
+    `Write in ${langName}: what this means for that reader. Find the angle the article does not ` +
+    `state. A car maker's sales figure is really about overtime at its parts suppliers. ` +
+    `An exchange rate move is really about the money they send home. ` +
+    `A parliamentary session is really about next year's permit quota.\n\n` +
+    `Rules:\n` +
+    `- Two sentences. No heading, no label, no preamble, no quotation marks.\n` +
+    `- Be concrete and calm. Do not exaggerate, do not frighten, do not use exclamation marks.\n` +
+    `- You may cite ONLY facts stated in the article above, or from this list, and nothing else:\n` +
+    VERIFIED_FACTS.map(f => '    * ' + f).join('\n') + '\n' +
+    `- Invent no law, no article number, no amount, no percentage, no date beyond those.\n` +
+    `- If this item genuinely has no bearing on such a reader's life, reply with exactly: SKIP\n`;
+
+  const raw = await summarizeOnce(ai, prompt);
+  const t = String(raw || '').trim()
+    .replace(/^["'\s]+|["'\s]+$/g, '')
+    .replace(/^(here is|below is|this means)[^\n:]*:\s*/i, '');
+  if (!t || /^SKIP$/i.test(t)) return '';
+  // 너무 짧으면 알맹이가 없고, 너무 길면 요약을 덮는다
+  const len = t.replace(/\s+/g, '').length;
+  if (len < 45 || len > 420) return '';
+  if (/\n/.test(t.trim())) return t.split('\n').filter(Boolean)[0];   // 여러 줄이면 첫 줄만
+  return t;
+}
+
 // 화면 문구
 const NEWS_UI = {
-  en: { summary: 'Summary', source: 'Read the full article at the source',
+  en: { summary: 'Summary', source: 'Original report',
         cta: 'Visa, labour rights, or legal trouble in Korea? Talk to a specialist.',
         btn: 'Kori Care 1:1 Help', back: 'Back to Kori Care' },
-  th: { summary: 'สรุปข่าว', source: 'อ่านฉบับเต็มที่ต้นทาง',
+  th: { summary: 'สรุปข่าว', source: 'ข่าวต้นฉบับ',
         cta: 'มีปัญหาเรื่องวีซ่า สิทธิแรงงาน หรือกฎหมายในเกาหลี? ปรึกษาผู้เชี่ยวชาญ',
         btn: 'Kori Care ปรึกษา 1:1', back: 'กลับสู่ Kori Care' },
-  vi: { summary: 'Tóm tắt', source: 'Đọc bài đầy đủ tại nguồn',
+  vi: { summary: 'Tóm tắt', source: 'Bài gốc',
         cta: 'Gặp vấn đề về visa, quyền lao động hay pháp lý ở Hàn Quốc? Hỏi chuyên gia.',
         btn: 'Kori Care Hỗ trợ 1:1', back: 'Quay lại Kori Care' }
 };
@@ -373,8 +478,24 @@ function buildArticleHtml(newsItem, lang) {
   .summary .sum-list li::marker { color: #94a3b8; }
   .summary strong { font-weight: 650; color: var(--navy); }
 
-  .src-link { display: inline-block; margin-top: 18px; font-size: 13px; color: #64748b; text-decoration: underline; text-underline-offset: 3px; }
-  .src-link:hover { color: var(--navy); }
+  /* 코리케어의 시선.
+     제목표를 붙이지 않는다. "Kori Care Feedback:" 같은 딱지가 붙는 순간
+     읽는 사람은 광고로 본다. 요약 아래 한 문단으로 그냥 서 있게 두고,
+     왼쪽 선과 글자 크기로만 구분한다. */
+  .angle {
+    margin: 22px 0 0;
+    padding: 2px 0 2px 18px;
+    border-left: 3px solid var(--navy);
+    font-size: 17px;
+    line-height: 1.66;
+    letter-spacing: -0.008em;
+    color: var(--ink);
+  }
+
+  /* 원문 표시는 작게. 글의 근거이지 읽을 거리가 아니다. */
+  .src-note { margin-top: 22px; font-size: 12.5px; color: var(--sub); }
+  .src-note a { color: var(--sub); text-decoration: underline; text-underline-offset: 3px; }
+  .src-note a:hover { color: var(--navy); }
 
   /* 상담 안내 — 글씨를 굵게 하고 화살표를 붙일수록 광고처럼 보인다.
      한 번 읽고 지나가도 되는 자리라 담담하게 둔다. */
@@ -422,7 +543,9 @@ function buildArticleHtml(newsItem, lang) {
       ${renderSummary(newsItem.desc, newsItem.title)}
     </section>
 
-    <a href="${safeUrl(newsItem.link)}" class="src-link" target="_blank" rel="nofollow noopener">${escapeHtml(t.source)}</a>
+    ${newsItem.angle ? `<p class="angle">${escapeHtml(newsItem.angle)}</p>` : ''}
+
+    <p class="src-note"><a href="${safeUrl(newsItem.link)}" target="_blank" rel="nofollow noopener">${escapeHtml(t.source)}</a></p>
 
     ${bannerHtml}
   </article>
@@ -479,7 +602,7 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
-  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0;
+  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0, angled = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -487,6 +610,9 @@ async function runPipeline() {
     for (const feedUrl of RSS_FEEDS[lang]) {
       const xml = await fetchUrl(feedUrl);
       const items = parseXmlItems(xml);
+      // 어느 매체에서 왔는지 달아 둔다. 교차검증에 쓴다.
+      const source = new URL(feedUrl).hostname.replace(/^www\./, '');
+      for (const it of items) it.source = source;
       if (items.length > 0) {
         combinedItems.push(...items);
       }
@@ -528,11 +654,17 @@ async function runPipeline() {
       .slice(0, 50);
     const willShow = new Set(merged.map(x => x.link));
 
-    const newItemsList = withId
-      .filter(x => !existingLinks.has(x.link) && willShow.has(x.link))
-      // 처리 몫이 언어당 10건이므로, 한국 사는 사람에게 걸리는 것부터 쓴다.
-      // 같은 점수면 최신 기사가 먼저다.
-      .sort((a, b) => (topicScore(b) - topicScore(a)) || ((b.ts || 0) - (a.ts || 0)));
+    // 처리 몫이 언어당 10건이므로 순서가 중요하다.
+    //   ① 여러 매체가 함께 다루는 것 — 그날 실제로 큰 사건이라는 뜻
+    //   ② 우리 독자에게 걸리는 주제
+    //   ③ 최신
+    const candidates = clusterStories(
+      withId.filter(x => !existingLinks.has(x.link) && willShow.has(x.link)));
+
+    const newItemsList = candidates.sort((a, b) =>
+      (b.coverage - a.coverage) ||
+      (topicScore(b) - topicScore(a)) ||
+      ((b.ts || 0) - (a.ts || 0)));
 
     skippedNotShown += withId.filter(x => !existingLinks.has(x.link) && !willShow.has(x.link)).length;
 
@@ -579,6 +711,12 @@ async function runPipeline() {
               item.title = out.title;
               item.desc = out.summary;
               item.translated = true;
+
+              // 코리케어의 시선. 그 나라 말로 바로 쓴다 — 영어로 쓰고 옮기면
+              // 호출이 한 번 더 들고 문장이 번역투가 된다.
+              await delay(GEMINI.CALL_INTERVAL_MS);
+              item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, needsTranslation);
+              if (item.angle) angled++;
             } else {
               const prompt =
                 `Summarize the news article below in exactly 3 bullet points, in English.\n\n` +
@@ -591,6 +729,10 @@ async function runPipeline() {
               const text = await summarizeOnce(ai, prompt);
               if (!text) throw new Error('빈 요약');
               item.desc = stripPreamble(text);
+
+              await delay(GEMINI.CALL_INTERVAL_MS);
+              item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, 'English');
+              if (item.angle) angled++;
             }
             summarized++;
             summarizedThisLang++;
@@ -641,6 +783,7 @@ async function runPipeline() {
 
   console.log('🎉 3대 언론사 교차 파싱 완료!');
   console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
+  console.log(`코리케어 시선이 붙은 기사 ${angled}건 / 요약 ${summarized}건`);
   console.log(`월간 정리용으로 보관 ${archived}건`);
   if (skippedNotShown) console.log(`목록(50건)에 못 드는 기사 ${skippedNotShown}건은 만들지 않았다`);
   if (notTranslated) {
