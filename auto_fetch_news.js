@@ -841,4 +841,40 @@ async function runPipeline() {
   }
 }
 
-runPipeline();
+// 뉴스 구역만 다시 주입한다. 새로 받아오지도, 요약하지도 않는다.
+//
+// 왜 필요한가
+//   index.html 한 파일 안에 봇 구역(NEWS_START~END)과 사람 구역(검색창·OG 태그)이
+//   같이 있다. 봇이 도는 사이 사람이 저장소에 올리면 git 이 충돌로 본다.
+//   내용이 무관해도 같은 파일이면 그렇다.
+//
+//   그때 사람 파일을 그대로 두고 이것만 다시 돌리면 두 구역이 다시 채워진다.
+//   목록은 data/news_list_{lang}.json 에 이미 저장돼 있으므로
+//   Gemini 를 다시 부르지 않는다. 손실도 0, 비용도 0이다.
+//
+//   node auto_fetch_news.js --inject-only
+function injectOnly() {
+  console.log('뉴스 구역만 다시 주입한다 (새로 받지 않는다)');
+  let done = 0;
+  for (const lang of ['en', 'th', 'vi']) {
+    const dataPath = path.join(DATA_DIR, `news_list_${lang}.json`);
+    if (!fs.existsSync(dataPath)) { console.log(`  ${lang}: 목록 파일이 없다. 건너뛴다`); continue; }
+    let list;
+    try { list = JSON.parse(fs.readFileSync(dataPath, 'utf-8')); }
+    catch (e) { console.log(`  ${lang}: 목록을 읽지 못했다`); continue; }
+    if (!Array.isArray(list) || !list.length) { console.log(`  ${lang}: 목록이 비었다`); continue; }
+
+    const target = lang === 'en' ? INDEX_EN_PATH : (lang === 'th' ? INDEX_TH_PATH : INDEX_VI_PATH);
+    const prefix = lang === 'en' ? '' : '../';
+    injectGridCardsToIndex(target, list, prefix);
+    console.log(`  ${lang}: ${list.length}건에서 상위 항목을 다시 넣었다`);
+    done++;
+  }
+  console.log(`${done}개 언어 완료`);
+}
+
+if (process.argv.includes('--inject-only')) {
+  injectOnly();
+} else {
+  runPipeline();
+}

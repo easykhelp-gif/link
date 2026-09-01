@@ -56,11 +56,30 @@ jobs:
                 exit 0
               fi
             else
-              # 생성물이 사람 커밋과 충돌했다. 억지로 합치면 사람이 고친 것을 덮어쓴다.
-              # 뉴스는 다음 회차에 다시 만들어지므로 이번 것은 버린다. 실패가 아니다.
+              # index.html 한 파일에 봇 구역(NEWS_START~END, GUIDE_START~END)과
+              # 사람 구역(검색창·OG 태그)이 같이 있다. 내용이 무관해도 같은 파일이면
+              # git 은 충돌로 본다. 억지로 합치면 한쪽이 지워진다.
+              #
+              # 그래서 사람 파일을 그대로 받아 놓고 봇 구역만 다시 채운다.
+              # 뉴스 목록은 data/news_list_*.json 에 이미 있으므로
+              # Gemini 를 다시 부르지 않는다. 손실도 비용도 0이다.
               git rebase --abort || true
+              mkdir -p /tmp/keep
+              cp data/news_list_*.json /tmp/keep/ 2>/dev/null || true
+              cp -r news/. /tmp/keep/news/ 2>/dev/null || true
               git reset --hard origin/main
-              echo "사람 커밋과 충돌. 이번 회차는 건너뛴다."
+              cp /tmp/keep/news_list_*.json data/ 2>/dev/null || true
+              cp -r /tmp/keep/news/. news/ 2>/dev/null || true
+              node build_guides.js
+              node auto_fetch_news.js --inject-only
+              git add data/ news/ en/guides/ th/guides/ vi/guides/ index.html th/ vi/ sitemap.xml templates/ || true
+              if git diff-index --quiet HEAD --; then
+                echo "다시 채우니 바뀐 것이 없다."
+                exit 0
+              fi
+              git commit -m "Auto: 1-Hour Live Trending News Update & Deploy (재구성)"
+              git push origin main
+              echo "충돌했지만 봇 구역만 다시 채워 올렸다."
               exit 0
             fi
             sleep 15
