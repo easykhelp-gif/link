@@ -59,6 +59,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.koricare.kr/link/en/guides/korea/hospital_seoul/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/th/guides/korea/hospital_seoul/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.koricare.kr/link/vi/guides/korea/hospital_seoul/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/industrial_accident/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

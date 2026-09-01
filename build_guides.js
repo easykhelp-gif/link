@@ -33,6 +33,50 @@ function ensureDir(dirPath) {
   }
 }
 
+// HTML 본문용 이스케이프 (속성이 아닌 텍스트 노드)
+function escHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// 화면에 쓰는 문구. 세 언어를 한 곳에 모아 둔다.
+const UI = {
+  en: {
+    home: 'Home', guides: 'Guides', toc: 'In this guide',
+    read: n => n + ' min read',
+    date: 'Published', updated: 'Updated',
+    otherLangs: 'Also available in',
+    back: 'Back to Kori Care',
+    locale: 'en_US',
+    cat: { korea: 'Living in Korea', travel: 'Travel & Leisure', safety: 'Safety & Money' }
+  },
+  th: {
+    home: 'หน้าแรก', guides: 'คู่มือ', toc: 'หัวข้อในคู่มือนี้',
+    read: n => 'อ่าน ' + n + ' นาที',
+    date: 'เผยแพร่', updated: 'ปรับปรุง',
+    otherLangs: 'อ่านภาษาอื่นได้ที่',
+    back: 'กลับสู่ Kori Care',
+    locale: 'th_TH',
+    cat: { korea: 'การใช้ชีวิตในเกาหลี', travel: 'การท่องเที่ยวและการพักผ่อน', safety: 'ความปลอดภัยและการเงิน' }
+  },
+  vi: {
+    home: 'Trang chủ', guides: 'Hướng dẫn', toc: 'Nội dung hướng dẫn',
+    read: n => 'Đọc ' + n + ' phút',
+    date: 'Đăng ngày', updated: 'Cập nhật',
+    otherLangs: 'Cũng có bằng',
+    back: 'Quay lại Kori Care',
+    locale: 'vi_VN',
+    cat: { korea: 'Cuộc sống tại Hàn Quốc', travel: 'Du lịch & Giải trí', safety: 'An toàn & Tài chính' }
+  }
+};
+
+const LANG_NAME = { en: 'English', th: 'ภาษาไทย', vi: 'Tiếng Việt' };
+
+// 영어판은 /link/ 가 홈이고 나머지는 /link/<lang>/ 이다
+function homeUrlFor(lang) {
+  return lang === 'en' ? '/link/index.html' : `/link/${lang}/index.html`;
+}
+
 function buildGuides() {
   if (!fs.existsSync(GUIDES_LIST_PATH)) {
     console.log('[Info] No guides_list.json found. Skipping guides build.');
@@ -76,30 +120,138 @@ function buildGuides() {
       html = html.replace(/\{\{CANONICAL_URL_TH\}\}/g, canonicalTh);
       html = html.replace(/\{\{CANONICAL_URL_VI\}\}/g, canonicalVi);
       
+      const t = UI[lang];
       const currTitle = lang === 'en' ? guide.title_en : (lang === 'th' ? guide.title_th : guide.title_vi);
       const titleRaw = currTitle || guide.title_en || '';
       html = html.replace(/\{\{TITLE\}\}/g, escAttr(titleRaw));
       html = html.replace(/\{\{TITLE_EN\}\}/g, escAttr(titleRaw));
       html = html.replace(/\{\{TITLE_JSON\}\}/g, escJson(titleRaw));
       html = html.replace(/\{\{DATE\}\}/g, guide.date || '');
-      
+      html = html.replace(/\{\{UPDATED\}\}/g, guide.updated || guide.date || '');
+      html = html.replace(/\{\{OG_LOCALE\}\}/g, t.locale);
+
       const currContent = lang === 'en' ? guide.content_en : (lang === 'th' ? guide.content_th : guide.content_vi);
-      let description = guide['description_' + lang];
-      if (!description && currContent) {
-        description = currContent.replace(/<[^>]*>?/gm, '').substring(0, 150).trim() + '...';
+      const lede = guide['lede_' + lang] || '';
+      const toc = guide['toc_' + lang] || [];
+      const faq = guide['faq_' + lang] || [];
+      const mins = guide['mins_' + lang] || 1;
+
+      // 검색결과 설명문. 글쓴이가 쓴 요약 문단을 먼저 쓴다.
+      // 본문 첫 150자를 잘라 쓰면 문장이 중간에서 끊긴 채 검색결과에 나온다.
+      let description = guide['description_' + lang] || lede || guide['summary_' + lang];
+      if (!description && currContent) description = currContent.replace(/<[^>]*>?/gm, '').trim();
+      description = String(description).replace(/\s+/g, ' ').trim();
+      if (description.length > 165) {
+        const cut = description.slice(0, 165);
+        const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('。'), cut.lastIndexOf(', '));
+        description = (stop > 90 ? cut.slice(0, stop + 1) : cut).trim();
       }
       html = html.replace(/\{\{DESCRIPTION\}\}/g, escAttr(description));
       html = html.replace(/\{\{DESCRIPTION_JSON\}\}/g, escJson(description));
-      
-      let imgUrl = (guide.image && guide.image.startsWith('news/')) ? '/link/' + guide.image : (guide.image || '');
-      if (imgUrl.startsWith('/link/')) {
-        imgUrl = 'https://www.koricare.kr' + imgUrl;
+
+      // 날짜 표기 — 고친 날이 있으면 그날을 보여준다
+      const showUpdated = guide.updated && guide.updated !== guide.date;
+      html = html.replace(/\{\{DATE_LABEL\}\}/g,
+        escAttr((showUpdated ? t.updated : t.date) + ' ' + (showUpdated ? guide.updated : guide.date)));
+      html = html.replace(/\{\{READ_TIME\}\}/g, escAttr(t.read(mins)));
+
+      // 요약 문단
+      html = html.replace(/\{\{LEDE_HTML\}\}/g,
+        lede ? '<p class="lede">' + escHtml(lede) + '</p>' : '');
+
+      // 목차 — 항목이 셋 미만이면 넣지 않는다. 목록이 짧으면 방해만 된다.
+      let tocHtml = '';
+      if (toc.length >= 3) {
+        tocHtml = '<details class="toc" open><summary>' + escHtml(t.toc) + '</summary><ol>' +
+          toc.map(s => '<li><a href="#' + s.id + '">' + escHtml(s.text) + '</a></li>').join('') +
+          '</ol></details>';
       }
+      html = html.replace(/\{\{TOC_HTML\}\}/g, tocHtml);
+
+      // og:image 와 구조화 데이터에는 절대주소가 필요하다.
+      // 본문 <img> 는 같은 출처의 경로로 둔다 — 절대주소로 두면 브라우저가
+      // 굳이 바깥 도메인으로 한 번 더 나갔다 온다.
+      const imgSrc = (guide.image && guide.image.startsWith('news/'))
+        ? '/link/' + guide.image
+        : (guide.image || '');
+      const imgUrl = imgSrc.startsWith('/link/') ? 'https://www.koricare.kr' + imgSrc : imgSrc;
       html = html.replace(/\{\{IMAGE_URL\}\}/g, imgUrl);
+      html = html.replace(/\{\{IMAGE_SRC\}\}/g, imgSrc);
       
       let catName = guide.tag ? guide.tag : (guide.category.charAt(0).toUpperCase() + guide.category.slice(1));
       html = html.replace(/\{\{CATEGORY_NAME\}\}/g, catName);
-      
+
+      // ── 눈에 보이는 경로 ────────────────────────────────
+      // 구조화 데이터의 BreadcrumbList 와 같은 경로여야 한다.
+      // 스키마에만 있고 화면에 없으면 구글이 무시한다.
+      const hubUrl = `/link/${lang}/guides/`;
+      const catLabel = t.cat[guide.category] || catName;
+      const crumbHtml =
+        '<nav class="crumbs" aria-label="Breadcrumb">' +
+        `<a href="${homeUrlFor(lang)}">${escHtml(t.home)}</a>` +
+        '<span class="sep" aria-hidden="true">›</span>' +
+        `<a href="${hubUrl}">${escHtml(t.guides)}</a>` +
+        '<span class="sep" aria-hidden="true">›</span>' +
+        `<span class="here">${escHtml(catLabel)}</span>` +
+        '</nav>';
+      html = html.replace(/\{\{BREADCRUMB_HTML\}\}/g, crumbHtml);
+
+      // ── 구조화 데이터 ──────────────────────────────────
+      const articleNode = {
+        '@type': 'Article',
+        '@id': currCanonical + '#article',
+        headline: titleRaw,
+        description: description,
+        image: imgUrl ? [imgUrl] : undefined,
+        datePublished: (guide.date || '') + 'T00:00:00+09:00',
+        dateModified: (guide.updated || guide.date || '') + 'T00:00:00+09:00',
+        inLanguage: lang,
+        isAccessibleForFree: true,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': currCanonical },
+        author: { '@type': 'Organization', name: 'Kori Care', url: 'https://www.koricare.kr' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Kori Care',
+          url: 'https://www.koricare.kr',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.koricare.kr/link/koricare_main_logo_nobg.png'
+          }
+        },
+        // 음성 검색이 읽어 줄 부분. 제목과 요약 문단만 지정한다.
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['h1.main-title', '.lede']
+        }
+      };
+      if (!articleNode.image) delete articleNode.image;
+
+      const breadcrumbNode = {
+        '@type': 'BreadcrumbList',
+        '@id': currCanonical + '#breadcrumb',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: t.home, item: 'https://www.koricare.kr' + homeUrlFor(lang) },
+          { '@type': 'ListItem', position: 2, name: t.guides, item: 'https://www.koricare.kr' + hubUrl },
+          { '@type': 'ListItem', position: 3, name: catLabel, item: currCanonical }
+        ]
+      };
+
+      const graph = [articleNode, breadcrumbNode];
+      if (faq.length) {
+        graph.push({
+          '@type': 'FAQPage',
+          '@id': currCanonical + '#faq',
+          mainEntity: faq.map(f => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a }
+          }))
+        });
+      }
+      const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2)
+        .replace(/</g, '\\u003c');   // script 블록 안에서 태그로 해석되지 않게
+      html = html.replace(/\{\{SCHEMA_GRAPH\}\}/g, () => schemaJson);
+
       let contentHtml = currContent || '';
       contentHtml = contentHtml.replace(/src="news\//g, 'src="/link/news/');
       contentHtml = contentHtml.replace(/href="news\//g, 'href="/link/news/');
@@ -108,37 +260,19 @@ function buildGuides() {
       html = html.replace(/\{\{CATEGORY\}\}/g, guide.category);
       html = html.replace(/\{\{ID\}\}/g, guide.id);
       
-      let currLangName = '';
-      let otherLangLinks = '';
-      
-      if (lang === 'en') {
-        currLangName = 'English';
-        otherLangLinks = `
-          <a href="/link/th/guides/${guide.category}/${guide.id}/" class="lang-option">ภาษาไทย</a>
-          <a href="/link/vi/guides/${guide.category}/${guide.id}/" class="lang-option">Tiếng Việt</a>
-        `;
-      } else if (lang === 'th') {
-        currLangName = 'ภาษาไทย';
-        otherLangLinks = `
-          <a href="/link/en/guides/${guide.category}/${guide.id}/" class="lang-option">English</a>
-          <a href="/link/vi/guides/${guide.category}/${guide.id}/" class="lang-option">Tiếng Việt</a>
-        `;
-      } else if (lang === 'vi') {
-        currLangName = 'Tiếng Việt';
-        otherLangLinks = `
-          <a href="/link/en/guides/${guide.category}/${guide.id}/" class="lang-option">English</a>
-          <a href="/link/th/guides/${guide.category}/${guide.id}/" class="lang-option">ภาษาไทย</a>
-        `;
-      }
-      
-      html = html.replace(/\{\{CURRENT_LANG_NAME\}\}/g, currLangName);
-      html = html.replace(/\{\{OTHER_LANG_LINKS\}\}/g, otherLangLinks);
+      // 언어 전환. 머리의 드롭다운과 글 끝의 줄글 두 곳에 같은 링크를 놓는다.
+      // 드롭다운은 눈에 잘 띄고, 글 끝의 링크는 다 읽은 사람이 쓰는 자리다.
+      const others = ['en', 'th', 'vi'].filter(l => l !== lang);
+      const otherUrl = l => `/link/${l}/guides/${guide.category}/${guide.id}/`;
 
-      let homeUrl = `/link/${lang}/index.html`;
-      if (lang === 'en') {
-        homeUrl = '/link/index.html';
-      }
-      html = html.replace(/\{\{LANG_HOME_URL\}\}/g, homeUrl);
+      html = html.replace(/\{\{CURRENT_LANG_NAME\}\}/g, LANG_NAME[lang]);
+      html = html.replace(/\{\{OTHER_LANG_LINKS\}\}/g,
+        others.map(l => `<a href="${otherUrl(l)}" class="lang-option" hreflang="${l}">${LANG_NAME[l]}</a>`).join(''));
+      html = html.replace(/\{\{FOOT_LANG_LABEL\}\}/g, escHtml(t.otherLangs));
+      html = html.replace(/\{\{FOOT_LANG_LINKS\}\}/g,
+        others.map(l => `<a href="${otherUrl(l)}" hreflang="${l}">${LANG_NAME[l]}</a>`).join('<span class="sep"> · </span>'));
+      html = html.replace(/\{\{BACK_LABEL\}\}/g, escHtml(t.back));
+      html = html.replace(/\{\{LANG_HOME_URL\}\}/g, homeUrlFor(lang));
 
       const outputPath = path.join(guideDir, 'index.html');
       fs.writeFileSync(outputPath, html, 'utf-8');
@@ -157,7 +291,9 @@ function buildGuides() {
         date: guide.date,
         category: guide.category,
         id: guide.id,
-        image: guide.image
+        image: guide.image,
+        desc: description,
+        mins: mins
       });
     });
   });
@@ -224,10 +360,12 @@ function buildGuides() {
 
     const buildGuideList = (guides) => {
       return guides.map(l => {
-        const descKey = l.id.indexOf('scam') === 0 || l.id.indexOf('scam') > -1 ? 'scam' : l.id.replace('guide_', '').replace('travel_', '').split('_')[0];
-        let desc = texts['desc_' + descKey];
-        if (!desc) desc = "";
-        
+        // 설명문은 글 자체의 요약을 쓴다.
+        // 예전에는 id 앞부분으로 고정 문구를 찾았는데, "hospital_seoul" 과
+        // "guide_hospital_pharmacy" 가 둘 다 'hospital' 로 걸려 같은 설명이
+        // 나왔다. 글이 늘수록 겹칠 수밖에 없는 방식이다.
+        let desc = l.desc || '';
+
         itemListElements.push(`{
           "@type": "ListItem",
           "position": ${position++},
@@ -238,7 +376,9 @@ function buildGuides() {
           }
         }`);
 
-        const thumb = l.image ? `https://www.koricare.kr/link/${l.image}` : '';
+        // 같은 출처의 경로로 둔다. 절대주소로 두면 브라우저가 바깥 도메인으로
+        // 한 번 더 나갔다 오고, 로컬에서 확인할 때는 아예 안 뜬다.
+        const thumb = l.image ? `/link/${l.image}` : '';
         return `
         <div class="guide-card">
           ${thumb ? `<a href="${l.url}" class="guide-thumb"><img src="${thumb}" alt="" loading="lazy"></a>` : ''}
