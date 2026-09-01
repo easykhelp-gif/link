@@ -184,6 +184,7 @@ function renderSummary(text, fallbackTitle) {
 }
 
 const GEMINI = require('./gemini_config');
+const newsArchive = require('./news_archive');
 
 function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -478,7 +479,7 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
-  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0;
+  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -520,6 +521,9 @@ async function runPipeline() {
     for (const item of newItemsList) {
       if (!existingList.find(x => x.link === item.link)) {
 
+        // 번역이 제목을 덮어쓰기 전에 영어 원문 제목을 남겨 둔다.
+        // 갈래 판정을 번역본으로 하면 언어마다 결과가 달라진다.
+        const sourceTitle = item.title;
         let fullText = item.desc;
         if (process.env.GEMINI_API_KEY && summarizedThisLang >= SUMMARY_LIMIT_PER_LANG) {
           summarizeSkipped++;
@@ -587,6 +591,11 @@ async function runPipeline() {
         const html = buildArticleHtml(item, lang);
         fs.writeFileSync(path.join(NEWS_DIR, `${item.id}.html`), html, 'utf-8');
         existingList.push({ id: item.id, date: item.date, ts: item.ts, image: item.image, title: item.title, link: item.link });
+
+        // 월간 정리용으로 따로 쌓아 둔다.
+        // 뉴스 HTML 은 3일이면 지워지므로, 한 달치를 모으려면 이 보관 파일이 있어야 한다.
+        // 갈래 판정은 번역 전 영어 제목으로 한다 — 언어마다 갈래가 달라지면 안 된다.
+        if (newsArchive.add(lang, item, sourceTitle)) archived++;
       }
     }
 
@@ -612,6 +621,7 @@ async function runPipeline() {
 
   console.log('🎉 3대 언론사 교차 파싱 완료!');
   console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
+  console.log(`월간 정리용으로 보관 ${archived}건`);
   if (notTranslated) {
     console.log(`번역이 안 되어 내보내지 않은 기사 ${notTranslated}건 (다음 회차에 다시 시도한다)`);
   }
