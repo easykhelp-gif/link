@@ -16,11 +16,17 @@
 
 const fs = require('fs');
 const path = require('path');
+const GEMINI = require('./gemini_config');
 
 const BASE = __dirname;
 const DATA_DIR = path.join(BASE, 'data');
 const NEWS_DIR = path.join(BASE, 'news');
 const dry = process.argv.includes('--dry');
+
+// 이 수보다 적으면 페이지를 만들지 않는다.
+// 항목 한두 개짜리 페이지를 검색에 열면 "쓸 것 없는 페이지"로 판정된다.
+// 빈 페이지를 노출하느니 그 달은 없는 편이 낫다.
+const MIN_ITEMS = 3;
 
 const argMonth = process.argv.slice(2).find(a => /^\d{4}-\d{2}$/.test(a));
 const MONTH = argMonth || (() => {
@@ -75,16 +81,19 @@ const LABEL = {
         intro: 'A monthly round-up of the rules, prices and public services that affect people living in Korea on a foreign passport. We pick the items that change what you can do, and say what each one means in practice.',
         topic: { visa: 'Visa and residence', work: 'Work and pay', health: 'Health and insurance', money: 'Money and scams', life: 'Daily life' },
         source: 'Source', guides: 'Related guides', back: 'Back to Kori Care',
+        means: 'What this means for you — ',
         empty: 'Nothing in this period changed the rules for foreign residents.' },
   th: { title: 'สิ่งที่เปลี่ยนไปสำหรับชาวต่างชาติในเกาหลี',
         intro: 'สรุปรายเดือนของกฎ ค่าใช้จ่าย และบริการสาธารณะที่มีผลต่อผู้ที่อาศัยในเกาหลีด้วยหนังสือเดินทางต่างชาติ เราคัดเฉพาะเรื่องที่เปลี่ยนสิ่งที่คุณทำได้ และอธิบายว่าแต่ละเรื่องหมายถึงอะไรในทางปฏิบัติ',
         topic: { visa: 'วีซ่าและการพำนัก', work: 'การทำงานและค่าจ้าง', health: 'สุขภาพและประกัน', money: 'เงินและมิจฉาชีพ', life: 'ชีวิตประจำวัน' },
         source: 'ที่มา', guides: 'คู่มือที่เกี่ยวข้อง', back: 'กลับสู่ Kori Care',
+        means: 'สิ่งนี้หมายถึงอะไรสำหรับคุณ — ',
         empty: 'ในช่วงนี้ไม่มีการเปลี่ยนแปลงกฎที่มีผลต่อชาวต่างชาติ' },
   vi: { title: 'Những thay đổi với người nước ngoài tại Hàn Quốc',
         intro: 'Tổng hợp hàng tháng về các quy định, chi phí và dịch vụ công ảnh hưởng đến người sống tại Hàn Quốc bằng hộ chiếu nước ngoài. Chúng tôi chọn những mục làm thay đổi điều bạn có thể làm, và nói rõ mỗi mục có ý nghĩa gì trên thực tế.',
         topic: { visa: 'Visa và cư trú', work: 'Việc làm và tiền lương', health: 'Sức khỏe và bảo hiểm', money: 'Tiền bạc và lừa đảo', life: 'Đời sống' },
         source: 'Nguồn', guides: 'Hướng dẫn liên quan', back: 'Quay lại Kori Care',
+        means: 'Điều này có nghĩa gì với bạn — ',
         empty: 'Trong kỳ này không có thay đổi quy định nào với người nước ngoài.' }
 };
 
@@ -101,6 +110,52 @@ function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+// ── 이 페이지를 우리 글로 만드는 층 ─────────────────────────────
+//
+// 뉴스 요약만 모아 두면 남의 기사 모음이다. 검색엔진도 사람도 그렇게 본다.
+// 각 항목에 "그래서 한국 사는 당신에게 무슨 일이 생기는가" 한 줄을 붙인다.
+// 그 한 줄이 원문에 없는 것이고, 우리가 만든 것이다.
+//
+// 이 줄을 못 만들면 그 항목은 싣지 않는다. 붙이겠다고 써 놓고
+// 안 붙은 페이지가 나가는 일이 없게 한다.
+
+const MEANING_PROMPT = {
+  en: 'English', th: 'Thai', vi: 'Vietnamese'
+};
+
+async function addMeaning(items, lang) {
+  if (!process.env.GEMINI_API_KEY || !items.length) return [];
+  const { GoogleGenAI } = require('@google/genai');
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  const langName = MEANING_PROMPT[lang];
+  const out = [];
+
+  for (const it of items) {
+    const prompt =
+      `A reader lives in South Korea on a foreign passport — a worker, student or spouse.\n` +
+      `They just read this news item:\n\n` +
+      `${it.title}\n${it.summary.map(s => '- ' + s).join('\n')}\n\n` +
+      `Write ONE sentence in ${langName} telling them what changes for them in practice: ` +
+      `what they can now do, must do, or should check.\n` +
+      `Rules:\n` +
+      `- One sentence. No preamble, no label, no quotation marks.\n` +
+      `- Concrete. Name the action, the date or the amount if the text has one.\n` +
+      `- If the item genuinely changes nothing for such a reader, reply with exactly: SKIP\n`;
+
+    try {
+      await new Promise(r => setTimeout(r, GEMINI.CALL_INTERVAL_MS));
+      const res = await ai.models.generateContent({ model: GEMINI.MODEL, contents: prompt });
+      const t = String((res && res.text) || '').trim().replace(/^["'\s]+|["'\s]+$/g, '');
+      if (!t || /^SKIP$/i.test(t)) continue;      // 해당 없는 항목은 뺀다
+      it.meaning = t;
+      out.push(it);
+    } catch (e) {
+      console.error('  [해설 실패] ' + it.title.slice(0, 50) + ' — ' + (e && e.message ? e.message : e));
+    }
+  }
+  return out;
 }
 
 // 뉴스 페이지에서 요약을 꺼낸다
@@ -164,6 +219,7 @@ function buildPage(lang, items) {
       <article class="item">
         <h3>${esc(it.title)}</h3>
         <ul>${it.summary.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+        <p class="means"><span>${esc(L.means)}</span>${esc(it.meaning)}</p>
         <a class="src" href="${esc(it.link)}" target="_blank" rel="nofollow noopener">${esc(L.source)}</a>
       </article>`).join('');
 
@@ -255,6 +311,8 @@ ${schema}
   .item li{font-size:15.5px;line-height:1.62;color:#1e293b;margin-bottom:7px}
   .item li:last-child{margin-bottom:0}
   .item li::marker{color:#94a3b8}
+  .means{margin-top:11px;padding-top:11px;border-top:1px solid rgba(0,0,0,.08);font-size:15px;line-height:1.6;color:var(--ink)}
+  .means span{font-weight:650;color:var(--navy)}
   .src{display:inline-block;margin-top:10px;font-size:12.5px;color:var(--sub);text-decoration:underline;text-underline-offset:3px}
   .guides{margin-top:12px;font-size:14px;color:var(--sub)}
   .guides a{color:var(--navy-l);font-weight:500;box-shadow:inset 0 -1px 0 rgba(30,64,175,.3);text-transform:capitalize}
@@ -279,35 +337,56 @@ ${schema}
 }
 
 // ── 실행 ──
-let total = 0;
-const made = [];
-for (const lang of ['en', 'th', 'vi']) {
-  const items = pick(lang);
-  total += items.length;
-  const dir = path.join(BASE, lang, 'news', 'monthly', MONTH);
-  const url = `https://www.koricare.kr/link/${lang}/news/monthly/${MONTH}/`;
-  console.log(`  [${lang}] ${items.length}건` +
-    (items.length ? '  주제: ' + [...new Set(items.map(i => i.topic))].join(', ') : ''));
-  if (!dry) {
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), buildPage(lang, items), 'utf8');
-  }
-  made.push(url);
-}
+(async () => {
+  let total = 0;
+  const made = [];
 
-// 사이트맵에 등록 — 이 페이지들만 검색에 연다
-if (!dry) {
-  const sp = path.join(BASE, 'sitemap.xml');
-  if (fs.existsSync(sp)) {
-    let xml = fs.readFileSync(sp, 'utf8');
-    for (const url of made) {
-      if (xml.indexOf(url) >= 0) continue;
-      xml = xml.replace('</urlset>',
-        `  <url>\n    <loc>${url}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>`);
+  for (const lang of ['en', 'th', 'vi']) {
+    const picked = pick(lang);
+    // 해설 한 줄을 붙인다. 못 붙은 항목은 여기서 빠진다.
+    const items = dry ? picked : await addMeaning(picked, lang);
+    const url = `https://www.koricare.kr/link/${lang}/news/monthly/${MONTH}/`;
+    const dir = path.join(BASE, lang, 'news', 'monthly', MONTH);
+
+    if (items.length < MIN_ITEMS) {
+      console.log(`  [${lang}] ${items.length}건 — ${MIN_ITEMS}건 미만이라 페이지를 만들지 않는다`);
+      // 지난번에 만들어 둔 것이 있으면 걷어낸다. 빈 페이지를 남겨 두지 않는다.
+      if (!dry && fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
+      continue;
     }
-    fs.writeFileSync(sp, xml, 'utf8');
-  }
-}
 
-console.log((dry ? '[미리보기] ' : '') + MONTH + ' 월간 정리 · 실린 기사 ' + total + '건');
-console.log('  개별 뉴스는 noindex 그대로. 검색에 여는 것은 이 페이지뿐이다.');
+    total += items.length;
+    console.log(`  [${lang}] ${items.length}건  주제: ${[...new Set(items.map(i => i.topic))].join(', ')}`);
+    if (!dry) {
+      fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(path.join(dir, 'index.html'), buildPage(lang, items), 'utf8');
+    }
+    made.push(url);
+  }
+
+  // 사이트맵 — 실제로 만든 페이지만 넣고, 안 만든 것은 뺀다
+  if (!dry) {
+    const sp = path.join(BASE, 'sitemap.xml');
+    if (fs.existsSync(sp)) {
+      let xml = fs.readFileSync(sp, 'utf8');
+      for (const lang of ['en', 'th', 'vi']) {
+        const url = `https://www.koricare.kr/link/${lang}/news/monthly/${MONTH}/`;
+        const has = made.includes(url);
+        const already = xml.indexOf(url) >= 0;
+        if (has && !already) {
+          xml = xml.replace('</urlset>',
+            `  <url>\n    <loc>${url}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>`);
+        } else if (!has && already) {
+          xml = xml.replace(new RegExp(
+            '  <url>\\n    <loc>' + url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') +
+            '<\\/loc>[\\s\\S]*?<\\/url>\\n'), '');
+        }
+      }
+      fs.writeFileSync(sp, xml, 'utf8');
+    }
+  }
+
+  console.log((dry ? '[미리보기] ' : '') + MONTH + ' 월간 정리 · 실린 기사 ' + total + '건 · 페이지 ' + made.length + '장');
+  console.log('  개별 뉴스는 noindex 그대로. 검색에 여는 것은 이 페이지뿐이다.');
+  if (dry) console.log('  (미리보기에서는 해설 한 줄을 붙이지 않는다. 실제 실행 때 붙는다)');
+})();
