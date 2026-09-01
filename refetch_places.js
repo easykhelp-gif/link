@@ -6,19 +6,28 @@
 //   그 자리를 이 도구가 맡는다.
 //
 // 어떻게 찾나
-//   상호명 + 그 장소의 좌표 반경 200m 로 키워드 검색을 하고,
-//   결과에서 id 가 일치하는 것을 고른다.
+//   좌표 반경 안에서 키워드 검색을 하고, 결과에서 id 가 일치하는 것을 고른다.
+//   무엇을 키워드로 쓸지는 무엇이 깨졌느냐에 따라 갈린다.
 //
-//   실측(2026-09-01, 표본 12건)으로 세 방법을 비교했다.
-//     반경 10m 업태검색      6/12   카카오 카테고리 코드가 있는 업태만 된다.
-//                                   미용·통신·관공서는 코드가 없어 통째로 실패한다
-//     좌표 → 주소 변환       12/12  되지만 주소 형식이 달라진다 ("부산광역시…")
-//     상호명 + 반경 200m     12/12  형식도 같고 원본 레코드를 그대로 가져온다  ← 이것
+//   주소가 깨진 경우 → 상호명 + 반경 200m
+//     실측(2026-09-01, 표본 12건)
+//       반경 10m 업태검색      6/12   카카오 카테고리 코드가 있는 업태만 된다.
+//                                     미용·통신·관공서는 코드가 없어 통째로 실패한다
+//       좌표 → 주소 변환       12/12  되지만 주소 형식이 달라진다 ("부산광역시…")
+//       상호명 + 반경 200m     12/12  형식도 같고 원본 레코드를 그대로 가져온다  ← 이것
 //
-//   반경 10m 는 좌표 오차에 걸린다. 200m 를 쓴다.
+//   상호가 깨진 경우 → 주소 + 반경 300m
+//     깨진 상호로는 검색이 안 된다. 실측(2026-09-02, 표본 5건) 1/5.
+//     주소는 온전하므로 주소로 찾는다. 실측(표본 13건)
+//       깨진 상호 그대로        1/5
+//       주소                  13/13   ← 이것. 코드 없는 미용실·통신·관공서까지 됐다
+//       업태 코드 + 반경 50m    6/13   코드 있는 업태만
+//       주소 + 상호조각         1/13   조각이 섞이면 오히려 못 찾는다
+//
+//   반경 10m 는 좌표 오차에 걸린다.
 //
 // 쓰는 법
-//   node refetch_places.js --broken            주소가 깨진 것을 스스로 찾아서 처리
+//   node refetch_places.js --broken            깨진 것(주소·상호·업태세부)을 스스로 찾아서 처리
 //   node refetch_places.js --list <파일.json>  목록 파일로 처리
 //   node refetch_places.js --broken --dry      무엇을 할지만 본다
 //
@@ -62,9 +71,12 @@ const RADIUS = 200;
 const INTERVAL_MS = 40;
 const delay = (ms) => new Promise(r => setTimeout(r, ms));
 
-function fetchKakao(query, x, y) {
+// 유니코드 대체 문자(U+FFFD). 응답을 utf8 로 안 읽으면 청크 경계에서 이게 박힌다.
+const BROKEN = /�/;
+
+function fetchKakao(query, x, y, radius) {
   const p = '/v2/local/search/keyword.json?query=' + encodeURIComponent(query) +
-            '&x=' + x + '&y=' + y + '&radius=' + RADIUS;
+            '&x=' + x + '&y=' + y + '&radius=' + (radius || RADIUS) + '&size=15';
   return new Promise((resolve, reject) => {
     const req = https.request({
       hostname: 'dapi.kakao.com', path: p, method: 'GET',
@@ -121,24 +133,55 @@ function collectTargets() {
     const i = parts.indexOf('split');
     const region = parts[i + 1], district = parts[i + 2];
     for (const pl of (j.places || [])) {
-      if (!/�/.test(pl.address || '')) continue;
-      if (!pl.id || !pl.name_ko || !pl.x || !pl.y) continue;
-      out.push({ id: pl.id, name_ko: pl.name_ko, x: pl.x, y: pl.y,
-                 category: pl.category, region, district });
+      // 주소만 보면 안 된다. 상호와 업태 세부도 같은 이유로 깨져 있다.
+      // 2026-09-02 실측: 주소 0건 · 상호 712건 · 업태 세부 1,032건
+      const badAddr = BROKEN.test(pl.address || '');
+      const badName = BROKEN.test(pl.name_ko || '');
+      const badDetail = BROKEN.test(pl.category_detail || '');
+      if (!badAddr && !badName && !badDetail) continue;
+      if (!pl.id || !pl.x || !pl.y) continue;
+      out.push({ id: pl.id, name_ko: pl.name_ko, address: pl.address, x: pl.x, y: pl.y,
+                 category: pl.category, region, district, badAddr, badName, badDetail });
     }
   });
   return out;
 }
 
+// 무엇으로 검색할 것인가.
+//   상호가 깨졌으면 상호로는 못 찾는다. 2026-09-02 표본 5건에서 1건만 걸렸다.
+//   주소는 온전하므로 주소로 찾는다. 표본 13건 전부 성공했고
+//   업태 코드가 없는 미용실·통신·관공서까지 됐다.
+//   주소가 깨진 경우는 반대로 상호를 쓴다 (662건 작업에서 검증된 경로).
+function queryFor(it) {
+  if (it.badName) {
+    if (!it.badAddr && it.address) return { q: it.address, radius: 300, by: '주소' };
+    // 둘 다 깨진 경우 — 깨진 글자를 지운 조각으로 시도한다
+    return { q: String(it.name_ko).replace(/�+/g, ' ').replace(/\s+/g, ' ').trim(),
+             radius: 500, by: '상호조각' };
+  }
+  return { q: it.name_ko, radius: RADIUS, by: '상호' };
+}
+
 (async () => {
   const items = collectTargets();
-  console.log((listPath ? '목록 파일' : '라이브에서 찾은 깨진 주소') + ' — 대상 ' + items.length + '건');
+  console.log((listPath ? '목록 파일' : '라이브에서 찾은 깨진 레코드') + ' — 대상 ' + items.length + '건');
   if (!items.length) { console.log('할 것이 없다.'); return; }
   if (dry) {
     const by = {};
     items.forEach(r => { by[r.region] = (by[r.region] || 0) + 1; });
     console.log('  시도별: ' + Object.entries(by).sort((a, b) => b[1] - a[1])
       .map(([k, v]) => k + ' ' + v).join(' · '));
+    const what = { 주소: 0, 상호: 0, 업태세부: 0 };
+    const how = {};
+    items.forEach(r => {
+      if (r.badAddr) what['주소']++;
+      if (r.badName) what['상호']++;
+      if (r.badDetail) what['업태세부']++;
+      const b = queryFor(r).by; how[b] = (how[b] || 0) + 1;
+    });
+    console.log('  깨진 곳: ' + Object.entries(what).map(([k, v]) => k + ' ' + v).join(' · ') +
+      '   (한 레코드가 여러 곳 깨질 수 있다)');
+    console.log('  검색 방법: ' + Object.entries(how).map(([k, v]) => k + ' ' + v).join(' · '));
     console.log('  예상 호출 ' + items.length + '회 · 약 ' +
       Math.ceil(items.length * INTERVAL_MS / 60000) + '분');
     console.log('[미리보기] 실제 호출은 하지 않았다.');
@@ -151,23 +194,32 @@ function collectTargets() {
   for (let i = 0; i < items.length; i++) {
     const it = items[i];
     try {
-      const data = await fetchKakao(it.name_ko, it.x, it.y);
+      const { q, radius } = queryFor(it);
+      if (!q) { failed++; continue; }
+      const data = await fetchKakao(q, it.x, it.y, radius);
       if (data.errorType || !data.documents) { failed++; continue; }
 
       const place = data.documents.find(d => d.id === it.id);
       if (!place) { notFound++; continue; }
 
       const address = place.road_address_name || place.address_name || '';
-      // 받아온 주소가 여전히 깨져 있으면 쓰지 않는다
-      if (!address || /�/.test(address)) { stillBroken++; continue; }
+      const name = place.place_name || '';
+      const detail = place.category_name || '';
+      // 받아온 것이 여전히 깨져 있으면 쓰지 않는다. 고치려다 덮어쓰면 더 나쁘다.
+      if (!address || BROKEN.test(address)) { stillBroken++; continue; }
+      if (!name || BROKEN.test(name)) { stillBroken++; continue; }
+      if (BROKEN.test(detail)) { stillBroken++; continue; }
 
-      const en = toEnglish(it.name_ko) || '';
+      // 상호가 깨져 있던 것만 카카오 것으로 갈아끼운다.
+      // 멀쩡한 상호까지 덮으면 그동안 손본 이름이 날아간다.
+      const name_ko = it.badName ? name : it.name_ko;
+      const en = toEnglish(name_ko) || '';
       const rec = {
         id: place.id,
-        name_ko: it.name_ko,
+        name_ko,
         name_en: en, name_th: en, name_vi: en,
         category: it.category,
-        category_detail: place.category_name || '',
+        category_detail: detail,
         address,
         phone: place.phone || '',
         map_url: place.place_url || 'http://place.map.kakao.com/' + place.id,
