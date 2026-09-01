@@ -101,6 +101,32 @@ function buildGuides() {
   const langs = ['en', 'th', 'vi'];
   const hubLinks = { en: [], th: [], vi: [] };
 
+  // 세 언어가 다 차지 않은 원고는 만들지 않는다.
+  //
+  // 2026-09-01: 태국어·베트남어 본문이 비어 있는 원고가 그대로 빌드에 섞여
+  // 3언어 페이지가 생기고 사이트맵에까지 올라갔다. 배포됐으면 태국어·베트남어는
+  // 빈 페이지가, 영어 자리에는 한국어가 검색에 열렸을 것이다.
+  //
+  // 원고를 지우지는 않는다. 다 써지면 다음 빌드에서 저절로 들어간다.
+  const MIN_BODY = 300;
+  const ready = [];
+  for (const g of guides) {
+    const thin = langs.filter(l => String(g['content_' + l] || '').length < MIN_BODY);
+    const noTitle = langs.filter(l => !String(g['title_' + l] || '').trim());
+    if (thin.length || noTitle.length) {
+      console.log(`[보류] ${g.id} — ` +
+        (thin.length ? `본문이 비었거나 짧다: ${thin.join(', ')}  ` : '') +
+        (noTitle.length ? `제목 없음: ${noTitle.join(', ')}` : ''));
+      continue;
+    }
+    ready.push(g);
+  }
+  if (ready.length !== guides.length) {
+    console.log(`[보류] ${guides.length - ready.length}편은 만들지 않는다. ` +
+                `세 언어가 다 차면 다음 빌드에서 들어간다.`);
+  }
+  guides = ready;
+
   guides.forEach(guide => {
     // Generate for each language
     langs.forEach(lang => {

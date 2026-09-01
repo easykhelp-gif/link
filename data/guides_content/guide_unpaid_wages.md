@@ -19,7 +19,7 @@ Hướng dẫn nhận lại tiền lương và trợ cấp thôi việc chưa đ
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
-사장이 밀린 월급과 퇴직금을 주지 않는다면, 한국 정부가 최대 1,000만 원까지 먼저 지급하는 '대지급금(Substitute Payment)' 제도를 이용해야 합니다. 퇴사 후 1년이 지나면 신청 자격이 영원히 사라집니다. 이 글에서는 한도 초과로 돈을 잃지 않기 위한 3단계 절차와 불법체류자 신청 가능 여부를 상세히 안내합니다.
+사장이 밀린 월급과 퇴직금을 주지 않을 때, 국가가 먼저 지급하고 나중에 사장에게 받아내는 제도가 있습니다. 대지급금이라고 합니다. 다만 퇴사 다음 날부터 1년이 지나면 신청할 수 없고, 국가가 대신 내주는 금액에도 상한이 있어 미루면 그만큼 손해입니다.
 
 ## 1년이 지나면 영원히 못 받습니다 (The 1 Year Deadline)
 
@@ -51,9 +51,13 @@ Hướng dẫn nhận lại tiền lương và trợ cấp thôi việc chưa đ
 
 ## 자주 묻는 질문 (FAQ)
 
-### 밀린 임금을 대신 갚아주는 대지급금 제도, 불법체류자(피너이)도 신청 가능한가요?
+### 체류 자격이 없어도 신청할 수 있나요?
 
-네, 신청 가능합니다. 대한민국 근로기준법 및 임금채권보장법은 근로자의 체류 자격과 무관하게 적용됩니다. 따라서 비자가 없는 미등록 외국인 신분이라 할지라도, 실제 노무를 제공하고 임금을 받지 못한 사실이 입증된다면 대지급금을 지급받을 수 있습니다. 단, 출입국 당국과의 연계 통보 등 실무적인 리스크가 발생할 수 있으므로 진정 전 노무 전문가의 조력을 받는 것이 좋습니다.
+근로기준법은 체류 자격과 관계없이 실제로 일한 사람에게 적용됩니다. 일한 사실과 못 받은 임금이 확인되면 그 임금에 대한 권리 자체는 사라지지 않습니다.
+
+다만 신청 절차는 관공서를 거칩니다. 진정을 넣기 전에 **132(대한법률구조공단, 무료·통역 가능)에 먼저 전화해서 본인 상황을 말하고 확인**하십시오. 무엇을 준비해야 하는지, 지금 넣어도 되는지 알려 줍니다. 혼자 판단해서 관공서에 먼저 가지 마십시오.
+
+받을 돈이 있는데 물어보지 않아 그냥 잃는 사람이 많습니다. 전화 한 통은 기록에 남지 않습니다.
 
 ### 사장이 조사를 피하거나 연락을 안 받으면 어떻게 되나요?
 
@@ -63,9 +67,12 @@ Hướng dẫn nhận lại tiền lương và trợ cấp thôi việc chưa đ
 
 대지급금은 원칙적으로 근로자 본인 명의의 계좌로만 지급됩니다. 타인 명의 수령은 불가하지만, 신용 불량 등으로 기존 통장이 압류된 상태라면 압류가 불가능한 '대지급금 전용통장(행복지킴이 통장)'을 개설하여 안전하게 받을 수 있습니다.
 
-<a class="calc-cta is-directory" href="/link/index.html"><span class="calc-cta-icon" aria-hidden="true">📍</span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Local Directory</span><span class="calc-cta-sub">내 근처의 믿을 수 있는 외국인 전문 노무사/변호사 찾기</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
+<a class="calc-cta is-directory" href="/link/index.html"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Local Directory</span><span class="calc-cta-sub">내 근처의 믿을 수 있는 외국인 전문 노무사/변호사 찾기</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
-<p class="note">Sources: 고용노동부 임금채권보장법 제7조의2 · 근로복지공단 간이대지급금 청구 안내.<br>이 문서는 정보 제공을 목적으로 하며, 법적 조언을 대신하지 않습니다. 개별 사건에 대한 정확한 법률 상담은 고용노동부(1350) 또는 공인노무사에게 문의하시기 바랍니다.</p>
+<p class="note">Sources: 고용노동부 · 근로복지공단 간이대지급금 안내.<br>
+금액과 기한은 제도가 바뀌면 달라집니다. 신청 전에 근로복지공단(1588-0075) 또는 고용노동부(1350)에서 현재 기준을 확인하십시오.<br>
+이 문서는 제도를 설명하는 글이며 법적 조언이 아닙니다. 개별 사건은 대한법률구조공단(132) 또는 공인노무사에게 문의하십시오.</p>
+
 <!-- EN END -->
 
 <!-- TH START -->
