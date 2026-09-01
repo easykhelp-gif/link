@@ -187,17 +187,24 @@ function mdToHtml(md) {
     return '<a href="' + url + '"' + (ext ? ' target="_blank" rel="noopener noreferrer"' : '') + '>' + text + '</a>';
   });
 
-  // 목록 바로 앞에 빈 줄이 없으면 넣는다.
-  // 원고에서 "다음과 같습니다:" 다음 줄에 바로 "- 항목" 을 쓰는 일이 잦은데,
-  // 문단 나누기가 빈 줄 기준이라 그대로 두면 목록이 앞 문단 안으로 들어간다. (2026-09-01)
+  // 블록 요소 바로 앞에 빈 줄이 없으면 넣는다.
+  // 원고에서 "다음과 같습니다:" 다음 줄에 바로 "- 항목" 을 쓰거나, 문단 바로
+  // 다음 줄에 "## 소제목" 을 쓰는 일이 잦다. 문단 나누기가 빈 줄 기준이라
+  // 그대로 두면 목록·소제목이 앞 문단 안으로 들어가고, <p> 안에 <ul> 이나
+  // <h2> 가 박힌다. HTML 규칙 위반이라 브라우저가 빈 <p> 를 끼워 넣는다. (2026-09-01)
   {
     const isItem = (l) => /^[ \t]*(?:\- |\d+\. )/.test(l);
+    // 소제목은 이 지점보다 앞에서 이미 <h2 id="..."> 로 바뀌어 있다.
+    // 마크다운 형태와 태그 형태를 둘 다 본다.
+    const isHead = (l) => /^[ \t]*(?:#{1,6} |<h[1-6][\s>])/.test(l);
     const lines = html.split('\n');
     const out = [];
     for (let i = 0; i < lines.length; i++) {
+      const cur = lines[i];
       const prev = lines[i - 1];
-      if (isItem(lines[i]) && prev !== undefined && prev.trim() && !isItem(prev)) out.push('');
-      out.push(lines[i]);
+      const needsGap = (isItem(cur) && !isItem(prev || '')) || isHead(cur);
+      if (needsGap && prev !== undefined && prev.trim()) out.push('');
+      out.push(cur);
     }
     html = out.join('\n');
   }
