@@ -187,8 +187,26 @@ function mdToHtml(md) {
     return '<a href="' + url + '"' + (ext ? ' target="_blank" rel="noopener noreferrer"' : '') + '>' + text + '</a>';
   });
 
+  // 목록 바로 앞에 빈 줄이 없으면 넣는다.
+  // 원고에서 "다음과 같습니다:" 다음 줄에 바로 "- 항목" 을 쓰는 일이 잦은데,
+  // 문단 나누기가 빈 줄 기준이라 그대로 두면 목록이 앞 문단 안으로 들어간다. (2026-09-01)
+  {
+    const isItem = (l) => /^[ \t]*(?:\- |\d+\. )/.test(l);
+    const lines = html.split('\n');
+    const out = [];
+    for (let i = 0; i < lines.length; i++) {
+      const prev = lines[i - 1];
+      if (isItem(lines[i]) && prev !== undefined && prev.trim() && !isItem(prev)) out.push('');
+      out.push(lines[i]);
+    }
+    html = out.join('\n');
+  }
+
   // Lists
-  html = html.replace(/^\s*\- (.*$)/gim, '<ul><li>$1</li></ul>');
+  // 앞을 \s* 로 두면 안 된다. \s 에 줄바꿈이 들어가서 목록 앞의 빈 줄까지 먹고,
+  // 그러면 목록이 앞 문단에 붙어 <p>…<br><ul>…</ul></p> 가 된다.
+  // <p> 안의 <ul> 은 HTML 규칙 위반이라 브라우저가 빈 <p> 를 만들어 넣는다. (2026-09-01)
+  html = html.replace(/^[ \t]*\- (.*$)/gim, '<ul><li>$1</li></ul>');
   html = html.replace(/<\/ul>\n<ul>/g, '\n');
   
   // Blockquote  "> text" -> <blockquote>
@@ -197,7 +215,7 @@ function mdToHtml(md) {
   html = html.replace(/<\/blockquote>\n<blockquote>/g, '<br>');
 
   // Ordered list  "1. text" -> <ol><li>
-  html = html.replace(/^\s*\d+\. (.*$)/gim, '<ol><li>$1</li></ol>');
+  html = html.replace(/^[ \t]*\d+\. (.*$)/gim, '<ol><li>$1</li></ol>');
   html = html.replace(/<\/ol>\n<ol>/g, '');
 
   // Tables
@@ -221,16 +239,22 @@ function mdToHtml(md) {
       }
     }
     tableHtml += '</tbody></table></div></div>';
-    return tableHtml;
+    // 앞뒤로 빈 줄을 붙인다. 표 치환이 뒤 문단의 줄바꿈까지 먹어버리면
+    // 표와 뒤 문단이 한 덩어리가 되고, 그 덩어리는 <div 로 시작해서
+    // HTML 블록으로 통과되므로 뒤 문단이 <p> 없이 맨 텍스트로 나온다. (2026-09-01)
+    return '\n\n' + tableHtml + '\n\n';
   });
   
   // Paragraphs
   html = html.split('\n\n').map(p => {
+    // 빈 덩어리는 버린다. 표·목록 앞뒤에 빈 줄을 넣다 보면 생기는데
+    // 그대로 두면 <p></p> 가 나온다.
+    if (!p.trim()) return '';
     // 원고에 직접 쓴 HTML 블록은 그대로 둔다. 한 번 더 <p> 로 감싸면
     // 문단 안에 문단이 들어간 잘못된 구조가 된다.
     if (/^<(h[1-6]|ul|ol|table|div|figure|blockquote|p|section|aside)[\s>]/.test(p.trim())) return p;
     return `<p>${p.trim().replace(/\n/g, '<br>')}</p>`;
-  }).join('\n');
+  }).filter(Boolean).join('\n');
   
   // 목록 항목 사이에 끼어드는 <br> 제거 (2026-08-31)
   html = html.replace(/<\/li>\s*<br>\s*<li>/g, '</li><li>');

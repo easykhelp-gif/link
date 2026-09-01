@@ -37,3 +37,6 @@ data/split_broken_backup_*/
 # templates/ 는 build_guides.js 가 읽으므로 저장소에 남긴다.
 # 대신 robots.txt 로 크롤을 막는다.
 scratch/
+
+# 히어로 이미지 압축 전 원본. 로컬 보관용
+news/images/_original/
