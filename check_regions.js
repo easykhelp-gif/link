@@ -28,6 +28,9 @@ async function check() {
       https.get(`https://dapi.kakao.com/v2/local/geo/coord2regioncode.json?x=${c.x}&y=${c.y}`, 
         {headers:{'Authorization': 'KakaoAK ' + key}}, r => { 
         let d=''; 
+        // 2026-09-01 추가. 없으면 한글 한 글자가 청크 경계에 걸릴 때
+        // 조각난 바이트가 문자열에 붙어 주소가 깨진다.
+        res.setEncoding('utf8');
         r.on('data', chunk=>d+=chunk); 
         r.on('end', ()=> {
           try {

@@ -37,6 +37,9 @@ function fetchPage(category, rect, page) {
 
     https.get(url, { headers: { 'Authorization': `KakaoAK ${KAKAO_KEY}` } }, res => {
       let body = '';
+      // 2026-09-01 추가. 없으면 한글 한 글자가 청크 경계에 걸릴 때
+      // 조각난 바이트가 문자열에 붙어 주소가 깨진다.
+      res.setEncoding('utf8');
       res.on('data', chunk => body += chunk);
       res.on('end', () => {
         try {

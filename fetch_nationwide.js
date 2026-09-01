@@ -12,7 +12,10 @@ const KAKAO_KEY = match[1];
 
 const REGIONS = [
   { id: 'gyeonggi', prefixes: ['경기'], minX: 126.54, minY: 36.89, maxX: 127.84, maxY: 38.29 },
-  { id: 'incheon', prefixes: ['인천'], minX: 126.00, minY: 37.01, maxX: 126.78, maxY: 37.58 },
+  // 2026-09-01: maxY 를 37.58 → 37.82 로 넓혔다.
+  // 검단신도시(37.58~37.65)와 강화군(37.60~37.80)이 격자 밖이라
+  // 처음부터 수집 대상이 아니었다. 검단구 21건, 강화군 0건이었던 원인이다.
+  { id: 'incheon', prefixes: ['인천'], minX: 126.10, minY: 37.01, maxX: 126.80, maxY: 37.82 },
   { id: 'busan', prefixes: ['부산'], minX: 128.73, minY: 34.87, maxX: 129.31, maxY: 35.39 },
   { id: 'daegu', prefixes: ['대구'], minX: 128.35, minY: 35.59, maxX: 128.87, maxY: 36.01 },
   { id: 'gwangju', prefixes: ['광주'], minX: 126.65, minY: 35.07, maxX: 127.02, maxY: 35.26 },
@@ -80,6 +83,10 @@ async function fetchKakao(type, queryOrCode, rect, page) {
       headers: { 'Authorization': `KakaoAK ${KAKAO_KEY}` }
     }, (res) => {
       let data = '';
+      // 2026-09-01 추가. 이 한 줄이 없으면 한글 한 글자가 청크 경계에 걸릴 때
+      // 조각난 바이트가 그대로 문자열에 붙어 주소가 깨진다.
+      // 주소가 깨진 채 저장된 671건의 원인이었다.
+      res.setEncoding('utf8');
       res.on('data', d => data += d);
       res.on('end', () => {
         try { resolve(JSON.parse(data)); } catch (e) { reject(e); }
