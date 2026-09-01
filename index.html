@@ -381,7 +381,26 @@
       </div>
     </div>
 
-    <div class="local-filter-group" id="groupRegions" style="margin-bottom: 12px; margin-top: 16px;">
+        <!-- 장소 검색. 사전은 처음 누를 때 받는다 (102KB) -->
+    <div class="local-search-wrap" style="margin-top:16px; position:relative; width:100%;">
+      <input id="placeSearch" type="search" autocomplete="off" enterkeyhint="search"
+             placeholder="Search  e.g. Bundang-gu dental"
+             style="width:100%; font-size:14.5px; font-weight:700; padding:12px 42px 12px 42px; border-radius:14px; border:1.5px solid var(--line); background:#ffffff; color:var(--navy); outline:none; box-shadow:0 2px 8px rgba(0,0,0,0.03); box-sizing:border-box; -webkit-appearance:none; appearance:none;">
+      <svg aria-hidden="true" viewBox="0 0 20 20" width="17" height="17"
+           style="position:absolute; left:15px; top:50%; transform:translateY(-50%); pointer-events:none; color:#94a3b8;"
+           fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round">
+        <circle cx="8.6" cy="8.6" r="5.6"></circle><path d="M12.8 12.8L17 17"></path>
+      </svg>
+      <button id="placeSearchClear" type="button" aria-label="Clear"
+              style="display:none; position:absolute; right:12px; top:50%; transform:translateY(-50%); border:none; background:none; color:#94a3b8; width:22px; height:22px; padding:0; cursor:pointer; line-height:0;">
+        <svg viewBox="0 0 20 20" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round">
+          <path d="M5 5l10 10M15 5L5 15"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="placeSearchNote" style="display:none; font-size:12.5px; font-weight:600; color:#475569; margin:8px 2px 0; line-height:1.5;"></div>
+
+<div class="local-filter-group" id="groupRegions" style="margin-bottom: 12px; margin-top: 16px;">
       <div style="position:relative; width:100%;">
         <select id="regionDropdown" style="width:100%; font-size:14.5px; font-weight:700; padding:12px 16px; border-radius:14px; border:1.5px solid var(--line); background:#ffffff; color:var(--navy); outline:none; cursor:pointer; appearance:none; -webkit-appearance:none; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
         </select>
@@ -802,7 +821,7 @@
     var cardsHtml = "";
     if (selectedDistrict !== "" && selectedCategory !== "") {
       // 받아온 파일이 이미 해당 행정구·업태다. 별도 필터가 필요 없다.
-      var filteredPlaces = currentRegionPlaces;
+      var filteredPlaces = applySearchFilter(currentRegionPlaces);   // 검색으로 들어왔으면 읍·면·세부업태를 더 거른다
 
       var totalPages = Math.ceil(filteredPlaces.length / ITEMS_PER_PAGE);
       if (currentPage > totalPages) currentPage = 1;
@@ -863,7 +882,142 @@
     localGrid.innerHTML = districtsHtml + catsHtml + cardsHtml;
   }
 
-  function setDistrictFilter(dist) {
+  
+  // ── 장소 검색 ───────────────────────────────────────────────
+  // 검색어를 시도·구·업태로 갈라 드롭다운을 대신 채운다.
+  // 그리기는 기존 코드가 하므로 페이지 넘기기가 그대로 따라온다.
+  var SEARCH_FILTER = null;   // { place: "정관읍", sub: "치과", free: [...] }
+  var PLACE_DICT = null;
+  var PLACE_SEARCH = null;
+
+  function applySearchFilter(list) {
+    if (!SEARCH_FILTER) return list;
+    var f = SEARCH_FILTER;
+    return list.filter(function (p) {
+      if (f.place && String(p.address || '').indexOf(f.place) < 0) return false;
+      if (f.sub && String(p.category_detail || '').indexOf(f.sub) < 0) return false;
+      if (f.free && f.free.length) {
+        var hay = [p.name_ko, p.name_en, p.name_th, p.name_vi, p.address, p.category_detail]
+          .join(' ').toLowerCase().replace(/[\s\-_.·,]/g, '');
+        for (var i = 0; i < f.free.length; i++) if (hay.indexOf(f.free[i]) < 0) return false;
+      }
+      return true;
+    });
+  }
+
+  function loadSearchDict() {
+    if (PLACE_DICT) return Promise.resolve(PLACE_DICT);
+    // dataBase() 는 페이지 위치에 따라 "data/split/" · "link/data/split/" · "../data/split/"
+    // 셋 중 하나다. 여기서 파생시키면 세 언어 모두 맞는다.
+    var root = dataBase().replace(/data\/split\/$/, '');
+    return Promise.all([
+      fetch(root + 'data/search_dict.json').then(function (r) { return r.json(); }),
+      (window.PlaceSearch ? Promise.resolve() : new Promise(function (ok, no) {
+        var s = document.createElement('script');
+        s.src = root + 'lib/place_search.js';
+        s.onload = ok; s.onerror = no;
+        document.head.appendChild(s);
+      }))
+    ]).then(function (r) {
+      PLACE_DICT = r[0];
+      PLACE_SEARCH = window.PlaceSearch.createSearch(PLACE_DICT, function () { return null; });
+      return PLACE_DICT;
+    });
+  }
+
+  function runPlaceSearch(query) {
+    var note = document.getElementById('placeSearchNote');
+    if (!query.trim()) { clearPlaceSearch(); return; }
+    loadSearchDict().then(function () {
+      var r = PLACE_SEARCH.resolve(query);
+      if (!r.region && !r.need) { note.textContent = "Try an area and a type — e.g. Bundang-gu dental"; note.style.display = 'block'; return; }
+
+      // 동·읍·면이 여러 구에 있어 못 정한 경우 — 시도만 세우고 구를 고르게 둔다
+      if (r.need === 'district') {
+        var first = r.options[0];
+        r = { region: first.region[0], district: first.i,
+              dongName: r.dongName, category: r.category, sub: r.sub, free: r.free };
+      }
+
+      SEARCH_FILTER = { place: r.dongName || null, sub: r.sub || null, free: r.free || [] };
+
+      var dd = document.getElementById('regionDropdown');
+      actRegion = r.region; if (dd) dd.value = r.region;
+      selectedDistrict = (r.district !== null && r.district !== undefined)
+        ? PLACE_DICT.d[r.district][2] : '';
+      selectedCategory = r.category || '';
+      currentPage = 1;
+
+      // 무엇으로 알아들었는지 보여 준다. 업태 이름은 화면이 이미 쓰는 이름표를
+      // 그대로 가져온다 — 여기서 따로 적으면 언어마다 두 벌이 된다.
+      function showNote() {
+        var bits = [];
+        if (r.district !== null && r.district !== undefined) bits.push(PLACE_DICT.d[r.district][1]);
+        if (r.dongName) bits.push(r.dongName);
+        if (r.sub) bits.push(r.sub);
+        else if (r.category) {
+          // 화면에 select 가 여럿이다(지역·구·업태, 그리고 무관한 catsDropdown).
+          // 위치로 집으면 엉뚱한 것을 잡는다. 그 값을 가진 옵션이 있는 것을 찾는다.
+          var label = null;
+          var sels = document.querySelectorAll('#localGrid select');
+          for (var s = 0; s < sels.length && !label; s++) {
+            for (var i = 0; i < sels[s].options.length; i++) {
+              if (sels[s].options[i].value === r.category) {
+                label = sels[s].options[i].textContent.trim();
+                break;
+              }
+            }
+          }
+          bits.push(label || r.category);
+        }
+        note.textContent = bits.join(' · ');
+        note.style.display = bits.length ? 'block' : 'none';
+      }
+
+      if (selectedDistrict && selectedCategory) {
+        loadPlaces(actRegion, selectedDistrict, selectedCategory, function () {
+          renderFilterControlsAndPlaces();
+          showNote();
+        });
+      } else {
+        currentRegionPlaces = [];
+        renderFilterControlsAndPlaces();
+        showNote();
+      }
+      var sec = document.querySelector('.local-directory-section');
+      if (sec) sec.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }).catch(function () {
+      note.textContent = "Try an area and a type — e.g. Bundang-gu dental";
+      note.style.display = 'block';
+    });
+  }
+
+  function clearPlaceSearch() {
+    SEARCH_FILTER = null;
+    var i = document.getElementById('placeSearch');
+    if (i) i.value = '';
+    var n = document.getElementById('placeSearchNote');
+    if (n) { n.textContent = ''; n.style.display = 'none'; }
+    var c = document.getElementById('placeSearchClear');
+    if (c) c.style.display = 'none';
+    renderFilterControlsAndPlaces();
+  }
+
+  (function () {
+    var box = document.getElementById('placeSearch');
+    if (!box) return;
+    var clear = document.getElementById('placeSearchClear');
+    box.addEventListener('focus', function () { loadSearchDict(); }, { once: true });
+    box.addEventListener('input', function () {
+      clear.style.display = box.value ? 'block' : 'none';
+    });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); runPlaceSearch(box.value); }
+    });
+    clear.addEventListener('click', clearPlaceSearch);
+  })();
+
+function setDistrictFilter(dist) {
     selectedDistrict = dist;
     selectedCategory = "";   // 구가 바뀌면 업태를 다시 고른다
     currentPage = 1;
