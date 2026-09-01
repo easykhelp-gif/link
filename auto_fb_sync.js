@@ -317,7 +317,7 @@ async function main() {
         const randomItems = shuffled.slice(0, Math.min(3, shuffled.length));
 
         const newsItemsHtml = randomItems.map(item => {
-          const cardImage = item.image || "koricare_main_logo_nobg.png";
+          const cardImage = item.image || "koricare_main_logo_nobg.webp";
           return `    <a href="news/${item.id}.html" class="news-card">
       <img src="${cardImage}" alt="${item.title_th}">
     </a>`;

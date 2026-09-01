@@ -549,7 +549,7 @@ function updateIndexHtml(guides) {
     const sortedGuides = guides.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
     const top3 = sortedGuides.slice(0, 3);
     const cardsHtml = top3.map(item => {
-      let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.webp';
       if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
       const title = item.title_en || item.title_ko || item.title_th || item.title_vi;
       let badgeHtml = item.tag ? `<div style="font-size:11px; font-weight:800; color:#2563eb; background:#eff6ff; padding:2px 6px; border-radius:4px; margin-bottom:4px; display:inline-block;">${item.tag}</div>` : '';
@@ -557,7 +557,7 @@ function updateIndexHtml(guides) {
       
       return `    <a href="en/guides/${item.category}/${item.id}/" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
       <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
-        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.webp';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
       <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
         <div>${badgeHtml}</div>
@@ -580,7 +580,7 @@ function updateIndexHtml(guides) {
       if (fs.existsSync(p)) {
         let c = fs.readFileSync(p, 'utf-8');
         let langCards = top3.map(item => {
-          let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+          let thumb = item.image || 'https://www.koricare.kr/link/koricare_main_logo_nobg.webp';
           if (thumb.startsWith('news/')) thumb = '/link/' + thumb;
           const title = (lang === 'th' ? item.title_th : item.title_vi) || item.title_en;
           let badgeHtml = item.tag ? `<div style="font-size:11px; font-weight:800; color:#2563eb; background:#eff6ff; padding:2px 6px; border-radius:4px; margin-bottom:4px; display:inline-block;">${item.tag}</div>` : '';
@@ -588,7 +588,7 @@ function updateIndexHtml(guides) {
 
           return `    <a href="guides/${item.category}/${item.id}/" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
           <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
-            <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
+            <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.webp';" style="width:100%; height:100%; object-fit:cover; display:block;">
           </div>
           <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
             <div>${badgeHtml}</div>

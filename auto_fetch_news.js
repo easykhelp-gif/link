@@ -477,7 +477,7 @@ function buildArticleHtml(newsItem, lang) {
   gtag('js', new Date());
   gtag('config', 'G-YESCHJX46K');
 </script>
-<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
+<link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.webp">
 <style>
   :root { --bg: #f5f5f7; --card: #ffffff; --tint: #f1f5f9; --ink: #1d1d1f; --sub: #6e6e73; --navy: #002366; --line: #e2e8f0; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -562,7 +562,7 @@ function buildArticleHtml(newsItem, lang) {
 <header>
   <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
     <a href="${backHref}" class="logo">
-      <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.png" alt="Kori Care" class="logo-img">
+      <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.webp" alt="Kori Care" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
         <span>Trending News</span>
@@ -606,7 +606,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
   const top3 = newsList.slice(0, 3);
   if (sIdx !== -1 && eIdx !== -1 && top3.length > 0) {
     const cardsHtml = top3.map(item => {
-      const rawThumb = item.image ? item.image.replace(/&amp;/g, '&') : 'https://www.koricare.kr/link/koricare_main_logo_nobg.png';
+      const rawThumb = item.image ? item.image.replace(/&amp;/g, '&') : 'https://www.koricare.kr/link/koricare_main_logo_nobg.webp';
       const thumb = safeUrl(rawThumb);
       const title = escapeHtml(item.title);
       const href = escapeHtml(`/link/news/${item.id}.html`);
@@ -614,7 +614,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
 
       return `    <a href="${href}" class="list-item-card" style="display:flex; flex-direction:row; padding:14px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:all 0.2s ease; align-items:center;">
       <div class="list-thumb" style="width:96px; height:72px; flex-shrink:0; border-radius:12px; background:#f1f5f9; overflow:hidden; margin-right:14px;">
-        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.png';" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <img src="${thumb}" alt="${title}" onerror="this.onerror=null;this.src='https://www.koricare.kr/link/koricare_main_logo_nobg.webp';" style="width:100%; height:100%; object-fit:cover; display:block;">
       </div>
       <div style="display:flex; flex-direction:column; flex:1; justify-content:center;">
         <div class="list-title" style="font-size:16px; font-weight:700; color:var(--ink); line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:break-word;">${title}</div>

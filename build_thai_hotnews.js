@@ -257,7 +257,7 @@ async function runPipeline() {
     const news = finalTopics[i];
     const imageFilename = `thumb_${Date.now()}_${i + 1}.jpg`;
     const localImgPath = await downloadImage(news.imgUrl, imageFilename);
-    news.localImgPath = localImgPath || "koricare_main_logo_nobg.png";
+    news.localImgPath = localImgPath || "koricare_main_logo_nobg.webp";
     
     const articleId = `hotnews_${Date.now()}_${i + 1}`;
     const articleLinkPath = generateArticleHtml(news, articleId);
@@ -265,7 +265,7 @@ async function runPipeline() {
     generatedNewsCards.push({
       title: news.title,
       link: "../" + articleLinkPath,
-      imgPath: news.localImgPath.startsWith("koricare_main_logo_nobg") ? "https://www.koricare.kr/link/koricare_main_logo_nobg.png" : "../" + news.localImgPath
+      imgPath: news.localImgPath.startsWith("koricare_main_logo_nobg") ? "https://www.koricare.kr/link/koricare_main_logo_nobg.webp" : "../" + news.localImgPath
     });
   }
   
