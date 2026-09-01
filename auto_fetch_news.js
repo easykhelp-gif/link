@@ -177,6 +177,44 @@ function renderSummary(text, fallbackTitle) {
   return out.join('');
 }
 
+const GEMINI = require('./gemini_config');
+
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// 요약 한 건. 호출 한도에 걸리면 잠깐 쉬었다 다시 시도하고,
+// 모델이 은퇴했으면(404) 대체 모델로 한 번 더 시도한다.
+async function summarizeOnce(ai, prompt) {
+  const models = [GEMINI.MODEL, GEMINI.MODEL_FALLBACK];
+  let lastErr = null;
+
+  for (const model of models) {
+    for (let attempt = 0; attempt <= GEMINI.RETRY; attempt++) {
+      try {
+        const res = await ai.models.generateContent({ model, contents: prompt });
+        if (res && res.text) {
+          if (model !== GEMINI.MODEL) {
+            console.warn(`[모델 대체] ${GEMINI.MODEL} 실패 → ${model} 로 성공. gemini_config.js 를 고칠 것.`);
+          }
+          return res.text;
+        }
+        lastErr = new Error('빈 응답');
+      } catch (e) {
+        lastErr = e;
+        const msg = String((e && e.message) || e);
+        // 호출 한도 — 쉬었다 다시
+        if (/429|RESOURCE_EXHAUSTED|rate limit|quota/i.test(msg) && attempt < GEMINI.RETRY) {
+          await new Promise(r => setTimeout(r, GEMINI.RETRY_WAIT_MS));
+          continue;
+        }
+        // 모델이 없음 — 다음 모델로
+        if (/404|not found|NOT_FOUND|is not supported/i.test(msg)) break;
+        break;
+      }
+    }
+  }
+  throw lastErr || new Error('요약 실패');
+}
+
 // 화면 문구
 const NEWS_UI = {
   en: { summary: 'Summary', source: 'Read the full article at the source',
@@ -368,7 +406,7 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
 // 실측: 영어 174건 중 21건(12%), 태국어 642건 중 3건, 베트남어 1,203건 중 4건.
 // 나머지는 RSS 원문 한 줄이 그대로 화면에 나갔다.
 // 언어마다 몫을 정해 두면 세 언어가 고르게 요약된다.
-const SUMMARY_LIMIT_PER_LANG = 12;
+const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
@@ -444,12 +482,13 @@ async function runPipeline() {
               `- One fact per bullet. Plain words. 1 to 2 sentences each.\n` +
               `- Do not invent anything that is not in the text.\n\n` +
               `Article:\n${fullText}`;
-            const response = await ai.models.generateContent({
-              model: 'gemini-3.6-flash',
-              contents: prompt,
-            });
-            if (response.text) {
-              item.desc = stripPreamble(response.text);
+            // 호출 사이를 띄운다. 쉬지 않고 던지면 분당 한도에 걸려
+            // 앞의 스무 건만 통과하고 나머지가 전부 튕긴다.
+            if (summarized > 0) await delay(GEMINI.CALL_INTERVAL_MS);
+
+            const text = await summarizeOnce(ai, prompt);
+            if (text) {
+              item.desc = stripPreamble(text);
               summarized++;
               summarizedThisLang++;
             }

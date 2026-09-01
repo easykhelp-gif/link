@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_ac879a13",
+    "date": "2026-09-01",
+    "ts": 1788245024000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/01/AEN20260901008900320_01_i_P2.jpg",
+    "title": "Hanwha Ocean wins 477.8 bln-won order for 3 VLGCs",
+    "link": "https://en.yna.co.kr/view/AEN20260901008900320"
+  },
+  {
+    "id": "hotnews_en_c8ce11f4",
+    "date": "2026-09-01",
+    "ts": 1788244470000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090102250001300_P2.jpg",
+    "title": "Seoul shares rise for 2nd day on tech gains despite renewed Mideast tensions",
+    "link": "https://en.yna.co.kr/view/AEN20260901008300320"
+  },
+  {
+    "id": "hotnews_en_98ca034c",
+    "date": "2026-09-01",
+    "ts": 1788244404000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "(URGENT) Seoul shares rise for 2nd day on tech gains despite renewed Mideast tensions",
+    "link": "https://en.yna.co.kr/view/AEN20260901008200320"
+  },
+  {
     "id": "hotnews_en_b835b023",
     "date": "2026-09-01",
     "ts": 1788243906000,
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "(URGENT) S. Korea to allocate 162.3 tln won for Future Fund in 2027 budget proposal: budget minister",
     "link": "https://en.yna.co.kr/view/AEN20260901004400320"
-  },
-  {
-    "id": "hotnews_en_eccebfea",
-    "date": "2026-09-01",
-    "ts": 1788227199000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) Gov't to propose record 820.9 tln-won budget for 2027: budget minister",
-    "link": "https://en.yna.co.kr/view/AEN20260901004300320"
-  },
-  {
-    "id": "hotnews_en_52213b2d",
-    "date": "2026-09-01",
-    "ts": 1788227101000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "(URGENT) S. Korea to send KC-330 Cygnus aircraft to Nepal at around midnight to transport disaster relief team, supplies: foreign ministry",
-    "link": "https://en.yna.co.kr/view/AEN20260901003800315"
-  },
-  {
-    "id": "hotnews_en_78954f0d",
-    "date": "2026-09-01",
-    "ts": 1788226592000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/01/AEN20260901003600315_02_i_P2.jpg",
-    "title": "Police disclose identity of Chinese man suspected of murdering his student",
-    "link": "https://en.yna.co.kr/view/AEN20260901003600315"
   }
 ]

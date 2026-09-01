@@ -99,7 +99,10 @@ function parseRss(xmlText) {
 }
 
 async function callGeminiApi(prompt, apiKey) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`;
+  // 모델 이름은 gemini_config.js 한 곳에서만 정한다.
+  // 예전에는 이 파일과 auto_fetch_news.js 가 서로 다른 모델을 부르고 있었다.
+  const { MODEL } = require('./gemini_config');
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${apiKey}`;
   const headers = {
     'Content-Type': 'application/json'
   };
