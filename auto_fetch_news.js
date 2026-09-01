@@ -132,24 +132,79 @@ function parseXmlItems(xmlText) {
   return items;
 }
 
+// 요약 앞에 붙는 군말을 걷어낸다.
+// 모델이 "Here is a 3-bullet point summary of the news:" 같은 인사말을 먼저 쓰는데,
+// 그게 그대로 화면에 나오고 있었다.
+function stripPreamble(text) {
+  const lines = String(text || '').split('\n');
+  while (lines.length) {
+    const t = lines[0].trim();
+    if (!t) { lines.shift(); continue; }
+    // 목록 기호로 시작하면 본문이다
+    if (/^([*\-•·]|\d+[.)])\s/.test(t)) break;
+    // 콜론으로 끝나는 짧은 안내문이면 버린다
+    if (t.length <= 120 && /[:：]\s*$/.test(t)) { lines.shift(); continue; }
+    break;
+  }
+  return lines.join('\n').trim();
+}
+
+// 모델이 돌려준 마크다운을 화면용 HTML 로 바꾼다.
+// 예전에는 줄바꿈만 <br> 로 바꿔서 "* **재난과 구조:**" 의 별표가 그대로 보였다.
+function renderSummary(text, fallbackTitle) {
+  const raw = stripPreamble(text);
+  if (!raw) return '<p>' + escapeHtml(fallbackTitle) + '</p>';
+
+  const bold = (s) => escapeHtml(s)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/__([^_]+)__/g, '<strong>$1</strong>');
+
+  const out = [];
+  let list = null;
+  for (const line of raw.split('\n')) {
+    const t = line.trim();
+    if (!t) continue;
+    const m = t.match(/^([*\-•·]|\d+[.)])\s+(.*)$/);
+    if (m) {
+      if (!list) list = [];
+      list.push('<li>' + bold(m[2]) + '</li>');
+    } else {
+      if (list) { out.push('<ul class="sum-list">' + list.join('') + '</ul>'); list = null; }
+      out.push('<p>' + bold(t) + '</p>');
+    }
+  }
+  if (list) out.push('<ul class="sum-list">' + list.join('') + '</ul>');
+  return out.join('');
+}
+
+// 화면 문구
+const NEWS_UI = {
+  en: { summary: 'Summary', source: 'Read the full article at the source',
+        cta: 'Visa, labour rights, or legal trouble in Korea? Talk to a specialist.',
+        btn: 'Kori Care 1:1 Help', back: 'Back to Kori Care' },
+  th: { summary: 'สรุปข่าว', source: 'อ่านฉบับเต็มที่ต้นทาง',
+        cta: 'มีปัญหาเรื่องวีซ่า สิทธิแรงงาน หรือกฎหมายในเกาหลี? ปรึกษาผู้เชี่ยวชาญ',
+        btn: 'Kori Care ปรึกษา 1:1', back: 'กลับสู่ Kori Care' },
+  vi: { summary: 'Tóm tắt', source: 'Đọc bài đầy đủ tại nguồn',
+        cta: 'Gặp vấn đề về visa, quyền lao động hay pháp lý ở Hàn Quốc? Hỏi chuyên gia.',
+        btn: 'Kori Care Hỗ trợ 1:1', back: 'Quay lại Kori Care' }
+};
+
 function buildArticleHtml(newsItem, lang) {
   const dateStr = newsItem.date || new Date().toISOString().slice(0, 10);
   
+  const t = NEWS_UI[lang] || NEWS_UI.en;
+
   const bannerHtml = `
-    <div style="background: linear-gradient(135deg, #002366 0%, #1e40af 100%); border-radius: 18px; padding: 24px 20px; color: #ffffff; margin: 36px 0 20px; box-shadow: 0 8px 24px rgba(0,35,102,0.18); text-align: center;">
-      <div style="font-size: 13.5px; opacity: 0.95; line-height: 1.55; margin-bottom: 16px; color:#e2e8f0; max-width: 540px; margin-left: auto; margin-right: auto; font-weight: 500;">Struggling with Visa, Labor Rights, or Legal Help in Korea? Talk to Your Specialist.</div>
-      <a href="https://www.koricare.kr" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; background: #ffffff; color: #002366; padding: 9px 20px; border-radius: 10px; font-weight: 800; font-size: 13px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.12);">Kori Care 1:1 Help ➔</a>
+    <div class="cta">
+      <p class="cta-text">${escapeHtml(t.cta)}</p>
+      <a href="https://www.koricare.kr" target="_blank" rel="noopener" class="cta-btn">${escapeHtml(t.btn)}</a>
     </div>
   `;
 
-  let engSummarySection = '';
-  if (lang !== 'en') {
-    engSummarySection = `
-      <div style="margin-top:24px; padding:16px 20px; background:#f8fafc; border-radius:12px; border:1px solid #e2e8f0;">
-        <div style="font-size:13.5px; color:#475569; line-height:1.65; font-weight:500;">${escapeHtml(newsItem.title)}</div>
-      </div>
-    `;
-  }
+  // 예전에는 여기에 "영문 요약"이라며 newsItem.title 을 한 번 더 찍었다.
+  // 태국·베트남 기사는 제목 자체가 그 나라 말이라, 화면 맨 위 h1 과 똑같은
+  // 문장이 두 번 나올 뿐이었다. 없앤다.
 
   const heroImgTag = newsItem.image ? `<img src="${safeUrl(newsItem.image)}" alt="${escapeHtml(newsItem.title)}" style="width:100%; max-height:380px; object-fit:cover; border-radius:16px; margin: 18px 0 22px;">` : '';
   const backHref = lang === 'th' ? '../th/' : (lang === 'vi' ? '../vi/' : '../');
@@ -172,13 +227,19 @@ function buildArticleHtml(newsItem, lang) {
   gtag('config', 'G-YESCHJX46K');
 </script>
 <link rel="icon" type="image/png" href="https://www.koricare.kr/link/koricare_main_logo_nobg.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #f8fafc; --card: #ffffff; --ink: #0f172a; --sub: #64748b; --navy: #002366; --line: #e2e8f0; }
+  :root { --bg: #f5f5f7; --card: #ffffff; --tint: #f1f5f9; --ink: #1d1d1f; --sub: #6e6e73; --navy: #002366; --line: #e2e8f0; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--ink); font-family: "Inter", "Noto Sans Thai", system-ui, sans-serif; font-size: 16px; line-height: 1.8; padding-bottom: 48px; }
+  /* 각 기기의 기본 서체를 쓴다. 웹폰트를 받지 않으므로 첫 화면이 바로 그려지고,
+     태국어·베트남어 글자도 세 OS 모두 기본 서체가 있어 깨지지 않는다. */
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+                 Roboto, "Noto Sans", "Noto Sans Thai", "Leelawadee UI", Arial, sans-serif;
+    font-size: 16px; line-height: 1.7; letter-spacing: -0.003em;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 48px;
+  }
   .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
   a { text-decoration: none; color: inherit; }
   header { background: var(--navy); color: #fff; padding: 14px 0; box-shadow: 0 4px 20px rgba(0,35,102,0.15); }
@@ -186,12 +247,48 @@ function buildArticleHtml(newsItem, lang) {
   .logo-img { width: 34px; height: 34px; object-fit: contain; }
   .logo-text b { font-size: 18px; font-weight: 900; }
   .logo-text span { font-size: 9.5px; opacity: 0.85; text-transform: uppercase; font-weight: 700; }
-  .post-card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px 28px; margin-top: 24px; box-shadow: 0 10px 30px rgba(15,23,42,0.05); }
-  .date-bar { font-size: 13px; color: var(--sub); font-weight: 600; margin-bottom: 12px; }
-  h1 { font-size: 22px; font-weight: 900; color: var(--navy); line-height: 1.45; margin-bottom: 12px; }
-  .article-content { font-size: 16px; color: #334155; line-height: 1.8; margin-top: 18px; }
-  .src-link-subtle { display: inline-flex; align-items: center; gap: 4px; margin-top: 16px; font-size: 12px; color: #94a3b8; font-weight: 500; text-decoration: underline; }
-  .back-btn-minimal { display: flex; align-items: center; justify-content: center; font-size: 13.5px; font-weight: 700; color: #475569; background: #ffffff; border: 1px solid var(--line); padding: 12px; border-radius: 14px; margin-top: 20px; transition: all 0.2s; }
+  .post-card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 28px 24px; margin-top: 24px; box-shadow: 0 6px 20px rgba(15,23,42,0.04); }
+  .date-bar { font-size: 13px; color: var(--sub); font-weight: 500; margin-bottom: 10px; }
+  h1 { font-size: 23px; font-weight: 700; letter-spacing: -0.02em; color: var(--navy); line-height: 1.35; margin-bottom: 12px; }
+
+  /* 요약 — 이 페이지에서 사람이 실제로 읽는 부분이다.
+     모델이 돌려준 마크다운을 목록으로 그려서 별표가 그대로 보이지 않게 한다. */
+  .summary { margin-top: 22px; padding: 18px 20px; background: var(--tint); border-radius: 14px; }
+  .summary-label {
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--sub); margin-bottom: 10px;
+  }
+  .summary p { font-size: 15.5px; line-height: 1.7; color: #1e293b; margin-bottom: 10px; }
+  .summary p:last-child { margin-bottom: 0; }
+  .summary .sum-list { margin: 0 0 4px; padding-left: 20px; }
+  .summary .sum-list li { font-size: 15.5px; line-height: 1.65; color: #1e293b; margin-bottom: 9px; }
+  .summary .sum-list li:last-child { margin-bottom: 0; }
+  .summary .sum-list li::marker { color: #94a3b8; }
+  .summary strong { font-weight: 650; color: var(--navy); }
+
+  .src-link { display: inline-block; margin-top: 18px; font-size: 13px; color: #64748b; text-decoration: underline; text-underline-offset: 3px; }
+  .src-link:hover { color: var(--navy); }
+
+  /* 상담 안내 — 글씨를 굵게 하고 화살표를 붙일수록 광고처럼 보인다.
+     한 번 읽고 지나가도 되는 자리라 담담하게 둔다. */
+  .cta { margin: 28px 0 4px; padding: 20px; border-radius: 16px; background: var(--navy); text-align: center; }
+  .cta-text { font-size: 13.5px; line-height: 1.55; color: #c7d6f0; margin-bottom: 14px; }
+  .cta-btn {
+    display: inline-block; padding: 10px 20px; border-radius: 999px;
+    background: #ffffff; color: var(--navy);
+    font-size: 13.5px; font-weight: 600; letter-spacing: -0.01em;
+    transition: background .15s ease;
+  }
+  .cta-btn:hover { background: #eef2fb; }
+
+  .back-btn-minimal { display: flex; align-items: center; justify-content: center; font-size: 13.5px; font-weight: 600; color: #475569; background: #ffffff; border: 1px solid var(--line); padding: 13px; border-radius: 999px; margin-top: 20px; transition: all 0.2s; }
+  .back-btn-minimal:hover { color: var(--navy); border-color: #c7d7f5; }
+
+  @media (max-width: 600px) {
+    .post-card { padding: 22px 18px; border-radius: 16px; }
+    h1 { font-size: 20.5px; }
+    .summary { padding: 16px; }
+  }
 </style>
 </head>
 <body>
@@ -213,19 +310,17 @@ function buildArticleHtml(newsItem, lang) {
     <h1>${escapeHtml(newsItem.title)}</h1>
     <hr style="border:none; border-top:1px solid #e2e8f0; margin:14px 0 20px;">
     ${heroImgTag}
-    <div class="article-content">
-      <div style="margin-bottom:16px; font-size:15.5px; line-height:1.8; color:#1e293b; font-weight:500;">
-        ${newsItem.desc ? escapeHtml(newsItem.desc).replace(/\n/g, '<br>') : escapeHtml(newsItem.title)}
-      </div>
-      <a href="${safeUrl(newsItem.link)}" class="src-link-subtle" target="_blank" rel="noopener" style="font-weight:bold; color:#2563eb; margin-top:12px; display:inline-block;">🔗 Read Full Article on Original Source ➔</a>
-    </div>
+    <section class="summary">
+      <h2 class="summary-label">${escapeHtml(t.summary)}</h2>
+      ${renderSummary(newsItem.desc, newsItem.title)}
+    </section>
 
-    ${engSummarySection}
+    <a href="${safeUrl(newsItem.link)}" class="src-link" target="_blank" rel="nofollow noopener">${escapeHtml(t.source)}</a>
 
     ${bannerHtml}
   </article>
 
-  <a href="${backHref}" class="back-btn-minimal">Back to Main Portal</a>
+  <a href="${backHref}" class="back-btn-minimal">${escapeHtml(t.back)}</a>
 </main>
 </body>
 </html>`;
@@ -266,10 +361,21 @@ function injectGridCardsToIndex(indexPath, newsList, langPrefix) {
   }
 }
 
+// 한 번 돌 때 언어별로 요약할 최대 건수.
+//
+// 예전에는 상한이 없었다. 영어를 먼저 다 돌리다 하루 할당량을 태우고,
+// 태국어·베트남어 차례에는 남은 것이 없어 요약이 통째로 실패했다.
+// 실측: 영어 174건 중 21건(12%), 태국어 642건 중 3건, 베트남어 1,203건 중 4건.
+// 나머지는 RSS 원문 한 줄이 그대로 화면에 나갔다.
+// 언어마다 몫을 정해 두면 세 언어가 고르게 요약된다.
+const SUMMARY_LIMIT_PER_LANG = 12;
+
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
+  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
+    let summarizedThisLang = 0;
     let combinedItems = [];
     for (const feedUrl of RSS_FEEDS[lang]) {
       const xml = await fetchUrl(feedUrl);
@@ -304,7 +410,9 @@ async function runPipeline() {
       if (!existingList.find(x => x.link === item.link)) {
         
         let fullText = item.desc;
-        if (process.env.GEMINI_API_KEY) {
+        if (process.env.GEMINI_API_KEY && summarizedThisLang >= SUMMARY_LIMIT_PER_LANG) {
+          summarizeSkipped++;
+        } else if (process.env.GEMINI_API_KEY) {
           try {
             const htmlContent = await fetchUrl(item.link);
             // script·style 을 먼저 걷어낸다. 이걸 안 하면 태국 thairath 처럼
@@ -325,16 +433,29 @@ async function runPipeline() {
             }
             
             const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-            const prompt = `Summarize the following news article into 3 clear, easy-to-understand bullet points. Keep it concise but informative. Do not use complex vocabulary. Write the summary in ${lang === 'en' ? 'English' : (lang === 'vi' ? 'Vietnamese' : 'Thai')}.\n\nText:\n${fullText}`;
+            const langName = lang === 'en' ? 'English' : (lang === 'vi' ? 'Vietnamese' : 'Thai');
+            // 인사말을 쓰지 말라고 못 박는다. 예전 프롬프트로는
+            // "Here is a 3-bullet point summary of the news:" 가 본문에 그대로 실렸다.
+            const prompt =
+              `Summarize the news article below in exactly 3 bullet points, in ${langName}.\n\n` +
+              `Rules:\n` +
+              `- Output ONLY the 3 bullets. No preamble, no heading, no closing remark.\n` +
+              `- Start each line with "- ".\n` +
+              `- One fact per bullet. Plain words. 1 to 2 sentences each.\n` +
+              `- Do not invent anything that is not in the text.\n\n` +
+              `Article:\n${fullText}`;
             const response = await ai.models.generateContent({
               model: 'gemini-3.6-flash',
               contents: prompt,
             });
             if (response.text) {
-              item.desc = response.text;
+              item.desc = stripPreamble(response.text);
+              summarized++;
+              summarizedThisLang++;
             }
           } catch (e) {
-            console.error("AI Summarize error for item " + item.title, e);
+            summarizeFailed++;
+            console.error('[요약 실패] ' + item.title + ' — ' + (e && e.message ? e.message : e));
           }
         }
 
@@ -365,6 +486,14 @@ async function runPipeline() {
   }
 
   console.log('🎉 3대 언론사 교차 파싱 완료!');
+  console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
+
+  // 전건 실패일 때만 작업을 실패로 표시한다.
+  // 한 건 실패마다 멈추면 기사 하나 때문에 갱신 전체가 안 올라간다.
+  if (process.env.GEMINI_API_KEY && summarized === 0 && summarizeFailed > 0) {
+    console.error('요약이 한 건도 되지 않았다. API 키·모델명·할당량을 확인할 것.');
+    process.exit(1);
+  }
 }
 
 runPipeline();
