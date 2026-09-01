@@ -1,21 +1,17 @@
-// 인천 북부 보충 수집.
+// 격자 밖으로 빠진 구역을 보충 수집한다.
 //
-// fetch_nationwide.js 의 인천 격자는 maxY 가 37.58 이다.
-//   검단신도시  37.58 ~ 37.65
-//   강화군      37.60 ~ 37.80
-// 두 곳 모두 격자 밖이라 처음부터 수집 대상이 아니었다.
-// 그래서 검단구가 21건, 강화군은 폴더조차 없다.
+// fetch_nationwide.js 의 시도별 사각형이 손으로 적은 값이라, 뒤에 편입되거나
+// 새로 생긴 지역이 사각형 밖에 놓이면 처음부터 수집 대상이 아니게 된다.
+//   인천  maxY 37.58   → 검단신도시(37.6~)·강화군(37.6~37.8) 밖
+//   대구  maxY 36.01   → 군위군(36.2~36.3) 밖   2023년 경북에서 편입
 //
-// 여기서는 빠진 띠(위도 37.55~37.82)만 걷는다.
+// 원본 수집기에 res.setEncoding('utf8') 이 없어 한글이 청크 경계에서
+// 깨지던 문제도 여기서는 고쳐져 있다.
 //
-// 원본 수집기의 결함 하나를 같이 고쳤다.
-//   res.on('data', d => data += d)   ← setEncoding 이 없다
-// 한글 한 글자가 청크 경계에 걸리면 조각난 바이트가 문자열로 붙어 깨진다.
-// 주소가 깨진 671건의 원인이다. 여기서는 res.setEncoding('utf8') 을 쓴다.
+// 결과는 data/split_new/<시도>/ 에 표준 스키마로 쓴다. 병합은 merge_split_new.js.
 //
-// 결과는 data/split_new/incheon/ 에 표준 스키마로 쓴다. 병합은 따로 한다.
-//
-//   node fetch_incheon_north.js
+//   node fetch_area.js incheon 126.10 37.55 126.80 37.82
+//   node fetch_area.js daegu   128.30 35.95 128.95 36.35
 
 const https = require('https');
 const fs = require('fs');
@@ -27,7 +23,23 @@ const KEY = (env.match(/KAKAO_REST_KEY=([a-zA-Z0-9]+)/) || [])[1];
 if (!KEY) { console.error('.env 에 KAKAO_REST_KEY 가 없다'); process.exit(1); }
 
 // 빠진 띠. 서쪽은 강화도 서단, 동쪽은 김포 경계 직전까지.
-const AREA = { minX: 126.10, minY: 37.55, maxX: 126.80, maxY: 37.82 };
+const [REGION, minX, minY, maxX, maxY] = process.argv.slice(2);
+if (!REGION || [minX, minY, maxX, maxY].some(v => isNaN(parseFloat(v)))) {
+  console.error('사용법: node fetch_area.js <시도id> <minX> <minY> <maxX> <maxY>');
+  process.exit(1);
+}
+const AREA = { minX: +minX, minY: +minY, maxX: +maxX, maxY: +maxY };
+
+// 그 시도의 주소가 어떤 말로 시작하는지 (인천 / 대구 / 충청북도·충북 …)
+const PREFIX = {
+  seoul: ['서울'], busan: ['부산'], daegu: ['대구'], incheon: ['인천'],
+  daejeon: ['대전'], ulsan: ['울산'], sejong: ['세종'], gyeonggi: ['경기'],
+  gangwon: ['강원'], chungbuk: ['충청북도', '충북'], chungnam: ['충청남도', '충남'],
+  jeonbuk: ['전라북도', '전북'], gyeongbuk: ['경상북도', '경북'],
+  gyeongnam: ['경상남도', '경남'], jeju: ['제주'],
+  jeonnam_gwangju: ['전남', '전라남도', '광주']
+}[REGION];
+if (!PREFIX) { console.error('모르는 시도: ' + REGION); process.exit(1); }
 
 const CATEGORIES = [
   { code: 'HP8', name: 'hospital' },
@@ -109,7 +121,7 @@ function districtOf(address) {
 function add(doc, category) {
   if (places.has(doc.id)) return;
   const address = doc.road_address_name || doc.address_name || '';
-  if (!address.startsWith('인천')) return;          // 김포·서울이 섞이지 않게
+  if (!PREFIX.some(p => address.startsWith(p))) return;   // 이웃 시도가 섞이지 않게
   const name = doc.place_name || '';
   if (!name) return;
   if (/구두병원|동물병원|가방병원/.test(name)) return;
@@ -140,7 +152,7 @@ function add(doc, category) {
 }
 
 function save() {
-  const OUT = path.join(__dirname, 'data', 'split_new', 'incheon');
+  const OUT = path.join(__dirname, 'data', 'split_new', REGION);
   fs.mkdirSync(OUT, { recursive: true });
 
   const bucket = {};
@@ -152,8 +164,8 @@ function save() {
 
   // 폴더명은 라이브와 같은 슬러그를 쓴다
   const slugmap = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'split', '_slugmap.json'), 'utf8'));
-  const known = slugmap.incheon || {};
-  const EXTRA = { '강화군': 'ganghwa-gun' };
+  const known = slugmap[REGION] || {};
+  const EXTRA = { '강화군': 'ganghwa-gun', '군위군': 'gunwi-gun' };
 
   let files = 0, total = 0;
   console.log('\n행정구별 결과');
@@ -164,20 +176,20 @@ function save() {
     for (const [cat, list] of Object.entries(cats)) {
       fs.mkdirSync(path.join(OUT, slug), { recursive: true });
       fs.writeFileSync(path.join(OUT, slug, cat + '.json'),
-        JSON.stringify({ region_id: 'incheon', district: ko, category: cat,
+        JSON.stringify({ region_id: REGION, district: ko, category: cat,
                          places_count: list.length, places: list }), 'utf8');
       files++; n += list.length;
     }
     total += n;
     console.log('  ' + ko.padEnd(10) + String(n).padStart(6) + '건  ' + Object.keys(cats).sort().join(','));
   }
-  console.log('파일 ' + files + '개 · ' + total.toLocaleString() + '건 → data/split_new/incheon/');
+  console.log('파일 ' + files + '개 · ' + total.toLocaleString() + '건 → data/split_new/' + REGION + '/');
   console.log('API 호출 ' + calls + '회');
 }
 
 (async () => {
-  console.log('인천 북부 보충 수집 — 위도 ' + AREA.minY + ' ~ ' + AREA.maxY);
-  console.log('(기존 격자는 37.58 에서 끊겨 검단·강화가 빠져 있었다)\n');
+  console.log(REGION + ' 보충 수집');
+  console.log('  경도 ' + AREA.minX + ' ~ ' + AREA.maxX + '  /  위도 ' + AREA.minY + ' ~ ' + AREA.maxY + '\n');
 
   for (const c of CATEGORIES) {
     const before = places.size;

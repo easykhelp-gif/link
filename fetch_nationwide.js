@@ -11,16 +11,19 @@ if (!match) {
 const KAKAO_KEY = match[1];
 
 const REGIONS = [
-  { id: 'gyeonggi', prefixes: ['경기'], minX: 126.54, minY: 36.89, maxX: 127.84, maxY: 38.29 },
+  { id: 'gyeonggi', prefixes: ['경기'], minX: 126.40, minY: 36.85, maxX: 127.90, maxY: 38.32 },
   // 2026-09-01: maxY 를 37.58 → 37.82 로 넓혔다.
   // 검단신도시(37.58~37.65)와 강화군(37.60~37.80)이 격자 밖이라
   // 처음부터 수집 대상이 아니었다. 검단구 21건, 강화군 0건이었던 원인이다.
   { id: 'incheon', prefixes: ['인천'], minX: 126.10, minY: 37.01, maxX: 126.80, maxY: 37.82 },
   { id: 'busan', prefixes: ['부산'], minX: 128.73, minY: 34.87, maxX: 129.31, maxY: 35.39 },
-  { id: 'daegu', prefixes: ['대구'], minX: 128.35, minY: 35.59, maxX: 128.87, maxY: 36.01 },
+  // 2026-09-01: maxY 를 36.01 → 36.40 으로 넓혔다.
+  // 군위군(36.20~36.30)이 2023-07-01 경북에서 대구로 편입됐는데
+  // 격자는 그대로여서 한 건도 수집되지 않았다.
+  { id: 'daegu', prefixes: ['대구'], minX: 128.30, minY: 35.59, maxX: 128.95, maxY: 36.40 },
   { id: 'gwangju', prefixes: ['광주'], minX: 126.65, minY: 35.07, maxX: 127.02, maxY: 35.26 },
-  { id: 'daejeon', prefixes: ['대전'], minX: 127.26, minY: 36.22, maxX: 127.47, maxY: 36.48 },
-  { id: 'ulsan', prefixes: ['울산'], minX: 128.98, minY: 35.33, maxX: 129.46, maxY: 35.65 },
+  { id: 'daejeon', prefixes: ['대전'], minX: 127.20, minY: 36.14, maxX: 127.56, maxY: 36.52 },
+  { id: 'ulsan', prefixes: ['울산'], minX: 128.95, minY: 35.33, maxX: 129.50, maxY: 35.78 },
   { id: 'sejong', prefixes: ['세종'], minX: 127.15, minY: 36.43, maxX: 127.42, maxY: 36.73 },
   { id: 'gangwon', prefixes: ['강원'], minX: 127.08, minY: 37.04, maxX: 129.35, maxY: 38.61 },
   { id: 'chungbuk', prefixes: ['충청북도', '충북'], minX: 127.27, minY: 36.01, maxX: 128.63, maxY: 37.25 },
