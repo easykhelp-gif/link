@@ -294,8 +294,21 @@ for (const [name, region, slug, hint] of ALIASES) {
   aliases.push([name, di, hint || null]);
 }
 
+// v 는 판번호이자 캐시 깨는 열쇠다.
+//
+// place_search.js 는 4시간(max-age=14400) 캐시된다. 그대로 두면 사전이나
+// 검색 코드를 고쳐도 다시 온 사람은 옛 파일을 계속 쓴다. 실제로 그렇게 됐다.
+// 화면이 스크립트를 부를 때 ?v=<이 값> 을 붙이므로, 사전을 다시 만들면
+// 주소가 달라져 새로 받는다.
+//
+// ★ place_search.js 를 고쳤으면 이 스크립트를 다시 돌려라. 안 그러면 안 퍼진다.
+const stamp = (function () {
+  const d = new Date(), p = (n) => String(n).padStart(2, '0');
+  return d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate()) + p(d.getHours()) + p(d.getMinutes());
+})();
+
 const dict = {
-  v: 1,
+  v: stamp,
   note: '장소 검색용 낱말 사전. build_search_dict.js 가 만든다.',
   r: REGIONS.map(([slug, ko, en, th, vi]) => [slug, ko, en, th, vi, REGION_ALIAS[slug] || []]),
   d: districts,

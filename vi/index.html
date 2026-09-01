@@ -884,22 +884,26 @@
 
   function loadSearchDict() {
     if (PLACE_DICT) return Promise.resolve(PLACE_DICT);
-    // dataBase() 는 페이지 위치에 따라 "data/split/" · "link/data/split/" · "../data/split/"
-    // 셋 중 하나다. 여기서 파생시키면 세 언어 모두 맞는다.
     var root = dataBase().replace(/data\/split\/$/, '');
-    return Promise.all([
-      fetch(root + 'data/search_dict.json').then(function (r) { return r.json(); }),
-      (window.PlaceSearch ? Promise.resolve() : new Promise(function (ok, no) {
-        var s = document.createElement('script');
-        s.src = root + 'lib/place_search.js';
-        s.onload = ok; s.onerror = no;
-        document.head.appendChild(s);
-      }))
-    ]).then(function (r) {
-      PLACE_DICT = r[0];
-      PLACE_SEARCH = window.PlaceSearch.createSearch(PLACE_DICT, function () { return null; });
-      return PLACE_DICT;
-    });
+    // 사전을 먼저, 캐시를 다시 확인하며 받는다. 바뀐 게 없으면 304 라 거의 공짜다.
+    // 그 안의 v(판번호)를 스크립트 주소에 붙인다 — place_search.js 는 4시간
+    // 캐시되므로 주소를 바꿔 주지 않으면 고쳐도 다시 온 사람에게 안 퍼진다.
+    return fetch(root + 'data/search_dict.json', { cache: 'no-cache' })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        PLACE_DICT = d;
+        if (window.PlaceSearch) return;
+        return new Promise(function (ok, no) {
+          var s = document.createElement('script');
+          s.src = root + 'lib/place_search.js?v=' + (d.v || '1');
+          s.onload = ok; s.onerror = no;
+          document.head.appendChild(s);
+        });
+      })
+      .then(function () {
+        PLACE_SEARCH = window.PlaceSearch.createSearch(PLACE_DICT, function () { return null; });
+        return PLACE_DICT;
+      });
   }
 
   function runPlaceSearch(query) {
