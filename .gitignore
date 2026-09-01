@@ -20,3 +20,20 @@ data/split_broken_backup_*/
 *_교차검증_*.md
 *_회의_*.md
 *→*.md
+
+# 작업 폴더 — 배포하지 않는다 (2026-09-01)
+#
+# GitHub Pages 는 저장소의 모든 파일을 그대로 서빙한다.
+# 확인해 보니 아래 두 곳이 라이브에 열려 있었다.
+#
+#   /link/templates/guide_template.html   200 · index 허용
+#     {{TITLE}} {{CONTENT}} 같은 치환 전 자리표가 그대로 보이는 페이지다.
+#     구글이 크롤하면 빈 껍데기 페이지로 본다.
+#
+#   /link/scratch/75_index.html 외 9개        200 · robots 지시 없음
+#     8월 작업 중 남은 옛 포털 사본들이다. 중복 콘텐츠로 잡힐 수 있다.
+#
+# 빌드는 로컬 파일을 읽으므로 배포에서 빼도 가이드 생성에 영향이 없다.
+# templates/ 는 build_guides.js 가 읽으므로 저장소에 남긴다.
+# 대신 robots.txt 로 크롤을 막는다.
+scratch/
