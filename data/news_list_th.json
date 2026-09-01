@@ -1,11 +1,43 @@
 [
   {
+    "id": "hotnews_th_be920018",
+    "date": "2026-09-01",
+    "ts": 1788271640000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2022/07/25/PYH2022072505540001300_P2.jpg",
+    "title": "แต่งตั้ง ผบ.ตำรวจคย็องนัม ขึ้นเป็นรักษาการ ผบ.ตร. เกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20260901012800315"
+  },
+  {
+    "id": "hotnews_th_74a1a211",
+    "date": "2026-09-01",
+    "ts": 1788251151000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/01/rcv.YNA.20260901.PYH2026090107780001300_T1.jpg",
+    "title": "ตำรวจปฏิเสธเปลี่ยนท่าที คดีหญิงเสียชีวิตบนเกาะเชจู",
+    "link": "https://www.koreaherald.com/article/10859241"
+  },
+  {
     "id": "hotnews_th_bb5cf9ba",
     "date": "2026-09-01",
     "ts": 1788251064000,
     "image": "https://www.matichon.co.th/wp-content/uploads/2026/08/01-%E0%B8%9B%E0%B8%81.jpg",
     "title": "เปิดใจ ‘อ.ยิ่งศักดิ์’ กับภารกิจใหม่ที่ไม่เคยอยู่ในแผนชีวิต ที่ ‘สถานีประชาชน’",
     "link": "https://www.matichon.co.th/bullet-news-today/news_5866574"
+  },
+  {
+    "id": "hotnews_th_a275f048",
+    "date": "2026-09-01",
+    "ts": 1788247933000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090117650001300_P2.jpg",
+    "title": "หุ้นเกาหลีใต้ปิดบวก 2 วันติด รับแรงหนุนจากหุ้นเทคโนโลยี",
+    "link": "https://en.yna.co.kr/view/AEN20260901008352320"
+  },
+  {
+    "id": "hotnews_th_e323cf9d",
+    "date": "2026-09-01",
+    "ts": 1788246059000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260804084120_91_k.jpg",
+    "title": "รัฐบาลยกเลิกแผนลดหย่อนภาษีเจ้าของบ้านหลังเดียวที่อยู่นอกประเทศ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203970"
   },
   {
     "id": "hotnews_th_3b699b5d",
@@ -366,37 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULq9y4lZJKECI.jpg",
     "title": "สว.แฉพิรุธ คอนโด-อาคารสูงทั่วกรุงกว่า 100 แห่ง ส่อผิดกฎหมายควบคุมอาคาร จี้ มหาดไทย-กทม. คุมเข้ม",
     "link": "https://www.thairath.co.th/news/politic/2956705"
-  },
-  {
-    "id": "hotnews_th_073095e3",
-    "date": "2026-09-01",
-    "ts": 1788240011000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/16-9-Red-45.jpg",
-    "title": "บันเทิงตปท. นับถอยหลัง The Love Hypothesis สมมติฐานแห่งความรัก",
-    "link": "https://www.khaosod.co.th/entertainment/news_10381109"
-  },
-  {
-    "id": "hotnews_th_04528128",
-    "date": "2026-09-01",
-    "ts": 1788239691000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/export.jpg",
-    "title": "ศุภจี ลุยแก้ขาดดุล 1.2 ล้านล้าน ดึงต่างชาติใช้ของไทย-ปั้น SME เข้าซัพพลายเชน",
-    "link": "https://www.khaosod.co.th/economics/news_10382250"
-  },
-  {
-    "id": "hotnews_th_be8d4354",
-    "date": "2026-09-01",
-    "ts": 1788239523000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/b.jpg",
-    "title": "ครม.สัญจร ติดตามระบบบริหารจัดการ-ป้องกันน้ำท่วมหาดใหญ่",
-    "link": "https://www.khaosod.co.th/uncategorized/news_10382214"
-  },
-  {
-    "id": "hotnews_th_5cac8087",
-    "date": "2026-09-01",
-    "ts": 1788239067000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/news98058_6z5iW3Nzi21766627191-728x410-1.jpg",
-    "title": "Pattaya to bar US Navy personnel from Soi 6, cannabis shops",
-    "link": "https://www.khaosodenglish.com/news/2026/09/01/pattaya-to-bar-us-navy-personnel-from-soi-6-cannabis-shops/"
   }
 ]
