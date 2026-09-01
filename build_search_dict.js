@@ -171,6 +171,48 @@ const SUBTYPES = {
   '휴대폰판매':    { cat: 'mobile', en: ['phone shop', 'mobile shop'], th: ['ร้านมือถือ'], vi: ['cửa hàng điện thoại'] },
 };
 
+// ── 사람들이 실제로 부르는 지역 이름.
+//
+// "부산 광안리 미용실" 로 찾는 사람이 있는데 광안리는 행정 구역이 아니라
+// 주소에도 안 들어간다. 이런 별칭을 구에 이어 준다.
+//
+// hint 가 있으면 그 구 안에서 주소에 그 말이 든 것만 고른다.
+// hint 가 없으면 구까지만 좁힌다 — 주소에 그 말이 안 나오는 별칭이다.
+//
+// 2026-09-02 주소 실측으로 확인한 것에 [실측] 을 달았다. 나머지는 위치가
+// 분명한 곳이다 (홍대=홍익대 마포구 상수동, 건대=건국대 광진구 화양동 등).
+const ALIASES = [
+  // 부산
+  ['광안리',   'busan', 'suyeong-gu',      '광안'],    // [실측] 수영구 103건, 다른 구 0
+  ['광안',     'busan', 'suyeong-gu',      '광안'],    // [실측]
+  ['센텀시티', 'busan', 'haeundae-gu',     '센텀'],    // [실측] 해운대구 190건, 다른 구 0
+  ['센텀',     'busan', 'haeundae-gu',     '센텀'],    // [실측]
+  ['서면',     'busan', 'busanjin-gu',     null],      // 부산 서면은 부산진구. 서면은 다른 시도에도 흔해 hint 를 안 건다
+  ['남포동',   'busan', 'jung-gu',         '남포'],    // [실측] 중구 19건
+  ['자갈치',   'busan', 'jung-gu',         '자갈치'],  // [실측] 중구 16건
+  ['태종대',   'busan', 'yeongdo-gu',      null],
+  // 서울
+  ['홍대',     'seoul', 'mapo-gu',         null],      // 홍익대 서울캠퍼스 = 마포구
+  ['강남역',   'seoul', 'gangnam-gu',      null],
+  ['압구정',   'seoul', 'gangnam-gu',      '압구정'],  // [실측] 강남구 338건, 다른 구 0
+  ['가로수길', 'seoul', 'gangnam-gu',      '가로수길'],// [실측] 강남구 15건, 다른 구 0
+  ['이태원',   'seoul', 'yongsan-gu',      '이태원'],  // [실측] 용산구 74건, 다른 구 0
+  ['명동',     'seoul', 'jung-gu',         '명동'],    // [실측] 중구 138건 (다음이 9건)
+  ['신촌',     'seoul', 'seodaemun-gu',    null],      // 서대문구 169 / 마포구 161 로 갈린다. 구까지만
+  ['건대',     'seoul', 'gwangjin-gu',     null],      // 건국대 서울캠퍼스 = 광진구
+  ['잠실',     'seoul', 'songpa-gu',       null],
+  ['여의도',   'seoul', 'yeongdeungpo-gu', null],
+  ['성수',     'seoul', 'seongdong-gu',    '성수'],    // [실측] 성동구 96건
+  // 인천
+  ['송도',     'incheon', 'yeonsu-gu',     '송도'],    // [실측] 연수구 165건
+  ['차이나타운','incheon','jemulpo-gu',     null],      // [실측] 제물포구 6건
+  // 대구
+  ['동성로',   'daegu', 'jung-gu',         '동성로'],  // [실측] 대구 중구 132건
+  // 경기
+  ['판교',     'gyeonggi', 'seongnam-si',  '판교'],    // [실측] 성남시 351건
+  ['일산',     'gyeonggi', 'goyang-si',    '일산'],    // [실측] 고양시 2,633건
+];
+
 // ── 데이터에서 구/군과 동을 뽑는다
 const slugmap = JSON.parse(fs.readFileSync(path.join(ROOT, '_slugmap.json'), 'utf8'));
 const regionIdx = {};
@@ -243,12 +285,22 @@ const dongs = [...dongMap.entries()]
   .sort((a, b) => a[0].localeCompare(b[0]))
   .map(([ko, set]) => [ko, rr(ko), [...set].sort((a, b) => a - b)]);
 
+// 별칭을 실제 구에 이어 붙인다. 구가 없으면 버린다 — 짐작으로 남겨 두지 않는다.
+const aliases = [];
+const aliasDropped = [];
+for (const [name, region, slug, hint] of ALIASES) {
+  const di = distIdx[region + '/' + slug];
+  if (di === undefined) { aliasDropped.push(name + ' (' + region + '/' + slug + ')'); continue; }
+  aliases.push([name, di, hint || null]);
+}
+
 const dict = {
   v: 1,
   note: '장소 검색용 낱말 사전. build_search_dict.js 가 만든다.',
   r: REGIONS.map(([slug, ko, en, th, vi]) => [slug, ko, en, th, vi, REGION_ALIAS[slug] || []]),
   d: districts,
   n: dongs,
+  a: aliases,
   c: CATEGORIES,
   s: SUBTYPES,
 };
@@ -260,6 +312,7 @@ console.log('사전을 만들었다 → data/search_dict.json  ' + kb + 'KB');
 console.log('  시도      ' + dict.r.length);
 console.log('  구/군     ' + dict.d.length);
 console.log('  주소 낱말   ' + dict.n.length);
+console.log('  지역 별칭  ' + dict.a.length + (aliasDropped.length ? '  (버림: ' + aliasDropped.join(', ') + ')' : ''));
 console.log('  업태      ' + Object.keys(dict.c).length);
 console.log('  세부 업태  ' + Object.keys(dict.s).length);
 console.log('');
