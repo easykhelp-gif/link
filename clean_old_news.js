@@ -48,8 +48,37 @@ function loadProtectedIds() {
   return keep;
 }
 
+// 저장소 안의 어떤 HTML 에서도 걸리지 않는 뉴스 파일을 찾는다.
+//
+// 예전에는 RSS 로 들어온 것을 전부 HTML 로 만들었는데 목록은 50건만 쓴다.
+// 실측 2026-09-01: 2,326장 중 2,176장(94%)이 아무 데서도 갈 수 없는 파일이었고
+// 14.4MB 를 차지하고 있었다. 날짜만 보는 정리로는 3일 동안 그대로 쌓인다.
+//
+// 만드는 쪽(auto_fetch_news.js)은 이제 목록에 들 것만 만든다.
+// 여기서는 이미 쌓인 것과, 앞으로 목록에서 밀려나는 것을 걷어낸다.
+//
+// 태국어 핫뉴스 top3 처럼 news_list 에 없고 index.html 에 직접 박힌 것도 있으므로,
+// 이미지 정리와 같은 방식으로 저장소 전체 HTML 을 훑어 참조를 모은다.
+function loadReferencedFiles() {
+  const ref = new Set();
+  const SKIP = new Set(['node_modules', '.git', '.github', 'news']);
+  (function walk(dir) {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (e.isDirectory()) {
+        if (SKIP.has(e.name)) continue;
+        walk(path.join(dir, e.name));
+      } else if (e.name.endsWith('.html')) {
+        const html = fs.readFileSync(path.join(dir, e.name), 'utf-8');
+        for (const m of html.matchAll(/news\/(hotnews_[A-Za-z0-9_]+)\.html/g)) ref.add(m[1] + '.html');
+      }
+    }
+  })(BASE_DIR);
+  return ref;
+}
+
 const protectedIds = loadProtectedIds();
-let deleted = 0, kept = 0, undated = 0, guarded = 0;
+const referencedFiles = loadReferencedFiles();
+let deleted = 0, kept = 0, undated = 0, guarded = 0, orphanDeleted = 0;
 
 for (const file of fs.readdirSync(NEWS_DIR)) {
   if (!file.endsWith('.html')) continue;
@@ -57,6 +86,14 @@ for (const file of fs.readdirSync(NEWS_DIR)) {
   if (!fs.statSync(filePath).isFile()) continue;
 
   if (protectedIds.has(file)) { guarded++; kept++; continue; }
+
+  // 목록에도 없고 어떤 페이지에서도 걸리지 않으면 나이와 상관없이 지운다.
+  // 사람이 갈 수 없는 파일을 3일 동안 들고 있을 이유가 없다.
+  if (!referencedFiles.has(file)) {
+    try { fs.unlinkSync(filePath); orphanDeleted++; deleted++; }
+    catch (e) { console.error('고아 파일 삭제 실패 ' + file + ':', e.message); }
+    continue;
+  }
 
   const published = extractDate(fs.readFileSync(filePath, 'utf-8'));
   if (published === null || isNaN(published)) { undated++; kept++; continue; }
@@ -99,6 +136,7 @@ if (fs.existsSync(IMAGES_DIR)) {
 }
 
 console.log('보존 기간: ' + MAX_AGE_DAYS + '일');
+console.log('어디서도 걸리지 않아 지운 것: ' + orphanDeleted + '장');
 console.log('  뉴스 삭제 : ' + deleted + '개');
 console.log('  뉴스 보존 : ' + kept + '개  (인덱스 링크 보호 ' + guarded + ', 날짜 못 읽음 ' + undated + ')');
 console.log('  이미지 삭제: ' + imgDeleted + '개 / 보존 ' + imgKept + '개');

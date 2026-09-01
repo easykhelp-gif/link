@@ -479,7 +479,7 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
-  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0;
+  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -506,15 +506,35 @@ async function runPipeline() {
       try { existingList = JSON.parse(fs.readFileSync(dataPath, 'utf-8')); } catch(e){}
     }
 
-    const newItemsList = uniqueItems.map((item) => {
+    const withId = uniqueItems.map((item) => {
       const hash = crypto.createHash('md5').update(item.link || item.title).digest('hex').slice(0,8);
-      const id = `hotnews_${lang}_${hash}`;
-      item.id = id;
+      item.id = `hotnews_${lang}_${hash}`;
       return item;
-    })
-    // 처리 몫이 언어당 10건이므로, 한국 사는 사람에게 걸리는 것부터 쓴다.
-    // 같은 점수면 최신 기사가 먼저다.
-    .sort((a, b) => (topicScore(b) - topicScore(a)) || ((b.ts || 0) - (a.ts || 0)));
+    });
+
+    // 목록에 들어갈 것만 만든다.
+    //
+    // 예전에는 RSS 로 들어온 것을 전부 HTML 로 만들었다. 목록은 50건만
+    // 유지하는데 하루 수백 장이 생기니, 아무 데서도 갈 수 없는 파일이 쌓였다.
+    // 실측 2026-09-01: 2,326장 중 2,176장(94%)이 고아, 14.4MB.
+    // 베트남어는 하루 454장을 만들어 50장만 쓰고 있었다.
+    //
+    // 그래서 먼저 기존 목록과 합쳐 상위 50건을 정한 뒤,
+    // 그 안에 든 새 기사만 요약하고 파일로 만든다.
+    const tsOfItem = (x) => x.ts || Date.parse((x.date || '') + 'T00:00:00Z') || 0;
+    const existingLinks = new Set(existingList.map(x => x.link));
+    const merged = [...existingList, ...withId.filter(x => !existingLinks.has(x.link))]
+      .sort((a, b) => tsOfItem(b) - tsOfItem(a))
+      .slice(0, 50);
+    const willShow = new Set(merged.map(x => x.link));
+
+    const newItemsList = withId
+      .filter(x => !existingLinks.has(x.link) && willShow.has(x.link))
+      // 처리 몫이 언어당 10건이므로, 한국 사는 사람에게 걸리는 것부터 쓴다.
+      // 같은 점수면 최신 기사가 먼저다.
+      .sort((a, b) => (topicScore(b) - topicScore(a)) || ((b.ts || 0) - (a.ts || 0)));
+
+    skippedNotShown += withId.filter(x => !existingLinks.has(x.link) && !willShow.has(x.link)).length;
 
     const needsTranslation = NEEDS_TRANSLATION[lang];
 
@@ -622,6 +642,7 @@ async function runPipeline() {
   console.log('🎉 3대 언론사 교차 파싱 완료!');
   console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
   console.log(`월간 정리용으로 보관 ${archived}건`);
+  if (skippedNotShown) console.log(`목록(50건)에 못 드는 기사 ${skippedNotShown}건은 만들지 않았다`);
   if (notTranslated) {
     console.log(`번역이 안 되어 내보내지 않은 기사 ${notTranslated}건 (다음 회차에 다시 시도한다)`);
   }
