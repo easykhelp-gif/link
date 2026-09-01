@@ -56,8 +56,24 @@ function cleanText(str) {
     //   (URGENT) (LEAD) (2nd LD) (News Focus) (Yonhap Interview) …
     .replace(/^\s*\((?:URGENT|LEAD|\d+(?:st|nd|rd|th)\s+LD|News Focus|Yonhap [^)]+|Newsmaker|Update|Photo|Graphic)\)\s*/i, '')
     .replace(/\uFFFD/g, '')
-    .replace(/\[\.\.\.\]/g, '')
-    .replace(/&#\d+;/g, '')
+    // \uC5D4\uD2F0\uD2F0\uB294 \uAE00\uC790\uB85C \uB418\uB3CC\uB9B0\uB2E4. \uC9C0\uC6CC \uBC84\uB9AC\uBA74 \uC548 \uB41C\uB2E4.
+    // \uC608\uC804\uC5D0\uB294 &#\d+; \uB97C \uD1B5\uC9F8\uB85C \uC9C0\uC6CC\uC11C, \uD0DC\uAD6D \uB9E4\uCCB4\uAC00 \uBCF4\uB0B8 "[&#8230;]" \uC774
+    // \uB300\uAD04\uD638\uB9CC \uB0A8\uC740 "[]" \uAC00 \uB418\uC5B4 \uD654\uBA74\uC5D0 \uADF8\uB300\uB85C \uB098\uAC14\uB2E4.
+    .replace(/&(#\d+|#x[0-9a-fA-F]+|amp|lt|gt|quot|apos|nbsp|hellip|mdash|ndash|lsquo|rsquo|ldquo|rdquo);/g, function (m, e) {
+      var named = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+                    hellip: '\u2026', mdash: '\u2014', ndash: '\u2013',
+                    lsquo: '\u2018', rsquo: '\u2019', ldquo: '\u201C', rdquo: '\u201D' };
+      var k = e.toLowerCase();
+      if (named[k] !== undefined) return named[k];
+      if (k.charAt(0) === '#') {
+        var n = k.charAt(1) === 'x' ? parseInt(k.slice(2), 16) : parseInt(k.slice(1), 10);
+        return isFinite(n) && n > 0 ? String.fromCodePoint(n) : '';
+      }
+      return '';
+    })
+    // \uB9E4\uCCB4\uAC00 \uBCF8\uBB38\uC744 \uC790\uB97C \uB54C \uBD99\uC774\uB294 \uD45C\uC2DC. \uB0A8\uC73C\uBA74 \uBB38\uC7A5\uC774 \uB04A\uAE34 \uAC83\uCC98\uB7FC \uBCF4\uC778\uB2E4.
+    .replace(/\[\s*(?:\.\.\.|\u2026)?\s*\]/g, '')
+    .replace(/(?:\.\.\.|\u2026)\s*$/, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -130,14 +146,24 @@ function parseXmlItems(xmlText) {
     let actualImg = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
 
     if (cleanTitle && cleanLink && cleanTitle.length > 5) {
+      // 매체가 미래 날짜를 주는 일이 있다. 실측: 태국 매체가 2026-09-01 에
+      // 2026-09-03 짜리 기사를 내보냈다.
+      // 정렬이 최신순이라 그런 기사가 목록 맨 앞에 박히고,
+      // 3일 보존은 미래 날짜를 영원히 지우지 못한다.
+      // 오늘보다 뒤면 오늘로 끌어내린다.
+      const now = Date.now();
+      let ts = pubDateMatch && !isNaN(new Date(pubDateMatch[1]).getTime())
+        ? new Date(pubDateMatch[1]).getTime() : now;
+      if (ts > now) ts = now;
+
       items.push({
         title: cleanTitle,
         link: cleanLink,
         desc: cleanDesc,
         image: actualImg,
-        date: pubDateMatch ? new Date(pubDateMatch[1]).toISOString().slice(0, 10) : new Date().toISOString().slice(0, 10),
+        date: new Date(ts).toISOString().slice(0, 10),
         // 정렬용 발행 시각(ms). date는 일 단위라 같은 날 기사 순서를 못 가림.
-        ts: pubDateMatch && !isNaN(new Date(pubDateMatch[1]).getTime()) ? new Date(pubDateMatch[1]).getTime() : Date.now()
+        ts
       });
     }
   }

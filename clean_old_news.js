@@ -78,7 +78,7 @@ function loadReferencedFiles() {
 
 const protectedIds = loadProtectedIds();
 const referencedFiles = loadReferencedFiles();
-let deleted = 0, kept = 0, undated = 0, guarded = 0, orphanDeleted = 0;
+let deleted = 0, kept = 0, undated = 0, guarded = 0, orphanDeleted = 0, futureDated = 0;
 
 for (const file of fs.readdirSync(NEWS_DIR)) {
   if (!file.endsWith('.html')) continue;
@@ -95,8 +95,14 @@ for (const file of fs.readdirSync(NEWS_DIR)) {
     continue;
   }
 
-  const published = extractDate(fs.readFileSync(filePath, 'utf-8'));
+  let published = extractDate(fs.readFileSync(filePath, 'utf-8'));
   if (published === null || isNaN(published)) { undated++; kept++; continue; }
+
+  // 매체가 미래 날짜를 주는 일이 있다. 실측: 태국 매체가 2026-09-01 에
+  // 2026-09-03 짜리 기사를 내보냈다. now - published 가 음수라
+  // 보존 기간을 영원히 넘지 못하고 파일이 계속 남는다.
+  // 미래 날짜는 오늘로 보고 나이를 잰다.
+  if (published > now) { published = now; futureDated++; }
 
   if (now - published > MAX_AGE_MS) {
     try {
@@ -137,6 +143,7 @@ if (fs.existsSync(IMAGES_DIR)) {
 
 console.log('보존 기간: ' + MAX_AGE_DAYS + '일');
 console.log('어디서도 걸리지 않아 지운 것: ' + orphanDeleted + '장');
+if (futureDated) console.log('미래 날짜라 오늘로 보고 센 것: ' + futureDated + '장');
 console.log('  뉴스 삭제 : ' + deleted + '개');
 console.log('  뉴스 보존 : ' + kept + '개  (인덱스 링크 보호 ' + guarded + ', 날짜 못 읽음 ' + undated + ')');
 console.log('  이미지 삭제: ' + imgDeleted + '개 / 보존 ' + imgKept + '개');
