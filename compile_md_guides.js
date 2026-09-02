@@ -33,7 +33,20 @@ function headingId(text) {
     for (let i = 0; i < t.length; i++) h = ((h * 33) ^ t.charCodeAt(i)) >>> 0;
     id = 's' + h.toString(36);
   }
-  return encodeURIComponent(id).slice(0, 80);
+  // 인코딩한 뒤 80자에서 자르면 안 된다. 한 글자가 %E0%B8%AA 처럼 여러 조각으로
+  // 늘어나기 때문에, 자른 자리가 글자 한가운데면 URL 조각으로서 무효가 된다.
+  // 브라우저는 디코드에 실패하면 그 앵커로 이동하지 못하고, 구글이 검색결과에
+  // 다는 섹션 링크도 걸리지 않는다.
+  //
+  // 그래서 인코딩 전 글자를 하나씩 줄여 가며 인코딩 결과가 80자 이하가 되게 한다.
+  // 언제나 글자 경계에서 끊기므로 항상 디코드된다.
+  let out = encodeURIComponent(id);
+  if (out.length > 80) {
+    let cut = id;
+    while (cut.length > 1 && encodeURIComponent(cut).length > 80) cut = cut.slice(0, -1);
+    out = encodeURIComponent(cut.replace(/-+$/, ''));
+  }
+  return out;
 }
 
 // 마크다운을 평문으로 (스키마·목차에 넣을 때 태그가 섞이면 안 된다)
@@ -365,6 +378,12 @@ function processGuides() {
       title_th: title_th,
       title_vi: title_vi,
       image: meta.image,
+      // 언어별 대표 이미지. 이 그림은 og:image 로도 나가므로, 카톡·페북
+      // 미리보기에 그 나라 말로 된 제목이 뜨게 하려면 언어마다 한 장이 필요하다.
+      // 없으면 빌드가 공용 image 로 되돌아간다 — 기존 가이드는 그대로 돈다.
+      image_en: meta.image_en || null,
+      image_th: meta.image_th || null,
+      image_vi: meta.image_vi || null,
       date: meta.date,
       updated: meta.updated || meta.date,
       content_en: mdToHtml(en.body),

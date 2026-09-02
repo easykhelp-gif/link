@@ -197,9 +197,11 @@ function buildGuides() {
       // og:image 와 구조화 데이터에는 절대주소가 필요하다.
       // 본문 <img> 는 같은 출처의 경로로 둔다 — 절대주소로 두면 브라우저가
       // 굳이 바깥 도메인으로 한 번 더 나갔다 온다.
-      const imgSrc = (guide.image && guide.image.startsWith('news/'))
-        ? '/link/' + guide.image
-        : (guide.image || '');
+      // 언어별 그림이 있으면 그것을 쓰고, 없으면 공용 image 로 되돌아간다.
+      const langImage = guide['image_' + lang] || guide.image;
+      const imgSrc = (langImage && langImage.startsWith('news/'))
+        ? '/link/' + langImage
+        : (langImage || '');
       const imgUrl = imgSrc.startsWith('/link/') ? 'https://www.koricare.kr' + imgSrc : imgSrc;
       html = html.replace(/\{\{IMAGE_URL\}\}/g, imgUrl);
       html = html.replace(/\{\{IMAGE_SRC\}\}/g, imgSrc);

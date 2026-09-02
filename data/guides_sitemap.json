@@ -75,6 +75,21 @@
     "priority": 0.7
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/korea/guide_work_death_survivor/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/korea/guide_work_death_survivor/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/korea/guide_work_death_survivor/",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/korea/hospital_seoul/",
     "changefreq": "monthly",
     "priority": 0.7
