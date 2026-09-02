@@ -1,11 +1,59 @@
 [
   {
+    "id": "hotnews_th_c36bed18",
+    "date": "2026-09-02",
+    "ts": 1788368352000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/09/02/PAF20260902223601009_P2.jpg",
+    "title": "สหรัฐฯ จ่อเก็บภาษีชิป ยกเว้นให้บริษัทที่ลงทุนผลิตในอเมริกา",
+    "link": "https://en.yna.co.kr/view/AEN20260903000200315"
+  },
+  {
+    "id": "hotnews_th_8abc5c37",
+    "date": "2026-09-02",
+    "ts": 1788354761000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902010351315_01_i_P2.jpg",
+    "title": "LG Twins ชนะ Doosan Bears 5-1 คว้าชัยสองนัดติดในศึกเบสบอล KBO",
+    "link": "https://en.yna.co.kr/view/AEN20260902010351315"
+  },
+  {
+    "id": "hotnews_th_a1558222",
+    "date": "2026-09-02",
+    "ts": 1788354644000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902010400315_02_i_P2.jpg",
+    "title": "ซน จู-ยอง มั่นใจ LG Twins ขยับอันดับสูงขึ้นได้ในศึก KBO",
+    "link": "https://en.yna.co.kr/view/AEN20260902010400315"
+  },
+  {
+    "id": "hotnews_th_1bb4ba08",
+    "date": "2026-09-02",
+    "ts": 1788349689000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.ae0bb6beecc34a3988ae960a4f5df5e7_T1.jpg",
+    "title": "Uber เตรียมปลดพนักงาน 3,300 ตำแหน่ง ปรับโครงสร้างฝ่ายบริหาร",
+    "link": "https://www.koreaherald.com/article/10860810"
+  },
+  {
+    "id": "hotnews_th_8c98d932",
+    "date": "2026-09-02",
+    "ts": 1788341046000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902060330_70_e.jpg",
+    "title": "พื้นที่ทางตอนใต้จะมีฝนตกในวันพฤหัสบดีนี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204002"
+  },
+  {
     "id": "hotnews_th_1ba9e611",
     "date": "2026-09-02",
     "ts": 1788340643000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902060600_59_e.jpg",
     "title": "เร่งใช้โดรนและสุนัขกู้ภัยค้นหาคนงานสูญหายในเนปาล",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204001"
+  },
+  {
+    "id": "hotnews_th_eeed48c5",
+    "date": "2026-09-02",
+    "ts": 1788339108000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.9d5856275624412fa3d6a631718f6bbd_T1.jpg",
+    "title": "ศาลอนุมัติแผนฟื้นฟู Homeplus รอดพ้นวิกฤตล้มละลาย",
+    "link": "https://www.koreaherald.com/article/10860741"
   },
   {
     "id": "hotnews_th_5b4b7b73",
@@ -38,6 +86,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.b3dcb8737cdf46e2b783d7bfefccee66_T1.jpg",
     "title": "เกาหลีใต้พบโพสต์ชักชวนฆ่าตัวตายพุ่งสูง แต่ส่วนใหญ่ยังไม่ถูกลบ",
     "link": "https://www.koreaherald.com/article/10860673"
+  },
+  {
+    "id": "hotnews_th_1af0435b",
+    "date": "2026-09-02",
+    "ts": 1788336000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902009500315_02_i_P2.jpg",
+    "title": "สรุปข่าวเด่นเกาหลีใต้: เรือล่มที่ Busan และหุ้น KOSPI ดิ่งลง",
+    "link": "https://en.yna.co.kr/view/AEN20260902009500315"
   },
   {
     "id": "hotnews_th_a3a50edb",
@@ -342,61 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/0-feat-728x410-1.jpg",
     "title": "What to know about the evidence that led to Keffe D’s conviction in Tupac Shakur’s 1996 killing",
     "link": "https://www.khaosodenglish.com/news/international/2026/09/01/what-to-know-about-the-evidence-that-led-to-keffe-ds-conviction-in-tupac-shakurs-1996-killing/"
-  },
-  {
-    "id": "hotnews_th_1596efdb",
-    "date": "2026-09-01",
-    "ts": 1788241392000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/vangrsaeemoney19699998.jpg",
-    "title": "เปิด 4 ราศี ดวงคลี่คลาย การเงินพลิกฟื้นมีโอกาสปลดหนี้ ชีวิตมีหวังขึ้นมาแล้ว",
-    "link": "https://www.khaosod.co.th/horoscope/news_10382270"
-  },
-  {
-    "id": "hotnews_th_89babbca",
-    "date": "2026-09-01",
-    "ts": 1788241185000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/volleyba1.jpg",
-    "title": "อัคบาส อิชิกาวะ ขอโทษแฟน วอลเลย์บอล ญี่ปุ่น หลังพลาดตั๋ว โอลิมปิก 2028",
-    "link": "https://www.khaosod.co.th/sports/news_10382264"
-  },
-  {
-    "id": "hotnews_th_82c7ec3e",
-    "date": "2026-09-01",
-    "ts": 1788240874000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/%E0%B8%9B%E0%B8%81%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%9E%E0%B8%B8%E0%B8%98-2.jpg",
-    "title": "ดวงเฮงดวงปัง ราศีใดคู่หมั้นคู่สมรสให้ลาภแก่ท่าน ราศีใดเพื่อนร่วมงานที่อยู่ห่างไกลจะนำของพื้นเมืองมาให้หลายอย่าง",
-    "link": "https://www.khaosod.co.th/horoscope/news_10380714"
-  },
-  {
-    "id": "hotnews_th_0aa93fd0",
-    "date": "2026-09-01",
-    "ts": 1788240757000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL71NZxMxfT4U.jpg",
-    "title": "YPC LAMPANG รุ่นที่ 4 พัฒนาศักยภาพผู้นำคลื่นลูกใหม่ ร่วมออกแบบอนาคตลำปาง",
-    "link": "https://www.thairath.co.th/news/local/north/2956710"
-  },
-  {
-    "id": "hotnews_th_9f5e6aaf",
-    "date": "2026-09-01",
-    "ts": 1788240658000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/A-3-2-scaled.jpg",
-    "title": "รอบด้านวงการพระ เหรียญหลวงปู่ผ่าน",
-    "link": "https://www.khaosod.co.th/newspaper-column/amulets/news_10381100"
-  },
-  {
-    "id": "hotnews_th_cc5177b7",
-    "date": "2026-09-01",
-    "ts": 1788240571000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/A-23-scaled.jpg",
-    "title": "ข่าวสดพระเครื่อง เหรียญพ่อท่านดำ วัดนภาราม-นราธิวาส",
-    "link": "https://www.khaosod.co.th/newspaper-column/amulets/news_10381059"
-  },
-  {
-    "id": "hotnews_th_55e070bf",
-    "date": "2026-09-01",
-    "ts": 1788240471000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULrDNHb6AEO8w.jpg",
-    "title": "“วรศิษฎ์” สั่ง ผวจ. ทุกจังหวัด เข้มจ้างเหมา สกัดผู้หลุดจากบัญชีทุจริตสอบ",
-    "link": "https://www.thairath.co.th/news/politic/2956704"
   }
 ]

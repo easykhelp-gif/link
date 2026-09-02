@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_8f4d7625",
+    "date": "2026-09-02",
+    "ts": 1788383823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d78b59fc-3bbe-47bb-97c2-23671d6b18d9.jpeg",
+    "title": "Quán cà phê ở Hàn Quốc cấm học sinh nam gây tranh cãi",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260903/cafe-ban-on-teenage-boys-sparks-discrimination-debate-in-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_3091e355",
+    "date": "2026-09-02",
+    "ts": 1788371688000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/26/PYH2025032606970001300_P2.jpg",
+    "title": "Mỹ cân nhắc thiết kế tàu khu trục của Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20260902010551315"
+  },
+  {
+    "id": "hotnews_vi_a1558222",
+    "date": "2026-09-02",
+    "ts": 1788354644000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902010400315_02_i_P2.jpg",
+    "title": "Son Ju-young tin LG Twins sẽ vươn lên vị trí cao hơn tại KBO",
+    "link": "https://en.yna.co.kr/view/AEN20260902010400315"
+  },
+  {
     "id": "hotnews_vi_556ba1dc",
     "date": "2026-09-02",
     "ts": 1788350701000,
@@ -8,12 +32,52 @@
     "link": "https://en.yna.co.kr/view/AEN20260902006453315"
   },
   {
+    "id": "hotnews_vi_1da5281f",
+    "date": "2026-09-02",
+    "ts": 1788337993000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.1d3e6794b38a4d369c8a5a6e00fc4922_T1.jpg",
+    "title": "Du học sinh Nepal tại Hàn Quốc quyên góp hỗ trợ nạn nhân lũ lụt",
+    "link": "https://www.koreaherald.com/article/10860711"
+  },
+  {
+    "id": "hotnews_vi_7ad3c2ef",
+    "date": "2026-09-02",
+    "ts": 1788335420000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008600315_01_i_P2.jpg",
+    "title": "Hàn-Mỹ tăng cường phối hợp về các vấn đề Bán đảo Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260902008600315"
+  },
+  {
+    "id": "hotnews_vi_99179126",
+    "date": "2026-09-02",
+    "ts": 1788335386000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082520050006100_P2.jpg",
+    "title": "Doosan Bears không giới hạn số hiệp ném của Choi Min-seok",
+    "link": "https://en.yna.co.kr/view/AEN20260902009300315"
+  },
+  {
     "id": "hotnews_vi_1573ee54",
     "date": "2026-09-02",
     "ts": 1788334895000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008900320_04_i_P2.jpg",
     "title": "Chipotle mở cửa hàng đầu tiên tại Châu Á ở Seoul",
     "link": "https://en.yna.co.kr/view/AEN20260902008900320"
+  },
+  {
+    "id": "hotnews_vi_d77ec1f5",
+    "date": "2026-09-02",
+    "ts": 1788334478000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/20/PYH2026072018550001300_P2.jpg",
+    "title": "Hàn Quốc bác lo ngại can thiệp vào liên đoàn bóng đá",
+    "link": "https://en.yna.co.kr/view/AEN20260902008800315"
+  },
+  {
+    "id": "hotnews_vi_b2f7eca3",
+    "date": "2026-09-02",
+    "ts": 1788334194000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902041715_90_e.jpg",
+    "title": "ENHYPEN lần đầu tiên đứng đầu Billboard 200",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203996"
   },
   {
     "id": "hotnews_vi_a3a50edb",
@@ -334,69 +398,5 @@
     "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/tnw-1788231697421112649621018380861011264962101838086104075bd79788ab3a8e7e22b7eb5996e53-1788233276004260823703-63-0-1663-2560-crop-1788233309272670630538.jpg",
     "title": "Quảng Ninh: Khách đi biển ít, trên bờ đông nghịt",
     "link": "https://thanhnien.vn/quang-ninh-khach-di-bien-it-tren-bo-dong-nghit-185260901103000837.htm"
-  },
-  {
-    "id": "hotnews_vi_3bb3faea",
-    "date": "2026-09-01",
-    "ts": 1788242460000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/chatgpt-image-124531-1-thg-9-2026-17882415521661235531811-33-345-599-1251-crop-17882420066201460886468.png",
-    "title": "Jung Kyung Ho có động thái mới sau khi chia tay Sooyoung (SNSD)",
-    "link": "https://thanhnien.vn/jung-kyung-ho-co-dong-thai-moi-sau-khi-chia-tay-sooyoung-snsd-185260901125346587.htm"
-  },
-  {
-    "id": "hotnews_vi_23b1ae2b",
-    "date": "2026-09-01",
-    "ts": 1788242427000,
-    "image": "https://vcdn1-dulich.vnecdn.net/2026/09/01/unknown-1788239169-1288-1788239413.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=gwkYE3khTCsXHOUHxvf3cg",
-    "title": "Cát Bà vắng khách dịp nghỉ lễ 2/9",
-    "link": "https://vnexpress.net/cat-ba-vang-khach-dip-nghi-le-2-9-5115579.html"
-  },
-  {
-    "id": "hotnews_vi_a81cfdf3",
-    "date": "2026-09-01",
-    "ts": 1788242400000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/17877510954608296076452242094519g44555886359614103717c02496f7f8ae9bbcc73282743b34cdd-17877558017441166861454-0-0-1280-2048-crop-17881858681482113151694.jpg",
-    "title": "Lịch thi đấu FIFA ASEAN Cup 2026 của tuyển Việt Nam",
-    "link": "https://tuoitre.vn/lich-thi-dau-fifa-asean-cup-2026-cua-tuyen-viet-nam-100260831211914352.htm"
-  },
-  {
-    "id": "hotnews_vi_6b8b5c05",
-    "date": "2026-09-01",
-    "ts": 1788242400000,
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/29/di-bo5-1787969105-9906-1787969116.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=1by03VLCk9YgdyIlyBSNxg",
-    "title": "6 việc nên làm mỗi ngày giúp não minh mẫn khi về già",
-    "link": "https://vnexpress.net/6-viec-nen-lam-moi-ngay-giup-nao-minh-man-khi-ve-gia-5114824.html"
-  },
-  {
-    "id": "hotnews_vi_470088a5",
-    "date": "2026-09-01",
-    "ts": 1788242400000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/24/dji-1787553166-8569-1787553273.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=JT6U5RuG4UJuBhVpqSrJNQ",
-    "title": "Doanh nghiệp bỏ lỡ nhiều năm khai thác đất vì vướng xác định giá",
-    "link": "https://vnexpress.net/doanh-nghiep-bo-lo-nhieu-nam-khai-thac-dat-vi-vuong-xac-dinh-gia-5112737.html"
-  },
-  {
-    "id": "hotnews_vi_78ef2d4d",
-    "date": "2026-09-01",
-    "ts": 1788242400000,
-    "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/12/a-nh-ma-n-hi-nh-lu-c-178649688-2488-9238-1786496953.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=0TSNR8m47P22popGxMiR1g",
-    "title": "Vì sao trào ngược dạ dày gây đau ngực?",
-    "link": "https://vnexpress.net/vi-sao-trao-nguoc-da-day-gay-dau-nguc-5108126.html"
-  },
-  {
-    "id": "hotnews_vi_00d86ff5",
-    "date": "2026-09-01",
-    "ts": 1788242400000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/31/anh-3-1788161774239158896801-320-0-1920-2560-crop-1788162004606680975454.jpg",
-    "title": "Hành trình bắt đầu từ điều tử tế",
-    "link": "https://thanhnien.vn/hanh-trinh-bat-dau-tu-dieu-tu-te-185260831144312019.htm"
-  },
-  {
-    "id": "hotnews_vi_addbba3c",
-    "date": "2026-09-01",
-    "ts": 1788242340000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/anh-chup-man-hinh-2026-09-01-luc-053554-1788215778865191404248-0-113-566-1019-crop-17882158511411380672192.png",
-    "title": "Barca lại khiến Real Madrid và Mourinho 'mất vui'",
-    "link": "https://tuoitre.vn/barca-lai-khien-real-madrid-va-mourinho-mat-vui-1002609010538435.htm"
   }
 ]

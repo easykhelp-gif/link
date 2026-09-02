@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_en_9f23f5ac",
+    "date": "2026-09-02",
+    "ts": 1788380823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/08/21/da171f1a-0c69-481f-a4be-c9f2723f6920.jpeg",
+    "title": "RAS Korea lecture takes aim at early 20th-century vernacular Korean humor",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260903/ras-korea-lecture-takes-aim-at-early-20th-century-vernacular-korean-humor?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_3091e355",
+    "date": "2026-09-02",
+    "ts": 1788371688000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/26/PYH2025032606970001300_P2.jpg",
+    "title": "S. Korean, Japanese, Turkish frigates being considered for new U.S. frigate class: report",
+    "link": "https://en.yna.co.kr/view/AEN20260902010551315"
+  },
+  {
+    "id": "hotnews_en_9541eea9",
+    "date": "2026-09-02",
+    "ts": 1788368538000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260902.95243b80b75d4914b00303a03d2b67e1_T1.jpg",
+    "title": "Anemoi courts Korean shipbuilders for wind propulsion",
+    "link": "https://www.koreaherald.com/article/10860861"
+  },
+  {
+    "id": "hotnews_en_c36bed18",
+    "date": "2026-09-02",
+    "ts": 1788368352000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/09/02/PAF20260902223601009_P2.jpg",
+    "title": "Lutnick: Trump gov't considering 'targeted,' thoughtful' tariff policy for semiconductors",
+    "link": "https://en.yna.co.kr/view/AEN20260903000200315"
+  },
+  {
     "id": "hotnews_en_02e398fc",
     "date": "2026-09-02",
     "ts": 1788364323000,
@@ -40,6 +72,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260902010400315"
   },
   {
+    "id": "hotnews_en_66609213",
+    "date": "2026-09-02",
+    "ts": 1788351696000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902004951315_03_i_P2.jpg",
+    "title": "Intensive search under way for 9 S. Koreans missing in Nepal floods",
+    "link": "https://en.yna.co.kr/view/AEN20260902004951315"
+  },
+  {
     "id": "hotnews_en_556ba1dc",
     "date": "2026-09-02",
     "ts": 1788350701000,
@@ -54,6 +94,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.ae0bb6beecc34a3988ae960a4f5df5e7_T1.jpg",
     "title": "Uber to cut 3,300 jobs in management overhaul",
     "link": "https://www.koreaherald.com/article/10860810"
+  },
+  {
+    "id": "hotnews_en_7c56b4e2",
+    "date": "2026-09-02",
+    "ts": 1788344182000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/02/PYH2026090213110001301_P2.jpg",
+    "title": "Court approves corporate rehabilitation plan for Homeplus",
+    "link": "https://en.yna.co.kr/view/AEN20260902010251315"
   },
   {
     "id": "hotnews_en_8c98d932",
@@ -264,6 +312,14 @@
     "link": "https://www.koreaherald.com/article/10860673"
   },
   {
+    "id": "hotnews_en_b7976442",
+    "date": "2026-09-02",
+    "ts": 1788336563000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/rcv.YNA.20260902.PYH2026090216150005100_T1.jpg",
+    "title": "6 missing, 1 dead after tugboat capsizes off Busan",
+    "link": "https://www.koreaherald.com/article/10860672"
+  },
+  {
     "id": "hotnews_en_130f28d5",
     "date": "2026-09-02",
     "ts": 1788336349000,
@@ -342,61 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008900320_04_i_P2.jpg",
     "title": "U.S. restaurant chain Chipotle opens 1st Asian outlet in Seoul",
     "link": "https://en.yna.co.kr/view/AEN20260902008900320"
-  },
-  {
-    "id": "hotnews_en_7d818e1d",
-    "date": "2026-09-02",
-    "ts": 1788334792000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/02/PYH2026090216690001300_P2.jpg",
-    "title": "Seoul shares tumble 4 pct on renewed U.S.-Iran tensions; won strengthens",
-    "link": "https://en.yna.co.kr/view/AEN20260902006852320"
-  },
-  {
-    "id": "hotnews_en_d77ec1f5",
-    "date": "2026-09-02",
-    "ts": 1788334478000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/20/PYH2026072018550001300_P2.jpg",
-    "title": "Vice sports minister dispels concerns about gov't meddling in nat'l football federation",
-    "link": "https://en.yna.co.kr/view/AEN20260902008800315"
-  },
-  {
-    "id": "hotnews_en_b2f7eca3",
-    "date": "2026-09-02",
-    "ts": 1788334194000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902041715_90_e.jpg",
-    "title": "Enhypen Tops Billboard 200 for First Time",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203996"
-  },
-  {
-    "id": "hotnews_en_a3a50edb",
-    "date": "2026-09-02",
-    "ts": 1788333361000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
-    "title": "Voice phishing crimes drop 40 pct thanks to tougher measures",
-    "link": "https://en.yna.co.kr/view/AEN20260902008400315"
-  },
-  {
-    "id": "hotnews_en_e949ab4b",
-    "date": "2026-09-02",
-    "ts": 1788333169000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902120419_8_k.jpg",
-    "title": "Foreigners' Credit Card Spending in S. Korea Reaches Record High in Q2",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203995"
-  },
-  {
-    "id": "hotnews_en_070529e4",
-    "date": "2026-09-02",
-    "ts": 1788332564000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902007600315_01_i_P2.jpg",
-    "title": "Defense chief stresses push for AI technology application in military",
-    "link": "https://en.yna.co.kr/view/AEN20260902007600315"
-  },
-  {
-    "id": "hotnews_en_f694c6f0",
-    "date": "2026-09-02",
-    "ts": 1788332508000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902025721_47_e.jpg",
-    "title": "Former KFA Chief Appears for Questioning over Appointment of Ex-Coach",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203994"
   }
 ]
