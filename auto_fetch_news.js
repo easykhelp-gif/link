@@ -264,7 +264,12 @@ async function summarizeOnce(ai, prompt) {
       }
     }
   }
-  throw lastErr || new Error('요약 실패');
+  // 왜 실패했는지 밖에서 구분할 수 있게 표시를 붙인다.
+  // 할당량이면 다음 회차에 하면 되고, 키·모델 문제면 사람이 손봐야 한다.
+  const err = lastErr || new Error('요약 실패');
+  const em = String((err && err.message) || err);
+  err.isQuota = /429|RESOURCE_EXHAUSTED|rate limit|quota|too many requests/i.test(em);
+  throw err;
 }
 
 // 어떤 기사를 먼저 처리할지 점수를 매긴다.
@@ -641,7 +646,7 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
-  let summarized = 0, summarizeFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0, angled = 0;
+  let summarized = 0, summarizeFailed = 0, quotaFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0, angled = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -777,6 +782,8 @@ async function runPipeline() {
             summarizedThisLang++;
           } catch (e) {
             summarizeFailed++;
+            // 할당량 때문인지 따로 센다. 그것만으로는 작업을 실패로 보지 않는다.
+            if (e && e.isQuota) quotaFailed++;
             console.error('[요약 실패] ' + item.title + ' — ' + (e && e.message ? e.message : e));
           }
         }
@@ -825,7 +832,7 @@ async function runPipeline() {
     console.log(`★ 발행 날짜가 미래인 기사 ${futureDateWarnings.length}건 — 매체 오류다. 날짜만 고쳐 실었다.`);
     futureDateWarnings.slice(0, 5).forEach(w => console.log(`    +${w.hours}시간  ${w.title}`));
   }
-  console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건`);
+  console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건 · 그중 호출한도 ${quotaFailed}건`);
   console.log(`코리케어 시선이 붙은 기사 ${angled}건 / 요약 ${summarized}건`);
   console.log(`월간 정리용으로 보관 ${archived}건`);
   if (skippedNotShown) console.log(`목록(50건)에 못 드는 기사 ${skippedNotShown}건은 만들지 않았다`);
@@ -835,8 +842,17 @@ async function runPipeline() {
 
   // 전건 실패일 때만 작업을 실패로 표시한다.
   // 한 건 실패마다 멈추면 기사 하나 때문에 갱신 전체가 안 올라간다.
+  //
+  // 다만 사유를 나눈다. 할당량(429)은 다음 회차에 하면 되는 일이라
+  // 실패로 보고하지 않는다 — 그러면 실패 메일이 온다.
+  // 키가 죽었거나 모델이 사라진 경우만 사람이 손봐야 하므로 실패로 남긴다.
   if (process.env.GEMINI_API_KEY && summarized === 0 && summarizeFailed > 0) {
-    console.error('요약이 한 건도 되지 않았다. API 키·모델명·할당량을 확인할 것.');
+    if (quotaFailed === summarizeFailed) {
+      console.log(`이번 회차는 호출 한도에 걸려 요약을 못 했다 (${quotaFailed}건). 다음 회차에 다시 한다.`);
+      return;
+    }
+    console.error(`요약이 한 건도 되지 않았다 (한도 ${quotaFailed}건 · 그 외 ${summarizeFailed - quotaFailed}건).`);
+    console.error('API 키·모델명을 확인할 것.');
     process.exit(1);
   }
 }

@@ -2,8 +2,10 @@ name: 1-Hour Auto News Scraper & Live Deployment
 
 on:
   schedule:
-    # Run every 4 hours (cron: '0 */4 * * *')
-    - cron: '0 */4 * * *'
+    # 6시간마다 (하루 4회). 4시간(하루 6회)이었는데 Gemini 무료 등급의
+    # 일일 한도에 걸려 요약이 통째로 안 되는 회차가 생겼다 (2026-09-02 07:17).
+    # 뉴스가 두 시간 늦게 올라오는 것보다 요약이 빠지는 쪽이 손해가 크다.
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
