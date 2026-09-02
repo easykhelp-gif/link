@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_th_5b4b7b73",
+    "date": "2026-09-02",
+    "ts": 1788337324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/0909c03b-3c13-4eba-9a54-689737376aae.jpg",
+    "title": "จำคุก 15 ปี ผอ.ศูนย์ดูแลผู้พิการในเกาหลีใต้ คดีล่วงละเมิดทางเพศ",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260902/disabled-care-facility-chief-sentenced-to-15-years-for-sexual-offenses?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f3b27eb7",
+    "date": "2026-09-02",
+    "ts": 1788337324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d504c78f-72d1-4f45-b803-50914f338a8f.jpg",
+    "title": "เกาหลีใต้เสนอเพิ่มงบกระทรวงสงเคราะห์ทหารผ่านศึก 8% ปี 2027",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260902/veterans-ministry-seeks-8-hike-in-2027-budget-for-expanded-honors-key-projects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c9c6f873",
+    "date": "2026-09-02",
+    "ts": 1788337324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d0c9fc20-9339-450d-a397-f8ffc0a879f7.jpg",
+    "title": "สถานีวิทยุดนตรีพหุวัฒนธรรมฉลองครบรอบ 18 ปีในเกาหลีใต้",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260902/photo-multicultural-music-radio-station-marks-18th-anniversary?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_a3a50edb",
+    "date": "2026-09-02",
+    "ts": 1788333361000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
+    "title": "คดีแก๊งคอลเซ็นเตอร์ในเกาหลีใต้ลดลง 40% หลังปราบปรามเข้มงวด",
+    "link": "https://en.yna.co.kr/view/AEN20260902008400315"
+  },
+  {
     "id": "hotnews_th_be920018",
     "date": "2026-09-01",
     "ts": 1788271640000,
@@ -366,37 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULsEJWSo9j8bg.jpg",
     "title": "“สาทิตย์” อัด ครม.สัญจรหาดใหญ่ อย่าคิดแค่หาเสียง ชี้ตอนนี้เศรษฐกิจภาคใต้จม",
     "link": "https://www.thairath.co.th/news/politic/2956708"
-  },
-  {
-    "id": "hotnews_th_5f68af0b",
-    "date": "2026-09-01",
-    "ts": 1788240298000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/BBBB-2-scaled.jpg",
-    "title": "เพื่อนตัวเล็ก หนุนสวัสดิภาพเพื่อนสี่ขา ต้อนรับ‘วันสุนัขโลก’",
-    "link": "https://www.khaosod.co.th/lifestyle/news_10380749"
-  },
-  {
-    "id": "hotnews_th_d79dd004",
-    "date": "2026-09-01",
-    "ts": 1788240249000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULrKUy8GGtY31.jpg",
-    "title": "รัฐมนตรีทบวงทหารบกสหรัฐฯ ลาออก ปมขัดแย้ง \"พีต เฮกเซธ\" รมว.กลาโหม",
-    "link": "https://www.thairath.co.th/news/foreign/2956703"
-  },
-  {
-    "id": "hotnews_th_96d02989",
-    "date": "2026-09-01",
-    "ts": 1788240242000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/AAAA-7-scaled.jpg",
-    "title": "ไอคิวทะลุฟ้า ปลุกพลังเด็กไทย นวัตกรรุ่นใหม่สู่โลก AI",
-    "link": "https://www.khaosod.co.th/lifestyle/news_10380772"
-  },
-  {
-    "id": "hotnews_th_72a5f3f0",
-    "date": "2026-09-01",
-    "ts": 1788240148000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULq9y4lZJKECI.jpg",
-    "title": "สว.แฉพิรุธ คอนโด-อาคารสูงทั่วกรุงกว่า 100 แห่ง ส่อผิดกฎหมายควบคุมอาคาร จี้ มหาดไทย-กทม. คุมเข้ม",
-    "link": "https://www.thairath.co.th/news/politic/2956705"
   }
 ]
