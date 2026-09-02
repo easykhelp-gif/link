@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_556ba1dc",
+    "date": "2026-09-02",
+    "ts": 1788350701000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902006453315_05_i_P2.jpg",
+    "title": "Lật tàu kéo ngoài khơi Busan: 1 người chết, 6 người mất tích",
+    "link": "https://en.yna.co.kr/view/AEN20260902006453315"
+  },
+  {
+    "id": "hotnews_vi_1573ee54",
+    "date": "2026-09-02",
+    "ts": 1788334895000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008900320_04_i_P2.jpg",
+    "title": "Chipotle mở cửa hàng đầu tiên tại Châu Á ở Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20260902008900320"
+  },
+  {
+    "id": "hotnews_vi_a3a50edb",
+    "date": "2026-09-02",
+    "ts": 1788333361000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
+    "title": "Số vụ lừa đảo qua điện thoại tại Hàn Quốc giảm gần 40%",
+    "link": "https://en.yna.co.kr/view/AEN20260902008400315"
+  },
+  {
+    "id": "hotnews_vi_070529e4",
+    "date": "2026-09-02",
+    "ts": 1788332564000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902007600315_01_i_P2.jpg",
+    "title": "Hàn Quốc thúc đẩy ứng dụng trí tuệ nhân tạo trong quân đội",
+    "link": "https://en.yna.co.kr/view/AEN20260902007600315"
+  },
+  {
+    "id": "hotnews_vi_11568501",
+    "date": "2026-09-02",
+    "ts": 1788332402000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902006200320_01_i_P2.jpg",
+    "title": "Hàn Quốc chia sẻ chiến lược kinh tế hậu chiến tại G20",
+    "link": "https://en.yna.co.kr/view/AEN20260902006200320"
+  },
+  {
     "id": "hotnews_vi_6973e8d7",
     "date": "2026-09-01",
     "ts": 1788251220000,
@@ -358,45 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/anh-chup-man-hinh-2026-09-01-luc-053554-1788215778865191404248-0-113-566-1019-crop-17882158511411380672192.png",
     "title": "Barca lại khiến Real Madrid và Mourinho 'mất vui'",
     "link": "https://tuoitre.vn/barca-lai-khien-real-madrid-va-mourinho-mat-vui-1002609010538435.htm"
-  },
-  {
-    "id": "hotnews_vi_515ca93b",
-    "date": "2026-09-01",
-    "ts": 1788242340000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/anh-chup-man-hinh-2026-09-01-luc-051437-1788214502495143224480-0-104-506-914-crop-1788214589512688725844-82-11-506-689-crop-17882237981521192545318.png",
-    "title": "Saka giúp Arsenal thắng tuyệt đối ở Premier League",
-    "link": "https://tuoitre.vn/saka-giup-arsenal-thang-tuyet-doi-o-premier-league-100260901051739977.htm"
-  },
-  {
-    "id": "hotnews_vi_399ca9db",
-    "date": "2026-09-01",
-    "ts": 1788242160000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/00-17882363542091817118710-0-127-1009-1741-crop-17882364949691693106286.png",
-    "title": "Vì sao khán giả phản ứng với dàn diễn viên mới của ‘Mùa hè năm ấy’?",
-    "link": "https://thanhnien.vn/vi-sao-khan-gia-phan-ung-voi-dan-dien-vien-moi-cua-mua-he-nam-ay-185260901112257942.htm"
-  },
-  {
-    "id": "hotnews_vi_71335eba",
-    "date": "2026-09-01",
-    "ts": 1788241956000,
-    "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/01/hao-khi-viet-nam-1788094363-1788097017-1788242127.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=S9KWs6z-6ogwBO0TYnnaPg",
-    "title": "Xiếc 'Hào khí Việt Nam' khơi dậy tự hào",
-    "link": "https://vnexpress.net/xiec-hao-khi-viet-nam-khoi-day-tu-hao-5115238.html"
-  },
-  {
-    "id": "hotnews_vi_fe574c1f",
-    "date": "2026-09-01",
-    "ts": 1788241824000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/28/178788975808658033392396982906-5777-2369-1787890008.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=weaB7_7Tgmg2LW1-zZOz7A",
-    "title": "Mạng xã hội nghe trộm cuộc gọi, đọc tin nhắn có thể bị phạt 150 triệu đồng",
-    "link": "https://vnexpress.net/mang-xa-hoi-nghe-trom-cuoc-goi-doc-tin-nhan-co-the-bi-phat-150-trieu-dong-5114494.html"
-  },
-  {
-    "id": "hotnews_vi_11da62b6",
-    "date": "2026-09-01",
-    "ts": 1788241295000,
-    "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/01/afp-c43c4rg-v1-midres-thailand-8083-6505-1788237935.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OXNpFZ1fdhPl3UbAxTwHRQ",
-    "title": "Tổng thống Myanmar sắp thăm Việt Nam",
-    "link": "https://vnexpress.net/tong-thong-myanmar-sap-tham-viet-nam-5115567.html"
   }
 ]

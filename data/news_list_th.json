@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_1ba9e611",
+    "date": "2026-09-02",
+    "ts": 1788340643000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902060600_59_e.jpg",
+    "title": "เร่งใช้โดรนและสุนัขกู้ภัยค้นหาคนงานสูญหายในเนปาล",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204001"
+  },
+  {
     "id": "hotnews_th_5b4b7b73",
     "date": "2026-09-02",
     "ts": 1788337324000,
@@ -24,12 +32,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260902/photo-multicultural-music-radio-station-marks-18th-anniversary?utm_source=rss"
   },
   {
+    "id": "hotnews_th_af4b55fa",
+    "date": "2026-09-02",
+    "ts": 1788336573000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.b3dcb8737cdf46e2b783d7bfefccee66_T1.jpg",
+    "title": "เกาหลีใต้พบโพสต์ชักชวนฆ่าตัวตายพุ่งสูง แต่ส่วนใหญ่ยังไม่ถูกลบ",
+    "link": "https://www.koreaherald.com/article/10860673"
+  },
+  {
     "id": "hotnews_th_a3a50edb",
     "date": "2026-09-02",
     "ts": 1788333361000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
     "title": "คดีแก๊งคอลเซ็นเตอร์ในเกาหลีใต้ลดลง 40% หลังปราบปรามเข้มงวด",
     "link": "https://en.yna.co.kr/view/AEN20260902008400315"
+  },
+  {
+    "id": "hotnews_th_54e6cef8",
+    "date": "2026-09-02",
+    "ts": 1788331942000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902022444_35_e.jpg",
+    "title": "ยอดผู้เสียชีวิตจากน้ำท่วมเนปาล-จีน พุ่งแตะ 1,066 ราย",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203992"
   },
   {
     "id": "hotnews_th_be920018",
@@ -374,29 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULrDNHb6AEO8w.jpg",
     "title": "“วรศิษฎ์” สั่ง ผวจ. ทุกจังหวัด เข้มจ้างเหมา สกัดผู้หลุดจากบัญชีทุจริตสอบ",
     "link": "https://www.thairath.co.th/news/politic/2956704"
-  },
-  {
-    "id": "hotnews_th_d63f7559",
-    "date": "2026-09-01",
-    "ts": 1788240449000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/online-2sep.jpg",
-    "title": "หลากหลายรถยนต์ เทสต์เบาๆ ‘LEXUS ES 350e’ อีวีซีดานหรูอารมณ์สปอร์ตเต็มพิกัด",
-    "link": "https://www.khaosod.co.th/car-vehicle/news_10380308"
-  },
-  {
-    "id": "hotnews_th_6946c91f",
-    "date": "2026-09-01",
-    "ts": 1788240372000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/MMMM-3-scaled.jpg",
-    "title": "สกู๊ปบันเทิง ‘อิ้งค์-หมาก-กลัฟ’ร่วมสร้าง มหากาพย์รัก‘อัศจรรย์วันทอง’",
-    "link": "https://www.khaosod.co.th/entertainment/news_10380724"
-  },
-  {
-    "id": "hotnews_th_6f3b17de",
-    "date": "2026-09-01",
-    "ts": 1788240337000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKULsEJWSo9j8bg.jpg",
-    "title": "“สาทิตย์” อัด ครม.สัญจรหาดใหญ่ อย่าคิดแค่หาเสียง ชี้ตอนนี้เศรษฐกิจภาคใต้จม",
-    "link": "https://www.thairath.co.th/news/politic/2956708"
   }
 ]
