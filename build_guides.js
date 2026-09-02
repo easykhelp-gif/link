@@ -8,6 +8,38 @@ const TEMPLATE_PATH = path.join(BASE_DIR, 'templates', 'guide_template.html');
 const INDEX_PATH = path.join(BASE_DIR, 'index.html');
 const GUIDES_SITEMAP_PATH = path.join(DATA_DIR, 'guides_sitemap.json');
 
+// ── 관련 글 ──────────────────────────────────────────────
+// 글 열 개가 서로 하나도 안 걸려 있었다 (2026-09-03 측정: 링크 총 1개).
+// 검색엔진은 안쪽 링크를 따라 페이지를 찾고 무게를 매기므로, 목록에서만
+// 걸린 글은 외따로 떨어진다.
+//
+// 주제가 실제로 이어지는 것만 건다. 전부 서로 걸면 링크가 흔해져서
+// 어느 것도 신호가 되지 않고, 읽는 사람에게도 소음이다.
+const RELATED = {
+  // 임금 — 못 받은 돈은 월급·퇴직금·출국만기보험이 한 덩어리다
+  // 체불금은 본인 명의 계좌로만 나온다. 통장·유심 사기가 그 자리에서 맞닿는다
+  guide_unpaid_wages:        ['severance_pay', 'departure_insurance', 'scam_prevention_bank_sim'],
+  severance_pay:             ['departure_insurance', 'guide_unpaid_wages'],
+  departure_insurance:       ['severance_pay', 'guide_unpaid_wages'],
+  // 다침과 죽음 — 같은 산재보험 안의 앞뒤
+  industrial_accident:       ['guide_work_death_survivor', 'guide_unpaid_wages'],
+  guide_work_death_survivor: ['industrial_accident'],
+  // 의료
+  guide_hospital_pharmacy:   ['hospital_seoul'],
+  hospital_seoul:            ['guide_hospital_pharmacy'],
+  // 여행
+  travel_seoul_free:         ['travel_incheon_ocean'],
+  travel_incheon_ocean:      ['travel_seoul_free'],
+  // 사기 — 계좌·통장이 임금 수령과 맞닿는다
+  scam_prevention_bank_sim:  ['guide_unpaid_wages'],
+};
+
+const RELATED_LABEL = {
+  en: 'Related guides',
+  th: 'คู่มือที่เกี่ยวข้อง',
+  vi: 'Hướng dẫn liên quan',
+};
+
 // HTML 속성용 이스케이프
 function escAttr(s) {
   return String(s == null ? '' : s)
@@ -302,6 +334,26 @@ function buildGuides() {
       contentHtml = contentHtml.replace(/href="news\//g, 'href="/link/news/');
       html = html.replace(/\{\{CONTENT\}\}/g, contentHtml);
 
+      // 관련 글. 목록에 없는 id 나 그 언어에 제목이 없는 글은 조용히 건너뛴다 —
+      // 나중에 글을 지우거나 이름을 바꿔도 죽은 링크가 남지 않는다.
+      {
+        const rel = (RELATED[guide.id] || [])
+          .map(rid => guides.find(x => x.id === rid))
+          .filter(x => x && (x['title_' + lang] || x.title_en));
+        let relHtml = '';
+        if (rel.length) {
+          const items = rel.map(x => {
+            const rt = x['title_' + lang] || x.title_en;
+            const url = `/link/${lang}/guides/${x.category}/${x.id}/`;
+            return `      <a href="${url}">${escHtml(rt)}</a>`;
+          }).join('\n');
+          relHtml = `<nav class="related" aria-label="${escAttr(RELATED_LABEL[lang])}">\n` +
+                    `    <div class="related-label">${escHtml(RELATED_LABEL[lang])}</div>\n` +
+                    `    <div class="related-grid">\n${items}\n    </div>\n  </nav>`;
+        }
+        html = html.replace(/\{\{RELATED_HTML\}\}/g, () => relHtml);
+      }
+
       html = html.replace(/\{\{CATEGORY\}\}/g, guide.category);
       html = html.replace(/\{\{ID\}\}/g, guide.id);
       
@@ -322,8 +374,12 @@ function buildGuides() {
       const outputPath = path.join(guideDir, 'index.html');
       fs.writeFileSync(outputPath, html, 'utf-8');
       
+      // lastmod 가 없으면 구글은 이 글이 언제 바뀌었는지 알 수 없어서
+      // 다시 긁을 우선순위를 매기지 못한다. 고친 글이 반영되는 데 오래 걸린다.
+      // 원고 앞머리의 updated 를 그대로 쓴다 — 없으면 date.
       sitemapUrls.push({
         loc: currCanonical,
+        lastmod: guide.updated || guide.date || null,
         changefreq: 'monthly',
         priority: 0.7
       });
@@ -519,8 +575,15 @@ function buildGuides() {
 </html>`;
     fs.writeFileSync(path.join(hubDir, 'index.html'), hubHtml, 'utf-8');
     
+    // 목록 페이지는 글이 하나라도 바뀌면 같이 바뀐다. 가장 최근 글의 날짜를 쓴다.
+    const newest = guides
+      .map(g => g.updated || g.date)
+      .filter(Boolean)
+      .sort()
+      .pop() || null;
     sitemapUrls.push({
       loc: `https://www.koricare.kr/link/${lang}/guides/`,
+      lastmod: newest,
       changefreq: 'weekly',
       priority: 0.8
     });
@@ -546,7 +609,10 @@ function mergeSitemap(sitemapUrls) {
   if (!content.endsWith('\n')) content += '\n';
   
   // Create XML for new URLs
-  const newXml = sitemapUrls.map(u => `  <url>\n    <loc>${u.loc}</loc>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n');
+  const newXml = sitemapUrls.map(u => {
+    const lm = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : '';
+    return `  <url>\n    <loc>${u.loc}</loc>${lm}\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`;
+  }).join('\n');
   
   // Insert before </urlset>
   content = content.replace('</urlset>', newXml + '\n</urlset>');

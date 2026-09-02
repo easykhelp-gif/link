@@ -462,6 +462,37 @@
     .article-body .guide-toc a { padding: 11px 13px; font-size: 14px; }
   }
 
+  /* ── 관련 글 ───────────────────────────────────────────
+     글 열 개가 서로 하나도 안 걸려 있었다. 검색엔진은 안쪽 링크를 따라
+     페이지를 찾고 그 무게를 매기는데, 목록에서만 걸려 있으면 각 글이
+     외따로 떨어진다. 읽는 사람에게도 다음에 볼 것을 주는 자리다. */
+  .related {
+    margin: 44px 0 0; padding: 24px 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .related-label {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--sub); margin-bottom: 14px;
+  }
+  .related-grid {
+    display: grid; gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .related a {
+    display: block; padding: 14px 16px;
+    background: var(--tint);
+    border: 1px solid transparent; border-radius: 11px;
+    font-size: 14.5px; line-height: 1.45;
+    color: var(--ink); text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .related a:hover, .related a:focus-visible {
+    background: #fff; border-color: var(--navy); color: var(--navy);
+  }
+  @media (max-width: 520px) {
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
   .article-body blockquote {
     margin: 24px 0; padding: 2px 0 2px 18px;
     border-left: 3px solid var(--navy);
@@ -804,6 +835,13 @@
 <p><strong>Kori Care</strong> làm các hướng dẫn miễn phí cho người nước ngoài ở Hàn Quốc, bằng tiếng Anh, tiếng Thái và tiếng Việt — tiền lương, visa, y tế, và những phần của pháp luật Hàn Quốc mà người ta thường biết đến khi đã quá muộn. Nếu bạn không chắc bước nào phù hợp với hoàn cảnh của mình, <a href="https://m.me/koricare.kr" target="_blank" rel="noopener noreferrer">hãy nhắn cho chúng tôi</a> và chúng tôi sẽ chỉ cho bạn cơ quan đúng. Chúng tôi không thu phí, và chúng tôi không đại diện cho chủ sử dụng lao động nào.</p>
 <p>Hướng dẫn này giải thích pháp luật Hàn Quốc một cách khái quát. Đây không phải tư vấn pháp lý cho vụ việc cụ thể của bạn, và không có nội dung nào trên trang này bảo đảm một kết quả nhất định.</p>
     </div>
+
+    <nav class="related" aria-label="Hướng dẫn liên quan">
+    <div class="related-label">Hướng dẫn liên quan</div>
+    <div class="related-grid">
+      <a href="/link/vi/guides/korea/industrial_accident/">Bị tai nạn lao động tại Hàn Quốc? Bạn có quyền được bồi thường</a>
+    </div>
+  </nav>
 
   </article>
 

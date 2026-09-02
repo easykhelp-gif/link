@@ -356,6 +356,37 @@
     .article-body .guide-toc a { padding: 11px 13px; font-size: 14px; }
   }
 
+  /* ── 관련 글 ───────────────────────────────────────────
+     글 열 개가 서로 하나도 안 걸려 있었다. 검색엔진은 안쪽 링크를 따라
+     페이지를 찾고 그 무게를 매기는데, 목록에서만 걸려 있으면 각 글이
+     외따로 떨어진다. 읽는 사람에게도 다음에 볼 것을 주는 자리다. */
+  .related {
+    margin: 44px 0 0; padding: 24px 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .related-label {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--sub); margin-bottom: 14px;
+  }
+  .related-grid {
+    display: grid; gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .related a {
+    display: block; padding: 14px 16px;
+    background: var(--tint);
+    border: 1px solid transparent; border-radius: 11px;
+    font-size: 14.5px; line-height: 1.45;
+    color: var(--ink); text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .related a:hover, .related a:focus-visible {
+    background: #fff; border-color: var(--navy); color: var(--navy);
+  }
+  @media (max-width: 520px) {
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
   .article-body blockquote {
     margin: 24px 0; padding: 2px 0 2px 18px;
     border-left: 3px solid var(--navy);
@@ -626,6 +657,13 @@
 <li>ชมพระอาทิตย์ตกดินเหนือทะเลตะวันตก ที่นี่เป็นหนึ่งในจุดที่โรแมนติกที่สุดใกล้กรุงโซล</li></ul>
 <p><strong>3. สวนสนุกวอลมิ (월미테마파크)</strong><br>แม้ว่าคุณจะไม่ชอบเครื่องเล่นที่น่ากลัว คุณก็ต้องดูคนเล่น <strong>"ดิสโก้ปังปัง" (Disco Pang-Pang)</strong> ดีเจที่นี่โด่งดังจากการแซวผู้เล่นอย่างตลกขบขัน และมีฝูงชนจำนวนมากมารวมตัวกันเพื่อดูความสนุกสนาน หากคุณกล้าพอ ลองเล่นเรือ <strong>ไวกิ้ง</strong> ที่แกว่งสูงมากจนรู้สึกเหมือนจะตกลงไปในทะเล!</p>
     </div>
+
+    <nav class="related" aria-label="คู่มือที่เกี่ยวข้อง">
+    <div class="related-label">คู่มือที่เกี่ยวข้อง</div>
+    <div class="related-grid">
+      <a href="/link/th/guides/travel/travel_seoul_free/">[อัปเดต 2026] คอร์สเที่ยวและถ่ายรูปฟรี 1 วันในกรุงโซล</a>
+    </div>
+  </nav>
 
   </article>
 

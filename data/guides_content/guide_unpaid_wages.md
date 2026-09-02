@@ -4,7 +4,7 @@ category: korea
 tag: Labor
 image: news/images/guide_unpaid_wages_hero.webp
 date: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 <!-- TITLE_EN START -->
 Unpaid Wages in Korea? How to Claim Your Back Pay and Severance from the Government (2026)
