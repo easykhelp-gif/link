@@ -384,6 +384,48 @@
   .article-body li { margin-bottom: 7px; padding-left: 3px; }
   .article-body li::marker { color: var(--sub); }
 
+  /* ── 목차 ─────────────────────────────────────────────
+     긴 글에서 자기에게 필요한 절로 바로 가게 한다. 버튼마다 앵커가
+     걸려 있고, 제목의 scroll-margin-top 이 고정 헤더에 가리는 것을 막는다.
+     회색 카드로 감싸지 않고 위아래 실선으로만 묶는다 — 본문 폭을 그대로 쓰고,
+     읽던 흐름을 끊지 않기 위해서다. */
+  .article-body .guide-toc {
+    margin: 28px 0 34px; padding: 20px 0 6px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .article-body .guide-toc-label {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--sub); margin-bottom: 14px;
+  }
+  .article-body .guide-toc-grid {
+    display: grid; gap: 8px; margin-bottom: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .article-body .guide-toc a {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 12px 14px;
+    background: var(--tint);
+    border: 1px solid transparent; border-radius: 11px;
+    font-size: 14.5px; line-height: 1.4;
+    color: var(--ink); text-decoration: none; box-shadow: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .article-body .guide-toc a i {
+    flex: none; font-style: normal;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.04em;
+    color: var(--accent);
+  }
+  .article-body .guide-toc a:hover,
+  .article-body .guide-toc a:focus-visible {
+    background: #fff; border-color: var(--navy);
+    color: var(--navy); box-shadow: none;
+  }
+  @media (max-width: 520px) {
+    .article-body .guide-toc-grid { grid-template-columns: 1fr; gap: 6px; }
+    .article-body .guide-toc a { padding: 11px 13px; font-size: 14px; }
+  }
+
   .article-body blockquote {
     margin: 24px 0; padding: 2px 0 2px 18px;
     border-left: 3px solid var(--navy);

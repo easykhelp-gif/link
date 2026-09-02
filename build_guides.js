@@ -263,6 +263,23 @@ function buildGuides() {
       };
 
       const graph = [articleNode, breadcrumbNode];
+      // 절차 스키마. 원고에 <!-- HOWTO --> 표시가 있을 때만 붙는다.
+      // "어떻게 신청하나" 류의 질문에 검색·AI 가 단계를 그대로 물어 간다.
+      const howto = guide['howto_' + lang];
+      if (howto && Array.isArray(howto.steps) && howto.steps.length >= 2) {
+        graph.push({
+          '@type': 'HowTo',
+          '@id': currCanonical + '#howto',
+          name: howto.name || currTitle,
+          inLanguage: lang,
+          step: howto.steps.map((s, i) => ({
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: s.name,
+            text: s.text
+          }))
+        });
+      }
       if (faq.length) {
         graph.push({
           '@type': 'FAQPage',

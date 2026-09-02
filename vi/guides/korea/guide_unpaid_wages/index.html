@@ -368,6 +368,48 @@
   .article-body li { margin-bottom: 7px; padding-left: 3px; }
   .article-body li::marker { color: var(--sub); }
 
+  /* ── 목차 ─────────────────────────────────────────────
+     긴 글에서 자기에게 필요한 절로 바로 가게 한다. 버튼마다 앵커가
+     걸려 있고, 제목의 scroll-margin-top 이 고정 헤더에 가리는 것을 막는다.
+     회색 카드로 감싸지 않고 위아래 실선으로만 묶는다 — 본문 폭을 그대로 쓰고,
+     읽던 흐름을 끊지 않기 위해서다. */
+  .article-body .guide-toc {
+    margin: 28px 0 34px; padding: 20px 0 6px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .article-body .guide-toc-label {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--sub); margin-bottom: 14px;
+  }
+  .article-body .guide-toc-grid {
+    display: grid; gap: 8px; margin-bottom: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .article-body .guide-toc a {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 12px 14px;
+    background: var(--tint);
+    border: 1px solid transparent; border-radius: 11px;
+    font-size: 14.5px; line-height: 1.4;
+    color: var(--ink); text-decoration: none; box-shadow: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .article-body .guide-toc a i {
+    flex: none; font-style: normal;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.04em;
+    color: var(--accent);
+  }
+  .article-body .guide-toc a:hover,
+  .article-body .guide-toc a:focus-visible {
+    background: #fff; border-color: var(--navy);
+    color: var(--navy); box-shadow: none;
+  }
+  @media (max-width: 520px) {
+    .article-body .guide-toc-grid { grid-template-columns: 1fr; gap: 6px; }
+    .article-body .guide-toc a { padding: 11px 13px; font-size: 14px; }
+  }
+
   .article-body blockquote {
     margin: 24px 0; padding: 2px 0 2px 18px;
     border-left: 3px solid var(--navy);
@@ -678,8 +720,11 @@
 <p>Lỡ một trong hai thì bạn buộc phải rời khỏi Hàn Quốc. Hãy xử lý việc chuyển nơi làm việc và việc đòi lương cùng lúc: việc đòi lương không làm dừng đồng hồ của các mốc này.</p>
 <h2 id="tr%E1%BB%A3-gi%C3%BAp-mi%E1%BB%85n-ph%C3%AD-b%E1%BA%B1ng-ti%E1%BA%BFng-c%E1%BB%A">Trợ giúp miễn phí bằng tiếng của bạn</h2>
 <p>Bạn không cần phải làm tất cả những việc này bằng tiếng Hàn, và không tốn khoản nào.</p>
-<ul><li><strong>132 — Tập đoàn Trợ giúp Pháp lý Hàn Quốc.</strong> Tư vấn pháp luật miễn phí, có phiên dịch. Bấm 132, không cần mã vùng.</li>
-<li><strong>1350 — Bộ Việc làm và Lao động.</strong> Hỏi về lao động, có tư vấn bằng tiếng nước ngoài.</li>
+<p><strong>Hãy nhắn cho Kori Care trước.</strong> Kể chuyện của bạn bằng tiếng Việt cũng được. Chúng tôi sẽ tìm giúp bạn cơ quan nào phụ trách, cần chuẩn bị gì, và lá thư bạn nhận được viết gì. Nếu cần viết bằng tiếng Hàn, chúng tôi viết giúp. Chúng tôi không phải văn phòng luật và không thu phí. <a href="https://m.me/koricare.kr" target="_blank" rel="noopener noreferrer">Gửi tin nhắn cho chúng tôi</a></p>
+<p>Nếu bạn muốn liên hệ trực tiếp:</p>
+<ul><li><strong>1577-0071 — Trung tâm Tư vấn Lao động Nước ngoài.</strong> 18 ngôn ngữ, có tiếng Việt. Hằng ngày 09:00–18:00.</li>
+<li><strong>132 — Tập đoàn Trợ giúp Pháp lý Hàn Quốc.</strong> Tư vấn pháp luật miễn phí, nhưng <strong>chỉ bằng tiếng Hàn</strong> — nơi này không có phiên dịch, bạn cần mang theo người phiên dịch. Bấm 132, không cần mã vùng.</li>
+<li><strong>1350 — Bộ Việc làm và Lao động.</strong> Hỏi về lao động. Chỉ có tiếng Anh và tiếng Trung.</li>
 <li><strong>Trung tâm Hỗ trợ Lao động Nước ngoài.</strong> Hỗ trợ trực tiếp về giấy tờ và phiên dịch.</li></ul>
 <h2 id="nh%E1%BB%AFng-c%C3%A2u-h%E1%BB%8Fi-th%C6%B0%E1%BB%9Dng-g%E1%BA%B7p">Những câu hỏi thường gặp</h2>
 <h3 id="kh%C3%B4ng-c%C3%B3-visa-h%E1%BB%A3p-l%E1%BB%87-th%C3%AC-c%C3%B3-n%E1%BB%99p-%C4%">Không có visa hợp lệ thì có nộp đơn được không?</h3>

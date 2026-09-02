@@ -132,8 +132,13 @@ Miss either and you are required to leave the country. Deal with the workplace c
 
 You do not have to do any of this in Korean, and none of it costs money.
 
-- **132 — Korea Legal Aid Corporation.** Free legal advice, interpretation available. Dial 132 with no area code.
-- **1350 — Ministry of Employment and Labor.** Labor questions, foreign-language counselling available.
+**Write to Kori Care first.** Tell us what happened in your own language. We will work out which office handles it, what you need to bring, and what any letter you have been sent actually says. If something has to be written in Korean, we will help you write it. We are not a law firm and we do not charge. [Send us a message](https://m.me/koricare.kr)
+
+If you would rather go direct:
+
+- **1577-0071 — Foreign Workforce Counselling Centre.** 18 languages including Thai and Vietnamese. Every day, 09:00 to 18:00.
+- **132 — Korea Legal Aid Corporation.** Free legal advice, but **in Korean only** — they do not provide interpreters, so bring someone who can. Dial 132 with no area code.
+- **1350 — Ministry of Employment and Labor.** Labor questions. English and Chinese only.
 - **Foreign Workers Support Centers.** In-person help with documents and interpretation.
 
 ## Questions people ask
@@ -289,8 +294,13 @@ This document explains the system and is not legal advice. For individual cases,
 
 คุณไม่จำเป็นต้องทำทั้งหมดนี้เป็นภาษาเกาหลี และไม่มีค่าใช้จ่ายใด ๆ
 
-- **132 — Korea Legal Aid Corporation** ปรึกษากฎหมายฟรี มีล่าม กด 132 ไม่ต้องใส่รหัสพื้นที่
-- **1350 — กระทรวงการจ้างงานและแรงงาน** สอบถามเรื่องแรงงาน มีบริการภาษาต่างประเทศ
+**ทักหา Kori Care ก่อน** เล่าเรื่องของคุณเป็นภาษาไทยได้เลย เราจะหาให้ว่าต้องติดต่อหน่วยงานไหน ต้องเตรียมอะไร และจดหมายที่คุณได้รับเขียนว่าอะไร ถ้าต้องเขียนเป็นภาษาเกาหลี เราช่วยเขียนให้ เราไม่ใช่สำนักงานกฎหมายและไม่คิดเงิน [ส่งข้อความหาเรา](https://m.me/koricare.kr)
+
+ถ้าอยากติดต่อหน่วยงานโดยตรง:
+
+- **1577-0071 — ศูนย์ให้คำปรึกษาแรงงานต่างชาติ** 18 ภาษา รวมภาษาไทย ทุกวัน 09:00–18:00 น.
+- **132 — Korea Legal Aid Corporation** ปรึกษากฎหมายฟรี แต่**เป็นภาษาเกาหลีเท่านั้น** ที่นี่ไม่มีล่าม ต้องพาคนที่แปลได้ไปด้วย กด 132 ไม่ต้องใส่รหัสพื้นที่
+- **1350 — กระทรวงการจ้างงานและแรงงาน** สอบถามเรื่องแรงงาน มีเฉพาะภาษาอังกฤษและภาษาจีน
 - **ศูนย์สนับสนุนแรงงานต่างชาติ** ช่วยเรื่องเอกสารและล่ามแบบพบตัว
 
 ## คำถามที่พบบ่อย
@@ -446,8 +456,13 @@ Lỡ một trong hai thì bạn buộc phải rời khỏi Hàn Quốc. Hãy x�
 
 Bạn không cần phải làm tất cả những việc này bằng tiếng Hàn, và không tốn khoản nào.
 
-- **132 — Tập đoàn Trợ giúp Pháp lý Hàn Quốc.** Tư vấn pháp luật miễn phí, có phiên dịch. Bấm 132, không cần mã vùng.
-- **1350 — Bộ Việc làm và Lao động.** Hỏi về lao động, có tư vấn bằng tiếng nước ngoài.
+**Hãy nhắn cho Kori Care trước.** Kể chuyện của bạn bằng tiếng Việt cũng được. Chúng tôi sẽ tìm giúp bạn cơ quan nào phụ trách, cần chuẩn bị gì, và lá thư bạn nhận được viết gì. Nếu cần viết bằng tiếng Hàn, chúng tôi viết giúp. Chúng tôi không phải văn phòng luật và không thu phí. [Gửi tin nhắn cho chúng tôi](https://m.me/koricare.kr)
+
+Nếu bạn muốn liên hệ trực tiếp:
+
+- **1577-0071 — Trung tâm Tư vấn Lao động Nước ngoài.** 18 ngôn ngữ, có tiếng Việt. Hằng ngày 09:00–18:00.
+- **132 — Tập đoàn Trợ giúp Pháp lý Hàn Quốc.** Tư vấn pháp luật miễn phí, nhưng **chỉ bằng tiếng Hàn** — nơi này không có phiên dịch, bạn cần mang theo người phiên dịch. Bấm 132, không cần mã vùng.
+- **1350 — Bộ Việc làm và Lao động.** Hỏi về lao động. Chỉ có tiếng Anh và tiếng Trung.
 - **Trung tâm Hỗ trợ Lao động Nước ngoài.** Hỗ trợ trực tiếp về giấy tờ và phiên dịch.
 
 ## Những câu hỏi thường gặp

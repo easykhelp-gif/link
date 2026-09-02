@@ -108,6 +108,47 @@ function extractFaq(md) {
   return out;
 }
 
+// 절차 스키마(HowTo)용. 원고에서 <!-- HOWTO --> 바로 뒤에 오는 번호 목록을 뽑는다.
+//
+// 표시를 쓰는 이유는 언어마다 소제목이 달라서다. "먼저 할 일" 을 영어·태국어·
+// 베트남어로 각각 알아맞히려 하면 언젠가 어긋난다. 표시가 없는 글에서는
+// 빈 배열이 나오므로 기존 가이드의 출력은 한 글자도 바뀌지 않는다.
+//
+// 이름은 표시 바로 위의 소제목을 쓴다. 단계 이름은 굵게 쓴 앞머리를,
+// 그것이 없으면 첫 문장을 쓴다 — 리치결과에 한 줄로 나오는 자리다.
+function extractHowTo(md) {
+  if (!md) return null;
+  const lines = md.split('\n');
+  const at = lines.findIndex(l => l.trim() === '<!-- HOWTO -->');
+  if (at < 0) return null;
+
+  let name = '';
+  for (let i = at - 1; i >= 0; i--) {
+    const m = lines[i].match(/^#{2,3} (.+)$/);
+    if (m) { name = plain(m[1]); break; }
+  }
+
+  const steps = [];
+  for (let i = at + 1; i < lines.length; i++) {
+    const l = lines[i];
+    if (!l.trim()) continue;
+    if (/^#{1,6} /.test(l)) break;
+    const m = l.match(/^\s*\d+\.\s+(.*)$/);
+    if (!m) { if (steps.length) break; else continue; }
+
+    const raw = m[1];
+    const lead = raw.match(/^\*\*(.+?)\*\*/);
+    const text = plain(raw);
+    let stepName = lead ? plain(lead[1]) : text;
+    stepName = stepName.replace(/[.。]$/, '').trim();
+    if (stepName.length > 110) stepName = stepName.slice(0, 110).trim();
+    if (text.length >= 10) steps.push({ name: stepName, text });
+  }
+
+  if (steps.length < 2) return null;
+  return { name: name || null, steps };
+}
+
 // 읽는 데 걸리는 시간.
 // 태국어는 단어 사이에 공백이 없어서 단어수로 세면 한 문장이 한 단어가 된다.
 // 한글·한자도 마찬가지다. 그 세 계열만 글자수로 세고, 나머지(베트남어 포함)는
@@ -165,7 +206,11 @@ function mdToHtml(md) {
 
   let html = md.trim();
   if (!html) return '';
-  
+
+  // 절차 표시는 스키마를 뽑을 때만 쓰고 본문에서는 지운다.
+  // 남겨 두면 <p><!-- HOWTO --></p> 빈 문단이 되어 여백이 한 줄 벌어진다.
+  html = html.replace(/^[ \t]*<!--\s*HOWTO\s*-->[ \t]*\r?\n?/gim, '');
+
   // Headers — 앵커 id 를 붙인다.
   // 목차 링크에 쓰이고, AI 가 특정 섹션을 인용할 때 주소를 가리킬 수 있다.
   // h4 까지 받는다. 긴 글은 3단으로 부족하다.
@@ -333,6 +378,10 @@ function processGuides() {
       faq_en: extractFaq(en_md),
       faq_th: extractFaq(th_md),
       faq_vi: extractFaq(vi_md),
+      // 절차 스키마용. <!-- HOWTO --> 표시가 있는 글에서만 채워진다
+      howto_en: extractHowTo(en_md),
+      howto_th: extractHowTo(th_md),
+      howto_vi: extractHowTo(vi_md),
       // 첫 문단 — AI 가 그대로 인용하는 자리
       lede_en: en.lede,
       lede_th: th.lede,
