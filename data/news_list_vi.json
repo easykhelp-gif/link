@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_ab80edb9",
+    "date": "2026-09-03",
+    "ts": 1788436322000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/2d78a820-01df-4c06-b7cf-94995e5d233d.jpg",
+    "title": "Công đoàn tài chính Hàn Quốc sẽ đình công vào thứ Sáu",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260903/financial-union-to-go-on-strike-friday-as-planned-over-relocation-plan?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c74b85dd",
+    "date": "2026-09-03",
+    "ts": 1788436322000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/00ffd755-0eb1-4a8f-b21f-2e966f9a57a3.jpeg",
+    "title": "Seoul ra mắt 7 mẫu vòi nước uống công cộng tiện ích mới",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260903/seoul-unveils-7-new-water-fountain-designs-for-tumblers-wheelchairs-pets?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_4a015ee3",
+    "date": "2026-09-03",
+    "ts": 1788420723000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090317970001300_P2.jpg",
+    "title": "Thiền sư Jinwoo tái đắc cử người đứng đầu tông phái Jogye",
+    "link": "https://en.yna.co.kr/view/AEN20260903007551315"
+  },
+  {
     "id": "hotnews_vi_7e221edc",
     "date": "2026-09-03",
     "ts": 1788409130000,
@@ -374,29 +398,5 @@
     "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/img5754-1788239817141495757461-0-0-1152-1843-crop-17882399596301898418473.jpg",
     "title": "‘Hộ linh tráng sĩ’ bản mới bước vào cuộc rượt đuổi ra sao ở phòng vé?",
     "link": "https://thanhnien.vn/ho-linh-trang-si-ban-moi-buoc-vao-cuoc-ruot-duoi-ra-sao-o-phong-ve-185260901122306468.htm"
-  },
-  {
-    "id": "hotnews_vi_efaeb889",
-    "date": "2026-09-01",
-    "ts": 1788244800000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/2hgb6f7ru2c0kilqp64swhwis97fcrnatfuk-17882431664392099816840-0-0-450-720-crop-1788243275385532301039.jpg",
-    "title": "Thót tim xe khách giường nằm lấn làn, vượt ẩu trên đèo Mang Yang",
-    "link": "https://thanhnien.vn/thot-tim-xe-khach-giuong-nam-lan-lan-vuot-au-tren-deo-mang-yang-185260901131542594.htm"
-  },
-  {
-    "id": "hotnews_vi_be41bdd1",
-    "date": "2026-09-01",
-    "ts": 1788244500000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/avatar1788245102193-1788245103014413645050.jpeg",
-    "title": "UAV phản lực Nga ngày càng nhiều trong các đợt tập kích Ukraine",
-    "link": "https://thanhnien.vn/uav-phan-luc-nga-ngay-cang-nhieu-trong-cac-dot-tap-kich-ukraine-185260901123022971.htm"
-  },
-  {
-    "id": "hotnews_vi_3935168d",
-    "date": "2026-09-01",
-    "ts": 1788244380000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/1000013980-1788212732620522926057-0-0-480-768-crop-17882127679251881202293.jpg",
-    "title": "Tai nạn mô tô phân khối lớn trên thế giới: Hai tay đua cùng giải đấu tử nạn chỉ trong 24 giờ",
-    "link": "https://tuoitre.vn/tai-nan-mo-to-phan-khoi-lon-tren-the-gioi-hai-tay-dua-cung-giai-dau-tu-nan-chi-trong-24-gio-100260901044814931.htm"
   }
 ]

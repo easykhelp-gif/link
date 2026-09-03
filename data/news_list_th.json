@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_th_4f9ec6b0",
+    "date": "2026-09-03",
+    "ts": 1788426631000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903010700320_01_i_P2.jpg",
+    "title": "Samsung ลดช่องว่างตามหลัง SK hynix ในตลาดชิป HBM ไตรมาส 2",
+    "link": "https://en.yna.co.kr/view/AEN20260903010700320"
+  },
+  {
+    "id": "hotnews_th_e63479f4",
+    "date": "2026-09-03",
+    "ts": 1788425512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.2fae84fa83834352a8564ed23480133f_T1.jpg",
+    "title": "แดวุง พาร์มาซูติคอล ยกระดับความร่วมมือด้านยาร่วมกับอินโดนีเซีย",
+    "link": "https://www.koreaherald.com/article/10862135"
+  },
+  {
     "id": "hotnews_th_b39626b5",
     "date": "2026-09-03",
     "ts": 1788395759000,
@@ -382,21 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Great-grandmother.jpg",
     "title": "ครอบครัวอาลัย ยายทวด 5 แผ่นดิน อายุ 103 ปี เสียชีวิตแล้ว",
     "link": "https://www.khaosod.co.th/around-thailand/news_10382267"
-  },
-  {
-    "id": "hotnews_th_13523c70",
-    "date": "2026-09-01",
-    "ts": 1788241523000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/psaydsf.jpg",
-    "title": "ลูกหลาน ต้องระวัง! หมอเตือน ผู้สูงอายุ ยิ่งดูแลมาก ยิ่งเสื่อมเร็ว ชี้ 7 สิ่งควรให้ทำเอง",
-    "link": "https://www.khaosod.co.th/special-stories/news_10382268"
-  },
-  {
-    "id": "hotnews_th_18327b10",
-    "date": "2026-09-01",
-    "ts": 1788241514000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Vape-Pod.jpg",
-    "title": "รองโฆษก ตร. เผยผลปราบบุหรี่ไฟฟ้า รวบผู้ต้องหา 151 ราย ยึดของกลาง 140 ล้าน",
-    "link": "https://www.khaosod.co.th/crime/news_10382234"
   }
 ]
