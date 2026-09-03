@@ -16,6 +16,14 @@
     "link": "https://www.koreaherald.com/article/10862135"
   },
   {
+    "id": "hotnews_th_366da48f",
+    "date": "2026-09-03",
+    "ts": 1788420954000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007751315_01_i_P2.jpg",
+    "title": "อีแจมยอง สั่งตำรวจเร่งปฏิรูป หลังรับโอนอำนาจสืบสวนทั้งหมด",
+    "link": "https://en.yna.co.kr/view/AEN20260903007751315"
+  },
+  {
     "id": "hotnews_th_b39626b5",
     "date": "2026-09-03",
     "ts": 1788395759000,
@@ -390,13 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7uyaUxDTGM9.jpg",
     "title": "“เดชรัต” ลุยหาเสียงนนทบุรี ชูนโยบายยกระดับเกษตรกร",
     "link": "https://www.thairath.co.th/news/politic/2956712"
-  },
-  {
-    "id": "hotnews_th_265edc59",
-    "date": "2026-09-01",
-    "ts": 1788241686000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Great-grandmother.jpg",
-    "title": "ครอบครัวอาลัย ยายทวด 5 แผ่นดิน อายุ 103 ปี เสียชีวิตแล้ว",
-    "link": "https://www.khaosod.co.th/around-thailand/news_10382267"
   }
 ]

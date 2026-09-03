@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_d8430606",
+    "date": "2026-09-03",
+    "ts": 1788440582000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/12/24/49/PCM20251224000049990_P2.jpg",
+    "title": "Cheong Wa Dae denies report of possible troop deployment to Hormuz",
+    "link": "https://en.yna.co.kr/view/AEN20260903010900320"
+  },
+  {
     "id": "hotnews_en_eb143dc5",
     "date": "2026-09-03",
     "ts": 1788431523000,
@@ -168,6 +176,14 @@
     "link": "https://www.koreaherald.com/article/10862119"
   },
   {
+    "id": "hotnews_en_b5cd48ff",
+    "date": "2026-09-03",
+    "ts": 1788424358000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/ams.V01.photo.HDN.P.20260903.P12026090316132993657380979_T1.jpg",
+    "title": "Ven. Jinwoo reelected to lead Jogye Order",
+    "link": "https://www.koreaherald.com/article/10862115"
+  },
+  {
     "id": "hotnews_en_3b3632ff",
     "date": "2026-09-03",
     "ts": 1788424228000,
@@ -216,6 +232,14 @@
     "link": "https://www.koreaherald.com/article/10862052"
   },
   {
+    "id": "hotnews_en_33f9bba1",
+    "date": "2026-09-03",
+    "ts": 1788422456000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090320390000701_P2.jpg",
+    "title": "Swimmer eyes 2nd straight S. Korean MVP award at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260903009700315"
+  },
+  {
     "id": "hotnews_en_ec814ac2",
     "date": "2026-09-03",
     "ts": 1788422373000,
@@ -238,6 +262,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007751315_01_i_P2.jpg",
     "title": "Lee calls for police's internal reform amid shift in investigative authority",
     "link": "https://en.yna.co.kr/view/AEN20260903007751315"
+  },
+  {
+    "id": "hotnews_en_2d06d7c3",
+    "date": "2026-09-03",
+    "ts": 1788420944000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903008700315_01_i_P2.jpg",
+    "title": "S. Korea says respects 'One China' policy amid Taiwan Pavilion dispute",
+    "link": "https://en.yna.co.kr/view/AEN20260903008700315"
   },
   {
     "id": "hotnews_en_34a8a0fb",
@@ -272,6 +304,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260903007152320"
   },
   {
+    "id": "hotnews_en_8effd5bf",
+    "date": "2026-09-03",
+    "ts": 1788419847000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903008900320_01_i_P2.jpg",
+    "title": "S. Korean won hits 14-month high against U.S. dollar as Japan's yen strengthens",
+    "link": "https://en.yna.co.kr/view/AEN20260903008900320"
+  },
+  {
     "id": "hotnews_en_064a37b5",
     "date": "2026-09-03",
     "ts": 1788419229000,
@@ -302,6 +342,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007400315_01_i_P2.jpg",
     "title": "Court rejects adoption termination suit against LG chair",
     "link": "https://en.yna.co.kr/view/AEN20260903007400315"
+  },
+  {
+    "id": "hotnews_en_0bc837c2",
+    "date": "2026-09-03",
+    "ts": 1788417867000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090313950001300_P2.jpg",
+    "title": "Nat'l Assembly passes bill extending probe into 2022 crowd crush",
+    "link": "https://en.yna.co.kr/view/AEN20260903007300315"
   },
   {
     "id": "hotnews_en_15b3bf22",
@@ -350,53 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.dbb4f85cd70040799ee7f24e97679430_T1.jpg",
     "title": "Korea Eximbank eyes financing for Korean push into India",
     "link": "https://www.koreaherald.com/article/10861850"
-  },
-  {
-    "id": "hotnews_en_5a8a26a4",
-    "date": "2026-09-03",
-    "ts": 1788416603000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.cf71e3dc1f2949378ccf0c7d7f5eb966_T1.jpg",
-    "title": "Posco, BHP team up to advance hydrogen steelmaking",
-    "link": "https://www.koreaherald.com/article/10861849"
-  },
-  {
-    "id": "hotnews_en_3f922b7a",
-    "date": "2026-09-03",
-    "ts": 1788403324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/02/f4561a68-c0b4-4877-84bc-368950e5f1c9.jpeg",
-    "title": "Italian rock duo brings 'Little Boys' state of mind to Korea",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260903/italian-rock-duo-brings-little-boys-state-of-mind-to-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f5f6937c",
-    "date": "2026-09-03",
-    "ts": 1788403301000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903004900315_05_i_P2.jpg",
-    "title": "S. Korea steps up search for 9 missing nationals, expands humanitarian aid to Nepal",
-    "link": "https://en.yna.co.kr/view/AEN20260903004900315"
-  },
-  {
-    "id": "hotnews_en_954eda71",
-    "date": "2026-09-03",
-    "ts": 1788403046000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Interior minister says to finalize relocating agencies in 4th quarter, foreign and unification ministries also under consideration",
-    "link": "https://en.yna.co.kr/view/AEN20260903005100315"
-  },
-  {
-    "id": "hotnews_en_597499ea",
-    "date": "2026-09-03",
-    "ts": 1788402906000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/01/PYH2025100110870001300_P2.jpg",
-    "title": "S. Korea to celebrate 78th anniv. of Armed Forces Day at runway in military headquarters",
-    "link": "https://en.yna.co.kr/view/AEN20260903004700315"
-  },
-  {
-    "id": "hotnews_en_137c57d3",
-    "date": "2026-09-03",
-    "ts": 1788402897000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903004600320_05_i_P2.jpg",
-    "title": "African businesswomen find future, sustainable livelihood during trip to S. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260903004600320"
   }
 ]
