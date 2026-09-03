@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_b39626b5",
+    "date": "2026-09-03",
+    "ts": 1788395759000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090300960031500_P2.jpg",
+    "title": "คิม จองอึน เน้นย้ำความสำคัญของการศึกษาในงานประชุมครูเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260903001900315"
+  },
+  {
     "id": "hotnews_th_c36bed18",
     "date": "2026-09-02",
     "ts": 1788368352000,
@@ -390,13 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Vape-Pod.jpg",
     "title": "รองโฆษก ตร. เผยผลปราบบุหรี่ไฟฟ้า รวบผู้ต้องหา 151 ราย ยึดของกลาง 140 ล้าน",
     "link": "https://www.khaosod.co.th/crime/news_10382234"
-  },
-  {
-    "id": "hotnews_th_c96a7d11",
-    "date": "2026-09-01",
-    "ts": 1788241512000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/0-feat-728x410-1.jpg",
-    "title": "What to know about the evidence that led to Keffe D’s conviction in Tupac Shakur’s 1996 killing",
-    "link": "https://www.khaosodenglish.com/news/international/2026/09/01/what-to-know-about-the-evidence-that-led-to-keffe-ds-conviction-in-tupac-shakurs-1996-killing/"
   }
 ]

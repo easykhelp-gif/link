@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_vi_7e221edc",
+    "date": "2026-09-03",
+    "ts": 1788409130000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.615e8ddbe88a402898d0860f21c0e52a_T1.jpg",
+    "title": "OCI khởi công dự án điện mặt trời 260 MW tại Texas",
+    "link": "https://www.koreaherald.com/article/10861653"
+  },
+  {
+    "id": "hotnews_vi_e88f50c3",
+    "date": "2026-09-03",
+    "ts": 1788408831000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202412/241223020059_34_k.jpg",
+    "title": "KEPCO đề xuất Samsung và SK hynix trả trước tiền điện 5 năm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204007"
+  },
+  {
+    "id": "hotnews_vi_954eda71",
+    "date": "2026-09-03",
+    "ts": 1788403046000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc sẽ chốt kế hoạch di dời các cơ quan vào quý 4",
+    "link": "https://en.yna.co.kr/view/AEN20260903005100315"
+  },
+  {
+    "id": "hotnews_vi_791850bc",
+    "date": "2026-09-03",
+    "ts": 1788402776000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.6c7e72a5d533464582ae41e5919a5ab7_T1.jpg",
+    "title": "Hàn Quốc: Rạp phim phải hỗ trợ người khiếm thị, khiếm thính",
+    "link": "https://www.koreaherald.com/article/10861503"
+  },
+  {
+    "id": "hotnews_vi_e92fd717",
+    "date": "2026-09-03",
+    "ts": 1788401604000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.3d717e2fc45b42a29f467a8745b5b364_T1.jpg",
+    "title": "Nghi phạm giết nữ sinh Trung Quốc từng gạ gẫm sinh viên khác",
+    "link": "https://www.koreaherald.com/article/10861435"
+  },
+  {
+    "id": "hotnews_vi_644bf0f6",
+    "date": "2026-09-03",
+    "ts": 1788401372000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/18/PYH2026081814200001300_P2.jpg",
+    "title": "Nghị sĩ Jin Jong-oh kiện quyết định kỷ luật của đảng PPP",
+    "link": "https://en.yna.co.kr/view/AEN20260903003900315"
+  },
+  {
     "id": "hotnews_vi_8f4d7625",
     "date": "2026-09-02",
     "ts": 1788383823000,
@@ -350,53 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/1000013980-1788212732620522926057-0-0-480-768-crop-17882127679251881202293.jpg",
     "title": "Tai nạn mô tô phân khối lớn trên thế giới: Hai tay đua cùng giải đấu tử nạn chỉ trong 24 giờ",
     "link": "https://tuoitre.vn/tai-nan-mo-to-phan-khoi-lon-tren-the-gioi-hai-tay-dua-cung-giai-dau-tu-nan-chi-trong-24-gio-100260901044814931.htm"
-  },
-  {
-    "id": "hotnews_vi_349f0548",
-    "date": "2026-09-01",
-    "ts": 1788244320000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/29/2aoboqusuey7mqatooubgus7wg6b18ckdat5gzdi-17879900421051782736939-0-0-716-1146-crop-17879907407331236028936.jpg",
-    "title": "Khu vườn rau trái đầy màu sắc của cô gái Việt trên đất Mỹ",
-    "link": "https://thanhnien.vn/khu-vuon-rau-trai-day-mau-sac-cua-co-gai-viet-tren-dat-my-185260829151247776.htm"
-  },
-  {
-    "id": "hotnews_vi_d6dd1f45",
-    "date": "2026-09-01",
-    "ts": 1788244080000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/afp20260719c2lj4c6v1highresfblwc2026match104espargfinal-17845046380611590972379-0-0-1600-2560-crop-17881960241951699982166-0-457-857-1829-crop-1788222523137427475335.jpg",
-    "title": "Hành trình Messi - hành trình thiên tài và tình yêu vĩ đại dành cho Argentina",
-    "link": "https://tuoitre.vn/hanh-trinh-messi-hanh-trinh-thien-tai-va-tinh-yeu-vi-dai-danh-cho-argentina-10026090100090588.htm"
-  },
-  {
-    "id": "hotnews_vi_c0e56f89",
-    "date": "2026-09-01",
-    "ts": 1788243120000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/1000013977-1788208280046866550687-0-0-675-1080-crop-17882083804711350954928.jpg",
-    "title": "Số người thiệt mạng và mất tích trong lũ quét ở biên giới Nepal - Trung Quốc 'không tưởng tượng nổi'",
-    "link": "https://tuoitre.vn/so-nguoi-thiet-mang-va-mat-tich-trong-lu-quet-o-bien-gioi-nepal-trung-quoc-khong-tuong-tuong-noi-100260901033503686.htm"
-  },
-  {
-    "id": "hotnews_vi_670dfb14",
-    "date": "2026-09-01",
-    "ts": 1788242820000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/base64-17882369190921831882897-130-157-938-1449-crop-1788237230375957324444.png",
-    "title": "Jung Hae In tái xuất, gây chú ý khi đóng cặp cùng Shin Se Kyung",
-    "link": "https://thanhnien.vn/jung-hae-in-tai-xuat-gay-chu-y-khi-dong-cap-cung-shin-se-kyung-185260901113434106.htm"
-  },
-  {
-    "id": "hotnews_vi_220b10b0",
-    "date": "2026-09-01",
-    "ts": 1788242760000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/22196-17868504034511007414190-17881925417971995790757-84-81-471-701-crop-1788192645222149699197.jpg",
-    "title": "Tin tức sáng 1-9: Phường Sài Gòn gần 2,4 triệu lượt người lưu trú/năm; TP.HCM liên thông điện tử 4 thủ tục hành chính",
-    "link": "https://tuoitre.vn/tin-tuc-sang-1-9-phuong-sai-gon-gan-24-trieu-luot-nguoi-luu-tru-nam-tphcm-lien-thong-dien-tu-4-thu-tuc-hanh-chinh-100260831222833989.htm"
-  },
-  {
-    "id": "hotnews_vi_6c98846b",
-    "date": "2026-09-01",
-    "ts": 1788242700000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/tnw-1788231697421112649621018380861011264962101838086104075bd79788ab3a8e7e22b7eb5996e53-1788233276004260823703-63-0-1663-2560-crop-1788233309272670630538.jpg",
-    "title": "Quảng Ninh: Khách đi biển ít, trên bờ đông nghịt",
-    "link": "https://thanhnien.vn/quang-ninh-khach-di-bien-it-tren-bo-dong-nghit-185260901103000837.htm"
   }
 ]
