@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_th_8a659624",
+    "date": "2026-09-03",
+    "ts": 1788466294000,
+    "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903238701009_P2.jpg",
+    "title": "รอง ปธน. สหรัฐฯ เตือนอย่าพึ่งพาห่วงโซ่อุปทานจากชาติคู่แข่ง",
+    "link": "https://en.yna.co.kr/view/AEN20260904000300315"
+  },
+  {
+    "id": "hotnews_th_d8430606",
+    "date": "2026-09-03",
+    "ts": 1788440582000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/12/24/49/PCM20251224000049990_P2.jpg",
+    "title": "ช็องวาแดปฏิเสธรายงานข่าวเรื่องการส่งทหารไปยังช่องแคบฮอร์มุซ",
+    "link": "https://en.yna.co.kr/view/AEN20260903010900320"
+  },
+  {
     "id": "hotnews_th_4f9ec6b0",
     "date": "2026-09-03",
     "ts": 1788426631000,
@@ -22,6 +38,22 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007751315_01_i_P2.jpg",
     "title": "อีแจมยอง สั่งตำรวจเร่งปฏิรูป หลังรับโอนอำนาจสืบสวนทั้งหมด",
     "link": "https://en.yna.co.kr/view/AEN20260903007751315"
+  },
+  {
+    "id": "hotnews_th_70c0d49f",
+    "date": "2026-09-03",
+    "ts": 1788420709000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090315240001300_P2.jpg",
+    "title": "โค อู-ซ็อก อดีตพิชเชอร์ MLB หวนร่วมทีม LG Twins ลุยศึก KBO",
+    "link": "https://en.yna.co.kr/view/AEN20260903008800315"
+  },
+  {
+    "id": "hotnews_th_78d4cbb0",
+    "date": "2026-09-03",
+    "ts": 1788416620000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.dbb4f85cd70040799ee7f24e97679430_T1.jpg",
+    "title": "Korea Eximbank เล็งปล่อยกู้หนุนบริษัทเกาหลีขยายธุรกิจในอินเดีย",
+    "link": "https://www.koreaherald.com/article/10861850"
   },
   {
     "id": "hotnews_th_b39626b5",
@@ -366,37 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7yKfuHEQiwU.jpg",
     "title": "เกาหลีใต้ชี้ประชุมสุดยอด “ทรัมป์-คิม” อาจเกิดขึ้นได้ทุกเมื่อ พบสัญญาณสองฝ่ายเริ่มสื่อสารกัน",
     "link": "https://www.thairath.co.th/news/foreign/2956711"
-  },
-  {
-    "id": "hotnews_th_aca26e02",
-    "date": "2026-09-01",
-    "ts": 1788241943000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Volleyball.jpg",
-    "title": "อัสสัมชัญ จัดพิธีอัญเชิญถ้วยพระราชทานและงานแสดงความยินดีกับทีมวอลเลย์บอล",
-    "link": "https://www.khaosod.co.th/sports/news_10382294"
-  },
-  {
-    "id": "hotnews_th_12c694a4",
-    "date": "2026-09-01",
-    "ts": 1788241812000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/08/16-9-Red-46.jpg",
-    "title": "ข่าวสดมิวสิค วง ASIA7 ปล่อยความอัดอั้นในใจ ส่ง ‘WHO YOU ARE?(ตะโกน!)’",
-    "link": "https://www.khaosod.co.th/entertainment/news_10381266"
-  },
-  {
-    "id": "hotnews_th_d7401abf",
-    "date": "2026-09-01",
-    "ts": 1788241786000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Muay-THAI.jpg",
-    "title": "เจาะใจ ‘พล.ต.พัชร รัตตกุล’ ปธ.ขับเคลื่อน มวยไทย กางโร้ดแมปสู่ โอลิมปิก 2032",
-    "link": "https://www.khaosod.co.th/sports/news_10382281"
-  },
-  {
-    "id": "hotnews_th_b4961e74",
-    "date": "2026-09-01",
-    "ts": 1788241694000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7uyaUxDTGM9.jpg",
-    "title": "“เดชรัต” ลุยหาเสียงนนทบุรี ชูนโยบายยกระดับเกษตรกร",
-    "link": "https://www.thairath.co.th/news/politic/2956712"
   }
 ]

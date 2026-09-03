@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_b16c6c1e",
+    "date": "2026-09-03",
+    "ts": 1788470823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/246c2cc5-072b-4032-a648-1df19be223fa.jpg",
+    "title": "Kim Keum-hwa: Cuộc đời pháp sư huyền thoại của Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/who-was-kim-keum-hwa?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_cbc2b7f9",
+    "date": "2026-09-03",
+    "ts": 1788470823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/08/02/bd4fa4ec-3c15-4190-a5cf-b2bf7880d26e.jpeg",
+    "title": "Tín ngưỡng pháp sư Hàn Quốc ngày càng lan rộng ra toàn cầu",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/korean-shamanism-spreads-far-beyond-its-homeland?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_037fe4e5",
+    "date": "2026-09-03",
+    "ts": 1788470743000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904000500315_02_i_P2.jpg",
+    "title": "Hàn Quốc đàm phán với Mỹ để không chịu bất lợi về thuế chip",
+    "link": "https://en.yna.co.kr/view/AEN20260904000500315"
+  },
+  {
     "id": "hotnews_vi_ab80edb9",
     "date": "2026-09-03",
     "ts": 1788436322000,
@@ -46,6 +70,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090317970001300_P2.jpg",
     "title": "Thiền sư Jinwoo tái đắc cử người đứng đầu tông phái Jogye",
     "link": "https://en.yna.co.kr/view/AEN20260903007551315"
+  },
+  {
+    "id": "hotnews_vi_064a37b5",
+    "date": "2026-09-03",
+    "ts": 1788419229000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007200315_01_i_P2.jpg",
+    "title": "Khám xét công ty hóa chất sau vụ cháy nhà máy ở Cheonan",
+    "link": "https://en.yna.co.kr/view/AEN20260903007200315"
   },
   {
     "id": "hotnews_vi_2c4e4f60",
@@ -366,37 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/o-to-mini-thanh-tiem-pizza-di-dong-1788222729430786983979-296-538-1084-1798-crop-17882228034981125280868-2-41-738-1218-crop-17882228218591317071157.jpg",
     "title": "Biến ô tô mini thành tiệm pizza di động, mỗi tháng thu hơn 300 triệu",
     "link": "https://tuoitre.vn/bien-o-to-mini-thanh-tiem-pizza-di-dong-moi-thang-thu-hon-300-trieu-100260831230747551.htm"
-  },
-  {
-    "id": "hotnews_vi_688d9bec",
-    "date": "2026-09-01",
-    "ts": 1788245340000,
-    "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/afp20260513b2nz9g6v1midresusiranisraelwar-17882451595701162083017-0-113-675-1193-crop-17882452396891970454986.jpg",
-    "title": "Tàu sân bay Mỹ sắp cập cảng, Thái Lan tăng truy quét mại dâm",
-    "link": "https://thanhnien.vn/tau-san-bay-my-sap-cap-cang-thai-lan-tang-truy-quet-mai-dam-185260901134900357.htm"
-  },
-  {
-    "id": "hotnews_vi_c11639f0",
-    "date": "2026-09-01",
-    "ts": 1788245280000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/bao-so-5-saudel-17882168264342004013611-73-487-990-1954-crop-1788216867515749428531.png",
-    "title": "Bão Saudel tái sinh, trở thành cơn bão số 5 trên Biển Đông",
-    "link": "https://tuoitre.vn/bao-saudel-tai-sinh-tro-thanh-con-bao-so-5-tren-bien-dong-100260901055826699.htm"
-  },
-  {
-    "id": "hotnews_vi_53c48b76",
-    "date": "2026-09-01",
-    "ts": 1788245160000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/17881782950355920443274427257023g445558863596141037171b61ee702544c4e0130e1bc90d570b1-1788178504256169003412-68-0-1348-2048-crop-17882185894241074467142.jpg",
-    "title": "Cổ động viên Đông Nam Á sốc với thất bại của U20 Việt Nam",
-    "link": "https://tuoitre.vn/co-dong-vien-dong-nam-a-soc-voi-that-bai-cua-u20-viet-nam-100260901062225928.htm"
-  },
-  {
-    "id": "hotnews_vi_63d5bf86",
-    "date": "2026-09-01",
-    "ts": 1788245100000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/476429048-1720758208858388-9063620016424950668-n-17881594495371643166806-130-0-1380-2000-crop-1788159460265836529587-191-322-1168-1884-crop-17882225836602034300225.jpg",
-    "title": "Nghỉ lễ 2-9 về miền Tây tắm biển hoang sơ, thưởng thức cà phê giữa rừng đước",
-    "link": "https://tuoitre.vn/nghi-le-2-9-ve-mien-tay-tam-bien-hoang-so-thuong-thuc-ca-phe-giua-rung-duoc-100260831140041907.htm"
   }
 ]

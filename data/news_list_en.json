@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_8a659624",
+    "date": "2026-09-03",
+    "ts": 1788466294000,
+    "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903238701009_P2.jpg",
+    "title": "Vance warns against relying on 'brittle,' 'adversarial' countries for supply chains",
+    "link": "https://en.yna.co.kr/view/AEN20260904000300315"
+  },
+  {
+    "id": "hotnews_en_52b994d2",
+    "date": "2026-09-03",
+    "ts": 1788461982000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904000200315_01_i_P2.jpg",
+    "title": "Expert says Trump may not have problem acknowledging N.K. nuke possession",
+    "link": "https://en.yna.co.kr/view/AEN20260904000200315"
+  },
+  {
+    "id": "hotnews_en_8f01b37c",
+    "date": "2026-09-03",
+    "ts": 1788445627000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.9c58a4b7340a4a079be45fb09784f8c3_T1.jpeg",
+    "title": "Cheong Wa Dae denies report of possible troop deployment to",
+    "link": "https://www.koreaherald.com/article/10862253"
+  },
+  {
     "id": "hotnews_en_d8430606",
     "date": "2026-09-03",
     "ts": 1788440582000,
@@ -280,6 +304,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260903009000315"
   },
   {
+    "id": "hotnews_en_8136b980",
+    "date": "2026-09-03",
+    "ts": 1788420805000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.45207e12b9ef444bb36044d5d8b5153a_T1.jpg",
+    "title": "On this day in Korea - September 4, 1994: Taekwondo becomes Olympic sport",
+    "link": "https://www.koreaherald.com/article/10862010"
+  },
+  {
     "id": "hotnews_en_4a015ee3",
     "date": "2026-09-03",
     "ts": 1788420723000,
@@ -366,37 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.739c8b53dca94caf8a46a953799e1829_T1.jpg",
     "title": "Hybe Chairman Bang Si-hyuk referred to prosecutors over alleged unfair trading",
     "link": "https://www.koreaherald.com/article/10861895"
-  },
-  {
-    "id": "hotnews_en_34f4d9e5",
-    "date": "2026-09-03",
-    "ts": 1788417338000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.d21521c93fd145f4a4beaf8844f6626e_T1.jpg",
-    "title": "Coachella reportedly pursuing BTS for 2027 lineup",
-    "link": "https://www.koreaherald.com/article/10861892"
-  },
-  {
-    "id": "hotnews_en_c2481a6a",
-    "date": "2026-09-03",
-    "ts": 1788417014000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/rcv.YNA.20260903.PYH2026090305640001300_T1.jpg",
-    "title": "New acting police chief apologizes over botched cases, vows sweeping reforms",
-    "link": "https://www.koreaherald.com/article/10861872"
-  },
-  {
-    "id": "hotnews_en_7db3d8a0",
-    "date": "2026-09-03",
-    "ts": 1788416765000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260903121214_33_k.jpg",
-    "title": "Naver Cloud Consortium Picked to Develop AI Foundation Model for Cybersecurity",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204013"
-  },
-  {
-    "id": "hotnews_en_78d4cbb0",
-    "date": "2026-09-03",
-    "ts": 1788416620000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.dbb4f85cd70040799ee7f24e97679430_T1.jpg",
-    "title": "Korea Eximbank eyes financing for Korean push into India",
-    "link": "https://www.koreaherald.com/article/10861850"
   }
 ]
