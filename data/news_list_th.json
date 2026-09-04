@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_b5426716",
+    "date": "2026-09-04",
+    "ts": 1788505534000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904040618_2_k.jpg",
+    "title": "ดัชนี KOSPI ปรับตัวขึ้น 1.64% ในวันศุกร์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204030"
+  },
+  {
     "id": "hotnews_th_9f30fba4",
     "date": "2026-09-04",
     "ts": 1788493022000,
@@ -390,13 +398,5 @@
     "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKWpakSZ30wB7cG.jpg",
     "title": "ยึดโบท็อกซ์ ฟิลเลอร์เถื่อน ซุกคอนโดฯ ย่านวังทองหลาง ส่งขายตามออเดอร์",
     "link": "https://www.thairath.co.th/news/crime/2956689"
-  },
-  {
-    "id": "hotnews_th_74e47b6e",
-    "date": "2026-09-01",
-    "ts": 1788242873000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/1-chai.jpg",
-    "title": "ครม.เคาะแล้ว ตั้ง พล.อ.ชัยพฤกษ์ ข้ามห้วยจาก เสธ.ทบ. นั่งเลขาธิการ สมช.คนใหม่",
-    "link": "https://www.khaosod.co.th/politics/news_10382333"
   }
 ]

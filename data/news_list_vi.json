@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_vi_9ff95acb",
+    "date": "2026-09-04",
+    "ts": 1788514742000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904065931_47_e.jpg",
+    "title": "Cần cẩu đổ trên xà lan gần Jeju, 1 người tử vong",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204040"
+  },
+  {
     "id": "hotnews_vi_3f3c9b37",
     "date": "2026-09-04",
     "ts": 1788495849000,
@@ -390,13 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/kim5078-17882161351011525273212-139-296-1461-2411-crop-17882165219421398216923.jpg",
     "title": "Bảo Ngọc vào top 24 Beauty With a Purpose, mở cơ hội vào top 6 Miss World 2026",
     "link": "https://tuoitre.vn/bao-ngoc-vao-top-24-beauty-with-a-purpose-mo-co-hoi-vao-top-6-miss-world-2026-100260901055059246.htm"
-  },
-  {
-    "id": "hotnews_vi_bd6144fb",
-    "date": "2026-09-01",
-    "ts": 1788247440000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/tbt-ctn3-1787575460903744735176-0-65-378-669-crop-17882260849561010694852-17-0-371-567-crop-17882261003271393404804.jpg",
-    "title": "Bộ Chính trị: Đến 2030, TP.HCM là trung tâm tài chính quốc tế, phát triển ngang tầm các thành phố lớn châu Á",
-    "link": "https://tuoitre.vn/bo-chinh-tri-den-2030-tphcm-la-trung-tam-tai-chinh-quoc-te-phat-trien-ngang-tam-cac-thanh-pho-lon-chau-a-100260901070150453.htm"
   }
 ]
