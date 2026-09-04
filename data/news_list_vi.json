@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_vi_3f3c9b37",
+    "date": "2026-09-04",
+    "ts": 1788495849000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.6dec72751fb14e39900c25bfbf663fdb_T1.jpg",
+    "title": "Diễn viên Ansel Elgort gây tranh cãi vì mặc yukata tại Seoul",
+    "link": "https://www.koreaherald.com/article/10862926"
+  },
+  {
+    "id": "hotnews_vi_349cb19e",
+    "date": "2026-09-04",
+    "ts": 1788485907000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.b743e1a382bb41a0bf8e5f455394d74f_T1.jpg",
+    "title": "HLV tạm quyền tuyển bóng đá Hàn Quốc hứa chứng minh trên sân cỏ",
+    "link": "https://www.koreaherald.com/article/10862644"
+  },
+  {
     "id": "hotnews_vi_b16c6c1e",
     "date": "2026-09-03",
     "ts": 1788470823000,
@@ -382,21 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/tbt-ctn3-1787575460903744735176-0-65-378-669-crop-17882260849561010694852-17-0-371-567-crop-17882261003271393404804.jpg",
     "title": "Bộ Chính trị: Đến 2030, TP.HCM là trung tâm tài chính quốc tế, phát triển ngang tầm các thành phố lớn châu Á",
     "link": "https://tuoitre.vn/bo-chinh-tri-den-2030-tphcm-la-trung-tam-tai-chinh-quoc-te-phat-trien-ngang-tam-cac-thanh-pho-lon-chau-a-100260901070150453.htm"
-  },
-  {
-    "id": "hotnews_vi_26f9e56d",
-    "date": "2026-09-01",
-    "ts": 1788245400000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/1000013981-17882154621511796415471-50-0-800-1200-crop-1788215503402953787971.jpg",
-    "title": "Tin tức thế giới 1-9: Ông Trump nhận phán quyết có lợi; Ukraine chuẩn bị cho khả năng Nga tấn công lớn",
-    "link": "https://tuoitre.vn/tin-tuc-the-gioi-1-9-ong-trump-nhan-phan-quyet-co-loi-ukraine-chuan-bi-cho-kha-nang-nga-tan-cong-lon-100260901053259614.htm"
-  },
-  {
-    "id": "hotnews_vi_95584210",
-    "date": "2026-09-01",
-    "ts": 1788245340000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/o-to-mini-thanh-tiem-pizza-di-dong-1788222729430786983979-296-538-1084-1798-crop-17882228034981125280868-2-41-738-1218-crop-17882228218591317071157.jpg",
-    "title": "Biến ô tô mini thành tiệm pizza di động, mỗi tháng thu hơn 300 triệu",
-    "link": "https://tuoitre.vn/bien-o-to-mini-thanh-tiem-pizza-di-dong-moi-thang-thu-hon-300-trieu-100260831230747551.htm"
   }
 ]

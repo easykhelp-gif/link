@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_th_9f30fba4",
+    "date": "2026-09-04",
+    "ts": 1788493022000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/b2f526e4-6500-4996-8351-0964b477215c.jpeg",
+    "title": "ม.ฮันกุก (HUFS) คว้าทุนวิจัยด้านตะวันออกกลาง 1.2 หมื่นล้านวอน",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260904/hufs-institute-of-middle-east-studies-selected-for-research-project-under-humanities-korea-grant-program?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7d0743b2",
+    "date": "2026-09-04",
+    "ts": 1788488730000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.e66d54fe8a184f36ac3b6dd9d50da5cf_T1.jpg",
+    "title": "ผู้นำ Samsung และ SK เตรียมพบซีอีโอ Nvidia ที่นิวยอร์ก",
+    "link": "https://www.koreaherald.com/article/10862798"
+  },
+  {
+    "id": "hotnews_th_d76c8238",
+    "date": "2026-09-04",
+    "ts": 1788484850000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904003000315_02_i_P2.jpg",
+    "title": "งาน Gwangju Biennale ครั้งที่ 16 เปิดฉากสุดสัปดาห์นี้ จัดแสดง 72 วัน",
+    "link": "https://en.yna.co.kr/view/AEN20260904003000315"
+  },
+  {
     "id": "hotnews_th_8a659624",
     "date": "2026-09-03",
     "ts": 1788466294000,
@@ -374,29 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/1-chai.jpg",
     "title": "ครม.เคาะแล้ว ตั้ง พล.อ.ชัยพฤกษ์ ข้ามห้วยจาก เสธ.ทบ. นั่งเลขาธิการ สมช.คนใหม่",
     "link": "https://www.khaosod.co.th/politics/news_10382333"
-  },
-  {
-    "id": "hotnews_th_a3ed445c",
-    "date": "2026-09-01",
-    "ts": 1788242302000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/1-south.jpg",
-    "title": "ศอ.บต. เผยนายกฯ หนุนเมกะโปรเจกต์ อัดซอฟต์โลน-แก้แผนเยียวยาชายแดนใต้",
-    "link": "https://www.khaosod.co.th/politics/news_10382306"
-  },
-  {
-    "id": "hotnews_th_e50ba6a3",
-    "date": "2026-09-01",
-    "ts": 1788242199000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/d.jpg",
-    "title": "เชอรี่ กรุ๊ป เร่งสร้างความเชื่อมั่น จัดเต็มอีโคซิสเต็มด้านบริการ",
-    "link": "https://www.khaosod.co.th/car-vehicle/news_10382266"
-  },
-  {
-    "id": "hotnews_th_d399eb4c",
-    "date": "2026-09-01",
-    "ts": 1788241988000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7yKfuHEQiwU.jpg",
-    "title": "เกาหลีใต้ชี้ประชุมสุดยอด “ทรัมป์-คิม” อาจเกิดขึ้นได้ทุกเมื่อ พบสัญญาณสองฝ่ายเริ่มสื่อสารกัน",
-    "link": "https://www.thairath.co.th/news/foreign/2956711"
   }
 ]
