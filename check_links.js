@@ -54,8 +54,12 @@ htmlFiles.forEach(file => {
       targetPath = path.resolve(path.dirname(file), linkUrl);
     }
 
-    // Split anchor tags from paths
-    targetPath = targetPath.split('#')[0];
+    // Split anchor tags and query strings from paths
+    //
+    // 쿼리스트링을 안 떼면 파일 이름에 ?utm_source=... 가 붙어 항상 없다고 나온다.
+    // UTM 을 단 단축 링크 4건(s/hb, s/tf, s/tt, s/vf)이 이 때문에 가짜 404 로
+    // 잡혔다 — 라이브는 전부 200 이었다. 진짜 깨진 링크가 이 소음에 묻힌다.
+    targetPath = targetPath.split('#')[0].split('?')[0];
     
     try {
       const stat = fs.statSync(targetPath);
