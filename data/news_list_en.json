@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_c5c13c53",
+    "date": "2026-09-04",
+    "ts": 1788527007000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.9b2d2ee17e68430d9a4e299d18ca9326_T1.jpg",
+    "title": "Koyote to launch North American tour in November",
+    "link": "https://www.koreaherald.com/article/10863416"
+  },
+  {
+    "id": "hotnews_en_7702a010",
+    "date": "2026-09-04",
+    "ts": 1788526561000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.97ecde47330e4b7faa28447aff8ca485_T1.jpeg",
+    "title": "Rapper Bryn signs with Ne-Yo’s PMG Korea",
+    "link": "https://www.koreaherald.com/article/10863415"
+  },
+  {
+    "id": "hotnews_en_bf1fca11",
+    "date": "2026-09-04",
+    "ts": 1788526019000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.9c03dd28bbf04014ba959ea40253bc6e_T1.jpg",
+    "title": "Mexican president hints at K-pop group joining Lee this month",
+    "link": "https://www.koreaherald.com/article/10863410"
+  },
+  {
+    "id": "hotnews_en_02f0b712",
+    "date": "2026-09-04",
+    "ts": 1788525000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904002500320_03_i_P2.jpg",
+    "title": "Samsung Electronics, LG Electronics win 11 innovation awards at IFA 2026",
+    "link": "https://en.yna.co.kr/view/AEN20260904002500320"
+  },
+  {
+    "id": "hotnews_en_7daac4bb",
+    "date": "2026-09-04",
+    "ts": 1788523939000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904012100315_01_i_P2.jpg",
+    "title": "Foreign ministry lifts travel alerts for parts of Thailand, 3 other countries",
+    "link": "https://en.yna.co.kr/view/AEN20260904012100315"
+  },
+  {
+    "id": "hotnews_en_9e0fd209",
+    "date": "2026-09-04",
+    "ts": 1788523539000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.20e7d21479994248b397134d6d2899ec_T1.jpg",
+    "title": "Lisa says she hid past relationships as K-pop star",
+    "link": "https://www.koreaherald.com/article/10863398"
+  },
+  {
     "id": "hotnews_en_c0ba434a",
     "date": "2026-09-04",
     "ts": 1788517624000,
@@ -120,6 +168,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204037"
   },
   {
+    "id": "hotnews_en_0357bcfa",
+    "date": "2026-09-04",
+    "ts": 1788511807000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902110343_22_k.jpg",
+    "title": "Police Seek Ways to Revamp Missing Persons Investigations",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204036"
+  },
+  {
     "id": "hotnews_en_cc06d612",
     "date": "2026-09-04",
     "ts": 1788511185000,
@@ -232,6 +288,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204033"
   },
   {
+    "id": "hotnews_en_f68623f9",
+    "date": "2026-09-04",
+    "ts": 1788507747000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260901083731_19_k.jpg",
+    "title": "Special Counsel Team Appeals for Tougher Sentence for Unification Church Leader",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204032"
+  },
+  {
     "id": "hotnews_en_e292c1f9",
     "date": "2026-09-04",
     "ts": 1788507497000,
@@ -254,6 +318,22 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904009900320_01_i_P2.jpg",
     "title": "S. Korean won climbs to fresh 14-month high, coupled with strength of Japanese yen",
     "link": "https://en.yna.co.kr/view/AEN20260904009900320"
+  },
+  {
+    "id": "hotnews_en_7afebf28",
+    "date": "2026-09-04",
+    "ts": 1788506689000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902112004_14_k.jpg",
+    "title": "Moreno Vows Effort, Honesty, Respect as New Coach for S. Korea's Football Team",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204031"
+  },
+  {
+    "id": "hotnews_en_5d972105",
+    "date": "2026-09-04",
+    "ts": 1788505836000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090408450005400_P2.jpg",
+    "title": "Gwangju Biennale chief regrets China's withdrawal over Taiwan row",
+    "link": "https://en.yna.co.kr/view/AEN20260904008451315"
   },
   {
     "id": "hotnews_en_861640e5",
@@ -304,99 +384,19 @@
     "link": "https://en.yna.co.kr/view/AEN20260904007300315"
   },
   {
+    "id": "hotnews_en_85370cde",
+    "date": "2026-09-04",
+    "ts": 1788505212000,
+    "image": "",
+    "title": "Summary of domestic news in North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20260904007500315"
+  },
+  {
     "id": "hotnews_en_484536d6",
     "date": "2026-09-04",
     "ts": 1788505201000,
     "image": "",
     "title": "Key developments on North Korea this week",
     "link": "https://en.yna.co.kr/view/AEN20260904007200315"
-  },
-  {
-    "id": "hotnews_en_9945f4ed",
-    "date": "2026-09-04",
-    "ts": 1788504389000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904008600315_01_i_P2.jpg",
-    "title": "Samsung Electronics union leaders under probe over 'union blacklist'",
-    "link": "https://en.yna.co.kr/view/AEN20260904008600315"
-  },
-  {
-    "id": "hotnews_en_8c09a780",
-    "date": "2026-09-04",
-    "ts": 1788504273000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904008700315_01_i_P2.jpg",
-    "title": "Special counsel appeals Unification Church leader's sentence in bribery case",
-    "link": "https://en.yna.co.kr/view/AEN20260904008700315"
-  },
-  {
-    "id": "hotnews_en_9f30fba4",
-    "date": "2026-09-04",
-    "ts": 1788489724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/b2f526e4-6500-4996-8351-0964b477215c.jpeg",
-    "title": "HUFS Institute of Middle East Studies selected for research project under Humanities Korea Grant program",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260904/hufs-institute-of-middle-east-studies-selected-for-research-project-under-humanities-korea-grant-program?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b16c6c1e",
-    "date": "2026-09-04",
-    "ts": 1788489724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/246c2cc5-072b-4032-a648-1df19be223fa.jpg",
-    "title": "Who was Kim Keum-hwa?",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/who-was-kim-keum-hwa?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_281aa742",
-    "date": "2026-09-04",
-    "ts": 1788489724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/25080d3a-cab6-4e79-afe1-a6b0f59502c8.png",
-    "title": "Korean shamanism terms",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/korean-shamanism-terms?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_fee2b7bb",
-    "date": "2026-09-04",
-    "ts": 1788489724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/02/bd4fa4ec-3c15-4190-a5cf-b2bf7880d26e.jpeg",
-    "title": "[WEEKENDER] Korean shamanism spreads far beyond its homeland",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/weekender-korean-shamanism-spreads-far-beyond-its-homeland?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e00fee81",
-    "date": "2026-09-04",
-    "ts": 1788489567000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.669d60ef03184f5ba46dae2f4771427a_T1.jpg",
-    "title": "Seoul bus union threatens Sept. 16 strike over wage dispute",
-    "link": "https://www.koreaherald.com/article/10862856"
-  },
-  {
-    "id": "hotnews_en_3428e5d2",
-    "date": "2026-09-04",
-    "ts": 1788489343000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090405170001300_P2.jpg",
-    "title": "Seoul stocks trade higher late Fri. morning on risk appetite",
-    "link": "https://en.yna.co.kr/view/AEN20260904006000320"
-  },
-  {
-    "id": "hotnews_en_b32aa993",
-    "date": "2026-09-04",
-    "ts": 1788488843000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.67ffebee5f9e43c588f0a6433efb9daf_T1.jpg",
-    "title": "Devsisters expands CookieRun Card Game into Europe",
-    "link": "https://www.koreaherald.com/article/10862807"
-  },
-  {
-    "id": "hotnews_en_7d0743b2",
-    "date": "2026-09-04",
-    "ts": 1788488730000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.e66d54fe8a184f36ac3b6dd9d50da5cf_T1.jpg",
-    "title": "From Seoul to New York: Chip ‘kkanbu’ meet again",
-    "link": "https://www.koreaherald.com/article/10862798"
-  },
-  {
-    "id": "hotnews_en_28e2f16f",
-    "date": "2026-09-04",
-    "ts": 1788488690000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904005800315_01_i_P2.jpg",
-    "title": "Presidential office says no decision reached on troop deployment to Hormuz; review ongoing",
-    "link": "https://en.yna.co.kr/view/AEN20260904005800315"
   }
 ]
