@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_4c1d57fe",
+    "date": "2026-09-05",
+    "ts": 1788615759000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905000653315_01_i_P2.jpg",
+    "title": "FM Cho arrives in Nepal for ministerial talks on massive flood response",
+    "link": "https://en.yna.co.kr/view/AEN20260905000653315"
+  },
+  {
+    "id": "hotnews_en_7c899751",
+    "date": "2026-09-05",
+    "ts": 1788613467000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/05/PYH2026090505120001300_P2.jpg",
+    "title": "Fireworks show lights up Seoul skies",
+    "link": "https://en.yna.co.kr/view/AEN20260905000751315"
+  },
+  {
+    "id": "hotnews_en_c307ca2d",
+    "date": "2026-09-05",
+    "ts": 1788606608000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905002100315_01_i_P2.jpg",
+    "title": "Taiwan Pavilion opens at Gwangju Biennale amid naming controversy",
+    "link": "https://en.yna.co.kr/view/AEN20260905002100315"
+  },
+  {
     "id": "hotnews_en_6d0ff0e7",
     "date": "2026-09-05",
     "ts": 1788601922000,
@@ -86,6 +110,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260905040428_75_e.jpg",
     "title": "South Korea's Exports Surpass Last Year's Total, On Pace for $1 Trillion by December",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204049"
+  },
+  {
+    "id": "hotnews_en_77ddc6db",
+    "date": "2026-09-05",
+    "ts": 1788590112000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260905033905_3_e.jpg",
+    "title": "Man Sentenced to 5 Yrs. for Spying for N. Korean Agent",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204048"
   },
   {
     "id": "hotnews_en_70aae6cb",
@@ -224,6 +256,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260905000800315"
   },
   {
+    "id": "hotnews_en_dd5de021",
+    "date": "2026-09-05",
+    "ts": 1788570973000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/05/news-p.v1.20260905.bba1a6229a944721ada2e9b1ce0e8c15_T1.jpg",
+    "title": "Industry minister urges US to ease tariffs on hard-to-source steel mill equipment",
+    "link": "https://www.koreaherald.com/article/10863497"
+  },
+  {
     "id": "hotnews_en_42ddf9db",
     "date": "2026-09-05",
     "ts": 1788569976000,
@@ -358,45 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/04/19a8d0d8-2d7d-484f-9e18-5baf01160b54.jpeg",
     "title": "Seoul to hold cleanup festival at Han River park for Resource Circulation Day",
     "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260904/seoul-to-hold-cleanup-festival-at-han-river-park-for-resource-circulation-day?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_413d6ca9",
-    "date": "2026-09-04",
-    "ts": 1788517624000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/88ca4fee-4ab4-4728-ac59-84b8986b2287.jpeg",
-    "title": "Kookmin University-led consortium signs partnership agreement with Qatari sustainability R&D organization",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260904/kookmin-university-led-consortium-signs-partnership-agreement-with-qatari-sustainability-rd-organization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_661ba57f",
-    "date": "2026-09-04",
-    "ts": 1788517624000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/3e350108-b28b-4b89-a086-e946e4f30b93.jpg",
-    "title": "Maritime patrol aircraft, support ship among Korea's options for Strait of Hormuz mission",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260904/maritime-patrol-aircraft-support-ship-among-koreas-options-for-strait-of-hormuz-mission?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b0102933",
-    "date": "2026-09-04",
-    "ts": 1788516867000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904022841_7_k.jpg",
-    "title": "S. Korean Disaster Relief Team Focusing Search on Possible Evacuation Routes for Missing 9",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204041"
-  },
-  {
-    "id": "hotnews_en_1ff1a6e8",
-    "date": "2026-09-04",
-    "ts": 1788516572000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090415390001300_P2.jpg",
-    "title": "3 ex-prosecutors, 1 former judge shortlisted for new investigative agency chief",
-    "link": "https://en.yna.co.kr/view/AEN20260904012000315"
-  },
-  {
-    "id": "hotnews_en_9ff95acb",
-    "date": "2026-09-04",
-    "ts": 1788514742000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904065931_47_e.jpg",
-    "title": "1 Dead after Crane Topples on Barge near Jeju due to Strong Winds",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204040"
   }
 ]
