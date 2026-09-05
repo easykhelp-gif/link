@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_51ba7537",
+    "date": "2026-09-05",
+    "ts": 1788637923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/c89e4577-0440-4d65-a133-d9327a109552.jpeg",
+    "title": "Young Koreans turn to court auctions as Seoul prices soar",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260906/young-koreans-turn-to-court-auctions-as-seoul-prices-soar?utm_source=rss"
+  },
+  {
     "id": "hotnews_en_4c1d57fe",
     "date": "2026-09-05",
     "ts": 1788615759000,
@@ -14,6 +22,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/05/PYH2026090505120001300_P2.jpg",
     "title": "Fireworks show lights up Seoul skies",
     "link": "https://en.yna.co.kr/view/AEN20260905000751315"
+  },
+  {
+    "id": "hotnews_en_120cb510",
+    "date": "2026-09-05",
+    "ts": 1788612019000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905000652315_01_i_P2.jpg",
+    "title": "FM Cho to visit Nepal for ministerial talks on massive flood response",
+    "link": "https://en.yna.co.kr/view/AEN20260905000652315"
   },
   {
     "id": "hotnews_en_c307ca2d",
@@ -264,6 +280,14 @@
     "link": "https://www.koreaherald.com/article/10863497"
   },
   {
+    "id": "hotnews_en_e4faa883",
+    "date": "2026-09-05",
+    "ts": 1788570715000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/05/news-p.v1.20260905.0e89126164c94adea8fb2bcca31e348d_T1.jpg",
+    "title": "Hyundai Steel kicks off $5.8b Louisiana steel mill",
+    "link": "https://www.koreaherald.com/article/10863495"
+  },
+  {
     "id": "hotnews_en_42ddf9db",
     "date": "2026-09-05",
     "ts": 1788569976000,
@@ -374,29 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/04/ff456bbe-0e4b-4ac1-8d04-4e82a215548a.jpeg",
     "title": "Would longer school days keep kids out of private academies? Korea weighs controversial fix",
     "link": "https://www.koreatimes.co.kr/southkorea/education/20260904/would-longer-school-days-keep-kids-out-of-private-academies-korea-weighs-controversial-fix?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_05e98327",
-    "date": "2026-09-04",
-    "ts": 1788517624000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/b4b321dc-d009-4416-89bc-7e741d7aa1bd.jpeg",
-    "title": "Concerts, traditional architecture headline autumn festival at Bukseoul Dream Forest",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260904/concerts-traditional-architecture-headline-autumn-festival-at-bukseoul-dream-forest?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e5bdaf1c",
-    "date": "2026-09-04",
-    "ts": 1788517624000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/c83f2972-4a52-4f91-863c-87cb51cdb65a.jpeg",
-    "title": "Seoul upcycling event gives discarded items second lives",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260904/seoul-upcycling-event-gives-discarded-items-second-lives?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e725527e",
-    "date": "2026-09-04",
-    "ts": 1788517624000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/19a8d0d8-2d7d-484f-9e18-5baf01160b54.jpeg",
-    "title": "Seoul to hold cleanup festival at Han River park for Resource Circulation Day",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260904/seoul-to-hold-cleanup-festival-at-han-river-park-for-resource-circulation-day?utm_source=rss"
   }
 ]
