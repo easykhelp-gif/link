@@ -233,6 +233,31 @@ const newsArchive = require('./news_archive');
 
 function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// 한 회차가 94~200분 걸린다. 어디서 그 시간을 쓰는지 모른 채로 두 번 고쳤고
+// 두 번 다 빗나갔다 (2026-09-05: 호출 간격 4.5초→9초, 소요 변화 없음).
+// 추측을 멈추고 구간별로 실제 시간을 잰다. 끝에 한 줄로 찍는다.
+const T = { rss: 0, article: 0, api: 0, retry: 0, sleep: 0 };
+const N = { rss: 0, article: 0, api: 0, retry: 0, sleep: 0 };
+async function timed(bucket, fn) {
+  const s = Date.now();
+  try { return await fn(); }
+  finally { T[bucket] += Date.now() - s; N[bucket]++; }
+}
+function timingReport(totalMs) {
+  const m = ms => (ms / 60000).toFixed(1) + '분';
+  const known = T.rss + T.article + T.api + T.retry + T.sleep;
+  console.log('');
+  console.log('── 구간별 소요 ──────────────────────────');
+  console.log(`  RSS 수집        ${m(T.rss).padStart(8)}   ${N.rss}회`);
+  console.log(`  기사 본문 받기   ${m(T.article).padStart(8)}   ${N.article}회`);
+  console.log(`  Gemini 호출     ${m(T.api).padStart(8)}   ${N.api}회`);
+  console.log(`  한도 재시도 대기 ${m(T.retry).padStart(8)}   ${N.retry}회`);
+  console.log(`  호출 간격 대기   ${m(T.sleep).padStart(8)}   ${N.sleep}회`);
+  console.log(`  그 밖(파일·가공) ${m(Math.max(0, totalMs - known)).padStart(8)}`);
+  console.log(`  합계            ${m(totalMs).padStart(8)}`);
+  console.log('─────────────────────────────────────────');
+}
+
 // 요약 한 건. 호출 한도에 걸리면 잠깐 쉬었다 다시 시도하고,
 // 모델이 은퇴했으면(404) 대체 모델로 한 번 더 시도한다.
 async function summarizeOnce(ai, prompt) {
@@ -242,7 +267,7 @@ async function summarizeOnce(ai, prompt) {
   for (const model of models) {
     for (let attempt = 0; attempt <= GEMINI.RETRY; attempt++) {
       try {
-        const res = await ai.models.generateContent({ model, contents: prompt });
+        const res = await timed('api', () => ai.models.generateContent({ model, contents: prompt }));
         if (res && res.text) {
           if (model !== GEMINI.MODEL) {
             console.warn(`[모델 대체] ${GEMINI.MODEL} 실패 → ${model} 로 성공. gemini_config.js 를 고칠 것.`);
@@ -255,7 +280,7 @@ async function summarizeOnce(ai, prompt) {
         const msg = String((e && e.message) || e);
         // 호출 한도 — 쉬었다 다시
         if (/429|RESOURCE_EXHAUSTED|rate limit|quota/i.test(msg) && attempt < GEMINI.RETRY) {
-          await new Promise(r => setTimeout(r, GEMINI.RETRY_WAIT_MS));
+          await timed('retry', () => delay(GEMINI.RETRY_WAIT_MS));
           continue;
         }
         // 모델이 없음 — 다음 모델로
@@ -652,7 +677,7 @@ async function runPipeline() {
     let summarizedThisLang = 0;
     let combinedItems = [];
     for (const feedUrl of RSS_FEEDS[lang]) {
-      const xml = await fetchUrl(feedUrl);
+      const xml = await timed('rss', () => fetchUrl(feedUrl));
       const items = parseXmlItems(xml);
       // 어느 매체에서 왔는지 달아 둔다. 교차검증에 쓴다.
       const source = new URL(feedUrl).hostname.replace(/^www\./, '');
@@ -725,7 +750,7 @@ async function runPipeline() {
           summarizeSkipped++;
         } else if (process.env.GEMINI_API_KEY) {
           try {
-            const htmlContent = await fetchUrl(item.link);
+            const htmlContent = await timed('article', () => fetchUrl(item.link));
             // script·style 을 먼저 걷어낸다. 이걸 안 하면 태국 thairath 처럼
             // <p> 안에 CSS 가 통째로 들어와 요약 대상이 코드가 된다 (실측 32,531자 중 앞부분 전부 CSS).
             const articleHtml = htmlContent
@@ -747,7 +772,7 @@ async function runPipeline() {
 
             // 호출 사이를 띄운다. 쉬지 않고 던지면 분당 한도에 걸려
             // 앞의 스무 건만 통과하고 나머지가 전부 튕긴다.
-            if (summarized > 0) await delay(GEMINI.CALL_INTERVAL_MS);
+            if (summarized > 0) await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
 
             if (needsTranslation) {
               // 원문이 영어다. 제목과 본문을 함께 그 나라 말로 옮긴다.
@@ -758,7 +783,7 @@ async function runPipeline() {
 
               // 코리케어의 시선. 그 나라 말로 바로 쓴다 — 영어로 쓰고 옮기면
               // 호출이 한 번 더 들고 문장이 번역투가 된다.
-              await delay(GEMINI.CALL_INTERVAL_MS);
+              await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
               item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, needsTranslation);
               if (item.angle) angled++;
             } else {
@@ -774,7 +799,7 @@ async function runPipeline() {
               if (!text) throw new Error('빈 요약');
               item.desc = stripPreamble(text);
 
-              await delay(GEMINI.CALL_INTERVAL_MS);
+              await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
               item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, 'English');
               if (item.angle) angled++;
             }
@@ -892,5 +917,9 @@ function injectOnly() {
 if (process.argv.includes('--inject-only')) {
   injectOnly();
 } else {
-  runPipeline();
+  const startedAt = Date.now();
+  // 끝까지 갔든 중간에 터졌든 구간별 시간은 남긴다.
+  // 실패한 회차의 시간 분포가 오히려 원인을 말해 준다.
+  const report = () => timingReport(Date.now() - startedAt);
+  runPipeline().then(report, (e) => { report(); throw e; });
 }
