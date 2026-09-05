@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_th_36e75e4f",
+    "date": "2026-09-05",
+    "ts": 1788603124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/4b8e8e90-f8e2-42e6-8a88-46de89ca7f11.jpg",
+    "title": "แผน '10 มหาวิทยาลัยโซล' ถูกวิจารณ์หลังเลือกอุดหนุนแค่ 3 แห่ง",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260905/10-snus-plan-faces-backlash-over-funding-gap-selection-process?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_963c60d0",
+    "date": "2026-09-05",
+    "ts": 1788576171000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904012251320_06_i_P2.jpg",
+    "title": "เกาหลีใต้วอนสหรัฐฯ ลดภาษีอุปกรณ์สร้างโรงงานเหล็กในลุยเซียนา",
+    "link": "https://en.yna.co.kr/view/AEN20260904012251320"
+  },
+  {
+    "id": "hotnews_th_8f7564b6",
+    "date": "2026-09-05",
+    "ts": 1788573764000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905000551315_01_i_P2.jpg",
+    "title": "ยังไม่พบ 6 ลูกเรือที่สูญหายจากเหตุเรือลากจูงล่มนอกชายฝั่งปูซาน",
+    "link": "https://en.yna.co.kr/view/AEN20260905000551315"
+  },
+  {
     "id": "hotnews_th_b3d1e0bb",
     "date": "2026-09-05",
     "ts": 1788566400000,
@@ -374,29 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Shin.jpg",
     "title": "ชิน โยชิดะ โพสต์ขอบคุณทุกกำลังใจ ยืนยันจะพัฒนาตัวเองเพื่อให้คู่ควรกับความเคารพของทุกคน",
     "link": "https://www.khaosod.co.th/sports/news_10382364"
-  },
-  {
-    "id": "hotnews_th_bd103edf",
-    "date": "2026-09-01",
-    "ts": 1788243887000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/aida-burkins-family-139024974_11zon.jpg1911.jpg",
-    "title": "สาววัย 22 ช็อกตรวจเจอมะเร็ง หลังขึ้นเครื่องบิน แต่หูกลับอื้อไม่หาย จนลุกลามหนัก",
-    "link": "https://www.khaosod.co.th/around-the-world-news/news_10382328"
-  },
-  {
-    "id": "hotnews_th_a4a25049",
-    "date": "2026-09-01",
-    "ts": 1788243844000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/glff111.jpg",
-    "title": "กลัฟ รับบท “ขุนช้างหล่อ 2026” ตอบกระแสจิ้น หมาก-เล่าช็อตจุ๊บ ตั๊ก จนเสียทรง",
-    "link": "https://www.khaosod.co.th/entertainment/news_10382346"
-  },
-  {
-    "id": "hotnews_th_1fe5bca6",
-    "date": "2026-09-01",
-    "ts": 1788243431000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/bea.jpg",
-    "title": "BE aLife : MOVE OUT LOUD ปิดฉากสุดเข้มข้นคนรักสุขภาพกว่า 1,000 คนร่วมท้าความฟิต",
-    "link": "https://www.khaosod.co.th/sports/news_10382343"
   }
 ]
