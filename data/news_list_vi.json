@@ -1,11 +1,27 @@
 [
   {
+    "id": "hotnews_vi_a6ce8c0d",
+    "date": "2026-09-05",
+    "ts": 1788581524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/01/19/02676764-2b07-475a-9ebe-b428fe39a9e5.jpeg",
+    "title": "Trải nghiệm lần đầu đến PC bang ở Seoul vào năm 1998",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260905/morning-calm-tales-descending-into-koreas-first-pc-bangs?utm_source=rss"
+  },
+  {
     "id": "hotnews_vi_9ff95acb",
     "date": "2026-09-04",
     "ts": 1788514742000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904065931_47_e.jpg",
     "title": "Cần cẩu đổ trên xà lan gần Jeju, 1 người tử vong",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204040"
+  },
+  {
+    "id": "hotnews_vi_bbf6b4f1",
+    "date": "2026-09-04",
+    "ts": 1788507852000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090321670005600_P2.jpg",
+    "title": "Cảnh sát Hàn Quốc muốn có quyền định vị người lớn mất tích",
+    "link": "https://en.yna.co.kr/view/AEN20260904010000315"
   },
   {
     "id": "hotnews_vi_3f3c9b37",
@@ -382,21 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/xoa-du-lieu-ai-1788165843693995241315-0-52-943-1561-crop-17881658858471243603638.png",
     "title": "Những vụ mất dữ liệu 'vô lý' nhất lịch sử công nghệ: Một cú gõ phím, cả hệ thống đi tong",
     "link": "https://tuoitre.vn/nhung-vu-mat-du-lieu-vo-ly-nhat-lich-su-cong-nghe-mot-cu-go-phim-ca-he-thong-di-tong-100260831151728788.htm"
-  },
-  {
-    "id": "hotnews_vi_d47a0f8b",
-    "date": "2026-09-01",
-    "ts": 1788248100000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/thumb-how-to-hide-security-camera-inside-ezgifcom-png-to-jpg-converter-1788144909549336068643-17881451158072097221522-89-112-569-881-crop-17881451364781970386119.png",
-    "title": "Dùng điện thoại tìm camera quay lén chỉ trong vài giây",
-    "link": "https://tuoitre.vn/dung-dien-thoai-tim-camera-quay-len-chi-trong-vai-giay-100260831095957424.htm"
-  },
-  {
-    "id": "hotnews_vi_e0bad1c3",
-    "date": "2026-09-01",
-    "ts": 1788247740000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/kim5078-17882161351011525273212-139-296-1461-2411-crop-17882165219421398216923.jpg",
-    "title": "Bảo Ngọc vào top 24 Beauty With a Purpose, mở cơ hội vào top 6 Miss World 2026",
-    "link": "https://tuoitre.vn/bao-ngoc-vao-top-24-beauty-with-a-purpose-mo-co-hoi-vao-top-6-miss-world-2026-100260901055059246.htm"
   }
 ]

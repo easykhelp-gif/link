@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_th_b3d1e0bb",
+    "date": "2026-09-05",
+    "ts": 1788566400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.7a1a511a654241d5a51f5fedd11e1ff0_T1.png",
+    "title": "ของเล่นบีบคลายเครียด “มัลลังอี-วักปูบอล” ฮิตในเกาหลีใต้",
+    "link": "https://www.koreaherald.com/article/10861750"
+  },
+  {
+    "id": "hotnews_th_02f0b712",
+    "date": "2026-09-04",
+    "ts": 1788525000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904002500320_03_i_P2.jpg",
+    "title": "Samsung และ LG คว้า 11 รางวัลนวัตกรรมในงาน IFA 2026",
+    "link": "https://en.yna.co.kr/view/AEN20260904002500320"
+  },
+  {
+    "id": "hotnews_th_a6bca0f6",
+    "date": "2026-09-04",
+    "ts": 1788510650000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904060340_94_e.jpg",
+    "title": "ค่าเงินวอน-ดอลลาร์ลดลงสู่ช่วง 1,340 วอน ครั้งแรกในรอบ 14 เดือน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204035"
+  },
+  {
+    "id": "hotnews_th_91e87b63",
+    "date": "2026-09-04",
+    "ts": 1788509108000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202505/250516035212_88_e.jpg",
+    "title": "ผู้พิพากษาคดีอดีตปธน. Yoon ถูกฟ้องข้อหาทุจริต",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204034"
+  },
+  {
     "id": "hotnews_th_b5426716",
     "date": "2026-09-04",
     "ts": 1788505534000,
@@ -366,37 +398,5 @@
     "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/bea.jpg",
     "title": "BE aLife : MOVE OUT LOUD ปิดฉากสุดเข้มข้นคนรักสุขภาพกว่า 1,000 คนร่วมท้าความฟิต",
     "link": "https://www.khaosod.co.th/sports/news_10382343"
-  },
-  {
-    "id": "hotnews_th_9b31a490",
-    "date": "2026-09-01",
-    "ts": 1788243408000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7YwKvm1ud7c.jpg",
-    "title": "“สนธิญา” ร้องกองปราบ จี้สอบปมเผยแพร่เอกสารลับราชการ",
-    "link": "https://www.thairath.co.th/news/politic/2956716"
-  },
-  {
-    "id": "hotnews_th_d80e5c98",
-    "date": "2026-09-01",
-    "ts": 1788243231000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKUL7fosfrvfqVf.jpg",
-    "title": "ไม่ใช่แค่ถอนชื่อแล้วปิดจ๊อบ “ภคมน” ลั่น โกงสอบท้องถิ่นต้องสาวเส้นเงินถึงผู้มีอำนาจ",
-    "link": "https://www.thairath.co.th/news/politic/2956714"
-  },
-  {
-    "id": "hotnews_th_9ec11f76",
-    "date": "2026-09-01",
-    "ts": 1788243198000,
-    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/c.jpg",
-    "title": "เปิดตัวประกันแบบใหม่ รับเงินก้อนแรก 30% พร้อมรับเงินบำนาญต่อ",
-    "link": "https://www.khaosod.co.th/economics/news_10382260"
-  },
-  {
-    "id": "hotnews_th_8bf2b5ec",
-    "date": "2026-09-01",
-    "ts": 1788243049000,
-    "image": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yeKWpakSZ30wB7cG.jpg",
-    "title": "ยึดโบท็อกซ์ ฟิลเลอร์เถื่อน ซุกคอนโดฯ ย่านวังทองหลาง ส่งขายตามออเดอร์",
-    "link": "https://www.thairath.co.th/news/crime/2956689"
   }
 ]
