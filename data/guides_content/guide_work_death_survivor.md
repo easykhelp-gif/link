@@ -7,18 +7,18 @@ image_en: news/images/guide_work_death_survivor_hero_en.webp
 image_th: news/images/guide_work_death_survivor_hero_th.webp
 image_vi: news/images/guide_work_death_survivor_hero_vi.webp
 date: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-05
 ---
 <!-- TITLE_EN START -->
 A Worker Died in Korea: What the Family Receives and How to Claim It (2026)
 <!-- TITLE_EN END -->
 
 <!-- TITLE_TH START -->
-เสียชีวิตจากการทำงานในเกาหลี: ครอบครัวได้รับอะไร และยื่นเรื่องอย่างไร (2026)
+เสียชีวิตจากการทำงานในเกาหลี 유족급여: ครอบครัวได้รับอะไร และยื่นเรื่องอย่างไร (2026)
 <!-- TITLE_TH END -->
 
 <!-- TITLE_VI START -->
-Tử vong khi làm việc tại Hàn Quốc: Gia đình được nhận gì và yêu cầu thế nào (2026)
+Tử vong khi làm việc tại Hàn Quốc 유족급여: Gia đình được nhận gì và yêu cầu thế nào (2026)
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
@@ -217,6 +217,8 @@ This guide explains Korean law in general terms. It is not legal advice for your
 <!-- TH START -->
 เมื่อแรงงานต่างชาติเสียชีวิตจากสาเหตุที่เกี่ยวกับการทำงานในเกาหลี ครอบครัวมีสิทธิได้รับเงินทดแทนจากกองทุนประกันอุบัติเหตุจากการทำงาน เงินนี้ไม่ได้มาจากนายจ้าง และนายจ้างขัดขวางไม่ได้ ครอบครัวไม่จำเป็นต้องอยู่ในเกาหลีหรือพูดภาษาเกาหลีได้เพื่อยื่นเรื่อง
 
+**คำเกาหลีที่จะเจอในเอกสาร:** 유족급여 (เงินทดแทนกรณีเสียชีวิต) · 산재 (ประกันอุบัติเหตุจากการทำงาน) · 평균임금 (ค่าจ้างเฉลี่ย) · 장례비 (ค่าทำศพ)
+
 สิ่งที่เปลี่ยนไปตามที่อยู่ของครอบครัวคือ **รูปแบบการจ่ายเงิน** และ **เอกสารที่ต้องใช้พิสูจน์ตัวตน**
 
 ## สรุปสั้น ๆ
@@ -409,6 +411,8 @@ This guide explains Korean law in general terms. It is not legal advice for your
 
 <!-- VI START -->
 Khi một lao động nước ngoài tử vong vì nguyên nhân liên quan đến công việc tại Hàn Quốc, gia đình có quyền nhận bồi thường từ quỹ bảo hiểm tai nạn lao động. Khoản tiền này không đến từ chủ sử dụng lao động, và chủ không thể ngăn cản. Gia đình không cần có mặt ở Hàn Quốc hay biết tiếng Hàn để yêu cầu.
+
+**Từ tiếng Hàn bạn sẽ gặp trong giấy tờ:** 유족급여 (trợ cấp tử tuất) · 산재 (tai nạn lao động) · 평균임금 (lương bình quân) · 장례비 (chi phí mai táng)
 
 Điều thay đổi tùy theo nơi gia đình sinh sống là **hình thức chi trả** và **giấy tờ cần có để chứng minh nhân thân**.
 

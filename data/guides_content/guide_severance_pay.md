@@ -4,17 +4,18 @@ category: korea
 tag: Finance
 image: news/images/guide_severance_hero_v2.webp
 date: 2026-08-22
+updated: 2026-09-05
 ---
 <!-- TITLE_EN START -->
 [2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide
 <!-- TITLE_EN END -->
 
 <!-- TITLE_TH START -->
-[อัปเดต 2026] คู่มือการรับเงินชดเชย (EPS) สำหรับแรงงานต่างชาติในเกาหลี
+[อัปเดต 2026] คู่มือการรับเงินชดเชย 퇴직금 (EPS) สำหรับแรงงานต่างชาติในเกาหลี
 <!-- TITLE_TH END -->
 
 <!-- TITLE_VI START -->
-[Cập nhật 2026] Hướng dẫn nhận Tiền trợ cấp thôi việc (EPS) tại Hàn Quốc
+[Cập nhật 2026] Hướng dẫn nhận Tiền trợ cấp thôi việc 퇴직금 (EPS) tại Hàn Quốc
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
@@ -117,6 +118,8 @@ Not sure which route fits your case? Message Kori Care in your own language. We 
 
 ภายใต้พระราชบัญญัติมาตรฐานแรงงานของเกาหลี คนงานที่ทำงานติดต่อกันมากกว่า 1 ปีในสถานที่ทำงานเดียวกัน มีสิทธิได้รับเงินชดเชย (Severance Pay) สำหรับแรงงานต่างชาติ E-9 ภายใต้ระบบ EPS เงินส่วนนี้จะถูกจัดการอย่างปลอดภัยผ่าน **Samsung Fire & Marine Insurance (ประกันการเดินทางกลับ)**
 
+**คำเกาหลีที่จะเจอในเอกสาร:** 퇴직금 (เงินชดเชย) · 출국만기보험 (เงินประกันการเดินทางกลับ) · 평균임금 (ค่าจ้างเฉลี่ย)
+
 ### ข้อเท็จจริงสำคัญ: แรงงานผิดกฎหมาย (ผีน้อย) สามารถรับเงินชดเชยได้หรือไม่?
 
 **ได้แน่นอน** สถานะการเข้าเมืองของคุณไม่มีผลต่อสิทธิแรงงานของคุณ แม้ว่าคุณจะเป็น **แรงงานผิดกฎหมาย (불법체류자)** หากคุณทำงานเกิน 1 ปี นายจ้างมีหน้าที่ตามกฎหมายที่จะต้องจ่ายเงินชดเชยให้คุณ กระทรวงการจ้างงานและแรงงานของเกาหลีบังคับใช้กฎนี้อย่างเข้มงวด
@@ -209,6 +212,8 @@ Not sure which route fits your case? Message Kori Care in your own language. We 
 ## Hiểu về Bảo hiểm Bảo lãnh Xuất cảnh (Tiền trợ cấp thôi việc)
 
 Theo Luật Tiêu chuẩn Lao động Hàn Quốc, bất kỳ người lao động nào làm việc liên tục trên 1 năm tại cùng một nơi làm việc đều có quyền nhận Tiền trợ cấp thôi việc. Đối với lao động nước ngoài E-9 theo hệ thống EPS, khoản tiền này được quản lý an toàn thông qua **Bảo hiểm Samsung Fire & Marine (Bảo hiểm Bảo lãnh Xuất cảnh)**.
+
+**Từ tiếng Hàn bạn sẽ gặp trong giấy tờ:** 퇴직금 (trợ cấp thôi việc) · 출국만기보험 (Bảo hiểm Bảo lãnh Xuất cảnh) · 평균임금 (lương bình quân)
 
 ### Sự thật quan trọng: Lao động bất hợp pháp có được nhận Tiền thôi việc không?
 

@@ -1,55 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.koricare.kr/link/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/ko/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  <url>    <loc>https://www.koricare.kr/link/</loc>    <changefreq>daily</changefreq>    <priority>1.0</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/ko/</loc>    <changefreq>weekly</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -91,55 +54,55 @@
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/severance_pay/</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/severance_pay/</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/severance_pay/</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -163,19 +126,19 @@
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -217,19 +180,19 @@
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

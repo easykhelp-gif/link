@@ -4,17 +4,18 @@ category: korea
 tag: Safety & Law
 image: news/images/guide_industrial_accident_hero.webp
 date: 2026-08-24
+updated: 2026-09-05
 ---
 <!-- TITLE_EN START -->
 Injured at Work in Korea? You Have the Right to Compensation
 <!-- TITLE_EN END -->
 
 <!-- TITLE_TH START -->
-บาดเจ็บจากการทำงานในเกาหลี? คุณมีสิทธิ์ได้รับค่าชดเชย
+บาดเจ็บจากการทำงานในเกาหลี 산재? คุณมีสิทธิ์ได้รับค่าชดเชย
 <!-- TITLE_TH END -->
 
 <!-- TITLE_VI START -->
-Bị tai nạn lao động tại Hàn Quốc? Bạn có quyền được bồi thường
+Bị tai nạn lao động 산재 tại Hàn Quốc? Bạn có quyền được bồi thường
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
@@ -124,6 +125,8 @@ This guide explains Korean law in general terms. It is not legal advice for your
 
 ถ้าคุณบาดเจ็บขณะทำงานในเกาหลี คุณสามารถขอค่าชดเชยจากประกันอุบัติเหตุจากการทำงาน (산재보험) ได้ นี่ไม่ใช่ความเมตตาจากนายจ้าง แต่เป็นสิทธิ์ที่เขียนไว้ในกฎหมายเกาหลี
 
+**คำเกาหลีที่จะเจอในเอกสาร:** 산재 (อุบัติเหตุจากการทำงาน) · 휴업급여 (เงินทดแทนการหยุดงาน) · 평균임금 (ค่าจ้างเฉลี่ย)
+
 แรงงานต่างชาติจำนวนมากยอมแพ้เพราะมีคนบอกว่าตนไม่มีสิทธิ์ ด้านล่างนี้คือสิ่งที่กฎหมายระบุไว้จริง
 
 ## สถานะวีซ่าของคุณไม่เกี่ยวข้อง
@@ -225,6 +228,8 @@ This guide explains Korean law in general terms. It is not legal advice for your
 ## "Chủ nói bạn không được hưởng." Điều đó không đúng.
 
 Nếu bạn bị thương khi đang làm việc tại Hàn Quốc, bạn có thể yêu cầu bồi thường tai nạn lao động (산재보험). Đây không phải là ân huệ từ chủ sử dụng lao động. Đây là quyền được ghi trong luật Hàn Quốc.
+
+**Từ tiếng Hàn bạn sẽ gặp trong giấy tờ:** 산재 (tai nạn lao động) · 휴업급여 (trợ cấp nghỉ việc) · 평균임금 (lương bình quân)
 
 Nhiều lao động nước ngoài bỏ cuộc vì có người nói rằng họ không đủ điều kiện. Dưới đây là những gì luật thực sự quy định.
 

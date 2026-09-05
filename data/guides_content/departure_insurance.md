@@ -4,17 +4,18 @@ category: korea
 tag: Finance
 image: news/images/guide_departure_insurance_hero.webp
 date: 2026-08-30
+updated: 2026-09-05
 ---
 <!-- TITLE_EN START -->
 Departure Guarantee Insurance Paid Less Than Your Severance? Your Employer Owes You the Difference (2026)
 <!-- TITLE_EN END -->
 
 <!-- TITLE_TH START -->
-[2026] เงินประกันการเดินทางกลับได้น้อยกว่าเงินชดเชย? นายจ้างต้องจ่ายส่วนต่างให้คุณ
+[2026] เงินประกันการเดินทางกลับ 출국만기보험 ได้น้อยกว่าเงินชดเชย? นายจ้างต้องจ่ายส่วนต่างให้คุณ
 <!-- TITLE_TH END -->
 
 <!-- TITLE_VI START -->
-[2026] Bảo hiểm Bảo lãnh Xuất cảnh trả ít hơn tiền thôi việc? Chủ lao động phải trả phần chênh lệch
+[2026] Bảo hiểm Bảo lãnh Xuất cảnh 출국만기보험 trả ít hơn tiền thôi việc? Chủ lao động phải trả phần chênh lệch
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
@@ -167,6 +168,8 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 
 ไม่ใช่ความผิดพลาด **เงินประกันการเดินทางกลับกับเงินชดเชยตามกฎหมาย ใช้ฐานการคำนวณคนละแบบ**
 
+**คำเกาหลีที่จะเจอในเอกสาร:** 출국만기보험 (เงินประกันการเดินทางกลับ) · 퇴직금 (เงินชดเชย) · 평균임금 (ค่าจ้างเฉลี่ย)
+
 | | ฐานคำนวณ |
 | --- | --- |
 | **เงินประกันการเดินทางกลับ** | **8.3% ขึ้นไปของค่าจ้างปกติรายเดือนที่ระบุในใบอนุญาตจ้างงาน** สะสมทุกเดือน (ประกาศกระทรวงแรงงานฉบับที่ 2011-33) |
@@ -311,6 +314,8 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 ## Số tiền tôi nhận được ít hơn số tôi tính. Tại sao?
 
 Đây không phải nhầm lẫn. **Bảo hiểm Bảo lãnh Xuất cảnh và tiền trợ cấp thôi việc theo luật được tính trên hai cơ sở khác nhau.**
+
+**Từ tiếng Hàn bạn sẽ gặp trong giấy tờ:** 출국만기보험 (Bảo hiểm Bảo lãnh Xuất cảnh) · 퇴직금 (trợ cấp thôi việc) · 평균임금 (lương bình quân)
 
 | | Cơ sở tính |
 | --- | --- |

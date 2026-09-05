@@ -4,18 +4,18 @@ category: korea
 tag: Labor
 image: news/images/guide_unpaid_wages_hero.webp
 date: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-05
 ---
 <!-- TITLE_EN START -->
 Unpaid Wages in Korea? How to Claim Your Back Pay and Severance from the Government (2026)
 <!-- TITLE_EN END -->
 
 <!-- TITLE_TH START -->
-โดนโกงค่าแรง? วิธีขอรับเงินเดือนค้างจ่ายและเงินชดเชยผ่านรัฐบาลเกาหลี (2026)
+โดนโกงค่าแรง 임금체불? วิธีขอรับเงินเดือนค้างจ่ายและเงินชดเชยผ่านรัฐบาลเกาหลี (2026)
 <!-- TITLE_TH END -->
 
 <!-- TITLE_VI START -->
-Hướng dẫn nhận lại tiền lương và trợ cấp thôi việc chưa được trả ở Hàn Quốc (2026)
+Hướng dẫn nhận lại tiền lương bị nợ 임금체불 và trợ cấp thôi việc ở Hàn Quốc (2026)
 <!-- TITLE_VI END -->
 
 <!-- EN START -->
@@ -183,6 +183,8 @@ This document explains the system and is not legal advice. For individual cases,
 <!-- TH START -->
 เมื่อนายจ้างไม่ยอมจ่ายค่าจ้างหรือเงินชดเชยให้คุณ รัฐบาลเกาหลีสามารถจ่ายให้คุณก่อนแล้วไปเรียกเก็บจากนายจ้างในภายหลัง ระบบนี้เรียกว่า เงินทดรองจ่าย (대지급금) ระบบนี้ไม่ทำงานเอง มันเริ่มต่อเมื่อคุณยื่นเรื่อง จ่ายเพียงบางส่วนของที่คุณควรได้ และมีกำหนดเวลาสามอย่างที่ปิดประตูนี้ได้ คู่มือนี้อธิบายว่าต้องยื่นอะไร ภายในเมื่อไร และต้องทำอย่างไรหากคุณไม่มีสัญญาจ้าง
 
+**คำเกาหลีที่จะเจอในเอกสาร:** 임금체불 (ค่าจ้างค้างจ่าย) · 대지급금 (เงินทดรองจ่าย) · 퇴직금 (เงินชดเชย)
+
 ## กำหนดเวลาสามอย่างที่ตัดสินว่าคุณจะได้เงินหรือไม่
 
 คนส่วนใหญ่เสียเงินก้อนนี้ไปเพราะปฏิทิน ไม่ใช่เพราะเถียงแพ้ ไม่มีข้อใดในนี้ที่ขึ้นกับว่านายจ้างจะยอมรับหรือไม่
@@ -344,6 +346,8 @@ This document explains the system and is not legal advice. For individual cases,
 
 <!-- VI START -->
 Khi chủ lao động không chịu trả lương hoặc trợ cấp thôi việc, nhà nước Hàn Quốc có thể trả cho bạn trước rồi thu lại từ chủ lao động sau. Chế độ này gọi là Tiền tạm ứng (대지급금). Nó không tự vận hành: chỉ bắt đầu khi bạn nộp đơn, chỉ trả một phần số tiền bạn đáng được nhận, và có ba mốc thời hạn có thể đóng cánh cửa này lại. Hướng dẫn này nói rõ bạn phải nộp gì, trước khi nào, và phải làm sao nếu bạn không có hợp đồng lao động.
+
+**Từ tiếng Hàn bạn sẽ gặp trong giấy tờ:** 임금체불 (nợ lương) · 대지급금 (tiền tạm ứng) · 퇴직금 (trợ cấp thôi việc)
 
 ## Ba mốc thời hạn quyết định bạn có nhận được tiền hay không
 
