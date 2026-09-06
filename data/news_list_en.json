@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_c92f5ac6",
+    "date": "2026-09-06",
+    "ts": 1788724323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/05/7c4184f3-80f4-4470-8a69-8c5166682e13.jpeg",
+    "title": "How was Roh Moo-hyun different from Lee Jae Myung?",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260907/how-was-roh-moo-hyun-different-from-lee-jae-myung?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_d8168d01",
+    "date": "2026-09-06",
+    "ts": 1788707708000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/06/PYH2026090602460001300_P2.jpg",
+    "title": "Lee arrives in France, set for summit with Macron in Paris",
+    "link": "https://en.yna.co.kr/view/AEN20260906000300315"
+  },
+  {
     "id": "hotnews_en_40cc7e48",
     "date": "2026-09-06",
     "ts": 1788706022000,
@@ -272,6 +288,14 @@
     "link": "https://www.koreaherald.com/article/10863921"
   },
   {
+    "id": "hotnews_en_df09d350",
+    "date": "2026-09-06",
+    "ts": 1788669234000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/news-p.v1.20260906.067c5f39ff744bf4a385626c6fa1f631_T1.jpg",
+    "title": "S. Korean foreign minister visits Nepal as two sides step up search cooperation",
+    "link": "https://www.koreaherald.com/article/10863919"
+  },
+  {
     "id": "hotnews_en_70e90a5f",
     "date": "2026-09-06",
     "ts": 1788668554000,
@@ -328,6 +352,14 @@
     "link": "https://www.koreaherald.com/article/10863896"
   },
   {
+    "id": "hotnews_en_ac88d892",
+    "date": "2026-09-06",
+    "ts": 1788665915000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260906111524_34_e.jpg",
+    "title": "Search Continues for 6 Missing After Busan Tugboat Capsizes",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204052"
+  },
+  {
     "id": "hotnews_en_2b1721d1",
     "date": "2026-09-06",
     "ts": 1788665867000,
@@ -366,37 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/rcv.YNA.20260906.PYH2026090602460001300_T1.jpg",
     "title": "Lee heads to France for Lumiere Summit, talks with Macron",
     "link": "https://www.koreaherald.com/article/10863883"
-  },
-  {
-    "id": "hotnews_en_62468a95",
-    "date": "2026-09-06",
-    "ts": 1788663572000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/news-p.v1.20260830.8b0649d1fa7d4fe48f381292c3a77f4b_T1.jpg",
-    "title": "Tourist complaints in S. Korea hit record high in just 7 months",
-    "link": "https://www.koreaherald.com/article/10863875"
-  },
-  {
-    "id": "hotnews_en_7c13ba84",
-    "date": "2026-09-06",
-    "ts": 1788663198000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/news-p.v1.20260906.2456344cc4e044ad9b352a737dae65f0_T1.jpg",
-    "title": "Almost all unsolved missing cases involve adults without dementia",
-    "link": "https://www.koreaherald.com/article/10863871"
-  },
-  {
-    "id": "hotnews_en_43a6acfb",
-    "date": "2026-09-06",
-    "ts": 1788663014000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/news-p.v1.20260906.cce7264d2e0f4e728afdc288bbcd8962_T1.jpg",
-    "title": "Japan Airlines takes stake in Korean Air's parent as alliance deepens",
-    "link": "https://www.koreaherald.com/article/10863870"
-  },
-  {
-    "id": "hotnews_en_8cc25989",
-    "date": "2026-09-06",
-    "ts": 1788662841000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/06/AEN20260906001500315_01_i_P2.jpg",
-    "title": "Taiwanese man sentenced to 6-year prison term in S. Korea for smuggling meth from Cambodia",
-    "link": "https://en.yna.co.kr/view/AEN20260906001500315"
   }
 ]
