@@ -340,7 +340,10 @@ async function summarizeOnce(ai, prompt) {
 const TOPIC_WEIGHT = [
   // 제도·생활 — 바로 영향을 받는 것
   [/visa|immigration|residence|deport|sojourn|alien registration/i, 10],
-  [/foreign(er|ers)?|migrant|multicultural|expat/i, 9],
+  // "foreign" 만으로 잡으면 Foreign Ministry · Foreign Minister · foreign affairs 가
+  // 전부 걸린다. 2026-09-07 실측에서 관련 기사로 잡힌 6건 중 4건이 이 오탐이었고,
+  // 외교 기사가 뉴스 상단에 올라오고 있었다. 사람을 가리키는 말만 남긴다.
+  [/foreigner|foreigners|migrant|multicultural|expat|foreign (worker|workers|resident|residents|national|nationals|student|students|labou?r)/i, 9],
   [/employment permit|work permit|E-9|EPS|labor|labour|wage|minimum wage/i, 9],
   [/health insurance|NHIS|medical|hospital|pension|industrial accident|workplace safety/i, 8],
   [/housing|jeonse|rent|deposit|scam|fraud|phishing/i, 7],
@@ -354,6 +357,10 @@ const TOPIC_WEIGHT = [
   [/shares|stocks|KOSPI|bond|won order|shipbuilding|semiconductor export/i, -4],
   [/(URGENT)|\(LEAD\)|\(2nd LD\)/i, -1]
 ];
+
+// 코리케어 시선을 붙일 최소 점수.
+// 8 이면 비자·외국인·노동·의료 규칙 중 하나에 걸린 기사만 통과한다.
+const ANGLE_MIN_SCORE = 8;
 
 function topicScore(item) {
   const t = (item.title || '') + ' ' + (item.desc || '');
@@ -825,9 +832,15 @@ async function runPipeline() {
 
               // 코리케어의 시선. 그 나라 말로 바로 쓴다 — 영어로 쓰고 옮기면
               // 호출이 한 번 더 들고 문장이 번역투가 된다.
-              await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
-              item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, needsTranslation);
-              if (item.angle) angled++;
+              //
+              // 우리 독자와 무관한 기사에는 부르지 않는다. 2026-09-07 회차에서
+              // 30건을 불러 30건 다 SKIP 이 돌아왔다 — 연예·정치·스포츠였다.
+              // 모델 판단은 옳았고, 물어본 쪽이 낭비였다.
+              if (topicScore(item) >= ANGLE_MIN_SCORE) {
+                await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
+                item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, needsTranslation);
+                if (item.angle) angled++;
+              }
             } else {
               const prompt =
                 `Summarize the news article below in exactly 3 bullet points, in English.\n\n` +
@@ -841,9 +854,11 @@ async function runPipeline() {
               if (!text) throw new Error('빈 요약');
               item.desc = stripPreamble(text);
 
-              await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
-              item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, 'English');
-              if (item.angle) angled++;
+              if (topicScore(item) >= ANGLE_MIN_SCORE) {
+                await timed('sleep', () => delay(GEMINI.CALL_INTERVAL_MS));
+                item.angle = await writeAngle(ai, { title: sourceTitle, desc: fullText }, 'English');
+                if (item.angle) angled++;
+              }
             }
             summarized++;
             summarizedThisLang++;
