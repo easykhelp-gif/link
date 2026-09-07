@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_bd31898a",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/06/0fad85c9-2556-4398-917b-cdd6e942ad08.jpeg",
+    "title": "เที่ยวบินปูซาน-ไต้หวันพุ่งสูง นักท่องเที่ยวไต้หวันเยือนอันดับหนึ่ง",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20260907/busan-taiwan-flights-surge-as-city-captures-taiwanese-tourists-hearts?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_df108beb",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/ba6434cb-7def-4ab9-b33e-59d1ab734367.jpg",
+    "title": "พรรค DPK ผลักดันแก้รัฐธรรมนูญและเปิดกว้างเรื่องวาระประธานาธิบดี",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260907/dpk-chief-pushes-constitutional-revision-leaves-presidential-term-change-open?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c92f5ac6",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/05/7c4184f3-80f4-4470-8a69-8c5166682e13.jpeg",
+    "title": "หนังสือชีวประวัติอดีตประธานาธิบดี โน มู-ฮยอน เล่มใหม่",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260907/how-was-roh-moo-hyun-different-from-lee-jae-myung?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e941371e",
+    "date": "2026-09-07",
+    "ts": 1788769575000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0604b7d4df34a979b467ae12bb42531_T1.png",
+    "title": "ซีรีส์ Descendants of the Sun ฉบับรีเมคอินโดฯ ฉายปี 2027",
+    "link": "https://www.koreaherald.com/article/10865428"
+  },
+  {
+    "id": "hotnews_th_d40bca1d",
+    "date": "2026-09-07",
+    "ts": 1788769473000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0a25c6c128146a6bb7ba8ca9f7a2aba_T1.jpg",
+    "title": "ช่องว่างค่าจ้างตามเพศในหน่วยงานรัฐเกาหลีลดต่ำกว่า 20%",
+    "link": "https://www.koreaherald.com/article/10865425"
+  },
+  {
+    "id": "hotnews_th_23105505",
+    "date": "2026-09-07",
+    "ts": 1788768698000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907032643_35_e.jpg",
+    "title": "ทีมกู้ภัยเกาหลีใต้ช่วยชีวิตชาวจีนจากเหตุน้ำท่วมในเนปาล",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204075"
+  },
+  {
+    "id": "hotnews_th_44e56da4",
+    "date": "2026-09-07",
+    "ts": 1788767479000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.d33f49ac7f4f45598722e958ea717f31_T1.jpg",
+    "title": "หัวหน้าพรรคฝ่ายรัฐบาลเกาหลีใต้จี้เพิ่มความมั่นคงตนเอง",
+    "link": "https://www.koreaherald.com/article/10865370"
+  },
+  {
+    "id": "hotnews_th_349a593d",
+    "date": "2026-09-07",
+    "ts": 1788766332000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090718120001300_P2.jpg",
+    "title": "หุ้นเกาหลีพุ่ง 4.6% สูงสุดในรอบกว่า 5 สัปดาห์จากกระแส AI",
+    "link": "https://en.yna.co.kr/view/AEN20260907005752320"
+  },
+  {
+    "id": "hotnews_th_1701a708",
+    "date": "2026-09-07",
+    "ts": 1788763630000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005900315_01_i_P2.jpg",
+    "title": "อัยการเกาหลีใต้ขอจำคุก 27 ปี ผู้นำลัทธิ JMS คดีล่วงเกินทางเพศ",
+    "link": "https://en.yna.co.kr/view/AEN20260907005900315"
+  },
+  {
+    "id": "hotnews_th_b080eb39",
+    "date": "2026-09-07",
+    "ts": 1788763218000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/17/PYH2025091704480001300_P2.jpg",
+    "title": "เกาหลีใต้ สหรัฐ และญี่ปุ่นเริ่มการซ้อมรบสามฝ่าย Freedom Edge",
+    "link": "https://en.yna.co.kr/view/AEN20260907002352315"
+  },
+  {
     "id": "hotnews_th_d1c92475",
     "date": "2026-09-06",
     "ts": 1788689823000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.9d5856275624412fa3d6a631718f6bbd_T1.jpg",
     "title": "ศาลอนุมัติแผนฟื้นฟู Homeplus รอดพ้นวิกฤตล้มละลาย",
     "link": "https://www.koreaherald.com/article/10860741"
-  },
-  {
-    "id": "hotnews_th_5b4b7b73",
-    "date": "2026-09-02",
-    "ts": 1788337324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/0909c03b-3c13-4eba-9a54-689737376aae.jpg",
-    "title": "จำคุก 15 ปี ผอ.ศูนย์ดูแลผู้พิการในเกาหลีใต้ คดีล่วงละเมิดทางเพศ",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260902/disabled-care-facility-chief-sentenced-to-15-years-for-sexual-offenses?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_f3b27eb7",
-    "date": "2026-09-02",
-    "ts": 1788337324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d504c78f-72d1-4f45-b803-50914f338a8f.jpg",
-    "title": "เกาหลีใต้เสนอเพิ่มงบกระทรวงสงเคราะห์ทหารผ่านศึก 8% ปี 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260902/veterans-ministry-seeks-8-hike-in-2027-budget-for-expanded-honors-key-projects?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c9c6f873",
-    "date": "2026-09-02",
-    "ts": 1788337324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d0c9fc20-9339-450d-a397-f8ffc0a879f7.jpg",
-    "title": "สถานีวิทยุดนตรีพหุวัฒนธรรมฉลองครบรอบ 18 ปีในเกาหลีใต้",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260902/photo-multicultural-music-radio-station-marks-18th-anniversary?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_af4b55fa",
-    "date": "2026-09-02",
-    "ts": 1788336573000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.b3dcb8737cdf46e2b783d7bfefccee66_T1.jpg",
-    "title": "เกาหลีใต้พบโพสต์ชักชวนฆ่าตัวตายพุ่งสูง แต่ส่วนใหญ่ยังไม่ถูกลบ",
-    "link": "https://www.koreaherald.com/article/10860673"
-  },
-  {
-    "id": "hotnews_th_1af0435b",
-    "date": "2026-09-02",
-    "ts": 1788336000000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902009500315_02_i_P2.jpg",
-    "title": "สรุปข่าวเด่นเกาหลีใต้: เรือล่มที่ Busan และหุ้น KOSPI ดิ่งลง",
-    "link": "https://en.yna.co.kr/view/AEN20260902009500315"
-  },
-  {
-    "id": "hotnews_th_a3a50edb",
-    "date": "2026-09-02",
-    "ts": 1788333361000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
-    "title": "คดีแก๊งคอลเซ็นเตอร์ในเกาหลีใต้ลดลง 40% หลังปราบปรามเข้มงวด",
-    "link": "https://en.yna.co.kr/view/AEN20260902008400315"
-  },
-  {
-    "id": "hotnews_th_54e6cef8",
-    "date": "2026-09-02",
-    "ts": 1788331942000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902022444_35_e.jpg",
-    "title": "ยอดผู้เสียชีวิตจากน้ำท่วมเนปาล-จีน พุ่งแตะ 1,066 ราย",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203992"
-  },
-  {
-    "id": "hotnews_th_be920018",
-    "date": "2026-09-01",
-    "ts": 1788271640000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2022/07/25/PYH2022072505540001300_P2.jpg",
-    "title": "แต่งตั้ง ผบ.ตำรวจคย็องนัม ขึ้นเป็นรักษาการ ผบ.ตร. เกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20260901012800315"
-  },
-  {
-    "id": "hotnews_th_74a1a211",
-    "date": "2026-09-01",
-    "ts": 1788251151000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/01/rcv.YNA.20260901.PYH2026090107780001300_T1.jpg",
-    "title": "ตำรวจปฏิเสธเปลี่ยนท่าที คดีหญิงเสียชีวิตบนเกาะเชจู",
-    "link": "https://www.koreaherald.com/article/10859241"
-  },
-  {
-    "id": "hotnews_th_bb5cf9ba",
-    "date": "2026-09-01",
-    "ts": 1788251064000,
-    "image": "https://www.matichon.co.th/wp-content/uploads/2026/08/01-%E0%B8%9B%E0%B8%81.jpg",
-    "title": "เปิดใจ ‘อ.ยิ่งศักดิ์’ กับภารกิจใหม่ที่ไม่เคยอยู่ในแผนชีวิต ที่ ‘สถานีประชาชน’",
-    "link": "https://www.matichon.co.th/bullet-news-today/news_5866574"
   }
 ]

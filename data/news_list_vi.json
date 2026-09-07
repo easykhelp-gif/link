@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_bd31898a",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/06/0fad85c9-2556-4398-917b-cdd6e942ad08.jpeg",
+    "title": "Các chuyến bay Busan và Đài Loan tăng mạnh do khách du lịch",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20260907/busan-taiwan-flights-surge-as-city-captures-taiwanese-tourists-hearts?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_df108beb",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/ba6434cb-7def-4ab9-b33e-59d1ab734367.jpg",
+    "title": "Lãnh đạo DPK đẩy mạnh sửa đổi hiến pháp Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260907/dpk-chief-pushes-constitutional-revision-leaves-presidential-term-change-open?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c92f5ac6",
+    "date": "2026-09-07",
+    "ts": 1788772924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/05/7c4184f3-80f4-4470-8a69-8c5166682e13.jpeg",
+    "title": "Sách mới viết về cựu Tổng thống Roh Moo-hyun",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260907/how-was-roh-moo-hyun-different-from-lee-jae-myung?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c662ecb9",
+    "date": "2026-09-07",
+    "ts": 1788772828000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090719720001300_P2.jpg",
+    "title": "Lãnh đạo đảng cầm quyền và đối lập gặp Chủ tịch Quốc hội Việt Nam",
+    "link": "https://en.yna.co.kr/view/AEN20260907009100320"
+  },
+  {
+    "id": "hotnews_vi_e941371e",
+    "date": "2026-09-07",
+    "ts": 1788769575000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0604b7d4df34a979b467ae12bb42531_T1.png",
+    "title": "Phim Descendants of the Sun bản Indonesia ra mắt năm 2027",
+    "link": "https://www.koreaherald.com/article/10865428"
+  },
+  {
+    "id": "hotnews_vi_d40bca1d",
+    "date": "2026-09-07",
+    "ts": 1788769473000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0a25c6c128146a6bb7ba8ca9f7a2aba_T1.jpg",
+    "title": "Khoảng cách lương theo giới tính ở cơ quan công ích giảm dưới 20%",
+    "link": "https://www.koreaherald.com/article/10865425"
+  },
+  {
+    "id": "hotnews_vi_d040e0e3",
+    "date": "2026-09-07",
+    "ts": 1788766829000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005851315_03_i_P2.jpg",
+    "title": "Hàn Quốc bàn về eo biển Hormuz và duy trì quan hệ với Iran",
+    "link": "https://en.yna.co.kr/view/AEN20260907005851315"
+  },
+  {
+    "id": "hotnews_vi_349a593d",
+    "date": "2026-09-07",
+    "ts": 1788766332000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090718120001300_P2.jpg",
+    "title": "Chứng khoán Seoul tăng vọt 4,6% nhờ kỳ vọng vào AI",
+    "link": "https://en.yna.co.kr/view/AEN20260907005752320"
+  },
+  {
+    "id": "hotnews_vi_1701a708",
+    "date": "2026-09-07",
+    "ts": 1788763630000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005900315_01_i_P2.jpg",
+    "title": "Đề nghị 27 năm tù cho giáo chủ JMS Jeong Myeong-seok",
+    "link": "https://en.yna.co.kr/view/AEN20260907005900315"
+  },
+  {
+    "id": "hotnews_vi_b080eb39",
+    "date": "2026-09-07",
+    "ts": 1788763218000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/17/PYH2025091704480001300_P2.jpg",
+    "title": "Hàn Quốc, Mỹ và Nhật Bản khởi động tập trận chung Freedom Edge",
+    "link": "https://en.yna.co.kr/view/AEN20260907002352315"
+  },
+  {
     "id": "hotnews_vi_a6ce8c0d",
     "date": "2026-09-05",
     "ts": 1788581524000,
@@ -318,85 +398,5 @@
     "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/tha-dieu-1788224947282568882993-378-0-1628-2000-crop-1788225008176769531084.png",
     "title": "Lễ 2-9: Dòng người đổ về hồ nước 'khổng lồ' thả diều, hóng gió",
     "link": "https://tuoitre.vn/le-2-9-dong-nguoi-do-ve-ho-nuoc-khong-lo-tha-dieu-hong-gio-100260831221442684.htm"
-  },
-  {
-    "id": "hotnews_vi_6674f4d4",
-    "date": "2026-09-01",
-    "ts": 1788249720000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/4656225607913215953462f58896bf461242a7e20ec032f589de2-1788190098982584846137-633-0-1833-1920-crop-1788191224595116384919-114-212-1123-1826-crop-1788224749119773467723.jpg",
-    "title": "Cô gái Lâm Đồng tốt nghiệp thạc sĩ Harvard đạt điểm tuyệt đối chọn về lại Việt Nam",
-    "link": "https://tuoitre.vn/co-gai-lam-dong-tot-nghiep-thac-si-harvard-dat-diem-tuyet-doi-chon-ve-lai-viet-nam-10026083122594011.htm"
-  },
-  {
-    "id": "hotnews_vi_a987db93",
-    "date": "2026-09-01",
-    "ts": 1788249300000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/base64-1786975407740148600337-1788179863033568050421-117-141-1169-1824-crop-1788180148067849507513.jpg",
-    "title": "TP.HCM dự kiến chi 1.865 tỉ đồng thu hồi hơn 22.000m² đất đường Lương Định Của, bồi thường xong trong tháng 9",
-    "link": "https://tuoitre.vn/tphcm-du-kien-chi-1865-ti-dong-thu-hoi-hon-22000m-dat-duong-luong-dinh-cua-boi-thuong-xong-trong-thang-9-100260831195045386.htm"
-  },
-  {
-    "id": "hotnews_vi_96c67676",
-    "date": "2026-09-01",
-    "ts": 1788249000000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/ra-dong-thit-17881778458661174599847-0-16-675-1096-crop-1788177879962475950356.png",
-    "title": "Rã đông thịt sai cách, coi chừng nhiễm khuẩn tiêu hóa",
-    "link": "https://tuoitre.vn/ra-dong-thit-sai-cach-coi-chung-nhiem-khuan-tieu-hoa-100260831190417479.htm"
-  },
-  {
-    "id": "hotnews_vi_a28676f6",
-    "date": "2026-09-01",
-    "ts": 1788248640000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/28/img-7339-1787824233536419300582-31-0-936-1448-crop-1787933711943911163642.jpg",
-    "title": "Người miền Tây và 'quyết sách' hạt gạo phát thải thấp",
-    "link": "https://tuoitre.vn/nguoi-mien-tay-va-quyet-sach-hat-gao-phat-thai-thap-100260827174140082.htm"
-  },
-  {
-    "id": "hotnews_vi_8d2ed421",
-    "date": "2026-09-01",
-    "ts": 1788248460000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/base64-1785922854243848205907-1788193118148616249080-6-196-265-610-crop-17882236996331154549293.jpeg",
-    "title": "Hoàng Anh Gia Lai của bầu Đức giảm 164 tỉ lợi nhuận sau kiểm toán",
-    "link": "https://tuoitre.vn/hoang-anh-gia-lai-cua-bau-duc-giam-164-ti-loi-nhuan-sau-kiem-toan-10026083123412541.htm"
-  },
-  {
-    "id": "hotnews_vi_af2f096e",
-    "date": "2026-09-01",
-    "ts": 1788248460000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/quoc-lo-13-1788185566515470857970-139-992-1065-2473-crop-17881886343491917298664.jpg",
-    "title": "Bất động sản cửa ngõ TP.HCM 'sục sôi' theo nhịp khởi công hạ tầng",
-    "link": "https://tuoitre.vn/bat-dong-san-cua-ngo-tphcm-suc-soi-theo-nhip-khoi-cong-ha-tang-10026083122051175.htm"
-  },
-  {
-    "id": "hotnews_vi_483a3808",
-    "date": "2026-09-01",
-    "ts": 1788248340000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/490269626240859366176751586528831352833802986n-1788187706661905145417-278-294-853-1214-crop-1788188454954641910231.jpg",
-    "title": "VNDirect bị truy thu, phạt thuế gần 7 tỉ đồng",
-    "link": "https://tuoitre.vn/vndirect-bi-truy-thu-phat-thue-gan-7-ti-dong-100260831221159401.htm"
-  },
-  {
-    "id": "hotnews_vi_1169dc54",
-    "date": "2026-09-01",
-    "ts": 1788248160000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/12-1788188291080438174475-0-0-937-1500-crop-1788188342779852376648.png",
-    "title": "'Tứ đại nữ diễn viên gánh phim' của màn ảnh Hoa ngữ",
-    "link": "https://tuoitre.vn/tu-dai-nu-dien-vien-ganh-phim-cua-man-anh-hoa-ngu-10026083111194467.htm"
-  },
-  {
-    "id": "hotnews_vi_3af069f3",
-    "date": "2026-09-01",
-    "ts": 1788248100000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/edit-img5340-17881926904001000247661-339-116-1339-1715-crop-17882231565842092585917.jpeg",
-    "title": "Quán cà phê, quán nước đông nghẹt dịp lễ 2-9, vì sao?",
-    "link": "https://tuoitre.vn/quan-ca-phe-quan-nuoc-dong-nghet-dip-le-2-9-vi-sao-100260831232002048.htm"
-  },
-  {
-    "id": "hotnews_vi_0999af6f",
-    "date": "2026-09-01",
-    "ts": 1788248100000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/xoa-du-lieu-ai-1788165843693995241315-0-52-943-1561-crop-17881658858471243603638.png",
-    "title": "Những vụ mất dữ liệu 'vô lý' nhất lịch sử công nghệ: Một cú gõ phím, cả hệ thống đi tong",
-    "link": "https://tuoitre.vn/nhung-vu-mat-du-lieu-vo-ly-nhat-lich-su-cong-nghe-mot-cu-go-phim-ca-he-thong-di-tong-100260831151728788.htm"
   }
 ]
