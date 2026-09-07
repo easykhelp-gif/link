@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_vi_d4c3a9a0",
+    "date": "2026-09-07",
+    "ts": 1788815803000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908000400315_01_i_P2.jpg",
+    "title": "Tổng thống Lee đề cử lãnh đạo Cơ quan Điều tra Tội phạm mới",
+    "link": "https://en.yna.co.kr/view/AEN20260908000400315"
+  },
+  {
+    "id": "hotnews_vi_3cd5e131",
+    "date": "2026-09-07",
+    "ts": 1788814809000,
+    "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/06/PGT20260806185501009_P2.jpg",
+    "title": "Cầu thủ Park Ji-hyun gia nhập giải bóng rổ quốc tế Project B",
+    "link": "https://en.yna.co.kr/view/AEN20260907008100315"
+  },
+  {
+    "id": "hotnews_vi_2c952bdf",
+    "date": "2026-09-07",
+    "ts": 1788814803000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009400320_01_i_P2.jpg",
+    "title": "Ethereum Institutional ủng hộ Hàn Quốc phát triển STO",
+    "link": "https://en.yna.co.kr/view/AEN20260907009400320"
+  },
+  {
+    "id": "hotnews_vi_aecfeee2",
+    "date": "2026-09-07",
+    "ts": 1788813000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.467fa7f3d3b540a8bfd94a3a7bc93d08_T1.jpg",
+    "title": "Đảng cực hữu Đức tấn công kiến trúc hiện đại",
+    "link": "https://www.koreaherald.com/article/10865391"
+  },
+  {
+    "id": "hotnews_vi_1dd0ca7d",
+    "date": "2026-09-07",
+    "ts": 1788813000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.be49f353517f45dfaf54e6d051f40c81_T1.jpg",
+    "title": "Ly hôn tuổi xế chiều tăng nhanh ở Hàn Quốc và Mỹ",
+    "link": "https://www.koreaherald.com/article/10865390"
+  },
+  {
+    "id": "hotnews_vi_b2749ffb",
+    "date": "2026-09-07",
+    "ts": 1788806449000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009600315_01_i_P2.jpg",
+    "title": "Tổng thống Lee đến Paris để hội đàm với Macron",
+    "link": "https://en.yna.co.kr/view/AEN20260907009600315"
+  },
+  {
     "id": "hotnews_vi_812d66b7",
     "date": "2026-09-07",
     "ts": 1788803471000,
@@ -22,6 +70,38 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009951320_01_i_P2.jpg",
     "title": "Bộ trưởng Quốc phòng Triều Tiên chỉ trích tập trận chung",
     "link": "https://en.yna.co.kr/view/AEN20260907009951320"
+  },
+  {
+    "id": "hotnews_vi_7aaa3fb7",
+    "date": "2026-09-07",
+    "ts": 1788790235000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Triều Tiên chỉ trích tập trận Mỹ-Hàn-Nhật gây bất ổn",
+    "link": "https://en.yna.co.kr/view/AEN20260907009800320"
+  },
+  {
+    "id": "hotnews_vi_4463bab6",
+    "date": "2026-09-07",
+    "ts": 1788774252000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005852315_04_i_P2.jpg",
+    "title": "Hàn Quốc bàn về eo biển Hormuz và giữ kênh ngoại giao với Iran",
+    "link": "https://en.yna.co.kr/view/AEN20260907005852315"
+  },
+  {
+    "id": "hotnews_vi_81e13174",
+    "date": "2026-09-07",
+    "ts": 1788773798000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907062602_54_k.jpg",
+    "title": "Hàn - Pháp hợp tác phát triển ngành công nghiệp phim ảnh",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204079"
+  },
+  {
+    "id": "hotnews_vi_8bce2083",
+    "date": "2026-09-07",
+    "ts": 1788773254000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.6232376c5b90420f858f22c873f435bc_T1.jpg",
+    "title": "Hàn Quốc và Pháp hợp tác đầu tư lớn vào điện ảnh",
+    "link": "https://www.koreaherald.com/article/10865492"
   },
   {
     "id": "hotnews_vi_bd31898a",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "Hàn Quốc sẽ chốt kế hoạch di dời các cơ quan vào quý 4",
     "link": "https://en.yna.co.kr/view/AEN20260903005100315"
-  },
-  {
-    "id": "hotnews_vi_791850bc",
-    "date": "2026-09-03",
-    "ts": 1788402776000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.6c7e72a5d533464582ae41e5919a5ab7_T1.jpg",
-    "title": "Hàn Quốc: Rạp phim phải hỗ trợ người khiếm thị, khiếm thính",
-    "link": "https://www.koreaherald.com/article/10861503"
-  },
-  {
-    "id": "hotnews_vi_e92fd717",
-    "date": "2026-09-03",
-    "ts": 1788401604000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.3d717e2fc45b42a29f467a8745b5b364_T1.jpg",
-    "title": "Nghi phạm giết nữ sinh Trung Quốc từng gạ gẫm sinh viên khác",
-    "link": "https://www.koreaherald.com/article/10861435"
-  },
-  {
-    "id": "hotnews_vi_644bf0f6",
-    "date": "2026-09-03",
-    "ts": 1788401372000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/18/PYH2026081814200001300_P2.jpg",
-    "title": "Nghị sĩ Jin Jong-oh kiện quyết định kỷ luật của đảng PPP",
-    "link": "https://en.yna.co.kr/view/AEN20260903003900315"
-  },
-  {
-    "id": "hotnews_vi_8f4d7625",
-    "date": "2026-09-02",
-    "ts": 1788383823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/02/d78b59fc-3bbe-47bb-97c2-23671d6b18d9.jpeg",
-    "title": "Quán cà phê ở Hàn Quốc cấm học sinh nam gây tranh cãi",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260903/cafe-ban-on-teenage-boys-sparks-discrimination-debate-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_3091e355",
-    "date": "2026-09-02",
-    "ts": 1788371688000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/26/PYH2025032606970001300_P2.jpg",
-    "title": "Mỹ cân nhắc thiết kế tàu khu trục của Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20260902010551315"
-  },
-  {
-    "id": "hotnews_vi_a1558222",
-    "date": "2026-09-02",
-    "ts": 1788354644000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902010400315_02_i_P2.jpg",
-    "title": "Son Ju-young tin LG Twins sẽ vươn lên vị trí cao hơn tại KBO",
-    "link": "https://en.yna.co.kr/view/AEN20260902010400315"
-  },
-  {
-    "id": "hotnews_vi_556ba1dc",
-    "date": "2026-09-02",
-    "ts": 1788350701000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902006453315_05_i_P2.jpg",
-    "title": "Lật tàu kéo ngoài khơi Busan: 1 người chết, 6 người mất tích",
-    "link": "https://en.yna.co.kr/view/AEN20260902006453315"
-  },
-  {
-    "id": "hotnews_vi_1da5281f",
-    "date": "2026-09-02",
-    "ts": 1788337993000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/02/news-p.v1.20260902.1d3e6794b38a4d369c8a5a6e00fc4922_T1.jpg",
-    "title": "Du học sinh Nepal tại Hàn Quốc quyên góp hỗ trợ nạn nhân lũ lụt",
-    "link": "https://www.koreaherald.com/article/10860711"
-  },
-  {
-    "id": "hotnews_vi_7ad3c2ef",
-    "date": "2026-09-02",
-    "ts": 1788335420000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008600315_01_i_P2.jpg",
-    "title": "Hàn-Mỹ tăng cường phối hợp về các vấn đề Bán đảo Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260902008600315"
-  },
-  {
-    "id": "hotnews_vi_99179126",
-    "date": "2026-09-02",
-    "ts": 1788335386000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082520050006100_P2.jpg",
-    "title": "Doosan Bears không giới hạn số hiệp ném của Choi Min-seok",
-    "link": "https://en.yna.co.kr/view/AEN20260902009300315"
   }
 ]

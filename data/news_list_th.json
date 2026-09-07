@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_d4c3a9a0",
+    "date": "2026-09-07",
+    "ts": 1788815803000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908000400315_01_i_P2.jpg",
+    "title": "อีแจมยองเสนอชื่อคิมจียองนั่งหัวหน้าสำนักงานสืบสวนคดีอาชญากรรมใหญ่",
+    "link": "https://en.yna.co.kr/view/AEN20260908000400315"
+  },
+  {
+    "id": "hotnews_th_3cd5e131",
+    "date": "2026-09-07",
+    "ts": 1788814809000,
+    "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/06/PGT20260806185501009_P2.jpg",
+    "title": "พัคจีฮยอน นักบาสเกตบอล WNBA ชาวเกาหลีใต้ เข้าร่วมลีกสากล Project B",
+    "link": "https://en.yna.co.kr/view/AEN20260907008100315"
+  },
+  {
+    "id": "hotnews_th_2c952bdf",
+    "date": "2026-09-07",
+    "ts": 1788814803000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009400320_01_i_P2.jpg",
+    "title": "Ethereum Institutional หนุนเกาหลีใต้สร้างระบบสินทรัพย์ดิจิทัล",
+    "link": "https://en.yna.co.kr/view/AEN20260907009400320"
+  },
+  {
+    "id": "hotnews_th_aecfeee2",
+    "date": "2026-09-07",
+    "ts": 1788813000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.467fa7f3d3b540a8bfd94a3a7bc93d08_T1.jpg",
+    "title": "พรรคขวาจัด AfD ในเยอรมนีคัดค้านสถาปัตยกรรมโมเดิร์น",
+    "link": "https://www.koreaherald.com/article/10865391"
+  },
+  {
+    "id": "hotnews_th_1dd0ca7d",
+    "date": "2026-09-07",
+    "ts": 1788813000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.be49f353517f45dfaf54e6d051f40c81_T1.jpg",
+    "title": "ปรากฏการณ์หย่าร้างวัยเกษียณหรือ Gray Divorce เพิ่มขึ้นในเกาหลีใต้",
+    "link": "https://www.koreaherald.com/article/10865390"
+  },
+  {
+    "id": "hotnews_th_b2749ffb",
+    "date": "2026-09-07",
+    "ts": 1788806449000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009600315_01_i_P2.jpg",
+    "title": "ประธานาธิบดี อี แจมยอง เดินทางถึงปารีสเพื่อพบมาครง",
+    "link": "https://en.yna.co.kr/view/AEN20260907009600315"
+  },
+  {
+    "id": "hotnews_th_812d66b7",
+    "date": "2026-09-07",
+    "ts": 1788803471000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081209140005100_P2.jpg",
+    "title": "สส.สหรัฐฯ เสนอให้วันที่ 4 ก.ย. เป็นวันขอบคุณปรมาจารย์เทควันโด",
+    "link": "https://en.yna.co.kr/view/AEN20260908000200315"
+  },
+  {
     "id": "hotnews_th_e16fccca",
     "date": "2026-09-07",
     "ts": 1788797067000,
@@ -16,6 +72,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260907009951320"
   },
   {
+    "id": "hotnews_th_7aaa3fb7",
+    "date": "2026-09-07",
+    "ts": 1788790235000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "เกาหลีเหนือเตือนซ้อมรบ สรอ.-เกาหลีใต้-ญี่ปุ่น ดันสถานการณ์ถึงขีดสุด",
+    "link": "https://en.yna.co.kr/view/AEN20260907009800320"
+  },
+  {
     "id": "hotnews_th_20baf26e",
     "date": "2026-09-07",
     "ts": 1788782300000,
@@ -30,6 +94,22 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005852315_04_i_P2.jpg",
     "title": "เกาหลีใต้เจรจานานาชาติเรื่องช่องแคบฮอร์มุ兹พร้อมเปิดช่องทางอิหร่าน",
     "link": "https://en.yna.co.kr/view/AEN20260907005852315"
+  },
+  {
+    "id": "hotnews_th_81e13174",
+    "date": "2026-09-07",
+    "ts": 1788773798000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907062602_54_k.jpg",
+    "title": "เกาหลีใต้และฝรั่งเศสร่วมมือลงทุนในอุตสาหกรรมภาพยนตร์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204079"
+  },
+  {
+    "id": "hotnews_th_8bce2083",
+    "date": "2026-09-07",
+    "ts": 1788773254000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.6232376c5b90420f858f22c873f435bc_T1.jpg",
+    "title": "อี แจมยอง และ มาครง ร่วมริเริ่มกองทุนลงทุนภาพยนตร์ระดับโลก",
+    "link": "https://www.koreaherald.com/article/10865492"
   },
   {
     "id": "hotnews_th_bd31898a",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904060340_94_e.jpg",
     "title": "ค่าเงินวอน-ดอลลาร์ลดลงสู่ช่วง 1,340 วอน ครั้งแรกในรอบ 14 เดือน",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204035"
-  },
-  {
-    "id": "hotnews_th_91e87b63",
-    "date": "2026-09-04",
-    "ts": 1788509108000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202505/250516035212_88_e.jpg",
-    "title": "ผู้พิพากษาคดีอดีตปธน. Yoon ถูกฟ้องข้อหาทุจริต",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204034"
-  },
-  {
-    "id": "hotnews_th_b5426716",
-    "date": "2026-09-04",
-    "ts": 1788505534000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904040618_2_k.jpg",
-    "title": "ดัชนี KOSPI ปรับตัวขึ้น 1.64% ในวันศุกร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204030"
-  },
-  {
-    "id": "hotnews_th_9f30fba4",
-    "date": "2026-09-04",
-    "ts": 1788493022000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/04/b2f526e4-6500-4996-8351-0964b477215c.jpeg",
-    "title": "ม.ฮันกุก (HUFS) คว้าทุนวิจัยด้านตะวันออกกลาง 1.2 หมื่นล้านวอน",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260904/hufs-institute-of-middle-east-studies-selected-for-research-project-under-humanities-korea-grant-program?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_7d0743b2",
-    "date": "2026-09-04",
-    "ts": 1788488730000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.e66d54fe8a184f36ac3b6dd9d50da5cf_T1.jpg",
-    "title": "ผู้นำ Samsung และ SK เตรียมพบซีอีโอ Nvidia ที่นิวยอร์ก",
-    "link": "https://www.koreaherald.com/article/10862798"
-  },
-  {
-    "id": "hotnews_th_d76c8238",
-    "date": "2026-09-04",
-    "ts": 1788484850000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904003000315_02_i_P2.jpg",
-    "title": "งาน Gwangju Biennale ครั้งที่ 16 เปิดฉากสุดสัปดาห์นี้ จัดแสดง 72 วัน",
-    "link": "https://en.yna.co.kr/view/AEN20260904003000315"
-  },
-  {
-    "id": "hotnews_th_8a659624",
-    "date": "2026-09-03",
-    "ts": 1788466294000,
-    "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903238701009_P2.jpg",
-    "title": "รอง ปธน. สหรัฐฯ เตือนอย่าพึ่งพาห่วงโซ่อุปทานจากชาติคู่แข่ง",
-    "link": "https://en.yna.co.kr/view/AEN20260904000300315"
-  },
-  {
-    "id": "hotnews_th_d8430606",
-    "date": "2026-09-03",
-    "ts": 1788440582000,
-    "image": "https://img.yna.co.kr/photo/cms/2025/12/24/49/PCM20251224000049990_P2.jpg",
-    "title": "ช็องวาแดปฏิเสธรายงานข่าวเรื่องการส่งทหารไปยังช่องแคบฮอร์มุซ",
-    "link": "https://en.yna.co.kr/view/AEN20260903010900320"
-  },
-  {
-    "id": "hotnews_th_4f9ec6b0",
-    "date": "2026-09-03",
-    "ts": 1788426631000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903010700320_01_i_P2.jpg",
-    "title": "Samsung ลดช่องว่างตามหลัง SK hynix ในตลาดชิป HBM ไตรมาส 2",
-    "link": "https://en.yna.co.kr/view/AEN20260903010700320"
-  },
-  {
-    "id": "hotnews_th_e63479f4",
-    "date": "2026-09-03",
-    "ts": 1788425512000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.2fae84fa83834352a8564ed23480133f_T1.jpg",
-    "title": "แดวุง พาร์มาซูติคอล ยกระดับความร่วมมือด้านยาร่วมกับอินโดนีเซีย",
-    "link": "https://www.koreaherald.com/article/10862135"
-  },
-  {
-    "id": "hotnews_th_366da48f",
-    "date": "2026-09-03",
-    "ts": 1788420954000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007751315_01_i_P2.jpg",
-    "title": "อีแจมยอง สั่งตำรวจเร่งปฏิรูป หลังรับโอนอำนาจสืบสวนทั้งหมด",
-    "link": "https://en.yna.co.kr/view/AEN20260903007751315"
   }
 ]
