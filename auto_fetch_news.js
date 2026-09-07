@@ -258,12 +258,30 @@ function timingReport(totalMs) {
   console.log('─────────────────────────────────────────');
 }
 
-// 요약 한 건. 호출 한도에 걸리면 잠깐 쉬었다 다시 시도하고,
+// 하루치 호출을 다 쓰면 그 회차는 더 두드리지 않는다.
+//
+// 2026-09-07 실측. 무료 등급의 한도는 분당이 아니라 하루 20회다.
+//   quotaId   GenerateRequestsPerDayPerProjectPerModel-FreeTier
+//   quotaValue 20
+// 이걸 모르고 매 건마다 모델 2개 × 재시도 3회를 돌려서 한 회차가
+// 2시간 36분 걸렸다 (114건 × 82초). 기다려도 오늘 안에는 안 풀린다.
+let DAILY_QUOTA_HIT = false;
+
+// 요약 한 건. 분당 한도면 잠깐 쉬었다 다시 시도하고,
 // 모델이 은퇴했으면(404) 대체 모델로 한 번 더 시도한다.
+// 하루 한도면 즉시 회차 전체를 접는다.
 async function summarizeOnce(ai, prompt) {
+  if (DAILY_QUOTA_HIT) {
+    const e = new Error('하루 호출 한도 소진 — 이번 회차는 더 부르지 않는다');
+    e.isQuota = true;
+    e.isDailyQuota = true;
+    throw e;
+  }
+
   const models = [GEMINI.MODEL, GEMINI.MODEL_FALLBACK];
   let lastErr = null;
 
+  tryModels:
   for (const model of models) {
     for (let attempt = 0; attempt <= GEMINI.RETRY; attempt++) {
       try {
@@ -278,11 +296,27 @@ async function summarizeOnce(ai, prompt) {
       } catch (e) {
         lastErr = e;
         const msg = String((e && e.message) || e);
-        // 호출 한도 — 쉬었다 다시
-        if (/429|RESOURCE_EXHAUSTED|rate limit|quota/i.test(msg) && attempt < GEMINI.RETRY) {
-          await timed('retry', () => delay(GEMINI.RETRY_WAIT_MS));
-          continue;
+
+        // 하루 한도. 오늘은 뭘 해도 안 된다
+        if (/PerDay|RequestsPerDay|per day/i.test(msg)) {
+          if (!DAILY_QUOTA_HIT) {
+            console.error('★ Gemini 하루 호출 한도를 다 썼다. 이번 회차의 남은 요약은 건너뛴다.');
+          }
+          DAILY_QUOTA_HIT = true;
+          break tryModels;
         }
+
+        // 분당 한도. 쉬었다 같은 모델로 다시
+        if (/429|RESOURCE_EXHAUSTED|rate limit|quota/i.test(msg)) {
+          if (attempt < GEMINI.RETRY) {
+            await timed('retry', () => delay(GEMINI.RETRY_WAIT_MS));
+            continue;
+          }
+          // 재시도를 다 썼는데도 한도다. 대체 모델도 같은 프로젝트 할당량을
+          // 쓰므로 거기서도 똑같이 튕긴다. 두드릴 이유가 없다
+          break tryModels;
+        }
+
         // 모델이 없음 — 다음 모델로
         if (/404|not found|NOT_FOUND|is not supported/i.test(msg)) break;
         break;
@@ -294,6 +328,7 @@ async function summarizeOnce(ai, prompt) {
   const err = lastErr || new Error('요약 실패');
   const em = String((err && err.message) || err);
   err.isQuota = /429|RESOURCE_EXHAUSTED|rate limit|quota|too many requests/i.test(em);
+  if (DAILY_QUOTA_HIT) err.isDailyQuota = true;
   throw err;
 }
 
@@ -746,7 +781,10 @@ async function runPipeline() {
         // 갈래 판정을 번역본으로 하면 언어마다 결과가 달라진다.
         const sourceTitle = item.title;
         let fullText = item.desc;
-        if (process.env.GEMINI_API_KEY && summarizedThisLang >= SUMMARY_LIMIT_PER_LANG) {
+        // 하루 한도를 만난 뒤로는 기사 본문도 받지 않는다.
+        // 어차피 요약을 못 하는데 받아 봐야 시간만 쓴다.
+        if (process.env.GEMINI_API_KEY &&
+            (summarizedThisLang >= SUMMARY_LIMIT_PER_LANG || DAILY_QUOTA_HIT)) {
           summarizeSkipped++;
         } else if (process.env.GEMINI_API_KEY) {
           try {
@@ -872,8 +910,11 @@ async function runPipeline() {
   // 실패로 보고하지 않는다 — 그러면 실패 메일이 온다.
   // 키가 죽었거나 모델이 사라진 경우만 사람이 손봐야 하므로 실패로 남긴다.
   if (process.env.GEMINI_API_KEY && summarized === 0 && summarizeFailed > 0) {
-    if (quotaFailed === summarizeFailed) {
-      console.log(`이번 회차는 호출 한도에 걸려 요약을 못 했다 (${quotaFailed}건). 다음 회차에 다시 한다.`);
+    // 예전에는 "전부 한도 실패" 일 때만 넘어갔다. 그런데 114건 중 112건이
+    // 한도이고 2건이 빈 응답이었더니 조건이 깨져 실패 메일이 왔다 (2026-09-07).
+    // 한도가 섞여 있으면 한도 문제로 본다. 사람이 손볼 일이 아니다.
+    if (quotaFailed > 0) {
+      console.log(`이번 회차는 호출 한도에 걸려 요약을 못 했다 (한도 ${quotaFailed}건 · 그 외 ${summarizeFailed - quotaFailed}건). 다음 회차에 다시 한다.`);
       return;
     }
     console.error(`요약이 한 건도 되지 않았다 (한도 ${quotaFailed}건 · 그 외 ${summarizeFailed - quotaFailed}건).`);
