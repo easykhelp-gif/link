@@ -707,6 +707,10 @@ const SUMMARY_LIMIT_PER_LANG = GEMINI.LIMIT_PER_LANG;
 async function runPipeline() {
   console.log('🚀 3대 언론사 멀티 교차 파싱 파이프라인 집행...');
   let summarized = 0, summarizeFailed = 0, quotaFailed = 0, summarizeSkipped = 0, notTranslated = 0, archived = 0, skippedNotShown = 0, angled = 0;
+  // 하루 한도로 건너뛴 건수는 따로 센다.
+  // 언어당 상한(LIMIT_PER_LANG)으로 건너뛴 것과 한 칸에 섞으면
+  // 로그만 보고 원인을 못 가린다. 실제로 그것 때문에 사흘을 헤맸다.
+  let dailyQuotaSkipped = 0;
 
   for (const lang of ['en', 'th', 'vi']) {
     let summarizedThisLang = 0;
@@ -785,7 +789,7 @@ async function runPipeline() {
         // 어차피 요약을 못 하는데 받아 봐야 시간만 쓴다.
         if (process.env.GEMINI_API_KEY &&
             (summarizedThisLang >= SUMMARY_LIMIT_PER_LANG || DAILY_QUOTA_HIT)) {
-          summarizeSkipped++;
+          if (DAILY_QUOTA_HIT) dailyQuotaSkipped++; else summarizeSkipped++;
         } else if (process.env.GEMINI_API_KEY) {
           try {
             const htmlContent = await timed('article', () => fetchUrl(item.link));
@@ -895,7 +899,8 @@ async function runPipeline() {
     console.log(`★ 발행 날짜가 미래인 기사 ${futureDateWarnings.length}건 — 매체 오류다. 날짜만 고쳐 실었다.`);
     futureDateWarnings.slice(0, 5).forEach(w => console.log(`    +${w.hours}시간  ${w.title}`));
   }
-  console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 상한 초과로 건너뜀 ${summarizeSkipped}건 · 그중 호출한도 ${quotaFailed}건`);
+  console.log(`요약 성공 ${summarized}건 · 실패 ${summarizeFailed}건 · 그중 호출한도 ${quotaFailed}건`);
+  console.log(`건너뜀: 언어당 상한 ${summarizeSkipped}건 · 하루 한도 소진 ${dailyQuotaSkipped}건`);
   console.log(`코리케어 시선이 붙은 기사 ${angled}건 / 요약 ${summarized}건`);
   console.log(`월간 정리용으로 보관 ${archived}건`);
   if (skippedNotShown) console.log(`목록(50건)에 못 드는 기사 ${skippedNotShown}건은 만들지 않았다`);
