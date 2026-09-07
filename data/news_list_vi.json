@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_812d66b7",
+    "date": "2026-09-07",
+    "ts": 1788803471000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081209140005100_P2.jpg",
+    "title": "Hạ viện Mỹ đề xuất Ngày tri ân Đại sư võ Taekwondo",
+    "link": "https://en.yna.co.kr/view/AEN20260908000200315"
+  },
+  {
+    "id": "hotnews_vi_e16fccca",
+    "date": "2026-09-07",
+    "ts": 1788797067000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907010051315_04_i_P2.jpg",
+    "title": "Tổng thống Lee kêu gọi kết nối nội dung Hàn Quốc với nền tảng toàn cầu",
+    "link": "https://en.yna.co.kr/view/AEN20260907010051315"
+  },
+  {
+    "id": "hotnews_vi_9336dc58",
+    "date": "2026-09-07",
+    "ts": 1788792724000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907009951320_01_i_P2.jpg",
+    "title": "Bộ trưởng Quốc phòng Triều Tiên chỉ trích tập trận chung",
+    "link": "https://en.yna.co.kr/view/AEN20260907009951320"
+  },
+  {
     "id": "hotnews_vi_bd31898a",
     "date": "2026-09-07",
     "ts": 1788772924000,
@@ -32,6 +56,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260907009100320"
   },
   {
+    "id": "hotnews_vi_6c904605",
+    "date": "2026-09-07",
+    "ts": 1788772641000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.7a02cc50aaf34944846b313f736534e6_T1.jpg",
+    "title": "Đề nghị mức án 27 năm tù cho thủ lĩnh JMS Jeong Myeong-seok",
+    "link": "https://www.koreaherald.com/article/10865480"
+  },
+  {
     "id": "hotnews_vi_e941371e",
     "date": "2026-09-07",
     "ts": 1788769575000,
@@ -48,12 +80,60 @@
     "link": "https://www.koreaherald.com/article/10865425"
   },
   {
+    "id": "hotnews_vi_23105505",
+    "date": "2026-09-07",
+    "ts": 1788768698000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907032643_35_e.jpg",
+    "title": "Đội cứu hộ Hàn Quốc giải cứu công dân Trung Quốc tại Nepal",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204075"
+  },
+  {
+    "id": "hotnews_vi_46d40848",
+    "date": "2026-09-07",
+    "ts": 1788767976000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907008700315_01_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung đồng chủ trì hội nghị điện ảnh tại Pháp",
+    "link": "https://en.yna.co.kr/view/AEN20260907008700315"
+  },
+  {
+    "id": "hotnews_vi_44e56da4",
+    "date": "2026-09-07",
+    "ts": 1788767479000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.d33f49ac7f4f45598722e958ea717f31_T1.jpg",
+    "title": "Lãnh đạo đảng cầm quyền Hàn Quốc kêu gọi tăng cường tự chủ an ninh",
+    "link": "https://www.koreaherald.com/article/10865370"
+  },
+  {
+    "id": "hotnews_vi_44e4e96f",
+    "date": "2026-09-07",
+    "ts": 1788767256000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/rcv.YNA.20260722.PYH2026072217750001300_T1.jpg",
+    "title": "Seoul tăng cường hỗ trợ ngôn ngữ cho học sinh đa văn hóa",
+    "link": "https://www.koreaherald.com/article/10865353"
+  },
+  {
+    "id": "hotnews_vi_0ac6f493",
+    "date": "2026-09-07",
+    "ts": 1788766861000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.f0a68897ae574040ab393a314b06f8b3_T1.jpg",
+    "title": "Nhạc funk Brazil đang trở thành xu hướng mới trong K-pop",
+    "link": "https://www.koreaherald.com/article/10865341"
+  },
+  {
     "id": "hotnews_vi_d040e0e3",
     "date": "2026-09-07",
     "ts": 1788766829000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005851315_03_i_P2.jpg",
     "title": "Hàn Quốc bàn về eo biển Hormuz và duy trì quan hệ với Iran",
     "link": "https://en.yna.co.kr/view/AEN20260907005851315"
+  },
+  {
+    "id": "hotnews_vi_7fafbde8",
+    "date": "2026-09-07",
+    "ts": 1788766796000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/09/07/14/PCM20260907000114990_P2.jpg",
+    "title": "Cựu công tố viên làm người đứng đầu Cơ quan Điều tra Tội phạm",
+    "link": "https://en.yna.co.kr/view/AEN20260907007900315"
   },
   {
     "id": "hotnews_vi_349a593d",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082520050006100_P2.jpg",
     "title": "Doosan Bears không giới hạn số hiệp ném của Choi Min-seok",
     "link": "https://en.yna.co.kr/view/AEN20260902009300315"
-  },
-  {
-    "id": "hotnews_vi_1573ee54",
-    "date": "2026-09-02",
-    "ts": 1788334895000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008900320_04_i_P2.jpg",
-    "title": "Chipotle mở cửa hàng đầu tiên tại Châu Á ở Seoul",
-    "link": "https://en.yna.co.kr/view/AEN20260902008900320"
-  },
-  {
-    "id": "hotnews_vi_d77ec1f5",
-    "date": "2026-09-02",
-    "ts": 1788334478000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/20/PYH2026072018550001300_P2.jpg",
-    "title": "Hàn Quốc bác lo ngại can thiệp vào liên đoàn bóng đá",
-    "link": "https://en.yna.co.kr/view/AEN20260902008800315"
-  },
-  {
-    "id": "hotnews_vi_b2f7eca3",
-    "date": "2026-09-02",
-    "ts": 1788334194000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260902041715_90_e.jpg",
-    "title": "ENHYPEN lần đầu tiên đứng đầu Billboard 200",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203996"
-  },
-  {
-    "id": "hotnews_vi_a3a50edb",
-    "date": "2026-09-02",
-    "ts": 1788333361000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902008400315_01_i_P2.jpg",
-    "title": "Số vụ lừa đảo qua điện thoại tại Hàn Quốc giảm gần 40%",
-    "link": "https://en.yna.co.kr/view/AEN20260902008400315"
-  },
-  {
-    "id": "hotnews_vi_070529e4",
-    "date": "2026-09-02",
-    "ts": 1788332564000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902007600315_01_i_P2.jpg",
-    "title": "Hàn Quốc thúc đẩy ứng dụng trí tuệ nhân tạo trong quân đội",
-    "link": "https://en.yna.co.kr/view/AEN20260902007600315"
-  },
-  {
-    "id": "hotnews_vi_11568501",
-    "date": "2026-09-02",
-    "ts": 1788332402000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/02/AEN20260902006200320_01_i_P2.jpg",
-    "title": "Hàn Quốc chia sẻ chiến lược kinh tế hậu chiến tại G20",
-    "link": "https://en.yna.co.kr/view/AEN20260902006200320"
-  },
-  {
-    "id": "hotnews_vi_6973e8d7",
-    "date": "2026-09-01",
-    "ts": 1788251220000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/housefly2-1024x535-1788168524096-1788168524785582454836-0-13-535-869-crop-1788168656296185205928.jpg",
-    "title": "Con ruồi mang hơn 100 mầm bệnh, có thể mang bệnh vào mâm cơm của bạn",
-    "link": "https://tuoitre.vn/con-ruoi-mang-hon-100-mam-benh-co-the-mang-benh-vao-mam-com-cua-ban-100260831163146393.htm"
-  },
-  {
-    "id": "hotnews_vi_63fe1a6d",
-    "date": "2026-09-01",
-    "ts": 1788250860000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/messi-1-1786413744714103351606-0-40-600-1000-crop-1788221912162863951062-0-142-344-693-crop-17882257522081348659494.jpg",
-    "title": "Báo chí thế giới bất ngờ, tôn vinh Messi là 'bất tử'",
-    "link": "https://tuoitre.vn/bao-chi-the-gioi-bat-ngo-ton-vinh-messi-la-bat-tu-100260901071931125.htm"
-  },
-  {
-    "id": "hotnews_vi_50f80e9a",
-    "date": "2026-09-01",
-    "ts": 1788250080000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/doan-van-hieu-em-ceo-dmx-17765091042281232749947-1788197955326538817093-23-0-437-662-crop-17882250778221828441161.jpg",
-    "title": "CEO Điện Máy Xanh lên tiếng về việc khép lại dự án tại Campuchia",
-    "link": "https://tuoitre.vn/ceo-dien-may-xanh-len-tieng-ve-viec-khep-lai-du-an-tai-campuchia-100260901005051352.htm"
-  },
-  {
-    "id": "hotnews_vi_5a176cd2",
-    "date": "2026-09-01",
-    "ts": 1788249900000,
-    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/1/tha-dieu-1788224947282568882993-378-0-1628-2000-crop-1788225008176769531084.png",
-    "title": "Lễ 2-9: Dòng người đổ về hồ nước 'khổng lồ' thả diều, hóng gió",
-    "link": "https://tuoitre.vn/le-2-9-dong-nguoi-do-ve-ho-nuoc-khong-lo-tha-dieu-hong-gio-100260831221442684.htm"
   }
 ]
