@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_d13699dc",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/18b75b99-2293-4b2e-aa33-1103c23d4b24.jpg",
+    "title": "Tổng thống Lee cam kết duy trì hòa bình bằng đối thoại",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260908/president-lee-vows-to-pursue-peace-on-korean-peninsula-through-dialogue-based-on-firm-deterrence?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_bb215fc8",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8bac115d-b5d9-4a1d-907e-3f5d9d18c843.jpg",
+    "title": "Hơn 100 tội phạm truy nã nước ngoài lẩn trốn tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/more-than-100-foreign-fugitives-hiding-in-korea-police-data-shows?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_0b8ea21e",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/563add10-80d5-4ea8-946d-5a43c3191663.jpeg",
+    "title": "ĐH Quốc gia Jeonbuk chế tạo vật liệu năng lượng kép",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260908/jeonbuk-national-university-team-develops-bifunctional-material-for-energy-production-storage?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_019c3bbd",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/21fa7516-b3ea-45d7-9b23-9a3ba966c7db.jpeg",
+    "title": "Chợ truyền thống Seoul giảm giá mạnh dịp lễ Chuseok",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260908/traditional-markets-in-seoul-cut-prices-to-help-families-prep-for-chuseok?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_aec2891b",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/ac8ffb84-61c5-428f-8a04-8c36580792cb.jpg",
+    "title": "Quy định lao động mới gây tranh cãi về dự án chip Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/new-labor-rules-cloud-koreas-chip-project-draw-fire-from-both-sides?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_95e14e20",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/2d20b9fb-f981-4270-be02-864ace81b37e.jpeg",
+    "title": "Hàn Quốc và Thái Lan hợp tác triệt phá tội phạm vi phạm bản quyền số",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260908/korea-thailand-team-up-to-bust-digital-pirates?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_db7ac54b",
+    "date": "2026-09-08",
+    "ts": 1788843423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8cde41d9-c76d-46ab-8dc3-6047a34e0fce.png",
+    "title": "Lee Jae Myung đề xuất hợp tác nội dung và nền tảng toàn cầu",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260908/lee-calls-for-partnership-linking-local-content-with-global-platforms?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1db43d4d",
+    "date": "2026-09-08",
+    "ts": 1788843140000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908014327_59_e.jpg",
+    "title": "Các nhóm thể thao lấy lại đồ từ nơi kiểm phiếu",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204098"
+  },
+  {
+    "id": "hotnews_vi_ba078368",
+    "date": "2026-09-08",
+    "ts": 1788842648000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122127_1_k.jpg",
+    "title": "Lãnh đạo PPP loại trừ sửa đổi Hiến pháp, bãi bỏ bỏ phiếu sớm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204096"
+  },
+  {
+    "id": "hotnews_vi_4f1d8fd9",
+    "date": "2026-09-08",
+    "ts": 1788841560000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908004851315_01_i_P2.jpg",
+    "title": "Phạt 6 triệu won người phụ nữ đeo bám diễn viên Hwang Jung-min",
+    "link": "https://en.yna.co.kr/view/AEN20260908004851315"
+  },
+  {
     "id": "hotnews_vi_d4c3a9a0",
     "date": "2026-09-07",
     "ts": 1788815803000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/03/00ffd755-0eb1-4a8f-b21f-2e966f9a57a3.jpeg",
     "title": "Seoul ra mắt 7 mẫu vòi nước uống công cộng tiện ích mới",
     "link": "https://www.koreatimes.co.kr/southkorea/20260903/seoul-unveils-7-new-water-fountain-designs-for-tumblers-wheelchairs-pets?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e63479f4",
-    "date": "2026-09-03",
-    "ts": 1788425512000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.2fae84fa83834352a8564ed23480133f_T1.jpg",
-    "title": "Daewoong Pharmaceutical tăng cường hợp tác với Indonesia",
-    "link": "https://www.koreaherald.com/article/10862135"
-  },
-  {
-    "id": "hotnews_vi_16a0c906",
-    "date": "2026-09-03",
-    "ts": 1788425418000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-a.v1.20260903.86f865ddb49440cf9ce058f9236533bb_T1.png",
-    "title": "Người nước ngoài có được nhận trợ cấp kết hôn tại Hàn Quốc?",
-    "link": "https://www.koreaherald.com/article/10862134"
-  },
-  {
-    "id": "hotnews_vi_366da48f",
-    "date": "2026-09-03",
-    "ts": 1788420954000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007751315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung yêu cầu cảnh sát cải cách nội bộ",
-    "link": "https://en.yna.co.kr/view/AEN20260903007751315"
-  },
-  {
-    "id": "hotnews_vi_4a015ee3",
-    "date": "2026-09-03",
-    "ts": 1788420723000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090317970001300_P2.jpg",
-    "title": "Thiền sư Jinwoo tái đắc cử người đứng đầu tông phái Jogye",
-    "link": "https://en.yna.co.kr/view/AEN20260903007551315"
-  },
-  {
-    "id": "hotnews_vi_064a37b5",
-    "date": "2026-09-03",
-    "ts": 1788419229000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903007200315_01_i_P2.jpg",
-    "title": "Khám xét công ty hóa chất sau vụ cháy nhà máy ở Cheonan",
-    "link": "https://en.yna.co.kr/view/AEN20260903007200315"
-  },
-  {
-    "id": "hotnews_vi_2c4e4f60",
-    "date": "2026-09-03",
-    "ts": 1788419104000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.e26271451d7d45dfa3709c3cebced630_T1.jpg",
-    "title": "Bảo hiểm Samsung cân nhắc đầu tư 9 nghìn tỷ won tại Anh và Mỹ",
-    "link": "https://www.koreaherald.com/article/10861952"
-  },
-  {
-    "id": "hotnews_vi_d054f8de",
-    "date": "2026-09-03",
-    "ts": 1788415960000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.972fcf3634e046b3b391e3b740afa7ba_T1.jpg",
-    "title": "Triều Tiên xóa bỏ mục tiêu thống nhất khỏi điều lệ đảng",
-    "link": "https://www.koreaherald.com/article/10861816"
-  },
-  {
-    "id": "hotnews_vi_7e221edc",
-    "date": "2026-09-03",
-    "ts": 1788409130000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/03/news-p.v1.20260903.615e8ddbe88a402898d0860f21c0e52a_T1.jpg",
-    "title": "OCI khởi công dự án điện mặt trời 260 MW tại Texas",
-    "link": "https://www.koreaherald.com/article/10861653"
-  },
-  {
-    "id": "hotnews_vi_e88f50c3",
-    "date": "2026-09-03",
-    "ts": 1788408831000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202412/241223020059_34_k.jpg",
-    "title": "KEPCO đề xuất Samsung và SK hynix trả trước tiền điện 5 năm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204007"
-  },
-  {
-    "id": "hotnews_vi_954eda71",
-    "date": "2026-09-03",
-    "ts": 1788403046000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Hàn Quốc sẽ chốt kế hoạch di dời các cơ quan vào quý 4",
-    "link": "https://en.yna.co.kr/view/AEN20260903005100315"
   }
 ]
