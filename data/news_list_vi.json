@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_99968f75",
+    "date": "2026-09-08",
+    "ts": 1788886023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/947d1f53-b98e-49c1-a9f7-b9ed43a19b38.jpeg",
+    "title": "Tỷ lệ vợ lớn tuổi hơn chồng tại Hàn Quốc tăng lên",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20260909/korea-sees-rise-in-couples-with-older-wives?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_81264664",
+    "date": "2026-09-08",
+    "ts": 1788883200000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073007950001300_P2.jpg",
+    "title": "Samsung hợp tác với Mistral AI nâng cao sản xuất chip",
+    "link": "https://en.yna.co.kr/view/AEN20260908011300320"
+  },
+  {
+    "id": "hotnews_vi_6e1e32b6",
+    "date": "2026-09-08",
+    "ts": 1788880497000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010553315_05_i_P2.jpg",
+    "title": "Hàn-Pháp tăng cường hợp tác quốc phòng và công nghiệp",
+    "link": "https://en.yna.co.kr/view/AEN20260908010553315"
+  },
+  {
+    "id": "hotnews_vi_06afc13f",
+    "date": "2026-09-08",
+    "ts": 1788869962000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc cử đoàn kiểm tra đến eo biển Hormuz đánh giá tình hình",
+    "link": "https://en.yna.co.kr/view/AEN20260908011200320"
+  },
+  {
+    "id": "hotnews_vi_78fa19fc",
+    "date": "2026-09-08",
+    "ts": 1788867957000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/04/24/46/PCM20260424000046990_P2.jpg",
+    "title": "Hàn Quốc chi 4,7 nghìn tỷ won phát triển AI nội địa",
+    "link": "https://en.yna.co.kr/view/AEN20260908011100320"
+  },
+  {
     "id": "hotnews_vi_815d1080",
     "date": "2026-09-08",
     "ts": 1788867124000,
@@ -40,6 +80,22 @@
     "link": "https://www.koreatimes.co.kr/southkorea/health/20260908/seoul-district-trains-subway-workers-to-protect-seniors-with-dementia?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_95627f33",
+    "date": "2026-09-08",
+    "ts": 1788865444000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/05/23/05/PCM20230523000105990_P2.jpg",
+    "title": "Hanwha Ocean thắng thầu đóng tàu chiến cho Hải quân Thái Lan",
+    "link": "https://en.yna.co.kr/view/AEN20260908010700320"
+  },
+  {
+    "id": "hotnews_vi_da98a344",
+    "date": "2026-09-08",
+    "ts": 1788862275000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908071219_90_e.jpg",
+    "title": "Ngân sách 2027 không có tiền cho an ninh nhà cựu Tổng thống Yoon",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204113"
+  },
+  {
     "id": "hotnews_vi_9845bbb3",
     "date": "2026-09-08",
     "ts": 1788860627000,
@@ -48,12 +104,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260908010600320"
   },
   {
+    "id": "hotnews_vi_d4d6eb8d",
+    "date": "2026-09-08",
+    "ts": 1788859206000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064928_100_e.jpg",
+    "title": "Mở rộng bảo hiểm y tế cho bệnh hiếm và nặng",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204110"
+  },
+  {
     "id": "hotnews_vi_e9aa10d5",
     "date": "2026-09-08",
     "ts": 1788858852000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064634_75_e.jpg",
     "title": "Kỹ năng đọc của học sinh 15 tuổi tại Hàn Quốc giảm mạnh",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204109"
+  },
+  {
+    "id": "hotnews_vi_595ab174",
+    "date": "2026-09-08",
+    "ts": 1788856286000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/rcv.YNA.20260724.PYH2026072410830001300_T1.jpg",
+    "title": "Giáo viên tố cáo bạo lực tình dục quay lại lớp học",
+    "link": "https://www.koreaherald.com/article/10866771"
   },
   {
     "id": "hotnews_vi_07743558",
@@ -78,6 +150,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908006551315_01_i_P2.jpg",
     "title": "Bộ trưởng Quốc phòng Philippines chỉ trích Trung Quốc tại Seoul",
     "link": "https://en.yna.co.kr/view/AEN20260908006551315"
+  },
+  {
+    "id": "hotnews_vi_7770a2cf",
+    "date": "2026-09-08",
+    "ts": 1788853652000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/rcv.YNA.20260908.PYH2026090804670001300_T1.jpg",
+    "title": "Bộ trưởng Quốc phòng Philippines chỉ trích Trung Quốc tại Seoul",
+    "link": "https://www.koreaherald.com/article/10866724"
   },
   {
     "id": "hotnews_vi_d13699dc",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0a25c6c128146a6bb7ba8ca9f7a2aba_T1.jpg",
     "title": "Khoảng cách lương theo giới tính ở cơ quan công ích giảm dưới 20%",
     "link": "https://www.koreaherald.com/article/10865425"
-  },
-  {
-    "id": "hotnews_vi_23105505",
-    "date": "2026-09-07",
-    "ts": 1788768698000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907032643_35_e.jpg",
-    "title": "Đội cứu hộ Hàn Quốc giải cứu công dân Trung Quốc tại Nepal",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204075"
-  },
-  {
-    "id": "hotnews_vi_46d40848",
-    "date": "2026-09-07",
-    "ts": 1788767976000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907008700315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung đồng chủ trì hội nghị điện ảnh tại Pháp",
-    "link": "https://en.yna.co.kr/view/AEN20260907008700315"
-  },
-  {
-    "id": "hotnews_vi_44e56da4",
-    "date": "2026-09-07",
-    "ts": 1788767479000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.d33f49ac7f4f45598722e958ea717f31_T1.jpg",
-    "title": "Lãnh đạo đảng cầm quyền Hàn Quốc kêu gọi tăng cường tự chủ an ninh",
-    "link": "https://www.koreaherald.com/article/10865370"
-  },
-  {
-    "id": "hotnews_vi_44e4e96f",
-    "date": "2026-09-07",
-    "ts": 1788767256000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/rcv.YNA.20260722.PYH2026072217750001300_T1.jpg",
-    "title": "Seoul tăng cường hỗ trợ ngôn ngữ cho học sinh đa văn hóa",
-    "link": "https://www.koreaherald.com/article/10865353"
-  },
-  {
-    "id": "hotnews_vi_0ac6f493",
-    "date": "2026-09-07",
-    "ts": 1788766861000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.f0a68897ae574040ab393a314b06f8b3_T1.jpg",
-    "title": "Nhạc funk Brazil đang trở thành xu hướng mới trong K-pop",
-    "link": "https://www.koreaherald.com/article/10865341"
-  },
-  {
-    "id": "hotnews_vi_d040e0e3",
-    "date": "2026-09-07",
-    "ts": 1788766829000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005851315_03_i_P2.jpg",
-    "title": "Hàn Quốc bàn về eo biển Hormuz và duy trì quan hệ với Iran",
-    "link": "https://en.yna.co.kr/view/AEN20260907005851315"
-  },
-  {
-    "id": "hotnews_vi_7fafbde8",
-    "date": "2026-09-07",
-    "ts": 1788766796000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/09/07/14/PCM20260907000114990_P2.jpg",
-    "title": "Cựu công tố viên làm người đứng đầu Cơ quan Điều tra Tội phạm",
-    "link": "https://en.yna.co.kr/view/AEN20260907007900315"
-  },
-  {
-    "id": "hotnews_vi_349a593d",
-    "date": "2026-09-07",
-    "ts": 1788766332000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090718120001300_P2.jpg",
-    "title": "Chứng khoán Seoul tăng vọt 4,6% nhờ kỳ vọng vào AI",
-    "link": "https://en.yna.co.kr/view/AEN20260907005752320"
-  },
-  {
-    "id": "hotnews_vi_1701a708",
-    "date": "2026-09-07",
-    "ts": 1788763630000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005900315_01_i_P2.jpg",
-    "title": "Đề nghị 27 năm tù cho giáo chủ JMS Jeong Myeong-seok",
-    "link": "https://en.yna.co.kr/view/AEN20260907005900315"
-  },
-  {
-    "id": "hotnews_vi_b080eb39",
-    "date": "2026-09-07",
-    "ts": 1788763218000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/17/PYH2025091704480001300_P2.jpg",
-    "title": "Hàn Quốc, Mỹ và Nhật Bản khởi động tập trận chung Freedom Edge",
-    "link": "https://en.yna.co.kr/view/AEN20260907002352315"
   }
 ]
