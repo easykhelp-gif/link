@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_815d1080",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/f55d1cec-ab7c-47ae-8e47-26b11bec5d61.jpg",
+    "title": "Khả năng đọc của học sinh 15 tuổi Hàn Quốc giảm mạnh",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/korean-15-year-olds-reading-ability-drops-considerably-over-past-3-years-report?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_4ef5c58d",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/33500a9d-64b6-437b-b4c6-6ac56e7ee3dc.jpeg",
+    "title": "Incheon huấn luyện an toàn lao động bằng chương trình giải trí",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260908/incheon-uses-game-show-format-in-safety-training-for-migrant-factory-workers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_f4135d06",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8bac115d-b5d9-4a1d-907e-3f5d9d18c843.jpg",
+    "title": "Hơn 100 tội phạm truy nã quốc tế lẩn trốn tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/more-than-100-intl-fugitives-hiding-in-korea-police-data-shows?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_0f416b38",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/ccffcc42-df21-4440-ad70-c924d4028262.jpeg",
+    "title": "ĐH Quốc gia Chungnam làm chủ dự án AI vật lý và đào tạo nhân lực",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260908/chungnam-national-university-selected-for-physical-ai-development-talent-training-project?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_be645a70",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/3cccd444-4a75-4280-abe0-a7d5feebb755.jpeg",
+    "title": "Quận Songpa huấn luyện nhân viên tàu điện bảo vệ người cao tuổi",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260908/seoul-district-trains-subway-workers-to-protect-seniors-with-dementia?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_9845bbb3",
+    "date": "2026-09-08",
+    "ts": 1788860627000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082605620001300_P2.jpg",
+    "title": "Mỹ gây sức ép Hàn Quốc tăng đầu tư vượt cam kết 350 tỷ USD",
+    "link": "https://en.yna.co.kr/view/AEN20260908010600320"
+  },
+  {
+    "id": "hotnews_vi_e9aa10d5",
+    "date": "2026-09-08",
+    "ts": 1788858852000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064634_75_e.jpg",
+    "title": "Kỹ năng đọc của học sinh 15 tuổi tại Hàn Quốc giảm mạnh",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204109"
+  },
+  {
+    "id": "hotnews_vi_07743558",
+    "date": "2026-09-08",
+    "ts": 1788855705000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908065254_17_e.jpg",
+    "title": "IAEA: Hàn Quốc thông báo ý định thảo luận về tàu ngầm hạt nhân",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204107"
+  },
+  {
+    "id": "hotnews_vi_3e916d26",
+    "date": "2026-09-08",
+    "ts": 1788855663000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/13/PYH2025101309600001300_P2.jpg",
+    "title": "Nghị sĩ Lee Choon-suak bị truy tố vì dùng tài khoản giả",
+    "link": "https://en.yna.co.kr/view/AEN20260908009300315"
+  },
+  {
+    "id": "hotnews_vi_8637ee2b",
+    "date": "2026-09-08",
+    "ts": 1788855274000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908006551315_01_i_P2.jpg",
+    "title": "Bộ trưởng Quốc phòng Philippines chỉ trích Trung Quốc tại Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20260908006551315"
+  },
+  {
     "id": "hotnews_vi_d13699dc",
     "date": "2026-09-08",
     "ts": 1788843423000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/17/PYH2025091704480001300_P2.jpg",
     "title": "Hàn Quốc, Mỹ và Nhật Bản khởi động tập trận chung Freedom Edge",
     "link": "https://en.yna.co.kr/view/AEN20260907002352315"
-  },
-  {
-    "id": "hotnews_vi_a6ce8c0d",
-    "date": "2026-09-05",
-    "ts": 1788581524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/01/19/02676764-2b07-475a-9ebe-b428fe39a9e5.jpeg",
-    "title": "Trải nghiệm lần đầu đến PC bang ở Seoul vào năm 1998",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260905/morning-calm-tales-descending-into-koreas-first-pc-bangs?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_9ff95acb",
-    "date": "2026-09-04",
-    "ts": 1788514742000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904065931_47_e.jpg",
-    "title": "Cần cẩu đổ trên xà lan gần Jeju, 1 người tử vong",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204040"
-  },
-  {
-    "id": "hotnews_vi_bbf6b4f1",
-    "date": "2026-09-04",
-    "ts": 1788507852000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090321670005600_P2.jpg",
-    "title": "Cảnh sát Hàn Quốc muốn có quyền định vị người lớn mất tích",
-    "link": "https://en.yna.co.kr/view/AEN20260904010000315"
-  },
-  {
-    "id": "hotnews_vi_3f3c9b37",
-    "date": "2026-09-04",
-    "ts": 1788495849000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.6dec72751fb14e39900c25bfbf663fdb_T1.jpg",
-    "title": "Diễn viên Ansel Elgort gây tranh cãi vì mặc yukata tại Seoul",
-    "link": "https://www.koreaherald.com/article/10862926"
-  },
-  {
-    "id": "hotnews_vi_349cb19e",
-    "date": "2026-09-04",
-    "ts": 1788485907000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/04/news-p.v1.20260904.b743e1a382bb41a0bf8e5f455394d74f_T1.jpg",
-    "title": "HLV tạm quyền tuyển bóng đá Hàn Quốc hứa chứng minh trên sân cỏ",
-    "link": "https://www.koreaherald.com/article/10862644"
-  },
-  {
-    "id": "hotnews_vi_b16c6c1e",
-    "date": "2026-09-03",
-    "ts": 1788470823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/246c2cc5-072b-4032-a648-1df19be223fa.jpg",
-    "title": "Kim Keum-hwa: Cuộc đời pháp sư huyền thoại của Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/who-was-kim-keum-hwa?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_cbc2b7f9",
-    "date": "2026-09-03",
-    "ts": 1788470823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/02/bd4fa4ec-3c15-4190-a5cf-b2bf7880d26e.jpeg",
-    "title": "Tín ngưỡng pháp sư Hàn Quốc ngày càng lan rộng ra toàn cầu",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260904/korean-shamanism-spreads-far-beyond-its-homeland?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_037fe4e5",
-    "date": "2026-09-03",
-    "ts": 1788470743000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/04/AEN20260904000500315_02_i_P2.jpg",
-    "title": "Hàn Quốc đàm phán với Mỹ để không chịu bất lợi về thuế chip",
-    "link": "https://en.yna.co.kr/view/AEN20260904000500315"
-  },
-  {
-    "id": "hotnews_vi_ab80edb9",
-    "date": "2026-09-03",
-    "ts": 1788436322000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/2d78a820-01df-4c06-b7cf-94995e5d233d.jpg",
-    "title": "Công đoàn tài chính Hàn Quốc sẽ đình công vào thứ Sáu",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260903/financial-union-to-go-on-strike-friday-as-planned-over-relocation-plan?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c74b85dd",
-    "date": "2026-09-03",
-    "ts": 1788436322000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/00ffd755-0eb1-4a8f-b21f-2e966f9a57a3.jpeg",
-    "title": "Seoul ra mắt 7 mẫu vòi nước uống công cộng tiện ích mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260903/seoul-unveils-7-new-water-fountain-designs-for-tumblers-wheelchairs-pets?utm_source=rss"
   }
 ]

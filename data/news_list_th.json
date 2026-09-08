@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_815d1080",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/f55d1cec-ab7c-47ae-8e47-26b11bec5d61.jpg",
+    "title": "ผลสอบ OECD เผยเด็กเกาหลีอายุ 15 ปีอ่านหนังสือแย่ลงใน 3 ปี",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/korean-15-year-olds-reading-ability-drops-considerably-over-past-3-years-report?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4ef5c58d",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/33500a9d-64b6-437b-b4c6-6ac56e7ee3dc.jpeg",
+    "title": "เมืองอินชอนจัดอบรมความปลอดภัยรูปแบบเกมโชว์ให้แรงงานต่างชาติ",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260908/incheon-uses-game-show-format-in-safety-training-for-migrant-factory-workers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f4135d06",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8bac115d-b5d9-4a1d-907e-3f5d9d18c843.jpg",
+    "title": "พบชาวต่างชาติหนีหมายจับสากลหลบซ่อนตัวในเกาหลีใต้กว่า 100 คน",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/more-than-100-intl-fugitives-hiding-in-korea-police-data-shows?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_0f416b38",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/ccffcc42-df21-4440-ad70-c924d4028262.jpeg",
+    "title": "ม.ชุงนัมคว้าโครงการ AI พัฒนาเทคโนโลยีการเกษตรอัจฉริยะ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260908/chungnam-national-university-selected-for-physical-ai-development-talent-training-project?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_be645a70",
+    "date": "2026-09-08",
+    "ts": 1788867124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/3cccd444-4a75-4280-abe0-a7d5feebb755.jpeg",
+    "title": "เขตซงพาในโซลฝึกอบรมพนักงานรถใต้ดินดูแลผู้สูงอายุสมองเสื่อม",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260908/seoul-district-trains-subway-workers-to-protect-seniors-with-dementia?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9845bbb3",
+    "date": "2026-09-08",
+    "ts": 1788860627000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082605620001300_P2.jpg",
+    "title": "สหรัฐฯ กดดันเกาหลีใต้เพิ่มเงินลงทุนเกิน 3.5 แสนล้านดอลลาร์",
+    "link": "https://en.yna.co.kr/view/AEN20260908010600320"
+  },
+  {
+    "id": "hotnews_th_e9aa10d5",
+    "date": "2026-09-08",
+    "ts": 1788858852000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064634_75_e.jpg",
+    "title": "ผลการศึกษา OECD ชี้ทักษะการอ่านของเยาวชนเกาหลีใต้อายุ 15 ปีลดลง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204109"
+  },
+  {
+    "id": "hotnews_th_07743558",
+    "date": "2026-09-08",
+    "ts": 1788855705000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908065254_17_e.jpg",
+    "title": "IAEA เผยเกาหลีใต้แจ้งความจำนงเริ่มหารือเรื่องเรือดำน้ำนิวเคลียร์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204107"
+  },
+  {
+    "id": "hotnews_th_3e916d26",
+    "date": "2026-09-08",
+    "ts": 1788855663000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/13/PYH2025101309600001300_P2.jpg",
+    "title": "อัยการเกาหลีใต้สั่งฟ้อง อี ชุนซอก อดีต สส. ปมใช้บัญชีนัยชื่อคนอื่น",
+    "link": "https://en.yna.co.kr/view/AEN20260908009300315"
+  },
+  {
+    "id": "hotnews_th_8637ee2b",
+    "date": "2026-09-08",
+    "ts": 1788855274000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908006551315_01_i_P2.jpg",
+    "title": "รัฐมนตรีกลาโหมฟิลิปปินส์โต้จีนเดือดในงานประชุมที่โซล",
+    "link": "https://en.yna.co.kr/view/AEN20260908006551315"
+  },
+  {
     "id": "hotnews_th_d13699dc",
     "date": "2026-09-08",
     "ts": 1788843423000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/17/PYH2025091704480001300_P2.jpg",
     "title": "เกาหลีใต้ สหรัฐ และญี่ปุ่นเริ่มการซ้อมรบสามฝ่าย Freedom Edge",
     "link": "https://en.yna.co.kr/view/AEN20260907002352315"
-  },
-  {
-    "id": "hotnews_th_d1c92475",
-    "date": "2026-09-06",
-    "ts": 1788689823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/06/05cfce8d-a63d-4f8f-91d8-6ba2b3ed1676.jpeg",
-    "title": "คณะระบำเลบานอนเดินสายแสดงในเกาหลีใต้ฉลอง 45 ปีความสัมพันธ์",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260906/lebanese-traditional-dance-troupe-tours-korea-for-19th-arab-culture-festival?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_201cb11c",
-    "date": "2026-09-06",
-    "ts": 1788689823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/23/c12cff9b-e6f0-40ed-bb03-82f9e01eb473.jpeg",
-    "title": "ช่างภาพชาวอเมริกันจัดแสดงภาพถ่ายเกาหลี 50 ปีที่อินซาดง",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260906/long-term-foreign-resident-exhibits-50-years-of-photography-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6bc4f8e0",
-    "date": "2026-09-06",
-    "ts": 1788689823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/06/7b3c4866-90ea-45a6-bcb9-595d5e7a7a6a.jpg",
-    "title": "เกาหลีใต้ชงแก้กฎหมาย ให้เลือกใช้นามสกุลแม่ตอนแจ้งเกิดได้",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260906/mothers-surname-at-birth-bill-aims-to-shift-koreas-family-name-deadline?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_74c09f33",
-    "date": "2026-09-06",
-    "ts": 1788689823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/19/5ce10e70-3420-4d44-b5d6-84f22e8ff2e3.jpg",
-    "title": "ร้าน Maple House ย่านแฮบังชนในโซลกลับมาเปิดใหม่อีกครั้ง",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260906/restaurant-of-the-week-maple-house-returns-strong-after-renovation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_4afd716b",
-    "date": "2026-09-06",
-    "ts": 1788689823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/21/72baaae7-d6e7-438f-959c-3a667c963957.jpeg",
-    "title": "เปิดเรื่องขำขันเกาหลีโบราณเรื่องการผายลมและบรรทัดฐานทางสังคม",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260906/laughing-through-history-31-im-the-one-who-farted?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_84050657",
-    "date": "2026-09-06",
-    "ts": 1788689345000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090414950001300_P2.jpg",
-    "title": "เกาหลีใต้เร่งค้นหาชาวเกาหลี 9 คนที่สูญหายจากน้ำท่วมในเนปาล",
-    "link": "https://en.yna.co.kr/view/AEN20260906003151315"
-  },
-  {
-    "id": "hotnews_th_c37bdaf5",
-    "date": "2026-09-06",
-    "ts": 1788684501000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/rcv.YNA.20260906.PYH2026090605620001300_T1.jpg",
-    "title": "หนัง 'The Odyssey' ของโนแลน ทำยอดผู้ชมทะลุ 10 ล้านคนในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10864034"
-  },
-  {
-    "id": "hotnews_th_274d1369",
-    "date": "2026-09-06",
-    "ts": 1788683824000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/rcv.YNA.20260902.PYH2026090213680006100_T1.jpg",
-    "title": "ปูซานเปิดตัวโครงการ K-Culture ดึงชาวต่างชาติเที่ยวระยะยาว",
-    "link": "https://www.koreaherald.com/article/10864029"
-  },
-  {
-    "id": "hotnews_th_c7be0db2",
-    "date": "2026-09-06",
-    "ts": 1788682583000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/06/news-p.v1.20260906.7fd85e8bfb3b415c8c38efd061c237e4_T1.jpg",
-    "title": "ท่าเต้น K-pop ยุคใหม่ บอยแบนด์เน้นยาก เกิร์ลกรุ๊ปเน้นอิสระ",
-    "link": "https://www.koreaherald.com/article/10864020"
-  },
-  {
-    "id": "hotnews_th_09c7c5c8",
-    "date": "2026-09-06",
-    "ts": 1788670259000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/06/PYH2026090602170001300_P2.jpg",
-    "title": "เทศกาลดอกไม้ไฟกรุงโซลจัดยิ่งใหญ่ ผู้ชมร่วมงานกว่า 1 ล้านคน",
-    "link": "https://en.yna.co.kr/view/AEN20260906001800320"
   }
 ]
