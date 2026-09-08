@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_vi_d85dff9f",
+    "date": "2026-09-08",
+    "ts": 1788899400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.ac991db2c32944188a72b74584cf93a8_T1.jpg",
+    "title": "Thói quen tiêu dùng và cảm giác tội lỗi của người Mỹ",
+    "link": "https://www.koreaherald.com/article/10866718"
+  },
+  {
+    "id": "hotnews_vi_ed80878d",
+    "date": "2026-09-08",
+    "ts": 1788899400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.3c1a177eb7d6400f84c8f42eed80a23a_T1.jpg",
+    "title": "Các tác phẩm văn học định hình nước Hàn qua các thời kỳ",
+    "link": "https://www.koreaherald.com/article/10866716"
+  },
+  {
+    "id": "hotnews_vi_88ed631e",
+    "date": "2026-09-08",
+    "ts": 1788894154000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909000300315_01_i_P2.jpg",
+    "title": "Đệ nhất phu nhân Hàn - Pháp thăm triển lãm hanji tại Paris",
+    "link": "https://en.yna.co.kr/view/AEN20260909000300315"
+  },
+  {
+    "id": "hotnews_vi_cb2346ff",
+    "date": "2026-09-08",
+    "ts": 1788886351000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010554315_05_i_P2.jpg",
+    "title": "Hàn Quốc và Pháp tăng cường hợp tác quốc phòng và công nghiệp",
+    "link": "https://en.yna.co.kr/view/AEN20260908010554315"
+  },
+  {
     "id": "hotnews_vi_99968f75",
     "date": "2026-09-08",
     "ts": 1788886023000,
@@ -16,12 +48,44 @@
     "link": "https://en.yna.co.kr/view/AEN20260908011300320"
   },
   {
+    "id": "hotnews_vi_b1d4eb9f",
+    "date": "2026-09-08",
+    "ts": 1788883200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.74f54d49cc404d3c85c950df68c41017_T1.jpg",
+    "title": "Samsung và Mistral AI hợp tác phát triển AI cho bán dẫn",
+    "link": "https://www.koreaherald.com/article/10866843"
+  },
+  {
     "id": "hotnews_vi_6e1e32b6",
     "date": "2026-09-08",
     "ts": 1788880497000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010553315_05_i_P2.jpg",
     "title": "Hàn-Pháp tăng cường hợp tác quốc phòng và công nghiệp",
     "link": "https://en.yna.co.kr/view/AEN20260908010553315"
+  },
+  {
+    "id": "hotnews_vi_291e2121",
+    "date": "2026-09-08",
+    "ts": 1788880161000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909120746_21_e.jpg",
+    "title": "Seoul và Paris phối hợp khôi phục hàng hải tại eo biển Hormuz",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204118"
+  },
+  {
+    "id": "hotnews_vi_142da11d",
+    "date": "2026-09-08",
+    "ts": 1788877453000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010900315_01_i_P2.jpg",
+    "title": "Hàn Quốc và Pháp ký kết nhiều thỏa thuận hợp tác quan trọng",
+    "link": "https://en.yna.co.kr/view/AEN20260908010900315"
+  },
+  {
+    "id": "hotnews_vi_acf584b3",
+    "date": "2026-09-08",
+    "ts": 1788870554000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.8f5c4c8f7c0445c0accbc951842ba869_T1.png",
+    "title": "Bộ Khoa học Hàn Quốc đầu tư 3,49 tỷ USD cho mô hình AI",
+    "link": "https://www.koreaherald.com/article/10866862"
   },
   {
     "id": "hotnews_vi_06afc13f",
@@ -80,12 +144,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/health/20260908/seoul-district-trains-subway-workers-to-protect-seniors-with-dementia?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_38f39bde",
+    "date": "2026-09-08",
+    "ts": 1788865914000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.6d929a8085f34363af8c8647b0fe764b_T1.png",
+    "title": "Hanwha Ocean thắng thầu đóng tàu chiến 505 triệu USD cho Thái Lan",
+    "link": "https://www.koreaherald.com/article/10866838"
+  },
+  {
     "id": "hotnews_vi_95627f33",
     "date": "2026-09-08",
     "ts": 1788865444000,
     "image": "https://img.yna.co.kr/photo/cms/2023/05/23/05/PCM20230523000105990_P2.jpg",
     "title": "Hanwha Ocean thắng thầu đóng tàu chiến cho Hải quân Thái Lan",
     "link": "https://en.yna.co.kr/view/AEN20260908010700320"
+  },
+  {
+    "id": "hotnews_vi_e85ab989",
+    "date": "2026-09-08",
+    "ts": 1788863065000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908071540_84_e.jpg",
+    "title": "Bộ trưởng Quốc phòng Philippines chỉ trích Trung Quốc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204114"
   },
   {
     "id": "hotnews_vi_da98a344",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "Triều Tiên chỉ trích tập trận Mỹ-Hàn-Nhật gây bất ổn",
     "link": "https://en.yna.co.kr/view/AEN20260907009800320"
-  },
-  {
-    "id": "hotnews_vi_4463bab6",
-    "date": "2026-09-07",
-    "ts": 1788774252000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/07/AEN20260907005852315_04_i_P2.jpg",
-    "title": "Hàn Quốc bàn về eo biển Hormuz và giữ kênh ngoại giao với Iran",
-    "link": "https://en.yna.co.kr/view/AEN20260907005852315"
-  },
-  {
-    "id": "hotnews_vi_81e13174",
-    "date": "2026-09-07",
-    "ts": 1788773798000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260907062602_54_k.jpg",
-    "title": "Hàn - Pháp hợp tác phát triển ngành công nghiệp phim ảnh",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204079"
-  },
-  {
-    "id": "hotnews_vi_8bce2083",
-    "date": "2026-09-07",
-    "ts": 1788773254000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.6232376c5b90420f858f22c873f435bc_T1.jpg",
-    "title": "Hàn Quốc và Pháp hợp tác đầu tư lớn vào điện ảnh",
-    "link": "https://www.koreaherald.com/article/10865492"
-  },
-  {
-    "id": "hotnews_vi_bd31898a",
-    "date": "2026-09-07",
-    "ts": 1788772924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/06/0fad85c9-2556-4398-917b-cdd6e942ad08.jpeg",
-    "title": "Các chuyến bay Busan và Đài Loan tăng mạnh do khách du lịch",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20260907/busan-taiwan-flights-surge-as-city-captures-taiwanese-tourists-hearts?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_df108beb",
-    "date": "2026-09-07",
-    "ts": 1788772924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/ba6434cb-7def-4ab9-b33e-59d1ab734367.jpg",
-    "title": "Lãnh đạo DPK đẩy mạnh sửa đổi hiến pháp Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260907/dpk-chief-pushes-constitutional-revision-leaves-presidential-term-change-open?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c92f5ac6",
-    "date": "2026-09-07",
-    "ts": 1788772924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/05/7c4184f3-80f4-4470-8a69-8c5166682e13.jpeg",
-    "title": "Sách mới viết về cựu Tổng thống Roh Moo-hyun",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260907/how-was-roh-moo-hyun-different-from-lee-jae-myung?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c662ecb9",
-    "date": "2026-09-07",
-    "ts": 1788772828000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090719720001300_P2.jpg",
-    "title": "Lãnh đạo đảng cầm quyền và đối lập gặp Chủ tịch Quốc hội Việt Nam",
-    "link": "https://en.yna.co.kr/view/AEN20260907009100320"
-  },
-  {
-    "id": "hotnews_vi_6c904605",
-    "date": "2026-09-07",
-    "ts": 1788772641000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.7a02cc50aaf34944846b313f736534e6_T1.jpg",
-    "title": "Đề nghị mức án 27 năm tù cho thủ lĩnh JMS Jeong Myeong-seok",
-    "link": "https://www.koreaherald.com/article/10865480"
-  },
-  {
-    "id": "hotnews_vi_e941371e",
-    "date": "2026-09-07",
-    "ts": 1788769575000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0604b7d4df34a979b467ae12bb42531_T1.png",
-    "title": "Phim Descendants of the Sun bản Indonesia ra mắt năm 2027",
-    "link": "https://www.koreaherald.com/article/10865428"
-  },
-  {
-    "id": "hotnews_vi_d40bca1d",
-    "date": "2026-09-07",
-    "ts": 1788769473000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/07/news-p.v1.20260907.b0a25c6c128146a6bb7ba8ca9f7a2aba_T1.jpg",
-    "title": "Khoảng cách lương theo giới tính ở cơ quan công ích giảm dưới 20%",
-    "link": "https://www.koreaherald.com/article/10865425"
   }
 ]
