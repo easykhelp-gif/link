@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_69ceeb0b",
+    "date": "2026-09-09",
+    "ts": 1788954123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/21d09eae-0310-4404-938b-df360885327d.jpeg",
+    "title": "ครอบครัวเหยื่อเครื่องบิน Jeju Air ฟ้อง Boeing ในสหรัฐฯ",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260909/why-jeju-air-crash-victims-families-are-taking-boeing-to-us-courts?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_245d460f",
+    "date": "2026-09-09",
+    "ts": 1788954123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/de8968d4-bab6-4458-b354-cd73c6f2dba1.jpeg",
+    "title": "กรุงโซลเตรียมเป็นเจ้าภาพประชุมมะเร็งปอดระดับโลกปี 2026",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260909/seoul-draws-global-lung-cancer-experts-for-major-medical-congress?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4021014f",
+    "date": "2026-09-09",
+    "ts": 1788947293000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909064931_1_e.jpg",
+    "title": "ประธานกลุ่ม SK เสนอเงิน 7.0 แสนล้านวอนยุติคดีหย่าร้าง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204144"
+  },
+  {
+    "id": "hotnews_th_8bfc093b",
+    "date": "2026-09-09",
+    "ts": 1788946519000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065614_42_e.jpg",
+    "title": "หลายพื้นที่ลมแรงและอุณหภูมิเปลี่ยนแปลงมากในวันพฤหัสบดีนี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204143"
+  },
+  {
+    "id": "hotnews_th_182b9ba1",
+    "date": "2026-09-09",
+    "ts": 1788945114000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065200_12_e.jpg",
+    "title": "ทีมบรรเทasภัยเกาหลีเตรียมตัวเดินทางกลับจากเนปาล",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204141"
+  },
+  {
+    "id": "hotnews_th_f3aa018c",
+    "date": "2026-09-09",
+    "ts": 1788940656000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065748_13_e.jpg",
+    "title": "เกาหลีใต้เมินร่วมงานรำลึกเหมืองซาโดของญี่ปุ่นเป็นปีที่สาม",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204140"
+  },
+  {
+    "id": "hotnews_th_154210ef",
+    "date": "2026-09-09",
+    "ts": 1788939846000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909007400315_01_i_P2.jpg",
+    "title": "ผบ.ทหารเกาหลีใต้และสหรัฐฯ ตรวจแนวชายแดนย้ำความพร้อมรับมือเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260909007400315"
+  },
+  {
+    "id": "hotnews_th_ab06cd1b",
+    "date": "2026-09-09",
+    "ts": 1788938746000,
+    "image": "https://img.yna.co.kr/photo/cms/2019/05/08/05/PCM20190508000205990_P2.jpg",
+    "title": "ผลสำรวจชี้ นักเรียนเกาหลีใต้เจอความรุนแรงในโรงเรียนพุ่งสูงสุด 2.9%",
+    "link": "https://en.yna.co.kr/view/AEN20260909007300315"
+  },
+  {
+    "id": "hotnews_th_b6f9cc04",
+    "date": "2026-09-09",
+    "ts": 1788937362000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.8ab3c31fd3564563a1e86ec70280a8eb_T1.jpg",
+    "title": "รัฐบาลโซลยังไม่ตัดสินใจส่งทหารไปช่องแคบฮอร์มุ兹",
+    "link": "https://www.koreaherald.com/article/10867988"
+  },
+  {
+    "id": "hotnews_th_13c37bcd",
+    "date": "2026-09-09",
+    "ts": 1788935921000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090916050005300_P2.jpg",
+    "title": "สสหภาพแรงงาน POSCO เริ่มผละงานประท้วงเตือน 2 วันเรื่องค่าจ้าง",
+    "link": "https://en.yna.co.kr/view/AEN20260909001651320"
+  },
+  {
     "id": "hotnews_th_10df80fd",
     "date": "2026-09-09",
     "ts": 1788929822000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/rcv.YNA.20260908.PYH2026090804670001300_T1.jpg",
     "title": "รมว.กลาโหมฟิลิปปินส์วิจารณ์จีนกลางเวทีประชุมความมั่นคงในโซล",
     "link": "https://www.koreaherald.com/article/10866724"
-  },
-  {
-    "id": "hotnews_th_d13699dc",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/18b75b99-2293-4b2e-aa33-1103c23d4b24.jpg",
-    "title": "ประธานาธิบดีอี มุ่งมั่นสร้างสันติภาพคาบสมุทรเกาหลีผ่านการเจรจา",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260908/president-lee-vows-to-pursue-peace-on-korean-peninsula-through-dialogue-based-on-firm-deterrence?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_bb215fc8",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8bac115d-b5d9-4a1d-907e-3f5d9d18c843.jpg",
-    "title": "พบชาวต่างชาติหนีคดีต่างประเทศหลบซ่อนในเกาหลีใต้กว่า 100 คน",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/more-than-100-foreign-fugitives-hiding-in-korea-police-data-shows?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_0b8ea21e",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/563add10-80d5-4ea8-946d-5a43c3191663.jpeg",
-    "title": "ม.ช็อนบุกพัฒนาวัสดุพลังงานคู่ ผลิตไฮโดรเจนพร้อมเก็บกักได้",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260908/jeonbuk-national-university-team-develops-bifunctional-material-for-energy-production-storage?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_019c3bbd",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/21fa7516-b3ea-45d7-9b23-9a3ba966c7db.jpeg",
-    "title": "โซลลดราคาร้านค้าตลาดสดรับเทศกาลชูซอกสูงสุด 30%",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260908/traditional-markets-in-seoul-cut-prices-to-help-families-prep-for-chuseok?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_aec2891b",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/ac8ffb84-61c5-428f-8a04-8c36580792cb.jpg",
-    "title": "แนวทางแรงงานใหม่เกาหลีสร้างความกังวลให้โครงการชิป",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260908/new-labor-rules-cloud-koreas-chip-project-draw-fire-from-both-sides?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_95e14e20",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/2d20b9fb-f981-4270-be02-864ace81b37e.jpeg",
-    "title": "เกาหลีและไทยร่วมมือปราบละเมิดลิขสิทธิ์ดิจิทัล",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260908/korea-thailand-team-up-to-bust-digital-pirates?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_db7ac54b",
-    "date": "2026-09-08",
-    "ts": 1788843423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/8cde41d9-c76d-46ab-8dc3-6047a34e0fce.png",
-    "title": "ประธานาธิบดีอี แจ-มยอง เสนอความร่วมมือคอนเทนต์ท้องถิ่นและแพลตฟอร์มโลก",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260908/lee-calls-for-partnership-linking-local-content-with-global-platforms?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1db43d4d",
-    "date": "2026-09-08",
-    "ts": 1788843140000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908014327_59_e.jpg",
-    "title": "วงการกีฬาเกาหลีเก็บของสำคัญจากสถานที่นับคะแนนก่อนเอเชียนเกมส์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204098"
-  },
-  {
-    "id": "hotnews_th_ba078368",
-    "date": "2026-09-08",
-    "ts": 1788842648000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122127_1_k.jpg",
-    "title": "หัวหน้าพรรค PPP ปัดเจรจาแก้รัฐธรรมนูญและสัญญาเลิกโหวตล่วงหน้า",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204096"
-  },
-  {
-    "id": "hotnews_th_4f1d8fd9",
-    "date": "2026-09-08",
-    "ts": 1788841560000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908004851315_01_i_P2.jpg",
-    "title": "ศาลสั่งปรับ 6 ล้านวอนหญิงสะกดรอยตามนักแสดงฮวางจองมิน",
-    "link": "https://en.yna.co.kr/view/AEN20260908004851315"
   }
 ]
