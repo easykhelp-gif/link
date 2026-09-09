@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_d2b1342d",
+    "date": "2026-09-09",
+    "ts": 1788972423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/aa9e0ce4-8ee8-490d-a831-f635df7446e4.jpeg",
+    "title": "ฮันกัง นักเขียนรางวัลโนเบล ขึ้นเวทีอ่านงานที่เบอร์ลิน",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260910/nobel-prize-winning-author-han-kang-takes-the-stage-at-berlin-concert-hall?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_a56fd884",
+    "date": "2026-09-09",
+    "ts": 1788964433000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011852315_03_i_P2.jpg",
+    "title": "ประธานาธิบดีอี แจ-มยอง พบประธานสภาแห่งชาติฝรั่งเศส",
+    "link": "https://en.yna.co.kr/view/AEN20260909011852315"
+  },
+  {
+    "id": "hotnews_th_37e43703",
+    "date": "2026-09-09",
+    "ts": 1788963019000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090410460005100_P2.jpg",
+    "title": "พบร่างลูกเรือเรือลากจูงที่สูญหายบริเวณชายหาดโพ항",
+    "link": "https://en.yna.co.kr/view/AEN20260909012600315"
+  },
+  {
+    "id": "hotnews_th_3a25e3ed",
+    "date": "2026-09-09",
+    "ts": 1788960685000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823970005300_P2.jpg",
+    "title": "คิมโดยอง นักเบสบอล Kia Tigers จมูกหัก ลุ้นลงแข่งเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260909012500315"
+  },
+  {
+    "id": "hotnews_th_99f226be",
+    "date": "2026-09-09",
+    "ts": 1788958801000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011700315_01_i_P2.jpg",
+    "title": "เกาหลีใต้และฝรั่งเศสลงนาม MOU ร่วมมือด้าน AI และเซมิคอนดักเตอร์",
+    "link": "https://en.yna.co.kr/view/AEN20260909011700315"
+  },
+  {
+    "id": "hotnews_th_ca1bf540",
+    "date": "2026-09-09",
+    "ts": 1788957808000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.8f2e48547b0242f990847155bf0c32d8_T1.png",
+    "title": "ฟิลิปปินส์จับมือเกาหลีใต้ลุยเฟดใหม่ทันสมัยกองทัพ",
+    "link": "https://www.koreaherald.com/article/10868284"
+  },
+  {
+    "id": "hotnews_th_7763333c",
+    "date": "2026-09-09",
+    "ts": 1788957074000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909012300315_01_i_P2.jpg",
+    "title": "อีแจยอง ประธาน Samsung Electronics จะซื้อหุ้นจากมารดา",
+    "link": "https://en.yna.co.kr/view/AEN20260909012300315"
+  },
+  {
     "id": "hotnews_th_69ceeb0b",
     "date": "2026-09-09",
     "ts": 1788954123000,
@@ -40,12 +96,36 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204141"
   },
   {
+    "id": "hotnews_th_6495eb60",
+    "date": "2026-09-09",
+    "ts": 1788944485000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011000315_01_i_P2.jpg",
+    "title": "วงร็อก hrtz.wav คัมแบ็กพร้อมมินแอลบั้มชุดที่ 2",
+    "link": "https://en.yna.co.kr/view/AEN20260909011000315"
+  },
+  {
     "id": "hotnews_th_f3aa018c",
     "date": "2026-09-09",
     "ts": 1788940656000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065748_13_e.jpg",
     "title": "เกาหลีใต้เมินร่วมงานรำลึกเหมืองซาโดของญี่ปุ่นเป็นปีที่สาม",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204140"
+  },
+  {
+    "id": "hotnews_th_527ac937",
+    "date": "2026-09-09",
+    "ts": 1788940532000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090917980001300_P2.jpg",
+    "title": "รัฐสภามือซักฟอกเดือด ปมปรับครม.และการแก้รัฐธรรมนูญ",
+    "link": "https://en.yna.co.kr/view/AEN20260909003451315"
+  },
+  {
+    "id": "hotnews_th_a00fe03f",
+    "date": "2026-09-09",
+    "ts": 1788940166000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065044_64_e.jpg",
+    "title": "ศาลสั่งจ่ายค่าหย่าร้างสูงสุดให้ภรรยาผู้ก่อตั้ง Smilegate",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204139"
   },
   {
     "id": "hotnews_th_154210ef",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/05/23/05/PCM20230523000105990_P2.jpg",
     "title": "ฮันฮวา โอเชียน คว้าสัญญาต่อเรือฟริเกตจากกองทัพเรือไทย",
     "link": "https://en.yna.co.kr/view/AEN20260908010700320"
-  },
-  {
-    "id": "hotnews_th_e85ab989",
-    "date": "2026-09-08",
-    "ts": 1788863065000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908071540_84_e.jpg",
-    "title": "รัฐมนตรีกลาโหมฟิลิปปินส์ตำหนิจีนเรื่องทะเลจีนใต้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204114"
-  },
-  {
-    "id": "hotnews_th_da98a344",
-    "date": "2026-09-08",
-    "ts": 1788862275000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908071219_90_e.jpg",
-    "title": "ไม่มีงบปี 2027 สำหรับสิ่งอำนวยความสะดวกด้านความปลอดภัยบ้านพักยุน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204113"
-  },
-  {
-    "id": "hotnews_th_9845bbb3",
-    "date": "2026-09-08",
-    "ts": 1788860627000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082605620001300_P2.jpg",
-    "title": "สหรัฐฯ กดดันเกาหลีใต้เพิ่มเงินลงทุนเกิน 3.5 แสนล้านดอลลาร์",
-    "link": "https://en.yna.co.kr/view/AEN20260908010600320"
-  },
-  {
-    "id": "hotnews_th_d4d6eb8d",
-    "date": "2026-09-08",
-    "ts": 1788859206000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064928_100_e.jpg",
-    "title": "ขยายสิทธิรักษาพยาบาลผู้ป่วยโรคหายากและโรครุนแรง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204110"
-  },
-  {
-    "id": "hotnews_th_e9aa10d5",
-    "date": "2026-09-08",
-    "ts": 1788858852000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908064634_75_e.jpg",
-    "title": "ผลการศึกษา OECD ชี้ทักษะการอ่านของเยาวชนเกาหลีใต้อายุ 15 ปีลดลง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204109"
-  },
-  {
-    "id": "hotnews_th_595ab174",
-    "date": "2026-09-08",
-    "ts": 1788856286000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/rcv.YNA.20260724.PYH2026072410830001300_T1.jpg",
-    "title": "ครูที่เคยถูกไล่อออกกรณีเปิดโปงความรุนแรงทางเพศจะได้กลับมาสอน",
-    "link": "https://www.koreaherald.com/article/10866771"
-  },
-  {
-    "id": "hotnews_th_07743558",
-    "date": "2026-09-08",
-    "ts": 1788855705000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908065254_17_e.jpg",
-    "title": "IAEA เผยเกาหลีใต้แจ้งความจำนงเริ่มหารือเรื่องเรือดำน้ำนิวเคลียร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204107"
-  },
-  {
-    "id": "hotnews_th_3e916d26",
-    "date": "2026-09-08",
-    "ts": 1788855663000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/13/PYH2025101309600001300_P2.jpg",
-    "title": "อัยการเกาหลีใต้สั่งฟ้อง อี ชุนซอก อดีต สส. ปมใช้บัญชีนัยชื่อคนอื่น",
-    "link": "https://en.yna.co.kr/view/AEN20260908009300315"
-  },
-  {
-    "id": "hotnews_th_8637ee2b",
-    "date": "2026-09-08",
-    "ts": 1788855274000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908006551315_01_i_P2.jpg",
-    "title": "รัฐมนตรีกลาโหมฟิลิปปินส์โต้จีนเดือดในงานประชุมที่โซล",
-    "link": "https://en.yna.co.kr/view/AEN20260908006551315"
-  },
-  {
-    "id": "hotnews_th_7770a2cf",
-    "date": "2026-09-08",
-    "ts": 1788853652000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/rcv.YNA.20260908.PYH2026090804670001300_T1.jpg",
-    "title": "รมว.กลาโหมฟิลิปปินส์วิจารณ์จีนกลางเวทีประชุมความมั่นคงในโซล",
-    "link": "https://www.koreaherald.com/article/10866724"
   }
 ]
