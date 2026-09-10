@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_4288b154",
+    "date": "2026-09-10",
+    "ts": 1789016524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/af6594c9-4ab3-4af7-9c74-4d5d2a20ec27.jpg",
+    "title": "ประธานาธิบดีอี แจ-มยอง เดินทางกลับเกาหลีใต้หลังเยือนฝรั่งเศส",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260910/president-lee-returns-home-after-4-day-trip-to-france?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6b7c7945",
+    "date": "2026-09-10",
+    "ts": 1789016524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c69fc9d7-49c5-4573-ab9e-8fc9940c0646.jpg",
+    "title": "นักเรียนต่างชาติในเกาหลีทะลุ 5 แสนคนครั้งแรกจากกระแสวัฒนธรรม",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260910/international-students-in-korea-top-500000-for-1st-time-on-korean-cultural-boom?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6df6acce",
+    "date": "2026-09-10",
+    "ts": 1789016524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c1b69490-b039-461c-a962-daea203fcc9e.jpg",
+    "title": "วิ่งมาราธอนใจกลางกรุงโซลสร้างความเดือดร้อนให้ชาวบ้านและร้านค้า",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260910/cover-story-marathons-at-city-centers-inconvenience-residents?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_ce3fb497",
+    "date": "2026-09-10",
+    "ts": 1789016524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/43d248ed-dcf9-4a47-b4e0-d5d6d35c91ff.jpeg",
+    "title": "เยาวชนเกาหลีลาออกจากโรงเรียนเพิ่มขึ้นเพื่อเตรียมสอบเข้ามหาวิทยาลัย",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260910/more-korean-teens-leave-school-to-prepare-for-college-entrance-exams?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_fb6a4849",
+    "date": "2026-09-10",
+    "ts": 1789013367000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907251801009_P2.jpg",
+    "title": "ทีมเกาหลีใต้ประเมินความปลอดภัยช่องแคบฮอร์มุซเตรียมกลับจากUAE",
+    "link": "https://en.yna.co.kr/view/AEN20260910004400315"
+  },
+  {
+    "id": "hotnews_th_dba846f4",
+    "date": "2026-09-10",
+    "ts": 1789009224000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090113770001300_P2.jpg",
+    "title": "กระทรวงข้อมูลเกาหลีใต้จะอัปเดตราคาสินค้าและน้ำมันรายวันก่อนเทศกาลชูซอก",
+    "link": "https://en.yna.co.kr/view/AEN20260910002000320"
+  },
+  {
+    "id": "hotnews_th_2629481f",
+    "date": "2026-09-10",
+    "ts": 1789009220000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082703050001300_P2.jpg",
+    "title": "ธนาคารกลางเกาหลีใต้เล็งพิจารณาจังหวะการขึ้นดอกเบี้ย",
+    "link": "https://en.yna.co.kr/view/AEN20260910002100320"
+  },
+  {
+    "id": "hotnews_th_0b03b94e",
+    "date": "2026-09-10",
+    "ts": 1789008878000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910004000315_02_i_P2.jpg",
+    "title": "เกาหลีใต้เตรียมเพิ่มโทษบริษัททำข้อมูลรั่วไหลครั้งใหญ่",
+    "link": "https://en.yna.co.kr/view/AEN20260910004000315"
+  },
+  {
+    "id": "hotnews_th_58b134b5",
+    "date": "2026-09-10",
+    "ts": 1789007243000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910003600315_01_i_P2.jpg",
+    "title": "ศาลสูงสุดเกาหลียืนโทษจำคุกตลอดชีวิตหัวหน้าแก๊งอาชญากรรมทางเพศ Telegram",
+    "link": "https://en.yna.co.kr/view/AEN20260910003600315"
+  },
+  {
+    "id": "hotnews_th_c577c43e",
+    "date": "2026-09-10",
+    "ts": 1789006556000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910003000315_01_i_P2.jpg",
+    "title": "ตำรวจไทยจับกุมชาวเกาหลีใต้ 12 รายเอี่ยวแก๊งคอลเซ็นเตอร์",
+    "link": "https://en.yna.co.kr/view/AEN20260910003000315"
+  },
+  {
     "id": "hotnews_th_f494b545",
     "date": "2026-09-09",
     "ts": 1788987723000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909004500315_01_i_P2.jpg",
     "title": "เกาหลีใต้ร่วมมือ UNDP ปรับปรุงการกู้ระเบิดตามมาตรฐานสากล",
     "link": "https://en.yna.co.kr/view/AEN20260909004500315"
-  },
-  {
-    "id": "hotnews_th_d85dff9f",
-    "date": "2026-09-08",
-    "ts": 1788899400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.ac991db2c32944188a72b74584cf93a8_T1.jpg",
-    "title": "ผลสำรวจชี้ชาวอเมริกันนิยมใช้จ่ายเพื่อความสุขแต่รู้สึกผิด",
-    "link": "https://www.koreaherald.com/article/10866718"
-  },
-  {
-    "id": "hotnews_th_ed80878d",
-    "date": "2026-09-08",
-    "ts": 1788899400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.3c1a177eb7d6400f84c8f42eed80a23a_T1.jpg",
-    "title": "บทความคิมซองกอนแนะนำ 20 วรรณกรรมสำคัญที่หล่อหลอมเกาหลี",
-    "link": "https://www.koreaherald.com/article/10866716"
-  },
-  {
-    "id": "hotnews_th_88ed631e",
-    "date": "2026-09-08",
-    "ts": 1788894154000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909000300315_01_i_P2.jpg",
-    "title": "คิมเฮคยองและบริจิตต์ มาครง เยี่ยมชมนิทรรศการฮันจีในปารีส",
-    "link": "https://en.yna.co.kr/view/AEN20260909000300315"
-  },
-  {
-    "id": "hotnews_th_cb2346ff",
-    "date": "2026-09-08",
-    "ts": 1788886351000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010554315_05_i_P2.jpg",
-    "title": "เกาหลีใต้และฝรั่งเศสจับมือร่วมมือด้านกลาโหมและอุตสาหกรรม",
-    "link": "https://en.yna.co.kr/view/AEN20260908010554315"
-  },
-  {
-    "id": "hotnews_th_99968f75",
-    "date": "2026-09-08",
-    "ts": 1788886023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/07/947d1f53-b98e-49c1-a9f7-b9ed43a19b38.jpeg",
-    "title": "เกาหลีใต้สitiการแต่งงานที่ฝ่ายหญิงอายุมากกว่าเพิ่มขึ้น",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20260909/korea-sees-rise-in-couples-with-older-wives?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_81264664",
-    "date": "2026-09-08",
-    "ts": 1788883200000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073007950001300_P2.jpg",
-    "title": "ซัมซุงร่วมมือกับสตาร์ทอัพ AI ฝรั่งเศสพัฒนาการผลิตชิป",
-    "link": "https://en.yna.co.kr/view/AEN20260908011300320"
-  },
-  {
-    "id": "hotnews_th_b1d4eb9f",
-    "date": "2026-09-08",
-    "ts": 1788883200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.74f54d49cc404d3c85c950df68c41017_T1.jpg",
-    "title": "ซัมซุงจับมือ Mistral AI พัฒนา AI สำหรับชิป",
-    "link": "https://www.koreaherald.com/article/10866843"
-  },
-  {
-    "id": "hotnews_th_6e1e32b6",
-    "date": "2026-09-08",
-    "ts": 1788880497000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010553315_05_i_P2.jpg",
-    "title": "เกาหลีใต้และฝรั่งเศสเห็นพ้องร่วมมือด้านกลาโหมและอุตสาหกรรม",
-    "link": "https://en.yna.co.kr/view/AEN20260908010553315"
-  },
-  {
-    "id": "hotnews_th_291e2121",
-    "date": "2026-09-08",
-    "ts": 1788880161000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909120746_21_e.jpg",
-    "title": "โซลและปารีสประสานงานฟื้นฟูเสรีภาพเดินเรือช่องแคบฮอร์มุซ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204118"
-  },
-  {
-    "id": "hotnews_th_142da11d",
-    "date": "2026-09-08",
-    "ts": 1788877453000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/08/AEN20260908010900315_01_i_P2.jpg",
-    "title": "เกาหลีใต้และฝรั่งเศสลงนามความร่วมมือด้าน AI และกลาโหม",
-    "link": "https://en.yna.co.kr/view/AEN20260908010900315"
   }
 ]
