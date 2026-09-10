@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_17f80b53",
+    "date": "2026-09-10",
+    "ts": 1789044322000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091021960001300_P2.jpg",
+    "title": "ฮันฮวา แอโรสเปซ เซ็นสัญญาส่งออกชุนมูให้โครเอเชีย",
+    "link": "https://en.yna.co.kr/view/AEN20260910005651315"
+  },
+  {
     "id": "hotnews_th_5c3394a0",
     "date": "2026-09-10",
     "ts": 1789040223000,
@@ -56,12 +64,52 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20260910/eyes-above-the-water-seoul-deploys-physical-ai-to-prevent-han-river-tragedies?utm_source=rss"
   },
   {
+    "id": "hotnews_th_6b9bc6b6",
+    "date": "2026-09-10",
+    "ts": 1789036841000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.df863fe552de4cf183cec3fe13291d72_T1.jpg",
+    "title": "BTS ทำลายสถิติรายได้คอนเสิร์ตใน 4 สนามกีฬาหลักของสหรัฐฯ",
+    "link": "https://www.koreaherald.com/article/10869696"
+  },
+  {
     "id": "hotnews_th_30207d71",
     "date": "2026-09-10",
     "ts": 1789031887000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091019280001300_P2.jpg",
     "title": "เกาหลีใต้ชนะซาอุดีอาระเบียประเดิมบาสเกตบอลเอเชียนเกมส์",
     "link": "https://en.yna.co.kr/view/AEN20260910008300315"
+  },
+  {
+    "id": "hotnews_th_53571ae3",
+    "date": "2026-09-10",
+    "ts": 1789030235000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910055030_29_e.jpg",
+    "title": "สสภาพอากาศที่น่ารื่นรมย์จะดำเนินต่อไปตลอดช่วงสุดสัปดาห์นี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204167"
+  },
+  {
+    "id": "hotnews_th_9006c540",
+    "date": "2026-09-10",
+    "ts": 1789029738000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.b08aa480396f46ebaa6c55908d3a4d66_T1.jpg",
+    "title": "งาน Seoul International Writers Festival ปี 2026 เริ่มวันศุกร์นี้",
+    "link": "https://www.koreaherald.com/article/10869611"
+  },
+  {
+    "id": "hotnews_th_07a2f54b",
+    "date": "2026-09-10",
+    "ts": 1789029727000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.7a6205c72d294c09a1ba4ec0ec7d9dd1_T1.jpg",
+    "title": "ซีรีส์ 'Your Personal Taxi' ของชาแทฮยอนเตรียมฉายทาง Netflix",
+    "link": "https://www.koreaherald.com/article/10869610"
+  },
+  {
+    "id": "hotnews_th_6429d648",
+    "date": "2026-09-10",
+    "ts": 1789029209000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
+    "title": "อีสั่งเจ้าหน้าที่นำความต้องการของครอบครัวมาพิจารณาในการค้นหาที่เนปาล",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204166"
   },
   {
     "id": "hotnews_th_df6a51e3",
@@ -72,12 +120,44 @@
     "link": "https://en.yna.co.kr/view/AEN20260910008200315"
   },
   {
+    "id": "hotnews_th_0c24ad34",
+    "date": "2026-09-10",
+    "ts": 1789028314000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910044242_34_k.jpg",
+    "title": "รมว.ต่างประเทศเกาหลีใต้เตรียมพบ Rubio เดือนนี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204165"
+  },
+  {
     "id": "hotnews_th_a9e5f13d",
     "date": "2026-09-10",
     "ts": 1789028172000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910030436_62_e.jpg",
     "title": "ตำนานเบสบอล จัง ฮุน เสียชีวิตแล้วด้วยวัย 86 ปี",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204164"
+  },
+  {
+    "id": "hotnews_th_23f4d01f",
+    "date": "2026-09-10",
+    "ts": 1789027927000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910005252315_05_i_P2.jpg",
+    "title": "เกาหลีใต้ส่งทีมบรรเทาสุกภัยชุดที่ 2 ไปเนพาล",
+    "link": "https://en.yna.co.kr/view/AEN20260910005252315"
+  },
+  {
+    "id": "hotnews_th_63451815",
+    "date": "2026-09-10",
+    "ts": 1789027572000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910051406_76_e.jpg",
+    "title": "ทีมตรวจสอบกองทัพเกาหลีกลับจาก UAE ท่ามกลางการทบทวนส่งกำลังทางเรือ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204163"
+  },
+  {
+    "id": "hotnews_th_d64a51fc",
+    "date": "2026-09-10",
+    "ts": 1789027314000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202303/230324105055_52_k.jpg",
+    "title": "จำนวนนักเรียนต่างชาติในเกาหลีใต้พุ่งทะลุ 5 แสนคน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204162"
   },
   {
     "id": "hotnews_th_4288b154",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065614_42_e.jpg",
     "title": "หลายพื้นที่ลมแรงและอุณหภูมิเปลี่ยนแปลงมากในวันพฤหัสบดีนี้",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204143"
-  },
-  {
-    "id": "hotnews_th_182b9ba1",
-    "date": "2026-09-09",
-    "ts": 1788945114000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065200_12_e.jpg",
-    "title": "ทีมบรรเทasภัยเกาหลีเตรียมตัวเดินทางกลับจากเนปาล",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204141"
-  },
-  {
-    "id": "hotnews_th_6495eb60",
-    "date": "2026-09-09",
-    "ts": 1788944485000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011000315_01_i_P2.jpg",
-    "title": "วงร็อก hrtz.wav คัมแบ็กพร้อมมินแอลบั้มชุดที่ 2",
-    "link": "https://en.yna.co.kr/view/AEN20260909011000315"
-  },
-  {
-    "id": "hotnews_th_967686f4",
-    "date": "2026-09-09",
-    "ts": 1788942836000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-a.v1.20260909.1b190fcdd0c84dad8fb5d3588e3c1651_T1.png",
-    "title": "ฮวาซาแสดงในงานเลี้ยงรับรองที่ฝรั่งเศส",
-    "link": "https://www.koreaherald.com/article/10868155"
-  },
-  {
-    "id": "hotnews_th_f3aa018c",
-    "date": "2026-09-09",
-    "ts": 1788940656000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065748_13_e.jpg",
-    "title": "เกาหลีใต้เมินร่วมงานรำลึกเหมืองซาโดของญี่ปุ่นเป็นปีที่สาม",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204140"
-  },
-  {
-    "id": "hotnews_th_527ac937",
-    "date": "2026-09-09",
-    "ts": 1788940532000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090917980001300_P2.jpg",
-    "title": "รัฐสภามือซักฟอกเดือด ปมปรับครม.และการแก้รัฐธรรมนูญ",
-    "link": "https://en.yna.co.kr/view/AEN20260909003451315"
-  },
-  {
-    "id": "hotnews_th_a00fe03f",
-    "date": "2026-09-09",
-    "ts": 1788940166000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065044_64_e.jpg",
-    "title": "ศาลสั่งจ่ายค่าหย่าร้างสูงสุดให้ภรรยาผู้ก่อตั้ง Smilegate",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204139"
-  },
-  {
-    "id": "hotnews_th_154210ef",
-    "date": "2026-09-09",
-    "ts": 1788939846000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909007400315_01_i_P2.jpg",
-    "title": "ผบ.ทหารเกาหลีใต้และสหรัฐฯ ตรวจแนวชายแดนย้ำความพร้อมรับมือเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20260909007400315"
-  },
-  {
-    "id": "hotnews_th_ab06cd1b",
-    "date": "2026-09-09",
-    "ts": 1788938746000,
-    "image": "https://img.yna.co.kr/photo/cms/2019/05/08/05/PCM20190508000205990_P2.jpg",
-    "title": "ผลสำรวจชี้ นักเรียนเกาหลีใต้เจอความรุนแรงในโรงเรียนพุ่งสูงสุด 2.9%",
-    "link": "https://en.yna.co.kr/view/AEN20260909007300315"
-  },
-  {
-    "id": "hotnews_th_b6f9cc04",
-    "date": "2026-09-09",
-    "ts": 1788937362000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.8ab3c31fd3564563a1e86ec70280a8eb_T1.jpg",
-    "title": "รัฐบาลโซลยังไม่ตัดสินใจส่งทหารไปช่องแคบฮอร์มุ兹",
-    "link": "https://www.koreaherald.com/article/10867988"
-  },
-  {
-    "id": "hotnews_th_13c37bcd",
-    "date": "2026-09-09",
-    "ts": 1788935921000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090916050005300_P2.jpg",
-    "title": "สสหภาพแรงงาน POSCO เริ่มผละงานประท้วงเตือน 2 วันเรื่องค่าจ้าง",
-    "link": "https://en.yna.co.kr/view/AEN20260909001651320"
   }
 ]

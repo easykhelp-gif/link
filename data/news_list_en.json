@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_17f80b53",
+    "date": "2026-09-10",
+    "ts": 1789044322000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091021960001300_P2.jpg",
+    "title": "Hanwha Aerospace inks 640 bln-won deal to export 18 Chunmoo rocket launchers to Croatia",
+    "link": "https://en.yna.co.kr/view/AEN20260910005651315"
+  },
+  {
+    "id": "hotnews_en_aeec4390",
+    "date": "2026-09-10",
+    "ts": 1789041590000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910008800315_03_i_P2.jpg",
+    "title": "Mexico touts 'deeply' integrated economic ties with S. Korea, eyes stronger ties in future industries",
+    "link": "https://en.yna.co.kr/view/AEN20260910008800315"
+  },
+  {
     "id": "hotnews_en_5c3394a0",
     "date": "2026-09-10",
     "ts": 1789040223000,
@@ -176,6 +192,14 @@
     "link": "https://www.koreaherald.com/article/10869699"
   },
   {
+    "id": "hotnews_en_2bacd012",
+    "date": "2026-09-10",
+    "ts": 1789037693000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.349d9c4963d54078ad5ab5205131aaff_T1.jpg",
+    "title": "S. Korea beats Saudi Arabia to open men's basketball tournament",
+    "link": "https://www.koreaherald.com/article/10869698"
+  },
+  {
     "id": "hotnews_en_6b9bc6b6",
     "date": "2026-09-10",
     "ts": 1789036841000,
@@ -214,6 +238,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910111131_8_k.jpg",
     "title": "Companies That Repeatedly Leak Personal Info to Face Tougher Penalties",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204171"
+  },
+  {
+    "id": "hotnews_en_aa7ca2e2",
+    "date": "2026-09-10",
+    "ts": 1789032214000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910045013_43_e.jpg",
+    "title": "Vice Defense Minister: No Decision Made about Hormuz Deployment",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204170"
   },
   {
     "id": "hotnews_en_3b7a2554",
@@ -288,6 +320,14 @@
     "link": "https://www.koreaherald.com/article/10869609"
   },
   {
+    "id": "hotnews_en_6429d648",
+    "date": "2026-09-10",
+    "ts": 1789029209000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
+    "title": "Lee Orders Officials to Reflect Families’ Wishes for Nepal Search",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204166"
+  },
+  {
     "id": "hotnews_en_df6a51e3",
     "date": "2026-09-10",
     "ts": 1789028712000,
@@ -358,45 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/10/af6594c9-4ab3-4af7-9c74-4d5d2a20ec27.jpg",
     "title": "President Lee returns home after 4-day trip to France",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260910/president-lee-returns-home-after-4-day-trip-to-france?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6b7c7945",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c69fc9d7-49c5-4573-ab9e-8fc9940c0646.jpg",
-    "title": "International students in Korea top 500,000 for 1st time on Korean cultural boom",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/international-students-in-korea-top-500000-for-1st-time-on-korean-cultural-boom?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6df6acce",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c1b69490-b039-461c-a962-daea203fcc9e.jpg",
-    "title": "[COVER STORY] Marathons at city centers inconvenience residents",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260910/cover-story-marathons-at-city-centers-inconvenience-residents?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_ce3fb497",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/43d248ed-dcf9-4a47-b4e0-d5d6d35c91ff.jpeg",
-    "title": "More Korean teens leave school to prepare for college entrance exams",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/more-korean-teens-leave-school-to-prepare-for-college-entrance-exams?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_002f7f5b",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/f36497d8-c60f-4f2a-a4fa-43b7edee85ff.jpeg",
-    "title": "Gov't expands care safety net for people with developmental disabilities",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20260910/govt-expands-care-safety-net-for-people-with-developmental-disabilities?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_5cbdc433",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/e9ed0dac-00ba-4a9e-bcfc-188158c089d2.jpg",
-    "title": "Who is responsible for marathon road closures?",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260910/who-is-responsible-for-marathon-road-closures?utm_source=rss"
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_vi_17f80b53",
+    "date": "2026-09-10",
+    "ts": 1789044322000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091021960001300_P2.jpg",
+    "title": "Hanwha Aerospace xuất khẩu 18 hệ thống Chunmoo sang Croatia",
+    "link": "https://en.yna.co.kr/view/AEN20260910005651315"
+  },
+  {
     "id": "hotnews_vi_5c3394a0",
     "date": "2026-09-10",
     "ts": 1789040822000,
@@ -56,12 +64,52 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20260910/eyes-above-the-water-seoul-deploys-physical-ai-to-prevent-han-river-tragedies?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_6b9bc6b6",
+    "date": "2026-09-10",
+    "ts": 1789036841000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.df863fe552de4cf183cec3fe13291d72_T1.jpg",
+    "title": "BTS lập kỷ lục doanh thu tại 4 sân vận động lớn ở Mỹ",
+    "link": "https://www.koreaherald.com/article/10869696"
+  },
+  {
     "id": "hotnews_vi_30207d71",
     "date": "2026-09-10",
     "ts": 1789031887000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091019280001300_P2.jpg",
     "title": "Đội tuyển bóng rổ nam Hàn Quốc thắng Saudi Arabia ở Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260910008300315"
+  },
+  {
+    "id": "hotnews_vi_53571ae3",
+    "date": "2026-09-10",
+    "ts": 1789030235000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910055030_29_e.jpg",
+    "title": "Thời tiết đẹp tiếp tục duy trì trong cuối tuần này",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204167"
+  },
+  {
+    "id": "hotnews_vi_9006c540",
+    "date": "2026-09-10",
+    "ts": 1789029738000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.b08aa480396f46ebaa6c55908d3a4d66_T1.jpg",
+    "title": "Khai mạc Liên hoan Văn học Quốc tế Seoul 2026",
+    "link": "https://www.koreaherald.com/article/10869611"
+  },
+  {
+    "id": "hotnews_vi_07a2f54b",
+    "date": "2026-09-10",
+    "ts": 1789029727000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.7a6205c72d294c09a1ba4ec0ec7d9dd1_T1.jpg",
+    "title": "Phim mới của Cha Tae-hyun chiếu toàn cầu vào tháng 10",
+    "link": "https://www.koreaherald.com/article/10869610"
+  },
+  {
+    "id": "hotnews_vi_6429d648",
+    "date": "2026-09-10",
+    "ts": 1789029209000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
+    "title": "Lee chỉ đạo phản ánh nguyện vọng gia đình vụ tìm kiếm Nepal",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204166"
   },
   {
     "id": "hotnews_vi_df6a51e3",
@@ -72,12 +120,44 @@
     "link": "https://en.yna.co.kr/view/AEN20260910008200315"
   },
   {
+    "id": "hotnews_vi_0c24ad34",
+    "date": "2026-09-10",
+    "ts": 1789028314000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910044242_34_k.jpg",
+    "title": "Ngoại trưởng Cho dự kiến gặp Rubio trong tháng này",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204165"
+  },
+  {
     "id": "hotnews_vi_a9e5f13d",
     "date": "2026-09-10",
     "ts": 1789028172000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910030436_62_e.jpg",
     "title": "Huyền thoại bóng chày Jang Hoon qua đời ở tuổi 86",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204164"
+  },
+  {
+    "id": "hotnews_vi_23f4d01f",
+    "date": "2026-09-10",
+    "ts": 1789027927000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910005252315_05_i_P2.jpg",
+    "title": "Hàn Quốc cử đội cứu trợ thứ hai sang Nepal hỗ trợ khắc phục lũ lụt",
+    "link": "https://en.yna.co.kr/view/AEN20260910005252315"
+  },
+  {
+    "id": "hotnews_vi_63451815",
+    "date": "2026-09-10",
+    "ts": 1789027572000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910051406_76_e.jpg",
+    "title": "Đoàn kiểm tra quân sự Hàn Quốc về nước từ UAE",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204163"
+  },
+  {
+    "id": "hotnews_vi_d64a51fc",
+    "date": "2026-09-10",
+    "ts": 1789027314000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202303/230324105055_52_k.jpg",
+    "title": "Số lượng du học sinh quốc tế tại Hàn Quốc vượt 500.000 người",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204162"
   },
   {
     "id": "hotnews_vi_4288b154",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065614_42_e.jpg",
     "title": "Thời tiết ngày thứ Năm: Gió lớn và chênh lệch nhiệt độ",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204143"
-  },
-  {
-    "id": "hotnews_vi_182b9ba1",
-    "date": "2026-09-09",
-    "ts": 1788945114000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065200_12_e.jpg",
-    "title": "Đoàn cứu hộ thảm họa Hàn Quốc chuẩn bị về nước từ Nepal",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204141"
-  },
-  {
-    "id": "hotnews_vi_6495eb60",
-    "date": "2026-09-09",
-    "ts": 1788944485000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011000315_01_i_P2.jpg",
-    "title": "Ban nhạc rock hrtz.wav phát hành EP thứ hai",
-    "link": "https://en.yna.co.kr/view/AEN20260909011000315"
-  },
-  {
-    "id": "hotnews_vi_967686f4",
-    "date": "2026-09-09",
-    "ts": 1788942836000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-a.v1.20260909.1b190fcdd0c84dad8fb5d3588e3c1651_T1.png",
-    "title": "Hwasa biểu diễn tại quốc yến trong chuyến thăm Pháp",
-    "link": "https://www.koreaherald.com/article/10868155"
-  },
-  {
-    "id": "hotnews_vi_f3aa018c",
-    "date": "2026-09-09",
-    "ts": 1788940656000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065748_13_e.jpg",
-    "title": "Hàn Quốc tiếp tục vắng mặt ở lễ tưởng niệm mỏ Sado của Nhật",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204140"
-  },
-  {
-    "id": "hotnews_vi_527ac937",
-    "date": "2026-09-09",
-    "ts": 1788940532000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090917980001300_P2.jpg",
-    "title": "Quốc hội Hàn Quốc tranh cãi nảy lửa về cải tổ Nội các",
-    "link": "https://en.yna.co.kr/view/AEN20260909003451315"
-  },
-  {
-    "id": "hotnews_vi_a00fe03f",
-    "date": "2026-09-09",
-    "ts": 1788940166000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065044_64_e.jpg",
-    "title": "Tòa án ra phán quyết vụ ly hôn của nhà sáng lập Smilegate",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204139"
-  },
-  {
-    "id": "hotnews_vi_154210ef",
-    "date": "2026-09-09",
-    "ts": 1788939846000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909007400315_01_i_P2.jpg",
-    "title": "Chỉ huy Hàn-Mỹ thị sát biên giới trước hành động của Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260909007400315"
-  },
-  {
-    "id": "hotnews_vi_ab06cd1b",
-    "date": "2026-09-09",
-    "ts": 1788938746000,
-    "image": "https://img.yna.co.kr/photo/cms/2019/05/08/05/PCM20190508000205990_P2.jpg",
-    "title": "Tỷ lệ học sinh báo cáo bị bạo lực học đường đạt mức kỷ lục 2,9%",
-    "link": "https://en.yna.co.kr/view/AEN20260909007300315"
-  },
-  {
-    "id": "hotnews_vi_b6f9cc04",
-    "date": "2026-09-09",
-    "ts": 1788937362000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.8ab3c31fd3564563a1e86ec70280a8eb_T1.jpg",
-    "title": "Hàn Quốc cân nhắc vai trò tại eo biển Hormuz",
-    "link": "https://www.koreaherald.com/article/10867988"
-  },
-  {
-    "id": "hotnews_vi_13c37bcd",
-    "date": "2026-09-09",
-    "ts": 1788935921000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090916050005300_P2.jpg",
-    "title": "Công đoàn POSCO đình công một phần vì bất đồng tiền lương",
-    "link": "https://en.yna.co.kr/view/AEN20260909001651320"
   }
 ]
