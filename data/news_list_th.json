@@ -1,11 +1,27 @@
 [
   {
+    "id": "hotnews_th_644622d1",
+    "date": "2026-09-10",
+    "ts": 1789072200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.92d21c7e8b7b4fe38f6fdb7f95d7ef92_T1.jpg",
+    "title": "เกาหลีใต้พิจารณาส่งกำลังทหารร่วมมือกับสหรัฐฯ ในสงครามอิหร่าน",
+    "link": "https://www.koreaherald.com/article/10869585"
+  },
+  {
     "id": "hotnews_th_17f80b53",
     "date": "2026-09-10",
     "ts": 1789044322000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091021960001300_P2.jpg",
     "title": "ฮันฮวา แอโรสเปซ เซ็นสัญญาส่งออกชุนมูให้โครเอเชีย",
     "link": "https://en.yna.co.kr/view/AEN20260910005651315"
+  },
+  {
+    "id": "hotnews_th_aeec4390",
+    "date": "2026-09-10",
+    "ts": 1789041590000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910008800315_03_i_P2.jpg",
+    "title": "เม็กซิкоชูความสัมพันธ์เศรษฐกิจเกาหลีใต้ หวังร่วมมืออุตสาหกรรมยุคใหม่",
+    "link": "https://en.yna.co.kr/view/AEN20260910008800315"
   },
   {
     "id": "hotnews_th_5c3394a0",
@@ -64,12 +80,76 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20260910/eyes-above-the-water-seoul-deploys-physical-ai-to-prevent-han-river-tragedies?utm_source=rss"
   },
   {
+    "id": "hotnews_th_8cf2f4bb",
+    "date": "2026-09-10",
+    "ts": 1789040139000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/18/PYH2025041802030001300_P2.jpg",
+    "title": "เกาหลีใต้ลงนามส่งออกระบบจรวด Chunmoo ให้โครเอเชีย",
+    "link": "https://en.yna.co.kr/view/AEN20260910005600315"
+  },
+  {
+    "id": "hotnews_th_03be1002",
+    "date": "2026-09-10",
+    "ts": 1789039969000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910008700315_01_i_P2.jpg",
+    "title": "รัฐมนตรีต่างประเทศเกาหลีใต้พบรองนายกรัฐมนตรีอูกันดา",
+    "link": "https://en.yna.co.kr/view/AEN20260910008700315"
+  },
+  {
+    "id": "hotnews_th_a87266b9",
+    "date": "2026-09-10",
+    "ts": 1789039766000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910002351320_02_i_P2.jpg",
+    "title": "ประธานกลุ่ม SK ตรวจไซต์ก่อสร้างศูนย์ข้อมูล AI ที่อุลซาน",
+    "link": "https://en.yna.co.kr/view/AEN20260910002351320"
+  },
+  {
+    "id": "hotnews_th_7f31fabb",
+    "date": "2026-09-10",
+    "ts": 1789039468000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.d46da8d5e22e4034a8272e3aa9c520a5_T1.jpg",
+    "title": "โดนัลด์ ทรัมป์ หวังชนะเลือกตั้งกลางเทอมเพื่อรักษากำลังในสภา",
+    "link": "https://www.koreaherald.com/article/10869706"
+  },
+  {
+    "id": "hotnews_th_e75f7608",
+    "date": "2026-09-10",
+    "ts": 1789038366000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.175757cccec74f74b772ecee374f7b1d_T1.jpg",
+    "title": "รวบโปรแกรมเมอร์และผู้ร่วมขบวนการเครือข่ายเว็บโป๊เถื่อน",
+    "link": "https://www.koreaherald.com/article/10869700"
+  },
+  {
+    "id": "hotnews_th_7479621c",
+    "date": "2026-09-10",
+    "ts": 1789037782000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.e345848724e74eb5b1616ef5defa4cea_T1.jpg",
+    "title": "เกาหลีใต้เผชิญอากาศเย็นตอนเช้าและอุ่นขึ้นช่วงบ่ายในวันศุกร์",
+    "link": "https://www.koreaherald.com/article/10869699"
+  },
+  {
+    "id": "hotnews_th_2bacd012",
+    "date": "2026-09-10",
+    "ts": 1789037693000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.349d9c4963d54078ad5ab5205131aaff_T1.jpg",
+    "title": "เกาหลีใต้ชนะซาอุดีอาระเบียประเดิมบาสเกตบอลเอเชียนเกมส์",
+    "link": "https://www.koreaherald.com/article/10869698"
+  },
+  {
     "id": "hotnews_th_6b9bc6b6",
     "date": "2026-09-10",
     "ts": 1789036841000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.df863fe552de4cf183cec3fe13291d72_T1.jpg",
     "title": "BTS ทำลายสถิติรายได้คอนเสิร์ตใน 4 สนามกีฬาหลักของสหรัฐฯ",
     "link": "https://www.koreaherald.com/article/10869696"
+  },
+  {
+    "id": "hotnews_th_c855c33d",
+    "date": "2026-09-10",
+    "ts": 1789036305000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.9375492768344492800f5cfbcb875039_T1.jpg",
+    "title": "เกาหลีใต้อยู่ที่ 27 จากประเทศร่ำรวยเรื่องความเป็นอยู่เด็กจาก UNICEF",
+    "link": "https://www.koreaherald.com/article/10869693"
   },
   {
     "id": "hotnews_th_30207d71",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011700315_01_i_P2.jpg",
     "title": "เกาหลีใต้และฝรั่งเศสลงนาม MOU ร่วมมือด้าน AI และเซมิคอนดักเตอร์",
     "link": "https://en.yna.co.kr/view/AEN20260909011700315"
-  },
-  {
-    "id": "hotnews_th_ca1bf540",
-    "date": "2026-09-09",
-    "ts": 1788957808000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.8f2e48547b0242f990847155bf0c32d8_T1.png",
-    "title": "ฟิลิปปินส์จับมือเกาหลีใต้ลุยเฟดใหม่ทันสมัยกองทัพ",
-    "link": "https://www.koreaherald.com/article/10868284"
-  },
-  {
-    "id": "hotnews_th_7763333c",
-    "date": "2026-09-09",
-    "ts": 1788957074000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909012300315_01_i_P2.jpg",
-    "title": "อีแจยอง ประธาน Samsung Electronics จะซื้อหุ้นจากมารดา",
-    "link": "https://en.yna.co.kr/view/AEN20260909012300315"
-  },
-  {
-    "id": "hotnews_th_5d9ac4fe",
-    "date": "2026-09-09",
-    "ts": 1788955582000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011900315_01_i_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเผยเหตุผลเยือนต่างประเทศบ่อย",
-    "link": "https://en.yna.co.kr/view/AEN20260909011900315"
-  },
-  {
-    "id": "hotnews_th_69ceeb0b",
-    "date": "2026-09-09",
-    "ts": 1788954123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/21d09eae-0310-4404-938b-df360885327d.jpeg",
-    "title": "ครอบครัวเหยื่อเครื่องบิน Jeju Air ฟ้อง Boeing ในสหรัฐฯ",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260909/why-jeju-air-crash-victims-families-are-taking-boeing-to-us-courts?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_245d460f",
-    "date": "2026-09-09",
-    "ts": 1788954123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/de8968d4-bab6-4458-b354-cd73c6f2dba1.jpeg",
-    "title": "กรุงโซลเตรียมเป็นเจ้าภาพประชุมมะเร็งปอดระดับโลกปี 2026",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20260909/seoul-draws-global-lung-cancer-experts-for-major-medical-congress?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_daa576f6",
-    "date": "2026-09-09",
-    "ts": 1788951352000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260908.5becfe12b10f4d8b9e044824bfd5cf24_T1.jpg",
-    "title": "วง 리센느 เตรียมคัม백ปล่อยเพลงใหม่เดือนพฤศจิกายนนี้",
-    "link": "https://www.koreaherald.com/article/10866446"
-  },
-  {
-    "id": "hotnews_th_91509fee",
-    "date": "2026-09-09",
-    "ts": 1788951075000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.2faff2febfb1472ca78aae27a8bd3f78_T1.jpg",
-    "title": "อี แจ-ยอง ซื้อหุ้น Samsung จากแม่วงเงิน 1.94 ล้านล้านวอน",
-    "link": "https://www.koreaherald.com/article/10868237"
-  },
-  {
-    "id": "hotnews_th_2b9685a9",
-    "date": "2026-09-09",
-    "ts": 1788948876000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090922590001300_P2.jpg",
-    "title": "เกาหลีใต้เตรียมส่งทีมบรรเทาสาธารณภัยชุดที่ 2 ไปเนพาล",
-    "link": "https://en.yna.co.kr/view/AEN20260909011600320"
-  },
-  {
-    "id": "hotnews_th_4021014f",
-    "date": "2026-09-09",
-    "ts": 1788947293000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909064931_1_e.jpg",
-    "title": "ประธานกลุ่ม SK เสนอเงิน 7.0 แสนล้านวอนยุติคดีหย่าร้าง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204144"
-  },
-  {
-    "id": "hotnews_th_8bfc093b",
-    "date": "2026-09-09",
-    "ts": 1788946519000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260909065614_42_e.jpg",
-    "title": "หลายพื้นที่ลมแรงและอุณหภูมิเปลี่ยนแปลงมากในวันพฤหัสบดีนี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204143"
   }
 ]

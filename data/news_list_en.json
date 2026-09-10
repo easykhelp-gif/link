@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_644622d1",
+    "date": "2026-09-10",
+    "ts": 1789072200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.92d21c7e8b7b4fe38f6fdb7f95d7ef92_T1.jpg",
+    "title": "[Lee Byung-jong] Korean troops for the Iran war?",
+    "link": "https://www.koreaherald.com/article/10869585"
+  },
+  {
     "id": "hotnews_en_17f80b53",
     "date": "2026-09-10",
     "ts": 1789044322000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910008000315_01_i_P2.jpg",
     "title": "2 S. Korean coaches join Moreno's staff for men's nat'l football team",
     "link": "https://en.yna.co.kr/view/AEN20260910008000315"
-  },
-  {
-    "id": "hotnews_en_4288b154",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/af6594c9-4ab3-4af7-9c74-4d5d2a20ec27.jpg",
-    "title": "President Lee returns home after 4-day trip to France",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260910/president-lee-returns-home-after-4-day-trip-to-france?utm_source=rss"
   }
 ]
