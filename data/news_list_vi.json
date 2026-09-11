@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_de0829fd",
+    "date": "2026-09-11",
+    "ts": 1789102622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/d88c76a1-4a26-49de-9f4f-bbe6ae7594d0.jpeg",
+    "title": "Tạp chí Half Local phát hành ấn bản in đầu tiên về Seoul",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260911/half-local-magazine-brings-fresh-perspective-on-seoul-through-1st-print-issue?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_31913cce",
+    "date": "2026-09-11",
+    "ts": 1789099483000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004600315_01_i_P2.jpg",
+    "title": "Đề nghị 4 năm tù cho ông Yoon Suk Yeol trong phiên phúc thẩm",
+    "link": "https://en.yna.co.kr/view/AEN20260911004600315"
+  },
+  {
+    "id": "hotnews_vi_d5997f18",
+    "date": "2026-09-11",
+    "ts": 1789092212000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090104960001300_P2.jpg",
+    "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung giảm xuống 38%",
+    "link": "https://en.yna.co.kr/view/AEN20260911002900315"
+  },
+  {
+    "id": "hotnews_vi_dbf9657b",
+    "date": "2026-09-11",
+    "ts": 1789091645000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911003000315_01_i_P2.jpg",
+    "title": "Văn phòng Thủ tướng cảnh báo quan chức giả danh người dân đặt câu hỏi",
+    "link": "https://en.yna.co.kr/view/AEN20260911003000315"
+  },
+  {
+    "id": "hotnews_vi_7961f9a8",
+    "date": "2026-09-11",
+    "ts": 1789090483000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.f9700d124ef744089e3460a64e9656a4_T1.jpg",
+    "title": "Mùa thu đến Hàn Quốc với biên độ nhiệt lớn",
+    "link": "https://www.koreaherald.com/article/10870237"
+  },
+  {
+    "id": "hotnews_vi_435aac66",
+    "date": "2026-09-11",
+    "ts": 1789090394000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/28/PYH2026052814790001300_P2.jpg",
+    "title": "Nhóm aespa phát hành đĩa đơn số gồm 4 bài hát solo",
+    "link": "https://en.yna.co.kr/view/AEN20260911002300315"
+  },
+  {
+    "id": "hotnews_vi_651ebfdf",
+    "date": "2026-09-11",
+    "ts": 1789089845000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911102527_41_e.jpg",
+    "title": "Cảnh sát điều tra ứng viên Bộ trưởng Tư pháp vận động hành lang",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204177"
+  },
+  {
+    "id": "hotnews_vi_4e636194",
+    "date": "2026-09-11",
+    "ts": 1789088530000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911100258_13_e.jpg",
+    "title": "Kim ngạch xuất khẩu Hàn Quốc đạt 34,97 tỷ USD đầu tháng 9",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204176"
+  },
+  {
+    "id": "hotnews_vi_aab242ca",
+    "date": "2026-09-11",
+    "ts": 1789086528000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091102840001300_P2.jpg",
+    "title": "Chứng khoán Seoul giảm mạnh theo Phố Wall và lo ngại lạm phát",
+    "link": "https://en.yna.co.kr/view/AEN20260911000951320"
+  },
+  {
+    "id": "hotnews_vi_eb81577e",
+    "date": "2026-09-11",
+    "ts": 1789086174000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911001400315_01_i_P2.jpg",
+    "title": "Hàn Quốc cử đoàn cứu hộ thứ hai sang Nepal khắc phục lũ lụt",
+    "link": "https://en.yna.co.kr/view/AEN20260911001400315"
+  },
+  {
     "id": "hotnews_vi_fad69c2f",
     "date": "2026-09-10",
     "ts": 1789074011000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910003000315_01_i_P2.jpg",
     "title": "12 người Hàn Quốc bị bắt tại Thái Lan vì lừa đảo qua điện thoại",
     "link": "https://en.yna.co.kr/view/AEN20260910003000315"
-  },
-  {
-    "id": "hotnews_vi_f494b545",
-    "date": "2026-09-09",
-    "ts": 1788987723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/4416f4d7-b00b-4d3f-a33a-acc7c621eba8.jpg",
-    "title": "Tổng thống Lee Jae Myung nói nhiệm kỳ có giới hạn rõ ràng",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/lee-says-his-term-is-clearly-limited-amid-constitutional-revision-debate?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_9fd51916",
-    "date": "2026-09-09",
-    "ts": 1788987611000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909007100320_01_i_P2.jpg",
-    "title": "Lợi nhuận quý 2 của các công ty chứng khoán tăng 20%",
-    "link": "https://en.yna.co.kr/view/AEN20260909007100320"
-  },
-  {
-    "id": "hotnews_vi_738b64da",
-    "date": "2026-09-09",
-    "ts": 1788985800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.31cf538e671f47eab9fffb0fff988bfe_T1.jpg",
-    "title": "Giải quyết vấn đề Coupang để củng cố liên minh Mỹ - Hàn",
-    "link": "https://www.koreaherald.com/article/10868116"
-  },
-  {
-    "id": "hotnews_vi_0b4d1e71",
-    "date": "2026-09-09",
-    "ts": 1788985800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/09/news-p.v1.20260909.448faee269bf45fa873d8ee54b65053f_T1.jpg",
-    "title": "Tranh cãi việc Hàn Quốc đưa quân đến Eo biển Hormuz",
-    "link": "https://www.koreaherald.com/article/10868114"
-  },
-  {
-    "id": "hotnews_vi_2b629a69",
-    "date": "2026-09-09",
-    "ts": 1788976883000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011500315_05_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung thăm Pháp thúc đẩy quan hệ song phương",
-    "link": "https://en.yna.co.kr/view/AEN20260909011500315"
-  },
-  {
-    "id": "hotnews_vi_d2b1342d",
-    "date": "2026-09-09",
-    "ts": 1788972423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/aa9e0ce4-8ee8-490d-a831-f635df7446e4.jpeg",
-    "title": "Nhà văn Han Kang giao lưu với độc giả tại Berlin",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/nobel-prize-winning-author-han-kang-takes-the-stage-at-berlin-concert-hall?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a56fd884",
-    "date": "2026-09-09",
-    "ts": 1788964433000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011852315_03_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung gặp Chủ tịch Quốc hội Pháp tại Paris",
-    "link": "https://en.yna.co.kr/view/AEN20260909011852315"
-  },
-  {
-    "id": "hotnews_vi_37e43703",
-    "date": "2026-09-09",
-    "ts": 1788963019000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090410460005100_P2.jpg",
-    "title": "Thi thể thuyền viên mất tích trong vụ lật tàu được tìm thấy",
-    "link": "https://en.yna.co.kr/view/AEN20260909012600315"
-  },
-  {
-    "id": "hotnews_vi_3a25e3ed",
-    "date": "2026-09-09",
-    "ts": 1788960685000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823970005300_P2.jpg",
-    "title": "Kim Do-yeong của Kia Tigers bị gãy mũi, lo ngại lỡ Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260909012500315"
-  },
-  {
-    "id": "hotnews_vi_99f226be",
-    "date": "2026-09-09",
-    "ts": 1788958801000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909011700315_01_i_P2.jpg",
-    "title": "Hàn - Pháp hợp tác AI và bán dẫn",
-    "link": "https://en.yna.co.kr/view/AEN20260909011700315"
   }
 ]
