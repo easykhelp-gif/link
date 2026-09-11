@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_th_522aeb2f",
+    "date": "2026-09-11",
+    "ts": 1789131025000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.e3d6c2e6751e4d5c93c1a12e6bf07da7_T1.jpg",
+    "title": "ว่าที่ รมว.กลาโหมเกาหลีใต้ผลักดันรับมอบสิทธิ์ OPCON จากสหรัฐฯ",
+    "link": "https://www.koreaherald.com/article/10871032"
+  },
+  {
+    "id": "hotnews_th_21f3af54",
+    "date": "2026-09-11",
+    "ts": 1789128772000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.4bb4e68dc61e4f538b389b90124732c0_T1.jpg",
+    "title": "ยอดจองตั๋วรถไฟ Korail ช่วงชูソคพุ่ง 84%",
+    "link": "https://www.koreaherald.com/article/10871015"
+  },
+  {
     "id": "hotnews_th_7ca10326",
     "date": "2026-09-11",
     "ts": 1789126623000,
@@ -32,12 +48,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260911009751315"
   },
   {
+    "id": "hotnews_th_6c3671b6",
+    "date": "2026-09-11",
+    "ts": 1789123032000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.6d67857b20a844aa86ab4e863e4bc9b7_T1.png",
+    "title": "นักเรียนมัธยมบาดเจ็บหลังตำรวจยิงปืนช็อตไฟฟ้าโดยไม่ตั้งใจ",
+    "link": "https://www.koreaherald.com/article/10870977"
+  },
+  {
     "id": "hotnews_th_7540916e",
     "date": "2026-09-11",
     "ts": 1789120700000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009600320_01_i_P2.jpg",
     "title": "KB Financial เสนอชื่อ อี แจ-กึน เป็นประธานกลุ่มคนใหม่",
     "link": "https://en.yna.co.kr/view/AEN20260911009600320"
+  },
+  {
+    "id": "hotnews_th_6bc72e69",
+    "date": "2026-09-11",
+    "ts": 1789120265000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.ac4354b548bc4126b3ff348da68ffa65_T1.png",
+    "title": "LG ร่วมมือกับ National Pension Service พัฒนา AI บริหารกองทุน",
+    "link": "https://www.koreaherald.com/article/10870958"
   },
   {
     "id": "hotnews_th_092866c5",
@@ -56,6 +88,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260911009500315"
   },
   {
+    "id": "hotnews_th_2bf9f20c",
+    "date": "2026-09-11",
+    "ts": 1789117565000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911060831_40_e.jpg",
+    "title": "ทั่วประเทศจะมีสภาพอากาศฤดูใบไม้ร่วงที่น่ารื่นรมย์ในวันเสาร์นี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204197"
+  },
+  {
+    "id": "hotnews_th_ad6358f1",
+    "date": "2026-09-11",
+    "ts": 1789117420000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122302_97_k.jpg",
+    "title": "พรรคการเมืองขัดแย้งกันเรื่องการเสนอชื่อรัฐมนตรี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204196"
+  },
+  {
     "id": "hotnews_th_c562a67c",
     "date": "2026-09-11",
     "ts": 1789117046000,
@@ -72,12 +120,44 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204193"
   },
   {
+    "id": "hotnews_th_7a2fac2d",
+    "date": "2026-09-11",
+    "ts": 1789113132000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911031345_4_k.jpg",
+    "title": "ทีมฟุตบอลชายเกาหลีเหนือเดินทางถึงญี่ปุ่นเพื่อแข่งเอเชียนเกมส์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204192"
+  },
+  {
+    "id": "hotnews_th_f683c493",
+    "date": "2026-09-11",
+    "ts": 1789113120000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090909060001703_P2.jpg",
+    "title": "OpenAI เผยยังไม่มีแผนใหม่ร่วมมือผลิตชิปกับ Samsung",
+    "link": "https://en.yna.co.kr/view/AEN20260911008100320"
+  },
+  {
+    "id": "hotnews_th_f20a4857",
+    "date": "2026-09-11",
+    "ts": 1789112205000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091112880001300_P2.jpg",
+    "title": "หุ้นเกาหลีใต้ร่วง 1.76% เซ่นพิษราคาน้ำมันพุ่งและกังวลเงินเฟ้อ",
+    "link": "https://en.yna.co.kr/view/AEN20260911006752320"
+  },
+  {
     "id": "hotnews_th_febfb6de",
     "date": "2026-09-11",
     "ts": 1789111818000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.85c0dc66b730404e9da09bcd6aa7e519_T1.jpg",
     "title": "ปัญหาช่องโหว่การรักษาพยาบาลของผู้อพยพไร้เอกสารในเกาหลี",
     "link": "https://www.koreaherald.com/article/10870834"
+  },
+  {
+    "id": "hotnews_th_32716bea",
+    "date": "2026-09-11",
+    "ts": 1789110277000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911091546_64_k.jpg",
+    "title": "คอนเสิร์ต BTS ในอเมริกาใต้จะเข้าฉายในโรงภาพยนตร์ทั่วโลกเดือนหน้า",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204188"
   },
   {
     "id": "hotnews_th_de0829fd",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091019280001300_P2.jpg",
     "title": "เกาหลีใต้ชนะซาอุดีอาระเบียประเดิมบาสเกตบอลเอเชียนเกมส์",
     "link": "https://en.yna.co.kr/view/AEN20260910008300315"
-  },
-  {
-    "id": "hotnews_th_53571ae3",
-    "date": "2026-09-10",
-    "ts": 1789030235000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910055030_29_e.jpg",
-    "title": "สสภาพอากาศที่น่ารื่นรมย์จะดำเนินต่อไปตลอดช่วงสุดสัปดาห์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204167"
-  },
-  {
-    "id": "hotnews_th_9006c540",
-    "date": "2026-09-10",
-    "ts": 1789029738000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.b08aa480396f46ebaa6c55908d3a4d66_T1.jpg",
-    "title": "งาน Seoul International Writers Festival ปี 2026 เริ่มวันศุกร์นี้",
-    "link": "https://www.koreaherald.com/article/10869611"
-  },
-  {
-    "id": "hotnews_th_07a2f54b",
-    "date": "2026-09-10",
-    "ts": 1789029727000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.7a6205c72d294c09a1ba4ec0ec7d9dd1_T1.jpg",
-    "title": "ซีรีส์ 'Your Personal Taxi' ของชาแทฮยอนเตรียมฉายทาง Netflix",
-    "link": "https://www.koreaherald.com/article/10869610"
-  },
-  {
-    "id": "hotnews_th_6429d648",
-    "date": "2026-09-10",
-    "ts": 1789029209000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
-    "title": "อีสั่งเจ้าหน้าที่นำความต้องการของครอบครัวมาพิจารณาในการค้นหาที่เนปาล",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204166"
-  },
-  {
-    "id": "hotnews_th_df6a51e3",
-    "date": "2026-09-10",
-    "ts": 1789028712000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/09/PYH2026070912150005100_P2.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ หารือร่วมมือรับมืออาวุธทำลายล้างสูงของเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20260910008200315"
-  },
-  {
-    "id": "hotnews_th_0c24ad34",
-    "date": "2026-09-10",
-    "ts": 1789028314000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910044242_34_k.jpg",
-    "title": "รมว.ต่างประเทศเกาหลีใต้เตรียมพบ Rubio เดือนนี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204165"
-  },
-  {
-    "id": "hotnews_th_a9e5f13d",
-    "date": "2026-09-10",
-    "ts": 1789028172000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910030436_62_e.jpg",
-    "title": "ตำนานเบสบอล จัง ฮุน เสียชีวิตแล้วด้วยวัย 86 ปี",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204164"
-  },
-  {
-    "id": "hotnews_th_23f4d01f",
-    "date": "2026-09-10",
-    "ts": 1789027927000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910005252315_05_i_P2.jpg",
-    "title": "เกาหลีใต้ส่งทีมบรรเทาสุกภัยชุดที่ 2 ไปเนพาล",
-    "link": "https://en.yna.co.kr/view/AEN20260910005252315"
-  },
-  {
-    "id": "hotnews_th_63451815",
-    "date": "2026-09-10",
-    "ts": 1789027572000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910051406_76_e.jpg",
-    "title": "ทีมตรวจสอบกองทัพเกาหลีกลับจาก UAE ท่ามกลางการทบทวนส่งกำลังทางเรือ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204163"
-  },
-  {
-    "id": "hotnews_th_d64a51fc",
-    "date": "2026-09-10",
-    "ts": 1789027314000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202303/230324105055_52_k.jpg",
-    "title": "จำนวนนักเรียนต่างชาติในเกาหลีใต้พุ่งทะลุ 5 แสนคน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204162"
   }
 ]

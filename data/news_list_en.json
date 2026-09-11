@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_522aeb2f",
+    "date": "2026-09-11",
+    "ts": 1789131025000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.e3d6c2e6751e4d5c93c1a12e6bf07da7_T1.jpg",
+    "title": "S. Korea seeks to retake OPCON from US under 'no added conditions' principle: defense minister nominee",
+    "link": "https://www.koreaherald.com/article/10871032"
+  },
+  {
+    "id": "hotnews_en_99c07ee6",
+    "date": "2026-09-11",
+    "ts": 1789130899000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
+    "title": "(Asiad) S. Korea hammers Indonesia in men's basketball, reaches quarterfinals",
+    "link": "https://en.yna.co.kr/view/AEN20260911009351315"
+  },
+  {
+    "id": "hotnews_en_21f3af54",
+    "date": "2026-09-11",
+    "ts": 1789128772000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.4bb4e68dc61e4f538b389b90124732c0_T1.jpg",
+    "title": "Korail’s Chuseok train ticket booking rate reaches 84%",
+    "link": "https://www.koreaherald.com/article/10871015"
+  },
+  {
     "id": "hotnews_en_7ca10326",
     "date": "2026-09-11",
     "ts": 1789126623000,
@@ -152,6 +176,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204198"
   },
   {
+    "id": "hotnews_en_ecde5c9c",
+    "date": "2026-09-11",
+    "ts": 1789117951000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.8a4bf7c982f9460395bbc787c9191420_T1.png",
+    "title": "KB Financial taps global executive as next chair",
+    "link": "https://www.koreaherald.com/article/10870942"
+  },
+  {
     "id": "hotnews_en_7893ac4f",
     "date": "2026-09-11",
     "ts": 1789117867000,
@@ -166,6 +198,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911060831_40_e.jpg",
     "title": "Nation to Enjoy Pleasant Autumn Weather on Saturday",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204197"
+  },
+  {
+    "id": "hotnews_en_ad6358f1",
+    "date": "2026-09-11",
+    "ts": 1789117420000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122302_97_k.jpg",
+    "title": "Parties Clash over Nominations of Justice, Gender Equality Minister Nominees",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204196"
   },
   {
     "id": "hotnews_en_c562a67c",
@@ -200,6 +240,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204193"
   },
   {
+    "id": "hotnews_en_1d965dbb",
+    "date": "2026-09-11",
+    "ts": 1789113919000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.13803557bfc04774ba5e41fcf48c9262_T1.jpg",
+    "title": "Seoul readies for first Korea-Central Asia Summit",
+    "link": "https://www.koreaherald.com/article/10870886"
+  },
+  {
     "id": "hotnews_en_013619fb",
     "date": "2026-09-11",
     "ts": 1789113735000,
@@ -222,6 +270,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2023/09/12/PYH2023091207090001300_P2.jpg",
     "title": "Court acquits ex-President Yoon in power abuse case over envoy appointment",
     "link": "https://en.yna.co.kr/view/AEN20260911000653315"
+  },
+  {
+    "id": "hotnews_en_7a2fac2d",
+    "date": "2026-09-11",
+    "ts": 1789113132000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911031345_4_k.jpg",
+    "title": "N. Korea’s Men’s Football Team Arrives in Japan for Asian Games",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204192"
   },
   {
     "id": "hotnews_en_f683c493",
@@ -262,6 +318,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911115756_47_k.jpg",
     "title": "Everland Shows Media Panda World’s Youngest Cub",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204191"
+  },
+  {
+    "id": "hotnews_en_3784d12f",
+    "date": "2026-09-11",
+    "ts": 1789112001000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.aa694729237146bbbb3db355ff520d2e_T1.jpg",
+    "title": "South Korea, Iran foreign ministers discuss conflict in Middle East",
+    "link": "https://www.koreaherald.com/article/10870842"
   },
   {
     "id": "hotnews_en_8442dc35",
@@ -334,69 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091106900001300_P2.jpg",
     "title": "Gender minister says Google must take responsibility for any legal violations over data leak",
     "link": "https://en.yna.co.kr/view/AEN20260911002751315"
-  },
-  {
-    "id": "hotnews_en_bb674d13",
-    "date": "2026-09-11",
-    "ts": 1789102057000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004900315_01_i_P2.jpg",
-    "title": "S. Korea, U.S. hold public diplomacy forum on Global South cooperation",
-    "link": "https://en.yna.co.kr/view/AEN20260911004900315"
-  },
-  {
-    "id": "hotnews_en_05277bef",
-    "date": "2026-09-11",
-    "ts": 1789102038000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.b1bd42de161140f2996ee18cc31e644d_T1.jpg",
-    "title": "Seungri denies assault allegation: 'I did not swing the bottle'",
-    "link": "https://www.koreaherald.com/article/10870547"
-  },
-  {
-    "id": "hotnews_en_c6eccfaf",
-    "date": "2026-09-11",
-    "ts": 1789101875000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.c227d59fb8704f038f42922f1b8817e4_T1.png",
-    "title": "Sunfull Foundation renews pledge to fight cyberbullying in Korea",
-    "link": "https://www.koreaherald.com/article/10870543"
-  },
-  {
-    "id": "hotnews_en_d7e6d28f",
-    "date": "2026-09-11",
-    "ts": 1789101001000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004700320_01_i_P2.jpg",
-    "title": "PM says S. Korea does not discriminate against foreign companies",
-    "link": "https://en.yna.co.kr/view/AEN20260911004700320"
-  },
-  {
-    "id": "hotnews_en_4b02ec87",
-    "date": "2026-09-11",
-    "ts": 1789101001000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004800315_02_i_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20260911004800315"
-  },
-  {
-    "id": "hotnews_en_31913cce",
-    "date": "2026-09-11",
-    "ts": 1789099483000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004600315_01_i_P2.jpg",
-    "title": "4-yr prison term sought for Yoon in appellate trial over free opinion polls",
-    "link": "https://en.yna.co.kr/view/AEN20260911004600315"
-  },
-  {
-    "id": "hotnews_en_a88de1ae",
-    "date": "2026-09-11",
-    "ts": 1789098763000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.51c5ac9141e047ffa71e7ad7fc3c673a_T1.jpg",
-    "title": "NK defector under police protection found dead; suspect left country in August",
-    "link": "https://www.koreaherald.com/article/10870496"
-  },
-  {
-    "id": "hotnews_en_1d88b831",
-    "date": "2026-09-11",
-    "ts": 1789098746000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.05640f5223404ad399a3cfbc61e33722_T1.jpg",
-    "title": "Boss stands trial after subordinate killed self following accusations of workplace bullying",
-    "link": "https://www.koreaherald.com/article/10870495"
   }
 ]
