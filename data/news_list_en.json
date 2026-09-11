@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_182aec0e",
+    "date": "2026-09-11",
+    "ts": 1789159571000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000300315_01_i_P2.jpg",
+    "title": "N. Korea fires unidentified projectile toward East Sea: JCS",
+    "link": "https://en.yna.co.kr/view/AEN20260912000300315"
+  },
+  {
+    "id": "hotnews_en_14c62483",
+    "date": "2026-09-11",
+    "ts": 1789154778000,
+    "image": "https://img.yna.co.kr/photo/ap/2024/09/25/PAP20240925024001009_P2.jpg",
+    "title": "U.S. lawmaker calls on State Dept. to revise policy on N. Korea travel ban",
+    "link": "https://en.yna.co.kr/view/AEN20260912000200315"
+  },
+  {
     "id": "hotnews_en_522aeb2f",
     "date": "2026-09-11",
     "ts": 1789131025000,
@@ -240,6 +256,22 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204193"
   },
   {
+    "id": "hotnews_en_f0be3b4b",
+    "date": "2026-09-11",
+    "ts": 1789115400000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911008300320_02_i_P2.jpg",
+    "title": "Trade minister seeks U.K. exemption from Russian LNG sanctions",
+    "link": "https://en.yna.co.kr/view/AEN20260911008300320"
+  },
+  {
+    "id": "hotnews_en_903394ca",
+    "date": "2026-09-11",
+    "ts": 1789114231000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082708190001300_P2.jpg",
+    "title": "DP says will take controversy over gender minister nominee 'seriously'",
+    "link": "https://en.yna.co.kr/view/AEN20260911006051315"
+  },
+  {
     "id": "hotnews_en_1d965dbb",
     "date": "2026-09-11",
     "ts": 1789113919000,
@@ -366,37 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911006500315_01_i_P2.jpg",
     "title": "Families of motel attack victims accuse police officer of dereliction of duty",
     "link": "https://en.yna.co.kr/view/AEN20260911006500315"
-  },
-  {
-    "id": "hotnews_en_5e3dfbc3",
-    "date": "2026-09-11",
-    "ts": 1789111113000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911023400_4_k.jpg",
-    "title": "Hanwha Aerospace Ships 18 Chunmoo Multiple-Rocket Launchers to Croatia",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204190"
-  },
-  {
-    "id": "hotnews_en_de0829fd",
-    "date": "2026-09-11",
-    "ts": 1789102622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/d88c76a1-4a26-49de-9f4f-bbe6ae7594d0.jpeg",
-    "title": "Half Local magazine brings fresh perspective on Seoul through 1st print issue",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260911/half-local-magazine-brings-fresh-perspective-on-seoul-through-1st-print-issue?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_dddb37c7",
-    "date": "2026-09-11",
-    "ts": 1789102622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/8bfbc3cf-4d75-4233-b1cb-9f6452bf899b.jpeg",
-    "title": "Fu Bao's youngest sibling named Shu Bao, grows from 171g to 5.5kg",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260911/fu-baos-youngest-sibling-named-shu-bao-grows-from-171g-to-55kg?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_357061e8",
-    "date": "2026-09-11",
-    "ts": 1789102504000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091106900001300_P2.jpg",
-    "title": "Gender minister says Google must take responsibility for any legal violations over data leak",
-    "link": "https://en.yna.co.kr/view/AEN20260911002751315"
   }
 ]
