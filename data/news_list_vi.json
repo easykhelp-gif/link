@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_7ca10326",
+    "date": "2026-09-11",
+    "ts": 1789126623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/09b09d74-632d-4003-bc49-b9a9e02e077c.jpeg",
+    "title": "Các cặp đôi Hàn Quốc sang Nhật mua đồ trẻ em trong chuyến babymoon",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260914/why-expecting-parents-are-flying-to-japan-for-baby-products?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ca2934ba",
+    "date": "2026-09-11",
+    "ts": 1789126623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/dd08e26d-9091-46d6-92fe-4906fb33de10.jpg",
+    "title": "Nhiều người trẻ Hàn Quốc bắt đầu sự nghiệp với việc làm phi chính thức",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260911/more-young-workers-start-in-nonregular-jobs-widening-regular-employment-gap-study?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_031f7a00",
+    "date": "2026-09-11",
+    "ts": 1789125814000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009800320_01_i_P2.jpg",
+    "title": "Tài xế xe buýt Seoul bỏ phiếu đình công vì tranh chấp lương",
+    "link": "https://en.yna.co.kr/view/AEN20260911009800320"
+  },
+  {
+    "id": "hotnews_vi_2bb55c39",
+    "date": "2026-09-11",
+    "ts": 1789125114000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090303380001301_P2.jpg",
+    "title": "Hàn Quốc thúc đẩy thu hồi quyền tác chiến thời chiến từ Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20260911009751315"
+  },
+  {
+    "id": "hotnews_vi_7540916e",
+    "date": "2026-09-11",
+    "ts": 1789120700000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009600320_01_i_P2.jpg",
+    "title": "KB Financial chọn ứng viên cho vị trí chủ tịch tiếp theo",
+    "link": "https://en.yna.co.kr/view/AEN20260911009600320"
+  },
+  {
+    "id": "hotnews_vi_092866c5",
+    "date": "2026-09-11",
+    "ts": 1789118099000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911030502_91_e.jpg",
+    "title": "Tổng thống Lee tổ chức Hội nghị Thượng đỉnh Hàn - Trung Á",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204198"
+  },
+  {
+    "id": "hotnews_vi_7893ac4f",
+    "date": "2026-09-11",
+    "ts": 1789117867000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823970005300_P2.jpg",
+    "title": "Cầu thủ Kim Do-yeong xuất viện, hy vọng dự Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260911009500315"
+  },
+  {
+    "id": "hotnews_vi_c562a67c",
+    "date": "2026-09-11",
+    "ts": 1789117046000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/rcv.YNA.20260911.PYH2026091112420001300_T1.jpg",
+    "title": "Phó Thủ tướng Hàn Quốc muốn đổi mới chính sách thuế nhà ở",
+    "link": "https://www.koreaherald.com/article/10870934"
+  },
+  {
+    "id": "hotnews_vi_214232c2",
+    "date": "2026-09-11",
+    "ts": 1789116096000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911030349_15_e.jpg",
+    "title": "Ngoại trưởng Hàn Quốc và Iran điện đàm về vấn đề triển khai quân",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204193"
+  },
+  {
+    "id": "hotnews_vi_febfb6de",
+    "date": "2026-09-11",
+    "ts": 1789111818000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.85c0dc66b730404e9da09bcd6aa7e519_T1.jpg",
+    "title": "Người nhập cư không giấy tờ và gánh nặng y tế tại Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10870834"
+  },
+  {
     "id": "hotnews_vi_de0829fd",
     "date": "2026-09-11",
     "ts": 1789102622000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202303/230324105055_52_k.jpg",
     "title": "Số lượng du học sinh quốc tế tại Hàn Quốc vượt 500.000 người",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204162"
-  },
-  {
-    "id": "hotnews_vi_4288b154",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/af6594c9-4ab3-4af7-9c74-4d5d2a20ec27.jpg",
-    "title": "Tổng thống Lee Jae Myung về nước sau chuyến thăm Pháp",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260910/president-lee-returns-home-after-4-day-trip-to-france?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6b7c7945",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c69fc9d7-49c5-4573-ab9e-8fc9940c0646.jpg",
-    "title": "Số lưu học sinh tại Hàn Quốc lần đầu vượt mốc 500.000 người",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/international-students-in-korea-top-500000-for-1st-time-on-korean-cultural-boom?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6df6acce",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/c1b69490-b039-461c-a962-daea203fcc9e.jpg",
-    "title": "Marathon ở Seoul gây ùn tắc giao thông và phiền toái",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260910/cover-story-marathons-at-city-centers-inconvenience-residents?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ce3fb497",
-    "date": "2026-09-10",
-    "ts": 1789016524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/09/43d248ed-dcf9-4a47-b4e0-d5d6d35c91ff.jpeg",
-    "title": "Nhiều học sinh Hàn Quốc bỏ học để luyện thi đại học",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260910/more-korean-teens-leave-school-to-prepare-for-college-entrance-exams?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_fb6a4849",
-    "date": "2026-09-10",
-    "ts": 1789013367000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907251801009_P2.jpg",
-    "title": "Đoàn Hàn Quốc khảo sát eo biển Hormuz về nước từ UAE",
-    "link": "https://en.yna.co.kr/view/AEN20260910004400315"
-  },
-  {
-    "id": "hotnews_vi_dba846f4",
-    "date": "2026-09-10",
-    "ts": 1789009224000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090113770001300_P2.jpg",
-    "title": "Bộ Dữ liệu công bố giá hàng ngày trước dịp Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260910002000320"
-  },
-  {
-    "id": "hotnews_vi_2629481f",
-    "date": "2026-09-10",
-    "ts": 1789009220000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082703050001300_P2.jpg",
-    "title": "BOK cân nhắc thời điểm và tốc độ tăng lãi suất",
-    "link": "https://en.yna.co.kr/view/AEN20260910002100320"
-  },
-  {
-    "id": "hotnews_vi_0b03b94e",
-    "date": "2026-09-10",
-    "ts": 1789008878000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910004000315_02_i_P2.jpg",
-    "title": "Hàn Quốc tăng mạnh hình phạt cho vụ rò rỉ dữ liệu lớn",
-    "link": "https://en.yna.co.kr/view/AEN20260910004000315"
-  },
-  {
-    "id": "hotnews_vi_58b134b5",
-    "date": "2026-09-10",
-    "ts": 1789007243000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910003600315_01_i_P2.jpg",
-    "title": "Tòa tối cao Hàn Quốc giữ nguyên án chung thân trùm phạm tội tình dục Telegram",
-    "link": "https://en.yna.co.kr/view/AEN20260910003600315"
-  },
-  {
-    "id": "hotnews_vi_c577c43e",
-    "date": "2026-09-10",
-    "ts": 1789006556000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910003000315_01_i_P2.jpg",
-    "title": "12 người Hàn Quốc bị bắt tại Thái Lan vì lừa đảo qua điện thoại",
-    "link": "https://en.yna.co.kr/view/AEN20260910003000315"
   }
 ]
