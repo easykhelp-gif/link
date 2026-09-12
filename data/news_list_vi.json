@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_vi_ef5a0f5c",
+    "date": "2026-09-12",
+    "ts": 1789210923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/12/c9905f41-6386-4be2-89dc-046217c86a10.jpg",
+    "title": "Tổng thống Lee trấn an người dân về giá dầu giữa căng thẳng Trung Đông",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/president-lee-reassures-public-over-oil-prices-amid-escalating-middle-east-tensions?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_604251aa",
+    "date": "2026-09-12",
+    "ts": 1789203633000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912002100320_02_i_P2.jpg",
+    "title": "Tàu container Hàn Quốc đến Anh qua tuyến đường Bắc Cực",
+    "link": "https://en.yna.co.kr/view/AEN20260912002100320"
+  },
+  {
+    "id": "hotnews_vi_8076b30a",
+    "date": "2026-09-12",
+    "ts": 1789202918000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/12/PYH2026091202840007300_P2.jpg",
+    "title": "Nhật Bản tiếp tục bỏ qua lao động cưỡng bức tại mỏ Sado",
+    "link": "https://en.yna.co.kr/view/AEN20260912002000320"
+  },
+  {
+    "id": "hotnews_vi_2491f9aa",
+    "date": "2026-09-12",
+    "ts": 1789202156000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260912.PYH2026091015790006000_T1.jpg",
+    "title": "Tìm kiếm hài cốt chiến sĩ Chiến tranh Triều Tiên tại Paju",
+    "link": "https://www.koreaherald.com/article/10871257"
+  },
+  {
+    "id": "hotnews_vi_796f1bcb",
+    "date": "2026-09-12",
+    "ts": 1789201431000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/news-a.v1.20260911.159b5e8ffeae4e71af50606f792be97a_T1.png",
+    "title": "Hàn Quốc cho phép mặc quần jeans khi phỏng vấn công chức",
+    "link": "https://www.koreaherald.com/article/10871252"
+  },
+  {
+    "id": "hotnews_vi_2ab80fa7",
+    "date": "2026-09-12",
+    "ts": 1789196400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260907.4825df8e9eb64e2abe8ef2b03d3ef36e_T1.jpg",
+    "title": "Nam ca sĩ All'N theo đuổi con đường K-pop kết hợp violin",
+    "link": "https://www.koreaherald.com/article/10869188"
+  },
+  {
+    "id": "hotnews_vi_e5bf0f24",
+    "date": "2026-09-12",
+    "ts": 1789196400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260908.a7a33d64d0054b1eb28356ccb8a76251_T1.jpg",
+    "title": "Gợi ý điểm du lịch ngắn ngày trong dịp lễ Chuseok",
+    "link": "https://www.koreaherald.com/article/10869414"
+  },
+  {
+    "id": "hotnews_vi_69968477",
+    "date": "2026-09-12",
+    "ts": 1789189753000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912020053_30_e.jpg",
+    "title": "Trời nhiều mây và biên độ nhiệt lớn vào Chủ Nhật",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204206"
+  },
+  {
     "id": "hotnews_vi_e6e5fdee",
     "date": "2026-09-12",
     "ts": 1789188700000,
@@ -70,6 +134,22 @@
     "image": "",
     "title": "Điểm tin chính trên các báo lớn Hàn Quốc ngày 12/9",
     "link": "https://en.yna.co.kr/view/AEN20260912000800315"
+  },
+  {
+    "id": "hotnews_vi_dece21c4",
+    "date": "2026-09-12",
+    "ts": 1789173257000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000353315_01_i_P2.jpg",
+    "title": "Triều Tiên phóng nhiều tên lửa đạn đạo tầm ngắn ra biển Đông",
+    "link": "https://en.yna.co.kr/view/AEN20260912000353315"
+  },
+  {
+    "id": "hotnews_vi_a17f46f2",
+    "date": "2026-09-11",
+    "ts": 1789170258000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000400315_01_i_P2.jpg",
+    "title": "Quân đội Mỹ nắm bắt thông tin Triều Tiên phóng tên lửa",
+    "link": "https://en.yna.co.kr/view/AEN20260912000400315"
   },
   {
     "id": "hotnews_vi_182aec0e",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911091546_64_k.jpg",
     "title": "Hai buổi diễn của BTS ở Nam Mỹ sẽ chiếu rạp toàn cầu",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204188"
-  },
-  {
-    "id": "hotnews_vi_de0829fd",
-    "date": "2026-09-11",
-    "ts": 1789102622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/d88c76a1-4a26-49de-9f4f-bbe6ae7594d0.jpeg",
-    "title": "Tạp chí Half Local phát hành ấn bản in đầu tiên về Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260911/half-local-magazine-brings-fresh-perspective-on-seoul-through-1st-print-issue?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_31913cce",
-    "date": "2026-09-11",
-    "ts": 1789099483000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911004600315_01_i_P2.jpg",
-    "title": "Đề nghị 4 năm tù cho ông Yoon Suk Yeol trong phiên phúc thẩm",
-    "link": "https://en.yna.co.kr/view/AEN20260911004600315"
-  },
-  {
-    "id": "hotnews_vi_d5997f18",
-    "date": "2026-09-11",
-    "ts": 1789092212000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090104960001300_P2.jpg",
-    "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung giảm xuống 38%",
-    "link": "https://en.yna.co.kr/view/AEN20260911002900315"
-  },
-  {
-    "id": "hotnews_vi_dbf9657b",
-    "date": "2026-09-11",
-    "ts": 1789091645000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911003000315_01_i_P2.jpg",
-    "title": "Văn phòng Thủ tướng cảnh báo quan chức giả danh người dân đặt câu hỏi",
-    "link": "https://en.yna.co.kr/view/AEN20260911003000315"
-  },
-  {
-    "id": "hotnews_vi_7961f9a8",
-    "date": "2026-09-11",
-    "ts": 1789090483000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.f9700d124ef744089e3460a64e9656a4_T1.jpg",
-    "title": "Mùa thu đến Hàn Quốc với biên độ nhiệt lớn",
-    "link": "https://www.koreaherald.com/article/10870237"
-  },
-  {
-    "id": "hotnews_vi_435aac66",
-    "date": "2026-09-11",
-    "ts": 1789090394000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/28/PYH2026052814790001300_P2.jpg",
-    "title": "Nhóm aespa phát hành đĩa đơn số gồm 4 bài hát solo",
-    "link": "https://en.yna.co.kr/view/AEN20260911002300315"
-  },
-  {
-    "id": "hotnews_vi_651ebfdf",
-    "date": "2026-09-11",
-    "ts": 1789089845000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911102527_41_e.jpg",
-    "title": "Cảnh sát điều tra ứng viên Bộ trưởng Tư pháp vận động hành lang",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204177"
-  },
-  {
-    "id": "hotnews_vi_4e636194",
-    "date": "2026-09-11",
-    "ts": 1789088530000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911100258_13_e.jpg",
-    "title": "Kim ngạch xuất khẩu Hàn Quốc đạt 34,97 tỷ USD đầu tháng 9",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204176"
-  },
-  {
-    "id": "hotnews_vi_aab242ca",
-    "date": "2026-09-11",
-    "ts": 1789086528000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091102840001300_P2.jpg",
-    "title": "Chứng khoán Seoul giảm mạnh theo Phố Wall và lo ngại lạm phát",
-    "link": "https://en.yna.co.kr/view/AEN20260911000951320"
-  },
-  {
-    "id": "hotnews_vi_eb81577e",
-    "date": "2026-09-11",
-    "ts": 1789086174000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911001400315_01_i_P2.jpg",
-    "title": "Hàn Quốc cử đoàn cứu hộ thứ hai sang Nepal khắc phục lũ lụt",
-    "link": "https://en.yna.co.kr/view/AEN20260911001400315"
   }
 ]
