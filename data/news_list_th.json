@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_th_b0586500",
+    "date": "2026-09-12",
+    "ts": 1789243203000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911008700320_01_i_P2.jpg",
+    "title": "อาร์เจนตินามุ่งร่วมมือเกาหลีใต้ด้านความปลอดภัยทางไซเบอร์",
+    "link": "https://en.yna.co.kr/view/AEN20260911008700320"
+  },
+  {
+    "id": "hotnews_th_db599a59",
+    "date": "2026-09-12",
+    "ts": 1789243133000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913108801009_P2.jpg",
+    "title": "ภาพยนตร์ Possible Love ของผู้กำกับ อี ชang-dong คว้ารางวัลใหญ่ที่เวนิส",
+    "link": "https://en.yna.co.kr/view/AEN20260911004452315"
+  },
+  {
     "id": "hotnews_th_a6c36e32",
     "date": "2026-09-12",
     "ts": 1789214656000,
@@ -232,6 +248,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260912000400315"
   },
   {
+    "id": "hotnews_th_65e11150",
+    "date": "2026-09-11",
+    "ts": 1789170243000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000352315_01_i_P2.jpg",
+    "title": "เกาหลีเหนือยิงขีปนาวุธหลายลูกสูบทะเลตะวันออก",
+    "link": "https://en.yna.co.kr/view/AEN20260912000352315"
+  },
+  {
     "id": "hotnews_th_182aec0e",
     "date": "2026-09-11",
     "ts": 1789159571000,
@@ -374,29 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911030502_91_e.jpg",
     "title": "ประธานาธิบดีอีเตรียมเป็นเจ้าภาพประชุมสุดยอดเกาหลีใต้-เอเชียกลางสัปดาห์หน้า",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204198"
-  },
-  {
-    "id": "hotnews_th_7893ac4f",
-    "date": "2026-09-11",
-    "ts": 1789117867000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823970005300_P2.jpg",
-    "title": "คิมโดยอง นักเบสออกจากโรงพยาบาล ลุ้นร่วมแข่งเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260911009500315"
-  },
-  {
-    "id": "hotnews_th_2bf9f20c",
-    "date": "2026-09-11",
-    "ts": 1789117565000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911060831_40_e.jpg",
-    "title": "ทั่วประเทศจะมีสภาพอากาศฤดูใบไม้ร่วงที่น่ารื่นรมย์ในวันเสาร์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204197"
-  },
-  {
-    "id": "hotnews_th_ad6358f1",
-    "date": "2026-09-11",
-    "ts": 1789117420000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122302_97_k.jpg",
-    "title": "พรรคการเมืองขัดแย้งกันเรื่องการเสนอชื่อรัฐมนตรี",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204196"
   }
 ]
