@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_e6e5fdee",
+    "date": "2026-09-12",
+    "ts": 1789188700000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912014148_76_e.jpg",
+    "title": "Công nhân xe buýt Seoul đình công đòi tăng lương",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204205"
+  },
+  {
+    "id": "hotnews_vi_61bbd4f5",
+    "date": "2026-09-12",
+    "ts": 1789188422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/12/8ee63a02-130a-4233-aa8e-3cfc830b655e.jpeg",
+    "title": "Nghị viên Gwangmyeong đối mặt kỷ luật vì vào khách sạn uống cà phê",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/councilor-says-he-only-had-coffee-at-hotel-with-woman-faces-disciplinary-action?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ac9858d3",
+    "date": "2026-09-12",
+    "ts": 1789182965000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912121142_72_e.jpg",
+    "title": "Tổng thống Lee tổ chức Hội nghị Hàn Quốc - Trung Á",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204203"
+  },
+  {
+    "id": "hotnews_vi_93d6d717",
+    "date": "2026-09-12",
+    "ts": 1789182905000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912121906_10_e.jpg",
+    "title": "Phủ Tổng thống Hàn Quốc lên án Triều Tiên phóng tên lửa",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204202"
+  },
+  {
+    "id": "hotnews_vi_47cec9d2",
+    "date": "2026-09-12",
+    "ts": 1789182468000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912095254_0_e.jpg",
+    "title": "Đội cứu trợ đầu tiên về nước sau 10 ngày tìm kiếm tại Nepal",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204201"
+  },
+  {
+    "id": "hotnews_vi_0063d9f0",
+    "date": "2026-09-12",
+    "ts": 1789180178000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/ams.V01.photo.HDN.P.20210607.202106070000001796161941_T1.jpg",
+    "title": "Tòa án Hàn Quốc chấp thuận tị nạn cho người Iran theo Cơ đốc giáo",
+    "link": "https://www.koreaherald.com/article/10871175"
+  },
+  {
+    "id": "hotnews_vi_2d4d6566",
+    "date": "2026-09-12",
+    "ts": 1789177216000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912094648_69_e.jpg",
+    "title": "Triều Tiên phóng nhiều tên lửa đạn đạo",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204200"
+  },
+  {
+    "id": "hotnews_vi_c3eaba8e",
+    "date": "2026-09-12",
+    "ts": 1789173995000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/03/03/PAP20260303045101009_P2.jpg",
+    "title": "NC Dinos chiêu mộ cựu pitcher MLB Mike Clevinger",
+    "link": "https://en.yna.co.kr/view/AEN20260912000900315"
+  },
+  {
+    "id": "hotnews_vi_a9f817ba",
+    "date": "2026-09-12",
+    "ts": 1789173588000,
+    "image": "",
+    "title": "Điểm tin chính trên các báo lớn Hàn Quốc ngày 12/9",
+    "link": "https://en.yna.co.kr/view/AEN20260912000800315"
+  },
+  {
     "id": "hotnews_vi_182aec0e",
     "date": "2026-09-11",
     "ts": 1789159571000,
@@ -126,6 +198,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/rcv.YNA.20260826.PYH2026082611270001300_T1.jpg",
     "title": "Thủ tướng: Cần đồng thuận công cộng để làm nhà ở Yongsan Park",
     "link": "https://www.koreaherald.com/article/10870945"
+  },
+  {
+    "id": "hotnews_vi_12089ddf",
+    "date": "2026-09-11",
+    "ts": 1789118181000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.6aaaa1066b944fbc83b31006a0414243_T1.jpg",
+    "title": "Kế hoạch xây trụ sở mới của JYP có nguy cơ bị hủy bỏ",
+    "link": "https://www.koreaherald.com/article/10870944"
   },
   {
     "id": "hotnews_vi_092866c5",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911001400315_01_i_P2.jpg",
     "title": "Hàn Quốc cử đoàn cứu hộ thứ hai sang Nepal khắc phục lũ lụt",
     "link": "https://en.yna.co.kr/view/AEN20260911001400315"
-  },
-  {
-    "id": "hotnews_vi_fad69c2f",
-    "date": "2026-09-10",
-    "ts": 1789074011000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910005000320_01_i_P2.jpg",
-    "title": "Lợi nhuận quý 2 của các quỹ đầu tư Hàn Quốc tăng mạnh",
-    "link": "https://en.yna.co.kr/view/AEN20260910005000320"
-  },
-  {
-    "id": "hotnews_vi_644622d1",
-    "date": "2026-09-10",
-    "ts": 1789072200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260910.92d21c7e8b7b4fe38f6fdb7f95d7ef92_T1.jpg",
-    "title": "Hàn Quốc cân nhắc gửi quân tham chiến cùng Mỹ trong chiến tranh Iran?",
-    "link": "https://www.koreaherald.com/article/10869585"
-  },
-  {
-    "id": "hotnews_vi_17f80b53",
-    "date": "2026-09-10",
-    "ts": 1789044322000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091021960001300_P2.jpg",
-    "title": "Hanwha Aerospace xuất khẩu 18 hệ thống Chunmoo sang Croatia",
-    "link": "https://en.yna.co.kr/view/AEN20260910005651315"
-  },
-  {
-    "id": "hotnews_vi_aeec4390",
-    "date": "2026-09-10",
-    "ts": 1789041590000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910008800315_03_i_P2.jpg",
-    "title": "Mexico và Hàn Quốc thúc đẩy hợp tác kinh tế và công nghiệp",
-    "link": "https://en.yna.co.kr/view/AEN20260910008800315"
-  },
-  {
-    "id": "hotnews_vi_5c3394a0",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/5689571c-379f-41b2-9a9a-f4664984c96b.jpg",
-    "title": "Tổng thống Lee chỉ đạo hỗ trợ gia đình người Hàn mất tích ở Nepal",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260910/lee-orders-review-of-measures-to-help-families-of-koreans-missing-in-nepal?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_27b4e857",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/6689c47b-f478-40ae-8fe5-e9149c5e321a.jpg",
-    "title": "Tòa tối cao giữ nguyên án tù treo cho Phó chủ tịch Hyosung",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260910/top-court-finalizes-suspended-prison-term-for-hyosung-vice-chief-after-12-year-legal-battle?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_301590d4",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/af187cc5-64ec-4a7b-b606-86603a4773ed.jpeg",
-    "title": "Seoul đổi tên nút bấm khẩn cấp thành thương hiệu Ansim",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260910/seoul-renames-emergency-panic-buttons-under-unified-ansim-brand?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_55238137",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/344ecd6d-6e9c-4e9a-b846-3cd7876034ff.jpg",
-    "title": "Seoul chi 65 tỷ USD để lọt top 3 thành phố toàn cầu vào năm 2030",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260910/seoul-launches-65-bil-plan-targeting-global-top-3-city-status-by-2030?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_389945f1",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/ce000542-763d-4655-afff-88690c2a469a.jpeg",
-    "title": "Bạo lực học đường tại Hàn Quốc đạt mức cao kỷ lục",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260910/yacha-rules-in-korea-students-film-sell-videos-of-forced-fights-amid-record-school-violence?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_59153079",
-    "date": "2026-09-10",
-    "ts": 1789040822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/6fb1ccf4-bfd2-4798-835f-0866271c55d4.jpeg",
-    "title": "AI và chống lão hóa thúc đẩy du lịch y tế Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20260910/ai-driven-anti-aging-fuels-koreas-next-medical-tourism-wave?utm_source=rss"
   }
 ]
