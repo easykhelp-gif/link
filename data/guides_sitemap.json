@@ -162,6 +162,24 @@
     "priority": 0.7
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/travel/travel_seoraksan_sokcho/",
+    "lastmod": "2026-09-11",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/travel/travel_seoraksan_sokcho/",
+    "lastmod": "2026-09-11",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/travel/travel_seoraksan_sokcho/",
+    "lastmod": "2026-09-11",
+    "changefreq": "monthly",
+    "priority": 0.7
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/travel/travel_seoul_free/",
     "lastmod": "2026-08-17",
     "changefreq": "monthly",
@@ -181,19 +199,19 @@
   },
   {
     "loc": "https://www.koricare.kr/link/en/guides/",
-    "lastmod": "2026-09-05",
+    "lastmod": "2026-09-11",
     "changefreq": "weekly",
     "priority": 0.8
   },
   {
     "loc": "https://www.koricare.kr/link/th/guides/",
-    "lastmod": "2026-09-05",
+    "lastmod": "2026-09-11",
     "changefreq": "weekly",
     "priority": 0.8
   },
   {
     "loc": "https://www.koricare.kr/link/vi/guides/",
-    "lastmod": "2026-09-05",
+    "lastmod": "2026-09-11",
     "changefreq": "weekly",
     "priority": 0.8
   }
