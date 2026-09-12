@@ -1,11 +1,27 @@
 [
   {
+    "id": "hotnews_vi_a6c36e32",
+    "date": "2026-09-12",
+    "ts": 1789214656000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082623040001300_P2.jpg",
+    "title": "Giải bóng chày KBO đạt mốc 11 triệu khán giả nhanh kỷ lục",
+    "link": "https://en.yna.co.kr/view/AEN20260912002300315"
+  },
+  {
     "id": "hotnews_vi_ef5a0f5c",
     "date": "2026-09-12",
     "ts": 1789210923000,
     "image": "https://newsimg.koreatimes.co.kr/2026/09/12/c9905f41-6386-4be2-89dc-046217c86a10.jpg",
     "title": "Tổng thống Lee trấn an người dân về giá dầu giữa căng thẳng Trung Đông",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/president-lee-reassures-public-over-oil-prices-amid-escalating-middle-east-tensions?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_161a757f",
+    "date": "2026-09-12",
+    "ts": 1789204190000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091111090001300_P2.jpg",
+    "title": "Tổng thống Lee trấn an người dân về giá dầu giữa khủng hoảng Trung Đông",
+    "link": "https://en.yna.co.kr/view/AEN20260912002200320"
   },
   {
     "id": "hotnews_vi_604251aa",
@@ -56,12 +72,52 @@
     "link": "https://www.koreaherald.com/article/10869414"
   },
   {
+    "id": "hotnews_vi_0e124688",
+    "date": "2026-09-12",
+    "ts": 1789196400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260904.713c7ba271dc4303b1bb39bd41fd6064_T1.jpg",
+    "title": "Tranh cãi về vẻ đẹp tự nhiên của Miss Korea Woo Seo-yoon",
+    "link": "https://www.koreaherald.com/article/10869106"
+  },
+  {
+    "id": "hotnews_vi_ec5010eb",
+    "date": "2026-09-12",
+    "ts": 1789193241000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/12/PYH2026091202400001300_P2.jpg",
+    "title": "Hàn Quốc và Nepal bàn về việc tiếp tục tìm kiếm người mất tích",
+    "link": "https://en.yna.co.kr/view/AEN20260912001700315"
+  },
+  {
+    "id": "hotnews_vi_ba04e52d",
+    "date": "2026-09-12",
+    "ts": 1789190442000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912014332_32_e.jpg",
+    "title": "Phủ Tổng thống Hàn Quốc lên tiếng về ứng viên Bộ Bình đẳng giới",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204207"
+  },
+  {
     "id": "hotnews_vi_69968477",
     "date": "2026-09-12",
     "ts": 1789189753000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912020053_30_e.jpg",
     "title": "Trời nhiều mây và biên độ nhiệt lớn vào Chủ Nhật",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204206"
+  },
+  {
+    "id": "hotnews_vi_6475f900",
+    "date": "2026-09-12",
+    "ts": 1789189367000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260902.PYH2026090205690005100_T1.jpg",
+    "title": "Tàu container Hàn Quốc đến Anh trên tuyến đường Bắc Cực",
+    "link": "https://www.koreaherald.com/article/10871205"
+  },
+  {
+    "id": "hotnews_vi_1770e79f",
+    "date": "2026-09-12",
+    "ts": 1789189200000,
+    "image": "",
+    "title": "Nhìn lại các sự kiện lịch sử Hàn Quốc ngày hôm nay",
+    "link": "https://en.yna.co.kr/view/AEN20260912001000315"
   },
   {
     "id": "hotnews_vi_e6e5fdee",
@@ -78,6 +134,14 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/12/8ee63a02-130a-4233-aa8e-3cfc830b655e.jpeg",
     "title": "Nghị viên Gwangmyeong đối mặt kỷ luật vì vào khách sạn uống cà phê",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/councilor-says-he-only-had-coffee-at-hotel-with-woman-faces-disciplinary-action?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_47db5a45",
+    "date": "2026-09-12",
+    "ts": 1789187656000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912124102_76_e.jpg",
+    "title": "Vườn thú địa phương ra mắt gấu trúc khổng lồ Shu Bao",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204204"
   },
   {
     "id": "hotnews_vi_ac9858d3",
@@ -112,6 +176,14 @@
     "link": "https://www.koreaherald.com/article/10871175"
   },
   {
+    "id": "hotnews_vi_771ae02e",
+    "date": "2026-09-12",
+    "ts": 1789177305000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260820.PYH2026082022980001300_T1.jpg",
+    "title": "Hàn Quốc họp khẩn sau khi Triều Tiên phóng tên lửa",
+    "link": "https://www.koreaherald.com/article/10871157"
+  },
+  {
     "id": "hotnews_vi_2d4d6566",
     "date": "2026-09-12",
     "ts": 1789177216000,
@@ -142,6 +214,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000353315_01_i_P2.jpg",
     "title": "Triều Tiên phóng nhiều tên lửa đạn đạo tầm ngắn ra biển Đông",
     "link": "https://en.yna.co.kr/view/AEN20260912000353315"
+  },
+  {
+    "id": "hotnews_vi_f3cc20c3",
+    "date": "2026-09-12",
+    "ts": 1789172946000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/05/06/62/PCM20260506000062990_P2.jpg",
+    "title": "Phủ Tổng thống Hàn Quốc lên án vụ phóng tên lửa của Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260912000700315"
   },
   {
     "id": "hotnews_vi_a17f46f2",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908122302_97_k.jpg",
     "title": "Tranh cãi đề cử Bộ trưởng Tư pháp và Bình đẳng giới",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204196"
-  },
-  {
-    "id": "hotnews_vi_c562a67c",
-    "date": "2026-09-11",
-    "ts": 1789117046000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/rcv.YNA.20260911.PYH2026091112420001300_T1.jpg",
-    "title": "Phó Thủ tướng Hàn Quốc muốn đổi mới chính sách thuế nhà ở",
-    "link": "https://www.koreaherald.com/article/10870934"
-  },
-  {
-    "id": "hotnews_vi_214232c2",
-    "date": "2026-09-11",
-    "ts": 1789116096000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911030349_15_e.jpg",
-    "title": "Ngoại trưởng Hàn Quốc và Iran điện đàm về vấn đề triển khai quân",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204193"
-  },
-  {
-    "id": "hotnews_vi_903394ca",
-    "date": "2026-09-11",
-    "ts": 1789114231000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082708190001300_P2.jpg",
-    "title": "Đảng DP xem xét nghiêm túc tranh cãi về đề cử Bộ trưởng Yong Hye-in",
-    "link": "https://en.yna.co.kr/view/AEN20260911006051315"
-  },
-  {
-    "id": "hotnews_vi_7a2fac2d",
-    "date": "2026-09-11",
-    "ts": 1789113132000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911031345_4_k.jpg",
-    "title": "Đội tuyển bóng đá nam Triều Tiên đến Nhật Bản dự Asiad",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204192"
-  },
-  {
-    "id": "hotnews_vi_f683c493",
-    "date": "2026-09-11",
-    "ts": 1789113120000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090909060001703_P2.jpg",
-    "title": "OpenAI chưa có kế hoạch mới về hợp tác chip với Samsung",
-    "link": "https://en.yna.co.kr/view/AEN20260911008100320"
-  },
-  {
-    "id": "hotnews_vi_f20a4857",
-    "date": "2026-09-11",
-    "ts": 1789112205000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091112880001300_P2.jpg",
-    "title": "Chứng khoán Seoul giảm 1,76% do giá dầu tăng và lạm phát",
-    "link": "https://en.yna.co.kr/view/AEN20260911006752320"
-  },
-  {
-    "id": "hotnews_vi_8442dc35",
-    "date": "2026-09-11",
-    "ts": 1789111883000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.73f02dd1aee842adb6aa76ca00edf2c2_T1.png",
-    "title": "Lái tàu điện ngầm dạy bài học cho hành khách kẹt pizza",
-    "link": "https://www.koreaherald.com/article/10870835"
-  },
-  {
-    "id": "hotnews_vi_febfb6de",
-    "date": "2026-09-11",
-    "ts": 1789111818000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.85c0dc66b730404e9da09bcd6aa7e519_T1.jpg",
-    "title": "Người nhập cư không giấy tờ và gánh nặng y tế tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10870834"
-  },
-  {
-    "id": "hotnews_vi_a6756df2",
-    "date": "2026-09-11",
-    "ts": 1789110675000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911044351_38_e.jpg",
-    "title": "Cựu Tổng thống Yoon vô tội vụ giúp cựu Bộ trưởng Quốc phòng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204189"
-  },
-  {
-    "id": "hotnews_vi_32716bea",
-    "date": "2026-09-11",
-    "ts": 1789110277000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911091546_64_k.jpg",
-    "title": "Hai buổi diễn của BTS ở Nam Mỹ sẽ chiếu rạp toàn cầu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204188"
   }
 ]
