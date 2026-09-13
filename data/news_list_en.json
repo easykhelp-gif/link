@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_0aedcc3c",
+    "date": "2026-09-13",
+    "ts": 1789307394000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312290001300_P2.jpg",
+    "title": "(Asiad) KBO home run leader returns from injury with bang, boosts nat'l team hope",
+    "link": "https://en.yna.co.kr/view/AEN20260913003000315"
+  },
+  {
+    "id": "hotnews_en_546ce437",
+    "date": "2026-09-13",
+    "ts": 1789302301000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260907.PYH2026090714160006100_T1.jpg",
+    "title": "Education authorities seek relief for applicants after university application system error",
+    "link": "https://www.koreaherald.com/article/10871813"
+  },
+  {
     "id": "hotnews_en_8fbf5a24",
     "date": "2026-09-13",
     "ts": 1789301524000,
@@ -46,6 +62,38 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PYH2026091308690001300_T1.jpg",
     "title": "Myeong-dong holds lead as Korea’s tourist shopping hub",
     "link": "https://www.koreaherald.com/article/10871768"
+  },
+  {
+    "id": "hotnews_en_e48787a6",
+    "date": "2026-09-13",
+    "ts": 1789290735000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.1c0ace33e08f46508fea25075792a6dc_T1.jpg",
+    "title": "Korea wins six-year arbitration battle against Chinese investor",
+    "link": "https://www.koreaherald.com/article/10871757"
+  },
+  {
+    "id": "hotnews_en_620b4eba",
+    "date": "2026-09-13",
+    "ts": 1789290069000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002100320_01_i_P2.jpg",
+    "title": "(Asiad) N. Korea to begin Asian Games campaign with women's football match",
+    "link": "https://en.yna.co.kr/view/AEN20260913002100320"
+  },
+  {
+    "id": "hotnews_en_531122c0",
+    "date": "2026-09-13",
+    "ts": 1789289641000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002200315_01_i_P2.jpg",
+    "title": "Lee congratulates S. Korean director on Venice film festival award",
+    "link": "https://en.yna.co.kr/view/AEN20260913002200315"
+  },
+  {
+    "id": "hotnews_en_f109c57c",
+    "date": "2026-09-13",
+    "ts": 1789288953000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.5bac1411314f4f39b25dfe003e9587a4_T1.jpg",
+    "title": "Lee Chang-dong's Venice win shines light on Korean cinema's understated auteur",
+    "link": "https://www.koreaherald.com/article/10871751"
   },
   {
     "id": "hotnews_en_079ce0e5",
@@ -112,6 +160,14 @@
     "link": "https://www.koreaherald.com/article/10871647"
   },
   {
+    "id": "hotnews_en_c44e71c4",
+    "date": "2026-09-13",
+    "ts": 1789277847000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091304490001301_P2.jpg",
+    "title": "Gender minister nominee withdraws from consideration amid mounting controversy",
+    "link": "https://en.yna.co.kr/view/AEN20260913001352315"
+  },
+  {
     "id": "hotnews_en_e6312686",
     "date": "2026-09-13",
     "ts": 1789277513000,
@@ -142,6 +198,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.d032a18415f74e59a4aa198863d414b1_T1.jpg",
     "title": "[단독] 해방촌 명물 '항아리길' 사라졌다 ... 수십 년 지킨 옹기 철거",
     "link": "https://www.koreaherald.com/article/10871629"
+  },
+  {
+    "id": "hotnews_en_40c23e12",
+    "date": "2026-09-13",
+    "ts": 1789276819000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-a.v1.20260913.c46dfa27e6404cd9a82d14a035d3df23_T1.jpg",
+    "title": "Seoul aims to unveil first US investment project this week",
+    "link": "https://www.koreaherald.com/article/10871628"
   },
   {
     "id": "hotnews_en_2675cfa8",
@@ -334,69 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260908.PRU20260908192101009_T1.jpg",
     "title": "Ukraine braces for harsh winter as Russian attacks hit economy",
     "link": "https://www.koreaherald.com/article/10871552"
-  },
-  {
-    "id": "hotnews_en_d07bd20f",
-    "date": "2026-09-13",
-    "ts": 1789266696000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.3254e3391ee949179b5c0f359550f8a4_T1.png",
-    "title": "South Korea reaches U-20 Women’s World Cup round of 16",
-    "link": "https://www.koreaherald.com/article/10871549"
-  },
-  {
-    "id": "hotnews_en_fdf57291",
-    "date": "2026-09-13",
-    "ts": 1789265877000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.ac52446f63d2439da2375713b70604c4_T1.jpg",
-    "title": "Lee Jung-hoo hits a single, but Giants lose",
-    "link": "https://www.koreaherald.com/article/10871537"
-  },
-  {
-    "id": "hotnews_en_c7347411",
-    "date": "2026-09-13",
-    "ts": 1789265686000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.1c6766ab01524e2c9cb0504f172155a0_T1.jpg",
-    "title": "German economic counselor urges long-term approach to Honam chip cluster",
-    "link": "https://www.koreaherald.com/article/10871536"
-  },
-  {
-    "id": "hotnews_en_2e81a7eb",
-    "date": "2026-09-13",
-    "ts": 1789265204000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081912670006000_P2.jpg",
-    "title": "N. Korean state media again silent on missile launches",
-    "link": "https://en.yna.co.kr/view/AEN20260913000900315"
-  },
-  {
-    "id": "hotnews_en_f4a1f091",
-    "date": "2026-09-13",
-    "ts": 1789265156000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PEP20260913123401009_T1.jpg",
-    "title": "Rybakina wins US Open title",
-    "link": "https://www.koreaherald.com/article/10871531"
-  },
-  {
-    "id": "hotnews_en_b738815a",
-    "date": "2026-09-13",
-    "ts": 1789265093000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913000400315_04_i_P2.jpg",
-    "title": "Lee Chang-dong: Korean maestro whose profound cinematic gaze captures human dignity",
-    "link": "https://en.yna.co.kr/view/AEN20260913000400315"
-  },
-  {
-    "id": "hotnews_en_6539136f",
-    "date": "2026-09-13",
-    "ts": 1789264976000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082107070001300_P2.jpg",
-    "title": "Foreign investors turn net sellers of S. Korean bonds in Aug.",
-    "link": "https://en.yna.co.kr/view/AEN20260913001100320"
-  },
-  {
-    "id": "hotnews_en_883433e3",
-    "date": "2026-09-13",
-    "ts": 1789264153000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912490001300_P2.jpg",
-    "title": "Employment among people in their 20s falls at fastest pace since 1998",
-    "link": "https://en.yna.co.kr/view/AEN20260913000800320"
   }
 ]
