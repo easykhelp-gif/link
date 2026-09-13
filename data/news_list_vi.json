@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_810fe713",
+    "date": "2026-09-13",
+    "ts": 1789276114000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.535780ef98264602b48b08bd11eacee3_T1.jpg",
+    "title": "Lotte và KAIST khai trương trung tâm nghiên cứu chung",
+    "link": "https://www.koreaherald.com/article/10871623"
+  },
+  {
+    "id": "hotnews_vi_2d8432d3",
+    "date": "2026-09-13",
+    "ts": 1789276011000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.c7043500b9fc4555801f92d5bad3aecb_T1.jpg",
+    "title": "Thông điệp của LHQ gửi Triều Tiên báo hiệu nỗ lực nối lại tiếp xúc",
+    "link": "https://www.koreaherald.com/article/10871622"
+  },
+  {
+    "id": "hotnews_vi_d7fc53a0",
+    "date": "2026-09-13",
+    "ts": 1789275601000,
+    "image": "",
+    "title": "Nhìn lại các sự kiện lịch sử Hàn Quốc diễn ra vào ngày này",
+    "link": "https://en.yna.co.kr/view/AEN20260913001000315"
+  },
+  {
+    "id": "hotnews_vi_c5af520f",
+    "date": "2026-09-13",
+    "ts": 1789275376000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.622c98f257f64de8a946ef76c6caae3b_T1.jpeg",
+    "title": "Chủ tịch SK: Hợp tác trung tâm dữ liệu AI với Big Tech tăng tốc",
+    "link": "https://www.koreaherald.com/article/10871612"
+  },
+  {
+    "id": "hotnews_vi_10bf1a9e",
+    "date": "2026-09-13",
+    "ts": 1789275301000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.3d14e9f9da744420904809d7296be9ee_T1.jpg",
+    "title": "Hàn Quốc đẩy mạnh xây dựng trung tâm bán dẫn tại Jeonnam-Gwangju",
+    "link": "https://www.koreaherald.com/article/10871611"
+  },
+  {
+    "id": "hotnews_vi_2941c91a",
+    "date": "2026-09-13",
+    "ts": 1789275099000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
+    "title": "Phủ Tổng thống tôn trọng việc ứng viên Bộ Bình đẳng giới rút lui",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204213"
+  },
+  {
+    "id": "hotnews_vi_56c34d57",
+    "date": "2026-09-13",
+    "ts": 1789274249000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.41e79fb41ab242e88b21887e53653f83_T1.jpg",
+    "title": "Hàn-Mỹ chuẩn bị hội đàm ngoại giao và quốc phòng cấp cao",
+    "link": "https://www.koreaherald.com/article/10871605"
+  },
+  {
+    "id": "hotnews_vi_3dcc4038",
+    "date": "2026-09-13",
+    "ts": 1789274086000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260911.PRU20260911305601009_T1.jpg",
+    "title": "Lo ngại nguồn cung dầu toàn cầu sau vụ tấn công tại eo biển Hormuz",
+    "link": "https://www.koreaherald.com/article/10871604"
+  },
+  {
+    "id": "hotnews_vi_11cf21ab",
+    "date": "2026-09-13",
+    "ts": 1789258694000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PUP20260913012601009_T1.jpg",
+    "title": "Phim \"Woman Unknown\" giành giải Sư tử vàng tại LHP Venice",
+    "link": "https://www.koreaherald.com/article/10871458"
+  },
+  {
+    "id": "hotnews_vi_4cf99666",
+    "date": "2026-09-13",
+    "ts": 1789257606000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911007900320_03_i_P2.jpg",
+    "title": "Hyundai đẩy mạnh xe tự lái với trung tâm phần mềm 42dot",
+    "link": "https://en.yna.co.kr/view/AEN20260911007900320"
+  },
+  {
     "id": "hotnews_vi_b0586500",
     "date": "2026-09-12",
     "ts": 1789243203000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009800320_01_i_P2.jpg",
     "title": "Tài xế xe buýt Seoul bỏ phiếu đình công vì tranh chấp lương",
     "link": "https://en.yna.co.kr/view/AEN20260911009800320"
-  },
-  {
-    "id": "hotnews_vi_2bb55c39",
-    "date": "2026-09-11",
-    "ts": 1789125114000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090303380001301_P2.jpg",
-    "title": "Hàn Quốc thúc đẩy thu hồi quyền tác chiến thời chiến từ Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260911009751315"
-  },
-  {
-    "id": "hotnews_vi_b87288be",
-    "date": "2026-09-11",
-    "ts": 1789124168000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.b93ee79d24204cb2b315b66a30bd9468_T1.jpg",
-    "title": "Thu hồi nấm mộc nhĩ nấu malatang vì nhiễm thuốc trừ sâu",
-    "link": "https://www.koreaherald.com/article/10870989"
-  },
-  {
-    "id": "hotnews_vi_6c3671b6",
-    "date": "2026-09-11",
-    "ts": 1789123032000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.6d67857b20a844aa86ab4e863e4bc9b7_T1.png",
-    "title": "Học sinh bị thương do cảnh sát vô tình bắn súng điện Taser",
-    "link": "https://www.koreaherald.com/article/10870977"
-  },
-  {
-    "id": "hotnews_vi_7540916e",
-    "date": "2026-09-11",
-    "ts": 1789120700000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009600320_01_i_P2.jpg",
-    "title": "KB Financial chọn ứng viên cho vị trí chủ tịch tiếp theo",
-    "link": "https://en.yna.co.kr/view/AEN20260911009600320"
-  },
-  {
-    "id": "hotnews_vi_a34faa97",
-    "date": "2026-09-11",
-    "ts": 1789120542000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260909.ab6c896163d941a2a08366a4be0eddac_T1.jpeg",
-    "title": "Nhạc kịch Broadway Hell's Kitchen ra mắt tại Seoul",
-    "link": "https://www.koreaherald.com/article/10870963"
-  },
-  {
-    "id": "hotnews_vi_2e736075",
-    "date": "2026-09-11",
-    "ts": 1789120350000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.7b469fef100246dcbcb100ed537f88d8_T1.png",
-    "title": "Tường chum onggi nổi tiếng ở Haebangchon bị tháo dỡ",
-    "link": "https://www.koreaherald.com/article/10870959"
-  },
-  {
-    "id": "hotnews_vi_6bc72e69",
-    "date": "2026-09-11",
-    "ts": 1789120265000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.ac4354b548bc4126b3ff348da68ffa65_T1.png",
-    "title": "LG và NPS hợp tác đưa AI vào quản lý quỹ hưu trí",
-    "link": "https://www.koreaherald.com/article/10870958"
-  },
-  {
-    "id": "hotnews_vi_b32f1dfc",
-    "date": "2026-09-11",
-    "ts": 1789118702000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/rcv.YNA.20260826.PYH2026082611270001300_T1.jpg",
-    "title": "Thủ tướng: Cần đồng thuận công cộng để làm nhà ở Yongsan Park",
-    "link": "https://www.koreaherald.com/article/10870945"
-  },
-  {
-    "id": "hotnews_vi_12089ddf",
-    "date": "2026-09-11",
-    "ts": 1789118181000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.6aaaa1066b944fbc83b31006a0414243_T1.jpg",
-    "title": "Kế hoạch xây trụ sở mới của JYP có nguy cơ bị hủy bỏ",
-    "link": "https://www.koreaherald.com/article/10870944"
-  },
-  {
-    "id": "hotnews_vi_092866c5",
-    "date": "2026-09-11",
-    "ts": 1789118099000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260911030502_91_e.jpg",
-    "title": "Tổng thống Lee tổ chức Hội nghị Thượng đỉnh Hàn - Trung Á",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204198"
   }
 ]
