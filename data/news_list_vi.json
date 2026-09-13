@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_vi_1c14a7f7",
+    "date": "2026-09-13",
+    "ts": 1789331400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.b63a5dd81f3442839de28df4942c5ecc_T1.jpg",
+    "title": "Hàn Quốc cần tăng cường đầu tư vào quốc phòng",
+    "link": "https://www.koreaherald.com/article/10871718"
+  },
+  {
+    "id": "hotnews_vi_ac5f854c",
+    "date": "2026-09-13",
+    "ts": 1789331400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.87457d09a490409eb05c238f704b82fa_T1.jpg",
+    "title": "Hướng dẫn mới về tranh chấp lao động và Luật Túi Vàng",
+    "link": "https://www.koreaherald.com/article/10871717"
+  },
+  {
     "id": "hotnews_vi_0aedcc3c",
     "date": "2026-09-13",
     "ts": 1789307394000,
@@ -54,6 +70,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002700315_01_i_P2.jpg",
     "title": "Dự án đầu tư đầu tiên sang Mỹ sắp đạt thỏa thuận",
     "link": "https://en.yna.co.kr/view/AEN20260913002700315"
+  },
+  {
+    "id": "hotnews_vi_9e057c5a",
+    "date": "2026-09-13",
+    "ts": 1789293267000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091303240001300_P2.jpg",
+    "title": "HLV bóng đá nữ Hàn Quốc không áp lực trước cựu HLV Colin Bell",
+    "link": "https://en.yna.co.kr/view/AEN20260913002300315"
   },
   {
     "id": "hotnews_vi_39ee2df2",
@@ -128,6 +152,22 @@
     "link": "https://www.koreaherald.com/article/10871689"
   },
   {
+    "id": "hotnews_vi_97706672",
+    "date": "2026-09-13",
+    "ts": 1789278918000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.9a6467ee41a44262b86561ca740c5f79_T1.png",
+    "title": "KB Financial chọn Lee Jae-keun làm chủ tịch mới",
+    "link": "https://www.koreaherald.com/article/10871653"
+  },
+  {
+    "id": "hotnews_vi_2fb2a9f8",
+    "date": "2026-09-13",
+    "ts": 1789278385000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.bf9cddceef1a45c88cf78caf0a789ed8_T1.jpg",
+    "title": "Chong Kun Dang xây trung tâm sinh dược 2.200 tỷ won ở Siheung",
+    "link": "https://www.koreaherald.com/article/10871650"
+  },
+  {
     "id": "hotnews_vi_f6fb25a4",
     "date": "2026-09-13",
     "ts": 1789278052000,
@@ -158,6 +198,38 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913013946_24_e.jpg",
     "title": "Thời tiết nhiều mây và se lạnh tiếp tục duy trì vào thứ Hai",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204215"
+  },
+  {
+    "id": "hotnews_vi_72ccf5b2",
+    "date": "2026-09-13",
+    "ts": 1789277045000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912061700_65_k.jpg",
+    "title": "Triều Tiên vẫn im lặng về các vụ phóng tên lửa mới nhất",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204214"
+  },
+  {
+    "id": "hotnews_vi_ed1c2491",
+    "date": "2026-09-13",
+    "ts": 1789276827000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.d032a18415f74e59a4aa198863d414b1_T1.jpg",
+    "title": "Con đường chum vại biểu tượng ở Haebangchon bị tháo dỡ",
+    "link": "https://www.koreaherald.com/article/10871629"
+  },
+  {
+    "id": "hotnews_vi_40c23e12",
+    "date": "2026-09-13",
+    "ts": 1789276819000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-a.v1.20260913.c46dfa27e6404cd9a82d14a035d3df23_T1.jpg",
+    "title": "Seoul dự kiến công bố dự án đầu tư Mỹ đầu tiên trong tuần này",
+    "link": "https://www.koreaherald.com/article/10871628"
+  },
+  {
+    "id": "hotnews_vi_2675cfa8",
+    "date": "2026-09-13",
+    "ts": 1789276692000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.ee9cdd644ffa44be9a56428bd125102c_T1.jpg",
+    "title": "Honam là thử thách chính cho chiến lược AI khu vực của Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10871627"
   },
   {
     "id": "hotnews_vi_810fe713",
@@ -222,6 +294,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260911.PRU20260911305601009_T1.jpg",
     "title": "Lo ngại nguồn cung dầu toàn cầu sau vụ tấn công tại eo biển Hormuz",
     "link": "https://www.koreaherald.com/article/10871604"
+  },
+  {
+    "id": "hotnews_vi_57abc18e",
+    "date": "2026-09-13",
+    "ts": 1789272296000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913125159_41_e.jpg",
+    "title": "Ứng viên Bộ trưởng Bình đẳng giới rút lui do tranh cãi",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204211"
   },
   {
     "id": "hotnews_vi_11cf21ab",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260907.4825df8e9eb64e2abe8ef2b03d3ef36e_T1.jpg",
     "title": "Nam ca sĩ All'N theo đuổi con đường K-pop kết hợp violin",
     "link": "https://www.koreaherald.com/article/10869188"
-  },
-  {
-    "id": "hotnews_vi_e5bf0f24",
-    "date": "2026-09-12",
-    "ts": 1789196400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260908.a7a33d64d0054b1eb28356ccb8a76251_T1.jpg",
-    "title": "Gợi ý điểm du lịch ngắn ngày trong dịp lễ Chuseok",
-    "link": "https://www.koreaherald.com/article/10869414"
-  },
-  {
-    "id": "hotnews_vi_0e124688",
-    "date": "2026-09-12",
-    "ts": 1789196400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260904.713c7ba271dc4303b1bb39bd41fd6064_T1.jpg",
-    "title": "Tranh cãi về vẻ đẹp tự nhiên của Miss Korea Woo Seo-yoon",
-    "link": "https://www.koreaherald.com/article/10869106"
-  },
-  {
-    "id": "hotnews_vi_ec5010eb",
-    "date": "2026-09-12",
-    "ts": 1789193241000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/12/PYH2026091202400001300_P2.jpg",
-    "title": "Hàn Quốc và Nepal bàn về việc tiếp tục tìm kiếm người mất tích",
-    "link": "https://en.yna.co.kr/view/AEN20260912001700315"
-  },
-  {
-    "id": "hotnews_vi_ba04e52d",
-    "date": "2026-09-12",
-    "ts": 1789190442000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912014332_32_e.jpg",
-    "title": "Phủ Tổng thống Hàn Quốc lên tiếng về ứng viên Bộ Bình đẳng giới",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204207"
-  },
-  {
-    "id": "hotnews_vi_69968477",
-    "date": "2026-09-12",
-    "ts": 1789189753000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912020053_30_e.jpg",
-    "title": "Trời nhiều mây và biên độ nhiệt lớn vào Chủ Nhật",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204206"
-  },
-  {
-    "id": "hotnews_vi_6475f900",
-    "date": "2026-09-12",
-    "ts": 1789189367000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260902.PYH2026090205690005100_T1.jpg",
-    "title": "Tàu container Hàn Quốc đến Anh trên tuyến đường Bắc Cực",
-    "link": "https://www.koreaherald.com/article/10871205"
-  },
-  {
-    "id": "hotnews_vi_1770e79f",
-    "date": "2026-09-12",
-    "ts": 1789189200000,
-    "image": "",
-    "title": "Nhìn lại các sự kiện lịch sử Hàn Quốc ngày hôm nay",
-    "link": "https://en.yna.co.kr/view/AEN20260912001000315"
-  },
-  {
-    "id": "hotnews_vi_e6e5fdee",
-    "date": "2026-09-12",
-    "ts": 1789188700000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912014148_76_e.jpg",
-    "title": "Công nhân xe buýt Seoul đình công đòi tăng lương",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204205"
-  },
-  {
-    "id": "hotnews_vi_61bbd4f5",
-    "date": "2026-09-12",
-    "ts": 1789188422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/12/8ee63a02-130a-4233-aa8e-3cfc830b655e.jpeg",
-    "title": "Nghị viên Gwangmyeong đối mặt kỷ luật vì vào khách sạn uống cà phê",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/councilor-says-he-only-had-coffee-at-hotel-with-woman-faces-disciplinary-action?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_47db5a45",
-    "date": "2026-09-12",
-    "ts": 1789187656000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912124102_76_e.jpg",
-    "title": "Vườn thú địa phương ra mắt gấu trúc khổng lồ Shu Bao",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204204"
   }
 ]
