@@ -111,6 +111,18 @@ Since **6 November 2025**, when a labor inspector investigates unpaid wages, the
 Find out what you are owed before you decide anything. [Check your figure with the free Kori Care Severance Calculator](/link/severance-calculator) — one minute, no sign-up.
 
 Not sure which route fits your case? Message Kori Care in your own language. We will tell you which one fits, even if it isn't us.
+
+## Korean words you will hear
+
+These are the words that appear on your contract, your pay slip, and at the labor office. Each card shows the Korean word, how to say it, and what it means. You can show a card at the counter.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_en_1.webp" alt="Korean severance pay terms with pronunciation and English meaning: 퇴직금 toejikgeum, 평균임금 pyeonggyun imgeum, 계속근로기간 gyesok geullo gigan" loading="lazy"><figcaption>Korean words used in severance pay cases</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_en_2.webp" alt="Korean severance pay terms with pronunciation and English meaning: 출국만기보험 chulguk mangi boheom, 근로계약서 geullo gyeyakseo, 사업주 saeopju" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_en_3.webp" alt="Korean severance pay terms with pronunciation and English meaning: 근로자 geulloja, 지급 jigeup, 퇴직연금 toejik yeongeum" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_en_4.webp" alt="Korean severance pay terms with pronunciation and English meaning: 고용노동부 goyong nodongbu, 진정 jinjeong, 체불 chebul" loading="lazy"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -206,6 +218,18 @@ Not sure which route fits your case? Message Kori Care in your own language. We 
 รู้ยอดของคุณก่อนตัดสินใจ [เช็กยอดฟรีด้วยเครื่องคำนวณ Kori Care](/link/th/severance-calculator) ใช้เวลา 1 นาที ไม่ต้องสมัครสมาชิก
 
 ไม่แน่ใจว่าช่องทางไหนเหมาะกับคุณ? ทัก Kori Care เป็นภาษาของคุณได้เลย เราจะบอกว่าช่องทางไหนเหมาะ แม้ช่องทางนั้นจะไม่ใช่เรา
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในสัญญาจ้าง สลิปเงินเดือน และที่สำนักงานแรงงาน แต่ละการ์ดมีคำเกาหลี วิธีอ่าน และความหมาย เปิดการ์ดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_th_1.webp" alt="คำศัพท์เงินชดเชยภาษาเกาหลี พร้อมคำอ่านและความหมายภาษาไทย: 퇴직금 toejikgeum, 평균임금 pyeonggyun imgeum, 계속근로기간 gyesok geullo gigan" loading="lazy"><figcaption>คำเกาหลีที่ใช้ในเรื่องเงินชดเชย</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_th_2.webp" alt="คำศัพท์เงินชดเชยภาษาเกาหลี พร้อมคำอ่านและความหมายภาษาไทย: 출국만기보험 chulguk mangi boheom, 근로계약서 geullo gyeyakseo, 사업주 saeopju" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_th_3.webp" alt="คำศัพท์เงินชดเชยภาษาเกาหลี พร้อมคำอ่านและความหมายภาษาไทย: 근로자 geulloja, 지급 jigeup, 퇴직연금 toejik yeongeum" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_th_4.webp" alt="คำศัพท์เงินชดเชยภาษาเกาหลี พร้อมคำอ่านและความหมายภาษาไทย: 고용노동부 goyong nodongbu, 진정 jinjeong, 체불 chebul" loading="lazy"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -301,4 +325,16 @@ Từ **ngày 6 tháng 11 năm 2025**, khi thanh tra lao động điều tra vụ
 Hãy biết con số của mình trước khi quyết định bất cứ điều gì. [Kiểm tra miễn phí bằng công cụ Kori Care](/link/vi/severance-calculator) — một phút, không cần đăng ký.
 
 Không chắc kênh nào phù hợp? Hãy nhắn cho Kori Care bằng ngôn ngữ của bạn. Chúng tôi sẽ cho bạn biết kênh nào phù hợp, kể cả khi kênh đó không phải là chúng tôi.
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Đây là những từ xuất hiện trên hợp đồng, phiếu lương và tại văn phòng lao động. Mỗi thẻ có từ tiếng Hàn, cách đọc và nghĩa. Bạn có thể đưa màn hình cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_vi_1.webp" alt="Từ vựng tiếng Hàn về trợ cấp thôi việc kèm cách đọc và nghĩa tiếng Việt: 퇴직금 toejikgeum, 평균임금 pyeonggyun imgeum, 계속근로기간 gyesok geullo gigan" loading="lazy"><figcaption>Từ tiếng Hàn dùng trong trợ cấp thôi việc</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_vi_2.webp" alt="Từ vựng tiếng Hàn về trợ cấp thôi việc kèm cách đọc và nghĩa tiếng Việt: 출국만기보험 chulguk mangi boheom, 근로계약서 geullo gyeyakseo, 사업주 saeopju" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_vi_3.webp" alt="Từ vựng tiếng Hàn về trợ cấp thôi việc kèm cách đọc và nghĩa tiếng Việt: 근로자 geulloja, 지급 jigeup, 퇴직연금 toejik yeongeum" loading="lazy"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_severance_vi_4.webp" alt="Từ vựng tiếng Hàn về trợ cấp thôi việc kèm cách đọc và nghĩa tiếng Việt: 고용노동부 goyong nodongbu, 진정 jinjeong, 체불 chebul" loading="lazy"></figure>
 <!-- VI END -->
