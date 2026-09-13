@@ -178,6 +178,18 @@ Not for the petition itself — you can file it yourself, and the Labor Office i
 <p class="note">Sources: Wage Claim Guarantee Act, Articles 7, 7-2 and 11 · Enforcement Decree, Articles 7 and 9 · Labor Standards Act, Articles 37, 38 and 49 · Ministry of Employment and Labor Notice No. 2021-81, “Notice on the Upper Limit of Substitute Payment for Unpaid Wages” (in force 14 October 2021) · Act on Foreign Workers’ Employment, Article 25 · Immigration Act, Article 84 and its Enforcement Rule, Article 70-2.<br>
 Amounts and deadlines change when the system changes. Check the current standards at the Workers’ Compensation and Welfare Service (1588-0075) or the Ministry of Employment and Labor (1350) before applying.<br>
 This document explains the system and is not legal advice. For individual cases, contact the Korea Legal Aid Corporation (132) or a certified labor attorney.</p>
+
+## Korean words you will hear
+
+These words appear on your documents and at the labor office. Each card shows the Korean word, what it means, and how to say it. You can show a card at the counter.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_1.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_2.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_3.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_4.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -342,6 +354,18 @@ This document explains the system and is not legal advice. For individual cases,
 <p class="note">แหล่งข้อมูล: พระราชบัญญัติคุ้มครองสิทธิเรียกร้องค่าจ้าง มาตรา 7, 7-2 และ 11 · กฎกระทรวง มาตรา 7 และ 9 · พระราชบัญญัติมาตรฐานแรงงาน มาตรา 37, 38 และ 49 · ประกาศกระทรวงการจ้างงานและแรงงาน ฉบับที่ 2021-81 “ประกาศเรื่องวงเงินสูงสุดของเงินทดรองจ่ายค่าจ้างค้างจ่าย” (มีผลบังคับใช้ 14 ตุลาคม 2021) · พระราชบัญญัติการจ้างแรงงานต่างชาติ มาตรา 25 · พระราชบัญญัติตรวจคนเข้าเมือง มาตรา 84 และกฎกระทรวง มาตรา 70-2<br>
 จำนวนเงินและกำหนดเวลาจะเปลี่ยนเมื่อระบบเปลี่ยน โปรดตรวจสอบมาตรฐานปัจจุบันที่ Workers’ Compensation and Welfare Service (1588-0075) หรือกระทรวงการจ้างงานและแรงงาน (1350) ก่อนยื่นเรื่อง<br>
 เอกสารนี้อธิบายระบบ ไม่ใช่คำแนะนำทางกฎหมาย สำหรับกรณีเฉพาะบุคคล โปรดติดต่อ Korea Legal Aid Corporation (132) หรือที่ปรึกษาแรงงานที่ได้รับการรับรอง</p>
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่สำนักงานแรงงาน แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_1.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_2.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_3.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_4.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -506,4 +530,16 @@ Với riêng việc nộp đơn thì không: bạn tự nộp được, và Văn
 <p class="note">Nguồn: Luật Bảo đảm Quyền đòi Tiền lương, Điều 7, 7-2 và 11 · Nghị định thi hành, Điều 7 và 9 · Luật Tiêu chuẩn Lao động, Điều 37, 38 và 49 · Thông báo số 2021-81 của Bộ Việc làm và Lao động, “Thông báo về mức trần tiền tạm ứng cho tiền lương chưa được trả” (có hiệu lực ngày 14/10/2021) · Luật về Tuyển dụng Lao động Nước ngoài, Điều 25 · Luật Quản lý Xuất nhập cảnh, Điều 84 và Thông tư thi hành, Điều 70-2.<br>
 Số tiền và thời hạn sẽ thay đổi khi chế độ thay đổi. Vui lòng kiểm tra tiêu chuẩn hiện hành tại Cơ quan Phúc lợi và Bồi thường cho Người lao động (1588-0075) hoặc Bộ Việc làm và Lao động (1350) trước khi nộp hồ sơ.<br>
 Tài liệu này giải thích chế độ và không phải là tư vấn pháp lý. Với trường hợp cá nhân, vui lòng liên hệ Tập đoàn Trợ giúp Pháp lý Hàn Quốc (132) hoặc một chuyên viên lao động được chứng nhận.</p>
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ của bạn và tại văn phòng lao động. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_1.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_2.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_3.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_4.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->
