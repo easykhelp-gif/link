@@ -1,5 +1,157 @@
 [
   {
+    "id": "hotnews_en_8fbf5a24",
+    "date": "2026-09-13",
+    "ts": 1789301524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/6a2927d5-113e-488a-bda2-e1447df3d2cd.jpg",
+    "title": "8 in 10 workers back broader labor protections for freelancers, platform workers",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260913/8-in-10-workers-back-broader-labor-protections-for-freelancers-platform-workers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_4097f3ae",
+    "date": "2026-09-13",
+    "ts": 1789301524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/58177d2f-7c57-4ddd-b6a1-e308beda7358.jpg",
+    "title": "Korea's nuclear-powered submarines could take on broader Indo-Pacific role",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260913/koreas-nuclear-powered-submarines-could-take-on-broader-indo-pacific-role?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_135dff0a",
+    "date": "2026-09-13",
+    "ts": 1789300266000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091307360001300_P2.jpg",
+    "title": "S. Korea prevails in 264.1 bln-won investor-state dispute against Chinese investor",
+    "link": "https://en.yna.co.kr/view/AEN20260913001651315"
+  },
+  {
+    "id": "hotnews_en_ede7c006",
+    "date": "2026-09-13",
+    "ts": 1789299486000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002700315_01_i_P2.jpg",
+    "title": "1st U.S. investment project under tariff agreement nears deal but needs further negotiations: minister",
+    "link": "https://en.yna.co.kr/view/AEN20260913002700315"
+  },
+  {
+    "id": "hotnews_en_9e057c5a",
+    "date": "2026-09-13",
+    "ts": 1789293267000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091303240001300_P2.jpg",
+    "title": "(Asiad) Women's football coach not feeling pressure ahead of match vs. predecessor",
+    "link": "https://en.yna.co.kr/view/AEN20260913002300315"
+  },
+  {
+    "id": "hotnews_en_39ee2df2",
+    "date": "2026-09-13",
+    "ts": 1789292537000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PYH2026091308690001300_T1.jpg",
+    "title": "Myeong-dong holds lead as Korea’s tourist shopping hub",
+    "link": "https://www.koreaherald.com/article/10871768"
+  },
+  {
+    "id": "hotnews_en_079ce0e5",
+    "date": "2026-09-13",
+    "ts": 1789288696000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913108801009_P2.jpg",
+    "title": "Lee Chang-dong's 'Possible Love' wins Grand Jury Prize at Venice film fest",
+    "link": "https://en.yna.co.kr/view/AEN20260911004453315"
+  },
+  {
+    "id": "hotnews_en_24ceffe6",
+    "date": "2026-09-13",
+    "ts": 1789288598000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260428.6d70a416c7aa4269946c852ebea7b108_T1.jpg",
+    "title": "Suspected customs code misuse reports surge fourfold in 2 years",
+    "link": "https://www.koreaherald.com/article/10871748"
+  },
+  {
+    "id": "hotnews_en_d0b05c81",
+    "date": "2026-09-13",
+    "ts": 1789287203000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.9461ff3764dd41468fb43214ea7db947_T1.png",
+    "title": "Son records 12th assist, but LAFC loses",
+    "link": "https://www.koreaherald.com/article/10871736"
+  },
+  {
+    "id": "hotnews_en_a8c49faf",
+    "date": "2026-09-13",
+    "ts": 1789286208000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PYH2026091308180001300_T1.jpg",
+    "title": "Seoul hosts its first officially recognized Oktoberfest",
+    "link": "https://www.koreaherald.com/article/10871728"
+  },
+  {
+    "id": "hotnews_en_9d2a3e36",
+    "date": "2026-09-13",
+    "ts": 1789280482000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.2fa49e432eda4e6ba1a5c6496b9de6e9_T1.jpg",
+    "title": "Seoul to designate patient-friendly hotels as medical tourism surges",
+    "link": "https://www.koreaherald.com/article/10871689"
+  },
+  {
+    "id": "hotnews_en_97706672",
+    "date": "2026-09-13",
+    "ts": 1789278918000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.9a6467ee41a44262b86561ca740c5f79_T1.png",
+    "title": "KB taps Lee Jae-keun in surprise succession as growth challenges mount",
+    "link": "https://www.koreaherald.com/article/10871653"
+  },
+  {
+    "id": "hotnews_en_2fb2a9f8",
+    "date": "2026-09-13",
+    "ts": 1789278385000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.bf9cddceef1a45c88cf78caf0a789ed8_T1.jpg",
+    "title": "Chong Kun Dang builds W2.2tr biopharma center in Siheung",
+    "link": "https://www.koreaherald.com/article/10871650"
+  },
+  {
+    "id": "hotnews_en_f6fb25a4",
+    "date": "2026-09-13",
+    "ts": 1789278052000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260811.0d37f2f985a94b46a2954a795aae277b_T1.jpg",
+    "title": "KRX to extend trading hours from Monday",
+    "link": "https://www.koreaherald.com/article/10871647"
+  },
+  {
+    "id": "hotnews_en_e6312686",
+    "date": "2026-09-13",
+    "ts": 1789277513000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.04e35432c0d7418380fde0457cb1d2fa_T1.jpg",
+    "title": "School-age suicides rise 65 percent in 5 years",
+    "link": "https://www.koreaherald.com/article/10871636"
+  },
+  {
+    "id": "hotnews_en_09d6b80d",
+    "date": "2026-09-13",
+    "ts": 1789277258000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913013946_24_e.jpg",
+    "title": "Cloudy, Early-Autumn Weather to Continue Monday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204215"
+  },
+  {
+    "id": "hotnews_en_72ccf5b2",
+    "date": "2026-09-13",
+    "ts": 1789277045000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912061700_65_k.jpg",
+    "title": "N. Korea Remains Silent on Latest Missile Launches",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204214"
+  },
+  {
+    "id": "hotnews_en_ed1c2491",
+    "date": "2026-09-13",
+    "ts": 1789276827000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.d032a18415f74e59a4aa198863d414b1_T1.jpg",
+    "title": "[단독] 해방촌 명물 '항아리길' 사라졌다 ... 수십 년 지킨 옹기 철거",
+    "link": "https://www.koreaherald.com/article/10871629"
+  },
+  {
+    "id": "hotnews_en_2675cfa8",
+    "date": "2026-09-13",
+    "ts": 1789276692000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.ee9cdd644ffa44be9a56428bd125102c_T1.jpg",
+    "title": "Honam seen as key test for Korea’s regional AI-industrial strategy: ministry official",
+    "link": "https://www.koreaherald.com/article/10871627"
+  },
+  {
     "id": "hotnews_en_810fe713",
     "date": "2026-09-13",
     "ts": 1789276114000,
@@ -110,6 +262,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.8fd5f30f9f434a79a4570db7ca14713e_T1.jpg",
     "title": "Sulwhasoo taps Japanese market in Isetan Shinjuku",
     "link": "https://www.koreaherald.com/article/10871586"
+  },
+  {
+    "id": "hotnews_en_be0e9e09",
+    "date": "2026-09-13",
+    "ts": 1789270807000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260812084212_81_k.jpg",
+    "title": "Jobs for 20‑Somethings Decline at Fastest Pace Since 1998",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204210"
   },
   {
     "id": "hotnews_en_6170df0b",
@@ -238,165 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912490001300_P2.jpg",
     "title": "Employment among people in their 20s falls at fastest pace since 1998",
     "link": "https://en.yna.co.kr/view/AEN20260913000800320"
-  },
-  {
-    "id": "hotnews_en_bb5e1ebb",
-    "date": "2026-09-13",
-    "ts": 1789264084000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.7d7c68530468483cb5c01f61720105fb_T1.jpg",
-    "title": "Korean Air to resume Oita service",
-    "link": "https://www.koreaherald.com/article/10871517"
-  },
-  {
-    "id": "hotnews_en_1ef76f1d",
-    "date": "2026-09-13",
-    "ts": 1789263171000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.d0ae88dc54984a5294138aa33909ecb4_T1.jpg",
-    "title": "Kim Ha-seong on the comeback with increased contributions to Braves",
-    "link": "https://www.koreaherald.com/article/10871509"
-  },
-  {
-    "id": "hotnews_en_c0906324",
-    "date": "2026-09-13",
-    "ts": 1789262095000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260912.d5ecec5d914142ffb54abf1e9c74c287_T1.png",
-    "title": "Uzbekistan, Korea to unlock ‘joint leap in development’: president",
-    "link": "https://www.koreaherald.com/article/10871502"
-  },
-  {
-    "id": "hotnews_en_8ae9c787",
-    "date": "2026-09-13",
-    "ts": 1789262046000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913000700320_03_i_P2.jpg",
-    "title": "Kia's PV5 sales surpass 50,000 units in 13 months",
-    "link": "https://en.yna.co.kr/view/AEN20260913000700320"
-  },
-  {
-    "id": "hotnews_en_d7196c50",
-    "date": "2026-09-13",
-    "ts": 1789261625000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.488fd02ea8c24d73b143f897ab092e66_T1.jpg",
-    "title": "Why Kepco wants five years of chipmakers’ power bills upfront",
-    "link": "https://www.koreaherald.com/article/10870310"
-  },
-  {
-    "id": "hotnews_en_9121ea20",
-    "date": "2026-09-13",
-    "ts": 1789261417000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091301590001300_P2.jpg",
-    "title": "(Asiad) Women's volleyball team heads to Japan with sights set on redemption",
-    "link": "https://en.yna.co.kr/view/AEN20260913000600315"
-  },
-  {
-    "id": "hotnews_en_b34ffa26",
-    "date": "2026-09-13",
-    "ts": 1789261250000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913000500320_04_i_P2.jpg",
-    "title": "SK chairman calls for sustainable AI biz model amid investment boom",
-    "link": "https://en.yna.co.kr/view/AEN20260913000500320"
-  },
-  {
-    "id": "hotnews_en_11cf21ab",
-    "date": "2026-09-13",
-    "ts": 1789258694000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PUP20260913012601009_T1.jpg",
-    "title": "'Woman Unknown' wins Golden Lion, Malkovich 'humbled' by best actor award at Venice Film Fes tival",
-    "link": "https://www.koreaherald.com/article/10871458"
-  },
-  {
-    "id": "hotnews_en_4cf99666",
-    "date": "2026-09-13",
-    "ts": 1789257606000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911007900320_03_i_P2.jpg",
-    "title": "Inside 42dot: Hyundai Motor accelerates autonomous driving push with AI data flywheel",
-    "link": "https://en.yna.co.kr/view/AEN20260911007900320"
-  },
-  {
-    "id": "hotnews_en_213f5edc",
-    "date": "2026-09-13",
-    "ts": 1789257600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260910.13750804b16343d3a1dd92c127adbf70_T1.jpg",
-    "title": "When dancing breaks the law: Korea’s live music venues caught in regulatory limbo",
-    "link": "https://www.koreaherald.com/article/10869170"
-  },
-  {
-    "id": "hotnews_en_b0586500",
-    "date": "2026-09-12",
-    "ts": 1789243203000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911008700320_01_i_P2.jpg",
-    "title": "Argentine cybersecurity chief anticipates cooperation with S. Korea amid complex, delocalized threats",
-    "link": "https://en.yna.co.kr/view/AEN20260911008700320"
-  },
-  {
-    "id": "hotnews_en_db599a59",
-    "date": "2026-09-12",
-    "ts": 1789243133000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913108801009_P2.jpg",
-    "title": "Lee Chang-dong's 'Possible Love' wins Grand Jury Prize at Venice film fest",
-    "link": "https://en.yna.co.kr/view/AEN20260911004452315"
-  },
-  {
-    "id": "hotnews_en_a6c36e32",
-    "date": "2026-09-12",
-    "ts": 1789214656000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082623040001300_P2.jpg",
-    "title": "KBO reaches 11 mln fans in record-setting fashion, closes in on all-time mark",
-    "link": "https://en.yna.co.kr/view/AEN20260912002300315"
-  },
-  {
-    "id": "hotnews_en_ef5a0f5c",
-    "date": "2026-09-12",
-    "ts": 1789210923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/12/c9905f41-6386-4be2-89dc-046217c86a10.jpg",
-    "title": "President Lee reassures public over oil prices amid escalating Middle East tensions",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/president-lee-reassures-public-over-oil-prices-amid-escalating-middle-east-tensions?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_161a757f",
-    "date": "2026-09-12",
-    "ts": 1789204190000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091111090001300_P2.jpg",
-    "title": "Lee reassures public over oil prices amid escalating Middle East tensions",
-    "link": "https://en.yna.co.kr/view/AEN20260912002200320"
-  },
-  {
-    "id": "hotnews_en_604251aa",
-    "date": "2026-09-12",
-    "ts": 1789203633000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912002100320_02_i_P2.jpg",
-    "title": "S. Korean container ship arrives in Britain via Arctic route in 21 days",
-    "link": "https://en.yna.co.kr/view/AEN20260912002100320"
-  },
-  {
-    "id": "hotnews_en_8076b30a",
-    "date": "2026-09-12",
-    "ts": 1789202918000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/12/PYH2026091202840007300_P2.jpg",
-    "title": "Japan again makes no mention of Koreans' forced labor at Sado memorial event",
-    "link": "https://en.yna.co.kr/view/AEN20260912002000320"
-  },
-  {
-    "id": "hotnews_en_2491f9aa",
-    "date": "2026-09-12",
-    "ts": 1789202156000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260912.PYH2026091015790006000_T1.jpg",
-    "title": "Battle ended, remains await recovery over 70 years later",
-    "link": "https://www.koreaherald.com/article/10871257"
-  },
-  {
-    "id": "hotnews_en_796f1bcb",
-    "date": "2026-09-12",
-    "ts": 1789201431000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/news-a.v1.20260911.159b5e8ffeae4e71af50606f792be97a_T1.png",
-    "title": "Korea approves jeans for civil service job interviews",
-    "link": "https://www.koreaherald.com/article/10871252"
-  },
-  {
-    "id": "hotnews_en_2ab80fa7",
-    "date": "2026-09-12",
-    "ts": 1789196400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260907.4825df8e9eb64e2abe8ef2b03d3ef36e_T1.jpg",
-    "title": "All’N goes ‘all in’ on building his own K-pop path",
-    "link": "https://www.koreaherald.com/article/10869188"
   }
 ]

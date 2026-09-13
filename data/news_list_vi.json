@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_8fbf5a24",
+    "date": "2026-09-13",
+    "ts": 1789301524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/6a2927d5-113e-488a-bda2-e1447df3d2cd.jpg",
+    "title": "Khoảng 80% người lao động ủng hộ bảo vệ quyền lợi freelancer",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260913/8-in-10-workers-back-broader-labor-protections-for-freelancers-platform-workers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_4097f3ae",
+    "date": "2026-09-13",
+    "ts": 1789301524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/58177d2f-7c57-4ddd-b6a1-e308beda7358.jpg",
+    "title": "Tàu ngầm hạt nhân Hàn Quốc có thể mở rộng vai trò ở Ấn Độ - Thái Bình Dương",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260913/koreas-nuclear-powered-submarines-could-take-on-broader-indo-pacific-role?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_532284d6",
+    "date": "2026-09-13",
+    "ts": 1789301524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/f9ec48ab-6a1d-48a4-9ab7-d86cfa737122.jpeg",
+    "title": "Sự đổi thay của khu đô thị Magok ở Tây Nam Seoul",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260913/how-magok-development-changed-southwestern-seouls-historical-landscape?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_135dff0a",
+    "date": "2026-09-13",
+    "ts": 1789300266000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091307360001300_P2.jpg",
+    "title": "Hàn Quốc thắng kiện nhà đầu tư Trung Quốc vụ tranh chấp 264,1 tỷ won",
+    "link": "https://en.yna.co.kr/view/AEN20260913001651315"
+  },
+  {
+    "id": "hotnews_vi_ede7c006",
+    "date": "2026-09-13",
+    "ts": 1789299486000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002700315_01_i_P2.jpg",
+    "title": "Dự án đầu tư đầu tiên sang Mỹ sắp đạt thỏa thuận",
+    "link": "https://en.yna.co.kr/view/AEN20260913002700315"
+  },
+  {
+    "id": "hotnews_vi_079ce0e5",
+    "date": "2026-09-13",
+    "ts": 1789288696000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913108801009_P2.jpg",
+    "title": "Phim 'Possible Love' của Lee Chang-dong thắng giải tại Venice",
+    "link": "https://en.yna.co.kr/view/AEN20260911004453315"
+  },
+  {
+    "id": "hotnews_vi_9d2a3e36",
+    "date": "2026-09-13",
+    "ts": 1789280482000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.2fa49e432eda4e6ba1a5c6496b9de6e9_T1.jpg",
+    "title": "Seoul chọn khách sạn thân thiện với bệnh nhân y tế nước ngoài",
+    "link": "https://www.koreaherald.com/article/10871689"
+  },
+  {
+    "id": "hotnews_vi_f6fb25a4",
+    "date": "2026-09-13",
+    "ts": 1789278052000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260811.0d37f2f985a94b46a2954a795aae277b_T1.jpg",
+    "title": "Sân giao dịch KRX kéo dài thời gian giao dịch từ thứ Hai",
+    "link": "https://www.koreaherald.com/article/10871647"
+  },
+  {
+    "id": "hotnews_vi_e6312686",
+    "date": "2026-09-13",
+    "ts": 1789277513000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.04e35432c0d7418380fde0457cb1d2fa_T1.jpg",
+    "title": "Tự tử ở tuổi học đường tại Hàn Quốc tăng mạnh trong 5 năm",
+    "link": "https://www.koreaherald.com/article/10871636"
+  },
+  {
+    "id": "hotnews_vi_09d6b80d",
+    "date": "2026-09-13",
+    "ts": 1789277258000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913013946_24_e.jpg",
+    "title": "Thời tiết nhiều mây và se lạnh tiếp tục duy trì vào thứ Hai",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204215"
+  },
+  {
     "id": "hotnews_vi_810fe713",
     "date": "2026-09-13",
     "ts": 1789276114000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2026/05/06/62/PCM20260506000062990_P2.jpg",
     "title": "Phủ Tổng thống Hàn Quốc lên án vụ phóng tên lửa của Triều Tiên",
     "link": "https://en.yna.co.kr/view/AEN20260912000700315"
-  },
-  {
-    "id": "hotnews_vi_a17f46f2",
-    "date": "2026-09-11",
-    "ts": 1789170258000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000400315_01_i_P2.jpg",
-    "title": "Quân đội Mỹ nắm bắt thông tin Triều Tiên phóng tên lửa",
-    "link": "https://en.yna.co.kr/view/AEN20260912000400315"
-  },
-  {
-    "id": "hotnews_vi_65e11150",
-    "date": "2026-09-11",
-    "ts": 1789170243000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000352315_01_i_P2.jpg",
-    "title": "Triều Tiên phóng nhiều tên lửa đạn đạo ra vùng biển phía Đông",
-    "link": "https://en.yna.co.kr/view/AEN20260912000352315"
-  },
-  {
-    "id": "hotnews_vi_182aec0e",
-    "date": "2026-09-11",
-    "ts": 1789159571000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000300315_01_i_P2.jpg",
-    "title": "Triều Tiên phóng vật thể bay ra vùng biển phía Đông",
-    "link": "https://en.yna.co.kr/view/AEN20260912000300315"
-  },
-  {
-    "id": "hotnews_vi_14c62483",
-    "date": "2026-09-11",
-    "ts": 1789154778000,
-    "image": "https://img.yna.co.kr/photo/ap/2024/09/25/PAP20240925024001009_P2.jpg",
-    "title": "Hạ nghị sĩ Mỹ muốn đổi lệnh cấm du học Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260912000200315"
-  },
-  {
-    "id": "hotnews_vi_522aeb2f",
-    "date": "2026-09-11",
-    "ts": 1789131025000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.e3d6c2e6751e4d5c93c1a12e6bf07da7_T1.jpg",
-    "title": "Ứng cử viên Bộ trưởng Quốc phòng Hàn Quốc muốn thu hồi OPCON",
-    "link": "https://www.koreaherald.com/article/10871032"
-  },
-  {
-    "id": "hotnews_vi_99c07ee6",
-    "date": "2026-09-11",
-    "ts": 1789130899000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
-    "title": "Đội tuyển bóng rổ Hàn Quốc thắng đậm Indonesia tại Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260911009351315"
-  },
-  {
-    "id": "hotnews_vi_21f3af54",
-    "date": "2026-09-11",
-    "ts": 1789128772000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/11/news-p.v1.20260911.4bb4e68dc61e4f538b389b90124732c0_T1.jpg",
-    "title": "Tỷ lệ đặt vé tàu Chuseok của Korail đạt 84%",
-    "link": "https://www.koreaherald.com/article/10871015"
-  },
-  {
-    "id": "hotnews_vi_7ca10326",
-    "date": "2026-09-11",
-    "ts": 1789126623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/09b09d74-632d-4003-bc49-b9a9e02e077c.jpeg",
-    "title": "Các cặp đôi Hàn Quốc sang Nhật mua đồ trẻ em trong chuyến babymoon",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260914/why-expecting-parents-are-flying-to-japan-for-baby-products?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ca2934ba",
-    "date": "2026-09-11",
-    "ts": 1789126623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/dd08e26d-9091-46d6-92fe-4906fb33de10.jpg",
-    "title": "Nhiều người trẻ Hàn Quốc bắt đầu sự nghiệp với việc làm phi chính thức",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260911/more-young-workers-start-in-nonregular-jobs-widening-regular-employment-gap-study?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_031f7a00",
-    "date": "2026-09-11",
-    "ts": 1789125814000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911009800320_01_i_P2.jpg",
-    "title": "Tài xế xe buýt Seoul bỏ phiếu đình công vì tranh chấp lương",
-    "link": "https://en.yna.co.kr/view/AEN20260911009800320"
   }
 ]
