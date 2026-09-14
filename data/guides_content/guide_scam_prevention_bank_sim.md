@@ -59,6 +59,18 @@ If you have already handed over a bank account, phone, or ARC, the situation get
 
 - **112** — Police. Emergencies and voice phishing reports.
 - **1345** — Immigration. Thai, Vietnamese and English available, weekdays 09:00–22:00. Call before 18:00 for Thai or Vietnamese.
+
+## Korean words you will hear
+
+These words appear on your documents and at the counter. Each card shows the Korean word, what it means, and how to say it. You can show a card to the staff.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_en_1.webp" alt="보이스피싱 boiseu pising (voice phishing scam), 대포통장 daepo tongjang (bank account used by criminals), 대포폰 daepo pon (phone opened in someone else's name)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_en_2.webp" alt="수거책 sugeochaek (cash courier for scammers), 명의도용 myeongui doyong (identity theft), 계좌 gyejwa (bank account)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_en_3.webp" alt="지급정지 jigeup jeongji (account freeze), 신분증 sinbunjeung (ID card), 유심 yusim (SIM card)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_en_4.webp" alt="문자 munja (text message), 경찰 gyeongchal (police), 송금 songgeum (money transfer)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -102,6 +114,18 @@ If you have already handed over a bank account, phone, or ARC, the situation get
 
 - **112** — ตำรวจ สำหรับเหตุฉุกเฉินและการแจ้งความเรื่องแก๊งคอลเซ็นเตอร์
 - **1345** — ตรวจคนเข้าเมือง มีบริการภาษาไทย เวียดนาม และอังกฤษ วันธรรมดา 09:00–22:00 น. โทรขอบริการภาษาไทยหรือเวียดนามก่อน 18:00 น.
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่เคาน์เตอร์ แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_th_1.webp" alt="보이스피싱 boiseu pising (แก๊งคอลเซ็นเตอร์), 대포통장 daepo tongjang (บัญชีม้า), 대포폰 daepo pon (โทรศัพท์ที่เปิดในชื่อคนอื่น)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_th_2.webp" alt="수거책 sugeochaek (คนรับเงินให้แก๊งมิจฉาชีพ), 명의도용 myeongui doyong (การแอบอ้างใช้ชื่อ), 계좌 gyejwa (บัญชีธนาคาร)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_th_3.webp" alt="지급정지 jigeup jeongji (การระงับบัญชี), 신분증 sinbunjeung (บัตรประจำตัว), 유심 yusim (ซิมการ์ด)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_th_4.webp" alt="문자 munja (ข้อความ SMS), 경찰 gyeongchal (ตำรวจ), 송금 songgeum (การโอนเงิน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -145,4 +169,16 @@ Nếu bạn đã giao tài khoản ngân hàng, điện thoại hoặc thẻ ARC
 
 - **112** — Cảnh sát. Khẩn cấp và báo cáo lừa đảo qua điện thoại.
 - **1345** — Quản lý Xuất nhập cảnh. Có sẵn tiếng Thái, tiếng Việt và tiếng Anh, các ngày trong tuần từ 09:00–22:00. Hãy gọi trước 18:00 để được hỗ trợ tiếng Thái hoặc tiếng Việt.
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ và tại quầy. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_vi_1.webp" alt="보이스피싱 boiseu pising (lừa đảo qua điện thoại), 대포통장 daepo tongjang (tài khoản ma), 대포폰 daepo pon (điện thoại đứng tên người khác)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_vi_2.webp" alt="수거책 sugeochaek (người nhận tiền cho kẻ lừa đảo), 명의도용 myeongui doyong (mạo danh), 계좌 gyejwa (tài khoản ngân hàng)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_vi_3.webp" alt="지급정지 jigeup jeongji (phong tỏa tài khoản), 신분증 sinbunjeung (giấy tờ tùy thân), 유심 yusim (thẻ SIM)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_scam_vi_4.webp" alt="문자 munja (tin nhắn), 경찰 gyeongchal (cảnh sát), 송금 songgeum (chuyển tiền)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

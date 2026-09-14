@@ -182,6 +182,18 @@ Kori Care Link lists hospitals, clinics and pharmacies across all 25 districts o
 <a class="calc-cta is-directory" href="/link/index.html"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Local Directory</span><span class="calc-cta-sub">Hospitals, clinics and pharmacies by district — free, no sign-up</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 <p class="note">Sources: Ministry of Health and Welfare, medical support programme for foreign workers (2025 revision) · National Emergency Medical Center, deferred payment scheme · hospital international healthcare centers · Seoul Foreign Resident Portal. This guide explains public services and is not medical advice. Confirm costs and departments with the hospital before treatment.</p>
+
+## Korean phrases to use at the hospital
+
+These are the questions staff will ask and the answers you may need. Each card shows the Korean sentence, what it means, and how to say it. You can simply show the card.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_en_1.webp" alt="어디가 아프세요? eodiga apeuseyo (Where does it hurt?), 언제부터 아팠어요? eonjebuteo apasseoyo (Since when have you been sick?), 열이 나요 yeori nayo (I have a fever)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean phrases for a hospital visit</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_en_2.webp" alt="알레르기 있어요 allereugi isseoyo (I have an allergy), 드시는 약 있으세요? deusineun yak isseuseyo (Are you taking any medicine?), 보험 있어요 boheom isseoyo (I have health insurance)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_en_3.webp" alt="외국인등록증 oegugin deungnokjeung (alien registration card), 진료의뢰서 jillyo uiroeseo (referral letter), 비급여 bigeubyeo (not covered by insurance)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_en_4.webp" alt="응급의료비 eunggeup uiryobi (emergency medical costs), 의료사회복지팀 uiryo sahoe bokjitim (hospital social work team), 상급종합병원 sanggeup jonghap byeongwon (large university hospital)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -349,6 +361,18 @@ Kori Care Link รวบรวมโรงพยาบาล คลินิก 
 <a class="calc-cta is-directory" href="/link/th/index.html"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">ไดเรกทอรีท้องถิ่น Kori Care</span><span class="calc-cta-sub">โรงพยาบาล คลินิก และร้านขายยา แยกตามเขต — ฟรี ไม่ต้องสมัคร</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 <p class="note">แหล่งข้อมูล: กระทรวงสาธารณสุขและสวัสดิการ โครงการสนับสนุนค่ารักษาสำหรับแรงงานต่างชาติ (ฉบับปรับปรุง 2025) · ศูนย์การแพทย์ฉุกเฉินแห่งชาติ ระบบสำรองจ่าย · ศูนย์การแพทย์นานาชาติของโรงพยาบาล · พอร์ทัลชาวต่างชาติกรุงโซล คู่มือนี้อธิบายบริการสาธารณะ ไม่ใช่คำแนะนำทางการแพทย์ กรุณาตรวจสอบค่าใช้จ่ายและแผนกกับโรงพยาบาลก่อนเข้ารับการรักษา</p>
+
+## ประโยคเกาหลีที่ใช้ในโรงพยาบาล
+
+นี่คือคำถามที่เจ้าหน้าที่จะถาม และคำตอบที่คุณอาจต้องใช้ แต่ละการ์ดมีประโยคเกาหลี ความหมาย และวิธีอ่าน เปิดการ์ดให้ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_th_1.webp" alt="어디가 아프세요? eodiga apeuseyo (เจ็บตรงไหนคะ/ครับ), 언제부터 아팠어요? eonjebuteo apasseoyo (เจ็บมาตั้งแต่เมื่อไหร่), 열이 나요 yeori nayo (มีไข้)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>ประโยคเกาหลีสำหรับไปโรงพยาบาล</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_th_2.webp" alt="알레르기 있어요 allereugi isseoyo (ฉันแพ้ยา/อาหาร), 드시는 약 있으세요? deusineun yak isseuseyo (ทานยาอะไรอยู่ไหม), 보험 있어요 boheom isseoyo (ฉันมีประกันสุขภาพ)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_th_3.webp" alt="외국인등록증 oegugin deungnokjeung (บัตรประจำตัวคนต่างชาติ), 진료의뢰서 jillyo uiroeseo (ใบส่งตัว), 비급여 bigeubyeo (ประกันไม่ครอบคลุม)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_th_4.webp" alt="응급의료비 eunggeup uiryobi (ค่ารักษาฉุกเฉิน), 의료사회복지팀 uiryo sahoe bokjitim (ฝ่ายสังคมสงเคราะห์ของโรงพยาบาล), 상급종합병원 sanggeup jonghap byeongwon (โรงพยาบาลใหญ่ระดับสูง)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -516,4 +540,16 @@ Kori Care Link tập hợp bệnh viện, phòng khám và nhà thuốc trên c�
 <a class="calc-cta is-directory" href="/link/vi/index.html"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Danh bạ địa phương Kori Care</span><span class="calc-cta-sub">Bệnh viện, phòng khám và nhà thuốc theo quận — miễn phí, không cần đăng ký</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
 
 <p class="note">Nguồn: Bộ Y tế và Phúc lợi, chương trình hỗ trợ y tế cho người lao động nước ngoài (bản sửa đổi 2025) · Trung tâm Y tế Cấp cứu Quốc gia, chế độ tạm ứng · trung tâm y tế quốc tế của các bệnh viện · Cổng thông tin Người nước ngoài Seoul. Hướng dẫn này giải thích các dịch vụ công và không phải là tư vấn y tế. Vui lòng xác nhận chi phí và khoa khám với bệnh viện trước khi điều trị.</p>
+
+## Câu tiếng Hàn dùng ở bệnh viện
+
+Đây là những câu nhân viên sẽ hỏi và những câu bạn có thể cần trả lời. Mỗi thẻ có câu tiếng Hàn, nghĩa và cách đọc. Bạn chỉ cần đưa thẻ cho họ xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_1.webp" alt="어디가 아프세요? eodiga apeuseyo (Bạn đau ở đâu?), 언제부터 아팠어요? eonjebuteo apasseoyo (Bạn bị đau từ khi nào?), 열이 나요 yeori nayo (Tôi bị sốt)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Câu tiếng Hàn khi đi bệnh viện</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_2.webp" alt="알레르기 있어요 allereugi isseoyo (Tôi bị dị ứng), 드시는 약 있으세요? deusineun yak isseuseyo (Bạn có đang uống thuốc không?), 보험 있어요 boheom isseoyo (Tôi có bảo hiểm)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_3.webp" alt="외국인등록증 oegugin deungnokjeung (thẻ đăng ký người nước ngoài), 진료의뢰서 jillyo uiroeseo (giấy chuyển viện), 비급여 bigeubyeo (không được bảo hiểm chi trả)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_4.webp" alt="응급의료비 eunggeup uiryobi (chi phí cấp cứu), 의료사회복지팀 uiryo sahoe bokjitim (phòng công tác xã hội bệnh viện), 상급종합병원 sanggeup jonghap byeongwon (bệnh viện đa khoa tuyến trên)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

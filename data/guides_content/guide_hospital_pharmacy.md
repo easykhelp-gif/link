@@ -52,6 +52,18 @@ Unlike many countries, you **cannot** buy antibiotics, high-dose painkillers, or
 - **Convenience Stores**: At night when pharmacies are closed, you can buy emergency medicines (Tylenol, Panpyrin, Festal) at CU, GS25, or 7-Eleven.
 
 Use the [Kori Care Local Directory](/link/) to find foreign-language-friendly hospitals and pharmacies in your specific region.
+
+## Korean words you will hear
+
+These words appear on your documents and at the counter. Each card shows the Korean word, what it means, and how to say it. You can show a card to the staff.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_en_1.webp" alt="병원 byeongwon (hospital), 의원 uiwon (local clinic), 응급실 eunggeupsil (emergency room)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_en_2.webp" alt="약국 yakguk (pharmacy), 처방전 cheobangjeon (prescription), 접수 jeopsu (reception desk)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_en_3.webp" alt="진료비 jillyobi (medical fee), 건강보험 geongang boheom (national health insurance), 일반수가 ilban suga (full price without insurance)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_en_4.webp" alt="외국인등록증 oegugin deungnokjeung (alien registration card), 보험 적용 boheom jeogyong (covered by insurance), 달빛어린이병원 dalbit eorini byeongwon (night and weekend children clinic)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -89,6 +101,18 @@ Use the [Kori Care Local Directory](/link/) to find foreign-language-friendly ho
 - **ร้านสะดวกซื้อ**: ในตอนกลางคืนที่ร้านขายยาปิด คุณสามารถซื้อยาฉุกเฉิน (Tylenol, Panpyrin, Festal) ได้ที่ CU, GS25, หรือ 7-Eleven
 
 ใช้ [ไดเรกทอรีท้องถิ่นของ Kori Care](/link/) เพื่อค้นหาโรงพยาบาลและร้านขายยาที่รองรับภาษาต่างประเทศในภูมิภาคของคุณ
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่เคาน์เตอร์ แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_th_1.webp" alt="병원 byeongwon (โรงพยาบาล), 의원 uiwon (คลินิก), 응급실 eunggeupsil (ห้องฉุกเฉิน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_th_2.webp" alt="약국 yakguk (ร้านขายยา), 처방전 cheobangjeon (ใบสั่งยา), 접수 jeopsu (จุดลงทะเบียน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_th_3.webp" alt="진료비 jillyobi (ค่ารักษา), 건강보험 geongang boheom (ประกันสุขภาพแห่งชาติ), 일반수가 ilban suga (ราคาเต็มแบบไม่มีประกัน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_th_4.webp" alt="외국인등록증 oegugin deungnokjeung (บัตรประจำตัวคนต่างชาติ), 보험 적용 boheom jeogyong (ประกันครอบคลุม), 달빛어린이병원 dalbit eorini byeongwon (โรงพยาบาลเด็กเปิดกลางคืน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -126,4 +150,16 @@ Khác với nhiều quốc gia, bạn **không thể** mua thuốc kháng sinh, 
 - **Cửa hàng tiện lợi**: Vào ban đêm khi hiệu thuốc đóng cửa, bạn có thể mua các loại thuốc khẩn cấp (Tylenol, Panpyrin, Festal) tại CU, GS25 hoặc 7-Eleven.
 
 Sử dụng [Danh mục Địa phương Kori Care](/link/) để tìm các bệnh viện và hiệu thuốc hỗ trợ ngoại ngữ trong khu vực cụ thể của bạn.
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ và tại quầy. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_vi_1.webp" alt="병원 byeongwon (bệnh viện), 의원 uiwon (phòng khám), 응급실 eunggeupsil (phòng cấp cứu)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_vi_2.webp" alt="약국 yakguk (nhà thuốc), 처방전 cheobangjeon (đơn thuốc), 접수 jeopsu (quầy tiếp nhận)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_vi_3.webp" alt="진료비 jillyobi (phí khám bệnh), 건강보험 geongang boheom (bảo hiểm y tế quốc gia), 일반수가 ilban suga (giá không có bảo hiểm)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_clinic_vi_4.webp" alt="외국인등록증 oegugin deungnokjeung (thẻ đăng ký người nước ngoài), 보험 적용 boheom jeogyong (được bảo hiểm chi trả), 달빛어린이병원 dalbit eorini byeongwon (phòng khám trẻ em mở ban đêm)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

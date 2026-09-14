@@ -212,6 +212,18 @@ If you do not know where to start, start with step one at the top of this page �
 **Kori Care** publishes free guides for foreign residents in Korea in English, ไทย and Tiếng Việt — wages, visas, medical care, and the parts of Korean law that people usually find out about too late. If you are not sure which step applies to your situation, [send us a message](https://m.me/koricare.kr) and we will point you to the right office. We do not charge, and we do not represent anyone's employer.
 
 This guide explains Korean law in general terms. It is not legal advice for your specific case, and nothing on this page is a guarantee of any outcome.
+
+## Korean words you will hear
+
+These words appear on your documents and at the counter. Each card shows the Korean word, what it means, and how to say it. You can show a card to the staff.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_en_1.webp" alt="유족급여 yujok geubyeo (survivor benefit), 장례비 jangnyebi (funeral costs), 유족 yujok (bereaved family)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_en_2.webp" alt="산재 sanjae (work-related accident), 근로복지공단 geullo bokji gongdan (Workers Compensation and Welfare Service), 평균임금 pyeonggyun imgeum (average wage)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_en_3.webp" alt="사망진단서 samang jindanseo (death certificate), 가족관계 증명 gajok gwangye jeungmyeong (proof of family relationship), 위임장 wiimjang (power of attorney)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_en_4.webp" alt="대사관 daesagwan (embassy), 공인노무사 gongin nomusa (certified labor attorney), 보상 bosang (compensation)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -407,6 +419,18 @@ This guide explains Korean law in general terms. It is not legal advice for your
 **โคริแคร์ (Kori Care)** จัดทำคู่มือฟรีสำหรับชาวต่างชาติในเกาหลี เป็นภาษาอังกฤษ ไทย และเวียดนาม ครอบคลุมเรื่องค่าจ้าง วีซ่า การรักษาพยาบาล และส่วนของกฎหมายเกาหลีที่คนมักรู้เมื่อสายไปแล้ว ถ้าไม่แน่ใจว่าขั้นตอนไหนตรงกับสถานการณ์ของคุณ [ส่งข้อความหาเรา](https://m.me/koricare.kr) แล้วเราจะชี้ให้ว่าควรไปหน่วยงานไหน เราไม่คิดเงิน และเราไม่เป็นตัวแทนของนายจ้างคนใด
 
 คู่มือนี้อธิบายกฎหมายเกาหลีในภาพรวม ไม่ใช่คำแนะนำทางกฎหมายสำหรับคดีของคุณโดยเฉพาะ และไม่มีข้อความใดในหน้านี้ที่รับประกันผลลัพธ์
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่เคาน์เตอร์ แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_th_1.webp" alt="유족급여 yujok geubyeo (เงินทดแทนสำหรับครอบครัวผู้เสียชีวิต), 장례비 jangnyebi (ค่าจัดงานศพ), 유족 yujok (ครอบครัวผู้เสียชีวิต)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_th_2.webp" alt="산재 sanjae (อุบัติเหตุจากการทำงาน), 근로복지공단 geullo bokji gongdan (สำนักงานสวัสดิการแรงงาน), 평균임금 pyeonggyun imgeum (ค่าจ้างเฉลี่ย)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_th_3.webp" alt="사망진단서 samang jindanseo (ใบมรณบัตรจากแพทย์), 가족관계 증명 gajok gwangye jeungmyeong (เอกสารยืนยันความสัมพันธ์ครอบครัว), 위임장 wiimjang (หนังสือมอบอำนาจ)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_th_4.webp" alt="대사관 daesagwan (สถานทูต), 공인노무사 gongin nomusa (ที่ปรึกษาแรงงานที่มีใบอนุญาต), 보상 bosang (ค่าชดเชย)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -602,4 +626,16 @@ Nếu chưa biết bắt đầu từ đâu, hãy bắt đầu từ bước một
 **Kori Care** làm các hướng dẫn miễn phí cho người nước ngoài ở Hàn Quốc, bằng tiếng Anh, tiếng Thái và tiếng Việt — tiền lương, visa, y tế, và những phần của pháp luật Hàn Quốc mà người ta thường biết đến khi đã quá muộn. Nếu bạn không chắc bước nào phù hợp với hoàn cảnh của mình, [hãy nhắn cho chúng tôi](https://m.me/koricare.kr) và chúng tôi sẽ chỉ cho bạn cơ quan đúng. Chúng tôi không thu phí, và chúng tôi không đại diện cho chủ sử dụng lao động nào.
 
 Hướng dẫn này giải thích pháp luật Hàn Quốc một cách khái quát. Đây không phải tư vấn pháp lý cho vụ việc cụ thể của bạn, và không có nội dung nào trên trang này bảo đảm một kết quả nhất định.
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ và tại quầy. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_vi_1.webp" alt="유족급여 yujok geubyeo (trợ cấp cho gia đình người mất), 장례비 jangnyebi (chi phí tang lễ), 유족 yujok (gia đình người mất)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_vi_2.webp" alt="산재 sanjae (tai nạn lao động), 근로복지공단 geullo bokji gongdan (Cơ quan Phúc lợi Lao động), 평균임금 pyeonggyun imgeum (lương bình quân)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_vi_3.webp" alt="사망진단서 samang jindanseo (giấy chứng tử), 가족관계 증명 gajok gwangye jeungmyeong (giấy chứng minh quan hệ gia đình), 위임장 wiimjang (giấy ủy quyền)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_survivor_vi_4.webp" alt="대사관 daesagwan (đại sứ quán), 공인노무사 gongin nomusa (chuyên viên tư vấn lao động), 보상 bosang (khoản bồi thường)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

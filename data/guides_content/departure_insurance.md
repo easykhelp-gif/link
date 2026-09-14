@@ -161,6 +161,18 @@ If the Korean paperwork does not make sense, or you do not know who to ask about
 Some cases cannot be settled with basic support and need a licensed labour attorney (공인노무사). Even then, a professional working with Kori Care will speak on your side.
 
 <a class="calc-cta" href="/link/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Kori Care Severance Calculator</span><span class="calc-cta-sub">Check your figure before you file</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
+
+## Korean words you will hear
+
+These words appear on your documents and at the counter. Each card shows the Korean word, what it means, and how to say it. You can show a card to the staff.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_en_1.webp" alt="출국만기보험 chulguk mangi boheom (departure guarantee insurance), 전용보험 jeonyong boheom (insurances required for EPS workers), 보험금 boheomgeum (insurance payout)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_en_2.webp" alt="퇴직금 toejikgeum (severance pay), 차액 chaaek (the difference owed), 평균임금 pyeonggyun imgeum (average wage)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_en_3.webp" alt="지급지시서 jigeup jisiseo (payment instruction form), 귀국비용보험 gwiguk biyong boheom (return travel cost insurance), 출국 chulguk (leaving Korea)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_en_4.webp" alt="공인노무사 gongin nomusa (certified labor attorney), 사업주 saeopju (employer), 체불 chebul (unpaid money owed)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -308,6 +320,18 @@ Some cases cannot be settled with basic support and need a licensed labour attor
 บางกรณีไม่สามารถจบด้วยการช่วยเหลือเบื้องต้นและต้องจ้างนักกฎหมายแรงงานที่มีใบอนุญาต (공인노무사) แม้ในกรณีนั้น ผู้เชี่ยวชาญที่ทำงานร่วมกับ Kori Care จะพูดอยู่ข้างคุณ
 
 <a class="calc-cta" href="/link/th/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">เครื่องคำนวณเงินชดเชย Kori Care</span><span class="calc-cta-sub">เช็กยอดของคุณก่อนยื่นเรื่อง</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่เคาน์เตอร์ แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_th_1.webp" alt="출국만기보험 chulguk mangi boheom (ประกันครบกำหนดเดินทางออก), 전용보험 jeonyong boheom (ประกันเฉพาะสำหรับแรงงาน EPS), 보험금 boheomgeum (เงินประกัน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_th_2.webp" alt="퇴직금 toejikgeum (เงินชดเชยเมื่อออกจากงาน), 차액 chaaek (ส่วนต่างที่ยังต้องจ่าย), 평균임금 pyeonggyun imgeum (ค่าจ้างเฉลี่ย)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_th_3.webp" alt="지급지시서 jigeup jisiseo (แบบฟอร์มสั่งจ่ายเงิน), 귀국비용보험 gwiguk biyong boheom (ประกันค่าเดินทางกลับประเทศ), 출국 chulguk (การเดินทางออกนอกประเทศ)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_th_4.webp" alt="공인노무사 gongin nomusa (ที่ปรึกษาแรงงานที่มีใบอนุญาต), 사업주 saeopju (นายจ้าง), 체불 chebul (เงินค้างจ่าย)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -455,4 +479,16 @@ Nếu giấy tờ tiếng Hàn không hiểu được, hoặc bạn không biế
 Một số trường hợp không thể giải quyết bằng hỗ trợ cơ bản và cần thuê chuyên viên luật lao động có chứng chỉ (공인노무사). Ngay cả khi đó, chuyên gia làm việc cùng Kori Care sẽ nói chuyện đứng về phía bạn.
 
 <a class="calc-cta" href="/link/vi/severance-calculator"><span class="calc-cta-icon" aria-hidden="true"></span><span class="calc-cta-text"><span class="calc-cta-label">Công cụ tính Tiền thôi việc Kori Care</span><span class="calc-cta-sub">Kiểm tra số tiền của bạn trước khi nộp đơn</span></span><span class="calc-cta-arrow" aria-hidden="true"></span></a>
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ và tại quầy. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_vi_1.webp" alt="출국만기보험 chulguk mangi boheom (bảo hiểm đáo hạn xuất cảnh), 전용보험 jeonyong boheom (bảo hiểm bắt buộc cho lao động EPS), 보험금 boheomgeum (tiền bảo hiểm)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_vi_2.webp" alt="퇴직금 toejikgeum (trợ cấp thôi việc), 차액 chaaek (khoản chênh lệch), 평균임금 pyeonggyun imgeum (lương bình quân)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_vi_3.webp" alt="지급지시서 jigeup jisiseo (phiếu chỉ thị chi trả), 귀국비용보험 gwiguk biyong boheom (bảo hiểm chi phí về nước), 출국 chulguk (xuất cảnh)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_depart_vi_4.webp" alt="공인노무사 gongin nomusa (chuyên viên tư vấn lao động), 사업주 saeopju (chủ sử dụng lao động), 체불 chebul (khoản nợ chưa trả)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

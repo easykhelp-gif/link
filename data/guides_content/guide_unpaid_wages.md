@@ -183,13 +183,13 @@ This document explains the system and is not legal advice. For individual cases,
 
 These words appear on your documents and at the labor office. Each card shows the Korean word, what it means, and how to say it. You can show a card at the counter.
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_1.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_1.webp" alt="임금체불 imgeum chebul (unpaid wages), 진정 jinjeong (filing a complaint), 고용노동부 goyong nodongbu (Ministry of Employment and Labor)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_2.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_2.webp" alt="근로감독관 geullo gamdokgwan (labor inspector), 대지급금 daejigeupgeum (government advance payment), 근로복지공단 geullo bokji gongdan (Workers Compensation and Welfare Service)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_3.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_3.webp" alt="확인서 hwaginseo (confirmation document), 표준근로계약서 pyojun geullo gyeyakseo (standard employment contract), 급여명세서 geupyeo myeongseseo (pay slip)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_4.webp" alt="Korean words used in this guide with pronunciation and English meaning, card 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_en_4.webp" alt="출퇴근 기록 chultoegeun girok (work attendance record), 사업주 saeopju (employer), 지연이자 jiyeon ija (interest on late payment)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -359,13 +359,13 @@ These words appear on your documents and at the labor office. Each card shows th
 
 คำเหล่านี้อยู่ในเอกสารของคุณและที่สำนักงานแรงงาน แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_1.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_1.webp" alt="임금체불 imgeum chebul (ค้างจ่ายค่าจ้าง), 진정 jinjeong (การยื่นเรื่องร้องเรียน), 고용노동부 goyong nodongbu (กระทรวงแรงงาน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_2.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_2.webp" alt="근로감독관 geullo gamdokgwan (เจ้าหน้าที่ตรวจแรงงาน), 대지급금 daejigeupgeum (เงินที่รัฐจ่ายแทนก่อน), 근로복지공단 geullo bokji gongdan (สำนักงานสวัสดิการแรงงาน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_3.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_3.webp" alt="확인서 hwaginseo (หนังสือรับรอง), 표준근로계약서 pyojun geullo gyeyakseo (สัญญาจ้างงานมาตรฐาน), 급여명세서 geupyeo myeongseseo (สลิปเงินเดือน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_4.webp" alt="คำเกาหลีในคู่มือนี้ พร้อมคำอ่านและความหมายภาษาไทย การ์ดที่ 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_th_4.webp" alt="출퇴근 기록 chultoegeun girok (บันทึกเวลาเข้าออกงาน), 사업주 saeopju (นายจ้าง), 지연이자 jiyeon ija (ดอกเบี้ยจากการจ่ายล่าช้า)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -535,11 +535,11 @@ Tài liệu này giải thích chế độ và không phải là tư vấn pháp
 
 Những từ này xuất hiện trên giấy tờ của bạn và tại văn phòng lao động. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_1.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 1" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_1.webp" alt="임금체불 imgeum chebul (nợ lương), 진정 jinjeong (nộp đơn khiếu nại), 고용노동부 goyong nodongbu (Bộ Lao động)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_2.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 2" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_2.webp" alt="근로감독관 geullo gamdokgwan (thanh tra lao động), 대지급금 daejigeupgeum (khoản nhà nước ứng trả), 근로복지공단 geullo bokji gongdan (Cơ quan Phúc lợi Lao động)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_3.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 3" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_3.webp" alt="확인서 hwaginseo (giấy xác nhận), 표준근로계약서 pyojun geullo gyeyakseo (hợp đồng lao động tiêu chuẩn), 급여명세서 geupyeo myeongseseo (phiếu lương)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 
-<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_4.webp" alt="Từ tiếng Hàn trong bài kèm cách đọc và nghĩa tiếng Việt, thẻ 4" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+<figure><img src="https://www.koricare.kr/link/news/images/terms_wages_vi_4.webp" alt="출퇴근 기록 chultoegeun girok (bản ghi giờ làm), 사업주 saeopju (chủ sử dụng lao động), 지연이자 jiyeon ija (lãi do trả chậm)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->

@@ -118,6 +118,18 @@ Be aware that Korea's free state-appointed labor attorney program currently cove
 **Kori Care** — free guides in English, ไทย and Tiếng Việt. [Message us](https://m.me/koricare.kr) if you are not sure where to start.
 
 This guide explains Korean law in general terms. It is not legal advice for your specific case. Nothing on this page is a guarantee of any outcome.
+
+## Korean words you will hear
+
+These words appear on your documents and at the counter. Each card shows the Korean word, what it means, and how to say it. You can show a card to the staff.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_en_1.webp" alt="산재 sanjae (work injury), 산재보험 sanjae boheom (industrial accident insurance), 근로복지공단 geullo bokji gongdan (Workers Compensation and Welfare Service)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Korean words used in this guide</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_en_2.webp" alt="요양급여 yoyang geubyeo (medical care benefit), 휴업급여 hyueop geubyeo (wage replacement while off work), 장해급여 janghae geubyeo (disability benefit)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_en_3.webp" alt="공상 처리 gongsang cheori (employer pays privately instead of insurance), 심사청구 simsa cheonggu (request for review), 공인노무사 gongin nomusa (certified labor attorney)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_en_4.webp" alt="진단서 jindanseo (medical certificate), 사고 경위 sago gyeongwi (how the accident happened), 평균임금 pyeonggyun imgeum (average wage)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- EN END -->
 
 <!-- TH START -->
@@ -222,6 +234,18 @@ This guide explains Korean law in general terms. It is not legal advice for your
 **Kori Care** — คู่มือฟรีภาษาไทย อังกฤษ และเวียดนาม [ส่งข้อความหาเรา](https://m.me/koricare.kr) หากไม่แน่ใจว่าควรเริ่มจากตรงไหน
 
 คู่มือนี้อธิบายกฎหมายเกาหลีในภาพรวม ไม่ใช่คำแนะนำทางกฎหมายสำหรับกรณีเฉพาะของคุณ และไม่มีการรับประกันผลลัพธ์ใด ๆ
+
+## คำเกาหลีที่คุณจะได้ยิน
+
+คำเหล่านี้อยู่ในเอกสารของคุณและที่เคาน์เตอร์ แต่ละการ์ดมีคำเกาหลี ความหมาย และวิธีอ่าน เปิดให้เจ้าหน้าที่ดูได้เลย
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_th_1.webp" alt="산재 sanjae (อุบัติเหตุจากการทำงาน), 산재보험 sanjae boheom (ประกันอุบัติเหตุจากการทำงาน), 근로복지공단 geullo bokji gongdan (สำนักงานสวัสดิการแรงงาน)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>คำเกาหลีที่ใช้ในคู่มือนี้</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_th_2.webp" alt="요양급여 yoyang geubyeo (ค่ารักษาพยาบาลจากประกัน), 휴업급여 hyueop geubyeo (เงินทดแทนระหว่างหยุดงาน), 장해급여 janghae geubyeo (เงินทดแทนความพิการ)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_th_3.webp" alt="공상 처리 gongsang cheori (นายจ้างจ่ายเองแทนประกัน), 심사청구 simsa cheonggu (การยื่นขอพิจารณาใหม่), 공인노무사 gongin nomusa (ที่ปรึกษาแรงงานที่มีใบอนุญาต)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_th_4.webp" alt="진단서 jindanseo (ใบรับรองแพทย์), 사고 경위 sago gyeongwi (รายละเอียดการเกิดอุบัติเหตุ), 평균임금 pyeonggyun imgeum (ค่าจ้างเฉลี่ย)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- TH END -->
 
 <!-- VI START -->
@@ -326,4 +350,16 @@ Xin lưu ý rằng chương trình luật sư lao động do nhà nước chỉ 
 **Kori Care** — hướng dẫn miễn phí bằng tiếng Việt, tiếng Thái và tiếng Anh. [Nhắn tin cho chúng tôi](https://m.me/koricare.kr) nếu bạn không biết bắt đầu từ đâu.
 
 Hướng dẫn này giải thích luật Hàn Quốc một cách tổng quát. Đây không phải là tư vấn pháp lý cho trường hợp cụ thể của bạn, và không đảm bảo bất kỳ kết quả nào.
+
+## Những từ tiếng Hàn bạn sẽ gặp
+
+Những từ này xuất hiện trên giấy tờ và tại quầy. Mỗi thẻ có từ tiếng Hàn, nghĩa và cách đọc. Bạn có thể đưa cho nhân viên xem.
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_vi_1.webp" alt="산재 sanjae (tai nạn lao động), 산재보험 sanjae boheom (bảo hiểm tai nạn lao động), 근로복지공단 geullo bokji gongdan (Cơ quan Phúc lợi Lao động)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"><figcaption>Từ tiếng Hàn dùng trong bài này</figcaption></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_vi_2.webp" alt="요양급여 yoyang geubyeo (trợ cấp điều trị), 휴업급여 hyueop geubyeo (trợ cấp nghỉ việc), 장해급여 janghae geubyeo (trợ cấp thương tật)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_vi_3.webp" alt="공상 처리 gongsang cheori (chủ tự trả thay bảo hiểm), 심사청구 simsa cheonggu (yêu cầu xem xét lại), 공인노무사 gongin nomusa (chuyên viên tư vấn lao động)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
+
+<figure><img src="https://www.koricare.kr/link/news/images/terms_injury_vi_4.webp" alt="진단서 jindanseo (giấy chẩn đoán), 사고 경위 sago gyeongwi (diễn biến tai nạn), 평균임금 pyeonggyun imgeum (lương bình quân)" loading="lazy" style="aspect-ratio:auto;height:auto;object-fit:contain"></figure>
 <!-- VI END -->
