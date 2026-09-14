@@ -7,7 +7,7 @@ image_en: news/images/guide_work_death_survivor_hero_en.webp
 image_th: news/images/guide_work_death_survivor_hero_th.webp
 image_vi: news/images/guide_work_death_survivor_hero_vi.webp
 date: 2026-09-03
-updated: 2026-09-05
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 A Worker Died in Korea: What the Family Receives and How to Claim It (2026)

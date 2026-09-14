@@ -4,6 +4,7 @@ category: korea
 tag: Medical
 image: news/images/guide_hospital_hero.webp
 date: 2026-08-17
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 [2026 Updated] Foreigner's Guide to Korean Hospitals & Pharmacies

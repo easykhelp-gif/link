@@ -4,7 +4,7 @@ category: korea
 tag: Finance
 image: news/images/guide_departure_insurance_hero.webp
 date: 2026-08-30
-updated: 2026-09-05
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 Departure Guarantee Insurance Paid Less Than Your Severance? Your Employer Owes You the Difference (2026)

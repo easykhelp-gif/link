@@ -4,7 +4,7 @@ category: korea
 tag: Finance
 image: news/images/guide_severance_hero_v2.webp
 date: 2026-08-22
-updated: 2026-09-05
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 [2026 Updated] Foreign Worker Severance Pay (EPS) Claim Guide

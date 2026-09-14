@@ -28,8 +28,9 @@ const RELATED = {
   guide_hospital_pharmacy:   ['hospital_seoul'],
   hospital_seoul:            ['guide_hospital_pharmacy'],
   // 여행
-  travel_seoul_free:         ['travel_incheon_ocean'],
-  travel_incheon_ocean:      ['travel_seoul_free'],
+  travel_seoul_free:         ['travel_incheon_ocean', 'travel_seoraksan_sokcho'],
+  travel_incheon_ocean:      ['travel_seoul_free', 'travel_seoraksan_sokcho'],
+  travel_seoraksan_sokcho:   ['travel_seoul_free', 'travel_incheon_ocean'],
   // 사기 — 계좌·통장이 임금 수령과 맞닿는다
   scam_prevention_bank_sim:  ['guide_unpaid_wages'],
 };
@@ -377,11 +378,21 @@ function buildGuides() {
       // lastmod 가 없으면 구글은 이 글이 언제 바뀌었는지 알 수 없어서
       // 다시 긁을 우선순위를 매기지 못한다. 고친 글이 반영되는 데 오래 걸린다.
       // 원고 앞머리의 updated 를 그대로 쓴다 — 없으면 date.
+      // 사진 사이트맵. 대표 사진과 본문 사진을 모아 이 페이지에 딸린 이미지로 알린다.
+      // 구글 이미지 검색은 페이지를 읽어도 사진을 따로 색인하지 않는 경우가 많다.
+      const pageImages = [];
+      if (imgUrl) pageImages.push(imgUrl);
+      for (const m of contentHtml.matchAll(/<img\s[^>]*src="([^"]+)"/g)) {
+        let u = m[1];
+        if (u.startsWith('/link/')) u = 'https://www.koricare.kr' + u;
+        if (u.startsWith('https://www.koricare.kr/') && !pageImages.includes(u)) pageImages.push(u);
+      }
       sitemapUrls.push({
         loc: currCanonical,
         lastmod: guide.updated || guide.date || null,
         changefreq: 'monthly',
-        priority: 0.7
+        priority: 0.7,
+        images: pageImages
       });
       
       // Store link for hub page
@@ -609,9 +620,17 @@ function mergeSitemap(sitemapUrls) {
   if (!content.endsWith('\n')) content += '\n';
   
   // Create XML for new URLs
+  // 사진을 넣으려면 urlset 에 image 이름공간이 선언돼 있어야 한다
+  if (!content.includes('xmlns:image=')) {
+    content = content.replace('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"');
+  }
+
+  const xmlEsc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
   const newXml = sitemapUrls.map(u => {
     const lm = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : '';
-    return `  <url>\n    <loc>${u.loc}</loc>${lm}\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`;
+    const im = (u.images || []).map(src => `\n    <image:image><image:loc>${xmlEsc(src)}</image:loc></image:image>`).join('');
+    return `  <url>\n    <loc>${u.loc}</loc>${lm}\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>${im}\n  </url>`;
   }).join('\n');
   
   // Insert before </urlset>

@@ -4,7 +4,7 @@ category: korea
 tag: Safety & Law
 image: news/images/guide_industrial_accident_hero.webp
 date: 2026-08-24
-updated: 2026-09-05
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 Injured at Work in Korea? You Have the Right to Compensation

@@ -4,6 +4,7 @@ category: korea
 tag: Medical
 image: news/images/guide_hospital_hero.webp
 date: 2026-09-01
+updated: 2026-09-14
 ---
 <!-- TITLE_EN START -->
 Going to a Hospital in Seoul — What Foreign Residents Need to Know (2026)

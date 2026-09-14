@@ -4,6 +4,7 @@ category: safety
 tag: Safety & Law
 image: news/images/scam_prevention_hero.webp
 date: 2026-08-20
+updated: 2026-09-14
 ---
 
 <!-- TITLE_EN START -->

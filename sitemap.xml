@@ -1,216 +1,387 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  <url>    <loc>https://www.koricare.kr/link/</loc>    <changefreq>daily</changefreq>    <priority>1.0</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/ko/</loc>    <changefreq>weekly</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">  <url>    <loc>https://www.koricare.kr/link/</loc>    <changefreq>daily</changefreq>    <priority>1.0</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/</loc>    <changefreq>daily</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/ko/</loc>    <changefreq>weekly</changefreq>    <priority>0.9</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/th/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>    <loc>https://www.koricare.kr/link/vi/severance-calculator</loc>    <changefreq>weekly</changefreq>    <priority>0.8</priority>  </url>  <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_departure_insurance_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_departure_insurance_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/departure_insurance/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_departure_insurance_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_depart_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_hospital_pharmacy/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/guide_hospital_pharmacy/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_hospital_pharmacy/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_clinic_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/safety/scam_prevention_bank_sim/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/scam_prevention_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/safety/scam_prevention_bank_sim/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/scam_prevention_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/safety/scam_prevention_bank_sim/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/scam_prevention_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_scam_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/severance_pay/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_severance_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/severance_pay/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_severance_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/severance_pay/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_severance_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_severance_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_unpaid_wages_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_unpaid_wages_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_unpaid_wages/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_unpaid_wages_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_wages_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_work_death_survivor_hero_en.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_work_death_survivor_hero_th.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/guide_work_death_survivor/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_work_death_survivor_hero_vi.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_survivor_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/hospital_seoul/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/hospital_seoul/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/hospital_seoul/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_hospital_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_seoulhosp_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_industrial_accident_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_en_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_en_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_en_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_en_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_industrial_accident_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_th_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_th_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_th_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_th_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/korea/industrial_accident/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_industrial_accident_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_vi_1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_vi_2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_vi_3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/terms_injury_vi_4.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_incheon_ocean_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_01_chinatown.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_02_jajangmyeon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_03_wolmido_sunset.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_04_wolmi_park.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/travel/travel_incheon_ocean/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_incheon_ocean_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_01_chinatown.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_02_jajangmyeon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_03_wolmido_sunset.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_04_wolmi_park.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/travel/travel_incheon_ocean/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/guide_incheon_ocean_hero_v2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_01_chinatown.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_02_jajangmyeon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_03_wolmido_sunset.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/incheon_04_wolmi_park.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/travel/travel_seoraksan_sokcho/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_08_falls.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_01_winter.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_02_cablecar.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_04_market.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_07_sunrise.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_06_gaetbae.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_09_bridge.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/travel/travel_seoraksan_sokcho/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_08_falls.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_01_winter.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_02_cablecar.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_04_market.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_07_sunrise.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_06_gaetbae.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_09_bridge.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/travel/travel_seoraksan_sokcho/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_08_falls.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_01_winter.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_02_cablecar.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_04_market.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_07_sunrise.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_06_gaetbae.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seorak_09_bridge.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/travel/travel_seoul_free/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_00_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_01_gyeongbokgung_guards.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_02_bukchon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_03_gwanghwamun.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_04_cheonggyecheon.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/travel/travel_seoul_free/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_00_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_01_gyeongbokgung_guards.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_02_bukchon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_03_gwanghwamun.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_04_cheonggyecheon.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/travel/travel_seoul_free/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_00_hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_01_gyeongbokgung_guards.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_02_bukchon.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_03_gwanghwamun.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.koricare.kr/link/news/images/seoul_04_cheonggyecheon.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/en/guides/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/th/guides/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.koricare.kr/link/vi/guides/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
