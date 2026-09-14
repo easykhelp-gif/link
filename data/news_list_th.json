@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_th_f307b342",
+    "date": "2026-09-14",
+    "ts": 1789422723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/82e5f0cf-53e4-43b4-9a57-b4b0f6be16b9.jpg",
+    "title": "อุตสาหกรรมเลี้ยงปลาเกาหลีใต้เสียหายหนักจากวิกฤตโลกร้อน",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260915/koreas-aquaculture-takes-full-blow-of-climate-change?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_70789071",
+    "date": "2026-09-14",
+    "ts": 1789419604000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009900320_01_i_P2.jpg",
+    "title": "บริษัทประกันเกาหลีขาดทุนประกันรถยนต์รอบ 6 ปีในครึ่งปีแรก",
+    "link": "https://en.yna.co.kr/view/AEN20260914009900320"
+  },
+  {
+    "id": "hotnews_th_66cb80d5",
+    "date": "2026-09-14",
+    "ts": 1789419601000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914010100320_02_i_P2.jpg",
+    "title": "ราคานำเข้าเกาหลีใต้เดือนสิงหาคมลดลงเป็นเดือนที่ 3",
+    "link": "https://en.yna.co.kr/view/AEN20260914010100320"
+  },
+  {
+    "id": "hotnews_th_e6318b62",
+    "date": "2026-09-14",
+    "ts": 1789417800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.9641a5be001b4831a60a5cfe9075b995_T1.jpg",
+    "title": "การใช้ชีวิตในยุคปัญญาประดิษฐ์และการเปลี่ยนแปลงของสังคม",
+    "link": "https://www.koreaherald.com/article/10873094"
+  },
+  {
+    "id": "hotnews_th_69323729",
+    "date": "2026-09-14",
+    "ts": 1789417800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.176ab565a1b444e28e703885f8a50a65_T1.jpg",
+    "title": "ค่าเทอมมหาวิทยาลัยสหรัฐฯ เผชิญความท้าทายแต่ไม่ใช่ฟองสบู่แตก",
+    "link": "https://www.koreaherald.com/article/10873093"
+  },
+  {
+    "id": "hotnews_th_3990e3c4",
+    "date": "2026-09-14",
+    "ts": 1789392120000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914010500320_01_i_P2.jpg",
+    "title": "ตลาดหุ้นเกาหลีประเดิมซื้อขายนอกเวลาทำการวันแรกมูลค่า 1.8 ล้านล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20260914010500320"
+  },
+  {
     "id": "hotnews_th_a966b5ea",
     "date": "2026-09-14",
     "ts": 1789391223000,
@@ -14,6 +62,22 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/14/7e64398a-704f-4bb9-8a1b-1d6761513610.jpg",
     "title": "เกาหลีใต้เร่งอบรมผู้สูงอายุรับมือช่องว่างดิจิทัล",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260914/korea-aims-to-save-seniors-lost-in-digital-age?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_abc5270d",
+    "date": "2026-09-14",
+    "ts": 1789388233000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/rcv.YNA.20260913.PYH2026091308490001300_T1.jpg",
+    "title": "กัปตันทีมฟุตบอลชายขอให้เพื่อนร่วมทีมตระหนักถึงความเร่งด่วน",
+    "link": "https://www.koreaherald.com/article/10873206"
+  },
+  {
+    "id": "hotnews_th_31024825",
+    "date": "2026-09-14",
+    "ts": 1789384487000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.68eea0dfe23a481cb7ddd20d433e99cd_T1.jpg",
+    "title": "สภาอธิการบดีเกาหลีขอโทษปัญหาระบบสมัครเข้ามหาวิทยาลัยล่ม",
+    "link": "https://www.koreaherald.com/article/10873197"
   },
   {
     "id": "hotnews_th_fdb49ceb",
@@ -40,12 +104,28 @@
     "link": "https://www.koreaherald.com/article/10873155"
   },
   {
+    "id": "hotnews_th_6efbc7d8",
+    "date": "2026-09-14",
+    "ts": 1789377962000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914070643_84_e.jpg",
+    "title": "วัยรุ่นจีนถูกห้ามออกนอกเกาหลีใต้ต้องสงสัยแอบฟังหอควบคุมการบิน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204238"
+  },
+  {
     "id": "hotnews_th_5352a75a",
     "date": "2026-09-14",
     "ts": 1789376745000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-a.v1.20260914.f60ecc7cc53646d780c374e2ed22f249_T1.jpg",
     "title": "ศิลปิน K-pop สร้างชื่อเสียงในงาน Rock in Rio ที่บราซิล",
     "link": "https://www.koreaherald.com/article/10873142"
+  },
+  {
+    "id": "hotnews_th_d8052b1d",
+    "date": "2026-09-14",
+    "ts": 1789375801000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914005600320_03_i_P2.jpg",
+    "title": "Kia เปิดตัวรถยนต์ไฟฟ้ารุ่น PV7 ครั้งแรกของโลกที่เยอรมนี",
+    "link": "https://en.yna.co.kr/view/AEN20260914005600320"
   },
   {
     "id": "hotnews_th_bf933718",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.2fa49e432eda4e6ba1a5c6496b9de6e9_T1.jpg",
     "title": "กรุงโซลเตรียมคัดเลือกโรงแรมที่พักเพื่อรองรับผู้ป่วยชาวต่างชาติ",
     "link": "https://www.koreaherald.com/article/10871689"
-  },
-  {
-    "id": "hotnews_th_97706672",
-    "date": "2026-09-13",
-    "ts": 1789278918000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.9a6467ee41a44262b86561ca740c5f79_T1.png",
-    "title": "KB Financial เลือก Lee Jae-keun เป็นประธานคนใหม่",
-    "link": "https://www.koreaherald.com/article/10871653"
-  },
-  {
-    "id": "hotnews_th_2fb2a9f8",
-    "date": "2026-09-13",
-    "ts": 1789278385000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.bf9cddceef1a45c88cf78caf0a789ed8_T1.jpg",
-    "title": "ชองกึนดังทุ่ม 2.2 ล้านล้านวอนสร้างศูนย์ไบโอฮาร์มาในซีฮึง",
-    "link": "https://www.koreaherald.com/article/10871650"
-  },
-  {
-    "id": "hotnews_th_f6fb25a4",
-    "date": "2026-09-13",
-    "ts": 1789278052000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260811.0d37f2f985a94b46a2954a795aae277b_T1.jpg",
-    "title": "ตลาดหุ้น KRX ขยายเวลาเทรดถึง 20:00 น. เริ่มวันจันทร์นี้",
-    "link": "https://www.koreaherald.com/article/10871647"
-  },
-  {
-    "id": "hotnews_th_c44e71c4",
-    "date": "2026-09-13",
-    "ts": 1789277847000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091304490001301_P2.jpg",
-    "title": "ผู้เสนอชื่อรัฐมนตรีความเท่าเทียมทางเพศถอนตัวจากตำแหน่ง",
-    "link": "https://en.yna.co.kr/view/AEN20260913001352315"
-  },
-  {
-    "id": "hotnews_th_e6312686",
-    "date": "2026-09-13",
-    "ts": 1789277513000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.04e35432c0d7418380fde0457cb1d2fa_T1.jpg",
-    "title": "สถิตินักเรียนเกาหลีใต้ฆ่าตัวตายพุ่งสูงขึ้น 65% ในรอบ 5 ปี",
-    "link": "https://www.koreaherald.com/article/10871636"
-  },
-  {
-    "id": "hotnews_th_09d6b80d",
-    "date": "2026-09-13",
-    "ts": 1789277258000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913013946_24_e.jpg",
-    "title": "สสภาพากาศมีเมฆมากและอากาศต้นฤดูใบไม้ร่วงจะดำเนินต่อไปในวันจันทร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204215"
-  },
-  {
-    "id": "hotnews_th_72ccf5b2",
-    "date": "2026-09-13",
-    "ts": 1789277045000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912061700_65_k.jpg",
-    "title": "เกาหลีเหนือยังคงนิ่งเงียบเกี่ยวกับการยิงขีปนาวุธล่าสุด",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204214"
-  },
-  {
-    "id": "hotnews_th_ed1c2491",
-    "date": "2026-09-13",
-    "ts": 1789276827000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.d032a18415f74e59a4aa198863d414b1_T1.jpg",
-    "title": "แฮ방촌 'ถนน옹기' แลนด์มาร์กดังถูกรื้อถอนแล้วหลังตั้งมากว่าสัปดาห์",
-    "link": "https://www.koreaherald.com/article/10871629"
-  },
-  {
-    "id": "hotnews_th_40c23e12",
-    "date": "2026-09-13",
-    "ts": 1789276819000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-a.v1.20260913.c46dfa27e6404cd9a82d14a035d3df23_T1.jpg",
-    "title": "โซลเตรียมเปิดตัวโครงการลงทุนในสหรัฐฯ แห่งแรกภายในสัปดาห์นี้",
-    "link": "https://www.koreaherald.com/article/10871628"
-  },
-  {
-    "id": "hotnews_th_810fe713",
-    "date": "2026-09-13",
-    "ts": 1789276114000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.535780ef98264602b48b08bd11eacee3_T1.jpg",
-    "title": "Lotte และ KAIST เปิดศูนย์วิจัยร่วมพัฒนาเทคโนโลยีแห่งอนาคต",
-    "link": "https://www.koreaherald.com/article/10871623"
   }
 ]
