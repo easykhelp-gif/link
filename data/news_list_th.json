@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_f06e1ed4",
+    "date": "2026-09-14",
+    "ts": 1789363022000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/ee40a88d-9dbb-4412-9b9b-9d4a1a395ab3.jpeg",
+    "title": "โซลเปิดโครงการรับรองที่พักสำหรับผู้ป่วยชาวต่างชาติ",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260914/seoul-certifies-hotels-for-recovering-international-patients?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_039e6cce",
+    "date": "2026-09-14",
+    "ts": 1789362739000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.8506da03b5a941f4989cfc8624c784b3_T1.png",
+    "title": "ศาลสั่งกระทรวงยุติธรรมเปิดเผยรายชื่อคณะกรรมการพิจารณาการควบคุมตัวชาวต่างชาติ",
+    "link": "https://www.koreaherald.com/article/10872717"
+  },
+  {
+    "id": "hotnews_th_5c6038f5",
+    "date": "2026-09-14",
+    "ts": 1789362554000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914005200315_01_i_P2.jpg",
+    "title": "เกิร์ลกรุ๊ป Illit เตรียมคัมแบ็กปล่อยอัลบั้ม EP ชุดใหม่เดือนหน้า",
+    "link": "https://en.yna.co.kr/view/AEN20260914005200315"
+  },
+  {
+    "id": "hotnews_th_c5a4cf14",
+    "date": "2026-09-14",
+    "ts": 1789361503000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914004900315_01_i_P2.jpg",
+    "title": "The Boyz เตรียมกลับมารวมกลุ่มทำกิจกรรมภายใต้ค่ายใหม่ 78 Records",
+    "link": "https://en.yna.co.kr/view/AEN20260914004900315"
+  },
+  {
+    "id": "hotnews_th_725462ea",
+    "date": "2026-09-14",
+    "ts": 1789361429000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914005000320_01_i_P2.jpg",
+    "title": "ส.ก.ร. ตรวจสอบ 41 ธุรกิจทำราคาผู้บริโภคไม่เสถียร",
+    "link": "https://en.yna.co.kr/view/AEN20260914005000320"
+  },
+  {
+    "id": "hotnews_th_21223bf6",
+    "date": "2026-09-14",
+    "ts": 1789359984000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.5925ecbcf64a49b0bef84983f36fe225_T1.jpg",
+    "title": "โซลเตรียมรถรับส่ง 1,500 คันและเพิ่มเที่ยวรถไฟใต้ดินรับมือหยุดงานประท้วง",
+    "link": "https://www.koreaherald.com/article/10872652"
+  },
+  {
+    "id": "hotnews_th_b30dd0e9",
+    "date": "2026-09-14",
+    "ts": 1789356972000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913095147_12_e.jpg",
+    "title": "ภาพยนตร์ Possible Love ของผู้กำกับ อีชางดง คว้ารางวัลใหญ่ที่เวนิส",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204224"
+  },
+  {
+    "id": "hotnews_th_c36b5db4",
+    "date": "2026-09-14",
+    "ts": 1789354681000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914004200315_01_i_P2.jpg",
+    "title": "ตำรวจเกาหลีใต้จับกุมแก๊งฟอกเงินกว่า 9 หมื่นล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20260914004200315"
+  },
+  {
+    "id": "hotnews_th_a218449c",
+    "date": "2026-09-14",
+    "ts": 1789354571000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914115857_47_e.jpg",
+    "title": "ทีมบรรเทาสาธารณภัยชุดที่ 2 ของเกาหลีใต้เดินทางไปเนปาล",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204222"
+  },
+  {
+    "id": "hotnews_th_e405ea20",
+    "date": "2026-09-14",
+    "ts": 1789352577000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914002800315_01_i_P2.jpg",
+    "title": "ผู้สมัครตุลาการศาลสูงสุดคิมซองซูสัญญาปรับตัวตามยุคสมัย",
+    "link": "https://en.yna.co.kr/view/AEN20260914002800315"
+  },
+  {
     "id": "hotnews_th_1c14a7f7",
     "date": "2026-09-13",
     "ts": 1789331400000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911007900320_03_i_P2.jpg",
     "title": "ฮุนไดเร่งพัฒนาระบบขับเคลื่อนอัตโนมัติด้วย AI และข้อมูลการขับขี่จริง",
     "link": "https://en.yna.co.kr/view/AEN20260911007900320"
-  },
-  {
-    "id": "hotnews_th_b0586500",
-    "date": "2026-09-12",
-    "ts": 1789243203000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911008700320_01_i_P2.jpg",
-    "title": "อาร์เจนตินามุ่งร่วมมือเกาหลีใต้ด้านความปลอดภัยทางไซเบอร์",
-    "link": "https://en.yna.co.kr/view/AEN20260911008700320"
-  },
-  {
-    "id": "hotnews_th_db599a59",
-    "date": "2026-09-12",
-    "ts": 1789243133000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913108801009_P2.jpg",
-    "title": "ภาพยนตร์ Possible Love ของผู้กำกับ อี ชang-dong คว้ารางวัลใหญ่ที่เวนิส",
-    "link": "https://en.yna.co.kr/view/AEN20260911004452315"
-  },
-  {
-    "id": "hotnews_th_a6c36e32",
-    "date": "2026-09-12",
-    "ts": 1789214656000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082623040001300_P2.jpg",
-    "title": "ศึก KBO ทำสถิติผู้ชมทะลุ 11 ล้านคนเร็วที่สุด",
-    "link": "https://en.yna.co.kr/view/AEN20260912002300315"
-  },
-  {
-    "id": "hotnews_th_ef5a0f5c",
-    "date": "2026-09-12",
-    "ts": 1789210923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/12/c9905f41-6386-4be2-89dc-046217c86a10.jpg",
-    "title": "ประธานาธิบดีอีแจมยองสร้างความมั่นใจเรื่องราคาน้ำมัน",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260912/president-lee-reassures-public-over-oil-prices-amid-escalating-middle-east-tensions?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_161a757f",
-    "date": "2026-09-12",
-    "ts": 1789204190000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091111090001300_P2.jpg",
-    "title": "อี แจมยอง สร้างความเชื่อมั่นให้ประชาชนเรื่องราคาน้ำมัน",
-    "link": "https://en.yna.co.kr/view/AEN20260912002200320"
-  },
-  {
-    "id": "hotnews_th_604251aa",
-    "date": "2026-09-12",
-    "ts": 1789203633000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912002100320_02_i_P2.jpg",
-    "title": "เรือคอนเทนเนอร์เกาหลีใต้ถึงอังกฤษผ่านเส้นทางอาร์กติก",
-    "link": "https://en.yna.co.kr/view/AEN20260912002100320"
-  },
-  {
-    "id": "hotnews_th_8076b30a",
-    "date": "2026-09-12",
-    "ts": 1789202918000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/12/PYH2026091202840007300_P2.jpg",
-    "title": "ญี่ปุ่นจัดพิธีรำลึกเหมืองซาโดโดยไม่เอ่ยถึงการใช้แรงงานบังคับชาวเกาหลี",
-    "link": "https://en.yna.co.kr/view/AEN20260912002000320"
-  },
-  {
-    "id": "hotnews_th_2491f9aa",
-    "date": "2026-09-12",
-    "ts": 1789202156000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/rcv.YNA.20260912.PYH2026091015790006000_T1.jpg",
-    "title": "เกาหลีใต้เริ่มภารกิจขุดค้นร่างทหารที่เสียชีวิตจากสงครามเกาหลี",
-    "link": "https://www.koreaherald.com/article/10871257"
-  },
-  {
-    "id": "hotnews_th_796f1bcb",
-    "date": "2026-09-12",
-    "ts": 1789201431000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/12/news-a.v1.20260911.159b5e8ffeae4e71af50606f792be97a_T1.png",
-    "title": "เกาหลีใคอนุมัติใส่ยีนส์สัมภาษณ์งานข้าราชการ เริ่มต.ค.นี้",
-    "link": "https://www.koreaherald.com/article/10871252"
-  },
-  {
-    "id": "hotnews_th_2ab80fa7",
-    "date": "2026-09-12",
-    "ts": 1789196400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/10/news-p.v1.20260907.4825df8e9eb64e2abe8ef2b03d3ef36e_T1.jpg",
-    "title": "ศิลปิน All’N ลุยเส้นทาง K-pop อิสระด้วยดนตรีไวโอลิน",
-    "link": "https://www.koreaherald.com/article/10869188"
   }
 ]
