@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_a966b5ea",
+    "date": "2026-09-14",
+    "ts": 1789391223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/6bbf8a55-abae-49f7-b1b1-8bdb1ea349d8.jpeg",
+    "title": "นักศึกษาอาเซียนในเกาหลีร่วมงานแนะแนวอาชีพและวีซ่าที่ปูซาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260914/asean-students-find-career-guidance-community-in-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6abbfc9e",
+    "date": "2026-09-14",
+    "ts": 1789391223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/7e64398a-704f-4bb9-8a1b-1d6761513610.jpg",
+    "title": "เกาหลีใต้เร่งอบรมผู้สูงอายุรับมือช่องว่างดิจิทัล",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260914/korea-aims-to-save-seniors-lost-in-digital-age?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_fdb49ceb",
+    "date": "2026-09-14",
+    "ts": 1789382298000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091308510001300_P2.jpg",
+    "title": "กัปตันทีมบอลชายเอเชียนเกมส์ปลุกเร้าเพื่อนร่วมทีม",
+    "link": "https://en.yna.co.kr/view/AEN20260914010000315"
+  },
+  {
+    "id": "hotnews_th_a88f005d",
+    "date": "2026-09-14",
+    "ts": 1789378761000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009500320_01_i_P2.jpg",
+    "title": "POSCO International ทุ่มซื้อก๊าซชิสในสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20260914009500320"
+  },
+  {
+    "id": "hotnews_th_bb94c8ed",
+    "date": "2026-09-14",
+    "ts": 1789377973000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.ca93d3d89cc54f5289059444a29f6015_T1.jpg",
+    "title": "เกาหลีใต้และอุซเบกิสถานร่วมมือเพิ่มความสัมพันธ์ด้านอุตสาหกรรมใหม่",
+    "link": "https://www.koreaherald.com/article/10873155"
+  },
+  {
+    "id": "hotnews_th_5352a75a",
+    "date": "2026-09-14",
+    "ts": 1789376745000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-a.v1.20260914.f60ecc7cc53646d780c374e2ed22f249_T1.jpg",
+    "title": "ศิลปิน K-pop สร้างชื่อเสียงในงาน Rock in Rio ที่บราซิล",
+    "link": "https://www.koreaherald.com/article/10873142"
+  },
+  {
+    "id": "hotnews_th_bf933718",
+    "date": "2026-09-14",
+    "ts": 1789375742000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.cf228027682d4ab596db151f61461cfc_T1.jpg",
+    "title": "ผู้สูงอายุโซลและนักเรียนต่างชาติร่วมทำซงพยอนวันชูซอก",
+    "link": "https://www.koreaherald.com/article/10873129"
+  },
+  {
+    "id": "hotnews_th_64df7794",
+    "date": "2026-09-14",
+    "ts": 1789375044000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914065931_93_e.jpg",
+    "title": "กระทรวงรวมชาติเกาหลีใต้พร้อมส่งมอบอุปกรณ์การแพทย์ให้เกาหลีเหนือ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204237"
+  },
+  {
+    "id": "hotnews_th_88eca064",
+    "date": "2026-09-14",
+    "ts": 1789373167000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009200315_01_i_P2.jpg",
+    "title": "ผู้เสนอชื่อหัวหน้าสำนักงานสืบสวนอาชญากรรมสนับสนุนการปฏิรูปกระบวนการยุติธรรม",
+    "link": "https://en.yna.co.kr/view/AEN20260914009200315"
+  },
+  {
+    "id": "hotnews_th_4eccc84a",
+    "date": "2026-09-14",
+    "ts": 1789372578000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914050825_32_e.jpg",
+    "title": "ลีหารือประธาน ADB เรื่องความร่วมมือด้านแร่ธาตุสำคัญ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204233"
+  },
+  {
     "id": "hotnews_th_f06e1ed4",
     "date": "2026-09-14",
     "ts": 1789363022000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.535780ef98264602b48b08bd11eacee3_T1.jpg",
     "title": "Lotte และ KAIST เปิดศูนย์วิจัยร่วมพัฒนาเทคโนโลยีแห่งอนาคต",
     "link": "https://www.koreaherald.com/article/10871623"
-  },
-  {
-    "id": "hotnews_th_532284d6",
-    "date": "2026-09-13",
-    "ts": 1789276023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/f9ec48ab-6a1d-48a4-9ab7-d86cfa737122.jpeg",
-    "title": "การพัฒนามาโกกพลิกโฉมพื้นที่เกษตรกรรมสู่ศูนย์กลางเมืองใหม่",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260913/how-magok-development-changed-southwestern-seouls-historical-landscape?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c5af520f",
-    "date": "2026-09-13",
-    "ts": 1789275376000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.622c98f257f64de8a946ef76c6caae3b_T1.jpeg",
-    "title": "ประธาน SK เผยความร่วมมือดาต้าเซ็นเตอร์ AI กับ Big Tech รุดหน้าเร็ว",
-    "link": "https://www.koreaherald.com/article/10871612"
-  },
-  {
-    "id": "hotnews_th_2941c91a",
-    "date": "2026-09-13",
-    "ts": 1789275099000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
-    "title": "ทำเนียบประธานาธิบดีเคารพการถอนตัวของผู้เสนอชื่อรมว.ความเท่าเทียมทางเพศ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204213"
-  },
-  {
-    "id": "hotnews_th_56c34d57",
-    "date": "2026-09-13",
-    "ts": 1789274249000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.41e79fb41ab242e88b21887e53653f83_T1.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ เตรียมจัดประชุมการทูตและกลาโหมระดับสูง",
-    "link": "https://www.koreaherald.com/article/10871605"
-  },
-  {
-    "id": "hotnews_th_3dcc4038",
-    "date": "2026-09-13",
-    "ts": 1789274086000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260911.PRU20260911305601009_T1.jpg",
-    "title": "เกิดเหตุโจมตีเรือในช่องแคบฮอร์มุซ หวั่นกระทบอุปทานน้ำมันโลก",
-    "link": "https://www.koreaherald.com/article/10871604"
-  },
-  {
-    "id": "hotnews_th_940246ad",
-    "date": "2026-09-13",
-    "ts": 1789273712000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913012805_0_e.jpg",
-    "title": "เรือสินค้าเกาหลีใต้เดินทางถึงอังกฤษผ่านเส้นทางอาร์กติก",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204212"
-  },
-  {
-    "id": "hotnews_th_57abc18e",
-    "date": "2026-09-13",
-    "ts": 1789272296000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913125159_41_e.jpg",
-    "title": "ผู้เสนอชื่อรัฐมนตรีว่าการกระทรวงความเท่าเทียมทางเพศถอนตัว",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204211"
-  },
-  {
-    "id": "hotnews_th_9121ea20",
-    "date": "2026-09-13",
-    "ts": 1789261417000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091301590001300_P2.jpg",
-    "title": "วอลเลย์บอลหญิงทีมชาติเกาหลีใต้เดินทางไปญี่ปุ่นเพื่อสู้ศึกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260913000600315"
-  },
-  {
-    "id": "hotnews_th_11cf21ab",
-    "date": "2026-09-13",
-    "ts": 1789258694000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PUP20260913012601009_T1.jpg",
-    "title": "ผลงาน Woman Unknown คว้าสิงโตทองคำจากเทศกาลภาพยนตร์เวนิสครั้งที่ 83",
-    "link": "https://www.koreaherald.com/article/10871458"
-  },
-  {
-    "id": "hotnews_th_4cf99666",
-    "date": "2026-09-13",
-    "ts": 1789257606000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911007900320_03_i_P2.jpg",
-    "title": "ฮุนไดเร่งพัฒนาระบบขับเคลื่อนอัตโนมัติด้วย AI และข้อมูลการขับขี่จริง",
-    "link": "https://en.yna.co.kr/view/AEN20260911007900320"
   }
 ]

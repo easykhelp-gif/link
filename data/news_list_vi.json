@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_a966b5ea",
+    "date": "2026-09-14",
+    "ts": 1789391223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/6bbf8a55-abae-49f7-b1b1-8bdb1ea349d8.jpeg",
+    "title": "Sinh viên ASEAN tại Hàn Quốc tham gia sự kiện hướng nghiệp",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260914/asean-students-find-career-guidance-community-in-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_6abbfc9e",
+    "date": "2026-09-14",
+    "ts": 1789391223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/7e64398a-704f-4bb9-8a1b-1d6761513610.jpg",
+    "title": "Hàn Quốc tăng cường hỗ trợ người cao tuổi rành công nghệ",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260914/korea-aims-to-save-seniors-lost-in-digital-age?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_fdb49ceb",
+    "date": "2026-09-14",
+    "ts": 1789382298000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091308510001300_P2.jpg",
+    "title": "Đội trưởng bóng đá nam Asiad thúc giục đồng đội tăng tốc độ",
+    "link": "https://en.yna.co.kr/view/AEN20260914010000315"
+  },
+  {
+    "id": "hotnews_vi_a88f005d",
+    "date": "2026-09-14",
+    "ts": 1789378761000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009500320_01_i_P2.jpg",
+    "title": "POSCO International huy động vốn mua tài sản khí đá phiến tại Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20260914009500320"
+  },
+  {
+    "id": "hotnews_vi_bb94c8ed",
+    "date": "2026-09-14",
+    "ts": 1789377973000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.ca93d3d89cc54f5289059444a29f6015_T1.jpg",
+    "title": "Hàn và Uzbekistan mở rộng hợp tác chiến lược",
+    "link": "https://www.koreaherald.com/article/10873155"
+  },
+  {
+    "id": "hotnews_vi_5352a75a",
+    "date": "2026-09-14",
+    "ts": 1789376745000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-a.v1.20260914.f60ecc7cc53646d780c374e2ed22f249_T1.jpg",
+    "title": "Các ngôi sao K-pop tỏa sáng tại lễ hội Rock in Rio ở Brazil",
+    "link": "https://www.koreaherald.com/article/10873142"
+  },
+  {
+    "id": "hotnews_vi_bf933718",
+    "date": "2026-09-14",
+    "ts": 1789375742000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.cf228027682d4ab596db151f61461cfc_T1.jpg",
+    "title": "Người cao tuổi Seoul và sinh viên quốc tế làm bánh songpyeon",
+    "link": "https://www.koreaherald.com/article/10873129"
+  },
+  {
+    "id": "hotnews_vi_64df7794",
+    "date": "2026-09-14",
+    "ts": 1789375044000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914065931_93_e.jpg",
+    "title": "Bộ Thống nhất sẵn sàng viện trợ y tế cho Triều Tiên",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204237"
+  },
+  {
+    "id": "hotnews_vi_88eca064",
+    "date": "2026-09-14",
+    "ts": 1789373167000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009200315_01_i_P2.jpg",
+    "title": "Ứng viên đứng đầu Serious Crimes Investigation Agency ủng hộ cải cách",
+    "link": "https://en.yna.co.kr/view/AEN20260914009200315"
+  },
+  {
+    "id": "hotnews_vi_4eccc84a",
+    "date": "2026-09-14",
+    "ts": 1789372578000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914050825_32_e.jpg",
+    "title": "Lee thảo luận hợp tác khoáng sản chiến lược với ADB",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204233"
+  },
+  {
     "id": "hotnews_vi_f06e1ed4",
     "date": "2026-09-14",
     "ts": 1789363022000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.535780ef98264602b48b08bd11eacee3_T1.jpg",
     "title": "Lotte và KAIST khai trương trung tâm nghiên cứu chung",
     "link": "https://www.koreaherald.com/article/10871623"
-  },
-  {
-    "id": "hotnews_vi_2d8432d3",
-    "date": "2026-09-13",
-    "ts": 1789276011000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.c7043500b9fc4555801f92d5bad3aecb_T1.jpg",
-    "title": "Thông điệp của LHQ gửi Triều Tiên báo hiệu nỗ lực nối lại tiếp xúc",
-    "link": "https://www.koreaherald.com/article/10871622"
-  },
-  {
-    "id": "hotnews_vi_d7fc53a0",
-    "date": "2026-09-13",
-    "ts": 1789275601000,
-    "image": "",
-    "title": "Nhìn lại các sự kiện lịch sử Hàn Quốc diễn ra vào ngày này",
-    "link": "https://en.yna.co.kr/view/AEN20260913001000315"
-  },
-  {
-    "id": "hotnews_vi_c5af520f",
-    "date": "2026-09-13",
-    "ts": 1789275376000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.622c98f257f64de8a946ef76c6caae3b_T1.jpeg",
-    "title": "Chủ tịch SK: Hợp tác trung tâm dữ liệu AI với Big Tech tăng tốc",
-    "link": "https://www.koreaherald.com/article/10871612"
-  },
-  {
-    "id": "hotnews_vi_10bf1a9e",
-    "date": "2026-09-13",
-    "ts": 1789275301000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.3d14e9f9da744420904809d7296be9ee_T1.jpg",
-    "title": "Hàn Quốc đẩy mạnh xây dựng trung tâm bán dẫn tại Jeonnam-Gwangju",
-    "link": "https://www.koreaherald.com/article/10871611"
-  },
-  {
-    "id": "hotnews_vi_2941c91a",
-    "date": "2026-09-13",
-    "ts": 1789275099000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
-    "title": "Phủ Tổng thống tôn trọng việc ứng viên Bộ Bình đẳng giới rút lui",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204213"
-  },
-  {
-    "id": "hotnews_vi_56c34d57",
-    "date": "2026-09-13",
-    "ts": 1789274249000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.41e79fb41ab242e88b21887e53653f83_T1.jpg",
-    "title": "Hàn-Mỹ chuẩn bị hội đàm ngoại giao và quốc phòng cấp cao",
-    "link": "https://www.koreaherald.com/article/10871605"
-  },
-  {
-    "id": "hotnews_vi_3dcc4038",
-    "date": "2026-09-13",
-    "ts": 1789274086000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260911.PRU20260911305601009_T1.jpg",
-    "title": "Lo ngại nguồn cung dầu toàn cầu sau vụ tấn công tại eo biển Hormuz",
-    "link": "https://www.koreaherald.com/article/10871604"
-  },
-  {
-    "id": "hotnews_vi_57abc18e",
-    "date": "2026-09-13",
-    "ts": 1789272296000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260913125159_41_e.jpg",
-    "title": "Ứng viên Bộ trưởng Bình đẳng giới rút lui do tranh cãi",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204211"
-  },
-  {
-    "id": "hotnews_vi_11cf21ab",
-    "date": "2026-09-13",
-    "ts": 1789258694000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PUP20260913012601009_T1.jpg",
-    "title": "Phim \"Woman Unknown\" giành giải Sư tử vàng tại LHP Venice",
-    "link": "https://www.koreaherald.com/article/10871458"
-  },
-  {
-    "id": "hotnews_vi_4cf99666",
-    "date": "2026-09-13",
-    "ts": 1789257606000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/11/AEN20260911007900320_03_i_P2.jpg",
-    "title": "Hyundai đẩy mạnh xe tự lái với trung tâm phần mềm 42dot",
-    "link": "https://en.yna.co.kr/view/AEN20260911007900320"
   }
 ]
