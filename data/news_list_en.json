@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_577edc58",
+    "date": "2026-09-15",
+    "ts": 1789484738000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/rcv.YNA.20260914.PYH2026091413130006100_T1.jpg",
+    "title": "Fewer than 1,200 applicants to qualify for relief after university application outage",
+    "link": "https://www.koreaherald.com/article/10874727"
+  },
+  {
+    "id": "hotnews_en_69eae60f",
+    "date": "2026-09-15",
+    "ts": 1789478678000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.76a3dacb37d54208860b6086abda8c76_T1.png",
+    "title": "Seoul buses are on strike. Here’s how to get around",
+    "link": "https://www.koreaherald.com/article/10874711"
+  },
+  {
+    "id": "hotnews_en_77cfb04d",
+    "date": "2026-09-15",
+    "ts": 1789478547000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.f1c59fcd4f15436b94513d92264c598c_T1.jpg",
+    "title": "Seoul buses to stop from first run Wednesday as mediation collapses",
+    "link": "https://www.koreaherald.com/article/10874710"
+  },
+  {
+    "id": "hotnews_en_dc097741",
+    "date": "2026-09-15",
+    "ts": 1789476812000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.21bcc6f1dc83425dbacdbff3efadc23f_T1.jpg",
+    "title": "S. Korea beat Qatar in men's football behind midfielder's hat trick",
+    "link": "https://www.koreaherald.com/article/10874703"
+  },
+  {
+    "id": "hotnews_en_0f51c1c0",
+    "date": "2026-09-15",
+    "ts": 1789474054000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.62ef09b8afa64f7e894c0b82b264e0d7_T1.jpg",
+    "title": "Media wall in Gyeongju mislabels Chinese outfit as hanbok",
+    "link": "https://www.koreaherald.com/article/10874685"
+  },
+  {
+    "id": "hotnews_en_d26f7f43",
+    "date": "2026-09-15",
+    "ts": 1789474035000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.19c64d5027ae4b9b909ff5668e94dd68_T1.jpg",
+    "title": "'Dracula' featuring Jennie longest-charting song by K-pop artist in Hot 100's top 10",
+    "link": "https://www.koreaherald.com/article/10874684"
+  },
+  {
     "id": "hotnews_en_74bb00d6",
     "date": "2026-09-15",
     "ts": 1789473523000,
@@ -200,12 +248,28 @@
     "link": "https://www.koreaherald.com/article/10874594"
   },
   {
+    "id": "hotnews_en_6738ea67",
+    "date": "2026-09-15",
+    "ts": 1789462387000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915051532_61_e.jpg",
+    "title": "Lee Continues Central Asia Initiative with Presidents of Turkmenistan, Kazakhstan",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204264"
+  },
+  {
     "id": "hotnews_en_d02ffd0a",
     "date": "2026-09-15",
     "ts": 1789460388000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.5ae0ade83c224404ac2c834d41a86ce2_T1.png",
     "title": "Uzbekistan opens bonded warehouse in South Korea",
     "link": "https://www.koreaherald.com/article/10874563"
+  },
+  {
+    "id": "hotnews_en_018d9af4",
+    "date": "2026-09-15",
+    "ts": 1789460117000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260911.e844e0f40af24d15b6149120019c99b9_T1.jpg",
+    "title": "Chinese teen arrested for allegedly eavesdropping on Jeju airport radio communications",
+    "link": "https://www.koreaherald.com/article/10874555"
   },
   {
     "id": "hotnews_en_1b0274f4",
@@ -246,6 +310,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915035859_53_e.jpg",
     "title": "Gayageum Player Lee Sung-joo Wins Grand Prize at KBS Traditional Music Competition",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204263"
+  },
+  {
+    "id": "hotnews_en_f499f367",
+    "date": "2026-09-15",
+    "ts": 1789459165000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915041150_26_e.jpg",
+    "title": "President Lee to Hold Press Conference Friday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204262"
   },
   {
     "id": "hotnews_en_86f56104",
@@ -296,107 +368,35 @@
     "link": "https://www.koreaherald.com/article/10874384"
   },
   {
-    "id": "hotnews_en_e2ba39a7",
+    "id": "hotnews_en_16aad6bb",
     "date": "2026-09-15",
-    "ts": 1789448795000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-a.v1.20260915.cdc8d17474e34aacaab3425abf6feab6_T1.jpg",
-    "title": "Man collapsed on track. Nearby runners knew what to do",
-    "link": "https://www.koreaherald.com/article/10874136"
+    "ts": 1789455302000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915040053_57_k.jpg",
+    "title": "KOSPI Down 0.85% Tuesday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204260"
   },
   {
-    "id": "hotnews_en_e0f15b17",
+    "id": "hotnews_en_20f348f4",
     "date": "2026-09-15",
-    "ts": 1789448582000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004700320_01_i_P2.jpg",
-    "title": "Data ministry discusses AI-driven statistics with OECD, ADB",
-    "link": "https://en.yna.co.kr/view/AEN20260915004700320"
+    "ts": 1789455015000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.bfa28424001b42febf21bb769a45310d_T1.jpg",
+    "title": "KB succession surprise reshapes year-end bank appointments",
+    "link": "https://www.koreaherald.com/article/10874360"
   },
   {
-    "id": "hotnews_en_b382532f",
+    "id": "hotnews_en_fef9e700",
     "date": "2026-09-15",
-    "ts": 1789448491000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.26ad98c36ccf4063ba91072c3f94c239_T1.jpg",
-    "title": "23 years on, ‘Stairway to Heaven’ brings Shin Hyun-joon fresh fame in South America",
-    "link": "https://www.koreaherald.com/article/10874131"
+    "ts": 1789454944000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/rcv.YNA.20260914.PYH2026091418660001300_T1.jpg",
+    "title": "KRX’s extended trading debut draws W1.8tr",
+    "link": "https://www.koreaherald.com/article/10874357"
   },
   {
-    "id": "hotnews_en_ccf91835",
+    "id": "hotnews_en_7767d761",
     "date": "2026-09-15",
-    "ts": 1789448406000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260915001900320"
-  },
-  {
-    "id": "hotnews_en_c6c376b2",
-    "date": "2026-09-15",
-    "ts": 1789448404000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090407160001300_P2.jpg",
-    "title": "Science ministry seeks nearly 3 tln won in ICT research budget next year",
-    "link": "https://en.yna.co.kr/view/AEN20260915002500320"
-  },
-  {
-    "id": "hotnews_en_f9ca984c",
-    "date": "2026-09-15",
-    "ts": 1789447658000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.7abeed0043454c2e831f1067daee92cc_T1.jpg",
-    "title": "K-water advances in W1tr Philippine smart city project",
-    "link": "https://www.koreaherald.com/article/10874114"
-  },
-  {
-    "id": "hotnews_en_f47dc7a5",
-    "date": "2026-09-15",
-    "ts": 1789447516000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091506600031500_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20260915004600320"
-  },
-  {
-    "id": "hotnews_en_1f434d5f",
-    "date": "2026-09-15",
-    "ts": 1789447398000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.8b2130e716e24c7d9ff94d314ce894f4_T1.jpg",
-    "title": "&Team hits career-best with 2nd EP sales",
-    "link": "https://www.koreaherald.com/article/10874106"
-  },
-  {
-    "id": "hotnews_en_3be39350",
-    "date": "2026-09-15",
-    "ts": 1789447095000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.3565f8c6507a40cc9a5b8214da3dcd4f_T1.jpg",
-    "title": "Samsung, Verizon turn mobile network into AI crowd sensor",
-    "link": "https://www.koreaherald.com/article/10874100"
-  },
-  {
-    "id": "hotnews_en_ec8eb623",
-    "date": "2026-09-15",
-    "ts": 1789447078000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.ce7c66f72770418fa7fcd4a1ebcd8bab_T1.jpg",
-    "title": "Mirae Asset's Global X launches MLCC ETF to capture AI power boom",
-    "link": "https://www.koreaherald.com/article/10874099"
-  },
-  {
-    "id": "hotnews_en_0a3ee9d8",
-    "date": "2026-09-15",
-    "ts": 1789446809000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004500320_01_i_P2.jpg",
-    "title": "Volatility controls spike in first day of after-hours trading on Korea Exchange",
-    "link": "https://en.yna.co.kr/view/AEN20260915004500320"
-  },
-  {
-    "id": "hotnews_en_fdde8c76",
-    "date": "2026-09-15",
-    "ts": 1789446663000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-a.v1.20260915.1028aca0fc5741e5a6761f10448509ba_T1.png",
-    "title": "‘Beef’ Season 2 mostly misses out at Emmys",
-    "link": "https://www.koreaherald.com/article/10874079"
-  },
-  {
-    "id": "hotnews_en_ea70818c",
-    "date": "2026-09-15",
-    "ts": 1789446011000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-a.v1.20260915.3a10a211dc254377aedd2c02833757c7_T1.jpg",
-    "title": "Sol LeWitt’s conceptual art comes to Seoul",
-    "link": "https://www.koreaherald.com/article/10874058"
+    "ts": 1789454745000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260427.66c40f4b14054f6a8c036bfc20e046c9_T1.jpg",
+    "title": "[Room Tone] Monopoly’s less famous cousin",
+    "link": "https://www.koreaherald.com/article/10874350"
   }
 ]
