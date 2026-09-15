@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_74bb00d6",
+    "date": "2026-09-15",
+    "ts": 1789473523000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.05630ee51c4644919078370d5b4e694a_T1.jpg",
+    "title": "ชาววัยกลางคนในโซลเกือบ 9 ใน 10 ต้องดูแลพ่อแม่หรือลูก",
+    "link": "https://www.koreaherald.com/article/10874681"
+  },
+  {
+    "id": "hotnews_th_9f15bddd",
+    "date": "2026-09-15",
+    "ts": 1789473423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/3b640121-069d-4346-b481-04737c607094.jpg",
+    "title": "ผู้เชี่ยวชาญชี้ AI เปลี่ยนการจัดอันดับมหาวิทยาลัย แต่ยังต้องพึ่งมนุษย์",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-ai-is-changing-university-rankings-but-human-judgment-still-matters-experts-say?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f9f02ba4",
+    "date": "2026-09-15",
+    "ts": 1789473423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/dd42ddda-12b4-494a-8f66-b2ccd6ec9e50.jpeg",
+    "title": "ผู้เชี่ยวชาญแนะมหาวิทยาลัยปรับตัวในยุค AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-we-are-continually-defining-what-ai-talent-and-players-will-be-needed?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_29b3d58b",
+    "date": "2026-09-15",
+    "ts": 1789471807000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915005952315_02_i_P2.jpg",
+    "title": "เกาหลีใต้กระชับความร่วมมือแร่หายากและ AI กับเอเชียกลาง",
+    "link": "https://en.yna.co.kr/view/AEN20260915005952315"
+  },
+  {
+    "id": "hotnews_th_fd2cdb0b",
+    "date": "2026-09-15",
+    "ts": 1789469049000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010400315_01_i_P2.jpg",
+    "title": "รัฐมนตรีกลาโหมเกาหลีใต้และญี่ปุ่นเห็นพ้องร่วมมือด้านความมั่นคง",
+    "link": "https://en.yna.co.kr/view/AEN20260915010400315"
+  },
+  {
+    "id": "hotnews_th_1b454e2f",
+    "date": "2026-09-15",
+    "ts": 1789467485000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
+    "title": "ตำรวจเกาหลีสอบสวนคดีสายลับ กรณีวัยรุ่นจีนถ่ายภาพฐานทัพ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
+  },
+  {
+    "id": "hotnews_th_26b981cb",
+    "date": "2026-09-15",
+    "ts": 1789465509000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065054_100_e.jpg",
+    "title": "เริ่มการพิจารณาคดีติดสินบนผู้ต้องหาคดีล็อบบี้รัฐมนตรีว่าการกระทรวงยุติธรรม",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204266"
+  },
+  {
+    "id": "hotnews_th_d4868dfe",
+    "date": "2026-09-15",
+    "ts": 1789463068000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.83007f57652849cba2dcf83368155206_T1.jpg",
+    "title": "ประธานาธิบดีอีแจมยองเตรียมแถลงข่าววันศุกร์นี้เพื่อชี้แจงจุดยืนนโยบาย",
+    "link": "https://www.koreaherald.com/article/10874600"
+  },
+  {
+    "id": "hotnews_th_51e4cfc1",
+    "date": "2026-09-15",
+    "ts": 1789458667000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008300320_02_i_P2.jpg",
+    "title": "โค้ชบอลชายเกาหลีเหนือลั่นทำผลงานดีที่สุดในเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260915008300320"
+  },
+  {
+    "id": "hotnews_th_89264435",
+    "date": "2026-09-15",
+    "ts": 1789458209000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008200315_02_i_P2.jpg",
+    "title": "สหภาพรถเมล์โซลขีดเส้นตายเจรจาถึง 3 ทุ่ม ขู่หยุดงานประท้วง",
+    "link": "https://en.yna.co.kr/view/AEN20260915008200315"
+  },
+  {
     "id": "hotnews_th_3be39350",
     "date": "2026-09-15",
     "ts": 1789447095000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914002800315_01_i_P2.jpg",
     "title": "ผู้สมัครตุลาการศาลสูงสุดคิมซองซูสัญญาปรับตัวตามยุคสมัย",
     "link": "https://en.yna.co.kr/view/AEN20260914002800315"
-  },
-  {
-    "id": "hotnews_th_1c14a7f7",
-    "date": "2026-09-13",
-    "ts": 1789331400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.b63a5dd81f3442839de28df4942c5ecc_T1.jpg",
-    "title": "คิม มัน-กี ชี้เกาหลีใต้ควรเพิ่มการลงทุนด้านการป้องกันประเทศ",
-    "link": "https://www.koreaherald.com/article/10871718"
-  },
-  {
-    "id": "hotnews_th_ac5f854c",
-    "date": "2026-09-13",
-    "ts": 1789331400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.87457d09a490409eb05c238f704b82fa_T1.jpg",
-    "title": "กระทรวงแรงงานเกาหลีออกแนวปฏิบัติเรื่องการเจรจาข้อพิพาทแรงงาน",
-    "link": "https://www.koreaherald.com/article/10871717"
-  },
-  {
-    "id": "hotnews_th_0aedcc3c",
-    "date": "2026-09-13",
-    "ts": 1789307394000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312290001300_P2.jpg",
-    "title": "คิม 도영 กลับมาจากอาการบาดเจ็บ ยิงโฮมรันเพิ่มความหวังให้ทีมชาติ",
-    "link": "https://en.yna.co.kr/view/AEN20260913003000315"
-  },
-  {
-    "id": "hotnews_th_546ce437",
-    "date": "2026-09-13",
-    "ts": 1789302301000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260907.PYH2026090714160006100_T1.jpg",
-    "title": "กระทรวงศึกษาธิการเกาหลีช่วยเหลือผู้สมัคร หลังระบบรับสมัครมหาวิทยาลัยล่ม",
-    "link": "https://www.koreaherald.com/article/10871813"
-  },
-  {
-    "id": "hotnews_th_8fbf5a24",
-    "date": "2026-09-13",
-    "ts": 1789301524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/6a2927d5-113e-488a-bda2-e1447df3d2cd.jpg",
-    "title": "ผลสำรวจเผยแรงงาน 8 ใน 10 หนุนกฎหมายคุ้มครองฟรีแลนซ์",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260913/8-in-10-workers-back-broader-labor-protections-for-freelancers-platform-workers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_4097f3ae",
-    "date": "2026-09-13",
-    "ts": 1789301524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/58177d2f-7c57-4ddd-b6a1-e308beda7358.jpg",
-    "title": "เกาหลีใต้ถกเรือดำน้ำนิวเคลียร์รับมือเกาหลีเหนือและอินโด-แปซิฟิก",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260913/koreas-nuclear-powered-submarines-could-take-on-broader-indo-pacific-role?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_135dff0a",
-    "date": "2026-09-13",
-    "ts": 1789300266000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091307360001300_P2.jpg",
-    "title": "เกาหลีใต้ชนะคดีข้อพิพาทนักลงทุนกับนักลงทุนจีนมูลค่า 2.64 แสนล้านวอน",
-    "link": "https://en.yna.co.kr/view/AEN20260913001651315"
-  },
-  {
-    "id": "hotnews_th_ede7c006",
-    "date": "2026-09-13",
-    "ts": 1789299486000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002700315_01_i_P2.jpg",
-    "title": "รัฐมนตรีอุตสาหกรรมเผย โครงการลงทุนแรกในสหรัฐฯ ใกล้บรรลุข้อตกลง",
-    "link": "https://en.yna.co.kr/view/AEN20260913002700315"
-  },
-  {
-    "id": "hotnews_th_9e057c5a",
-    "date": "2026-09-13",
-    "ts": 1789293267000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091303240001300_P2.jpg",
-    "title": "โค้ชฟุตบอลหญิงเกาหลีใต้ไม่กดดันดวลโคลิน เบลล์",
-    "link": "https://en.yna.co.kr/view/AEN20260913002300315"
-  },
-  {
-    "id": "hotnews_th_39ee2df2",
-    "date": "2026-09-13",
-    "ts": 1789292537000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260913.PYH2026091308690001300_T1.jpg",
-    "title": "เมียงดงยังครองแชมป์ศูนย์กลางช้อปปิ้งของนักท่องเที่ยวในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10871768"
   }
 ]

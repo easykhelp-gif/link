@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_74bb00d6",
+    "date": "2026-09-15",
+    "ts": 1789473523000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.05630ee51c4644919078370d5b4e694a_T1.jpg",
+    "title": "Gần 90% người trung niên Seoul chăm sóc người thân",
+    "link": "https://www.koreaherald.com/article/10874681"
+  },
+  {
+    "id": "hotnews_vi_9f15bddd",
+    "date": "2026-09-15",
+    "ts": 1789473423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/3b640121-069d-4346-b481-04737c607094.jpg",
+    "title": "AI thay đổi bảng xếp hạng đại học nhưng vẫn cần con người",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-ai-is-changing-university-rankings-but-human-judgment-still-matters-experts-say?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_f9f02ba4",
+    "date": "2026-09-15",
+    "ts": 1789473423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/dd42ddda-12b4-494a-8f66-b2ccd6ec9e50.jpeg",
+    "title": "Chuyên gia hội thảo Korea Times: Đại học cần đổi mới vì AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-we-are-continually-defining-what-ai-talent-and-players-will-be-needed?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_29b3d58b",
+    "date": "2026-09-15",
+    "ts": 1789471807000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915005952315_02_i_P2.jpg",
+    "title": "Hàn Quốc thúc đẩy hợp tác khoáng sản và AI với Trung Á",
+    "link": "https://en.yna.co.kr/view/AEN20260915005952315"
+  },
+  {
+    "id": "hotnews_vi_fd2cdb0b",
+    "date": "2026-09-15",
+    "ts": 1789469049000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010400315_01_i_P2.jpg",
+    "title": "Bộ trưởng Quốc phòng Hàn - Nhật điện đàm hợp tác",
+    "link": "https://en.yna.co.kr/view/AEN20260915010400315"
+  },
+  {
+    "id": "hotnews_vi_1b454e2f",
+    "date": "2026-09-15",
+    "ts": 1789467485000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
+    "title": "Thiếu niên Trung Quốc chụp ảnh căn cứ quân sự Hàn Quốc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
+  },
+  {
+    "id": "hotnews_vi_26b981cb",
+    "date": "2026-09-15",
+    "ts": 1789465509000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065054_100_e.jpg",
+    "title": "Xét xử vụ hối lộ liên quan đến Bộ trưởng Tư pháp",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204266"
+  },
+  {
+    "id": "hotnews_vi_d4868dfe",
+    "date": "2026-09-15",
+    "ts": 1789463068000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.83007f57652849cba2dcf83368155206_T1.jpg",
+    "title": "Tổng thống Lee Jae Myung tổ chức họp báo vào thứ Sáu",
+    "link": "https://www.koreaherald.com/article/10874600"
+  },
+  {
+    "id": "hotnews_vi_51e4cfc1",
+    "date": "2026-09-15",
+    "ts": 1789458667000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008300320_02_i_P2.jpg",
+    "title": "HLV bóng đá nam Triều Tiên đặt mục tiêu cao tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260915008300320"
+  },
+  {
+    "id": "hotnews_vi_89264435",
+    "date": "2026-09-15",
+    "ts": 1789458209000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008200315_02_i_P2.jpg",
+    "title": "Công đoàn xe buýt Seoul dọa đình công từ sáng thứ Tư",
+    "link": "https://en.yna.co.kr/view/AEN20260915008200315"
+  },
+  {
     "id": "hotnews_vi_3be39350",
     "date": "2026-09-15",
     "ts": 1789447095000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914002800315_01_i_P2.jpg",
     "title": "Ứng viên Thẩm phán Tối cao cam kết bắt kịp thời đại",
     "link": "https://en.yna.co.kr/view/AEN20260914002800315"
-  },
-  {
-    "id": "hotnews_vi_1c14a7f7",
-    "date": "2026-09-13",
-    "ts": 1789331400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.b63a5dd81f3442839de28df4942c5ecc_T1.jpg",
-    "title": "Hàn Quốc cần tăng cường đầu tư vào quốc phòng",
-    "link": "https://www.koreaherald.com/article/10871718"
-  },
-  {
-    "id": "hotnews_vi_ac5f854c",
-    "date": "2026-09-13",
-    "ts": 1789331400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/news-p.v1.20260913.87457d09a490409eb05c238f704b82fa_T1.jpg",
-    "title": "Hướng dẫn mới về tranh chấp lao động và Luật Túi Vàng",
-    "link": "https://www.koreaherald.com/article/10871717"
-  },
-  {
-    "id": "hotnews_vi_0aedcc3c",
-    "date": "2026-09-13",
-    "ts": 1789307394000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312290001300_P2.jpg",
-    "title": "Kim Do-yeong trở lại ấn tượng sau chấn thương mũi",
-    "link": "https://en.yna.co.kr/view/AEN20260913003000315"
-  },
-  {
-    "id": "hotnews_vi_546ce437",
-    "date": "2026-09-13",
-    "ts": 1789302301000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/13/rcv.YNA.20260907.PYH2026090714160006100_T1.jpg",
-    "title": "Lỗi hệ thống xét tuyển đại học: Bộ Giáo dục tìm giải pháp hỗ trợ",
-    "link": "https://www.koreaherald.com/article/10871813"
-  },
-  {
-    "id": "hotnews_vi_8fbf5a24",
-    "date": "2026-09-13",
-    "ts": 1789301524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/6a2927d5-113e-488a-bda2-e1447df3d2cd.jpg",
-    "title": "Khoảng 80% người lao động ủng hộ bảo vệ quyền lợi freelancer",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260913/8-in-10-workers-back-broader-labor-protections-for-freelancers-platform-workers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_4097f3ae",
-    "date": "2026-09-13",
-    "ts": 1789301524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/13/58177d2f-7c57-4ddd-b6a1-e308beda7358.jpg",
-    "title": "Tàu ngầm hạt nhân Hàn Quốc có thể mở rộng vai trò ở Ấn Độ - Thái Bình Dương",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260913/koreas-nuclear-powered-submarines-could-take-on-broader-indo-pacific-role?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_532284d6",
-    "date": "2026-09-13",
-    "ts": 1789301524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/f9ec48ab-6a1d-48a4-9ab7-d86cfa737122.jpeg",
-    "title": "Sự đổi thay của khu đô thị Magok ở Tây Nam Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260913/how-magok-development-changed-southwestern-seouls-historical-landscape?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_135dff0a",
-    "date": "2026-09-13",
-    "ts": 1789300266000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091307360001300_P2.jpg",
-    "title": "Hàn Quốc thắng kiện nhà đầu tư Trung Quốc vụ tranh chấp 264,1 tỷ won",
-    "link": "https://en.yna.co.kr/view/AEN20260913001651315"
-  },
-  {
-    "id": "hotnews_vi_ede7c006",
-    "date": "2026-09-13",
-    "ts": 1789299486000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/13/AEN20260913002700315_01_i_P2.jpg",
-    "title": "Dự án đầu tư đầu tiên sang Mỹ sắp đạt thỏa thuận",
-    "link": "https://en.yna.co.kr/view/AEN20260913002700315"
-  },
-  {
-    "id": "hotnews_vi_9e057c5a",
-    "date": "2026-09-13",
-    "ts": 1789293267000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091303240001300_P2.jpg",
-    "title": "HLV bóng đá nữ Hàn Quốc không áp lực trước cựu HLV Colin Bell",
-    "link": "https://en.yna.co.kr/view/AEN20260913002300315"
   }
 ]
