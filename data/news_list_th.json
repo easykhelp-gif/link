@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_th_eeaef89f",
+    "date": "2026-09-15",
+    "ts": 1789506314000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5d7f9d24e20b461aab42666aaa71bb5e_T1.jpg",
+    "title": "ยกเลิกนัดหยุดงานรถเมล์โซลหลังบรรลุข้อตกลงขึ้นค่าแรง 3.2%",
+    "link": "https://www.koreaherald.com/article/10874753"
+  },
+  {
+    "id": "hotnews_th_337429c6",
+    "date": "2026-09-15",
+    "ts": 1789504200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.6bcbb83ad1d343fc81ee0640c0a1dd1f_T1.jpg",
+    "title": "ชีวิตประจำวันของเราสามารถกลายเป็นบทกวีได้",
+    "link": "https://www.koreaherald.com/article/10874565"
+  },
+  {
+    "id": "hotnews_th_2b131b3e",
+    "date": "2026-09-15",
+    "ts": 1789503367000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916000300315_01_i_P2.jpg",
+    "title": "แรงงานเกาหลีกว่า 300 คนฟ้องรัฐบาลสหรัฐฯ ปมกวาดล้างคนเข้าเมือง",
+    "link": "https://en.yna.co.kr/view/AEN20260916000300315"
+  },
+  {
     "id": "hotnews_th_7ae4cd0b",
     "date": "2026-09-15",
     "ts": 1789488435000,
@@ -16,12 +40,28 @@
     "link": "https://www.koreaherald.com/article/10874727"
   },
   {
+    "id": "hotnews_th_72429d6c",
+    "date": "2026-09-15",
+    "ts": 1789481174000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008252315_07_i_P2.jpg",
+    "title": "สสห.รถเมล์โซลเตรียมผันหยุดงานประท้วงวันพุธหลังเจรจาค่าจ้างล้มเหลว",
+    "link": "https://en.yna.co.kr/view/AEN20260915008252315"
+  },
+  {
     "id": "hotnews_th_40166270",
     "date": "2026-09-15",
     "ts": 1789480895000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528040001300_P2.jpg",
     "title": "โค้ชทีมชาติไทยเตือนลูกทีมหลังชนะกาตาร์ 4-1",
     "link": "https://en.yna.co.kr/view/AEN20260915011200315"
+  },
+  {
+    "id": "hotnews_th_1e117dac",
+    "date": "2026-09-15",
+    "ts": 1789479580000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524950001300_P2.jpg",
+    "title": "ออม จี-ซอง ทำแฮตทริกพาเกาหลีใต้ชนะกาตาร์ 4-1 เอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260915011051315"
   },
   {
     "id": "hotnews_th_69eae60f",
@@ -96,12 +136,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-we-are-continually-defining-what-ai-talent-and-players-will-be-needed?utm_source=rss"
   },
   {
+    "id": "hotnews_th_a91172e9",
+    "date": "2026-09-15",
+    "ts": 1789472975000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.367b2c49cd804c37ad64217735d3519f_T1.jpg",
+    "title": "ซาอุดีอาระเบียประกาศตอบโต้อย่างเด็ดขาดต่อกลุ่มฮูตี",
+    "link": "https://www.koreaherald.com/article/10874680"
+  },
+  {
     "id": "hotnews_th_29b3d58b",
     "date": "2026-09-15",
     "ts": 1789471807000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915005952315_02_i_P2.jpg",
     "title": "เกาหลีใต้กระชับความร่วมมือแร่หายากและ AI กับเอเชียกลาง",
     "link": "https://en.yna.co.kr/view/AEN20260915005952315"
+  },
+  {
+    "id": "hotnews_th_6a031bfe",
+    "date": "2026-09-15",
+    "ts": 1789470398000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004551320_02_i_P2.jpg",
+    "title": "ตลาดหุ้นเกาหลีเปิดเทรดหลังเวลาทำการวันแรก ผันผวนพุ่งสูง",
+    "link": "https://en.yna.co.kr/view/AEN20260915004551320"
   },
   {
     "id": "hotnews_th_fd2cdb0b",
@@ -112,12 +168,36 @@
     "link": "https://en.yna.co.kr/view/AEN20260915010400315"
   },
   {
+    "id": "hotnews_th_a081e26d",
+    "date": "2026-09-15",
+    "ts": 1789468909000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010300315_01_i_P2.jpg",
+    "title": "เกาหลีใต้และเติร์กเมนิสถานลงนามข้อตกลงคุ้มครองการลงทุน",
+    "link": "https://en.yna.co.kr/view/AEN20260915010300315"
+  },
+  {
     "id": "hotnews_th_1b454e2f",
     "date": "2026-09-15",
     "ts": 1789467485000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
     "title": "ตำรวจเกาหลีสอบสวนคดีสายลับ กรณีวัยรุ่นจีนถ่ายภาพฐานทัพ",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
+  },
+  {
+    "id": "hotnews_th_ec6b5831",
+    "date": "2026-09-15",
+    "ts": 1789466344000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
+    "title": "KBS วางแผนขยายเนื้อหาเกาหลีสู่เอเชียกลางร่วมกับสื่อคาซัคสถาน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204269"
+  },
+  {
+    "id": "hotnews_th_11c95e63",
+    "date": "2026-09-15",
+    "ts": 1789466045000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065513_12_e.jpg",
+    "title": "แก๊sฟรีออนรั่วบนเรือรัสเซียในพูซาน บาดเจ็บ 5 นาย",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204268"
   },
   {
     "id": "hotnews_th_26b981cb",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.68eea0dfe23a481cb7ddd20d433e99cd_T1.jpg",
     "title": "สภาอธิการบดีเกาหลีขอโทษปัญหาระบบสมัครเข้ามหาวิทยาลัยล่ม",
     "link": "https://www.koreaherald.com/article/10873197"
-  },
-  {
-    "id": "hotnews_th_fdb49ceb",
-    "date": "2026-09-14",
-    "ts": 1789382298000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091308510001300_P2.jpg",
-    "title": "กัปตันทีมบอลชายเอเชียนเกมส์ปลุกเร้าเพื่อนร่วมทีม",
-    "link": "https://en.yna.co.kr/view/AEN20260914010000315"
-  },
-  {
-    "id": "hotnews_th_a88f005d",
-    "date": "2026-09-14",
-    "ts": 1789378761000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009500320_01_i_P2.jpg",
-    "title": "POSCO International ทุ่มซื้อก๊าซชิสในสหรัฐฯ",
-    "link": "https://en.yna.co.kr/view/AEN20260914009500320"
-  },
-  {
-    "id": "hotnews_th_bb94c8ed",
-    "date": "2026-09-14",
-    "ts": 1789377973000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.ca93d3d89cc54f5289059444a29f6015_T1.jpg",
-    "title": "เกาหลีใต้และอุซเบกิสถานร่วมมือเพิ่มความสัมพันธ์ด้านอุตสาหกรรมใหม่",
-    "link": "https://www.koreaherald.com/article/10873155"
-  },
-  {
-    "id": "hotnews_th_6efbc7d8",
-    "date": "2026-09-14",
-    "ts": 1789377962000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914070643_84_e.jpg",
-    "title": "วัยรุ่นจีนถูกห้ามออกนอกเกาหลีใต้ต้องสงสัยแอบฟังหอควบคุมการบิน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204238"
-  },
-  {
-    "id": "hotnews_th_5352a75a",
-    "date": "2026-09-14",
-    "ts": 1789376745000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-a.v1.20260914.f60ecc7cc53646d780c374e2ed22f249_T1.jpg",
-    "title": "ศิลปิน K-pop สร้างชื่อเสียงในงาน Rock in Rio ที่บราซิล",
-    "link": "https://www.koreaherald.com/article/10873142"
-  },
-  {
-    "id": "hotnews_th_d8052b1d",
-    "date": "2026-09-14",
-    "ts": 1789375801000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914005600320_03_i_P2.jpg",
-    "title": "Kia เปิดตัวรถยนต์ไฟฟ้ารุ่น PV7 ครั้งแรกของโลกที่เยอรมนี",
-    "link": "https://en.yna.co.kr/view/AEN20260914005600320"
-  },
-  {
-    "id": "hotnews_th_bf933718",
-    "date": "2026-09-14",
-    "ts": 1789375742000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.cf228027682d4ab596db151f61461cfc_T1.jpg",
-    "title": "ผู้สูงอายุโซลและนักเรียนต่างชาติร่วมทำซงพยอนวันชูซอก",
-    "link": "https://www.koreaherald.com/article/10873129"
-  },
-  {
-    "id": "hotnews_th_64df7794",
-    "date": "2026-09-14",
-    "ts": 1789375044000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914065931_93_e.jpg",
-    "title": "กระทรวงรวมชาติเกาหลีใต้พร้อมส่งมอบอุปกรณ์การแพทย์ให้เกาหลีเหนือ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204237"
-  },
-  {
-    "id": "hotnews_th_88eca064",
-    "date": "2026-09-14",
-    "ts": 1789373167000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009200315_01_i_P2.jpg",
-    "title": "ผู้เสนอชื่อหัวหน้าสำนักงานสืบสวนอาชญากรรมสนับสนุนการปฏิรูปกระบวนการยุติธรรม",
-    "link": "https://en.yna.co.kr/view/AEN20260914009200315"
-  },
-  {
-    "id": "hotnews_th_4eccc84a",
-    "date": "2026-09-14",
-    "ts": 1789372578000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914050825_32_e.jpg",
-    "title": "ลีหารือประธาน ADB เรื่องความร่วมมือด้านแร่ธาตุสำคัญ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204233"
   }
 ]

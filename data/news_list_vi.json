@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_eeaef89f",
+    "date": "2026-09-15",
+    "ts": 1789506314000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5d7f9d24e20b461aab42666aaa71bb5e_T1.jpg",
+    "title": "Xe buýt Seoul chạy bình thường sau thỏa thuận phút chót",
+    "link": "https://www.koreaherald.com/article/10874753"
+  },
+  {
+    "id": "hotnews_vi_337429c6",
+    "date": "2026-09-15",
+    "ts": 1789504200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.6bcbb83ad1d343fc81ee0640c0a1dd1f_T1.jpg",
+    "title": "Cuộc sống bình thường của chúng ta cũng có thể là thơ",
+    "link": "https://www.koreaherald.com/article/10874565"
+  },
+  {
+    "id": "hotnews_vi_2b131b3e",
+    "date": "2026-09-15",
+    "ts": 1789503367000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916000300315_01_i_P2.jpg",
+    "title": "Hơn 300 lao động Hàn Quốc kiện chính phủ Mỹ sau cuộc đột kích",
+    "link": "https://en.yna.co.kr/view/AEN20260916000300315"
+  },
+  {
     "id": "hotnews_vi_7ae4cd0b",
     "date": "2026-09-15",
     "ts": 1789488435000,
@@ -16,12 +40,28 @@
     "link": "https://www.koreaherald.com/article/10874727"
   },
   {
+    "id": "hotnews_vi_72429d6c",
+    "date": "2026-09-15",
+    "ts": 1789481174000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008252315_07_i_P2.jpg",
+    "title": "Công đoàn xe buýt Seoul đình công từ thứ Tư sau khi đàm phán thất bại",
+    "link": "https://en.yna.co.kr/view/AEN20260915008252315"
+  },
+  {
     "id": "hotnews_vi_40166270",
     "date": "2026-09-15",
     "ts": 1789480895000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528040001300_P2.jpg",
     "title": "HLV Lee Min-sung nhắc nhở hàng thủ U23 Hàn Quốc",
     "link": "https://en.yna.co.kr/view/AEN20260915011200315"
+  },
+  {
+    "id": "hotnews_vi_1e117dac",
+    "date": "2026-09-15",
+    "ts": 1789479580000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524950001300_P2.jpg",
+    "title": "Eom Ji-sung lập hat-trick, Hàn Quốc thắng Qatar 4-1 tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260915011051315"
   },
   {
     "id": "hotnews_vi_69eae60f",
@@ -96,12 +136,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-we-are-continually-defining-what-ai-talent-and-players-will-be-needed?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_a91172e9",
+    "date": "2026-09-15",
+    "ts": 1789472975000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.367b2c49cd804c37ad64217735d3519f_T1.jpg",
+    "title": "Ả Rập Xê Út cam kết đáp trả kiên quyết các cuộc tấn công",
+    "link": "https://www.koreaherald.com/article/10874680"
+  },
+  {
     "id": "hotnews_vi_29b3d58b",
     "date": "2026-09-15",
     "ts": 1789471807000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915005952315_02_i_P2.jpg",
     "title": "Hàn Quốc thúc đẩy hợp tác khoáng sản và AI với Trung Á",
     "link": "https://en.yna.co.kr/view/AEN20260915005952315"
+  },
+  {
+    "id": "hotnews_vi_6a031bfe",
+    "date": "2026-09-15",
+    "ts": 1789470398000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004551320_02_i_P2.jpg",
+    "title": "Biến động giá tăng mạnh ngày đầu giao dịch ngoài giờ ở KRX",
+    "link": "https://en.yna.co.kr/view/AEN20260915004551320"
   },
   {
     "id": "hotnews_vi_fd2cdb0b",
@@ -112,12 +168,36 @@
     "link": "https://en.yna.co.kr/view/AEN20260915010400315"
   },
   {
+    "id": "hotnews_vi_a081e26d",
+    "date": "2026-09-15",
+    "ts": 1789468909000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010300315_01_i_P2.jpg",
+    "title": "Hàn Quốc và Turkmenistan ký thỏa thuận bảo hộ đầu tư",
+    "link": "https://en.yna.co.kr/view/AEN20260915010300315"
+  },
+  {
     "id": "hotnews_vi_1b454e2f",
     "date": "2026-09-15",
     "ts": 1789467485000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
     "title": "Thiếu niên Trung Quốc chụp ảnh căn cứ quân sự Hàn Quốc",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
+  },
+  {
+    "id": "hotnews_vi_ec6b5831",
+    "date": "2026-09-15",
+    "ts": 1789466344000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
+    "title": "KBS mở rộng tầm ảnh hưởng K-content tại Trung Á",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204269"
+  },
+  {
+    "id": "hotnews_vi_11c95e63",
+    "date": "2026-09-15",
+    "ts": 1789466045000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065513_12_e.jpg",
+    "title": "Rò rỉ khí Freon tàu Nga tại Busan làm 5 thủy thủ bị thương",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204268"
   },
   {
     "id": "hotnews_vi_26b981cb",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.68eea0dfe23a481cb7ddd20d433e99cd_T1.jpg",
     "title": "Hội đồng đại học xin lỗi vì lỗi hệ thống nộp hồ sơ xét tuyển",
     "link": "https://www.koreaherald.com/article/10873197"
-  },
-  {
-    "id": "hotnews_vi_fdb49ceb",
-    "date": "2026-09-14",
-    "ts": 1789382298000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091308510001300_P2.jpg",
-    "title": "Đội trưởng bóng đá nam Asiad thúc giục đồng đội tăng tốc độ",
-    "link": "https://en.yna.co.kr/view/AEN20260914010000315"
-  },
-  {
-    "id": "hotnews_vi_a88f005d",
-    "date": "2026-09-14",
-    "ts": 1789378761000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009500320_01_i_P2.jpg",
-    "title": "POSCO International huy động vốn mua tài sản khí đá phiến tại Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260914009500320"
-  },
-  {
-    "id": "hotnews_vi_bb94c8ed",
-    "date": "2026-09-14",
-    "ts": 1789377973000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.ca93d3d89cc54f5289059444a29f6015_T1.jpg",
-    "title": "Hàn và Uzbekistan mở rộng hợp tác chiến lược",
-    "link": "https://www.koreaherald.com/article/10873155"
-  },
-  {
-    "id": "hotnews_vi_6efbc7d8",
-    "date": "2026-09-14",
-    "ts": 1789377962000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914070643_84_e.jpg",
-    "title": "Thiếu niên Trung Quốc bị cấm xuất cảnh khỏi Hàn Quốc",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204238"
-  },
-  {
-    "id": "hotnews_vi_5352a75a",
-    "date": "2026-09-14",
-    "ts": 1789376745000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-a.v1.20260914.f60ecc7cc53646d780c374e2ed22f249_T1.jpg",
-    "title": "Các ngôi sao K-pop tỏa sáng tại lễ hội Rock in Rio ở Brazil",
-    "link": "https://www.koreaherald.com/article/10873142"
-  },
-  {
-    "id": "hotnews_vi_d8052b1d",
-    "date": "2026-09-14",
-    "ts": 1789375801000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914005600320_03_i_P2.jpg",
-    "title": "Kia ra mắt xe điện PV7 tại Đức",
-    "link": "https://en.yna.co.kr/view/AEN20260914005600320"
-  },
-  {
-    "id": "hotnews_vi_bf933718",
-    "date": "2026-09-14",
-    "ts": 1789375742000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.cf228027682d4ab596db151f61461cfc_T1.jpg",
-    "title": "Người cao tuổi Seoul và sinh viên quốc tế làm bánh songpyeon",
-    "link": "https://www.koreaherald.com/article/10873129"
-  },
-  {
-    "id": "hotnews_vi_64df7794",
-    "date": "2026-09-14",
-    "ts": 1789375044000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914065931_93_e.jpg",
-    "title": "Bộ Thống nhất sẵn sàng viện trợ y tế cho Triều Tiên",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204237"
-  },
-  {
-    "id": "hotnews_vi_88eca064",
-    "date": "2026-09-14",
-    "ts": 1789373167000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009200315_01_i_P2.jpg",
-    "title": "Ứng viên đứng đầu Serious Crimes Investigation Agency ủng hộ cải cách",
-    "link": "https://en.yna.co.kr/view/AEN20260914009200315"
-  },
-  {
-    "id": "hotnews_vi_4eccc84a",
-    "date": "2026-09-14",
-    "ts": 1789372578000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260914050825_32_e.jpg",
-    "title": "Lee thảo luận hợp tác khoáng sản chiến lược với ADB",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204233"
   }
 ]
