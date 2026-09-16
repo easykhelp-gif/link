@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_f216949a",
+    "date": "2026-09-16",
+    "ts": 1789535223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/2755675c-ba77-4706-bfbe-29e67a8c4960.jpeg",
+    "title": "Robot chăm sóc thế hệ mới hỗ trợ người cao tuổi tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260916/next-gen-robots-step-in-to-assist-koreas-elderly-and-disabled?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_434e3c11",
+    "date": "2026-09-16",
+    "ts": 1789535223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/0b9b0c28-5512-4f4a-b7b9-c4f32c310caf.jpeg",
+    "title": "Seoul hỗ trợ du học sinh tìm việc và định cư",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260916/seoul-launches-final-2026-class-to-help-foreign-graduates-land-jobs-and-stay?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_30e686a6",
+    "date": "2026-09-16",
+    "ts": 1789534724000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916004151315_03_i_P2.jpg",
+    "title": "Hàn Quốc và Tajikistan thiết lập quan hệ đối tác toàn diện",
+    "link": "https://en.yna.co.kr/view/AEN20260916004151315"
+  },
+  {
+    "id": "hotnews_vi_728d0cc4",
+    "date": "2026-09-16",
+    "ts": 1789533612000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.76dee6317a75416aaec42ceaa9b7ca40_T1.jpg",
+    "title": "Fan nữ Stray Kids tử vong trước concert tại Argentina",
+    "link": "https://www.koreaherald.com/article/10875579"
+  },
+  {
+    "id": "hotnews_vi_7df1cc1c",
+    "date": "2026-09-16",
+    "ts": 1789533205000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260102.800a701eda034d93a2ef5d10a4c8a3db_T1.jpg",
+    "title": "Cựu Tổng thống Yoon Suk Yeol được tuyên trắng án tội khai gian",
+    "link": "https://www.koreaherald.com/article/10875572"
+  },
+  {
+    "id": "hotnews_vi_0d019dda",
+    "date": "2026-09-16",
+    "ts": 1789527873000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.bef9efdb09cc43a68665cd9bbab1816e_T1.png",
+    "title": "Thắt chặt kiểm duyệt trailer chiếu trước phim trẻ em",
+    "link": "https://www.koreaherald.com/article/10875522"
+  },
+  {
+    "id": "hotnews_vi_2916f83e",
+    "date": "2026-09-16",
+    "ts": 1789527659000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091603990001300_P2.jpg",
+    "title": "Hàn Quốc công bố kế hoạch cho phép sử dụng thuốc phá thai",
+    "link": "https://en.yna.co.kr/view/AEN20260916003551315"
+  },
+  {
+    "id": "hotnews_vi_584c40c5",
+    "date": "2026-09-16",
+    "ts": 1789526171000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090904280005300_P2.jpg",
+    "title": "Công nhân POSCO đình công lần hai vì đàm phán lương",
+    "link": "https://en.yna.co.kr/view/AEN20260916001551320"
+  },
+  {
+    "id": "hotnews_vi_fb793318",
+    "date": "2026-09-16",
+    "ts": 1789525747000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916003851315_02_i_P2.jpg",
+    "title": "Tòa án Hàn Quốc buộc Triều Tiên bồi thường 44,6 tỷ won",
+    "link": "https://en.yna.co.kr/view/AEN20260916003851315"
+  },
+  {
+    "id": "hotnews_vi_f99bf481",
+    "date": "2026-09-16",
+    "ts": 1789525482000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091606480001301_P2.jpg",
+    "title": "Ứng cử viên Bộ trưởng Đất đai cam kết tăng tốc cung nhà ở",
+    "link": "https://en.yna.co.kr/view/AEN20260916003900320"
+  },
+  {
     "id": "hotnews_vi_eeaef89f",
     "date": "2026-09-15",
     "ts": 1789506314000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/01/PYH2026040108330005200_P2.jpg",
     "title": "Hàn Quốc mua thêm trực thăng Seahawk của Mỹ đến năm 2032",
     "link": "https://en.yna.co.kr/view/AEN20260915003000315"
-  },
-  {
-    "id": "hotnews_vi_f307b342",
-    "date": "2026-09-14",
-    "ts": 1789422723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/11/82e5f0cf-53e4-43b4-9a57-b4b0f6be16b9.jpg",
-    "title": "Ngành nuôi trồng thủy sản Hàn Quốc điêu đứng vì biến đổi khí hậu",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260915/koreas-aquaculture-takes-full-blow-of-climate-change?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_70789071",
-    "date": "2026-09-14",
-    "ts": 1789419604000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914009900320_01_i_P2.jpg",
-    "title": "Các công ty bảo hiểm ô tô tại Hàn Quốc lần đầu lỗ sau 6 năm",
-    "link": "https://en.yna.co.kr/view/AEN20260914009900320"
-  },
-  {
-    "id": "hotnews_vi_66cb80d5",
-    "date": "2026-09-14",
-    "ts": 1789419601000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914010100320_02_i_P2.jpg",
-    "title": "Giá nhập khẩu Hàn Quốc giảm tháng thứ 3 liên tiếp vào tháng 8",
-    "link": "https://en.yna.co.kr/view/AEN20260914010100320"
-  },
-  {
-    "id": "hotnews_vi_e6318b62",
-    "date": "2026-09-14",
-    "ts": 1789417800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.9641a5be001b4831a60a5cfe9075b995_T1.jpg",
-    "title": "Già đi trong kỷ nguyên trí tuệ nhân tạo AI",
-    "link": "https://www.koreaherald.com/article/10873094"
-  },
-  {
-    "id": "hotnews_vi_69323729",
-    "date": "2026-09-14",
-    "ts": 1789417800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.176ab565a1b444e28e703885f8a50a65_T1.jpg",
-    "title": "Học phí đại học Mỹ cần được điều chỉnh lại hợp lý hơn",
-    "link": "https://www.koreaherald.com/article/10873093"
-  },
-  {
-    "id": "hotnews_vi_3990e3c4",
-    "date": "2026-09-14",
-    "ts": 1789392120000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914010500320_01_i_P2.jpg",
-    "title": "Giao dịch ngoài giờ đầu tiên tại KRX đạt 1.800 tỷ won",
-    "link": "https://en.yna.co.kr/view/AEN20260914010500320"
-  },
-  {
-    "id": "hotnews_vi_a966b5ea",
-    "date": "2026-09-14",
-    "ts": 1789391223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/6bbf8a55-abae-49f7-b1b1-8bdb1ea349d8.jpeg",
-    "title": "Sinh viên ASEAN tại Hàn Quốc tham gia sự kiện hướng nghiệp",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260914/asean-students-find-career-guidance-community-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6abbfc9e",
-    "date": "2026-09-14",
-    "ts": 1789391223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/7e64398a-704f-4bb9-8a1b-1d6761513610.jpg",
-    "title": "Hàn Quốc tăng cường hỗ trợ người cao tuổi rành công nghệ",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260914/korea-aims-to-save-seniors-lost-in-digital-age?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_abc5270d",
-    "date": "2026-09-14",
-    "ts": 1789388233000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/rcv.YNA.20260913.PYH2026091308490001300_T1.jpg",
-    "title": "Đội trưởng bóng đá nam kêu gọi toàn đội tập trung cao độ",
-    "link": "https://www.koreaherald.com/article/10873206"
-  },
-  {
-    "id": "hotnews_vi_31024825",
-    "date": "2026-09-14",
-    "ts": 1789384487000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/14/news-p.v1.20260914.68eea0dfe23a481cb7ddd20d433e99cd_T1.jpg",
-    "title": "Hội đồng đại học xin lỗi vì lỗi hệ thống nộp hồ sơ xét tuyển",
-    "link": "https://www.koreaherald.com/article/10873197"
   }
 ]
