@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_8b3fe1c0",
+    "date": "2026-09-16",
+    "ts": 1789591810000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000700315_01_i_P2.jpg",
+    "title": "Mỹ điều tra Samsung, Apple và Google vì vi phạm bằng sáng chế",
+    "link": "https://en.yna.co.kr/view/AEN20260917000700315"
+  },
+  {
+    "id": "hotnews_vi_cfab5a23",
+    "date": "2026-09-16",
+    "ts": 1789590600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.b1fa95e687514bda88f9874660e886e7_T1.jpg",
+    "title": "Tranh luận về trí tuệ nhân tạo AI tại Mỹ",
+    "link": "https://www.koreaherald.com/article/10875965"
+  },
+  {
+    "id": "hotnews_vi_a924439f",
+    "date": "2026-09-16",
+    "ts": 1789590600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.62cc095106db47caaebe89714d9b9dd8_T1.jpg",
+    "title": "Xu hướng phòng ngừa rụng tóc sớm",
+    "link": "https://www.koreaherald.com/article/10875964"
+  },
+  {
+    "id": "hotnews_vi_e24777ff",
+    "date": "2026-09-16",
+    "ts": 1789588693000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000600315_01_i_P2.jpg",
+    "title": "Trump và Tập Cận Bình dự kiến bàn về Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260917000600315"
+  },
+  {
+    "id": "hotnews_vi_f6034c74",
+    "date": "2026-09-16",
+    "ts": 1789581703000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Fed tăng lãi suất thêm 0,25 điểm % lần đầu từ tháng 7/2023",
+    "link": "https://en.yna.co.kr/view/AEN20260917000200315"
+  },
+  {
     "id": "hotnews_vi_b297c561",
     "date": "2026-09-16",
     "ts": 1789569384000,
@@ -120,6 +160,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260916011300315"
   },
   {
+    "id": "hotnews_vi_3f17c8ef",
+    "date": "2026-09-16",
+    "ts": 1789553894000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524080001300_P2.jpg",
+    "title": "Tiền vệ Lee Seung-won hướng tới các trận tiếp theo ở Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260916011100315"
+  },
+  {
+    "id": "hotnews_vi_edf66c09",
+    "date": "2026-09-16",
+    "ts": 1789553828000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091626920001300_P2.jpg",
+    "title": "Đội trưởng Kang So-hwi giúp bóng chuyền Hàn Quốc thắng trận đầu",
+    "link": "https://en.yna.co.kr/view/AEN20260916011200320"
+  },
+  {
     "id": "hotnews_vi_338878a5",
     "date": "2026-09-16",
     "ts": 1789553291000,
@@ -144,6 +200,22 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204297"
   },
   {
+    "id": "hotnews_vi_8d54140e",
+    "date": "2026-09-16",
+    "ts": 1789552398000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916065633_83_e.jpg",
+    "title": "Trời nhiều mây trên hầu hết cả nước vào thứ Năm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204296"
+  },
+  {
+    "id": "hotnews_vi_52b753cd",
+    "date": "2026-09-16",
+    "ts": 1789552103000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091623720001300_P2.jpg",
+    "title": "Đội tuyển bóng chuyền nữ Hàn Quốc thắng Hong Kong ở Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260916011000315"
+  },
+  {
     "id": "hotnews_vi_3c05bd8b",
     "date": "2026-09-16",
     "ts": 1789551585000,
@@ -158,6 +230,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.720cdabb9212401090b24befc43f4aad_T1.jpg",
     "title": "369 lao động nước ngoài tử nạn khi làm việc tại Hàn Quốc",
     "link": "https://www.koreaherald.com/article/10875953"
+  },
+  {
+    "id": "hotnews_vi_b4da6b07",
+    "date": "2026-09-16",
+    "ts": 1789545603000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091617090031500_P2.jpg",
+    "title": "Hàn Quốc tăng cường hợp tác kinh tế với Trung Á",
+    "link": "https://en.yna.co.kr/view/AEN20260916007700320"
   },
   {
     "id": "hotnews_vi_f216949a",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.f1c59fcd4f15436b94513d92264c598c_T1.jpg",
     "title": "Xe buýt Seoul ngừng hoạt động từ thứ Tư do đình công",
     "link": "https://www.koreaherald.com/article/10874710"
-  },
-  {
-    "id": "hotnews_vi_0d7018dd",
-    "date": "2026-09-15",
-    "ts": 1789478070000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Công đoàn xe buýt Seoul đình công từ rạng sáng thứ Tư",
-    "link": "https://en.yna.co.kr/view/AEN20260915011100315"
-  },
-  {
-    "id": "hotnews_vi_5d87c037",
-    "date": "2026-09-15",
-    "ts": 1789475897000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010700315_04_i_P2.jpg",
-    "title": "Hàn Quốc và Kazakhstan nâng cấp quan hệ đối tác chiến lược",
-    "link": "https://en.yna.co.kr/view/AEN20260915010700315"
-  },
-  {
-    "id": "hotnews_vi_0f51c1c0",
-    "date": "2026-09-15",
-    "ts": 1789474054000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.62ef09b8afa64f7e894c0b82b264e0d7_T1.jpg",
-    "title": "Màn hình media Gyeongju nhầm trang phục Trung Quốc là hanbok",
-    "link": "https://www.koreaherald.com/article/10874685"
-  },
-  {
-    "id": "hotnews_vi_a227e0fe",
-    "date": "2026-09-15",
-    "ts": 1789473787000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010600315_01_i_P2.jpg",
-    "title": "\"Dracula\" của Jennie thiết lập kỷ lục mới trên Billboard",
-    "link": "https://en.yna.co.kr/view/AEN20260915010600315"
-  },
-  {
-    "id": "hotnews_vi_74bb00d6",
-    "date": "2026-09-15",
-    "ts": 1789473523000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.05630ee51c4644919078370d5b4e694a_T1.jpg",
-    "title": "Gần 90% người trung niên Seoul chăm sóc người thân",
-    "link": "https://www.koreaherald.com/article/10874681"
-  },
-  {
-    "id": "hotnews_vi_9f15bddd",
-    "date": "2026-09-15",
-    "ts": 1789473423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/3b640121-069d-4346-b481-04737c607094.jpg",
-    "title": "AI thay đổi bảng xếp hạng đại học nhưng vẫn cần con người",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-ai-is-changing-university-rankings-but-human-judgment-still-matters-experts-say?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_f9f02ba4",
-    "date": "2026-09-15",
-    "ts": 1789473423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/dd42ddda-12b4-494a-8f66-b2ccd6ec9e50.jpeg",
-    "title": "Chuyên gia hội thảo Korea Times: Đại học cần đổi mới vì AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260915/conference-we-are-continually-defining-what-ai-talent-and-players-will-be-needed?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a91172e9",
-    "date": "2026-09-15",
-    "ts": 1789472975000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.367b2c49cd804c37ad64217735d3519f_T1.jpg",
-    "title": "Ả Rập Xê Út cam kết đáp trả kiên quyết các cuộc tấn công",
-    "link": "https://www.koreaherald.com/article/10874680"
-  },
-  {
-    "id": "hotnews_vi_29b3d58b",
-    "date": "2026-09-15",
-    "ts": 1789471807000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915005952315_02_i_P2.jpg",
-    "title": "Hàn Quốc thúc đẩy hợp tác khoáng sản và AI với Trung Á",
-    "link": "https://en.yna.co.kr/view/AEN20260915005952315"
-  },
-  {
-    "id": "hotnews_vi_6a031bfe",
-    "date": "2026-09-15",
-    "ts": 1789470398000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004551320_02_i_P2.jpg",
-    "title": "Biến động giá tăng mạnh ngày đầu giao dịch ngoài giờ ở KRX",
-    "link": "https://en.yna.co.kr/view/AEN20260915004551320"
   }
 ]
