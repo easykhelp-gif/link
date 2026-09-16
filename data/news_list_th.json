@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_th_b297c561",
+    "date": "2026-09-16",
+    "ts": 1789569384000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5799148782b8461fbff5369bc1b4a4a6_T1.jpg",
+    "title": "แรงงานเกาหลีเหนือต่างแดนทำรายได้ปีละ 800 ล้านดอลลาร์",
+    "link": "https://www.koreaherald.com/article/10876114"
+  },
+  {
+    "id": "hotnews_th_b182f4ca",
+    "date": "2026-09-16",
+    "ts": 1789568424000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006652315_06_i_P2.jpg",
+    "title": "เกาหลีใต้และเอเชียกลางเห็นพ้องกระชับความร่วมมือแร่สำคัญ",
+    "link": "https://en.yna.co.kr/view/AEN20260916006652315"
+  },
+  {
+    "id": "hotnews_th_46f18c51",
+    "date": "2026-09-16",
+    "ts": 1789562908000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091629730001300_P2.jpg",
+    "title": "เกาหลีเหนือพ่ายจีน 1-2 ฟุตบอลชายเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260916011651315"
+  },
+  {
+    "id": "hotnews_th_45f8a844",
+    "date": "2026-09-16",
+    "ts": 1789560283000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.095dc81c5bf84763858443cf4b2c8246_T1.jpg",
+    "title": "คู팡ปฏิเสธแผนจ่ายเงินชดเชย 100,000 วอนให้ผู้ใช้ที่ข้อมูลรั่วไหล",
+    "link": "https://www.koreaherald.com/article/10876064"
+  },
+  {
+    "id": "hotnews_th_efea7de9",
+    "date": "2026-09-16",
+    "ts": 1789560000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
+    "title": "เกาหลีเหนือส่งแรงงานแสนคนไปต่างประเทศ ละเมิดคว่ำบาตรยูเอ็น",
+    "link": "https://en.yna.co.kr/view/AEN20260916008500315"
+  },
+  {
     "id": "hotnews_th_656ee315",
     "date": "2026-09-16",
     "ts": 1789559524000,
@@ -40,12 +80,44 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260916/heat-reflective-cool-roof-paint-cuts-summer-power-bills-for-vulnerable-seoul-households?utm_source=rss"
   },
   {
+    "id": "hotnews_th_82752421",
+    "date": "2026-09-16",
+    "ts": 1789558394000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011500315_01_i_P2.jpg",
+    "title": "เกาหลีเหนือประณามการเจรจาป้องกันประเทศระหว่างเกาหลีใต้และสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20260916011500315"
+  },
+  {
+    "id": "hotnews_th_7ffa0f43",
+    "date": "2026-09-16",
+    "ts": 1789557384000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.8c364f97d1d04d159acae22525bb2bc4_T1.jpg",
+    "title": "ฮุนไดเผยภาพร่างรถ SUV รุ่นใหม่ Bayon เล็งเจาะตลาดอินเดีย",
+    "link": "https://www.koreaherald.com/article/10876047"
+  },
+  {
+    "id": "hotnews_th_eaf9fcd8",
+    "date": "2026-09-16",
+    "ts": 1789556748000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.e8c30558f16f4bb0b303b329187c7f66_T1.jpg",
+    "title": "เอสเคไฮนิกซ์ปฏิเสธข่าวลือผลิตชิปในสหรัฐฯ ร่วมกับอินเทล",
+    "link": "https://www.koreaherald.com/article/10876042"
+  },
+  {
     "id": "hotnews_th_7b69d597",
     "date": "2026-09-16",
     "ts": 1789556402000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.f4a98053e60e4cabbb59a77a46a8fb68_T1.jpg",
     "title": "สมาชิกรัฐสเยอรมนีเยือนสำนักงานภาษีเกาหลีครั้งแรก",
     "link": "https://www.koreaherald.com/article/10876040"
+  },
+  {
+    "id": "hotnews_th_f46eccf4",
+    "date": "2026-09-16",
+    "ts": 1789555685000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
+    "title": "รมว.วัฒนธรรมคาซัคสถานเยือนหลุมศพ ฮง บอม-โด ครั้งแรก",
+    "link": "https://en.yna.co.kr/view/AEN20260916011300315"
   },
   {
     "id": "hotnews_th_338878a5",
@@ -62,6 +134,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006651315_06_i_P2.jpg",
     "title": "เกาหลีใต้และเอเชียกลางเห็นพ้องกระชับความร่วมมือด้านแร่และพลังงาน",
     "link": "https://en.yna.co.kr/view/AEN20260916006651315"
+  },
+  {
+    "id": "hotnews_th_19e16438",
+    "date": "2026-09-16",
+    "ts": 1789552921000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916071040_64_e.jpg",
+    "title": "งาน Seoul International Music Festival ปี 2026 เริ่ม 8 ต.ค.",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204297"
   },
   {
     "id": "hotnews_th_3c05bd8b",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004551320_02_i_P2.jpg",
     "title": "ตลาดหุ้นเกาหลีเปิดเทรดหลังเวลาทำการวันแรก ผันผวนพุ่งสูง",
     "link": "https://en.yna.co.kr/view/AEN20260915004551320"
-  },
-  {
-    "id": "hotnews_th_fd2cdb0b",
-    "date": "2026-09-15",
-    "ts": 1789469049000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010400315_01_i_P2.jpg",
-    "title": "รัฐมนตรีกลาโหมเกาหลีใต้และญี่ปุ่นเห็นพ้องร่วมมือด้านความมั่นคง",
-    "link": "https://en.yna.co.kr/view/AEN20260915010400315"
-  },
-  {
-    "id": "hotnews_th_a081e26d",
-    "date": "2026-09-15",
-    "ts": 1789468909000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010300315_01_i_P2.jpg",
-    "title": "เกาหลีใต้และเติร์กเมนิสถานลงนามข้อตกลงคุ้มครองการลงทุน",
-    "link": "https://en.yna.co.kr/view/AEN20260915010300315"
-  },
-  {
-    "id": "hotnews_th_1b454e2f",
-    "date": "2026-09-15",
-    "ts": 1789467485000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
-    "title": "ตำรวจเกาหลีสอบสวนคดีสายลับ กรณีวัยรุ่นจีนถ่ายภาพฐานทัพ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
-  },
-  {
-    "id": "hotnews_th_ec6b5831",
-    "date": "2026-09-15",
-    "ts": 1789466344000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
-    "title": "KBS วางแผนขยายเนื้อหาเกาหลีสู่เอเชียกลางร่วมกับสื่อคาซัคสถาน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204269"
-  },
-  {
-    "id": "hotnews_th_11c95e63",
-    "date": "2026-09-15",
-    "ts": 1789466045000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065513_12_e.jpg",
-    "title": "แก๊sฟรีออนรั่วบนเรือรัสเซียในพูซาน บาดเจ็บ 5 นาย",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204268"
-  },
-  {
-    "id": "hotnews_th_26b981cb",
-    "date": "2026-09-15",
-    "ts": 1789465509000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065054_100_e.jpg",
-    "title": "เริ่มการพิจารณาคดีติดสินบนผู้ต้องหาคดีล็อบบี้รัฐมนตรีว่าการกระทรวงยุติธรรม",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204266"
-  },
-  {
-    "id": "hotnews_th_d4868dfe",
-    "date": "2026-09-15",
-    "ts": 1789463068000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.83007f57652849cba2dcf83368155206_T1.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเตรียมแถลงข่าววันศุกร์นี้เพื่อชี้แจงจุดยืนนโยบาย",
-    "link": "https://www.koreaherald.com/article/10874600"
-  },
-  {
-    "id": "hotnews_th_018d9af4",
-    "date": "2026-09-15",
-    "ts": 1789460117000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260911.e844e0f40af24d15b6149120019c99b9_T1.jpg",
-    "title": "วัยรุ่นจีนถูกจับข้อหาแอบฟังวิทยุสนามบินเชจู",
-    "link": "https://www.koreaherald.com/article/10874555"
-  },
-  {
-    "id": "hotnews_th_51e4cfc1",
-    "date": "2026-09-15",
-    "ts": 1789458667000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008300320_02_i_P2.jpg",
-    "title": "โค้ชบอลชายเกาหลีเหนือลั่นทำผลงานดีที่สุดในเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260915008300320"
-  },
-  {
-    "id": "hotnews_th_89264435",
-    "date": "2026-09-15",
-    "ts": 1789458209000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008200315_02_i_P2.jpg",
-    "title": "สหภาพรถเมล์โซลขีดเส้นตายเจรจาถึง 3 ทุ่ม ขู่หยุดงานประท้วง",
-    "link": "https://en.yna.co.kr/view/AEN20260915008200315"
   }
 ]

@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_en_b297c561",
+    "date": "2026-09-16",
+    "ts": 1789569384000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5799148782b8461fbff5369bc1b4a4a6_T1.jpg",
+    "title": "N. Korea’s overseas workers generate up to $800m a year: report",
+    "link": "https://www.koreaherald.com/article/10876114"
+  },
+  {
+    "id": "hotnews_en_b182f4ca",
+    "date": "2026-09-16",
+    "ts": 1789568424000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006652315_06_i_P2.jpg",
+    "title": "S. Korean, Central Asian leaders agree to deepen cooperation in critical minerals, energy",
+    "link": "https://en.yna.co.kr/view/AEN20260916006652315"
+  },
+  {
+    "id": "hotnews_en_46f18c51",
+    "date": "2026-09-16",
+    "ts": 1789562908000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091629730001300_P2.jpg",
+    "title": "(Asiad) N. Korea blow lead in loss to China in men's football",
+    "link": "https://en.yna.co.kr/view/AEN20260916011651315"
+  },
+  {
+    "id": "hotnews_en_45f8a844",
+    "date": "2026-09-16",
+    "ts": 1789560283000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.095dc81c5bf84763858443cf4b2c8246_T1.jpg",
+    "title": "Coupang rejects 100,000 won compensation plan for users affected by data breach",
+    "link": "https://www.koreaherald.com/article/10876064"
+  },
+  {
+    "id": "hotnews_en_efea7de9",
+    "date": "2026-09-16",
+    "ts": 1789560000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
+    "title": "Up to 100,000 N.K. workers sent abroad, some involved in Russian drone production: report",
+    "link": "https://en.yna.co.kr/view/AEN20260916008500315"
+  },
+  {
     "id": "hotnews_en_656ee315",
     "date": "2026-09-16",
     "ts": 1789559524000,
@@ -56,6 +96,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260916011500315"
   },
   {
+    "id": "hotnews_en_9ef33239",
+    "date": "2026-09-16",
+    "ts": 1789557875000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091526720001300_P2.jpg",
+    "title": "(Asiad) Celtic winger ready to do more after helping S. Korea to opening win",
+    "link": "https://en.yna.co.kr/view/AEN20260916011400315"
+  },
+  {
     "id": "hotnews_en_7ffa0f43",
     "date": "2026-09-16",
     "ts": 1789557384000,
@@ -86,6 +134,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
     "title": "Kazakh minister pays 1st visit to grave of Korean independence fighter since repatriation",
     "link": "https://en.yna.co.kr/view/AEN20260916011300315"
+  },
+  {
+    "id": "hotnews_en_5c93d74e",
+    "date": "2026-09-16",
+    "ts": 1789554191000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091625870001300_P2.jpg",
+    "title": "(Asiad) S. Korea beats Hong Kong in women's volleyball",
+    "link": "https://en.yna.co.kr/view/AEN20260916010451320"
   },
   {
     "id": "hotnews_en_3f17c8ef",
@@ -184,6 +240,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204293"
   },
   {
+    "id": "hotnews_en_28851b9e",
+    "date": "2026-09-16",
+    "ts": 1789547374000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.61f7a806dc8142e784bfbe9a2a34c3a1_T1.jpg",
+    "title": "SK hynix in talks with Intel over US memory production: Reuters",
+    "link": "https://www.koreaherald.com/article/10875971"
+  },
+  {
     "id": "hotnews_en_e6191cad",
     "date": "2026-09-16",
     "ts": 1789546697000,
@@ -264,6 +328,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260916007352320"
   },
   {
+    "id": "hotnews_en_f818bb5c",
+    "date": "2026-09-16",
+    "ts": 1789544161000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260915.8f481c71bc494ec790a9c207f83867b1_T1.jpeg",
+    "title": "[Herald Design Lounge 2026] Stefan Sagmeister wants design to be beautiful again",
+    "link": "https://www.koreaherald.com/article/10875909"
+  },
+  {
     "id": "hotnews_en_a1ffb617",
     "date": "2026-09-16",
     "ts": 1789544123000,
@@ -326,77 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/16/3d3b46fc-862a-48d6-acf0-7f00ec2d10bd.jpeg",
     "title": "Heat-reflective 'cool roof' paint cuts summer power bills for vulnerable Seoul households",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260916/heat-reflective-cool-roof-paint-cuts-summer-power-bills-for-vulnerable-seoul-households?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_28996c09",
-    "date": "2026-09-16",
-    "ts": 1789534924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/b3dad948-6582-4184-8982-810b5ee4e765.jpeg",
-    "title": "Travelers outside Seoul gain direct access to more overseas routes",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/travelers-outside-seoul-gain-direct-access-to-more-overseas-routes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_fbbba82b",
-    "date": "2026-09-16",
-    "ts": 1789534924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/70ac794c-57f2-46e4-a20c-a2f71fe8e1e9.jpg",
-    "title": "Seoul Cyber University chairman receives Kazakhstan's Order of Dostyk",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260916/seoul-cyber-university-chairman-receives-kazakhstans-order-of-dostyk?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6b7bd25b",
-    "date": "2026-09-16",
-    "ts": 1789534924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/b8349723-a404-42a0-b11d-29eb2107db1d.png",
-    "title": "Korea expands China routes, gives more flight rights to LCCs",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/korea-expands-china-routes-gives-more-flight-rights-to-lccs?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f9b0f0bc",
-    "date": "2026-09-16",
-    "ts": 1789534924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/9e34b051-de1f-4391-a155-0f27fc1d1b14.jpeg",
-    "title": "Army chiefs of Korea, Poland discuss expanding military, defense industry cooperation",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260916/army-chiefs-of-korea-poland-discuss-expanding-military-defense-industry-cooperation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_70aadcec",
-    "date": "2026-09-16",
-    "ts": 1789534924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/53f18e5a-9ddc-42d2-84d8-a8bac4e20853.png",
-    "title": "Korea, OECD hold seminar on governance of state-run enterprises",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/korea-oecd-hold-seminar-on-governance-of-state-run-enterprises?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_5a218945",
-    "date": "2026-09-16",
-    "ts": 1789534781000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.f21269122b934b03b69eb0dc67154d0a_T1.jpg",
-    "title": "Korea Eximbank seeks deeper economic ties with Uzbekistan",
-    "link": "https://www.koreaherald.com/article/10875607"
-  },
-  {
-    "id": "hotnews_en_af827c09",
-    "date": "2026-09-16",
-    "ts": 1789534297000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091606900001300_P2.jpg",
-    "title": "(Asiad) Basketball captain says criticism brought team closer",
-    "link": "https://en.yna.co.kr/view/AEN20260916006100315"
-  },
-  {
-    "id": "hotnews_en_4741c7d4",
-    "date": "2026-09-16",
-    "ts": 1789534149000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.2486a8bead404a3aa471e7fe4173fe85_T1.jpg",
-    "title": "Walk with giraffes by day and outrun zombies by night at Everland",
-    "link": "https://www.koreaherald.com/article/10875594"
-  },
-  {
-    "id": "hotnews_en_28b16c86",
-    "date": "2026-09-16",
-    "ts": 1789533773000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.909d651a8e614a029a30652b99a88481_T1.jpg",
-    "title": "New probe sought into death of type O patient given type A blood",
-    "link": "https://www.koreaherald.com/article/10875583"
   }
 ]

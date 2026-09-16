@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_b297c561",
+    "date": "2026-09-16",
+    "ts": 1789569384000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5799148782b8461fbff5369bc1b4a4a6_T1.jpg",
+    "title": "Lao động Bắc Triều Tiên ở nước ngoài kiếm tới 800 triệu USD",
+    "link": "https://www.koreaherald.com/article/10876114"
+  },
+  {
+    "id": "hotnews_vi_b182f4ca",
+    "date": "2026-09-16",
+    "ts": 1789568424000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006652315_06_i_P2.jpg",
+    "title": "Hàn Quốc và Trung Á hợp tác khoáng sản và năng lượng",
+    "link": "https://en.yna.co.kr/view/AEN20260916006652315"
+  },
+  {
+    "id": "hotnews_vi_46f18c51",
+    "date": "2026-09-16",
+    "ts": 1789562908000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091629730001300_P2.jpg",
+    "title": "Triều Tiên thua ngược Trung Quốc 1-2 tại Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260916011651315"
+  },
+  {
+    "id": "hotnews_vi_45f8a844",
+    "date": "2026-09-16",
+    "ts": 1789560283000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.095dc81c5bf84763858443cf4b2c8246_T1.jpg",
+    "title": "Coupang từ chối bồi thường 100.000 won cho vụ rò rỉ dữ liệu",
+    "link": "https://www.koreaherald.com/article/10876064"
+  },
+  {
+    "id": "hotnews_vi_efea7de9",
+    "date": "2026-09-16",
+    "ts": 1789560000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
+    "title": "Triều Tiên đưa khoảng 100.000 lao động ra nước ngoài bất chấp lệnh trừng phạt",
+    "link": "https://en.yna.co.kr/view/AEN20260916008500315"
+  },
+  {
     "id": "hotnews_vi_656ee315",
     "date": "2026-09-16",
     "ts": 1789559524000,
@@ -40,12 +80,44 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260916/heat-reflective-cool-roof-paint-cuts-summer-power-bills-for-vulnerable-seoul-households?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_82752421",
+    "date": "2026-09-16",
+    "ts": 1789558394000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011500315_01_i_P2.jpg",
+    "title": "Triều Tiên chỉ trích hội nghị quốc phòng Hàn-Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20260916011500315"
+  },
+  {
+    "id": "hotnews_vi_7ffa0f43",
+    "date": "2026-09-16",
+    "ts": 1789557384000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.8c364f97d1d04d159acae22525bb2bc4_T1.jpg",
+    "title": "Hyundai hé lộ bản phác thảo SUV mới Bayon hướng đến Ấn Độ",
+    "link": "https://www.koreaherald.com/article/10876047"
+  },
+  {
+    "id": "hotnews_vi_eaf9fcd8",
+    "date": "2026-09-16",
+    "ts": 1789556748000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.e8c30558f16f4bb0b303b329187c7f66_T1.jpg",
+    "title": "SK hynix bác bỏ tin đồn sản xuất chip tại Mỹ với Intel",
+    "link": "https://www.koreaherald.com/article/10876042"
+  },
+  {
     "id": "hotnews_vi_7b69d597",
     "date": "2026-09-16",
     "ts": 1789556402000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.f4a98053e60e4cabbb59a77a46a8fb68_T1.jpg",
     "title": "Nghị sĩ Đức lần đầu thăm Cơ quan Thuế Quốc gia Hàn Quốc",
     "link": "https://www.koreaherald.com/article/10876040"
+  },
+  {
+    "id": "hotnews_vi_f46eccf4",
+    "date": "2026-09-16",
+    "ts": 1789555685000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
+    "title": "Bộ trưởng Kazakhstan viếng mộ anh hùng Hong Beom-do",
+    "link": "https://en.yna.co.kr/view/AEN20260916011300315"
   },
   {
     "id": "hotnews_vi_338878a5",
@@ -62,6 +134,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006651315_06_i_P2.jpg",
     "title": "Hàn Quốc và Trung Á hợp tác mạnh về khoáng sản và năng lượng",
     "link": "https://en.yna.co.kr/view/AEN20260916006651315"
+  },
+  {
+    "id": "hotnews_vi_19e16438",
+    "date": "2026-09-16",
+    "ts": 1789552921000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916071040_64_e.jpg",
+    "title": "Lễ hội Âm nhạc Quốc tế Seoul 2026 khai mạc ngày 8/10",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204297"
   },
   {
     "id": "hotnews_vi_3c05bd8b",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915004551320_02_i_P2.jpg",
     "title": "Biến động giá tăng mạnh ngày đầu giao dịch ngoài giờ ở KRX",
     "link": "https://en.yna.co.kr/view/AEN20260915004551320"
-  },
-  {
-    "id": "hotnews_vi_fd2cdb0b",
-    "date": "2026-09-15",
-    "ts": 1789469049000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010400315_01_i_P2.jpg",
-    "title": "Bộ trưởng Quốc phòng Hàn - Nhật điện đàm hợp tác",
-    "link": "https://en.yna.co.kr/view/AEN20260915010400315"
-  },
-  {
-    "id": "hotnews_vi_a081e26d",
-    "date": "2026-09-15",
-    "ts": 1789468909000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915010300315_01_i_P2.jpg",
-    "title": "Hàn Quốc và Turkmenistan ký thỏa thuận bảo hộ đầu tư",
-    "link": "https://en.yna.co.kr/view/AEN20260915010300315"
-  },
-  {
-    "id": "hotnews_vi_1b454e2f",
-    "date": "2026-09-15",
-    "ts": 1789467485000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
-    "title": "Thiếu niên Trung Quốc chụp ảnh căn cứ quân sự Hàn Quốc",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204270"
-  },
-  {
-    "id": "hotnews_vi_ec6b5831",
-    "date": "2026-09-15",
-    "ts": 1789466344000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915020942_45_k.jpg",
-    "title": "KBS mở rộng tầm ảnh hưởng K-content tại Trung Á",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204269"
-  },
-  {
-    "id": "hotnews_vi_11c95e63",
-    "date": "2026-09-15",
-    "ts": 1789466045000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065513_12_e.jpg",
-    "title": "Rò rỉ khí Freon tàu Nga tại Busan làm 5 thủy thủ bị thương",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204268"
-  },
-  {
-    "id": "hotnews_vi_26b981cb",
-    "date": "2026-09-15",
-    "ts": 1789465509000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915065054_100_e.jpg",
-    "title": "Xét xử vụ hối lộ liên quan đến Bộ trưởng Tư pháp",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204266"
-  },
-  {
-    "id": "hotnews_vi_d4868dfe",
-    "date": "2026-09-15",
-    "ts": 1789463068000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.83007f57652849cba2dcf83368155206_T1.jpg",
-    "title": "Tổng thống Lee Jae Myung tổ chức họp báo vào thứ Sáu",
-    "link": "https://www.koreaherald.com/article/10874600"
-  },
-  {
-    "id": "hotnews_vi_018d9af4",
-    "date": "2026-09-15",
-    "ts": 1789460117000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260911.e844e0f40af24d15b6149120019c99b9_T1.jpg",
-    "title": "Thiếu niên Trung Quốc bị bắt vì nghe trộm sân bay Jeju",
-    "link": "https://www.koreaherald.com/article/10874555"
-  },
-  {
-    "id": "hotnews_vi_51e4cfc1",
-    "date": "2026-09-15",
-    "ts": 1789458667000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008300320_02_i_P2.jpg",
-    "title": "HLV bóng đá nam Triều Tiên đặt mục tiêu cao tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260915008300320"
-  },
-  {
-    "id": "hotnews_vi_89264435",
-    "date": "2026-09-15",
-    "ts": 1789458209000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008200315_02_i_P2.jpg",
-    "title": "Công đoàn xe buýt Seoul dọa đình công từ sáng thứ Tư",
-    "link": "https://en.yna.co.kr/view/AEN20260915008200315"
   }
 ]
