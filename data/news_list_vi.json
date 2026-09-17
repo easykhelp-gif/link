@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_5f0f9e6c",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/716286b8-b63c-49b9-81f8-10440f8d1e72.jpg",
+    "title": "Bảng xếp hạng đại học Hàn Quốc năm 2027 chú trọng chất lượng",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/new-indicators-sharpen-focus-on-quality-over-quantity-in-university-globalization?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_3f88a38f",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/dbed7509-93c5-4a59-a12c-108cafe8c9df.jpg",
+    "title": "Bảng xếp hạng đại học 2027 đổi mới nhờ phương pháp mới",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/new-metrics-reshuffle-top-30-university-rankings-expose-globalization-gaps?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c433d451",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/688382ae-f62c-41bd-8602-f924ae3b091e.jpg",
+    "title": "Tiêu chí xếp hạng đại học sửa đổi nhằm tăng tính quốc tế hóa",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/evaluation-criteria-revised-to-better-assess-universities-internationalization?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_7a529293",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/1985fc9b-20f4-4d59-8553-34793357d9d1.jpg",
+    "title": "ĐH địa phương vượt Seoul về hỗ trợ sinh viên",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-universities-excel-in-student-support-category?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_39440a17",
+    "date": "2026-09-17",
+    "ts": 1789678813000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917008900320_02_i_P2.jpg",
+    "title": "Khối ngoại mua ròng cổ phiếu Hàn Quốc trong tháng 8",
+    "link": "https://en.yna.co.kr/view/AEN20260917008900320"
+  },
+  {
+    "id": "hotnews_vi_0832d987",
+    "date": "2026-09-17",
+    "ts": 1789678812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917009000320_01_i_P2.jpg",
+    "title": "Giá sản xuất tại Hàn Quốc tăng trong tháng 8 do nắng nóng",
+    "link": "https://en.yna.co.kr/view/AEN20260917009000320"
+  },
+  {
+    "id": "hotnews_vi_96c801f6",
+    "date": "2026-09-17",
+    "ts": 1789677000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.227680ce0a054b2792927184dac17089_T1.jpg",
+    "title": "Sức mạnh của chính trị trung dung đang suy yếu ở các nước phát triển",
+    "link": "https://www.koreaherald.com/article/10877436"
+  },
+  {
+    "id": "hotnews_vi_8fdba494",
+    "date": "2026-09-17",
+    "ts": 1789676970000,
+    "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/30/PEP20250930029501009_P2.jpg",
+    "title": "Thứ trưởng Ngoại giao Triều Tiên dự Đại hội đồng LHQ",
+    "link": "https://en.yna.co.kr/view/AEN20260918000300315"
+  },
+  {
+    "id": "hotnews_vi_99ddc87e",
+    "date": "2026-09-17",
+    "ts": 1789673188000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/15/PRU20260915000101009_P2.jpg",
+    "title": "Mỹ hoãn công bố thuế năng lực dư thừa sang sau hội nghị Trump - Xi",
+    "link": "https://en.yna.co.kr/view/AEN20260918000200315"
+  },
+  {
     "id": "hotnews_vi_e6932824",
     "date": "2026-09-17",
     "ts": 1789665423000,
@@ -118,6 +190,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091715620001300_P2.jpg",
     "title": "Đoàn thể thao Hàn Quốc đến Nagoya dự Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260917007751315"
+  },
+  {
+    "id": "hotnews_vi_b7c8273e",
+    "date": "2026-09-17",
+    "ts": 1789637817000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091725400001300_P2.jpg",
+    "title": "Bộ trưởng thể thao Triều Tiên đến Nhật Bản dự Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260917011200320"
   },
   {
     "id": "hotnews_vi_9d7bbc75",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
     "title": "Triều Tiên đưa khoảng 100.000 lao động ra nước ngoài bất chấp lệnh trừng phạt",
     "link": "https://en.yna.co.kr/view/AEN20260916008500315"
-  },
-  {
-    "id": "hotnews_vi_656ee315",
-    "date": "2026-09-16",
-    "ts": 1789559524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/3c3ab265-5eaa-4db3-bb56-e225e4236917.jpg",
-    "title": "Hàn Quốc và UAE mở rộng hợp tác đầu tư công nghệ",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/korea-uae-agree-to-expand-partnership-in-investment-forum?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_36d4da02",
-    "date": "2026-09-16",
-    "ts": 1789559524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/62957640-92d4-4e7a-b884-461a9e4dcfe8.jpg",
-    "title": "Xe buýt Seoul chạy bình thường sau thỏa thuận lương phút chót",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/seoul-bus-strike-averted-after-last-minute-wage-deal?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_22ba496c",
-    "date": "2026-09-16",
-    "ts": 1789559524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/e7d68109-cfcd-4fe8-8330-626e50fc1fd0.jpeg",
-    "title": "Tỉnh Gyeonggi thả 16 động vật hoang dã về tự nhiên",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260916/gyeonggi-province-returns-16-rehabilitated-wild-animals-to-nature?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_00512eea",
-    "date": "2026-09-16",
-    "ts": 1789559524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/0dc82f10-6d4b-4eec-8df6-961c18fd0f4a.jpg",
-    "title": "Bảng xếp hạng đại học toàn cầu thay đổi theo việc làm và xã hội",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260916/employability-social-impact-reshape-global-university-rankings?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_b524fc9d",
-    "date": "2026-09-16",
-    "ts": 1789559524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/3d3b46fc-862a-48d6-acf0-7f00ec2d10bd.jpeg",
-    "title": "Sơn cách nhiệt \"cool roof\" giúp giảm tiền điện mùa hè tại Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260916/heat-reflective-cool-roof-paint-cuts-summer-power-bills-for-vulnerable-seoul-households?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_82752421",
-    "date": "2026-09-16",
-    "ts": 1789558394000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011500315_01_i_P2.jpg",
-    "title": "Triều Tiên chỉ trích hội nghị quốc phòng Hàn-Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260916011500315"
-  },
-  {
-    "id": "hotnews_vi_7ffa0f43",
-    "date": "2026-09-16",
-    "ts": 1789557384000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.8c364f97d1d04d159acae22525bb2bc4_T1.jpg",
-    "title": "Hyundai hé lộ bản phác thảo SUV mới Bayon hướng đến Ấn Độ",
-    "link": "https://www.koreaherald.com/article/10876047"
-  },
-  {
-    "id": "hotnews_vi_eaf9fcd8",
-    "date": "2026-09-16",
-    "ts": 1789556748000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.e8c30558f16f4bb0b303b329187c7f66_T1.jpg",
-    "title": "SK hynix bác bỏ tin đồn sản xuất chip tại Mỹ với Intel",
-    "link": "https://www.koreaherald.com/article/10876042"
-  },
-  {
-    "id": "hotnews_vi_7b69d597",
-    "date": "2026-09-16",
-    "ts": 1789556402000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.f4a98053e60e4cabbb59a77a46a8fb68_T1.jpg",
-    "title": "Nghị sĩ Đức lần đầu thăm Cơ quan Thuế Quốc gia Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10876040"
-  },
-  {
-    "id": "hotnews_vi_f46eccf4",
-    "date": "2026-09-16",
-    "ts": 1789555685000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
-    "title": "Bộ trưởng Kazakhstan viếng mộ anh hùng Hong Beom-do",
-    "link": "https://en.yna.co.kr/view/AEN20260916011300315"
   }
 ]

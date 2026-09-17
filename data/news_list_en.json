@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_en_5f0f9e6c",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/716286b8-b63c-49b9-81f8-10440f8d1e72.jpg",
+    "title": "New indicators sharpen focus on quality over quantity in university globalization",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/new-indicators-sharpen-focus-on-quality-over-quantity-in-university-globalization?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_3f88a38f",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/dbed7509-93c5-4a59-a12c-108cafe8c9df.jpg",
+    "title": "New metrics reshuffle top 30 university rankings, expose globalization gaps",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/new-metrics-reshuffle-top-30-university-rankings-expose-globalization-gaps?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_c433d451",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/688382ae-f62c-41bd-8602-f924ae3b091e.jpg",
+    "title": "Evaluation criteria revised to better assess universities' internationalization",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/evaluation-criteria-revised-to-better-assess-universities-internationalization?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_7a529293",
+    "date": "2026-09-17",
+    "ts": 1789680723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/1985fc9b-20f4-4d59-8553-34793357d9d1.jpg",
+    "title": "Regional universities excel in student support category",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-universities-excel-in-student-support-category?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_39440a17",
+    "date": "2026-09-17",
+    "ts": 1789678813000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917008900320_02_i_P2.jpg",
+    "title": "Foreigners snap 7-month sell-offs of Korean stocks in Aug.",
+    "link": "https://en.yna.co.kr/view/AEN20260917008900320"
+  },
+  {
+    "id": "hotnews_en_0832d987",
+    "date": "2026-09-17",
+    "ts": 1789678812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917009000320_01_i_P2.jpg",
+    "title": "Producer prices up in August on prices of agricultural goods",
+    "link": "https://en.yna.co.kr/view/AEN20260917009000320"
+  },
+  {
+    "id": "hotnews_en_96c801f6",
+    "date": "2026-09-17",
+    "ts": 1789677000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.227680ce0a054b2792927184dac17089_T1.jpg",
+    "title": "[Robert J. Fouser] Where the center still holds",
+    "link": "https://www.koreaherald.com/article/10877436"
+  },
+  {
+    "id": "hotnews_en_8fdba494",
+    "date": "2026-09-17",
+    "ts": 1789676970000,
+    "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/30/PEP20250930029501009_P2.jpg",
+    "title": "N. Korean vice FM to attend U.N. General Assembly next week: source",
+    "link": "https://en.yna.co.kr/view/AEN20260918000300315"
+  },
+  {
+    "id": "hotnews_en_99ddc87e",
+    "date": "2026-09-17",
+    "ts": 1789673188000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/15/PRU20260915000101009_P2.jpg",
+    "title": "U.S. expected to delay new excess capacity tariff announcement until after Trump-Xi summit: report",
+    "link": "https://en.yna.co.kr/view/AEN20260918000200315"
+  },
+  {
+    "id": "hotnews_en_d25f9bc8",
+    "date": "2026-09-17",
+    "ts": 1789671790000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-p.v1.20260918.274be3d131b94ea49ebf2138460786a2_T1.jpg",
+    "title": "Jeon Do-yeon’s final 'Cherry Orchard' blooms in New York to enthusiastic response",
+    "link": "https://www.koreaherald.com/article/10877673"
+  },
+  {
     "id": "hotnews_en_e6932824",
     "date": "2026-09-17",
     "ts": 1789664823000,
@@ -264,12 +344,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260917006351320"
   },
   {
+    "id": "hotnews_en_b15353ac",
+    "date": "2026-09-17",
+    "ts": 1789638621000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/14/PYH2026091423640001300_P2.jpg",
+    "title": "(Asiad) S. Korea blank Bangladesh for 2nd straight win in women's football",
+    "link": "https://en.yna.co.kr/view/AEN20260917011300315"
+  },
+  {
     "id": "hotnews_en_ef0ec19f",
     "date": "2026-09-17",
     "ts": 1789637898000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.a1c3ed9f58f540b7ba5adc25f3a0d488_T1.png",
     "title": "Alteogen seeks patent for long-acting obesity drug platform",
     "link": "https://www.koreaherald.com/article/10877578"
+  },
+  {
+    "id": "hotnews_en_b7c8273e",
+    "date": "2026-09-17",
+    "ts": 1789637817000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091725400001300_P2.jpg",
+    "title": "(Asiad) N. Korean sports minister arrives in Japan ahead of Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260917011200320"
   },
   {
     "id": "hotnews_en_d06a4040",
@@ -302,101 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917023837_63_k.jpg",
     "title": "FM Cho: Delay in Investment in the U.S. Not Due to ROK-U.S. Disagreement",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204319"
-  },
-  {
-    "id": "hotnews_en_236422be",
-    "date": "2026-09-17",
-    "ts": 1789636383000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.0f8a483a0840450bbc845b16f4fe1640_T1.jpg",
-    "title": "The best language textbook is comedy",
-    "link": "https://www.koreaherald.com/article/10877563"
-  },
-  {
-    "id": "hotnews_en_6cc1e7b8",
-    "date": "2026-09-17",
-    "ts": 1789636170000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917034137_88_e.jpg",
-    "title": "Lee: Middle East Crisis Hinders Shift to Renewable-Centered Energy System",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204318"
-  },
-  {
-    "id": "hotnews_en_f4d55ffa",
-    "date": "2026-09-17",
-    "ts": 1789636138000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091610780001300_P2.jpg",
-    "title": "S. Korean Catholic Church voices 'deep concerns' over abortion pill plan",
-    "link": "https://en.yna.co.kr/view/AEN20260917001851315"
-  },
-  {
-    "id": "hotnews_en_e723e4b9",
-    "date": "2026-09-17",
-    "ts": 1789634893000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.e81dac73942c45eeb0bea169794d2e30_T1.jpg",
-    "title": "Lee, IEA chief discuss future of Asia's energy security amid Hormuz crisis",
-    "link": "https://www.koreaherald.com/article/10877540"
-  },
-  {
-    "id": "hotnews_en_9bba29a0",
-    "date": "2026-09-17",
-    "ts": 1789634605000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.134e225303804f098396c4f4cfc6677f_T1.jpg",
-    "title": "State Street sees won retreating after sharp rally",
-    "link": "https://www.koreaherald.com/article/10877532"
-  },
-  {
-    "id": "hotnews_en_4f795745",
-    "date": "2026-09-17",
-    "ts": 1789634051000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917054009_81_e.jpg",
-    "title": "Ruling Bloc Lawmakers Voice Opposition to Hormuz Troop Deployment",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204317"
-  },
-  {
-    "id": "hotnews_en_9de48295",
-    "date": "2026-09-17",
-    "ts": 1789633388000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.1512f4bf18cd441aad518dfc088b8881_T1.jpg",
-    "title": "LG chief urges speed, relentless execution in AI race",
-    "link": "https://www.koreaherald.com/article/10877511"
-  },
-  {
-    "id": "hotnews_en_f23beac4",
-    "date": "2026-09-17",
-    "ts": 1789632425000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917054009_81_e.jpg",
-    "title": "Potential Iran War Deployment Invites Strong Objections at Parliamentary Committee Session",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204316"
-  },
-  {
-    "id": "hotnews_en_d633f23d",
-    "date": "2026-09-17",
-    "ts": 1789632156000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917031237_28_k.jpg",
-    "title": "2nd Relief Team to Wrap up Operations in Nepal; Search for 9 Missing Nationals to Continue",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204315"
-  },
-  {
-    "id": "hotnews_en_623d62e7",
-    "date": "2026-09-17",
-    "ts": 1789632109000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260724.5d708f309f374246a8caa4eabd81ce0d_T1.jpg",
-    "title": "Korea finds W5.56b in unreported taxes behind foreign artist shows",
-    "link": "https://www.koreaherald.com/article/10877472"
-  },
-  {
-    "id": "hotnews_en_e13ad598",
-    "date": "2026-09-17",
-    "ts": 1789632008000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917010700315_01_i_P2.jpg",
-    "title": "Gov't not to sue N. Korea for damage to S. Korean-owned property: unification minister",
-    "link": "https://en.yna.co.kr/view/AEN20260917010700315"
-  },
-  {
-    "id": "hotnews_en_3aab6547",
-    "date": "2026-09-17",
-    "ts": 1789631984000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917010900315_04_i_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20260917010900315"
   }
 ]
