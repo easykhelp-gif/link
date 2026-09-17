@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_vi_e6932824",
+    "date": "2026-09-17",
+    "ts": 1789665423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
+    "title": "Các trường đại học địa phương nổi bật trong bảng xếp hạng quốc tế",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_2174f65e",
+    "date": "2026-09-17",
+    "ts": 1789665423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/cacea909-fd58-4178-aa41-4eb767f79d52.jpeg",
+    "title": "Jongno 3-ga đứng đầu các khu phố tuyệt vời nhất thế giới",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/seouls-jongno-3-ga-rises-to-worlds-coolest-neighborhood?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d7fb818b",
+    "date": "2026-09-17",
+    "ts": 1789665423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/8a76d9ba-a2e7-49b4-ab19-65ed065ba7ca.jpg",
+    "title": "Bảng xếp hạng Korea Times tập trung vào năng lực quốc tế hóa",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/korea-times-university-rankings-focus-on-universities-internationalization-capabilities?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b334981c",
+    "date": "2026-09-17",
+    "ts": 1789665423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/1d4f5fb6-a63a-4821-a0c2-9d955c3d1dc4.jpg",
+    "title": "Đại học Korea giữ vững vị trí số một trong bảng xếp hạng",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/top-korean-universities-hold-firm-as-new-contenders-gain-ground?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_7bb01ca2",
+    "date": "2026-09-17",
+    "ts": 1789657200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.4cac3843ce614cacbcb4a0041f02ccc3_T1.jpg",
+    "title": "Volvo ra mắt sedan điện ES90 tại Hàn Quốc với giá hấp dẫn",
+    "link": "https://www.koreaherald.com/article/10877569"
+  },
+  {
+    "id": "hotnews_vi_6925fa6c",
+    "date": "2026-09-17",
+    "ts": 1789651343000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091515180001300_P2.jpg",
+    "title": "Công đoàn KCTU tham gia đối thoại với chính phủ",
+    "link": "https://en.yna.co.kr/view/AEN20260917011800315"
+  },
+  {
     "id": "hotnews_vi_257c21a2",
     "date": "2026-09-17",
     "ts": 1789646525000,
@@ -32,6 +80,30 @@
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260917/lee-vows-to-crack-down-on-transnational-crimes-scalping?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_4ceca468",
+    "date": "2026-09-17",
+    "ts": 1789646008000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011600320_01_i_P2.jpg",
+    "title": "Tổng thống Tajikistan nhận đai đen danh dự taekwondo",
+    "link": "https://en.yna.co.kr/view/AEN20260917011600320"
+  },
+  {
+    "id": "hotnews_vi_52efd341",
+    "date": "2026-09-17",
+    "ts": 1789642902000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/rcv.YNA.20260915.PAF20260915230601009_T1.jpg",
+    "title": "Hàn Quốc khiếu nại vụ sự kiện ASIAD tôn vinh Toyotomi Hideyoshi",
+    "link": "https://www.koreaherald.com/article/10877603"
+  },
+  {
+    "id": "hotnews_vi_bb36cdee",
+    "date": "2026-09-17",
+    "ts": 1789641958000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011500320_02_i_P2.jpg",
+    "title": "Seong Seung-min vào chung kết năm môn phối hợp Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260917011500320"
+  },
+  {
     "id": "hotnews_vi_7b477670",
     "date": "2026-09-17",
     "ts": 1789639698000,
@@ -54,6 +126,14 @@
     "image": "https://img.yna.co.kr/photo/etc/af/2026/09/15/PAF20260915230601009_P2.jpg",
     "title": "Hàn Quốc khiếu nại về nhân vật Toyotomi Hideyoshi ở Nhật Bản",
     "link": "https://en.yna.co.kr/view/AEN20260917011000315"
+  },
+  {
+    "id": "hotnews_vi_db48394b",
+    "date": "2026-09-17",
+    "ts": 1789636411000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917023837_63_k.jpg",
+    "title": "Ngoại trưởng Cho: Hoãn đầu tư Mỹ không do bất đồng Hàn-Mỹ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204319"
   },
   {
     "id": "hotnews_vi_e723e4b9",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
     "title": "Bộ trưởng Kazakhstan viếng mộ anh hùng Hong Beom-do",
     "link": "https://en.yna.co.kr/view/AEN20260916011300315"
-  },
-  {
-    "id": "hotnews_vi_3f17c8ef",
-    "date": "2026-09-16",
-    "ts": 1789553894000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524080001300_P2.jpg",
-    "title": "Tiền vệ Lee Seung-won hướng tới các trận tiếp theo ở Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260916011100315"
-  },
-  {
-    "id": "hotnews_vi_edf66c09",
-    "date": "2026-09-16",
-    "ts": 1789553828000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091626920001300_P2.jpg",
-    "title": "Đội trưởng Kang So-hwi giúp bóng chuyền Hàn Quốc thắng trận đầu",
-    "link": "https://en.yna.co.kr/view/AEN20260916011200320"
-  },
-  {
-    "id": "hotnews_vi_338878a5",
-    "date": "2026-09-16",
-    "ts": 1789553291000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916070038_50_e.jpg",
-    "title": "KMA khuyên tiêm vaccine khi cúm và COVID-19 tăng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204298"
-  },
-  {
-    "id": "hotnews_vi_040799d7",
-    "date": "2026-09-16",
-    "ts": 1789553223000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006651315_06_i_P2.jpg",
-    "title": "Hàn Quốc và Trung Á hợp tác mạnh về khoáng sản và năng lượng",
-    "link": "https://en.yna.co.kr/view/AEN20260916006651315"
-  },
-  {
-    "id": "hotnews_vi_19e16438",
-    "date": "2026-09-16",
-    "ts": 1789552921000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916071040_64_e.jpg",
-    "title": "Lễ hội Âm nhạc Quốc tế Seoul 2026 khai mạc ngày 8/10",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204297"
-  },
-  {
-    "id": "hotnews_vi_8d54140e",
-    "date": "2026-09-16",
-    "ts": 1789552398000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916065633_83_e.jpg",
-    "title": "Trời nhiều mây trên hầu hết cả nước vào thứ Năm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204296"
-  },
-  {
-    "id": "hotnews_vi_52b753cd",
-    "date": "2026-09-16",
-    "ts": 1789552103000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091623720001300_P2.jpg",
-    "title": "Đội tuyển bóng chuyền nữ Hàn Quốc thắng Hong Kong ở Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260916011000315"
-  },
-  {
-    "id": "hotnews_vi_3c05bd8b",
-    "date": "2026-09-16",
-    "ts": 1789551585000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091608200001301_P2.jpg",
-    "title": "Ứng viên Bộ trưởng Quốc phòng xin lỗi về lệnh thiết quân luật",
-    "link": "https://en.yna.co.kr/view/AEN20260916006752315"
-  },
-  {
-    "id": "hotnews_vi_b84edb5e",
-    "date": "2026-09-16",
-    "ts": 1789545820000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.720cdabb9212401090b24befc43f4aad_T1.jpg",
-    "title": "369 lao động nước ngoài tử nạn khi làm việc tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10875953"
-  },
-  {
-    "id": "hotnews_vi_b4da6b07",
-    "date": "2026-09-16",
-    "ts": 1789545603000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091617090031500_P2.jpg",
-    "title": "Hàn Quốc tăng cường hợp tác kinh tế với Trung Á",
-    "link": "https://en.yna.co.kr/view/AEN20260916007700320"
   }
 ]

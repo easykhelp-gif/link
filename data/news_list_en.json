@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_en_e6932824",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
+    "title": "Regional, smaller universities challenge hierarchy as globalization paths diverge",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_2174f65e",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/cacea909-fd58-4178-aa41-4eb767f79d52.jpeg",
+    "title": "Seoul's Jongno 3-ga rises to world's coolest neighborhood",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/seouls-jongno-3-ga-rises-to-worlds-coolest-neighborhood?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_d7fb818b",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/8a76d9ba-a2e7-49b4-ab19-65ed065ba7ca.jpg",
+    "title": "Korea Times University Rankings focus on universities' internationalization capabilities",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/korea-times-university-rankings-focus-on-universities-internationalization-capabilities?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b334981c",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/1d4f5fb6-a63a-4821-a0c2-9d955c3d1dc4.jpg",
+    "title": "Top Korean universities hold firm as new contenders gain ground",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/top-korean-universities-hold-firm-as-new-contenders-gain-ground?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_7bb01ca2",
+    "date": "2026-09-17",
+    "ts": 1789657200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.4cac3843ce614cacbcb4a0041f02ccc3_T1.jpg",
+    "title": "Volvo ES90 blends sedan poise with SUV practicality",
+    "link": "https://www.koreaherald.com/article/10877569"
+  },
+  {
+    "id": "hotnews_en_d5bc2b25",
+    "date": "2026-09-17",
+    "ts": 1789651358000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/14/PYH2026091423640001300_P2.jpg",
+    "title": "(Asiad) S. Korea blank Bangladesh, reach quarterfinals in women's football",
+    "link": "https://en.yna.co.kr/view/AEN20260917011351315"
+  },
+  {
+    "id": "hotnews_en_6925fa6c",
+    "date": "2026-09-17",
+    "ts": 1789651343000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091515180001300_P2.jpg",
+    "title": "Umbrella union to join gov't-proposed talks amid push to roll back some labor rules",
+    "link": "https://en.yna.co.kr/view/AEN20260917011800315"
+  },
+  {
     "id": "hotnews_en_257c21a2",
     "date": "2026-09-17",
     "ts": 1789646222000,
@@ -86,6 +142,46 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/17/6cfe53af-82f9-45e0-b276-0471280cfa6c.jpeg",
     "title": "Korea Foundation honors US Peace Corps vets for decades of grassroots diplomacy",
     "link": "https://www.koreatimes.co.kr/southkorea/20260917/korea-foundation-honors-us-peace-corps-vets-for-decades-of-grassroots-diplomacy?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_4ceca468",
+    "date": "2026-09-17",
+    "ts": 1789646008000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011600320_01_i_P2.jpg",
+    "title": "Tajik President Rahmon presented honorary taekwondo black belt",
+    "link": "https://en.yna.co.kr/view/AEN20260917011600320"
+  },
+  {
+    "id": "hotnews_en_52efd341",
+    "date": "2026-09-17",
+    "ts": 1789642902000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/rcv.YNA.20260915.PAF20260915230601009_T1.jpg",
+    "title": "S. Korea files official complaint for highlighting Japanese warlord in ceremony",
+    "link": "https://www.koreaherald.com/article/10877603"
+  },
+  {
+    "id": "hotnews_en_f740c2e2",
+    "date": "2026-09-17",
+    "ts": 1789642875000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.211738499f22442b87c0e86d078feec7_T1.jpg",
+    "title": "S. Korean delegation arrives in Nagoya",
+    "link": "https://www.koreaherald.com/article/10877601"
+  },
+  {
+    "id": "hotnews_en_bb36cdee",
+    "date": "2026-09-17",
+    "ts": 1789641958000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011500320_02_i_P2.jpg",
+    "title": "(Asiad) S. Korea's Seong Seung-min advances to Asian Games modern pentathlon final",
+    "link": "https://en.yna.co.kr/view/AEN20260917011500320"
+  },
+  {
+    "id": "hotnews_en_184ec352",
+    "date": "2026-09-17",
+    "ts": 1789641267000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202512/251215065605_25_e.jpg",
+    "title": "Education Ministry Approves Relief for 354 Applications Submitted after System Error",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204326"
   },
   {
     "id": "hotnews_en_6cfd4205",
@@ -216,6 +312,22 @@
     "link": "https://www.koreaherald.com/article/10877563"
   },
   {
+    "id": "hotnews_en_6cc1e7b8",
+    "date": "2026-09-17",
+    "ts": 1789636170000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917034137_88_e.jpg",
+    "title": "Lee: Middle East Crisis Hinders Shift to Renewable-Centered Energy System",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204318"
+  },
+  {
+    "id": "hotnews_en_f4d55ffa",
+    "date": "2026-09-17",
+    "ts": 1789636138000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091610780001300_P2.jpg",
+    "title": "S. Korean Catholic Church voices 'deep concerns' over abortion pill plan",
+    "link": "https://en.yna.co.kr/view/AEN20260917001851315"
+  },
+  {
     "id": "hotnews_en_e723e4b9",
     "date": "2026-09-17",
     "ts": 1789634893000,
@@ -286,117 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917010900315_04_i_P2.jpg",
     "title": "Yonhap News Summary",
     "link": "https://en.yna.co.kr/view/AEN20260917010900315"
-  },
-  {
-    "id": "hotnews_en_3fffabfb",
-    "date": "2026-09-17",
-    "ts": 1789631778000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.cd8733f1a9b04216b11d15dd1e278f79_T1.jpg",
-    "title": "Man who resold nearly 9,000 K-pop tickets for $1.7 million arrested",
-    "link": "https://www.koreaherald.com/article/10877469"
-  },
-  {
-    "id": "hotnews_en_d14b07b6",
-    "date": "2026-09-17",
-    "ts": 1789631586000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917004551315_02_i_P2.jpg",
-    "title": "FM Cho heads to Washington for talks with Rubio on investment, Hormuz, N. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20260917004551315"
-  },
-  {
-    "id": "hotnews_en_fbc23dce",
-    "date": "2026-09-17",
-    "ts": 1789631078000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260916.2c4f0804c4154097b02447059416fb59_T1.jpg",
-    "title": "Dwaeji galbi gui, grilled marinated pork ribs",
-    "link": "https://www.koreaherald.com/article/10877444"
-  },
-  {
-    "id": "hotnews_en_b7407eb0",
-    "date": "2026-09-17",
-    "ts": 1789630871000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.93d6809a861d4dbb94f30c4aa4362305_T1.png",
-    "title": "'True Beauty' duo Cha Eun-woo, Mun Ka-young in talks for 'Bon Appetit, Your Majesty' spin-off",
-    "link": "https://www.koreaherald.com/article/10877435"
-  },
-  {
-    "id": "hotnews_en_33d069d2",
-    "date": "2026-09-17",
-    "ts": 1789621622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/fb213912-eef7-4b19-a1ce-2a52077c67fb.jpeg",
-    "title": "Sungkyunkwan University research offers design guidelines for organic solar cells",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260917/sungkyunkwan-university-research-offers-design-guidelines-for-organic-solar-cells?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_ffd8e47e",
-    "date": "2026-09-17",
-    "ts": 1789621622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/08/5fca7ba5-764a-444d-923a-020b52f3ee97.jpeg",
-    "title": "Singapore Management University president highlights growing role of social sciences in AI era",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260917/singapore-management-university-president-highlights-growing-role-of-social-sciences-in-ai-era?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_c96d6afb",
-    "date": "2026-09-17",
-    "ts": 1789621622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/7ad7b70b-1e09-40b1-a518-3058e19d4e00.jpg",
-    "title": "President Lee set to meet IEA chief to discuss energy security",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260917/president-lee-set-to-meet-iea-chief-to-discuss-energy-security?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6bc177f9",
-    "date": "2026-09-17",
-    "ts": 1789621622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/f2db97e2-4e02-4df0-9c05-6df8a9230771.jpg",
-    "title": "Korean Catholic Church voices 'deep concerns' over abortion bill plan",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260917/korean-catholic-church-voices-deep-concerns-over-abortion-bill-plan?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_530223a6",
-    "date": "2026-09-17",
-    "ts": 1789621219000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260917002500315"
-  },
-  {
-    "id": "hotnews_en_de5b4b54",
-    "date": "2026-09-17",
-    "ts": 1789621201000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917005100320_05_i_P2.jpg",
-    "title": "IKEA Korea opens 8th outlet in Daegu",
-    "link": "https://en.yna.co.kr/view/AEN20260917005100320"
-  },
-  {
-    "id": "hotnews_en_0b332bfa",
-    "date": "2026-09-17",
-    "ts": 1789620643000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/rcv.YNA.20260917.PYH2026091708650001300_T1.jpg",
-    "title": "Fake K-beauty products busted",
-    "link": "https://www.koreaherald.com/article/10877107"
-  },
-  {
-    "id": "hotnews_en_903e3e3c",
-    "date": "2026-09-17",
-    "ts": 1789620147000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.2da1a14fbb714845933561ec1233cd69_T1.jpg",
-    "title": "'W70b for this?' Yeosu's world island expo blasted over performance, food",
-    "link": "https://www.koreaherald.com/article/10877093"
-  },
-  {
-    "id": "hotnews_en_2c6826ab",
-    "date": "2026-09-17",
-    "ts": 1789620090000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917005900315_01_i_P2.jpg",
-    "title": "Seoul city to hike Han River ferry fares for weekends starting next year",
-    "link": "https://en.yna.co.kr/view/AEN20260917005900315"
-  },
-  {
-    "id": "hotnews_en_83758a73",
-    "date": "2026-09-17",
-    "ts": 1789619538000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.51417aeb7e55479e8747112cf4980753_T1.jpg",
-    "title": "Michelin two-star restaurant fined for serving ant dessert",
-    "link": "https://www.koreaherald.com/article/10877071"
   }
 ]

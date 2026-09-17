@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_th_e6932824",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
+    "title": "ม.ต่างจังหวัดและม.ขนาดเล็กทำผลงานยอดเยี่ยมในการจัดอันดับมหา'ลัย",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_2174f65e",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/cacea909-fd58-4178-aa41-4eb767f79d52.jpeg",
+    "title": "ย่านจงโน 3-กา กรุงโซล ครองอันดับ 1 ย่านสุดเจ๋งที่สุดในโลก",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/seouls-jongno-3-ga-rises-to-worlds-coolest-neighborhood?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_d7fb818b",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/8a76d9ba-a2e7-49b4-ab19-65ed065ba7ca.jpg",
+    "title": "จัดอันดับมหาวิทยาลัย The Korea Times ปี 2027 เน้นความเป็นสากล",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/korea-times-university-rankings-focus-on-universities-internationalization-capabilities?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_b334981c",
+    "date": "2026-09-17",
+    "ts": 1789664823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/1d4f5fb6-a63a-4821-a0c2-9d955c3d1dc4.jpg",
+    "title": "มellingจัดอันดับมหาวิทยาลัยเกาหลี 2027: Korea University ครองแชมป์",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/top-korean-universities-hold-firm-as-new-contenders-gain-ground?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7bb01ca2",
+    "date": "2026-09-17",
+    "ts": 1789657200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.4cac3843ce614cacbcb4a0041f02ccc3_T1.jpg",
+    "title": "Volvo ES90 รถซีดานไฟฟ้าใหม่ในเกาหลี",
+    "link": "https://www.koreaherald.com/article/10877569"
+  },
+  {
+    "id": "hotnews_th_6925fa6c",
+    "date": "2026-09-17",
+    "ts": 1789651343000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091515180001300_P2.jpg",
+    "title": "สสหภาพแรงงาน KCTU เตรียมร่วมเจรจากับรัฐบาลเรื่องกฎแรงงาน",
+    "link": "https://en.yna.co.kr/view/AEN20260917011800315"
+  },
+  {
     "id": "hotnews_th_257c21a2",
     "date": "2026-09-17",
     "ts": 1789646222000,
@@ -32,6 +80,30 @@
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260917/lee-vows-to-crack-down-on-transnational-crimes-scalping?utm_source=rss"
   },
   {
+    "id": "hotnews_th_4ceca468",
+    "date": "2026-09-17",
+    "ts": 1789646008000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011600320_01_i_P2.jpg",
+    "title": "ประธานาธิบดีทาจิกิสถานรับสายดำกิตติมศักดิ์เทควันโด",
+    "link": "https://en.yna.co.kr/view/AEN20260917011600320"
+  },
+  {
+    "id": "hotnews_th_52efd341",
+    "date": "2026-09-17",
+    "ts": 1789642902000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/rcv.YNA.20260915.PAF20260915230601009_T1.jpg",
+    "title": "เกาหลีใต้ร้องเรียนปมโชว์แม่ทัพญี่ปุ่นในพิธี",
+    "link": "https://www.koreaherald.com/article/10877603"
+  },
+  {
+    "id": "hotnews_th_bb36cdee",
+    "date": "2026-09-17",
+    "ts": 1789641958000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011500320_02_i_P2.jpg",
+    "title": "ซอง ซึงมิน ผ่านเข้าชิงศึกปัญจกีฬาเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260917011500320"
+  },
+  {
     "id": "hotnews_th_7b477670",
     "date": "2026-09-17",
     "ts": 1789639698000,
@@ -54,6 +126,14 @@
     "image": "https://img.yna.co.kr/photo/etc/af/2026/09/15/PAF20260915230601009_P2.jpg",
     "title": "เกาหลีใต้ร้องเรียนปมโชว์โตโยโตมิ ฮิเดโยชิ ในงานเอเชียนเกมส์",
     "link": "https://en.yna.co.kr/view/AEN20260917011000315"
+  },
+  {
+    "id": "hotnews_th_db48394b",
+    "date": "2026-09-17",
+    "ts": 1789636411000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917023837_63_k.jpg",
+    "title": "รมว.ต่างประเทศโชแจงลงทุนในสหรัฐช้าไม่ใช่เพราะความขัดแย้ง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204319"
   },
   {
     "id": "hotnews_th_e723e4b9",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916011300315_01_i_P2.jpg",
     "title": "รมว.วัฒนธรรมคาซัคสถานเยือนหลุมศพ ฮง บอม-โด ครั้งแรก",
     "link": "https://en.yna.co.kr/view/AEN20260916011300315"
-  },
-  {
-    "id": "hotnews_th_3f17c8ef",
-    "date": "2026-09-16",
-    "ts": 1789553894000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524080001300_P2.jpg",
-    "title": "อี ซึง-วอน ลั่นแข้งโสมขาวไม่หยุดแค่ชนะนัดเดียว",
-    "link": "https://en.yna.co.kr/view/AEN20260916011100315"
-  },
-  {
-    "id": "hotnews_th_edf66c09",
-    "date": "2026-09-16",
-    "ts": 1789553828000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091626920001300_P2.jpg",
-    "title": "คัง โซ-ฮวี พาตบสาวเกาหลีใต้ประเดิมชัยเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260916011200320"
-  },
-  {
-    "id": "hotnews_th_338878a5",
-    "date": "2026-09-16",
-    "ts": 1789553291000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916070038_50_e.jpg",
-    "title": "สสจ.เกาหลีแนะนำให้ฉีดวัคซีนป้องกันไข้หวัดใหญ่และโควิด-19",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204298"
-  },
-  {
-    "id": "hotnews_th_040799d7",
-    "date": "2026-09-16",
-    "ts": 1789553223000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006651315_06_i_P2.jpg",
-    "title": "เกาหลีใต้และเอเชียกลางเห็นพ้องกระชับความร่วมมือด้านแร่และพลังงาน",
-    "link": "https://en.yna.co.kr/view/AEN20260916006651315"
-  },
-  {
-    "id": "hotnews_th_19e16438",
-    "date": "2026-09-16",
-    "ts": 1789552921000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916071040_64_e.jpg",
-    "title": "งาน Seoul International Music Festival ปี 2026 เริ่ม 8 ต.ค.",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204297"
-  },
-  {
-    "id": "hotnews_th_8d54140e",
-    "date": "2026-09-16",
-    "ts": 1789552398000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260916065633_83_e.jpg",
-    "title": "วันพฤหัสบดีนี้ทั่วประเทศเกาหลีจะมีท้องฟ้ามีเมฆมาก",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204296"
-  },
-  {
-    "id": "hotnews_th_52b753cd",
-    "date": "2026-09-16",
-    "ts": 1789552103000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091623720001300_P2.jpg",
-    "title": "วอลเลย์บอลหญิงเกาหลีใต้ชนะฮ่องกงประเดิมศึกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260916011000315"
-  },
-  {
-    "id": "hotnews_th_3c05bd8b",
-    "date": "2026-09-16",
-    "ts": 1789551585000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091608200001301_P2.jpg",
-    "title": "ว่าที่ รมว.กลาโหม คัง ชิน-ชูเอล ขอโทษกรณีประกาศกฎอัยการศึกปี 2024",
-    "link": "https://en.yna.co.kr/view/AEN20260916006752315"
-  },
-  {
-    "id": "hotnews_th_b84edb5e",
-    "date": "2026-09-16",
-    "ts": 1789545820000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.720cdabb9212401090b24befc43f4aad_T1.jpg",
-    "title": "แรงงานต่างชาติเสียชีวิตในที่ทำงาน 369 ราย",
-    "link": "https://www.koreaherald.com/article/10875953"
-  },
-  {
-    "id": "hotnews_th_b4da6b07",
-    "date": "2026-09-16",
-    "ts": 1789545603000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091617090031500_P2.jpg",
-    "title": "เกาหลีใต้กระชับความร่วมมือทางเศรษฐกิจกับเอเชียกลาง",
-    "link": "https://en.yna.co.kr/view/AEN20260916007700320"
   }
 ]
