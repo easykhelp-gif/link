@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_33d069d2",
+    "date": "2026-09-17",
+    "ts": 1789621622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/fb213912-eef7-4b19-a1ce-2a52077c67fb.jpeg",
+    "title": "Nghiên cứu mới về pin mặt trời hữu cơ tại Sungkyunkwan",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260917/sungkyunkwan-university-research-offers-design-guidelines-for-organic-solar-cells?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_3df57a5a",
+    "date": "2026-09-17",
+    "ts": 1789621476000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917006100315_01_i_P2.jpg",
+    "title": "Đạo diễn Trung Quốc Trương Nghệ Mưu làm trưởng ban giám khảo BIFF",
+    "link": "https://en.yna.co.kr/view/AEN20260917006100315"
+  },
+  {
+    "id": "hotnews_vi_168e9ae7",
+    "date": "2026-09-17",
+    "ts": 1789618908000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091518600001300_P2.jpg",
+    "title": "Ủy ban quốc hội thông qua báo cáo bổ nhiệm Bộ trưởng Tư pháp",
+    "link": "https://en.yna.co.kr/view/AEN20260917005700315"
+  },
+  {
+    "id": "hotnews_vi_c1ba594d",
+    "date": "2026-09-17",
+    "ts": 1789615010000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917005500315_01_i_P2.jpg",
+    "title": "Giữ nguyên án 5 năm tù cho tài xế say rượu tông chết người Nhật",
+    "link": "https://en.yna.co.kr/view/AEN20260917005500315"
+  },
+  {
+    "id": "hotnews_vi_d109c1ca",
+    "date": "2026-09-17",
+    "ts": 1789614015000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917002300315_01_i_P2.jpg",
+    "title": "Hanwha trình diễn các phương tiện mặt đất không người lái thế hệ mới",
+    "link": "https://en.yna.co.kr/view/AEN20260917002300315"
+  },
+  {
+    "id": "hotnews_vi_a673ea0f",
+    "date": "2026-09-17",
+    "ts": 1789614014000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003200320_01_i_P2.jpg",
+    "title": "Khối ngoại mua ròng cổ phiếu Hàn Quốc trong tháng 8",
+    "link": "https://en.yna.co.kr/view/AEN20260917003200320"
+  },
+  {
+    "id": "hotnews_vi_3991dccc",
+    "date": "2026-09-17",
+    "ts": 1789612493000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.6c1e48620abe4c21802b87e7c8020143_T1.jpg",
+    "title": "Tuyển bóng rổ nam Hàn Quốc hướng tới huy chương vàng Asian Games",
+    "link": "https://www.koreaherald.com/article/10876956"
+  },
+  {
+    "id": "hotnews_vi_58bb26d5",
+    "date": "2026-09-17",
+    "ts": 1789612417000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917004800315_03_i_P2.jpg",
+    "title": "Hàn Quốc và Pháp diễn tập không quân chung sau ba năm",
+    "link": "https://en.yna.co.kr/view/AEN20260917004800315"
+  },
+  {
+    "id": "hotnews_vi_a5006321",
+    "date": "2026-09-17",
+    "ts": 1789610551000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003700315_01_i_P2.jpg",
+    "title": "Chuyển 9 nghi phạm tống tiền người nước ngoài ở Yangsan và Gimhae",
+    "link": "https://en.yna.co.kr/view/AEN20260917003700315"
+  },
+  {
+    "id": "hotnews_vi_7dbc5721",
+    "date": "2026-09-17",
+    "ts": 1789609637000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003800320_02_i_P2.jpg",
+    "title": "Ssangyong E&C trúng thầu bệnh viện 2,1 tỷ USD tại Singapore",
+    "link": "https://en.yna.co.kr/view/AEN20260917003800320"
+  },
+  {
     "id": "hotnews_vi_8b3fe1c0",
     "date": "2026-09-16",
     "ts": 1789591810000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091606480001301_P2.jpg",
     "title": "Ứng cử viên Bộ trưởng Đất đai cam kết tăng tốc cung nhà ở",
     "link": "https://en.yna.co.kr/view/AEN20260916003900320"
-  },
-  {
-    "id": "hotnews_vi_eeaef89f",
-    "date": "2026-09-15",
-    "ts": 1789506314000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5d7f9d24e20b461aab42666aaa71bb5e_T1.jpg",
-    "title": "Xe buýt Seoul chạy bình thường sau thỏa thuận phút chót",
-    "link": "https://www.koreaherald.com/article/10874753"
-  },
-  {
-    "id": "hotnews_vi_337429c6",
-    "date": "2026-09-15",
-    "ts": 1789504200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.6bcbb83ad1d343fc81ee0640c0a1dd1f_T1.jpg",
-    "title": "Cuộc sống bình thường của chúng ta cũng có thể là thơ",
-    "link": "https://www.koreaherald.com/article/10874565"
-  },
-  {
-    "id": "hotnews_vi_2b131b3e",
-    "date": "2026-09-15",
-    "ts": 1789503367000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916000300315_01_i_P2.jpg",
-    "title": "Hơn 300 lao động Hàn Quốc kiện chính phủ Mỹ sau cuộc đột kích",
-    "link": "https://en.yna.co.kr/view/AEN20260916000300315"
-  },
-  {
-    "id": "hotnews_vi_7ae4cd0b",
-    "date": "2026-09-15",
-    "ts": 1789488435000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916000200315_01_i_P2.jpg",
-    "title": "Trump đòi các nước không giúp đỡ phải bồi thường sau chiến tranh Iran",
-    "link": "https://en.yna.co.kr/view/AEN20260916000200315"
-  },
-  {
-    "id": "hotnews_vi_577edc58",
-    "date": "2026-09-15",
-    "ts": 1789484738000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/rcv.YNA.20260914.PYH2026091413130006100_T1.jpg",
-    "title": "Chưa tới 1.200 thí sinh được cứu xét sau sự cố nộp đơn đại học",
-    "link": "https://www.koreaherald.com/article/10874727"
-  },
-  {
-    "id": "hotnews_vi_72429d6c",
-    "date": "2026-09-15",
-    "ts": 1789481174000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/15/AEN20260915008252315_07_i_P2.jpg",
-    "title": "Công đoàn xe buýt Seoul đình công từ thứ Tư sau khi đàm phán thất bại",
-    "link": "https://en.yna.co.kr/view/AEN20260915008252315"
-  },
-  {
-    "id": "hotnews_vi_40166270",
-    "date": "2026-09-15",
-    "ts": 1789480895000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528040001300_P2.jpg",
-    "title": "HLV Lee Min-sung nhắc nhở hàng thủ U23 Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20260915011200315"
-  },
-  {
-    "id": "hotnews_vi_1e117dac",
-    "date": "2026-09-15",
-    "ts": 1789479580000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091524950001300_P2.jpg",
-    "title": "Eom Ji-sung lập hat-trick, Hàn Quốc thắng Qatar 4-1 tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260915011051315"
-  },
-  {
-    "id": "hotnews_vi_69eae60f",
-    "date": "2026-09-15",
-    "ts": 1789478678000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.76a3dacb37d54208860b6086abda8c76_T1.png",
-    "title": "Xe buýt Seoul đình công: Hướng dẫn cách di chuyển thay thế",
-    "link": "https://www.koreaherald.com/article/10874711"
-  },
-  {
-    "id": "hotnews_vi_77cfb04d",
-    "date": "2026-09-15",
-    "ts": 1789478547000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/15/news-p.v1.20260915.f1c59fcd4f15436b94513d92264c598c_T1.jpg",
-    "title": "Xe buýt Seoul ngừng hoạt động từ thứ Tư do đình công",
-    "link": "https://www.koreaherald.com/article/10874710"
   }
 ]
