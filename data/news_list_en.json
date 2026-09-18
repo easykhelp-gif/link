@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_22172882",
+    "date": "2026-09-18",
+    "ts": 1789749423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/4a394297-1373-4378-93a7-fb6cd3d284b7.jpeg",
+    "title": "Toxic humidifier survivors face daily struggles, discrimination",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260919/toxic-humidifier-survivors-face-daily-struggles-discrimination?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_d6c18540",
+    "date": "2026-09-18",
+    "ts": 1789743272000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/04/PYH2026020402590001300_P2.jpg",
+    "title": "Top S. Korean, U.S. diplomats hold talks as allies discuss investment in U.S., Hormuz Strait, N. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20260918012000315"
+  },
+  {
+    "id": "hotnews_en_1e12961a",
+    "date": "2026-09-18",
+    "ts": 1789737839000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/08/02/10/PCM20260802000010990_P2.jpg",
+    "title": "Woman under probe for allegedly eavesdropping on singer Cha Eun-woo",
+    "link": "https://en.yna.co.kr/view/AEN20260918011900315"
+  },
+  {
+    "id": "hotnews_en_e50c7a91",
+    "date": "2026-09-18",
+    "ts": 1789736906000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091822650001300_P2.jpg",
+    "title": "(Asiad) Jun Woong-tae advances to modern pentathlon final, eyes 3rd straight Asiad gold",
+    "link": "https://en.yna.co.kr/view/AEN20260918011800320"
+  },
+  {
+    "id": "hotnews_en_9381b3d1",
+    "date": "2026-09-18",
+    "ts": 1789736182000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528320001300_P2.jpg",
+    "title": "(Asiad) Idle S. Korea reach quarterfinals in men's football",
+    "link": "https://en.yna.co.kr/view/AEN20260918011700315"
+  },
+  {
+    "id": "hotnews_en_b3ae4ed1",
+    "date": "2026-09-18",
+    "ts": 1789733725000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918011500320_01_i_P2.jpg",
+    "title": "(Asiad) N. Korean team attends welcome ceremony for Aichi-Nagoya Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260918011500320"
+  },
+  {
     "id": "hotnews_en_07718d7a",
     "date": "2026-09-18",
     "ts": 1789731422000,
@@ -128,6 +176,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260918011100315"
   },
   {
+    "id": "hotnews_en_89d43fdf",
+    "date": "2026-09-18",
+    "ts": 1789726650000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091824030005200_P2.jpg",
+    "title": "(Asiad) Women's volleyball coach sees players' determination to win against Vietnam",
+    "link": "https://en.yna.co.kr/view/AEN20260918011000320"
+  },
+  {
+    "id": "hotnews_en_2263a508",
+    "date": "2026-09-18",
+    "ts": 1789726497000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-p.v1.20260918.dd908b20cf054ea18329d9c48f88d57c_T1.jpg",
+    "title": "US ambassador says S. Korea-US alliance 'linchpin' of peace on Korean Peninsula",
+    "link": "https://www.koreaherald.com/article/10878908"
+  },
+  {
     "id": "hotnews_en_100c4749",
     "date": "2026-09-18",
     "ts": 1789724801000,
@@ -158,6 +222,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202208/220825130159_2_k.jpg",
     "title": "Clear Skies Expected Saturday; Rain on the Way for Jeju, East Coast",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204354"
+  },
+  {
+    "id": "hotnews_en_a556adad",
+    "date": "2026-09-18",
+    "ts": 1789722143000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260530072502_60_k.jpg",
+    "title": "Fuel Price Ceilings Frozen for 4 Weeks",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204353"
   },
   {
     "id": "hotnews_en_9330dfd6",
@@ -326,77 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918040441_83_k.jpg",
     "title": "KOSPI Up 2.66% Friday",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204347"
-  },
-  {
-    "id": "hotnews_en_8adeb03d",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/c4bf67f7-642a-41b9-950c-10813c498c95.jpeg",
-    "title": "Kookmin University signs cooperation agreement with Tashkent University of Information Technologies",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/kookmin-university-signs-cooperation-agreement-with-tashkent-university-of-information-technologies?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_a8b69bd4",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/31e1c364-7721-49ab-9a60-cf431a5335c5.jpg",
-    "title": "Korea to extend fuel tax cut through November amid price burdens",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260918/korea-to-extend-fuel-tax-cut-through-november-amid-price-burdens?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f536891d",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/2f4de72c-fc56-4b36-a3df-335aa65a5314.jpeg",
-    "title": "Korea-Central Asia Summit exposes limits of bloc diplomacy",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260918/korea-central-asia-summit-exposes-limits-of-bloc-diplomacy?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_2d77473e",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/c2b4046e-26fc-4d73-a244-3ba1c5e88f2c.jpeg",
-    "title": "Top 30 in The Korea Times University Rankings 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/top-30-in-the-korea-times-university-rankings-2027?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_49cdfe0a",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/f007584e-8f3f-445a-bfc9-dab7a0798765.jpg",
-    "title": "Universities need to do more to support international students",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/universities-need-to-do-more-to-support-international-students?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_80c1a79d",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/80b9a7e9-1014-4eac-ba14-1c4251569619.jpeg",
-    "title": "Korea enlists citizen watchdogs to hunt deepfakes, illicit digital sex crimes",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260918/korea-enlists-citizen-watchdogs-to-hunt-deepfakes-illicit-digital-sex-crimes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_73599a3a",
-    "date": "2026-09-18",
-    "ts": 1789707423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/186ea82f-7fcf-492b-826c-865662586c77.jpg",
-    "title": "Lee rules out Korean troop deployment in Iran war",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260918/lee-rules-out-korean-troop-deployment-in-iran-war?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_82d59b4f",
-    "date": "2026-09-18",
-    "ts": 1789706942000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-a.v1.20260918.5803165d4a1e409e9b3f46c81b0cfabe_T1.png",
-    "title": "Alfonso Cuaron heading to Busan for first visit to Korea",
-    "link": "https://www.koreaherald.com/article/10878510"
-  },
-  {
-    "id": "hotnews_en_f1917e43",
-    "date": "2026-09-18",
-    "ts": 1789706321000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-p.v1.20260918.5d0859b4a6a44f70ad64ca5a7fbe5832_T1.jpg",
-    "title": "N. Korea’s nuclear tests reawakened dormant faults: study",
-    "link": "https://www.koreaherald.com/article/10878501"
   }
 ]

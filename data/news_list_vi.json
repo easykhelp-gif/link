@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_22172882",
+    "date": "2026-09-18",
+    "ts": 1789749423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/4a394297-1373-4378-93a7-fb6cd3d284b7.jpeg",
+    "title": "Nạn nhân chất khử trùng tạo ẩm đối mặt kỳ thị",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260919/toxic-humidifier-survivors-face-daily-struggles-discrimination?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d6c18540",
+    "date": "2026-09-18",
+    "ts": 1789743272000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/04/PYH2026020402590001300_P2.jpg",
+    "title": "Ngoại trưởng Hàn Quốc và Mỹ hội đàm tại Washington",
+    "link": "https://en.yna.co.kr/view/AEN20260918012000315"
+  },
+  {
+    "id": "hotnews_vi_e50c7a91",
+    "date": "2026-09-18",
+    "ts": 1789736906000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091822650001300_P2.jpg",
+    "title": "Jun Woong-tae vào chung kết ngũ hợp hiện đại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260918011800320"
+  },
+  {
     "id": "hotnews_vi_07718d7a",
     "date": "2026-09-18",
     "ts": 1789731724000,
@@ -48,12 +72,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260918010551315"
   },
   {
+    "id": "hotnews_vi_bec51d21",
+    "date": "2026-09-18",
+    "ts": 1789724525000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/201612/161201103659_e64.jpg",
+    "title": "Chuyên gia nhấn mạnh việc bảo tồn văn hóa Jeju Haenyeo",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204356"
+  },
+  {
     "id": "hotnews_vi_21a0962e",
     "date": "2026-09-18",
     "ts": 1789722934000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091814690001300_P2.jpg",
     "title": "Đại sứ Mỹ gọi liên minh Hàn-Mỹ là cốt lõi hòa bình",
     "link": "https://en.yna.co.kr/view/AEN20260918007751315"
+  },
+  {
+    "id": "hotnews_vi_a556adad",
+    "date": "2026-09-18",
+    "ts": 1789722143000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260530072502_60_k.jpg",
+    "title": "Giá trần nhiên liệu giữ nguyên trong 4 tuần",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204353"
   },
   {
     "id": "hotnews_vi_9330dfd6",
@@ -64,6 +104,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260918007400320"
   },
   {
+    "id": "hotnews_vi_22b21039",
+    "date": "2026-09-18",
+    "ts": 1789721884000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202602/260202013519_6_e.jpg",
+    "title": "Miễn phí vé tham quan Cung điện Hoàng gia và Jongmyo dịp Chuseok",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204352"
+  },
+  {
+    "id": "hotnews_vi_544c6f91",
+    "date": "2026-09-18",
+    "ts": 1789718347000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908121953_71_k.jpg",
+    "title": "Chính quyền trung ương và địa phương giám sát giá Chuseok",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204350"
+  },
+  {
     "id": "hotnews_vi_2adcb20b",
     "date": "2026-09-18",
     "ts": 1789718213000,
@@ -72,12 +128,36 @@
     "link": "https://www.koreaherald.com/article/10878804"
   },
   {
+    "id": "hotnews_vi_74d7d3ce",
+    "date": "2026-09-18",
+    "ts": 1789717806000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918031033_31_k.jpg",
+    "title": "Phim The Odyssey vượt 11 triệu vé bán ra",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204349"
+  },
+  {
     "id": "hotnews_vi_37b09e27",
     "date": "2026-09-18",
     "ts": 1789717319000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091817700001300_P2.jpg",
     "title": "Chứng khoán Seoul tăng mạnh nhờ lo ngại lạm phát hạ nhiệt",
     "link": "https://en.yna.co.kr/view/AEN20260918007352320"
+  },
+  {
+    "id": "hotnews_vi_a4f2429a",
+    "date": "2026-09-18",
+    "ts": 1789717187000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202607/260723105727_80_k.jpg",
+    "title": "Thị trưởng Seoul phản bác phát biểu của Tổng thống về giá nhà",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204348"
+  },
+  {
+    "id": "hotnews_vi_dbad49b3",
+    "date": "2026-09-18",
+    "ts": 1789717065000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918008600315_01_i_P2.jpg",
+    "title": "Bắt giáo viên dọa học sinh bằng súng điện ở Gumi",
+    "link": "https://en.yna.co.kr/view/AEN20260918008600315"
   },
   {
     "id": "hotnews_vi_8adeb03d",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011600320_01_i_P2.jpg",
     "title": "Tổng thống Tajikistan nhận đai đen danh dự taekwondo",
     "link": "https://en.yna.co.kr/view/AEN20260917011600320"
-  },
-  {
-    "id": "hotnews_vi_52efd341",
-    "date": "2026-09-17",
-    "ts": 1789642902000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/rcv.YNA.20260915.PAF20260915230601009_T1.jpg",
-    "title": "Hàn Quốc khiếu nại vụ sự kiện ASIAD tôn vinh Toyotomi Hideyoshi",
-    "link": "https://www.koreaherald.com/article/10877603"
-  },
-  {
-    "id": "hotnews_vi_bb36cdee",
-    "date": "2026-09-17",
-    "ts": 1789641958000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011500320_02_i_P2.jpg",
-    "title": "Seong Seung-min vào chung kết năm môn phối hợp Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260917011500320"
-  },
-  {
-    "id": "hotnews_vi_7b477670",
-    "date": "2026-09-17",
-    "ts": 1789639698000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917043344_75_e.jpg",
-    "title": "Đội tuyển bóng chuyền Hàn Quốc hướng tới huy chương Asian Games",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204321"
-  },
-  {
-    "id": "hotnews_vi_47b8053c",
-    "date": "2026-09-17",
-    "ts": 1789639592000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091715620001300_P2.jpg",
-    "title": "Đoàn thể thao Hàn Quốc đến Nagoya dự Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260917007751315"
-  },
-  {
-    "id": "hotnews_vi_b7c8273e",
-    "date": "2026-09-17",
-    "ts": 1789637817000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091725400001300_P2.jpg",
-    "title": "Bộ trưởng thể thao Triều Tiên đến Nhật Bản dự Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260917011200320"
-  },
-  {
-    "id": "hotnews_vi_9d7bbc75",
-    "date": "2026-09-17",
-    "ts": 1789637318000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/09/15/PAF20260915230601009_P2.jpg",
-    "title": "Hàn Quốc khiếu nại về nhân vật Toyotomi Hideyoshi ở Nhật Bản",
-    "link": "https://en.yna.co.kr/view/AEN20260917011000315"
-  },
-  {
-    "id": "hotnews_vi_db48394b",
-    "date": "2026-09-17",
-    "ts": 1789636411000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260917023837_63_k.jpg",
-    "title": "Ngoại trưởng Cho: Hoãn đầu tư Mỹ không do bất đồng Hàn-Mỹ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204319"
-  },
-  {
-    "id": "hotnews_vi_e723e4b9",
-    "date": "2026-09-17",
-    "ts": 1789634893000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.e81dac73942c45eeb0bea169794d2e30_T1.jpg",
-    "title": "Tổng thống Lee thảo luận an ninh năng lượng với IEA",
-    "link": "https://www.koreaherald.com/article/10877540"
-  },
-  {
-    "id": "hotnews_vi_623d62e7",
-    "date": "2026-09-17",
-    "ts": 1789632109000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260724.5d708f309f374246a8caa4eabd81ce0d_T1.jpg",
-    "title": "Hàn Quốc thu hồi 5,56 tỷ won tiền thuế nghệ sĩ nước ngoài",
-    "link": "https://www.koreaherald.com/article/10877472"
-  },
-  {
-    "id": "hotnews_vi_3fffabfb",
-    "date": "2026-09-17",
-    "ts": 1789631778000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.cd8733f1a9b04216b11d15dd1e278f79_T1.jpg",
-    "title": "Bắt người bán lại gần 9.000 vé K-pop với giá 1,7 triệu USD",
-    "link": "https://www.koreaherald.com/article/10877469"
   }
 ]
