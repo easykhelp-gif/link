@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_07718d7a",
+    "date": "2026-09-18",
+    "ts": 1789731422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/b8f66eee-b08a-4768-8369-40be97406f1f.jpg",
+    "title": "ทดสอบนิวเคลียร์เกาหลีเหนือกระตุ้นรอยเลื่อนใต้ภูเขา",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/n-korea-nuclear-tests-reactivated-dormant-faults-study?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_73599a3a",
+    "date": "2026-09-18",
+    "ts": 1789731422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/cd8b4d1a-2339-46d3-b21f-0f4efbc78a50.jpg",
+    "title": "อี แจมยอง ยืนยันเกาหลีใต้จะไม่ส่งทหารร่วมสงครามสหรัฐฯ-อิหร่าน",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260918/lee-rules-out-korean-troop-deployment-in-iran-war?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c810939d",
+    "date": "2026-09-18",
+    "ts": 1789731422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/61e669eb-422c-4ee2-9352-5afbe1de1a61.jpg",
+    "title": "ประธานาธิบดีอีแจมยองยอมรับข้อผิดพลาดในการตรวจสอบประวัติรัฐมนตรี",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/lee-holds-off-on-justice-minister-nominee-admits-vetting-failures?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_05bdfcb9",
+    "date": "2026-09-18",
+    "ts": 1789731422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/2fdcba43-7846-4fb3-bbb4-c72664093c8b.jpg",
+    "title": "โซลเตรียมเพิ่มที่พักรองรับเป้าหมายนักท่องเที่ยวต่างชาติ",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/seoul-targets-more-lodging-as-it-aims-for-30-mil-foreign-tourists?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4f118c7f",
+    "date": "2026-09-18",
+    "ts": 1789731422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/a59872a5-2aed-4f02-a9e9-6e43ed048936.jpeg",
+    "title": "ถ(อกันสนั่นเกาหลี! ปมกลิ่นอาหารในอพาร์ตเมนต์",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/cant-i-cook-in-my-own-home-food-odor-complaint-divides-korean-apartment-residents?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7bacd61e",
+    "date": "2026-09-18",
+    "ts": 1789727818000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918010551315_01_i_P2.jpg",
+    "title": "เกาหลีใต้คว้าเหรียญทองแดงซอฟต์เทนนิสเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260918010551315"
+  },
+  {
+    "id": "hotnews_th_21a0962e",
+    "date": "2026-09-18",
+    "ts": 1789722934000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091814690001300_P2.jpg",
+    "title": "ทูตสหรัฐฯ ย้ำพันธมิตรเกาหลีใต้-สหรัฐฯ เป็นแกนหลักสันติภาพ",
+    "link": "https://en.yna.co.kr/view/AEN20260918007751315"
+  },
+  {
+    "id": "hotnews_th_9330dfd6",
+    "date": "2026-09-18",
+    "ts": 1789722003000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091815090001300_P2.jpg",
+    "title": "รัฐบาลเกาหลีใต้ตรึงราคาน้ำมันต่อ",
+    "link": "https://en.yna.co.kr/view/AEN20260918007400320"
+  },
+  {
+    "id": "hotnews_th_2adcb20b",
+    "date": "2026-09-18",
+    "ts": 1789718213000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-p.v1.20260918.6f60298c2112473db595249ac46d77d8_T1.jpg",
+    "title": "โช ฮยอน เตรียมพบ มาร์โก รูบิโอ หารือเรื่องการลงทุนและช่องแคบฮอร์มุ兹",
+    "link": "https://www.koreaherald.com/article/10878804"
+  },
+  {
+    "id": "hotnews_th_37b09e27",
+    "date": "2026-09-18",
+    "ts": 1789717319000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091817700001300_P2.jpg",
+    "title": "หุ้นโซลพุ่งกว่า 2% รับความกังวลเงินเฟ้อคลี่คลาย",
+    "link": "https://en.yna.co.kr/view/AEN20260918007352320"
+  },
+  {
     "id": "hotnews_th_8adeb03d",
     "date": "2026-09-18",
     "ts": 1789707423000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.cd8733f1a9b04216b11d15dd1e278f79_T1.jpg",
     "title": "รวบชายเกาหลีใต้เก็งกำไรบัตร K-pop โกยเงินกว่า 60 ล้านบาท",
     "link": "https://www.koreaherald.com/article/10877469"
-  },
-  {
-    "id": "hotnews_th_33d069d2",
-    "date": "2026-09-17",
-    "ts": 1789621622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/fb213912-eef7-4b19-a1ce-2a52077c67fb.jpeg",
-    "title": "ม.ซองคุงกwan วิจัยโซลาร์เซลล์อินทรีย์เพิ่มประสิทธิภาพ",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260917/sungkyunkwan-university-research-offers-design-guidelines-for-organic-solar-cells?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_3df57a5a",
-    "date": "2026-09-17",
-    "ts": 1789621476000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917006100315_01_i_P2.jpg",
-    "title": "จางอี้โหมว นั่งแท่นประธานกรรมการตัดสินงาน BIFF",
-    "link": "https://en.yna.co.kr/view/AEN20260917006100315"
-  },
-  {
-    "id": "hotnews_th_168e9ae7",
-    "date": "2026-09-17",
-    "ts": 1789618908000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091518600001300_P2.jpg",
-    "title": "คณะกรรมาธิการรัฐสภาผ่านรายงานรับรองผู้เสนอชื่อรัฐมนตรีว่าการกระทรวงยุติธรรม",
-    "link": "https://en.yna.co.kr/view/AEN20260917005700315"
-  },
-  {
-    "id": "hotnews_th_c1ba594d",
-    "date": "2026-09-17",
-    "ts": 1789615010000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917005500315_01_i_P2.jpg",
-    "title": "ศาลยืนโทษจำคุก 5 ปี โชเฟอร์เมาแล้วขับชนชาวญี่ปุ่นเสียชีวิต",
-    "link": "https://en.yna.co.kr/view/AEN20260917005500315"
-  },
-  {
-    "id": "hotnews_th_d109c1ca",
-    "date": "2026-09-17",
-    "ts": 1789614015000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917002300315_01_i_P2.jpg",
-    "title": "ฮันฮวาโชว์นวัตกรรมยานยนต์ไร้คนขับทางบกที่ชางวอน",
-    "link": "https://en.yna.co.kr/view/AEN20260917002300315"
-  },
-  {
-    "id": "hotnews_th_a673ea0f",
-    "date": "2026-09-17",
-    "ts": 1789614014000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003200320_01_i_P2.jpg",
-    "title": "นักลงทุนต่างชาติซื้อสุทธิหุ้นเกาหลีใต้ในเดือนสิงหาคม",
-    "link": "https://en.yna.co.kr/view/AEN20260917003200320"
-  },
-  {
-    "id": "hotnews_th_3991dccc",
-    "date": "2026-09-17",
-    "ts": 1789612493000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.6c1e48620abe4c21802b87e7c8020143_T1.jpg",
-    "title": "ทีมบาสเกตบอลเกาหลีใต้ลุ้นเหรียญทองเอเชียนเกมส์ในรอบ 12 ปี",
-    "link": "https://www.koreaherald.com/article/10876956"
-  },
-  {
-    "id": "hotnews_th_58bb26d5",
-    "date": "2026-09-17",
-    "ts": 1789612417000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917004800315_03_i_P2.jpg",
-    "title": "เกาหลีใต้และฝรั่งเศสจัดซ้อมรบทางอากาศร่วมกัน",
-    "link": "https://en.yna.co.kr/view/AEN20260917004800315"
-  },
-  {
-    "id": "hotnews_th_a5006321",
-    "date": "2026-09-17",
-    "ts": 1789610551000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003700315_01_i_P2.jpg",
-    "title": "ตร.ส่งฟ้อง 9 รายรีดไถชาวต่างชาติขับขี่รถมอเตอร์ไซค์ไม่จดทะเบียน",
-    "link": "https://en.yna.co.kr/view/AEN20260917003700315"
-  },
-  {
-    "id": "hotnews_th_7dbc5721",
-    "date": "2026-09-17",
-    "ts": 1789609637000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003800320_02_i_P2.jpg",
-    "title": "Ssangyong E&C ควateงานสร้างโรงพยาบาลในสิงคโปร์",
-    "link": "https://en.yna.co.kr/view/AEN20260917003800320"
   }
 ]
