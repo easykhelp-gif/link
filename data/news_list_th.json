@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_8adeb03d",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/c4bf67f7-642a-41b9-950c-10813c498c95.jpeg",
+    "title": "ม. Kookmin จับมือมหาวิทยาลัยอุซเบกิสถานร่วมมือด้าน AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/kookmin-university-signs-cooperation-agreement-with-tashkent-university-of-information-technologies?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_a8b69bd4",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/31e1c364-7721-49ab-9a60-cf431a5335c5.jpg",
+    "title": "เกาหลีใต้ขยายเวลาลดภาษีน้ำมันถึงเดือนพฤศจิกายน",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/korea-to-extend-fuel-tax-cut-through-november-amid-price-burdens?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f536891d",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/2f4de72c-fc56-4b36-a3df-335aa65a5314.jpeg",
+    "title": "เกาหลีใต้จัดประชุมสุดยอดกับ 5 ประเทศเอเชียกลางครั้งแรก",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260918/korea-central-asia-summit-exposes-limits-of-bloc-diplomacy?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_57e664fd",
+    "date": "2026-09-18",
+    "ts": 1789697642000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "อี แจ-มยอง ยืนยันไม่ส่งทหารร่วมความขัดแย้งต่างประเทศ",
+    "link": "https://en.yna.co.kr/view/AEN20260918004600315"
+  },
+  {
+    "id": "hotnews_th_946710ea",
+    "date": "2026-09-18",
+    "ts": 1789697230000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918001551315_01_i_P2.jpg",
+    "title": "อี แจมยอง ยืนยันไม่มีเจตนาลงสมัครรับเลือกตั้งอีกผ่านการแก้ไขรัฐธรรมนูญ",
+    "link": "https://en.yna.co.kr/view/AEN20260918001551315"
+  },
+  {
+    "id": "hotnews_th_bad6d6db",
+    "date": "2026-09-18",
+    "ts": 1789695433000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091717240001300_P2.jpg",
+    "title": "คะแนนนิยมของประธานาธิบดีอี แจ มยอง ลดลงเหลือร้อยละ 37",
+    "link": "https://en.yna.co.kr/view/AEN20260918002900315"
+  },
+  {
+    "id": "hotnews_th_ee5ea9b2",
+    "date": "2026-09-18",
+    "ts": 1789695284000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002600315_01_i_P2.jpg",
+    "title": "วัยรุ่นเกาหลีรับคำปรึกษาปัญหาการพนันพุ่งกว่า 40%",
+    "link": "https://en.yna.co.kr/view/AEN20260918002600315"
+  },
+  {
+    "id": "hotnews_th_d6a58514",
+    "date": "2026-09-18",
+    "ts": 1789695061000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002800315_01_i_P2.jpg",
+    "title": "ศาลสูงสุดเกาหลีใต้พิพากษายืนจำคุกอดีตทหาร 4 ปี ขายความลับทางทหารให้จีน",
+    "link": "https://en.yna.co.kr/view/AEN20260918002800315"
+  },
+  {
+    "id": "hotnews_th_3890517e",
+    "date": "2026-09-18",
+    "ts": 1789692964000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002300315_01_i_P2.jpg",
+    "title": "โรเซ่ BLACKPINK ปล่อยซิงเกิลใหม่แนวการ์จพังก์ \"New Trick\"",
+    "link": "https://en.yna.co.kr/view/AEN20260918002300315"
+  },
+  {
+    "id": "hotnews_th_16d11a2a",
+    "date": "2026-09-18",
+    "ts": 1789692634000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918084455_43_k.jpg",
+    "title": "การทดสอบนิวเคลียร์เกาหลีเหนืออาจกระตุ้นรอยเลื่อนและเพิ่มแผ่นดินไหว",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204330"
+  },
+  {
     "id": "hotnews_th_5f0f9e6c",
     "date": "2026-09-17",
     "ts": 1789680723000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003800320_02_i_P2.jpg",
     "title": "Ssangyong E&C ควateงานสร้างโรงพยาบาลในสิงคโปร์",
     "link": "https://en.yna.co.kr/view/AEN20260917003800320"
-  },
-  {
-    "id": "hotnews_th_8b3fe1c0",
-    "date": "2026-09-16",
-    "ts": 1789591810000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000700315_01_i_P2.jpg",
-    "title": "สหรัฐฯ สอบสวน Samsung, Apple, Google ปมละเมิดสิทธิบัตร",
-    "link": "https://en.yna.co.kr/view/AEN20260917000700315"
-  },
-  {
-    "id": "hotnews_th_cfab5a23",
-    "date": "2026-09-16",
-    "ts": 1789590600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.b1fa95e687514bda88f9874660e886e7_T1.jpg",
-    "title": "ถกเถียงเรื่อง AI ในสหรัฐฯ: เร็วหรือช้า และคำถามที่ยังขาดหาย",
-    "link": "https://www.koreaherald.com/article/10875965"
-  },
-  {
-    "id": "hotnews_th_a924439f",
-    "date": "2026-09-16",
-    "ts": 1789590600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.62cc095106db47caaebe89714d9b9dd8_T1.jpg",
-    "title": "เทrends การดูแลเส้นผมเปลี่ยนไปเน้นการป้องกันตั้งแต่เนิ่นๆ",
-    "link": "https://www.koreaherald.com/article/10875964"
-  },
-  {
-    "id": "hotnews_th_e24777ff",
-    "date": "2026-09-16",
-    "ts": 1789588693000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000600315_01_i_P2.jpg",
-    "title": "อดีตเจ้าหน้าที่สหรัฐฯ มองการประชุมทรัมป์-สีจิ้นผิง อาจไม่ค่อยมีความคืบหน้าเรื่องเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20260917000600315"
-  },
-  {
-    "id": "hotnews_th_f6034c74",
-    "date": "2026-09-16",
-    "ts": 1789581703000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "เฟดขึ้นดอกเบี้ย 0.25% ครั้งแรกตั้งแต่กุมภาพันธ์",
-    "link": "https://en.yna.co.kr/view/AEN20260917000200315"
-  },
-  {
-    "id": "hotnews_th_b297c561",
-    "date": "2026-09-16",
-    "ts": 1789569384000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5799148782b8461fbff5369bc1b4a4a6_T1.jpg",
-    "title": "แรงงานเกาหลีเหนือต่างแดนทำรายได้ปีละ 800 ล้านดอลลาร์",
-    "link": "https://www.koreaherald.com/article/10876114"
-  },
-  {
-    "id": "hotnews_th_b182f4ca",
-    "date": "2026-09-16",
-    "ts": 1789568424000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006652315_06_i_P2.jpg",
-    "title": "เกาหลีใต้และเอเชียกลางเห็นพ้องกระชับความร่วมมือแร่สำคัญ",
-    "link": "https://en.yna.co.kr/view/AEN20260916006652315"
-  },
-  {
-    "id": "hotnews_th_46f18c51",
-    "date": "2026-09-16",
-    "ts": 1789562908000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091629730001300_P2.jpg",
-    "title": "เกาหลีเหนือพ่ายจีน 1-2 ฟุตบอลชายเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260916011651315"
-  },
-  {
-    "id": "hotnews_th_45f8a844",
-    "date": "2026-09-16",
-    "ts": 1789560283000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.095dc81c5bf84763858443cf4b2c8246_T1.jpg",
-    "title": "คู팡ปฏิเสธแผนจ่ายเงินชดเชย 100,000 วอนให้ผู้ใช้ที่ข้อมูลรั่วไหล",
-    "link": "https://www.koreaherald.com/article/10876064"
-  },
-  {
-    "id": "hotnews_th_efea7de9",
-    "date": "2026-09-16",
-    "ts": 1789560000000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
-    "title": "เกาหลีเหนือส่งแรงงานแสนคนไปต่างประเทศ ละเมิดคว่ำบาตรยูเอ็น",
-    "link": "https://en.yna.co.kr/view/AEN20260916008500315"
   }
 ]

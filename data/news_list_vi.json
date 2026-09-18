@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_8adeb03d",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/c4bf67f7-642a-41b9-950c-10813c498c95.jpeg",
+    "title": "Đại học Kookmin ký kết hợp tác công nghệ với Uzbekistan",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/kookmin-university-signs-cooperation-agreement-with-tashkent-university-of-information-technologies?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_a8b69bd4",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/31e1c364-7721-49ab-9a60-cf431a5335c5.jpg",
+    "title": "Hàn Quốc kéo dài giảm thuế nhiên liệu đến tháng 11",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260918/korea-to-extend-fuel-tax-cut-through-november-amid-price-burdens?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_f536891d",
+    "date": "2026-09-18",
+    "ts": 1789707423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/2f4de72c-fc56-4b36-a3df-335aa65a5314.jpeg",
+    "title": "Hội nghị thượng đỉnh Hàn Quốc - Trung Á định hình ngoại giao khối",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260918/korea-central-asia-summit-exposes-limits-of-bloc-diplomacy?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_57e664fd",
+    "date": "2026-09-18",
+    "ts": 1789697642000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Thủ tướng Lee tuyên bố không cử quân đội tham gia xung đột",
+    "link": "https://en.yna.co.kr/view/AEN20260918004600315"
+  },
+  {
+    "id": "hotnews_vi_946710ea",
+    "date": "2026-09-18",
+    "ts": 1789697230000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918001551315_01_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung khẳng định không tái tranh cử",
+    "link": "https://en.yna.co.kr/view/AEN20260918001551315"
+  },
+  {
+    "id": "hotnews_vi_bad6d6db",
+    "date": "2026-09-18",
+    "ts": 1789695433000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091717240001300_P2.jpg",
+    "title": "Tỷ lệ tín nhiệm Tổng thống Lee Jae Myung giảm xuống 37%",
+    "link": "https://en.yna.co.kr/view/AEN20260918002900315"
+  },
+  {
+    "id": "hotnews_vi_ee5ea9b2",
+    "date": "2026-09-18",
+    "ts": 1789695284000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002600315_01_i_P2.jpg",
+    "title": "Số ca điều trị và tư vấn cờ bạc ở thanh thiếu niên tăng mạnh",
+    "link": "https://en.yna.co.kr/view/AEN20260918002600315"
+  },
+  {
+    "id": "hotnews_vi_d6a58514",
+    "date": "2026-09-18",
+    "ts": 1789695061000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002800315_01_i_P2.jpg",
+    "title": "Tòa tối cao giữ nguyên án 4 năm tù vì bán bí mật quân sự",
+    "link": "https://en.yna.co.kr/view/AEN20260918002800315"
+  },
+  {
+    "id": "hotnews_vi_3890517e",
+    "date": "2026-09-18",
+    "ts": 1789692964000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918002300315_01_i_P2.jpg",
+    "title": "Rosé (BLACKPINK) ra mắt đĩa đơn mới mang tên 'New Trick'",
+    "link": "https://en.yna.co.kr/view/AEN20260918002300315"
+  },
+  {
+    "id": "hotnews_vi_16d11a2a",
+    "date": "2026-09-18",
+    "ts": 1789692634000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918084455_43_k.jpg",
+    "title": "Thử hạt nhân Triều Tiên có thể kích hoạt đứt gãy địa chất",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204330"
+  },
+  {
     "id": "hotnews_vi_5f0f9e6c",
     "date": "2026-09-17",
     "ts": 1789680723000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917003800320_02_i_P2.jpg",
     "title": "Ssangyong E&C trúng thầu bệnh viện 2,1 tỷ USD tại Singapore",
     "link": "https://en.yna.co.kr/view/AEN20260917003800320"
-  },
-  {
-    "id": "hotnews_vi_8b3fe1c0",
-    "date": "2026-09-16",
-    "ts": 1789591810000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000700315_01_i_P2.jpg",
-    "title": "Mỹ điều tra Samsung, Apple và Google vì vi phạm bằng sáng chế",
-    "link": "https://en.yna.co.kr/view/AEN20260917000700315"
-  },
-  {
-    "id": "hotnews_vi_cfab5a23",
-    "date": "2026-09-16",
-    "ts": 1789590600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.b1fa95e687514bda88f9874660e886e7_T1.jpg",
-    "title": "Tranh luận về trí tuệ nhân tạo AI tại Mỹ",
-    "link": "https://www.koreaherald.com/article/10875965"
-  },
-  {
-    "id": "hotnews_vi_a924439f",
-    "date": "2026-09-16",
-    "ts": 1789590600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.62cc095106db47caaebe89714d9b9dd8_T1.jpg",
-    "title": "Xu hướng phòng ngừa rụng tóc sớm",
-    "link": "https://www.koreaherald.com/article/10875964"
-  },
-  {
-    "id": "hotnews_vi_e24777ff",
-    "date": "2026-09-16",
-    "ts": 1789588693000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917000600315_01_i_P2.jpg",
-    "title": "Trump và Tập Cận Bình dự kiến bàn về Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260917000600315"
-  },
-  {
-    "id": "hotnews_vi_f6034c74",
-    "date": "2026-09-16",
-    "ts": 1789581703000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Fed tăng lãi suất thêm 0,25 điểm % lần đầu từ tháng 7/2023",
-    "link": "https://en.yna.co.kr/view/AEN20260917000200315"
-  },
-  {
-    "id": "hotnews_vi_b297c561",
-    "date": "2026-09-16",
-    "ts": 1789569384000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.5799148782b8461fbff5369bc1b4a4a6_T1.jpg",
-    "title": "Lao động Bắc Triều Tiên ở nước ngoài kiếm tới 800 triệu USD",
-    "link": "https://www.koreaherald.com/article/10876114"
-  },
-  {
-    "id": "hotnews_vi_b182f4ca",
-    "date": "2026-09-16",
-    "ts": 1789568424000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916006652315_06_i_P2.jpg",
-    "title": "Hàn Quốc và Trung Á hợp tác khoáng sản và năng lượng",
-    "link": "https://en.yna.co.kr/view/AEN20260916006652315"
-  },
-  {
-    "id": "hotnews_vi_46f18c51",
-    "date": "2026-09-16",
-    "ts": 1789562908000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091629730001300_P2.jpg",
-    "title": "Triều Tiên thua ngược Trung Quốc 1-2 tại Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260916011651315"
-  },
-  {
-    "id": "hotnews_vi_45f8a844",
-    "date": "2026-09-16",
-    "ts": 1789560283000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/16/news-p.v1.20260916.095dc81c5bf84763858443cf4b2c8246_T1.jpg",
-    "title": "Coupang từ chối bồi thường 100.000 won cho vụ rò rỉ dữ liệu",
-    "link": "https://www.koreaherald.com/article/10876064"
-  },
-  {
-    "id": "hotnews_vi_efea7de9",
-    "date": "2026-09-16",
-    "ts": 1789560000000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916008500315_01_i_P2.jpg",
-    "title": "Triều Tiên đưa khoảng 100.000 lao động ra nước ngoài bất chấp lệnh trừng phạt",
-    "link": "https://en.yna.co.kr/view/AEN20260916008500315"
   }
 ]
