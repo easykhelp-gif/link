@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_vi_ba7b6bd2",
+    "date": "2026-09-18",
+    "ts": 1789765113000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc cam kết bảo vệ tự do hàng hải ở eo biển Hormuz",
+    "link": "https://en.yna.co.kr/view/AEN20260919000200315"
+  },
+  {
     "id": "hotnews_vi_22172882",
     "date": "2026-09-18",
     "ts": 1789749423000,
@@ -16,12 +24,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260918012000315"
   },
   {
+    "id": "hotnews_vi_1e12961a",
+    "date": "2026-09-18",
+    "ts": 1789737839000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/08/02/10/PCM20260802000010990_P2.jpg",
+    "title": "Điều tra phụ nữ nghe trộm Cha Eun-woo bằng thiết bị ghi âm",
+    "link": "https://en.yna.co.kr/view/AEN20260918011900315"
+  },
+  {
     "id": "hotnews_vi_e50c7a91",
     "date": "2026-09-18",
     "ts": 1789736906000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091822650001300_P2.jpg",
     "title": "Jun Woong-tae vào chung kết ngũ hợp hiện đại Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260918011800320"
+  },
+  {
+    "id": "hotnews_vi_9381b3d1",
+    "date": "2026-09-18",
+    "ts": 1789736182000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528320001300_P2.jpg",
+    "title": "U23 Hàn Quốc vào tứ kết Asiad dù chưa đá trận thứ hai",
+    "link": "https://en.yna.co.kr/view/AEN20260918011700315"
   },
   {
     "id": "hotnews_vi_07718d7a",
@@ -64,12 +88,60 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/cant-i-cook-in-my-own-home-food-odor-complaint-divides-korean-apartment-residents?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_945c6927",
+    "date": "2026-09-18",
+    "ts": 1789729354000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823920005200_P2.jpg",
+    "title": "Bóng chuyền nữ Hàn Quốc thắng Việt Nam tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260918011300320"
+  },
+  {
+    "id": "hotnews_vi_4f2fbee6",
+    "date": "2026-09-18",
+    "ts": 1789728570000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823860001300_P2.jpg",
+    "title": "Tổng thống Lee gặp quan chức UAE bàn về hợp tác song phương",
+    "link": "https://en.yna.co.kr/view/AEN20260918011200315"
+  },
+  {
     "id": "hotnews_vi_7bacd61e",
     "date": "2026-09-18",
     "ts": 1789727818000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918010551315_01_i_P2.jpg",
     "title": "Hàn Quốc giành huy chương đồng soft tennis Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260918010551315"
+  },
+  {
+    "id": "hotnews_vi_1deb7f3e",
+    "date": "2026-09-18",
+    "ts": 1789727238000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091821220001300_P2.jpg",
+    "title": "Đội tuyển bóng rổ Hàn Quốc vào chung kết Asian Games sau khi thắng Iran",
+    "link": "https://en.yna.co.kr/view/AEN20260918011100315"
+  },
+  {
+    "id": "hotnews_vi_2263a508",
+    "date": "2026-09-18",
+    "ts": 1789726497000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/18/news-p.v1.20260918.dd908b20cf054ea18329d9c48f88d57c_T1.jpg",
+    "title": "Đại sứ Mỹ gọi liên minh Hàn-Mỹ là cốt lõi hòa bình",
+    "link": "https://www.koreaherald.com/article/10878908"
+  },
+  {
+    "id": "hotnews_vi_d4f6854c",
+    "date": "2026-09-18",
+    "ts": 1789725780000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091818700001300_P2.jpg",
+    "title": "Lee Hyun-jung đưa bóng rổ nam Hàn Quốc vào chung kết Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260918010900315"
+  },
+  {
+    "id": "hotnews_vi_100c4749",
+    "date": "2026-09-18",
+    "ts": 1789724801000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/14/PYH2026091406150001301_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung phê chuẩn thẩm phán Tối cao pháp viện mới",
+    "link": "https://en.yna.co.kr/view/AEN20260918010800315"
   },
   {
     "id": "hotnews_vi_bec51d21",
@@ -86,6 +158,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091814690001300_P2.jpg",
     "title": "Đại sứ Mỹ gọi liên minh Hàn-Mỹ là cốt lõi hòa bình",
     "link": "https://en.yna.co.kr/view/AEN20260918007751315"
+  },
+  {
+    "id": "hotnews_vi_4be84abb",
+    "date": "2026-09-18",
+    "ts": 1789722441000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202208/220825130159_2_k.jpg",
+    "title": "Thứ Bảy trời quang, Jeju và bờ Đông có mưa",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204354"
   },
   {
     "id": "hotnews_vi_a556adad",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
     "title": "Các trường đại học địa phương nổi bật trong bảng xếp hạng quốc tế",
     "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_2174f65e",
-    "date": "2026-09-17",
-    "ts": 1789665423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/cacea909-fd58-4178-aa41-4eb767f79d52.jpeg",
-    "title": "Jongno 3-ga đứng đầu các khu phố tuyệt vời nhất thế giới",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260918/seouls-jongno-3-ga-rises-to-worlds-coolest-neighborhood?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d7fb818b",
-    "date": "2026-09-17",
-    "ts": 1789665423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/8a76d9ba-a2e7-49b4-ab19-65ed065ba7ca.jpg",
-    "title": "Bảng xếp hạng Korea Times tập trung vào năng lực quốc tế hóa",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/korea-times-university-rankings-focus-on-universities-internationalization-capabilities?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_b334981c",
-    "date": "2026-09-17",
-    "ts": 1789665423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/15/1d4f5fb6-a63a-4821-a0c2-9d955c3d1dc4.jpg",
-    "title": "Đại học Korea giữ vững vị trí số một trong bảng xếp hạng",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/top-korean-universities-hold-firm-as-new-contenders-gain-ground?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7bb01ca2",
-    "date": "2026-09-17",
-    "ts": 1789657200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-a.v1.20260917.4cac3843ce614cacbcb4a0041f02ccc3_T1.jpg",
-    "title": "Volvo ra mắt sedan điện ES90 tại Hàn Quốc với giá hấp dẫn",
-    "link": "https://www.koreaherald.com/article/10877569"
-  },
-  {
-    "id": "hotnews_vi_6925fa6c",
-    "date": "2026-09-17",
-    "ts": 1789651343000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091515180001300_P2.jpg",
-    "title": "Công đoàn KCTU tham gia đối thoại với chính phủ",
-    "link": "https://en.yna.co.kr/view/AEN20260917011800315"
-  },
-  {
-    "id": "hotnews_vi_257c21a2",
-    "date": "2026-09-17",
-    "ts": 1789646525000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/bd462a08-99c1-455c-8975-9d5f5f503cae.jpg",
-    "title": "Hàn Quốc dự kiến phân phối thuốc phá thai từ đầu năm sau",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260917/korea-plans-abortion-pill-rollout-as-doctors-womens-groups-clash-over-access?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_b9eaa208",
-    "date": "2026-09-17",
-    "ts": 1789646525000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/98ef2fde-16fb-442f-b47d-9b0b3b7b65ae.jpeg",
-    "title": "Busan tổ chức ngày hội thể thao cho lao động nước ngoài",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260917/busan-unites-foreign-workers-through-sports-culture-safety?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a5b65bf1",
-    "date": "2026-09-17",
-    "ts": 1789646525000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/ea19acd0-fa63-4df1-b503-9c6a0c793b77.jpg",
-    "title": "Tòa án giữ nguyên án tù 5 năm cho tài xế say xát gây tai nạn",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260917/5-year-term-upheld-for-drunk-driver-who-killed-japanese-woman?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_27b2e11d",
-    "date": "2026-09-17",
-    "ts": 1789646525000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/57fc0416-c407-4381-b9fe-923c215f2261.jpg",
-    "title": "Tổng thống Lee cam kết quét sạch tội phạm xuyên quốc gia và vé chợ đen",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260917/lee-vows-to-crack-down-on-transnational-crimes-scalping?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_4ceca468",
-    "date": "2026-09-17",
-    "ts": 1789646008000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917011600320_01_i_P2.jpg",
-    "title": "Tổng thống Tajikistan nhận đai đen danh dự taekwondo",
-    "link": "https://en.yna.co.kr/view/AEN20260917011600320"
   }
 ]
