@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_bbb89848",
+    "date": "2026-09-19",
+    "ts": 1789793275000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091726070001300_P2.jpg",
+    "title": "Vận động viên Lee Jun-suk vào chung kết teqball Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260919002500320"
+  },
+  {
+    "id": "hotnews_vi_b5857055",
+    "date": "2026-09-19",
+    "ts": 1789789482000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919001252315_03_i_P2.jpg",
+    "title": "Ứng cử viên Bộ trưởng Tư pháp Kim Seung-won rút lui",
+    "link": "https://en.yna.co.kr/view/AEN20260919001252315"
+  },
+  {
+    "id": "hotnews_vi_dfa3f978",
+    "date": "2026-09-19",
+    "ts": 1789787138000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091812090001300_P2.jpg",
+    "title": "Cheong Wa Dae đính chính phát ngôn của Tổng thống Lee Jae Myung",
+    "link": "https://en.yna.co.kr/view/AEN20260919002100315"
+  },
+  {
+    "id": "hotnews_vi_9c755b74",
+    "date": "2026-09-19",
+    "ts": 1789784457000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.dd12071ebd9d4159b99c8c5d17a5e3a3_T1.jpg",
+    "title": "BTS, Cortis và Katseye tăng đề cử tại MTV VMAs 2026",
+    "link": "https://www.koreaherald.com/article/10879092"
+  },
+  {
+    "id": "hotnews_vi_b3fbf87c",
+    "date": "2026-09-19",
+    "ts": 1789782628000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080612370001300_P2.jpg",
+    "title": "Bang Chan (Stray Kids) quyên góp 200 triệu won từ thiện",
+    "link": "https://en.yna.co.kr/view/AEN20260919001100315"
+  },
+  {
+    "id": "hotnews_vi_f350f6cf",
+    "date": "2026-09-19",
+    "ts": 1789781740000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919000451315_01_i_P2.jpg",
+    "title": "Triều Tiên bác bỏ nghị quyết của IAEA và duy trì lực lượng hạt nhân",
+    "link": "https://en.yna.co.kr/view/AEN20260919000451315"
+  },
+  {
+    "id": "hotnews_vi_5794e7f9",
+    "date": "2026-09-19",
+    "ts": 1789780212000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919001000315_01_i_P2.jpg",
+    "title": "Kim Jong-un yêu cầu pháo binh tăng cường sức mạnh hủy diệt",
+    "link": "https://en.yna.co.kr/view/AEN20260919001000315"
+  },
+  {
+    "id": "hotnews_vi_db771edd",
+    "date": "2026-09-19",
+    "ts": 1789779585000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919000900315_02_i_P2.jpg",
+    "title": "BTS và Cortis nhận đề cử thứ ba tại MTV VMA 2026",
+    "link": "https://en.yna.co.kr/view/AEN20260919000900315"
+  },
+  {
+    "id": "hotnews_vi_24bd3ebb",
+    "date": "2026-09-19",
+    "ts": 1789778952000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823810001300_P2.jpg",
+    "title": "Lỗi phát nhầm quốc ca Triều Tiên trong trận đấu của Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20260919000800320"
+  },
+  {
+    "id": "hotnews_vi_b25b8032",
+    "date": "2026-09-18",
+    "ts": 1789774689000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2023/09/18/PYH2023091819360001300_P2.jpg",
+    "title": "Hàn - Mỹ đẩy nhanh chuyển giao quyền chỉ huy thời chiến",
+    "link": "https://en.yna.co.kr/view/AEN20260919000500315"
+  },
+  {
     "id": "hotnews_vi_ba7b6bd2",
     "date": "2026-09-18",
     "ts": 1789765113000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918084455_43_k.jpg",
     "title": "Thử hạt nhân Triều Tiên có thể kích hoạt đứt gãy địa chất",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204330"
-  },
-  {
-    "id": "hotnews_vi_5f0f9e6c",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/716286b8-b63c-49b9-81f8-10440f8d1e72.jpg",
-    "title": "Bảng xếp hạng đại học Hàn Quốc năm 2027 chú trọng chất lượng",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/new-indicators-sharpen-focus-on-quality-over-quantity-in-university-globalization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_3f88a38f",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/dbed7509-93c5-4a59-a12c-108cafe8c9df.jpg",
-    "title": "Bảng xếp hạng đại học 2027 đổi mới nhờ phương pháp mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/new-metrics-reshuffle-top-30-university-rankings-expose-globalization-gaps?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c433d451",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/688382ae-f62c-41bd-8602-f924ae3b091e.jpg",
-    "title": "Tiêu chí xếp hạng đại học sửa đổi nhằm tăng tính quốc tế hóa",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/evaluation-criteria-revised-to-better-assess-universities-internationalization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7a529293",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/1985fc9b-20f4-4d59-8553-34793357d9d1.jpg",
-    "title": "ĐH địa phương vượt Seoul về hỗ trợ sinh viên",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-universities-excel-in-student-support-category?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_39440a17",
-    "date": "2026-09-17",
-    "ts": 1789678813000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917008900320_02_i_P2.jpg",
-    "title": "Khối ngoại mua ròng cổ phiếu Hàn Quốc trong tháng 8",
-    "link": "https://en.yna.co.kr/view/AEN20260917008900320"
-  },
-  {
-    "id": "hotnews_vi_0832d987",
-    "date": "2026-09-17",
-    "ts": 1789678812000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917009000320_01_i_P2.jpg",
-    "title": "Giá sản xuất tại Hàn Quốc tăng trong tháng 8 do nắng nóng",
-    "link": "https://en.yna.co.kr/view/AEN20260917009000320"
-  },
-  {
-    "id": "hotnews_vi_96c801f6",
-    "date": "2026-09-17",
-    "ts": 1789677000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.227680ce0a054b2792927184dac17089_T1.jpg",
-    "title": "Sức mạnh của chính trị trung dung đang suy yếu ở các nước phát triển",
-    "link": "https://www.koreaherald.com/article/10877436"
-  },
-  {
-    "id": "hotnews_vi_8fdba494",
-    "date": "2026-09-17",
-    "ts": 1789676970000,
-    "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/30/PEP20250930029501009_P2.jpg",
-    "title": "Thứ trưởng Ngoại giao Triều Tiên dự Đại hội đồng LHQ",
-    "link": "https://en.yna.co.kr/view/AEN20260918000300315"
-  },
-  {
-    "id": "hotnews_vi_99ddc87e",
-    "date": "2026-09-17",
-    "ts": 1789673188000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/15/PRU20260915000101009_P2.jpg",
-    "title": "Mỹ hoãn công bố thuế năng lực dư thừa sang sau hội nghị Trump - Xi",
-    "link": "https://en.yna.co.kr/view/AEN20260918000200315"
-  },
-  {
-    "id": "hotnews_vi_e6932824",
-    "date": "2026-09-17",
-    "ts": 1789665423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
-    "title": "Các trường đại học địa phương nổi bật trong bảng xếp hạng quốc tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
   }
 ]

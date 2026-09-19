@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_bbb89848",
+    "date": "2026-09-19",
+    "ts": 1789793275000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091726070001300_P2.jpg",
+    "title": "อีจุนซอกหวังเหรียญเอเชียนเกมส์ช่วยให้กีฬาเทคบอลเป็นที่รู้จักในเกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20260919002500320"
+  },
+  {
+    "id": "hotnews_th_b5857055",
+    "date": "2026-09-19",
+    "ts": 1789789482000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919001252315_03_i_P2.jpg",
+    "title": "คิมซึงวอน ผู้เสนอชื่อรมว.ยุติธรรม ถอนตัวจากตำแหน่ง",
+    "link": "https://en.yna.co.kr/view/AEN20260919001252315"
+  },
+  {
+    "id": "hotnews_th_dfa3f978",
+    "date": "2026-09-19",
+    "ts": 1789787138000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091812090001300_P2.jpg",
+    "title": "ทำเนียบฟ้าปฏิเสธคำพูดอีแจมยองไม่ใช่การปัดคำขอฮอร์มุซของทรัมป์",
+    "link": "https://en.yna.co.kr/view/AEN20260919002100315"
+  },
+  {
+    "id": "hotnews_th_9c755b74",
+    "date": "2026-09-19",
+    "ts": 1789784457000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.dd12071ebd9d4159b99c8c5d17a5e3a3_T1.jpg",
+    "title": "วง BTS, Cortis และ Katseye ได้รับการเสนอชื่อเข้าชิงรางวัล MTV VMAs เพิ่มขึ้น",
+    "link": "https://www.koreaherald.com/article/10879092"
+  },
+  {
+    "id": "hotnews_th_b3fbf87c",
+    "date": "2026-09-19",
+    "ts": 1789782628000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080612370001300_P2.jpg",
+    "title": "บังชาน วง Stray Kids บริจาคเงิน 200 ล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20260919001100315"
+  },
+  {
+    "id": "hotnews_th_f350f6cf",
+    "date": "2026-09-19",
+    "ts": 1789781740000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919000451315_01_i_P2.jpg",
+    "title": "คิมโยจองปฏิเสธมติ IAEA พร้อมประกาศเดินหน้าคงศักยภาพอาวุธนิวเคลียร์",
+    "link": "https://en.yna.co.kr/view/AEN20260919000451315"
+  },
+  {
+    "id": "hotnews_th_5794e7f9",
+    "date": "2026-09-19",
+    "ts": 1789780212000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919001000315_01_i_P2.jpg",
+    "title": "คิมจองอุนสั่งการกองกำลังปืนใหญ่เกาหลีเหนือเพิ่มศักยภาพสูงสุด",
+    "link": "https://en.yna.co.kr/view/AEN20260919001000315"
+  },
+  {
+    "id": "hotnews_th_db771edd",
+    "date": "2026-09-19",
+    "ts": 1789779585000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919000900315_02_i_P2.jpg",
+    "title": "BTS และ Cortis เข้าชิงรางวัลงาน MTV VMAs 2026 เพิ่ม",
+    "link": "https://en.yna.co.kr/view/AEN20260919000900315"
+  },
+  {
+    "id": "hotnews_th_24bd3ebb",
+    "date": "2026-09-19",
+    "ts": 1789778952000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823810001300_P2.jpg",
+    "title": "คณะAGไอจีโอขอโทษกรณีเปิดเพลงชาติเกาหลีเหนือผิด",
+    "link": "https://en.yna.co.kr/view/AEN20260919000800320"
+  },
+  {
+    "id": "hotnews_th_b25b8032",
+    "date": "2026-09-18",
+    "ts": 1789774689000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2023/09/18/PYH2023091819360001300_P2.jpg",
+    "title": "เกาหลีใต้และสหรัฐฯ มุ่งมั่นกระชับความร่วมมือส่งมอบอำนาจควบคุมยามสงคราม",
+    "link": "https://en.yna.co.kr/view/AEN20260919000500315"
+  },
+  {
     "id": "hotnews_th_ba7b6bd2",
     "date": "2026-09-18",
     "ts": 1789765113000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260918084455_43_k.jpg",
     "title": "การทดสอบนิวเคลียร์เกาหลีเหนืออาจกระตุ้นรอยเลื่อนและเพิ่มแผ่นดินไหว",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204330"
-  },
-  {
-    "id": "hotnews_th_5f0f9e6c",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/716286b8-b63c-49b9-81f8-10440f8d1e72.jpg",
-    "title": "การจัดอันดับมหาวิทยาลัย The Korea Times ปี 2027 เน้นคุณภาพความเป็นสากล",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/new-indicators-sharpen-focus-on-quality-over-quantity-in-university-globalization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_3f88a38f",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/dbed7509-93c5-4a59-a12c-108cafe8c9df.jpg",
-    "title": "การจัดอันดับมหาวิทยาลัยปี 2027 เผยให้เห็นช่องว่างด้านความเป็นสากล",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/new-metrics-reshuffle-top-30-university-rankings-expose-globalization-gaps?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c433d451",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/688382ae-f62c-41bd-8602-f924ae3b091e.jpg",
-    "title": "The Korea Times ปรับเกณฑ์จัดอันดับมหาวิทยาลัยปี 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/evaluation-criteria-revised-to-better-assess-universities-internationalization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_7a529293",
-    "date": "2026-09-17",
-    "ts": 1789680723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/1985fc9b-20f4-4d59-8553-34793357d9d1.jpg",
-    "title": "ม.ต่างจังหวัดเด่นด้านการสนับสนุนนักศึกษาในเกาหลีใต้",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-universities-excel-in-student-support-category?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_39440a17",
-    "date": "2026-09-17",
-    "ts": 1789678813000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917008900320_02_i_P2.jpg",
-    "title": "นักลงทุนต่างชาติกลับมาซื้อหุ้นเกาหลีในเดือนสิงหาคม",
-    "link": "https://en.yna.co.kr/view/AEN20260917008900320"
-  },
-  {
-    "id": "hotnews_th_0832d987",
-    "date": "2026-09-17",
-    "ts": 1789678812000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/17/AEN20260917009000320_01_i_P2.jpg",
-    "title": "ดัชนีราคาผู้ผลิตเกาหลีใต้เดือนสิงหาคมปรับตัวสูงขึ้น",
-    "link": "https://en.yna.co.kr/view/AEN20260917009000320"
-  },
-  {
-    "id": "hotnews_th_96c801f6",
-    "date": "2026-09-17",
-    "ts": 1789677000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/17/news-p.v1.20260917.227680ce0a054b2792927184dac17089_T1.jpg",
-    "title": "พรรคขวาจัด AfD ชนะเลือกตั้งท้องถิ่นเยอรมนี",
-    "link": "https://www.koreaherald.com/article/10877436"
-  },
-  {
-    "id": "hotnews_th_8fdba494",
-    "date": "2026-09-17",
-    "ts": 1789676970000,
-    "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/30/PEP20250930029501009_P2.jpg",
-    "title": "รมช.ต่างประเทศเกาหลีเหนือเตรียมร่วมประชุมยูเอ็นสัปดาห์หน้า",
-    "link": "https://en.yna.co.kr/view/AEN20260918000300315"
-  },
-  {
-    "id": "hotnews_th_99ddc87e",
-    "date": "2026-09-17",
-    "ts": 1789673188000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/15/PRU20260915000101009_P2.jpg",
-    "title": "ส.อ.สหรัฐอาจเลื่อนประกาศภาษีกำลังการผลิตส่วนเกินหลังซัมมิททรัมป์-สี",
-    "link": "https://en.yna.co.kr/view/AEN20260918000200315"
-  },
-  {
-    "id": "hotnews_th_e6932824",
-    "date": "2026-09-17",
-    "ts": 1789664823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/16/395fb703-3a43-410f-b1f9-601a28d77e30.jpeg",
-    "title": "ม.ต่างจังหวัดและม.ขนาดเล็กทำผลงานยอดเยี่ยมในการจัดอันดับมหา'ลัย",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/regional-smaller-universities-challenge-hierarchy-as-globalization-paths-diverge?utm_source=rss"
   }
 ]
