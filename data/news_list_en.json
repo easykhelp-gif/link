@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_f7a3ca25",
+    "date": "2026-09-19",
+    "ts": 1789818612000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/rcv.YNA.20260919.PYH2026091903590001300_T1.jpg",
+    "title": "Artifacts come to life at the National Museum of Korea",
+    "link": "https://www.koreaherald.com/article/10879309"
+  },
+  {
     "id": "hotnews_en_936b4ad9",
     "date": "2026-09-19",
     "ts": 1789816623000,
@@ -30,6 +38,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/25/PYH2026032520380005300_P2.jpg",
     "title": "(Asiad) Confident swimmer not afraid of world record holder",
     "link": "https://en.yna.co.kr/view/AEN20260919003600315"
+  },
+  {
+    "id": "hotnews_en_4764c103",
+    "date": "2026-09-19",
+    "ts": 1789809083000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/19/PYH2026091903820001300_P2.jpg",
+    "title": "(Asiad) Swimmer all smiles on eve of 1st race",
+    "link": "https://en.yna.co.kr/view/AEN20260919003500315"
   },
   {
     "id": "hotnews_en_9d6af096",
@@ -104,6 +120,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260919002700315"
   },
   {
+    "id": "hotnews_en_11d28f3a",
+    "date": "2026-09-19",
+    "ts": 1789799683000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.66200230d2b64612b8e4c0bac66f847b_T1.jpg",
+    "title": "Lee hopes his Asian Games medal helps teqball make presence felt in S. Korea",
+    "link": "https://www.koreaherald.com/article/10879196"
+  },
+  {
     "id": "hotnews_en_015049ba",
     "date": "2026-09-19",
     "ts": 1789798966000,
@@ -118,6 +142,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091817440001300_P2.jpg",
     "title": "(Asiad) Boxer, table tennis player to carry N. Korean flag at opening ceremony",
     "link": "https://en.yna.co.kr/view/AEN20260919002600320"
+  },
+  {
+    "id": "hotnews_en_d28650f9",
+    "date": "2026-09-19",
+    "ts": 1789797729000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919035816_100_e.jpg",
+    "title": "Defense Authorities from S. Korea, US to Strengthen Cooperation on Expediting OPCON Transfer",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204365"
   },
   {
     "id": "hotnews_en_870c2ad9",
@@ -184,12 +216,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260919002100315"
   },
   {
+    "id": "hotnews_en_b2b62cba",
+    "date": "2026-09-19",
+    "ts": 1789786512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.daa01fdd98be40b6ba70b14637675830_T1.jpg",
+    "title": "Justice Minister nominee Kim Seung-won withdraws from nomination",
+    "link": "https://www.koreaherald.com/article/10879115"
+  },
+  {
     "id": "hotnews_en_9c755b74",
     "date": "2026-09-19",
     "ts": 1789784457000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.dd12071ebd9d4159b99c8c5d17a5e3a3_T1.jpg",
     "title": "BTS, Cortis, Katseye expand nominations for MTV VMAs",
     "link": "https://www.koreaherald.com/article/10879092"
+  },
+  {
+    "id": "hotnews_en_07ee6a7d",
+    "date": "2026-09-19",
+    "ts": 1789783968000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082018780001300_P2.jpg",
+    "title": "(Asiad) Swimming competition set to begin as S. Korea looks to replicate 2023 success",
+    "link": "https://en.yna.co.kr/view/AEN20260919001300315"
   },
   {
     "id": "hotnews_en_f9232e86",
@@ -350,53 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/18/b8f66eee-b08a-4768-8369-40be97406f1f.jpg",
     "title": "N. Korea nuclear tests reactivated dormant faults: study",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/n-korea-nuclear-tests-reactivated-dormant-faults-study?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_c810939d",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/61e669eb-422c-4ee2-9352-5afbe1de1a61.jpg",
-    "title": "Lee holds off on justice minister nominee, admits vetting failures",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260918/lee-holds-off-on-justice-minister-nominee-admits-vetting-failures?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_05bdfcb9",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/2fdcba43-7846-4fb3-bbb4-c72664093c8b.jpg",
-    "title": "Seoul targets more lodging as it aims for 30 mil. foreign tourists",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/seoul-targets-more-lodging-as-it-aims-for-30-mil-foreign-tourists?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_4f118c7f",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/a59872a5-2aed-4f02-a9e9-6e43ed048936.jpeg",
-    "title": "'Can't I cook in my own home?' Food odor complaint divides Korean apartment residents",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/cant-i-cook-in-my-own-home-food-odor-complaint-divides-korean-apartment-residents?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_ff4395eb",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/350291a7-4993-4fe2-8f79-c6f46a86dff5.jpeg",
-    "title": "BTS ticket scalper buys apartment, 2 commercial properties",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260918/bts-ticket-scalper-buys-apartment-2-commercial-properties?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_968a332c",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/17/c2b4046e-26fc-4d73-a244-3ba1c5e88f2c.jpeg",
-    "title": "Korea Times top 30 universities in education, research, student support and outstanding graduates",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260918/korea-times-top-30-universities-in-education-research-student-support-and-outstanding-graduates?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_9cef089d",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/f82a3670-3aa3-429f-a52f-e2ebdd63e624.jpg",
-    "title": "DPK lawmaker fined $7,220, faces loss of Assembly seat",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260918/dpk-lawmaker-fined-7220-faces-loss-of-assembly-seat?utm_source=rss"
   }
 ]
