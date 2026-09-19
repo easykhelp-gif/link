@@ -128,6 +128,14 @@
     "link": "https://www.koreaherald.com/article/10879196"
   },
   {
+    "id": "hotnews_en_29bd8116",
+    "date": "2026-09-19",
+    "ts": 1789799669000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.06417d9131ec428090563ab7f84c0b52_T1.jpg",
+    "title": "S. Korea beats Hong Kong to begin women's handball competition",
+    "link": "https://www.koreaherald.com/article/10879195"
+  },
+  {
     "id": "hotnews_en_015049ba",
     "date": "2026-09-19",
     "ts": 1789798966000,
@@ -150,6 +158,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919035816_100_e.jpg",
     "title": "Defense Authorities from S. Korea, US to Strengthen Cooperation on Expediting OPCON Transfer",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204365"
+  },
+  {
+    "id": "hotnews_en_705f3dac",
+    "date": "2026-09-19",
+    "ts": 1789796429000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919024532_2_e.jpg",
+    "title": "S. Korea's Lee Jun-suk Advances to Asian Games Men's Teqball Singles Final",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204363"
   },
   {
     "id": "hotnews_en_870c2ad9",
@@ -222,6 +238,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.daa01fdd98be40b6ba70b14637675830_T1.jpg",
     "title": "Justice Minister nominee Kim Seung-won withdraws from nomination",
     "link": "https://www.koreaherald.com/article/10879115"
+  },
+  {
+    "id": "hotnews_en_10b633a0",
+    "date": "2026-09-19",
+    "ts": 1789786239000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919123229_75_e.jpg",
+    "title": "Justice Minister Nominee Kim Seung-won Withdraws Candidacy",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204357"
   },
   {
     "id": "hotnews_en_9c755b74",
@@ -374,29 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091822650001300_P2.jpg",
     "title": "(Asiad) Jun Woong-tae advances to modern pentathlon final, eyes 3rd straight Asiad gold",
     "link": "https://en.yna.co.kr/view/AEN20260918011800320"
-  },
-  {
-    "id": "hotnews_en_9381b3d1",
-    "date": "2026-09-18",
-    "ts": 1789736182000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528320001300_P2.jpg",
-    "title": "(Asiad) Idle S. Korea reach quarterfinals in men's football",
-    "link": "https://en.yna.co.kr/view/AEN20260918011700315"
-  },
-  {
-    "id": "hotnews_en_b3ae4ed1",
-    "date": "2026-09-18",
-    "ts": 1789733725000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/18/AEN20260918011500320_01_i_P2.jpg",
-    "title": "(Asiad) N. Korean team attends welcome ceremony for Aichi-Nagoya Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260918011500320"
-  },
-  {
-    "id": "hotnews_en_07718d7a",
-    "date": "2026-09-18",
-    "ts": 1789731422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/b8f66eee-b08a-4768-8369-40be97406f1f.jpg",
-    "title": "N. Korea nuclear tests reactivated dormant faults: study",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260918/n-korea-nuclear-tests-reactivated-dormant-faults-study?utm_source=rss"
   }
 ]
