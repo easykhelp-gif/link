@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_th_e7190dc3",
+    "date": "2026-09-20",
+    "ts": 1789936200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.255098df14604b4aa9c2225809cb7013_T1.jpg",
+    "title": "การเติบโตของศูนย์ข้อมูล AI สร้างแรงกดดันด้านพลังงานและสิ่งแวดล้อม",
+    "link": "https://www.koreaherald.com/article/10879662"
+  },
+  {
+    "id": "hotnews_th_b595071b",
+    "date": "2026-09-20",
+    "ts": 1789936200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.f6c67b29263743d8b748193761bf6c1f_T1.jpg",
+    "title": "ยยุคอวกาศเอกชนเติบโต แต่กฎหมายยังไม่ชัดเจน",
+    "link": "https://www.koreaherald.com/article/10879661"
+  },
+  {
     "id": "hotnews_th_17295757",
     "date": "2026-09-20",
     "ts": 1789913633000,
@@ -72,6 +88,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260920002954315"
   },
   {
+    "id": "hotnews_th_b94dd32d",
+    "date": "2026-09-20",
+    "ts": 1789901081000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.067f8883a27d4abab5821f44a2933796_T1.jpg",
+    "title": "รัฐบาลเตรียมรายงานรัฐสภาโครงการลงทุนแรกในสหรัฐฯ สัปดาห์หน้า",
+    "link": "https://www.koreaherald.com/article/10879720"
+  },
+  {
     "id": "hotnews_th_15e2dece",
     "date": "2026-09-20",
     "ts": 1789900259000,
@@ -96,12 +120,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260920002953315"
   },
   {
+    "id": "hotnews_th_915b5348",
+    "date": "2026-09-20",
+    "ts": 1789894942000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "เกาหลีเหนือยิงขีปนาวุธไม่ทราบฝ่ายไปยังทะเลตะวันออก",
+    "link": "https://en.yna.co.kr/view/AEN20260920004200315"
+  },
+  {
     "id": "hotnews_th_9e038fd7",
     "date": "2026-09-20",
     "ts": 1789893680000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.7f0f06699f944c52a8ce5fb0207fe0d7_T1.jpeg",
     "title": "นักเปียโนเกาหลีใต้คว้าแชมป์ George Enescu International Competition",
     "link": "https://www.koreaherald.com/article/10879677"
+  },
+  {
+    "id": "hotnews_th_e2486279",
+    "date": "2026-09-20",
+    "ts": 1789893565000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.e485e8568b054e1aad030cc068bb0559_T1.jpg",
+    "title": "จอน อุงแท พลาดเหรียญทองเดี่ยวเอเชียนเกมส์ แต่ช่วยเกาหลีใต้คว้าแชมป์ทีม",
+    "link": "https://www.koreaherald.com/article/10879673"
   },
   {
     "id": "hotnews_th_90f235c9",
@@ -118,6 +158,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.f4724c4abe4841cb8c34ab41849168aa_T1.jpg",
     "title": "เงินช่วยเหลือลาคลอดสำหรับชาวต่างชาติในเกาหลีพุ่งสูงขึ้นในปี 2025",
     "link": "https://www.koreaherald.com/article/10879667"
+  },
+  {
+    "id": "hotnews_th_c65ade41",
+    "date": "2026-09-20",
+    "ts": 1789891890000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.33ae82a746eb421a8126e423b2b7fc96_T1.png",
+    "title": "เกาหลีเหนือยิงขีปนาวุธพิสัยใกล้สู่ทะเลตะวันออก",
+    "link": "https://www.koreaherald.com/article/10879664"
   },
   {
     "id": "hotnews_th_14d91ea1",
@@ -350,53 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/19/AEN20260919002700315_01_i_P2.jpg",
     "title": "ประธานาธิบดีอีแจมยองเตรียมตั้งหน่วยงานดูแลนโยบายเยาวชน",
     "link": "https://en.yna.co.kr/view/AEN20260919002700315"
-  },
-  {
-    "id": "hotnews_th_11d28f3a",
-    "date": "2026-09-19",
-    "ts": 1789799683000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.66200230d2b64612b8e4c0bac66f847b_T1.jpg",
-    "title": "อีจุนซอกหวังเหรียญเอเชียนเกมส์ช่วยให้กีฬาเทคบอลเป็นที่รู้จักในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10879196"
-  },
-  {
-    "id": "hotnews_th_015049ba",
-    "date": "2026-09-19",
-    "ts": 1789798966000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/19/news-p.v1.20260919.4996400b407a42eb88d6d12271337c27_T1.png",
-    "title": "บังชาน วง Stray Kids บริจาคเงิน 200 ล้านวอน",
-    "link": "https://www.koreaherald.com/article/10879192"
-  },
-  {
-    "id": "hotnews_th_760be0cd",
-    "date": "2026-09-19",
-    "ts": 1789798031000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091817440001300_P2.jpg",
-    "title": "นักกีฬาเกาหลีเหนือถือธงในพิธีเปิดเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260919002600320"
-  },
-  {
-    "id": "hotnews_th_d28650f9",
-    "date": "2026-09-19",
-    "ts": 1789797729000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919035816_100_e.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ จะร่วมมือกันเร่งส่งมอบสิทธิ์ควบคุมยุทธศาสตร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204365"
-  },
-  {
-    "id": "hotnews_th_705f3dac",
-    "date": "2026-09-19",
-    "ts": 1789796429000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260919024532_2_e.jpg",
-    "title": "อี จุนซอก ทะลุเข้าชิงเทคบอลชายเดี่ยวเอเชียนเกมส์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204363"
-  },
-  {
-    "id": "hotnews_th_870c2ad9",
-    "date": "2026-09-19",
-    "ts": 1789794984000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260910041414_76_k.jpg",
-    "title": "ทำเนียบประธานาธิบดีเกาหลีใต้ปฏิเสธข่าวลือเรื่องทรัมป์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204361"
   }
 ]
