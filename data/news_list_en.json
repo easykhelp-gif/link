@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_en_17295757",
+    "date": "2026-09-20",
+    "ts": 1789913633000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920004351315_03_i_P2.jpg",
+    "title": "Gov't to brief Nat'l Assembly on 1st U.S.-bound investment project under summit deal",
+    "link": "https://en.yna.co.kr/view/AEN20260920004351315"
+  },
+  {
+    "id": "hotnews_en_913ef45b",
+    "date": "2026-09-20",
+    "ts": 1789909716000,
+    "image": "",
+    "title": "(Asiad) medal standings",
+    "link": "https://en.yna.co.kr/view/AEN20230924003986315"
+  },
+  {
+    "id": "hotnews_en_b5ac195e",
+    "date": "2026-09-20",
+    "ts": 1789907743000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823900005200_P2.jpg",
+    "title": "(Asiad) S. Korea reaches semis in women's volleyball at Asian Games after win over Kazakhstan",
+    "link": "https://en.yna.co.kr/view/AEN20260920004651320"
+  },
+  {
+    "id": "hotnews_en_598003d2",
+    "date": "2026-09-20",
+    "ts": 1789907279000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092017310001300_P2.jpg",
+    "title": "(Asiad) S. Korean pentathletes show progress in adapting to new obstacle discipline",
+    "link": "https://en.yna.co.kr/view/AEN20260920005300320"
+  },
+  {
     "id": "hotnews_en_78d1b215",
     "date": "2026-09-20",
     "ts": 1789904523000,
@@ -72,12 +104,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260920004300315"
   },
   {
+    "id": "hotnews_en_3d89ca8a",
+    "date": "2026-09-20",
+    "ts": 1789895756000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042001400031500_P2.jpg",
+    "title": "N. Korea fires additional projectile after short-range ballistic missile launch: S. Korean military",
+    "link": "https://en.yna.co.kr/view/AEN20260920002953315"
+  },
+  {
     "id": "hotnews_en_9e038fd7",
     "date": "2026-09-20",
     "ts": 1789893680000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.7f0f06699f944c52a8ce5fb0207fe0d7_T1.jpeg",
     "title": "Pianist Lee Jeong-woo wins George Enescu International Competition, takes home 5 special awards",
     "link": "https://www.koreaherald.com/article/10879677"
+  },
+  {
+    "id": "hotnews_en_e2486279",
+    "date": "2026-09-20",
+    "ts": 1789893565000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.e485e8568b054e1aad030cc068bb0559_T1.jpg",
+    "title": "Jun Woong-tae misses 3rd Asiad individual gold in modern pentathlon, but helps S. Korea retain team title",
+    "link": "https://www.koreaherald.com/article/10879673"
   },
   {
     "id": "hotnews_en_90f235c9",
@@ -350,53 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.1018ba68806640b7b3dea704255737c2_T1.jpg",
     "title": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House",
     "link": "https://www.koreaherald.com/article/10879525"
-  },
-  {
-    "id": "hotnews_en_8f6deab6",
-    "date": "2026-09-20",
-    "ts": 1789872738000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920001200320_01_i_P2.jpg",
-    "title": "Internet-only banks' small-business lending jumps over 50 pct in H1",
-    "link": "https://en.yna.co.kr/view/AEN20260920001200320"
-  },
-  {
-    "id": "hotnews_en_be5ea469",
-    "date": "2026-09-20",
-    "ts": 1789872564000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920001100315_02_i_P2.jpg",
-    "title": "Vietnamese professionals in S. Korea nearly double over 4 years",
-    "link": "https://en.yna.co.kr/view/AEN20260920001100315"
-  },
-  {
-    "id": "hotnews_en_72bde5ba",
-    "date": "2026-09-20",
-    "ts": 1789871880000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.face6f90507644879a876243b032427a_T1.jpg",
-    "title": "Shark sighting leads to unexpected popularity of Busan port",
-    "link": "https://www.koreaherald.com/article/10879518"
-  },
-  {
-    "id": "hotnews_en_113ebb1b",
-    "date": "2026-09-20",
-    "ts": 1789871260000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.9fcee36155bb4923b831c4e4b62a2135_T1.jpg",
-    "title": "Suicidal thoughts for teens peak in high school: study",
-    "link": "https://www.koreaherald.com/article/10879512"
-  },
-  {
-    "id": "hotnews_en_42adfe16",
-    "date": "2026-09-20",
-    "ts": 1789870648000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.40509f8253244309ac6a374efe906e50_T1.jpg",
-    "title": "The iPhone missing from Apple’s Seoul launch",
-    "link": "https://www.koreaherald.com/article/10879504"
-  },
-  {
-    "id": "hotnews_en_a99b25ba",
-    "date": "2026-09-20",
-    "ts": 1789870519000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920000900320_01_i_P2.jpg",
-    "title": "Samsung Electronics holds tech forum in U.S. to share AI strategies",
-    "link": "https://en.yna.co.kr/view/AEN20260920000900320"
   }
 ]
