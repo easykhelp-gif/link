@@ -115,7 +115,7 @@ Witness names are especially valuable. Ask now, before people change jobs.
 
 Be aware that Korea's free state-appointed labor attorney program currently covers Labor Relations Commission cases and wage substitute payments. **It does not cover industrial accident claims.** For accident cases you will usually need to file yourself or hire a licensed labor attorney (공인노무사).
 
-**Kori Care** — free guides in English, ไทย and Tiếng Việt. [Message us](https://m.me/koricare.kr) if you are not sure where to start.
+**Kori Care** — free guides in English, ไทย and Tiếng Việt. [Message us](https://m.me/theokoricare) if you are not sure where to start.
 
 This guide explains Korean law in general terms. It is not legal advice for your specific case. Nothing on this page is a guarantee of any outcome.
 
@@ -231,7 +231,7 @@ These words appear on your documents and at the counter. Each card shows the Kor
 
 โปรดทราบว่า ระบบนักกฎหมายแรงงานที่รัฐจัดให้ฟรีของเกาหลี ปัจจุบันครอบคลุมเฉพาะคดีคณะกรรมการแรงงานสัมพันธ์และเงินทดแทนค่าจ้างค้างจ่าย **ไม่ครอบคลุมคดีอุบัติเหตุจากการทำงาน** สำหรับคดีอุบัติเหตุ โดยทั่วไปคุณต้องยื่นเอง หรือจ้างนักกฎหมายแรงงานที่มีใบอนุญาต (공인노무사)
 
-**Kori Care** — คู่มือฟรีภาษาไทย อังกฤษ และเวียดนาม [ส่งข้อความหาเรา](https://m.me/koricare.kr) หากไม่แน่ใจว่าควรเริ่มจากตรงไหน
+**Kori Care** — คู่มือฟรีภาษาไทย อังกฤษ และเวียดนาม [ส่งข้อความหาเรา](https://m.me/theokoricare) หากไม่แน่ใจว่าควรเริ่มจากตรงไหน
 
 คู่มือนี้อธิบายกฎหมายเกาหลีในภาพรวม ไม่ใช่คำแนะนำทางกฎหมายสำหรับกรณีเฉพาะของคุณ และไม่มีการรับประกันผลลัพธ์ใด ๆ
 
@@ -347,7 +347,7 @@ Tên người làm chứng đặc biệt có giá trị. Hãy hỏi ngay bây gi
 
 Xin lưu ý rằng chương trình luật sư lao động do nhà nước chỉ định miễn phí của Hàn Quốc hiện chỉ áp dụng cho các vụ việc tại Ủy ban Quan hệ Lao động và tiền lương thay thế. **Chương trình này không bao gồm các vụ tai nạn lao động.** Với các vụ tai nạn, thông thường bạn phải tự nộp đơn hoặc thuê luật sư lao động có giấy phép (공인노무사).
 
-**Kori Care** — hướng dẫn miễn phí bằng tiếng Việt, tiếng Thái và tiếng Anh. [Nhắn tin cho chúng tôi](https://m.me/koricare.kr) nếu bạn không biết bắt đầu từ đâu.
+**Kori Care** — hướng dẫn miễn phí bằng tiếng Việt, tiếng Thái và tiếng Anh. [Nhắn tin cho chúng tôi](https://m.me/theokoricare) nếu bạn không biết bắt đầu từ đâu.
 
 Hướng dẫn này giải thích luật Hàn Quốc một cách tổng quát. Đây không phải là tư vấn pháp lý cho trường hợp cụ thể của bạn, và không đảm bảo bất kỳ kết quả nào.
 

@@ -132,7 +132,7 @@ Miss either and you are required to leave the country. Deal with the workplace c
 
 You do not have to do any of this in Korean, and none of it costs money.
 
-**Write to Kori Care first.** Tell us what happened in your own language. We will work out which office handles it, what you need to bring, and what any letter you have been sent actually says. If something has to be written in Korean, we will help you write it. We are not a law firm and we do not charge. [Send us a message](https://m.me/koricare.kr)
+**Write to Kori Care first.** Tell us what happened in your own language. We will work out which office handles it, what you need to bring, and what any letter you have been sent actually says. If something has to be written in Korean, we will help you write it. We are not a law firm and we do not charge. [Send us a message](https://m.me/theokoricare)
 
 If you would rather go direct:
 
@@ -308,7 +308,7 @@ These words appear on your documents and at the labor office. Each card shows th
 
 คุณไม่จำเป็นต้องทำทั้งหมดนี้เป็นภาษาเกาหลี และไม่มีค่าใช้จ่ายใด ๆ
 
-**ทักหา Kori Care ก่อน** เล่าเรื่องของคุณเป็นภาษาไทยได้เลย เราจะหาให้ว่าต้องติดต่อหน่วยงานไหน ต้องเตรียมอะไร และจดหมายที่คุณได้รับเขียนว่าอะไร ถ้าต้องเขียนเป็นภาษาเกาหลี เราช่วยเขียนให้ เราไม่ใช่สำนักงานกฎหมายและไม่คิดเงิน [ส่งข้อความหาเรา](https://m.me/koricare.kr)
+**ทักหา Kori Care ก่อน** เล่าเรื่องของคุณเป็นภาษาไทยได้เลย เราจะหาให้ว่าต้องติดต่อหน่วยงานไหน ต้องเตรียมอะไร และจดหมายที่คุณได้รับเขียนว่าอะไร ถ้าต้องเขียนเป็นภาษาเกาหลี เราช่วยเขียนให้ เราไม่ใช่สำนักงานกฎหมายและไม่คิดเงิน [ส่งข้อความหาเรา](https://m.me/theokoricare)
 
 ถ้าอยากติดต่อหน่วยงานโดยตรง:
 
@@ -484,7 +484,7 @@ Lỡ một trong hai thì bạn buộc phải rời khỏi Hàn Quốc. Hãy x�
 
 Bạn không cần phải làm tất cả những việc này bằng tiếng Hàn, và không tốn khoản nào.
 
-**Hãy nhắn cho Kori Care trước.** Kể chuyện của bạn bằng tiếng Việt cũng được. Chúng tôi sẽ tìm giúp bạn cơ quan nào phụ trách, cần chuẩn bị gì, và lá thư bạn nhận được viết gì. Nếu cần viết bằng tiếng Hàn, chúng tôi viết giúp. Chúng tôi không phải văn phòng luật và không thu phí. [Gửi tin nhắn cho chúng tôi](https://m.me/koricare.kr)
+**Hãy nhắn cho Kori Care trước.** Kể chuyện của bạn bằng tiếng Việt cũng được. Chúng tôi sẽ tìm giúp bạn cơ quan nào phụ trách, cần chuẩn bị gì, và lá thư bạn nhận được viết gì. Nếu cần viết bằng tiếng Hàn, chúng tôi viết giúp. Chúng tôi không phải văn phòng luật và không thu phí. [Gửi tin nhắn cho chúng tôi](https://m.me/theokoricare)
 
 Nếu bạn muốn liên hệ trực tiếp:
 

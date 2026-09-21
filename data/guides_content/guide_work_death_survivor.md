@@ -150,7 +150,7 @@ The hardest part of this is not the law. It is that every letter, every form and
 
 **Write to Kori Care.** Tell us what happened, in your own language. We will work out which office handles it, what the family needs to prepare, and what any document you have been sent actually says. If something needs to be written in Korean, we will help you write it.
 
-[Send us a message](https://m.me/koricare.kr)
+[Send us a message](https://m.me/theokoricare)
 
 We are not a law firm and we do not charge. We are people who know how these offices work and can read the paperwork.
 
@@ -209,7 +209,7 @@ Three things decide whether it reaches you: **filing within five years, proving 
 
 If you do not know where to start, start with step one at the top of this page — the death certificate and the cause of death in writing. Then call 1588-0075, or ask someone in Korea to call.
 
-**Kori Care** publishes free guides for foreign residents in Korea in English, ไทย and Tiếng Việt — wages, visas, medical care, and the parts of Korean law that people usually find out about too late. If you are not sure which step applies to your situation, [send us a message](https://m.me/koricare.kr) and we will point you to the right office. We do not charge, and we do not represent anyone's employer.
+**Kori Care** publishes free guides for foreign residents in Korea in English, ไทย and Tiếng Việt — wages, visas, medical care, and the parts of Korean law that people usually find out about too late. If you are not sure which step applies to your situation, [send us a message](https://m.me/theokoricare) and we will point you to the right office. We do not charge, and we do not represent anyone's employer.
 
 This guide explains Korean law in general terms. It is not legal advice for your specific case, and nothing on this page is a guarantee of any outcome.
 
@@ -357,7 +357,7 @@ These words appear on your documents and at the counter. Each card shows the Kor
 
 **เขียนหาโคริแคร์ (Kori Care)** เล่าให้เราฟังว่าเกิดอะไรขึ้น เป็นภาษาไทยได้เลย เราจะหาให้ว่าหน่วยงานไหนดูแลเรื่องนี้ ครอบครัวต้องเตรียมอะไร และเอกสารที่คุณได้รับเขียนว่าอะไร ถ้าต้องเขียนอะไรเป็นภาษาเกาหลี เราช่วยเขียนให้
 
-[ส่งข้อความหาเรา](https://m.me/koricare.kr)
+[ส่งข้อความหาเรา](https://m.me/theokoricare)
 
 เราไม่ใช่สำนักงานกฎหมายและไม่คิดเงิน เราเป็นคนที่รู้ว่าหน่วยงานพวกนี้ทำงานอย่างไร และอ่านเอกสารออก
 
@@ -416,7 +416,7 @@ These words appear on your documents and at the counter. Each card shows the Kor
 
 ถ้าไม่รู้จะเริ่มตรงไหน ให้เริ่มจากขั้นตอนแรกด้านบนของหน้านี้ คือใบมรณบัตรและสาเหตุการเสียชีวิตเป็นลายลักษณ์อักษร จากนั้นโทร 1588-0075 หรือขอให้คนในเกาหลีโทรแทน
 
-**โคริแคร์ (Kori Care)** จัดทำคู่มือฟรีสำหรับชาวต่างชาติในเกาหลี เป็นภาษาอังกฤษ ไทย และเวียดนาม ครอบคลุมเรื่องค่าจ้าง วีซ่า การรักษาพยาบาล และส่วนของกฎหมายเกาหลีที่คนมักรู้เมื่อสายไปแล้ว ถ้าไม่แน่ใจว่าขั้นตอนไหนตรงกับสถานการณ์ของคุณ [ส่งข้อความหาเรา](https://m.me/koricare.kr) แล้วเราจะชี้ให้ว่าควรไปหน่วยงานไหน เราไม่คิดเงิน และเราไม่เป็นตัวแทนของนายจ้างคนใด
+**โคริแคร์ (Kori Care)** จัดทำคู่มือฟรีสำหรับชาวต่างชาติในเกาหลี เป็นภาษาอังกฤษ ไทย และเวียดนาม ครอบคลุมเรื่องค่าจ้าง วีซ่า การรักษาพยาบาล และส่วนของกฎหมายเกาหลีที่คนมักรู้เมื่อสายไปแล้ว ถ้าไม่แน่ใจว่าขั้นตอนไหนตรงกับสถานการณ์ของคุณ [ส่งข้อความหาเรา](https://m.me/theokoricare) แล้วเราจะชี้ให้ว่าควรไปหน่วยงานไหน เราไม่คิดเงิน และเราไม่เป็นตัวแทนของนายจ้างคนใด
 
 คู่มือนี้อธิบายกฎหมายเกาหลีในภาพรวม ไม่ใช่คำแนะนำทางกฎหมายสำหรับคดีของคุณโดยเฉพาะ และไม่มีข้อความใดในหน้านี้ที่รับประกันผลลัพธ์
 
@@ -564,7 +564,7 @@ Phần khó nhất không phải là luật. Mà là mọi lá thư, mọi biể
 
 **Hãy viết cho Kori Care.** Kể cho chúng tôi chuyện đã xảy ra, bằng tiếng Việt cũng được. Chúng tôi sẽ tìm ra cơ quan nào phụ trách, gia đình cần chuẩn bị gì, và giấy tờ bạn nhận được thực sự nói gì. Nếu cần viết gì bằng tiếng Hàn, chúng tôi sẽ giúp bạn viết.
 
-[Gửi tin nhắn cho chúng tôi](https://m.me/koricare.kr)
+[Gửi tin nhắn cho chúng tôi](https://m.me/theokoricare)
 
 Chúng tôi không phải văn phòng luật và không thu phí. Chúng tôi là những người biết các cơ quan này vận hành ra sao và đọc được giấy tờ.
 
@@ -623,7 +623,7 @@ Ba điều quyết định nó có đến tay bạn không: **nộp trong vòng 
 
 Nếu chưa biết bắt đầu từ đâu, hãy bắt đầu từ bước một ở đầu trang này — giấy chứng tử và nguyên nhân tử vong bằng văn bản. Sau đó gọi 1588-0075, hoặc nhờ người ở Hàn Quốc gọi.
 
-**Kori Care** làm các hướng dẫn miễn phí cho người nước ngoài ở Hàn Quốc, bằng tiếng Anh, tiếng Thái và tiếng Việt — tiền lương, visa, y tế, và những phần của pháp luật Hàn Quốc mà người ta thường biết đến khi đã quá muộn. Nếu bạn không chắc bước nào phù hợp với hoàn cảnh của mình, [hãy nhắn cho chúng tôi](https://m.me/koricare.kr) và chúng tôi sẽ chỉ cho bạn cơ quan đúng. Chúng tôi không thu phí, và chúng tôi không đại diện cho chủ sử dụng lao động nào.
+**Kori Care** làm các hướng dẫn miễn phí cho người nước ngoài ở Hàn Quốc, bằng tiếng Anh, tiếng Thái và tiếng Việt — tiền lương, visa, y tế, và những phần của pháp luật Hàn Quốc mà người ta thường biết đến khi đã quá muộn. Nếu bạn không chắc bước nào phù hợp với hoàn cảnh của mình, [hãy nhắn cho chúng tôi](https://m.me/theokoricare) và chúng tôi sẽ chỉ cho bạn cơ quan đúng. Chúng tôi không thu phí, và chúng tôi không đại diện cho chủ sử dụng lao động nào.
 
 Hướng dẫn này giải thích pháp luật Hàn Quốc một cách khái quát. Đây không phải tư vấn pháp lý cho vụ việc cụ thể của bạn, và không có nội dung nào trên trang này bảo đảm một kết quả nhất định.
 
