@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_en_73f5a32b",
+    "date": "2026-09-21",
+    "ts": 1790028000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.1ba1835b10fd4d15a5e432b99e877e87_T1.jpg",
+    "title": "Adverse events from growth hormone shots hit new high amid rising prescriptions",
+    "link": "https://www.koreaherald.com/article/10881149"
+  },
+  {
+    "id": "hotnews_en_02fce8d2",
+    "date": "2026-09-21",
+    "ts": 1790027731000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Sept. 22)",
+    "link": "https://en.yna.co.kr/view/AEN20260922000900315"
+  },
+  {
+    "id": "hotnews_en_5f0fa579",
+    "date": "2026-09-21",
+    "ts": 1790027681000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20260922000600315"
+  },
+  {
+    "id": "hotnews_en_83d29618",
+    "date": "2026-09-21",
+    "ts": 1790024407000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921009600320_01_i_P2.jpg",
+    "title": "Delinquency ratio on bank loans up in July",
+    "link": "https://en.yna.co.kr/view/AEN20260921009600320"
+  },
+  {
+    "id": "hotnews_en_cd51af3b",
+    "date": "2026-09-21",
+    "ts": 1790022600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.d75de70de3524cc7b4d10b2452f7b39a_T1.jpg",
+    "title": "[Grace Kao] Stockholm’s Korean Culture Festival",
+    "link": "https://www.koreaherald.com/article/10881035"
+  },
+  {
+    "id": "hotnews_en_7ab5dd59",
+    "date": "2026-09-21",
+    "ts": 1790012458000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/22/PAP20260922010801009_P2.jpg",
+    "title": "Top S. Korean, U.S., Japanese diplomats reaffirm N.K. denuclearization commitment, urge Pyongyang to resume dialogue",
+    "link": "https://en.yna.co.kr/view/AEN20260922000200315"
+  },
+  {
+    "id": "hotnews_en_f2011e45",
+    "date": "2026-09-21",
+    "ts": 1789998632000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092130110001300_P2.jpg",
+    "title": "(Asiad) Young swimmer soars to gold; baseball team opens title quest with win",
+    "link": "https://en.yna.co.kr/view/AEN20260921011900315"
+  },
+  {
+    "id": "hotnews_en_bac721db",
+    "date": "2026-09-21",
+    "ts": 1789997968000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092132180001300_P2.jpg",
+    "title": "(Asiad) S. Korea loses to Japan to drop to bronze medal match in women's volleyball",
+    "link": "https://en.yna.co.kr/view/AEN20260921011651315"
+  },
+  {
     "id": "hotnews_en_0ec0974f",
     "date": "2026-09-21",
     "ts": 1789996023000,
@@ -112,6 +176,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260921011200320"
   },
   {
+    "id": "hotnews_en_4d64c044",
+    "date": "2026-09-21",
+    "ts": 1789989057000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092122330001300_P2.jpg",
+    "title": "(Asiad) N. Korean supporters dominate atmosphere at inter-Korean football match at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260921011100320"
+  },
+  {
     "id": "hotnews_en_ea718dfe",
     "date": "2026-09-21",
     "ts": 1789987014000,
@@ -126,6 +198,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090816640006000_P2.jpg",
     "title": "3 military officers injured in suspected landmine explosion during operation at DMZ",
     "link": "https://en.yna.co.kr/view/AEN20260921006153315"
+  },
+  {
+    "id": "hotnews_en_997366c8",
+    "date": "2026-09-21",
+    "ts": 1789986519000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/rcv.YNA.20260917.PYH2026091705320001301_T1.jpg",
+    "title": "S. Korea, US, Japan FMs set for talks in New York on economic, security ties",
+    "link": "https://www.koreaherald.com/article/10881168"
   },
   {
     "id": "hotnews_en_278b01ed",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.1fcb29733180420b8476240673d6f54f_T1.jpg",
     "title": "Samsung breaks ground on FlaktGroup HVAC plant in Gwangju",
     "link": "https://www.koreaherald.com/article/10880681"
-  },
-  {
-    "id": "hotnews_en_030c6465",
-    "date": "2026-09-21",
-    "ts": 1789965333000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092109720001300_P2.jpg",
-    "title": "(Asiad) S. Korea takes bronze in men's rifle team event, misses out on individual medals",
-    "link": "https://en.yna.co.kr/view/AEN20260921005800315"
-  },
-  {
-    "id": "hotnews_en_3c6c9706",
-    "date": "2026-09-21",
-    "ts": 1789965227000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.7e4ccf7ab5e447fe86d870361dae6279_T1.png",
-    "title": "Welcron launches defense website to expand overseas business",
-    "link": "https://www.koreaherald.com/article/10880673"
-  },
-  {
-    "id": "hotnews_en_768f648f",
-    "date": "2026-09-21",
-    "ts": 1789965000000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921005700315_01_i_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20260921005700315"
-  },
-  {
-    "id": "hotnews_en_21bc898e",
-    "date": "2026-09-21",
-    "ts": 1789964833000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/rcv.YNA.20260921.PRU20260921032001009_T1.jpg",
-    "title": "Germany's Merz under pressure after bruising state election losses",
-    "link": "https://www.koreaherald.com/article/10880660"
-  },
-  {
-    "id": "hotnews_en_409c00f5",
-    "date": "2026-09-21",
-    "ts": 1789964670000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/rcv.YNA.20260913.PAF20260913086901009_T1.jpg",
-    "title": "US warns of rapid escalation in Middle East war",
-    "link": "https://www.koreaherald.com/article/10880653"
-  },
-  {
-    "id": "hotnews_en_013fc9c6",
-    "date": "2026-09-21",
-    "ts": 1789964108000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.ff792e3d1d59411ea408c34047dafd02_T1.jpg",
-    "title": "Posco renovates special-ed classrooms at 8 schools across cities",
-    "link": "https://www.koreaherald.com/article/10880639"
-  },
-  {
-    "id": "hotnews_en_86bd1937",
-    "date": "2026-09-21",
-    "ts": 1789964099000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.4c6caea467be42a084d4056b45c446ee_T1.jpg",
-    "title": "Why Musinsa is taking on Olive Young ahead of its IPO",
-    "link": "https://www.koreaherald.com/article/10880638"
-  },
-  {
-    "id": "hotnews_en_efd0e0ae",
-    "date": "2026-09-21",
-    "ts": 1789963568000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.2cee9d5aca7c466c93aea0b9711becb0_T1.jpg",
-    "title": "Hana Bank issues $100m digital bond with same-day settlement",
-    "link": "https://www.koreaherald.com/article/10880624"
-  },
-  {
-    "id": "hotnews_en_7745526c",
-    "date": "2026-09-21",
-    "ts": 1789963453000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Presidential chief of staff Kang Hoon-sik offers to resign: press secretary",
-    "link": "https://en.yna.co.kr/view/AEN20260921005500315"
-  },
-  {
-    "id": "hotnews_en_37f4ae7b",
-    "date": "2026-09-21",
-    "ts": 1789962738000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.febeaa8a8c674742a4d426f0aa463e90_T1.jpg",
-    "title": "American former actor rescues student from Hangang after hearing screams",
-    "link": "https://www.koreaherald.com/article/10880615"
   }
 ]
