@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_th_bb8773eb",
+    "date": "2026-09-22",
+    "ts": 1790112723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/6764b655-fe09-4a10-8dde-41f608bf348a.jpeg",
+    "title": "ครูเกาหลีใต้ตั้งคณะกรรมการ LGBTQ+ ชุดแรก",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260923/there-are-gay-people-in-schools-too-teachers-form-1st-lgbtq-committee?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_bf6c96c5",
+    "date": "2026-09-22",
+    "ts": 1790110808000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009300320_01_i_P2.jpg",
+    "title": "ความเชื่อมั่นผู้บริโภคเกาหลีใต้เดือน ก.ย. ฟื้นตัว",
+    "link": "https://en.yna.co.kr/view/AEN20260922009300320"
+  },
+  {
+    "id": "hotnews_th_7b749247",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.bbd82b62a35343ebb3bb22caa3ad6f8f_T1.jpg",
+    "title": "โปแลนด์และยุโรปกลาง: โมเดลการเติบโตทางเศรษฐกิจที่ยุโรปควรมองข้ามช็อต",
+    "link": "https://www.koreaherald.com/article/10882476"
+  },
+  {
+    "id": "hotnews_th_fb555486",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.86e6ebbd3487411db5810aa67ab7cfd5_T1.jpg",
+    "title": "บทความความคิดเห็นเรื่อง เราควรเป็นฮีโร่ไม่ใช่ตัวร้าย",
+    "link": "https://www.koreaherald.com/article/10882474"
+  },
+  {
+    "id": "hotnews_th_cbd5edad",
+    "date": "2026-09-22",
+    "ts": 1790108391000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923001000315_01_i_P2.jpg",
+    "title": "เจ้าหน้าที่สหรัฐเผย ทรัมป์พร้อมพบทุกคนเพื่อผลประโยชน์ชาติ",
+    "link": "https://en.yna.co.kr/view/AEN20260923001000315"
+  },
+  {
+    "id": "hotnews_th_071ecbb3",
+    "date": "2026-09-22",
+    "ts": 1790107248000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "ลีเสนอ 'ความเป็นหุ้นส่วนผู้มีส่วนร่วมเชิงสร้างสรรค์' ด้านห่วงโซ่อุปทานพลังงาน",
+    "link": "https://en.yna.co.kr/view/AEN20260923000900315"
+  },
+  {
+    "id": "hotnews_th_f0d74e7a",
+    "date": "2026-09-22",
+    "ts": 1790107199000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "อี แจ-มยอง มุ่งสร้างพื้นฐานเจรจายุติสงครามคาบสมุทรเกาหลี",
+    "link": "https://en.yna.co.kr/view/AEN20260923000700315"
+  },
+  {
+    "id": "hotnews_th_7eda78c2",
+    "date": "2026-09-22",
+    "ts": 1790106885000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "ลีสนับสนุนการปฏิรูป UNSC เพื่อเพิ่มประสิทธิภาพและความรับผิดชอบ",
+    "link": "https://en.yna.co.kr/view/AEN20260923000500315"
+  },
+  {
     "id": "hotnews_th_ec70c1be",
     "date": "2026-09-22",
     "ts": 1790079220000,
@@ -72,6 +136,14 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20260922/what-is-really-driving-young-koreans-into-debt?utm_source=rss"
   },
   {
+    "id": "hotnews_th_17bf662c",
+    "date": "2026-09-22",
+    "ts": 1790077355000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-a.v1.20260922.6197c702ce08448a99e9cce04226f320_T1.jpg",
+    "title": "ซong เซ-รา คว้าเหรียญทองฟันดาบเอเชียนเกมส์",
+    "link": "https://www.koreaherald.com/article/10882607"
+  },
+  {
     "id": "hotnews_th_ef073fc1",
     "date": "2026-09-22",
     "ts": 1790076257000,
@@ -142,6 +214,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922064926_78_e.jpg",
     "title": "ศึกบาสเกตบอล KBL เตรียมจัดแข่งขันช่วงวันหยุดชูсок",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204431"
+  },
+  {
+    "id": "hotnews_th_809928a8",
+    "date": "2026-09-22",
+    "ts": 1790064007000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922110449_26_k.jpg",
+    "title": "สถาบันกวดวิชาห้ามทดสอบระดับเด็กอนุบาลเริ่ม 1 ตุลาคมนี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204430"
   },
   {
     "id": "hotnews_th_0134a50b",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/21/92412dd9-ffa2-4896-a565-b1765446e400.jpeg",
     "title": "เกาหลีใต้ขยายวีซ่าด่วน กระจายท่องเที่ยวเชิงการแพทย์สู่ภูมิภาค",
     "link": "https://www.koreatimes.co.kr/southkorea/20260921/korea-expands-fast-track-visas-to-spread-medical-tourism-beyond-seoul?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_f9394b54",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/27ee3e9f-d946-499a-bd5a-816b85288eb6.jpeg",
-    "title": "ม.โซลร่วมมือ George Washington University โอนหน่วยกิตป.โท",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260921/university-of-seoul-george-washington-university-launch-graduate-credit-transfer-partnership?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_8e06d81d",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/4e49d020-d5ce-4965-978a-ebc573eeff16.jpg",
-    "title": "ยอดนักศึกษาต่างชาติเสียชีวิตในเกาหลี ชี้ควรดูแลสุขภาพจิตเพิ่มขึ้น",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260921/suicides-account-for-1-in-5-international-student-deaths-in-korea-spurring-mental-health-calls?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ede1b597",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/ee1ae5ec-9644-4760-b68f-23d12d2365f1.jpg",
-    "title": "เกาหลีใต้เตรียมเพิ่มเรือตรวจการณ์ยามฝั่งในทะเลตะวันตก",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260921/korea-to-expand-3000-ton-coast-guard-patrol-fleet-in-west-sea-to-17-by-2030?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_e3f99f3d",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/18856014-0c4b-4fdd-868e-1bb99c29bf6e.jpeg",
-    "title": "เกาหลีกำลังวางกฎระเบียบเรื่องเพลงที่สร้างจาก AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260921/korea-moves-to-establish-ground-rules-for-ai-created-music?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_155beb94",
-    "date": "2026-09-21",
-    "ts": 1789995341000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092132180001300_P2.jpg",
-    "title": "เกาหลีใต้พ่ายญี่ปุ่น ร่วงชิงเหรียญทองแดงวอลเลย์บอลเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260921011600315"
-  },
-  {
-    "id": "hotnews_th_578c652b",
-    "date": "2026-09-21",
-    "ts": 1789994139000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.aad4b4b7872f41299b51d29748b2b3ad_T1.jpg",
-    "title": "พัคจินยองผู้ก่อตั้ง JYP เผยเส้นทางชีวิตสู่การเป็นผู้นำทางศาสนา",
-    "link": "https://www.koreaherald.com/article/10881210"
-  },
-  {
-    "id": "hotnews_th_24d1d89e",
-    "date": "2026-09-21",
-    "ts": 1789990715000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092127330001300_P2.jpg",
-    "title": "จี ยู-ชาน คว้าเหรียญทองแดงว่ายน้ำ 50 ม. ฟรีสไตล์ เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260921011300315"
-  },
-  {
-    "id": "hotnews_th_4d64c044",
-    "date": "2026-09-21",
-    "ts": 1789989057000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092122330001300_P2.jpg",
-    "title": "กองเชียร์เกาหลีเหนือคึกคักศึกฟุตบอลเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260921011100320"
-  },
-  {
-    "id": "hotnews_th_ea718dfe",
-    "date": "2026-09-21",
-    "ts": 1789987014000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092121250001300_P2.jpg",
-    "title": "โค้ชฟุตบอลหญิงเกาหลีใต้เสียดายพลาดอันดับ 1 กลุ่มในเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260921010700320"
-  },
-  {
-    "id": "hotnews_th_96ae4cfc",
-    "date": "2026-09-21",
-    "ts": 1789980743000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921010200315_01_i_P2.jpg",
-    "title": "รัฐมนตรีต่างประเทศเกาหลีใต้ สหรัฐ และญี่ปุ่น นัดหารือที่นิวยอร์ก",
-    "link": "https://en.yna.co.kr/view/AEN20260921010200315"
   }
 ]

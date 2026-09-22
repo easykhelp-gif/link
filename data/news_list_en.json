@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_en_bf6c96c5",
+    "date": "2026-09-22",
+    "ts": 1790110808000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009300320_01_i_P2.jpg",
+    "title": "Consumer sentiment rebounds in Sept. on eased market woes, sound economic data",
+    "link": "https://en.yna.co.kr/view/AEN20260922009300320"
+  },
+  {
+    "id": "hotnews_en_7b749247",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.bbd82b62a35343ebb3bb22caa3ad6f8f_T1.jpg",
+    "title": "[Marcin Piatkowski] Central European growth model",
+    "link": "https://www.koreaherald.com/article/10882476"
+  },
+  {
+    "id": "hotnews_en_fb555486",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.86e6ebbd3487411db5810aa67ab7cfd5_T1.jpg",
+    "title": "[Kim Seong-kon] We should become heroes, not villains",
+    "link": "https://www.koreaherald.com/article/10882474"
+  },
+  {
+    "id": "hotnews_en_cbd5edad",
+    "date": "2026-09-22",
+    "ts": 1790108391000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923001000315_01_i_P2.jpg",
+    "title": "U.S. official says Trump would consider meeting anybody if it serves U.S. interests amid N.K. dialogue prospects",
+    "link": "https://en.yna.co.kr/view/AEN20260923001000315"
+  },
+  {
+    "id": "hotnews_en_071ecbb3",
+    "date": "2026-09-22",
+    "ts": 1790107248000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee proposes 'Partnership of Constructive Contributors' for cooperation on energy supply chains",
+    "link": "https://en.yna.co.kr/view/AEN20260923000900315"
+  },
+  {
+    "id": "hotnews_en_f0d74e7a",
+    "date": "2026-09-22",
+    "ts": 1790107199000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee vows to lay groundwork for dialogue to end war on Korean Peninsula, build peace regime",
+    "link": "https://en.yna.co.kr/view/AEN20260923000700315"
+  },
+  {
+    "id": "hotnews_en_7eda78c2",
+    "date": "2026-09-22",
+    "ts": 1790106885000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee voices support for UNSC reform for effectiveness, accountability",
+    "link": "https://en.yna.co.kr/view/AEN20260923000500315"
+  },
+  {
+    "id": "hotnews_en_13c3ec3f",
+    "date": "2026-09-22",
+    "ts": 1790106546000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee says S. Korea will take lead in shaping AI to tackle global challenges, benefit all",
+    "link": "https://en.yna.co.kr/view/AEN20260923000400315"
+  },
+  {
+    "id": "hotnews_en_942afd17",
+    "date": "2026-09-22",
+    "ts": 1790102782000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/22/PRU20260922278501009_P2.jpg",
+    "title": "Trump makes no mention of N. Korea in U.N. address while touching on Iran, Cuba, other issues",
+    "link": "https://en.yna.co.kr/view/AEN20260923000253315"
+  },
+  {
     "id": "hotnews_en_bb8773eb",
     "date": "2026-09-22",
     "ts": 1790096822000,
@@ -144,6 +216,14 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260922/suicide-leads-causes-of-death-among-teens-to-40s-cancer-from-50s?utm_source=rss"
   },
   {
+    "id": "hotnews_en_17bf662c",
+    "date": "2026-09-22",
+    "ts": 1790077355000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-a.v1.20260922.6197c702ce08448a99e9cce04226f320_T1.jpg",
+    "title": "Song Se-ra wins women's epee gold for first individual Asian Games title",
+    "link": "https://www.koreaherald.com/article/10882607"
+  },
+  {
     "id": "hotnews_en_ef073fc1",
     "date": "2026-09-22",
     "ts": 1790076257000,
@@ -182,6 +262,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922002200315_01_i_P2.jpg",
     "title": "S. Korea's homegrown KF-21 fighter makes 1st sortie to mark delivery to Air Force",
     "link": "https://en.yna.co.kr/view/AEN20260922002200315"
+  },
+  {
+    "id": "hotnews_en_5cb48ac5",
+    "date": "2026-09-22",
+    "ts": 1790068291000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/22/PRU20260922163901009_P2.jpg",
+    "title": "(Asiad) S. Korea beats Chinese Taipei to go undefeated in women's hoops group phase",
+    "link": "https://en.yna.co.kr/view/AEN20260922010300315"
   },
   {
     "id": "hotnews_en_98b07149",
@@ -310,93 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/13/PYH2026041317860001300_P2.jpg",
     "title": "Appellate court reduces ex-first lady's sentence to 5 yrs in bribery trial",
     "link": "https://en.yna.co.kr/view/AEN20260922001753315"
-  },
-  {
-    "id": "hotnews_en_b9d4d37a",
-    "date": "2026-09-22",
-    "ts": 1790060895000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922008100315_01_i_P2.jpg",
-    "title": "Gov't removes ceiling of rewards payable for corruption reporting",
-    "link": "https://en.yna.co.kr/view/AEN20260922008100315"
-  },
-  {
-    "id": "hotnews_en_c851a3a9",
-    "date": "2026-09-22",
-    "ts": 1790060871000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.2ca7636bee0d4d8b96241e1c5c9dd482_T1.jpg",
-    "title": "FTC opens review of Uber's $13.7b takeover for Baemin's parent",
-    "link": "https://www.koreaherald.com/article/10882400"
-  },
-  {
-    "id": "hotnews_en_393831ff",
-    "date": "2026-09-22",
-    "ts": 1790060815000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.9ae73f908259426687569630224d87f7_T1.jpg",
-    "title": "World No. 1 An Se-young smashes her way to semifinals",
-    "link": "https://www.koreaherald.com/article/10882397"
-  },
-  {
-    "id": "hotnews_en_df773fc6",
-    "date": "2026-09-22",
-    "ts": 1790060792000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260812014338_19_e.jpg",
-    "title": "KOSPI Up 0.15% Tuesday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204428"
-  },
-  {
-    "id": "hotnews_en_84013afb",
-    "date": "2026-09-22",
-    "ts": 1790060657000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.f02f916c214248afbf9d81da071cb500_T1.jpg",
-    "title": "'Dress like dentistry students' rule sparks backlash",
-    "link": "https://www.koreaherald.com/article/10882392"
-  },
-  {
-    "id": "hotnews_en_68f91945",
-    "date": "2026-09-22",
-    "ts": 1790060448000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202510/251014081756_92_k.jpg",
-    "title": "Parties Clash over Chief Justice’s Refusal to Meet Request",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204427"
-  },
-  {
-    "id": "hotnews_en_24302362",
-    "date": "2026-09-22",
-    "ts": 1790054079000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-a.v1.20260922.7249d1c168e7492a8485c4206dccc67c_T1.jpg",
-    "title": "No more blind Netflix price hikes? Korean bill seeks to make streamers show their math",
-    "link": "https://www.koreaherald.com/article/10882172"
-  },
-  {
-    "id": "hotnews_en_9aec3d7e",
-    "date": "2026-09-22",
-    "ts": 1790054006000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.76477819806b4f98816c7bfded34b94c_T1.jpg",
-    "title": "Lee appoints finance, defense and land ministers",
-    "link": "https://www.koreaherald.com/article/10882169"
-  },
-  {
-    "id": "hotnews_en_25e73bf4",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/3bb4d73c-5d08-4631-a268-f8a70526cd84.jpeg",
-    "title": "KMTPA, Fypher team up on digital dollar infrastructure for medical tourism",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260922/kmtpa-fypher-team-up-on-digital-dollar-infrastructure-for-medical-tourism?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_93628314",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0350300d-9e64-44cf-98e7-c89efeb47df8.jpeg",
-    "title": "Kookmin University to strengthen cooperation with Uzbekistan's Ministry of Digital Technologies",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260922/kookmin-university-to-strengthen-cooperation-with-uzbekistans-ministry-of-digital-technologies?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_3b797d32",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/fd6957e2-d7db-4657-9b54-f037e2c79df3.jpeg",
-    "title": "AI meets heritage to transform tourism experience in Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260922/ai-meets-heritage-to-transform-tourism-experience-in-seoul?utm_source=rss"
   }
 ]

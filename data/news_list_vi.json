@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_bb8773eb",
+    "date": "2026-09-22",
+    "ts": 1790112723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/6764b655-fe09-4a10-8dde-41f608bf348a.jpeg",
+    "title": "Giáo viên Hàn Quốc lập ủy ban hỗ trợ học sinh LGBTQ+ đầu tiên",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260923/there-are-gay-people-in-schools-too-teachers-form-1st-lgbtq-committee?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_bf6c96c5",
+    "date": "2026-09-22",
+    "ts": 1790110808000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009300320_01_i_P2.jpg",
+    "title": "Tâm lý tiêu dùng tại Hàn Quốc phục hồi trong tháng 9",
+    "link": "https://en.yna.co.kr/view/AEN20260922009300320"
+  },
+  {
+    "id": "hotnews_vi_7b749247",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.bbd82b62a35343ebb3bb22caa3ad6f8f_T1.jpg",
+    "title": "Mô hình tăng trưởng kinh tế của Trung và Đông Âu",
+    "link": "https://www.koreaherald.com/article/10882476"
+  },
+  {
+    "id": "hotnews_vi_fb555486",
+    "date": "2026-09-22",
+    "ts": 1790109000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.86e6ebbd3487411db5810aa67ab7cfd5_T1.jpg",
+    "title": "Bài học từ phim Heroes: Trở thành anh hùng hay kẻ ác",
+    "link": "https://www.koreaherald.com/article/10882474"
+  },
+  {
+    "id": "hotnews_vi_cbd5edad",
+    "date": "2026-09-22",
+    "ts": 1790108391000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923001000315_01_i_P2.jpg",
+    "title": "Trump cân nhắc gặp bất kỳ ai vì lợi ích của Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20260923001000315"
+  },
+  {
+    "id": "hotnews_vi_071ecbb3",
+    "date": "2026-09-22",
+    "ts": 1790107248000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee đề xuất đối tác đóng góp xây dựng về năng lượng",
+    "link": "https://en.yna.co.kr/view/AEN20260923000900315"
+  },
+  {
+    "id": "hotnews_vi_f0d74e7a",
+    "date": "2026-09-22",
+    "ts": 1790107199000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee Jae-myung cam kết tạo nền tảng đối thoại hòa bình trên bán đảo Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260923000700315"
+  },
+  {
+    "id": "hotnews_vi_7eda78c2",
+    "date": "2026-09-22",
+    "ts": 1790106885000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Ông Lee ủng hộ cải tổ HĐBA LHQ để tăng hiệu quả",
+    "link": "https://en.yna.co.kr/view/AEN20260923000500315"
+  },
+  {
+    "id": "hotnews_vi_13c3ec3f",
+    "date": "2026-09-22",
+    "ts": 1790106546000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc dẫn dắt định hình AI giải quyết thách thức toàn cầu",
+    "link": "https://en.yna.co.kr/view/AEN20260923000400315"
+  },
+  {
     "id": "hotnews_vi_7a9a275e",
     "date": "2026-09-22",
     "ts": 1790098258000,
@@ -94,6 +166,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092227810001300_P2.jpg",
     "title": "Vận động viên Song Se-ra giành HCV môn đấu kiếm Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260922011451320"
+  },
+  {
+    "id": "hotnews_vi_e3e11a3a",
+    "date": "2026-09-22",
+    "ts": 1790074409000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Song Se-ra giành huy chương vàng đấu kiếm Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260922011300320"
   },
   {
     "id": "hotnews_vi_31d1b611",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/21/92412dd9-ffa2-4896-a565-b1765446e400.jpeg",
     "title": "Hàn Quốc mở rộng visa y tế để phát triển du lịch ngoài Seoul",
     "link": "https://www.koreatimes.co.kr/southkorea/20260921/korea-expands-fast-track-visas-to-spread-medical-tourism-beyond-seoul?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_f9394b54",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/27ee3e9f-d946-499a-bd5a-816b85288eb6.jpeg",
-    "title": "Đại học Seoul hợp tác chuyển đổi tín chỉ với GWU",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260921/university-of-seoul-george-washington-university-launch-graduate-credit-transfer-partnership?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_8e06d81d",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/4e49d020-d5ce-4965-978a-ebc573eeff16.jpg",
-    "title": "Báo động tự tử ở du học sinh quốc tế tại Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260921/suicides-account-for-1-in-5-international-student-deaths-in-korea-spurring-mental-health-calls?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ede1b597",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/ee1ae5ec-9644-4760-b68f-23d12d2365f1.jpg",
-    "title": "Hàn Quốc tăng tàu tuần tra Biển Tây lên 17 chiếc vào 2030",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260921/korea-to-expand-3000-ton-coast-guard-patrol-fleet-in-west-sea-to-17-by-2030?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e3f99f3d",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/18856014-0c4b-4fdd-868e-1bb99c29bf6e.jpeg",
-    "title": "Hàn Quốc thiết lập quy định cho âm nhạc tạo ra bằng AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260921/korea-moves-to-establish-ground-rules-for-ai-created-music?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_155beb94",
-    "date": "2026-09-21",
-    "ts": 1789995341000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092132180001300_P2.jpg",
-    "title": "Bóng chuyền nữ Hàn Quốc thua Nhật Bản ở bán kết Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260921011600315"
-  },
-  {
-    "id": "hotnews_vi_578c652b",
-    "date": "2026-09-21",
-    "ts": 1789994139000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.aad4b4b7872f41299b51d29748b2b3ad_T1.jpg",
-    "title": "Hành trình từ nhà sản xuất K-pop đến người giảng Kinh Thánh của J.Y. Park",
-    "link": "https://www.koreaherald.com/article/10881210"
-  },
-  {
-    "id": "hotnews_vi_24d1d89e",
-    "date": "2026-09-21",
-    "ts": 1789990715000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092127330001300_P2.jpg",
-    "title": "Ji Yu-chan giành huy chương đồng bơi tự do 50m Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260921011300315"
-  },
-  {
-    "id": "hotnews_vi_4d64c044",
-    "date": "2026-09-21",
-    "ts": 1789989057000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092122330001300_P2.jpg",
-    "title": "Cổ động viên CHDCND Triều Tiên áp đảo tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260921011100320"
-  },
-  {
-    "id": "hotnews_vi_ea718dfe",
-    "date": "2026-09-21",
-    "ts": 1789987014000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092121250001300_P2.jpg",
-    "title": "HLV bóng đá nữ Hàn Quốc tiếc nuối khi đứng nhì bảng đấu Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260921010700320"
-  },
-  {
-    "id": "hotnews_vi_96ae4cfc",
-    "date": "2026-09-21",
-    "ts": 1789980743000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921010200315_01_i_P2.jpg",
-    "title": "Ngoại trưởng Hàn, Mỹ, Nhật sắp gặp nhau tại New York",
-    "link": "https://en.yna.co.kr/view/AEN20260921010200315"
   }
 ]
