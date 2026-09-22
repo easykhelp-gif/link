@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_92df5731",
+    "date": "2026-09-22",
+    "ts": 1790078223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/fbc4f183-226d-4c4a-b53f-52bf8c214379.jpg",
+    "title": "Tòa phúc thẩm giảm án tù của cựu đệ nhất phu nhân Kim Keon Hee",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260922/appellate-court-reduces-ex-first-ladys-sentence-to-5-years-in-bribery-trial?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d0323b56",
+    "date": "2026-09-22",
+    "ts": 1790078223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/3a8d0ff3-f85c-45ee-a41a-feea30ee8a07.jpeg",
+    "title": "Số lượng lưu học sinh tại Busan đạt mức kỷ lục mới",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/busans-foreign-student-population-reaches-record-high-of-24328?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1a7a1f51",
+    "date": "2026-09-22",
+    "ts": 1790078223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/2cbd67ab-3414-4e22-a10e-c6e9dfa1001c.jpeg",
+    "title": "Seoul vượt New York, London nhờ văn hóa và giá thuê rẻ",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260922/foreign-students-choose-seoul-over-new-york-london-paris-for-vibrant-culture-cheaper-rent-report?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d00f0837",
+    "date": "2026-09-22",
+    "ts": 1790078223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/2c939780-162d-4bfa-ad67-539480e2018a.jpeg",
+    "title": "Nguyên nhân khiến giới trẻ Hàn Quốc rơi vào nợ nần",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/what-is-really-driving-young-koreans-into-debt?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ef073fc1",
+    "date": "2026-09-22",
+    "ts": 1790076257000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092227810001300_P2.jpg",
+    "title": "Vận động viên Song Se-ra giành HCV môn đấu kiếm Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260922011451320"
+  },
+  {
+    "id": "hotnews_vi_67dacee2",
+    "date": "2026-09-22",
+    "ts": 1790069706000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922002200315_01_i_P2.jpg",
+    "title": "Tiêm kích KF-21 của Hàn Quốc thực hiện chuyến bay đầu tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260922002200315"
+  },
+  {
+    "id": "hotnews_vi_43c4a00f",
+    "date": "2026-09-22",
+    "ts": 1790066620000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922033354_9_i.jpg",
+    "title": "Vụ nổ ở DMZ xảy ra khi đang tìm kiếm mìn",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204433"
+  },
+  {
+    "id": "hotnews_vi_15248866",
+    "date": "2026-09-22",
+    "ts": 1790064266000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922064926_78_e.jpg",
+    "title": "KBL tổ chức các trận đấu biểu diễn trong dịp nghỉ Chuseok",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204431"
+  },
+  {
+    "id": "hotnews_vi_0134a50b",
+    "date": "2026-09-22",
+    "ts": 1790062727000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009600315_02_i_P2.jpg",
+    "title": "Lãnh đạo DP: Thu hồi quyền tác chiến thời chiến có lợi cho an ninh",
+    "link": "https://en.yna.co.kr/view/AEN20260922009600315"
+  },
+  {
+    "id": "hotnews_vi_c851a3a9",
+    "date": "2026-09-22",
+    "ts": 1790060871000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.2ca7636bee0d4d8b96241e1c5c9dd482_T1.jpg",
+    "title": "FTC xem xét thương vụ Uber thâu tóm Baemin",
+    "link": "https://www.koreaherald.com/article/10882400"
+  },
+  {
     "id": "hotnews_vi_25e73bf4",
     "date": "2026-09-22",
     "ts": 1790053923000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921003952315_02_i_P2.jpg",
     "title": "Tổng thống Lee Jae Myung thăm Mỹ và Mexico trong tuần này",
     "link": "https://en.yna.co.kr/view/AEN20260921003952315"
-  },
-  {
-    "id": "hotnews_vi_e7190dc3",
-    "date": "2026-09-20",
-    "ts": 1789936200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.255098df14604b4aa9c2225809cb7013_T1.jpg",
-    "title": "Quản lý việc tiêu thụ điện của trung tâm dữ liệu",
-    "link": "https://www.koreaherald.com/article/10879662"
-  },
-  {
-    "id": "hotnews_vi_b595071b",
-    "date": "2026-09-20",
-    "ts": 1789936200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.f6c67b29263743d8b748193761bf6c1f_T1.jpg",
-    "title": "Dữ liệu bay vào vũ trụ nhưng luật pháp vẫn mơ hồ",
-    "link": "https://www.koreaherald.com/article/10879661"
-  },
-  {
-    "id": "hotnews_vi_17295757",
-    "date": "2026-09-20",
-    "ts": 1789913633000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920004351315_03_i_P2.jpg",
-    "title": "Chính phủ báo cáo Quốc hội về dự án đầu tư sang Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260920004351315"
-  },
-  {
-    "id": "hotnews_vi_913ef45b",
-    "date": "2026-09-20",
-    "ts": 1789909716000,
-    "image": "",
-    "title": "Bảng tổng sắp huy chương Đại hội thể thao Châu Á",
-    "link": "https://en.yna.co.kr/view/AEN20230924003986315"
-  },
-  {
-    "id": "hotnews_vi_b5ac195e",
-    "date": "2026-09-20",
-    "ts": 1789907743000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823900005200_P2.jpg",
-    "title": "Bóng chuyền nữ Hàn Quốc vào bán kết Asiad sau trận thắng Kazakhstan",
-    "link": "https://en.yna.co.kr/view/AEN20260920004651320"
-  },
-  {
-    "id": "hotnews_vi_598003d2",
-    "date": "2026-09-20",
-    "ts": 1789907279000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092017310001300_P2.jpg",
-    "title": "Đội tuyển năm môn phối hợp Hàn Quốc đạt thành tích cao tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260920005300320"
-  },
-  {
-    "id": "hotnews_vi_78d1b215",
-    "date": "2026-09-20",
-    "ts": 1789904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/20/483a215b-4cd4-4d29-8091-ccd87b7ee0ef.jpg",
-    "title": "Ứng cử viên Bộ trưởng Tư pháp Kim Seung-won rút lui",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260920/justice-minister-nominees-withdrawal-deals-blow-to-president-ruling-party?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_2e6f354e",
-    "date": "2026-09-20",
-    "ts": 1789904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/20/19bd9567-e873-4195-aba7-90d3bdac1c6a.jpg",
-    "title": "Chuyên gia Việt Nam tại Hàn Quốc tăng gấp đôi sau 4 năm",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260920/vietnamese-professionals-in-korea-nearly-double-over-4-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_2c4f65df",
-    "date": "2026-09-20",
-    "ts": 1789904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/20/3c8faefb-fdf2-427a-9437-9b0108158577.jpg",
-    "title": "Miễn nghĩa vụ quân sự tập đoàn lớn ngành AI sau 14 năm",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260920/military-duty-alternative-revives-for-large-conglomerates-after-14-years-amid-ai-drive?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0816fe08",
-    "date": "2026-09-20",
-    "ts": 1789904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/74411407-ed26-4092-850e-cafd623c2095.jpg",
-    "title": "Khám phá tàu ngầm mới Seo Hui của Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260920/inside-the-seo-hui-a-look-at-koreas-newest-submarine?utm_source=rss"
   }
 ]
