@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_25e73bf4",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/3bb4d73c-5d08-4631-a268-f8a70526cd84.jpeg",
+    "title": "KMTPA và Fypher hợp tác phát triển hạ tầng đô la số cho du lịch y tế",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260922/kmtpa-fypher-team-up-on-digital-dollar-infrastructure-for-medical-tourism?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_93628314",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0350300d-9e64-44cf-98e7-c89efeb47df8.jpeg",
+    "title": "Đại học Kookmin hợp tác công nghệ với Uzbekistan",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260922/kookmin-university-to-strengthen-cooperation-with-uzbekistans-ministry-of-digital-technologies?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_3b797d32",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/fd6957e2-d7db-4657-9b54-f037e2c79df3.jpeg",
+    "title": "Seoul dùng AI nâng cấp du lịch đền chùa và Đông y",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/ai-meets-heritage-to-transform-tourism-experience-in-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_da666956",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0874576f-f232-4d7d-a5b4-85ce9331219f.jpeg",
+    "title": "Hàn Quốc đầu tư lớn vào pin sodium và thể rắn để lấy lại vị thế",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/korea-bets-big-on-sodium-and-solid-state-tech-to-reclaim-battery-dominance?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_65219577",
+    "date": "2026-09-22",
+    "ts": 1790053768000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005800315_01_i_P2.jpg",
+    "title": "Joshua (Seventeen) ra mắt đĩa đơn mới",
+    "link": "https://en.yna.co.kr/view/AEN20260922005800315"
+  },
+  {
+    "id": "hotnews_vi_0580ae68",
+    "date": "2026-09-22",
+    "ts": 1790053255000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.b300348269754b2bbb3881ddb4a62ad3_T1.jpg",
+    "title": "Vận động viên Hong Kong giữ lời hứa với Kai của Exo",
+    "link": "https://www.koreaherald.com/article/10882145"
+  },
+  {
+    "id": "hotnews_vi_fa482ebe",
+    "date": "2026-09-22",
+    "ts": 1790050347000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005251315_01_i_P2.jpg",
+    "title": "Chánh án Tòa án Tối cao từ chối yêu cầu giới thiệu lại ứng viên",
+    "link": "https://en.yna.co.kr/view/AEN20260922005251315"
+  },
+  {
+    "id": "hotnews_vi_fbfcabb1",
+    "date": "2026-09-22",
+    "ts": 1790045633000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922004500315_01_i_P2.jpg",
+    "title": "Tổng thống Lee đề xuất Mỹ giảm trừng phạt Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260922004500315"
+  },
+  {
+    "id": "hotnews_vi_e58ecf4f",
+    "date": "2026-09-22",
+    "ts": 1790045618000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922010919_16_e.jpg",
+    "title": "Soyeon (i-dle) dẫn đầu bảng xếp hạng với bài hát solo mới",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204416"
+  },
+  {
+    "id": "hotnews_vi_bceb7220",
+    "date": "2026-09-22",
+    "ts": 1790045451000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.63ff016fdb354df8a5f43709df6fe129_T1.jpg",
+    "title": "Seoul chọn dự án đầu tư Mỹ đầu tiên",
+    "link": "https://www.koreaherald.com/article/10882015"
+  },
+  {
     "id": "hotnews_vi_49f6d01a",
     "date": "2026-09-21",
     "ts": 1790028233000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/18/74411407-ed26-4092-850e-cafd623c2095.jpg",
     "title": "Khám phá tàu ngầm mới Seo Hui của Hàn Quốc",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260920/inside-the-seo-hui-a-look-at-koreas-newest-submarine?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6d2bb641",
-    "date": "2026-09-20",
-    "ts": 1789903242000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042001400031500_P2.jpg",
-    "title": "Triều Tiên phóng hai tên lửa đạn đạo tầm ngắn ra biển Đông",
-    "link": "https://en.yna.co.kr/view/AEN20260920002954315"
-  },
-  {
-    "id": "hotnews_vi_b94dd32d",
-    "date": "2026-09-20",
-    "ts": 1789901081000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.067f8883a27d4abab5821f44a2933796_T1.jpg",
-    "title": "Chính phủ báo cáo Quốc hội dự án đầu tư sang Mỹ",
-    "link": "https://www.koreaherald.com/article/10879720"
-  },
-  {
-    "id": "hotnews_vi_15e2dece",
-    "date": "2026-09-20",
-    "ts": 1789900259000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092018410001300_P2.jpg",
-    "title": "Kim Young-beom và Hwang Sun-woo giành huy chương tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260920004451315"
-  },
-  {
-    "id": "hotnews_vi_338c59a8",
-    "date": "2026-09-20",
-    "ts": 1789896034000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920004300315_03_i_P2.jpg",
-    "title": "Chính phủ báo cáo Quốc hội về khoản đầu tư sang Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260920004300315"
-  },
-  {
-    "id": "hotnews_vi_3d89ca8a",
-    "date": "2026-09-20",
-    "ts": 1789895756000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042001400031500_P2.jpg",
-    "title": "Triều Tiên phóng thêm vật thể bay sau tên lửa đạn đạo",
-    "link": "https://en.yna.co.kr/view/AEN20260920002953315"
-  },
-  {
-    "id": "hotnews_vi_915b5348",
-    "date": "2026-09-20",
-    "ts": 1789894942000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Triều Tiên phóng thêm vật thể bay ra Biển Đông",
-    "link": "https://en.yna.co.kr/view/AEN20260920004200315"
-  },
-  {
-    "id": "hotnews_vi_9e038fd7",
-    "date": "2026-09-20",
-    "ts": 1789893680000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.7f0f06699f944c52a8ce5fb0207fe0d7_T1.jpeg",
-    "title": "Pianist Lee Jeong-woo thắng giải George Enescu",
-    "link": "https://www.koreaherald.com/article/10879677"
-  },
-  {
-    "id": "hotnews_vi_e2486279",
-    "date": "2026-09-20",
-    "ts": 1789893565000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.e485e8568b054e1aad030cc068bb0559_T1.jpg",
-    "title": "Jun Woong-tae lỡ huy chương vàng cá nhân nhưng giữ ngôi vô địch đồng đội",
-    "link": "https://www.koreaherald.com/article/10879673"
-  },
-  {
-    "id": "hotnews_vi_90f235c9",
-    "date": "2026-09-20",
-    "ts": 1789892656000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092015110001300_P2.jpg",
-    "title": "Jun Woong-tae giành HCB cá nhân, Hàn Quốc vô địch đồng đội",
-    "link": "https://en.yna.co.kr/view/AEN20260920004100320"
-  },
-  {
-    "id": "hotnews_vi_cad1dfeb",
-    "date": "2026-09-20",
-    "ts": 1789892336000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.f4724c4abe4841cb8c34ab41849168aa_T1.jpg",
-    "title": "Trợ cấp nghỉ thai sản cho người nước ngoài tăng gấp đôi",
-    "link": "https://www.koreaherald.com/article/10879667"
   }
 ]

@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_25e73bf4",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/3bb4d73c-5d08-4631-a268-f8a70526cd84.jpeg",
+    "title": "สสทก. ร่วมกับ Fypher พัฒนาโครงสร้างพื้นฐานดิจิทัลดอลลาร์",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260922/kmtpa-fypher-team-up-on-digital-dollar-infrastructure-for-medical-tourism?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_93628314",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0350300d-9e64-44cf-98e7-c89efeb47df8.jpeg",
+    "title": "ม.kookmin ร่วมมือกระทรวงดิจิทัลอุซเบกิสถาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260922/kookmin-university-to-strengthen-cooperation-with-uzbekistans-ministry-of-digital-technologies?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_3b797d32",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/fd6957e2-d7db-4657-9b54-f037e2c79df3.jpeg",
+    "title": "กรุงเทพมหานครโซลใช้ AI พัฒนาการท่องเที่ยวเชิงวัฒนธรรม",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/ai-meets-heritage-to-transform-tourism-experience-in-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_da666956",
+    "date": "2026-09-22",
+    "ts": 1790053923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0874576f-f232-4d7d-a5b4-85ce9331219f.jpeg",
+    "title": "เกาหลีใต้ปรับกลยุทธ์แบตเตอรี่ครั้งใหญ่สู้ศึกตลาดโลก",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260922/korea-bets-big-on-sodium-and-solid-state-tech-to-reclaim-battery-dominance?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_65219577",
+    "date": "2026-09-22",
+    "ts": 1790053768000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005800315_01_i_P2.jpg",
+    "title": "โจ슈아 วง Seventeen ปล่อยดิจิทัลซิงเกิลใหม่ Baby Come Home",
+    "link": "https://en.yna.co.kr/view/AEN20260922005800315"
+  },
+  {
+    "id": "hotnews_th_0580ae68",
+    "date": "2026-09-22",
+    "ts": 1790053255000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.b300348269754b2bbb3881ddb4a62ad3_T1.jpg",
+    "title": "แฟนคลับวง Exo คว้าทองเอเชียนเกมส์ทำตามสัญญาที่ให้ไว้กับ Kai",
+    "link": "https://www.koreaherald.com/article/10882145"
+  },
+  {
+    "id": "hotnews_th_fa482ebe",
+    "date": "2026-09-22",
+    "ts": 1790050347000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005251315_01_i_P2.jpg",
+    "title": "ประธานศาลสูงสุดเกาหลีปฏิเสธคำขอเสนอชื่อผู้พิพากษาใหม่จากทำเนียบประธานาธิบดี",
+    "link": "https://en.yna.co.kr/view/AEN20260922005251315"
+  },
+  {
+    "id": "hotnews_th_fbfcabb1",
+    "date": "2026-09-22",
+    "ts": 1790045633000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922004500315_01_i_P2.jpg",
+    "title": "อีแจมิงเรียกร้องสหรัฐฯ ผ่อนปรนคว่ำบาตรเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260922004500315"
+  },
+  {
+    "id": "hotnews_th_e58ecf4f",
+    "date": "2026-09-22",
+    "ts": 1790045618000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922010919_16_e.jpg",
+    "title": "โ소연 i-dle คว้าอันดับ 1 ชาร์ตเกาหลีด้วยเพลงเดี่ยวใหม่",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204416"
+  },
+  {
+    "id": "hotnews_th_bceb7220",
+    "date": "2026-09-22",
+    "ts": 1790045451000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.63ff016fdb354df8a5f43709df6fe129_T1.jpg",
+    "title": "โซเลือกโรงไฟฟ้าก๊าซในเท็กซัสเป็นโปรเจกต์ลงทุนสหรัฐฯ",
+    "link": "https://www.koreaherald.com/article/10882015"
+  },
+  {
     "id": "hotnews_th_49f6d01a",
     "date": "2026-09-21",
     "ts": 1790028233000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/18/74411407-ed26-4092-850e-cafd623c2095.jpg",
     "title": "ฮันฮวา โอเชียนเปิดตัวเรือดำน้ำ ซอฮี หนัก 3,600 ตัน",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260920/inside-the-seo-hui-a-look-at-koreas-newest-submarine?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6d2bb641",
-    "date": "2026-09-20",
-    "ts": 1789903242000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042001400031500_P2.jpg",
-    "title": "เกาหลีเหนือยิงขีปนาวุธพิสัยใกล้ 2 ลูก",
-    "link": "https://en.yna.co.kr/view/AEN20260920002954315"
-  },
-  {
-    "id": "hotnews_th_b94dd32d",
-    "date": "2026-09-20",
-    "ts": 1789901081000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.067f8883a27d4abab5821f44a2933796_T1.jpg",
-    "title": "รัฐบาลเตรียมรายงานรัฐสภาโครงการลงทุนแรกในสหรัฐฯ สัปดาห์หน้า",
-    "link": "https://www.koreaherald.com/article/10879720"
-  },
-  {
-    "id": "hotnews_th_15e2dece",
-    "date": "2026-09-20",
-    "ts": 1789900259000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092018410001300_P2.jpg",
-    "title": "คิม ยองบอม และ ฮวัง ซอนอู คว้าเหรียญว่ายน้ำเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260920004451315"
-  },
-  {
-    "id": "hotnews_th_338c59a8",
-    "date": "2026-09-20",
-    "ts": 1789896034000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/20/AEN20260920004300315_03_i_P2.jpg",
-    "title": "รัฐบาลเตรียมแจงสภาฯ โปรเจกต์ลงทุนสหรัฐฯ",
-    "link": "https://en.yna.co.kr/view/AEN20260920004300315"
-  },
-  {
-    "id": "hotnews_th_3d89ca8a",
-    "date": "2026-09-20",
-    "ts": 1789895756000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042001400031500_P2.jpg",
-    "title": "เกาหลีเหนือยิงขีปนาวุธเพิ่มอีกครั้งหลังยิงขีปนาวุธพิสัยใกล้",
-    "link": "https://en.yna.co.kr/view/AEN20260920002953315"
-  },
-  {
-    "id": "hotnews_th_915b5348",
-    "date": "2026-09-20",
-    "ts": 1789894942000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "เกาหลีเหนือยิงขีปนาวุธไม่ทราบฝ่ายไปยังทะเลตะวันออก",
-    "link": "https://en.yna.co.kr/view/AEN20260920004200315"
-  },
-  {
-    "id": "hotnews_th_9e038fd7",
-    "date": "2026-09-20",
-    "ts": 1789893680000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.7f0f06699f944c52a8ce5fb0207fe0d7_T1.jpeg",
-    "title": "นักเปียโนเกาหลีใต้คว้าแชมป์ George Enescu International Competition",
-    "link": "https://www.koreaherald.com/article/10879677"
-  },
-  {
-    "id": "hotnews_th_e2486279",
-    "date": "2026-09-20",
-    "ts": 1789893565000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.e485e8568b054e1aad030cc068bb0559_T1.jpg",
-    "title": "จอน อุงแท พลาดเหรียญทองเดี่ยวเอเชียนเกมส์ แต่ช่วยเกาหลีใต้คว้าแชมป์ทีม",
-    "link": "https://www.koreaherald.com/article/10879673"
-  },
-  {
-    "id": "hotnews_th_90f235c9",
-    "date": "2026-09-20",
-    "ts": 1789892656000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092015110001300_P2.jpg",
-    "title": "จอนอุงแทควatเหรียญเงินปัญจกีฬาสมสมัยเอเชียนเกมส์แต่ช่วยเกาหลีใต้คว้าแชมป์ทีม",
-    "link": "https://en.yna.co.kr/view/AEN20260920004100320"
-  },
-  {
-    "id": "hotnews_th_cad1dfeb",
-    "date": "2026-09-20",
-    "ts": 1789892336000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/20/news-p.v1.20260920.f4724c4abe4841cb8c34ab41849168aa_T1.jpg",
-    "title": "เงินช่วยเหลือลาคลอดสำหรับชาวต่างชาติในเกาหลีพุ่งสูงขึ้นในปี 2025",
-    "link": "https://www.koreaherald.com/article/10879667"
   }
 ]
