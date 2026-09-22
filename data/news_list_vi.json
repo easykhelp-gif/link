@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_7a9a275e",
+    "date": "2026-09-22",
+    "ts": 1790098258000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/22/PRU20260922278501009_P2.jpg",
+    "title": "Trump không nhắc đến Triều Tiên tại Đại hội đồng Liên Hợp Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20260923000251315"
+  },
+  {
+    "id": "hotnews_vi_0e73c4d1",
+    "date": "2026-09-22",
+    "ts": 1790088069000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092200910001300_P2.jpg",
+    "title": "Tổng thống Lee phê chuẩn bổ nhiệm 2 quan chức cấp cao",
+    "link": "https://en.yna.co.kr/view/AEN20260922012300320"
+  },
+  {
+    "id": "hotnews_vi_c5abc461",
+    "date": "2026-09-22",
+    "ts": 1790087189000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922012200320_01_i_P2.jpg",
+    "title": "Ngoại trưởng Hàn Quốc hội đàm với người đồng cấp UAE tại New York",
+    "link": "https://en.yna.co.kr/view/AEN20260922012200320"
+  },
+  {
+    "id": "hotnews_vi_b8411cc6",
+    "date": "2026-09-22",
+    "ts": 1790078919000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092206740001300_P2.jpg",
+    "title": "Đội cầu lông nữ Hàn Quốc vào bán kết Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260922006051315"
+  },
+  {
+    "id": "hotnews_vi_45240ae3",
+    "date": "2026-09-22",
+    "ts": 1790078848000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092229430001300_P2.jpg",
+    "title": "Đội tuyển Hàn Quốc thắng Saudi Arabia ở Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260922011700315"
+  },
+  {
+    "id": "hotnews_vi_1853d933",
+    "date": "2026-09-22",
+    "ts": 1790078460000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092226490001300_P2.jpg",
+    "title": "Đội tuyển bóng chày Hàn Quốc thắng đậm Hồng Kông 13-0",
+    "link": "https://en.yna.co.kr/view/AEN20260922011600315"
+  },
+  {
+    "id": "hotnews_vi_be7de9df",
+    "date": "2026-09-22",
+    "ts": 1790078248000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.4cd2f0e40b014ccea1289e2d29d2ebd3_T1.jpg",
+    "title": "Giao chiếc chiến đấu cơ KF-21 sản xuất hàng loạt đầu tiên",
+    "link": "https://www.koreaherald.com/article/10882615"
+  },
+  {
     "id": "hotnews_vi_92df5731",
     "date": "2026-09-22",
     "ts": 1790078223000,
@@ -40,6 +96,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260922011451320"
   },
   {
+    "id": "hotnews_vi_31d1b611",
+    "date": "2026-09-22",
+    "ts": 1790073876000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.284cae5b4bca4a77b6eb0f81c33e778a_T1.jpg",
+    "title": "Tác phẩm nghệ thuật mới mời khán giả bước lên sân khấu",
+    "link": "https://www.koreaherald.com/article/10882584"
+  },
+  {
     "id": "hotnews_vi_67dacee2",
     "date": "2026-09-22",
     "ts": 1790069706000,
@@ -64,6 +128,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204431"
   },
   {
+    "id": "hotnews_vi_809928a8",
+    "date": "2026-09-22",
+    "ts": 1790064007000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922110449_26_k.jpg",
+    "title": "Cấm kiểm tra trình độ trẻ mầm non tại học viện tư từ 1/10",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204430"
+  },
+  {
     "id": "hotnews_vi_0134a50b",
     "date": "2026-09-22",
     "ts": 1790062727000,
@@ -78,6 +150,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.2ca7636bee0d4d8b96241e1c5c9dd482_T1.jpg",
     "title": "FTC xem xét thương vụ Uber thâu tóm Baemin",
     "link": "https://www.koreaherald.com/article/10882400"
+  },
+  {
+    "id": "hotnews_vi_84013afb",
+    "date": "2026-09-22",
+    "ts": 1790060657000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.f02f916c214248afbf9d81da071cb500_T1.jpg",
+    "title": "Quy định trang phục nha khoa Yonsei gây tranh cãi gay gắt",
+    "link": "https://www.koreaherald.com/article/10882392"
   },
   {
     "id": "hotnews_vi_25e73bf4",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921010200315_01_i_P2.jpg",
     "title": "Ngoại trưởng Hàn, Mỹ, Nhật sắp gặp nhau tại New York",
     "link": "https://en.yna.co.kr/view/AEN20260921010200315"
-  },
-  {
-    "id": "hotnews_vi_882a9ebd",
-    "date": "2026-09-21",
-    "ts": 1789967524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/e373f2c8-857c-4506-9b65-cdc5dafcab2e.jpeg",
-    "title": "Đại học Kookmin hợp tác với Đức đào tạo nhân tài ô tô",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260921/kookmin-university-partners-with-german-research-institutes-volkswagen-group-korea-foundation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_93cfe539",
-    "date": "2026-09-21",
-    "ts": 1789967524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/4e49d020-d5ce-4965-978a-ebc573eeff16.jpg",
-    "title": "Báo động tỷ lệ du học sinh tại Hàn Quốc tự tử tăng cao",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260921/one-in-5-international-student-deaths-in-korea-suicides-spurring-mental-health-calls?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_87ffcc0f",
-    "date": "2026-09-21",
-    "ts": 1789967524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/e4f584cf-eab1-4a63-b0c5-756ff1ecf457.jpg",
-    "title": "Kim Sung-wan làm phát ngôn viên Phủ Tổng thống mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260921/journalist-turned-political-critic-becomes-new-presidential-spokesperson?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0e39366d",
-    "date": "2026-09-21",
-    "ts": 1789966803000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082107070001300_P2.jpg",
-    "title": "BOK thử nghiệm mạng lưới thanh toán won ngoài nước 24 giờ",
-    "link": "https://en.yna.co.kr/view/AEN20260921005200320"
-  },
-  {
-    "id": "hotnews_vi_013fc9c6",
-    "date": "2026-09-21",
-    "ts": 1789964108000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.ff792e3d1d59411ea408c34047dafd02_T1.jpg",
-    "title": "Posco tân trang phòng học giáo dục đặc biệt tại 8 trường",
-    "link": "https://www.koreaherald.com/article/10880639"
-  },
-  {
-    "id": "hotnews_vi_efd0e0ae",
-    "date": "2026-09-21",
-    "ts": 1789963568000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.2cee9d5aca7c466c93aea0b9711becb0_T1.jpg",
-    "title": "Hana Bank phát hành trái phiếu kỹ thuật số 100 triệu USD",
-    "link": "https://www.koreaherald.com/article/10880624"
-  },
-  {
-    "id": "hotnews_vi_7745526c",
-    "date": "2026-09-21",
-    "ts": 1789963453000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Chánh Văn phòng Tổng thống Kang Hoon-sik từ chức",
-    "link": "https://en.yna.co.kr/view/AEN20260921005500315"
-  },
-  {
-    "id": "hotnews_vi_37f4ae7b",
-    "date": "2026-09-21",
-    "ts": 1789962738000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.febeaa8a8c674742a4d426f0aa463e90_T1.jpg",
-    "title": "Cựu diễn viên Mỹ cứu học sinh rơi xuống sông Hangang",
-    "link": "https://www.koreaherald.com/article/10880615"
-  },
-  {
-    "id": "hotnews_vi_518a7883",
-    "date": "2026-09-21",
-    "ts": 1789960273000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260921121338_48_e.jpg",
-    "title": "Tài xế đâm xe tại chợ Anseong dự phiên tòa lệnh giam giữ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204385"
-  },
-  {
-    "id": "hotnews_vi_2cf04efd",
-    "date": "2026-09-21",
-    "ts": 1789958628000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921003952315_02_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung thăm Mỹ và Mexico trong tuần này",
-    "link": "https://en.yna.co.kr/view/AEN20260921003952315"
   }
 ]
