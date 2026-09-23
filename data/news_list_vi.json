@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_c4398c75",
+    "date": "2026-09-23",
+    "ts": 1790164323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/f2eeb5e7-f2d3-4a54-b7d3-36334c2b2aa4.jpg",
+    "title": "Bộ trưởng Quốc phòng Hàn-Mỹ thảo luận về OPCON và sân bay Gwangju",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260923/defense-minister-top-us-envoy-discuss-opcon-transfer-air-base-relocation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b9e9051a",
+    "date": "2026-09-23",
+    "ts": 1790164323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/ee8f312c-54b8-4778-9f9c-a272db7e7d00.jpg",
+    "title": "Seoul chưa quyết định về việc đồng đăng cai Olympic với North Jeolla",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260924/seoul-yet-to-decide-on-joint-olympic-bid-with-north-jeolla?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1da523df",
+    "date": "2026-09-23",
+    "ts": 1790164323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/b75b767d-9356-40d0-b96f-e08e43ed5948.jpg",
+    "title": "Kiến nghị bãi bỏ miễn thị thực cho người Trung Quốc vượt 90.000 chữ ký",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260923/petition-calling-for-end-to-visa-free-entry-for-chinese-tops-90000-signatures?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_7da37e76",
+    "date": "2026-09-23",
+    "ts": 1790164323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/a6b70525-d03e-489f-8ffe-6df12ce17b9a.jpg",
+    "title": "Số trẻ sinh tại Hàn Quốc tăng 11% trong tháng 7",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/births-up-11-in-july-extending-gains-to-25th-consecutive-month?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_863430f4",
+    "date": "2026-09-23",
+    "ts": 1790160138000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092326440001300_P2.jpg",
+    "title": "Vận động viên Park Ji-hee giành huy chương bạc đấu kiếm Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260923010651320"
+  },
+  {
+    "id": "hotnews_vi_bf12d82a",
+    "date": "2026-09-23",
+    "ts": 1790158621000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092326180001300_P2.jpg",
+    "title": "Hàn Quốc giành thêm 3 huy chương bơi lội tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260923011300315"
+  },
+  {
+    "id": "hotnews_vi_213205b2",
+    "date": "2026-09-23",
+    "ts": 1790155129000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260923061851_48_e.jpg",
+    "title": "Bắt đầu kỳ nghỉ Chuseok, giao thông Hàn Quốc ùn tắc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204461"
+  },
+  {
+    "id": "hotnews_vi_1a8ff6cd",
+    "date": "2026-09-23",
+    "ts": 1790151020000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923006151315_02_i_P2.jpg",
+    "title": "Chánh án Tòa án Tối cao bác bỏ cáo buộc sai sót thủ tục",
+    "link": "https://en.yna.co.kr/view/AEN20260923006151315"
+  },
+  {
+    "id": "hotnews_vi_bf22185f",
+    "date": "2026-09-23",
+    "ts": 1790150484000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923009100315_01_i_P2.jpg",
+    "title": "Hàn Quốc và các đối tác phản đối gián đoạn eo biển Hormuz",
+    "link": "https://en.yna.co.kr/view/AEN20260923009100315"
+  },
+  {
+    "id": "hotnews_vi_b6094a1f",
+    "date": "2026-09-23",
+    "ts": 1790150402000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/06/02/39/PCM20260602000039990_P2.jpg",
+    "title": "OECD nâng dự báo tăng trưởng kinh tế Hàn Quốc năm 2026 lên 3,7%",
+    "link": "https://en.yna.co.kr/view/AEN20260923006600320"
+  },
+  {
     "id": "hotnews_vi_f63ac4ab",
     "date": "2026-09-23",
     "ts": 1790139423000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.f02f916c214248afbf9d81da071cb500_T1.jpg",
     "title": "Quy định trang phục nha khoa Yonsei gây tranh cãi gay gắt",
     "link": "https://www.koreaherald.com/article/10882392"
-  },
-  {
-    "id": "hotnews_vi_25e73bf4",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/3bb4d73c-5d08-4631-a268-f8a70526cd84.jpeg",
-    "title": "KMTPA và Fypher hợp tác phát triển hạ tầng đô la số cho du lịch y tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260922/kmtpa-fypher-team-up-on-digital-dollar-infrastructure-for-medical-tourism?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_93628314",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0350300d-9e64-44cf-98e7-c89efeb47df8.jpeg",
-    "title": "Đại học Kookmin hợp tác công nghệ với Uzbekistan",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260922/kookmin-university-to-strengthen-cooperation-with-uzbekistans-ministry-of-digital-technologies?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_3b797d32",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/fd6957e2-d7db-4657-9b54-f037e2c79df3.jpeg",
-    "title": "Seoul dùng AI nâng cấp du lịch đền chùa và Đông y",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260922/ai-meets-heritage-to-transform-tourism-experience-in-seoul?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_da666956",
-    "date": "2026-09-22",
-    "ts": 1790053923000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/0874576f-f232-4d7d-a5b4-85ce9331219f.jpeg",
-    "title": "Hàn Quốc đầu tư lớn vào pin sodium và thể rắn để lấy lại vị thế",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260922/korea-bets-big-on-sodium-and-solid-state-tech-to-reclaim-battery-dominance?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_65219577",
-    "date": "2026-09-22",
-    "ts": 1790053768000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005800315_01_i_P2.jpg",
-    "title": "Joshua (Seventeen) ra mắt đĩa đơn mới",
-    "link": "https://en.yna.co.kr/view/AEN20260922005800315"
-  },
-  {
-    "id": "hotnews_vi_0580ae68",
-    "date": "2026-09-22",
-    "ts": 1790053255000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.b300348269754b2bbb3881ddb4a62ad3_T1.jpg",
-    "title": "Vận động viên Hong Kong giữ lời hứa với Kai của Exo",
-    "link": "https://www.koreaherald.com/article/10882145"
-  },
-  {
-    "id": "hotnews_vi_fa482ebe",
-    "date": "2026-09-22",
-    "ts": 1790050347000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922005251315_01_i_P2.jpg",
-    "title": "Chánh án Tòa án Tối cao từ chối yêu cầu giới thiệu lại ứng viên",
-    "link": "https://en.yna.co.kr/view/AEN20260922005251315"
-  },
-  {
-    "id": "hotnews_vi_fbfcabb1",
-    "date": "2026-09-22",
-    "ts": 1790045633000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922004500315_01_i_P2.jpg",
-    "title": "Tổng thống Lee đề xuất Mỹ giảm trừng phạt Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260922004500315"
-  },
-  {
-    "id": "hotnews_vi_e58ecf4f",
-    "date": "2026-09-22",
-    "ts": 1790045618000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922010919_16_e.jpg",
-    "title": "Soyeon (i-dle) dẫn đầu bảng xếp hạng với bài hát solo mới",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204416"
-  },
-  {
-    "id": "hotnews_vi_bceb7220",
-    "date": "2026-09-22",
-    "ts": 1790045451000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.63ff016fdb354df8a5f43709df6fe129_T1.jpg",
-    "title": "Seoul chọn dự án đầu tư Mỹ đầu tiên",
-    "link": "https://www.koreaherald.com/article/10882015"
   }
 ]
