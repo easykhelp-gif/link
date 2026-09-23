@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_f63ac4ab",
+    "date": "2026-09-23",
+    "ts": 1790139423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/929154f9-baf1-4408-8ea2-11d513333bd6.jpg",
+    "title": "Tỷ lệ chuyển nhà tại Hàn Quốc giảm mạnh trong tháng 8",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/population-mobility-down-in-august-amid-housing-market-slowdown?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_91f443f0",
+    "date": "2026-09-23",
+    "ts": 1790139423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/93e5841b-6372-4c20-9ca3-426fb3aa8313.jpeg",
+    "title": "Sổ tay quân sự đa ngôn ngữ của Hàn Quốc mắc lỗi dịch thuật",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/pretty-officer-defense-ministrys-glossary-for-multicultural-soldiers-plagued-with-translation-errors?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_49c6d52e",
+    "date": "2026-09-23",
+    "ts": 1790139423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/b78f467d-5ed8-418e-9570-798c078eaf06.jpeg",
+    "title": "Nghiên cứu mới đột phá trong điều trị ung thư tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260923/sungkyunkwan-university-kist-researchers-develop-innovative-anticancer-platform?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_8e7f828b",
+    "date": "2026-09-23",
+    "ts": 1790139423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/b2a91218-290b-42d5-917a-77307df57c12.jpg",
+    "title": "Tỉnh North Jeolla đề nghị Seoul đồng đăng cai Olympic 2036",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260924/cover-story-north-jeolla-provinces-2036-olympic-bid-falters-as-it-seeks-to-co-host-with-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_55fa7bc5",
+    "date": "2026-09-23",
+    "ts": 1790139423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/5bc407a3-6544-452b-82f5-86546da55434.jpeg",
+    "title": "Cá mập ở cảng Busan là lời cảnh báo về khí hậu",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260923/green-party-says-shark-in-busan-harbor-is-climate-warning?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_2ece16ea",
+    "date": "2026-09-23",
+    "ts": 1790137375000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923006100315_01_i_P2.jpg",
+    "title": "Chánh án Tối cao Pháp viện bác bỏ cáo buộc sai sót thủ tục",
+    "link": "https://en.yna.co.kr/view/AEN20260923006100315"
+  },
+  {
+    "id": "hotnews_vi_2b8e6172",
+    "date": "2026-09-23",
+    "ts": 1790133273000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/rcv.YNA.20260923.PYH2026092309120001300_T1.jpg",
+    "title": "Tổng thống Lee khẳng định vai trò cầu nối đàm phán Mỹ-Triều",
+    "link": "https://www.koreaherald.com/article/10883348"
+  },
+  {
+    "id": "hotnews_vi_8e94269c",
+    "date": "2026-09-23",
+    "ts": 1790132404000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923003300320_01_i_P2.jpg",
+    "title": "BOK cung ứng 3,65 nghìn tỷ won tiền mới dịp Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260923003300320"
+  },
+  {
+    "id": "hotnews_vi_27b93fe6",
+    "date": "2026-09-23",
+    "ts": 1790132401000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072915690006000_P2.jpg",
+    "title": "Số trẻ sơ sinh tại Hàn Quốc tăng 11% trong tháng 7",
+    "link": "https://en.yna.co.kr/view/AEN20260923004000320"
+  },
+  {
+    "id": "hotnews_vi_4021b44b",
+    "date": "2026-09-23",
+    "ts": 1790132323000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.b077ecd3ca10419581cf09a192588a7e_T1.jpg",
+    "title": "Triển lãm K-drama biến cảnh phim nổi tiếng thành kế hoạch du lịch",
+    "link": "https://www.koreaherald.com/article/10883340"
+  },
+  {
     "id": "hotnews_vi_bb8773eb",
     "date": "2026-09-22",
     "ts": 1790112723000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.63ff016fdb354df8a5f43709df6fe129_T1.jpg",
     "title": "Seoul chọn dự án đầu tư Mỹ đầu tiên",
     "link": "https://www.koreaherald.com/article/10882015"
-  },
-  {
-    "id": "hotnews_vi_49f6d01a",
-    "date": "2026-09-21",
-    "ts": 1790028233000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922000500315_01_i_P2.jpg",
-    "title": "Triều Tiên thử nghiệm hệ thống vũ khí mới",
-    "link": "https://en.yna.co.kr/view/AEN20260922000500315"
-  },
-  {
-    "id": "hotnews_vi_73f5a32b",
-    "date": "2026-09-21",
-    "ts": 1790028000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.1ba1835b10fd4d15a5e432b99e877e87_T1.jpg",
-    "title": "Tác dụng phụ tiêm hormone tăng trưởng tăng cao kỷ lục tại Hàn",
-    "link": "https://www.koreaherald.com/article/10881149"
-  },
-  {
-    "id": "hotnews_vi_02fce8d2",
-    "date": "2026-09-21",
-    "ts": 1790027731000,
-    "image": "",
-    "title": "Quan hệ Seoul - Washington căng thẳng khi ông Lee dự Đại hội đồng",
-    "link": "https://en.yna.co.kr/view/AEN20260922000900315"
-  },
-  {
-    "id": "hotnews_vi_5f0fa579",
-    "date": "2026-09-21",
-    "ts": 1790027681000,
-    "image": "",
-    "title": "Chánh văn phòng Kang Hoon-sik từ chức giữa lúc râm ran tranh cãi",
-    "link": "https://en.yna.co.kr/view/AEN20260922000600315"
-  },
-  {
-    "id": "hotnews_vi_83d29618",
-    "date": "2026-09-21",
-    "ts": 1790024407000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/21/AEN20260921009600320_01_i_P2.jpg",
-    "title": "Tỷ lệ nợ quá hạn tại các ngân hàng Hàn Quốc tăng trong tháng 7",
-    "link": "https://en.yna.co.kr/view/AEN20260921009600320"
-  },
-  {
-    "id": "hotnews_vi_cd51af3b",
-    "date": "2026-09-21",
-    "ts": 1790022600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/21/news-p.v1.20260921.d75de70de3524cc7b4d10b2452f7b39a_T1.jpg",
-    "title": "Lễ hội văn hóa Hàn Quốc tại Stockholm thu hút đông đảo fan",
-    "link": "https://www.koreaherald.com/article/10881035"
-  },
-  {
-    "id": "hotnews_vi_f2011e45",
-    "date": "2026-09-21",
-    "ts": 1789998632000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092130110001300_P2.jpg",
-    "title": "Đoàn Hàn Quốc giành HCV bơi lội và khởi đầu bóng chày thuận lợi",
-    "link": "https://en.yna.co.kr/view/AEN20260921011900315"
-  },
-  {
-    "id": "hotnews_vi_bac721db",
-    "date": "2026-09-21",
-    "ts": 1789997968000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092132180001300_P2.jpg",
-    "title": "Hàn Quốc thua Nhật Bản ở bán kết bóng chuyền nữ Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260921011651315"
-  },
-  {
-    "id": "hotnews_vi_0ec0974f",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/d1397421-135c-419e-9d20-7e3fb4ae9634.jpg",
-    "title": "Tổng thống Lee thăm Mỹ và Mexico để dự Đại hội đồng Liên Hợp Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260921/president-lee-embarks-on-trip-to-us-mexico?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_4625d673",
-    "date": "2026-09-21",
-    "ts": 1789996023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/92412dd9-ffa2-4896-a565-b1765446e400.jpeg",
-    "title": "Hàn Quốc mở rộng visa y tế để phát triển du lịch ngoài Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260921/korea-expands-fast-track-visas-to-spread-medical-tourism-beyond-seoul?utm_source=rss"
   }
 ]
