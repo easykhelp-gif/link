@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_b67579c6",
+    "date": "2026-09-23",
+    "ts": 1790184124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
+    "title": "4-legged Korean robot runs full marathon on single charge",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260924/4-legged-korean-robot-runs-full-marathon-on-single-charge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_9fc8d6ee",
+    "date": "2026-09-23",
+    "ts": 1790176944000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923012151315_01_i_P2.jpg",
+    "title": "Lee pledges to double chip production in 5 yrs, build AI supply chains free of disruption",
+    "link": "https://en.yna.co.kr/view/AEN20260923012151315"
+  },
+  {
+    "id": "hotnews_en_4dced65d",
+    "date": "2026-09-23",
+    "ts": 1790171945000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301140001300_P2.jpg",
+    "title": "U.S. announces implementation plan with S. Korea, Japan for SMR deployments",
+    "link": "https://en.yna.co.kr/view/AEN20260923012000315"
+  },
+  {
+    "id": "hotnews_en_20514978",
+    "date": "2026-09-23",
+    "ts": 1790168252000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327390001300_P2.jpg",
+    "title": "(Asiad) S. Korea adds gold medals in fencing, shooting, while defending champs fall short",
+    "link": "https://en.yna.co.kr/view/AEN20260923011700315"
+  },
+  {
+    "id": "hotnews_en_8e1eb853",
+    "date": "2026-09-23",
+    "ts": 1790167968000,
+    "image": "",
+    "title": "(Asiad) medal standings",
+    "link": "https://en.yna.co.kr/view/AEN20230924003989315"
+  },
+  {
+    "id": "hotnews_en_0bc7adb8",
+    "date": "2026-09-23",
+    "ts": 1790164938000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
+    "title": "(Asiad) N. Korea scoops 2 golds in weightlifting at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260923008651320"
+  },
+  {
     "id": "hotnews_en_c4398c75",
     "date": "2026-09-23",
     "ts": 1790164323000,
@@ -54,6 +102,14 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/23/612ce513-4814-4775-9da2-5090910472f9.jpg",
     "title": "Vessels evacuate after suspected N. Korean aircraft detected near Baengnyeong Island",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/vessels-evacuate-after-suspected-n-korean-aircraft-detected-near-baengnyeong-island?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_6268914e",
+    "date": "2026-09-23",
+    "ts": 1790162807000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327590001300_P2.jpg",
+    "title": "PM, top U.S. envoy discuss ways to strengthen S. Korea-U.S. alliance",
+    "link": "https://en.yna.co.kr/view/AEN20260923011400315"
   },
   {
     "id": "hotnews_en_c9a45bc2",
@@ -144,6 +200,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260923006600320"
   },
   {
+    "id": "hotnews_en_5db58a0f",
+    "date": "2026-09-23",
+    "ts": 1790150400000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260921093640_5_e.jpg",
+    "title": "OECD Raises S. Korea’s 2026 Growth Forecast to 3.7%",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204460"
+  },
+  {
+    "id": "hotnews_en_a8280b48",
+    "date": "2026-09-23",
+    "ts": 1790149938000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/rcv.YNA.20260923.PYH2026092317220001300_T1.jpg",
+    "title": "Opposition chair slams DP for pressuring Supreme Court chief",
+    "link": "https://www.koreaherald.com/article/10883753"
+  },
+  {
     "id": "hotnews_en_40b7bf2f",
     "date": "2026-09-23",
     "ts": 1790149405000,
@@ -198,6 +270,22 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.2d201cc6fef74e7fa72f4ab883874a5b_T1.jpeg",
     "title": "Sookmyung brings Chuseok traditions to international students",
     "link": "https://www.koreaherald.com/article/10883691"
+  },
+  {
+    "id": "hotnews_en_b56aec01",
+    "date": "2026-09-23",
+    "ts": 1790146083000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092227710001300_P2.jpg",
+    "title": "(Asiad) Injured swimmer pulls out of 2 races",
+    "link": "https://en.yna.co.kr/view/AEN20260923008500315"
+  },
+  {
+    "id": "hotnews_en_e831ed6a",
+    "date": "2026-09-23",
+    "ts": 1790145989000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260923035511_70_e.jpg",
+    "title": "Highways Already Witnessing Chuseok Traffic a Day ahead of Holiday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204456"
   },
   {
     "id": "hotnews_en_b68780c6",
@@ -310,93 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923006100315_01_i_P2.jpg",
     "title": "Chief justice rejects alleged procedural flaw in Supreme Court nomination",
     "link": "https://en.yna.co.kr/view/AEN20260923006100315"
-  },
-  {
-    "id": "hotnews_en_da6f987d",
-    "date": "2026-09-23",
-    "ts": 1790136553000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.d6e5a903e53743068d4df44803400ff5_T1.jpeg",
-    "title": "Hanwha Aerospace sets up Saudi unit in Middle East defense push",
-    "link": "https://www.koreaherald.com/article/10883412"
-  },
-  {
-    "id": "hotnews_en_0f743fb1",
-    "date": "2026-09-23",
-    "ts": 1790136104000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-a.v1.20260923.65aa326dde294885b683065c97ab80fe_T1.jpg",
-    "title": "Do Korea's sidecars still work?",
-    "link": "https://www.koreaherald.com/article/10883396"
-  },
-  {
-    "id": "hotnews_en_c6f568b7",
-    "date": "2026-09-23",
-    "ts": 1790134908000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.e41d8c2017634363938186c825a2cc3c_T1.png",
-    "title": "Karina, Winter of Aespa, Riize play modern-day immortals in new Seoul tourism campaign",
-    "link": "https://www.koreaherald.com/article/10883366"
-  },
-  {
-    "id": "hotnews_en_d142e00d",
-    "date": "2026-09-23",
-    "ts": 1790134894000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.d3f651a77041435cb177c6ca782db964_T1.jpg",
-    "title": "Workplace harassment reports rise, as gov't recognition falls",
-    "link": "https://www.koreaherald.com/article/10883364"
-  },
-  {
-    "id": "hotnews_en_cddb1938",
-    "date": "2026-09-23",
-    "ts": 1790134605000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260915.9efae2dcb28949baa50c232374ca0210_T1.jpg",
-    "title": "Koreans: A tradition of learning, rewired for technology",
-    "link": "https://www.koreaherald.com/article/10883357"
-  },
-  {
-    "id": "hotnews_en_bc0a522b",
-    "date": "2026-09-23",
-    "ts": 1790134505000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923005800315_01_i_P2.jpg",
-    "title": "President Lee says resolving separated families' plight cannot wait",
-    "link": "https://en.yna.co.kr/view/AEN20260923005800315"
-  },
-  {
-    "id": "hotnews_en_f810a3c0",
-    "date": "2026-09-23",
-    "ts": 1790134499000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.b1395ca076b24eb89dcfad1c8e7ec7c1_T1.jpg",
-    "title": "From shipyards to steel: Why Korea leads humanoid deployment",
-    "link": "https://www.koreaherald.com/article/10883355"
-  },
-  {
-    "id": "hotnews_en_e927feb2",
-    "date": "2026-09-23",
-    "ts": 1790134403000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.fe37573f0c504a3aad82f1fa60e67d32_T1.jpg",
-    "title": "Korea and Europe look to expand investment, business ties",
-    "link": "https://www.koreaherald.com/article/10883353"
-  },
-  {
-    "id": "hotnews_en_4d0f8327",
-    "date": "2026-09-23",
-    "ts": 1790133885000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.44db4454d560452881175b50299622dd_T1.jpg",
-    "title": "Will Oriental Brewery's first soju make a splash?",
-    "link": "https://www.koreaherald.com/article/10883352"
-  },
-  {
-    "id": "hotnews_en_2b8e6172",
-    "date": "2026-09-23",
-    "ts": 1790133273000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/rcv.YNA.20260923.PYH2026092309120001300_T1.jpg",
-    "title": "Lee reaffirms 'pacemaker' role in US-NK talks during New York trip",
-    "link": "https://www.koreaherald.com/article/10883348"
-  },
-  {
-    "id": "hotnews_en_8e94269c",
-    "date": "2026-09-23",
-    "ts": 1790132404000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923003300320_01_i_P2.jpg",
-    "title": "BOK supplies 3.65 tln won in fresh banknotes ahead of Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260923003300320"
   }
 ]

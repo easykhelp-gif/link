@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_th_b67579c6",
+    "date": "2026-09-23",
+    "ts": 1790184723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
+    "title": "หุ่นยนต์ 4 ขา KAIST วิ่งมาราธอนระยะทาง 42 กม. สำเร็จ",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260924/4-legged-korean-robot-runs-full-marathon-on-single-charge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9fc8d6ee",
+    "date": "2026-09-23",
+    "ts": 1790176944000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923012151315_01_i_P2.jpg",
+    "title": "ประธานาธิบดีอีแจมยองประกาศเพิ่มการผลิตชิป 2 เท่าใน 5 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20260923012151315"
+  },
+  {
+    "id": "hotnews_th_4dced65d",
+    "date": "2026-09-23",
+    "ts": 1790171945000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301140001300_P2.jpg",
+    "title": "ส.อ.ร. สหรัฐ เกาหลีใต้ และญี่ปุ่น ร่วมมือติดตั้งเครื่องปฏิกรณ์",
+    "link": "https://en.yna.co.kr/view/AEN20260923012000315"
+  },
+  {
+    "id": "hotnews_th_20514978",
+    "date": "2026-09-23",
+    "ts": 1790168252000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327390001300_P2.jpg",
+    "title": "เกาหลีใต้คว้าทองยิงปืนและฟันดาบศึกเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260923011700315"
+  },
+  {
+    "id": "hotnews_th_8e1eb853",
+    "date": "2026-09-23",
+    "ts": 1790167968000,
+    "image": "",
+    "title": "ตารางเหรียญรางวัลเอเชียนเกมส์ไอจิ-นาโกยา",
+    "link": "https://en.yna.co.kr/view/AEN20230924003989315"
+  },
+  {
+    "id": "hotnews_th_0bc7adb8",
+    "date": "2026-09-23",
+    "ts": 1790164938000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
+    "title": "เกาหลีเหนือคว้า 2 ทองยกน้ำหนักศึกเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260923008651320"
+  },
+  {
     "id": "hotnews_th_c4398c75",
     "date": "2026-09-23",
     "ts": 1790164323000,
@@ -56,6 +104,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260923011300315"
   },
   {
+    "id": "hotnews_th_213205b2",
+    "date": "2026-09-23",
+    "ts": 1790155129000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260923061851_48_e.jpg",
+    "title": "การเดินทางช่วงวันหยุดชู석เริ่มต้นขึ้นแล้ว",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204461"
+  },
+  {
+    "id": "hotnews_th_8eb88571",
+    "date": "2026-09-23",
+    "ts": 1790151296000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-a.v1.20260923.7a345515ae9e4d8683902c48665cc409_T1.jpg",
+    "title": "โปรดิวเซอร์ Gucci Caliente เผยเส้นทางทำเพลง K-pop จากความเครียดสู่ความอิสระ",
+    "link": "https://www.koreaherald.com/article/10883789"
+  },
+  {
     "id": "hotnews_th_1a8ff6cd",
     "date": "2026-09-23",
     "ts": 1790151020000,
@@ -78,6 +142,22 @@
     "image": "https://img.yna.co.kr/photo/cms/2026/06/02/39/PCM20260602000039990_P2.jpg",
     "title": "OECD ปรับเพิ่มคาดการณ์เศรษฐกิจเกาหลีใต้ปี 2026 สู่ระดับ 3.7%",
     "link": "https://en.yna.co.kr/view/AEN20260923006600320"
+  },
+  {
+    "id": "hotnews_th_40b7bf2f",
+    "date": "2026-09-23",
+    "ts": 1790149405000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.a7c6daa6214f4578a78e19673f8964e9_T1.jpg",
+    "title": "หัวหน้า NTS ขอให้เม็กซิโกช่วยเหลือด้านภาษีแก่บริษัทเกาหลี",
+    "link": "https://www.koreaherald.com/article/10883733"
+  },
+  {
+    "id": "hotnews_th_d370e982",
+    "date": "2026-09-23",
+    "ts": 1790146627000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.2d201cc6fef74e7fa72f4ab883874a5b_T1.jpeg",
+    "title": "ม.สตรี Sookmyung จัดกิจกรรมวันชูซอกให้นักศึกษาต่างชาติ",
+    "link": "https://www.koreaherald.com/article/10883691"
   },
   {
     "id": "hotnews_th_f63ac4ab",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "ซงเซรา คว้าเหรียญทองฟันดาบเอเป้หญิง เอเชียนเกมส์",
     "link": "https://en.yna.co.kr/view/AEN20260922011300320"
-  },
-  {
-    "id": "hotnews_th_31d1b611",
-    "date": "2026-09-22",
-    "ts": 1790073876000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.284cae5b4bca4a77b6eb0f81c33e778a_T1.jpg",
-    "title": "ละครเวทีเรื่องใหม่ \"Challa\" ชวนผู้ชมมีส่วนร่วมสร้างศิลปะบนเวที",
-    "link": "https://www.koreaherald.com/article/10882584"
-  },
-  {
-    "id": "hotnews_th_2917f620",
-    "date": "2026-09-22",
-    "ts": 1790072073000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092224030001300_P2.jpg",
-    "title": "คิม อู-มิน นักว่ายน้ำเกาหลีใต้สู้ต่อแม้มีอาการบาดเจ็บไหล่",
-    "link": "https://en.yna.co.kr/view/AEN20260922010800315"
-  },
-  {
-    "id": "hotnews_th_67dacee2",
-    "date": "2026-09-22",
-    "ts": 1790069706000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922002200315_01_i_P2.jpg",
-    "title": "เครื่องบินรบ KF-21 บินขึ้นสู่ท้องฟ้าครั้งแรกส่งมอบให้กองทัพอากาศ",
-    "link": "https://en.yna.co.kr/view/AEN20260922002200315"
-  },
-  {
-    "id": "hotnews_th_98b07149",
-    "date": "2026-09-22",
-    "ts": 1790067676000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922064811_62_e.jpg",
-    "title": "เกาหลีเหนือประกาศทดสอบระบบอาวุธใหม่ครั้งสำคัญเมื่อวันอาทิตย์ที่ผ่านมา",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204434"
-  },
-  {
-    "id": "hotnews_th_43c4a00f",
-    "date": "2026-09-22",
-    "ts": 1790066620000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922033354_9_i.jpg",
-    "title": "เหตุระเบิดใน DMZ วันจันทร์เกิดขึ้นระหว่างปฏิบัติการค้นหากับระเบิดเกาหลีเหนือ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204433"
-  },
-  {
-    "id": "hotnews_th_b91d930c",
-    "date": "2026-09-22",
-    "ts": 1790066549000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.19ce55d646484a5bbd1385478b75e0a2_T1.jpg",
-    "title": "ชมภาพเหมือนจักรพรรดิโกจงที่พิพิธภัณฑ์แห่งชาติเกาหลี",
-    "link": "https://www.koreaherald.com/article/10882532"
-  },
-  {
-    "id": "hotnews_th_15248866",
-    "date": "2026-09-22",
-    "ts": 1790064266000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922064926_78_e.jpg",
-    "title": "ศึกบาสเกตบอล KBL เตรียมจัดแข่งขันช่วงวันหยุดชูсок",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204431"
-  },
-  {
-    "id": "hotnews_th_809928a8",
-    "date": "2026-09-22",
-    "ts": 1790064007000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260922110449_26_k.jpg",
-    "title": "สถาบันกวดวิชาห้ามทดสอบระดับเด็กอนุบาลเริ่ม 1 ตุลาคมนี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204430"
-  },
-  {
-    "id": "hotnews_th_0134a50b",
-    "date": "2026-09-22",
-    "ts": 1790062727000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009600315_02_i_P2.jpg",
-    "title": "หัวหน้าพรรค DP ชี้การรับมอบสิทธิ์ควบคุมยามสงครามช่วยความมั่นคง",
-    "link": "https://en.yna.co.kr/view/AEN20260922009600315"
-  },
-  {
-    "id": "hotnews_th_c851a3a9",
-    "date": "2026-09-22",
-    "ts": 1790060871000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.2ca7636bee0d4d8b96241e1c5c9dd482_T1.jpg",
-    "title": "คณะกรรมการการค้าที่เป็นธรรมเกาหลีเริ่มตรวจสอบการซื้อกิจการ Baemin ของ Uber",
-    "link": "https://www.koreaherald.com/article/10882400"
   }
 ]
