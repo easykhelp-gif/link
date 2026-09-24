@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_en_cb44dee7",
+    "date": "2026-09-24",
+    "ts": 1790269677000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/04/PYH2025030416940031500_P2.jpg",
+    "title": "Lee says Ukraine disclosed transfer of 2 N.K. soldiers in breach of non-disclosure agreement",
+    "link": "https://en.yna.co.kr/view/AEN20260925000251315"
+  },
+  {
+    "id": "hotnews_en_223ed987",
+    "date": "2026-09-24",
+    "ts": 1790268553000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Trump, Xi stress friendship, shared interests, cooperation ahead of White House talks",
+    "link": "https://en.yna.co.kr/view/AEN20260924006051315"
+  },
+  {
+    "id": "hotnews_en_8f0c92de",
+    "date": "2026-09-24",
+    "ts": 1790267326000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000300315_01_i_P2.jpg",
+    "title": "Lee pays respects to patriots of Mexico ahead of summit with Sheinbaum",
+    "link": "https://en.yna.co.kr/view/AEN20260925000300315"
+  },
+  {
+    "id": "hotnews_en_c79a4831",
+    "date": "2026-09-24",
+    "ts": 1790255484000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409980006100_P2.jpg",
+    "title": "S. Korea beat Ecuador 3-0 in Moreno's coaching debut",
+    "link": "https://en.yna.co.kr/view/AEN20260924005900315"
+  },
+  {
+    "id": "hotnews_en_6310f0d7",
+    "date": "2026-09-24",
+    "ts": 1790254385000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000853315_03_i_P2.jpg",
+    "title": "Ukraine recently sent 2 N. Korean POWs to S. Korea: Zelenskyy",
+    "link": "https://en.yna.co.kr/view/AEN20260924000853315"
+  },
+  {
+    "id": "hotnews_en_5e63f66a",
+    "date": "2026-09-24",
+    "ts": 1790253276000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
+    "title": "(Asiad) Kayakers, gymnast bring home gold medals; 5 medals come from swimming",
+    "link": "https://en.yna.co.kr/view/AEN20260924005800315"
+  },
+  {
     "id": "hotnews_en_c9f6afaf",
     "date": "2026-09-24",
     "ts": 1790251324000,
@@ -70,6 +118,30 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
     "title": "Australia, Korea deepening partnership in education, research",
     "link": "https://www.koreaherald.com/article/10882248"
+  },
+  {
+    "id": "hotnews_en_8c76c633",
+    "date": "2026-09-24",
+    "ts": 1790230553000,
+    "image": "https://img.yna.co.kr/photo/etc/xi/2026/09/24/PXI20260924024601009_P2.jpg",
+    "title": "(Asiad) S. Korea wins gold in men's kayak four-person 500m racing at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260924001252320"
+  },
+  {
+    "id": "hotnews_en_5684b2f5",
+    "date": "2026-09-24",
+    "ts": 1790229532000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.50c163293ab44147b766ce2b29f8b3ed_T1.jpg",
+    "title": "Top S. Korean sports official blasts organizers for shoddy operations",
+    "link": "https://www.koreaherald.com/article/10884185"
+  },
+  {
+    "id": "hotnews_en_5d1c7c4a",
+    "date": "2026-09-24",
+    "ts": 1790227812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001900315_03_i_P2.jpg",
+    "title": "Traffic clogged on highways as people travel for Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260924001900315"
   },
   {
     "id": "hotnews_en_fd6ac401",
@@ -150,6 +222,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001500315_01_i_P2.jpg",
     "title": "S. Korea vows continued support for Ukraine in FM talks",
     "link": "https://en.yna.co.kr/view/AEN20260924001500315"
+  },
+  {
+    "id": "hotnews_en_4aed065d",
+    "date": "2026-09-24",
+    "ts": 1790224498000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924044320_40_k.jpg",
+    "title": "N. Korean Foreign Minister Reaffirms Pyongyang’s Commitment to Nuclear Weapons",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204467"
   },
   {
     "id": "hotnews_en_e065f33c",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923011800315_01_i_P2.jpg",
     "title": "Lee wraps up attendance at U.N. General Assembly, heads to Mexico for summit",
     "link": "https://en.yna.co.kr/view/AEN20260923011800315"
-  },
-  {
-    "id": "hotnews_en_611d5d86",
-    "date": "2026-09-23",
-    "ts": 1790189030000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092309160001300_P2.jpg",
-    "title": "White House: Lee, Trump discussed shipbuilding cooperation, other topics during New York meeting",
-    "link": "https://en.yna.co.kr/view/AEN20260924000251315"
-  },
-  {
-    "id": "hotnews_en_b67579c6",
-    "date": "2026-09-23",
-    "ts": 1790184124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
-    "title": "4-legged Korean robot runs full marathon on single charge",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260924/4-legged-korean-robot-runs-full-marathon-on-single-charge?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_9fc8d6ee",
-    "date": "2026-09-23",
-    "ts": 1790176944000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923012151315_01_i_P2.jpg",
-    "title": "Lee pledges to double chip production in 5 yrs, build AI supply chains free of disruption",
-    "link": "https://en.yna.co.kr/view/AEN20260923012151315"
-  },
-  {
-    "id": "hotnews_en_4dced65d",
-    "date": "2026-09-23",
-    "ts": 1790171945000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301140001300_P2.jpg",
-    "title": "U.S. announces implementation plan with S. Korea, Japan for SMR deployments",
-    "link": "https://en.yna.co.kr/view/AEN20260923012000315"
-  },
-  {
-    "id": "hotnews_en_20514978",
-    "date": "2026-09-23",
-    "ts": 1790168252000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327390001300_P2.jpg",
-    "title": "(Asiad) S. Korea adds gold medals in fencing, shooting, while defending champs fall short",
-    "link": "https://en.yna.co.kr/view/AEN20260923011700315"
-  },
-  {
-    "id": "hotnews_en_8e1eb853",
-    "date": "2026-09-23",
-    "ts": 1790167968000,
-    "image": "",
-    "title": "(Asiad) medal standings",
-    "link": "https://en.yna.co.kr/view/AEN20230924003989315"
-  },
-  {
-    "id": "hotnews_en_37c3c59d",
-    "date": "2026-09-23",
-    "ts": 1790167924000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092328610001300_P2.jpg",
-    "title": "(Asiad) S. Korea takes bronze medals in men's, women's table tennis team events",
-    "link": "https://en.yna.co.kr/view/AEN20260923011600315"
-  },
-  {
-    "id": "hotnews_en_346733b7",
-    "date": "2026-09-23",
-    "ts": 1790165329000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.0434567e7e4642bea6e3243e89cd0d9f_T1.jpg",
-    "title": "Sabre fencer Oh Sang-uk feels Asia's fencing getting stronger",
-    "link": "https://www.koreaherald.com/article/10883891"
-  },
-  {
-    "id": "hotnews_en_0bc7adb8",
-    "date": "2026-09-23",
-    "ts": 1790164938000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
-    "title": "(Asiad) N. Korea scoops 2 golds in weightlifting at Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260923008651320"
-  },
-  {
-    "id": "hotnews_en_c4398c75",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/f2eeb5e7-f2d3-4a54-b7d3-36334c2b2aa4.jpg",
-    "title": "Defense minister, top US envoy discuss OPCON transfer, air base relocation",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260923/defense-minister-top-us-envoy-discuss-opcon-transfer-air-base-relocation?utm_source=rss"
   }
 ]

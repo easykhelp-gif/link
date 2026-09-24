@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_vi_cb44dee7",
+    "date": "2026-09-24",
+    "ts": 1790269677000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/04/PYH2025030416940031500_P2.jpg",
+    "title": "Tổng thống Lee tiếc nuối việc Ukraine tiết lộ lính Bắc Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260925000251315"
+  },
+  {
+    "id": "hotnews_vi_223ed987",
+    "date": "2026-09-24",
+    "ts": 1790268553000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Trump và Tập Cận Bình nhấn mạnh tình hữu nghị và hợp tác tại Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20260924006051315"
+  },
+  {
+    "id": "hotnews_vi_8f0c92de",
+    "date": "2026-09-24",
+    "ts": 1790267326000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000300315_01_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung thăm Mexico và chuẩn bị hội nghị thượng đỉnh",
+    "link": "https://en.yna.co.kr/view/AEN20260925000300315"
+  },
+  {
+    "id": "hotnews_vi_c79a4831",
+    "date": "2026-09-24",
+    "ts": 1790255484000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409980006100_P2.jpg",
+    "title": "Hàn Quốc thắng Ecuador 3-0 trong trận ra mắt của HLV Moreno",
+    "link": "https://en.yna.co.kr/view/AEN20260924005900315"
+  },
+  {
+    "id": "hotnews_vi_6310f0d7",
+    "date": "2026-09-24",
+    "ts": 1790254385000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000853315_03_i_P2.jpg",
+    "title": "Ukraine đã gửi 2 tù binh Bắc Triều Tiên đến Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20260924000853315"
+  },
+  {
+    "id": "hotnews_vi_5e63f66a",
+    "date": "2026-09-24",
+    "ts": 1790253276000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
+    "title": "Hàn Quốc giành thêm huy chương vàng Asiad ở môn chèo thuyền và thể dục dụng cụ",
+    "link": "https://en.yna.co.kr/view/AEN20260924005800315"
+  },
+  {
     "id": "hotnews_vi_c9f6afaf",
     "date": "2026-09-24",
     "ts": 1790251623000,
@@ -54,6 +102,38 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260917.f5d1c6e94dcd4d7eb7b3e0dbd1e5e969_T1.jpg",
     "title": "Liên hoan Âm nhạc Quốc tế Seoul lần thứ 18 diễn ra từ 8-16/10",
     "link": "https://www.koreaherald.com/article/10883337"
+  },
+  {
+    "id": "hotnews_vi_9447ccdc",
+    "date": "2026-09-24",
+    "ts": 1790233200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-a.v1.20260924.277b220ceeb1486b9e281db1ee2e2843_T1.png",
+    "title": "Devon Rodriguez vẽ chân dung và khám phá con người Seoul",
+    "link": "https://www.koreaherald.com/article/10883164"
+  },
+  {
+    "id": "hotnews_vi_2d6c36b7",
+    "date": "2026-09-24",
+    "ts": 1790233200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
+    "title": "Úc và Hàn Quốc tăng cường hợp tác giáo dục và nghiên cứu",
+    "link": "https://www.koreaherald.com/article/10882248"
+  },
+  {
+    "id": "hotnews_vi_8c76c633",
+    "date": "2026-09-24",
+    "ts": 1790230553000,
+    "image": "https://img.yna.co.kr/photo/etc/xi/2026/09/24/PXI20260924024601009_P2.jpg",
+    "title": "Hàn Quốc giành HCV đua thuyền kayak 4 người tại Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260924001252320"
+  },
+  {
+    "id": "hotnews_vi_5d1c7c4a",
+    "date": "2026-09-24",
+    "ts": 1790227812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001900315_03_i_P2.jpg",
+    "title": "Giao thông cao tốc Hàn Quốc ùn tắc trong ngày đầu Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260924001900315"
   },
   {
     "id": "hotnews_vi_fd6ac401",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092326440001300_P2.jpg",
     "title": "Vận động viên Park Ji-hee giành huy chương bạc đấu kiếm Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260923010651320"
-  },
-  {
-    "id": "hotnews_vi_bf12d82a",
-    "date": "2026-09-23",
-    "ts": 1790158621000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092326180001300_P2.jpg",
-    "title": "Hàn Quốc giành thêm 3 huy chương bơi lội tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260923011300315"
-  },
-  {
-    "id": "hotnews_vi_213205b2",
-    "date": "2026-09-23",
-    "ts": 1790155129000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260923061851_48_e.jpg",
-    "title": "Bắt đầu kỳ nghỉ Chuseok, giao thông Hàn Quốc ùn tắc",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204461"
-  },
-  {
-    "id": "hotnews_vi_8eb88571",
-    "date": "2026-09-23",
-    "ts": 1790151296000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-a.v1.20260923.7a345515ae9e4d8683902c48665cc409_T1.jpg",
-    "title": "Nhạc sĩ Gucci Caliente và góc nhìn mới về K-pop",
-    "link": "https://www.koreaherald.com/article/10883789"
-  },
-  {
-    "id": "hotnews_vi_1a8ff6cd",
-    "date": "2026-09-23",
-    "ts": 1790151020000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923006151315_02_i_P2.jpg",
-    "title": "Chánh án Tòa án Tối cao bác bỏ cáo buộc sai sót thủ tục",
-    "link": "https://en.yna.co.kr/view/AEN20260923006151315"
-  },
-  {
-    "id": "hotnews_vi_bf22185f",
-    "date": "2026-09-23",
-    "ts": 1790150484000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923009100315_01_i_P2.jpg",
-    "title": "Hàn Quốc và các đối tác phản đối gián đoạn eo biển Hormuz",
-    "link": "https://en.yna.co.kr/view/AEN20260923009100315"
-  },
-  {
-    "id": "hotnews_vi_b6094a1f",
-    "date": "2026-09-23",
-    "ts": 1790150402000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/06/02/39/PCM20260602000039990_P2.jpg",
-    "title": "OECD nâng dự báo tăng trưởng kinh tế Hàn Quốc năm 2026 lên 3,7%",
-    "link": "https://en.yna.co.kr/view/AEN20260923006600320"
-  },
-  {
-    "id": "hotnews_vi_40b7bf2f",
-    "date": "2026-09-23",
-    "ts": 1790149405000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.a7c6daa6214f4578a78e19673f8964e9_T1.jpg",
-    "title": "Lãnh đạo NTS đề nghị Mexico hỗ trợ thuế cho doanh nghiệp Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10883733"
-  },
-  {
-    "id": "hotnews_vi_6326d0da",
-    "date": "2026-09-23",
-    "ts": 1790146957000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
-    "title": "Ri Song-gum mang về HCV đầu tiên cho Triều Tiên ở Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260923008600320"
-  },
-  {
-    "id": "hotnews_vi_d370e982",
-    "date": "2026-09-23",
-    "ts": 1790146627000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.2d201cc6fef74e7fa72f4ab883874a5b_T1.jpeg",
-    "title": "Đại học Sookmyung tổ chức sự kiện Tết Trung thu cho lưu học sinh",
-    "link": "https://www.koreaherald.com/article/10883691"
-  },
-  {
-    "id": "hotnews_vi_e831ed6a",
-    "date": "2026-09-23",
-    "ts": 1790145989000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260923035511_70_e.jpg",
-    "title": "Giao thông cao tốc dịp Chuseok",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204456"
   }
 ]
