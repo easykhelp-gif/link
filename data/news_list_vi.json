@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_98824e70",
+    "date": "2026-09-24",
+    "ts": 1790226423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/fed646c2-7ced-4dd9-9a47-92101b3290e3.jpg",
+    "title": "Chủ tịch NUS cảnh báo sinh viên không nên phụ thuộc vào AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260924/dont-outsource-your-thinking-to-ai-nus-president-warns?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_6de92a44",
+    "date": "2026-09-24",
+    "ts": 1790226423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
+    "title": "Robot bốn chân RAIBO2 của KAIST chạy marathon thành công",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260924/korean-quadruped-robots-marathon-triumph-featured-in-nature?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_aa72c459",
+    "date": "2026-09-24",
+    "ts": 1790226339000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092403910001300_P2.jpg",
+    "title": "Quan chức thể thao Hàn Quốc chỉ trích ban tổ chức Asiad kém cỏi",
+    "link": "https://en.yna.co.kr/view/AEN20260924001700315"
+  },
+  {
+    "id": "hotnews_vi_42462f1d",
+    "date": "2026-09-24",
+    "ts": 1790226145000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092400870004200_P2.jpg",
+    "title": "Triều Tiên thử nghiệm đạn pháo phản lực phóng loạt cải tiến",
+    "link": "https://en.yna.co.kr/view/AEN20260924000451315"
+  },
+  {
+    "id": "hotnews_vi_6ec59c36",
+    "date": "2026-09-24",
+    "ts": 1790225253000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924122030_67_k.jpg",
+    "title": "Jennie kéo dài kỷ lục K-Pop trên bảng xếp hạng Billboard",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204468"
+  },
+  {
+    "id": "hotnews_vi_49ff8168",
+    "date": "2026-09-24",
+    "ts": 1790222358000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121715_15_k.jpg",
+    "title": "Lee đến Mexico sau khi dự Đại hội đồng Liên Hợp Quốc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204465"
+  },
+  {
+    "id": "hotnews_vi_ef82333f",
+    "date": "2026-09-24",
+    "ts": 1790221884000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/23/PRU20260923222801009_P2.jpg",
+    "title": "Hàn Quốc giành huy chương vàng đua thuyền kayak tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260924001251320"
+  },
+  {
+    "id": "hotnews_vi_43d76964",
+    "date": "2026-09-24",
+    "ts": 1790220789000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121659_25_k.jpg",
+    "title": "Bộ Ngoại giao xác nhận Ukraine giao tù binh Bắc Triều Tiên",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204464"
+  },
+  {
+    "id": "hotnews_vi_ce6368f4",
+    "date": "2026-09-23",
+    "ts": 1790203618000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924094901009_P2.jpg",
+    "title": "Trump đón Chủ tịch Trung Quốc Xi Jinping tại căn cứ quân sự",
+    "link": "https://en.yna.co.kr/view/AEN20260924000352315"
+  },
+  {
+    "id": "hotnews_vi_5979d8a6",
+    "date": "2026-09-23",
+    "ts": 1790202781000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923002500315_03_i_P2.jpg",
+    "title": "690 vụ bạo hành trẻ em trong dịp lễ Chuseok năm 2025",
+    "link": "https://en.yna.co.kr/view/AEN20260923002500315"
+  },
+  {
     "id": "hotnews_vi_438116bd",
     "date": "2026-09-23",
     "ts": 1790199423000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.b077ecd3ca10419581cf09a192588a7e_T1.jpg",
     "title": "Triển lãm K-drama biến cảnh phim nổi tiếng thành kế hoạch du lịch",
     "link": "https://www.koreaherald.com/article/10883340"
-  },
-  {
-    "id": "hotnews_vi_bb8773eb",
-    "date": "2026-09-22",
-    "ts": 1790112723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/6764b655-fe09-4a10-8dde-41f608bf348a.jpeg",
-    "title": "Giáo viên Hàn Quốc lập ủy ban hỗ trợ học sinh LGBTQ+ đầu tiên",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260923/there-are-gay-people-in-schools-too-teachers-form-1st-lgbtq-committee?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_bf6c96c5",
-    "date": "2026-09-22",
-    "ts": 1790110808000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/22/AEN20260922009300320_01_i_P2.jpg",
-    "title": "Tâm lý tiêu dùng tại Hàn Quốc phục hồi trong tháng 9",
-    "link": "https://en.yna.co.kr/view/AEN20260922009300320"
-  },
-  {
-    "id": "hotnews_vi_7b749247",
-    "date": "2026-09-22",
-    "ts": 1790109000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.bbd82b62a35343ebb3bb22caa3ad6f8f_T1.jpg",
-    "title": "Mô hình tăng trưởng kinh tế của Trung và Đông Âu",
-    "link": "https://www.koreaherald.com/article/10882476"
-  },
-  {
-    "id": "hotnews_vi_fb555486",
-    "date": "2026-09-22",
-    "ts": 1790109000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.86e6ebbd3487411db5810aa67ab7cfd5_T1.jpg",
-    "title": "Bài học từ phim Heroes: Trở thành anh hùng hay kẻ ác",
-    "link": "https://www.koreaherald.com/article/10882474"
-  },
-  {
-    "id": "hotnews_vi_cbd5edad",
-    "date": "2026-09-22",
-    "ts": 1790108391000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923001000315_01_i_P2.jpg",
-    "title": "Trump cân nhắc gặp bất kỳ ai vì lợi ích của Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260923001000315"
-  },
-  {
-    "id": "hotnews_vi_071ecbb3",
-    "date": "2026-09-22",
-    "ts": 1790107248000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Lee đề xuất đối tác đóng góp xây dựng về năng lượng",
-    "link": "https://en.yna.co.kr/view/AEN20260923000900315"
-  },
-  {
-    "id": "hotnews_vi_f0d74e7a",
-    "date": "2026-09-22",
-    "ts": 1790107199000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Lee Jae-myung cam kết tạo nền tảng đối thoại hòa bình trên bán đảo Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260923000700315"
-  },
-  {
-    "id": "hotnews_vi_7eda78c2",
-    "date": "2026-09-22",
-    "ts": 1790106885000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Ông Lee ủng hộ cải tổ HĐBA LHQ để tăng hiệu quả",
-    "link": "https://en.yna.co.kr/view/AEN20260923000500315"
-  },
-  {
-    "id": "hotnews_vi_13c3ec3f",
-    "date": "2026-09-22",
-    "ts": 1790106546000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Hàn Quốc dẫn dắt định hình AI giải quyết thách thức toàn cầu",
-    "link": "https://en.yna.co.kr/view/AEN20260923000400315"
-  },
-  {
-    "id": "hotnews_vi_7a9a275e",
-    "date": "2026-09-22",
-    "ts": 1790098258000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/22/PRU20260922278501009_P2.jpg",
-    "title": "Trump không nhắc đến Triều Tiên tại Đại hội đồng Liên Hợp Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20260923000251315"
   }
 ]
