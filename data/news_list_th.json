@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_c5fbc166",
+    "date": "2026-09-24",
+    "ts": 1790285823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
+    "title": "ประธานาธิบดีอีแจมยองระบุยูเครนละเมิดข้อตกลงลับส่งเชลยศึกเกาหลีเหนือ",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_b3d4e667",
+    "date": "2026-09-24",
+    "ts": 1790283685000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
+    "title": "เกาหลีใต้และเม็กซิโกรับรองแผนปฏิบัติการร่วมมือด้านต่างๆ",
+    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
+  },
+  {
+    "id": "hotnews_th_fe18ec78",
+    "date": "2026-09-24",
+    "ts": 1790283660000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
+    "title": "รัฐบาลเกาหลีใต้จ่อขึ้นค่าเข้าพระราชวังและสุสานหลวงในรอบ 20 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
+  },
+  {
+    "id": "hotnews_th_33439bf7",
+    "date": "2026-09-24",
+    "ts": 1790283601000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
+    "title": "ชาวเกาหลีเหนือฉลองวันชูซอกด้วยพิธีบรรพบุรุษและกีฬาพื้นบ้าน",
+    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
+  },
+  {
+    "id": "hotnews_th_f77508a5",
+    "date": "2026-09-24",
+    "ts": 1790283600000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
+    "title": "ทีมฟันดาบและนักกีฬาเกาหลีใต้ลุยศึกเอเชียนเกมส์วันชูซอก",
+    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
+  },
+  {
+    "id": "hotnews_th_6c9b3602",
+    "date": "2026-09-24",
+    "ts": 1790274916000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "ทรัมป์และสีจิ้นผิงหารือที่ทำเนียบขาว เน้นย้ำมิตรภาพและความร่วมมือ",
+    "link": "https://en.yna.co.kr/view/AEN20260924006052315"
+  },
+  {
+    "id": "hotnews_th_5552c662",
+    "date": "2026-09-24",
+    "ts": 1790270482000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000351315_03_i_P2.jpg",
+    "title": "ประธานาธิบดีอีแจมยองพบปะผู้นำเม็กซิโกกระชับความร่วมมือ",
+    "link": "https://en.yna.co.kr/view/AEN20260925000351315"
+  },
+  {
     "id": "hotnews_th_cb44dee7",
     "date": "2026-09-24",
     "ts": 1790269677000,
@@ -48,6 +104,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260924005800315"
   },
   {
+    "id": "hotnews_th_30ac4392",
+    "date": "2026-09-24",
+    "ts": 1790252922000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
+    "title": "ยo ซอจอง คว้าทองยิมนาสติกเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260924005700320"
+  },
+  {
     "id": "hotnews_th_c9f6afaf",
     "date": "2026-09-24",
     "ts": 1790251623000,
@@ -78,6 +142,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001951315_03_i_P2.jpg",
     "title": "การจราจรบนทางหลวงเกาหลีเริ่มคลี่คลายในคืนแรกของวันหยุดชูซอก",
     "link": "https://en.yna.co.kr/view/AEN20260924001951315"
+  },
+  {
+    "id": "hotnews_th_cda7fc82",
+    "date": "2026-09-24",
+    "ts": 1790243898000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "ยo ซอจอง คว้าเหรียญทองยิมนาสติกม้ากระโดด เอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260924005000320"
   },
   {
     "id": "hotnews_th_7c978b4d",
@@ -118,6 +190,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
     "title": "เกาหลีใต้และออสเตรเลียกระชับความร่วมมือด้านการศึกษาและวิจัย",
     "link": "https://www.koreaherald.com/article/10882248"
+  },
+  {
+    "id": "hotnews_th_f9e8de80",
+    "date": "2026-09-24",
+    "ts": 1790231352000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.385dd8d508c14e299eb7f0c05fb44eca_T1.jpg",
+    "title": "ทางหลวงเกาหลีใต้รถติดหนาแน่นในวันแรกของวันหยุดชูซอก",
+    "link": "https://www.koreaherald.com/article/10884196"
   },
   {
     "id": "hotnews_th_8c76c633",
@@ -318,85 +398,5 @@
     "image": "",
     "title": "ตารางเหรียญรางวัลเอเชียนเกมส์ไอจิ-นาโกยา",
     "link": "https://en.yna.co.kr/view/AEN20230924003989315"
-  },
-  {
-    "id": "hotnews_th_37c3c59d",
-    "date": "2026-09-23",
-    "ts": 1790167924000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092328610001300_P2.jpg",
-    "title": "เกาหลีใต้คว้าเหรียญทองแดงเทเบิลเทนนิสประเภททีม",
-    "link": "https://en.yna.co.kr/view/AEN20260923011600315"
-  },
-  {
-    "id": "hotnews_th_0bc7adb8",
-    "date": "2026-09-23",
-    "ts": 1790164938000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
-    "title": "เกาหลีเหนือคว้า 2 ทองยกน้ำหนักศึกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260923008651320"
-  },
-  {
-    "id": "hotnews_th_c4398c75",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/f2eeb5e7-f2d3-4a54-b7d3-36334c2b2aa4.jpg",
-    "title": "รมว.กลาโหมเกาหลีใต้หารือทูตสหรัฐฯ เรื่องส่งมอบ OPCON",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260923/defense-minister-top-us-envoy-discuss-opcon-transfer-air-base-relocation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a5ebc025",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/913d4548-67d3-4046-a7c5-1cc7d8d90711.jpeg",
-    "title": "เกาหลีใต้เข้มงวดตรวจสอบการซื้ออสังหาริมทรัพย์ของชาวต่างชาติ",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260923/korea-tightens-oversight-on-foreign-capital-in-domestic-real-estate-market?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_b9e9051a",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/ee8f312c-54b8-4778-9f9c-a272db7e7d00.jpg",
-    "title": "โซลยังไม่ตัดสินใจร่วมเสนอตัวเป็นเจ้าภาพโอลิมปิก 2036 กับช็อลลาเหนือ",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260924/seoul-yet-to-decide-on-joint-olympic-bid-with-north-jeolla?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1da523df",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/b75b767d-9356-40d0-b96f-e08e43ed5948.jpg",
-    "title": "คำร้องยกเลิกฟรีวีซ่าจีนยอดทะลุ 9万 รายชื่อส่งสภาแล้ว",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260923/petition-calling-for-end-to-visa-free-entry-for-chinese-tops-90000-signatures?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_7da37e76",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/a6b70525-d03e-489f-8ffe-6df12ce17b9a.jpg",
-    "title": "ยอดเกิดในเกาหลีใต้เดือนกรกฎาคมพุ่ง 11.1% เพิ่มขึ้นต่อเนื่องเป็นเดือนที่ 25",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/births-up-11-in-july-extending-gains-to-25th-consecutive-month?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_3f6bae8f",
-    "date": "2026-09-23",
-    "ts": 1790163217000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327440001300_P2.jpg",
-    "title": "โอ ซัง-อุก คว้าทองดาบเซเบอร์เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260923011500320"
-  },
-  {
-    "id": "hotnews_th_6268914e",
-    "date": "2026-09-23",
-    "ts": 1790162807000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327590001300_P2.jpg",
-    "title": "นายกฯ เกาหลีใต้หารือทูตสหรัฐฯ กระชับความสัมพันธ์สองประเทศ",
-    "link": "https://en.yna.co.kr/view/AEN20260923011400315"
-  },
-  {
-    "id": "hotnews_th_30b706d1",
-    "date": "2026-09-23",
-    "ts": 1790160255000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.28f909991e92448c8532f0348e88d7ee_T1.jpg",
-    "title": "เกาหลีใต้คว้าเพิ่ม 3 เหรียญรางวัลจากการแข่งขันว่ายน้ำ",
-    "link": "https://www.koreaherald.com/article/10883864"
   }
 ]

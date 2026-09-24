@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_en_c5fbc166",
+    "date": "2026-09-24",
+    "ts": 1790285823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
+    "title": "Lee says Ukraine breached non-disclosure agreement on 2 NK soldiers",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b3d4e667",
+    "date": "2026-09-24",
+    "ts": 1790283685000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
+    "title": "S. Korea, Mexico adopt joint action plan to expand cooperation in defense, crude oil, AI",
+    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
+  },
+  {
+    "id": "hotnews_en_fe18ec78",
+    "date": "2026-09-24",
+    "ts": 1790283660000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
+    "title": "Gov't weighs raising admission fees to palaces, royal tombs for 1st time in 20 years",
+    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
+  },
+  {
+    "id": "hotnews_en_33439bf7",
+    "date": "2026-09-24",
+    "ts": 1790283601000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
+    "title": "N. Koreans mark Chuseok with ancestor rites, folk games",
+    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
+  },
+  {
+    "id": "hotnews_en_f77508a5",
+    "date": "2026-09-24",
+    "ts": 1790283600000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
+    "title": "(Asiad) S. Korean epee team seeks to defend Asiad title on Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
+  },
+  {
+    "id": "hotnews_en_6c9b3602",
+    "date": "2026-09-24",
+    "ts": 1790274916000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Trump, Xi stress friendship, shared interests at White House despite tensions over key issues",
+    "link": "https://en.yna.co.kr/view/AEN20260924006052315"
+  },
+  {
+    "id": "hotnews_en_5552c662",
+    "date": "2026-09-24",
+    "ts": 1790270482000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000351315_03_i_P2.jpg",
+    "title": "Lee, Sheinbaum hold summit to discuss deepening cooperation",
+    "link": "https://en.yna.co.kr/view/AEN20260925000351315"
+  },
+  {
     "id": "hotnews_en_cb44dee7",
     "date": "2026-09-24",
     "ts": 1790269677000,
@@ -48,6 +104,22 @@
     "link": "https://en.yna.co.kr/view/AEN20260924005800315"
   },
   {
+    "id": "hotnews_en_30ac4392",
+    "date": "2026-09-24",
+    "ts": 1790252922000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
+    "title": "(Asiad) 2-time Asiad gold medalist Yeo proud of following her father's suit",
+    "link": "https://en.yna.co.kr/view/AEN20260924005700320"
+  },
+  {
+    "id": "hotnews_en_b4c15a8b",
+    "date": "2026-09-24",
+    "ts": 1790252782000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409290001300_P2.jpg",
+    "title": "(Asiad) Swimming relay anchor thanks injured teammate for lucky cap",
+    "link": "https://en.yna.co.kr/view/AEN20260924005600315"
+  },
+  {
     "id": "hotnews_en_c9f6afaf",
     "date": "2026-09-24",
     "ts": 1790251324000,
@@ -72,12 +144,28 @@
     "link": "https://en.yna.co.kr/view/AEN20260924005151320"
   },
   {
+    "id": "hotnews_en_c8f9a363",
+    "date": "2026-09-24",
+    "ts": 1790246017000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092407380001300_P2.jpg",
+    "title": "(Asiad) Kim Jun-woo shares silver medal in men's 800m freestyle swimming",
+    "link": "https://en.yna.co.kr/view/AEN20260924004851315"
+  },
+  {
     "id": "hotnews_en_45f24585",
     "date": "2026-09-24",
     "ts": 1790245877000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001951315_03_i_P2.jpg",
     "title": "Traffic eases on 1st night of Chuseok as people head home",
     "link": "https://en.yna.co.kr/view/AEN20260924001951315"
+  },
+  {
+    "id": "hotnews_en_cda7fc82",
+    "date": "2026-09-24",
+    "ts": 1790243898000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Artistic gymnast Yeo Seo-jeong wins gold in women's vault at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260924005000320"
   },
   {
     "id": "hotnews_en_7c978b4d",
@@ -118,6 +206,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
     "title": "Australia, Korea deepening partnership in education, research",
     "link": "https://www.koreaherald.com/article/10882248"
+  },
+  {
+    "id": "hotnews_en_f9e8de80",
+    "date": "2026-09-24",
+    "ts": 1790231352000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.385dd8d508c14e299eb7f0c05fb44eca_T1.jpg",
+    "title": "Highways jammed as Chuseok holiday travel begins",
+    "link": "https://www.koreaherald.com/article/10884196"
   },
   {
     "id": "hotnews_en_8c76c633",
@@ -302,101 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "N. Korean foreign minister says will to keep nuclear weapons irreversible",
     "link": "https://en.yna.co.kr/view/AEN20260924000900315"
-  },
-  {
-    "id": "hotnews_en_0516b8b0",
-    "date": "2026-09-24",
-    "ts": 1790213979000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923011900315_01_i_P2.jpg",
-    "title": "Lee arrives in Mexico for summit with President Sheinbaum",
-    "link": "https://en.yna.co.kr/view/AEN20260923011900315"
-  },
-  {
-    "id": "hotnews_en_bb5ace1a",
-    "date": "2026-09-24",
-    "ts": 1790208000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260922.75b59b2036a54812b20c1a90498c232b_T1.jpg",
-    "title": "Who looks after Seoul’s pets during Chuseok?",
-    "link": "https://www.koreaherald.com/article/10883139"
-  },
-  {
-    "id": "hotnews_en_ce6368f4",
-    "date": "2026-09-23",
-    "ts": 1790203618000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924094901009_P2.jpg",
-    "title": "Trump gives Xi rare welcome at military base on eve of high-stakes summit",
-    "link": "https://en.yna.co.kr/view/AEN20260924000352315"
-  },
-  {
-    "id": "hotnews_en_5979d8a6",
-    "date": "2026-09-23",
-    "ts": 1790202781000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923002500315_03_i_P2.jpg",
-    "title": "690 child abuse cases reported during Chuseok holiday in 2025",
-    "link": "https://en.yna.co.kr/view/AEN20260923002500315"
-  },
-  {
-    "id": "hotnews_en_1ca585e8",
-    "date": "2026-09-23",
-    "ts": 1790202147000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092400870004200_P2.jpg",
-    "title": "N. Korea test-fires upgraded multiple-rocket launcher shells",
-    "link": "https://en.yna.co.kr/view/AEN20260924000400315"
-  },
-  {
-    "id": "hotnews_en_a64030b8",
-    "date": "2026-09-23",
-    "ts": 1790200807000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092222860001300_P2.jpg",
-    "title": "Defense minister floats 'better way' for military academy merger amid pushback",
-    "link": "https://en.yna.co.kr/view/AEN20260923003100315"
-  },
-  {
-    "id": "hotnews_en_438116bd",
-    "date": "2026-09-23",
-    "ts": 1790199423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/28/f0ca6dcb-426b-4b2e-8a3c-c387d1238ca3.jpeg",
-    "title": "Hwaseong-based Migration Stories Project gives migrant workers a space to create and connect",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260924/hwaseong-based-migration-stories-project-gives-migrant-workers-a-space-to-create-and-connect?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_dd50d614",
-    "date": "2026-09-23",
-    "ts": 1790197205000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2023/09/10/PYH2023091002000001300_P2.jpg",
-    "title": "Prince Harry to send congratulatory video message for S. Korean sports event for wounded veterans",
-    "link": "https://en.yna.co.kr/view/AEN20260922011500315"
-  },
-  {
-    "id": "hotnews_en_8d2d81f8",
-    "date": "2026-09-23",
-    "ts": 1790197201000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092328750001300_P2.jpg",
-    "title": "(Asiad) Yeo Seo-jeong leads Korea's gold medal hopes",
-    "link": "https://en.yna.co.kr/view/AEN20260922005000320"
-  },
-  {
-    "id": "hotnews_en_faa6d6e9",
-    "date": "2026-09-23",
-    "ts": 1790195400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.baa6e4ec56694bc8a8441dc241585223_T1.jpg",
-    "title": "[Michael Ignatieff] Middle powers now ‘free world’",
-    "link": "https://www.koreaherald.com/article/10883653"
-  },
-  {
-    "id": "hotnews_en_792dff00",
-    "date": "2026-09-23",
-    "ts": 1790195400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.1ec53a461b4c4b4993294deb8e53a011_T1.jpg",
-    "title": "[Wang Son-taek] The president and ‘responsibility overload’",
-    "link": "https://www.koreaherald.com/article/10883652"
-  },
-  {
-    "id": "hotnews_en_3b551237",
-    "date": "2026-09-23",
-    "ts": 1790194767000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923011800315_01_i_P2.jpg",
-    "title": "Lee wraps up attendance at U.N. General Assembly, heads to Mexico for summit",
-    "link": "https://en.yna.co.kr/view/AEN20260923011800315"
   }
 ]

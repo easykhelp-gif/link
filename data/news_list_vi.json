@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_c5fbc166",
+    "date": "2026-09-24",
+    "ts": 1790285823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
+    "title": "Tổng thống Lee tiếc vì Ukraine lộ vụ 2 tù binh Bắc Triều Tiên",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b3d4e667",
+    "date": "2026-09-24",
+    "ts": 1790283685000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
+    "title": "Hàn Quốc và Mexico hợp tác về dầu mỏ, quốc phòng và AI",
+    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
+  },
+  {
+    "id": "hotnews_vi_fe18ec78",
+    "date": "2026-09-24",
+    "ts": 1790283660000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
+    "title": "Hàn Quốc cân nhắc tăng vé vào cung điện sau 20 năm",
+    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
+  },
+  {
+    "id": "hotnews_vi_33439bf7",
+    "date": "2026-09-24",
+    "ts": 1790283601000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
+    "title": "Triều Tiên kỷ niệm Tết Trung thu Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
+  },
+  {
+    "id": "hotnews_vi_f77508a5",
+    "date": "2026-09-24",
+    "ts": 1790283600000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
+    "title": "Đội kiếm Hàn Quốc bảo vệ ngôi vô địch Asiad vào dịp Trung thu",
+    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
+  },
+  {
+    "id": "hotnews_vi_6c9b3602",
+    "date": "2026-09-24",
+    "ts": 1790274916000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Trump và Tập Cận Bình nhấn mạnh tình hữu nghị tại Washington",
+    "link": "https://en.yna.co.kr/view/AEN20260924006052315"
+  },
+  {
+    "id": "hotnews_vi_5552c662",
+    "date": "2026-09-24",
+    "ts": 1790270482000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000351315_03_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung hội đàm với Tổng thống Mexico",
+    "link": "https://en.yna.co.kr/view/AEN20260925000351315"
+  },
+  {
     "id": "hotnews_vi_cb44dee7",
     "date": "2026-09-24",
     "ts": 1790269677000,
@@ -48,6 +104,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260924005800315"
   },
   {
+    "id": "hotnews_vi_30ac4392",
+    "date": "2026-09-24",
+    "ts": 1790252922000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
+    "title": "Yeo Seo-jeong giành HCV Asiad và tự hào sánh vai cha",
+    "link": "https://en.yna.co.kr/view/AEN20260924005700320"
+  },
+  {
     "id": "hotnews_vi_c9f6afaf",
     "date": "2026-09-24",
     "ts": 1790251623000,
@@ -78,6 +142,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001951315_03_i_P2.jpg",
     "title": "Giao thông thoáng hơn vào đêm đầu tiên nghỉ lễ Chuseok",
     "link": "https://en.yna.co.kr/view/AEN20260924001951315"
+  },
+  {
+    "id": "hotnews_vi_cda7fc82",
+    "date": "2026-09-24",
+    "ts": 1790243898000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Vận động viên Yeo Seo-jeong giành huy chương vàng ASIAD",
+    "link": "https://en.yna.co.kr/view/AEN20260924005000320"
   },
   {
     "id": "hotnews_vi_7c978b4d",
@@ -118,6 +190,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
     "title": "Úc và Hàn Quốc tăng cường hợp tác giáo dục và nghiên cứu",
     "link": "https://www.koreaherald.com/article/10882248"
+  },
+  {
+    "id": "hotnews_vi_f9e8de80",
+    "date": "2026-09-24",
+    "ts": 1790231352000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.385dd8d508c14e299eb7f0c05fb44eca_T1.jpg",
+    "title": "Kẹt xe nghiêm trọng ngày đầu kỳ nghỉ lễ Chuseok tại Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10884196"
   },
   {
     "id": "hotnews_vi_8c76c633",
@@ -318,85 +398,5 @@
     "image": "",
     "title": "Bảng tổng sắp huy chương Đại hội thể thao Châu Á Aichi-Nagoya",
     "link": "https://en.yna.co.kr/view/AEN20230924003989315"
-  },
-  {
-    "id": "hotnews_vi_37c3c59d",
-    "date": "2026-09-23",
-    "ts": 1790167924000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092328610001300_P2.jpg",
-    "title": "Hàn Quốc giành huy chương đồng bóng bàn tại Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260923011600315"
-  },
-  {
-    "id": "hotnews_vi_0bc7adb8",
-    "date": "2026-09-23",
-    "ts": 1790164938000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092321060001300_P2.jpg",
-    "title": "Triều Tiên giành 2 HCV cử tạ tại Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260923008651320"
-  },
-  {
-    "id": "hotnews_vi_c4398c75",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/f2eeb5e7-f2d3-4a54-b7d3-36334c2b2aa4.jpg",
-    "title": "Bộ trưởng Quốc phòng Hàn-Mỹ thảo luận về OPCON và sân bay Gwangju",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260923/defense-minister-top-us-envoy-discuss-opcon-transfer-air-base-relocation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_b9e9051a",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/ee8f312c-54b8-4778-9f9c-a272db7e7d00.jpg",
-    "title": "Seoul chưa quyết định về việc đồng đăng cai Olympic với North Jeolla",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260924/seoul-yet-to-decide-on-joint-olympic-bid-with-north-jeolla?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_1da523df",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/b75b767d-9356-40d0-b96f-e08e43ed5948.jpg",
-    "title": "Kiến nghị bãi bỏ miễn thị thực cho người Trung Quốc vượt 90.000 chữ ký",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260923/petition-calling-for-end-to-visa-free-entry-for-chinese-tops-90000-signatures?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7da37e76",
-    "date": "2026-09-23",
-    "ts": 1790164323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/a6b70525-d03e-489f-8ffe-6df12ce17b9a.jpg",
-    "title": "Số trẻ sinh tại Hàn Quốc tăng 11% trong tháng 7",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260923/births-up-11-in-july-extending-gains-to-25th-consecutive-month?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_3f6bae8f",
-    "date": "2026-09-23",
-    "ts": 1790163217000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327440001300_P2.jpg",
-    "title": "Oh Sang-uk vô địch kiếm chém ASIAD",
-    "link": "https://en.yna.co.kr/view/AEN20260923011500320"
-  },
-  {
-    "id": "hotnews_vi_6268914e",
-    "date": "2026-09-23",
-    "ts": 1790162807000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327590001300_P2.jpg",
-    "title": "Thủ tướng Hàn-Mỹ thảo luận củng cố liên minh song phương",
-    "link": "https://en.yna.co.kr/view/AEN20260923011400315"
-  },
-  {
-    "id": "hotnews_vi_30b706d1",
-    "date": "2026-09-23",
-    "ts": 1790160255000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.28f909991e92448c8532f0348e88d7ee_T1.jpg",
-    "title": "Hàn Quốc giành thêm 3 huy chương bơi lội tại Á vận hội",
-    "link": "https://www.koreaherald.com/article/10883864"
-  },
-  {
-    "id": "hotnews_vi_863430f4",
-    "date": "2026-09-23",
-    "ts": 1790160138000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092326440001300_P2.jpg",
-    "title": "Vận động viên Park Ji-hee giành huy chương bạc đấu kiếm Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260923010651320"
   }
 ]
