@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_45d9e14a",
+    "date": "2026-09-25",
+    "ts": 1790313125000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/f6b04d8d-98b5-43f6-a18f-2cde1cee4fa2.jpeg",
+    "title": "Hơn 100.000 người đến Busan xem cá mập Bukangi",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260925/shark-fever-hits-busan-as-102000-rush-to-see-bukangi-at-start-of-chuseok-break?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_94d48b4b",
+    "date": "2026-09-25",
+    "ts": 1790312684000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503650001300_P2.jpg",
+    "title": "Giao thông Hàn Quốc ùn tắc nặng trong dịp lễ Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260925001351320"
+  },
+  {
+    "id": "hotnews_vi_a71f5447",
+    "date": "2026-09-25",
+    "ts": 1790311494000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.7212844442e14216a2421efa35985c80_T1.jpg",
+    "title": "Diễn viên Park Ji-hyun được đề cử giải Emmy Quốc tế",
+    "link": "https://www.koreaherald.com/article/10884558"
+  },
+  {
+    "id": "hotnews_vi_9e6b7949",
+    "date": "2026-09-25",
+    "ts": 1790310059000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092505400001300_P2.jpg",
+    "title": "Hàn Quốc giành huy chương bạc và đồng bắn súng Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260925002700315"
+  },
+  {
+    "id": "hotnews_vi_3d159f78",
+    "date": "2026-09-25",
+    "ts": 1790306951000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924253701009_P2.jpg",
+    "title": "Hàn Quốc giành HCV chèo thuyền Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260925002551320"
+  },
+  {
+    "id": "hotnews_vi_2ecf5e52",
+    "date": "2026-09-25",
+    "ts": 1790306826000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001551315_03_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung khẳng định không tái tranh cử",
+    "link": "https://en.yna.co.kr/view/AEN20260925001551315"
+  },
+  {
+    "id": "hotnews_vi_7bf7e22c",
+    "date": "2026-09-25",
+    "ts": 1790303540000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092503650001300_T1.jpg",
+    "title": "Giao thông Hàn Quốc ùn tắc nặng trong dịp lễ Chuseok",
+    "link": "https://www.koreaherald.com/article/10884529"
+  },
+  {
+    "id": "hotnews_vi_2bdb424f",
+    "date": "2026-09-25",
+    "ts": 1790297003000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001400320_01_i_P2.jpg",
+    "title": "Cháy sạc dự phòng trên máy bay Air Seoul đi Đà Nẵng",
+    "link": "https://en.yna.co.kr/view/AEN20260925001400320"
+  },
+  {
+    "id": "hotnews_vi_52d3c18a",
+    "date": "2026-09-24",
+    "ts": 1790291630000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000600315_01_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung gửi lời chúc mừng ngày lễ Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260925000600315"
+  },
+  {
+    "id": "hotnews_vi_698e839e",
+    "date": "2026-09-24",
+    "ts": 1790286439000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Mỹ và Trung Quốc đạt thỏa thuận thương mại mới tại Washington",
+    "link": "https://en.yna.co.kr/view/AEN20260924006053315"
+  },
+  {
     "id": "hotnews_vi_c5fbc166",
     "date": "2026-09-24",
     "ts": 1790285823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923002500315_03_i_P2.jpg",
     "title": "690 vụ bạo hành trẻ em trong dịp lễ Chuseok năm 2025",
     "link": "https://en.yna.co.kr/view/AEN20260923002500315"
-  },
-  {
-    "id": "hotnews_vi_438116bd",
-    "date": "2026-09-23",
-    "ts": 1790199423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/28/f0ca6dcb-426b-4b2e-8a3c-c387d1238ca3.jpeg",
-    "title": "Dự án Migration Stories kết nối lao động di cư tại Hwaseong",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260924/hwaseong-based-migration-stories-project-gives-migrant-workers-a-space-to-create-and-connect?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_dd50d614",
-    "date": "2026-09-23",
-    "ts": 1790197205000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2023/09/10/PYH2023091002000001300_P2.jpg",
-    "title": "Hoàng tử Harry gửi video chúc mừng sự kiện thể thao tại Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20260922011500315"
-  },
-  {
-    "id": "hotnews_vi_faa6d6e9",
-    "date": "2026-09-23",
-    "ts": 1790195400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.baa6e4ec56694bc8a8441dc241585223_T1.jpg",
-    "title": "Michael Ignatieff: Các cường quốc bậc trung là thế giới tự do",
-    "link": "https://www.koreaherald.com/article/10883653"
-  },
-  {
-    "id": "hotnews_vi_792dff00",
-    "date": "2026-09-23",
-    "ts": 1790195400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260923.1ec53a461b4c4b4993294deb8e53a011_T1.jpg",
-    "title": "Tổng thống Lee Jae Myung đối mặt với áp lực chính trị lớn",
-    "link": "https://www.koreaherald.com/article/10883652"
-  },
-  {
-    "id": "hotnews_vi_3b551237",
-    "date": "2026-09-23",
-    "ts": 1790194767000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923011800315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung thăm Mexico sau khi dự Đại hội đồng LHQ",
-    "link": "https://en.yna.co.kr/view/AEN20260923011800315"
-  },
-  {
-    "id": "hotnews_vi_b67579c6",
-    "date": "2026-09-23",
-    "ts": 1790185023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
-    "title": "Robot 4 chân của KAIST chạy marathon 42km chỉ với một pin",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260924/4-legged-korean-robot-runs-full-marathon-on-single-charge?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_9fc8d6ee",
-    "date": "2026-09-23",
-    "ts": 1790176944000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923012151315_01_i_P2.jpg",
-    "title": "Tổng thống Lee cam kết tăng gấp đôi sản lượng chip trong 5 năm",
-    "link": "https://en.yna.co.kr/view/AEN20260923012151315"
-  },
-  {
-    "id": "hotnews_vi_4dced65d",
-    "date": "2026-09-23",
-    "ts": 1790171945000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301140001300_P2.jpg",
-    "title": "Mỹ, Hàn Quốc và Nhật Bản hợp tác triển khai lò phản ứng SMR",
-    "link": "https://en.yna.co.kr/view/AEN20260923012000315"
-  },
-  {
-    "id": "hotnews_vi_20514978",
-    "date": "2026-09-23",
-    "ts": 1790168252000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327390001300_P2.jpg",
-    "title": "Hàn Quốc giành thêm huy chương vàng tại Đại hội Thể thao châu Á",
-    "link": "https://en.yna.co.kr/view/AEN20260923011700315"
-  },
-  {
-    "id": "hotnews_vi_8e1eb853",
-    "date": "2026-09-23",
-    "ts": 1790167968000,
-    "image": "",
-    "title": "Bảng tổng sắp huy chương Đại hội thể thao Châu Á Aichi-Nagoya",
-    "link": "https://en.yna.co.kr/view/AEN20230924003989315"
   }
 ]

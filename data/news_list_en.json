@@ -1,5 +1,197 @@
 [
   {
+    "id": "hotnews_en_28e67993",
+    "date": "2026-09-25",
+    "ts": 1790313153000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092504480001300_T1.jpg",
+    "title": "Chuseok traditions come alive in Seoul",
+    "link": "https://www.koreaherald.com/article/10884572"
+  },
+  {
+    "id": "hotnews_en_45d9e14a",
+    "date": "2026-09-25",
+    "ts": 1790313125000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/f6b04d8d-98b5-43f6-a18f-2cde1cee4fa2.jpeg",
+    "title": "Shark fever hits Busan as 102,000 rush to see 'Bukangi' at start of Chuseok break",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260925/shark-fever-hits-busan-as-102000-rush-to-see-bukangi-at-start-of-chuseok-break?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_584dbc00",
+    "date": "2026-09-25",
+    "ts": 1790313125000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/08/17/454ec0d5-f65c-4a6e-8cb3-849674567b3d.jpeg",
+    "title": "Coming home through self-care: How a Korean adoptee built a wellness brand between cultures",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260925/coming-home-through-self-care-how-a-korean-adoptee-built-a-wellness-brand-between-cultures?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_94d48b4b",
+    "date": "2026-09-25",
+    "ts": 1790312684000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503650001300_P2.jpg",
+    "title": "Highway congestion builds on Chuseok as S. Koreans travel to hometowns",
+    "link": "https://en.yna.co.kr/view/AEN20260925001351320"
+  },
+  {
+    "id": "hotnews_en_487db0a8",
+    "date": "2026-09-25",
+    "ts": 1790312400000,
+    "image": "",
+    "title": "Today in Korean history",
+    "link": "https://en.yna.co.kr/view/AEN20260925000700320"
+  },
+  {
+    "id": "hotnews_en_31d2a805",
+    "date": "2026-09-25",
+    "ts": 1790311819000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/19/PYH2026091904120001300_P2.jpg",
+    "title": "(Asiad) Nat'l swimming coach encouraged by growth of young medalists",
+    "link": "https://en.yna.co.kr/view/AEN20260925002800315"
+  },
+  {
+    "id": "hotnews_en_a71f5447",
+    "date": "2026-09-25",
+    "ts": 1790311494000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.7212844442e14216a2421efa35985c80_T1.jpg",
+    "title": "Actor Park Ji-hyun nominated for International Emmy",
+    "link": "https://www.koreaherald.com/article/10884558"
+  },
+  {
+    "id": "hotnews_en_9e6b7949",
+    "date": "2026-09-25",
+    "ts": 1790310059000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092505400001300_P2.jpg",
+    "title": "(Asiad) S. Korea earns silver, bronze in team shooting events",
+    "link": "https://en.yna.co.kr/view/AEN20260925002700315"
+  },
+  {
+    "id": "hotnews_en_3d159f78",
+    "date": "2026-09-25",
+    "ts": 1790306951000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924253701009_P2.jpg",
+    "title": "(Asiad) S. Korea wins gold in men's kayak double 500m racing at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260925002551320"
+  },
+  {
+    "id": "hotnews_en_2ecf5e52",
+    "date": "2026-09-25",
+    "ts": 1790306826000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001551315_03_i_P2.jpg",
+    "title": "Lee reaffirms he will not seek reelection through constitutional revision",
+    "link": "https://en.yna.co.kr/view/AEN20260925001551315"
+  },
+  {
+    "id": "hotnews_en_478a3b5e",
+    "date": "2026-09-25",
+    "ts": 1790304363000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113613_13_j.jpg",
+    "title": "N. Korea Threatens S. Korea over Military Cooperation with US",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204482"
+  },
+  {
+    "id": "hotnews_en_7bf7e22c",
+    "date": "2026-09-25",
+    "ts": 1790303540000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092503650001300_T1.jpg",
+    "title": "Chuseok traffic jams hit South Korean highways, Seoul-Busan trip takes 8 hours 40 minutes",
+    "link": "https://www.koreaherald.com/article/10884529"
+  },
+  {
+    "id": "hotnews_en_c1cf97a5",
+    "date": "2026-09-25",
+    "ts": 1790300977000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925105147_40_e.jpg",
+    "title": "Russia Invites North Korean Leader Kim Jong-un for Official Visit",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204480"
+  },
+  {
+    "id": "hotnews_en_de4d537f",
+    "date": "2026-09-25",
+    "ts": 1790300355000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925104444_1_e.jpg",
+    "title": "VOA: China Exported $290,000 in UN-Banned Goods to N. Korea Through August",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204479"
+  },
+  {
+    "id": "hotnews_en_2bdb424f",
+    "date": "2026-09-25",
+    "ts": 1790297003000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001400320_01_i_P2.jpg",
+    "title": "Suspected power bank fire breaks out on Da Nang-bound flight before departure",
+    "link": "https://en.yna.co.kr/view/AEN20260925001400320"
+  },
+  {
+    "id": "hotnews_en_c5ad6d2b",
+    "date": "2026-09-25",
+    "ts": 1790295400000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091800780031500_P2.jpg",
+    "title": "N. Korean official says S. Korea to become target of 'collective punishment'",
+    "link": "https://en.yna.co.kr/view/AEN20260925001200320"
+  },
+  {
+    "id": "hotnews_en_4b079083",
+    "date": "2026-09-24",
+    "ts": 1790292752000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924041907_26_k.jpg",
+    "title": "Ukraine Says N. Korean POWs Sent to S. Korea After Direct Talks",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204476"
+  },
+  {
+    "id": "hotnews_en_ff925b3e",
+    "date": "2026-09-24",
+    "ts": 1790292599000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925055648_29_s.jpg",
+    "title": "S. Korea, Mexico Adopt 2026-2030 Joint Action Plan to Expand Cooperation",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204475"
+  },
+  {
+    "id": "hotnews_en_a479a977",
+    "date": "2026-09-24",
+    "ts": 1790292259000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202603/260331082131_81_k.jpg",
+    "title": "S. Korea, 79 Nations Call for Immediate Reopening of Strait of Hormuz at UN",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204473"
+  },
+  {
+    "id": "hotnews_en_52d3c18a",
+    "date": "2026-09-24",
+    "ts": 1790291630000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000600315_01_i_P2.jpg",
+    "title": "Lee pledges to work harder to 'illuminate' every citizen's life in Chuseok message",
+    "link": "https://en.yna.co.kr/view/AEN20260925000600315"
+  },
+  {
+    "id": "hotnews_en_104820db",
+    "date": "2026-09-24",
+    "ts": 1790289572000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000500315_01_i_P2.jpg",
+    "title": "Lee calls Mexico 'indispensable' partner amid growing global economic uncertainties",
+    "link": "https://en.yna.co.kr/view/AEN20260925000500315"
+  },
+  {
+    "id": "hotnews_en_3efaaf7b",
+    "date": "2026-09-24",
+    "ts": 1790288101000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925055514_88_s.jpg",
+    "title": "S. Korea, Mexico to Launch Oil, Supply Chain Dialogue",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204472"
+  },
+  {
+    "id": "hotnews_en_cbf88074",
+    "date": "2026-09-24",
+    "ts": 1790287501000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081218500001300_P2.jpg",
+    "title": "Only 3 researchers assigned to collect historical records linked to Korea's independence movement",
+    "link": "https://en.yna.co.kr/view/AEN20260923010500315"
+  },
+  {
+    "id": "hotnews_en_698e839e",
+    "date": "2026-09-24",
+    "ts": 1790286439000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
+    "title": "Xi says U.S., China reach new trade arrangement during White House summit: report",
+    "link": "https://en.yna.co.kr/view/AEN20260924006053315"
+  },
+  {
     "id": "hotnews_en_c5fbc166",
     "date": "2026-09-24",
     "ts": 1790285823000,
@@ -94,6 +286,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000853315_03_i_P2.jpg",
     "title": "Ukraine recently sent 2 N. Korean POWs to S. Korea: Zelenskyy",
     "link": "https://en.yna.co.kr/view/AEN20260924000853315"
+  },
+  {
+    "id": "hotnews_en_0bd42022",
+    "date": "2026-09-24",
+    "ts": 1790253502000,
+    "image": "",
+    "title": "(Asiad) medal standings",
+    "link": "https://en.yna.co.kr/view/AEN20230924003990315"
   },
   {
     "id": "hotnews_en_5e63f66a",
@@ -198,205 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-a.v1.20260924.277b220ceeb1486b9e281db1ee2e2843_T1.png",
     "title": "Devon Rodriguez finds Korea through the people he draws",
     "link": "https://www.koreaherald.com/article/10883164"
-  },
-  {
-    "id": "hotnews_en_2d6c36b7",
-    "date": "2026-09-24",
-    "ts": 1790233200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.878bbc50453c4f299b5d0d3c4abdcc40_T1.jpg",
-    "title": "Australia, Korea deepening partnership in education, research",
-    "link": "https://www.koreaherald.com/article/10882248"
-  },
-  {
-    "id": "hotnews_en_f9e8de80",
-    "date": "2026-09-24",
-    "ts": 1790231352000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.385dd8d508c14e299eb7f0c05fb44eca_T1.jpg",
-    "title": "Highways jammed as Chuseok holiday travel begins",
-    "link": "https://www.koreaherald.com/article/10884196"
-  },
-  {
-    "id": "hotnews_en_8c76c633",
-    "date": "2026-09-24",
-    "ts": 1790230553000,
-    "image": "https://img.yna.co.kr/photo/etc/xi/2026/09/24/PXI20260924024601009_P2.jpg",
-    "title": "(Asiad) S. Korea wins gold in men's kayak four-person 500m racing at Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260924001252320"
-  },
-  {
-    "id": "hotnews_en_5684b2f5",
-    "date": "2026-09-24",
-    "ts": 1790229532000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.50c163293ab44147b766ce2b29f8b3ed_T1.jpg",
-    "title": "Top S. Korean sports official blasts organizers for shoddy operations",
-    "link": "https://www.koreaherald.com/article/10884185"
-  },
-  {
-    "id": "hotnews_en_5d1c7c4a",
-    "date": "2026-09-24",
-    "ts": 1790227812000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001900315_03_i_P2.jpg",
-    "title": "Traffic clogged on highways as people travel for Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260924001900315"
-  },
-  {
-    "id": "hotnews_en_fd6ac401",
-    "date": "2026-09-24",
-    "ts": 1790227418000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121747_60_k.jpg",
-    "title": "KBS Survey Finds 51% of Respondents Disapprove of Lee's Job Performance",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204471"
-  },
-  {
-    "id": "hotnews_en_872cb094",
-    "date": "2026-09-24",
-    "ts": 1790226800000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20260924001800315"
-  },
-  {
-    "id": "hotnews_en_98824e70",
-    "date": "2026-09-24",
-    "ts": 1790226423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/03/fed646c2-7ced-4dd9-9a47-92101b3290e3.jpg",
-    "title": "Don't outsource your thinking to AI, NUS president warns",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260924/dont-outsource-your-thinking-to-ai-nus-president-warns?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6de92a44",
-    "date": "2026-09-24",
-    "ts": 1790226423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/23/ed74575e-4544-469d-80b1-0bd67a5de7d5.jpeg",
-    "title": "Korean quadruped robot's marathon triumph featured in Nature",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260924/korean-quadruped-robots-marathon-triumph-featured-in-nature?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_aa72c459",
-    "date": "2026-09-24",
-    "ts": 1790226339000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092403910001300_P2.jpg",
-    "title": "(Asiad) Top S. Korean sports official blasts organizers for shoddy operations",
-    "link": "https://en.yna.co.kr/view/AEN20260924001700315"
-  },
-  {
-    "id": "hotnews_en_42462f1d",
-    "date": "2026-09-24",
-    "ts": 1790226145000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092400870004200_P2.jpg",
-    "title": "N. Korea test-fires upgraded multiple-rocket launcher shells",
-    "link": "https://en.yna.co.kr/view/AEN20260924000451315"
-  },
-  {
-    "id": "hotnews_en_592231de",
-    "date": "2026-09-24",
-    "ts": 1790225998000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001600315_01_i_P2.jpg",
-    "title": "Lee says combining S. Korea's technology with Mexico's industrial base can create new growth",
-    "link": "https://en.yna.co.kr/view/AEN20260924001600315"
-  },
-  {
-    "id": "hotnews_en_11af1e6e",
-    "date": "2026-09-24",
-    "ts": 1790225859000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121849_28_k.jpg",
-    "title": "S. Korea Investigates Two Explosions in DMZ Blast",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204469"
-  },
-  {
-    "id": "hotnews_en_6ec59c36",
-    "date": "2026-09-24",
-    "ts": 1790225253000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924122030_67_k.jpg",
-    "title": "Jennie Extends K-Pop Record with 17 Weeks in Billboard Hot 100 Top 10",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204468"
-  },
-  {
-    "id": "hotnews_en_0f7f4c10",
-    "date": "2026-09-24",
-    "ts": 1790225106000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001500315_01_i_P2.jpg",
-    "title": "S. Korea vows continued support for Ukraine in FM talks",
-    "link": "https://en.yna.co.kr/view/AEN20260924001500315"
-  },
-  {
-    "id": "hotnews_en_4aed065d",
-    "date": "2026-09-24",
-    "ts": 1790224498000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924044320_40_k.jpg",
-    "title": "N. Korean Foreign Minister Reaffirms Pyongyang’s Commitment to Nuclear Weapons",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204467"
-  },
-  {
-    "id": "hotnews_en_e065f33c",
-    "date": "2026-09-24",
-    "ts": 1790224444000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.4cc55fe23e6848d5bcd1a6f0680e516b_T1.jpg",
-    "title": "2 N. Korean POWs arrived in S. Korea 'several days ago': lawmaker",
-    "link": "https://www.koreaherald.com/article/10884141"
-  },
-  {
-    "id": "hotnews_en_e6cfce4e",
-    "date": "2026-09-24",
-    "ts": 1790223750000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121832_17_k.jpg",
-    "title": "Trump Rolls out Red Carpet for Xi in Rare Reception ahead of Summit",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204466"
-  },
-  {
-    "id": "hotnews_en_42537731",
-    "date": "2026-09-24",
-    "ts": 1790223726000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
-    "title": "(Asiad) S. Korea reaches women's basketball semifinals",
-    "link": "https://en.yna.co.kr/view/AEN20260924001400315"
-  },
-  {
-    "id": "hotnews_en_49ff8168",
-    "date": "2026-09-24",
-    "ts": 1790222358000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121715_15_k.jpg",
-    "title": "Lee Arrives in Mexico After Attending UN General Assembly in New York",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204465"
-  },
-  {
-    "id": "hotnews_en_3b4a737f",
-    "date": "2026-09-24",
-    "ts": 1790222157000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000852315_03_i_P2.jpg",
-    "title": "Ukraine recently sent 2 N. Korean POWs to S. Korea: Zelenskyy",
-    "link": "https://en.yna.co.kr/view/AEN20260924000852315"
-  },
-  {
-    "id": "hotnews_en_ef82333f",
-    "date": "2026-09-24",
-    "ts": 1790221884000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/23/PRU20260923222801009_P2.jpg",
-    "title": "(Asiad) S. Korea wins gold in men's kayak four-person 500m racing at Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260924001251320"
-  },
-  {
-    "id": "hotnews_en_43d76964",
-    "date": "2026-09-24",
-    "ts": 1790220789000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924121659_25_k.jpg",
-    "title": "Foreign Ministry Effectively Confirms Ukraine’s Transfer of N. Korean POWs to S. Korea",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204464"
-  },
-  {
-    "id": "hotnews_en_bcc4dc40",
-    "date": "2026-09-24",
-    "ts": 1790218081000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000951315_02_i_P2.jpg",
-    "title": "N. Korea's will to keep nuclear weapons through 'all ages' irreversible: FM",
-    "link": "https://en.yna.co.kr/view/AEN20260924000951315"
-  },
-  {
-    "id": "hotnews_en_7ceb43ae",
-    "date": "2026-09-24",
-    "ts": 1790216285000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "N. Korean foreign minister says will to keep nuclear weapons irreversible",
-    "link": "https://en.yna.co.kr/view/AEN20260924000900315"
   }
 ]
