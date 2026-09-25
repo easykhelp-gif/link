@@ -1,5 +1,93 @@
 [
   {
+    "id": "hotnews_en_e6e442c9",
+    "date": "2026-09-25",
+    "ts": 1790337723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/a5eb3b5b-dd54-4131-82d8-357bd7a7324e.jpg",
+    "title": "Foreign visitors flock to Seoul's royal palaces as tourism rebounds",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260925/foreign-visitors-flock-to-seouls-royal-palaces-as-tourism-rebounds?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_032f078f",
+    "date": "2026-09-25",
+    "ts": 1790337723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/2db206c2-1fe5-4414-ac97-b07d70f1090d.jpg",
+    "title": "Parties clash over secret repatriation of North Korean POWs from Ukraine",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260925/parties-clash-over-secret-repatriation-of-north-korean-pows-from-ukraine?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_77298ee9",
+    "date": "2026-09-25",
+    "ts": 1790335253000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092506850001300_P2.jpg",
+    "title": "(Asiad) S. Korea wins silver in women's epee team fencing at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260925005600320"
+  },
+  {
+    "id": "hotnews_en_47028c2a",
+    "date": "2026-09-25",
+    "ts": 1790334481000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503650001300_P2.jpg",
+    "title": "Traffic to hometowns eases, back to cities still heavy on Chuseok evening",
+    "link": "https://en.yna.co.kr/view/AEN20260925001352320"
+  },
+  {
+    "id": "hotnews_en_e68b9892",
+    "date": "2026-09-25",
+    "ts": 1790325880000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925305201009_P2.jpg",
+    "title": "(Asiad) S. Korea's Hwang Seo-hyun wins gold in women's balance beam at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260925004551320"
+  },
+  {
+    "id": "hotnews_en_04387480",
+    "date": "2026-09-25",
+    "ts": 1790324303000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081210540006500_P2.jpg",
+    "title": "JCS chief visits Army unit ahead of on-site probe into suspected DMZ land mine blast",
+    "link": "https://en.yna.co.kr/view/AEN20260925004700315"
+  },
+  {
+    "id": "hotnews_en_0e4f75d5",
+    "date": "2026-09-25",
+    "ts": 1790319600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260921.1b0e8af378b94f849c6b2322eeb94a65_T1.jpg",
+    "title": "Korean fashion turns to 2000s K-drama for inspo this fall",
+    "link": "https://www.koreaherald.com/article/10882253"
+  },
+  {
+    "id": "hotnews_en_2a21c272",
+    "date": "2026-09-25",
+    "ts": 1790319600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260921.84f63bd5fb4643819736e399dd1e0319_T1.png",
+    "title": "Team spirit: Meet the crew haunting Korean Folk Village",
+    "link": "https://www.koreaherald.com/article/10883212"
+  },
+  {
+    "id": "hotnews_en_2c1baa4b",
+    "date": "2026-09-25",
+    "ts": 1790319600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260922.53e325aea68a41c5b6b53613bbcc7d5b_T1.jpg",
+    "title": "Beyond CoWoS: Korean firms eye next AI packaging race",
+    "link": "https://www.koreaherald.com/article/10882911"
+  },
+  {
+    "id": "hotnews_en_2243c826",
+    "date": "2026-09-25",
+    "ts": 1790317841000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.e38d5572c31a4e1e896ae3aba8c93be1_T1.png",
+    "title": "Is YouTube ending the mukbang era?",
+    "link": "https://www.koreaherald.com/article/10884608"
+  },
+  {
+    "id": "hotnews_en_cf3a7d9d",
+    "date": "2026-09-25",
+    "ts": 1790316500000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/04/PYH2025030416940031500_P2.jpg",
+    "title": "Lee says Ukraine disclosed transfer of 2 N.K. soldiers in breach of non-disclosure agreement",
+    "link": "https://en.yna.co.kr/view/AEN20260925000252315"
+  },
+  {
     "id": "hotnews_en_28e67993",
     "date": "2026-09-25",
     "ts": 1790313153000,
@@ -96,12 +184,28 @@
     "link": "https://www.koreaherald.com/article/10884529"
   },
   {
+    "id": "hotnews_en_a77d891a",
+    "date": "2026-09-25",
+    "ts": 1790303375000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113116_40_e.jpg",
+    "title": "Lee Reaffirms He Will Not Seek Another Term",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204481"
+  },
+  {
     "id": "hotnews_en_c1cf97a5",
     "date": "2026-09-25",
     "ts": 1790300977000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925105147_40_e.jpg",
     "title": "Russia Invites North Korean Leader Kim Jong-un for Official Visit",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204480"
+  },
+  {
+    "id": "hotnews_en_1e9dab16",
+    "date": "2026-09-25",
+    "ts": 1790300568000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260920.PYH2026092014620005100_T1.jpg",
+    "title": "Over 100,000 flock to see shark on first day of Chuseok holiday",
+    "link": "https://www.koreaherald.com/article/10884513"
   },
   {
     "id": "hotnews_en_de4d537f",
@@ -294,109 +398,5 @@
     "image": "",
     "title": "(Asiad) medal standings",
     "link": "https://en.yna.co.kr/view/AEN20230924003990315"
-  },
-  {
-    "id": "hotnews_en_5e63f66a",
-    "date": "2026-09-24",
-    "ts": 1790253276000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
-    "title": "(Asiad) Kayakers, gymnast bring home gold medals; 5 medals come from swimming",
-    "link": "https://en.yna.co.kr/view/AEN20260924005800315"
-  },
-  {
-    "id": "hotnews_en_30ac4392",
-    "date": "2026-09-24",
-    "ts": 1790252922000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
-    "title": "(Asiad) 2-time Asiad gold medalist Yeo proud of following her father's suit",
-    "link": "https://en.yna.co.kr/view/AEN20260924005700320"
-  },
-  {
-    "id": "hotnews_en_b4c15a8b",
-    "date": "2026-09-24",
-    "ts": 1790252782000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409290001300_P2.jpg",
-    "title": "(Asiad) Swimming relay anchor thanks injured teammate for lucky cap",
-    "link": "https://en.yna.co.kr/view/AEN20260924005600315"
-  },
-  {
-    "id": "hotnews_en_c9f6afaf",
-    "date": "2026-09-24",
-    "ts": 1790251324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/24/22176b62-ac9c-487b-863f-9427ecd9dff7.jpg",
-    "title": "Global students choose Seoul for dynamic opportunities, safety despite high costs, competition",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260924/global-students-choose-seoul-for-dynamic-opportunities-safety-despite-high-costs-competition?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f6fe38f4",
-    "date": "2026-09-24",
-    "ts": 1790249782000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924005451320_01_i_P2.jpg",
-    "title": "Russia invites N. Korean leader to visit: TASS",
-    "link": "https://en.yna.co.kr/view/AEN20260924005451320"
-  },
-  {
-    "id": "hotnews_en_69e5044f",
-    "date": "2026-09-24",
-    "ts": 1790246157000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092408380001300_P2.jpg",
-    "title": "(Asiad) Artistic gymnast Yeo Seo-jeong wins gold in women's vault at Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260924005151320"
-  },
-  {
-    "id": "hotnews_en_c8f9a363",
-    "date": "2026-09-24",
-    "ts": 1790246017000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092407380001300_P2.jpg",
-    "title": "(Asiad) Kim Jun-woo shares silver medal in men's 800m freestyle swimming",
-    "link": "https://en.yna.co.kr/view/AEN20260924004851315"
-  },
-  {
-    "id": "hotnews_en_45f24585",
-    "date": "2026-09-24",
-    "ts": 1790245877000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001951315_03_i_P2.jpg",
-    "title": "Traffic eases on 1st night of Chuseok as people head home",
-    "link": "https://en.yna.co.kr/view/AEN20260924001951315"
-  },
-  {
-    "id": "hotnews_en_cda7fc82",
-    "date": "2026-09-24",
-    "ts": 1790243898000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Artistic gymnast Yeo Seo-jeong wins gold in women's vault at Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260924005000320"
-  },
-  {
-    "id": "hotnews_en_7c978b4d",
-    "date": "2026-09-24",
-    "ts": 1790236956000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.edb6a13972a74914b0a13ce6c5f32c4a_T1.jpg",
-    "title": "N. Korea touts upgraded rocket system, urges stronger firepower along border",
-    "link": "https://www.koreaherald.com/article/10884243"
-  },
-  {
-    "id": "hotnews_en_fe0e24a3",
-    "date": "2026-09-24",
-    "ts": 1790233200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260922.7a715f7c7f374609baf47137d15ff403_T1.jpg",
-    "title": "Same songpyeon, different Chuseok: How North Korea celebrates the harvest holiday",
-    "link": "https://www.koreaherald.com/article/10883208"
-  },
-  {
-    "id": "hotnews_en_c640e2b4",
-    "date": "2026-09-24",
-    "ts": 1790233200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260917.f5d1c6e94dcd4d7eb7b3e0dbd1e5e969_T1.jpg",
-    "title": "Seoul International Music Festival looks beyond the familiar",
-    "link": "https://www.koreaherald.com/article/10883337"
-  },
-  {
-    "id": "hotnews_en_9447ccdc",
-    "date": "2026-09-24",
-    "ts": 1790233200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-a.v1.20260924.277b220ceeb1486b9e281db1ee2e2843_T1.png",
-    "title": "Devon Rodriguez finds Korea through the people he draws",
-    "link": "https://www.koreaherald.com/article/10883164"
   }
 ]
