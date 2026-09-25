@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_a1ad513d",
+    "date": "2026-09-25",
+    "ts": 1790372523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/08/29/4425f1f3-e284-4c70-8a76-842407eb3ebd.jpeg",
+    "title": "UpperClass bets on peer trust to reshape international student recruitment",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260926/upperclass-bets-on-peer-trust-to-reshape-international-student-recruitment?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_36527271",
+    "date": "2026-09-25",
+    "ts": 1790365980000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000451315_01_i_P2.jpg",
+    "title": "Lee calls for resumption of FTA negotiations with Mexico to elevate economic cooperation",
+    "link": "https://en.yna.co.kr/view/AEN20260926000451315"
+  },
+  {
     "id": "hotnews_en_7afc6644",
     "date": "2026-09-25",
     "ts": 1790343681000,
@@ -30,6 +46,14 @@
     "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925322501009_P2.jpg",
     "title": "(Asiad) S. Korea beats China to reach women's basketball final",
     "link": "https://en.yna.co.kr/view/AEN20260925005051320"
+  },
+  {
+    "id": "hotnews_en_a5cad634",
+    "date": "2026-09-25",
+    "ts": 1790341387000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092511850001300_P2.jpg",
+    "title": "(Asiad) Men's, women's football teams advance to semifinals",
+    "link": "https://en.yna.co.kr/view/AEN20260925006900315"
   },
   {
     "id": "hotnews_en_4938b68b",
@@ -94,6 +118,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081210540006500_P2.jpg",
     "title": "JCS chief visits Army unit ahead of on-site probe into suspected DMZ land mine blast",
     "link": "https://en.yna.co.kr/view/AEN20260925004700315"
+  },
+  {
+    "id": "hotnews_en_3a65cecd",
+    "date": "2026-09-25",
+    "ts": 1790322523000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "S. Korea's Hwang Seo-hyun wins gold in women's balance beam at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260925004400320"
   },
   {
     "id": "hotnews_en_aa46f991",
@@ -232,6 +264,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260925001551315"
   },
   {
+    "id": "hotnews_en_976e472b",
+    "date": "2026-09-25",
+    "ts": 1790304475000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PRU20260925198101009_T1.jpg",
+    "title": "Xi says US, China reach new trade arrangement during summit with Trump: report",
+    "link": "https://www.koreaherald.com/article/10884531"
+  },
+  {
     "id": "hotnews_en_478a3b5e",
     "date": "2026-09-25",
     "ts": 1790304363000,
@@ -358,45 +398,5 @@
     "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
     "title": "Xi says U.S., China reach new trade arrangement during White House summit: report",
     "link": "https://en.yna.co.kr/view/AEN20260924006053315"
-  },
-  {
-    "id": "hotnews_en_c5fbc166",
-    "date": "2026-09-24",
-    "ts": 1790285823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
-    "title": "Lee says Ukraine breached non-disclosure agreement on 2 NK soldiers",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b3d4e667",
-    "date": "2026-09-24",
-    "ts": 1790283685000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
-    "title": "S. Korea, Mexico adopt joint action plan to expand cooperation in defense, crude oil, AI",
-    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
-  },
-  {
-    "id": "hotnews_en_fe18ec78",
-    "date": "2026-09-24",
-    "ts": 1790283660000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
-    "title": "Gov't weighs raising admission fees to palaces, royal tombs for 1st time in 20 years",
-    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
-  },
-  {
-    "id": "hotnews_en_33439bf7",
-    "date": "2026-09-24",
-    "ts": 1790283601000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
-    "title": "N. Koreans mark Chuseok with ancestor rites, folk games",
-    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
-  },
-  {
-    "id": "hotnews_en_f77508a5",
-    "date": "2026-09-24",
-    "ts": 1790283600000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
-    "title": "(Asiad) S. Korean epee team seeks to defend Asiad title on Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
   }
 ]
