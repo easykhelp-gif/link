@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_c359c64c",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/16279124-e8fd-4dee-971d-eed9fbbc426c.jpg",
+    "title": "ชาวต่างชาติในเกาหลีใต้พุ่งแตะ 2.87 ล้านคนในเดือนสิงหาคม",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/number-of-foreigners-in-korea-reaches-28-million-in-august?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_a1ad513d",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/08/29/4425f1f3-e284-4c70-8a76-842407eb3ebd.jpeg",
+    "title": "สตาร์ทอัพ UpperClass พลิกโฉมการแนะแนวรับนักศึกษาต่างชาติ",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260926/upperclass-bets-on-peer-trust-to-reshape-international-student-recruitment?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_aa55efb6",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/1cec19a0-8ecd-4c3e-a09c-6a8f8b1053f6.jpeg",
+    "title": "ตลาดงานเกาหลีใต้แย่ลง คนรุ่นใหม่เครียดหางานยากช่วงวันหยุด",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260926/i-feel-sorry-toward-my-parents-youth-job-market-remains-a-needles-eye?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_1ac915c5",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/b9beb03f-aef7-44f3-9990-1030b3159221.jpeg",
+    "title": "พัคจินยอง JYP จ่อถูกเรียกสอบปมเครื่องหมายการค้า Fanomenon",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260926/jyp-founder-to-face-national-assembly-scrutiny-over-korean-coachella-trademark?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_121e02d3",
+    "date": "2026-09-26",
+    "ts": 1790398800000,
+    "image": "",
+    "title": "ย้อนรอยเหตุการณ์สำคัญในเกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20260926000700315"
+  },
+  {
+    "id": "hotnews_th_cfc32641",
+    "date": "2026-09-26",
+    "ts": 1790397461000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926015608_46_e.jpg",
+    "title": "การจราจรวันหยุดเสาร์นี้คาดว่าจะหนาแน่นช่วง 17.00 น.",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204486"
+  },
+  {
+    "id": "hotnews_th_f1b14d2b",
+    "date": "2026-09-26",
+    "ts": 1790390770000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092302190001300_P2.jpg",
+    "title": "ผู้โดยสารเที่ยวบินระหว่างประเทศในเกาหลีใต้เพิ่มขึ้นร้อยละ 10",
+    "link": "https://en.yna.co.kr/view/AEN20260926001100315"
+  },
+  {
+    "id": "hotnews_th_54c6759f",
+    "date": "2026-09-26",
+    "ts": 1790387157000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000452315_01_i_P2.jpg",
+    "title": "อีแจมยองเรียกร้องรื้อฟื้นเจรจาการค้ากับเม็กซิโก",
+    "link": "https://en.yna.co.kr/view/AEN20260926000452315"
+  },
+  {
+    "id": "hotnews_th_33300a51",
+    "date": "2026-09-26",
+    "ts": 1790386914000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "การจราจรบนทางหลวงเกาหลีหนาแน่นในช่วงวันหยุดชู석",
+    "link": "https://en.yna.co.kr/view/AEN20260926001000315"
+  },
+  {
     "id": "hotnews_th_7afc6644",
     "date": "2026-09-25",
     "ts": 1790343681000,
@@ -94,6 +166,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081210540006500_P2.jpg",
     "title": "ประธานเสนาธิการทหารเกาหลีใต้ตรวจหน่วยทหารปมระเบิด DMZ",
     "link": "https://en.yna.co.kr/view/AEN20260925004700315"
+  },
+  {
+    "id": "hotnews_th_3a65cecd",
+    "date": "2026-09-25",
+    "ts": 1790322523000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "ฮวัง ซอฮยอน คว้าเหรียญทองคานทรงตัวเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260925004400320"
   },
   {
     "id": "hotnews_th_0e4f75d5",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000300315_01_i_P2.jpg",
     "title": "ประธานาธิบดีอีแจมยองเยือนเม็กซิโกและเตรียมพบปะผู้นำ",
     "link": "https://en.yna.co.kr/view/AEN20260925000300315"
-  },
-  {
-    "id": "hotnews_th_c79a4831",
-    "date": "2026-09-24",
-    "ts": 1790255484000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409980006100_P2.jpg",
-    "title": "ทีมชาติเกาหลีใต้ชนะเอกวาดอร์ 3-0 ในเกมอุ่นเครื่อง",
-    "link": "https://en.yna.co.kr/view/AEN20260924005900315"
-  },
-  {
-    "id": "hotnews_th_6310f0d7",
-    "date": "2026-09-24",
-    "ts": 1790254385000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924000853315_03_i_P2.jpg",
-    "title": "ยูเครนส่งเชลยศึกเกาหลีเหนือ 2 คนมายังเกาหลีใต้แล้ว",
-    "link": "https://en.yna.co.kr/view/AEN20260924000853315"
-  },
-  {
-    "id": "hotnews_th_5e63f66a",
-    "date": "2026-09-24",
-    "ts": 1790253276000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
-    "title": "เกาหลีใต้คว้าเหรียญทองเรือพายและยิมนาสติกศึกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260924005800315"
-  },
-  {
-    "id": "hotnews_th_30ac4392",
-    "date": "2026-09-24",
-    "ts": 1790252922000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P2.jpg",
-    "title": "ยo ซอจอง คว้าทองยิมนาสติกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260924005700320"
-  },
-  {
-    "id": "hotnews_th_c9f6afaf",
-    "date": "2026-09-24",
-    "ts": 1790251623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/24/22176b62-ac9c-487b-863f-9427ecd9dff7.jpg",
-    "title": "โซlฮitsยอดนิยมของนักเรียนต่างชาติเพราะความปลอดภัยและโอกาส",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260924/global-students-choose-seoul-for-dynamic-opportunities-safety-despite-high-costs-competition?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_f6fe38f4",
-    "date": "2026-09-24",
-    "ts": 1790249782000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924005451320_01_i_P2.jpg",
-    "title": "รัสเซียเชิญ คิม จองอุน เยือนประเทศอย่างเป็นทางการ",
-    "link": "https://en.yna.co.kr/view/AEN20260924005451320"
-  },
-  {
-    "id": "hotnews_th_69e5044f",
-    "date": "2026-09-24",
-    "ts": 1790246157000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092408380001300_P2.jpg",
-    "title": "ยอ ซอจอง คว้าเหรียญทองยิมนาสติกม้ากระโดด เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260924005151320"
-  },
-  {
-    "id": "hotnews_th_45f24585",
-    "date": "2026-09-24",
-    "ts": 1790245877000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/24/AEN20260924001951315_03_i_P2.jpg",
-    "title": "การจราจรบนทางหลวงเกาหลีเริ่มคลี่คลายในคืนแรกของวันหยุดชูซอก",
-    "link": "https://en.yna.co.kr/view/AEN20260924001951315"
-  },
-  {
-    "id": "hotnews_th_cda7fc82",
-    "date": "2026-09-24",
-    "ts": 1790243898000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "ยo ซอจอง คว้าเหรียญทองยิมนาสติกม้ากระโดด เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260924005000320"
-  },
-  {
-    "id": "hotnews_th_7c978b4d",
-    "date": "2026-09-24",
-    "ts": 1790236956000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/24/news-p.v1.20260924.edb6a13972a74914b0a13ce6c5f32c4a_T1.jpg",
-    "title": "เกาหลีเหนืออวดระบบจรวดปรับปรุงใหม่และจี้เพิ่มกำลังไฟตามพรมแดน",
-    "link": "https://www.koreaherald.com/article/10884243"
   }
 ]

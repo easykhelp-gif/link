@@ -1,11 +1,139 @@
 [
   {
+    "id": "hotnews_en_c359c64c",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/16279124-e8fd-4dee-971d-eed9fbbc426c.jpg",
+    "title": "Number of foreigners in Korea reaches 2.8 million in August",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/number-of-foreigners-in-korea-reaches-28-million-in-august?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_aa55efb6",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/1cec19a0-8ecd-4c3e-a09c-6a8f8b1053f6.jpeg",
+    "title": "'I feel sorry toward my parents': Youth job market remains a needle's eye",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260926/i-feel-sorry-toward-my-parents-youth-job-market-remains-a-needles-eye?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_1ac915c5",
+    "date": "2026-09-26",
+    "ts": 1790399823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/b9beb03f-aef7-44f3-9990-1030b3159221.jpeg",
+    "title": "JYP founder to face National Assembly scrutiny over 'Korean Coachella' trademark",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260926/jyp-founder-to-face-national-assembly-scrutiny-over-korean-coachella-trademark?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_121e02d3",
+    "date": "2026-09-26",
+    "ts": 1790398800000,
+    "image": "",
+    "title": "Today in Korean history",
+    "link": "https://en.yna.co.kr/view/AEN20260926000700315"
+  },
+  {
+    "id": "hotnews_en_cfc32641",
+    "date": "2026-09-26",
+    "ts": 1790397461000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926015608_46_e.jpg",
+    "title": "Saturday Holiday Traffic Expected to Surge at 5 PM",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204486"
+  },
+  {
+    "id": "hotnews_en_be2cc459",
+    "date": "2026-09-26",
+    "ts": 1790397063000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092603080001300_P2.jpg",
+    "title": "(Asiad) S. Korea adds two silvers in kayak sprint events at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260926001800320"
+  },
+  {
+    "id": "hotnews_en_ae08d53a",
+    "date": "2026-09-26",
+    "ts": 1790396034000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925010006_79_k.jpg",
+    "title": "Lee Regrets Ukraine's Disclosure of North Korean POW Transfer",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204485"
+  },
+  {
+    "id": "hotnews_en_0dc864e7",
+    "date": "2026-09-26",
+    "ts": 1790392932000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/news-p.v1.20260926.1079303a75da44ca8e855895a43c9542_T1.png",
+    "title": "Opposition lawmaker urges JYP founder to testify at parliamentary audit",
+    "link": "https://www.koreaherald.com/article/10884854"
+  },
+  {
+    "id": "hotnews_en_f1b14d2b",
+    "date": "2026-09-26",
+    "ts": 1790390770000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092302190001300_P2.jpg",
+    "title": "Number of int'l flight passengers up 10 pct this year despite hikes in oil prices",
+    "link": "https://en.yna.co.kr/view/AEN20260926001100315"
+  },
+  {
+    "id": "hotnews_en_ff41d629",
+    "date": "2026-09-26",
+    "ts": 1790388363000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260924.PEP20260924032601009_T1.jpg",
+    "title": "Kyiv denies Seoul's claim of consensus to keep North Korean POW transfer confidential",
+    "link": "https://www.koreaherald.com/article/10884823"
+  },
+  {
+    "id": "hotnews_en_54c6759f",
+    "date": "2026-09-26",
+    "ts": 1790387157000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000452315_01_i_P2.jpg",
+    "title": "Lee calls for resumption of trade pact negotiations with Mexico to elevate economic cooperation",
+    "link": "https://en.yna.co.kr/view/AEN20260926000452315"
+  },
+  {
+    "id": "hotnews_en_33300a51",
+    "date": "2026-09-26",
+    "ts": 1790386914000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "Highways congested on Chuseok holiday as people return home",
+    "link": "https://en.yna.co.kr/view/AEN20260926001000315"
+  },
+  {
+    "id": "hotnews_en_e10f46bf",
+    "date": "2026-09-26",
+    "ts": 1790386267000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092508360001300_P2.jpg",
+    "title": "(Asiad) Swimmers lament decision not to award medals to relay heat participants",
+    "link": "https://en.yna.co.kr/view/AEN20260926000800315"
+  },
+  {
+    "id": "hotnews_en_b93ca8b8",
+    "date": "2026-09-25",
+    "ts": 1790373609000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923003000315_01_i_P2.jpg",
+    "title": "Inaugural 'World Korean Week' to bring thousands of overseas Koreans to Incheon next week",
+    "link": "https://en.yna.co.kr/view/AEN20260923003000315"
+  },
+  {
+    "id": "hotnews_en_08ed639a",
+    "date": "2026-09-25",
+    "ts": 1790373601000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092126340001300_P2.jpg",
+    "title": "(Asiad) New face emerges as S. Korea fails to match 2023 success",
+    "link": "https://en.yna.co.kr/view/AEN20260925006100315"
+  },
+  {
     "id": "hotnews_en_a1ad513d",
     "date": "2026-09-25",
     "ts": 1790372523000,
     "image": "https://newsimg.koreatimes.co.kr/2026/08/29/4425f1f3-e284-4c70-8a76-842407eb3ebd.jpeg",
     "title": "UpperClass bets on peer trust to reshape international student recruitment",
     "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260926/upperclass-bets-on-peer-trust-to-reshape-international-student-recruitment?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_d56a0d54",
+    "date": "2026-09-25",
+    "ts": 1790370002000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092327390001300_P2.jpg",
+    "title": "(Asiad) S. Korean sabre fencers target 4th straight Asiad team gold",
+    "link": "https://en.yna.co.kr/view/AEN20260922005500320"
   },
   {
     "id": "hotnews_en_36527271",
@@ -118,6 +246,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081210540006500_P2.jpg",
     "title": "JCS chief visits Army unit ahead of on-site probe into suspected DMZ land mine blast",
     "link": "https://en.yna.co.kr/view/AEN20260925004700315"
+  },
+  {
+    "id": "hotnews_en_bda23052",
+    "date": "2026-09-25",
+    "ts": 1790323166000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.45192a33e7af477fae046143dcee306a_T1.jpg",
+    "title": "South Korea's Hwang Seo-hyun wins gold in women's balance beam at Asian Games",
+    "link": "https://www.koreaherald.com/article/10884636"
   },
   {
     "id": "hotnews_en_3a65cecd",
@@ -262,141 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001551315_03_i_P2.jpg",
     "title": "Lee reaffirms he will not seek reelection through constitutional revision",
     "link": "https://en.yna.co.kr/view/AEN20260925001551315"
-  },
-  {
-    "id": "hotnews_en_976e472b",
-    "date": "2026-09-25",
-    "ts": 1790304475000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PRU20260925198101009_T1.jpg",
-    "title": "Xi says US, China reach new trade arrangement during summit with Trump: report",
-    "link": "https://www.koreaherald.com/article/10884531"
-  },
-  {
-    "id": "hotnews_en_478a3b5e",
-    "date": "2026-09-25",
-    "ts": 1790304363000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113613_13_j.jpg",
-    "title": "N. Korea Threatens S. Korea over Military Cooperation with US",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204482"
-  },
-  {
-    "id": "hotnews_en_7bf7e22c",
-    "date": "2026-09-25",
-    "ts": 1790303540000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092503650001300_T1.jpg",
-    "title": "Chuseok traffic jams hit South Korean highways, Seoul-Busan trip takes 8 hours 40 minutes",
-    "link": "https://www.koreaherald.com/article/10884529"
-  },
-  {
-    "id": "hotnews_en_a77d891a",
-    "date": "2026-09-25",
-    "ts": 1790303375000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113116_40_e.jpg",
-    "title": "Lee Reaffirms He Will Not Seek Another Term",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204481"
-  },
-  {
-    "id": "hotnews_en_c1cf97a5",
-    "date": "2026-09-25",
-    "ts": 1790300977000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925105147_40_e.jpg",
-    "title": "Russia Invites North Korean Leader Kim Jong-un for Official Visit",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204480"
-  },
-  {
-    "id": "hotnews_en_1e9dab16",
-    "date": "2026-09-25",
-    "ts": 1790300568000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260920.PYH2026092014620005100_T1.jpg",
-    "title": "Over 100,000 flock to see shark on first day of Chuseok holiday",
-    "link": "https://www.koreaherald.com/article/10884513"
-  },
-  {
-    "id": "hotnews_en_de4d537f",
-    "date": "2026-09-25",
-    "ts": 1790300355000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925104444_1_e.jpg",
-    "title": "VOA: China Exported $290,000 in UN-Banned Goods to N. Korea Through August",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204479"
-  },
-  {
-    "id": "hotnews_en_2bdb424f",
-    "date": "2026-09-25",
-    "ts": 1790297003000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001400320_01_i_P2.jpg",
-    "title": "Suspected power bank fire breaks out on Da Nang-bound flight before departure",
-    "link": "https://en.yna.co.kr/view/AEN20260925001400320"
-  },
-  {
-    "id": "hotnews_en_c5ad6d2b",
-    "date": "2026-09-25",
-    "ts": 1790295400000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091800780031500_P2.jpg",
-    "title": "N. Korean official says S. Korea to become target of 'collective punishment'",
-    "link": "https://en.yna.co.kr/view/AEN20260925001200320"
-  },
-  {
-    "id": "hotnews_en_4b079083",
-    "date": "2026-09-24",
-    "ts": 1790292752000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260924041907_26_k.jpg",
-    "title": "Ukraine Says N. Korean POWs Sent to S. Korea After Direct Talks",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204476"
-  },
-  {
-    "id": "hotnews_en_ff925b3e",
-    "date": "2026-09-24",
-    "ts": 1790292599000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925055648_29_s.jpg",
-    "title": "S. Korea, Mexico Adopt 2026-2030 Joint Action Plan to Expand Cooperation",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204475"
-  },
-  {
-    "id": "hotnews_en_a479a977",
-    "date": "2026-09-24",
-    "ts": 1790292259000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202603/260331082131_81_k.jpg",
-    "title": "S. Korea, 79 Nations Call for Immediate Reopening of Strait of Hormuz at UN",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204473"
-  },
-  {
-    "id": "hotnews_en_52d3c18a",
-    "date": "2026-09-24",
-    "ts": 1790291630000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000600315_01_i_P2.jpg",
-    "title": "Lee pledges to work harder to 'illuminate' every citizen's life in Chuseok message",
-    "link": "https://en.yna.co.kr/view/AEN20260925000600315"
-  },
-  {
-    "id": "hotnews_en_104820db",
-    "date": "2026-09-24",
-    "ts": 1790289572000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000500315_01_i_P2.jpg",
-    "title": "Lee calls Mexico 'indispensable' partner amid growing global economic uncertainties",
-    "link": "https://en.yna.co.kr/view/AEN20260925000500315"
-  },
-  {
-    "id": "hotnews_en_3efaaf7b",
-    "date": "2026-09-24",
-    "ts": 1790288101000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925055514_88_s.jpg",
-    "title": "S. Korea, Mexico to Launch Oil, Supply Chain Dialogue",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204472"
-  },
-  {
-    "id": "hotnews_en_cbf88074",
-    "date": "2026-09-24",
-    "ts": 1790287501000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081218500001300_P2.jpg",
-    "title": "Only 3 researchers assigned to collect historical records linked to Korea's independence movement",
-    "link": "https://en.yna.co.kr/view/AEN20260923010500315"
-  },
-  {
-    "id": "hotnews_en_698e839e",
-    "date": "2026-09-24",
-    "ts": 1790286439000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "Xi says U.S., China reach new trade arrangement during White House summit: report",
-    "link": "https://en.yna.co.kr/view/AEN20260924006053315"
   }
 ]
