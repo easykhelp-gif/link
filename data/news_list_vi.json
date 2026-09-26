@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_3828373a",
+    "date": "2026-09-26",
+    "ts": 1790431433000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607670001300_P2.jpg",
+    "title": "Hàn Quốc giành thêm ba huy chương vàng tại Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20260926007700315"
+  },
+  {
+    "id": "hotnews_vi_65953c55",
+    "date": "2026-09-26",
+    "ts": 1790431125000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092608850001301_P2.jpg",
+    "title": "Hàn Quốc thắng Trung Quốc để vào chung kết bóng chày Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260926007600315"
+  },
+  {
+    "id": "hotnews_vi_02d1a56b",
+    "date": "2026-09-26",
+    "ts": 1790425869000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609780001300_P2.jpg",
+    "title": "Oh Sang-uk giúp kiếm chém Hàn Quốc giành HCV Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260926006000320"
+  },
+  {
+    "id": "hotnews_vi_9b5faf3e",
+    "date": "2026-09-26",
+    "ts": 1790425321000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "Giao thông Chuseok thông thoáng khi kỳ nghỉ đến gần cuối",
+    "link": "https://en.yna.co.kr/view/AEN20260926001052315"
+  },
+  {
+    "id": "hotnews_vi_d33f2e46",
+    "date": "2026-09-26",
+    "ts": 1790423412000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609310001300_P2.jpg",
+    "title": "Quân đội Hàn Quốc và Liên Hợp Quốc khảo sát vụ nổ ở DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260926004551315"
+  },
+  {
     "id": "hotnews_vi_30ea9a73",
     "date": "2026-09-26",
     "ts": 1790422623000,
@@ -16,12 +56,44 @@
     "link": "https://en.yna.co.kr/view/AEN20260926004500315"
   },
   {
+    "id": "hotnews_vi_0fa68525",
+    "date": "2026-09-26",
+    "ts": 1790420395000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925019701009_P2.jpg",
+    "title": "Mỹ và Trung Quốc lập kênh liên lạc AI và phản đối thu phí thủy đạo",
+    "link": "https://en.yna.co.kr/view/AEN20260926003900315"
+  },
+  {
     "id": "hotnews_vi_7684078a",
     "date": "2026-09-26",
     "ts": 1790419735000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607800001300_P2.jpg",
     "title": "Hàn Quốc thắng huy chương vàng đấu kiếm Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260926003851320"
+  },
+  {
+    "id": "hotnews_vi_f94fdf27",
+    "date": "2026-09-26",
+    "ts": 1790416165000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926003500315_01_i_P2.jpg",
+    "title": "Đại sứ mới của Nga tại Triều Tiên chính thức nhận nhiệm vụ",
+    "link": "https://en.yna.co.kr/view/AEN20260926003500315"
+  },
+  {
+    "id": "hotnews_vi_11aaa8ac",
+    "date": "2026-09-26",
+    "ts": 1790409168000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260925.PYH2026092509710001300_T1.jpg",
+    "title": "Vận động viên Joel Jin Nwamadi rút lui khỏi cự ly 200m",
+    "link": "https://www.koreaherald.com/article/10884950"
+  },
+  {
+    "id": "hotnews_vi_19246a4f",
+    "date": "2026-09-26",
+    "ts": 1790408874000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260909.PRU20260909187201009_T1.jpg",
+    "title": "Seoul bị chỉ trích làm mất chứng cứ vụ nổ DMZ",
+    "link": "https://www.koreaherald.com/article/10884947"
   },
   {
     "id": "hotnews_vi_354dd355",
@@ -38,6 +110,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000453315_01_i_P2.jpg",
     "title": "Tổng thống Lee thúc đẩy đàm phán thương mại với Mexico",
     "link": "https://en.yna.co.kr/view/AEN20260926000453315"
+  },
+  {
+    "id": "hotnews_vi_488fdfe5",
+    "date": "2026-09-26",
+    "ts": 1790407304000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002400315_01_i_P2.jpg",
+    "title": "Hàn Quốc nhấn mạnh xử lý nhân đạo tù binh Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20260926002400315"
   },
   {
     "id": "hotnews_vi_edef790e",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503650001300_P2.jpg",
     "title": "Giao thông Hàn Quốc ùn tắc nặng trong dịp lễ Chuseok",
     "link": "https://en.yna.co.kr/view/AEN20260925001351320"
-  },
-  {
-    "id": "hotnews_vi_a71f5447",
-    "date": "2026-09-25",
-    "ts": 1790311494000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.7212844442e14216a2421efa35985c80_T1.jpg",
-    "title": "Diễn viên Park Ji-hyun được đề cử giải Emmy Quốc tế",
-    "link": "https://www.koreaherald.com/article/10884558"
-  },
-  {
-    "id": "hotnews_vi_9e6b7949",
-    "date": "2026-09-25",
-    "ts": 1790310059000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092505400001300_P2.jpg",
-    "title": "Hàn Quốc giành huy chương bạc và đồng bắn súng Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260925002700315"
-  },
-  {
-    "id": "hotnews_vi_3d159f78",
-    "date": "2026-09-25",
-    "ts": 1790306951000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924253701009_P2.jpg",
-    "title": "Hàn Quốc giành HCV chèo thuyền Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260925002551320"
-  },
-  {
-    "id": "hotnews_vi_2ecf5e52",
-    "date": "2026-09-25",
-    "ts": 1790306826000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001551315_03_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung khẳng định không tái tranh cử",
-    "link": "https://en.yna.co.kr/view/AEN20260925001551315"
-  },
-  {
-    "id": "hotnews_vi_7bf7e22c",
-    "date": "2026-09-25",
-    "ts": 1790303540000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092503650001300_T1.jpg",
-    "title": "Giao thông Hàn Quốc ùn tắc nặng trong dịp lễ Chuseok",
-    "link": "https://www.koreaherald.com/article/10884529"
-  },
-  {
-    "id": "hotnews_vi_a77d891a",
-    "date": "2026-09-25",
-    "ts": 1790303375000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113116_40_e.jpg",
-    "title": "Ông Lee tái khẳng định không tái tranh cử nhiệm kỳ mới",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204481"
-  },
-  {
-    "id": "hotnews_vi_1e9dab16",
-    "date": "2026-09-25",
-    "ts": 1790300568000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260920.PYH2026092014620005100_T1.jpg",
-    "title": "Hơn 100.000 người đến xem cá mập ở Busan ngày Chuseok",
-    "link": "https://www.koreaherald.com/article/10884513"
-  },
-  {
-    "id": "hotnews_vi_2bdb424f",
-    "date": "2026-09-25",
-    "ts": 1790297003000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001400320_01_i_P2.jpg",
-    "title": "Cháy sạc dự phòng trên máy bay Air Seoul đi Đà Nẵng",
-    "link": "https://en.yna.co.kr/view/AEN20260925001400320"
-  },
-  {
-    "id": "hotnews_vi_52d3c18a",
-    "date": "2026-09-24",
-    "ts": 1790291630000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000600315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung gửi lời chúc mừng ngày lễ Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260925000600315"
-  },
-  {
-    "id": "hotnews_vi_698e839e",
-    "date": "2026-09-24",
-    "ts": 1790286439000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "Mỹ và Trung Quốc đạt thỏa thuận thương mại mới tại Washington",
-    "link": "https://en.yna.co.kr/view/AEN20260924006053315"
   }
 ]

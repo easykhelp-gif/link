@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_th_3828373a",
+    "date": "2026-09-26",
+    "ts": 1790431433000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607670001300_P2.jpg",
+    "title": "เกาหลีใต้กวาด 3 เหรียญทองจากกีฬาฟันดาบ บาสเกตบอล และอีสปอร์ตในเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260926007700315"
+  },
+  {
+    "id": "hotnews_th_65953c55",
+    "date": "2026-09-26",
+    "ts": 1790431125000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092608850001301_P2.jpg",
+    "title": "เกาหลีใต้ชนะจีน 9-2 ทะลุเข้าชิงเบสบอลศึกเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260926007600315"
+  },
+  {
+    "id": "hotnews_th_02d1a56b",
+    "date": "2026-09-26",
+    "ts": 1790425869000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609780001300_P2.jpg",
+    "title": "โอ Sang-uk มั่นใจคว้าชัยฟันดาบเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260926006000320"
+  },
+  {
+    "id": "hotnews_th_9b5faf3e",
+    "date": "2026-09-26",
+    "ts": 1790425321000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "การจราจรบนทางหลวงเริ่มคลี่คลายในช่วงท้ายวันหยุดเทศกาลชูซอก",
+    "link": "https://en.yna.co.kr/view/AEN20260926001052315"
+  },
+  {
+    "id": "hotnews_th_d33f2e46",
+    "date": "2026-09-26",
+    "ts": 1790423412000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609310001300_P2.jpg",
+    "title": "กองทัพเกาหลีใต้และ UNC ตรวจสอบพื้นที่ DMZ เหตุระเบิด",
+    "link": "https://en.yna.co.kr/view/AEN20260926004551315"
+  },
+  {
     "id": "hotnews_th_30ea9a73",
     "date": "2026-09-26",
     "ts": 1790422623000,
@@ -16,12 +56,44 @@
     "link": "https://en.yna.co.kr/view/AEN20260926004500315"
   },
   {
+    "id": "hotnews_th_0fa68525",
+    "date": "2026-09-26",
+    "ts": 1790420395000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925019701009_P2.jpg",
+    "title": "ทรัมป์และสีจิ้นผิงตกลงตั้งช่องทางสื่อสารเรื่อง AI และคัดค้านการเก็บค่าผ่านทางในน่านน้ำสากล",
+    "link": "https://en.yna.co.kr/view/AEN20260926003900315"
+  },
+  {
     "id": "hotnews_th_7684078a",
     "date": "2026-09-26",
     "ts": 1790419735000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607800001300_P2.jpg",
     "title": "เกาหลีใต้คว้าทองดาบเซเบอร์ทีมชาย เอเชียนเกมส์ สมัยที่ 4 ติดต่อกัน",
     "link": "https://en.yna.co.kr/view/AEN20260926003851320"
+  },
+  {
+    "id": "hotnews_th_f94fdf27",
+    "date": "2026-09-26",
+    "ts": 1790416165000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926003500315_01_i_P2.jpg",
+    "title": "เอกอัครราชทูตรัสเซียคนใหม่ประจำเกาหลีเหนือเดินทางถึงเปียงยางแล้ว",
+    "link": "https://en.yna.co.kr/view/AEN20260926003500315"
+  },
+  {
+    "id": "hotnews_th_11aaa8ac",
+    "date": "2026-09-26",
+    "ts": 1790409168000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260925.PYH2026092509710001300_T1.jpg",
+    "title": "โจเอล จิน นวามาดี ถอนตัววิ่ง 200 เมตรเอเชียนเกมส์เพราะตะคริว",
+    "link": "https://www.koreaherald.com/article/10884950"
+  },
+  {
+    "id": "hotnews_th_19246a4f",
+    "date": "2026-09-26",
+    "ts": 1790408874000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260909.PRU20260909187201009_T1.jpg",
+    "title": "รัฐบาลเกาหลีใต้ถูกวิจารณ์เรื่องล่าช้าในการตรวจสอบเหตุระเบิดใน DMZ",
+    "link": "https://www.koreaherald.com/article/10884947"
   },
   {
     "id": "hotnews_th_354dd355",
@@ -38,6 +110,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000453315_01_i_P2.jpg",
     "title": "ประธานาธิบดี อีแจมยอง เยือนเม็กซิโก หนุนฟื้นเจรจาการค้า",
     "link": "https://en.yna.co.kr/view/AEN20260926000453315"
+  },
+  {
+    "id": "hotnews_th_488fdfe5",
+    "date": "2026-09-26",
+    "ts": 1790407304000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002400315_01_i_P2.jpg",
+    "title": "รัฐบาลย้ำยึดหลักมนุษยธรรมและกฎหมายสากลกรณีเชลยศึกเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260926002400315"
   },
   {
     "id": "hotnews_th_edef790e",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503650001300_P2.jpg",
     "title": "การจราจรบนทางหลวงหนาแน่นในวันชูซอก",
     "link": "https://en.yna.co.kr/view/AEN20260925001351320"
-  },
-  {
-    "id": "hotnews_th_a71f5447",
-    "date": "2026-09-25",
-    "ts": 1790311494000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/news-p.v1.20260925.7212844442e14216a2421efa35985c80_T1.jpg",
-    "title": "พัคจีฮยอน ได้รับการเสนอชื่อเข้าชิงรางวัล International Emmy",
-    "link": "https://www.koreaherald.com/article/10884558"
-  },
-  {
-    "id": "hotnews_th_9e6b7949",
-    "date": "2026-09-25",
-    "ts": 1790310059000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092505400001300_P2.jpg",
-    "title": "เกาหลีใต้คว้าเงินและทองแดงยิงปืนเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260925002700315"
-  },
-  {
-    "id": "hotnews_th_3d159f78",
-    "date": "2026-09-25",
-    "ts": 1790306951000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924253701009_P2.jpg",
-    "title": "เกาหลีใต้คว้าทองเรือพายคายัคคู่ 500 เมตร เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260925002551320"
-  },
-  {
-    "id": "hotnews_th_2ecf5e52",
-    "date": "2026-09-25",
-    "ts": 1790306826000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001551315_03_i_P2.jpg",
-    "title": "อี แจมยอง ย้ำไม่ลงสมัครเลือกตั้งซ้ำผ่านการแก้รัฐธรรมนูญ",
-    "link": "https://en.yna.co.kr/view/AEN20260925001551315"
-  },
-  {
-    "id": "hotnews_th_7bf7e22c",
-    "date": "2026-09-25",
-    "ts": 1790303540000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260925.PYH2026092503650001300_T1.jpg",
-    "title": "ทางหลวงเกาหลีใต้ติดขัดช่วงชูซอก โซลไปปูซานใช้เวลา 8 ชม. 40 นาที",
-    "link": "https://www.koreaherald.com/article/10884529"
-  },
-  {
-    "id": "hotnews_th_a77d891a",
-    "date": "2026-09-25",
-    "ts": 1790303375000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925113116_40_e.jpg",
-    "title": "อี ยืนยันชัดเจนว่าจะไม่ลงสมัครรับเลือกตั้งอีกสมัย",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204481"
-  },
-  {
-    "id": "hotnews_th_1e9dab16",
-    "date": "2026-09-25",
-    "ts": 1790300568000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/25/rcv.YNA.20260920.PYH2026092014620005100_T1.jpg",
-    "title": "คนแห่ชมฉลามที่ปูซานทะลุ 1 แสนคนในวันหยุดชู석",
-    "link": "https://www.koreaherald.com/article/10884513"
-  },
-  {
-    "id": "hotnews_th_2bdb424f",
-    "date": "2026-09-25",
-    "ts": 1790297003000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925001400320_01_i_P2.jpg",
-    "title": "ไฟไหม้แบตสำรองบนเครื่องบินแอร์โซลไปดานัง",
-    "link": "https://en.yna.co.kr/view/AEN20260925001400320"
-  },
-  {
-    "id": "hotnews_th_52d3c18a",
-    "date": "2026-09-24",
-    "ts": 1790291630000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000600315_01_i_P2.jpg",
-    "title": "อี แจมยอง สัญญาทำงานหนักขึ้นเพื่อให้ชีวิตประชาชนสว่างไสว",
-    "link": "https://en.yna.co.kr/view/AEN20260925000600315"
-  },
-  {
-    "id": "hotnews_th_698e839e",
-    "date": "2026-09-24",
-    "ts": 1790286439000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "สี จิ้นผิง เผย สรุปข้อตกลงการค้าใหม่กับสหรัฐฯ แล้ว",
-    "link": "https://en.yna.co.kr/view/AEN20260924006053315"
   }
 ]
