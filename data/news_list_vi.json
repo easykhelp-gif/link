@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_30ea9a73",
+    "date": "2026-09-26",
+    "ts": 1790422623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/57c4a706-6aba-4cd0-85dc-832a1326b9e7.jpeg",
+    "title": "Đa số người dùng mạng tại Hàn Quốc muốn dán nhãn nội dung AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/8-in-10-korean-social-media-users-want-ai-content-labels-citing-distrust?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_64688529",
+    "date": "2026-09-26",
+    "ts": 1790421209000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092216820006000_P2.jpg",
+    "title": "Quân đội Hàn Quốc và UNC khảo sát chung vụ nổ tại DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260926004500315"
+  },
+  {
+    "id": "hotnews_vi_7684078a",
+    "date": "2026-09-26",
+    "ts": 1790419735000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607800001300_P2.jpg",
+    "title": "Hàn Quốc thắng huy chương vàng đấu kiếm Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260926003851320"
+  },
+  {
+    "id": "hotnews_vi_354dd355",
+    "date": "2026-09-26",
+    "ts": 1790407966000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092510160001300_P2.jpg",
+    "title": "Vận động viên Joel Jin Nwamadi bỏ cuộc thi 200m vì chuột rút",
+    "link": "https://en.yna.co.kr/view/AEN20260926003000315"
+  },
+  {
+    "id": "hotnews_vi_e33f4c60",
+    "date": "2026-09-26",
+    "ts": 1790407620000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000453315_01_i_P2.jpg",
+    "title": "Tổng thống Lee thúc đẩy đàm phán thương mại với Mexico",
+    "link": "https://en.yna.co.kr/view/AEN20260926000453315"
+  },
+  {
+    "id": "hotnews_vi_edef790e",
+    "date": "2026-09-26",
+    "ts": 1790406775000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092605070001300_P2.jpg",
+    "title": "Vận động viên Kim Ji-eun giành huy chương đồng bắn súng tại Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260926001951315"
+  },
+  {
+    "id": "hotnews_vi_7fad6429",
+    "date": "2026-09-26",
+    "ts": 1790403311000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904090755_63_k.jpg",
+    "title": "Thời tiết ngày mai: Trời nắng toàn quốc, Jeju có mưa",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204490"
+  },
+  {
+    "id": "hotnews_vi_1b7de114",
+    "date": "2026-09-26",
+    "ts": 1790401925000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "Đường cao tốc ù tắc nghiêm trọng trong ngày lễ Chuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260926001051315"
+  },
+  {
+    "id": "hotnews_vi_a6107abd",
+    "date": "2026-09-26",
+    "ts": 1790400887000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002100315_01_i_P2.jpg",
+    "title": "Phim Hàn 'The Assassin(s)' đạt 1 triệu vé sau 3 ngày chiếu",
+    "link": "https://en.yna.co.kr/view/AEN20260926002100315"
+  },
+  {
     "id": "hotnews_vi_c359c64c",
     "date": "2026-09-26",
     "ts": 1790399823000,
@@ -46,6 +118,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926015608_46_e.jpg",
     "title": "Giao thông thứ Bảy dự kiến đông đúc lúc 17h",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204486"
+  },
+  {
+    "id": "hotnews_vi_1eaf1046",
+    "date": "2026-09-26",
+    "ts": 1790393260000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260923.PYH2026092302230001300_T1.jpg",
+    "title": "Khách bay quốc tế tại Hàn Quốc tăng 10% dù giá dầu tăng",
+    "link": "https://www.koreaherald.com/article/10884857"
   },
   {
     "id": "hotnews_vi_f1b14d2b",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
     "title": "Mỹ và Trung Quốc đạt thỏa thuận thương mại mới tại Washington",
     "link": "https://en.yna.co.kr/view/AEN20260924006053315"
-  },
-  {
-    "id": "hotnews_vi_c5fbc166",
-    "date": "2026-09-24",
-    "ts": 1790285823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
-    "title": "Tổng thống Lee tiếc vì Ukraine lộ vụ 2 tù binh Bắc Triều Tiên",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_b3d4e667",
-    "date": "2026-09-24",
-    "ts": 1790283685000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
-    "title": "Hàn Quốc và Mexico hợp tác về dầu mỏ, quốc phòng và AI",
-    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
-  },
-  {
-    "id": "hotnews_vi_fe18ec78",
-    "date": "2026-09-24",
-    "ts": 1790283660000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
-    "title": "Hàn Quốc cân nhắc tăng vé vào cung điện sau 20 năm",
-    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
-  },
-  {
-    "id": "hotnews_vi_33439bf7",
-    "date": "2026-09-24",
-    "ts": 1790283601000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
-    "title": "Triều Tiên kỷ niệm Tết Trung thu Chuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
-  },
-  {
-    "id": "hotnews_vi_f77508a5",
-    "date": "2026-09-24",
-    "ts": 1790283600000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
-    "title": "Đội kiếm Hàn Quốc bảo vệ ngôi vô địch Asiad vào dịp Trung thu",
-    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
-  },
-  {
-    "id": "hotnews_vi_6c9b3602",
-    "date": "2026-09-24",
-    "ts": 1790274916000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "Trump và Tập Cận Bình nhấn mạnh tình hữu nghị tại Washington",
-    "link": "https://en.yna.co.kr/view/AEN20260924006052315"
-  },
-  {
-    "id": "hotnews_vi_5552c662",
-    "date": "2026-09-24",
-    "ts": 1790270482000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000351315_03_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung hội đàm với Tổng thống Mexico",
-    "link": "https://en.yna.co.kr/view/AEN20260925000351315"
-  },
-  {
-    "id": "hotnews_vi_cb44dee7",
-    "date": "2026-09-24",
-    "ts": 1790269677000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/04/PYH2025030416940031500_P2.jpg",
-    "title": "Tổng thống Lee tiếc nuối việc Ukraine tiết lộ lính Bắc Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260925000251315"
-  },
-  {
-    "id": "hotnews_vi_223ed987",
-    "date": "2026-09-24",
-    "ts": 1790268553000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "Trump và Tập Cận Bình nhấn mạnh tình hữu nghị và hợp tác tại Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20260924006051315"
-  },
-  {
-    "id": "hotnews_vi_8f0c92de",
-    "date": "2026-09-24",
-    "ts": 1790267326000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000300315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung thăm Mexico và chuẩn bị hội nghị thượng đỉnh",
-    "link": "https://en.yna.co.kr/view/AEN20260925000300315"
   }
 ]

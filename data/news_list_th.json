@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_30ea9a73",
+    "date": "2026-09-26",
+    "ts": 1790422623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/57c4a706-6aba-4cd0-85dc-832a1326b9e7.jpeg",
+    "title": "ชาวเน็ตเกาหลีกว่าร้อยละ 80 หนุนติดป้ายกำกับคอนเทนต์ AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/8-in-10-korean-social-media-users-want-ai-content-labels-citing-distrust?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_64688529",
+    "date": "2026-09-26",
+    "ts": 1790421209000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092216820006000_P2.jpg",
+    "title": "ทหารเกาหลีใต้และกองกำลังยูเอ็นสำรวจพื้นที่เขตปลอดทหาร (DMZ)",
+    "link": "https://en.yna.co.kr/view/AEN20260926004500315"
+  },
+  {
+    "id": "hotnews_th_7684078a",
+    "date": "2026-09-26",
+    "ts": 1790419735000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607800001300_P2.jpg",
+    "title": "เกาหลีใต้คว้าทองดาบเซเบอร์ทีมชาย เอเชียนเกมส์ สมัยที่ 4 ติดต่อกัน",
+    "link": "https://en.yna.co.kr/view/AEN20260926003851320"
+  },
+  {
+    "id": "hotnews_th_354dd355",
+    "date": "2026-09-26",
+    "ts": 1790407966000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092510160001300_P2.jpg",
+    "title": "โจเอล จิน นวามาดี ถอนตัววิ่ง 200 เมตรเอเชียนเกมส์เพราะเป็นตะคริว",
+    "link": "https://en.yna.co.kr/view/AEN20260926003000315"
+  },
+  {
+    "id": "hotnews_th_e33f4c60",
+    "date": "2026-09-26",
+    "ts": 1790407620000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000453315_01_i_P2.jpg",
+    "title": "ประธานาธิบดี อีแจมยอง เยือนเม็กซิโก หนุนฟื้นเจรจาการค้า",
+    "link": "https://en.yna.co.kr/view/AEN20260926000453315"
+  },
+  {
+    "id": "hotnews_th_edef790e",
+    "date": "2026-09-26",
+    "ts": 1790406775000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092605070001300_P2.jpg",
+    "title": "คิม จีอึน คว้าเหรียญทองแดงยิงปืน เอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260926001951315"
+  },
+  {
+    "id": "hotnews_th_7fad6429",
+    "date": "2026-09-26",
+    "ts": 1790403311000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904090755_63_k.jpg",
+    "title": "พยากรณ์อากาศวันอาทิตย์ ทั่วประเทศท้องฟ้าแจ่มใส ยกเว้นเกาะเชจู",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204490"
+  },
+  {
+    "id": "hotnews_th_1b7de114",
+    "date": "2026-09-26",
+    "ts": 1790401925000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
+    "title": "ทางหลวงเกาหลีใต้ติดขัดช่วงวันหยุดชuseok",
+    "link": "https://en.yna.co.kr/view/AEN20260926001051315"
+  },
+  {
+    "id": "hotnews_th_a6107abd",
+    "date": "2026-09-26",
+    "ts": 1790400887000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002100315_01_i_P2.jpg",
+    "title": "ภาพยนตร์เกาหลี The Assassin(s) ทำยอดผู้ชมทะลุ 1 ล้านคน",
+    "link": "https://en.yna.co.kr/view/AEN20260926002100315"
+  },
+  {
     "id": "hotnews_th_c359c64c",
     "date": "2026-09-26",
     "ts": 1790399823000,
@@ -46,6 +118,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926015608_46_e.jpg",
     "title": "การจราจรวันหยุดเสาร์นี้คาดว่าจะหนาแน่นช่วง 17.00 น.",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204486"
+  },
+  {
+    "id": "hotnews_th_1eaf1046",
+    "date": "2026-09-26",
+    "ts": 1790393260000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260923.PYH2026092302230001300_T1.jpg",
+    "title": "ผู้โดยสารเที่ยวบินระหว่างประเทศในเกาหลีใต้พุ่งขึ้น 10%",
+    "link": "https://www.koreaherald.com/article/10884857"
   },
   {
     "id": "hotnews_th_f1b14d2b",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
     "title": "สี จิ้นผิง เผย สรุปข้อตกลงการค้าใหม่กับสหรัฐฯ แล้ว",
     "link": "https://en.yna.co.kr/view/AEN20260924006053315"
-  },
-  {
-    "id": "hotnews_th_c5fbc166",
-    "date": "2026-09-24",
-    "ts": 1790285823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/25/9c57fd37-62b9-4b27-a3b5-a8db145102a8.jpg",
-    "title": "ประธานาธิบดีอีแจมยองระบุยูเครนละเมิดข้อตกลงลับส่งเชลยศึกเกาหลีเหนือ",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260925/lee-says-ukraine-breached-non-disclosure-agreement-on-2-nk-soldiers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_b3d4e667",
-    "date": "2026-09-24",
-    "ts": 1790283685000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000353315_05_i_P2.jpg",
-    "title": "เกาหลีใต้และเม็กซิโกรับรองแผนปฏิบัติการร่วมมือด้านต่างๆ",
-    "link": "https://en.yna.co.kr/view/AEN20260925000353315"
-  },
-  {
-    "id": "hotnews_th_fe18ec78",
-    "date": "2026-09-24",
-    "ts": 1790283660000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/02/17/PYH2026021702720031500_P2.jpg",
-    "title": "รัฐบาลเกาหลีใต้จ่อขึ้นค่าเข้าพระราชวังและสุสานหลวงในรอบ 20 ปี",
-    "link": "https://en.yna.co.kr/view/AEN20260923005200315"
-  },
-  {
-    "id": "hotnews_th_33439bf7",
-    "date": "2026-09-24",
-    "ts": 1790283601000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/23/AEN20260923007400315_02_i_P2.jpg",
-    "title": "ชาวเกาหลีเหนือฉลองวันชูซอกด้วยพิธีบรรพบุรุษและกีฬาพื้นบ้าน",
-    "link": "https://en.yna.co.kr/view/AEN20260923007400315"
-  },
-  {
-    "id": "hotnews_th_f77508a5",
-    "date": "2026-09-24",
-    "ts": 1790283600000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092228600001300_P2.jpg",
-    "title": "ทีมฟันดาบและนักกีฬาเกาหลีใต้ลุยศึกเอเชียนเกมส์วันชูซอก",
-    "link": "https://en.yna.co.kr/view/AEN20260922005300320"
-  },
-  {
-    "id": "hotnews_th_6c9b3602",
-    "date": "2026-09-24",
-    "ts": 1790274916000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "ทรัมป์และสีจิ้นผิงหารือที่ทำเนียบขาว เน้นย้ำมิตรภาพและความร่วมมือ",
-    "link": "https://en.yna.co.kr/view/AEN20260924006052315"
-  },
-  {
-    "id": "hotnews_th_5552c662",
-    "date": "2026-09-24",
-    "ts": 1790270482000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000351315_03_i_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองพบปะผู้นำเม็กซิโกกระชับความร่วมมือ",
-    "link": "https://en.yna.co.kr/view/AEN20260925000351315"
-  },
-  {
-    "id": "hotnews_th_cb44dee7",
-    "date": "2026-09-24",
-    "ts": 1790269677000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/03/04/PYH2025030416940031500_P2.jpg",
-    "title": "อีแจมยองเผยยูเครนละเมิดข้อตกลงลับส่งมอบทหารเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20260925000251315"
-  },
-  {
-    "id": "hotnews_th_223ed987",
-    "date": "2026-09-24",
-    "ts": 1790268553000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925032001009_P2.jpg",
-    "title": "ทรัมป์และสีจิ้นผิงพบกันที่ทำเนียบขาว เน้นย้ำความร่วมมือ",
-    "link": "https://en.yna.co.kr/view/AEN20260924006051315"
-  },
-  {
-    "id": "hotnews_th_8f0c92de",
-    "date": "2026-09-24",
-    "ts": 1790267326000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/25/AEN20260925000300315_01_i_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเยือนเม็กซิโกและเตรียมพบปะผู้นำ",
-    "link": "https://en.yna.co.kr/view/AEN20260925000300315"
   }
 ]
