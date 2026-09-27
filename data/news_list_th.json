@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_th_61a89cc0",
+    "date": "2026-09-27",
+    "ts": 1790528822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/27/fe05f0c2-56af-4172-b099-2bee6825e1f2.jpeg",
+    "title": "ผลสำรวจชี้คำถามจี้ใจดำจากญาติคือสิ่งที่คนเกาหลีไม่อยากเจอที่สุดในวันชูซอก",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260928/excessive-questions-from-relatives-top-list-of-chuseok-irritations?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4954d645",
+    "date": "2026-09-27",
+    "ts": 1790521179000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/27/AEN20260927004051315_01_i_P2.jpg",
+    "title": "รัฐบาลเกาหลีใต้แสดงความเสียใจอย่างยิ่งต่อยูเครนเรื่องเชลยศึกเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260927004051315"
+  },
+  {
+    "id": "hotnews_th_127ccf35",
+    "date": "2026-09-27",
+    "ts": 1790517465000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092713470001300_P2.jpg",
+    "title": "กwak Been พาทีมเบสบอลเกาหลีใต้คว้าทองเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260927003551315"
+  },
+  {
+    "id": "hotnews_th_3883b62f",
+    "date": "2026-09-27",
+    "ts": 1790517452000,
+    "image": "",
+    "title": "ตารางเหรียญเอเชียนเกมส์ ไอจีชิ-นาโกะยะ",
+    "link": "https://en.yna.co.kr/view/AEN20230924003993315"
+  },
+  {
+    "id": "hotnews_th_fbabb334",
+    "date": "2026-09-27",
+    "ts": 1790515666000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092717230001300_P2.jpg",
+    "title": "อู ซัง-ฮยอก คว้าเหรียญทองแดงกระโดดสูงเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260927003600320"
+  },
+  {
     "id": "hotnews_th_f7d6ccb0",
     "date": "2026-09-27",
     "ts": 1790511423000,
@@ -48,6 +88,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260927002551320"
   },
   {
+    "id": "hotnews_th_c705111f",
+    "date": "2026-09-27",
+    "ts": 1790505994000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609310001300_P2.jpg",
+    "title": "กองทัพเกาหลีใต้และ UNC ตรวจสอบเหตุระเบิดใน DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260927002600315"
+  },
+  {
     "id": "hotnews_th_73e76725",
     "date": "2026-09-27",
     "ts": 1790505000000,
@@ -78,6 +126,38 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.b9410b3ce899476bbdda3bcf40cbd259_T1.jpg",
     "title": "เกาหลีใต้เตรียมยุบสำนักงานอัยการในสัปดาห์นี้",
     "link": "https://www.koreaherald.com/article/10885313"
+  },
+  {
+    "id": "hotnews_th_9d0631f3",
+    "date": "2026-09-27",
+    "ts": 1790492329000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.640f546a43b447d9b65886b6b04c254a_T1.gif",
+    "title": "ผู้ต้องสงสัย 4 รายหนีไปจีนหลังก่อเหตุทำลายร้านอาหาร",
+    "link": "https://www.koreaherald.com/article/10885308"
+  },
+  {
+    "id": "hotnews_th_55bb74da",
+    "date": "2026-09-27",
+    "ts": 1790487972000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.7b0b978ed75845a795058a2f6d9fa1aa_T1.jpg",
+    "title": "ดัชนีความเชื่อมั่นภาคการผลิตเกาหลีใต้ปรับตัวดีขึ้น",
+    "link": "https://www.koreaherald.com/article/10885275"
+  },
+  {
+    "id": "hotnews_th_dddb1846",
+    "date": "2026-09-27",
+    "ts": 1790487008000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.aa4fd9b9c67546c5bbfd8254afd33167_T1.jpg",
+    "title": "ประธานาธิบดีอี แจ-มยอง เดินทางกลับเกาหลีใต้ เผชิญปัญหาการเมืองภายใน",
+    "link": "https://www.koreaherald.com/article/10885267"
+  },
+  {
+    "id": "hotnews_th_78ea5953",
+    "date": "2026-09-27",
+    "ts": 1790486167000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.c6b1b124b58941f486f50cd49e23a106_T1.jpg",
+    "title": "อีkeunhoo จิตแพทย์และนักเขียนดัง เสียชีวิตด้วยวัย 91 ปี",
+    "link": "https://www.koreaherald.com/article/10885262"
   },
   {
     "id": "hotnews_th_bb019baf",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092510160001300_P2.jpg",
     "title": "โจเอล จิน นวามาดี ถอนตัววิ่ง 200 เมตรเอเชียนเกมส์เพราะเป็นตะคริว",
     "link": "https://en.yna.co.kr/view/AEN20260926003000315"
-  },
-  {
-    "id": "hotnews_th_e33f4c60",
-    "date": "2026-09-26",
-    "ts": 1790407620000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000453315_01_i_P2.jpg",
-    "title": "ประธานาธิบดี อีแจมยอง เยือนเม็กซิโก หนุนฟื้นเจรจาการค้า",
-    "link": "https://en.yna.co.kr/view/AEN20260926000453315"
-  },
-  {
-    "id": "hotnews_th_488fdfe5",
-    "date": "2026-09-26",
-    "ts": 1790407304000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002400315_01_i_P2.jpg",
-    "title": "รัฐบาลย้ำยึดหลักมนุษยธรรมและกฎหมายสากลกรณีเชลยศึกเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20260926002400315"
-  },
-  {
-    "id": "hotnews_th_edef790e",
-    "date": "2026-09-26",
-    "ts": 1790406775000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092605070001300_P2.jpg",
-    "title": "คิม จีอึน คว้าเหรียญทองแดงยิงปืน เอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260926001951315"
-  },
-  {
-    "id": "hotnews_th_50ac8b20",
-    "date": "2026-09-26",
-    "ts": 1790406032000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092507010001300_P2.jpg",
-    "title": "นักว่ายน้ำเกาหลีใต้ อัน เซ-ฮยอน คว้าสองเหรียญทองแดงในเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260926002300315"
-  },
-  {
-    "id": "hotnews_th_cb83b8a7",
-    "date": "2026-09-26",
-    "ts": 1790406000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/23/news-p.v1.20260921.72a3c6019d7847ec9e62778677b0fbaf_T1.jpg",
-    "title": "ความทะเยอทะยานของจีนและความขัดแย้งกับสหรัฐฯ ส่งผลต่อเกาหลีใต้",
-    "link": "https://www.koreaherald.com/article/10882924"
-  },
-  {
-    "id": "hotnews_th_f2ea0a1d",
-    "date": "2026-09-26",
-    "ts": 1790406000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/22/news-p.v1.20260922.f42091b0a9b94e6b8a0946290c224a3a_T1.jpeg",
-    "title": "บริษัท Milrem พัฒนาระบบไร้คนขับจากประสบการณ์ในยูเครน",
-    "link": "https://www.koreaherald.com/article/10882258"
-  },
-  {
-    "id": "hotnews_th_7fad6429",
-    "date": "2026-09-26",
-    "ts": 1790403311000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260904090755_63_k.jpg",
-    "title": "พยากรณ์อากาศวันอาทิตย์ ทั่วประเทศท้องฟ้าแจ่มใส ยกเว้นเกาะเชจู",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204490"
-  },
-  {
-    "id": "hotnews_th_1b7de114",
-    "date": "2026-09-26",
-    "ts": 1790401925000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
-    "title": "ทางหลวงเกาหลีใต้ติดขัดช่วงวันหยุดชuseok",
-    "link": "https://en.yna.co.kr/view/AEN20260926001051315"
-  },
-  {
-    "id": "hotnews_th_a6107abd",
-    "date": "2026-09-26",
-    "ts": 1790400887000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926002100315_01_i_P2.jpg",
-    "title": "ภาพยนตร์เกาหลี The Assassin(s) ทำยอดผู้ชมทะลุ 1 ล้านคน",
-    "link": "https://en.yna.co.kr/view/AEN20260926002100315"
-  },
-  {
-    "id": "hotnews_th_c359c64c",
-    "date": "2026-09-26",
-    "ts": 1790399823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/16279124-e8fd-4dee-971d-eed9fbbc426c.jpg",
-    "title": "ชาวต่างชาติในเกาหลีใต้พุ่งแตะ 2.87 ล้านคนในเดือนสิงหาคม",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/number-of-foreigners-in-korea-reaches-28-million-in-august?utm_source=rss"
   }
 ]
