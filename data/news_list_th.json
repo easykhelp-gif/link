@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_f7d6ccb0",
+    "date": "2026-09-27",
+    "ts": 1790511423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/10/920e83bb-820d-4cba-8bc4-b6b50115867a.jpeg",
+    "title": "ทีมเบสบอลเยาวชนหลากหลายวัฒนธรรมทีมแรกของอุลซานช่วยเด็กๆ สร้างความมั่นใจ",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260927/ulsans-1st-multicultural-youth-baseball-team-helps-kids-find-their-place?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6331d052",
+    "date": "2026-09-27",
+    "ts": 1790511423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/27/c5d7cf93-bdba-4ef7-9f7e-26383940690a.jpeg",
+    "title": "นักวิจัยเกาหลีพัฒนาชิปติดตามการรักษาโรคพาร์กินสันแบบเรียลไทม์",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260927/researchers-develop-technology-for-real-time-monitoring-of-parkinsons-treatments?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_88e49085",
+    "date": "2026-09-27",
+    "ts": 1790511423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/27/811f8bb1-2f0c-4efa-a483-7edc3209555d.jpeg",
+    "title": "ร้าน Chipotle ในโซลใช้ข้าวพันธุ์ใหม่สู้ภัยแล้ง",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260927/chipotles-seoul-store-uses-long-grain-rice-developed-by-sejong-university-professor?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_ff176401",
+    "date": "2026-09-27",
+    "ts": 1790510659000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000300315_01_i_P2.jpg",
+    "title": "ประธานาธิบดีอี แจ-มยอง กลับถึงเกาหลีใต้หลังเยือนสหรัฐฯ และเม็กซิโก",
+    "link": "https://en.yna.co.kr/view/AEN20260926000300315"
+  },
+  {
+    "id": "hotnews_th_124be530",
+    "date": "2026-09-27",
+    "ts": 1790509155000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609310001300_P2.jpg",
+    "title": "ทหารเกาหลีใต้และกองกำลังยูเอ็นตรวจสอบเหตุระเบิดใน DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260927002651315"
+  },
+  {
+    "id": "hotnews_th_8cad9a2a",
+    "date": "2026-09-27",
+    "ts": 1790507447000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092713260001300_P2.jpg",
+    "title": "เกาหลีใต้คว้าทองแฮนด์บอลหญิงเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260927002551320"
+  },
+  {
+    "id": "hotnews_th_73e76725",
+    "date": "2026-09-27",
+    "ts": 1790505000000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091511110006500_P2.jpg",
+    "title": "ผู้บัญชาการนาวิกโยธินเกาหลีใต้เยือนฟิลิปปินส์",
+    "link": "https://en.yna.co.kr/view/AEN20260927001400315"
+  },
+  {
+    "id": "hotnews_th_96c47f09",
+    "date": "2026-09-27",
+    "ts": 1790500997000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.e4b8d2cb27424b7cbbbb1c36e16bfd31_T1.jpg",
+    "title": "ชายคาดว่าเป็นชาวเกาหลีใต้สูญหายจากเหตุน้ำท่วมที่พัทยา",
+    "link": "https://www.koreaherald.com/article/10885360"
+  },
+  {
+    "id": "hotnews_th_33b99559",
+    "date": "2026-09-27",
+    "ts": 1790494466000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-a.v1.20260927.306ab90916364a39bf0d2581f7fc7d88_T1.png",
+    "title": "Fly to the Sky เตรียมคัมแบ็กในรอบ 8 ปี",
+    "link": "https://www.koreaherald.com/article/10885321"
+  },
+  {
+    "id": "hotnews_th_929966db",
+    "date": "2026-09-27",
+    "ts": 1790493403000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.b9410b3ce899476bbdda3bcf40cbd259_T1.jpg",
+    "title": "เกาหลีใต้เตรียมยุบสำนักงานอัยการในสัปดาห์นี้",
+    "link": "https://www.koreaherald.com/article/10885313"
+  },
+  {
     "id": "hotnews_th_bb019baf",
     "date": "2026-09-27",
     "ts": 1790485587000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/26/16279124-e8fd-4dee-971d-eed9fbbc426c.jpg",
     "title": "ชาวต่างชาติในเกาหลีใต้พุ่งแตะ 2.87 ล้านคนในเดือนสิงหาคม",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/number-of-foreigners-in-korea-reaches-28-million-in-august?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a1ad513d",
-    "date": "2026-09-26",
-    "ts": 1790399823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/08/29/4425f1f3-e284-4c70-8a76-842407eb3ebd.jpeg",
-    "title": "สตาร์ทอัพ UpperClass พลิกโฉมการแนะแนวรับนักศึกษาต่างชาติ",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260926/upperclass-bets-on-peer-trust-to-reshape-international-student-recruitment?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_aa55efb6",
-    "date": "2026-09-26",
-    "ts": 1790399823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/1cec19a0-8ecd-4c3e-a09c-6a8f8b1053f6.jpeg",
-    "title": "ตลาดงานเกาหลีใต้แย่ลง คนรุ่นใหม่เครียดหางานยากช่วงวันหยุด",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260926/i-feel-sorry-toward-my-parents-youth-job-market-remains-a-needles-eye?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1ac915c5",
-    "date": "2026-09-26",
-    "ts": 1790399823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/b9beb03f-aef7-44f3-9990-1030b3159221.jpeg",
-    "title": "พัคจินยอง JYP จ่อถูกเรียกสอบปมเครื่องหมายการค้า Fanomenon",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260926/jyp-founder-to-face-national-assembly-scrutiny-over-korean-coachella-trademark?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_121e02d3",
-    "date": "2026-09-26",
-    "ts": 1790398800000,
-    "image": "",
-    "title": "ย้อนรอยเหตุการณ์สำคัญในเกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20260926000700315"
-  },
-  {
-    "id": "hotnews_th_cfc32641",
-    "date": "2026-09-26",
-    "ts": 1790397461000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926015608_46_e.jpg",
-    "title": "การจราจรวันหยุดเสาร์นี้คาดว่าจะหนาแน่นช่วง 17.00 น.",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204486"
-  },
-  {
-    "id": "hotnews_th_1eaf1046",
-    "date": "2026-09-26",
-    "ts": 1790393260000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/26/rcv.YNA.20260923.PYH2026092302230001300_T1.jpg",
-    "title": "ผู้โดยสารเที่ยวบินระหว่างประเทศในเกาหลีใต้พุ่งขึ้น 10%",
-    "link": "https://www.koreaherald.com/article/10884857"
-  },
-  {
-    "id": "hotnews_th_f1b14d2b",
-    "date": "2026-09-26",
-    "ts": 1790390770000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092302190001300_P2.jpg",
-    "title": "ผู้โดยสารเที่ยวบินระหว่างประเทศในเกาหลีใต้เพิ่มขึ้นร้อยละ 10",
-    "link": "https://en.yna.co.kr/view/AEN20260926001100315"
-  },
-  {
-    "id": "hotnews_th_54c6759f",
-    "date": "2026-09-26",
-    "ts": 1790387157000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000452315_01_i_P2.jpg",
-    "title": "อีแจมยองเรียกร้องรื้อฟื้นเจรจาการค้ากับเม็กซิโก",
-    "link": "https://en.yna.co.kr/view/AEN20260926000452315"
-  },
-  {
-    "id": "hotnews_th_33300a51",
-    "date": "2026-09-26",
-    "ts": 1790386914000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
-    "title": "การจราจรบนทางหลวงเกาหลีหนาแน่นในช่วงวันหยุดชู석",
-    "link": "https://en.yna.co.kr/view/AEN20260926001000315"
-  },
-  {
-    "id": "hotnews_th_7afc6644",
-    "date": "2026-09-25",
-    "ts": 1790343681000,
-    "image": "",
-    "title": "ตารางสรุปเหรียญรางวัลเอเชียนเกมส์ ไอจิ-นาโกยา",
-    "link": "https://en.yna.co.kr/view/AEN20230924003991315"
   }
 ]
