@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_019c9bb0",
+    "date": "2026-09-27",
+    "ts": 1790541000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.c32422d88df34abd8c0f2e03bbfd0871_T1.jpg",
+    "title": "[Yoo Choon-sik] When headline growth tells only half the story",
+    "link": "https://www.koreaherald.com/article/10885312"
+  },
+  {
+    "id": "hotnews_en_aad97d42",
+    "date": "2026-09-27",
+    "ts": 1790541000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.a55eed5fe8df4df8bc53c93db64b7152_T1.jpg",
+    "title": "[Man-Ki Kim] Test Encinal project feasibility",
+    "link": "https://www.koreaherald.com/article/10885311"
+  },
+  {
     "id": "hotnews_en_61a89cc0",
     "date": "2026-09-27",
     "ts": 1790528822000,
@@ -8,12 +24,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20260928/excessive-questions-from-relatives-top-list-of-chuseok-irritations?utm_source=rss"
   },
   {
+    "id": "hotnews_en_581e1524",
+    "date": "2026-09-27",
+    "ts": 1790521682000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092716430001300_P2.jpg",
+    "title": "(Asiad) Baseball star hoping to grow from up-and-down experience",
+    "link": "https://en.yna.co.kr/view/AEN20260927004200315"
+  },
+  {
     "id": "hotnews_en_4954d645",
     "date": "2026-09-27",
     "ts": 1790521179000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/27/AEN20260927004051315_01_i_P2.jpg",
     "title": "S. Korea voices 'strong regret' over Ukraine's denial of nondisclosure pact on N.K. POWs",
     "link": "https://en.yna.co.kr/view/AEN20260927004051315"
+  },
+  {
+    "id": "hotnews_en_6c723260",
+    "date": "2026-09-27",
+    "ts": 1790519422000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Seoul voices 'strong regret' over Ukraine's denial of nondisclosure pact on N.K. POWs",
+    "link": "https://en.yna.co.kr/view/AEN20260927003900315"
   },
   {
     "id": "hotnews_en_127ccf35",
@@ -30,6 +62,14 @@
     "image": "",
     "title": "(Asiad) medal standings",
     "link": "https://en.yna.co.kr/view/AEN20230924003993315"
+  },
+  {
+    "id": "hotnews_en_bf1349c2",
+    "date": "2026-09-27",
+    "ts": 1790516937000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092718700001300_P2.jpg",
+    "title": "(Asiad) S. Korea rakes in 5 gold medals; baseball stars, teen skateboarder come through",
+    "link": "https://en.yna.co.kr/view/AEN20260927003700315"
   },
   {
     "id": "hotnews_en_fbabb334",
@@ -96,6 +136,14 @@
     "link": "https://en.yna.co.kr/view/AEN20260927002600315"
   },
   {
+    "id": "hotnews_en_f18974ff",
+    "date": "2026-09-27",
+    "ts": 1790505924000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.3d7ab410851c4b699673ae77a7ca9332_T1.jpg",
+    "title": "S. Korea, UNC inspect site of suspected DMZ mine blast",
+    "link": "https://www.koreaherald.com/article/10885384"
+  },
+  {
     "id": "hotnews_en_73e76725",
     "date": "2026-09-27",
     "ts": 1790505000000,
@@ -134,6 +182,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.640f546a43b447d9b65886b6b04c254a_T1.gif",
     "title": "4 suspects flee to China after vandalizing restaurant",
     "link": "https://www.koreaherald.com/article/10885308"
+  },
+  {
+    "id": "hotnews_en_995942cc",
+    "date": "2026-09-27",
+    "ts": 1790487980000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.43a856c598f5480681ead0e8cf51e6d0_T1.jpg",
+    "title": "Opposition raises allegations of deliberate delay in DMZ blast probe",
+    "link": "https://www.koreaherald.com/article/10885276"
   },
   {
     "id": "hotnews_en_55bb74da",
@@ -342,61 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260926.PAP20260926164601009_T1.jpg",
     "title": "OpenAI pauses training of latest models",
     "link": "https://www.koreaherald.com/article/10885209"
-  },
-  {
-    "id": "hotnews_en_1544af0c",
-    "date": "2026-09-27",
-    "ts": 1790478439000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.39dcb6a2c62d44169057639a5053d624_T1.jpg",
-    "title": "Lee Byung-hun, Ha Ye-rin lend voices to British Museum’s 'Korea' exhibition",
-    "link": "https://www.koreaherald.com/article/10885206"
-  },
-  {
-    "id": "hotnews_en_aa51ccba",
-    "date": "2026-09-27",
-    "ts": 1790478438000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260927.PAP20260927047301009_T1.jpg",
-    "title": "Persistent storm batters US Northeast, causing flooding, outages",
-    "link": "https://www.koreaherald.com/article/10885205"
-  },
-  {
-    "id": "hotnews_en_de2d379c",
-    "date": "2026-09-27",
-    "ts": 1790478001000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604590005100_P2.jpg",
-    "title": "Biz sentiment for Q4 improves on robust semiconductor, cosmetics exports: poll",
-    "link": "https://en.yna.co.kr/view/AEN20260927001300320"
-  },
-  {
-    "id": "hotnews_en_d224d0f4",
-    "date": "2026-09-27",
-    "ts": 1790477959000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260923.PAF20260923186801009_T1.jpg",
-    "title": "Venezuela releases prisoners",
-    "link": "https://www.koreaherald.com/article/10885202"
-  },
-  {
-    "id": "hotnews_en_8a1a3461",
-    "date": "2026-09-27",
-    "ts": 1790477495000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260927.PAF20260927102201009_T1.jpg",
-    "title": "Thousands protest Spain's housing crisis",
-    "link": "https://www.koreaherald.com/article/10885200"
-  },
-  {
-    "id": "hotnews_en_091bb1cc",
-    "date": "2026-09-27",
-    "ts": 1790477392000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260926.PAF20260926022801009_T1.jpg",
-    "title": "China, US agree to AI dialogue, tariff cuts",
-    "link": "https://www.koreaherald.com/article/10885199"
-  },
-  {
-    "id": "hotnews_en_b755e575",
-    "date": "2026-09-27",
-    "ts": 1790477355000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/rcv.YNA.20260927.PTA20260927000201009_T1.jpg",
-    "title": "Russia, Germany hold 1st talks since 2022",
-    "link": "https://www.koreaherald.com/article/10885198"
   }
 ]
