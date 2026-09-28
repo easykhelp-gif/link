@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_87da9ef0",
+    "date": "2026-09-28",
+    "ts": 1790574124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/27/d0ed2b5a-a79a-440d-a3e0-867cbd08faf0.jpg",
+    "title": "Đề xuất suất ăn máy bay cho người chờ trục xuất gây tranh cãi",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/plan-to-serve-airline-meals-to-deportees-divides-immigration-officials?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_8dc03b88",
+    "date": "2026-09-28",
+    "ts": 1790574124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/d532484e-3bc2-45e3-9a4e-26da82a626b9.jpeg",
+    "title": "Hội chợ việc làm Seoul 2026 kết nối nhân lực ngoại quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/20260928/seoul-job-fair-aims-to-connect-foreign-job-seekers-with-local-firms?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_71980e48",
+    "date": "2026-09-28",
+    "ts": 1790574124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/94a82e17-b88c-42d5-b516-392e2e034e1c.jpeg",
+    "title": "Đại học Sejong tổ chức diễn đàn giáo dục cho du học sinh",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260928/sejong-university-to-host-international-student-future-higher-education-forum-on-oct-1?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_db706123",
+    "date": "2026-09-28",
+    "ts": 1790574124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/f6825d3c-4c43-4b80-9479-76e4e8761e84.jpeg",
+    "title": "Đại học Seoul hợp tác mở chương trình cấp bằng kép kỹ thuật",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260928/university-of-seoul-university-of-wisconsin-milwaukee-to-offer-engineering-dual-degree-program?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ca8fe946",
+    "date": "2026-09-28",
+    "ts": 1790574124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/83172cc4-a22e-49fb-ac18-4ee38cb87587.jpeg",
+    "title": "Khủng hoảng nhân khẩu học Hàn Quốc do thay đổi giá trị gia đình",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/koreas-demographic-crisis-rooted-in-changing-family-values-global-peace-foundation-head?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_96c29a9e",
+    "date": "2026-09-28",
+    "ts": 1790571985000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/09/19/PRU20260919179101009_P2.jpg",
+    "title": "BTS và Lisa (BLACKPINK) thắng lớn tại giải thưởng MTV VMAs",
+    "link": "https://en.yna.co.kr/view/AEN20260928005452315"
+  },
+  {
+    "id": "hotnews_vi_ac5667cb",
+    "date": "2026-09-28",
+    "ts": 1790565392000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/28/news-p.v1.20260928.f9860831e1bc4d49becbbb1c91c343a8_T1.jpg",
+    "title": "LG Chem hợp tác với Volkswagen Group phát triển vật liệu ô tô",
+    "link": "https://www.koreaherald.com/article/10886150"
+  },
+  {
+    "id": "hotnews_vi_52e0aa00",
+    "date": "2026-09-28",
+    "ts": 1790564403000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/28/AEN20260928004700320_01_i_P2.jpg",
+    "title": "Lừa đảo bảo hiểm tại Hàn Quốc tăng hơn 9% trong nửa đầu năm",
+    "link": "https://en.yna.co.kr/view/AEN20260928004700320"
+  },
+  {
+    "id": "hotnews_vi_45ce1936",
+    "date": "2026-09-28",
+    "ts": 1790563904000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928115309_1_e.jpg",
+    "title": "Bộ Thống nhất: Xử lý vụ 2 tù binh Bắc Triều Tiên theo luật",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204508"
+  },
+  {
+    "id": "hotnews_vi_9bf67cc1",
+    "date": "2026-09-28",
+    "ts": 1790563606000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928011049_7_e.jpg",
+    "title": "Video quảng bá du lịch của Stray Kids đạt 10 triệu lượt xem",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204507"
+  },
+  {
     "id": "hotnews_vi_019c9bb0",
     "date": "2026-09-27",
     "ts": 1790541000000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/07/02/4c689a61-9281-4456-a21a-b721e07980fa.jpeg",
     "title": "Bảo tàng Insa Historic Sites mở cửa miễn phí ở Seoul",
     "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260927/at-insa-historic-sites-museum-heritage-is-preserved-through-destruction?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_be6eaaa5",
-    "date": "2026-09-26",
-    "ts": 1790456582000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2022/09/08/PYH2022090811790032500_P2.jpg",
-    "title": "Số người Hàn Quốc có thân nhân ở Triều Tiên giảm mạnh",
-    "link": "https://en.yna.co.kr/view/AEN20260922009100315"
-  },
-  {
-    "id": "hotnews_vi_9a560155",
-    "date": "2026-09-26",
-    "ts": 1790456405000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/11/PYH2026081114010001300_P2.jpg",
-    "title": "Số lượng visa không định cư Mỹ cấp cho người Hàn Quốc giảm 8%",
-    "link": "https://en.yna.co.kr/view/AEN20260923003900315"
-  },
-  {
-    "id": "hotnews_vi_7386aa23",
-    "date": "2026-09-26",
-    "ts": 1790456401000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609470001300_P2.jpg",
-    "title": "Đội tuyển Hàn Quốc tranh HCV bóng chày và bóng ném tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260926007800315"
-  },
-  {
-    "id": "hotnews_vi_fb344a69",
-    "date": "2026-09-26",
-    "ts": 1790441717000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/26/AEN20260926000200315_03_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung lên đường về nước kết thúc chuyến công du",
-    "link": "https://en.yna.co.kr/view/AEN20260926000200315"
-  },
-  {
-    "id": "hotnews_vi_3828373a",
-    "date": "2026-09-26",
-    "ts": 1790431433000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607670001300_P2.jpg",
-    "title": "Hàn Quốc giành thêm ba huy chương vàng tại Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20260926007700315"
-  },
-  {
-    "id": "hotnews_vi_65953c55",
-    "date": "2026-09-26",
-    "ts": 1790431125000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092608850001301_P2.jpg",
-    "title": "Hàn Quốc thắng Trung Quốc để vào chung kết bóng chày Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260926007600315"
-  },
-  {
-    "id": "hotnews_vi_02d1a56b",
-    "date": "2026-09-26",
-    "ts": 1790425869000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609780001300_P2.jpg",
-    "title": "Oh Sang-uk giúp kiếm chém Hàn Quốc giành HCV Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260926006000320"
-  },
-  {
-    "id": "hotnews_vi_9b5faf3e",
-    "date": "2026-09-26",
-    "ts": 1790425321000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092503660001300_P2.jpg",
-    "title": "Giao thông Chuseok thông thoáng khi kỳ nghỉ đến gần cuối",
-    "link": "https://en.yna.co.kr/view/AEN20260926001052315"
-  },
-  {
-    "id": "hotnews_vi_d33f2e46",
-    "date": "2026-09-26",
-    "ts": 1790423412000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092609310001300_P2.jpg",
-    "title": "Quân đội Hàn Quốc và Liên Hợp Quốc khảo sát vụ nổ ở DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20260926004551315"
-  },
-  {
-    "id": "hotnews_vi_30ea9a73",
-    "date": "2026-09-26",
-    "ts": 1790422623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/26/57c4a706-6aba-4cd0-85dc-832a1326b9e7.jpeg",
-    "title": "Đa số người dùng mạng tại Hàn Quốc muốn dán nhãn nội dung AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260926/8-in-10-korean-social-media-users-want-ai-content-labels-citing-distrust?utm_source=rss"
   }
 ]
