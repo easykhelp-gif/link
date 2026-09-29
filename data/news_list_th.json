@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_17618d3a",
+    "date": "2026-09-29",
+    "ts": 1790720823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/1b542236-46aa-4e0e-9ad4-71961d4da092.jpeg",
+    "title": "คนรุ่นใหม่เกาหลีใช้แอปพลิเคชันจำลองเพื่อลดการใช้จ่าย",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260930/young-koreans-use-digital-placebos-to-curb-spending?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_34c71738",
+    "date": "2026-09-29",
+    "ts": 1790719627000,
+    "image": "",
+    "title": "เหตุระเบิดทุ่นระเบิดใน DMZ และเสียงวิจารณ์การรับมือของรัฐบาล",
+    "link": "https://en.yna.co.kr/view/AEN20260930000900315"
+  },
+  {
+    "id": "hotnews_th_ad0dd3ab",
+    "date": "2026-09-29",
+    "ts": 1790719575000,
+    "image": "",
+    "title": "สarสรพาดหัวข่าวหนังสือพิมพ์เกาหลีใต้สำคัญประจำวันที่ 30 กันยายน",
+    "link": "https://en.yna.co.kr/view/AEN20260930000600315"
+  },
+  {
+    "id": "hotnews_th_24dbffec",
+    "date": "2026-09-29",
+    "ts": 1790717943000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930000451315_02_i_P2.jpg",
+    "title": "คิมโยจองปฏิเสธเหตุระเบิดใน DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260930000451315"
+  },
+  {
+    "id": "hotnews_th_5121499a",
+    "date": "2026-09-29",
+    "ts": 1790716000000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930074801009_P2.jpg",
+    "title": "ทรัมป์เผย คิม จองอึน มีอาวุธนิวเคลียร์ขนาดใหญ่",
+    "link": "https://en.yna.co.kr/view/AEN20260930000251315"
+  },
+  {
+    "id": "hotnews_th_8730a7b8",
+    "date": "2026-09-29",
+    "ts": 1790715619000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929007100320_01_i_P2.jpg",
+    "title": "เงินทุนภาคธุรกิจเกาหลีเดือนส.ค.ลดลงจากยอดขายหุ้นและพันธบัตร",
+    "link": "https://en.yna.co.kr/view/AEN20260929007100320"
+  },
+  {
+    "id": "hotnews_th_f4486acf",
+    "date": "2026-09-29",
+    "ts": 1790715606000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092813670001300_P2.jpg",
+    "title": "เกาหลีใต้ลุยล่าเหรียญทองยิงธนูและกีฬาอื่นๆ ในเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260929010300315"
+  },
+  {
+    "id": "hotnews_th_c5553a23",
+    "date": "2026-09-29",
+    "ts": 1790713800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.57318d1ff270409faf9e3b6626df3a5e_T1.jpg",
+    "title": "อัยการสูงสุดรัฐโคโลราโดเตือนภัยเลือกตั้งสหรัฐ",
+    "link": "https://www.koreaherald.com/article/10887943"
+  },
+  {
+    "id": "hotnews_th_9943ac3b",
+    "date": "2026-09-29",
+    "ts": 1790713800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.1308ae35fbfe4beda2b4d1c64334966e_T1.jpg",
+    "title": "หนังสือชีวประวัติ พล.ท. คิม ชาง-รยอง อดีตหัวหน้าหน่วยข่าวกรองทหาร",
+    "link": "https://www.koreaherald.com/article/10887941"
+  },
+  {
     "id": "hotnews_th_b8b5b8c2",
     "date": "2026-09-29",
     "ts": 1790687523000,
@@ -30,6 +102,14 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/10/10/13/PCM20231010000013990_P2.jpg",
     "title": "ผลโพลเผยชาวเกาหลีใต้กว่า 80% มองเกาหลีเหนือเป็นประเทศแยกต่างหาก",
     "link": "https://en.yna.co.kr/view/AEN20260929011800315"
+  },
+  {
+    "id": "hotnews_th_211f9c5f",
+    "date": "2026-09-29",
+    "ts": 1790677409000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092918730001301_P2.jpg",
+    "title": "รมว.กลาโหมเกาหลีใต้เผยทุ่นระเบิดเกาหลีเหนือถูกฝังไว้ใกล้จุดระเบิดใน DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20260929008851315"
   },
   {
     "id": "hotnews_th_9cdb2425",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/27/d0ed2b5a-a79a-440d-a3e0-867cbd08faf0.jpg",
     "title": "สำนักงานตรวจคนเข้าเมืองอินชอนถกแผนเสิร์ฟอาหารบนเครื่องบินให้ผู้ต้องกัก",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/plan-to-serve-airline-meals-to-deportees-divides-immigration-officials?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_8dc03b88",
-    "date": "2026-09-28",
-    "ts": 1790574124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/d532484e-3bc2-45e3-9a4e-26da82a626b9.jpeg",
-    "title": "โซulจัดงานมหกรรมหางานปี 2026 เชื่อมโยงชาวต่างชาติกับบริษัทท้องถิ่น",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260928/seoul-job-fair-aims-to-connect-foreign-job-seekers-with-local-firms?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_71980e48",
-    "date": "2026-09-28",
-    "ts": 1790574124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/94a82e17-b88c-42d5-b516-392e2e034e1c.jpeg",
-    "title": "ม.เซจงจัดฟอรัมการศึกษานานาชาติ 1 ต.ค. นี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260928/sejong-university-to-host-international-student-future-higher-education-forum-on-oct-1?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_db706123",
-    "date": "2026-09-28",
-    "ts": 1790574124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/f6825d3c-4c43-4b80-9479-76e4e8761e84.jpeg",
-    "title": "ม.โซลร่วมมือ ม.วิสคอนซิน-มิลวอกี เปิดหลักสูตรปริญญาร่วมด้านวิศวกรรม",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260928/university-of-seoul-university-of-wisconsin-milwaukee-to-offer-engineering-dual-degree-program?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ca8fe946",
-    "date": "2026-09-28",
-    "ts": 1790574124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/83172cc4-a22e-49fb-ac18-4ee38cb87587.jpeg",
-    "title": "วิกฤตประชากรเกาหลีใต้มาจากค่านิยมครอบครัวที่เปลี่ยนไป",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/koreas-demographic-crisis-rooted-in-changing-family-values-global-peace-foundation-head?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_96c29a9e",
-    "date": "2026-09-28",
-    "ts": 1790571985000,
-    "image": "https://img.yna.co.kr/photo/reuters/2026/09/19/PRU20260919179101009_P2.jpg",
-    "title": "BTS กวาด 3 รางวัล MTV VMAs และ Lisa วง BLACKPINK คว้า Best Pop",
-    "link": "https://en.yna.co.kr/view/AEN20260928005452315"
-  },
-  {
-    "id": "hotnews_th_ac5667cb",
-    "date": "2026-09-28",
-    "ts": 1790565392000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/28/news-p.v1.20260928.f9860831e1bc4d49becbbb1c91c343a8_T1.jpg",
-    "title": "LG Chem ร่วมมือ Volkswagen พัฒวัสดุยานยนต์แห่งอนาคต",
-    "link": "https://www.koreaherald.com/article/10886150"
-  },
-  {
-    "id": "hotnews_th_52e0aa00",
-    "date": "2026-09-28",
-    "ts": 1790564403000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/28/AEN20260928004700320_01_i_P2.jpg",
-    "title": "ยอดโกงประกันภัยในเกาหลีใต้พุ่งสูงกว่า 9% ในช่วงครึ่งปีแรก",
-    "link": "https://en.yna.co.kr/view/AEN20260928004700320"
-  },
-  {
-    "id": "hotnews_th_45ce1936",
-    "date": "2026-09-28",
-    "ts": 1790563904000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928115309_1_e.jpg",
-    "title": "กระทรวงรวมชาติระบุ กฎหมายและบรรทัดฐานจะกำหนดขั้นตอนสำหรับเชลยศึกเกาหลีเหนือ 2 ราย",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204508"
-  },
-  {
-    "id": "hotnews_th_9bf67cc1",
-    "date": "2026-09-28",
-    "ts": 1790563606000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928011049_7_e.jpg",
-    "title": "วิดีโอโปรโมทการท่องเที่ยว Stray Kids ยอดวิวทะลุ 10 ล้าน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204507"
-  },
-  {
-    "id": "hotnews_th_019c9bb0",
-    "date": "2026-09-27",
-    "ts": 1790541000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/27/news-p.v1.20260927.c32422d88df34abd8c0f2e03bbfd0871_T1.jpg",
-    "title": "OECD ปรับคาดการณ์เศรษฐกิจเกาหลีใต้โต 3.7%",
-    "link": "https://www.koreaherald.com/article/10885312"
   }
 ]

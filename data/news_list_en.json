@@ -1,5 +1,93 @@
 [
   {
+    "id": "hotnews_en_17618d3a",
+    "date": "2026-09-29",
+    "ts": 1790720823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/1b542236-46aa-4e0e-9ad4-71961d4da092.jpeg",
+    "title": "Young Koreans use digital placebos to curb spending",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20260930/young-koreans-use-digital-placebos-to-curb-spending?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_34c71738",
+    "date": "2026-09-29",
+    "ts": 1790719627000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Sept. 30)",
+    "link": "https://en.yna.co.kr/view/AEN20260930000900315"
+  },
+  {
+    "id": "hotnews_en_ad0dd3ab",
+    "date": "2026-09-29",
+    "ts": 1790719575000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20260930000600315"
+  },
+  {
+    "id": "hotnews_en_24dbffec",
+    "date": "2026-09-29",
+    "ts": 1790717943000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930000451315_02_i_P2.jpg",
+    "title": "N. Korean leader's sister denies S. Korean military's announcement on DMZ blast",
+    "link": "https://en.yna.co.kr/view/AEN20260930000451315"
+  },
+  {
+    "id": "hotnews_en_5121499a",
+    "date": "2026-09-29",
+    "ts": 1790716000000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930074801009_P2.jpg",
+    "title": "Trump says N. Korea's Kim has 'pretty large' nuke capacity, will be 'fine' as long as he's 'around'",
+    "link": "https://en.yna.co.kr/view/AEN20260930000251315"
+  },
+  {
+    "id": "hotnews_en_8730a7b8",
+    "date": "2026-09-29",
+    "ts": 1790715619000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929007100320_01_i_P2.jpg",
+    "title": "Corporate direct financing down in Aug. on decreased stock, debt sale",
+    "link": "https://en.yna.co.kr/view/AEN20260929007100320"
+  },
+  {
+    "id": "hotnews_en_f4486acf",
+    "date": "2026-09-29",
+    "ts": 1790715606000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092813670001300_P2.jpg",
+    "title": "(Asiad) S. Korea to begin quest for archery gold medal sweep in compound team events",
+    "link": "https://en.yna.co.kr/view/AEN20260929010300315"
+  },
+  {
+    "id": "hotnews_en_c5553a23",
+    "date": "2026-09-29",
+    "ts": 1790713800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.57318d1ff270409faf9e3b6626df3a5e_T1.jpg",
+    "title": "[Mark Z. Barabak] Trump-proof November election",
+    "link": "https://www.koreaherald.com/article/10887943"
+  },
+  {
+    "id": "hotnews_en_9943ac3b",
+    "date": "2026-09-29",
+    "ts": 1790713800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.1308ae35fbfe4beda2b4d1c64334966e_T1.jpg",
+    "title": "[Kim Seong-kon] 'The Spy Who Went Out to the Cold'",
+    "link": "https://www.koreaherald.com/article/10887941"
+  },
+  {
+    "id": "hotnews_en_3cf7ee5a",
+    "date": "2026-09-29",
+    "ts": 1790691787000,
+    "image": "https://img.yna.co.kr/photo/cms/2022/01/21/07/PCM20220121000007990_P2.jpg",
+    "title": "Kazakh worker killed as concrete ceiling collapses at Seoul construction site",
+    "link": "https://en.yna.co.kr/view/AEN20260929012100315"
+  },
+  {
+    "id": "hotnews_en_7c231e32",
+    "date": "2026-09-29",
+    "ts": 1790690349000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092929590001300_P2.jpg",
+    "title": "(Asiad) S. Korea blanked by Japan in women's football semifinals, to face China for bronze",
+    "link": "https://en.yna.co.kr/view/AEN20260929011751315"
+  },
+  {
     "id": "hotnews_en_a0a01ee4",
     "date": "2026-09-29",
     "ts": 1790687523000,
@@ -72,6 +160,14 @@
     "link": "https://www.koreaherald.com/article/10888099"
   },
   {
+    "id": "hotnews_en_1a8530fd",
+    "date": "2026-09-29",
+    "ts": 1790680528000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.cfa17558574141e9a50c105e0558d030_T1.jpg",
+    "title": "8 out of 10 S. Koreans view NK as separate state: survey",
+    "link": "https://www.koreaherald.com/article/10888096"
+  },
+  {
     "id": "hotnews_en_07a16e04",
     "date": "2026-09-29",
     "ts": 1790678227000,
@@ -126,6 +222,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260929065314_33_e.jpg",
     "title": "Seoul: Kyiv Has Yet to Provide Official Explanation in POW Transfer Dispute",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204555"
+  },
+  {
+    "id": "hotnews_en_aa242e5a",
+    "date": "2026-09-29",
+    "ts": 1790674569000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260929055936_68_e.jpg",
+    "title": "Defense Minister: N. Korean Mine Found at DMZ Blast Site Was Planted There",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204554"
   },
   {
     "id": "hotnews_en_aa955467",
@@ -294,109 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/29/de101b95-486c-4248-bdc6-487a2406cbac.jpeg",
     "title": "Cornell disputes light-punishment claims in drugging, assault case",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20260929/cornell-disputes-light-punishment-claims-in-drugging-assault-case?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_1e507718",
-    "date": "2026-09-29",
-    "ts": 1790661422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/f2c563cd-50b4-4359-b5c9-8fd1447e6b22.jpg",
-    "title": "College student jailed for attempting to join ISIS",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260929/college-student-jailed-for-attempting-to-join-isis?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_2197bfbc",
-    "date": "2026-09-29",
-    "ts": 1790661422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/b5f19ea4-22ce-43d3-890c-abad7fbe9543.jpeg",
-    "title": "Jeonbuk National University offers AI training for Lotte Energy Materials employees",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260929/jeonbuk-national-university-offers-ai-training-for-lotte-energy-materials-employees?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6fa74666",
-    "date": "2026-09-29",
-    "ts": 1790661422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/68c76530-27aa-4770-ab2f-1c6ed18414c7.jpeg",
-    "title": "From 6th grade to high school, new data shows teen health declining in Korea",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20260929/from-6th-grade-to-high-school-new-data-shows-teen-health-declining-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b8b5b8c2",
-    "date": "2026-09-29",
-    "ts": 1790661422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/6392ed0b-e991-4957-9a35-841b231278b9.jpg",
-    "title": "Cheong Wa Dae denies military inspection of mine blast site connected to Lee's UN remarks",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260929/cheong-wa-dae-denies-military-inspection-of-mine-blast-site-connected-to-lees-un-remarks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_df790ec1",
-    "date": "2026-09-29",
-    "ts": 1790660780000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-a.v1.20260928.0f59486979834c43b39a5d89cb9bc1b5_T1.jpg",
-    "title": "The Joseon rules you need to understand 'The Scandal'",
-    "link": "https://www.koreaherald.com/article/10887691"
-  },
-  {
-    "id": "hotnews_en_bde3ccaa",
-    "date": "2026-09-29",
-    "ts": 1790660327000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.15021797a9424c9e9d18fbd169f15f3f_T1.jpg",
-    "title": "Lee warns against abuses of power day before police take over prosecution probe powers",
-    "link": "https://www.koreaherald.com/article/10887674"
-  },
-  {
-    "id": "hotnews_en_2f2d7d58",
-    "date": "2026-09-29",
-    "ts": 1790659953000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260907.d169b526f6c0432e8563e913025e322b_T1.png",
-    "title": "Uzbek national on trial in Korea over alleged funding of Syria-based terrorist group",
-    "link": "https://www.koreaherald.com/article/10887661"
-  },
-  {
-    "id": "hotnews_en_d1e9a62a",
-    "date": "2026-09-29",
-    "ts": 1790659946000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.38d0ce80ddfa424d89b691d27c0274f5_T1.jpg",
-    "title": "A walk above Gwanghwamun, 120 meters in the air",
-    "link": "https://www.koreaherald.com/article/10887660"
-  },
-  {
-    "id": "hotnews_en_1ef3182c",
-    "date": "2026-09-29",
-    "ts": 1790659800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/rcv.YNA.20260924.PGT20260924167001009_T1.jpg",
-    "title": "S. Korean Embassy to US woos Trump allies to expedite skilled visa talks",
-    "link": "https://www.koreaherald.com/article/10887633"
-  },
-  {
-    "id": "hotnews_en_b734ceb9",
-    "date": "2026-09-29",
-    "ts": 1790659739000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.022bc8b9acfd489fa65dd221afa4b754_T1.jpg",
-    "title": "Kakao Pay Securities eyes global push with tokenized stocks",
-    "link": "https://www.koreaherald.com/article/10887648"
-  },
-  {
-    "id": "hotnews_en_bc737801",
-    "date": "2026-09-29",
-    "ts": 1790659645000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.bb47fe52135744a986fb5737a4075b96_T1.jpg",
-    "title": "Celltrion seeks new partners, clients at CPHI",
-    "link": "https://www.koreaherald.com/article/10887642"
-  },
-  {
-    "id": "hotnews_en_07fd670f",
-    "date": "2026-09-29",
-    "ts": 1790659644000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.d3fd125bac50444fa29a79d00f187d02_T1.jpg",
-    "title": "KB Kookmin, Kakao explore future of digital assets",
-    "link": "https://www.koreaherald.com/article/10887641"
-  },
-  {
-    "id": "hotnews_en_bc84e27b",
-    "date": "2026-09-29",
-    "ts": 1790659596000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.18df3ed2affa419bab78707166814954_T1.png",
-    "title": "TOPIK to adopt AI-based testing system by 2029",
-    "link": "https://www.koreaherald.com/article/10887639"
   }
 ]
