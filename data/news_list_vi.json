@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_d1257f80",
+    "date": "2026-09-30",
+    "ts": 1790807223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/cbb4bd1c-f0d6-49d5-9a25-d013c761844c.jpeg",
+    "title": "Sungshin Women's University đổi mới giáo dục thời đại AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261001/sungshin-womens-university-pushes-flexible-education-to-meet-changing-social-needs?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_59a03252",
+    "date": "2026-09-30",
+    "ts": 1790807223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/42beb917-9cbd-42b5-a5de-90bb42f36bf7.jpeg",
+    "title": "Quan chức UNHCR thảo luận về tình trạng di dời tại Seoul",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261001/unhcr-official-to-discuss-global-forced-displacement-for-ras-korea-lecture?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_6261f217",
+    "date": "2026-09-30",
+    "ts": 1790805783000,
+    "image": "",
+    "title": "Triều Tiên phải chịu trách nhiệm về vụ nổ mìn ở DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20261001001600315"
+  },
+  {
+    "id": "hotnews_vi_77e75f56",
+    "date": "2026-09-30",
+    "ts": 1790805771000,
+    "image": "",
+    "title": "Vụ nổ mìn ở DMZ và phản ứng chậm trễ của quân đội Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261001001500315"
+  },
+  {
+    "id": "hotnews_vi_e9f2aa6e",
+    "date": "2026-09-30",
+    "ts": 1790805756000,
+    "image": "",
+    "title": "Tranh cãi lịch sử quanh bộ phim về vụ ám sát Yuk Young-soo",
+    "link": "https://en.yna.co.kr/view/AEN20261001001400315"
+  },
+  {
+    "id": "hotnews_vi_c4d9ef5d",
+    "date": "2026-09-30",
+    "ts": 1790805737000,
+    "image": "",
+    "title": "Vụ nổ mìn ở DMZ và các tin tức chính tại Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261001001300315"
+  },
+  {
+    "id": "hotnews_vi_fb5a24fd",
+    "date": "2026-09-30",
+    "ts": 1790803854000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001074901009_P2.jpg",
+    "title": "Trump công bố kế hoạch đầu tư năng lượng của Hàn Quốc tại Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20261001000851315"
+  },
+  {
+    "id": "hotnews_vi_06bba16c",
+    "date": "2026-09-30",
+    "ts": 1790802001000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090921830001300_P2.jpg",
+    "title": "Vận động viên judo Hàn Quốc tranh HCV Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260930011000315"
+  },
+  {
+    "id": "hotnews_vi_ecda1b39",
+    "date": "2026-09-30",
+    "ts": 1790800200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/news-p.v1.20260930.fe76f13970ff450fa07d5d3517068d24_T1.jpg",
+    "title": "Wellness là mối quan hệ gắn kết",
+    "link": "https://www.koreaherald.com/article/10889429"
+  },
+  {
+    "id": "hotnews_vi_f4af0383",
+    "date": "2026-09-30",
+    "ts": 1790775280000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093008650001300_P2.jpg",
+    "title": "Hàn Quốc giành huy chương bắn cung và bóng đá vào chung kết Asiad",
+    "link": "https://en.yna.co.kr/view/AEN20260930011600315"
+  },
+  {
     "id": "hotnews_vi_43785ee8",
     "date": "2026-09-30",
     "ts": 1790772724000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929005951315_02_i_P2.jpg",
     "title": "Busan bất thành trong việc đưa cá mập ra biển mở",
     "link": "https://en.yna.co.kr/view/AEN20260929005951315"
-  },
-  {
-    "id": "hotnews_vi_f8d05550",
-    "date": "2026-09-29",
-    "ts": 1790661507000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/rcv.YNA.20260929.PYH2026092905920001300_T1.jpg",
-    "title": "Tổng thống Lee yêu cầu điều tra minh bạch vụ nổ mìn ở DMZ",
-    "link": "https://www.koreaherald.com/article/10887722"
-  },
-  {
-    "id": "hotnews_vi_c956314f",
-    "date": "2026-09-29",
-    "ts": 1790661422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/48cd8b8d-5510-4434-85e8-34981a4933da.jpeg",
-    "title": "Hàn Quốc ứng dụng AI để hiện đại hóa kỳ thi TOPIK",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260929/korea-turns-to-ai-to-modernize-topik-national-language-exam?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_bde3ccaa",
-    "date": "2026-09-29",
-    "ts": 1790660327000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.15021797a9424c9e9d18fbd169f15f3f_T1.jpg",
-    "title": "Tổng thống Lee Jae Myung cảnh báo cảnh sát về lạm quyền",
-    "link": "https://www.koreaherald.com/article/10887674"
-  },
-  {
-    "id": "hotnews_vi_1ef3182c",
-    "date": "2026-09-29",
-    "ts": 1790659800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/rcv.YNA.20260924.PGT20260924167001009_T1.jpg",
-    "title": "Đại sứ quán Hàn Quốc tại Mỹ tiếp cận nghị sĩ thân Trump",
-    "link": "https://www.koreaherald.com/article/10887633"
-  },
-  {
-    "id": "hotnews_vi_3a9f7dc4",
-    "date": "2026-09-29",
-    "ts": 1790659486000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929005900315_02_i_P2.jpg",
-    "title": "Busan giải cứu cá mập Bukang-i kẹt trong kênh",
-    "link": "https://en.yna.co.kr/view/AEN20260929005900315"
-  },
-  {
-    "id": "hotnews_vi_f00d1ab7",
-    "date": "2026-09-29",
-    "ts": 1790659134000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260929024336_35_e.jpg",
-    "title": "Zelenskyy: Triều Tiên có hơn 8.000 quân ở Nga",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204540"
-  },
-  {
-    "id": "hotnews_vi_2cd88365",
-    "date": "2026-09-29",
-    "ts": 1790658202000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.ec9c4ef442a14c82acd401719c188e0b_T1.jpg",
-    "title": "Triều Tiên bị tố lập nhà giam ngầm tại đại sứ quán Bắc Kinh",
-    "link": "https://www.koreaherald.com/article/10887603"
-  },
-  {
-    "id": "hotnews_vi_a873586c",
-    "date": "2026-09-29",
-    "ts": 1790654873000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260928.9c894d595c334332b787ca109b6ae008_T1.jpg",
-    "title": "Sinh viên nước ngoài tại Dongguk khám phá Phật giáo Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10887539"
-  },
-  {
-    "id": "hotnews_vi_5045fd6d",
-    "date": "2026-09-29",
-    "ts": 1790654173000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260929014204_93_e.jpg",
-    "title": "Big Bang tổ chức concert kỷ niệm 20 năm tại Tottenham Hotspur Stadium",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204536"
-  },
-  {
-    "id": "hotnews_vi_14555efc",
-    "date": "2026-09-29",
-    "ts": 1790649469000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.640b4509409649fda699004c9956e99c_T1.jpg",
-    "title": "Đội tiếp sức Hàn Quốc vượt qua sự cố để giành HCĐ",
-    "link": "https://www.koreaherald.com/article/10887485"
   }
 ]
