@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_43785ee8",
+    "date": "2026-09-30",
+    "ts": 1790772724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/5fe2d4a6-7c97-40b9-9b60-4112edb60e68.jpeg",
+    "title": "เหตุระเบิดทุ่นระเบิด DMZ ล่าสุดถูกเทียบกับเหตุการณ์ปี 2015",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260930/2015-dmz-land-mine-crisis-echoes-in-latest-blast?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e586f4bc",
+    "date": "2026-09-30",
+    "ts": 1790772724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/863cf976-e74d-4c99-8499-4c1792bceb55.jpeg",
+    "title": "เขตยังชอนแจกกล้องติดตัวเจ้าหน้าที่ตรวจที่จอดรถ",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260930/seoul-district-equips-parking-inspectors-with-body-cams-to-deter-roadside-disputes?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_378c2fb8",
+    "date": "2026-09-30",
+    "ts": 1790772724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/5d8c185b-4667-42a7-8bdd-d18bba41fabd.jpeg",
+    "title": "ม.ซองคยูนกวัน พุ่ง 19 อันดับสู่อันดับ 68 ของโลก ในการจัดอันดับ THE ปี 2027",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/sungkyunkwan-university-climbs-19-places-to-68th-in-the-world-university-rankings-2027?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8dd2d142",
+    "date": "2026-09-30",
+    "ts": 1790772724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/2dbed1d2-9c66-4ca6-a109-047d19aa74bf.jpeg",
+    "title": "Honey Jam Sam เตรียมปล่อยอัลบั้มใหม่บอกเล่าชีวิตชาวต่างชาติในเกาหลี",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260930/honey-jam-sam-reflects-on-foreign-experience-in-korea-in-latest-album?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_362da085",
+    "date": "2026-09-30",
+    "ts": 1790772724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ab4d38b3-5016-4f85-981a-7973ea707645.jpeg",
+    "title": "พบการแพร่ระบาดของเรือดูดเลือดในโรงอาบน้ำที่ปูซาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20260930/busan-bedbug-infestation-sparks-health-fears-at-korean-bathhouse?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_03137c36",
+    "date": "2026-09-30",
+    "ts": 1790764087000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093031300001300_P2.jpg",
+    "title": "จาง เซยุน คว้าเหรียญเงินยูโดหญิงในเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260930010751320"
+  },
+  {
+    "id": "hotnews_th_8b39de47",
+    "date": "2026-09-30",
+    "ts": 1790763176000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930071041_100_e.jpg",
+    "title": "RM วง BTS บริจาคเงิน 100 ล้านวอนให้พิพิธภัณฑ์แห่งชาติเกาหลี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204589"
+  },
+  {
+    "id": "hotnews_th_b7c94dac",
+    "date": "2026-09-30",
+    "ts": 1790761546000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930010800320_01_i_P2.jpg",
+    "title": "ฮุนไดโมบิสขายกิจการหลอดไฟให้ฝรั่งเศส",
+    "link": "https://en.yna.co.kr/view/AEN20260930010800320"
+  },
+  {
+    "id": "hotnews_th_4a8d1f1c",
+    "date": "2026-09-30",
+    "ts": 1790758810000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930070154_26_e.jpg",
+    "title": "ทั่วประเทศเกาหลีฟ้าใสและอากาศหนาวเย็นในวันพฤหัสบดี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204586"
+  },
+  {
+    "id": "hotnews_th_ecb7ff40",
+    "date": "2026-09-30",
+    "ts": 1790754570000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930009100315_01_i_P2.jpg",
+    "title": "อัยการพิเศษขอโทษจำคุก 20 ปี ชู คยองโฮ นายกเทศมนตรีเมืองแทกู",
+    "link": "https://en.yna.co.kr/view/AEN20260930009100315"
+  },
+  {
     "id": "hotnews_th_ab8bad5b",
     "date": "2026-09-30",
     "ts": 1790747222000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.640b4509409649fda699004c9956e99c_T1.jpg",
     "title": "ทีมวิ่งผลัดเกาหลีใต้คว้าทองแดงและทำสถิติประเทศสำเร็จ",
     "link": "https://www.koreaherald.com/article/10887485"
-  },
-  {
-    "id": "hotnews_th_4e1c94ab",
-    "date": "2026-09-28",
-    "ts": 1790637723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/7ae579f9-0475-4da1-8d3a-c9f83b17853c.jpg",
-    "title": "ข้าราชการท้องถิ่นเกาหลีใต้เปิดเผยทรัพย์สินเฉลี่ย 1.35 พันล้านวอน",
-    "link": "https://www.koreatimes.co.kr/southkorea/20260929/newly-elected-officials-report-average-assets-of-135-billion-won?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_da3560fa",
-    "date": "2026-09-28",
-    "ts": 1790632860000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925200001009_P2.jpg",
-    "title": "CEO ของ Nvidia รับรางวัล Van Fleet Award ประจำปีนี้",
-    "link": "https://en.yna.co.kr/view/AEN20260929000500315"
-  },
-  {
-    "id": "hotnews_th_57001cfc",
-    "date": "2026-09-28",
-    "ts": 1790632531000,
-    "image": "",
-    "title": "ตำรวจเกาหลีรับอำนาจสอบสวนเต็มตัว หวั่นอิทธิพลอดีตนายตำรวจ",
-    "link": "https://en.yna.co.kr/view/AEN20260929000900315"
-  },
-  {
-    "id": "hotnews_th_2696c648",
-    "date": "2026-09-28",
-    "ts": 1790628637000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/09/28/PAP20260928461001009_P2.jpg",
-    "title": "สสห.เตรียมจำกัดวีซ่าผู้ขัดขวางการแก้ปัญหาพาลูกข้ามชาติ",
-    "link": "https://en.yna.co.kr/view/AEN20260929000300315"
-  },
-  {
-    "id": "hotnews_th_91bfd496",
-    "date": "2026-09-28",
-    "ts": 1790605023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/67fc4300-5214-471f-bba8-2ff829a5137c.jpeg",
-    "title": "อุทยานแห่งชาติซอรัคซานเริ่มเข้าสู่ฤดูใบไม้เปลี่ยนสีแล้ว",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260928/mount-seorak-welcomes-first-fall-foliage?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_43980f47",
-    "date": "2026-09-28",
-    "ts": 1790605023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/2a41c0fa-63ce-412f-8453-c3bb2f7937ae.jpeg",
-    "title": "ชาวเน็ตตามหาตัว Winston Lee นักศึกษา Cornell คดีล่วงละเมิดทางเพศ",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/cover-story-online-hunt-begins-for-korean-defendant-in-cornell-sexual-assault-suit?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_e27a6be7",
-    "date": "2026-09-28",
-    "ts": 1790605023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/21/6f47f0ad-1b39-4934-a980-aa9baaaa20da.jpeg",
-    "title": "งาน Global Family Forum เสนอทางออกวิกฤตประชากรเกาหลีด้วยคุณค่าครอบครัว",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/global-family-forum-highlights-traditional-family-values-amid-koreas-population-crisis?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_2c0d7b60",
-    "date": "2026-09-28",
-    "ts": 1790605023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/c7b24957-62c5-4727-bc54-ec0e6a977a9f.jpg",
-    "title": "อัยการพิเศษเสนอจำคุก 1 ปี ส.ส. พรรค PPP คดีมอบกระเป๋าหรูให้ Kim Keon Hee",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260928/1-yr-prison-term-sought-for-ppp-lawmaker-for-giving-luxury-bag-to-ex-first-lady?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_9dd2337b",
-    "date": "2026-09-28",
-    "ts": 1790601377000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092825790001300_P2.jpg",
-    "title": "ซน ฮึง-มิน ทำสถิติยิงประตูสูงสุดให้ทีมชาติเกาหลีใต้เทียบเท่า ชา บอม-กุน",
-    "link": "https://en.yna.co.kr/view/AEN20260928012400315"
-  },
-  {
-    "id": "hotnews_th_a0baa3c4",
-    "date": "2026-09-28",
-    "ts": 1790596818000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/28/news-p.v1.20260928.f36ff077aca14a6db1bc626ae25b3ce0_T1.jpg",
-    "title": "โค้ชแฮนด์บอลเกาหลีใต้ชื่นชมลูกทีมหลังพ่ายกาตาร์ในเอเชียนเกมส์",
-    "link": "https://www.koreaherald.com/article/10886736"
   }
 ]
