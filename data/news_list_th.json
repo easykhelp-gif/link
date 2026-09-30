@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_ab8bad5b",
+    "date": "2026-09-30",
+    "ts": 1790747222000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ea586dfc-fea3-4bb4-8724-e0c68dda6fd7.jpg",
+    "title": "กองทัพเกาหลีใต้จี้เกาหลีเหนือขอโทษเหตุระเบิดทุ่นระเบิดใน DMZ",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260930/military-demands-nk-apology-over-dmz-mine-blast-as-unc-confirms-armistice-violation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7fa9a570",
+    "date": "2026-09-30",
+    "ts": 1790747222000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/f44521a1-9c0b-4669-812e-168761ab5018.jpeg",
+    "title": "3 ศาสตราจารย์คว้า 1 รางวัลใหญ่จากสมาคมวิศวกรรมสหรัฐฯ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/3-professors-win-best-paper-award-from-american-society-of-civil-engineers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_76374c5b",
+    "date": "2026-09-30",
+    "ts": 1790747222000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ddc091c9-120a-4c6e-9061-f7c201be8aaf.jpeg",
+    "title": "กระทรวงศึกษาธิการเกาหลีใต้เริ่มแคมเปญกระชับ Wสัมพันธ์นักเรียน",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/classrooms-in-korea-try-building-connections-through-snacks-dance?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4932a4e0",
+    "date": "2026-09-30",
+    "ts": 1790747222000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/34eb3e53-ee5a-46a6-8095-a4258b34e98f.jpg",
+    "title": "แพนด้าแฝดรุยเป่าและฮุ่ยเป่าจะย้ายไปจีนเดือนธันวาคมนี้",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260930/korea-born-twin-pandas-to-be-transferred-to-china-in-december?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7f88e008",
+    "date": "2026-09-30",
+    "ts": 1790744466000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/rcv.YNA.20260930.PYH2026093011110001300_T1.jpg",
+    "title": "NIS ประเมินโอกาสทรัมป์-คิมพบกันช่วง APEC อยู่ที่ 50%",
+    "link": "https://www.koreaherald.com/article/10889058"
+  },
+  {
+    "id": "hotnews_th_3e89f323",
+    "date": "2026-09-30",
+    "ts": 1790742730000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930004551315_01_i_P2.jpg",
+    "title": "หน่วยข่าวกรองเผยยูเครนขอให้ปกปิดการส่งตัวเชลยศึกเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20260930004551315"
+  },
+  {
+    "id": "hotnews_th_0e096811",
+    "date": "2026-09-30",
+    "ts": 1790740488000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/news-p.v1.20260930.ec52d1536eff46ac860632e14c5317f7_T1.jpg",
+    "title": "กระทรวงสาธารณสุขเกาหลีขยายสิทธิประกันสุขภาพรักษามะเร็งหายาก",
+    "link": "https://www.koreaherald.com/article/10888982"
+  },
+  {
+    "id": "hotnews_th_c3dccf16",
+    "date": "2026-09-30",
+    "ts": 1790738982000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093011370001300_P2.jpg",
+    "title": "คังยอนซอ นักกีฬายิงธนูวัย 14 คว้าเหรียญทองแดงเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20260930006300315"
+  },
+  {
+    "id": "hotnews_th_7ab47ae7",
+    "date": "2026-09-30",
+    "ts": 1790738978000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093008540001300_P2.jpg",
+    "title": "ศาลอนุญาโตตุลาการยกคำร้องนักลงทุนอิหร่านเรียกค่าเสียหายเกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20260930005300315"
+  },
+  {
+    "id": "hotnews_th_9a705ee1",
+    "date": "2026-09-30",
+    "ts": 1790738341000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/rcv.YNA.20260730.PYH2026073016370001300_T1.jpg",
+    "title": "เกาหลีใต้ปรับเพิ่มคาดการณ์รายได้ภาษีพุ่งทุบสถิติ 478.6 ล้านล้านวอน",
+    "link": "https://www.koreaherald.com/article/10888967"
+  },
+  {
     "id": "hotnews_th_17618d3a",
     "date": "2026-09-29",
     "ts": 1790720823000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/09/28/news-p.v1.20260928.f36ff077aca14a6db1bc626ae25b3ce0_T1.jpg",
     "title": "โค้ชแฮนด์บอลเกาหลีใต้ชื่นชมลูกทีมหลังพ่ายกาตาร์ในเอเชียนเกมส์",
     "link": "https://www.koreaherald.com/article/10886736"
-  },
-  {
-    "id": "hotnews_th_c66f40ea",
-    "date": "2026-09-28",
-    "ts": 1790595770000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "เกาหลีใต้ขู่ตอบโต้หากเกาหลีเหนือระเบิดทุ่นระเบิด DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20260928011700315"
-  },
-  {
-    "id": "hotnews_th_eb98cfdb",
-    "date": "2026-09-28",
-    "ts": 1790595766000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/28/news-p.v1.20260928.d98545715816467d8bcbb1d6c325f436_T1.jpg",
-    "title": "ผู้ก่อตั้ง Smilegate ยื่นอุทธรณ์คดีหย่าร้างแบ่งสินทรัพย์มูลค่าสูงที่สุดในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10886731"
-  },
-  {
-    "id": "hotnews_th_a3f30693",
-    "date": "2026-09-28",
-    "ts": 1790595504000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091528830001300_P2.jpg",
-    "title": "ออมจีซองเตือนเกาหลีใต้ห้ามประมาทจีนก่อนตัดเชือกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260928011500315"
-  },
-  {
-    "id": "hotnews_th_e24eea52",
-    "date": "2026-09-28",
-    "ts": 1790593903000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092823500001300_P2.jpg",
-    "title": "โค้ชแฮนด์บอลชายเกาหลีใต้ชื่นชมลูกทีมหลังพ่ายกาตาร์",
-    "link": "https://en.yna.co.kr/view/AEN20260928011300320"
-  },
-  {
-    "id": "hotnews_th_ba3bcbf9",
-    "date": "2026-09-28",
-    "ts": 1790592310000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/09/10/01/PCM20260910000001990_P2.jpg",
-    "title": "กระทรวงต่างประเทศเกาหลีใต้เรียกทูตยูเครนเข้าพบปم",
-    "link": "https://en.yna.co.kr/view/AEN20260928011151315"
-  },
-  {
-    "id": "hotnews_th_4941a304",
-    "date": "2026-09-28",
-    "ts": 1790590305000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928071808_94_e.jpg",
-    "title": "ข้อมูลส่วนบุคคลรั่วไหลครั้งใหญ่กระทบผู้คนกว่า 48 ล้านคนในปี 2025",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204526"
-  },
-  {
-    "id": "hotnews_th_9cfb564d",
-    "date": "2026-09-28",
-    "ts": 1790587190000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/30/PYH2026083004240001300_P2.jpg",
-    "title": "ธนาคารในเกาหลีใต้จะเปิดทำการ 9:30 น. เริ่มเมษายนปีหน้า",
-    "link": "https://en.yna.co.kr/view/AEN20260928010900315"
-  },
-  {
-    "id": "hotnews_th_2b02dc2a",
-    "date": "2026-09-28",
-    "ts": 1790585914000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260928065933_3_e.jpg",
-    "title": "นักท่องเที่ยวต่างชาติเที่ยวเกาหลีใต้ทะลุ 15 ล้านคนช่วงม.ค.-ส.ค.",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204523"
-  },
-  {
-    "id": "hotnews_th_c62023d1",
-    "date": "2026-09-28",
-    "ts": 1790585172000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/28/AEN20260928002651315_01_i_P2.jpg",
-    "title": "ประธานศาลฎีกาเกาหลีใต้เตรียมชี้แจงประเด็นการเสนอชื่อผู้พิพากษาในการตรวจสอบของรัฐสภา",
-    "link": "https://en.yna.co.kr/view/AEN20260928002651315"
-  },
-  {
-    "id": "hotnews_th_87da9ef0",
-    "date": "2026-09-28",
-    "ts": 1790574124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/27/d0ed2b5a-a79a-440d-a3e0-867cbd08faf0.jpg",
-    "title": "สำนักงานตรวจคนเข้าเมืองอินชอนถกแผนเสิร์ฟอาหารบนเครื่องบินให้ผู้ต้องกัก",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260928/plan-to-serve-airline-meals-to-deportees-divides-immigration-officials?utm_source=rss"
   }
 ]
