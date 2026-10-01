@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_c5a158ff",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/988207a8-bd3f-4917-9270-7cb11afc6349.jpeg",
+    "title": "Seoul muốn chính phủ cắt bỏ quy định cản trở văn hóa và du lịch",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261001/seoul-city-urges-govt-to-slash-red-tape-stifling-culture-and-tourism?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c15774ea",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/9f556080-e2ce-47ad-8b63-3c335d2a3fe0.jpeg",
+    "title": "Seoul đưa 500 xe buýt tự lái vào hoạt động trước năm 2030",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20261001/seoul-prepares-for-driverless-future-with-500-autonomous-buses-by-2030?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1d368743",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/d86968da-773d-4d94-9f76-0d52c344e916.jpg",
+    "title": "Tổng thống Lee Jae Myung tiếp tục thúc đẩy đối thoại với Triều Tiên",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261001/president-keeps-nk-dialogue-push-amid-dmz-mine-dispute?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_6dd376a7",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/6d3feb08-cad7-41d7-8f01-4f2f7cacf54e.jpeg",
+    "title": "Đại học Seoul tổ chức Lễ hội Ngoại khóa lần thứ 6",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261001/university-of-seouls-extracurricular-festa-offers-hands-on-extracurricular-experiences?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b09a62f7",
+    "date": "2026-10-01",
+    "ts": 1790834990000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/rcv.YNA.20260224.PYH2026022405590001300_T1.jpg",
+    "title": "Hàn Quốc thua kiện Elliott trong vụ sáp nhập Samsung",
+    "link": "https://www.koreaherald.com/article/10890713"
+  },
+  {
+    "id": "hotnews_vi_70837e0b",
+    "date": "2026-10-01",
+    "ts": 1790834107000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007600320_02_i_P2.jpg",
+    "title": "SK hynix chưa quyết định về việc IPO Solidigm tại Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007600320"
+  },
+  {
+    "id": "hotnews_vi_11b0c1a9",
+    "date": "2026-10-01",
+    "ts": 1790833991000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007300315_01_i_P2.jpg",
+    "title": "Bộ trưởng Bình đẳng giới Won Min-kyong tiếp tục giữ chức vụ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007300315"
+  },
+  {
+    "id": "hotnews_vi_f9ffbddd",
+    "date": "2026-10-01",
+    "ts": 1790833653000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Nhà Xanh sẽ tiến hành điều trần bổ nhiệm nhân sự",
+    "link": "https://en.yna.co.kr/view/AEN20261001007400315"
+  },
+  {
+    "id": "hotnews_vi_19fce6f3",
+    "date": "2026-10-01",
+    "ts": 1790833566000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007100315_01_i_P2.jpg",
+    "title": "Phát hiện 473 vi phạm tại nhà máy Hanwha Aerospace Daejeon",
+    "link": "https://en.yna.co.kr/view/AEN20261001007100315"
+  },
+  {
+    "id": "hotnews_vi_d08d005d",
+    "date": "2026-10-01",
+    "ts": 1790830605000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092901080031500_P2.jpg",
+    "title": "Bộ Thống nhất Hàn Quốc duy trì chính sách chung sống hòa bình",
+    "link": "https://en.yna.co.kr/view/AEN20261001005500315"
+  },
+  {
     "id": "hotnews_vi_d1257f80",
     "date": "2026-09-30",
     "ts": 1790807223000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/29/6392ed0b-e991-4957-9a35-841b231278b9.jpg",
     "title": "Nhà Xanh bác bỏ cáo buộc can thiệp vụ nổ mìn",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260929/cheong-wa-dae-denies-military-inspection-of-mine-blast-site-connected-to-lees-un-remarks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a0a01ee4",
-    "date": "2026-09-29",
-    "ts": 1790687523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/f516f19d-02aa-4961-99b8-e7de41c58c0c.jpeg",
-    "title": "Phim \"The Assassin(s)\" bị điều tra vì chi tiết Park Chung-hee",
-    "link": "https://www.koreatimes.co.kr/entertainment/films/20260929/cover-story-the-assassins-producers-face-probe-over-depiction-of-park-chung-hee-plotting-wifes-death?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6e769b5b",
-    "date": "2026-09-29",
-    "ts": 1790687523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/fd3ee994-6801-4641-b6ba-df2998b3b3ba.jpeg",
-    "title": "Sinh viên Hàn Quốc trì hoãn tốt nghiệp vì khó tìm việc",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260929/korean-students-putting-off-graduation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_617389f8",
-    "date": "2026-09-29",
-    "ts": 1790685446000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/10/10/13/PCM20231010000013990_P2.jpg",
-    "title": "Hơn 80% người Hàn Quốc xem Nam-Bắc là hai quốc gia riêng biệt",
-    "link": "https://en.yna.co.kr/view/AEN20260929011800315"
-  },
-  {
-    "id": "hotnews_vi_211f9c5f",
-    "date": "2026-09-29",
-    "ts": 1790677409000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092918730001301_P2.jpg",
-    "title": "Bộ trưởng Quốc phòng Hàn Quốc nói mìn Triều Tiên được chôn sẵn",
-    "link": "https://en.yna.co.kr/view/AEN20260929008851315"
-  },
-  {
-    "id": "hotnews_vi_9cdb2425",
-    "date": "2026-09-29",
-    "ts": 1790672939000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092919020001300_P2.jpg",
-    "title": "Cặp đôi cầu lông Hàn Quốc giành HCV Asiad đầy cảm xúc",
-    "link": "https://en.yna.co.kr/view/AEN20260929010500315"
-  },
-  {
-    "id": "hotnews_vi_1b16184f",
-    "date": "2026-09-29",
-    "ts": 1790672400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/rcv.YNA.20260910.PYH2026091012520001300_T1.jpg",
-    "title": "Tỷ lệ du học sinh tại Hàn Quốc thấp hơn trung bình OECD",
-    "link": "https://www.koreaherald.com/article/10887681"
-  },
-  {
-    "id": "hotnews_vi_e6c1662b",
-    "date": "2026-09-29",
-    "ts": 1790671271000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929010200315_01_i_P2.jpg",
-    "title": "Jeong Ye-in gia nhập The Trauma Code thay thế Ha Young",
-    "link": "https://en.yna.co.kr/view/AEN20260929010200315"
-  },
-  {
-    "id": "hotnews_vi_40127b73",
-    "date": "2026-09-29",
-    "ts": 1790671152000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929010000315_03_i_P2.jpg",
-    "title": "Son Ye-jin chia sẻ về vai diễn trong phim The Scandal",
-    "link": "https://en.yna.co.kr/view/AEN20260929010000315"
-  },
-  {
-    "id": "hotnews_vi_f94ed15b",
-    "date": "2026-09-29",
-    "ts": 1790671006000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.cba53bb0e60f4d9aa0b780d43aaa015d_T1.jpg",
-    "title": "Giờ giao dịch ngân hàng Hàn Quốc có thể rút ngắn còn 6,5 tiếng",
-    "link": "https://www.koreaherald.com/article/10888014"
-  },
-  {
-    "id": "hotnews_vi_1660c09d",
-    "date": "2026-09-29",
-    "ts": 1790670248000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929005951315_02_i_P2.jpg",
-    "title": "Busan bất thành trong việc đưa cá mập ra biển mở",
-    "link": "https://en.yna.co.kr/view/AEN20260929005951315"
   }
 ]

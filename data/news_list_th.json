@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_c5a158ff",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/988207a8-bd3f-4917-9270-7cb11afc6349.jpeg",
+    "title": "กรุงเทพมหานครโซลจี้รัฐบาลกลางยกเลิกกฎระเบียบที่ขัดขวางการท่องเที่ยว",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261001/seoul-city-urges-govt-to-slash-red-tape-stifling-culture-and-tourism?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c15774ea",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/9f556080-e2ce-47ad-8b63-3c335d2a3fe0.jpeg",
+    "title": "โซลเตรียมใช้รถบัสไร้คนขับ 500 คันภายในปี 2030",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20261001/seoul-prepares-for-driverless-future-with-500-autonomous-buses-by-2030?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_1d368743",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/d86968da-773d-4d94-9f76-0d52c344e916.jpg",
+    "title": "ประธานาธิบดีอีแจมยองเดินหน้าผลักดันการเจรจากับเกาหลีเหนือ",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261001/president-keeps-nk-dialogue-push-amid-dmz-mine-dispute?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6dd376a7",
+    "date": "2026-10-01",
+    "ts": 1790835423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/6d3feb08-cad7-41d7-8f01-4f2f7cacf54e.jpeg",
+    "title": "ม.โซลจัดงานแฟซตาสิตัวเลือกกิจกรรมเสริมหลักสูตรครั้งที่ 6",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261001/university-of-seouls-extracurricular-festa-offers-hands-on-extracurricular-experiences?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_b09a62f7",
+    "date": "2026-10-01",
+    "ts": 1790834990000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/rcv.YNA.20260224.PYH2026022405590001300_T1.jpg",
+    "title": "เกาหลีใต้แพ้คดีอนุญาโตตุลาการฟ้องโดยกองทุน Elliott อีกครั้ง",
+    "link": "https://www.koreaherald.com/article/10890713"
+  },
+  {
+    "id": "hotnews_th_70837e0b",
+    "date": "2026-10-01",
+    "ts": 1790834107000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007600320_02_i_P2.jpg",
+    "title": "เอสเคไฮนิกซ์เผยยังไม่มีข้อสรุปแผนไอพีโอ Solidigm ในสหรัฐ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007600320"
+  },
+  {
+    "id": "hotnews_th_11b0c1a9",
+    "date": "2026-10-01",
+    "ts": 1790833991000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007300315_01_i_P2.jpg",
+    "title": "รมว.กระทรวงความเท่าเทียมทางเพศเผยทำเนียบประธานาธิบดีขอให้ดูแลกระทรวงต่อ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007300315"
+  },
+  {
+    "id": "hotnews_th_f9ffbddd",
+    "date": "2026-10-01",
+    "ts": 1790833653000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "ทำเนียบประธานาธิบดีเกาหลีใต้จะผลักดันการไต่สวนผู้ได้รับการเสนอชื่อ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007400315"
+  },
+  {
+    "id": "hotnews_th_19fce6f3",
+    "date": "2026-10-01",
+    "ts": 1790833566000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001007100315_01_i_P2.jpg",
+    "title": "กระทรวงแรงงานเกาหลีกวดขัน Hanwha Aerospace พบการละเมิดกฎหมาย 473 ข้อ",
+    "link": "https://en.yna.co.kr/view/AEN20261001007100315"
+  },
+  {
+    "id": "hotnews_th_d08d005d",
+    "date": "2026-10-01",
+    "ts": 1790830605000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092901080031500_P2.jpg",
+    "title": "กระทรวงรวมชาติย้ำเดินหน้าสันติภาพแม้เกิดเหตุระเบิดDMZ",
+    "link": "https://en.yna.co.kr/view/AEN20261001005500315"
+  },
+  {
     "id": "hotnews_th_d1257f80",
     "date": "2026-09-30",
     "ts": 1790807223000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/09/29/6392ed0b-e991-4957-9a35-841b231278b9.jpg",
     "title": "ทำเนียบประธานาธิบดีปฏิเสธข้อกล่าวหาเรื่องการตรวจสอบเหตุระเบิด",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20260929/cheong-wa-dae-denies-military-inspection-of-mine-blast-site-connected-to-lees-un-remarks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a0a01ee4",
-    "date": "2026-09-29",
-    "ts": 1790687523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/f516f19d-02aa-4961-99b8-e7de41c58c0c.jpeg",
-    "title": "ผู้สร้างภาพยนตร์ The Assassin(s) เผชิญการสอบสวนปมพาดพิง พัคจองฮี",
-    "link": "https://www.koreatimes.co.kr/entertainment/films/20260929/cover-story-the-assassins-producers-face-probe-over-depiction-of-park-chung-hee-plotting-wifes-death?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6e769b5b",
-    "date": "2026-09-29",
-    "ts": 1790687523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/fd3ee994-6801-4641-b6ba-df2998b3b3ba.jpeg",
-    "title": "นักศึกษาเกาหลีแห่ชะลอการจบการศึกษา",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20260929/korean-students-putting-off-graduation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_617389f8",
-    "date": "2026-09-29",
-    "ts": 1790685446000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/10/10/13/PCM20231010000013990_P2.jpg",
-    "title": "ผลโพลเผยชาวเกาหลีใต้กว่า 80% มองเกาหลีเหนือเป็นประเทศแยกต่างหาก",
-    "link": "https://en.yna.co.kr/view/AEN20260929011800315"
-  },
-  {
-    "id": "hotnews_th_211f9c5f",
-    "date": "2026-09-29",
-    "ts": 1790677409000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092918730001301_P2.jpg",
-    "title": "รมว.กลาโหมเกาหลีใต้เผยทุ่นระเบิดเกาหลีเหนือถูกฝังไว้ใกล้จุดระเบิดใน DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20260929008851315"
-  },
-  {
-    "id": "hotnews_th_9cdb2425",
-    "date": "2026-09-29",
-    "ts": 1790672939000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092919020001300_P2.jpg",
-    "title": "อี โซ-ฮี และ แพ็ค ฮา-นา คว้าทองแบดมินตันเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260929010500315"
-  },
-  {
-    "id": "hotnews_th_1b16184f",
-    "date": "2026-09-29",
-    "ts": 1790672400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/rcv.YNA.20260910.PYH2026091012520001300_T1.jpg",
-    "title": "สัดส่วนนักเรียนต่างชาติในเกาหลีต่ำกว่าค่าเฉลี่ย OECD",
-    "link": "https://www.koreaherald.com/article/10887681"
-  },
-  {
-    "id": "hotnews_th_e6c1662b",
-    "date": "2026-09-29",
-    "ts": 1790671271000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929010200315_01_i_P2.jpg",
-    "title": "จองเยอิน Lovelyz ร่วมแสดงซีรีส์ The Trauma Code",
-    "link": "https://en.yna.co.kr/view/AEN20260929010200315"
-  },
-  {
-    "id": "hotnews_th_40127b73",
-    "date": "2026-09-29",
-    "ts": 1790671152000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929010000315_03_i_P2.jpg",
-    "title": "ซนเยจินเผยบทบาทในซีรีส์ Netflix เรื่อง The Scandal",
-    "link": "https://en.yna.co.kr/view/AEN20260929010000315"
-  },
-  {
-    "id": "hotnews_th_f94ed15b",
-    "date": "2026-09-29",
-    "ts": 1790671006000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/29/news-p.v1.20260929.cba53bb0e60f4d9aa0b780d43aaa015d_T1.jpg",
-    "title": "ธนาคารเกาหลีใโต้อาจปรับเวลาเปิดทำการช้าลง 30 นาที",
-    "link": "https://www.koreaherald.com/article/10888014"
-  },
-  {
-    "id": "hotnews_th_1660c09d",
-    "date": "2026-09-29",
-    "ts": 1790670248000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/29/AEN20260929005951315_02_i_P2.jpg",
-    "title": "ทางการปูซานยังล่อฉลามออกสู่ทะเลไม่ได้ เตรียมใช้ตาข่ายจับสัปดาห์นี้",
-    "link": "https://en.yna.co.kr/view/AEN20260929005951315"
   }
 ]
