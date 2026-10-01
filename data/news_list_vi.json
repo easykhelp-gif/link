@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_b633faa4",
+    "date": "2026-10-01",
+    "ts": 1790894822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/1784955a-0a28-4db1-bc9d-4e1ce55d1df0.jpeg",
+    "title": "Người trẻ rời quê đến Seoul vì thiếu việc làm và cơ hội",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261002/its-not-that-we-like-seoul-young-koreans-explain-why-they-leave-their-hometowns?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_975fab14",
+    "date": "2026-10-01",
+    "ts": 1790894822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/6766ff42-afa7-4fbd-95b1-38357a723d66.jpeg",
+    "title": "Hàn Quốc bãi bỏ Viện Kiểm sát sau 78 năm hoạt động",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261002/korea-abolishes-prosecutors-office-after-78-years-putting-new-criminal-justice-system-to-test?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_581916bc",
+    "date": "2026-10-01",
+    "ts": 1790892257000,
+    "image": "",
+    "title": "Vụ nổ mìn DMZ là hành động khiêu khích của Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261002000600320"
+  },
+  {
+    "id": "hotnews_vi_0459255e",
+    "date": "2026-10-01",
+    "ts": 1790892244000,
+    "image": "",
+    "title": "Bất đồng về khoản đầu tư LNG Alaska trị giá 50 tỷ USD",
+    "link": "https://en.yna.co.kr/view/AEN20261002000500320"
+  },
+  {
+    "id": "hotnews_vi_cd25a0e2",
+    "date": "2026-10-01",
+    "ts": 1790892233000,
+    "image": "",
+    "title": "Phim về vụ ám sát Yuk Young-soo gây tranh cãi lớn tại Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261002000400320"
+  },
+  {
+    "id": "hotnews_vi_992b07fa",
+    "date": "2026-10-01",
+    "ts": 1790892221000,
+    "image": "",
+    "title": "Tiêu điểm báo chí Hàn Quốc ngày 2 tháng 10",
+    "link": "https://en.yna.co.kr/view/AEN20261002000300320"
+  },
+  {
+    "id": "hotnews_vi_a40a6d2b",
+    "date": "2026-10-01",
+    "ts": 1790886600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-p.v1.20261001.fa246e2e9d254151a475e037762f25e8_T1.jpg",
+    "title": "Kế hoạch Triều Tiên của Tổng thống Lee Jae Myung",
+    "link": "https://www.koreaherald.com/article/10890992"
+  },
+  {
     "id": "hotnews_vi_691716d8",
     "date": "2026-10-01",
     "ts": 1790862123000,
@@ -54,6 +110,30 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100132550001301_P2.jpg",
     "title": "Huh Mimi giành huy chương vàng judo tại Asian Games 2026",
     "link": "https://en.yna.co.kr/view/AEN20261001012652320"
+  },
+  {
+    "id": "hotnews_vi_61bd5b07",
+    "date": "2026-10-01",
+    "ts": 1790849410000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100121510001300_P2.jpg",
+    "title": "Huh Mimi giành huy chương vàng judo tại Đại hội thể thao châu Á",
+    "link": "https://en.yna.co.kr/view/AEN20261001013100320"
+  },
+  {
+    "id": "hotnews_vi_9727e9d6",
+    "date": "2026-10-01",
+    "ts": 1790845285000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/01/AEN20261001012900315_02_i_P2.jpg",
+    "title": "BTS đạt doanh thu vé tour vượt 500 triệu USD",
+    "link": "https://en.yna.co.kr/view/AEN20261001012900315"
+  },
+  {
+    "id": "hotnews_vi_88aa6642",
+    "date": "2026-10-01",
+    "ts": 1790843583000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261001053913_29_e.jpg",
+    "title": "Thời tiết lạnh hơn vào ngày thứ Sáu",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204613"
   },
   {
     "id": "hotnews_vi_9c87c5ee",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930009100315_01_i_P2.jpg",
     "title": "Đề nghị 20 năm tù cho Thị trưởng Daegu Choo Kyung-ho",
     "link": "https://en.yna.co.kr/view/AEN20260930009100315"
-  },
-  {
-    "id": "hotnews_vi_ab8bad5b",
-    "date": "2026-09-30",
-    "ts": 1790747222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ea586dfc-fea3-4bb4-8724-e0c68dda6fd7.jpg",
-    "title": "Hàn Quốc đòi Triều Tiên xin lỗi vụ nổ mìn ở DMZ",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20260930/military-demands-nk-apology-over-dmz-mine-blast-as-unc-confirms-armistice-violation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7fa9a570",
-    "date": "2026-09-30",
-    "ts": 1790747222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/f44521a1-9c0b-4669-812e-168761ab5018.jpeg",
-    "title": "3 giáo sư nhận giải thưởng nghiên cứu xuất sắc từ Mỹ",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/3-professors-win-best-paper-award-from-american-society-of-civil-engineers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_76374c5b",
-    "date": "2026-09-30",
-    "ts": 1790747222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ddc091c9-120a-4c6e-9061-f7c201be8aaf.jpeg",
-    "title": "Bộ Giáo dục Hàn Quốc mở chiến dịch gắn kết học sinh đa văn hóa",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/classrooms-in-korea-try-building-connections-through-snacks-dance?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_4932a4e0",
-    "date": "2026-09-30",
-    "ts": 1790747222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/34eb3e53-ee5a-46a6-8095-a4258b34e98f.jpg",
-    "title": "Cặp gấu trúc sinh đôi tại Hàn Quốc sẽ về Trung Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20260930/korea-born-twin-pandas-to-be-transferred-to-china-in-december?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7f88e008",
-    "date": "2026-09-30",
-    "ts": 1790744466000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/rcv.YNA.20260930.PYH2026093011110001300_T1.jpg",
-    "title": "Tình báo Hàn Quốc đánh giá 50-50 khả năng hội nghị Trump - Kim",
-    "link": "https://www.koreaherald.com/article/10889058"
-  },
-  {
-    "id": "hotnews_vi_3e89f323",
-    "date": "2026-09-30",
-    "ts": 1790742730000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930004551315_01_i_P2.jpg",
-    "title": "Ukraine yêu cầu giữ bí mật việc chuyển giao tù binh Bắc Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20260930004551315"
-  },
-  {
-    "id": "hotnews_vi_0e096811",
-    "date": "2026-09-30",
-    "ts": 1790740488000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/news-p.v1.20260930.ec52d1536eff46ac860632e14c5317f7_T1.jpg",
-    "title": "Mở rộng bảo hiểm y tế cho thuốc điều trị ung thư hiếm tại Hàn",
-    "link": "https://www.koreaherald.com/article/10888982"
-  },
-  {
-    "id": "hotnews_vi_c3dccf16",
-    "date": "2026-09-30",
-    "ts": 1790738982000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093011370001300_P2.jpg",
-    "title": "Cung thủ 14 tuổi tự tin săn thêm huy chương tại Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260930006300315"
-  },
-  {
-    "id": "hotnews_vi_7ab47ae7",
-    "date": "2026-09-30",
-    "ts": 1790738978000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093008540001300_P2.jpg",
-    "title": "Tòa án quốc tế bác khoản bồi thường 770 tỷ won của Iran",
-    "link": "https://en.yna.co.kr/view/AEN20260930005300315"
-  },
-  {
-    "id": "hotnews_vi_9a705ee1",
-    "date": "2026-09-30",
-    "ts": 1790738341000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/rcv.YNA.20260730.PYH2026073016370001300_T1.jpg",
-    "title": "Hàn Quốc tăng dự báo thu ngân sách nhờ bùng nổ chip AI",
-    "link": "https://www.koreaherald.com/article/10888967"
   }
 ]
