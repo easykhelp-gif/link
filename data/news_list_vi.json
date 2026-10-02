@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_5ce36a37",
+    "date": "2026-10-02",
+    "ts": 1790920923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/906d0e3c-bed9-4b93-8ae0-6eda21d15923.jpeg",
+    "title": "Seoul hỗ trợ startup nước ngoài để phát triển kinh tế",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261002/seoul-looks-to-foreign-entrepreneurs-to-fuel-its-next-economic-engine?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_bc80394b",
+    "date": "2026-10-02",
+    "ts": 1790919825000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.5550a809d3294f2982a95d8c4ef1b20d_T1.jpg",
+    "title": "Samsung Electro-Mechanics đạt hợp đồng linh kiện AI 3.6 nghìn tỷ won",
+    "link": "https://www.koreaherald.com/article/10891933"
+  },
+  {
+    "id": "hotnews_vi_1e8d3f97",
+    "date": "2026-10-02",
+    "ts": 1790919815000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.8e693735fb4344518911fc16f2feab39_T1.jpg",
+    "title": "Giá điện thoại Samsung Galaxy S27 có thể tăng cao hơn dự kiến",
+    "link": "https://www.koreaherald.com/article/10891931"
+  },
+  {
+    "id": "hotnews_vi_2515bc11",
+    "date": "2026-10-02",
+    "ts": 1790919768000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.209e134a44854ecbb56832bbc62581d2_T1.png",
+    "title": "Đánh giá Oura Ring 5: Theo dõi giấc ngủ tốt hơn smartwatch",
+    "link": "https://www.koreaherald.com/article/10891926"
+  },
+  {
+    "id": "hotnews_vi_467598b0",
+    "date": "2026-10-02",
+    "ts": 1790919701000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002005500315_01_i_P2.jpg",
+    "title": "Biểu tình ngoài nhà diễn viên Yoo Hae-jin vì phim \"The Assassin(s)\"",
+    "link": "https://en.yna.co.kr/view/AEN20261002005500315"
+  },
+  {
+    "id": "hotnews_vi_a4a63ac3",
+    "date": "2026-10-02",
+    "ts": 1790917682000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002004951320_01_i_P2.jpg",
+    "title": "Ngân hàng KB Kookmin bị rò rỉ thông tin khách hàng do hacker tấn công",
+    "link": "https://en.yna.co.kr/view/AEN20261002004951320"
+  },
+  {
+    "id": "hotnews_vi_ab23c729",
+    "date": "2026-10-02",
+    "ts": 1790916093000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002005000315_01_i_P2.jpg",
+    "title": "T.O.P và Nana xác nhận đang hẹn hò",
+    "link": "https://en.yna.co.kr/view/AEN20261002005000315"
+  },
+  {
+    "id": "hotnews_vi_6957b599",
+    "date": "2026-10-02",
+    "ts": 1790913550000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261002012025_30_e.jpg",
+    "title": "Hàn Quốc giành huy chương bạc bắn cung nữ Asiad",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204626"
+  },
+  {
+    "id": "hotnews_vi_8c032144",
+    "date": "2026-10-02",
+    "ts": 1790909884000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261002120029_75_e.jpg",
+    "title": "Bộ trưởng Thống nhất đề xuất đối thoại liên Triều",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204625"
+  },
+  {
+    "id": "hotnews_vi_340f25e4",
+    "date": "2026-10-02",
+    "ts": 1790905753000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Lee cảnh cáo Ukraine về vụ tù binh Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261002002600315"
+  },
+  {
     "id": "hotnews_vi_b633faa4",
     "date": "2026-10-01",
     "ts": 1790894822000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093008650001300_P2.jpg",
     "title": "Hàn Quốc giành huy chương bắn cung và bóng đá vào chung kết Asiad",
     "link": "https://en.yna.co.kr/view/AEN20260930011600315"
-  },
-  {
-    "id": "hotnews_vi_43785ee8",
-    "date": "2026-09-30",
-    "ts": 1790772724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/5fe2d4a6-7c97-40b9-9b60-4112edb60e68.jpeg",
-    "title": "Vụ nổ mìn DMZ mới gợi lại sự cố năm 2015",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20260930/2015-dmz-land-mine-crisis-echoes-in-latest-blast?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e586f4bc",
-    "date": "2026-09-30",
-    "ts": 1790772724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/863cf976-e74d-4c99-8499-4c1792bceb55.jpeg",
-    "title": "Quận Yangcheon tại Seoul trang bị camera đeo người cho nhân viên đỗ xe",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20260930/seoul-district-equips-parking-inspectors-with-body-cams-to-deter-roadside-disputes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_378c2fb8",
-    "date": "2026-09-30",
-    "ts": 1790772724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/5d8c185b-4667-42a7-8bdd-d18bba41fabd.jpeg",
-    "title": "Sungkyunkwan University đạt hạng 68 thế giới trên THE 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20260930/sungkyunkwan-university-climbs-19-places-to-68th-in-the-world-university-rankings-2027?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_8dd2d142",
-    "date": "2026-09-30",
-    "ts": 1790772724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/2dbed1d2-9c66-4ca6-a109-047d19aa74bf.jpeg",
-    "title": "Honey Jam Sam ra mắt album mới kể về cuộc sống ở Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260930/honey-jam-sam-reflects-on-foreign-experience-in-korea-in-latest-album?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_362da085",
-    "date": "2026-09-30",
-    "ts": 1790772724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/ab4d38b3-5016-4f85-981a-7973ea707645.jpeg",
-    "title": "Phát hiện rệp tại nhà tắm công cộng Busan",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20260930/busan-bedbug-infestation-sparks-health-fears-at-korean-bathhouse?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_03137c36",
-    "date": "2026-09-30",
-    "ts": 1790764087000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093031300001300_P2.jpg",
-    "title": "Vận động viên Jang Se-yun giành huy chương bạc judo Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20260930010751320"
-  },
-  {
-    "id": "hotnews_vi_8b39de47",
-    "date": "2026-09-30",
-    "ts": 1790763176000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930071041_100_e.jpg",
-    "title": "RM của BTS quyên góp 100 triệu won cho bảo tàng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204589"
-  },
-  {
-    "id": "hotnews_vi_b7c94dac",
-    "date": "2026-09-30",
-    "ts": 1790761546000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930010800320_01_i_P2.jpg",
-    "title": "Hyundai Mobis bán bộ phận đèn cho công ty Pháp với giá 600 tỷ won",
-    "link": "https://en.yna.co.kr/view/AEN20260930010800320"
-  },
-  {
-    "id": "hotnews_vi_4a8d1f1c",
-    "date": "2026-09-30",
-    "ts": 1790758810000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930070154_26_e.jpg",
-    "title": "Trời quang mây tạnh và lạnh vào thứ Năm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204586"
-  },
-  {
-    "id": "hotnews_vi_ecb7ff40",
-    "date": "2026-09-30",
-    "ts": 1790754570000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/30/AEN20260930009100315_01_i_P2.jpg",
-    "title": "Đề nghị 20 năm tù cho Thị trưởng Daegu Choo Kyung-ho",
-    "link": "https://en.yna.co.kr/view/AEN20260930009100315"
   }
 ]
