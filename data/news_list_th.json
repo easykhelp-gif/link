@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_f0b4f3c8",
+    "date": "2026-10-02",
+    "ts": 1790945824000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/714fbe73-9e37-4649-9a3a-7443e3b05467.jpg",
+    "title": "ประธานาธิบดีอีแจมยองและภริยาลงพื้นที่ตลาดดั้งเดิมในโซล",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261002/president-lee-first-lady-meet-citizens-at-traditional-market?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_2a430eb3",
+    "date": "2026-10-02",
+    "ts": 1790945824000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/f24b6ddb-aa8d-459b-a776-c8a74aa284a7.jpeg",
+    "title": "ชาวต่างชาติถือครองบ้านในเกาหลีพุ่งเกือบแสนหลังใน 3 ปี",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20261002/foreign-homeownership-in-korea-surges-30-over-3-years-approaching-100000-mark?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_15c11b18",
+    "date": "2026-10-02",
+    "ts": 1790941711000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002009152320_02_i_P2.jpg",
+    "title": "คณะกรรมการกำกับดูแลการเงินสั่งตรวจสอบระบบความปลอดภัยหลังถูกแฮก",
+    "link": "https://en.yna.co.kr/view/AEN20261002009152320"
+  },
+  {
+    "id": "hotnews_th_d18ca25a",
+    "date": "2026-10-02",
+    "ts": 1790939294000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093012480001300_P2.jpg",
+    "title": "คิม จู-ฮยอง ขึ้นนำกอล์ฟชายเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20261002005751315"
+  },
+  {
+    "id": "hotnews_th_f6be5b47",
+    "date": "2026-10-02",
+    "ts": 1790938878000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100219430001300_P2.jpg",
+    "title": "Faker ฝากข้อความถึงเด็กๆ เล่นเกมอย่างพอดีและมีสติ",
+    "link": "https://en.yna.co.kr/view/AEN20261002009500315"
+  },
+  {
+    "id": "hotnews_th_b7825c7a",
+    "date": "2026-10-02",
+    "ts": 1790937843000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20261002.PYH2026100221880005100_T1.jpg",
+    "title": "ความพยายามช่วยเหลือฉลามในปูซานครั้งที่สองยังไม่สำเร็จ",
+    "link": "https://www.koreaherald.com/article/10892301"
+  },
+  {
+    "id": "hotnews_th_2b9fc6f0",
+    "date": "2026-10-02",
+    "ts": 1790931516000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.f6d428b635494925a32e0959beab8fb4_T1.jpg",
+    "title": "ภาพยนตร์เรื่องใหม่ปมลอบสังหารสุภาพสตรีหมายเลขหนึ่งจุดกระแสวิพากษ์วิจารณ์",
+    "link": "https://www.koreaherald.com/article/10892235"
+  },
+  {
+    "id": "hotnews_th_edb22419",
+    "date": "2026-10-02",
+    "ts": 1790929220000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "คิมโยจองปฏิเสธความรับผิดชอบระเบิด DMZ และเย้ยเกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20261002008800315"
+  },
+  {
+    "id": "hotnews_th_5df809ca",
+    "date": "2026-10-02",
+    "ts": 1790927426000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002002952315_01_i_P2.jpg",
+    "title": "ประธานาธิบดีอีแจมยองเตือนยูเครนอาจใช้มาตรการเพิ่มเติม",
+    "link": "https://en.yna.co.kr/view/AEN20261002002952315"
+  },
+  {
+    "id": "hotnews_th_e33fc94c",
+    "date": "2026-10-02",
+    "ts": 1790926245000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008200315_02_i_P2.jpg",
+    "title": "รมว.กลาโหมเยือนค่ายทหารสหรัฐ เน้นย้ำความพร้อมพันธมิตร",
+    "link": "https://en.yna.co.kr/view/AEN20261002008200315"
+  },
+  {
     "id": "hotnews_th_5ce36a37",
     "date": "2026-10-02",
     "ts": 1790920623000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092901080031500_P2.jpg",
     "title": "กระทรวงรวมชาติย้ำเดินหน้าสันติภาพแม้เกิดเหตุระเบิดDMZ",
     "link": "https://en.yna.co.kr/view/AEN20261001005500315"
-  },
-  {
-    "id": "hotnews_th_d1257f80",
-    "date": "2026-09-30",
-    "ts": 1790807223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/28/cbb4bd1c-f0d6-49d5-9a25-d013c761844c.jpeg",
-    "title": "ม.สตรีซองชินปรับหลักสูตรยืดหยุ่นรับยุค AI และครบรอบ 90 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261001/sungshin-womens-university-pushes-flexible-education-to-meet-changing-social-needs?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_59a03252",
-    "date": "2026-09-30",
-    "ts": 1790807223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/42beb917-9cbd-42b5-a5de-90bb42f36bf7.jpeg",
-    "title": "เจ้าหน้าที่ UNHCR บรรยายเรื่องผู้ลี้ภัยที่ RAS Korea",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261001/unhcr-official-to-discuss-global-forced-displacement-for-ras-korea-lecture?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6261f217",
-    "date": "2026-09-30",
-    "ts": 1790805783000,
-    "image": "",
-    "title": "คิมโยจองปฏิเสธเหตุระเบิดทุ่นระเบิดใน DMZ เกาหลีใต้จี้รับผิดชอบ",
-    "link": "https://en.yna.co.kr/view/AEN20261001001600315"
-  },
-  {
-    "id": "hotnews_th_77e75f56",
-    "date": "2026-09-30",
-    "ts": 1790805771000,
-    "image": "",
-    "title": "เหตุระเบิดทุ่นระเบิดใน DMZ และการตอบสนองที่ล่าช้า",
-    "link": "https://en.yna.co.kr/view/AEN20261001001500315"
-  },
-  {
-    "id": "hotnews_th_e9f2aa6e",
-    "date": "2026-09-30",
-    "ts": 1790805756000,
-    "image": "",
-    "title": "ถกเถียงภาพยนตร์ The Assassin บิดเบือนประวัติศาสตร์ยิง Yook Young-soo",
-    "link": "https://en.yna.co.kr/view/AEN20261001001400315"
-  },
-  {
-    "id": "hotnews_th_c4d9ef5d",
-    "date": "2026-09-30",
-    "ts": 1790805737000,
-    "image": "",
-    "title": "สindsพาดหัวข่าวหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 1 ต.ค.",
-    "link": "https://en.yna.co.kr/view/AEN20261001001300315"
-  },
-  {
-    "id": "hotnews_th_fb5a24fd",
-    "date": "2026-09-30",
-    "ts": 1790803854000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001074901009_P2.jpg",
-    "title": "ทรัมป์เผยแผนลงทุนพลังงานสหรัฐฯ ของเกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20261001000851315"
-  },
-  {
-    "id": "hotnews_th_06bba16c",
-    "date": "2026-09-30",
-    "ts": 1790802001000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090921830001300_P2.jpg",
-    "title": "นักยูโดโอลิมปิก ลีจุนฮวาน และ ฮอมีมี ลุ้นทองเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20260930011000315"
-  },
-  {
-    "id": "hotnews_th_ecda1b39",
-    "date": "2026-09-30",
-    "ts": 1790800200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/09/30/news-p.v1.20260930.fe76f13970ff450fa07d5d3517068d24_T1.jpg",
-    "title": "ความหมายใหม่ของเวลเนes: จากการขายสถานที่สู่การสร้างความสัมพันธ์",
-    "link": "https://www.koreaherald.com/article/10889429"
-  },
-  {
-    "id": "hotnews_th_f4af0383",
-    "date": "2026-09-30",
-    "ts": 1790775280000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093008650001300_P2.jpg",
-    "title": "เกาหลีใต้คว้าเหรียญยิงธนูและฟุตบอลชายเข้าชิง",
-    "link": "https://en.yna.co.kr/view/AEN20260930011600315"
   }
 ]
