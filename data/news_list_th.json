@@ -88,6 +88,14 @@
     "link": "https://www.koreaherald.com/article/10892627"
   },
   {
+    "id": "hotnews_th_02550113",
+    "date": "2026-10-03",
+    "ts": 1791014245000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100305350001300_P2.jpg",
+    "title": "อี อู-ซอก คว้าเหรียญทองยิงธนูบุคคลชาย เอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20261003003100320"
+  },
+  {
     "id": "hotnews_th_54789a38",
     "date": "2026-10-03",
     "ts": 1791010800000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002002952315_01_i_P2.jpg",
     "title": "ประธานาธิบดีอีแจมยองเตือนยูเครนอาจใช้มาตรการเพิ่มเติม",
     "link": "https://en.yna.co.kr/view/AEN20261002002952315"
-  },
-  {
-    "id": "hotnews_th_e33fc94c",
-    "date": "2026-10-02",
-    "ts": 1790926245000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008200315_02_i_P2.jpg",
-    "title": "รมว.กลาโหมเยือนค่ายทหารสหรัฐ เน้นย้ำความพร้อมพันธมิตร",
-    "link": "https://en.yna.co.kr/view/AEN20261002008200315"
   }
 ]

@@ -88,6 +88,14 @@
     "link": "https://www.koreaherald.com/article/10892627"
   },
   {
+    "id": "hotnews_vi_02550113",
+    "date": "2026-10-03",
+    "ts": 1791014245000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100305350001300_P2.jpg",
+    "title": "Lee Woo-seok giành HCV cung một người tại Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20261003003100320"
+  },
+  {
     "id": "hotnews_vi_54789a38",
     "date": "2026-10-03",
     "ts": 1791010800000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002002952315_01_i_P2.jpg",
     "title": "Tổng thống Lee cảnh báo Ukraine về vấn đề tù binh Triều Tiên",
     "link": "https://en.yna.co.kr/view/AEN20261002002952315"
-  },
-  {
-    "id": "hotnews_vi_e33fc94c",
-    "date": "2026-10-02",
-    "ts": 1790926245000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008200315_02_i_P2.jpg",
-    "title": "Bộ trưởng Quốc phòng thăm căn cứ USFK đầu tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261002008200315"
   }
 ]

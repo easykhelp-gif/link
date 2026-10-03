@@ -88,6 +88,14 @@
     "link": "https://www.koreaherald.com/article/10892627"
   },
   {
+    "id": "hotnews_en_02550113",
+    "date": "2026-10-03",
+    "ts": 1791014245000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100305350001300_P2.jpg",
+    "title": "(Asiad) Lee Woo-seok finally finds 'last piece of puzzle' with individual archery gold at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20261003003100320"
+  },
+  {
     "id": "hotnews_en_54789a38",
     "date": "2026-10-03",
     "ts": 1791010800000,
@@ -390,13 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100224380005700_P2.jpg",
     "title": "S. Korea play Venezuela to goalless draw in 3rd match under Moreno",
     "link": "https://en.yna.co.kr/view/AEN20261002009700315"
-  },
-  {
-    "id": "hotnews_en_0f287851",
-    "date": "2026-10-02",
-    "ts": 1790946361000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20260813.PGT20260813048001009_T1.jpg",
-    "title": "US firms add just 29,000 Jobs, unemployment rate ticks up",
-    "link": "https://www.koreaherald.com/article/10892342"
   }
 ]
