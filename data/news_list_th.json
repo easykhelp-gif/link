@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_c89cf40c",
+    "date": "2026-10-03",
+    "ts": 1791028323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/03/5336b3cc-13c9-4fc4-ab32-88ddd723021b.jpg",
+    "title": "ตำรวจเกาหลีใต้ค้นห้องฉุกเฉินเด็ก รพ.อาจู จุดกระแสวิקורณ์หนัก",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261003/dispute-intensifies-over-police-search-of-pediatric-emergency-room?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9b21e292",
+    "date": "2026-10-03",
+    "ts": 1791028323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/03/68b96e3a-65e8-4371-b378-d9e90b1078e1.jpg",
+    "title": "ผู้หลบหนีเกณฑ์ทหารไปต่างประเทศรอดพ้นการลงโทษกว่า 80%",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261003/8-in-10-draft-dodgers-violating-travel-rules-go-unpunished?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_94bade92",
+    "date": "2026-10-03",
+    "ts": 1791028127000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003000951320_01_i_P2.jpg",
+    "title": "ทำเนียบประธานาธิบดีเกาหลีใต้เรียกประชุมความมั่นคงด่วน",
+    "link": "https://en.yna.co.kr/view/AEN20261003000951320"
+  },
+  {
+    "id": "hotnews_th_d34bea33",
+    "date": "2026-10-03",
+    "ts": 1791027752000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100308530001300_P2.jpg",
+    "title": "คิม Joo-hyung คว้าเหรียญทองกอล์ฟเอเชียนเกมส์หลังรับข้อความจาก Tiger Woods",
+    "link": "https://en.yna.co.kr/view/AEN20261003003651315"
+  },
+  {
+    "id": "hotnews_th_fc47ce2f",
+    "date": "2026-10-03",
+    "ts": 1791026281000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003004151315_02_i_P2.jpg",
+    "title": "คิมโยจองเผยเกาหลีเหนือยิงขีปนาวุธพิสัยกลาง",
+    "link": "https://en.yna.co.kr/view/AEN20261003004151315"
+  },
+  {
+    "id": "hotnews_th_ea257090",
+    "date": "2026-10-03",
+    "ts": 1791020637000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003003700315_03_i_P2.jpg",
+    "title": "ส.ส. พรรค PPP ชุมนุมประท้วงรัฐบาลอี แจมยอง ในกรุงโซล",
+    "link": "https://en.yna.co.kr/view/AEN20261003003700315"
+  },
+  {
+    "id": "hotnews_th_51014fef",
+    "date": "2026-10-03",
+    "ts": 1791014698000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/03/news-p.v1.20261003.6e0f1a855d414be09232f54ea49da7a1_T1.jpg",
+    "title": "ธนาคารรัฐเกาหลีปฏิเสธถูกกดดันลงทุนหนัง Assassin(s)",
+    "link": "https://www.koreaherald.com/article/10892627"
+  },
+  {
+    "id": "hotnews_th_54789a38",
+    "date": "2026-10-03",
+    "ts": 1791010800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-p.v1.20260930.d113173e016646afbdba826254588c8b_T1.png",
+    "title": "สวนซายูวอนในแดกูจัดเทศกาลดนตรีกลางแจ้งครั้งแรก",
+    "link": "https://www.koreaherald.com/article/10890931"
+  },
+  {
+    "id": "hotnews_th_1a4ca01c",
+    "date": "2026-10-03",
+    "ts": 1791010800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-a.v1.20261001.164cacf15b35480aa70905334419bbc3_T1.png",
+    "title": "โรงละครแห่งชาติเกาหลีจัดแสดงละครชุด Anthropolis",
+    "link": "https://www.koreaherald.com/article/10891048"
+  },
+  {
+    "id": "hotnews_th_9a6e333c",
+    "date": "2026-10-03",
+    "ts": 1791006058000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260925123051_75_k.jpg",
+    "title": "BTS เตรียมเปิดฉากทัวร์ลาตินอเมริกาที่โคลอมเบีย",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204648"
+  },
+  {
     "id": "hotnews_th_604cd213",
     "date": "2026-10-03",
     "ts": 1791005523000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "ลีเตือนใช้นมาตรการเพิ่มกับยูเครนหากไม่ขอโทษเรื่องเผยเรื่องเชลยศึกเกาหลีเหนือ",
     "link": "https://en.yna.co.kr/view/AEN20261002002600315"
-  },
-  {
-    "id": "hotnews_th_b633faa4",
-    "date": "2026-10-01",
-    "ts": 1790894822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/1784955a-0a28-4db1-bc9d-4e1ce55d1df0.jpeg",
-    "title": "เผยเหตุผลคนรุ่นใหม่เกาหลีใต้ต้องย้ายถิ่นฐานเข้าโซล",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261002/its-not-that-we-like-seoul-young-koreans-explain-why-they-leave-their-hometowns?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_975fab14",
-    "date": "2026-10-01",
-    "ts": 1790894822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/30/6766ff42-afa7-4fbd-95b1-38357a723d66.jpeg",
-    "title": "เกาหลียกเลิกสำนักงานอัยการสูงสุดหลังใช้มา 78 ปี ปรับระบบยุติธรรมใหม่",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261002/korea-abolishes-prosecutors-office-after-78-years-putting-new-criminal-justice-system-to-test?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_581916bc",
-    "date": "2026-10-01",
-    "ts": 1790892257000,
-    "image": "",
-    "title": "เหตุระเบิดทุ่นระเบิดใน DMZ เป็นการยั่วยุ ไม่ใช่อุบัติเหตุ",
-    "link": "https://en.yna.co.kr/view/AEN20261002000600320"
-  },
-  {
-    "id": "hotnews_th_0459255e",
-    "date": "2026-10-01",
-    "ts": 1790892244000,
-    "image": "",
-    "title": "โดนัลด์ ทรัมป์ เผยเกาหลีใต้จะลงทุนในโครงการก๊าซธรรมชาติแอลาสกา",
-    "link": "https://en.yna.co.kr/view/AEN20261002000500320"
-  },
-  {
-    "id": "hotnews_th_cd25a0e2",
-    "date": "2026-10-01",
-    "ts": 1790892233000,
-    "image": "",
-    "title": "ถsภาพยนตร์ The Assassin จุดดถขัดแย้งประวัติศาสตร์",
-    "link": "https://en.yna.co.kr/view/AEN20261002000400320"
-  },
-  {
-    "id": "hotnews_th_992b07fa",
-    "date": "2026-10-01",
-    "ts": 1790892221000,
-    "image": "",
-    "title": "พาดหัวข่าวหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 2 ตุลาคม",
-    "link": "https://en.yna.co.kr/view/AEN20261002000300320"
-  },
-  {
-    "id": "hotnews_th_a40a6d2b",
-    "date": "2026-10-01",
-    "ts": 1790886600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-p.v1.20261001.fa246e2e9d254151a475e037762f25e8_T1.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเสนอแผน 3 ขั้นตอนปลดอาวุธนิวเคลียร์เกาหลีเหนือ",
-    "link": "https://www.koreaherald.com/article/10890992"
-  },
-  {
-    "id": "hotnews_th_691716d8",
-    "date": "2026-10-01",
-    "ts": 1790862123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/6d3feb08-cad7-41d7-8f01-4f2f7cacf54e.jpeg",
-    "title": "ม.โซลจัดงานแฟร์กิจกรรมเสริมหลักสูตรให้นักศึกษา",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261001/university-of-seoul-offers-hands-on-extracurricular-experiences?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ce3b03d4",
-    "date": "2026-10-01",
-    "ts": 1790862123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/bbbd8b7b-f6a4-465e-b79c-1d45fc611a33.jpeg",
-    "title": "เกาหลีเชื่อมระบบพาสปอร์ตสกัดเงินสวัสดิการเด็กซ้ำซ้อน",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261001/korea-tracks-passports-to-stop-improper-welfare-payouts-to-families-overseas?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_dba24cfb",
-    "date": "2026-10-01",
-    "ts": 1790862123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/f81d29a9-3815-4415-a507-0fd7e1550014.jpeg",
-    "title": "ประธานาธิบดีอีแจมยองแต่งตั้งฮาจุนคยองเป็นหัวหน้าฝ่ายนโยบายคนใหม่",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261001/president-appoints-economic-growth-secretary-as-new-policy-chief?utm_source=rss"
   }
 ]
