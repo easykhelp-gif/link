@@ -1,5 +1,21 @@
 [
   {
+    "id": "hotnews_en_63cc93c7",
+    "date": "2026-10-03",
+    "ts": 1791033680000,
+    "image": "",
+    "title": "(Asiad) medal standings",
+    "link": "https://en.yna.co.kr/view/AEN20230924003999315"
+  },
+  {
+    "id": "hotnews_en_eea5a0ac",
+    "date": "2026-10-03",
+    "ts": 1791030543000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003004200315_02_i_P2.jpg",
+    "title": "Financial watchdog calls emergency meeting with heads of financial firms under hacking attacks",
+    "link": "https://en.yna.co.kr/view/AEN20261003004200315"
+  },
+  {
     "id": "hotnews_en_c89cf40c",
     "date": "2026-10-03",
     "ts": 1791028323000,
@@ -40,12 +56,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261003004151315"
   },
   {
+    "id": "hotnews_en_3ad61abf",
+    "date": "2026-10-03",
+    "ts": 1791022416000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "N. Korean leader's sister says intermediate-range strategic missile was launched during firing drill",
+    "link": "https://en.yna.co.kr/view/AEN20261003003900315"
+  },
+  {
     "id": "hotnews_en_ea257090",
     "date": "2026-10-03",
     "ts": 1791020637000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003003700315_03_i_P2.jpg",
     "title": "Dozens of main opposition lawmakers stage rally in Seoul against Lee administration",
     "link": "https://en.yna.co.kr/view/AEN20261003003700315"
+  },
+  {
+    "id": "hotnews_en_4b655f6c",
+    "date": "2026-10-03",
+    "ts": 1791017759000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100306310001300_P2.jpg",
+    "title": "(Asiad) PGA Tour winner Kim Joo-hyung captures men's golf gold medal, helps S. Korea win team silver",
+    "link": "https://en.yna.co.kr/view/AEN20261003002951315"
   },
   {
     "id": "hotnews_en_51014fef",
@@ -366,37 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20260813.PGT20260813048001009_T1.jpg",
     "title": "US firms add just 29,000 Jobs, unemployment rate ticks up",
     "link": "https://www.koreaherald.com/article/10892342"
-  },
-  {
-    "id": "hotnews_en_f0b4f3c8",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/714fbe73-9e37-4649-9a3a-7443e3b05467.jpg",
-    "title": "President Lee, first lady meet citizens at traditional market",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261002/president-lee-first-lady-meet-citizens-at-traditional-market?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_2a430eb3",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/f24b6ddb-aa8d-459b-a776-c8a74aa284a7.jpeg",
-    "title": "Foreign homeownership in Korea surges 30% over 3 years, approaching 100,000 mark",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261002/foreign-homeownership-in-korea-surges-30-over-3-years-approaching-100000-mark?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b99376c5",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/fd451b41-da3f-4b20-af55-ae9296ee09e8.jpg",
-    "title": "Seoul pushes for dialogue with NK, but gov't speaks in different tones",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261002/seoul-pushes-for-dialogue-with-nk-but-govt-speaks-in-different-tones?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_dd5b71d4",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/b5470d5d-603c-4069-ac60-81eab92f36a0.jpeg",
-    "title": "Busan moves to secure trademark rights for viral waterfront shark",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261002/busan-moves-to-secure-trademark-rights-for-viral-waterfront-shark?utm_source=rss"
   }
 ]
