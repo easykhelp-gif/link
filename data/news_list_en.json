@@ -1,5 +1,141 @@
 [
   {
+    "id": "hotnews_en_604cd213",
+    "date": "2026-10-03",
+    "ts": 1791005523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/89d7314a-5b25-4a2d-ab4b-d173c787eab5.jpg",
+    "title": "[COVER STORY] North Korea's border fortification raises questions over DMZ buffer role",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261003/cover-story-north-koreas-border-fortification-raises-questions-over-dmz-buffer-role?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_f9782b12",
+    "date": "2026-10-03",
+    "ts": 1791005523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/03/70454c06-fe4c-461c-88f5-d532bcb12da0.jpeg",
+    "title": "Park Geun-hye releases letter written by her late father amid film controversy",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261003/park-geun-hye-releases-letter-written-by-her-late-father-amid-film-controversy?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_6b077d36",
+    "date": "2026-10-03",
+    "ts": 1791005226000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100220750005100_P2.jpg",
+    "title": "Shark returns to canal a day after 2nd rescue attempt",
+    "link": "https://en.yna.co.kr/view/AEN20261003002500315"
+  },
+  {
+    "id": "hotnews_en_8d20a3fa",
+    "date": "2026-10-03",
+    "ts": 1791004539000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100213450001300_P2.jpg",
+    "title": "(Asaid) S. Korea's Choi Ji-un wins gold in boy's dinghy sailing at Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20261003002400320"
+  },
+  {
+    "id": "hotnews_en_116ba9e2",
+    "date": "2026-10-03",
+    "ts": 1791003715000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003002200315_01_i_P2.jpg",
+    "title": "(Asiad) Teen golfer seeks further growth after coming up short of medal",
+    "link": "https://en.yna.co.kr/view/AEN20261003002200315"
+  },
+  {
+    "id": "hotnews_en_d3b026c1",
+    "date": "2026-10-03",
+    "ts": 1791003660000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260819094539_86_k.jpg",
+    "title": "Stray Kids Joins BTS in Grammy Boycott over Asian Pop Category",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204645"
+  },
+  {
+    "id": "hotnews_en_9f91f09b",
+    "date": "2026-10-03",
+    "ts": 1791003601000,
+    "image": "",
+    "title": "Today in Korean history",
+    "link": "https://en.yna.co.kr/view/AEN20261003001000315"
+  },
+  {
+    "id": "hotnews_en_a4329e74",
+    "date": "2026-10-03",
+    "ts": 1791003135000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260908090447_27_k.jpg",
+    "title": "KMA: Dryness Alerts Issued in Seoul for First Time This Year",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204644"
+  },
+  {
+    "id": "hotnews_en_d7935569",
+    "date": "2026-10-03",
+    "ts": 1791002928000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003002100315_01_i_P2.jpg",
+    "title": "(Asiad) S. Korea misses out on medals in women's golf individual, team events",
+    "link": "https://en.yna.co.kr/view/AEN20261003002100315"
+  },
+  {
+    "id": "hotnews_en_843fdbb8",
+    "date": "2026-10-03",
+    "ts": 1791002754000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202509/250924081305_66_k.jpg",
+    "title": "'Trump Open to All Dialogue for US Interests'",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204643"
+  },
+  {
+    "id": "hotnews_en_f3f31bac",
+    "date": "2026-10-03",
+    "ts": 1791002297000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912061354_51_k.jpg",
+    "title": "Pres. Office Inspects Military Response after N. Korea's Ballistic Missile Launch",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204642"
+  },
+  {
+    "id": "hotnews_en_1a2fbb87",
+    "date": "2026-10-03",
+    "ts": 1791002085000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926060507_60_k.jpg",
+    "title": "Trump Threatens to 'Charge More' if S. Korea Doesn't Agree to Invest in Alaska LNG Project",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204641"
+  },
+  {
+    "id": "hotnews_en_c1a94fe1",
+    "date": "2026-10-03",
+    "ts": 1790997527000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100302750031500_P2.jpg",
+    "title": "PM Han underscores power of culture on National Foundation Day",
+    "link": "https://en.yna.co.kr/view/AEN20261003001900315"
+  },
+  {
+    "id": "hotnews_en_3bcb1288",
+    "date": "2026-10-03",
+    "ts": 1790997401000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100303680001300_P2.jpg",
+    "title": "(Asiad) Indian archers end South Korea's recurve reign; Oh Ye-jin vows to grow from losses",
+    "link": "https://en.yna.co.kr/view/AEN20261003002000320"
+  },
+  {
+    "id": "hotnews_en_473d4e83",
+    "date": "2026-10-03",
+    "ts": 1790994128000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100301720031500_P2.jpg",
+    "title": "2026 Chuncheon Yonhap Marathon kicks off along Bukhan River",
+    "link": "https://en.yna.co.kr/view/AEN20261003001700320"
+  },
+  {
+    "id": "hotnews_en_abece32e",
+    "date": "2026-10-03",
+    "ts": 1790992205000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20261003001100315"
+  },
+  {
+    "id": "hotnews_en_6b03ee66",
+    "date": "2026-10-03",
+    "ts": 1790987227000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003000900320_01_i_P2.jpg",
+    "title": "Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch",
+    "link": "https://en.yna.co.kr/view/AEN20261003000900320"
+  },
+  {
     "id": "hotnews_en_b01742cd",
     "date": "2026-10-02",
     "ts": 1790979724000,
@@ -262,141 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202607/260723105727_80_k.jpg",
     "title": "Special Counsel Appeals for Tougher Sentence for Seoul Mayor, Again Seeks 18-Month Prison Term",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204639"
-  },
-  {
-    "id": "hotnews_en_1fc74bd1",
-    "date": "2026-10-02",
-    "ts": 1790931922000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20260930.PYH2026093017860005400_T1.jpg",
-    "title": "Court says Jang Yoon-gi should never go free. Can it bar parole?",
-    "link": "https://www.koreaherald.com/article/10892246"
-  },
-  {
-    "id": "hotnews_en_0e702d1d",
-    "date": "2026-10-02",
-    "ts": 1790931884000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.5ac8e643b63742f59221bf63282d1a5e_T1.jpg",
-    "title": "Left, but elegant: How ‘leftlegant’ came to define Lee’s struggle within liberal bloc",
-    "link": "https://www.koreaherald.com/article/10892245"
-  },
-  {
-    "id": "hotnews_en_2b9fc6f0",
-    "date": "2026-10-02",
-    "ts": 1790931516000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.f6d428b635494925a32e0959beab8fb4_T1.jpg",
-    "title": "A movie about a first lady's murder has Korea's conservatives fuming. Now its stars are paying the price",
-    "link": "https://www.koreaherald.com/article/10892235"
-  },
-  {
-    "id": "hotnews_en_634e247d",
-    "date": "2026-10-02",
-    "ts": 1790931059000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100219460001300_P2.jpg",
-    "title": "(Asiad) Archery champions say focus on process, not results, keeps team tight",
-    "link": "https://en.yna.co.kr/view/AEN20261002008900315"
-  },
-  {
-    "id": "hotnews_en_f4c28095",
-    "date": "2026-10-02",
-    "ts": 1790930536000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.d689b61a77244e2caa5f9ea7215e2517_T1.jpg",
-    "title": "W25m found in trash bag goes to finder after owner fails to come forward",
-    "link": "https://www.koreaherald.com/article/10892216"
-  },
-  {
-    "id": "hotnews_en_edb22419",
-    "date": "2026-10-02",
-    "ts": 1790929220000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "N. Korean leader's sister again denies responsibility over DMZ mine blast, mocks Seoul's pledge to ease military tensions",
-    "link": "https://en.yna.co.kr/view/AEN20261002008800315"
-  },
-  {
-    "id": "hotnews_en_ce039dcf",
-    "date": "2026-10-02",
-    "ts": 1790928132000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008700315_01_i_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20261002008700315"
-  },
-  {
-    "id": "hotnews_en_ae92f31f",
-    "date": "2026-10-02",
-    "ts": 1790927876000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.9f1e11d92b48477997cf7d988dad324d_T1.jpg",
-    "title": "SK chief to sell W944b in SK Inc. shares to fund divorce payout",
-    "link": "https://www.koreaherald.com/article/10892158"
-  },
-  {
-    "id": "hotnews_en_5df809ca",
-    "date": "2026-10-02",
-    "ts": 1790927426000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002002952315_01_i_P2.jpg",
-    "title": "Lee warns of 'additional measures' if Ukraine refuses to apologize over N.K. POW transfer disclosure wrangle",
-    "link": "https://en.yna.co.kr/view/AEN20261002002952315"
-  },
-  {
-    "id": "hotnews_en_4819b06f",
-    "date": "2026-10-02",
-    "ts": 1790927349000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20261001.PYH2026100119840001300_T1.jpg",
-    "title": "Police gain powers, face mounting demands under justice overhaul",
-    "link": "https://www.koreaherald.com/article/10892149"
-  },
-  {
-    "id": "hotnews_en_fe787a73",
-    "date": "2026-10-02",
-    "ts": 1790927158000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092816290001301_P2.jpg",
-    "title": "'The Assassin(s)' actors to skip BIFF events amid controversy over historical inaccuracies",
-    "link": "https://en.yna.co.kr/view/AEN20261002007800315"
-  },
-  {
-    "id": "hotnews_en_d91ef87e",
-    "date": "2026-10-02",
-    "ts": 1790927114000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202505/250513095457_96_k.jpg",
-    "title": "Supreme Court: Defectors Aren’t Breaking Law by Sending Money to Family in N. Korea",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204637"
-  },
-  {
-    "id": "hotnews_en_8b67a23b",
-    "date": "2026-10-02",
-    "ts": 1790927036000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002006252320_02_i_P2.jpg",
-    "title": "Seoul shares end higher on bargain hunting amid uncertainties; S. Korean won up",
-    "link": "https://en.yna.co.kr/view/AEN20261002006252320"
-  },
-  {
-    "id": "hotnews_en_8f195f97",
-    "date": "2026-10-02",
-    "ts": 1790926570000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261002093202_10_k.jpg",
-    "title": "Consumer Prices Rise 2.9% in September, Narrowing from August",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204636"
-  },
-  {
-    "id": "hotnews_en_e33fc94c",
-    "date": "2026-10-02",
-    "ts": 1790926245000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008200315_02_i_P2.jpg",
-    "title": "Defense chief highlights S. Korea-U.S. alliance, readiness on 1st visit to USFK base",
-    "link": "https://en.yna.co.kr/view/AEN20261002008200315"
-  },
-  {
-    "id": "hotnews_en_0b84a98b",
-    "date": "2026-10-02",
-    "ts": 1790926195000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202411/241111091820_62_k.jpg",
-    "title": "Cold Air to Bring Chilly Saturday Morning Nationwide",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204634"
-  },
-  {
-    "id": "hotnews_en_5ce36a37",
-    "date": "2026-10-02",
-    "ts": 1790920623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/906d0e3c-bed9-4b93-8ae0-6eda21d15923.jpeg",
-    "title": "Seoul looks to foreign entrepreneurs to fuel its next economic engine",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261002/seoul-looks-to-foreign-entrepreneurs-to-fuel-its-next-economic-engine?utm_source=rss"
   }
 ]
