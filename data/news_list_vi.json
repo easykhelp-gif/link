@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_9113a612",
+    "date": "2026-10-04",
+    "ts": 1791094023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/04/b34c0c46-58c7-4150-92bb-43f6f530ed25.jpg",
+    "title": "Đơn thuốc ADHD tăng vọt 38% tại Hàn Quốc trong 2 năm",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261004/adhd-drug-prescriptions-surge-38-in-2-years?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_668e80f7",
+    "date": "2026-10-04",
+    "ts": 1791092598000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261004022845_14_e.jpg",
+    "title": "Trump dọa áp thuế tới 300% với công ty không xây nhà máy tại Mỹ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204658"
+  },
+  {
+    "id": "hotnews_vi_3e91d670",
+    "date": "2026-10-04",
+    "ts": 1791088139000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202208/220819100252_35_k.jpg",
+    "title": "Rò rỉ dữ liệu lan rộng, gọi họp cơ quan quản lý khẩn cấp",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204656"
+  },
+  {
+    "id": "hotnews_vi_7a204140",
+    "date": "2026-10-04",
+    "ts": 1791084675000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261004010826_41_e.jpg",
+    "title": "Triều Tiên phóng tên lửa siêu vượt âm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204652"
+  },
+  {
+    "id": "hotnews_vi_5f2cc0d3",
+    "date": "2026-10-04",
+    "ts": 1791082682000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100401740001300_P2.jpg",
+    "title": "Thể thao Hàn Quốc cần rút kinh nghiệm từ Asiad Nagoya",
+    "link": "https://en.yna.co.kr/view/AEN20261004001800315"
+  },
+  {
+    "id": "hotnews_vi_bfd0db02",
+    "date": "2026-10-04",
+    "ts": 1791081806000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/04/AEN20261004001700315_01_i_P2.jpg",
+    "title": "Trump tuyên bố quan hệ tốt với Kim Jong-un",
+    "link": "https://en.yna.co.kr/view/AEN20261004001700315"
+  },
+  {
+    "id": "hotnews_vi_5276bb48",
+    "date": "2026-10-04",
+    "ts": 1791075571000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092919290001300_P2.jpg",
+    "title": "Tỷ lệ công tố viên từ chối lệnh bắt giữ vượt 30%",
+    "link": "https://en.yna.co.kr/view/AEN20261004000800315"
+  },
+  {
+    "id": "hotnews_vi_f53d141b",
+    "date": "2026-10-04",
+    "ts": 1791074695000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/04/AEN20261004000700315_01_i_P2.jpg",
+    "title": "Bắt một cảnh sát Hàn Quốc vì làm và phát tán ảnh đồi trụy",
+    "link": "https://en.yna.co.kr/view/AEN20261004000700315"
+  },
+  {
+    "id": "hotnews_vi_4eecca8a",
+    "date": "2026-10-04",
+    "ts": 1791072126000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091525660001300_P2.jpg",
+    "title": "Yang Hyun-jun được HLV Lee Min-sung khen ngợi ở Asian Games",
+    "link": "https://en.yna.co.kr/view/AEN20261004000400315"
+  },
+  {
+    "id": "hotnews_vi_79231cd3",
+    "date": "2026-10-03",
+    "ts": 1791069326000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261002.00ed187915884f2abcf60e8e72d7bf4c_T1.jpg",
+    "title": "Stablecoin do ngân hàng Hàn Quốc quản lý gây lo ngại cản trở đổi mới",
+    "link": "https://www.koreaherald.com/article/10892756"
+  },
+  {
     "id": "hotnews_vi_63cc93c7",
     "date": "2026-10-03",
     "ts": 1791033680000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100217840001300_P2.jpg",
     "title": "Hàn Quốc giành thêm 3 huy chương vàng tại Asiad",
     "link": "https://en.yna.co.kr/view/AEN20261002009600315"
-  },
-  {
-    "id": "hotnews_vi_15c11b18",
-    "date": "2026-10-02",
-    "ts": 1790941711000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002009152320_02_i_P2.jpg",
-    "title": "Cơ quan tài chính yêu cầu kiểm tra hệ thống bảo mật ngân hàng",
-    "link": "https://en.yna.co.kr/view/AEN20261002009152320"
-  },
-  {
-    "id": "hotnews_vi_c44adc27",
-    "date": "2026-10-02",
-    "ts": 1790940405000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20260731.da67b26f92a94ed89bbe1d5cfe88221b_T1.jpg",
-    "title": "FSC yêu cầu ngân hàng và công ty thẻ kiểm tra an ninh",
-    "link": "https://www.koreaherald.com/article/10892315"
-  },
-  {
-    "id": "hotnews_vi_d18ca25a",
-    "date": "2026-10-02",
-    "ts": 1790939294000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093012480001300_P2.jpg",
-    "title": "Kim Joo-hyung dẫn đầu golf nam Asiad trước vòng chung kết",
-    "link": "https://en.yna.co.kr/view/AEN20261002005751315"
-  },
-  {
-    "id": "hotnews_vi_f6be5b47",
-    "date": "2026-10-02",
-    "ts": 1790938878000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100219430001300_P2.jpg",
-    "title": "Faker khuyên trẻ em chơi game điều độ và có điểm dừng",
-    "link": "https://en.yna.co.kr/view/AEN20261002009500315"
-  },
-  {
-    "id": "hotnews_vi_b7825c7a",
-    "date": "2026-10-02",
-    "ts": 1790937843000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/rcv.YNA.20261002.PYH2026100221880005100_T1.jpg",
-    "title": "Nỗ lực giải cứu cá mập tại Busan lần thứ hai chưa thành công",
-    "link": "https://www.koreaherald.com/article/10892301"
-  },
-  {
-    "id": "hotnews_vi_f0b23644",
-    "date": "2026-10-02",
-    "ts": 1790936174000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002009151320_01_i_P2.jpg",
-    "title": "Rò rỉ thông tin 89 khách hàng của Hana Bank do hacker",
-    "link": "https://en.yna.co.kr/view/AEN20261002009151320"
-  },
-  {
-    "id": "hotnews_vi_07136ccc",
-    "date": "2026-10-02",
-    "ts": 1790935426000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.015d4c1d18db473bbb5f0e0f8466a50c_T1.jpg",
-    "title": "Hana và BNK báo cáo rò rỉ dữ liệu do hacker tấn công",
-    "link": "https://www.koreaherald.com/article/10892290"
-  },
-  {
-    "id": "hotnews_vi_2b9fc6f0",
-    "date": "2026-10-02",
-    "ts": 1790931516000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20261002.f6d428b635494925a32e0959beab8fb4_T1.jpg",
-    "title": "Phim về vụ ám sát đệ nhất phu nhân gây tranh cãi tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10892235"
-  },
-  {
-    "id": "hotnews_vi_edb22419",
-    "date": "2026-10-02",
-    "ts": 1790929220000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Em gái lãnh đạo Triều Tiên phủ nhận trách nhiệm vụ mìn DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20261002008800315"
-  },
-  {
-    "id": "hotnews_vi_5df809ca",
-    "date": "2026-10-02",
-    "ts": 1790927426000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002002952315_01_i_P2.jpg",
-    "title": "Tổng thống Lee cảnh báo Ukraine về vấn đề tù binh Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261002002952315"
   }
 ]
