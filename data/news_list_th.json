@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_bb29b5ad",
+    "date": "2026-10-04",
+    "ts": 1791117724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/96c37a71-d635-4a96-a7c5-8c86e45b6f70.jpeg",
+    "title": "วงดนตรีดิสโก้พังก์เยอรมัน-เกาหลี Minoh กลับมาเยือนโซล",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261004/german-korean-disco-punk-band-returns-to-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6efd6a1a",
+    "date": "2026-10-04",
+    "ts": 1791117724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/04/99791687-9507-42bb-803e-d3c598f0f14e.jpeg",
+    "title": "คณะกรรมการชีวจริยธรรมมหาวิทยาลัยซอกังรับรองจากรัฐบาล",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261004/sogang-universitys-bioethics-committee-earns-government-accreditation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_57402f1d",
+    "date": "2026-10-04",
+    "ts": 1791109790000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100407860001300_P2.jpg",
+    "title": "ปิดฉากเอเชียนเกมส์ครั้งที่ 20 ที่นาโกย่า เกาหลีใต้อันดับ 3",
+    "link": "https://en.yna.co.kr/view/AEN20261004002900315"
+  },
+  {
+    "id": "hotnews_th_00c8ea58",
+    "date": "2026-10-04",
+    "ts": 1791098020000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100400440004200_P2.jpg",
+    "title": "คิม จองอึน ควบคุมการทดสอบขีปนาวุธไฮเปอร์โซนิก",
+    "link": "https://en.yna.co.kr/view/AEN20261004000352315"
+  },
+  {
+    "id": "hotnews_th_2372147c",
+    "date": "2026-10-04",
+    "ts": 1791097962000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261004.4866b423da6846739d3a1476f4cb1ceb_T1.jpg",
+    "title": "ข้อพิพาทภาพยนตร์ The Assassin(s) รุนแรงขึ้นหลัง Naver พบการปั่นรีวิว",
+    "link": "https://www.koreaherald.com/article/10892966"
+  },
+  {
+    "id": "hotnews_th_c8d6078d",
+    "date": "2026-10-04",
+    "ts": 1791097200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-a.v1.20260930.1fce3fd030c94fb093bad0c02111deaa_T1.png",
+    "title": "ชายหนุ่มอาสาทำความสะอาดสนามเด็กเล่นทั่วโซลด้วยทุนส่วนตัว",
+    "link": "https://www.koreaherald.com/article/10889480"
+  },
+  {
+    "id": "hotnews_th_a570dce8",
+    "date": "2026-10-04",
+    "ts": 1791097200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-p.v1.20261001.1abfe6f104aa4effab43fa9301746737_T1.jpg",
+    "title": "ซีรีส์รอมคอมใหม่ Netflix ชวนเติมพลังใจให้ชีวิต",
+    "link": "https://www.koreaherald.com/article/10891040"
+  },
+  {
     "id": "hotnews_th_9113a612",
     "date": "2026-10-04",
     "ts": 1791094023000,
@@ -38,6 +94,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100401740001300_P2.jpg",
     "title": "หัวหน้ากีฬาเกาหลีใต้ชี้ต้องถอดบทเรียนจากเอเชียนเกมส์นาโกยา",
     "link": "https://en.yna.co.kr/view/AEN20261004001800315"
+  },
+  {
+    "id": "hotnews_th_334a4ac8",
+    "date": "2026-10-04",
+    "ts": 1791081905000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261004.e9bd87cbe9a74032bfb4591ddf907933_T1.jpeg",
+    "title": "ตำรวจโซลถูกจับกุมหลังพัวพันคดีAIปลอมแปลงภาพลามกและไฟล์ผิดกฎหมาย",
+    "link": "https://www.koreaherald.com/article/10892869"
   },
   {
     "id": "hotnews_th_bfd0db02",
@@ -80,12 +144,28 @@
     "link": "https://www.koreaherald.com/article/10892756"
   },
   {
+    "id": "hotnews_th_c4349c44",
+    "date": "2026-10-03",
+    "ts": 1791038421000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100310970001300_P2.jpg",
+    "title": "โค้ชอีมินซองชื่นชมแข้งโสมคว้าทองเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20261003004800315"
+  },
+  {
     "id": "hotnews_th_63cc93c7",
     "date": "2026-10-03",
     "ts": 1791033680000,
     "image": "",
     "title": "ตารางเหรียญรางวัลการแข่งขัน Aichi-Nagoya Asian Games",
     "link": "https://en.yna.co.kr/view/AEN20230924003999315"
+  },
+  {
+    "id": "hotnews_th_ada43833",
+    "date": "2026-10-03",
+    "ts": 1791033647000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100311420001300_P2.jpg",
+    "title": "ทีมฟุตบอลชายเกาหลีใต้คว้าทองเอเชียนเกมส์และยกเว้นเกณฑ์ทหาร",
+    "link": "https://en.yna.co.kr/view/AEN20261003004600315"
   },
   {
     "id": "hotnews_th_eea5a0ac",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260912061354_51_k.jpg",
     "title": "ทำเนียบประธานาธิบดีเกาหลีใต้ตรวจสอบการตอบสนองของกองทัพ",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204642"
-  },
-  {
-    "id": "hotnews_th_1a2fbb87",
-    "date": "2026-10-03",
-    "ts": 1791002085000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260926060507_60_k.jpg",
-    "title": "ทรัมป์ขู่เก็บเงินเกาหลีใต้เพิ่มหากไม่ลงทุนอลาสก้า",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204641"
-  },
-  {
-    "id": "hotnews_th_b01742cd",
-    "date": "2026-10-02",
-    "ts": 1790979724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/07/09/0803caf1-d11d-417e-9eff-de73996001c2.jpeg",
-    "title": "เสน่ห์เต็นท์อาหารโปจังมาชาในเกาหลีใต้",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261003/morning-calm-tales-the-irresistible-appeal-of-koreas-pojangmacha-food-tents?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_0ab986f6",
-    "date": "2026-10-02",
-    "ts": 1790979724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/89d7314a-5b25-4a2d-ab4b-d173c787eab5.jpg",
-    "title": "เกาหลีเหนือเสริมกำลังชายแดน DMZ หวั่นกระทบบัฟเฟอร์",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261003/north-koreas-border-fortification-raises-questions-over-dmz-buffer-role?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_837a3741",
-    "date": "2026-10-02",
-    "ts": 1790979724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/01/1fb07c32-200b-4c78-bddb-3544a7c4fc19.jpeg",
-    "title": "ชาวฟิลิปปินส์รวมตัวจัดงาน Filipino Night ที่ฮงแด",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261003/filipinos-turn-hongdae-venue-into-home-away-from-home?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a4b49224",
-    "date": "2026-10-02",
-    "ts": 1790977762000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/03/news-p.v1.20261003.564ea705b579475d93d29c31ecbdb757_T1.png",
-    "title": "เกาหลีเหนือยิงกระสุนไม่ทราบฝ่ายไปทางทะเลตะวันออก",
-    "link": "https://www.koreaherald.com/article/10892386"
-  },
-  {
-    "id": "hotnews_th_ae25e2a1",
-    "date": "2026-10-02",
-    "ts": 1790954533000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002009851315_01_i_P2.jpg",
-    "title": "ทรัมป์ประกาศโครงการน้ำมันสหรัฐฯ 8.4 พันล้านดอลลาร์จากดีลเกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20261002009851315"
-  },
-  {
-    "id": "hotnews_th_75780133",
-    "date": "2026-10-02",
-    "ts": 1790951208000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002008854315_02_i_P2.jpg",
-    "title": "คิมโยจองปฏิเสธความรับผิดชอบระเบิด DMZ และเยาะเย้ยโซล",
-    "link": "https://en.yna.co.kr/view/AEN20261002008854315"
-  },
-  {
-    "id": "hotnews_th_f0b4f3c8",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/714fbe73-9e37-4649-9a3a-7443e3b05467.jpg",
-    "title": "ประธานาธิบดีอีแจมยองและภริยาลงพื้นที่ตลาดดั้งเดิมในโซล",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261002/president-lee-first-lady-meet-citizens-at-traditional-market?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_2a430eb3",
-    "date": "2026-10-02",
-    "ts": 1790945824000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/02/f24b6ddb-aa8d-459b-a776-c8a74aa284a7.jpeg",
-    "title": "ชาวต่างชาติถือครองบ้านในเกาหลีพุ่งเกือบแสนหลังใน 3 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261002/foreign-homeownership-in-korea-surges-30-over-3-years-approaching-100000-mark?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1bca6819",
-    "date": "2026-10-02",
-    "ts": 1790943841000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100217840001300_P2.jpg",
-    "title": "เกาหลีใต้คว้าเพิ่ม 3 ทองศึกเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20261002009600315"
   }
 ]
