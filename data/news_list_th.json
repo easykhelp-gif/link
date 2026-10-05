@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_d5449780",
+    "date": "2026-10-05",
+    "ts": 1791208756000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100102220001300_P2.jpg",
+    "title": "แอลจี อิเลคทรอนิกส์ คว้าสัญญาขายเครื่องทำความเย็นศูนย์ข้อมูล AI ในสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20261005005500320"
+  },
+  {
+    "id": "hotnews_th_c825f4b1",
+    "date": "2026-10-05",
+    "ts": 1791199474000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.fe11eff9461e46418bb93b4e6e14cc4a_T1.png",
+    "title": "Eric Nam เตรียมปล่อยอัลบั้มชุดที่ 4 วันที่ 16 ต.ค. นี้",
+    "link": "https://www.koreaherald.com/article/10893441"
+  },
+  {
+    "id": "hotnews_th_8b5f8f44",
+    "date": "2026-10-05",
+    "ts": 1791197243000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.99bd847157be4c3dbb3c75d90f4e36a3_T1.jpg",
+    "title": "ส.ส. 6 สมัยเสนอแผนย้ายฐานทัพอากาศกังจูไปมูอัน",
+    "link": "https://www.koreaherald.com/article/10893429"
+  },
+  {
+    "id": "hotnews_th_2d54aca6",
+    "date": "2026-10-05",
+    "ts": 1791196699000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.2dd9740db4804cd5aa071d98113f90df_T1.jpg",
+    "title": "ไทยเตือนฝนตกหนักเพิ่มยอดตายน้ำท่วม 31 ราย",
+    "link": "https://www.koreaherald.com/article/10893426"
+  },
+  {
+    "id": "hotnews_th_8f0cd8a4",
+    "date": "2026-10-05",
+    "ts": 1791187848000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261004.PYH2026100405330000400_T1.jpg",
+    "title": "รมว.วัฒนธรรมเกาหลีประณามการข่มขู่ทีมนักแสดงภาพยนตร์ The Assassin(s)",
+    "link": "https://www.koreaherald.com/article/10893373"
+  },
+  {
+    "id": "hotnews_th_49738a09",
+    "date": "2026-10-05",
+    "ts": 1791187744000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.114db2f049314aca9913ce1857441247_T1.jpg",
+    "title": "BTS เริ่มทัวร์คอนเสิร์ตวงแตกในอเมริกาใต้ที่โคลอมเบีย",
+    "link": "https://www.koreaherald.com/article/10893372"
+  },
+  {
+    "id": "hotnews_th_d3ba9017",
+    "date": "2026-10-05",
+    "ts": 1791183998000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005001200315_01_i_P2.jpg",
+    "title": "กองทัพเกาหลีใต้เริ่มเก็บกู้ทุ่นระเบิดใน DMZ หลังเหตุระเบิด",
+    "link": "https://en.yna.co.kr/view/AEN20261005001200315"
+  },
+  {
+    "id": "hotnews_th_63ccc7c2",
+    "date": "2026-10-05",
+    "ts": 1791182384000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005002600320_01_i_P2.jpg",
+    "title": "ชาวต่างชาติค้างจ่ายเบี้ยประกันสุขภาพเกาหลีพุ่ง 3.75 หมื่นล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20261005002600320"
+  },
+  {
+    "id": "hotnews_th_9b410710",
+    "date": "2026-10-05",
+    "ts": 1791182124000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005050556_84_k.jpg",
+    "title": "เกาหลีเหนืออ้างการทดสอบขีปนาวุธไฮเปอร์โซนิกใกล้สำเร็จแล้ว",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204665"
+  },
+  {
+    "id": "hotnews_th_968fa117",
+    "date": "2026-10-05",
+    "ts": 1791179796000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005042535_38_k.jpg",
+    "title": "แฮกการเงินเกาหลีลามสถาบันการเงินอื่น ชี้ใช้ไอพีเดียวกัน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204663"
+  },
+  {
     "id": "hotnews_th_aafdf532",
     "date": "2026-10-05",
     "ts": 1791179529000,
@@ -318,85 +398,5 @@
     "image": "",
     "title": "ตารางเหรียญรางวัลการแข่งขัน Aichi-Nagoya Asian Games",
     "link": "https://en.yna.co.kr/view/AEN20230924003999315"
-  },
-  {
-    "id": "hotnews_th_ada43833",
-    "date": "2026-10-03",
-    "ts": 1791033647000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100311420001300_P2.jpg",
-    "title": "ทีมฟุตบอลชายเกาหลีใต้คว้าทองเอเชียนเกมส์และยกเว้นเกณฑ์ทหาร",
-    "link": "https://en.yna.co.kr/view/AEN20261003004600315"
-  },
-  {
-    "id": "hotnews_th_eea5a0ac",
-    "date": "2026-10-03",
-    "ts": 1791030543000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003004200315_02_i_P2.jpg",
-    "title": "หน่วยงานการเงินเกาหลีเรียกประชุมด่วนหลังธนาคารถูกแฮก",
-    "link": "https://en.yna.co.kr/view/AEN20261003004200315"
-  },
-  {
-    "id": "hotnews_th_c89cf40c",
-    "date": "2026-10-03",
-    "ts": 1791028323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/03/5336b3cc-13c9-4fc4-ab32-88ddd723021b.jpg",
-    "title": "ตำรวจเกาหลีใต้ค้นห้องฉุกเฉินเด็ก รพ.อาจู จุดกระแสวิקורณ์หนัก",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261003/dispute-intensifies-over-police-search-of-pediatric-emergency-room?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_9b21e292",
-    "date": "2026-10-03",
-    "ts": 1791028323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/03/68b96e3a-65e8-4371-b378-d9e90b1078e1.jpg",
-    "title": "ผู้หลบหนีเกณฑ์ทหารไปต่างประเทศรอดพ้นการลงโทษกว่า 80%",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261003/8-in-10-draft-dodgers-violating-travel-rules-go-unpunished?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_94bade92",
-    "date": "2026-10-03",
-    "ts": 1791028127000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003000951320_01_i_P2.jpg",
-    "title": "ทำเนียบประธานาธิบดีเกาหลีใต้เรียกประชุมความมั่นคงด่วน",
-    "link": "https://en.yna.co.kr/view/AEN20261003000951320"
-  },
-  {
-    "id": "hotnews_th_d34bea33",
-    "date": "2026-10-03",
-    "ts": 1791027752000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100308530001300_P2.jpg",
-    "title": "คิม Joo-hyung คว้าเหรียญทองกอล์ฟเอเชียนเกมส์หลังรับข้อความจาก Tiger Woods",
-    "link": "https://en.yna.co.kr/view/AEN20261003003651315"
-  },
-  {
-    "id": "hotnews_th_fc47ce2f",
-    "date": "2026-10-03",
-    "ts": 1791026281000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003004151315_02_i_P2.jpg",
-    "title": "คิมโยจองเผยเกาหลีเหนือยิงขีปนาวุธพิสัยกลาง",
-    "link": "https://en.yna.co.kr/view/AEN20261003004151315"
-  },
-  {
-    "id": "hotnews_th_3ad61abf",
-    "date": "2026-10-03",
-    "ts": 1791022416000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "น้องสาวผู้นำเกาหลีเหนือเผยยิงขีปนาวุธพิสัยกลาง",
-    "link": "https://en.yna.co.kr/view/AEN20261003003900315"
-  },
-  {
-    "id": "hotnews_th_ea257090",
-    "date": "2026-10-03",
-    "ts": 1791020637000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/03/AEN20261003003700315_03_i_P2.jpg",
-    "title": "ส.ส. พรรค PPP ชุมนุมประท้วงรัฐบาลอี แจมยอง ในกรุงโซล",
-    "link": "https://en.yna.co.kr/view/AEN20261003003700315"
-  },
-  {
-    "id": "hotnews_th_4b655f6c",
-    "date": "2026-10-03",
-    "ts": 1791017759000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100306310001300_P2.jpg",
-    "title": "คิม จูฮยอง คว้าทองกอล์ฟเอเชียนเกมส์และช่วยเกาหลีใต้คว้าเงินทีม",
-    "link": "https://en.yna.co.kr/view/AEN20261003002951315"
   }
 ]
