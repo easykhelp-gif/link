@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_60eacc64",
+    "date": "2026-10-06",
+    "ts": 1791295963000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.0eafaf991e1244de916148001908a3ed_T1.jpg",
+    "title": "เทศกาลภาพยนตร์นานาชาติปูซานครั้งที่ 31 เปิดฉากด้วยหนังอินดี้",
+    "link": "https://www.koreaherald.com/article/10894816"
+  },
+  {
+    "id": "hotnews_th_62054c31",
+    "date": "2026-10-06",
+    "ts": 1791287501000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/rcv.YNA.20261002.PYH2026100221810005100_T1.jpg",
+    "title": "ฉลามดัง ปูคังอี ในปูซาน เป็นสัตว์ใกล้สูญพันธุ์",
+    "link": "https://www.koreaherald.com/article/10894750"
+  },
+  {
+    "id": "hotnews_th_acf8ceb3",
+    "date": "2026-10-06",
+    "ts": 1791281562000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006070501_11_e.jpg",
+    "title": "ชิน세계เตรียมลงทุน 1 พันล้านดอลลาร์ในพาราเมาท์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204697"
+  },
+  {
+    "id": "hotnews_th_6720bb8a",
+    "date": "2026-10-06",
+    "ts": 1791277473000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081006000001300_P2.jpg",
+    "title": "กระทรวงกลาโหมเกาหลีใต้พิจารณายกเลิกการยกเว้นเกณฑ์ทหารของนักกีฬาและศิลปิน",
+    "link": "https://en.yna.co.kr/view/AEN20261006006700315"
+  },
+  {
+    "id": "hotnews_th_22a0a451",
+    "date": "2026-10-06",
+    "ts": 1791275759000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100614990001300_P2.jpg",
+    "title": "ภาพยนตร์เกาหลี \"The Table: Day and Night\" เปิดเทศกาล BIFF",
+    "link": "https://en.yna.co.kr/view/AEN20261006010400315"
+  },
+  {
+    "id": "hotnews_th_c7264e56",
+    "date": "2026-10-06",
+    "ts": 1791274181000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045820_98_e.jpg",
+    "title": "ธนาคารในเกาหลีใต้เตรียมเปิดให้บริการช้าลง 30 นาทีเริ่มเดือนเมษายนนี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204691"
+  },
+  {
+    "id": "hotnews_th_340b2cc9",
+    "date": "2026-10-06",
+    "ts": 1791273454000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100609700001300_P2.jpg",
+    "title": "ประธานาธิบดีอี แจ-มยอง สั่งเริ่มหารือเรื่องการเข้าร่วม CPTPP ใหม่",
+    "link": "https://en.yna.co.kr/view/AEN20261006009500315"
+  },
+  {
+    "id": "hotnews_th_80714584",
+    "date": "2026-10-06",
+    "ts": 1791271820000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.eba9675be7a34cdbbb3fbf0adbbe1c37_T1.jpg",
+    "title": "ตำรวจเกาหลีใต้สอบสวนเหตุแฮกธนาคารด้วย AI ครั้งใหญ่",
+    "link": "https://www.koreaherald.com/article/10894542"
+  },
+  {
+    "id": "hotnews_th_847160ef",
+    "date": "2026-10-06",
+    "ts": 1791270301000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045447_79_e.jpg",
+    "title": "รมว.อุตสาหกรรมชี้โครงการอลาสก้า LNG มีค่าเชิงยุทธศาสตร์",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204688"
+  },
+  {
+    "id": "hotnews_th_4dc23d24",
+    "date": "2026-10-06",
+    "ts": 1791269431000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006006500315_01_i_P2.jpg",
+    "title": "ตำรวจเกาหลีใต้ประกาศเอาผิดเด็ดขาดผู้ขู่คุกคามยูแฮจิน",
+    "link": "https://en.yna.co.kr/view/AEN20261006006500315"
+  },
+  {
     "id": "hotnews_th_28f39bb7",
     "date": "2026-10-06",
     "ts": 1791268622000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005001351315_01_i_P2.jpg",
     "title": "เรือประมงล่มใกล้เกาะเชจู: ช่วยเหลือได้ 9 คน สูญหาย 2 คน",
     "link": "https://en.yna.co.kr/view/AEN20261005001351315"
-  },
-  {
-    "id": "hotnews_th_b56c3a75",
-    "date": "2026-10-04",
-    "ts": 1791150123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/a047667a-43af-4482-b273-5b1566aab680.jpeg",
-    "title": "แอนามารีอา โอรามาส นำแจ๊สโคลอมเบียมาแสดงที่เกาหลี",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261005/anamaria-oramas-ushers-sounds-of-contemporary-colombian-jazz-to-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_938cc63f",
-    "date": "2026-10-04",
-    "ts": 1791150123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/18/99bc3688-105f-444d-bce3-68fa60a42c09.jpeg",
-    "title": "งานแสดงดนตรีใต้ดินรวม 11 วงในย่านชินชนวันเสาร์นี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261005/underground-show-brings-together-11-bands-in-sinchon?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6eab16c5",
-    "date": "2026-10-04",
-    "ts": 1791150123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/29/dd504f8c-d607-4729-a41e-43b9395ab6c8.jpeg",
-    "title": "ตามหาและพาอัฐ <b>Ahn Jun-beom</b> จากกระทรวงผู้รักชาติ",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261005/endless-search-for-graves-of-forgotten-independence-fighters?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_26325040",
-    "date": "2026-10-04",
-    "ts": 1791147603000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100400050001300_P2.jpg",
-    "title": "เกาหลีใต้พลาดเป้าศึกเอเชียนเกมส์ไอจี-นาโกยา",
-    "link": "https://en.yna.co.kr/view/AEN20261004001900315"
-  },
-  {
-    "id": "hotnews_th_7c9ce95a",
-    "date": "2026-10-04",
-    "ts": 1791123008000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080503600001300_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเรียกร้องยุติวงจรอุบาทว์แห่งความขัดแย้ง",
-    "link": "https://en.yna.co.kr/view/AEN20261004003000315"
-  },
-  {
-    "id": "hotnews_th_bb29b5ad",
-    "date": "2026-10-04",
-    "ts": 1791117724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/22/96c37a71-d635-4a96-a7c5-8c86e45b6f70.jpeg",
-    "title": "วงดนตรีดิสโก้พังก์เยอรมัน-เกาหลี Minoh กลับมาเยือนโซล",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261004/german-korean-disco-punk-band-returns-to-seoul?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6efd6a1a",
-    "date": "2026-10-04",
-    "ts": 1791117724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/04/99791687-9507-42bb-803e-d3c598f0f14e.jpeg",
-    "title": "คณะกรรมการชีวจริยธรรมมหาวิทยาลัยซอกังรับรองจากรัฐบาล",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261004/sogang-universitys-bioethics-committee-earns-government-accreditation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_2385aac6",
-    "date": "2026-10-04",
-    "ts": 1791111885000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261004073438_44_e.jpg",
-    "title": "เกาหลีใต้คว้าอันดับ 3 การแข่งขันเอเชียนเกมส์ 2026",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204660"
-  },
-  {
-    "id": "hotnews_th_67d3f220",
-    "date": "2026-10-04",
-    "ts": 1791109806000,
-    "image": "",
-    "title": "สรุปเหรียญรางวัลการแข่งขันเอเชียนเกมส์ Aichi-Nagoya",
-    "link": "https://en.yna.co.kr/view/AEN20230924003910315"
-  },
-  {
-    "id": "hotnews_th_57402f1d",
-    "date": "2026-10-04",
-    "ts": 1791109790000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100407860001300_P2.jpg",
-    "title": "ปิดฉากเอเชียนเกมส์ครั้งที่ 20 ที่นาโกย่า เกาหลีใต้อันดับ 3",
-    "link": "https://en.yna.co.kr/view/AEN20261004002900315"
   }
 ]
