@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_28f39bb7",
+    "date": "2026-10-06",
+    "ts": 1791268622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/53735a80-8593-4443-b792-f8f960106b82.jpg",
+    "title": "นักท่องเที่ยวต่างชาติเที่ยวโซลพุ่ง 22% ในช่วง 8 เดือนแรก",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261006/foreign-visitors-to-seoul-up-22-through-august?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8b01a6e1",
+    "date": "2026-10-06",
+    "ts": 1791268622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/0c299e06-300a-4807-b212-a3e8cb8920bd.jpeg",
+    "title": "เขตคังนัมนำหุ่นยนต์ช่วยทำอาหารใช้ในโรงเรียน",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261006/robotic-arms-take-over-school-kitchen-duties-in-southern-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_76ebf46e",
+    "date": "2026-10-06",
+    "ts": 1791268622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/9ab1120d-fe98-4532-9914-15632eb72506.jpg",
+    "title": "NIS ปฏิเสธข่าวสหรัฐฯ ปฏิเสธวีซ่าเจ้าหน้าที่",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261006/spy-agency-rejects-media-report-on-us-visa-denial-for-staff?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7ffa0ff9",
+    "date": "2026-10-06",
+    "ts": 1791268622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/00e27c67-ed18-4511-8ffb-be6d88506f7c.jpeg",
+    "title": "ม.โซ강 ได้รับเลือกทำโครงการฝึกอบรม AI ภาครัฐ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261006/sogang-university-selected-for-government-led-ai-training-project?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_950f4129",
+    "date": "2026-10-06",
+    "ts": 1791267651000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/rcv.YNA.20261006.PYH2026100612580001300_T1.jpg",
+    "title": "การตรวจสอบประจำปีของรัฐสภาเกาหลีใต้เริ่มต้นด้วยการปะทะกันเรื่องยูเครน",
+    "link": "https://www.koreaherald.com/article/10894424"
+  },
+  {
+    "id": "hotnews_th_4625f296",
+    "date": "2026-10-06",
+    "ts": 1791267048000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006006100315_01_i_P2.jpg",
+    "title": "เกาหลีใต้มีนักโทษประหาร 52 คน อายุเฉลี่ย 58.7 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261006006100315"
+  },
+  {
+    "id": "hotnews_th_6d5d382b",
+    "date": "2026-10-06",
+    "ts": 1791266501000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.c76ef756cee341e2a2c7cbc544bc8718_T1.jpg",
+    "title": "แกรมมี่เพิ่มสาขาเพลงป๊อปเอเชีย แต่ไม่มี BTS และ Stray Kids",
+    "link": "https://www.koreaherald.com/article/10894381"
+  },
+  {
+    "id": "hotnews_th_f0b11eaa",
+    "date": "2026-10-06",
+    "ts": 1791266174000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006121645_81_k.jpg",
+    "title": "ตำรวจเกาหลีเริ่มสอบสวนคดีโจมตีไซเบอร์ภาคธนาคารอย่างเต็มรูปแบบ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204684"
+  },
+  {
+    "id": "hotnews_th_1bd91a52",
+    "date": "2026-10-06",
+    "ts": 1791264273000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006005600315_03_i_P2.jpg",
+    "title": "รัฐมนตรีต่างประเทศเกาหลีใต้เผยยูเครนขอโทษปมเปิดเผยเชลยศึกเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20261006005600315"
+  },
+  {
+    "id": "hotnews_th_2fe9c942",
+    "date": "2026-10-06",
+    "ts": 1791262150000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.ce692f2664dc4a7a8f4b7cb808498c7b_T1.jpg",
+    "title": "เปิดตู้ vending machine ขายของที่ระลึก Seoul Goods ในงานเทศกาลกรุงโซล",
+    "link": "https://www.koreaherald.com/article/10894260"
+  },
+  {
     "id": "hotnews_th_cace3dca",
     "date": "2026-10-06",
     "ts": 1791245523000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100407860001300_P2.jpg",
     "title": "ปิดฉากเอเชียนเกมส์ครั้งที่ 20 ที่นาโกย่า เกาหลีใต้อันดับ 3",
     "link": "https://en.yna.co.kr/view/AEN20261004002900315"
-  },
-  {
-    "id": "hotnews_th_00c8ea58",
-    "date": "2026-10-04",
-    "ts": 1791098020000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100400440004200_P2.jpg",
-    "title": "คิม จองอึน ควบคุมการทดสอบขีปนาวุธไฮเปอร์โซนิก",
-    "link": "https://en.yna.co.kr/view/AEN20261004000352315"
-  },
-  {
-    "id": "hotnews_th_2372147c",
-    "date": "2026-10-04",
-    "ts": 1791097962000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261004.4866b423da6846739d3a1476f4cb1ceb_T1.jpg",
-    "title": "ข้อพิพาทภาพยนตร์ The Assassin(s) รุนแรงขึ้นหลัง Naver พบการปั่นรีวิว",
-    "link": "https://www.koreaherald.com/article/10892966"
-  },
-  {
-    "id": "hotnews_th_c8d6078d",
-    "date": "2026-10-04",
-    "ts": 1791097200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-a.v1.20260930.1fce3fd030c94fb093bad0c02111deaa_T1.png",
-    "title": "ชายหนุ่มอาสาทำความสะอาดสนามเด็กเล่นทั่วโซลด้วยทุนส่วนตัว",
-    "link": "https://www.koreaherald.com/article/10889480"
-  },
-  {
-    "id": "hotnews_th_a570dce8",
-    "date": "2026-10-04",
-    "ts": 1791097200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/01/news-p.v1.20261001.1abfe6f104aa4effab43fa9301746737_T1.jpg",
-    "title": "ซีรีส์รอมคอมใหม่ Netflix ชวนเติมพลังใจให้ชีวิต",
-    "link": "https://www.koreaherald.com/article/10891040"
-  },
-  {
-    "id": "hotnews_th_fc2fb9d2",
-    "date": "2026-10-04",
-    "ts": 1791097200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/02/news-p.v1.20260930.622c949f133e42299fedcc5fc251528f_T1.png",
-    "title": "เทรนด์แต่งงานเกาหลีเปลี่ยน! ภรรยาอายุมากกว่าเพิ่มขึ้น",
-    "link": "https://www.koreaherald.com/article/10892264"
-  },
-  {
-    "id": "hotnews_th_9113a612",
-    "date": "2026-10-04",
-    "ts": 1791094023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/04/b34c0c46-58c7-4150-92bb-43f6f530ed25.jpg",
-    "title": "ยาโรคสมาธิสั้นในเกาหลีพุ่ง 38% ใน 2 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261004/adhd-drug-prescriptions-surge-38-in-2-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_668e80f7",
-    "date": "2026-10-04",
-    "ts": 1791092598000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261004022845_14_e.jpg",
-    "title": "ทรัมป์ขู่เก็บภาษีนำเข้าสูงถึง 300%",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204658"
-  },
-  {
-    "id": "hotnews_th_3e91d670",
-    "date": "2026-10-04",
-    "ts": 1791088139000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202208/220819100252_35_k.jpg",
-    "title": "ข้อมูลรั่วไหลลุกลาม เรียกประชุมหน่วยงานกำกับดูแลฉุกเฉิน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204656"
-  },
-  {
-    "id": "hotnews_th_7a204140",
-    "date": "2026-10-04",
-    "ts": 1791084675000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261004010826_41_e.jpg",
-    "title": "สื่อเกาหลีเหนือเผยคิมจองอึนคุมการทดสอบขีปนาวุธ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204652"
-  },
-  {
-    "id": "hotnews_th_5f2cc0d3",
-    "date": "2026-10-04",
-    "ts": 1791082682000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100401740001300_P2.jpg",
-    "title": "หัวหน้ากีฬาเกาหลีใต้ชี้ต้องถอดบทเรียนจากเอเชียนเกมส์นาโกยา",
-    "link": "https://en.yna.co.kr/view/AEN20261004001800315"
   }
 ]
