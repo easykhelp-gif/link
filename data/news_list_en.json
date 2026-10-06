@@ -1,11 +1,131 @@
 [
   {
+    "id": "hotnews_en_cace3dca",
+    "date": "2026-10-06",
+    "ts": 1791245523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/f9a6ac7c-3d3e-476b-b728-47f28a0bbdf7.jpeg",
+    "title": "'Yoon trauma' shapes battle over new investigative chief",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261006/yoon-trauma-shapes-battle-over-new-investigative-chief?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_42214a88",
+    "date": "2026-10-06",
+    "ts": 1791244981000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100217510001300_P2.jpg",
+    "title": "Seoul stocks open higher after U.S. tech-led rally",
+    "link": "https://en.yna.co.kr/view/AEN20261006001300320"
+  },
+  {
+    "id": "hotnews_en_ba58d64d",
+    "date": "2026-10-05",
+    "ts": 1791243219000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100600360004200_P2.jpg",
+    "title": "N. Korea reviews Q3 economy, discusses yearly goals in Cabinet meeting",
+    "link": "https://en.yna.co.kr/view/AEN20261006001000315"
+  },
+  {
+    "id": "hotnews_en_cfdd29e0",
+    "date": "2026-10-05",
+    "ts": 1791240429000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000900320_01_i_P2.jpg",
+    "title": "Nuri rocket moved to launchpad on eve of fifth launch",
+    "link": "https://en.yna.co.kr/view/AEN20261006000900320"
+  },
+  {
+    "id": "hotnews_en_3d3a958e",
+    "date": "2026-10-05",
+    "ts": 1791237482000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Oct. 6)",
+    "link": "https://en.yna.co.kr/view/AEN20261006000800315"
+  },
+  {
+    "id": "hotnews_en_3e93c95e",
+    "date": "2026-10-05",
+    "ts": 1791237466000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Times on Oct. 6)",
+    "link": "https://en.yna.co.kr/view/AEN20261006000700315"
+  },
+  {
+    "id": "hotnews_en_a883e28f",
+    "date": "2026-10-05",
+    "ts": 1791237437000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Herald on Oct. 6)",
+    "link": "https://en.yna.co.kr/view/AEN20261006000600315"
+  },
+  {
+    "id": "hotnews_en_18400fca",
+    "date": "2026-10-05",
+    "ts": 1791237411000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20261006000500315"
+  },
+  {
+    "id": "hotnews_en_7dee5428",
+    "date": "2026-10-05",
+    "ts": 1791234014000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100113460005100_P2.jpg",
+    "title": "Busan film fest kicks off with 'A-list' status for 1st time",
+    "link": "https://en.yna.co.kr/view/AEN20261002005200315"
+  },
+  {
+    "id": "hotnews_en_4784aeaf",
+    "date": "2026-10-05",
+    "ts": 1791234000000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005005300320_01_i_P2.jpg",
+    "title": "Foreign reserves snap 3-month rise in Sept.",
+    "link": "https://en.yna.co.kr/view/AEN20261005005300320"
+  },
+  {
+    "id": "hotnews_en_160600a1",
+    "date": "2026-10-05",
+    "ts": 1791232200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.5d407833e69044cd98db5895877394ca_T1.jpg",
+    "title": "[Miao Yanliang] Will AI reverse renminbi’s rise?",
+    "link": "https://www.koreaherald.com/article/10893380"
+  },
+  {
+    "id": "hotnews_en_b5b3be2b",
+    "date": "2026-10-05",
+    "ts": 1791232200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.52140df02a454896bd5485ce28af4c0b_T1.jpg",
+    "title": "[Grace Kao] Reflections on RM's exhibit at SFMOMA",
+    "link": "https://www.koreaherald.com/article/10893379"
+  },
+  {
+    "id": "hotnews_en_a9a6fa1b",
+    "date": "2026-10-05",
+    "ts": 1791223961000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000300315_01_i_P2.jpg",
+    "title": "Vance says U.S., S. Korea still need to 'work out' details of Alaska gas project",
+    "link": "https://en.yna.co.kr/view/AEN20261006000300315"
+  },
+  {
+    "id": "hotnews_en_b7c46c13",
+    "date": "2026-10-05",
+    "ts": 1791219626000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000200315_01_i_P2.jpg",
+    "title": "Ex-USFK commander warns time-based OPCON transfer could weaken deterrence against N. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20261006000200315"
+  },
+  {
     "id": "hotnews_en_d5449780",
     "date": "2026-10-05",
     "ts": 1791208756000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100102220001300_P2.jpg",
     "title": "LG Electronics wins U.S. AI data center chiller deal",
     "link": "https://en.yna.co.kr/view/AEN20261005005500320"
+  },
+  {
+    "id": "hotnews_en_1723b4fb",
+    "date": "2026-10-05",
+    "ts": 1791205800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.35fcc22585ba481e9242fe1005a45315_T1.jpg",
+    "title": "LG wins 5GW AI cooling deal in North America",
+    "link": "https://www.koreaherald.com/article/10893397"
   },
   {
     "id": "hotnews_en_c825f4b1",
@@ -152,6 +272,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261005001200315"
   },
   {
+    "id": "hotnews_en_98a1a75d",
+    "date": "2026-10-05",
+    "ts": 1791183959000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "S. Korean military launches operation to remove N. Korean mines at recent DMZ blast site: JCS",
+    "link": "https://en.yna.co.kr/view/AEN20261005001100315"
+  },
+  {
     "id": "hotnews_en_92513d9d",
     "date": "2026-10-05",
     "ts": 1791183886000,
@@ -182,6 +310,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005050556_84_k.jpg",
     "title": "N. Korea Claims Hypersonic Missile Drill Reaching 'Final Stages of Development'",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204665"
+  },
+  {
+    "id": "hotnews_en_5f00cec3",
+    "date": "2026-10-05",
+    "ts": 1791181566000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261005.PYH2026100506990006400_T1.jpg",
+    "title": "Opposition chair steps up attack against 'The Assassin(s)'",
+    "link": "https://www.koreaherald.com/article/10893343"
   },
   {
     "id": "hotnews_en_a56ab014",
@@ -262,141 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.0bbef14c26164a4eb0abba4c8dfc8967_T1.png",
     "title": "Smotherman claims first PGA Tour win",
     "link": "https://www.koreaherald.com/article/10893315"
-  },
-  {
-    "id": "hotnews_en_d6f80010",
-    "date": "2026-10-05",
-    "ts": 1791177072000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005025355_45_e.jpg",
-    "title": "Reuters: Zelenskyy Believes Russia Shared Technology with N. Korea",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204662"
-  },
-  {
-    "id": "hotnews_en_0beeba4d",
-    "date": "2026-10-05",
-    "ts": 1791176885000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-a.v1.20261005.66d6d3a5c5904197a39317634cb5948c_T1.jpg",
-    "title": "HD Hyundai XiteSolution rolls out electric forklifts up to 18 tons",
-    "link": "https://www.koreaherald.com/article/10893308"
-  },
-  {
-    "id": "hotnews_en_309e03d0",
-    "date": "2026-10-05",
-    "ts": 1791176811000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261002.01ef67b28ca840d2b68e57a3a1eda457_T1.png",
-    "title": "Korea bets W4.7tr on frontier AI",
-    "link": "https://www.koreaherald.com/article/10893306"
-  },
-  {
-    "id": "hotnews_en_b7b58574",
-    "date": "2026-10-05",
-    "ts": 1791176743000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.6b0af17120ba4d26a8eec8f0cac9c0b0_T1.png",
-    "title": "Nearly 20 minors held in Korea’s immigration detention facilities: lawmaker",
-    "link": "https://www.koreaherald.com/article/10893305"
-  },
-  {
-    "id": "hotnews_en_a9bb3e97",
-    "date": "2026-10-05",
-    "ts": 1791176417000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20261005001600315"
-  },
-  {
-    "id": "hotnews_en_2faf05e2",
-    "date": "2026-10-05",
-    "ts": 1791176402000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.50416fca93124969ba730104eab2ebc2_T1.png",
-    "title": "KLPGA Season finale DaeBo HausD Championship raises purse to $892,000",
-    "link": "https://www.koreaherald.com/article/10893302"
-  },
-  {
-    "id": "hotnews_en_660570aa",
-    "date": "2026-10-05",
-    "ts": 1791176091000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.75d77ccbcd3346b4b9e4509aa0653ebd_T1.jpg",
-    "title": "North Korea appears to have installed fences south of MDL: lawmaker",
-    "link": "https://www.koreaherald.com/article/10893300"
-  },
-  {
-    "id": "hotnews_en_db699fe0",
-    "date": "2026-10-05",
-    "ts": 1791176003000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005021011_35_e.jpg",
-    "title": "Lee Calls for Precautions against 'Irresponsible Extremists'",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204661"
-  },
-  {
-    "id": "hotnews_en_8792ec70",
-    "date": "2026-10-05",
-    "ts": 1791175780000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.f90f534a9fb1485e96920ee0b8f5a1e4_T1.png",
-    "title": "16-Year-old Lee Seung-hee upsets former champion Lim",
-    "link": "https://www.koreaherald.com/article/10893290"
-  },
-  {
-    "id": "hotnews_en_8a4c8b33",
-    "date": "2026-10-05",
-    "ts": 1791175767000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.3cab731952264b88bd24c9b1c7dcb5c3_T1.png",
-    "title": "AFC Nations League to launch in 2030",
-    "link": "https://www.koreaherald.com/article/10893289"
-  },
-  {
-    "id": "hotnews_en_2da8daa4",
-    "date": "2026-10-05",
-    "ts": 1791175512000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.dd414f95014e47e0aa0ba957680be4fa_T1.png",
-    "title": "Samsung set for record W100tr quarterly profit on memory boom",
-    "link": "https://www.koreaherald.com/article/10893284"
-  },
-  {
-    "id": "hotnews_en_f0431823",
-    "date": "2026-10-05",
-    "ts": 1791174994000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20260929.bfffff3003f248109566f8c25e90bfb9_T1.jpg",
-    "title": "[World Class] Sookmyung bets Hallyu’s next stage is academia, not just entertainment",
-    "link": "https://www.koreaherald.com/article/10893278"
-  },
-  {
-    "id": "hotnews_en_b42a7eed",
-    "date": "2026-10-05",
-    "ts": 1791174722000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.334c8ddf23a840f080cc64b49e34a1fb_T1.jpg",
-    "title": "Daewoo E&C’s new CEO puts profitability, expansion first",
-    "link": "https://www.koreaherald.com/article/10893275"
-  },
-  {
-    "id": "hotnews_en_653e8d28",
-    "date": "2026-10-05",
-    "ts": 1791174492000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.bafa6d796eb54d2aa6083934e7232878_T1.jpg",
-    "title": "Youth, socially disadvantaged more likely to view Korea as unfair",
-    "link": "https://www.koreaherald.com/article/10893274"
-  },
-  {
-    "id": "hotnews_en_3185d565",
-    "date": "2026-10-05",
-    "ts": 1791173203000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261005.PAP20261005226801009_T1.jpg",
-    "title": "Brazil heads to runoff election after no majority",
-    "link": "https://www.koreaherald.com/article/10893263"
-  },
-  {
-    "id": "hotnews_en_9546a806",
-    "date": "2026-10-05",
-    "ts": 1791170944000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261004.PAP20261004237501009_T1.jpg",
-    "title": "Ethiopia controls Tigray capital as regional rivals meet in Egypt",
-    "link": "https://www.koreaherald.com/article/10893243"
-  },
-  {
-    "id": "hotnews_en_21192fab",
-    "date": "2026-10-05",
-    "ts": 1791170906000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261005.PAF20261005084501009_T1.jpg",
-    "title": "Bosnian strongman claims win",
-    "link": "https://www.koreaherald.com/article/10893241"
   }
 ]

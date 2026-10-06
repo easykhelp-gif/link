@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_vi_cace3dca",
+    "date": "2026-10-06",
+    "ts": 1791245523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/f9a6ac7c-3d3e-476b-b728-47f28a0bbdf7.jpeg",
+    "title": "Tranh cãi quanh việc bổ nhiệm người đứng đầu cơ quan điều tra",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261006/yoon-trauma-shapes-battle-over-new-investigative-chief?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ba58d64d",
+    "date": "2026-10-05",
+    "ts": 1791243219000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100600360004200_P2.jpg",
+    "title": "Triều Tiên họp Nội các đánh giá kinh tế quý 3",
+    "link": "https://en.yna.co.kr/view/AEN20261006001000315"
+  },
+  {
+    "id": "hotnews_vi_cfdd29e0",
+    "date": "2026-10-05",
+    "ts": 1791240429000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000900320_01_i_P2.jpg",
+    "title": "Tên lửa Nuri được di chuyển ra bệ phóng cho lần phóng thứ 5",
+    "link": "https://en.yna.co.kr/view/AEN20261006000900320"
+  },
+  {
+    "id": "hotnews_vi_3d3a958e",
+    "date": "2026-10-05",
+    "ts": 1791237482000,
+    "image": "",
+    "title": "Tranh cãi trong chính phủ Hàn Quốc về phản ứng với Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261006000800315"
+  },
+  {
+    "id": "hotnews_vi_3e93c95e",
+    "date": "2026-10-05",
+    "ts": 1791237466000,
+    "image": "",
+    "title": "Quan điểm ngoại giao của Tổng thống Lee Jae Myung với Ukraine",
+    "link": "https://en.yna.co.kr/view/AEN20261006000700315"
+  },
+  {
+    "id": "hotnews_vi_a883e28f",
+    "date": "2026-10-05",
+    "ts": 1791237437000,
+    "image": "",
+    "title": "Xem xét lại chế độ miễn nghĩa vụ quân sự cho vận động viên",
+    "link": "https://en.yna.co.kr/view/AEN20261006000600315"
+  },
+  {
+    "id": "hotnews_vi_7dee5428",
+    "date": "2026-10-05",
+    "ts": 1791234014000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100113460005100_P2.jpg",
+    "title": "Liên hoan phim Busan lần thứ 31 chính thức khai mạc",
+    "link": "https://en.yna.co.kr/view/AEN20261002005200315"
+  },
+  {
+    "id": "hotnews_vi_a9a6fa1b",
+    "date": "2026-10-05",
+    "ts": 1791223961000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000300315_01_i_P2.jpg",
+    "title": "Mỹ và Hàn Quốc cần làm rõ chi tiết dự án khí đốt Alaska",
+    "link": "https://en.yna.co.kr/view/AEN20261006000300315"
+  },
+  {
     "id": "hotnews_vi_d5449780",
     "date": "2026-10-05",
     "ts": 1791208756000,
@@ -56,6 +120,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261005001200315"
   },
   {
+    "id": "hotnews_vi_98a1a75d",
+    "date": "2026-10-05",
+    "ts": 1791183959000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc rà phá mìn tại khu vực nổ mìn ở DMZ",
+    "link": "https://en.yna.co.kr/view/AEN20261005001100315"
+  },
+  {
     "id": "hotnews_vi_63ccc7c2",
     "date": "2026-10-05",
     "ts": 1791182384000,
@@ -70,6 +142,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005050556_84_k.jpg",
     "title": "Triều Tiên tuyên bố thử nghiệm tên lửa siêu vượt âm",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204665"
+  },
+  {
+    "id": "hotnews_vi_5f00cec3",
+    "date": "2026-10-05",
+    "ts": 1791181566000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261005.PYH2026100506990006400_T1.jpg",
+    "title": "Phe đối lập chỉ trích phim The Assassin(s) xuyên tạc lịch sử",
+    "link": "https://www.koreaherald.com/article/10893343"
   },
   {
     "id": "hotnews_vi_968fa117",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100401740001300_P2.jpg",
     "title": "Thể thao Hàn Quốc cần rút kinh nghiệm từ Asiad Nagoya",
     "link": "https://en.yna.co.kr/view/AEN20261004001800315"
-  },
-  {
-    "id": "hotnews_vi_334a4ac8",
-    "date": "2026-10-04",
-    "ts": 1791081905000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261004.e9bd87cbe9a74032bfb4591ddf907933_T1.jpeg",
-    "title": "Cảnh sát Seoul bị bắt vì dính líu đến deepfake tình dục AI",
-    "link": "https://www.koreaherald.com/article/10892869"
-  },
-  {
-    "id": "hotnews_vi_bfd0db02",
-    "date": "2026-10-04",
-    "ts": 1791081806000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/04/AEN20261004001700315_01_i_P2.jpg",
-    "title": "Trump tuyên bố quan hệ tốt với Kim Jong-un",
-    "link": "https://en.yna.co.kr/view/AEN20261004001700315"
-  },
-  {
-    "id": "hotnews_vi_5276bb48",
-    "date": "2026-10-04",
-    "ts": 1791075571000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092919290001300_P2.jpg",
-    "title": "Tỷ lệ công tố viên từ chối lệnh bắt giữ vượt 30%",
-    "link": "https://en.yna.co.kr/view/AEN20261004000800315"
-  },
-  {
-    "id": "hotnews_vi_f53d141b",
-    "date": "2026-10-04",
-    "ts": 1791074695000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/04/AEN20261004000700315_01_i_P2.jpg",
-    "title": "Bắt một cảnh sát Hàn Quốc vì làm và phát tán ảnh đồi trụy",
-    "link": "https://en.yna.co.kr/view/AEN20261004000700315"
-  },
-  {
-    "id": "hotnews_vi_4eecca8a",
-    "date": "2026-10-04",
-    "ts": 1791072126000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/15/PYH2026091525660001300_P2.jpg",
-    "title": "Yang Hyun-jun được HLV Lee Min-sung khen ngợi ở Asian Games",
-    "link": "https://en.yna.co.kr/view/AEN20261004000400315"
-  },
-  {
-    "id": "hotnews_vi_79231cd3",
-    "date": "2026-10-03",
-    "ts": 1791069326000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/04/news-p.v1.20261002.00ed187915884f2abcf60e8e72d7bf4c_T1.jpg",
-    "title": "Stablecoin do ngân hàng Hàn Quốc quản lý gây lo ngại cản trở đổi mới",
-    "link": "https://www.koreaherald.com/article/10892756"
-  },
-  {
-    "id": "hotnews_vi_f6003d33",
-    "date": "2026-10-03",
-    "ts": 1791065657000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092203570004200_P2.jpg",
-    "title": "Triều Tiên phóng tên lửa tầm trung dưới sự chỉ đạo của Kim Jong-un",
-    "link": "https://en.yna.co.kr/view/AEN20261004000300315"
-  },
-  {
-    "id": "hotnews_vi_489278dc",
-    "date": "2026-10-03",
-    "ts": 1791038591000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100310610001300_P2.jpg",
-    "title": "Eom Ji-sung ghi bàn giúp Hàn Quốc giành HCV bóng đá Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20261003004751315"
-  },
-  {
-    "id": "hotnews_vi_c4349c44",
-    "date": "2026-10-03",
-    "ts": 1791038421000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/03/PYH2026100310970001300_P2.jpg",
-    "title": "HLV Lee Min-sung ca ngợi cầu thủ sau khi giành HCV Asiad",
-    "link": "https://en.yna.co.kr/view/AEN20261003004800315"
-  },
-  {
-    "id": "hotnews_vi_63cc93c7",
-    "date": "2026-10-03",
-    "ts": 1791033680000,
-    "image": "",
-    "title": "Bảng tổng sắp huy chương Đại hội thể thao Châu Á Aichi-Nagoya",
-    "link": "https://en.yna.co.kr/view/AEN20230924003999315"
   }
 ]
