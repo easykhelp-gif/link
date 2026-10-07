@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_f7fe9d9f",
+    "date": "2026-10-07",
+    "ts": 1791380524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/93b21b2c-76d0-49ab-960f-74471a8f1acb.jpeg",
+    "title": "Hàn Quốc đổi chính sách visa, giữ chân nhân tài quốc tế",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/korea-shifts-visa-strategy-from-student-recruitment-to-talent-retention?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_5c78749f",
+    "date": "2026-10-07",
+    "ts": 1791380524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/8e8528b6-a4b7-48b7-89c0-6f9a7c13abb5.jpg",
+    "title": "Hàn - Mỹ nhất trí cơ cấu tạm thời của CFC sau chuyển giao OPCON",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261007/korea-us-agree-on-temporary-combined-forces-structure-after-opcon-transfer?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c376dbbc",
+    "date": "2026-10-07",
+    "ts": 1791380524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/bbba6b38-5b34-470b-a138-e5eee8ebe72e.jpeg",
+    "title": "Hàn Quốc chuyển 170 đối tượng phe vé sang cảnh sát điều tra",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261007/korea-targets-170-ticket-scalpers-in-1st-mass-police-referral?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_cda36489",
+    "date": "2026-10-07",
+    "ts": 1791372589000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.5e4ce69289684eb6a658981ca77ce754_T1.jpg",
+    "title": "Samsung trả thưởng đặc biệt cho bộ phận chip vào xuân 2027",
+    "link": "https://www.koreaherald.com/article/10896185"
+  },
+  {
+    "id": "hotnews_vi_1671f4ef",
+    "date": "2026-10-07",
+    "ts": 1791371797000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.27fc6b52f8424537bdfcd43da7dc0fe7_T1.jpg",
+    "title": "Seoul bác bỏ cáo buộc giúp Nga giảm thiếu hụt nhiên liệu",
+    "link": "https://www.koreaherald.com/article/10896183"
+  },
+  {
+    "id": "hotnews_vi_854b6860",
+    "date": "2026-10-07",
+    "ts": 1791368537000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100400030001300_P2.jpg",
+    "title": "Ban tổ chức Asian Games xin lỗi đoàn thể thao Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261007010100315"
+  },
+  {
+    "id": "hotnews_vi_b60a4ef5",
+    "date": "2026-10-07",
+    "ts": 1791360109000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007035811_58_e.jpg",
+    "title": "SK Energy và Hyundai Oilbank đối mặt điều tra thao túng giá",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204720"
+  },
+  {
+    "id": "hotnews_vi_9eeb0bea",
+    "date": "2026-10-07",
+    "ts": 1791359268000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007008200315_01_i_P2.jpg",
+    "title": "Tướng Mỹ Robert Brown nhậm chức Sư đoàn Bộ binh số 2",
+    "link": "https://en.yna.co.kr/view/AEN20261007008200315"
+  },
+  {
+    "id": "hotnews_vi_6f5351f3",
+    "date": "2026-10-07",
+    "ts": 1791359251000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/rcv.YNA.20261007.PYH2026100709600001300_T1.jpg",
+    "title": "Chủ tịch Cido Shipping nợ thuế lớn nhất Hàn Quốc đồng ý trả tiền",
+    "link": "https://www.koreaherald.com/article/10896057"
+  },
+  {
+    "id": "hotnews_vi_c2c5cf52",
+    "date": "2026-10-07",
+    "ts": 1791358582000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007008100320_01_i_P2.jpg",
+    "title": "Đồng won Hàn Quốc tiếp tục tăng giá so với USD",
+    "link": "https://en.yna.co.kr/view/AEN20261007008100320"
+  },
+  {
     "id": "hotnews_vi_af5c7b08",
     "date": "2026-10-07",
     "ts": 1791353823000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.fe11eff9461e46418bb93b4e6e14cc4a_T1.png",
     "title": "Eric Nam phát hành album phòng thu thứ tư vào ngày 16/10",
     "link": "https://www.koreaherald.com/article/10893441"
-  },
-  {
-    "id": "hotnews_vi_8b5f8f44",
-    "date": "2026-10-05",
-    "ts": 1791197243000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.99bd847157be4c3dbb3c75d90f4e36a3_T1.jpg",
-    "title": "Đề xuất chuyển sân bay quân sự Gwangju đến Muan",
-    "link": "https://www.koreaherald.com/article/10893429"
-  },
-  {
-    "id": "hotnews_vi_2d54aca6",
-    "date": "2026-10-05",
-    "ts": 1791196699000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.2dd9740db4804cd5aa071d98113f90df_T1.jpg",
-    "title": "Thái Lan cảnh báo mưa lớn khi lũ lụt khiến 31 người chết",
-    "link": "https://www.koreaherald.com/article/10893426"
-  },
-  {
-    "id": "hotnews_vi_8f0cd8a4",
-    "date": "2026-10-05",
-    "ts": 1791187848000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261004.PYH2026100405330000400_T1.jpg",
-    "title": "Bộ trưởng Văn hóa Hàn Quốc lên án đe dọa diễn viên phim The Assassin(s)",
-    "link": "https://www.koreaherald.com/article/10893373"
-  },
-  {
-    "id": "hotnews_vi_49738a09",
-    "date": "2026-10-05",
-    "ts": 1791187744000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.114db2f049314aca9913ce1857441247_T1.jpg",
-    "title": "BTS khởi động tour diễn \"Arirang\" tại Nam Mỹ từ Colombia",
-    "link": "https://www.koreaherald.com/article/10893372"
-  },
-  {
-    "id": "hotnews_vi_d3ba9017",
-    "date": "2026-10-05",
-    "ts": 1791183998000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005001200315_01_i_P2.jpg",
-    "title": "Quân đội Hàn Quốc gỡ mìn tại khu vực DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20261005001200315"
-  },
-  {
-    "id": "hotnews_vi_98a1a75d",
-    "date": "2026-10-05",
-    "ts": 1791183959000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Hàn Quốc rà phá mìn tại khu vực nổ mìn ở DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20261005001100315"
-  },
-  {
-    "id": "hotnews_vi_63ccc7c2",
-    "date": "2026-10-05",
-    "ts": 1791182384000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/05/AEN20261005002600320_01_i_P2.jpg",
-    "title": "Nợ bảo hiểm y tế của người nước ngoài tại Hàn Quốc đạt 37,5 tỷ won",
-    "link": "https://en.yna.co.kr/view/AEN20261005002600320"
-  },
-  {
-    "id": "hotnews_vi_9b410710",
-    "date": "2026-10-05",
-    "ts": 1791182124000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005050556_84_k.jpg",
-    "title": "Triều Tiên tuyên bố thử nghiệm tên lửa siêu vượt âm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204665"
-  },
-  {
-    "id": "hotnews_vi_5f00cec3",
-    "date": "2026-10-05",
-    "ts": 1791181566000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/rcv.YNA.20261005.PYH2026100506990006400_T1.jpg",
-    "title": "Phe đối lập chỉ trích phim The Assassin(s) xuyên tạc lịch sử",
-    "link": "https://www.koreaherald.com/article/10893343"
-  },
-  {
-    "id": "hotnews_vi_968fa117",
-    "date": "2026-10-05",
-    "ts": 1791179796000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261005042535_38_k.jpg",
-    "title": "Tin tặc tài chính Hàn Quốc lan sang tổ chức phi ngân hàng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204663"
   }
 ]
