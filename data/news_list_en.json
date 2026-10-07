@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_en_20fac1ba",
+    "date": "2026-10-07",
+    "ts": 1791414006000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109830005100_P2.jpg",
+    "title": "S. Korea extends current account surplus in Aug. amid solid exports",
+    "link": "https://en.yna.co.kr/view/AEN20261008001100320"
+  },
+  {
+    "id": "hotnews_en_8bd74b50",
+    "date": "2026-10-07",
+    "ts": 1791414000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.3c930a14429e439cb4afe08471621608_T1.gif",
+    "title": "[Graphic News] Gen Z turns to AI for personal advice",
+    "link": "https://www.koreaherald.com/article/10896135"
+  },
+  {
+    "id": "hotnews_en_44715b8a",
+    "date": "2026-10-07",
+    "ts": 1791410220000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Oct. 8)",
+    "link": "https://en.yna.co.kr/view/AEN20261008000800320"
+  },
+  {
+    "id": "hotnews_en_1740ae05",
+    "date": "2026-10-07",
+    "ts": 1791410212000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Times on Oct. 8)",
+    "link": "https://en.yna.co.kr/view/AEN20261008000700320"
+  },
+  {
+    "id": "hotnews_en_8ffd3f2d",
+    "date": "2026-10-07",
+    "ts": 1791410202000,
+    "image": "",
+    "title": "(EDITORIAL from The Korea Herald on Oct. 8)",
+    "link": "https://en.yna.co.kr/view/AEN20261008000600320"
+  },
+  {
+    "id": "hotnews_en_5221a0e4",
+    "date": "2026-10-07",
+    "ts": 1791410193000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20261008000500320"
+  },
+  {
+    "id": "hotnews_en_eee40f6f",
+    "date": "2026-10-07",
+    "ts": 1791406812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007006000320_01_i_P2.jpg",
+    "title": "Financial holding firms post record net profit in H1",
+    "link": "https://en.yna.co.kr/view/AEN20261007006000320"
+  },
+  {
+    "id": "hotnews_en_e670de84",
+    "date": "2026-10-07",
+    "ts": 1791387784000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008000200315_01_i_P2.jpg",
+    "title": "Vance points to S. Korea's 'political dynamics' amid uncertainty over Alaska LNG project",
+    "link": "https://en.yna.co.kr/view/AEN20261008000200315"
+  },
+  {
+    "id": "hotnews_en_ed75559f",
+    "date": "2026-10-07",
+    "ts": 1791380887000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100727460001300_P2.jpg",
+    "title": "Twins pitcher earns KBO-leading 15th win, memory to last lifetime at historic stadium",
+    "link": "https://en.yna.co.kr/view/AEN20261007010500315"
+  },
+  {
     "id": "hotnews_en_f7fe9d9f",
     "date": "2026-10-07",
     "ts": 1791380524000,
@@ -46,6 +118,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100729170006100_P2.jpg",
     "title": "Choi Won-jun breaks KBO's single-season hits record",
     "link": "https://en.yna.co.kr/view/AEN20261007010351315"
+  },
+  {
+    "id": "hotnews_en_48159440",
+    "date": "2026-10-07",
+    "ts": 1791376039000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/05/06/63/PCM20260506000063990_P2.jpg",
+    "title": "Cheong Wa Dae denies Ukraine claim that S. Korea supplied fuel to Russia",
+    "link": "https://en.yna.co.kr/view/AEN20261007010200315"
   },
   {
     "id": "hotnews_en_cda36489",
@@ -104,6 +184,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261007006551315"
   },
   {
+    "id": "hotnews_en_83dc7e12",
+    "date": "2026-10-07",
+    "ts": 1791366141000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007064745_9_e.jpg",
+    "title": "Samsung DS Workers to Receive Special Bonus around Late March",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204726"
+  },
+  {
     "id": "hotnews_en_8180adce",
     "date": "2026-10-07",
     "ts": 1791366057000,
@@ -134,6 +222,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007065249_14_e.jpg",
     "title": "Clear Skies Forecast for Most Regions Thursday",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204725"
+  },
+  {
+    "id": "hotnews_en_3c91e854",
+    "date": "2026-10-07",
+    "ts": 1791364410000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007043820_95_k.jpg",
+    "title": "2 More Microsatellites Deployed by Nuri Successfully Make Contact with Ground Stations",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204724"
   },
   {
     "id": "hotnews_en_80bd62d2",
@@ -182,6 +278,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100711320000701_P2.jpg",
     "title": "Top KBO draft pick receives largest rookie signing bonus",
     "link": "https://en.yna.co.kr/view/AEN20261007008900315"
+  },
+  {
+    "id": "hotnews_en_95c12a59",
+    "date": "2026-10-07",
+    "ts": 1791360967000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007064618_62_e.jpg",
+    "title": "Asian Games Organizers Apologize for Disruptions, Inconveniences Faced by S. Korean Delegation",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204722"
   },
   {
     "id": "hotnews_en_4eb5aebd",
@@ -294,109 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.a74f6dc0129c43b8a934a4d167080fbe_T1.jpg",
     "title": "The three treasures of Kaesong: A waterfall, an artist and a sage",
     "link": "https://www.koreaherald.com/article/10896016"
-  },
-  {
-    "id": "hotnews_en_5bbe128c",
-    "date": "2026-10-07",
-    "ts": 1791357661000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007007800315_01_i_P2.jpg",
-    "title": "Culture minister defends creative freedom amid controversy over film's historical inaccuracies",
-    "link": "https://en.yna.co.kr/view/AEN20261007007800315"
-  },
-  {
-    "id": "hotnews_en_99eb83c3",
-    "date": "2026-10-07",
-    "ts": 1791357122000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/01/27/01/PCM20260127000001990_P2.jpg",
-    "title": "Appeals court acquits ex-President Yoon in 'free opinion polls' case",
-    "link": "https://en.yna.co.kr/view/AEN20261007001353315"
-  },
-  {
-    "id": "hotnews_en_c42be511",
-    "date": "2026-10-07",
-    "ts": 1791356754000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007040807_7_k.jpg",
-    "title": "KOSPI Down 1.98% Wednesday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204718"
-  },
-  {
-    "id": "hotnews_en_66a29bdc",
-    "date": "2026-10-07",
-    "ts": 1791356620000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100717450001300_P2.jpg",
-    "title": "Lee urges S. Korea to take global lead in green transformation",
-    "link": "https://en.yna.co.kr/view/AEN20261007007700315"
-  },
-  {
-    "id": "hotnews_en_d590b015",
-    "date": "2026-10-07",
-    "ts": 1791355910000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261005.d90fc3b2f53342d18e892a0b63c72edb_T1.jpg",
-    "title": "International students file more than 100 complaints about delayed tuition refunds over 5 years",
-    "link": "https://www.koreaherald.com/article/10895948"
-  },
-  {
-    "id": "hotnews_en_2262c7b9",
-    "date": "2026-10-07",
-    "ts": 1791355493000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100712860001300_P2.jpg",
-    "title": "Nuri's 5th launch signals S. Korea's shift toward integrated space industry",
-    "link": "https://en.yna.co.kr/view/AEN20261007002900320"
-  },
-  {
-    "id": "hotnews_en_af5c7b08",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/109f498c-c4f1-4c4b-a824-22e7d8a438fc.jpg",
-    "title": "At 94, Korea's oldest university president is still planning for future",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/at-94-koreas-oldest-university-president-is-still-planning-for-future?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_67d80419",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/bd4ffa3a-ce86-4b78-8eeb-21d29477fb72.jpeg",
-    "title": "Sejong University ranks 8th in Korea, 281st globally in THE World University Rankings 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/sejong-university-ranks-8th-in-korea-281st-globally-in-the-world-university-rankings-2027?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_5af61b98",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/9d814c11-579e-40ff-bce1-ff13e7e84095.jpeg",
-    "title": "Emmy Award-winning documentarian explores hidden stories of Korean adoptees",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261007/emmy-award-winning-documentarian-explores-hidden-stories-of-korean-adoptees?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_c376dbbc",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/bbba6b38-5b34-470b-a138-e5eee8ebe72e.jpeg",
-    "title": "Korea targets 170 ticket scalpers in 1st mass police referral",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261007/korea-targets-170-ticket-scalpers-in-1st-mass-police-referral?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e6e2b2c4",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/26638b83-0f5e-44fc-8c08-e6b144669fd9.jpg",
-    "title": "Teen drug offenders caught in Jan.-July near 80% of 2025 total",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261007/teen-drug-offenders-caught-in-jan-july-near-80-of-2025-total?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_2121f603",
-    "date": "2026-10-07",
-    "ts": 1791353645000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.13718d39f83a4ef199fd948db6744afa_T1.jpg",
-    "title": "Lee calls for green transition to drive industrial growth, not hinder it",
-    "link": "https://www.koreaherald.com/article/10895850"
-  },
-  {
-    "id": "hotnews_en_db015fa5",
-    "date": "2026-10-07",
-    "ts": 1791353438000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.9cdbd4524d93475d8b1776976db816e4_T1.jpg",
-    "title": "Beyond LIV, Saudi Arabia looks to Korea to grow golf",
-    "link": "https://www.koreaherald.com/article/10895843"
   }
 ]

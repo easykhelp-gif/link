@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_20fac1ba",
+    "date": "2026-10-07",
+    "ts": 1791414006000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109830005100_P2.jpg",
+    "title": "เกาหลีใต้เกินดุลบัญชีเดินสะพัดในเดือนสิงหาคมด้วยยอดส่งออก",
+    "link": "https://en.yna.co.kr/view/AEN20261008001100320"
+  },
+  {
+    "id": "hotnews_th_8bd74b50",
+    "date": "2026-10-07",
+    "ts": 1791414000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.3c930a14429e439cb4afe08471621608_T1.gif",
+    "title": "Gen Z เกาหลีหันพึ่ง AI ขอคำปรึกษาเรื่องส่วนตัว",
+    "link": "https://www.koreaherald.com/article/10896135"
+  },
+  {
+    "id": "hotnews_th_44715b8a",
+    "date": "2026-10-07",
+    "ts": 1791410220000,
+    "image": "",
+    "title": "วีซ่าเจ้าหน้าที่เกาหลีใต้ล่าช้าสะท้อนวิกฤตความเชื่อมั่นสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20261008000800320"
+  },
+  {
+    "id": "hotnews_th_1740ae05",
+    "date": "2026-10-07",
+    "ts": 1791410212000,
+    "image": "",
+    "title": "ประธานศาลสูงสุดโชฮีแดโต้ประธานาธิบดีอีแจมยอง",
+    "link": "https://en.yna.co.kr/view/AEN20261008000700320"
+  },
+  {
+    "id": "hotnews_th_8ffd3f2d",
+    "date": "2026-10-07",
+    "ts": 1791410202000,
+    "image": "",
+    "title": "การเก็บกู้ทุ่นระเบิดใน DMZ ของเกาหลีใต้ยังไม่เพียงพอต่อการตอบโต้เกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20261008000600320"
+  },
+  {
+    "id": "hotnews_th_5221a0e4",
+    "date": "2026-10-07",
+    "ts": 1791410193000,
+    "image": "",
+    "title": "พาดหัวข่าวหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 8 ตุลาคม",
+    "link": "https://en.yna.co.kr/view/AEN20261008000500320"
+  },
+  {
+    "id": "hotnews_th_eee40f6f",
+    "date": "2026-10-07",
+    "ts": 1791406812000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007006000320_01_i_P2.jpg",
+    "title": "โฮลดิ้งการเงินเกาหลีใต้กวาดกำไรสุทธิสูงสุดเป็นประวัติการณ์ในครึ่งปีแรก",
+    "link": "https://en.yna.co.kr/view/AEN20261007006000320"
+  },
+  {
+    "id": "hotnews_th_e670de84",
+    "date": "2026-10-07",
+    "ts": 1791387784000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008000200315_01_i_P2.jpg",
+    "title": "เจดี แวนซ์ ระบุปัจจัยการเมืองเกาหลีใต้กับโครงการก๊าซธรรมชาติอลาสก้า",
+    "link": "https://en.yna.co.kr/view/AEN20261008000200315"
+  },
+  {
+    "id": "hotnews_th_ed75559f",
+    "date": "2026-10-07",
+    "ts": 1791380887000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100727460001300_P2.jpg",
+    "title": "อิม ชาน-กยู คว้าชัยชนะครั้งที่ 15 พาแอลจี ทวินส์ ชนะในเกมสุดท้ายที่สนามจัมซิล",
+    "link": "https://en.yna.co.kr/view/AEN20261007010500315"
+  },
+  {
     "id": "hotnews_th_f7fe9d9f",
     "date": "2026-10-07",
     "ts": 1791380524000,
@@ -46,6 +118,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100400030001300_P2.jpg",
     "title": "คณะกรรมการเอเชียนเกมส์ขอโทษเกาหลีใต้ปมความผิดพลาด",
     "link": "https://en.yna.co.kr/view/AEN20261007010100315"
+  },
+  {
+    "id": "hotnews_th_8180adce",
+    "date": "2026-10-07",
+    "ts": 1791366057000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.8322ea07baa54d33b0b452b98858a18a_T1.jpg",
+    "title": "ภาพยนตร์ The Assassin(s) ฉายที่สิงคโปร์ตามเดิมแม้ถูกคัดค้าน",
+    "link": "https://www.koreaherald.com/article/10896157"
   },
   {
     "id": "hotnews_th_b60a4ef5",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.ce692f2664dc4a7a8f4b7cb808498c7b_T1.jpg",
     "title": "เปิดตู้ vending machine ขายของที่ระลึก Seoul Goods ในงานเทศกาลกรุงโซล",
     "link": "https://www.koreaherald.com/article/10894260"
-  },
-  {
-    "id": "hotnews_th_cace3dca",
-    "date": "2026-10-06",
-    "ts": 1791245523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/f9a6ac7c-3d3e-476b-b728-47f28a0bbdf7.jpeg",
-    "title": "ถกเครียดปมตั้ง คิม จี-ยอง นำสำนักงานสืบสวนอาชญากรรมใหญ่",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261006/yoon-trauma-shapes-battle-over-new-investigative-chief?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ba58d64d",
-    "date": "2026-10-05",
-    "ts": 1791243219000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100600360004200_P2.jpg",
-    "title": "เกาหลีเหนือประชุมคณะรัฐมนตรีประเมินเศรษฐกิจไตรมาส 3",
-    "link": "https://en.yna.co.kr/view/AEN20261006001000315"
-  },
-  {
-    "id": "hotnews_th_cfdd29e0",
-    "date": "2026-10-05",
-    "ts": 1791240429000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000900320_01_i_P2.jpg",
-    "title": "จรวดนูรีถูกเคลื่อนย้ายสู่ฐานยิงเตรียมส่งขึ้นสู่อวกาศ",
-    "link": "https://en.yna.co.kr/view/AEN20261006000900320"
-  },
-  {
-    "id": "hotnews_th_3d3a958e",
-    "date": "2026-10-05",
-    "ts": 1791237482000,
-    "image": "",
-    "title": "รัฐบาลเกาหลีใต้ถกเครียดปมเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20261006000800315"
-  },
-  {
-    "id": "hotnews_th_3e93c95e",
-    "date": "2026-10-05",
-    "ts": 1791237466000,
-    "image": "",
-    "title": "บทวิจารณ์ท่าทีประธานาธิบดีอี แจมยอง ต่อกรณียูเครน",
-    "link": "https://en.yna.co.kr/view/AEN20261006000700315"
-  },
-  {
-    "id": "hotnews_th_a883e28f",
-    "date": "2026-10-05",
-    "ts": 1791237437000,
-    "image": "",
-    "title": "เสียงวิจารณ์ระบบยกเว้นเกณฑ์ทหารให้นักกีฬาเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20261006000600315"
-  },
-  {
-    "id": "hotnews_th_7dee5428",
-    "date": "2026-10-05",
-    "ts": 1791234014000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100113460005100_P2.jpg",
-    "title": "เทศกาลหนังนานาชาติปูซานครั้งที่ 31 เปิดฉากแล้ว",
-    "link": "https://en.yna.co.kr/view/AEN20261002005200315"
-  },
-  {
-    "id": "hotnews_th_a9a6fa1b",
-    "date": "2026-10-05",
-    "ts": 1791223961000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006000300315_01_i_P2.jpg",
-    "title": "แวน斯ระบุสหรัฐและเกาหลีใต้ต้องหารือรายละเอียดโครงการก๊าซในอะลาสก้าเพิ่ม",
-    "link": "https://en.yna.co.kr/view/AEN20261006000300315"
-  },
-  {
-    "id": "hotnews_th_d5449780",
-    "date": "2026-10-05",
-    "ts": 1791208756000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100102220001300_P2.jpg",
-    "title": "แอลจี อิเลคทรอนิกส์ คว้าสัญญาขายเครื่องทำความเย็นศูนย์ข้อมูล AI ในสหรัฐฯ",
-    "link": "https://en.yna.co.kr/view/AEN20261005005500320"
-  },
-  {
-    "id": "hotnews_th_c825f4b1",
-    "date": "2026-10-05",
-    "ts": 1791199474000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/05/news-p.v1.20261005.fe11eff9461e46418bb93b4e6e14cc4a_T1.png",
-    "title": "Eric Nam เตรียมปล่อยอัลบั้มชุดที่ 4 วันที่ 16 ต.ค. นี้",
-    "link": "https://www.koreaherald.com/article/10893441"
   }
 ]
