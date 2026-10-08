@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_en_67280d78",
+    "date": "2026-10-08",
+    "ts": 1791502023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/b6f7a543-27b6-4045-a8d6-975194216a82.jpeg",
+    "title": "Teachers turn classrooms into social media stages, sometimes exposing students without consent",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261009/teachers-turn-classrooms-into-social-media-stages-sometimes-exposing-students-without-consent?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_abf6c080",
+    "date": "2026-10-08",
+    "ts": 1791502023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/8195d76b-435a-4d6b-bf22-a514db52f38e.jpg",
+    "title": "Overnight Coupang outage causes widespread disruptions, sparks fresh hacking fears",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261009/overnight-coupang-outage-causes-widespread-disruptions-sparks-fresh-hacking-fears?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_93aa2cee",
+    "date": "2026-10-08",
+    "ts": 1791498310000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/08/20/09/PCM20250820000009990_P2.jpg",
+    "title": "N. Korean leader's sister again pushes back against Seoul's medical aid offer",
+    "link": "https://en.yna.co.kr/view/AEN20261009000400315"
+  },
+  {
+    "id": "hotnews_en_9b208739",
+    "date": "2026-10-08",
+    "ts": 1791497897000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/07/23/73/PCM20260723000073072_P2.jpg",
+    "title": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+    "link": "https://en.yna.co.kr/view/AEN20261009000500315"
+  },
+  {
+    "id": "hotnews_en_179d406e",
+    "date": "2026-10-08",
+    "ts": 1791488177000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301150001300_P2.jpg",
+    "title": "U.S. keeps S. Korea in Tier 1 group for human trafficking elimination efforts for 3rd straight yr",
+    "link": "https://en.yna.co.kr/view/AEN20261009000300315"
+  },
+  {
+    "id": "hotnews_en_08270628",
+    "date": "2026-10-08",
+    "ts": 1791483464000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009000200315_01_i_P2.jpg",
+    "title": "White House official accuses S. Korea of flooding U.S. with subsidized steel",
+    "link": "https://en.yna.co.kr/view/AEN20261009000200315"
+  },
+  {
+    "id": "hotnews_en_776de20b",
+    "date": "2026-10-08",
+    "ts": 1791477221000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/29/PYH2025102917600031500_P2.jpg",
+    "title": "Majority of Americans support S. Korea's nuclear-powered submarine project: poll",
+    "link": "https://en.yna.co.kr/view/AEN20261008000351315"
+  },
+  {
     "id": "hotnews_en_f93f144c",
     "date": "2026-10-08",
     "ts": 1791467524000,
@@ -64,6 +120,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261008009000315"
   },
   {
+    "id": "hotnews_en_03a5f524",
+    "date": "2026-10-08",
+    "ts": 1791464151000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/rcv.YNA.20261008.PYH2026100819580001300_T1.jpg",
+    "title": "McCormick backs S. Korea's greater role in US shipbuilding, urges faster investment",
+    "link": "https://www.koreaherald.com/article/10897602"
+  },
+  {
     "id": "hotnews_en_8e8a64fd",
     "date": "2026-10-08",
     "ts": 1791461818000,
@@ -94,6 +158,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-a.v1.20261008.ed594241a67149a1a7db27515a93b7eb_T1.png",
     "title": "Canadian poet and essayist Anne Carson wins Nobel Prize in literature",
     "link": "https://www.koreaherald.com/article/10897567"
+  },
+  {
+    "id": "hotnews_en_d49ad4a3",
+    "date": "2026-10-08",
+    "ts": 1791458164000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20260805.8febd105651040b58d11fe3fe43e130d_T1.jpg",
+    "title": "Coupang challenges record W624.7b privacy fine in court",
+    "link": "https://www.koreaherald.com/article/10897566"
   },
   {
     "id": "hotnews_en_868618a1",
@@ -128,12 +200,36 @@
     "link": "https://en.yna.co.kr/view/AEN20261008008700320"
   },
   {
+    "id": "hotnews_en_40b3e6e7",
+    "date": "2026-10-08",
+    "ts": 1791451491000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261008.0ccf3bb5fd2f4b8e9e3adf29d95dc6b2_T1.jpeg",
+    "title": "Lee observes S. Korea's first homegrown hypersonic missile test",
+    "link": "https://www.koreaherald.com/article/10897437"
+  },
+  {
+    "id": "hotnews_en_f6ee8762",
+    "date": "2026-10-08",
+    "ts": 1791451011000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008062215_30_e.jpg",
+    "title": "S. Korea Conducts First Test Launch of Hypersonic Glide Vehicle",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204755"
+  },
+  {
     "id": "hotnews_en_4f931073",
     "date": "2026-10-08",
     "ts": 1791450718000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008025513_65_k.jpg",
     "title": "Seoul Named Best Big City in the World by Condé Nast Traveler",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204754"
+  },
+  {
+    "id": "hotnews_en_f89bbf36",
+    "date": "2026-10-08",
+    "ts": 1791450480000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.82e3a77af62a4314834e042e117254c8_T1.jpg",
+    "title": "South Korea recalls envoy to Ukraine amid growing friction",
+    "link": "https://www.koreaherald.com/article/10897424"
   },
   {
     "id": "hotnews_en_689c9735",
@@ -200,6 +296,14 @@
     "link": "https://www.koreaherald.com/article/10897367"
   },
   {
+    "id": "hotnews_en_84cd9f74",
+    "date": "2026-10-08",
+    "ts": 1791447434000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "S. Korea to recall ambassador to Ukraine amid dispute over disclosure of N.K. POW transfer",
+    "link": "https://en.yna.co.kr/view/AEN20261008008300315"
+  },
+  {
     "id": "hotnews_en_dd8f8619",
     "date": "2026-10-08",
     "ts": 1791447192000,
@@ -256,6 +360,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261008007900315"
   },
   {
+    "id": "hotnews_en_29d1368a",
+    "date": "2026-10-08",
+    "ts": 1791445808000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100605300001300_P2.jpg",
+    "title": "Lee orders S. Korea not apply for CPTPP membership this year",
+    "link": "https://en.yna.co.kr/view/AEN20261008006851315"
+  },
+  {
     "id": "hotnews_en_9249d14e",
     "date": "2026-10-08",
     "ts": 1791445601000,
@@ -286,117 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.89caa31f23f14715b76005e54c10461e_T1.jpg",
     "title": "Gangneung readies for ITS World Congress",
     "link": "https://www.koreaherald.com/article/10897307"
-  },
-  {
-    "id": "hotnews_en_e7a9c145",
-    "date": "2026-10-08",
-    "ts": 1791440823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/5d6b2ece-0dac-4d65-a873-98b02634c84d.jpeg",
-    "title": "Kookmin University steps up internationalization efforts to boost students' global readiness",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261008/kookmin-university-steps-up-internationalization-efforts-to-boost-students-global-readiness?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_d92250b0",
-    "date": "2026-10-08",
-    "ts": 1791440823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/98741241-6421-4cc5-b849-ab5d7df5fc00.jpg",
-    "title": "[COVER STORY] K-defense expands global footprint amid shifting security order",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261008/cover-story-k-defense-expands-global-footprint-amid-shifting-security-order?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_1dd295dd",
-    "date": "2026-10-08",
-    "ts": 1791440823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/72a052a3-3819-4050-b584-cfd3cac9c4c5.jpg",
-    "title": "New major crimes unit, police likely to face friction over unclear jurisdiction",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261008/new-major-crimes-unit-police-likely-to-face-friction-over-unclear-jurisdiction?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_8fb1dacb",
-    "date": "2026-10-08",
-    "ts": 1791440407000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/rcv.YNA.20260818.PYH2026081806380005100_T1.jpg",
-    "title": "S. Korea adds 180 schools despite losing 510,000 students over 6 yrs: data",
-    "link": "https://www.koreaherald.com/article/10897140"
-  },
-  {
-    "id": "hotnews_en_cab23d3b",
-    "date": "2026-10-08",
-    "ts": 1791440098000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.47acc06cd9114154bd391a6044ab11ec_T1.jpg",
-    "title": "Why Samsung’s memory boom is squeezing Galaxy profits",
-    "link": "https://www.koreaherald.com/article/10897124"
-  },
-  {
-    "id": "hotnews_en_3a7a8d91",
-    "date": "2026-10-08",
-    "ts": 1791439462000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100813250001300_P2.jpg",
-    "title": "Defense chief discusses shipbuilding cooperation with U.S. senator",
-    "link": "https://en.yna.co.kr/view/AEN20261008004900315"
-  },
-  {
-    "id": "hotnews_en_424c5a12",
-    "date": "2026-10-08",
-    "ts": 1791439461000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.57aa01d40ffb4d2798f72ce5d52aca2f_T1.jpg",
-    "title": "More waste sorting in Korea: Will it help?",
-    "link": "https://www.koreaherald.com/article/10897110"
-  },
-  {
-    "id": "hotnews_en_c89460b5",
-    "date": "2026-10-08",
-    "ts": 1791439298000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/rcv.YNA.20261008.PYH2026100807280001300_T1.jpg",
-    "title": "JCS says some US intelligence sharing restricted but readiness unaffected",
-    "link": "https://www.koreaherald.com/article/10897105"
-  },
-  {
-    "id": "hotnews_en_bdad2a14",
-    "date": "2026-10-08",
-    "ts": 1791439033000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008004700315_01_i_P2.jpg",
-    "title": "Korean filmmakers urge politicians to let audiences judge amid 'The Assassin(s)' row",
-    "link": "https://en.yna.co.kr/view/AEN20261008004700315"
-  },
-  {
-    "id": "hotnews_en_e6a0175d",
-    "date": "2026-10-08",
-    "ts": 1791438735000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.6b93298524a04372bd5d52379ba3519f_T1.jpg",
-    "title": "LG Energy Solution sets sales record on EV, ESS growth",
-    "link": "https://www.koreaherald.com/article/10897092"
-  },
-  {
-    "id": "hotnews_en_9f45e7ae",
-    "date": "2026-10-08",
-    "ts": 1791437770000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.1353c10a44f04617b3c056b8f4250f01_T1.jpeg",
-    "title": "‘Seeing the unseen’ opens new doors: GBF speakers",
-    "link": "https://www.koreaherald.com/article/10897054"
-  },
-  {
-    "id": "hotnews_en_0786fa3b",
-    "date": "2026-10-08",
-    "ts": 1791437633000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.92b9f7dc06ba450c94a8533a90ec5547_T1.jpg",
-    "title": "Arteta extends Arsenal contract through 2030",
-    "link": "https://www.koreaherald.com/article/10897049"
-  },
-  {
-    "id": "hotnews_en_b6d46c0b",
-    "date": "2026-10-08",
-    "ts": 1791437152000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.cebf49f91d1c445ca4cc6720ccd4d6d7_T1.png",
-    "title": "Vega announces FIFA presidency bid against Infantino",
-    "link": "https://www.koreaherald.com/article/10897026"
-  },
-  {
-    "id": "hotnews_en_22b4ad48",
-    "date": "2026-10-08",
-    "ts": 1791436982000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.e33acf72ca5c4facac678bffc57a44ff_T1.jpg",
-    "title": "Yoo Seung-ho, Lim Se-joo admit past romance, deny reports of current relationship",
-    "link": "https://www.koreaherald.com/article/10897020"
   }
 ]

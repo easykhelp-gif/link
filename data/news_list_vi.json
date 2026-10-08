@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_vi_67280d78",
+    "date": "2026-10-08",
+    "ts": 1791502023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/b6f7a543-27b6-4045-a8d6-975194216a82.jpeg",
+    "title": "Giáo viên Hàn Quốc dùng mạng xã hội gây lo ngại về quyền riêng tư",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261009/teachers-turn-classrooms-into-social-media-stages-sometimes-exposing-students-without-consent?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_93aa2cee",
+    "date": "2026-10-08",
+    "ts": 1791498310000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/08/20/09/PCM20250820000009990_P2.jpg",
+    "title": "Bà Kim Yo-jong từ chối đề nghị viện trợ y tế của Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20261009000400315"
+  },
+  {
+    "id": "hotnews_vi_179d406e",
+    "date": "2026-10-08",
+    "ts": 1791488177000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301150001300_P2.jpg",
+    "title": "Mỹ giữ Hàn Quốc ở Nhóm 1 về chống buôn người năm thứ 3 liên tiếp",
+    "link": "https://en.yna.co.kr/view/AEN20261009000300315"
+  },
+  {
     "id": "hotnews_vi_f93f144c",
     "date": "2026-10-08",
     "ts": 1791467524000,
@@ -24,12 +48,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261008008652315"
   },
   {
+    "id": "hotnews_vi_87202748",
+    "date": "2026-10-08",
+    "ts": 1791458447000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/rcv.YNA.20261007.PYH2026100708310001301_T1.jpg",
+    "title": "Nghị sĩ Hàn Quốc có thể lỡ chuyến thanh tra châu Mỹ vì chưa có visa Mỹ",
+    "link": "https://www.koreaherald.com/article/10897568"
+  },
+  {
     "id": "hotnews_vi_868618a1",
     "date": "2026-10-08",
     "ts": 1791456164000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100808260001300_P2.jpg",
     "title": "Tướng Jin: Vụ nổ mìn DMZ là hành động khiêu khích",
     "link": "https://en.yna.co.kr/view/AEN20261008004152315"
+  },
+  {
+    "id": "hotnews_vi_76d836c6",
+    "date": "2026-10-08",
+    "ts": 1791455744000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008900315_02_i_P2.jpg",
+    "title": "Đạo diễn phim Bedford Park kể chuyện người Mỹ gốc Hàn",
+    "link": "https://en.yna.co.kr/view/AEN20261008008900315"
   },
   {
     "id": "hotnews_vi_ec351c81",
@@ -48,6 +88,22 @@
     "link": "https://en.yna.co.kr/view/AEN20261008008700320"
   },
   {
+    "id": "hotnews_vi_f6ee8762",
+    "date": "2026-10-08",
+    "ts": 1791451011000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008062215_30_e.jpg",
+    "title": "Hàn Quốc phóng thử thành công phương tiện lượn siêu vượt âm đầu tiên",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204755"
+  },
+  {
+    "id": "hotnews_vi_689c9735",
+    "date": "2026-10-08",
+    "ts": 1791450170000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008041924_87_e.jpg",
+    "title": "Thời tiết ngày Hangeul: Trời quang mây tạnh trên toàn quốc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204753"
+  },
+  {
     "id": "hotnews_vi_f12c0a51",
     "date": "2026-10-08",
     "ts": 1791449479000,
@@ -64,6 +120,22 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204751"
   },
   {
+    "id": "hotnews_vi_530bfe82",
+    "date": "2026-10-08",
+    "ts": 1791447768000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.fa720223ba0c473ba442be3adb90950f_T1.jpg",
+    "title": "Đạo diễn Alfonso Cuaron từng khuyên con trai không nên làm phim",
+    "link": "https://www.koreaherald.com/article/10897367"
+  },
+  {
+    "id": "hotnews_vi_84cd9f74",
+    "date": "2026-10-08",
+    "ts": 1791447434000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Hàn Quốc triệu hồi đại sứ tại Ukraine",
+    "link": "https://en.yna.co.kr/view/AEN20261008008300315"
+  },
+  {
     "id": "hotnews_vi_5700d4b9",
     "date": "2026-10-08",
     "ts": 1791446536000,
@@ -78,6 +150,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.00654bfec9b54f83b4837fe9c922a2f2_T1.png",
     "title": "Tòa án phạt giáo chủ JMS bồi thường 370 triệu won cho nạn nhân",
     "link": "https://www.koreaherald.com/article/10897334"
+  },
+  {
+    "id": "hotnews_vi_587c7da8",
+    "date": "2026-10-08",
+    "ts": 1791444263000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008030003_38_k.jpg",
+    "title": "Cầu Jamsu trên sông Hàn sẽ trở thành đường dành cho người đi bộ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204744"
   },
   {
     "id": "hotnews_vi_e7a9c145",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007008100320_01_i_P2.jpg",
     "title": "Đồng won Hàn Quốc tiếp tục tăng giá so với USD",
     "link": "https://en.yna.co.kr/view/AEN20261007008100320"
-  },
-  {
-    "id": "hotnews_vi_af5c7b08",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/109f498c-c4f1-4c4b-a824-22e7d8a438fc.jpg",
-    "title": "Hiệu trưởng đại học 94 tuổi tại Hàn Quốc vẫn lập kế hoạch cho tương lai",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/at-94-koreas-oldest-university-president-is-still-planning-for-future?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_67d80419",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/bd4ffa3a-ce86-4b78-8eeb-21d29477fb72.jpeg",
-    "title": "Đại học Sejong đứng thứ 8 Hàn Quốc trên THE Rankings 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/sejong-university-ranks-8th-in-korea-281st-globally-in-the-world-university-rankings-2027?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_5af61b98",
-    "date": "2026-10-07",
-    "ts": 1791353823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/9d814c11-579e-40ff-bce1-ff13e7e84095.jpeg",
-    "title": "Nhà làm phim Deann Borshay Liem kể chuyện con nuôi Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261007/emmy-award-winning-documentarian-explores-hidden-stories-of-korean-adoptees?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_27833d01",
-    "date": "2026-10-07",
-    "ts": 1791351789000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/rcv.YNA.20260910.PYH2026091012390001300_T1.jpg",
-    "title": "Hàn Quốc nới lỏng quy định visa cho du học sinh",
-    "link": "https://www.koreaherald.com/article/10895792"
-  },
-  {
-    "id": "hotnews_vi_e9fa6add",
-    "date": "2026-10-07",
-    "ts": 1791351295000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007030018_16_e.jpg",
-    "title": "Bộ trưởng Thể thao cam kết xem xét phúc lợi nghĩa vụ quân sự",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204713"
-  },
-  {
-    "id": "hotnews_vi_1bf14834",
-    "date": "2026-10-07",
-    "ts": 1791349875000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261007021351_51_e.jpg",
-    "title": "Thị thực du học sinh tại Hàn Quốc sẽ xét năng lực tiếng Hàn",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204711"
-  },
-  {
-    "id": "hotnews_vi_901309bc",
-    "date": "2026-10-07",
-    "ts": 1791349839000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007003251315_01_i_P2.jpg",
-    "title": "Quỹ Giáo hội Thống nhất muốn bán tài sản khi đang bị điều tra",
-    "link": "https://en.yna.co.kr/view/AEN20261007003251315"
-  },
-  {
-    "id": "hotnews_vi_8d899312",
-    "date": "2026-10-07",
-    "ts": 1791349762000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Tòa phúc thẩm tuyên trắng án cựu Tổng thống Yoon",
-    "link": "https://en.yna.co.kr/view/AEN20261007005900315"
-  },
-  {
-    "id": "hotnews_vi_1fbea908",
-    "date": "2026-10-07",
-    "ts": 1791349234000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/11/20/PYH2025112007250004200_P2.jpg",
-    "title": "Hàn Quốc sắp viện trợ thiết bị y tế cho Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261007005200315"
-  },
-  {
-    "id": "hotnews_vi_5e6b2b47",
-    "date": "2026-10-07",
-    "ts": 1791348405000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100708180001300_P2.jpg",
-    "title": "Michelle Yeoh không sợ thất bại tại LHP Busan",
-    "link": "https://en.yna.co.kr/view/AEN20261007005800315"
   }
 ]
