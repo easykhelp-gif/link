@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_f93f144c",
+    "date": "2026-10-08",
+    "ts": 1791467524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/3b2924db-d864-4e24-8891-f7e104dc2c40.jpeg",
+    "title": "Cầu Jamsu thành cầu đi bộ đầu tiên trên sông Hàn",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261008/seoul-to-turn-jamsu-bridge-into-1st-pedestrian-only-han-river-bridge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_904380a7",
+    "date": "2026-10-08",
+    "ts": 1791467524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/91e74c5b-abc0-42be-8acb-49fc40e213ba.jpeg",
+    "title": "Tài xế xe buýt và taxi tại Seoul lo lắng về xe tự lái",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261008/bus-taxi-workers-feel-vulnerable-over-self-driving-future?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_8e8a64fd",
+    "date": "2026-10-08",
+    "ts": 1791461818000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109540001300_P2.jpg",
+    "title": "Hàn Quốc phóng thử thành công phương tiện bay lượn siêu vượt âm",
+    "link": "https://en.yna.co.kr/view/AEN20261008008652315"
+  },
+  {
+    "id": "hotnews_vi_868618a1",
+    "date": "2026-10-08",
+    "ts": 1791456164000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100808260001300_P2.jpg",
+    "title": "Tướng Jin: Vụ nổ mìn DMZ là hành động khiêu khích",
+    "link": "https://en.yna.co.kr/view/AEN20261008004152315"
+  },
+  {
+    "id": "hotnews_vi_ec351c81",
+    "date": "2026-10-08",
+    "ts": 1791454092000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008800315_01_i_P2.jpg",
+    "title": "Thượng nghị sĩ Mỹ kêu gọi Hàn Quốc đẩy nhanh đầu tư đóng tàu",
+    "link": "https://en.yna.co.kr/view/AEN20261008008800315"
+  },
+  {
+    "id": "hotnews_vi_9ae656e5",
+    "date": "2026-10-08",
+    "ts": 1791452475000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008700320_01_i_P2.jpg",
+    "title": "Coupang kiện quyết định phạt 620 tỷ won vụ rò rỉ dữ liệu",
+    "link": "https://en.yna.co.kr/view/AEN20261008008700320"
+  },
+  {
+    "id": "hotnews_vi_f12c0a51",
+    "date": "2026-10-08",
+    "ts": 1791449479000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008451315_03_i_P2.jpg",
+    "title": "Hàn Quốc triệu hồi đại sứ tại Ukraine do tranh cãi về tù binh",
+    "link": "https://en.yna.co.kr/view/AEN20261008008451315"
+  },
+  {
+    "id": "hotnews_vi_8a89c71f",
+    "date": "2026-10-08",
+    "ts": 1791449261000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008121256_58_k.jpg",
+    "title": "Sản lượng gạo Hàn Quốc có thể giảm năm thứ 5 liên tiếp",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204751"
+  },
+  {
+    "id": "hotnews_vi_5700d4b9",
+    "date": "2026-10-08",
+    "ts": 1791446536000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008043031_80_e.jpg",
+    "title": "Ông Lee chỉ đạo không gia nhập khối thương mại Thái Bình Dương",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204747"
+  },
+  {
+    "id": "hotnews_vi_ea31501e",
+    "date": "2026-10-08",
+    "ts": 1791446346000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.00654bfec9b54f83b4837fe9c922a2f2_T1.png",
+    "title": "Tòa án phạt giáo chủ JMS bồi thường 370 triệu won cho nạn nhân",
+    "link": "https://www.koreaherald.com/article/10897334"
+  },
+  {
     "id": "hotnews_vi_e7a9c145",
     "date": "2026-10-08",
     "ts": 1791440823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100708180001300_P2.jpg",
     "title": "Michelle Yeoh không sợ thất bại tại LHP Busan",
     "link": "https://en.yna.co.kr/view/AEN20261007005800315"
-  },
-  {
-    "id": "hotnews_vi_60eacc64",
-    "date": "2026-10-06",
-    "ts": 1791295963000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.0eafaf991e1244de916148001908a3ed_T1.jpg",
-    "title": "Liên hoan phim Busan lần thứ 31 khai mạc với phim độc lập",
-    "link": "https://www.koreaherald.com/article/10894816"
-  },
-  {
-    "id": "hotnews_vi_62054c31",
-    "date": "2026-10-06",
-    "ts": 1791287501000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/rcv.YNA.20261002.PYH2026100221810005100_T1.jpg",
-    "title": "Cá mập Bukang-i nổi tiếng ở Busan là loài có nguy cơ tuyệt chủng",
-    "link": "https://www.koreaherald.com/article/10894750"
-  },
-  {
-    "id": "hotnews_vi_acf8ceb3",
-    "date": "2026-10-06",
-    "ts": 1791281562000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006070501_11_e.jpg",
-    "title": "Shinsegae đầu tư 1 tỷ USD vào thương vụ Paramount Skydance",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204697"
-  },
-  {
-    "id": "hotnews_vi_6720bb8a",
-    "date": "2026-10-06",
-    "ts": 1791277473000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081006000001300_P2.jpg",
-    "title": "Bộ Quốc phòng xem xét bỏ miễn nghĩa vụ quân sự",
-    "link": "https://en.yna.co.kr/view/AEN20261006006700315"
-  },
-  {
-    "id": "hotnews_vi_22a0a451",
-    "date": "2026-10-06",
-    "ts": 1791275759000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100614990001300_P2.jpg",
-    "title": "Phim Hàn \"The Table: Day and Night\" mở màn BIFF",
-    "link": "https://en.yna.co.kr/view/AEN20261006010400315"
-  },
-  {
-    "id": "hotnews_vi_c7264e56",
-    "date": "2026-10-06",
-    "ts": 1791274181000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045820_98_e.jpg",
-    "title": "Các ngân hàng sẽ mở cửa muộn hơn 30 phút từ tháng 4",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204691"
-  },
-  {
-    "id": "hotnews_vi_340b2cc9",
-    "date": "2026-10-06",
-    "ts": 1791273454000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100609700001300_P2.jpg",
-    "title": "Tổng thống Lee chỉ đạo thảo luận lại việc gia nhập CPTPP",
-    "link": "https://en.yna.co.kr/view/AEN20261006009500315"
-  },
-  {
-    "id": "hotnews_vi_80714584",
-    "date": "2026-10-06",
-    "ts": 1791271820000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.eba9675be7a34cdbbb3fbf0adbbe1c37_T1.jpg",
-    "title": "Cảnh sát Hàn Quốc điều tra vụ tấn công mạng nhắm vào ngân hàng",
-    "link": "https://www.koreaherald.com/article/10894542"
-  },
-  {
-    "id": "hotnews_vi_847160ef",
-    "date": "2026-10-06",
-    "ts": 1791270301000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045447_79_e.jpg",
-    "title": "Dự án Alaska LNG tăng giá trị chiến lược trong bối cảnh chiến tranh Iran",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204688"
-  },
-  {
-    "id": "hotnews_vi_4dc23d24",
-    "date": "2026-10-06",
-    "ts": 1791269431000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006006500315_01_i_P2.jpg",
-    "title": "Cảnh sát Hàn Quốc bảo vệ diễn viên Yoo Hae-jin trước đe dọa",
-    "link": "https://en.yna.co.kr/view/AEN20261006006500315"
   }
 ]

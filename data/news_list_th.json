@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_f93f144c",
+    "date": "2026-10-08",
+    "ts": 1791467524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/3b2924db-d864-4e24-8891-f7e104dc2c40.jpeg",
+    "title": "กรุงโซลเปลี่ยนสะพานชัมซูเป็นสะพานคนเดินแห่งแรกของแม่น้ำฮัน",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261008/seoul-to-turn-jamsu-bridge-into-1st-pedestrian-only-han-river-bridge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_904380a7",
+    "date": "2026-10-08",
+    "ts": 1791467524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/08/91e74c5b-abc0-42be-8acb-49fc40e213ba.jpeg",
+    "title": "พนักงานรถเมล์และแท็กซี่กรุงโซลกังวลอนาคตงานไร้คนขับ",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261008/bus-taxi-workers-feel-vulnerable-over-self-driving-future?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8e8a64fd",
+    "date": "2026-10-08",
+    "ts": 1791461818000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109540001300_P2.jpg",
+    "title": "เกาหลีใต้ทดสอบยิงอาวุธร่อนความเร็วเหนือเสียงครั้งแรก",
+    "link": "https://en.yna.co.kr/view/AEN20261008008652315"
+  },
+  {
+    "id": "hotnews_th_868618a1",
+    "date": "2026-10-08",
+    "ts": 1791456164000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100808260001300_P2.jpg",
+    "title": "ประธาน JCS ระบุเหตุระเบิดเหมือง DMZ เป็นการยواแซ่ พร้อมทบทวนมาตรการตอบโต้",
+    "link": "https://en.yna.co.kr/view/AEN20261008004152315"
+  },
+  {
+    "id": "hotnews_th_ec351c81",
+    "date": "2026-10-08",
+    "ts": 1791454092000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008800315_01_i_P2.jpg",
+    "title": "วุฒิสมาชิกสหรัฐหนุนเกาหลีใต้ร่วมมือต่อเรือ",
+    "link": "https://en.yna.co.kr/view/AEN20261008008800315"
+  },
+  {
+    "id": "hotnews_th_9ae656e5",
+    "date": "2026-10-08",
+    "ts": 1791452475000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008700320_01_i_P2.jpg",
+    "title": "คูบองยื่นฟ้องศาลสู้คดีถูกปรับ 6.2 แสนล้านวอนกรณีข้อมูลรั่วไหล",
+    "link": "https://en.yna.co.kr/view/AEN20261008008700320"
+  },
+  {
+    "id": "hotnews_th_f12c0a51",
+    "date": "2026-10-08",
+    "ts": 1791449479000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008008451315_03_i_P2.jpg",
+    "title": "เกาหลีใต้เรียกตัวเอกอัครราชทูตประจำยูเครนกลับประเทศ",
+    "link": "https://en.yna.co.kr/view/AEN20261008008451315"
+  },
+  {
+    "id": "hotnews_th_8a89c71f",
+    "date": "2026-10-08",
+    "ts": 1791449261000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008121256_58_k.jpg",
+    "title": "ผลผลิตข้าวเกาหลีใต้อาจลดลงปีที่ 5 ติดต่อกัน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204751"
+  },
+  {
+    "id": "hotnews_th_5700d4b9",
+    "date": "2026-10-08",
+    "ts": 1791446536000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008043031_80_e.jpg",
+    "title": "ผู้นำเกาหลีใต้สั่งหน่วยงานไม่สมัครสมาชิกกลุ่มการค้าแปซิฟิก",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204747"
+  },
+  {
+    "id": "hotnews_th_ea31501e",
+    "date": "2026-10-08",
+    "ts": 1791446346000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.00654bfec9b54f83b4837fe9c922a2f2_T1.png",
+    "title": "ศาลสั่งผู้นำ JMS และองค์กรจ่ายเงิน 370 ล้านวอนให้เหยื่อล่วงละเมิดทางเพศ",
+    "link": "https://www.koreaherald.com/article/10897334"
+  },
+  {
     "id": "hotnews_th_e7a9c145",
     "date": "2026-10-08",
     "ts": 1791440823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100708180001300_P2.jpg",
     "title": "มิเชล โหย่ว เผยไม่กลัวความล้มเหลวในงานเทศกาลภาพยนตร์ปูซาน",
     "link": "https://en.yna.co.kr/view/AEN20261007005800315"
-  },
-  {
-    "id": "hotnews_th_60eacc64",
-    "date": "2026-10-06",
-    "ts": 1791295963000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.0eafaf991e1244de916148001908a3ed_T1.jpg",
-    "title": "เทศกาลภาพยนตร์นานาชาติปูซานครั้งที่ 31 เปิดฉากด้วยหนังอินดี้",
-    "link": "https://www.koreaherald.com/article/10894816"
-  },
-  {
-    "id": "hotnews_th_62054c31",
-    "date": "2026-10-06",
-    "ts": 1791287501000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/rcv.YNA.20261002.PYH2026100221810005100_T1.jpg",
-    "title": "ฉลามดัง ปูคังอี ในปูซาน เป็นสัตว์ใกล้สูญพันธุ์",
-    "link": "https://www.koreaherald.com/article/10894750"
-  },
-  {
-    "id": "hotnews_th_acf8ceb3",
-    "date": "2026-10-06",
-    "ts": 1791281562000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006070501_11_e.jpg",
-    "title": "ชิน세계เตรียมลงทุน 1 พันล้านดอลลาร์ในพาราเมาท์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204697"
-  },
-  {
-    "id": "hotnews_th_6720bb8a",
-    "date": "2026-10-06",
-    "ts": 1791277473000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081006000001300_P2.jpg",
-    "title": "กระทรวงกลาโหมเกาหลีใต้พิจารณายกเลิกการยกเว้นเกณฑ์ทหารของนักกีฬาและศิลปิน",
-    "link": "https://en.yna.co.kr/view/AEN20261006006700315"
-  },
-  {
-    "id": "hotnews_th_22a0a451",
-    "date": "2026-10-06",
-    "ts": 1791275759000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100614990001300_P2.jpg",
-    "title": "ภาพยนตร์เกาหลี \"The Table: Day and Night\" เปิดเทศกาล BIFF",
-    "link": "https://en.yna.co.kr/view/AEN20261006010400315"
-  },
-  {
-    "id": "hotnews_th_c7264e56",
-    "date": "2026-10-06",
-    "ts": 1791274181000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045820_98_e.jpg",
-    "title": "ธนาคารในเกาหลีใต้เตรียมเปิดให้บริการช้าลง 30 นาทีเริ่มเดือนเมษายนนี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204691"
-  },
-  {
-    "id": "hotnews_th_340b2cc9",
-    "date": "2026-10-06",
-    "ts": 1791273454000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100609700001300_P2.jpg",
-    "title": "ประธานาธิบดีอี แจ-มยอง สั่งเริ่มหารือเรื่องการเข้าร่วม CPTPP ใหม่",
-    "link": "https://en.yna.co.kr/view/AEN20261006009500315"
-  },
-  {
-    "id": "hotnews_th_80714584",
-    "date": "2026-10-06",
-    "ts": 1791271820000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/06/news-p.v1.20261006.eba9675be7a34cdbbb3fbf0adbbe1c37_T1.jpg",
-    "title": "ตำรวจเกาหลีใต้สอบสวนเหตุแฮกธนาคารด้วย AI ครั้งใหญ่",
-    "link": "https://www.koreaherald.com/article/10894542"
-  },
-  {
-    "id": "hotnews_th_847160ef",
-    "date": "2026-10-06",
-    "ts": 1791270301000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261006045447_79_e.jpg",
-    "title": "รมว.อุตสาหกรรมชี้โครงการอลาสก้า LNG มีค่าเชิงยุทธศาสตร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204688"
-  },
-  {
-    "id": "hotnews_th_4dc23d24",
-    "date": "2026-10-06",
-    "ts": 1791269431000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/06/AEN20261006006500315_01_i_P2.jpg",
-    "title": "ตำรวจเกาหลีใต้ประกาศเอาผิดเด็ดขาดผู้ขู่คุกคามยูแฮจิน",
-    "link": "https://en.yna.co.kr/view/AEN20261006006500315"
   }
 ]
