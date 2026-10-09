@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_vi_91486ff0",
+    "date": "2026-10-09",
+    "ts": 1791553023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/c6b1e67e-d768-4cf1-bd85-9bf996941696.jpg",
+    "title": "Chó nghiệp vụ tìm thấy cụ bà lạc trên núi Gangwon suốt 4 ngày",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261009/rescue-dog-finds-woman-missing-for-4-days-on-gangwon-mountain?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d79988bc",
+    "date": "2026-10-09",
+    "ts": 1791553023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/fad34195-ded6-4630-828f-e21243269df9.jpeg",
+    "title": "Tàu cá Trung Quốc đánh bắt trái phép gần NLL tăng gấp đôi",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261009/no-of-chinese-boats-fishing-illegally-near-nll-more-than-double-despite-crackdown?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_10fc2d63",
+    "date": "2026-10-09",
+    "ts": 1791553023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/c139dc85-5112-4ca1-afa8-3e8aee2e0b77.jpg",
+    "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung giữ ở mức 37%",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261009/lees-approval-rating-remains-at-37-poll?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_656f58dd",
+    "date": "2026-10-09",
+    "ts": 1791553023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/831b77d7-cbe6-42c7-8baf-b9f4a6932452.jpg",
+    "title": "Hàn Quốc yêu cầu Bắc Triều Tiên chịu trách nhiệm vụ mìn nổ",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261009/s-korea-urges-n-korea-to-take-responsible-measures-over-mine-explosion-incident-at-un?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_bd455be3",
+    "date": "2026-10-09",
+    "ts": 1791542496000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009005500315_01_i_P2.jpg",
+    "title": "Phim hoạt hình Ally của Bong Joon-ho ra mắt tại Hàn Quốc vào tháng 7 tới",
+    "link": "https://en.yna.co.kr/view/AEN20261009005500315"
+  },
+  {
+    "id": "hotnews_vi_39f11ef8",
+    "date": "2026-10-09",
+    "ts": 1791537592000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.85b7ac8f761e496d95883d31ae95bc1d_T1.jpg",
+    "title": "Lee Soo-man tái xuất K-pop với màn ra mắt đôi",
+    "link": "https://www.koreaherald.com/article/10897924"
+  },
+  {
+    "id": "hotnews_vi_50183e2c",
+    "date": "2026-10-09",
+    "ts": 1791529537000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.7f10e94ed9dd492b8b1ed7d8729b5a4d_T1.jpg",
+    "title": "Chủ tịch SK cân nhắc xây nhà máy chip Gwangju cùng Yongin",
+    "link": "https://www.koreaherald.com/article/10897855"
+  },
+  {
+    "id": "hotnews_vi_595b8d1c",
+    "date": "2026-10-09",
+    "ts": 1791528134000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/07/21/01/PCM20260721000001990_P2.jpg",
+    "title": "Cảnh sát Hàn Quốc tăng cường đội ngũ điều tra vụ tấn công mạng",
+    "link": "https://en.yna.co.kr/view/AEN20261009003600315"
+  },
+  {
     "id": "hotnews_vi_57244cdd",
     "date": "2026-10-09",
     "ts": 1791527223000,
@@ -48,6 +112,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204759"
   },
   {
+    "id": "hotnews_vi_a2e19ec5",
+    "date": "2026-10-09",
+    "ts": 1791516366000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261009121720_86_k.jpg",
+    "title": "Triều Tiên bị xếp hạng 3 về buôn người",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204758"
+  },
+  {
     "id": "hotnews_vi_ae07a2b4",
     "date": "2026-10-09",
     "ts": 1791514933000,
@@ -62,6 +134,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009002300315_01_i_P2.jpg",
     "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung giữ ở mức 37%",
     "link": "https://en.yna.co.kr/view/AEN20261009002300315"
+  },
+  {
+    "id": "hotnews_vi_f2708df5",
+    "date": "2026-10-09",
+    "ts": 1791511433000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.8abbc8ff67e34fe8b0fd76ec431be305_T1.jpg",
+    "title": "Người Ấn Độ tố bị nhân viên xuất nhập cảnh Hàn Quốc bạo hành",
+    "link": "https://www.koreaherald.com/article/10897732"
   },
   {
     "id": "hotnews_vi_2c42e41d",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.b2117928ded04fee8ce12db5fb68a8bf_T1.jpg",
     "title": "Tài khoản ngân hàng của người nước ngoài bị dùng cho web cờ bạc",
     "link": "https://www.koreaherald.com/article/10896903"
-  },
-  {
-    "id": "hotnews_vi_20fac1ba",
-    "date": "2026-10-07",
-    "ts": 1791414006000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109830005100_P2.jpg",
-    "title": "Thặng dư tài khoản vãng lai của Hàn Quốc tăng mạnh trong tháng 8",
-    "link": "https://en.yna.co.kr/view/AEN20261008001100320"
-  },
-  {
-    "id": "hotnews_vi_8bd74b50",
-    "date": "2026-10-07",
-    "ts": 1791414000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.3c930a14429e439cb4afe08471621608_T1.gif",
-    "title": "Gen Z Hàn Quốc tìm đến AI để xin lời khuyên cá nhân",
-    "link": "https://www.koreaherald.com/article/10896135"
-  },
-  {
-    "id": "hotnews_vi_44715b8a",
-    "date": "2026-10-07",
-    "ts": 1791410220000,
-    "image": "",
-    "title": "Trì hoãn visa phơi bày khủng hoảng lòng tin Hàn-Mỹ",
-    "link": "https://en.yna.co.kr/view/AEN20261008000800320"
-  },
-  {
-    "id": "hotnews_vi_1740ae05",
-    "date": "2026-10-07",
-    "ts": 1791410212000,
-    "image": "",
-    "title": "Tranh cãi giữa Tổng thống Lee và Chánh án Tòa án Tối cao Cho",
-    "link": "https://en.yna.co.kr/view/AEN20261008000700320"
-  },
-  {
-    "id": "hotnews_vi_8ffd3f2d",
-    "date": "2026-10-07",
-    "ts": 1791410202000,
-    "image": "",
-    "title": "Phản ứng của Seoul trước vụ nổ mìn ở DMZ bị chê là yếu ớt",
-    "link": "https://en.yna.co.kr/view/AEN20261008000600320"
-  },
-  {
-    "id": "hotnews_vi_5221a0e4",
-    "date": "2026-10-07",
-    "ts": 1791410193000,
-    "image": "",
-    "title": "Tiêu điểm báo chí Hàn Quốc ngày 8 tháng 10",
-    "link": "https://en.yna.co.kr/view/AEN20261008000500320"
-  },
-  {
-    "id": "hotnews_vi_eee40f6f",
-    "date": "2026-10-07",
-    "ts": 1791406812000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/07/AEN20261007006000320_01_i_P2.jpg",
-    "title": "Các tập đoàn tài chính Hàn Quốc đạt lợi nhuận kỷ lục nửa đầu năm",
-    "link": "https://en.yna.co.kr/view/AEN20261007006000320"
-  },
-  {
-    "id": "hotnews_vi_e670de84",
-    "date": "2026-10-07",
-    "ts": 1791387784000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008000200315_01_i_P2.jpg",
-    "title": "Phó tổng thống Mỹ JD Vance nói về tình hình chính trị Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261008000200315"
-  },
-  {
-    "id": "hotnews_vi_ed75559f",
-    "date": "2026-10-07",
-    "ts": 1791380887000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100727460001300_P2.jpg",
-    "title": "Im Chan-kyu giành chiến thắng thứ 15 tại sân vận động Jamsil lịch sử",
-    "link": "https://en.yna.co.kr/view/AEN20261007010500315"
-  },
-  {
-    "id": "hotnews_vi_f7fe9d9f",
-    "date": "2026-10-07",
-    "ts": 1791380524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/07/93b21b2c-76d0-49ab-960f-74471a8f1acb.jpeg",
-    "title": "Hàn Quốc đổi chính sách visa, giữ chân nhân tài quốc tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261007/korea-shifts-visa-strategy-from-student-recruitment-to-talent-retention?utm_source=rss"
   }
 ]
