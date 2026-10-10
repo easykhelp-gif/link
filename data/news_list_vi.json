@@ -64,6 +64,14 @@
     "link": "https://www.koreaherald.com/article/10897332"
   },
   {
+    "id": "hotnews_vi_235f0135",
+    "date": "2026-10-10",
+    "ts": 1791615600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.ea797ffc478d4c669ba8f1de577507d7_T1.jpg",
+    "title": "Người dùng Netflix Hàn Quốc giảm mạnh xem phim nội địa",
+    "link": "https://www.koreaherald.com/article/10897311"
+  },
+  {
     "id": "hotnews_vi_3a137e5a",
     "date": "2026-10-10",
     "ts": 1791613627000,
@@ -96,12 +104,52 @@
     "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261010/in-korea-towns-compete-to-host-prisons-as-population-declines?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_aa72ca88",
+    "date": "2026-10-10",
+    "ts": 1791612095000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010010909_34_e.jpg",
+    "title": "Phó Bộ trưởng Quốc phòng Hàn Quốc gặp gỡ người đồng cấp Nhật Bản",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204772"
+  },
+  {
+    "id": "hotnews_vi_2186a82e",
+    "date": "2026-10-10",
+    "ts": 1791611834000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010124053_33_e.jpg",
+    "title": "Chủ tịch Quốc hội Cho thăm và làm việc tại Croatia",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204771"
+  },
+  {
+    "id": "hotnews_vi_e4ed051f",
+    "date": "2026-10-10",
+    "ts": 1791611368000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010025301_87_e.jpg",
+    "title": "Pillay tặng giải Nobel Hòa bình cho các nạn nhân tội phạm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204770"
+  },
+  {
+    "id": "hotnews_vi_304cb346",
+    "date": "2026-10-10",
+    "ts": 1791610879000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010124153_91_e.jpg",
+    "title": "Hàn Quốc công bố thêm 50 ảnh thử nghiệm tên lửa siêu vượt âm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204769"
+  },
+  {
     "id": "hotnews_vi_e44fc891",
     "date": "2026-10-10",
     "ts": 1791610517000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010023824_58_e.jpg",
     "title": "Nhà phát triển ARTEX chuyển AI sang mã nguồn đóng",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204768"
+  },
+  {
+    "id": "hotnews_vi_79300246",
+    "date": "2026-10-10",
+    "ts": 1791608401000,
+    "image": "",
+    "title": "Những sự kiện lịch sử Hàn Quốc diễn ra ngày nay",
+    "link": "https://en.yna.co.kr/view/AEN20261010001000320"
   },
   {
     "id": "hotnews_vi_4b40b383",
@@ -120,6 +168,30 @@
     "link": "https://en.yna.co.kr/view/AEN20261010001300315"
   },
   {
+    "id": "hotnews_vi_2fd7313b",
+    "date": "2026-10-10",
+    "ts": 1791605919000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.10d234b5e5bf44a19a866e183632c0da_T1.jpg",
+    "title": "Sập trần siêu thị ở Daegu khiến 38 người bị thương nhẹ",
+    "link": "https://www.koreaherald.com/article/10898201"
+  },
+  {
+    "id": "hotnews_vi_02a2ebf4",
+    "date": "2026-10-10",
+    "ts": 1791605196000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202506/250629050034_12_k.jpg",
+    "title": "Nam giới Anh bị bắt vì đâm người quen tại Seoul",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204765"
+  },
+  {
+    "id": "hotnews_vi_5cefde08",
+    "date": "2026-10-10",
+    "ts": 1791602729000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.0a7906aecb7b4d4e8750e27e0a023454_T1.jpg",
+    "title": "Ba webtoon nổi tiếng được chuyển thể thành anime",
+    "link": "https://www.koreaherald.com/article/10898181"
+  },
+  {
     "id": "hotnews_vi_0a907396",
     "date": "2026-10-10",
     "ts": 1791601983000,
@@ -134,6 +206,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.16c3538122a144e989719ea79f84ba3d_T1.jpg",
     "title": "Bắt nghi phạm Anh đâm phụ nữ ở Seoul sau 9 ngày bỏ trốn",
     "link": "https://www.koreaherald.com/article/10898166"
+  },
+  {
+    "id": "hotnews_vi_a734c4ec",
+    "date": "2026-10-10",
+    "ts": 1791596342000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/10/06/85/PCM20261006000185504_P2.jpg",
+    "title": "Đại sứ Hàn Quốc tại Ukraine về nước sau tranh cãi về tù binh Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261010000900315"
   },
   {
     "id": "hotnews_vi_47a66351",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/09/feddfd56-d652-4127-94df-b454a84bc733.jpeg",
     "title": "Hàn Quốc tưởng niệm lao động Philippines tử vong do nổ nhà máy",
     "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261009/korea-honors-filipino-worker-killed-in-factory-explosion?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_4490377d",
-    "date": "2026-10-09",
-    "ts": 1791523021000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202607/260722085333_74_k.jpg",
-    "title": "Đảng PPP lo ngại vấn đề visa ảnh hưởng liên minh Hàn-Mỹ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204763"
-  },
-  {
-    "id": "hotnews_vi_a254bf1b",
-    "date": "2026-10-09",
-    "ts": 1791520358000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202602/260208022634_79_e.jpg",
-    "title": "Nghị sĩ Jung Chung-rae đi thị sát châu Âu thay vì Mỹ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204761"
-  },
-  {
-    "id": "hotnews_vi_0af37e9e",
-    "date": "2026-10-09",
-    "ts": 1791518466000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.e61dc13567364dbdbd08588ab6e50ca2_T1.jpg",
-    "title": "Hơn 1.100 người nước ngoài làm shipper trái phép tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10897771"
-  },
-  {
-    "id": "hotnews_vi_d013a841",
-    "date": "2026-10-09",
-    "ts": 1791518114000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261009121220_6_k.jpg",
-    "title": "Triều Tiên từ chối viện trợ y tế từ Seoul",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204759"
-  },
-  {
-    "id": "hotnews_vi_a2e19ec5",
-    "date": "2026-10-09",
-    "ts": 1791516366000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261009121720_86_k.jpg",
-    "title": "Triều Tiên bị xếp hạng 3 về buôn người",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204758"
-  },
-  {
-    "id": "hotnews_vi_ae07a2b4",
-    "date": "2026-10-09",
-    "ts": 1791514933000,
-    "image": "https://img.yna.co.kr/photo/cms/2020/08/19/59/PCM20200819000059990_P2.jpg",
-    "title": "Người Ấn Độ khiếu nại bị bạo hành khi trục xuất khỏi Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261009002400315"
-  },
-  {
-    "id": "hotnews_vi_d8a7e307",
-    "date": "2026-10-09",
-    "ts": 1791511747000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009002300315_01_i_P2.jpg",
-    "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung giữ ở mức 37%",
-    "link": "https://en.yna.co.kr/view/AEN20261009002300315"
-  },
-  {
-    "id": "hotnews_vi_f2708df5",
-    "date": "2026-10-09",
-    "ts": 1791511433000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.8abbc8ff67e34fe8b0fd76ec431be305_T1.jpg",
-    "title": "Người Ấn Độ tố bị nhân viên xuất nhập cảnh Hàn Quốc bạo hành",
-    "link": "https://www.koreaherald.com/article/10897732"
-  },
-  {
-    "id": "hotnews_vi_2c42e41d",
-    "date": "2026-10-09",
-    "ts": 1791510461000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009002000315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung ca ngợi Hangeul ngày lễ kỷ niệm",
-    "link": "https://en.yna.co.kr/view/AEN20261009002000315"
-  },
-  {
-    "id": "hotnews_vi_c728a79c",
-    "date": "2026-10-09",
-    "ts": 1791508846000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100609010001300_P2.jpg",
-    "title": "Thời tiết lạnh, hàng hóa mùa đông ở cửa hàng tiện lợi tăng mạnh",
-    "link": "https://en.yna.co.kr/view/AEN20261009001700320"
   }
 ]
