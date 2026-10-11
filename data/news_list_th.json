@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_e80e05d5",
+    "date": "2026-10-11",
+    "ts": 1791757023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/a22d4758-820a-436f-acb8-afe7a512196c.jpg",
+    "title": "ม.ชุงบุกดึงนักศึกษาต่างชาติ 1,800 คนเรียน AI และธุรกิจ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261012/chungbuk-natl-universitys-ai-business-programs-draw-1800-intl-students?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8d4ab081",
+    "date": "2026-10-11",
+    "ts": 1791757023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/e08a0de4-e89e-4195-afbb-b3bece056064.jpeg",
+    "title": "ชาวเกาหลีใต้หันมานับถือศาสนาอิสลามเพิ่มขึ้น",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261012/why-some-koreans-look-beyond-their-culture-to-islam?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_45a4caaa",
+    "date": "2026-10-11",
+    "ts": 1791757023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/72d57169-8f3f-4060-941f-a309e327be36.jpeg",
+    "title": "แนะนำ 4 จุดชมใบไม้เปลี่ยนสีในคยองซังนัมโด",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261012/best-spots-for-autumn-stroll-4-destinations-in-south-gyeongsang-province?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_58ba8688",
+    "date": "2026-10-11",
+    "ts": 1791757023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/94b20bf1-a0ac-4168-8269-7c5243e3dae0.jpeg",
+    "title": "สสวนสัตว์โซลแกรนด์พาร์คเตรียมเปิดตัวลูกแพนด้าแดงแฝด",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261012/seoul-grand-park-to-unveil-twin-baby-red-pandas?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_0a4dd9db",
+    "date": "2026-10-11",
+    "ts": 1791756436000,
+    "image": "",
+    "title": "อีแจมยองขยายการสื่อสารโซเชียลแต่รัฐบาลยังขาดผลงานรูปธรรม",
+    "link": "https://en.yna.co.kr/view/AEN20261012000600315"
+  },
+  {
+    "id": "hotnews_th_9429491a",
+    "date": "2026-10-11",
+    "ts": 1791756427000,
+    "image": "",
+    "title": "เกาหลีใต้เรียกทูตกลับจากยูเครน ปมเปิดเผยเชลยศึกเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20261012000500315"
+  },
+  {
+    "id": "hotnews_th_0998b46a",
+    "date": "2026-10-11",
+    "ts": 1791756418000,
+    "image": "",
+    "title": "ส,ค.-สหรัฐฯเผชิญความขัดแย้งข่าวกรอง รัฐบาลต้องเร่งฟื้นฟูความเชื่อมั่น",
+    "link": "https://en.yna.co.kr/view/AEN20261012000400315"
+  },
+  {
+    "id": "hotnews_th_ecb93976",
+    "date": "2026-10-11",
+    "ts": 1791756401000,
+    "image": "",
+    "title": "สรุปประเด็นข่าวเด่นจากหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 12 ตุลาคม",
+    "link": "https://en.yna.co.kr/view/AEN20261012000300315"
+  },
+  {
+    "id": "hotnews_th_fd953091",
+    "date": "2026-10-11",
+    "ts": 1791750600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.812b7408b1104b8b8891f7ebad9ab3b0_T1.jpg",
+    "title": "ข้อกังวลเกี่ยวกับกองทุน Future Response Fund ของเกาหลีใต้",
+    "link": "https://www.koreaherald.com/article/10898657"
+  },
+  {
+    "id": "hotnews_th_75cf3691",
+    "date": "2026-10-11",
+    "ts": 1791750600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.dc3f0e5367cf49a6bfc5e06f956f27ad_T1.jpg",
+    "title": "อดีตทหารผ่านศึกชี้เกาหลีใต้ต้องสร้างความมั่นใจในการป้องปรามที่ DMZ",
+    "link": "https://www.koreaherald.com/article/10898653"
+  },
+  {
     "id": "hotnews_th_a8ae81fa",
     "date": "2026-10-11",
     "ts": 1791724324000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010125835_38_e.jpg",
     "title": "เอกอัครราชทูตเกาหลีใต้ประจำยูเครนเดินทางกลับประเทศ",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204766"
-  },
-  {
-    "id": "hotnews_th_06f3cdf5",
-    "date": "2026-10-10",
-    "ts": 1791606716000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/10/PYH2026101001640005300_P2.jpg",
-    "title": "ฝ้าเพดานถล่มในอาคารเมืองแทกู มีผู้บาดเจ็บ 38 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261010001300315"
-  },
-  {
-    "id": "hotnews_th_2fd7313b",
-    "date": "2026-10-10",
-    "ts": 1791605919000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.10d234b5e5bf44a19a866e183632c0da_T1.jpg",
-    "title": "เพดานซูเปอร์มาเก็ตในแทกูถล่ม มีผู้บาดเจ็บเล็กน้อย 38 ราย",
-    "link": "https://www.koreaherald.com/article/10898201"
-  },
-  {
-    "id": "hotnews_th_02a2ebf4",
-    "date": "2026-10-10",
-    "ts": 1791605196000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202506/250629050034_12_k.jpg",
-    "title": "ชายชาวอังกฤษถูกจับกุมหลังแทงคนรู้จักในโซล",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204765"
-  },
-  {
-    "id": "hotnews_th_5cefde08",
-    "date": "2026-10-10",
-    "ts": 1791602729000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.0a7906aecb7b4d4e8750e27e0a023454_T1.jpg",
-    "title": "เว็บtoon ยอดฮิต 3 เรื่องเตรียมทำเป็นอนิเมะ",
-    "link": "https://www.koreaherald.com/article/10898181"
-  },
-  {
-    "id": "hotnews_th_0a907396",
-    "date": "2026-10-10",
-    "ts": 1791601983000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202506/250629050034_12_k.jpg",
-    "title": "เปิดโซน K-Culture และ Lifestyle 'LA:ON' ในลอสแอนเจลิส",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204773"
-  },
-  {
-    "id": "hotnews_th_a1472a22",
-    "date": "2026-10-10",
-    "ts": 1791600068000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.16c3538122a144e989719ea79f84ba3d_T1.jpg",
-    "title": "รวบตัวชายชาวอังกฤษหนีคดีแทงผู้หญิงในโซล",
-    "link": "https://www.koreaherald.com/article/10898166"
-  },
-  {
-    "id": "hotnews_th_a734c4ec",
-    "date": "2026-10-10",
-    "ts": 1791596342000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/10/06/85/PCM20261006000185504_P2.jpg",
-    "title": "ทูตเกาหลีใต้ประจำยูเครนเดินทางกลับประเทศแล้ว",
-    "link": "https://en.yna.co.kr/view/AEN20261010000900315"
-  },
-  {
-    "id": "hotnews_th_47a66351",
-    "date": "2026-10-10",
-    "ts": 1791595005000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/10/AEN20261010000500320_01_i_P2.jpg",
-    "title": "ประธานสภาเกาหลีใต้เยือนโครเอเชียหารือความร่วมมือด้านพลังงานและกลาโหม",
-    "link": "https://en.yna.co.kr/view/AEN20261010000500320"
-  },
-  {
-    "id": "hotnews_th_364097d7",
-    "date": "2026-10-10",
-    "ts": 1791593751000,
-    "image": "https://img.yna.co.kr/photo/cms/2018/11/29/56/PCM20181129000056990_P2.jpg",
-    "title": "เกาหลีเหนือประณามรายงานค้ามนุษย์สหรัฐว่าเป็นเรื่องยั่วยุ",
-    "link": "https://en.yna.co.kr/view/AEN20261010000400315"
-  },
-  {
-    "id": "hotnews_th_aefade1a",
-    "date": "2026-10-09",
-    "ts": 1791589788000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/rcv.YNA.20261008.PYH2026100820100001300_T1.jpg",
-    "title": "สigอคาดหวังเกาหลีใต้รักษามาตรฐานพันธมิตรท่ามกลางความกังวลด้านข่าวกรอง",
-    "link": "https://www.koreaherald.com/article/10898092"
   }
 ]
