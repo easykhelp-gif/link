@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_th_a8ae81fa",
+    "date": "2026-10-11",
+    "ts": 1791724324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/dde9218b-51c8-4834-9e5f-1611e7ff5d3c.jpg",
+    "title": "ทำเนียบประธานาธิบดีเกาหลีเปิดเผยกำหนดการกอล์ฟของอีแจมยอง",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261011/cheong-wa-dae-makes-rare-disclosure-of-lees-golf-outing-ahead-of-opposition-attack?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_3e3660f3",
+    "date": "2026-10-11",
+    "ts": 1791724324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/5daa423d-e5e4-4e50-a908-5ff5346e6ea7.jpg",
+    "title": "ผู้เชี่ยวชาญมองปัญหากรณีข่าวกรองเกาหลีใต้-สหรัฐฯ ยังไม่คลี่คลายเร็วๆ นี้",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261011/experts-see-no-quick-fix-for-korea-us-intelligence-rift?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_0105d9ee",
+    "date": "2026-10-11",
+    "ts": 1791724324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/51e5a2a3-a48b-4de8-b860-a7d4f53fcfbc.jpg",
+    "title": "ผลสำรวจชี้ลูกจ้างเกาหลี 7 ใน 10 ไม่ได้ค่าจ้างเพิ่มเมื่อทำงานแทนเพื่อนร่วมงานที่ลาคลอด",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261011/7-in-10-workers-get-no-extra-pay-for-covering-parental-leave-survey?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_58c39912",
+    "date": "2026-10-11",
+    "ts": 1791724324000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/bc8247a0-a0a6-40a8-a7ae-1e4e83d7ddb8.jpg",
+    "title": "บทบาทเกาหลีใต้ในบัญชาการรบผสมจะเพิ่มขึ้นหลังโอนย้าย OPCON",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261011/koreas-role-in-combined-command-set-to-grow-after-opcon-transfer?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_546c16d2",
+    "date": "2026-10-11",
+    "ts": 1791723703000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6254136b48804e23af99ca6a3126505f_T1.jpg",
+    "title": "ตำรวจโปแลนด์เตือนแผนลอบสังบ์นายกฯ โดนัลด์ ทัสก์",
+    "link": "https://www.koreaherald.com/article/10898753"
+  },
+  {
+    "id": "hotnews_th_b64c53ed",
+    "date": "2026-10-11",
+    "ts": 1791719905000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/11/PAP20261011225801009_P2.jpg",
+    "title": "เกาหลีใต้เตือนพลเมืองออกจากซาอุดีอาระเบียหลังกลุ่มฮูตีโจมตี",
+    "link": "https://en.yna.co.kr/view/AEN20261011002900315"
+  },
+  {
+    "id": "hotnews_th_8ec2bf85",
+    "date": "2026-10-11",
+    "ts": 1791719648000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.ee3b297bcddc42998ec6f0a003b07896_T1.jpg",
+    "title": "ช่องโหว่ระบบคุ้มครองเหยื่อความรุนแรงในครอบครัวของเกาหลี",
+    "link": "https://www.koreaherald.com/article/10898739"
+  },
+  {
+    "id": "hotnews_th_d48d2dd5",
+    "date": "2026-10-11",
+    "ts": 1791716866000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.d5d967370f644e7eb8d613a46d749f0f_T1.jpg",
+    "title": "โฆษกวาติกันเผย โป๊ปเลโอที่ 14 เตรียมผ่าตัดปอดสัปดาห์นี้",
+    "link": "https://www.koreaherald.com/article/10898726"
+  },
+  {
+    "id": "hotnews_th_02516e04",
+    "date": "2026-10-11",
+    "ts": 1791715767000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6fba9fcfcc274409b536162a6cea3202_T1.jpg",
+    "title": "อีแจมยองเตือนอย่าให้บริษัทใหญ่ใช้ไฟฟ้านิวเคลียร์ราคาถูกพิเศษ",
+    "link": "https://www.koreaherald.com/article/10898724"
+  },
+  {
     "id": "hotnews_th_722ffd03",
     "date": "2026-10-11",
     "ts": 1791698823000,
@@ -30,6 +102,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.eab657a6abcf4e8f8c58b98374654409_T1.jpg",
     "title": "สัดส่วนถือหุ้นต่างชาติใน Samsung ลดลงต่ำสุดในรอบ 18 ปี",
     "link": "https://www.koreaherald.com/article/10898606"
+  },
+  {
+    "id": "hotnews_th_3fd1b84f",
+    "date": "2026-10-11",
+    "ts": 1791695796000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261011011713_25_e.jpg",
+    "title": "รัฐมนตรีมหาดไทยสั่งตรวจสอบเจ้าหน้าที่หลังวิจารณ์หัวหน้าหน่วยงานอาชญากรรม",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204780"
   },
   {
     "id": "hotnews_th_3a8b1b36",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/rcv.YNA.20261008.PYH2026100820100001300_T1.jpg",
     "title": "สigอคาดหวังเกาหลีใต้รักษามาตรฐานพันธมิตรท่ามกลางความกังวลด้านข่าวกรอง",
     "link": "https://www.koreaherald.com/article/10898092"
-  },
-  {
-    "id": "hotnews_th_6a5b532c",
-    "date": "2026-10-09",
-    "ts": 1791586023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/8132ac33-2df8-47b6-9020-733efa9af6fc.jpeg",
-    "title": "คอมเมดี้รัสเซียเติบโตในเกาหลี",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261010/comedy-takes-root-in-koreas-russian-speaking-community?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c0955b19",
-    "date": "2026-10-09",
-    "ts": 1791586023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/3a6e2d98-e5df-4fdd-a18a-496b5cf41afe.jpg",
-    "title": "นักวิจัยเกาหลีใต้เผยผลสัมภาษณ์นักโทษประหาร ชี้ควรยกเลิกโทษประหารชีวิต",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261010/after-interviewing-42-death-row-inmates-researcher-believes-capital-punishment-should-end?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c34a84c5",
-    "date": "2026-10-09",
-    "ts": 1791582391000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/10/AEN20261010000200315_01_i_P2.jpg",
-    "title": "ส.อ.คาดหวังเกาหลีใต้รักษมาตรฐานพันธมิตรท่ามกลางความกังวลข่าวกรอง",
-    "link": "https://en.yna.co.kr/view/AEN20261010000200315"
-  },
-  {
-    "id": "hotnews_th_085c3f38",
-    "date": "2026-10-09",
-    "ts": 1791553693000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/07/21/01/PCM20260721000001990_P2.jpg",
-    "title": "ตำรวจเกาหลีใต้เพิ่มกำลังพลสืบสวนคดีแฮกธนาคาร",
-    "link": "https://en.yna.co.kr/view/AEN20261009003651315"
-  },
-  {
-    "id": "hotnews_th_91486ff0",
-    "date": "2026-10-09",
-    "ts": 1791553023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/c6b1e67e-d768-4cf1-bd85-9bf996941696.jpg",
-    "title": "สุนัขกู้ภัยพบหญิงสูญหายบนภูเขาในคังวอนหลังผ่านไป 4 วัน",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261009/rescue-dog-finds-woman-missing-for-4-days-on-gangwon-mountain?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_d79988bc",
-    "date": "2026-10-09",
-    "ts": 1791553023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/fad34195-ded6-4630-828f-e21243269df9.jpeg",
-    "title": "เรือประมงจีนลักลอบจับปลาใกล้ NLL เพิ่มขึ้นกว่าเท่าตัว",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261009/no-of-chinese-boats-fishing-illegally-near-nll-more-than-double-despite-crackdown?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_10fc2d63",
-    "date": "2026-10-09",
-    "ts": 1791553023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/c139dc85-5112-4ca1-afa8-3e8aee2e0b77.jpg",
-    "title": "ผลสำรวจเผยคะแนนนิยมประธานาธิบดีอี แจ-มยอง อยู่ที่ร้อยละ 37",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261009/lees-approval-rating-remains-at-37-poll?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_656f58dd",
-    "date": "2026-10-09",
-    "ts": 1791553023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/831b77d7-cbe6-42c7-8baf-b9f4a6932452.jpg",
-    "title": "เกาหลีใต้จี้เกาหลีเหนือรับผิดชอบเหตุระเบิดทุ่นระเบิดที่ UN",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261009/s-korea-urges-n-korea-to-take-responsible-measures-over-mine-explosion-incident-at-un?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_f290d6c3",
-    "date": "2026-10-09",
-    "ts": 1791549052000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.d01fa2146a87412ba759a151d289da80_T1.jpg",
-    "title": "หัวหน้าการค้า EU เจรจาจีนเพื่อผลลัพธ์ที่เป็นรูปธรรม",
-    "link": "https://www.koreaherald.com/article/10898012"
-  },
-  {
-    "id": "hotnews_th_a181c58b",
-    "date": "2026-10-09",
-    "ts": 1791544565000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.64efaf6be86b4e0dbc6d33b59d65beeb_T1.jpg",
-    "title": "งานวิ่งฮันกึลรันครั้งที่ 3 ดึงดูดนักวิ่ง 15,000 คนร่วมงานที่เซจง",
-    "link": "https://www.koreaherald.com/article/10897965"
   }
 ]
