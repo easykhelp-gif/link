@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_722ffd03",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/96582407-ba47-4fd2-9d0a-dbba703eefa7.jpeg",
+    "title": "4 บทความของศาสตราจารย์ HUFS ได้รับเลือกใน 3 งานประชุม AI ชั้นนำ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/4-papers-co-authored-by-hankuk-university-of-foreign-studies-professor-accepted-in-3-ai-conferences?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_93e39181",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/3bf106ed-c866-4a19-ac91-ba921770b8d3.jpeg",
+    "title": "ม.ซองคยูนกวันจัดแข่งเขียนเรียงความภาษาเกาหลีรอบเอเชียตะวันออกเฉียงใต้",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/sungkyunkwan-university-holds-southeast-asia-round-of-korean-writing-contest-in-hanoi?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_5d1fdc42",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/a0e5c642-200c-494d-8cfe-4b34344acfdb.jpeg",
+    "title": "ม.โซลจัดงานโชว์ผลงานโครงการศึกษาดูงานต่างประเทศ GO-UOS",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/university-of-seoul-students-showcase-achievements-of-overseas-exploration-program?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_ef7aaa71",
+    "date": "2026-10-11",
+    "ts": 1791698134000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.eab657a6abcf4e8f8c58b98374654409_T1.jpg",
+    "title": "สัดส่วนถือหุ้นต่างชาติใน Samsung ลดลงต่ำสุดในรอบ 18 ปี",
+    "link": "https://www.koreaherald.com/article/10898606"
+  },
+  {
+    "id": "hotnews_th_3a8b1b36",
+    "date": "2026-10-11",
+    "ts": 1791695126000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261011124255_62_e.jpg",
+    "title": "กลุ่มฮูตีโจมตีสนามบินซาอุดีอาระเบีย ดับ 12 เจ็บกว่า 300",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204779"
+  },
+  {
+    "id": "hotnews_th_96af8144",
+    "date": "2026-10-11",
+    "ts": 1791691258000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261011111425_83_e.jpg",
+    "title": "เกาหลีเหนือฉลองวันก่อตั้งพรรคแรงงานไร้สวนสนามทหาร",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204776"
+  },
+  {
+    "id": "hotnews_th_8565b8fa",
+    "date": "2026-10-11",
+    "ts": 1791685988000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011001100320_01_i_P2.jpg",
+    "title": "ธนาคารกลางเกาหลีเผยรายได้สินทรัพย์ต่างประเทศปี 2025 เกือบ 17 ล้านล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20261011001100320"
+  },
+  {
+    "id": "hotnews_th_9b049d4a",
+    "date": "2026-10-11",
+    "ts": 1791685314000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011001000320_02_i_P2.jpg",
+    "title": "ธนาคารเกาหลีใต้เตรียมเพิ่มงบความปลอดภัยไซเบอร์หลังถูกเจาะข้อมูล",
+    "link": "https://en.yna.co.kr/view/AEN20261011001000320"
+  },
+  {
+    "id": "hotnews_th_74e674b0",
+    "date": "2026-10-11",
+    "ts": 1791683140000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.b10d9d900f43417e8d0d9ed721426b74_T1.jpg",
+    "title": "อี แจมยอง ยืนยันจะสื่อสารกับประชาชนโดยตรงผ่านโซเชียลมีเดียต่อไป",
+    "link": "https://www.koreaherald.com/article/10898474"
+  },
+  {
+    "id": "hotnews_th_80699fce",
+    "date": "2026-10-11",
+    "ts": 1791680144000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011000700320_01_i_P2.jpg",
+    "title": "ยอดขายสะสมของฮุนไดในอินเดียจ่อทะลุ 10 ล้านคันในปีนี้",
+    "link": "https://en.yna.co.kr/view/AEN20261011000700320"
+  },
+  {
     "id": "hotnews_th_a618c6ef",
     "date": "2026-10-10",
     "ts": 1791636725000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.64efaf6be86b4e0dbc6d33b59d65beeb_T1.jpg",
     "title": "งานวิ่งฮันกึลรันครั้งที่ 3 ดึงดูดนักวิ่ง 15,000 คนร่วมงานที่เซจง",
     "link": "https://www.koreaherald.com/article/10897965"
-  },
-  {
-    "id": "hotnews_th_72c86e3e",
-    "date": "2026-10-09",
-    "ts": 1791543879000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.d7a06dbc7e36421fa62f20ad0d6bc2a6_T1.jpg",
-    "title": "ผู้พิพากษา Navi Pillay ชาวแอฟริกาใต้คว้ารางวัลโนเบลสาขาสันติภาพ",
-    "link": "https://www.koreaherald.com/article/10897957"
-  },
-  {
-    "id": "hotnews_th_2a8e0209",
-    "date": "2026-10-09",
-    "ts": 1791542784000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.e53cc85e009748b5bef0d992dad6d7d9_T1.jpg",
-    "title": "ภาพยนตร์แอนิเมชันเรื่อง Ally ของผู้กำกับ บง จุนโฮ จะเข้าฉายในเกาหลีใต้เดือนกรกฎาคมปีหน้า",
-    "link": "https://www.koreaherald.com/article/10897950"
-  },
-  {
-    "id": "hotnews_th_bd455be3",
-    "date": "2026-10-09",
-    "ts": 1791542496000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009005500315_01_i_P2.jpg",
-    "title": "ภาพยนตร์แอนิเมชันเรื่อง Ally ของผู้กำกับ บง จุนโฮ จะเข้าฉายในเกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20261009005500315"
-  },
-  {
-    "id": "hotnews_th_39f11ef8",
-    "date": "2026-10-09",
-    "ts": 1791537592000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.85b7ac8f761e496d95883d31ae95bc1d_T1.jpg",
-    "title": "อีซูมานผู้สร้าง K-pop คืนวงการเกาหลีด้วยการเดบิวต์คู่",
-    "link": "https://www.koreaherald.com/article/10897924"
-  },
-  {
-    "id": "hotnews_th_38470667",
-    "date": "2026-10-09",
-    "ts": 1791529542000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.c6e92090f18a433587242cc1a128a717_T1.png",
-    "title": "ปัญญา artificial intelligence พandoors ทำนายดวง saju เกาหลี",
-    "link": "https://www.koreaherald.com/article/10897856"
-  },
-  {
-    "id": "hotnews_th_50183e2c",
-    "date": "2026-10-09",
-    "ts": 1791529537000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.7f10e94ed9dd492b8b1ed7d8729b5a4d_T1.jpg",
-    "title": "ประธาน SK เล็งสร้างโรงงานชิปที่กวางจูพร้อมกับยงอิน",
-    "link": "https://www.koreaherald.com/article/10897855"
-  },
-  {
-    "id": "hotnews_th_3a0a2218",
-    "date": "2026-10-09",
-    "ts": 1791529169000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/rcv.YNA.20260930.PYH2026093015170001300_T1.jpg",
-    "title": "ส.ส. รัฐบาลวิจารณ์บริษัทอาวุธเกาหลีใต้เงินบริจาคสังคมน้อย",
-    "link": "https://www.koreaherald.com/article/10897853"
-  },
-  {
-    "id": "hotnews_th_595b8d1c",
-    "date": "2026-10-09",
-    "ts": 1791528134000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/07/21/01/PCM20260721000001990_P2.jpg",
-    "title": "ตำรวจเกาหลีใต้เพิ่มกำลังพลสืบสวนคดีแฮกสถาบันการเงิน",
-    "link": "https://en.yna.co.kr/view/AEN20261009003600315"
-  },
-  {
-    "id": "hotnews_th_57244cdd",
-    "date": "2026-10-09",
-    "ts": 1791527223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/251f022d-ea19-40b4-81c1-90b5a28a1131.jpeg",
-    "title": "ร้าน PC bang และคาเฟ่เด็กเกาหลีละเมิดกฎความปลอดภัยอาหาร",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261009/more-cafes-pc-rooms-found-violating-food-safety-rules?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_8b56f462",
-    "date": "2026-10-09",
-    "ts": 1791527223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/feddfd56-d652-4127-94df-b454a84bc733.jpeg",
-    "title": "เกาหลีใต้ไว้อาลัยแรงงานฟิลิปปินส์เสียชีวิตจากเหตุระเบิด",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261009/korea-honors-filipino-worker-killed-in-factory-explosion?utm_source=rss"
   }
 ]

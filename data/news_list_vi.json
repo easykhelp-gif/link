@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_722ffd03",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/96582407-ba47-4fd2-9d0a-dbba703eefa7.jpeg",
+    "title": "4 bài báo của giáo sư HUFS được nhận vào 3 hội nghị AI lớn",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/4-papers-co-authored-by-hankuk-university-of-foreign-studies-professor-accepted-in-3-ai-conferences?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_93e39181",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/3bf106ed-c866-4a19-ac91-ba921770b8d3.jpeg",
+    "title": "Cuộc thi viết tiếng Hàn Sungkyun Hangeul tại Hà Nội",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/sungkyunkwan-university-holds-southeast-asia-round-of-korean-writing-contest-in-hanoi?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_5d1fdc42",
+    "date": "2026-10-11",
+    "ts": 1791698823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/a0e5c642-200c-494d-8cfe-4b34344acfdb.jpeg",
+    "title": "Sinh viên University of Seoul khoe thành quả du khảo nước ngoài",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/university-of-seoul-students-showcase-achievements-of-overseas-exploration-program?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ef7aaa71",
+    "date": "2026-10-11",
+    "ts": 1791698134000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.eab657a6abcf4e8f8c58b98374654409_T1.jpg",
+    "title": "Tỷ lệ sở hữu nước ngoài tại Samsung giảm thấp nhất 18 năm",
+    "link": "https://www.koreaherald.com/article/10898606"
+  },
+  {
+    "id": "hotnews_vi_3a8b1b36",
+    "date": "2026-10-11",
+    "ts": 1791695126000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261011124255_62_e.jpg",
+    "title": "Vụ tấn công sân bay Saudi Arabia làm 12 người chết",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204779"
+  },
+  {
+    "id": "hotnews_vi_96af8144",
+    "date": "2026-10-11",
+    "ts": 1791691258000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261011111425_83_e.jpg",
+    "title": "Triều Tiên kỷ niệm thành lập Đảng không duyệt binh",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204776"
+  },
+  {
+    "id": "hotnews_vi_8565b8fa",
+    "date": "2026-10-11",
+    "ts": 1791685988000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011001100320_01_i_P2.jpg",
+    "title": "Lợi nhuận tài sản nước ngoài của Ngân hàng Trung ương Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261011001100320"
+  },
+  {
+    "id": "hotnews_vi_9b049d4a",
+    "date": "2026-10-11",
+    "ts": 1791685314000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011001000320_02_i_P2.jpg",
+    "title": "Ngân hàng Hàn Quốc tăng chi phí bảo mật sau vụ tấn công AI",
+    "link": "https://en.yna.co.kr/view/AEN20261011001000320"
+  },
+  {
+    "id": "hotnews_vi_74e674b0",
+    "date": "2026-10-11",
+    "ts": 1791683140000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.b10d9d900f43417e8d0d9ed721426b74_T1.jpg",
+    "title": "Tổng thống Lee Jae Myung tiếp tục giao tiếp trực tiếp với dân",
+    "link": "https://www.koreaherald.com/article/10898474"
+  },
+  {
+    "id": "hotnews_vi_80699fce",
+    "date": "2026-10-11",
+    "ts": 1791680144000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011000700320_01_i_P2.jpg",
+    "title": "Doanh số tại Ấn Độ của Hyundai Motor sắp đạt 10 triệu xe",
+    "link": "https://en.yna.co.kr/view/AEN20261011000700320"
+  },
+  {
     "id": "hotnews_vi_a618c6ef",
     "date": "2026-10-10",
     "ts": 1791636725000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.64efaf6be86b4e0dbc6d33b59d65beeb_T1.jpg",
     "title": "Sự kiện Hangeul Run thu hút 15.000 người tham gia tại Sejong",
     "link": "https://www.koreaherald.com/article/10897965"
-  },
-  {
-    "id": "hotnews_vi_72c86e3e",
-    "date": "2026-10-09",
-    "ts": 1791543879000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.d7a06dbc7e36421fa62f20ad0d6bc2a6_T1.jpg",
-    "title": "Thẩm phán Nam Phi Navi Pillay đoạt giải Nobel Hòa bình",
-    "link": "https://www.koreaherald.com/article/10897957"
-  },
-  {
-    "id": "hotnews_vi_2a8e0209",
-    "date": "2026-10-09",
-    "ts": 1791542784000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.e53cc85e009748b5bef0d992dad6d7d9_T1.jpg",
-    "title": "Phim hoạt hình mới của đạo diễn Bong Joon-ho ra mắt vào tháng 7",
-    "link": "https://www.koreaherald.com/article/10897950"
-  },
-  {
-    "id": "hotnews_vi_bd455be3",
-    "date": "2026-10-09",
-    "ts": 1791542496000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009005500315_01_i_P2.jpg",
-    "title": "Phim hoạt hình Ally của Bong Joon-ho ra mắt tại Hàn Quốc vào tháng 7 tới",
-    "link": "https://en.yna.co.kr/view/AEN20261009005500315"
-  },
-  {
-    "id": "hotnews_vi_39f11ef8",
-    "date": "2026-10-09",
-    "ts": 1791537592000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.85b7ac8f761e496d95883d31ae95bc1d_T1.jpg",
-    "title": "Lee Soo-man tái xuất K-pop với màn ra mắt đôi",
-    "link": "https://www.koreaherald.com/article/10897924"
-  },
-  {
-    "id": "hotnews_vi_38470667",
-    "date": "2026-10-09",
-    "ts": 1791529542000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.c6e92090f18a433587242cc1a128a717_T1.png",
-    "title": "Công nghệ AI kết hợp xem bói truyền thống Saju tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10897856"
-  },
-  {
-    "id": "hotnews_vi_50183e2c",
-    "date": "2026-10-09",
-    "ts": 1791529537000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/news-p.v1.20261009.7f10e94ed9dd492b8b1ed7d8729b5a4d_T1.jpg",
-    "title": "Chủ tịch SK cân nhắc xây nhà máy chip Gwangju cùng Yongin",
-    "link": "https://www.koreaherald.com/article/10897855"
-  },
-  {
-    "id": "hotnews_vi_3a0a2218",
-    "date": "2026-10-09",
-    "ts": 1791529169000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/09/rcv.YNA.20260930.PYH2026093015170001300_T1.jpg",
-    "title": "Nghị sĩ Hàn Quốc chê các công ty quốc phòng đóng góp xã hội ít",
-    "link": "https://www.koreaherald.com/article/10897853"
-  },
-  {
-    "id": "hotnews_vi_595b8d1c",
-    "date": "2026-10-09",
-    "ts": 1791528134000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/07/21/01/PCM20260721000001990_P2.jpg",
-    "title": "Cảnh sát Hàn Quốc tăng cường đội ngũ điều tra vụ tấn công mạng",
-    "link": "https://en.yna.co.kr/view/AEN20261009003600315"
-  },
-  {
-    "id": "hotnews_vi_57244cdd",
-    "date": "2026-10-09",
-    "ts": 1791527223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/251f022d-ea19-40b4-81c1-90b5a28a1131.jpeg",
-    "title": "Vi phạm an toàn thực phẩm tại PC bang và quán cà phê trẻ em",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261009/more-cafes-pc-rooms-found-violating-food-safety-rules?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_8b56f462",
-    "date": "2026-10-09",
-    "ts": 1791527223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/feddfd56-d652-4127-94df-b454a84bc733.jpeg",
-    "title": "Hàn Quốc tưởng niệm lao động Philippines tử vong do nổ nhà máy",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261009/korea-honors-filipino-worker-killed-in-factory-explosion?utm_source=rss"
   }
 ]
