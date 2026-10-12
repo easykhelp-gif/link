@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_6b111783",
+    "date": "2026-10-12",
+    "ts": 1791785823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/77944745-7d86-4f6c-bd97-a9c7e96bd61e.jpeg",
+    "title": "วัยรุ่นปูซานทำสัตว์ป่าในเมืองกลายเป็นกระแสไวรัลโด่งดัง",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261012/from-sharks-to-otters-how-busans-gen-z-is-turning-urban-wildlife-into-viral-sensations?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_acd6e583",
+    "date": "2026-10-12",
+    "ts": 1791785823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/12/1a52c334-ee74-4287-8884-da08d284dda2.jpg",
+    "title": "ชาวต่างชาติในเกาหลีใต้ตกเป็นผู้ต้องสงสัยคดีรุนแรงเพิ่มขึ้น",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261012/foreign-suspects-in-violent-crimes-up-12-in-5-years?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_13b159eb",
+    "date": "2026-10-12",
+    "ts": 1791784614000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.693068fac6084e15a70554c721e551d9_T1.jpg",
+    "title": "Kakao Bank เปิดบริการเต็มรูปแบบให้ชาวต่างชาติในเกาหลี",
+    "link": "https://www.koreaherald.com/article/10899769"
+  },
+  {
+    "id": "hotnews_th_780d4501",
+    "date": "2026-10-12",
+    "ts": 1791783725000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012025146_98_e.jpg",
+    "title": "ส,เกาหลีเผชิญหน้ากันด้วยศักยภาพขีปนาวุธ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204797"
+  },
+  {
+    "id": "hotnews_th_2b4996dc",
+    "date": "2026-10-12",
+    "ts": 1791782952000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.f83307aa55734034a1dcc4f5019e3ba7_T1.jpg",
+    "title": "ซีรีส์ Doctor X: Mafia in White ถูกวิจารณ์เรื่องความแม่นยำทางการแพทย์",
+    "link": "https://www.koreaherald.com/article/10899712"
+  },
+  {
+    "id": "hotnews_th_82ddd116",
+    "date": "2026-10-12",
+    "ts": 1791782870000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.281b37d312fc4e81972c94e8d369703f_T1.jpg",
+    "title": "คะแนนนิยมประธานาธิบดี Lee Jae Myung ลดลงต่อเนื่องท่ามกลางปัญหาการเมือง",
+    "link": "https://www.koreaherald.com/article/10899711"
+  },
+  {
+    "id": "hotnews_th_62297d48",
+    "date": "2026-10-12",
+    "ts": 1791780126000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012015614_69_e.jpg",
+    "title": "วีลีกเปิดโอกาสให้ชาวเกาหลีโพ้นทะเลร่วมดราฟต์นักกีฬาใหม่",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204794"
+  },
+  {
+    "id": "hotnews_th_50516251",
+    "date": "2026-10-12",
+    "ts": 1791779566000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080507930001300_P2.jpg",
+    "title": "ผอ.กำลังพลเกาหลีใต้เสียใจ นักบอลอวดพ้นเกณฑ์ทหารเอเชียนเกมส์",
+    "link": "https://en.yna.co.kr/view/AEN20261012005100315"
+  },
+  {
+    "id": "hotnews_th_0fc8ec57",
+    "date": "2026-10-12",
+    "ts": 1791778245000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/rcv.YNA.20261012.PYH2026101202730001300_T1.jpg",
+    "title": "รัฐมนตรีรวมชาติเกาหลีใต้ปัดข่าวความสัมพันธ์กับสหรัฐฯ มีรอยร้าว",
+    "link": "https://www.koreaherald.com/article/10899581"
+  },
+  {
+    "id": "hotnews_th_53255e0f",
+    "date": "2026-10-12",
+    "ts": 1791774162000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/rcv.YNA.20261012.PRU20261012005001009_T1.jpg",
+    "title": "เรือผู้อพยพคว่ำนอกชายฝั่งจิบูตี เสียชีวิตอย่างน้อย 139 ราย",
+    "link": "https://www.koreaherald.com/article/10899558"
+  },
+  {
     "id": "hotnews_th_e80e05d5",
     "date": "2026-10-11",
     "ts": 1791757023000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/10/74da3f1a-23b8-4d43-83aa-972a97eca5ce.jpeg",
     "title": "ศาลเกาหลีใต้ชี้โทษจำคุกในสหรัฐฯ ใช้ยกเว้นเกณฑ์ทหารได้",
     "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261010/us-prison-term-counts-toward-korean-military-exemption-court-rules?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_e0aa150e",
-    "date": "2026-10-10",
-    "ts": 1791612723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/10/00704004-5057-4f88-be95-0b0b29cd2845.jpeg",
-    "title": "ซงอินจู นักวิจัยการเสียชีวิตอย่างโดดเดี่ยวในเกาหลีใต้",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261010/she-studies-lonely-deaths-and-shared-her-door-code-with-a-neighbor?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_4b87bc23",
-    "date": "2026-10-10",
-    "ts": 1791612723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/10/0b5dc5ed-69c6-4107-acb9-a8fd957bb632.jpeg",
-    "title": "เมืองในเกาหลีใต้แย่งกันเสนอตัวสร้างเรือนจำใหม่เพื่อกระตุ้นเศรษฐกิจ",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261010/in-korea-towns-compete-to-host-prisons-as-population-declines?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_61faf2c3",
-    "date": "2026-10-10",
-    "ts": 1791612723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/3a6e2d98-e5df-4fdd-a18a-496b5cf41afe.jpg",
-    "title": "นักวิจัยเกาหลีเผยผลสัมภาษณ์นักโทษประหาร ชี้ควรยกเลิกโทษประหารชีวิต",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261010/cover-story-after-interviewing-42-death-row-inmates-researcher-believes-capital-punishment-should-end?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_aa72ca88",
-    "date": "2026-10-10",
-    "ts": 1791612095000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010010909_34_e.jpg",
-    "title": "รมช.กลาโหมเกาหลีใต้เยือนโตเกียวพบกับคู่เจรจาญี่ปุ่น",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204772"
-  },
-  {
-    "id": "hotnews_th_2186a82e",
-    "date": "2026-10-10",
-    "ts": 1791611834000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010124053_33_e.jpg",
-    "title": "ประธานสภาเกาหลีใต้เยือนโครเอเชีย",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204771"
-  },
-  {
-    "id": "hotnews_th_e4ed051f",
-    "date": "2026-10-10",
-    "ts": 1791611368000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010025301_87_e.jpg",
-    "title": "พิลลายมอบรางวัลโนเบลสันติภาพให้ผู้รอดชีวิตจากอาชญากรรมสากล",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204770"
-  },
-  {
-    "id": "hotnews_th_304cb346",
-    "date": "2026-10-10",
-    "ts": 1791610879000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010124153_91_e.jpg",
-    "title": "เกาหลีใต้เปิดเผยภาพถ่ายขีปนาวุธร่อนความเร็วเหนือเสียงเพิ่ม 50 ภาพ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204769"
-  },
-  {
-    "id": "hotnews_th_e44fc891",
-    "date": "2026-10-10",
-    "ts": 1791610517000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010023824_58_e.jpg",
-    "title": "บริษัท ARTEX ปิดซอร์ส AI Agent หลังเกิดเหตุแฮกธนาคารเกาหลีใต้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204768"
-  },
-  {
-    "id": "hotnews_th_79300246",
-    "date": "2026-10-10",
-    "ts": 1791608401000,
-    "image": "",
-    "title": "เหตุการณ์สำคัญในประวัติศาสตร์เกาหลีใต้ที่เกิดขึ้นในวันนี้",
-    "link": "https://en.yna.co.kr/view/AEN20261010001000320"
-  },
-  {
-    "id": "hotnews_th_4b40b383",
-    "date": "2026-10-10",
-    "ts": 1791606729000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261010125835_38_e.jpg",
-    "title": "เอกอัครราชทูตเกาหลีใต้ประจำยูเครนเดินทางกลับประเทศ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204766"
   }
 ]
