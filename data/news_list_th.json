@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_2f7dfa0e",
+    "date": "2026-10-12",
+    "ts": 1791814529000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/12/AEN20261012010000315_01_i_P2.jpg",
+    "title": "กองทัพบกสหรัฐฯ รับมอบปืนใหญ่อัตตาจรเคลื่อนที่จากฮันฮวา",
+    "link": "https://en.yna.co.kr/view/AEN20261012010000315"
+  },
+  {
+    "id": "hotnews_th_42db6128",
+    "date": "2026-10-12",
+    "ts": 1791808842000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.8108591da442422eb5a3ba80f0316986_T1.jpg",
+    "title": "อีซูมานผู้บุกเบิก K-pop กลับมาพร้อมค่าย A2O และเทคโนโลยี 4D",
+    "link": "https://www.koreaherald.com/article/10900163"
+  },
+  {
+    "id": "hotnews_th_56d58952",
+    "date": "2026-10-12",
+    "ts": 1791805964000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/12/AEN20261012009300320_01_i_P2.jpg",
+    "title": "คณะกรรมการสิทธิมนุษยชนแห่งชาติเกาหลีเตรียมขอโทษต่อสาธารณชน",
+    "link": "https://en.yna.co.kr/view/AEN20261012009300320"
+  },
+  {
+    "id": "hotnews_th_bff553de",
+    "date": "2026-10-12",
+    "ts": 1791802725000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/12/AEN20261012009000320_01_i_P2.jpg",
+    "title": "รัฐบาลเกาหลีใต้ชนะคดีริบทรัพย์ทายาทผู้ร่วมมือกับญี่ปุ่น",
+    "link": "https://en.yna.co.kr/view/AEN20261012009000320"
+  },
+  {
+    "id": "hotnews_th_1ae9300f",
+    "date": "2026-10-12",
+    "ts": 1791799258000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012070331_57_e.jpg",
+    "title": "ผู้พัฒนา Wegovy มุ่งผลักดันยาสู่ประกันสุขภาพแห่งชาติ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204811"
+  },
+  {
+    "id": "hotnews_th_0e55876e",
+    "date": "2026-10-12",
+    "ts": 1791798164000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012070234_24_e.jpg",
+    "title": "ชาวเกาหลีใต้ 24 คนถูกจับในเนปาลข้อหาวีซ่าท่องเที่ยว",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204810"
+  },
+  {
+    "id": "hotnews_th_ce379cdf",
+    "date": "2026-10-12",
+    "ts": 1791797005000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100402340031500_P2.jpg",
+    "title": "เกาหลีเหนือยิงขีปนาวุธหลายลูกสูบทะเลขะวันออก",
+    "link": "https://en.yna.co.kr/view/AEN20261012002752315"
+  },
+  {
+    "id": "hotnews_th_fc5fd066",
+    "date": "2026-10-12",
+    "ts": 1791794473000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012060038_0_e.jpg",
+    "title": "อัตราแลกเปลี่ยนเงินวอนต่อดอลลาร์ร่วงต่ำสุดในรอบ 2 ปี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204808"
+  },
+  {
+    "id": "hotnews_th_b2d3d14b",
+    "date": "2026-10-12",
+    "ts": 1791791111000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101205910001300_P2.jpg",
+    "title": "ผู้ว่าการ BOK เผยการขึ้นดอกเบี้ยช่วยซื้อเวลาจัดการวิกฤตการเงิน",
+    "link": "https://en.yna.co.kr/view/AEN20261012002652320"
+  },
+  {
+    "id": "hotnews_th_29dbc1d7",
+    "date": "2026-10-12",
+    "ts": 1791790931000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/05/06/59/PCM20260506000059990_P2.jpg",
+    "title": "อีแจมยองเตรียมย้ายเข้าทำเนียบชอง와แดภายในปีนี้",
+    "link": "https://en.yna.co.kr/view/AEN20261012007500315"
+  },
+  {
     "id": "hotnews_th_6b111783",
     "date": "2026-10-12",
     "ts": 1791785823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/11/AEN20261011000700320_01_i_P2.jpg",
     "title": "ยอดขายสะสมของฮุนไดในอินเดียจ่อทะลุ 10 ล้านคันในปีนี้",
     "link": "https://en.yna.co.kr/view/AEN20261011000700320"
-  },
-  {
-    "id": "hotnews_th_a618c6ef",
-    "date": "2026-10-10",
-    "ts": 1791636725000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/10/781fe591-a1b3-4b43-83d2-fa75c9e58b2a.jpg",
-    "title": "คณะกรรมการสิทธิมนุษยชนแห่งชาติเกาหลีใต้จี้เลิกโทษประหารชีวิต",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261010/human-rights-watchdog-calls-for-progress-on-abolishing-death-penalty?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_383c1675",
-    "date": "2026-10-10",
-    "ts": 1791635966000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/10/PYH2026101001640005300_P2.jpg",
-    "title": "ฝ้าเพดานถล่มในอาคารเมืองแทกู บาดเจ็บ 38 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261010001351315"
-  },
-  {
-    "id": "hotnews_th_d4366de9",
-    "date": "2026-10-10",
-    "ts": 1791617495000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-p.v1.20261010.155f4309e4c843f88414c59a6b7aa6a5_T1.jpg",
-    "title": "ไปsدรย์เกาหลีเตรียมออกแสตมป์ที่ระลึก Faker",
-    "link": "https://www.koreaherald.com/article/10898251"
-  },
-  {
-    "id": "hotnews_th_0d00aa0e",
-    "date": "2026-10-10",
-    "ts": 1791616256000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/10/AEN20261010001400315_01_i_P2.jpg",
-    "title": "ฮันฮวา อีเกิลส์ ตัดสินใจไม่ต่อสัญญาผู้จัดการทีม คิม คยองมุน",
-    "link": "https://en.yna.co.kr/view/AEN20261010001400315"
-  },
-  {
-    "id": "hotnews_th_7d8e290f",
-    "date": "2026-10-10",
-    "ts": 1791615600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261007.534a73c049b04c488306aa1197fd6df9_T1.jpg",
-    "title": "งานเทศกาลจัมปงคุนซานจัดขึ้นสุดสัปดาห์นี้",
-    "link": "https://www.koreaherald.com/article/10897330"
-  },
-  {
-    "id": "hotnews_th_a665865f",
-    "date": "2026-10-10",
-    "ts": 1791615600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/10/news-a.v1.20261010.2875209b5d0343b78d34cf88ce5d968f_T1.png",
-    "title": "ชีวิตของเซกจา หญิงข้ามเพศวัย 69 ปีในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10897410"
-  },
-  {
-    "id": "hotnews_th_fac6a712",
-    "date": "2026-10-10",
-    "ts": 1791615600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261007.4a2eef1e000848c586f5a96a865790a3_T1.jpg",
-    "title": "โรงแรม Conrad Seoul ผลักดันการใช้อาหารทะเลที่ยั่งยืน",
-    "link": "https://www.koreaherald.com/article/10897332"
-  },
-  {
-    "id": "hotnews_th_235f0135",
-    "date": "2026-10-10",
-    "ts": 1791615600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/08/news-p.v1.20261008.ea797ffc478d4c669ba8f1de577507d7_T1.jpg",
-    "title": "ผู้ใช้ Netflix เกาหลี นิยมคอนเทนต์เกาหลีลดฮวบ",
-    "link": "https://www.koreaherald.com/article/10897311"
-  },
-  {
-    "id": "hotnews_th_3a137e5a",
-    "date": "2026-10-10",
-    "ts": 1791613627000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930090525_56_k.jpg",
-    "title": "กรมอุตุนิยมวิทยาเกาหลีเผยฝนตกต่อเนื่องที่เกาะเชจู",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204774"
-  },
-  {
-    "id": "hotnews_th_943a3f7a",
-    "date": "2026-10-10",
-    "ts": 1791612723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/10/74da3f1a-23b8-4d43-83aa-972a97eca5ce.jpeg",
-    "title": "ศาลเกาหลีใต้ชี้โทษจำคุกในสหรัฐฯ ใช้ยกเว้นเกณฑ์ทหารได้",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261010/us-prison-term-counts-toward-korean-military-exemption-court-rules?utm_source=rss"
   }
 ]
