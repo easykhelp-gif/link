@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_1f6c9896",
+    "date": "2026-10-13",
+    "ts": 1791932400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/13/news-p.v1.20261013.f7c097bb3c4e4b17b7ce4fa8a8f8e362_T1.png",
+    "title": "Son Ho-young lo ngại K-pop ngày càng quá hoàn hảo",
+    "link": "https://www.koreaherald.com/article/10901122"
+  },
+  {
+    "id": "hotnews_vi_a1f309af",
+    "date": "2026-10-13",
+    "ts": 1791932400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/13/news-p.v1.20261013.78692699312346e2a2817fabedf14bb6_T1.gif",
+    "title": "6 trong 10 người sống một mình tại Hàn Quốc cảm thấy cô đơn",
+    "link": "https://www.koreaherald.com/article/10901448"
+  },
+  {
+    "id": "hotnews_vi_769ea009",
+    "date": "2026-10-13",
+    "ts": 1791932223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/7bf430c9-da98-4730-88cd-c78512802f02.jpeg",
+    "title": "Đào tẩu thắng kiện Kim Jong-un, quyết tâm đòi công lý",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261014/defector-who-won-37210-from-kim-jong-un-in-lawsuit-vows-to-fight-on?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e470d817",
+    "date": "2026-10-13",
+    "ts": 1791928550000,
+    "image": "",
+    "title": "Hợp tác tình báo giữa Hàn Quốc và Mỹ đối mặt thử thách",
+    "link": "https://en.yna.co.kr/view/AEN20261014000900315"
+  },
+  {
+    "id": "hotnews_vi_2968f763",
+    "date": "2026-10-13",
+    "ts": 1791928540000,
+    "image": "",
+    "title": "Bộ trưởng Thống nhất Hàn Quốc gây tranh cãi lớn",
+    "link": "https://en.yna.co.kr/view/AEN20261014000800315"
+  },
+  {
+    "id": "hotnews_vi_2e8b3397",
+    "date": "2026-10-13",
+    "ts": 1791928532000,
+    "image": "",
+    "title": "Ô tô Trung Quốc tràn vào Hàn Quốc gây áp lực lớn",
+    "link": "https://en.yna.co.kr/view/AEN20261014000700315"
+  },
+  {
+    "id": "hotnews_vi_ab86454f",
+    "date": "2026-10-13",
+    "ts": 1791923401000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/13/news-p.v1.20261013.1dd5c32cf17b4baabf176fbe10ebda78_T1.jpg",
+    "title": "Bí quyết trở thành người thu hút thay vì đáng ghét",
+    "link": "https://www.koreaherald.com/article/10901406"
+  },
+  {
     "id": "hotnews_vi_26512fb4",
     "date": "2026-10-13",
     "ts": 1791902823000,
@@ -40,12 +96,36 @@
     "link": "https://en.yna.co.kr/view/AEN20261013011000320"
   },
   {
+    "id": "hotnews_vi_e1ea875c",
+    "date": "2026-10-13",
+    "ts": 1791888304000,
+    "image": "https://img.yna.co.kr/photo/cms/2017/12/27/05/C0A8CA3D0000016097EF5C2D0001B4D7_P2.jpeg",
+    "title": "Hàn Quốc viện trợ nhân đạo 300.000 USD cho Panama",
+    "link": "https://en.yna.co.kr/view/AEN20261013010900315"
+  },
+  {
+    "id": "hotnews_vi_63cf3b41",
+    "date": "2026-10-13",
+    "ts": 1791885052000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013008251315_03_i_P2.jpg",
+    "title": "Vụ tấn công bằng dao ở Incheon: 1 người ngừng tim, 7 bị thương",
+    "link": "https://en.yna.co.kr/view/AEN20261013008251315"
+  },
+  {
     "id": "hotnews_vi_8632ee50",
     "date": "2026-10-13",
     "ts": 1791883093000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013010700320_02_i_P2.jpg",
     "title": "Chủ tịch Samsung Lee Jae-yong nhận cổ phiếu từ mẹ",
     "link": "https://en.yna.co.kr/view/AEN20261013010700320"
+  },
+  {
+    "id": "hotnews_vi_e330aefb",
+    "date": "2026-10-13",
+    "ts": 1791882868000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/13/rcv.YNA.20261013.PYH2026101312160001300_T1.jpg",
+    "title": "Chính phủ Hàn Quốc thắng kiện thu hồi tài sản thân Nhật",
+    "link": "https://www.koreaherald.com/article/10901477"
   },
   {
     "id": "hotnews_vi_11262502",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/rcv.YNA.20261012.PRU20261012005001009_T1.jpg",
     "title": "139 di dân thiệt mạng sau khi lật thuyền ngoài khơi Djibouti",
     "link": "https://www.koreaherald.com/article/10899558"
-  },
-  {
-    "id": "hotnews_vi_e80e05d5",
-    "date": "2026-10-11",
-    "ts": 1791757023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/a22d4758-820a-436f-acb8-afe7a512196c.jpg",
-    "title": "Đại học Quốc gia Chungbuk thu hút 1.800 sinh viên quốc tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261012/chungbuk-natl-universitys-ai-business-programs-draw-1800-intl-students?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_8d4ab081",
-    "date": "2026-10-11",
-    "ts": 1791757023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/05/e08a0de4-e89e-4195-afbb-b3bece056064.jpeg",
-    "title": "Vì sao nhiều người Hàn Quốc tìm đến đạo Hồi?",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261012/why-some-koreans-look-beyond-their-culture-to-islam?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_45a4caaa",
-    "date": "2026-10-11",
-    "ts": 1791757023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/72d57169-8f3f-4060-941f-a309e327be36.jpeg",
-    "title": "4 điểm đi dạo ngắm cảnh thu tại Gyeongsang Nam",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261012/best-spots-for-autumn-stroll-4-destinations-in-south-gyeongsang-province?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_58ba8688",
-    "date": "2026-10-11",
-    "ts": 1791757023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/09/94b20bf1-a0ac-4168-8269-7c5243e3dae0.jpeg",
-    "title": "Gấu trúc đỏ sinh đôi đầu tiên tại Seoul Grand Park ra mắt",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261012/seoul-grand-park-to-unveil-twin-baby-red-pandas?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0a4dd9db",
-    "date": "2026-10-11",
-    "ts": 1791756436000,
-    "image": "",
-    "title": "Tổng thống Lee Jae Myung mở rộng giao tiếp mạng xã hội",
-    "link": "https://en.yna.co.kr/view/AEN20261012000600315"
-  },
-  {
-    "id": "hotnews_vi_9429491a",
-    "date": "2026-10-11",
-    "ts": 1791756427000,
-    "image": "",
-    "title": "Seoul và Kyiv cần đối thoại giải quyết căng thẳng ngoại giao",
-    "link": "https://en.yna.co.kr/view/AEN20261012000500315"
-  },
-  {
-    "id": "hotnews_vi_0998b46a",
-    "date": "2026-10-11",
-    "ts": 1791756418000,
-    "image": "",
-    "title": "Quan hệ tình báo Hàn-Mỹ gặp sóng gió",
-    "link": "https://en.yna.co.kr/view/AEN20261012000400315"
-  },
-  {
-    "id": "hotnews_vi_ecb93976",
-    "date": "2026-10-11",
-    "ts": 1791756401000,
-    "image": "",
-    "title": "Tiêu đề chính trên các tờ báo lớn Hàn Quốc ngày 12 tháng 10",
-    "link": "https://en.yna.co.kr/view/AEN20261012000300315"
-  },
-  {
-    "id": "hotnews_vi_fd953091",
-    "date": "2026-10-11",
-    "ts": 1791750600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.812b7408b1104b8b8891f7ebad9ab3b0_T1.jpg",
-    "title": "Quỹ Tương Lai của chính phủ Hàn Quốc còn nhiều bất cập",
-    "link": "https://www.koreaherald.com/article/10898657"
-  },
-  {
-    "id": "hotnews_vi_75cf3691",
-    "date": "2026-10-11",
-    "ts": 1791750600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.dc3f0e5367cf49a6bfc5e06f956f27ad_T1.jpg",
-    "title": "Nâng cao năng lực răn đe và phòng thủ tại khu vực DMZ",
-    "link": "https://www.koreaherald.com/article/10898653"
   }
 ]
