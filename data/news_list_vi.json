@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_26512fb4",
+    "date": "2026-10-13",
+    "ts": 1791902823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/23605fb7-1a31-4a66-8a88-16ed49cd4363.jpeg",
+    "title": "Nền tảng học thuật ảnh hưởng đến cách giải quyết vấn đề của sinh viên",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261013/study-links-academic-backgrounds-to-problem-solving-pathways?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_7842b2f2",
+    "date": "2026-10-13",
+    "ts": 1791902823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/4e6ac8c4-7ccc-47e9-98b0-44fa3c12a566.jpg",
+    "title": "Tỉnh Gyeonggi đối mặt khủng hoảng ngân sách và nợ công",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261013/cover-story-why-gyeonggi-province-is-under-financial-strain?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e47cc882",
+    "date": "2026-10-13",
+    "ts": 1791902823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/c00eac88-cd78-46d8-96c0-9c98f4fa71b5.jpeg",
+    "title": "Tổng thống Lee Jae Myung yêu cầu làm rõ tin giả về trứng nhập khẩu Brazil",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261013/president-urges-firm-response-to-false-claims-about-brazilian-egg-imports?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1795e250",
+    "date": "2026-10-13",
+    "ts": 1791898469000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101318210006500_P2.jpg",
+    "title": "Vụ tấn công bằng dao tại Incheon khiến 8 người bị thương",
+    "link": "https://en.yna.co.kr/view/AEN20261013008252315"
+  },
+  {
+    "id": "hotnews_vi_a8747ff7",
+    "date": "2026-10-13",
+    "ts": 1791888395000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013011000320_01_i_P2.jpg",
+    "title": "Hàn Quốc tiếp tục yêu cầu Ukraine xin lỗi vụ tù binh Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261013011000320"
+  },
+  {
+    "id": "hotnews_vi_8632ee50",
+    "date": "2026-10-13",
+    "ts": 1791883093000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013010700320_02_i_P2.jpg",
+    "title": "Chủ tịch Samsung Lee Jae-yong nhận cổ phiếu từ mẹ",
+    "link": "https://en.yna.co.kr/view/AEN20261013010700320"
+  },
+  {
+    "id": "hotnews_vi_11262502",
+    "date": "2026-10-13",
+    "ts": 1791882267000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013010500315_01_i_P2.jpg",
+    "title": "Phủ Tổng thống lập nhóm chuẩn bị khả năng đánh golf với Trump",
+    "link": "https://en.yna.co.kr/view/AEN20261013010500315"
+  },
+  {
+    "id": "hotnews_vi_bbb0d1b3",
+    "date": "2026-10-13",
+    "ts": 1791880907000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261013070250_69_e.jpg",
+    "title": "Dự báo thời tiết thứ Tư: Gió mạnh và sáng sớm trời lạnh",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204836"
+  },
+  {
+    "id": "hotnews_vi_e5ade65f",
+    "date": "2026-10-13",
+    "ts": 1791878886000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013009400315_03_i_P2.jpg",
+    "title": "Hàn Quốc phát triển tuyến đường biển Bắc Cực tuân thủ quốc tế",
+    "link": "https://en.yna.co.kr/view/AEN20261013009400315"
+  },
+  {
+    "id": "hotnews_vi_544a0d0c",
+    "date": "2026-10-13",
+    "ts": 1791876967000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101316340001300_P2.jpg",
+    "title": "Chứng khoán Seoul giảm mạnh hơn 5% do cổ phiếu công nghệ",
+    "link": "https://en.yna.co.kr/view/AEN20261013007552320"
+  },
+  {
     "id": "hotnews_vi_e015f47e",
     "date": "2026-10-13",
     "ts": 1791852723000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.dc3f0e5367cf49a6bfc5e06f956f27ad_T1.jpg",
     "title": "Nâng cao năng lực răn đe và phòng thủ tại khu vực DMZ",
     "link": "https://www.koreaherald.com/article/10898653"
-  },
-  {
-    "id": "hotnews_vi_a8ae81fa",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/dde9218b-51c8-4834-9e5f-1611e7ff5d3c.jpg",
-    "title": "Văn Xá Đài chủ động tiết lộ lịch chơi golf của Tổng thống Lee",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261011/cheong-wa-dae-makes-rare-disclosure-of-lees-golf-outing-ahead-of-opposition-attack?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_3e3660f3",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/5daa423d-e5e4-4e50-a908-5ff5346e6ea7.jpg",
-    "title": "Hàn-Mỹ khó sớm giải quyết bất đồng chia sẻ tình báo",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261011/experts-see-no-quick-fix-for-korea-us-intelligence-rift?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0105d9ee",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/51e5a2a3-a48b-4de8-b860-a7d4f53fcfbc.jpg",
-    "title": "70% người lao động ôm việc thay đồng nghỉ thai sản không được trả thêm lương",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261011/7-in-10-workers-get-no-extra-pay-for-covering-parental-leave-survey?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_58c39912",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/bc8247a0-a0a6-40a8-a7ae-1e4e83d7ddb8.jpg",
-    "title": "Vai trò của Hàn Quốc trong bộ tư lệnh kết hợp sẽ tăng",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261011/koreas-role-in-combined-command-set-to-grow-after-opcon-transfer?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_546c16d2",
-    "date": "2026-10-11",
-    "ts": 1791723703000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6254136b48804e23af99ca6a3126505f_T1.jpg",
-    "title": "Cảnh sát Ba Lan cảnh báo âm mưu tấn công Thủ tướng",
-    "link": "https://www.koreaherald.com/article/10898753"
-  },
-  {
-    "id": "hotnews_vi_b64c53ed",
-    "date": "2026-10-11",
-    "ts": 1791719905000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/11/PAP20261011225801009_P2.jpg",
-    "title": "Hàn Quốc khuyến cáo công dân rời khỏi Saudi Arabia",
-    "link": "https://en.yna.co.kr/view/AEN20261011002900315"
-  },
-  {
-    "id": "hotnews_vi_8ec2bf85",
-    "date": "2026-10-11",
-    "ts": 1791719648000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.ee3b297bcddc42998ec6f0a003b07896_T1.jpg",
-    "title": "Lỗ hổng bảo vệ nạn nhân bạo lực gia đình ở Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10898739"
-  },
-  {
-    "id": "hotnews_vi_d48d2dd5",
-    "date": "2026-10-11",
-    "ts": 1791716866000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.d5d967370f644e7eb8d613a46d749f0f_T1.jpg",
-    "title": "Giáo hoàng Leo XIV sắp phẫu thuật phổi trong tuần này",
-    "link": "https://www.koreaherald.com/article/10898726"
-  },
-  {
-    "id": "hotnews_vi_02516e04",
-    "date": "2026-10-11",
-    "ts": 1791715767000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6fba9fcfcc274409b536162a6cea3202_T1.jpg",
-    "title": "Tổng thống Lee cảnh báo ưu đãi điện hạt nhân cho doanh nghiệp lớn",
-    "link": "https://www.koreaherald.com/article/10898724"
-  },
-  {
-    "id": "hotnews_vi_722ffd03",
-    "date": "2026-10-11",
-    "ts": 1791698823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/96582407-ba47-4fd2-9d0a-dbba703eefa7.jpeg",
-    "title": "4 bài báo của giáo sư HUFS được nhận vào 3 hội nghị AI lớn",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/4-papers-co-authored-by-hankuk-university-of-foreign-studies-professor-accepted-in-3-ai-conferences?utm_source=rss"
   }
 ]

@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_f503cecc",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/a5a0c2ea-cf52-4125-89c6-e468f454d36a.jpeg",
+    "title": "พิพิธภัณฑ์กรุงโซลนำป้ายเทศกาลมาทำเป็นกระเป๋าและซองใส่บัตร",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261013/seoul-museum-gives-discarded-festival-banners-second-life-as-designer-accessories?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_26512fb4",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/23605fb7-1a31-4a66-8a88-16ed49cd4363.jpeg",
+    "title": "มหาวิทยาลัยเซจงเผยผลวิจัย วิธีแก้โจทย์ปัญหาขึ้นอยู่กับพื้นฐานการศึกษา",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261013/study-links-academic-backgrounds-to-problem-solving-pathways?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7842b2f2",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/4e6ac8c4-7ccc-47e9-98b0-44fa3c12a566.jpg",
+    "title": "จ.คยองกีเร่งแก้ปัญหาวิกฤตงบประมาณ หลังรายได้ภาษีลดลง",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261013/cover-story-why-gyeonggi-province-is-under-financial-strain?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8812da59",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/c7ab4f74-9e23-48f4-b686-06cf56fe21bc.jpg",
+    "title": "รัฐบาลเกาหลีย้าย 44 หน่วยงานไปเมืองเซจงภายในปี 2031",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261013/foreign-unification-defense-ministries-to-relocate-to-sejong-by-2031?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f9799cb6",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/aa4fec57-002b-4d26-8212-d61a1d7ebc45.jpeg",
+    "title": "ศูนย์บ่มเพาะธุรกิจมหาวิทยาลัย Jeonbuk ช่วยสตาร์ทอัพไทยเข้าสู่ตลาดโลก",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261013/business-incubation-center-helps-local-startups-enter-global-markets?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e47cc882",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/c00eac88-cd78-46d8-96c0-9c98f4fa71b5.jpeg",
+    "title": "ประธานาธิบดีอีแจมยองสั่งจัดการข้อมูลเท็จเรื่องการนำเข้าไข่จากบราซิล",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261013/president-urges-firm-response-to-false-claims-about-brazilian-egg-imports?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_6b16ec2e",
+    "date": "2026-10-13",
+    "ts": 1791902223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/13/b4680108-0773-413f-a863-10a5259d542e.jpeg",
+    "title": "เมืองปูซานเตรียมมาตรการป้องกันฉลาม หลังฉลาม \"บูกันจี\" ยังอาศัยอยู่ในคลอง",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261013/busan-to-devise-measures-to-keep-sharks-at-bay-amid-bukangi-visit?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_1795e250",
+    "date": "2026-10-13",
+    "ts": 1791898469000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101318210006500_P2.jpg",
+    "title": "เกิดเหตุคนร้ายใช้มีดแทงคนในห้างสรรพสินค้าที่อินชอน บาดเจ็บ 8 ราย",
+    "link": "https://en.yna.co.kr/view/AEN20261013008252315"
+  },
+  {
+    "id": "hotnews_th_e1ea875c",
+    "date": "2026-10-13",
+    "ts": 1791888304000,
+    "image": "https://img.yna.co.kr/photo/cms/2017/12/27/05/C0A8CA3D0000016097EF5C2D0001B4D7_P2.jpeg",
+    "title": "เกาหลีใต้เตรียมมอบเงินช่วยเหลือ 3 แสนดอลลาร์แก่ปานามาหลังเกิดแผ่นดินไหว",
+    "link": "https://en.yna.co.kr/view/AEN20261013010900315"
+  },
+  {
+    "id": "hotnews_th_544a0d0c",
+    "date": "2026-10-13",
+    "ts": 1791876967000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101316340001300_P2.jpg",
+    "title": "ตลาดหุ้นโซลร่วงหนักกว่า 5% เซ่นพิษหุ้นเทคโนโลยีและเงินเฟ้อ",
+    "link": "https://en.yna.co.kr/view/AEN20261013007552320"
+  },
+  {
     "id": "hotnews_th_e015f47e",
     "date": "2026-10-13",
     "ts": 1791852723000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.dc3f0e5367cf49a6bfc5e06f956f27ad_T1.jpg",
     "title": "อดีตทหารผ่านศึกชี้เกาหลีใต้ต้องสร้างความมั่นใจในการป้องปรามที่ DMZ",
     "link": "https://www.koreaherald.com/article/10898653"
-  },
-  {
-    "id": "hotnews_th_a8ae81fa",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/dde9218b-51c8-4834-9e5f-1611e7ff5d3c.jpg",
-    "title": "ทำเนียบประธานาธิบดีเกาหลีเปิดเผยกำหนดการกอล์ฟของอีแจมยอง",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261011/cheong-wa-dae-makes-rare-disclosure-of-lees-golf-outing-ahead-of-opposition-attack?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_3e3660f3",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/5daa423d-e5e4-4e50-a908-5ff5346e6ea7.jpg",
-    "title": "ผู้เชี่ยวชาญมองปัญหากรณีข่าวกรองเกาหลีใต้-สหรัฐฯ ยังไม่คลี่คลายเร็วๆ นี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261011/experts-see-no-quick-fix-for-korea-us-intelligence-rift?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_0105d9ee",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/51e5a2a3-a48b-4de8-b860-a7d4f53fcfbc.jpg",
-    "title": "ผลสำรวจชี้ลูกจ้างเกาหลี 7 ใน 10 ไม่ได้ค่าจ้างเพิ่มเมื่อทำงานแทนเพื่อนร่วมงานที่ลาคลอด",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261011/7-in-10-workers-get-no-extra-pay-for-covering-parental-leave-survey?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_58c39912",
-    "date": "2026-10-11",
-    "ts": 1791724324000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/bc8247a0-a0a6-40a8-a7ae-1e4e83d7ddb8.jpg",
-    "title": "บทบาทเกาหลีใต้ในบัญชาการรบผสมจะเพิ่มขึ้นหลังโอนย้าย OPCON",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261011/koreas-role-in-combined-command-set-to-grow-after-opcon-transfer?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_546c16d2",
-    "date": "2026-10-11",
-    "ts": 1791723703000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6254136b48804e23af99ca6a3126505f_T1.jpg",
-    "title": "ตำรวจโปแลนด์เตือนแผนลอบสังบ์นายกฯ โดนัลด์ ทัสก์",
-    "link": "https://www.koreaherald.com/article/10898753"
-  },
-  {
-    "id": "hotnews_th_b64c53ed",
-    "date": "2026-10-11",
-    "ts": 1791719905000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/11/PAP20261011225801009_P2.jpg",
-    "title": "เกาหลีใต้เตือนพลเมืองออกจากซาอุดีอาระเบียหลังกลุ่มฮูตีโจมตี",
-    "link": "https://en.yna.co.kr/view/AEN20261011002900315"
-  },
-  {
-    "id": "hotnews_th_8ec2bf85",
-    "date": "2026-10-11",
-    "ts": 1791719648000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.ee3b297bcddc42998ec6f0a003b07896_T1.jpg",
-    "title": "ช่องโหว่ระบบคุ้มครองเหยื่อความรุนแรงในครอบครัวของเกาหลี",
-    "link": "https://www.koreaherald.com/article/10898739"
-  },
-  {
-    "id": "hotnews_th_d48d2dd5",
-    "date": "2026-10-11",
-    "ts": 1791716866000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.d5d967370f644e7eb8d613a46d749f0f_T1.jpg",
-    "title": "โฆษกวาติกันเผย โป๊ปเลโอที่ 14 เตรียมผ่าตัดปอดสัปดาห์นี้",
-    "link": "https://www.koreaherald.com/article/10898726"
-  },
-  {
-    "id": "hotnews_th_02516e04",
-    "date": "2026-10-11",
-    "ts": 1791715767000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/11/news-p.v1.20261011.6fba9fcfcc274409b536162a6cea3202_T1.jpg",
-    "title": "อีแจมยองเตือนอย่าให้บริษัทใหญ่ใช้ไฟฟ้านิวเคลียร์ราคาถูกพิเศษ",
-    "link": "https://www.koreaherald.com/article/10898724"
-  },
-  {
-    "id": "hotnews_th_722ffd03",
-    "date": "2026-10-11",
-    "ts": 1791698823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/96582407-ba47-4fd2-9d0a-dbba703eefa7.jpeg",
-    "title": "4 บทความของศาสตราจารย์ HUFS ได้รับเลือกใน 3 งานประชุม AI ชั้นนำ",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261011/4-papers-co-authored-by-hankuk-university-of-foreign-studies-professor-accepted-in-3-ai-conferences?utm_source=rss"
   }
 ]
