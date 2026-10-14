@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_th_25b2fb43",
+    "date": "2026-10-14",
+    "ts": 1792014724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/9681aa0d-5fae-444a-aaeb-e0dc24befbba.jpeg",
+    "title": "งานเทศกาลศิลปะอินดี้ผู้อพยพครั้งที่ 15 เริ่มเสาร์นี้ถึง 25 ต.ค.",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261015/migrant-indie-art-festival-seeks-artistic-independence-with-declaration-of-freedom?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_cd37d601",
+    "date": "2026-10-14",
+    "ts": 1792012918000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2024/01/29/PYH2024012912610004200_P2.jpg",
+    "title": "เกาหลีเหนือทดสอบขีปนาวุธร่อนยิงจากเรือดำน้ำ 2 ชนิด",
+    "link": "https://en.yna.co.kr/view/AEN20261015000700315"
+  },
+  {
+    "id": "hotnews_th_7cf1e6df",
+    "date": "2026-10-14",
+    "ts": 1792009942000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015000400315_01_i_P2.jpg",
+    "title": "ทรัมป์อ้างเกาหลีใต้จะลงทุน 5 หมื่นล้านดอลลาร์ในโครงการก๊าซแบลก้า",
+    "link": "https://en.yna.co.kr/view/AEN20261015000400315"
+  },
+  {
+    "id": "hotnews_th_6d7acfd1",
+    "date": "2026-10-14",
+    "ts": 1792009806000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261012.91a82eac3b394fe9a00fcc930eb9eea6_T1.jpg",
+    "title": "ออัตราดอกเบี้ยระยะยาวทั่วโลกพุ่งสูงขึ้นและปริศนาที่กลับตาลปัตร",
+    "link": "https://www.koreaherald.com/article/10902751"
+  },
+  {
+    "id": "hotnews_th_21338593",
+    "date": "2026-10-14",
+    "ts": 1792009805000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261014.fcf90b4b3b6a4a8794ccd82e36ebaf1b_T1.jpg",
+    "title": "เจ้าหน้าที่สหรัฐฯ วิจารณ์ความร่วมมือข่าวกรอง สร้างความกังวลในเกาหลีใต้",
+    "link": "https://www.koreaherald.com/article/10902745"
+  },
+  {
+    "id": "hotnews_th_9e39b09a",
+    "date": "2026-10-14",
+    "ts": 1792005462000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015000300315_01_i_P2.jpg",
+    "title": "ผบ.กองกำลังสหรัฐในเกาหลีระบุเงื่อนไขโอนย้าย OPCON เปลี่ยนไปแล้ว",
+    "link": "https://en.yna.co.kr/view/AEN20261015000300315"
+  },
+  {
+    "id": "hotnews_th_f18bb625",
+    "date": "2026-10-14",
+    "ts": 1792000328000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015000200315_01_i_P2.jpg",
+    "title": "เกาหลีเหนืออาจยกระดับโดรนผ่านคนงานในรัสเซีย",
+    "link": "https://en.yna.co.kr/view/AEN20261015000200315"
+  },
+  {
+    "id": "hotnews_th_879e18a7",
+    "date": "2026-10-14",
+    "ts": 1791985188000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101424920001300_P2.jpg",
+    "title": "คาร์ราสโกพาทีม LG Twins ชนะ Doosan Bears รอบเพลย์ออฟ KBO",
+    "link": "https://en.yna.co.kr/view/AEN20261014010300315"
+  },
+  {
     "id": "hotnews_th_43bc754b",
     "date": "2026-10-14",
     "ts": 1791985013000,
@@ -110,6 +174,22 @@
     "image": "https://img.yna.co.kr/photo/cms/2026/10/14/09/PCM20261014000009990_P2.jpg",
     "title": "เกาหลีใต้และสหรัฐฯ จ่อเลื่อนประชุม SCM หลังเลือกตั้งกลางเทอมสหรัฐฯ",
     "link": "https://en.yna.co.kr/view/AEN20261014003651315"
+  },
+  {
+    "id": "hotnews_th_34e8df4d",
+    "date": "2026-10-14",
+    "ts": 1791972895000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261008094830_14_k.jpg",
+    "title": "ยา 1 เดือนของฮันมิราคาถูกกว่าเมาจาโรครึ่งหนึ่ง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204869"
+  },
+  {
+    "id": "hotnews_th_05e06bb7",
+    "date": "2026-10-14",
+    "ts": 1791972740000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014071247_51_e.jpg",
+    "title": "ปธ.อี เน้นย้ำปรับนโยบายประชากรเน้นการเติบโตเชิงคุณภาพ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204868"
   },
   {
     "id": "hotnews_th_a260b048",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/13/b4680108-0773-413f-a863-10a5259d542e.jpeg",
     "title": "เมืองปูซานเตรียมมาตรการป้องกันฉลาม หลังฉลาม \"บูกันจี\" ยังอาศัยอยู่ในคลอง",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261013/busan-to-devise-measures-to-keep-sharks-at-bay-amid-bukangi-visit?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1795e250",
-    "date": "2026-10-13",
-    "ts": 1791898469000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101318210006500_P2.jpg",
-    "title": "เกิดเหตุคนร้ายใช้มีดแทงคนในห้างสรรพสินค้าที่อินชอน บาดเจ็บ 8 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261013008252315"
-  },
-  {
-    "id": "hotnews_th_a8747ff7",
-    "date": "2026-10-13",
-    "ts": 1791888395000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013011000320_01_i_P2.jpg",
-    "title": "เกาหลียังจี้เคียฟขอโทษปมเผยตัวเชลยเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20261013011000320"
-  },
-  {
-    "id": "hotnews_th_e1ea875c",
-    "date": "2026-10-13",
-    "ts": 1791888304000,
-    "image": "https://img.yna.co.kr/photo/cms/2017/12/27/05/C0A8CA3D0000016097EF5C2D0001B4D7_P2.jpeg",
-    "title": "เกาหลีใต้เตรียมมอบเงินช่วยเหลือ 3 แสนดอลลาร์แก่ปานามาหลังเกิดแผ่นดินไหว",
-    "link": "https://en.yna.co.kr/view/AEN20261013010900315"
-  },
-  {
-    "id": "hotnews_th_63cf3b41",
-    "date": "2026-10-13",
-    "ts": 1791885052000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013008251315_03_i_P2.jpg",
-    "title": "เกิดเหตุแทงกันที่อินชอน มีผู้บาดเจ็บ 8 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261013008251315"
-  },
-  {
-    "id": "hotnews_th_8632ee50",
-    "date": "2026-10-13",
-    "ts": 1791883093000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013010700320_02_i_P2.jpg",
-    "title": "ประธาน Samsung อีแจยอง เตรียมรับหุ้นมูลค่า 2.6 ล้านล้านวอนจากแม่",
-    "link": "https://en.yna.co.kr/view/AEN20261013010700320"
-  },
-  {
-    "id": "hotnews_th_e330aefb",
-    "date": "2026-10-13",
-    "ts": 1791882868000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/13/rcv.YNA.20261013.PYH2026101312160001300_T1.jpg",
-    "title": "รัฐบาลเกาหลีชนะคดีเรียกคืนทรัพย์สินผู้ร่วมมือกับญี่ปุ่น",
-    "link": "https://www.koreaherald.com/article/10901477"
-  },
-  {
-    "id": "hotnews_th_11262502",
-    "date": "2026-10-13",
-    "ts": 1791882267000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013010500315_01_i_P2.jpg",
-    "title": "ทำเนียบประธานาธิบดีตั้งทีมเตรียมศึกษากลัฟระหว่างอีแจมยองกับทรัมป์",
-    "link": "https://en.yna.co.kr/view/AEN20261013010500315"
-  },
-  {
-    "id": "hotnews_th_bbb0d1b3",
-    "date": "2026-10-13",
-    "ts": 1791880907000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261013070250_69_e.jpg",
-    "title": "พยากรณ์อากาศวันพุธ ลมแรงและอากาศเย็นในตอนเช้า",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204836"
-  },
-  {
-    "id": "hotnews_th_e5ade65f",
-    "date": "2026-10-13",
-    "ts": 1791878886000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/13/AEN20261013009400315_03_i_P2.jpg",
-    "title": "ลีแจมยองย้ำพัฒนาเส้นทางอาร์กติกใต้กฎคว่ำบาตร",
-    "link": "https://en.yna.co.kr/view/AEN20261013009400315"
-  },
-  {
-    "id": "hotnews_th_544a0d0c",
-    "date": "2026-10-13",
-    "ts": 1791876967000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101316340001300_P2.jpg",
-    "title": "ตลาดหุ้นโซลร่วงหนักกว่า 5% เซ่นพิษหุ้นเทคโนโลยีและเงินเฟ้อ",
-    "link": "https://en.yna.co.kr/view/AEN20261013007552320"
   }
 ]
