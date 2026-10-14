@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_e4f5be99",
+    "date": "2026-10-14",
+    "ts": 1791954810000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261013.b06060e8564e4591baa00aad054e91ad_T1.jpg",
+    "title": "ไอดอล K-pop ครองจอซีรีส์เกาหลี ทำนักแสดงหน้าใหม่เสี่ยงไร้ที่ยืน",
+    "link": "https://www.koreaherald.com/article/10902402"
+  },
+  {
+    "id": "hotnews_th_c758341c",
+    "date": "2026-10-14",
+    "ts": 1791954724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/8d795796-356c-4d6d-babc-4245bac14dfe.jpg",
+    "title": "ประธานาธิบดีอีแจมยองแต่งตั้งหัวหน้ากรมสรรพากรเป็นเลขาธิการ",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261014/lee-names-national-tax-service-chief-as-new-chief-of-staff?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_d80cfbf2",
+    "date": "2026-10-14",
+    "ts": 1791954724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/ec300c9c-d83b-4cf6-8744-70ddb4b9cb84.jpeg",
+    "title": "นศ. ม.แห่งชาติชุงนัมบริจาคเงินรายได้จากงานเทศกาล",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261014/chungnam-national-university-students-donate-merchandise-sales-proceeds-to-university-fund?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_8a0465ad",
+    "date": "2026-10-14",
+    "ts": 1791954724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/09333270-7173-4b37-87c7-fd1b90011afc.jpeg",
+    "title": "นักวิจัยความปลอดภัยไซเบอร์เกาหลีใต้โดนลงโทษแอบเล่น StarCraft ในเวลางาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261014/cybersecurity-researchers-disciplined-for-playing-starcraft-during-work-hours?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7ef0d2d4",
+    "date": "2026-10-14",
+    "ts": 1791954724000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/841cb447-bc01-4c5f-a53e-a0cfdf53ae26.jpeg",
+    "title": "เกาหลีใต้เตรียมสร้างสนามโดมใหม่เพื่อกีฬาและคอนเสิร์ต K-pop",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261014/korea-eyes-new-dome-stadiums-for-sports-k-pop-concerts?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_59f43ab8",
+    "date": "2026-10-14",
+    "ts": 1791947656000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014005000315_01_i_P2.jpg",
+    "title": "เกิดเหตุไฟไหม้บริษัทเคมีในอุลซาน คนงาน 7,000 คนต้องอพยพ",
+    "link": "https://en.yna.co.kr/view/AEN20261014005000315"
+  },
+  {
+    "id": "hotnews_th_13ec79f6",
+    "date": "2026-10-14",
+    "ts": 1791944456000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014123422_47_e.jpg",
+    "title": "'Doctor X' ขึ้นอันดับหนึ่งชาร์ตซีรีส์ Netflix",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204847"
+  },
+  {
+    "id": "hotnews_th_d30b1d88",
+    "date": "2026-10-14",
+    "ts": 1791943733000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "เปิดสะพานข้ามพรมแดนใหม่ระหว่างเกาหลีเหนือและจีนในวันพฤหัสบดีนี้",
+    "link": "https://en.yna.co.kr/view/AEN20261014004300315"
+  },
+  {
+    "id": "hotnews_th_12f73c1a",
+    "date": "2026-10-14",
+    "ts": 1791943593000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014110810_46_e.jpg",
+    "title": "ผู้เสนอชื่อหัวหน้าหน่วยงานอาชญากรรมใหม่สัญญาความเป็นกลาง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204846"
+  },
+  {
+    "id": "hotnews_th_a129c988",
+    "date": "2026-10-14",
+    "ts": 1791943061000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014003700315_01_i_P2.jpg",
+    "title": "เพลง Dracula ของ เจนนี่ พุ่งกลับสู่อันดับ 6 ชาร์ต Billboard Hot 100",
+    "link": "https://en.yna.co.kr/view/AEN20261014003700315"
+  },
+  {
     "id": "hotnews_th_1f6c9896",
     "date": "2026-10-13",
     "ts": 1791932400000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2026/05/06/59/PCM20260506000059990_P2.jpg",
     "title": "อีแจมยองเตรียมย้ายเข้าทำเนียบชอง와แดภายในปีนี้",
     "link": "https://en.yna.co.kr/view/AEN20261012007500315"
-  },
-  {
-    "id": "hotnews_th_6b111783",
-    "date": "2026-10-12",
-    "ts": 1791785823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/11/77944745-7d86-4f6c-bd97-a9c7e96bd61e.jpeg",
-    "title": "วัยรุ่นปูซานทำสัตว์ป่าในเมืองกลายเป็นกระแสไวรัลโด่งดัง",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261012/from-sharks-to-otters-how-busans-gen-z-is-turning-urban-wildlife-into-viral-sensations?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_acd6e583",
-    "date": "2026-10-12",
-    "ts": 1791785823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/12/1a52c334-ee74-4287-8884-da08d284dda2.jpg",
-    "title": "ชาวต่างชาติในเกาหลีใต้ตกเป็นผู้ต้องสงสัยคดีรุนแรงเพิ่มขึ้น",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261012/foreign-suspects-in-violent-crimes-up-12-in-5-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_13b159eb",
-    "date": "2026-10-12",
-    "ts": 1791784614000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.693068fac6084e15a70554c721e551d9_T1.jpg",
-    "title": "Kakao Bank เปิดบริการเต็มรูปแบบให้ชาวต่างชาติในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10899769"
-  },
-  {
-    "id": "hotnews_th_780d4501",
-    "date": "2026-10-12",
-    "ts": 1791783725000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012025146_98_e.jpg",
-    "title": "ส,เกาหลีเผชิญหน้ากันด้วยศักยภาพขีปนาวุธ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204797"
-  },
-  {
-    "id": "hotnews_th_2b4996dc",
-    "date": "2026-10-12",
-    "ts": 1791782952000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.f83307aa55734034a1dcc4f5019e3ba7_T1.jpg",
-    "title": "ซีรีส์ Doctor X: Mafia in White ถูกวิจารณ์เรื่องความแม่นยำทางการแพทย์",
-    "link": "https://www.koreaherald.com/article/10899712"
-  },
-  {
-    "id": "hotnews_th_82ddd116",
-    "date": "2026-10-12",
-    "ts": 1791782870000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/news-p.v1.20261012.281b37d312fc4e81972c94e8d369703f_T1.jpg",
-    "title": "คะแนนนิยมประธานาธิบดี Lee Jae Myung ลดลงต่อเนื่องท่ามกลางปัญหาการเมือง",
-    "link": "https://www.koreaherald.com/article/10899711"
-  },
-  {
-    "id": "hotnews_th_62297d48",
-    "date": "2026-10-12",
-    "ts": 1791780126000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012015614_69_e.jpg",
-    "title": "วีลีกเปิดโอกาสให้ชาวเกาหลีโพ้นทะเลร่วมดราฟต์นักกีฬาใหม่",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204794"
-  },
-  {
-    "id": "hotnews_th_50516251",
-    "date": "2026-10-12",
-    "ts": 1791779566000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080507930001300_P2.jpg",
-    "title": "ผอ.กำลังพลเกาหลีใต้เสียใจ นักบอลอวดพ้นเกณฑ์ทหารเอเชียนเกมส์",
-    "link": "https://en.yna.co.kr/view/AEN20261012005100315"
-  },
-  {
-    "id": "hotnews_th_0fc8ec57",
-    "date": "2026-10-12",
-    "ts": 1791778245000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/rcv.YNA.20261012.PYH2026101202730001300_T1.jpg",
-    "title": "รัฐมนตรีรวมชาติเกาหลีใต้ปัดข่าวความสัมพันธ์กับสหรัฐฯ มีรอยร้าว",
-    "link": "https://www.koreaherald.com/article/10899581"
-  },
-  {
-    "id": "hotnews_th_53255e0f",
-    "date": "2026-10-12",
-    "ts": 1791774162000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/12/rcv.YNA.20261012.PRU20261012005001009_T1.jpg",
-    "title": "เรือผู้อพยพคว่ำนอกชายฝั่งจิบูตี เสียชีวิตอย่างน้อย 139 ราย",
-    "link": "https://www.koreaherald.com/article/10899558"
   }
 ]
