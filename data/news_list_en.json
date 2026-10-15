@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_eedd69d2",
+    "date": "2026-10-15",
+    "ts": 1792098009000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109850005100_P2.jpg",
+    "title": "Import prices rebound in Sept. on higher oil prices",
+    "link": "https://en.yna.co.kr/view/AEN20261015009000320"
+  },
+  {
+    "id": "hotnews_en_6bffed63",
+    "date": "2026-10-15",
+    "ts": 1792096200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.5fc7ae3517a140a889a39350571ae0a0_T1.jpg",
+    "title": "[Mihir Sharma] Why Europe just can't quit US",
+    "link": "https://www.koreaherald.com/article/10904122"
+  },
+  {
+    "id": "hotnews_en_9803c853",
+    "date": "2026-10-15",
+    "ts": 1792086397000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/07/02/13/PCM20260702000013990_P2.jpg",
+    "title": "Bipartisan U.S. Senate bill seeks to reaffirm 'ironclad' nuclear deterrence commitment to S. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20261016000200315"
+  },
+  {
     "id": "hotnews_en_91cc5a05",
     "date": "2026-10-15",
     "ts": 1792073057000,
@@ -38,6 +62,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/rcv.YNA.20261015.PAF20261015273901009_T1.jpg",
     "title": "Prince Harry, Meghan make first joint public appearance since UK return",
     "link": "https://www.koreaherald.com/article/10904247"
+  },
+  {
+    "id": "hotnews_en_8952ae5e",
+    "date": "2026-10-15",
+    "ts": 1792065233000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/rcv.YNA.20261014.PYH2026101408520001300_T1.jpg",
+    "title": "Lee appoints serious crimes agency chief, ending two-week vacancy",
+    "link": "https://www.koreaherald.com/article/10904244"
   },
   {
     "id": "hotnews_en_58faacea",
@@ -142,6 +174,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015010800320_01_i_P2.jpg",
     "title": "S. Korean, U.S. biz leaders call for support to accelerate Korean investment projects in U.S.",
     "link": "https://en.yna.co.kr/view/AEN20261015010800320"
+  },
+  {
+    "id": "hotnews_en_c1b127b2",
+    "date": "2026-10-15",
+    "ts": 1792055383000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261015043457_84_e.jpg",
+    "title": "Special Counsel: 30 Regional NEC Offices Falsified Voter Numbers on June 3",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204896"
   },
   {
     "id": "hotnews_en_eff3e9f1",
@@ -358,45 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/13/PYH2026041317850001300_P2.jpg",
     "title": "Special counsel seeks new arrest warrant for jailed ex-first lady to keep her in custody",
     "link": "https://en.yna.co.kr/view/AEN20261015008700315"
-  },
-  {
-    "id": "hotnews_en_fb16462a",
-    "date": "2026-10-15",
-    "ts": 1792048119000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.45c0fd9e7fed46c8b481678e134fb121_T1.jpg",
-    "title": "Seoul shares crash over 7% on chip rout amid AI, inflation woes",
-    "link": "https://www.koreaherald.com/article/10904056"
-  },
-  {
-    "id": "hotnews_en_5ec95ba2",
-    "date": "2026-10-15",
-    "ts": 1792047599000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015004800315_01_i_P2.jpg",
-    "title": "Army conducts training involving unmanned combat systems under future warfare scenarios",
-    "link": "https://en.yna.co.kr/view/AEN20261015004800315"
-  },
-  {
-    "id": "hotnews_en_5b98ec30",
-    "date": "2026-10-15",
-    "ts": 1792047341000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261015040311_58_e.jpg",
-    "title": "KOSPI, KOSDAQ Close More than 7% Lower, Led by Tech Shares",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204890"
-  },
-  {
-    "id": "hotnews_en_51692e81",
-    "date": "2026-10-15",
-    "ts": 1792047131000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261015034647_30_e.jpg",
-    "title": "KOSPI Plummets 7.57% Thursday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204889"
-  },
-  {
-    "id": "hotnews_en_69eb8d36",
-    "date": "2026-10-15",
-    "ts": 1792040222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/2f5244ce-9a08-4d9f-b538-09a131c313c0.jpeg",
-    "title": "Sejong University forum addresses quality of education for international students",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261015/sejong-university-forum-addresses-quality-of-education-for-international-students?utm_source=rss"
   }
 ]
