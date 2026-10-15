@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_58faacea",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/132a7a05-32ba-4d50-a052-2af73764d7ec.jpg",
+    "title": "คณะกรรมาธิการรัฐสภาผ่านรายงานรับรองคิมจียองผู้นำหน่วยงานสืบสวนคดีร้ายแรง",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261015/parliamentary-committee-adopts-confirmation-hearing-report-for-scia-chief-nominee?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_74433643",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/def189cd-ac3a-4ee0-b1d8-f385c50bd3da.jpeg",
+    "title": "ศาลเกาหลีใต้สั่งจำคุกเจ้าของโรงงาน 3 ปี ทำร้ายแรงงานไทยด้วยปืนลม",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261015/factory-owner-sentenced-to-3-years-for-air-gun-assault-on-migrant-worker?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e3f739aa",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/57dac4d5-6db2-4f49-98ed-d637c34f85f6.jpg",
+    "title": "ผบ.กองกำลังสหรัฐในเกาหลีระบุเงื่อนไขโอนย้าย OPCON เปลี่ยนไปแล้ว",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261015/usfk-chief-says-conditions-have-changed-while-stressing-opcon-transfer-requirements?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_cfd5a1e2",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/0666a8f6-ad9a-4b00-9068-51fe8df6db40.jpeg",
+    "title": "คimbap สะดวกซื้อในเกาหลีปลอดภัย แต่สารอาหารไม่สมดุล",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261015/koreas-favorite-budget-meal-passes-safety-check-but-falls-short-on-nutrition?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_72438e02",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/c808f5fe-62db-4d37-a1a9-c87d3ca600b5.jpeg",
+    "title": "เอลนีโญกำลังแรงอาจทำให้เกาหลีเจอสภาพอากาศแปรปรวนในฤดูหนาวนี้",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261015/super-el-nino-could-bring-roller-coaster-winter-weather-to-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e6800755",
+    "date": "2026-10-15",
+    "ts": 1792061281000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015003351315_02_i_P2.jpg",
+    "title": "อี แจมยอง ชวนบริษัทสหรัฐฯ ลงทุนเพิ่มในเกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20261015003351315"
+  },
+  {
+    "id": "hotnews_th_ed0e5fe2",
+    "date": "2026-10-15",
+    "ts": 1792052729000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.341af2378515424da9d694ac07f8fce0_T1.jpg",
+    "title": "วงใหม่ A2O เดบิวต์ด้วยสมาชิกเด็กและแนวเพลงแบบเคพ็อปดั้งเดิม",
+    "link": "https://www.koreaherald.com/article/10904154"
+  },
+  {
+    "id": "hotnews_th_00d59e93",
+    "date": "2026-10-15",
+    "ts": 1792050192000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261015035850_71_e.jpg",
+    "title": "LG Twins ชนะ Doosan Bears 4-1 ใน KBO Wild Card Series",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204892"
+  },
+  {
+    "id": "hotnews_th_ec7025ac",
+    "date": "2026-10-15",
+    "ts": 1792049888000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015005651315_03_i_P2.jpg",
+    "title": "ทีมสอบสวนพิเศษเกาหลีใต้พบ กกต. ท้องถิ่นปลอมแปลงข้อมูลผู้มาใช้สิทธิ",
+    "link": "https://en.yna.co.kr/view/AEN20261015005651315"
+  },
+  {
+    "id": "hotnews_th_396b7ad8",
+    "date": "2026-10-15",
+    "ts": 1792049437000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081006000001300_P2.jpg",
+    "title": "เกาหลีใต้ชี้โอนสิทธิ์ OPCON เป็นไปไม่ได้หากเงื่อนไขเปลี่ยนเรื่อยๆ",
+    "link": "https://en.yna.co.kr/view/AEN20261015008500315"
+  },
+  {
     "id": "hotnews_th_69eb8d36",
     "date": "2026-10-15",
     "ts": 1792040222000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261014.dc32add8f05044f180d074de7b572104_T1.jpeg",
     "title": "ฮุนไดเปิดโรงงานใหม่ในอินเดีย ดันกำลังผลิตใกล้แตะ 1 ล้านคัน",
     "link": "https://www.koreaherald.com/article/10902512"
-  },
-  {
-    "id": "hotnews_th_e4f5be99",
-    "date": "2026-10-14",
-    "ts": 1791954810000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261013.b06060e8564e4591baa00aad054e91ad_T1.jpg",
-    "title": "ไอดอล K-pop ครองจอซีรีส์เกาหลี ทำนักแสดงหน้าใหม่เสี่ยงไร้ที่ยืน",
-    "link": "https://www.koreaherald.com/article/10902402"
-  },
-  {
-    "id": "hotnews_th_c758341c",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/8d795796-356c-4d6d-babc-4245bac14dfe.jpg",
-    "title": "ประธานาธิบดีอีแจมยองแต่งตั้งหัวหน้ากรมสรรพากรเป็นเลขาธิการ",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261014/lee-names-national-tax-service-chief-as-new-chief-of-staff?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_d80cfbf2",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/ec300c9c-d83b-4cf6-8744-70ddb4b9cb84.jpeg",
-    "title": "นศ. ม.แห่งชาติชุงนัมบริจาคเงินรายได้จากงานเทศกาล",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261014/chungnam-national-university-students-donate-merchandise-sales-proceeds-to-university-fund?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_8a0465ad",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/09333270-7173-4b37-87c7-fd1b90011afc.jpeg",
-    "title": "นักวิจัยความปลอดภัยไซเบอร์เกาหลีใต้โดนลงโทษแอบเล่น StarCraft ในเวลางาน",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261014/cybersecurity-researchers-disciplined-for-playing-starcraft-during-work-hours?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_7ef0d2d4",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/841cb447-bc01-4c5f-a53e-a0cfdf53ae26.jpeg",
-    "title": "เกาหลีใต้เตรียมสร้างสนามโดมใหม่เพื่อกีฬาและคอนเสิร์ต K-pop",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261014/korea-eyes-new-dome-stadiums-for-sports-k-pop-concerts?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_59f43ab8",
-    "date": "2026-10-14",
-    "ts": 1791947656000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014005000315_01_i_P2.jpg",
-    "title": "เกิดเหตุไฟไหม้บริษัทเคมีในอุลซาน คนงาน 7,000 คนต้องอพยพ",
-    "link": "https://en.yna.co.kr/view/AEN20261014005000315"
-  },
-  {
-    "id": "hotnews_th_13ec79f6",
-    "date": "2026-10-14",
-    "ts": 1791944456000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014123422_47_e.jpg",
-    "title": "'Doctor X' ขึ้นอันดับหนึ่งชาร์ตซีรีส์ Netflix",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204847"
-  },
-  {
-    "id": "hotnews_th_d30b1d88",
-    "date": "2026-10-14",
-    "ts": 1791943733000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "เปิดสะพานข้ามพรมแดนใหม่ระหว่างเกาหลีเหนือและจีนในวันพฤหัสบดีนี้",
-    "link": "https://en.yna.co.kr/view/AEN20261014004300315"
-  },
-  {
-    "id": "hotnews_th_12f73c1a",
-    "date": "2026-10-14",
-    "ts": 1791943593000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014110810_46_e.jpg",
-    "title": "ผู้เสนอชื่อหัวหน้าหน่วยงานอาชญากรรมใหม่สัญญาความเป็นกลาง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204846"
-  },
-  {
-    "id": "hotnews_th_a129c988",
-    "date": "2026-10-14",
-    "ts": 1791943061000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014003700315_01_i_P2.jpg",
-    "title": "เพลง Dracula ของ เจนนี่ พุ่งกลับสู่อันดับ 6 ชาร์ต Billboard Hot 100",
-    "link": "https://en.yna.co.kr/view/AEN20261014003700315"
   }
 ]

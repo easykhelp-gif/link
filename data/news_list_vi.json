@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_58faacea",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/132a7a05-32ba-4d50-a052-2af73764d7ec.jpg",
+    "title": "Quốc hội thông qua báo cáo điều trần của ứng viên đứng đầu SCIA",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261015/parliamentary-committee-adopts-confirmation-hearing-report-for-scia-chief-nominee?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_74433643",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/def189cd-ac3a-4ee0-b1d8-f385c50bd3da.jpeg",
+    "title": "Chủ xưởng bị phạt 3 năm tù vì bắn súng khí nén vào lao động",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261015/factory-owner-sentenced-to-3-years-for-air-gun-assault-on-migrant-worker?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e3f739aa",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/57dac4d5-6db2-4f49-98ed-d637c34f85f6.jpg",
+    "title": "Tư lệnh USFK: Điều kiện thay đổi ảnh hưởng chuyển giao OPCON",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261015/usfk-chief-says-conditions-have-changed-while-stressing-opcon-transfer-requirements?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_cfd5a1e2",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/0666a8f6-ad9a-4b00-9068-51fe8df6db40.jpeg",
+    "title": "Gimbap cửa hàng tiện lợi đạt chuẩn an toàn nhưng thiếu dinh dưỡng",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261015/koreas-favorite-budget-meal-passes-safety-check-but-falls-short-on-nutrition?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_72438e02",
+    "date": "2026-10-15",
+    "ts": 1792065124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/c808f5fe-62db-4d37-a1a9-c87d3ca600b5.jpeg",
+    "title": "Hiện tượng \"Super El Niño\" gây thời tiết biến động tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261015/super-el-nino-could-bring-roller-coaster-winter-weather-to-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e6800755",
+    "date": "2026-10-15",
+    "ts": 1792061281000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015003351315_02_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung kêu gọi DN Mỹ đầu tư tại Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261015003351315"
+  },
+  {
+    "id": "hotnews_vi_ed0e5fe2",
+    "date": "2026-10-15",
+    "ts": 1792052729000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.341af2378515424da9d694ac07f8fce0_T1.jpg",
+    "title": "Các nhóm nhạc A2O ra mắt với dàn thành viên trẻ và đa quốc gia",
+    "link": "https://www.koreaherald.com/article/10904154"
+  },
+  {
+    "id": "hotnews_vi_00d59e93",
+    "date": "2026-10-15",
+    "ts": 1792050192000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261015035850_71_e.jpg",
+    "title": "LG Twins thắng Doosan Bears 4-1 ở KBO Wild Card Series",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204892"
+  },
+  {
+    "id": "hotnews_vi_ec7025ac",
+    "date": "2026-10-15",
+    "ts": 1792049888000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015005651315_03_i_P2.jpg",
+    "title": "Ủy ban bầu cử bị phát hiện làm giả dữ liệu cử tri",
+    "link": "https://en.yna.co.kr/view/AEN20261015005651315"
+  },
+  {
+    "id": "hotnews_vi_396b7ad8",
+    "date": "2026-10-15",
+    "ts": 1792049437000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081006000001300_P2.jpg",
+    "title": "Hàn Quốc nói khó giao quyền tác chiến nếu điều kiện cứ đổi",
+    "link": "https://en.yna.co.kr/view/AEN20261015008500315"
+  },
+  {
     "id": "hotnews_vi_69eb8d36",
     "date": "2026-10-15",
     "ts": 1792040222000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261014.dc32add8f05044f180d074de7b572104_T1.jpeg",
     "title": "Hyundai mở nhà máy mới tại Pune, hướng tới 1 triệu xe tại Ấn Độ",
     "link": "https://www.koreaherald.com/article/10902512"
-  },
-  {
-    "id": "hotnews_vi_e4f5be99",
-    "date": "2026-10-14",
-    "ts": 1791954810000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261013.b06060e8564e4591baa00aad054e91ad_T1.jpg",
-    "title": "Idol K-pop lấn sân phim ảnh gây lo ngại cho diễn viên trẻ",
-    "link": "https://www.koreaherald.com/article/10902402"
-  },
-  {
-    "id": "hotnews_vi_c758341c",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/8d795796-356c-4d6d-babc-4245bac14dfe.jpg",
-    "title": "Tổng thống Lee bổ nhiệm chánh văn phòng mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261014/lee-names-national-tax-service-chief-as-new-chief-of-staff?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d80cfbf2",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/ec300c9c-d83b-4cf6-8744-70ddb4b9cb84.jpeg",
-    "title": "Sinh viên Đại học Chungnam quyên góp tiền bán hàng lưu niệm",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261014/chungnam-national-university-students-donate-merchandise-sales-proceeds-to-university-fund?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_8a0465ad",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/09333270-7173-4b37-87c7-fd1b90011afc.jpeg",
-    "title": "Nhân viên an ninh mạng bị kỷ luật vì chơi StarCraft giờ làm",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261014/cybersecurity-researchers-disciplined-for-playing-starcraft-during-work-hours?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_7ef0d2d4",
-    "date": "2026-10-14",
-    "ts": 1791954724000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/841cb447-bc01-4c5f-a53e-a0cfdf53ae26.jpeg",
-    "title": "Hàn Quốc lên kế hoạch xây dựng các sân vận động mái vòm mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261014/korea-eyes-new-dome-stadiums-for-sports-k-pop-concerts?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_59f43ab8",
-    "date": "2026-10-14",
-    "ts": 1791947656000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014005000315_01_i_P2.jpg",
-    "title": "Cháy nhà máy hóa chất ở Ulsan, 7.000 công nhân sơ tán",
-    "link": "https://en.yna.co.kr/view/AEN20261014005000315"
-  },
-  {
-    "id": "hotnews_vi_13ec79f6",
-    "date": "2026-10-14",
-    "ts": 1791944456000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014123422_47_e.jpg",
-    "title": "'Doctor X' dẫn đầu bảng xếp hạng Netflix toàn cầu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204847"
-  },
-  {
-    "id": "hotnews_vi_d30b1d88",
-    "date": "2026-10-14",
-    "ts": 1791943733000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Cầu biên giới mới giữa Triều Tiên và Trung Quốc mở cửa thứ Năm",
-    "link": "https://en.yna.co.kr/view/AEN20261014004300315"
-  },
-  {
-    "id": "hotnews_vi_12f73c1a",
-    "date": "2026-10-14",
-    "ts": 1791943593000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261014110810_46_e.jpg",
-    "title": "Ứng viên lãnh đạo cơ quan tội phạm cam kết trung lập",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204846"
-  },
-  {
-    "id": "hotnews_vi_a129c988",
-    "date": "2026-10-14",
-    "ts": 1791943061000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/14/AEN20261014003700315_01_i_P2.jpg",
-    "title": "Bài hát \"Dracula\" của Jennie vươn lên hạng 6 Billboard Hot 100",
-    "link": "https://en.yna.co.kr/view/AEN20261014003700315"
   }
 ]
