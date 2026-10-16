@@ -1,5 +1,45 @@
 [
   {
+    "id": "hotnews_vi_478c0a42",
+    "date": "2026-10-16",
+    "ts": 1792185526000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Triều Tiên thử nghiệm ngư lôi chiến lược dưới nước mới",
+    "link": "https://en.yna.co.kr/view/AEN20261017000600315"
+  },
+  {
+    "id": "hotnews_vi_687b57e5",
+    "date": "2026-10-16",
+    "ts": 1792184606000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016008451320_03_i_P2.jpg",
+    "title": "Hàn - Mỹ lần đầu họp 2+2 về tài chính và tiền tệ",
+    "link": "https://en.yna.co.kr/view/AEN20261016008451320"
+  },
+  {
+    "id": "hotnews_vi_a8e0bede",
+    "date": "2026-10-16",
+    "ts": 1792173332000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/29/PYH2026012911910001300_P2.jpg",
+    "title": "Hyundai triệu hồi hơn 94.000 xe tại Mỹ do nguy cơ cháy",
+    "link": "https://en.yna.co.kr/view/AEN20261017000300315"
+  },
+  {
+    "id": "hotnews_vi_00f8ade3",
+    "date": "2026-10-16",
+    "ts": 1792167225000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017000200315_01_i_P2.jpg",
+    "title": "Hàn Quốc lên án phiến quân Houthi tại Liên Hợp Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261017000200315"
+  },
+  {
+    "id": "hotnews_vi_01fdd50f",
+    "date": "2026-10-16",
+    "ts": 1792161817000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016009300320_01_i_P2.jpg",
+    "title": "Triều Tiên bác bỏ lời giải thích của Seoul về vụ thử vũ khí siêu vượt âm",
+    "link": "https://en.yna.co.kr/view/AEN20261016009300320"
+  },
+  {
     "id": "hotnews_vi_6d467ee2",
     "date": "2026-10-16",
     "ts": 1792150923000,
@@ -32,6 +72,30 @@
     "link": "https://en.yna.co.kr/view/AEN20261016009200320"
   },
   {
+    "id": "hotnews_vi_3c7cb991",
+    "date": "2026-10-16",
+    "ts": 1792146657000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-p.v1.20261016.3cccb9b5d4554be6adc2a73022aaaef4_T1.jpg",
+    "title": "Danh tính nghi phạm vụ tấn công bằng dao ở Incheon",
+    "link": "https://www.koreaherald.com/article/10905517"
+  },
+  {
+    "id": "hotnews_vi_f55e2eee",
+    "date": "2026-10-16",
+    "ts": 1792146237000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-p.v1.20261016.af058954a8cf4fe587c5920b920144b1_T1.jpg",
+    "title": "Choi Hye-jin dẫn đầu sau vòng hai giải LPGA Thượng Hải",
+    "link": "https://www.koreaherald.com/article/10905510"
+  },
+  {
+    "id": "hotnews_vi_2d67e09c",
+    "date": "2026-10-16",
+    "ts": 1792144068000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261016064920_10_e.jpg",
+    "title": "Cựu ngoại giao Mỹ phủ nhận cáo buộc phỉ báng Tổng thống Lee",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204923"
+  },
+  {
     "id": "hotnews_vi_83224178",
     "date": "2026-10-16",
     "ts": 1792143742000,
@@ -62,6 +126,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-p.v1.20261016.5a79575646b94dfea05c8103af517cc6_T1.png",
     "title": "Melon Music Awards 2026 lần đầu tổ chức trong 2 ngày",
     "link": "https://www.koreaherald.com/article/10905485"
+  },
+  {
+    "id": "hotnews_vi_1d68b8d6",
+    "date": "2026-10-16",
+    "ts": 1792141526000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/rcv.YNA.20261001.PYH2026100107440001300_T1.jpg",
+    "title": "Mino nhóm Winner phải quay lại thực hiện nghĩa vụ quân sự",
+    "link": "https://www.koreaherald.com/article/10905484"
   },
   {
     "id": "hotnews_vi_268fa578",
@@ -142,6 +214,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/rcv.YNA.20261007.PYH2026100701530001300_T1.jpg",
     "title": "Ngân hàng Hàn Quốc tăng chi tiêu bảo mật sau rò rỉ dữ liệu",
     "link": "https://www.koreaherald.com/article/10905336"
+  },
+  {
+    "id": "hotnews_vi_a019efe4",
+    "date": "2026-10-16",
+    "ts": 1792134598000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101609950001300_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung thăm Đại học Chung-Ang",
+    "link": "https://en.yna.co.kr/view/AEN20261016008200315"
   },
   {
     "id": "hotnews_vi_0b88c473",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/15/132a7a05-32ba-4d50-a052-2af73764d7ec.jpg",
     "title": "Quốc hội thông qua báo cáo điều trần của ứng viên đứng đầu SCIA",
     "link": "https://www.koreatimes.co.kr/southkorea/20261015/parliamentary-committee-adopts-confirmation-hearing-report-for-scia-chief-nominee?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_74433643",
-    "date": "2026-10-15",
-    "ts": 1792065124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/def189cd-ac3a-4ee0-b1d8-f385c50bd3da.jpeg",
-    "title": "Chủ xưởng bị phạt 3 năm tù vì bắn súng khí nén vào lao động",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261015/factory-owner-sentenced-to-3-years-for-air-gun-assault-on-migrant-worker?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e3f739aa",
-    "date": "2026-10-15",
-    "ts": 1792065124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/57dac4d5-6db2-4f49-98ed-d637c34f85f6.jpg",
-    "title": "Tư lệnh USFK: Điều kiện thay đổi ảnh hưởng chuyển giao OPCON",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261015/usfk-chief-says-conditions-have-changed-while-stressing-opcon-transfer-requirements?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_cfd5a1e2",
-    "date": "2026-10-15",
-    "ts": 1792065124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/0666a8f6-ad9a-4b00-9068-51fe8df6db40.jpeg",
-    "title": "Gimbap cửa hàng tiện lợi đạt chuẩn an toàn nhưng thiếu dinh dưỡng",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261015/koreas-favorite-budget-meal-passes-safety-check-but-falls-short-on-nutrition?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_72438e02",
-    "date": "2026-10-15",
-    "ts": 1792065124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/15/c808f5fe-62db-4d37-a1a9-c87d3ca600b5.jpeg",
-    "title": "Hiện tượng \"Super El Niño\" gây thời tiết biến động tại Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261015/super-el-nino-could-bring-roller-coaster-winter-weather-to-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6d43ddc7",
-    "date": "2026-10-15",
-    "ts": 1792065059000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.caa66ec22fd34eb29b7de274b4ba695d_T1.png",
-    "title": "Tổng thống Lee kêu gọi doanh nghiệp Mỹ đầu tư vào Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10904243"
-  },
-  {
-    "id": "hotnews_vi_451229b5",
-    "date": "2026-10-15",
-    "ts": 1792063741000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015011000315_01_i_P2.jpg",
-    "title": "Tổng thống Lee bổ nhiệm người đứng đầu Cơ quan Điều tra Tội phạm",
-    "link": "https://en.yna.co.kr/view/AEN20261015011000315"
-  },
-  {
-    "id": "hotnews_vi_e6800755",
-    "date": "2026-10-15",
-    "ts": 1792061281000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015003351315_02_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung kêu gọi DN Mỹ đầu tư tại Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261015003351315"
-  },
-  {
-    "id": "hotnews_vi_e870367f",
-    "date": "2026-10-15",
-    "ts": 1792059556000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/rcv.YNA.20261008.PAF20261008173101009_T1.jpg",
-    "title": "Lợi nhuận ròng của TSMC đạt mức kỷ lục trong quý ba",
-    "link": "https://www.koreaherald.com/article/10904221"
-  },
-  {
-    "id": "hotnews_vi_75063c36",
-    "date": "2026-10-15",
-    "ts": 1792057626000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015010900315_01_i_P2.jpg",
-    "title": "Hàn Quốc bày tỏ lo ngại với Mỹ về phát ngôn quyền tác chiến",
-    "link": "https://en.yna.co.kr/view/AEN20261015010900315"
-  },
-  {
-    "id": "hotnews_vi_26b14386",
-    "date": "2026-10-15",
-    "ts": 1792055682000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/15/AEN20261015010800320_01_i_P2.jpg",
-    "title": "Giới doanh nghiệp Hàn - Mỹ kêu gọi hỗ trợ đầu tư",
-    "link": "https://en.yna.co.kr/view/AEN20261015010800320"
   }
 ]
