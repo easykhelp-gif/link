@@ -8,6 +8,14 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/gen-z-workplace-communication-sparks-friction-in-korean-offices?utm_source=rss"
   },
   {
+    "id": "hotnews_en_5044854a",
+    "date": "2026-10-17",
+    "ts": 1792241565000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017003600320_02_i_P2.jpg",
+    "title": "Lee pays tribute to firefighter killed in Bucheon factory fire",
+    "link": "https://en.yna.co.kr/view/AEN20261017003600320"
+  },
+  {
     "id": "hotnews_en_ff57fe99",
     "date": "2026-10-17",
     "ts": 1792234923000,
@@ -272,6 +280,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261017001600315"
   },
   {
+    "id": "hotnews_en_b8d9bd27",
+    "date": "2026-10-17",
+    "ts": 1792205076000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501990004200_P2.jpg",
+    "title": "N. Korea tests new precision-guided torpedo using AI: KCNA",
+    "link": "https://en.yna.co.kr/view/AEN20261017000752315"
+  },
+  {
     "id": "hotnews_en_fccb8cf7",
     "date": "2026-10-17",
     "ts": 1792204123000,
@@ -382,21 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017000500315_01_i_P2.jpg",
     "title": "U.S. senator hails Hanwha's role in revitalizing American shipbuilding industry",
     "link": "https://en.yna.co.kr/view/AEN20261017000500315"
-  },
-  {
-    "id": "hotnews_en_57d1f783",
-    "date": "2026-10-16",
-    "ts": 1792176420000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101504420031500_P2.jpg",
-    "title": "U.S. envoy highlights role of S. Korean investment in creating American jobs",
-    "link": "https://en.yna.co.kr/view/AEN20261017000400315"
-  },
-  {
-    "id": "hotnews_en_a8e0bede",
-    "date": "2026-10-16",
-    "ts": 1792173332000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/29/PYH2026012911910001300_P2.jpg",
-    "title": "Hyundai Motor to recall over 94,000 vehicles in U.S. over fire risk",
-    "link": "https://en.yna.co.kr/view/AEN20261017000300315"
   }
 ]
