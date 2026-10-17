@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_b9ab68bc",
+    "date": "2026-10-17",
+    "ts": 1792252023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/14/0743814b-3aa8-4f49-8074-51e1795073d9.jpeg",
+    "title": "พนักงาน Gen Z กับรุ่นพี่ในเกาหลีใต้ขัดแย้งเรื่องการสื่อสารที่ทำงาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/gen-z-workplace-communication-sparks-friction-in-korean-offices?utm_source=rss"
+  },
+  {
     "id": "hotnews_th_ff57fe99",
     "date": "2026-10-17",
     "ts": 1792234923000,
@@ -32,12 +40,36 @@
     "link": "https://en.yna.co.kr/view/AEN20261017002851315"
   },
   {
+    "id": "hotnews_th_12d9ec25",
+    "date": "2026-10-17",
+    "ts": 1792227538000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101703790005400_P2.jpg",
+    "title": "คิม Do-yeong ซัด 2 โฮเมอร์ พา Kia Tigers ประเดิมชนะ LG Twins",
+    "link": "https://en.yna.co.kr/view/AEN20261017002751315"
+  },
+  {
     "id": "hotnews_th_97fb62e3",
     "date": "2026-10-17",
     "ts": 1792227021000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705050005400_P2.jpg",
     "title": "ผู้จัดการทีม Kia Tigers ชื่นชม คิม โด-ยอง หลังคว้าชัยในเบสบอล KBO",
     "link": "https://en.yna.co.kr/view/AEN20261017003000315"
+  },
+  {
+    "id": "hotnews_th_a34e3bf2",
+    "date": "2026-10-17",
+    "ts": 1792225078000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017002900315_02_i_P2.jpg",
+    "title": "Kia Tigers ส่ง Adam Oller ลงสนามดวล LG Twins วันอาทิตย์นี้",
+    "link": "https://en.yna.co.kr/view/AEN20261017002900315"
+  },
+  {
+    "id": "hotnews_th_951c0035",
+    "date": "2026-10-17",
+    "ts": 1792225058000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101703570005400_P2.jpg",
+    "title": "Kia Tigers ชนะ LG Twins ประเดิมชัยเบสบอล KBO",
+    "link": "https://en.yna.co.kr/view/AEN20261017002651315"
   },
   {
     "id": "hotnews_th_4c3fb64a",
@@ -48,12 +80,52 @@
     "link": "https://en.yna.co.kr/view/AEN20261017002400315"
   },
   {
+    "id": "hotnews_th_cd4f9132",
+    "date": "2026-10-17",
+    "ts": 1792220402000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-a.v1.20261016.862c5498d4d34f5680356c586a01cc40_T1.png",
+    "title": "เทรนด์เวลเนสใหม่ในเกาหลี: การนอนแช่ตัวในอ่างเอนไซม์",
+    "link": "https://www.koreaherald.com/article/10905282"
+  },
+  {
+    "id": "hotnews_th_fed86015",
+    "date": "2026-10-17",
+    "ts": 1792220401000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261014.da0239b093294484ac1e231adbbb9215_T1.jpg",
+    "title": "แนะนำย่าน ซอชน จุดเดินเที่ยวยอดฮิตในฤดูใบไม้ร่วง",
+    "link": "https://www.koreaherald.com/article/10903849"
+  },
+  {
+    "id": "hotnews_th_70014489",
+    "date": "2026-10-17",
+    "ts": 1792220400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-a.v1.20261014.dddfb92dee324d1a8c88df035f1ca3c7_T1.jpg",
+    "title": "อีจุนฮยอกพูดถึงซีรีส์ใหม่ The Ordinary Jackpot",
+    "link": "https://www.koreaherald.com/article/10903820"
+  },
+  {
+    "id": "hotnews_th_0ecb0ea6",
+    "date": "2026-10-17",
+    "ts": 1792220400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/news-p.v1.20261017.beb33ed8f6664b6a8fd58942b51cd677_T1.jpg",
+    "title": "ทำความรู้จักเมืองวัลเลตตา เมืองหลวงมรดกโลกของมอลตา",
+    "link": "https://www.koreaherald.com/article/10903691"
+  },
+  {
     "id": "hotnews_th_efac0475",
     "date": "2026-10-17",
     "ts": 1792217216000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017002300315_01_i_P2.jpg",
     "title": "เกาหลีใต้แสดงความเสียใจหลังผู้นำญี่ปุ่นส่งเครื่องสักการะศาลเจ้า Yasukuni",
     "link": "https://en.yna.co.kr/view/AEN20261017002300315"
+  },
+  {
+    "id": "hotnews_th_8540205f",
+    "date": "2026-10-17",
+    "ts": 1792212542000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202311/231127063900_50_e.jpg",
+    "title": "พรรคการเมืองเกาหลีร่วมไว้อาลัยนักดับเพลิงเสียชีวิตในพุ้นชอน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204929"
   },
   {
     "id": "hotnews_th_482d10bf",
@@ -86,6 +158,14 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260812084530_98_k.jpg",
     "title": "กองทัพยืนยันไม่ส่งกำลังรบร่วม กรณีหน่วยชองแฮ",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204927"
+  },
+  {
+    "id": "hotnews_th_467e8638",
+    "date": "2026-10-17",
+    "ts": 1792210761000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261017012823_72_e.jpg",
+    "title": "เกาหลีเหนืออ้างทดสอบระบบตอร์เปโดนำวิถีใต้น้ำใหม่",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204926"
   },
   {
     "id": "hotnews_th_ec87d926",
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261016061051_15_e.jpg",
     "title": "กองทัพเกาหลีใต้โชว์ศักยภาพโดรนและหุ่นยนต์ในการซ้อมรบแห่งอนาคต",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204919"
-  },
-  {
-    "id": "hotnews_th_ea249988",
-    "date": "2026-10-16",
-    "ts": 1792138528000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101610660001300_P2.jpg",
-    "title": "ไฟไหม้โรงงานเมืองบูชอน นักดับเพลิงหัวใจหยุดเต้น 1 นาย เจ็บ 7",
-    "link": "https://en.yna.co.kr/view/AEN20261016003453315"
-  },
-  {
-    "id": "hotnews_th_19c62aa7",
-    "date": "2026-10-16",
-    "ts": 1792138306000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100106080001300_P2.jpg",
-    "title": "ซงมินโฮ วง WINNER ต้องเข้ากรมเกณฑ์ทหารใหม่อีกครั้ง",
-    "link": "https://en.yna.co.kr/view/AEN20261016008900315"
-  },
-  {
-    "id": "hotnews_th_8308a50d",
-    "date": "2026-10-16",
-    "ts": 1792138283000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016009000320_02_i_P2.jpg",
-    "title": "สรุปข่าวสำคัญในเกาหลีใต้ ประจำวันศุกร์",
-    "link": "https://en.yna.co.kr/view/AEN20261016009000320"
-  },
-  {
-    "id": "hotnews_th_37031a58",
-    "date": "2026-10-16",
-    "ts": 1792137602000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016008400320_03_i_P2.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ จัดประชุม 2+2 ด้านการเงินครั้งแรก",
-    "link": "https://en.yna.co.kr/view/AEN20261016008400320"
-  },
-  {
-    "id": "hotnews_th_0f699872",
-    "date": "2026-10-16",
-    "ts": 1792136820000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101613350001300_P2.jpg",
-    "title": "หุ้นโซลดีดตัวขึ้นกว่า 2% หลังหุ้นชิปฟื้นตัวและมุมมองเฟด",
-    "link": "https://en.yna.co.kr/view/AEN20261016006452320"
-  },
-  {
-    "id": "hotnews_th_8957ceb6",
-    "date": "2026-10-16",
-    "ts": 1792135626000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101609310006500_P2.jpg",
-    "title": "ผู้ต้องสงสัยคดีแทงคนในอินชอนเข้ารับการไต่สวนหมายจับ",
-    "link": "https://en.yna.co.kr/view/AEN20261016006700315"
-  },
-  {
-    "id": "hotnews_th_8fc19d61",
-    "date": "2026-10-16",
-    "ts": 1792135270000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/rcv.YNA.20261007.PYH2026100701530001300_T1.jpg",
-    "title": "ธนาคารเกาหลีเตรียมเพิ่มงบความปลอดภัยหลังข้อมูลรั่วไหล",
-    "link": "https://www.koreaherald.com/article/10905336"
-  },
-  {
-    "id": "hotnews_th_a019efe4",
-    "date": "2026-10-16",
-    "ts": 1792134598000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101609950001300_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองเยือนมหาวิทยาลัยชุงอังในวันครบรอบ 110 ปี",
-    "link": "https://en.yna.co.kr/view/AEN20261016008200315"
-  },
-  {
-    "id": "hotnews_th_0b88c473",
-    "date": "2026-10-16",
-    "ts": 1792134011000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/11/PYH2026101104990001300_P2.jpg",
-    "title": "เริ่มสร้างบ้าน 99,000 หลังในเขตโซウル ต่ำกว่าเป้า",
-    "link": "https://en.yna.co.kr/view/AEN20261016005500320"
-  },
-  {
-    "id": "hotnews_th_8586d36b",
-    "date": "2026-10-16",
-    "ts": 1792133293000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/ams.V01.photo.HDN.P.20190605.201906050000003620755843_T1.jpg",
-    "title": "ชาวไทยเปลี่ยนชื่อลักลอบเข้าเกาหลีใต้ ศาลสั่งจำคุกแต่รอลงอาญา",
-    "link": "https://www.koreaherald.com/article/10905294"
   }
 ]
