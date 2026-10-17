@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_ff57fe99",
+    "date": "2026-10-17",
+    "ts": 1792234923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/17/1f2358a9-be84-48d9-95c8-8da7efd28814.jpg",
+    "title": "คลิปดีพเฟคทางเพศในเกาหลีใต้พุ่งเกินยอดปีที่แล้วใน 8 เดือน",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261017/number-of-deepfake-sex-videos-up-for-review-exceeds-last-years-figure-in-8-months?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_1b903738",
+    "date": "2026-10-17",
+    "ts": 1792234923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/17/b4c62369-f73f-42ab-babe-d5d166c5ac3d.jpeg",
+    "title": "การย้ายหน่วยงานไป Sejong อาจทำให้ตั๋ว KTX ขาดแคลนหนักขึ้น",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261017/sejong-relocation-set-to-worsen-ktx-seat-shortage?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_0bbafd1c",
+    "date": "2026-10-17",
+    "ts": 1792234923000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/17/a77ce3e1-c7b5-4d83-8e23-9dcb189d04e4.jpeg",
+    "title": "ข้อพิพาทเรื่องแผงลอยหน้าโรงเรียนยอมนีในโซล",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261017/dispute-intensifies-over-street-food-stalls-near-seoul-elementary-school?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9661ee8a",
+    "date": "2026-10-17",
+    "ts": 1792228609000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101704350005400_P2.jpg",
+    "title": "เจมส์ ไนล์ พา Kia Tigers ประเดิมชนะ LG Twins ในเบสบอล KBO",
+    "link": "https://en.yna.co.kr/view/AEN20261017002851315"
+  },
+  {
+    "id": "hotnews_th_97fb62e3",
+    "date": "2026-10-17",
+    "ts": 1792227021000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705050005400_P2.jpg",
+    "title": "ผู้จัดการทีม Kia Tigers ชื่นชม คิม โด-ยอง หลังคว้าชัยในเบสบอล KBO",
+    "link": "https://en.yna.co.kr/view/AEN20261017003000315"
+  },
+  {
+    "id": "hotnews_th_4c3fb64a",
+    "date": "2026-10-17",
+    "ts": 1792222207000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101605750006500_P2.jpg",
+    "title": "เหตุไฟไหม้โรงงานพูชอน คาดสาเหตุจากไอน้ำมันติดไฟ",
+    "link": "https://en.yna.co.kr/view/AEN20261017002400315"
+  },
+  {
+    "id": "hotnews_th_efac0475",
+    "date": "2026-10-17",
+    "ts": 1792217216000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/17/AEN20261017002300315_01_i_P2.jpg",
+    "title": "เกาหลีใต้แสดงความเสียใจหลังผู้นำญี่ปุ่นส่งเครื่องสักการะศาลเจ้า Yasukuni",
+    "link": "https://en.yna.co.kr/view/AEN20261017002300315"
+  },
+  {
     "id": "hotnews_th_482d10bf",
     "date": "2026-10-17",
     "ts": 1792212422000,
@@ -40,6 +96,22 @@
     "link": "https://en.yna.co.kr/view/AEN20261017001600315"
   },
   {
+    "id": "hotnews_th_60f1730e",
+    "date": "2026-10-17",
+    "ts": 1792201579000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/rcv.YNA.20261017.PAP20261017075901009_T1.jpg",
+    "title": "ทรัมป์กล่าวถึงแผนลงทุน 560 ล้านดอลลาร์ของฮุนไดในจอร์เจีย",
+    "link": "https://www.koreaherald.com/article/10905710"
+  },
+  {
+    "id": "hotnews_th_6704c6c6",
+    "date": "2026-10-17",
+    "ts": 1792201575000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/rcv.YNA.20261017.PGT20261017014401009_T1.jpg",
+    "title": "สุทรสรัฐชมฮันฮวาฟื้นฟูอุตสาหกรรมต่อเรืออเมริกา",
+    "link": "https://www.koreaherald.com/article/10905709"
+  },
+  {
     "id": "hotnews_th_a56293a0",
     "date": "2026-10-16",
     "ts": 1792194668000,
@@ -62,6 +134,14 @@
     "image": "https://img.yna.co.kr/photo/ap/2026/10/17/PAP20261017069501009_P2.jpg",
     "title": "ทรัมป์ชูฮุนไดลงทุน 560 ล้านดอลลาร์ในจอร์เจีย",
     "link": "https://en.yna.co.kr/view/AEN20261017000800315"
+  },
+  {
+    "id": "hotnews_th_86efd66f",
+    "date": "2026-10-16",
+    "ts": 1792186535000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501990004200_P2.jpg",
+    "title": "เกาหลีเหนือทดสอบตอร์ปิโดนำวิถีใต้น้ำรุ่นใหม่",
+    "link": "https://en.yna.co.kr/view/AEN20261017000700315"
   },
   {
     "id": "hotnews_th_478c0a42",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/ams.V01.photo.HDN.P.20190605.201906050000003620755843_T1.jpg",
     "title": "ชาวไทยเปลี่ยนชื่อลักลอบเข้าเกาหลีใต้ ศาลสั่งจำคุกแต่รอลงอาญา",
     "link": "https://www.koreaherald.com/article/10905294"
-  },
-  {
-    "id": "hotnews_th_318b5a4c",
-    "date": "2026-10-16",
-    "ts": 1792126023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/16/d38caa80-8306-4d56-826c-ccd027dd7425.jpg",
-    "title": "คะแนนนิยมของประธานาธิบดีอีแจมยองเพิ่มขึ้นเป็นร้อยละ 39",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261016/president-lees-approval-rating-rises-after-dipping-to-lowest-level-poll?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_b1d9d02b",
-    "date": "2026-10-16",
-    "ts": 1792126023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/06/2c81c390-9af1-49ae-a2f1-2856187ea581.jpeg",
-    "title": "ฟาร์มโคเนื้อออสเตรเลียเสี่ยงกระทบจากศูนย์ข้อมูล AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261016/farm-raising-beef-for-tables-around-the-world-faces-threat-from-data-center-construction?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1edc32b1",
-    "date": "2026-10-16",
-    "ts": 1792126023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/16/f656048b-5506-4625-899c-e6a07ccd2cfb.jpg",
-    "title": "เกาหลีใต้พิจารณาขยายพื้นที่ปฏิบัติการหน่วยชองแฮ",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261016/seoul-weighs-expanding-cheonghae-unit-operations-toward-strait-of-hormuz?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_7dbe0956",
-    "date": "2026-10-16",
-    "ts": 1792124179000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016004500315_01_i_P2.jpg",
-    "title": "BTS สร้างสถิติวงแรกในโลกกวาด 10,000 ล้านสตรีมบน Spotify ในปีเดียว",
-    "link": "https://en.yna.co.kr/view/AEN20261016004500315"
-  },
-  {
-    "id": "hotnews_th_a1f80dc3",
-    "date": "2026-10-16",
-    "ts": 1792121148000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101601360001300_P2.jpg",
-    "title": "พรรคฝ่ายค้านเกาหลีใต้ตำหนิรัฐบาลปมความต่างโอนสิทธิ์คุมกำลังยามสงคราม",
-    "link": "https://en.yna.co.kr/view/AEN20261016004300315"
-  },
-  {
-    "id": "hotnews_th_9931a379",
-    "date": "2026-10-16",
-    "ts": 1792120042000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-a.v1.20261016.36155f91b44d48c99850e3e90925ae10_T1.jpg",
-    "title": "ประธานาธิบดีอีแจมยองปกป้องการถ่ายทอดสดการประชุมคณะรัฐมนตรี",
-    "link": "https://www.koreaherald.com/article/10904993"
-  },
-  {
-    "id": "hotnews_th_6fed2ceb",
-    "date": "2026-10-16",
-    "ts": 1792119515000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016003452315_03_i_P2.jpg",
-    "title": "ไฟไหม้โรงงานพูชอน นักดับเพลิงหัวใจหยุดเต้น 1 นาย เจ็บอีก 6 คน",
-    "link": "https://en.yna.co.kr/view/AEN20261016003452315"
-  },
-  {
-    "id": "hotnews_th_76c6b9ea",
-    "date": "2026-10-16",
-    "ts": 1792117614000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016002600315_02_i_P2.jpg",
-    "title": "รวบชายวัย 20 ปี แกล้งทำมือถือพ่วงรีดเงินเหยื่อ 38 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261016002600315"
-  },
-  {
-    "id": "hotnews_th_d127e0b6",
-    "date": "2026-10-16",
-    "ts": 1792115275000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016002900320_01_i_P2.jpg",
-    "title": "กระทรวงการคลังเกาหลีใต้เผยเศรษฐกิจฟื้นตัวแข็งแกร่ง",
-    "link": "https://en.yna.co.kr/view/AEN20261016002900320"
-  },
-  {
-    "id": "hotnews_th_7e824336",
-    "date": "2026-10-16",
-    "ts": 1792108914000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/16/AEN20261016001251320_01_i_P2.jpg",
-    "title": "เกาหลีใต้เพิ่มการจ้างงานกว่าแสนตำแหน่งในเดือนกันยายน",
-    "link": "https://en.yna.co.kr/view/AEN20261016001251320"
   }
 ]
