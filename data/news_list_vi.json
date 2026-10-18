@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_1b885e5b",
+    "date": "2026-10-18",
+    "ts": 1792323124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/35563094-845a-430c-ae9c-abe10d0b4a5f.jpg",
+    "title": "Hơn 6.000 đơn tố cáo taxi Seoul chặt chém khách nước ngoài",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261018/taxi-overcharge-reports-involving-foreign-passengers-top-6000-in-5-years-lawmaker?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_0247a62f",
+    "date": "2026-10-18",
+    "ts": 1792323124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/90bb72dd-c89e-41c7-8035-cd7d85a87ee4.png",
+    "title": "Tỉnh Gyeonggi nhận đề xuất tuyến xe buýt đi Seoul từ cư dân",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/gyeonggi-invites-residents-facing-long-commutes-to-seoul-to-propose-bus-routes?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_491f60e5",
+    "date": "2026-10-18",
+    "ts": 1792323124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/043a3391-d3c8-429f-9a99-48a257516431.jpg",
+    "title": "Thống đốc Gyeonggi bị chỉ trích vì lời xin lỗi lính cứu hỏa",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261018/as-you-want-an-apology-i-apologize-gyeonggi-governors-comment-on-firefighting-fuels-criticism?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_1de757fd",
+    "date": "2026-10-18",
+    "ts": 1792323124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/1ec46246-0002-439f-bc14-fdd385277770.jpg",
+    "title": "Cảnh sát điều tra vụ hỏa hoạn ở Bucheon khiến lính cứu hỏa tử vong",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/i-miss-you-dad-firefighter-killed-in-blaze-leaves-behind-6-year-old-daughter?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_db2368fb",
+    "date": "2026-10-18",
+    "ts": 1792322862000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.998e338f8f434e5fa57a3086ff02ee3e_T1.jpg",
+    "title": "Grand Mint Festival hủy biểu diễn ngoài trời do mưa lớn",
+    "link": "https://www.koreaherald.com/article/10906350"
+  },
+  {
+    "id": "hotnews_vi_95468053",
+    "date": "2026-10-18",
+    "ts": 1792308813000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.af5486ef7a2c40ccbb464857fc1155f4_T1.gif",
+    "title": "Cửa hàng Seoul phát album K-pop miễn phí cho người hâm mộ",
+    "link": "https://www.koreaherald.com/article/10906262"
+  },
+  {
+    "id": "hotnews_vi_af46bdbf",
+    "date": "2026-10-18",
+    "ts": 1792305371000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-a.v1.20261018.9eed40d350e747b093e8da2a55222679_T1.png",
+    "title": "Diễn viên Kim Young-kwang trong phim mới của Netflix",
+    "link": "https://www.koreaherald.com/article/10906227"
+  },
+  {
+    "id": "hotnews_vi_f8045e07",
+    "date": "2026-10-18",
+    "ts": 1792303058000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.e80c7ad1e41f4b19bb65f9ebdf2df6b0_T1.jpg",
+    "title": "Thủ môn Emiliano Martinez nhập viện sau va chạm ở Ngoại hạng Anh",
+    "link": "https://www.koreaherald.com/article/10906204"
+  },
+  {
+    "id": "hotnews_vi_8db0b8bd",
+    "date": "2026-10-18",
+    "ts": 1792300944000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.0e692bcff0c74a24b863de05a72dd45f_T1.png",
+    "title": "Làn sóng chống phân biệt đối xử lan rộng tại các trường đại học",
+    "link": "https://www.koreaherald.com/article/10906182"
+  },
+  {
+    "id": "hotnews_vi_325a201f",
+    "date": "2026-10-18",
+    "ts": 1792299536000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/18/AEN20261018001600320_02_i_P2.jpg",
+    "title": "An Se-young vào chung kết Denmark Open, hướng tới danh hiệu thứ 9",
+    "link": "https://en.yna.co.kr/view/AEN20261018001600320"
+  },
+  {
     "id": "hotnews_vi_f7d40ba1",
     "date": "2026-10-18",
     "ts": 1792299124000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260812084530_98_k.jpg",
     "title": "Quân đội Hàn Quốc khẳng định không tham gia chiến đấu",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204927"
-  },
-  {
-    "id": "hotnews_vi_467e8638",
-    "date": "2026-10-17",
-    "ts": 1792210761000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261017012823_72_e.jpg",
-    "title": "Triều Tiên tuyên bố thử nghiệm ngư lôi điều khiển mới",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204926"
-  },
-  {
-    "id": "hotnews_vi_ec87d926",
-    "date": "2026-10-17",
-    "ts": 1792210013000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101701960005400_P2.jpg",
-    "title": "Huấn luyện viên Kia Tigers kỳ vọng vào hàng công đầu trận",
-    "link": "https://en.yna.co.kr/view/AEN20261017001600315"
-  },
-  {
-    "id": "hotnews_vi_fccb8cf7",
-    "date": "2026-10-17",
-    "ts": 1792204123000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/rcv.YNA.20261017.PYH2026101701330004200_T1.jpg",
-    "title": "Giải đấu golf nghiệp dư diễn ra tại Bình Nhưỡng",
-    "link": "https://www.koreaherald.com/article/10905726"
-  },
-  {
-    "id": "hotnews_vi_60f1730e",
-    "date": "2026-10-17",
-    "ts": 1792201579000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/rcv.YNA.20261017.PAP20261017075901009_T1.jpg",
-    "title": "Trump ca ngợi khoản đầu tư 560 triệu USD của Hyundai",
-    "link": "https://www.koreaherald.com/article/10905710"
-  },
-  {
-    "id": "hotnews_vi_6704c6c6",
-    "date": "2026-10-17",
-    "ts": 1792201575000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/17/rcv.YNA.20261017.PGT20261017014401009_T1.jpg",
-    "title": "Thượng nghị sĩ Mỹ ca ngợi vai trò của Hanwha tại Mỹ",
-    "link": "https://www.koreaherald.com/article/10905709"
-  },
-  {
-    "id": "hotnews_vi_a56293a0",
-    "date": "2026-10-16",
-    "ts": 1792194668000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261016105333_36_e.jpg",
-    "title": "Lính cứu hỏa hy sinh khi dập lửa tại nhà máy ở Bucheon",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204925"
-  },
-  {
-    "id": "hotnews_vi_51f2660d",
-    "date": "2026-10-16",
-    "ts": 1792188611000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501990004200_P2.jpg",
-    "title": "Triều Tiên thử nghiệm ngư lôi điều khiển chính xác tích hợp AI",
-    "link": "https://en.yna.co.kr/view/AEN20261017000751315"
-  },
-  {
-    "id": "hotnews_vi_831139c9",
-    "date": "2026-10-16",
-    "ts": 1792187816000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/17/PAP20261017069501009_P2.jpg",
-    "title": "Trump ca ngợi khoản đầu tư 560 triệu USD của Hyundai ở Georgia",
-    "link": "https://en.yna.co.kr/view/AEN20261017000800315"
-  },
-  {
-    "id": "hotnews_vi_86efd66f",
-    "date": "2026-10-16",
-    "ts": 1792186535000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501990004200_P2.jpg",
-    "title": "Triều Tiên thử nghiệm ngư lôi điều khiển chính xác mới",
-    "link": "https://en.yna.co.kr/view/AEN20261017000700315"
-  },
-  {
-    "id": "hotnews_vi_478c0a42",
-    "date": "2026-10-16",
-    "ts": 1792185526000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Triều Tiên thử nghiệm ngư lôi chiến lược dưới nước mới",
-    "link": "https://en.yna.co.kr/view/AEN20261017000600315"
   }
 ]
