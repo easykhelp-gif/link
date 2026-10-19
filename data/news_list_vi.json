@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_vi_b12144e1",
+    "date": "2026-10-19",
+    "ts": 1792449123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/7626c94e-1013-4da1-9186-b6d22d112191.jpg",
+    "title": "Tranh cãi nghĩa vụ quân sự nữ ở Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261020/should-women-serve-koreas-female-conscription-debate-is-back-as-troop-pool-shrinks?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_f03afc05",
+    "date": "2026-10-19",
+    "ts": 1792447206000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/19/PYH2025101911160001300_P2.jpg",
+    "title": "Giải đấu LPGA Tour hội tụ các ngôi sao golf Mỹ và Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261019003000315"
+  },
+  {
+    "id": "hotnews_vi_2b68d43c",
+    "date": "2026-10-19",
+    "ts": 1792446356000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000500315_01_i_P2.jpg",
+    "title": "Mỹ cấm DeepSeek trong cơ quan liên bang",
+    "link": "https://en.yna.co.kr/view/AEN20261020000500315"
+  },
+  {
+    "id": "hotnews_vi_41fefd4d",
+    "date": "2026-10-19",
+    "ts": 1792441802000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.cbf3490dc23641adbe585bb7d5e1893d_T1.jpg",
+    "title": "Kinh tế toàn cầu đối mặt với nhiều rủi ro và bất ổn lớn",
+    "link": "https://www.koreaherald.com/article/10907603"
+  },
+  {
+    "id": "hotnews_vi_e299880f",
+    "date": "2026-10-19",
+    "ts": 1792441801000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.7ae49477d80b4e679af799564accbee2_T1.jpg",
+    "title": "Trí tuệ nhân tạo AI và loạt phim Kẻ hủy diệt Terminator",
+    "link": "https://www.koreaherald.com/article/10907602"
+  },
+  {
+    "id": "hotnews_vi_22be8684",
+    "date": "2026-10-19",
+    "ts": 1792440302000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/20/PAP20261020047401009_P2.jpg",
+    "title": "Trump chưa chắc chắn về khả năng gặp Kim Jong-un tại Trung Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261020000451315"
+  },
+  {
+    "id": "hotnews_vi_0872976b",
+    "date": "2026-10-19",
+    "ts": 1792437599000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000300315_01_i_P2.jpg",
+    "title": "Hyundai Glovis mở rộng logistics xe tại cảng Philadelphia",
+    "link": "https://en.yna.co.kr/view/AEN20261020000300315"
+  },
+  {
+    "id": "hotnews_vi_628e7730",
+    "date": "2026-10-19",
+    "ts": 1792434610000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000200315_01_i_P2.jpg",
+    "title": "Mỹ nhấn mạnh hợp tác công nghệ lượng tử với Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261020000200315"
+  },
+  {
     "id": "hotnews_vi_7e8cdea3",
     "date": "2026-10-19",
     "ts": 1792417623000,
@@ -8,12 +72,28 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20261019/gangnam-expands-medical-tourism-footprint-from-us-to-southeast-asia?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_0472c295",
+    "date": "2026-10-19",
+    "ts": 1792412386000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.e559e8baa9c147ffbc2bebd53758ca12_T1.jpg",
+    "title": "Tình báo Mỹ không toàn năng, Hàn Quốc cần tự lực",
+    "link": "https://www.koreaherald.com/article/10907808"
+  },
+  {
     "id": "hotnews_vi_7fc56c70",
     "date": "2026-10-19",
     "ts": 1792407430000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101909600006300_P2.jpg",
     "title": "Tình báo Mỹ không toàn năng, cần tăng cường tự chủ",
     "link": "https://en.yna.co.kr/view/AEN20261019011000315"
+  },
+  {
+    "id": "hotnews_vi_f0090f89",
+    "date": "2026-10-19",
+    "ts": 1792405912000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.47050b603cb143328bf9e15742cb85e1_T1.jpg",
+    "title": "Kim Yo-jong đe dọa nối lại phát thanh và tăng vũ khí biên giới",
+    "link": "https://www.koreaherald.com/article/10907760"
   },
   {
     "id": "hotnews_vi_847dc5d9",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.72da6453643140eaa7cecee6a5ec94bd_T1.jpg",
     "title": "Bắt giữ người Kazakhstan đe dọa tài xế trên đường phố",
     "link": "https://www.koreaherald.com/article/10906258"
-  },
-  {
-    "id": "hotnews_vi_af46bdbf",
-    "date": "2026-10-18",
-    "ts": 1792305371000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-a.v1.20261018.9eed40d350e747b093e8da2a55222679_T1.png",
-    "title": "Diễn viên Kim Young-kwang trong phim mới của Netflix",
-    "link": "https://www.koreaherald.com/article/10906227"
-  },
-  {
-    "id": "hotnews_vi_b5b2d542",
-    "date": "2026-10-18",
-    "ts": 1792304891000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.e9c6bb59fb7c44038f829d9300c4c420_T1.jpg",
-    "title": "Hoài nghi về kế hoạch chuyển Bộ Quốc phòng và Ngoại giao",
-    "link": "https://www.koreaherald.com/article/10906223"
-  },
-  {
-    "id": "hotnews_vi_9c1c5b01",
-    "date": "2026-10-18",
-    "ts": 1792303467000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.adb23c6666f84e618236b26432ea66ac_T1.png",
-    "title": "Seo Chae-hyun vô địch leo núi tại Đại hội Thể thao Toàn quốc",
-    "link": "https://www.koreaherald.com/article/10906210"
-  },
-  {
-    "id": "hotnews_vi_f8045e07",
-    "date": "2026-10-18",
-    "ts": 1792303058000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.e80c7ad1e41f4b19bb65f9ebdf2df6b0_T1.jpg",
-    "title": "Thủ môn Emiliano Martinez nhập viện sau va chạm ở Ngoại hạng Anh",
-    "link": "https://www.koreaherald.com/article/10906204"
-  },
-  {
-    "id": "hotnews_vi_c2ce2f9f",
-    "date": "2026-10-18",
-    "ts": 1792302362000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.a3c4802a17d54b84b513689b4b8b961d_T1.jpg",
-    "title": "Lãnh đạo 5 ngân hàng lớn Hàn Quốc hầu tòa quốc hội vì tấn công mạng",
-    "link": "https://www.koreaherald.com/article/10906198"
-  },
-  {
-    "id": "hotnews_vi_7fd0804e",
-    "date": "2026-10-18",
-    "ts": 1792301617000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.544c8b82d3ad40c982a8c048025f2495_T1.png",
-    "title": "Khách nước ngoài tố taxi hét giá, ít bị phạt",
-    "link": "https://www.koreaherald.com/article/10906188"
-  },
-  {
-    "id": "hotnews_vi_8db0b8bd",
-    "date": "2026-10-18",
-    "ts": 1792300944000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.0e692bcff0c74a24b863de05a72dd45f_T1.png",
-    "title": "Làn sóng chống phân biệt đối xử lan rộng tại các trường đại học",
-    "link": "https://www.koreaherald.com/article/10906182"
-  },
-  {
-    "id": "hotnews_vi_277d04cb",
-    "date": "2026-10-18",
-    "ts": 1792300826000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260507110739_81_k.jpg",
-    "title": "Tỷ giá Won tăng mạnh so với Đô la và Yên Nhật",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204939"
-  },
-  {
-    "id": "hotnews_vi_325a201f",
-    "date": "2026-10-18",
-    "ts": 1792299536000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/18/AEN20261018001600320_02_i_P2.jpg",
-    "title": "An Se-young vào chung kết Denmark Open, hướng tới danh hiệu thứ 9",
-    "link": "https://en.yna.co.kr/view/AEN20261018001600320"
-  },
-  {
-    "id": "hotnews_vi_b0764842",
-    "date": "2026-10-18",
-    "ts": 1792299451000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260828110127_33_k.jpg",
-    "title": "Quỹ Hưu trí Quốc gia mất 182 nghìn tỷ won tiền cổ phiếu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204937"
   }
 ]
