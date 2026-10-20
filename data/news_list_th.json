@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_0b8e1e52",
+    "date": "2026-10-20",
+    "ts": 1792472823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/e11799d3-510f-493d-8408-a9d1198916f5.jpeg",
+    "title": "ม.เซจงจัดโปรแกรมช่วยนักศึกษาต่างชาติปรับตัว",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261020/sejong-university-program-helps-international-freshmen-adapt-to-campus-life?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_151d6000",
+    "date": "2026-10-20",
+    "ts": 1792472823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/e0af7b10-8397-482c-bc7f-3865733cd203.jpeg",
+    "title": "ศจ. ม. Kookmin ติดอันดับนักวิทยาศาสตร์ยอดเยี่ยม 2% แรกของโลก",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261020/kookmin-university-professor-named-among-worlds-top-2-scientists?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_d7d203b9",
+    "date": "2026-10-20",
+    "ts": 1792472823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/af14bdea-a881-43ea-a142-3ecdb4d9840d.jpg",
+    "title": "ถถกเกณฑ์ทหารหญิงเกาหลีใต้ หลังประชากรชายลดลง",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261020/cover-story-should-women-serve-koreas-female-conscription-debate-is-back-as-troop-pool-shrinks?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_71f0d749",
+    "date": "2026-10-20",
+    "ts": 1792472717000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102006960001300_P2.jpg",
+    "title": "เกาหลีใต้เตรียมส่งดาวเทียมทหารด้วยจรวด Nuri ปี 2031",
+    "link": "https://en.yna.co.kr/view/AEN20261020006100320"
+  },
+  {
+    "id": "hotnews_th_83e4120b",
+    "date": "2026-10-20",
+    "ts": 1792469989000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020011725_42_e.jpg",
+    "title": "พิพิธภัณฑ์ศิลปะโซลจัดนิทรรศการเดี่ยวของ Lynn Hershman Leeson",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204981"
+  },
+  {
+    "id": "hotnews_th_189447ea",
+    "date": "2026-10-20",
+    "ts": 1792467789000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/rcv.YNA.20261001.PYH2026100107930001301_T1.jpg",
+    "title": "เกาหลีใต้เพิ่มการสนับสนุนเยาวชนติดการพนัน",
+    "link": "https://www.koreaherald.com/article/10908587"
+  },
+  {
+    "id": "hotnews_th_8e0ca878",
+    "date": "2026-10-20",
+    "ts": 1792466847000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020004300315_01_i_P2.jpg",
+    "title": "ศาลสูงสุดเกาหลีใต้พิพากษาจำคุกซีอีโอ Aricell 4 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261020004300315"
+  },
+  {
+    "id": "hotnews_th_e299bc08",
+    "date": "2026-10-20",
+    "ts": 1792466649000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.f8ced41de4a6477f8fe67f4fb6a23a7c_T1.jpg",
+    "title": "ผอ.พิพิธภัณฑ์แห่งชาติเกาหลีขอโทษปมจัดแสดงผลงาน",
+    "link": "https://www.koreaherald.com/article/10908566"
+  },
+  {
+    "id": "hotnews_th_291aa376",
+    "date": "2026-10-20",
+    "ts": 1792465202000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020002500320_01_i_P2.jpg",
+    "title": "ธนาคารกลางเกาหลีใต้และอังกฤษขยายความร่วมมือเรื่องโทเคนไนเซชัน",
+    "link": "https://en.yna.co.kr/view/AEN20261020002500320"
+  },
+  {
+    "id": "hotnews_th_1d3cb1bf",
+    "date": "2026-10-20",
+    "ts": 1792464870000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020121531_4_e.jpg",
+    "title": "ลีสั่งคณะรัฐมนตรีเร่งเพิ่มอุปทานที่อยู่อาศัย",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204979"
+  },
+  {
     "id": "hotnews_th_b12144e1",
     "date": "2026-10-19",
     "ts": 1792449123000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/18/1ec46246-0002-439f-bc14-fdd385277770.jpg",
     "title": "พนักงานดับเพลิง คิม จิน-ซอก เสียชีวิตขณะดับไฟโรงงาน",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/i-miss-you-dad-firefighter-killed-in-blaze-leaves-behind-6-year-old-daughter?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_db2368fb",
-    "date": "2026-10-18",
-    "ts": 1792322862000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.998e338f8f434e5fa57a3086ff02ee3e_T1.jpg",
-    "title": "งาน Grand Mint Festival ยกเลิกโชว์กลางแจ้งและคืนเงินเต็มจำนวน",
-    "link": "https://www.koreaherald.com/article/10906350"
-  },
-  {
-    "id": "hotnews_th_a35f2ae4",
-    "date": "2026-10-18",
-    "ts": 1792320966000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101807220001300_P2.jpg",
-    "title": "ฝนตกหนักและลมแรงถล่มกรุงโซล น้ำท่วมขังและเกิดความเสียหาย",
-    "link": "https://en.yna.co.kr/view/AEN20261018003000315"
-  },
-  {
-    "id": "hotnews_th_cb4fe9b4",
-    "date": "2026-10-18",
-    "ts": 1792320918000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.61fa9db2c8ff47c48c0dc80421934cf9_T1.jpg",
-    "title": "ฝนตกหนักในโซล น้ำท่วมถนนและต้นไม้ล้ม",
-    "link": "https://www.koreaherald.com/article/10906334"
-  },
-  {
-    "id": "hotnews_th_357f5b78",
-    "date": "2026-10-18",
-    "ts": 1792318151000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101808020005400_P2.jpg",
-    "title": "ผู้จัดการทีม Kia Tigers ขอบคุณ Jeon Sang-hyun ที่ช่วยเซฟ",
-    "link": "https://en.yna.co.kr/view/AEN20261018002951315"
-  },
-  {
-    "id": "hotnews_th_8aad686b",
-    "date": "2026-10-18",
-    "ts": 1792312295000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.654a3ce4028c46d98bd67e5ea946f1c0_T1.png",
-    "title": "อำเภอพงฮวาฟื้นฟูความสัมพันธ์ประวัติศาสตร์เวียดนาม 800 ปี",
-    "link": "https://www.koreaherald.com/article/10906287"
-  },
-  {
-    "id": "hotnews_th_378f8211",
-    "date": "2026-10-18",
-    "ts": 1792311788000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101805950005400_P2.jpg",
-    "title": "Kia Tigers ชนะ LG Twins 6-3 ศึก KBO โพสต์ซีซัน",
-    "link": "https://en.yna.co.kr/view/AEN20261018002751315"
-  },
-  {
-    "id": "hotnews_th_39b3acfb",
-    "date": "2026-10-18",
-    "ts": 1792311235000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.15184f272fbf443e865bbe5b9d7f1f7b_T1.jpg",
-    "title": "ศาลเกาหลีใต้สั่งจำคุกสามีภรรยาทำร้ายลูกและบังคับตีสุนัข",
-    "link": "https://www.koreaherald.com/article/10906278"
-  },
-  {
-    "id": "hotnews_th_95468053",
-    "date": "2026-10-18",
-    "ts": 1792308813000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.af5486ef7a2c40ccbb464857fc1155f4_T1.gif",
-    "title": "ร้านในโซลแจกอัลบั้ม K-pop ฟรีจากขยะแฟนคลับ",
-    "link": "https://www.koreaherald.com/article/10906262"
-  },
-  {
-    "id": "hotnews_th_f1c4b51c",
-    "date": "2026-10-18",
-    "ts": 1792308694000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/10/17/PAF20261017140301009_P2.jpg",
-    "title": "ชเว ฮเย-จิน คว้าอันดับ 2 กอล์ฟ LPGA ที่เซี่ยงไฮ้",
-    "link": "https://en.yna.co.kr/view/AEN20261018002500315"
-  },
-  {
-    "id": "hotnews_th_b4ff6cc4",
-    "date": "2026-10-18",
-    "ts": 1792308687000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.72da6453643140eaa7cecee6a5ec94bd_T1.jpg",
-    "title": "รวบชาวคาซัคสถานขู่คนขับรถในอิชอน",
-    "link": "https://www.koreaherald.com/article/10906258"
   }
 ]
