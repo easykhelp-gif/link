@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_c47579fd",
+    "date": "2026-10-20",
+    "ts": 1792497124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/a5451a8d-f26b-43d2-991a-1b38bb9be814.jpg",
+    "title": "พรรคประชาธิปไตยเกาหลีเสนอร่างกฎหมายหนุนคลัสเตอร์เซมิคอนดักเตอร์",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261020/ruling-party-introduces-chip-cluster-bill-as-union-opposes-labor-exemptions?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e17300e3",
+    "date": "2026-10-20",
+    "ts": 1792497124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/da925ff9-e71c-4130-9c36-42f2267cc45f.jpg",
+    "title": "ศาลยืนยันโทษจำคุก 4 ปี ซีอีโอ Aricell เหตุไฟไหม้โรงงาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261020/battery-ceos-4-year-sentence-upheld-over-fire-that-killed-23-mostly-foreigners?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_b0b29012",
+    "date": "2026-10-20",
+    "ts": 1792497124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/05d706bc-1785-448e-b635-a042999c5c52.jpeg",
+    "title": "ฮาจิวอน เผยวิธีลดโซเดียมและคุมน้ำหนักด้วยการล้างกิมจิ",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261020/ha-ji-won-has-special-way-of-eating-kimchi-to-reduce-sodium-intake?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c4947182",
+    "date": "2026-10-20",
+    "ts": 1792492989000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.5cd521a81fc14846b9416e451b2eb778_T1.jpg",
+    "title": "ผู้ต้องหาวางเพลิงคังนัมอ้างถูกโกงสิทธิบัตรและเคยพยายามก่อเหตุในปี 2022",
+    "link": "https://www.koreaherald.com/article/10909100"
+  },
+  {
+    "id": "hotnews_th_8af8a91b",
+    "date": "2026-10-20",
+    "ts": 1792485114000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.06d9c1196f0f4d8e8a9dd047ef1c7501_T1.jpg",
+    "title": "เกาหลีใต้เตรียมถอนเจ้าหน้าที่สถานตากลาโหมยูเครนออกครึ่งหนึ่ง",
+    "link": "https://www.koreaherald.com/article/10909026"
+  },
+  {
+    "id": "hotnews_th_ef190654",
+    "date": "2026-10-20",
+    "ts": 1792484942000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020013524_85_k.jpg",
+    "title": "อีเร่งคณะรัฐมนตรีเร่งสร้างบ้านแก้ปัญหาค่าบ้านแพง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204995"
+  },
+  {
+    "id": "hotnews_th_d1715951",
+    "date": "2026-10-20",
+    "ts": 1792483294000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020033913_47_e.jpg",
+    "title": "กองทัพเกาหลีใต้ประกาศกร้าวพร้อมตอบโต้อย่างเด็ดขาด",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204994"
+  },
+  {
+    "id": "hotnews_th_c8137996",
+    "date": "2026-10-20",
+    "ts": 1792481469000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020008300315_03_i_P2.jpg",
+    "title": "ข่าวลือ Kim Jong-un เสียชีวิตในโซเชียลต่างประเทศไร้หลักฐาน",
+    "link": "https://en.yna.co.kr/view/AEN20261020008300315"
+  },
+  {
+    "id": "hotnews_th_efcac1bc",
+    "date": "2026-10-20",
+    "ts": 1792481288000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020007152320_04_i_P2.jpg",
+    "title": "หุ้นเกาหลีใต้ร่วงเกือบ 4% จากความกังวลเรื่อง AI และเหตุประท้วงในฝรั่งเศส",
+    "link": "https://en.yna.co.kr/view/AEN20261020007152320"
+  },
+  {
+    "id": "hotnews_th_109def4b",
+    "date": "2026-10-20",
+    "ts": 1792479010000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020034720_69_e.jpg",
+    "title": "หัวหน้าหน่วยอาชญากรรมร้ายแรงคนแรกสัญญาความเป็นกลาง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204992"
+  },
+  {
     "id": "hotnews_th_0b8e1e52",
     "date": "2026-10-20",
     "ts": 1792472823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101904350001301_P2.jpg",
     "title": "FSS จะเสริมความปลอดภัยไซเบอร์หลังข้อมูลรั่วไหล",
     "link": "https://en.yna.co.kr/view/AEN20261019003300320"
-  },
-  {
-    "id": "hotnews_th_8702d913",
-    "date": "2026-10-18",
-    "ts": 1792355400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.5e77172ebed24927a4a7b955da058230_T1.jpg",
-    "title": "บทความความเห็นเกี่ยวกับภาพยนตร์เรื่อง The Assassin(s)",
-    "link": "https://www.koreaherald.com/article/10906266"
-  },
-  {
-    "id": "hotnews_th_78a96d52",
-    "date": "2026-10-18",
-    "ts": 1792332317000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/18/AEN20261018001651320_02_i_P2.jpg",
-    "title": "อัน เซ-ยอง คว้าแชมป์แบดมินตันเดนมาร์ก โอเพน",
-    "link": "https://en.yna.co.kr/view/AEN20261018001651320"
-  },
-  {
-    "id": "hotnews_th_04966f92",
-    "date": "2026-10-18",
-    "ts": 1792329147000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101807220001300_P2.jpg",
-    "title": "ฝนตกหนักและลมแรงทั่วเกาหลีใต้ น้ำท่วมถนนและกระทบการเดินทาง",
-    "link": "https://en.yna.co.kr/view/AEN20261018003051315"
-  },
-  {
-    "id": "hotnews_th_0032a305",
-    "date": "2026-10-18",
-    "ts": 1792326784000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/18/AEN20261018003300315_01_i_P2.jpg",
-    "title": "เกาหลีใต้เผยไม่เคยตกลงกำหนดเวลาเปิดเผยเรื่องเชลยศึกเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20261018003300315"
-  },
-  {
-    "id": "hotnews_th_d9207f35",
-    "date": "2026-10-18",
-    "ts": 1792324183000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101602460001300_P2.jpg",
-    "title": "หน่วยสืบสวนคดีใหญ่จับกุมผู้ต้องหาคดียาเสพติดรายแรก",
-    "link": "https://en.yna.co.kr/view/AEN20261018003200315"
-  },
-  {
-    "id": "hotnews_th_88499ed8",
-    "date": "2026-10-18",
-    "ts": 1792324091000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.95b32b58856c447ba14f83225b41140d_T1.jpg",
-    "title": "จดหมายจากลูกสาวนักดับเพลิงผู้ล่วงลับกลายเป็นกระแสไวรัล",
-    "link": "https://www.koreaherald.com/article/10906351"
-  },
-  {
-    "id": "hotnews_th_1b885e5b",
-    "date": "2026-10-18",
-    "ts": 1792323124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/35563094-845a-430c-ae9c-abe10d0b4a5f.jpg",
-    "title": "ต่างชาติร้องเรียนแท็กซี่โกงค่าโดยสารพุ่งกว่า 6,000 ครั้งใน 5 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261018/taxi-overcharge-reports-involving-foreign-passengers-top-6000-in-5-years-lawmaker?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_0247a62f",
-    "date": "2026-10-18",
-    "ts": 1792323124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/90bb72dd-c89e-41c7-8035-cd7d85a87ee4.png",
-    "title": "จังหวัดคยองกีเปิดรับข้อเสนอเส้นทางรถบัสเพียนฮาจีบัส",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/gyeonggi-invites-residents-facing-long-commutes-to-seoul-to-propose-bus-routes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_491f60e5",
-    "date": "2026-10-18",
-    "ts": 1792323124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/043a3391-d3c8-429f-9a99-48a257516431.jpg",
-    "title": "คิม มี-เอ ผู้ว่าคยองกีโดถูกวิจารณ์ปมพูดพาดพิงงานดับเพลิง",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261018/as-you-want-an-apology-i-apologize-gyeonggi-governors-comment-on-firefighting-fuels-criticism?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1de757fd",
-    "date": "2026-10-18",
-    "ts": 1792323124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/18/1ec46246-0002-439f-bc14-fdd385277770.jpg",
-    "title": "พนักงานดับเพลิง คิม จิน-ซอก เสียชีวิตขณะดับไฟโรงงาน",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261018/i-miss-you-dad-firefighter-killed-in-blaze-leaves-behind-6-year-old-daughter?utm_source=rss"
   }
 ]
