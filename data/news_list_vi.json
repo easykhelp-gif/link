@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_041cfa47",
+    "date": "2026-10-21",
+    "ts": 1792559223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/a6eab8b1-9b27-4b2a-a648-3269f0ea54eb.jpg",
+    "title": "Tòa án Hàn Quốc giảm án tù cho cựu công tố viên Park Young-soo",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261021/appeals-court-reduces-ex-special-counsels-sentence-to-6-years-in-bribery-case?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_aec6cc89",
+    "date": "2026-10-21",
+    "ts": 1792559223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/f5ed2375-8875-4d55-a844-94533c6e6752.jpg",
+    "title": "Nghi phạm phóng hỏa 2 tòa nhà ở Seoul thừa nhận tội ác",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261021/arson-suspect-admits-to-planning-setting-fires-at-2-buildings-in-southern-seoul-police?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_4e30dc95",
+    "date": "2026-10-21",
+    "ts": 1792559223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/d7af3b7e-bf6e-4460-8501-aa2b6eb57d9e.jpeg",
+    "title": "Trường tiếng Hàn tại Nhật đổi mới giảng dạy cùng phụ huynh",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261021/korean-heritage-schools-in-japan-turn-to-parents-for-curriculum-overhaul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_fd2cfbf1",
+    "date": "2026-10-21",
+    "ts": 1792558929000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021006300315_03_i_P2.jpg",
+    "title": "Jihyo của TWICE rời JYP Entertainment sau 21 năm",
+    "link": "https://en.yna.co.kr/view/AEN20261021006300315"
+  },
+  {
+    "id": "hotnews_vi_4704f5a7",
+    "date": "2026-10-21",
+    "ts": 1792551586000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Khám nhà cựu Chủ tịch NEC vì nghi ngờ đi nước ngoài trái phép",
+    "link": "https://en.yna.co.kr/view/AEN20261021005800315"
+  },
+  {
+    "id": "hotnews_vi_da89ba5d",
+    "date": "2026-10-21",
+    "ts": 1792550114000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021004252315_01_i_P2.jpg",
+    "title": "Giám đốc Bảo tàng Quốc gia Hàn Quốc xin từ chức vì nhầm lẫn tác phẩm",
+    "link": "https://en.yna.co.kr/view/AEN20261021004252315"
+  },
+  {
+    "id": "hotnews_vi_e92f7669",
+    "date": "2026-10-21",
+    "ts": 1792549982000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021003252315_02_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung yêu cầu cải cách cảnh sát mạnh mẽ",
+    "link": "https://en.yna.co.kr/view/AEN20261021003252315"
+  },
+  {
+    "id": "hotnews_vi_6c077b65",
+    "date": "2026-10-21",
+    "ts": 1792549616000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/rcv.YNA.20261021.PRU20261021150901009_T1.jpg",
+    "title": "Chính quyền Trump hủy hơn 300.000 thị thực Mỹ",
+    "link": "https://www.koreaherald.com/article/10909838"
+  },
+  {
+    "id": "hotnews_vi_97527c7b",
+    "date": "2026-10-21",
+    "ts": 1792548752000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261021011241_4_e.jpg",
+    "title": "Bài hát Dracula của Jennie đạt hạng 5 trên bảng xếp hạng Billboard",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205008"
+  },
+  {
+    "id": "hotnews_vi_63c11023",
+    "date": "2026-10-21",
+    "ts": 1792547915000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102102520001300_P2.jpg",
+    "title": "Đảng DP cảnh báo Thống đốc Gyeonggi vì phát ngôn xúc phạm lính cứu hỏa",
+    "link": "https://en.yna.co.kr/view/AEN20261021003900315"
+  },
+  {
     "id": "hotnews_vi_e3efa331",
     "date": "2026-10-20",
     "ts": 1792531000000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261020121531_4_e.jpg",
     "title": "Lee chỉ đạo nội các đẩy nhanh việc cung ứng nhà ở",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204979"
-  },
-  {
-    "id": "hotnews_vi_b12144e1",
-    "date": "2026-10-19",
-    "ts": 1792449123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/7626c94e-1013-4da1-9186-b6d22d112191.jpg",
-    "title": "Tranh cãi nghĩa vụ quân sự nữ ở Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261020/should-women-serve-koreas-female-conscription-debate-is-back-as-troop-pool-shrinks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_f03afc05",
-    "date": "2026-10-19",
-    "ts": 1792447206000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/19/PYH2025101911160001300_P2.jpg",
-    "title": "Giải đấu LPGA Tour hội tụ các ngôi sao golf Mỹ và Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261019003000315"
-  },
-  {
-    "id": "hotnews_vi_2b68d43c",
-    "date": "2026-10-19",
-    "ts": 1792446356000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000500315_01_i_P2.jpg",
-    "title": "Mỹ cấm DeepSeek trong cơ quan liên bang",
-    "link": "https://en.yna.co.kr/view/AEN20261020000500315"
-  },
-  {
-    "id": "hotnews_vi_41fefd4d",
-    "date": "2026-10-19",
-    "ts": 1792441802000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.cbf3490dc23641adbe585bb7d5e1893d_T1.jpg",
-    "title": "Kinh tế toàn cầu đối mặt với nhiều rủi ro và bất ổn lớn",
-    "link": "https://www.koreaherald.com/article/10907603"
-  },
-  {
-    "id": "hotnews_vi_e299880f",
-    "date": "2026-10-19",
-    "ts": 1792441801000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.7ae49477d80b4e679af799564accbee2_T1.jpg",
-    "title": "Trí tuệ nhân tạo AI và loạt phim Kẻ hủy diệt Terminator",
-    "link": "https://www.koreaherald.com/article/10907602"
-  },
-  {
-    "id": "hotnews_vi_22be8684",
-    "date": "2026-10-19",
-    "ts": 1792440302000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/20/PAP20261020047401009_P2.jpg",
-    "title": "Trump chưa chắc chắn về khả năng gặp Kim Jong-un tại Trung Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261020000451315"
-  },
-  {
-    "id": "hotnews_vi_0872976b",
-    "date": "2026-10-19",
-    "ts": 1792437599000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000300315_01_i_P2.jpg",
-    "title": "Hyundai Glovis mở rộng logistics xe tại cảng Philadelphia",
-    "link": "https://en.yna.co.kr/view/AEN20261020000300315"
-  },
-  {
-    "id": "hotnews_vi_628e7730",
-    "date": "2026-10-19",
-    "ts": 1792434610000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/20/AEN20261020000200315_01_i_P2.jpg",
-    "title": "Mỹ nhấn mạnh hợp tác công nghệ lượng tử với Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261020000200315"
-  },
-  {
-    "id": "hotnews_vi_7e8cdea3",
-    "date": "2026-10-19",
-    "ts": 1792417623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/4d5b5c4f-18d5-41ff-bc08-024ef0f1a099.jpeg",
-    "title": "Gangnam mở rộng du lịch y tế sang Đông Nam Á",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261019/gangnam-expands-medical-tourism-footprint-from-us-to-southeast-asia?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0472c295",
-    "date": "2026-10-19",
-    "ts": 1792412386000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.e559e8baa9c147ffbc2bebd53758ca12_T1.jpg",
-    "title": "Tình báo Mỹ không toàn năng, Hàn Quốc cần tự lực",
-    "link": "https://www.koreaherald.com/article/10907808"
   }
 ]
