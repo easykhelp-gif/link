@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_e5c7b9db",
+    "date": "2026-10-22",
+    "ts": 1792673198000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.7dc006dd8f25436b9b009bc8187d8e97_T1.png",
+    "title": "34 student activists convicted of illegal entry into presidential compound, US base",
+    "link": "https://www.koreaherald.com/article/10911953"
+  },
+  {
     "id": "hotnews_en_c19d5662",
     "date": "2026-10-22",
     "ts": 1792671124000,
@@ -80,6 +88,22 @@
     "link": "https://en.yna.co.kr/view/AEN20261022009900315"
   },
   {
+    "id": "hotnews_en_8458f530",
+    "date": "2026-10-22",
+    "ts": 1792663200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.5dac3ecb524b4d67b9810848a96e85c5_T1.png",
+    "title": "Pope Leo XIV invites youth to Seoul for World Youth Day 2027",
+    "link": "https://www.koreaherald.com/article/10911561"
+  },
+  {
+    "id": "hotnews_en_3772b008",
+    "date": "2026-10-22",
+    "ts": 1792661956000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022064213_62_e.jpg",
+    "title": "Constitutional Court Upholds Harsher Punishment for Parricide",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205060"
+  },
+  {
     "id": "hotnews_en_a49f4a4c",
     "date": "2026-10-22",
     "ts": 1792660880000,
@@ -150,6 +174,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.81be57177cc74c45abf1090ae28e02d7_T1.png",
     "title": "Constitutional Court upholds harsher penalties for killing parents",
     "link": "https://www.koreaherald.com/article/10911862"
+  },
+  {
+    "id": "hotnews_en_1c8ce905",
+    "date": "2026-10-22",
+    "ts": 1792657912000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022007552315_03_i_P2.jpg",
+    "title": "S. Korea to send letter to UNSC urging N. Korea to take responsibility for DMZ mine blast",
+    "link": "https://en.yna.co.kr/view/AEN20261022007552315"
   },
   {
     "id": "hotnews_en_fc6a37a0",
@@ -256,12 +288,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261022007151320"
   },
   {
+    "id": "hotnews_en_aa3e3a7f",
+    "date": "2026-10-22",
+    "ts": 1792655271000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022033503_23_k.jpg",
+    "title": "Gov’t Raises Cyber Crisis Alert Level amid Global Scare over PHP Security Flaw",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205053"
+  },
+  {
     "id": "hotnews_en_fafe585b",
     "date": "2026-10-22",
     "ts": 1792654871000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202409/240912034222_39_i.jpg",
     "title": "Inter-Korean Tensions Mount amid Threats to Restart Loudspeaker Broadcasts",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205052"
+  },
+  {
+    "id": "hotnews_en_38beeb98",
+    "date": "2026-10-22",
+    "ts": 1792654729000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102203080001300_P2.jpg",
+    "title": "Parliamentary committee adopts confirmation report for special inspector nominee",
+    "link": "https://en.yna.co.kr/view/AEN20261022009700315"
   },
   {
     "id": "hotnews_en_999ebfdc",
@@ -304,6 +352,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261022009800320"
   },
   {
+    "id": "hotnews_en_5aa614ae",
+    "date": "2026-10-22",
+    "ts": 1792653878000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.03c7212bb97a4ae9b1101d32e0a41789_T1.jpg",
+    "title": "Seoul stocks slide over 3% on profit-taking amid persistent AI woes",
+    "link": "https://www.koreaherald.com/article/10911736"
+  },
+  {
     "id": "hotnews_en_04357685",
     "date": "2026-10-22",
     "ts": 1792653342000,
@@ -312,91 +368,35 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205051"
   },
   {
+    "id": "hotnews_en_aa3cb19d",
+    "date": "2026-10-22",
+    "ts": 1792653085000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022009200320_01_i_P2.jpg",
+    "title": "5 penny stocks face delisting under tougher rules",
+    "link": "https://en.yna.co.kr/view/AEN20261022009200320"
+  },
+  {
+    "id": "hotnews_en_e5a5a651",
+    "date": "2026-10-22",
+    "ts": 1792652295000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022035935_23_e.jpg",
+    "title": "KOSPI Down 3.52% Thursday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205050"
+  },
+  {
+    "id": "hotnews_en_66df170c",
+    "date": "2026-10-22",
+    "ts": 1792652229000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.99242420b2b14ff4add3fa9344a96d77_T1.jpg",
+    "title": "Korea rises as strategic hub for German firms: KGCCI chief",
+    "link": "https://www.koreaherald.com/article/10911699"
+  },
+  {
     "id": "hotnews_en_daf6e85c",
     "date": "2026-10-22",
     "ts": 1792645623000,
     "image": "https://newsimg.koreatimes.co.kr/2026/10/22/0b92dd87-9a5c-481c-ba8c-20f996378810.jpg",
     "title": "S. Korean, US air forces to bolster autonomous combat platform cooperation",
     "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/s-korean-us-air-forces-to-bolster-autonomous-combat-platform-cooperation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_85e84439",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/e076c2b3-edba-4829-85fa-91b7836358a0.jpeg",
-    "title": "Soongsil University, Chung-Ang University team develops technology to disrupt lip-sync deepfakes",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/soongsil-university-chung-ang-university-team-develops-technology-to-disrupt-lip-sync-deepfakes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_c13154df",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/39fb922e-f313-455f-8102-c0e6b75acb0b.jpeg",
-    "title": "Hankuk University of Foreign Studies offers training for new hires at semiconductor companies",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/hankuk-university-of-foreign-studies-offers-training-for-new-hires-at-semiconductor-companies?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_7a71a649",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/6a5f2bd4-3ae1-485b-bea1-40bc6538c8c4.png",
-    "title": "Korea's int'l student boom puts universities to new test",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/koreas-intl-student-boom-puts-universities-to-new-test?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6c898350",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/1e013aad-eff7-4ece-a475-61cd42ec9a4c.jpeg",
-    "title": "Seoul claims top spot in global AI adoption, 3rd overall in 2026 AI Cities Index",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261022/seoul-claims-top-spot-in-global-ai-adoption-3rd-overall-in-2026-ai-cities-index?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_688d8572",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/947d7d3f-bedd-4c3e-b5b5-4ae53b97932d.png",
-    "title": "Korea, US conclude multinational maritime mine warfare exercise off Busan",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/korea-us-conclude-multinational-maritime-mine-warfare-exercise-off-busan?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_cd7d7721",
-    "date": "2026-10-22",
-    "ts": 1792645371000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/rcv.YNA.20261022.PRU20261022185601009_T1.jpg",
-    "title": "Meta ordered to pay $25 billion penalty to New Mexico in data privacy case",
-    "link": "https://www.koreaherald.com/article/10911408"
-  },
-  {
-    "id": "hotnews_en_8227b7a7",
-    "date": "2026-10-22",
-    "ts": 1792645218000,
-    "image": "",
-    "title": "Today in Korean history",
-    "link": "https://en.yna.co.kr/view/AEN20261022000900320"
-  },
-  {
-    "id": "hotnews_en_ee739a93",
-    "date": "2026-10-22",
-    "ts": 1792645099000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/rcv.YNA.20261009.PAP20261009244801009_T1.jpg",
-    "title": "US states deciding control of Senate see boost in early voting: analysis",
-    "link": "https://www.koreaherald.com/article/10911398"
-  },
-  {
-    "id": "hotnews_en_9a3afa48",
-    "date": "2026-10-22",
-    "ts": 1792644641000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/rcv.YNA.20261016.PRU20261016320501009_T1.jpg",
-    "title": "US orders diplomats to depart Saudi Arabia amid Houthi strikes",
-    "link": "https://www.koreaherald.com/article/10911389"
-  },
-  {
-    "id": "hotnews_en_2f6c43c1",
-    "date": "2026-10-22",
-    "ts": 1792644519000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/rcv.YNA.20261021.PAF20261021201101009_T1.jpg",
-    "title": "Israel's election may change its leader, but not Iran war policy",
-    "link": "https://www.koreaherald.com/article/10911385"
   }
 ]
