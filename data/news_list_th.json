@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_daf6e85c",
+    "date": "2026-10-22",
+    "ts": 1792645623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/0b92dd87-9a5c-481c-ba8c-20f996378810.jpg",
+    "title": "ทัพฟ้าเกาหลีใต้-สหรัฐร่วมมือระบบสู้รบไร้คนขับ",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/s-korean-us-air-forces-to-bolster-autonomous-combat-platform-cooperation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_85e84439",
+    "date": "2026-10-22",
+    "ts": 1792645623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/e076c2b3-edba-4829-85fa-91b7836358a0.jpeg",
+    "title": "ทีมวิจัยเกาหลีพัฒนาเทคโนโลยี MUTE ป้องกันดีปเฟค",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/soongsil-university-chung-ang-university-team-develops-technology-to-disrupt-lip-sync-deepfakes?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c13154df",
+    "date": "2026-10-22",
+    "ts": 1792645623000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/39fb922e-f313-455f-8102-c0e6b75acb0b.jpeg",
+    "title": "ม.ภาษาต่างประเทศเกาหลีจัดอบรมพนักงานใหม่ด้านเซมิคอนดักเตอร์",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/hankuk-university-of-foreign-studies-offers-training-for-new-hires-at-semiconductor-companies?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_f9bf3251",
+    "date": "2026-10-22",
+    "ts": 1792643943000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022112115_50_r.jpg",
+    "title": "แม่ทัพกองทัพที่ 8 สหรัฐระบุทหารต้องพร้อมถูกส่งกำลังพลนอกคาบสมุทรเกาหลี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205044"
+  },
+  {
+    "id": "hotnews_th_6d25d51a",
+    "date": "2026-10-22",
+    "ts": 1792637280000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-a.v1.20261022.46ac67246b5343228b50732368a5c07a_T1.png",
+    "title": "แอมะซอนโคงิสต์ Ian Eastwood หวนคืนสู่วงการเต้นเกาหลี",
+    "link": "https://www.koreaherald.com/article/10911297"
+  },
+  {
+    "id": "hotnews_th_2ba23f7a",
+    "date": "2026-10-22",
+    "ts": 1792637261000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022113758_15_k.jpg",
+    "title": "ศาลตัดสินให้รัฐบาลกลางและกรุงโซลชนะคดีภาษี Lone Star",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205041"
+  },
+  {
+    "id": "hotnews_th_1430cffb",
+    "date": "2026-10-22",
+    "ts": 1792636555000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022004300315_01_i_P2.jpg",
+    "title": "เกาหลีใต้จี้เกาหลีเหนือยุติการกระทำเพิ่มความตึงเครียดตามพรมแดน",
+    "link": "https://en.yna.co.kr/view/AEN20261022004300315"
+  },
+  {
+    "id": "hotnews_th_5686dcc5",
+    "date": "2026-10-22",
+    "ts": 1792635162000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022004000315_01_i_P2.jpg",
+    "title": "นักท่องเที่ยวต่างชาติเที่ยวเกาหลีใต้พุ่ง คาดทำลายสถิติเดิมปีนี้",
+    "link": "https://en.yna.co.kr/view/AEN20261022004000315"
+  },
+  {
+    "id": "hotnews_th_b317e8b7",
+    "date": "2026-10-22",
+    "ts": 1792634307000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.d1283f4b0d3546ec83bf748ed058f613_T1.jpg",
+    "title": "ข้อมูลรั่วไหลที่มหาวิทยาลัยยอนเซ",
+    "link": "https://www.koreaherald.com/article/10911121"
+  },
+  {
+    "id": "hotnews_th_45d9a4f2",
+    "date": "2026-10-22",
+    "ts": 1792634261000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.eb3b9fb5db5e44f5a679d0097a84b8c0_T1.jpg",
+    "title": "ไต้ฝุ่นแชมปีเคลื่อนตัวขึ้นเหนือ เตือนฝนตกหนักสุดสัปดาห์นี้",
+    "link": "https://www.koreaherald.com/article/10911120"
+  },
+  {
     "id": "hotnews_th_5cb50ba2",
     "date": "2026-10-21",
     "ts": 1792617329000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102102520001300_P2.jpg",
     "title": "พรรคประชาธิปไตยตักเตือน ชู มีเอ และ สส. ปมวิจารณ์นักดับเพลิง",
     "link": "https://en.yna.co.kr/view/AEN20261021003900315"
-  },
-  {
-    "id": "hotnews_th_e3efa331",
-    "date": "2026-10-20",
-    "ts": 1792531000000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021000600315_01_i_P2.jpg",
-    "title": "ทูตเกาหลีใต้ประจำ UN นั่งแท่นประธานร่วมหารือ AI ระดับโลก",
-    "link": "https://en.yna.co.kr/view/AEN20261021000600315"
-  },
-  {
-    "id": "hotnews_th_11d27135",
-    "date": "2026-10-20",
-    "ts": 1792530013000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102013400001300_P2.jpg",
-    "title": "ราคาผู้ผลิตเกาหลีเดือนกันยายนเพิ่มขึ้นเดือนที่สองติด",
-    "link": "https://en.yna.co.kr/view/AEN20261020008100320"
-  },
-  {
-    "id": "hotnews_th_fe192125",
-    "date": "2026-10-20",
-    "ts": 1792528200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.42bb5f291d8c4f4aa5b886439fceafd9_T1.jpg",
-    "title": "เหตุการณ์ประท้วงและความไม่สงบครั้งใหญ่ในประเทศฝรั่งเศส",
-    "link": "https://www.koreaherald.com/article/10908999"
-  },
-  {
-    "id": "hotnews_th_379c0f78",
-    "date": "2026-10-20",
-    "ts": 1792528200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.c6b4a9f2f476433a8790285b4cf4fdb6_T1.jpg",
-    "title": "ชื่อวรรณกรรมระดับโลกที่สะท้อนสถานการณ์ของเกาหลีใต้ในปัจจุบัน",
-    "link": "https://www.koreaherald.com/article/10909001"
-  },
-  {
-    "id": "hotnews_th_9a36bb48",
-    "date": "2026-10-20",
-    "ts": 1792523705000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021000400315_01_i_P2.jpg",
-    "title": "เกาหลีใต้ร่วมสังเกตการณ์ฝึกซ้อมทางทหาร Keen Sword 2027 ในญี่ปุ่น",
-    "link": "https://en.yna.co.kr/view/AEN20261021000400315"
-  },
-  {
-    "id": "hotnews_th_b769edc3",
-    "date": "2026-10-20",
-    "ts": 1792522278000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101503410031500_P2.jpg",
-    "title": "นักวิเคราะห์ชี้เกาหลีเหนืออาจกำลังทดสอบเส้นแดงของโดนัลด์ ทรัมป์",
-    "link": "https://en.yna.co.kr/view/AEN20261021000300315"
-  },
-  {
-    "id": "hotnews_th_a0bc4784",
-    "date": "2026-10-20",
-    "ts": 1792512837000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021000200315_01_i_P2.jpg",
-    "title": "สส. สรัฐเสนอกฎหมายอัปเดตรายชื่อทรัพย์สินระบบป้องกันภัย Golden Dome",
-    "link": "https://en.yna.co.kr/view/AEN20261021000200315"
-  },
-  {
-    "id": "hotnews_th_79542d0d",
-    "date": "2026-10-20",
-    "ts": 1792505771000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102024270001300_P2.jpg",
-    "title": "คิมโดยอง สตาร์ Kia Tigers คว้า MVP เพลย์ออฟ KBO หลังโชว์ฟอร์มโหด",
-    "link": "https://en.yna.co.kr/view/AEN20261020010251315"
-  },
-  {
-    "id": "hotnews_th_96edf681",
-    "date": "2026-10-20",
-    "ts": 1792504725000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102024520001300_P2.jpg",
-    "title": "ปิดฉากสนามเบสบอลชัมซิล หลังทีม LG Twins ตกรอบเพลย์ออฟ",
-    "link": "https://en.yna.co.kr/view/AEN20261020010500315"
-  },
-  {
-    "id": "hotnews_th_639d97fc",
-    "date": "2026-10-20",
-    "ts": 1792504087000,
-    "image": "https://img.yna.co.kr/photo/cms/2024/02/02/87/PCM20240202000087052_P2.jpg",
-    "title": "DAPA สั่งห้าม LIG D&A เข้าร่วมประมูลงานกลาโหมนาน 2 ปี",
-    "link": "https://en.yna.co.kr/view/AEN20261020010400315"
   }
 ]
