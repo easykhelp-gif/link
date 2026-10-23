@@ -1,5 +1,317 @@
 [
   {
+    "id": "hotnews_en_e972ba5d",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/2adcbc32-fe5b-4b57-bd7a-142f6d720a33.jpeg",
+    "title": "[COVER STORY] Acquittal revives Seoul mayor's presidential prospects",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/cover-story-acquittal-revives-seoul-mayors-presidential-prospects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_2daa750e",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/8bb11ad3-0570-432f-8181-57724aad2891.jpg",
+    "title": "Suspected N. Korean IT worker found at S. Korean firm under false identity for 1st time",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_943c9198",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/3df330cb-6197-4743-bfe2-8fb56e78288d.jpg",
+    "title": "Middle schooler bitten by pet cobra, spotlighting illegal exotic pet ownership",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/middle-schooler-bitten-by-pet-cobra-spotlighting-illegal-exotic-pet-ownership?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_5f67baae",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/a752ea99-2d8a-4849-8301-42fc7aa1317e.jpeg",
+    "title": "After 35 years of searching, activist still fights indifferent system for Korea's missing",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/after-35-years-of-searching-activist-still-fights-indifferent-system-for-koreas-missing?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_1fd82b0c",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/0d09a518-9688-4744-9a48-9a935afd00cf.jpeg",
+    "title": "Jeonbuk National University, KAIST researchers develop soft robot",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261023/jeonbuk-national-university-kaist-researchers-develop-soft-robot?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b899253f",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/c408b312-0e28-4da4-aec8-6a4cce6993fd.jpeg",
+    "title": "Busan emerging as Asia's next coastal destination: CNN",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261023/busan-emerging-as-asias-next-coastal-destination-cnn?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_dc04148c",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/361af804-0f6b-4fbf-8018-97a8cbcddce8.jpg",
+    "title": "Why Gemini is at the center of Korean politics",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/why-gemini-is-at-the-center-of-korean-politics?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_6f0d71ff",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/d0bb1702-ebbc-49a9-8d42-1f913e3072fc.jpg",
+    "title": "Lee's approval rating hits 40% for 1st time since early September: poll",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/lees-approval-rating-hits-40-for-1st-time-since-early-september-poll?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_f6f9a334",
+    "date": "2026-10-23",
+    "ts": 1792755974000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.fc3f03d39a214790804411020cfaa883_T1.png",
+    "title": "Hungary marks 1956 uprising, calls for closer S. Korea ties",
+    "link": "https://www.koreaherald.com/article/10913303"
+  },
+  {
+    "id": "hotnews_en_c59c61fb",
+    "date": "2026-10-23",
+    "ts": 1792752098000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2023/12/21/PYH2023122103130050400_P2.jpg",
+    "title": "S. Korea donates 8 retired military helicopters to Kenya",
+    "link": "https://en.yna.co.kr/view/AEN20261023008200315"
+  },
+  {
+    "id": "hotnews_en_c024ead8",
+    "date": "2026-10-23",
+    "ts": 1792749326000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023060240_10_e.jpg",
+    "title": "Land Minister: Surge in Housing Prices Slowing Down",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205087"
+  },
+  {
+    "id": "hotnews_en_325ebd74",
+    "date": "2026-10-23",
+    "ts": 1792748253000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023010000315_02_i_P2.jpg",
+    "title": "Spy agency said to assess that social media rumors of N. Korean leader's death are false",
+    "link": "https://en.yna.co.kr/view/AEN20261023010000315"
+  },
+  {
+    "id": "hotnews_en_81f3148d",
+    "date": "2026-10-23",
+    "ts": 1792747763000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022090830_86_k.jpg",
+    "title": "Bukang-i the Shark Not Seen since Friday Morning",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205086"
+  },
+  {
+    "id": "hotnews_en_4f88d386",
+    "date": "2026-10-23",
+    "ts": 1792747407000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202310/231026093942_40_k.jpg",
+    "title": "Bus Drivers in Gyeonggi Province Vote to Launch Strike",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205085"
+  },
+  {
+    "id": "hotnews_en_1bb55baf",
+    "date": "2026-10-23",
+    "ts": 1792745715000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261005.b3cf81753cf94769a997f72ac6fe30cb_T1.jpg",
+    "title": "Hana Financial posts record 9-month profit of W3.62tr",
+    "link": "https://www.koreaherald.com/article/10913247"
+  },
+  {
+    "id": "hotnews_en_2c33acd1",
+    "date": "2026-10-23",
+    "ts": 1792745690000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260527090547_37_k.jpg",
+    "title": "Heavy Rain Forecast for South Coast, Jeju Island This Weekend",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205084"
+  },
+  {
+    "id": "hotnews_en_618fd1ca",
+    "date": "2026-10-23",
+    "ts": 1792745512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.60620f554e7e47978ebcf00dfcfc06a7_T1.jpg",
+    "title": "Woori Financial's Q3 profit tops W1tr for second straight quarter",
+    "link": "https://www.koreaherald.com/article/10913242"
+  },
+  {
+    "id": "hotnews_en_f0cec3c4",
+    "date": "2026-10-23",
+    "ts": 1792744905000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023070114_36_e.jpg",
+    "title": "Gov’t to Pursue Introduction of Life Imprisonment without Parole",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205083"
+  },
+  {
+    "id": "hotnews_en_254fd67e",
+    "date": "2026-10-23",
+    "ts": 1792744244000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023009900315_04_i_P2.jpg",
+    "title": "36-hole leader Ryu Hae-ran 'happy' with state of game at LPGA event: 'Everything is good for me.'",
+    "link": "https://en.yna.co.kr/view/AEN20261023009900315"
+  },
+  {
+    "id": "hotnews_en_a3ad6503",
+    "date": "2026-10-23",
+    "ts": 1792743887000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023121207_84_k.jpg",
+    "title": "HD Hyundai to Build Shipyard in US with Kiewit",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205082"
+  },
+  {
+    "id": "hotnews_en_c6261716",
+    "date": "2026-10-23",
+    "ts": 1792743394000,
+    "image": "",
+    "title": "Key developments on North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20261023009500315"
+  },
+  {
+    "id": "hotnews_en_3c97e915",
+    "date": "2026-10-23",
+    "ts": 1792743382000,
+    "image": "",
+    "title": "Summary of domestic news in North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20261023009600315"
+  },
+  {
+    "id": "hotnews_en_e316c27b",
+    "date": "2026-10-23",
+    "ts": 1792743249000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.c0a757ddea6e44fc87047c254af080fa_T1.jpg",
+    "title": "Deborah Turbeville's photos are all about the vibes",
+    "link": "https://www.koreaherald.com/article/10913212"
+  },
+  {
+    "id": "hotnews_en_87f193ad",
+    "date": "2026-10-23",
+    "ts": 1792742400000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023008700315_01_i_P2.jpg",
+    "title": "Yonhap News Summary",
+    "link": "https://en.yna.co.kr/view/AEN20261023008700315"
+  },
+  {
+    "id": "hotnews_en_b1195997",
+    "date": "2026-10-23",
+    "ts": 1792741549000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102310200001301_P2.jpg",
+    "title": "S. Korea proposes military talks with N. Korea to ease tensions along border",
+    "link": "https://en.yna.co.kr/view/AEN20261023005752315"
+  },
+  {
+    "id": "hotnews_en_db47123f",
+    "date": "2026-10-23",
+    "ts": 1792741502000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.2a9aa4d39ec94caf9819ba392760efc5_T1.jpg",
+    "title": "Special education support expands, but where are the teachers?",
+    "link": "https://www.koreaherald.com/article/10913168"
+  },
+  {
+    "id": "hotnews_en_0985dc24",
+    "date": "2026-10-23",
+    "ts": 1792741356000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102309810001300_P2.jpg",
+    "title": "Main opposition hails Seoul mayor's acquittal in political funds trial; ruling party calls for appeal",
+    "link": "https://en.yna.co.kr/view/AEN20261023006151315"
+  },
+  {
+    "id": "hotnews_en_4c4931c2",
+    "date": "2026-10-23",
+    "ts": 1792741190000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006452320_03_i_P2.jpg",
+    "title": "Seoul stocks end tad higher on bargain hunting",
+    "link": "https://en.yna.co.kr/view/AEN20261023006452320"
+  },
+  {
+    "id": "hotnews_en_96dbdf7f",
+    "date": "2026-10-23",
+    "ts": 1792740705000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023045044_98_e.jpg",
+    "title": "Lee Approves Appointment of Special Inspector General after 10-Year Vacancy",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205081"
+  },
+  {
+    "id": "hotnews_en_894285a9",
+    "date": "2026-10-23",
+    "ts": 1792740371000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102306850001300_P2.jpg",
+    "title": "BOK chief signals hawkish stance amid outlook for higher growth, rates",
+    "link": "https://en.yna.co.kr/view/AEN20261023008100320"
+  },
+  {
+    "id": "hotnews_en_87f5e76c",
+    "date": "2026-10-23",
+    "ts": 1792740320000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202606/260626092642_32_k.jpg",
+    "title": "DNA Tests Fail to Identify Remains from Japan’s Chosei Coal Mine",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205080"
+  },
+  {
+    "id": "hotnews_en_b6480462",
+    "date": "2026-10-23",
+    "ts": 1792739972000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261012115140_40_a.jpg",
+    "title": "S. Korea Vows to Help UN Uphold Solidarity, Improve Efficiency",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205078"
+  },
+  {
+    "id": "hotnews_en_027a3a5c",
+    "date": "2026-10-23",
+    "ts": 1792739870000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023008000315_03_i_P2.jpg",
+    "title": "Justin Bieber makes surprise visit to S. Korea after 13 years",
+    "link": "https://en.yna.co.kr/view/AEN20261023008000315"
+  },
+  {
+    "id": "hotnews_en_77634134",
+    "date": "2026-10-23",
+    "ts": 1792739655000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023040013_68_i.jpg",
+    "title": "Science Minister Vows to Devise Interministerial Measures to Address PHP Security Flaw",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205077"
+  },
+  {
+    "id": "hotnews_en_4d57c257",
+    "date": "2026-10-23",
+    "ts": 1792739295000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006651320_01_i_P2.jpg",
+    "title": "Woori Financial Q3 net falls 16 pct on one-time factor",
+    "link": "https://en.yna.co.kr/view/AEN20261023006651320"
+  },
+  {
+    "id": "hotnews_en_e86d4bf7",
+    "date": "2026-10-23",
+    "ts": 1792739063000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.0be2480bd95a47159d2dd2e07ecd5f40_T1.jpg",
+    "title": "Winter is already knocking",
+    "link": "https://www.koreaherald.com/article/10913092"
+  },
+  {
+    "id": "hotnews_en_c95e923f",
+    "date": "2026-10-23",
+    "ts": 1792738593000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004451315_02_i_P2.jpg",
+    "title": "Special counsel says deceased NEC official's note cites no coercion",
+    "link": "https://en.yna.co.kr/view/AEN20261023004451315"
+  },
+  {
+    "id": "hotnews_en_4b261a46",
+    "date": "2026-10-23",
+    "ts": 1792738586000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023035947_31_k.jpg",
+    "title": "KOSPI Up 0.30% Friday",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205076"
+  },
+  {
+    "id": "hotnews_en_9f7feca3",
+    "date": "2026-10-23",
+    "ts": 1792738397000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006500315_01_i_P2.jpg",
+    "title": "Army's Ground Operations Command stages field training drills linked to counterfire warfare",
+    "link": "https://en.yna.co.kr/view/AEN20261023006500315"
+  },
+  {
     "id": "hotnews_en_3e788094",
     "date": "2026-10-23",
     "ts": 1792732023000,
@@ -86,317 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004600315_01_i_P2.jpg",
     "title": "Military academy merger plan delayed amid ongoing deliberations: official",
     "link": "https://en.yna.co.kr/view/AEN20261023004600315"
-  },
-  {
-    "id": "hotnews_en_c3c2f93f",
-    "date": "2026-10-23",
-    "ts": 1792726016000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004400315_01_i_P2.jpg",
-    "title": "Special counsel says deceased NEC official's note cites no coercion",
-    "link": "https://en.yna.co.kr/view/AEN20261023004400315"
-  },
-  {
-    "id": "hotnews_en_6f6695fb",
-    "date": "2026-10-23",
-    "ts": 1792724553000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305250001300_P2.jpg",
-    "title": "Bereaved family members denounce labor inspection results on Coupang",
-    "link": "https://en.yna.co.kr/view/AEN20261023004300315"
-  },
-  {
-    "id": "hotnews_en_6c5ec00c",
-    "date": "2026-10-23",
-    "ts": 1792724402000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072407740001300_P2.jpg",
-    "title": "Number of laying hens raised at local farms up in Q3",
-    "link": "https://en.yna.co.kr/view/AEN20261023001400320"
-  },
-  {
-    "id": "hotnews_en_6d9b5741",
-    "date": "2026-10-23",
-    "ts": 1792723878000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.ecb21197a18d4b31b0c8c3c9864b2689_T1.jpg",
-    "title": "TWS to ‘light up’ fans with 2nd single",
-    "link": "https://www.koreaherald.com/article/10912763"
-  },
-  {
-    "id": "hotnews_en_51414d5c",
-    "date": "2026-10-23",
-    "ts": 1792723786000,
-    "image": "https://img.yna.co.kr/photo/cms/2025/05/10/16/PCM20250510000016017_P2.jpg",
-    "title": "Over 80 production houses, 95,000 people in S. Korea involved in Netflix content over past 10 yrs",
-    "link": "https://en.yna.co.kr/view/AEN20261023004100320"
-  },
-  {
-    "id": "hotnews_en_8f2a3448",
-    "date": "2026-10-23",
-    "ts": 1792723700000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/rcv.YNA.20261023.PYH2026102301580001300_T1.jpg",
-    "title": "DP lawmaker says long road ahead to bring justice to Itaewon disaster victims",
-    "link": "https://www.koreaherald.com/article/10912754"
-  },
-  {
-    "id": "hotnews_en_6d7b9bd3",
-    "date": "2026-10-23",
-    "ts": 1792723695000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.4c3976d9d684478496511e16524ae3d5_T1.jpg",
-    "title": "Woman kills her own mother, tells police she 'did bad thing to her stepmother'",
-    "link": "https://www.koreaherald.com/article/10912753"
-  },
-  {
-    "id": "hotnews_en_aab338da",
-    "date": "2026-10-23",
-    "ts": 1792723463000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.656218b7d2e2415cb80619dbee4bc5b8_T1.jpg",
-    "title": "Seoul calls for North Korean apology over mine blast in letter to UN Security Council",
-    "link": "https://www.koreaherald.com/article/10912741"
-  },
-  {
-    "id": "hotnews_en_8988aa7e",
-    "date": "2026-10-23",
-    "ts": 1792723410000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023114541_27_e.jpg",
-    "title": "Police Refer Incheon Stabbing Suspect to Indictment Agency",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205068"
-  },
-  {
-    "id": "hotnews_en_d8968f34",
-    "date": "2026-10-23",
-    "ts": 1792723263000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.9e7d1cf43984494bb649b4420af556ff_T1.jpg",
-    "title": "I-dle’s Minnie teases solo EP",
-    "link": "https://www.koreaherald.com/article/10912728"
-  },
-  {
-    "id": "hotnews_en_79572407",
-    "date": "2026-10-23",
-    "ts": 1792721152000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023003600315_03_i_P2.jpg",
-    "title": "Lee calls for proactive prevention of violent crimes to build 'supersafe' society",
-    "link": "https://en.yna.co.kr/view/AEN20261023003600315"
-  },
-  {
-    "id": "hotnews_en_59d40673",
-    "date": "2026-10-23",
-    "ts": 1792721087000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.e6dd4c5831194b8892f1cfe0e73d55ca_T1.png",
-    "title": "Middle schooler beaten by fellow students over deepfake images of classmates",
-    "link": "https://www.koreaherald.com/article/10912616"
-  },
-  {
-    "id": "hotnews_en_1007024e",
-    "date": "2026-10-23",
-    "ts": 1792720970000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.94a0612d2e0042d4a52b936c7ac0c306_T1.jpg",
-    "title": "Korea's Q3 art auction sales fall 11% as top-end deals dry up",
-    "link": "https://www.koreaherald.com/article/10912610"
-  },
-  {
-    "id": "hotnews_en_e7549906",
-    "date": "2026-10-23",
-    "ts": 1792720821000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.7a571c2e81a3423eb8c3d3eb38b208e9_T1.jpg",
-    "title": "'I want to be soldier one day': girl's promise revealed 11 years later",
-    "link": "https://www.koreaherald.com/article/10912599"
-  },
-  {
-    "id": "hotnews_en_3f66741c",
-    "date": "2026-10-23",
-    "ts": 1792720300000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102218450001300_P2.jpg",
-    "title": "Lee's approval rating hits 40 pct for 1st time since early Sept.: poll",
-    "link": "https://en.yna.co.kr/view/AEN20261023003200315"
-  },
-  {
-    "id": "hotnews_en_f9ec4921",
-    "date": "2026-10-23",
-    "ts": 1792719645000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023090119_17_k.jpg",
-    "title": "SK hynix to Suspend IPO Procedures for US Subsidiary Solidigm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205064"
-  },
-  {
-    "id": "hotnews_en_74ac94a6",
-    "date": "2026-10-23",
-    "ts": 1792719158000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.a69c31e9a650429ba1f232c9ad0b339a_T1.jpg",
-    "title": "GS Caltex showcases AI-driven workplace innovations",
-    "link": "https://www.koreaherald.com/article/10912481"
-  },
-  {
-    "id": "hotnews_en_3db6a0c3",
-    "date": "2026-10-23",
-    "ts": 1792718844000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002400320_03_i_P2.jpg",
-    "title": "HD Hyundai, Kiewit to form JV to build shipyard in U.S.",
-    "link": "https://en.yna.co.kr/view/AEN20261023002400320"
-  },
-  {
-    "id": "hotnews_en_d9cff23a",
-    "date": "2026-10-23",
-    "ts": 1792718597000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.cdc3fbd2250449cab752a917d23143de_T1.jpg",
-    "title": "Women's hotline receives nearly 300k calls a year, half for domestic violence",
-    "link": "https://www.koreaherald.com/article/10912453"
-  },
-  {
-    "id": "hotnews_en_20cb61e2",
-    "date": "2026-10-23",
-    "ts": 1792717721000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002300315_01_i_P2.jpg",
-    "title": "Lee set to meet with chief of Japanese business association",
-    "link": "https://en.yna.co.kr/view/AEN20261023002300315"
-  },
-  {
-    "id": "hotnews_en_4c34af9d",
-    "date": "2026-10-23",
-    "ts": 1792717200000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023090119_17_k.jpg",
-    "title": "Gasoline Price Edges Up, Diesel Slips at Gas Stations",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205065"
-  },
-  {
-    "id": "hotnews_en_2a223500",
-    "date": "2026-10-23",
-    "ts": 1792717163000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.f0cb4fe0af044888a478e6ff83de8a2b_T1.jpg",
-    "title": "Illit’s upcoming album logs half a million Spotify ‘pre-saves’",
-    "link": "https://www.koreaherald.com/article/10912383"
-  },
-  {
-    "id": "hotnews_en_92dcabe2",
-    "date": "2026-10-23",
-    "ts": 1792715947000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.33f94facdd47410393298bd95a1e3b18_T1.jpg",
-    "title": "BTS amasses 200m views with ‘2.0’ music video",
-    "link": "https://www.koreaherald.com/article/10912312"
-  },
-  {
-    "id": "hotnews_en_3aef0600",
-    "date": "2026-10-23",
-    "ts": 1792715400000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023085823_6_k.jpg",
-    "title": "KOSPI Opens Sharply Down 2.4% on Friday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205066"
-  },
-  {
-    "id": "hotnews_en_0016ddab",
-    "date": "2026-10-23",
-    "ts": 1792715315000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002200320_01_i_P2.jpg",
-    "title": "Hyundai Motor supplies 11 electric buses to Indonesia's Bali",
-    "link": "https://en.yna.co.kr/view/AEN20261023002200320"
-  },
-  {
-    "id": "hotnews_en_c535d78f",
-    "date": "2026-10-23",
-    "ts": 1792715061000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002100315_01_i_P2.jpg",
-    "title": "N. Korea likely planted 960,000 land mines along inter-Korean border since 2024: lawmakers",
-    "link": "https://en.yna.co.kr/view/AEN20261023002100315"
-  },
-  {
-    "id": "hotnews_en_ee08b037",
-    "date": "2026-10-23",
-    "ts": 1792714938000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023092521_63_e.jpg",
-    "title": "Court Issues Pretrial Detention Warrant for Yeoksam Arson Suspect",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205062"
-  },
-  {
-    "id": "hotnews_en_83be1d81",
-    "date": "2026-10-23",
-    "ts": 1792714799000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023001251320_02_i_P2.jpg",
-    "title": "Seoul shares open sharply lower amid persistent AI woes, rising oil prices",
-    "link": "https://en.yna.co.kr/view/AEN20261023001251320"
-  },
-  {
-    "id": "hotnews_en_42478bd8",
-    "date": "2026-10-22",
-    "ts": 1792705622000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/12/15fe78f9-9266-4d79-aec8-2e58a962b88d.jpeg",
-    "title": "African architect's career break leads to unexpected modeling fame in Korea",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261023/african-architects-career-break-leads-to-unexpected-modeling-fame-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_8e7a5664",
-    "date": "2026-10-22",
-    "ts": 1792702987000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023000300315_01_i_P2.jpg",
-    "title": "Trump-Kim summit unlikely in near future amid N. Korean demands: U.S. experts",
-    "link": "https://en.yna.co.kr/view/AEN20261023000300315"
-  },
-  {
-    "id": "hotnews_en_6712de3f",
-    "date": "2026-10-22",
-    "ts": 1792702810000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022006700320_01_i_P2.jpg",
-    "title": "Delinquency ratio on bank loans up for 2nd month in Aug.",
-    "link": "https://en.yna.co.kr/view/AEN20261022006700320"
-  },
-  {
-    "id": "hotnews_en_c4e10cf7",
-    "date": "2026-10-22",
-    "ts": 1792701000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.3a73e3f3124c4e2591796ca9992bffb8_T1.jpg",
-    "title": "[Lee Byung-jong] President Lee’s X posts",
-    "link": "https://www.koreaherald.com/article/10911830"
-  },
-  {
-    "id": "hotnews_en_9b8babe8",
-    "date": "2026-10-22",
-    "ts": 1792698417000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092901220031500_P2.jpg",
-    "title": "S. Korea sends letter to UNSC urging N. Korea to take responsibility for DMZ mine blasts",
-    "link": "https://en.yna.co.kr/view/AEN20261023000200315"
-  },
-  {
-    "id": "hotnews_en_6def5385",
-    "date": "2026-10-22",
-    "ts": 1792692705000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022012300315_01_i_P2.jpg",
-    "title": "U.S. envoy highlights shipbuilding cooperation with S. Korea in visit to Samsung Heavy's Geoje shipyard",
-    "link": "https://en.yna.co.kr/view/AEN20261022012300315"
-  },
-  {
-    "id": "hotnews_en_e5c7b9db",
-    "date": "2026-10-22",
-    "ts": 1792673198000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.7dc006dd8f25436b9b009bc8187d8e97_T1.png",
-    "title": "34 student activists convicted of illegal entry into presidential compound, US base",
-    "link": "https://www.koreaherald.com/article/10911953"
-  },
-  {
-    "id": "hotnews_en_c19d5662",
-    "date": "2026-10-22",
-    "ts": 1792671124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/813529c1-8854-474e-98ca-0069393d5296.jpg",
-    "title": "Yonsei University portal hack leaks data of 10,000 students, graduates",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/yonsei-university-portal-hack-leaks-data-of-10000-students-graduates?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_9f350ea9",
-    "date": "2026-10-22",
-    "ts": 1792671124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/30a0467b-e5e8-473d-a578-d00434a633c1.jpg",
-    "title": "Ex-officials defend 2019 repatriation of NK fishermen as criminal deportation",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261022/ex-officials-defend-2019-repatriation-of-nk-fishermen-as-criminal-deportation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_783ec3e3",
-    "date": "2026-10-22",
-    "ts": 1792671124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/d6a253f2-b6b2-4499-9026-2e8b33e47a9d.jpg",
-    "title": "Seoul offers no response to US Eighth Army commander remarks on broader USFK role",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/seoul-offers-no-response-to-us-eighth-army-commander-remarks-on-broader-usfk-role?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e03145e6",
-    "date": "2026-10-22",
-    "ts": 1792671124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/51297dae-89eb-44f9-b50d-79be84d3c341.jpg",
-    "title": "US troops in S. Korea must be ready for missions beyond peninsula, commander says",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/us-troops-in-s-korea-must-be-ready-for-missions-beyond-peninsula-commander-says?utm_source=rss"
   }
 ]

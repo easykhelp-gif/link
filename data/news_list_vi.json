@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_e972ba5d",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/2adcbc32-fe5b-4b57-bd7a-142f6d720a33.jpeg",
+    "title": "Thị trưởng Seoul Oh Se-hoon thoát tội, giữ cơ hội tranh cử tổng thống",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/cover-story-acquittal-revives-seoul-mayors-presidential-prospects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_2daa750e",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/8bb11ad3-0570-432f-8181-57724aad2891.jpg",
+    "title": "Phát hiện lao động IT Triều Tiên giả mạo danh tính tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_943c9198",
+    "date": "2026-10-23",
+    "ts": 1792756323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/3df330cb-6197-4743-bfe2-8fb56e78288d.jpg",
+    "title": "Nam sinh bị rắn hổ mang cắn khi bán trái phép",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/middle-schooler-bitten-by-pet-cobra-spotlighting-illegal-exotic-pet-ownership?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_c024ead8",
+    "date": "2026-10-23",
+    "ts": 1792749326000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023060240_10_e.jpg",
+    "title": "Bộ trưởng Đất đai: Giá nhà tăng chậm lại",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205087"
+  },
+  {
+    "id": "hotnews_vi_325ebd74",
+    "date": "2026-10-23",
+    "ts": 1792748253000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023010000315_02_i_P2.jpg",
+    "title": "Tình báo Hàn Quốc bác bỏ tin đồn Kim Jong-un qua đời",
+    "link": "https://en.yna.co.kr/view/AEN20261023010000315"
+  },
+  {
+    "id": "hotnews_vi_4f88d386",
+    "date": "2026-10-23",
+    "ts": 1792747407000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202310/231026093942_40_k.jpg",
+    "title": "Tài xế xe buýt tỉnh Gyeonggi bỏ phiếu đình công",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205085"
+  },
+  {
+    "id": "hotnews_vi_b1195997",
+    "date": "2026-10-23",
+    "ts": 1792741549000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102310200001301_P2.jpg",
+    "title": "Hàn Quốc đề xuất hội đàm quân sự với Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261023005752315"
+  },
+  {
+    "id": "hotnews_vi_0985dc24",
+    "date": "2026-10-23",
+    "ts": 1792741356000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102309810001300_P2.jpg",
+    "title": "Tòa phúc thẩm Seoul tuyên trắng án cho Thị trưởng Oh Se-hoon",
+    "link": "https://en.yna.co.kr/view/AEN20261023006151315"
+  },
+  {
+    "id": "hotnews_vi_027a3a5c",
+    "date": "2026-10-23",
+    "ts": 1792739870000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023008000315_03_i_P2.jpg",
+    "title": "Justin Bieber đến Hàn Quốc bất ngờ sau 13 năm",
+    "link": "https://en.yna.co.kr/view/AEN20261023008000315"
+  },
+  {
+    "id": "hotnews_vi_c95e923f",
+    "date": "2026-10-23",
+    "ts": 1792738593000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004451315_02_i_P2.jpg",
+    "title": "Vụ quan chức NEC qua đời: Đội ngũ điều tra bác bỏ ép cung",
+    "link": "https://en.yna.co.kr/view/AEN20261023004451315"
+  },
+  {
     "id": "hotnews_vi_3e788094",
     "date": "2026-10-23",
     "ts": 1792732023000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022013233_35_e.jpg",
     "title": "Ngân hàng Trung ương Hàn Quốc duy trì chính sách tiền tệ thắt chặt",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205051"
-  },
-  {
-    "id": "hotnews_vi_accbab91",
-    "date": "2026-10-22",
-    "ts": 1792645710000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022011030_30_e.jpg",
-    "title": "Hàn Quốc ghi nhận đợt sương muối và băng giá đầu tiên trong mùa thu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205045"
-  },
-  {
-    "id": "hotnews_vi_daf6e85c",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/0b92dd87-9a5c-481c-ba8c-20f996378810.jpg",
-    "title": "Không quân Hàn-Mỹ hợp tác về nền tảng chiến đấu tự động",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261022/s-korean-us-air-forces-to-bolster-autonomous-combat-platform-cooperation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_85e84439",
-    "date": "2026-10-22",
-    "ts": 1792645623000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/e076c2b3-edba-4829-85fa-91b7836358a0.jpeg",
-    "title": "Nhóm đại học Soongsil và Chung-Ang chế tạo công nghệ MUTE",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261022/soongsil-university-chung-ang-university-team-develops-technology-to-disrupt-lip-sync-deepfakes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_f9bf3251",
-    "date": "2026-10-22",
-    "ts": 1792643943000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022112115_50_r.jpg",
-    "title": "Chỉ huy Tập đoàn quân số 8 Mỹ yêu cầu quân đội sẵn sàng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205044"
-  },
-  {
-    "id": "hotnews_vi_6d25d51a",
-    "date": "2026-10-22",
-    "ts": 1792637280000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-a.v1.20261022.46ac67246b5343228b50732368a5c07a_T1.png",
-    "title": "Biên đạo Ian Eastwood kết nối lại với giới vũ đạo Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10911297"
-  },
-  {
-    "id": "hotnews_vi_2ba23f7a",
-    "date": "2026-10-22",
-    "ts": 1792637261000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022113758_15_k.jpg",
-    "title": "Tòa án xử trung ương và Seoul thắng kiện thuế Lone Star",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205041"
-  },
-  {
-    "id": "hotnews_vi_1430cffb",
-    "date": "2026-10-22",
-    "ts": 1792636555000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022004300315_01_i_P2.jpg",
-    "title": "Hàn Quốc giục Triều Tiên dừng leo thang ở biên giới",
-    "link": "https://en.yna.co.kr/view/AEN20261022004300315"
-  },
-  {
-    "id": "hotnews_vi_5686dcc5",
-    "date": "2026-10-22",
-    "ts": 1792635162000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022004000315_01_i_P2.jpg",
-    "title": "Khách du lịch đến Hàn Quốc tăng mạnh, vượt năm ngoái",
-    "link": "https://en.yna.co.kr/view/AEN20261022004000315"
-  },
-  {
-    "id": "hotnews_vi_b317e8b7",
-    "date": "2026-10-22",
-    "ts": 1792634307000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.d1283f4b0d3546ec83bf748ed058f613_T1.jpg",
-    "title": "Lộ thông tin tại Đại học Yonsei",
-    "link": "https://www.koreaherald.com/article/10911121"
-  },
-  {
-    "id": "hotnews_vi_45d9a4f2",
-    "date": "2026-10-22",
-    "ts": 1792634261000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.eb3b9fb5db5e44f5a679d0097a84b8c0_T1.jpg",
-    "title": "Siêu bão Champi tiến về phía bắc, Hàn Quốc có mưa lớn",
-    "link": "https://www.koreaherald.com/article/10911120"
   }
 ]
