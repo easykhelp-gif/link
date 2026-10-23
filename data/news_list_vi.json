@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_vi_3f7e0a71",
+    "date": "2026-10-23",
+    "ts": 1792776423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/8265e383-41e3-4770-b3d8-ad3fe37eec89.jpeg",
+    "title": "Giới trẻ Hàn Quốc đang say mê với thú vui ngắm chim",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261024/birdwatching-takes-off-among-young-koreans?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_65f48db5",
+    "date": "2026-10-23",
+    "ts": 1792776423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/63b1d7c1-d2ea-4d10-ab5e-894f11036f23.jpeg",
+    "title": "Biến đổi khí hậu làm mùa xuân đến sớm và mùa thu muộn hơn",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261024/spring-comes-earlier-autumn-foliage-later-as-climate-change-alters-forests?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_a938ecef",
+    "date": "2026-10-23",
+    "ts": 1792773242000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000400315_01_i_P2.jpg",
+    "title": "Hàn Quốc tặng 8 trực thăng quân sự cho Liên Hợp Quốc tại Kenya",
+    "link": "https://en.yna.co.kr/view/AEN20261024000400315"
+  },
+  {
+    "id": "hotnews_vi_b68876d8",
+    "date": "2026-10-23",
+    "ts": 1792772154000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000300315_01_i_P2.jpg",
+    "title": "Melania Trump đạt thỏa thuận ngừng bắn nhân đạo tại Oleshky",
+    "link": "https://en.yna.co.kr/view/AEN20261024000300315"
+  },
+  {
+    "id": "hotnews_vi_529b094e",
+    "date": "2026-10-23",
+    "ts": 1792759297000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023010100315_01_i_P2.jpg",
+    "title": "Thủ tướng Đức Friedrich Merz thăm Hàn Quốc vào tuần tới",
+    "link": "https://en.yna.co.kr/view/AEN20261023010100315"
+  },
+  {
+    "id": "hotnews_vi_5aa870b3",
+    "date": "2026-10-23",
+    "ts": 1792757093000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002351315_02_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung thúc đẩy hợp tác kinh tế với Nhật Bản",
+    "link": "https://en.yna.co.kr/view/AEN20261023002351315"
+  },
+  {
     "id": "hotnews_vi_e972ba5d",
     "date": "2026-10-23",
     "ts": 1792756323000,
@@ -48,6 +96,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205085"
   },
   {
+    "id": "hotnews_vi_2c33acd1",
+    "date": "2026-10-23",
+    "ts": 1792745690000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260527090547_37_k.jpg",
+    "title": "Dự báo có mưa lớn ở bờ biển phía Nam và đảo Jeju cuối tuần này",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205084"
+  },
+  {
     "id": "hotnews_vi_b1195997",
     "date": "2026-10-23",
     "ts": 1792741549000,
@@ -64,12 +120,36 @@
     "link": "https://en.yna.co.kr/view/AEN20261023006151315"
   },
   {
+    "id": "hotnews_vi_894285a9",
+    "date": "2026-10-23",
+    "ts": 1792740371000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102306850001300_P2.jpg",
+    "title": "Thống đốc BOK phát tín hiệu duy trì lập trường lãi suất cao",
+    "link": "https://en.yna.co.kr/view/AEN20261023008100320"
+  },
+  {
+    "id": "hotnews_vi_a56f1b70",
+    "date": "2026-10-23",
+    "ts": 1792740150000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023030859_98_e.jpg",
+    "title": "Công tố viên đặc biệt kháng cáo vụ Thị trưởng Seoul được tuyên trắng án",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205079"
+  },
+  {
     "id": "hotnews_vi_027a3a5c",
     "date": "2026-10-23",
     "ts": 1792739870000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023008000315_03_i_P2.jpg",
     "title": "Justin Bieber đến Hàn Quốc bất ngờ sau 13 năm",
     "link": "https://en.yna.co.kr/view/AEN20261023008000315"
+  },
+  {
+    "id": "hotnews_vi_4d57c257",
+    "date": "2026-10-23",
+    "ts": 1792739295000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006651320_01_i_P2.jpg",
+    "title": "Lợi nhuận quý 3 của Woori Financial giảm 16% do yếu tố một lần",
+    "link": "https://en.yna.co.kr/view/AEN20261023006651320"
   },
   {
     "id": "hotnews_vi_c95e923f",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.81be57177cc74c45abf1090ae28e02d7_T1.png",
     "title": "Tòa án Hiến pháp giữ nguyên án phạt nặng cho tội giết cha mẹ",
     "link": "https://www.koreaherald.com/article/10911862"
-  },
-  {
-    "id": "hotnews_vi_015f11d3",
-    "date": "2026-10-22",
-    "ts": 1792657346000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022041847_93_e.jpg",
-    "title": "Quốc hội thông qua báo cáo điều trần Thanh tra đặc biệt",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205057"
-  },
-  {
-    "id": "hotnews_vi_014bff7f",
-    "date": "2026-10-22",
-    "ts": 1792657176000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022010300315_02_i_P2.jpg",
-    "title": "34 sinh viên Hàn Quốc bị kết tội xâm nhập căn cứ quân sự",
-    "link": "https://en.yna.co.kr/view/AEN20261022010300315"
-  },
-  {
-    "id": "hotnews_vi_343380c2",
-    "date": "2026-10-22",
-    "ts": 1792656679000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022045458_40_k.jpg",
-    "title": "Cơ quan cứu hỏa tăng cường an toàn đám đông dịp Halloween",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205056"
-  },
-  {
-    "id": "hotnews_vi_cd885a26",
-    "date": "2026-10-22",
-    "ts": 1792656501000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20260929.a7fbc3576ce74e24b47d0460bca92dcd_T1.jpg",
-    "title": "Miễn phí tàu điện ngầm cho người cao tuổi gây áp lực tài chính",
-    "link": "https://www.koreaherald.com/article/10911833"
-  },
-  {
-    "id": "hotnews_vi_e6922ada",
-    "date": "2026-10-22",
-    "ts": 1792656068000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022035727_27_e.jpg",
-    "title": "Đợt lạnh ngắn sẽ giảm vào trưa thứ Sáu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205054"
-  },
-  {
-    "id": "hotnews_vi_e1be0736",
-    "date": "2026-10-22",
-    "ts": 1792655755000,
-    "image": "https://img.yna.co.kr/photo/cms/2024/08/01/01/PCM20240801000201990_P2.jpg",
-    "title": "Hàn Quốc nâng cảnh báo mạng do lỗ hổng PHP toàn cầu",
-    "link": "https://en.yna.co.kr/view/AEN20261022007151320"
-  },
-  {
-    "id": "hotnews_vi_999ebfdc",
-    "date": "2026-10-22",
-    "ts": 1792654638000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102213920001300_P2.jpg",
-    "title": "Bộ Lao động Hàn Quốc phạt Coupang 1,96 tỷ won vì vi phạm",
-    "link": "https://en.yna.co.kr/view/AEN20261022009500315"
-  },
-  {
-    "id": "hotnews_vi_524ebf97",
-    "date": "2026-10-22",
-    "ts": 1792654600000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022008052320_03_i_P2.jpg",
-    "title": "Chứng khoán Hàn Quốc giảm mạnh hơn 3% do chốt lời và lo ngại AI",
-    "link": "https://en.yna.co.kr/view/AEN20261022008052320"
-  },
-  {
-    "id": "hotnews_vi_10b7d7e4",
-    "date": "2026-10-22",
-    "ts": 1792654430000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/26/PYH2026042602950031500_P2.jpg",
-    "title": "Phó tư lệnh UNC nhấn mạnh cần cẩn trọng vụ nổ mìn DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20261022009400315"
-  },
-  {
-    "id": "hotnews_vi_04357685",
-    "date": "2026-10-22",
-    "ts": 1792653342000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022013233_35_e.jpg",
-    "title": "Ngân hàng Trung ương Hàn Quốc duy trì chính sách tiền tệ thắt chặt",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205051"
   }
 ]
