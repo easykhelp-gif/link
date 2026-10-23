@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_3e788094",
+    "date": "2026-10-23",
+    "ts": 1792732023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/978928e7-a216-4c8f-929f-ea67a3c57fa7.jpeg",
+    "title": "ศิลปินเกาหลี Rydia ออกซิงเกิลใหม่ Saranghaeyo",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261024/korean-pop-artist-rydia-trades-verses-with-dutch-rapper-on-bilingual-single-saranghaeyo?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_ccdbfedb",
+    "date": "2026-10-23",
+    "ts": 1792731666000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.a18bf14450d145498c1f10049fe8d69d_T1.jpg",
+    "title": "Riot Games จัดกิจกรรมพิเศษฉลอง LoL Worlds 2026 และ K/DA",
+    "link": "https://www.koreaherald.com/article/10912879"
+  },
+  {
+    "id": "hotnews_th_c504f2c7",
+    "date": "2026-10-23",
+    "ts": 1792731000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.88549b8f50a44165b6c020f5c4ac0bab_T1.jpg",
+    "title": "ค่าย K-pop ใหญ่ไม่ส่งศิลปินร่วมชิงรางวัล Grammy",
+    "link": "https://www.koreaherald.com/article/10912862"
+  },
+  {
+    "id": "hotnews_th_6f6695fb",
+    "date": "2026-10-23",
+    "ts": 1792724553000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305250001300_P2.jpg",
+    "title": "ครอบครัวผู้เสียชีวิตประณามผลตรวจสอบแรงงาน Coupang",
+    "link": "https://en.yna.co.kr/view/AEN20261023004300315"
+  },
+  {
+    "id": "hotnews_th_51414d5c",
+    "date": "2026-10-23",
+    "ts": 1792723786000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/05/10/16/PCM20250510000016017_P2.jpg",
+    "title": "เน็ตฟลิกซ์ร่วมงานกว่า 80 บริษัทในเกาหลีใต้รอบ 10 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261023004100320"
+  },
+  {
+    "id": "hotnews_th_6d7b9bd3",
+    "date": "2026-10-23",
+    "ts": 1792723695000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.4c3976d9d684478496511e16524ae3d5_T1.jpg",
+    "title": "หญิงเกาหลีใต้ฆ่าแม่แท้ๆ ของตนเองในโซล",
+    "link": "https://www.koreaherald.com/article/10912753"
+  },
+  {
+    "id": "hotnews_th_79572407",
+    "date": "2026-10-23",
+    "ts": 1792721152000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023003600315_03_i_P2.jpg",
+    "title": "อี แจมยอง สั่งป้องกันอาชญากรรมรุนแรงสร้างสังคมปลอดภัยสูงสุด",
+    "link": "https://en.yna.co.kr/view/AEN20261023003600315"
+  },
+  {
+    "id": "hotnews_th_3f66741c",
+    "date": "2026-10-23",
+    "ts": 1792720300000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102218450001300_P2.jpg",
+    "title": "คะแนนนิยมประธานาธิบดีอีแจมยองพุ่งแตะ 40 เปอร์เซ็นต์",
+    "link": "https://en.yna.co.kr/view/AEN20261023003200315"
+  },
+  {
+    "id": "hotnews_th_f9ec4921",
+    "date": "2026-10-23",
+    "ts": 1792719645000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023090119_17_k.jpg",
+    "title": "SK hynix ระงับกระบวนการ IPO ของ Solidigm ในสหรัฐฯ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205064"
+  },
+  {
+    "id": "hotnews_th_c535d78f",
+    "date": "2026-10-23",
+    "ts": 1792715061000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002100315_01_i_P2.jpg",
+    "title": "เกาหลีเหนือฝังทุ่นระเบิดเกือบ 1 ล้านลูกบริเวณพรมแดนตั้งแต่ปี 2024",
+    "link": "https://en.yna.co.kr/view/AEN20261023002100315"
+  },
+  {
     "id": "hotnews_th_42478bd8",
     "date": "2026-10-22",
     "ts": 1792705622000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.eb3b9fb5db5e44f5a679d0097a84b8c0_T1.jpg",
     "title": "ไต้ฝุ่นแชมปีเคลื่อนตัวขึ้นเหนือ เตือนฝนตกหนักสุดสัปดาห์นี้",
     "link": "https://www.koreaherald.com/article/10911120"
-  },
-  {
-    "id": "hotnews_th_5cb50ba2",
-    "date": "2026-10-21",
-    "ts": 1792617329000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "น้องสาวผู้นำเกาหลีเหนือเผยลำโพงโจมตีเกาหลีใต้จะพร้อมใช้งาน",
-    "link": "https://en.yna.co.kr/view/AEN20261022001000320"
-  },
-  {
-    "id": "hotnews_th_1ffff646",
-    "date": "2026-10-21",
-    "ts": 1792616407000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021007200315_01_i_P2.jpg",
-    "title": "คิวบารุกกระชับสัมพันธ์เกาหลีใต้ท่ามกลางวิกฤตเศรษฐกิจ",
-    "link": "https://en.yna.co.kr/view/AEN20261021007200315"
-  },
-  {
-    "id": "hotnews_th_f349ae16",
-    "date": "2026-10-21",
-    "ts": 1792614600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/news-p.v1.20261021.d5ce5a9847da4b5082721593ddc75aa2_T1.jpeg",
-    "title": "เกาหลีใต้มีสิทธิบัตรผมร่วงมากสุด แต่งดเว้นการเก็บสถิติผู้ป่วย",
-    "link": "https://www.koreaherald.com/article/10910506"
-  },
-  {
-    "id": "hotnews_th_99d59589",
-    "date": "2026-10-21",
-    "ts": 1792614600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/news-p.v1.20261021.993c7dd3aba1479d937358ec9ec10bac_T1.jpg",
-    "title": "ชาวเกาหลีใต้ผิดหวังความเห็นผู้บัญชาการทหารสหรัฐฯ",
-    "link": "https://www.koreaherald.com/article/10910386"
-  },
-  {
-    "id": "hotnews_th_524266e8",
-    "date": "2026-10-21",
-    "ts": 1792614356000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022000300315_01_i_P2.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ ปิดฉากการซ้อมรบกวาดลุ่นทุ่นระเบิดทางทะเลที่ปูซาน",
-    "link": "https://en.yna.co.kr/view/AEN20261022000300315"
-  },
-  {
-    "id": "hotnews_th_e7bc5994",
-    "date": "2026-10-21",
-    "ts": 1792610570000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100717220031500_P2.jpg",
-    "title": "แม่ทัพที่ 8 สหรัฐระบุทหารในเกาหลีต้องพร้อมรับมือภัยคุกคามนอกคาบสมุทร",
-    "link": "https://en.yna.co.kr/view/AEN20261022000200315"
-  },
-  {
-    "id": "hotnews_th_69cbc69a",
-    "date": "2026-10-21",
-    "ts": 1792598034000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021011300315_02_i_P2.jpg",
-    "title": "Nvidia ดึง Samsung Electro-Mechanics เข้าห่วงโซ่อุปทาน",
-    "link": "https://en.yna.co.kr/view/AEN20261021011300315"
-  },
-  {
-    "id": "hotnews_th_b69e1e22",
-    "date": "2026-10-21",
-    "ts": 1792588766000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021002551315_02_i_P2.jpg",
-    "title": "ประธานาธิบดีอีแจมยองพบผู้อำนวยการ WHO ถือหุ้นความร่วมมือด้านสาธารณสุข",
-    "link": "https://en.yna.co.kr/view/AEN20261021002551315"
-  },
-  {
-    "id": "hotnews_th_9587d0eb",
-    "date": "2026-10-21",
-    "ts": 1792587744000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021011100320_01_i_P2.jpg",
-    "title": "ศาลรัฐธรรมนูญเกาหลีอนุญาต สส. อี จินซุก ร่วมการตรวจสอบของรัฐสภา",
-    "link": "https://en.yna.co.kr/view/AEN20261021011100320"
-  },
-  {
-    "id": "hotnews_th_c18ac6b1",
-    "date": "2026-10-21",
-    "ts": 1792586014000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021003451315_01_i_P2.jpg",
-    "title": "ตำรวจขอหมายจับชายเผาอาคารในคังนัมทำให้มีผู้บาดเจ็บ 19 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261021003451315"
   }
 ]

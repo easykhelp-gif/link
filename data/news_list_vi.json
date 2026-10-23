@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_3e788094",
+    "date": "2026-10-23",
+    "ts": 1792732023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/978928e7-a216-4c8f-929f-ea67a3c57fa7.jpeg",
+    "title": "Ca sĩ Rydia phát hành đĩa đơn song ngữ 'Saranghaeyo'",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261024/korean-pop-artist-rydia-trades-verses-with-dutch-rapper-on-bilingual-single-saranghaeyo?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_ccdbfedb",
+    "date": "2026-10-23",
+    "ts": 1792731666000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.a18bf14450d145498c1f10049fe8d69d_T1.jpg",
+    "title": "Riot Games hợp tác tại Hàn Quốc nhân dịp LoL Worlds và K/DA",
+    "link": "https://www.koreaherald.com/article/10912879"
+  },
+  {
+    "id": "hotnews_vi_c504f2c7",
+    "date": "2026-10-23",
+    "ts": 1792731000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.88549b8f50a44165b6c020f5c4ac0bab_T1.jpg",
+    "title": "Các công ty K-pop lớn bỏ qua hạng mục nhạc pop châu Á của Grammy",
+    "link": "https://www.koreaherald.com/article/10912862"
+  },
+  {
+    "id": "hotnews_vi_6f6695fb",
+    "date": "2026-10-23",
+    "ts": 1792724553000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305250001300_P2.jpg",
+    "title": "Tang gia Coupang phản đối kết quả thanh tra lao động",
+    "link": "https://en.yna.co.kr/view/AEN20261023004300315"
+  },
+  {
+    "id": "hotnews_vi_51414d5c",
+    "date": "2026-10-23",
+    "ts": 1792723786000,
+    "image": "https://img.yna.co.kr/photo/cms/2025/05/10/16/PCM20250510000016017_P2.jpg",
+    "title": "Netflix công bố dữ liệu 10 năm hoạt động tại Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261023004100320"
+  },
+  {
+    "id": "hotnews_vi_6d7b9bd3",
+    "date": "2026-10-23",
+    "ts": 1792723695000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.4c3976d9d684478496511e16524ae3d5_T1.jpg",
+    "title": "Bắt khẩn cấp phụ nữ sát hại mẹ ruột ở Seoul",
+    "link": "https://www.koreaherald.com/article/10912753"
+  },
+  {
+    "id": "hotnews_vi_79572407",
+    "date": "2026-10-23",
+    "ts": 1792721152000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023003600315_03_i_P2.jpg",
+    "title": "Tổng thống Lee kêu gọi ngăn chặn tội phạm bạo lực",
+    "link": "https://en.yna.co.kr/view/AEN20261023003600315"
+  },
+  {
+    "id": "hotnews_vi_3f66741c",
+    "date": "2026-10-23",
+    "ts": 1792720300000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102218450001300_P2.jpg",
+    "title": "Tỷ lệ ủng hộ Tổng thống Lee Jae Myung đạt 40%",
+    "link": "https://en.yna.co.kr/view/AEN20261023003200315"
+  },
+  {
+    "id": "hotnews_vi_f9ec4921",
+    "date": "2026-10-23",
+    "ts": 1792719645000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023090119_17_k.jpg",
+    "title": "SK hynix hoãn thủ tục IPO công ty con tại Mỹ Solidigm",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205064"
+  },
+  {
+    "id": "hotnews_vi_c535d78f",
+    "date": "2026-10-23",
+    "ts": 1792715061000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002100315_01_i_P2.jpg",
+    "title": "Triều Tiên cài khoảng 960.000 mìn dọc biên giới từ năm 2024",
+    "link": "https://en.yna.co.kr/view/AEN20261023002100315"
+  },
+  {
     "id": "hotnews_vi_42478bd8",
     "date": "2026-10-22",
     "ts": 1792705622000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.eb3b9fb5db5e44f5a679d0097a84b8c0_T1.jpg",
     "title": "Siêu bão Champi tiến về phía bắc, Hàn Quốc có mưa lớn",
     "link": "https://www.koreaherald.com/article/10911120"
-  },
-  {
-    "id": "hotnews_vi_5cb50ba2",
-    "date": "2026-10-21",
-    "ts": 1792617329000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Triều Tiên sắp mở lại loa phóng thanh chống Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261022001000320"
-  },
-  {
-    "id": "hotnews_vi_1ffff646",
-    "date": "2026-10-21",
-    "ts": 1792616407000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021007200315_01_i_P2.jpg",
-    "title": "Cuba muốn thắt chặt quan hệ kinh tế với Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261021007200315"
-  },
-  {
-    "id": "hotnews_vi_f349ae16",
-    "date": "2026-10-21",
-    "ts": 1792614600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/news-p.v1.20261021.d5ce5a9847da4b5082721593ddc75aa2_T1.jpeg",
-    "title": "Hàn Quốc dẫn đầu bằng sáng chế rụng tóc nhưng thiếu thống kê bệnh nhân",
-    "link": "https://www.koreaherald.com/article/10910506"
-  },
-  {
-    "id": "hotnews_vi_99d59589",
-    "date": "2026-10-21",
-    "ts": 1792614600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/news-p.v1.20261021.993c7dd3aba1479d937358ec9ec10bac_T1.jpg",
-    "title": "Phát ngôn của Tướng Brunson gây thất vọng tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10910386"
-  },
-  {
-    "id": "hotnews_vi_524266e8",
-    "date": "2026-10-21",
-    "ts": 1792614356000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022000300315_01_i_P2.jpg",
-    "title": "Hàn-Mỹ kết thúc tập trận chiến tranh thủy lôi đa quốc gia ở Busan",
-    "link": "https://en.yna.co.kr/view/AEN20261022000300315"
-  },
-  {
-    "id": "hotnews_vi_e7bc5994",
-    "date": "2026-10-21",
-    "ts": 1792610570000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100717220031500_P2.jpg",
-    "title": "Tư lệnh Tập đoàn quân 8 Mỹ nhấn mạnh sẵn sàng ứng phó mối đe dọa mới",
-    "link": "https://en.yna.co.kr/view/AEN20261022000200315"
-  },
-  {
-    "id": "hotnews_vi_69cbc69a",
-    "date": "2026-10-21",
-    "ts": 1792598034000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021011300315_02_i_P2.jpg",
-    "title": "Nvidia hợp tác với Samsung Electro-Mechanics cung cấp đế bán dẫn",
-    "link": "https://en.yna.co.kr/view/AEN20261021011300315"
-  },
-  {
-    "id": "hotnews_vi_b69e1e22",
-    "date": "2026-10-21",
-    "ts": 1792588766000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021002551315_02_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung gặp Tổng giám đốc WHO",
-    "link": "https://en.yna.co.kr/view/AEN20261021002551315"
-  },
-  {
-    "id": "hotnews_vi_9587d0eb",
-    "date": "2026-10-21",
-    "ts": 1792587744000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021011100320_01_i_P2.jpg",
-    "title": "Tòa án Hiến pháp cho phép hạ nghị sĩ Lee Jin-sook dự kiểm toán",
-    "link": "https://en.yna.co.kr/view/AEN20261021011100320"
-  },
-  {
-    "id": "hotnews_vi_c18ac6b1",
-    "date": "2026-10-21",
-    "ts": 1792586014000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/21/AEN20261021003451315_01_i_P2.jpg",
-    "title": "Cảnh sát yêu cầu lệnh bắt nghi phạm phóng hỏa ở Seoul làm 19 người bị thương",
-    "link": "https://en.yna.co.kr/view/AEN20261021003451315"
   }
 ]
