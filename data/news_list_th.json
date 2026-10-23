@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_th_04fc7729",
+    "date": "2026-10-23",
+    "ts": 1792781655000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000500315_02_i_P2.jpg",
+    "title": "กองทัพบกสหรัฐฯ ตั้งกองพันป้องกันภัยทางอากาศในกวม",
+    "link": "https://en.yna.co.kr/view/AEN20261024000500315"
+  },
+  {
     "id": "hotnews_th_3f7e0a71",
     "date": "2026-10-23",
     "ts": 1792775822000,
@@ -30,6 +38,22 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000300315_01_i_P2.jpg",
     "title": "เมลาเนีย ทรัมป์ เจรจารัสเซียและยูเครนหยุดยิงชั่วคราวเพื่อมนุษยธรรม",
     "link": "https://en.yna.co.kr/view/AEN20261024000300315"
+  },
+  {
+    "id": "hotnews_th_743cb3cc",
+    "date": "2026-10-23",
+    "ts": 1792772125000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000200315_01_i_P2.jpg",
+    "title": "กระทรวงการคลังสหรัฐฯ เสนอคุมเข้มการลงทุนเทคโนโลยีในเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20261024000200315"
+  },
+  {
+    "id": "hotnews_th_12ffa8ad",
+    "date": "2026-10-23",
+    "ts": 1792759314000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.b5966ce189b14d33bbc0cb8b1c4ac080_T1.png",
+    "title": "นายกฯ เยอรมัน Friedrich Merz เยือนเกาหลีใต้ 29-30 ต.ค.นี้",
+    "link": "https://www.koreaherald.com/article/10913322"
   },
   {
     "id": "hotnews_th_529b094e",
@@ -72,12 +96,36 @@
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/middle-schooler-bitten-by-pet-cobra-spotlighting-illegal-exotic-pet-ownership?utm_source=rss"
   },
   {
+    "id": "hotnews_th_f6f9a334",
+    "date": "2026-10-23",
+    "ts": 1792755974000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.fc3f03d39a214790804411020cfaa883_T1.png",
+    "title": "ฮังการีจัดงานรำลึกการลุกฮือปี 1956 พร้อมกระชับความสัมพันธ์เกาหลีใต้",
+    "link": "https://www.koreaherald.com/article/10913303"
+  },
+  {
+    "id": "hotnews_th_c59c61fb",
+    "date": "2026-10-23",
+    "ts": 1792752098000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2023/12/21/PYH2023122103130050400_P2.jpg",
+    "title": "เกาหลีใต้ส่งมอบเฮลิคอปเตอร์ทหาร 8 ลำให้เคนยา",
+    "link": "https://en.yna.co.kr/view/AEN20261023008200315"
+  },
+  {
     "id": "hotnews_th_c024ead8",
     "date": "2026-10-23",
     "ts": 1792749326000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023060240_10_e.jpg",
     "title": "รัฐมนตรีที่ดินเผยราคาบ้านพุ่งช้าลง",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205087"
+  },
+  {
+    "id": "hotnews_th_525d723f",
+    "date": "2026-10-23",
+    "ts": 1792749132000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.394f6ce28b684765964b1284ffb1aa01_T1.png",
+    "title": "ข่าวกรองเกาหลีใต้ระบุข่าวลือผู้นำ คิม จองอึน เสียชีวิตไม่เป็นความจริง",
+    "link": "https://www.koreaherald.com/article/10913272"
   },
   {
     "id": "hotnews_th_325ebd74",
@@ -88,6 +136,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261023010000315"
   },
   {
+    "id": "hotnews_th_81f3148d",
+    "date": "2026-10-23",
+    "ts": 1792747763000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022090830_86_k.jpg",
+    "title": "ตามหาฉลามบูคังหลุดหายตั้งแต่ศุกร์นี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205086"
+  },
+  {
     "id": "hotnews_th_4f88d386",
     "date": "2026-10-23",
     "ts": 1792747407000,
@@ -96,12 +152,36 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205085"
   },
   {
+    "id": "hotnews_th_1bb55baf",
+    "date": "2026-10-23",
+    "ts": 1792745715000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261005.b3cf81753cf94769a997f72ac6fe30cb_T1.jpg",
+    "title": "Hana Financial ทำกำไร 9 เดือนแรกสูงสุดเป็นประวัติการณ์",
+    "link": "https://www.koreaherald.com/article/10913247"
+  },
+  {
     "id": "hotnews_th_2c33acd1",
     "date": "2026-10-23",
     "ts": 1792745690000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202605/260527090547_37_k.jpg",
     "title": "พยากรณ์อากาศสุดสัปดาห์นี้ เตือนฝนตกหนักบริเวณชายฝั่งทางใต้และเกาะเชจู",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205084"
+  },
+  {
+    "id": "hotnews_th_618fd1ca",
+    "date": "2026-10-23",
+    "ts": 1792745512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.60620f554e7e47978ebcf00dfcfc06a7_T1.jpg",
+    "title": "กำไรไตรมาส 3 ของ Woori Financial ทะลุ 1 ล้านล้านวอน",
+    "link": "https://www.koreaherald.com/article/10913242"
+  },
+  {
+    "id": "hotnews_th_f0cec3c4",
+    "date": "2026-10-23",
+    "ts": 1792744905000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023070114_36_e.jpg",
+    "title": "รัฐบาลเกาหลีใต้ผลักดันโทษจำคุกตลอดชีวิตแบบไม่มีการลดหย่อน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205083"
   },
   {
     "id": "hotnews_th_b1195997",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.dbf0d229c89a44b4aebe03aee770f691_T1.jpg",
     "title": "ระบบเครือข่ายศาลทั่วเกาหลีใต้กลับมาใช้งานได้ปกติหลังล่ม 2 ชั่วโมง",
     "link": "https://www.koreaherald.com/article/10911928"
-  },
-  {
-    "id": "hotnews_th_82444759",
-    "date": "2026-10-22",
-    "ts": 1792668812000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-a.v1.20261022.e3e05ed7a8374f1da7d1748616e7e56a_T1.jpeg",
-    "title": "JTBC เปิดตัวซีรีส์ใหม่ Final Table ผสมผสานละครกับรายการทำอาหาร",
-    "link": "https://www.koreaherald.com/article/10911926"
-  },
-  {
-    "id": "hotnews_th_6e6f235f",
-    "date": "2026-10-22",
-    "ts": 1792667759000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022012000315_01_i_P2.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ ซ้อมข้ามแม่น้ำร่วมกัน",
-    "link": "https://en.yna.co.kr/view/AEN20261022012000315"
-  },
-  {
-    "id": "hotnews_th_7a3e2349",
-    "date": "2026-10-22",
-    "ts": 1792663201000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/22/AEN20261022009900315_01_i_P2.jpg",
-    "title": "โป๊ปเชิญชวนเยาวชนร่วมงานวันเยาวชนโลก 2027 ที่กรุงโซล",
-    "link": "https://en.yna.co.kr/view/AEN20261022009900315"
-  },
-  {
-    "id": "hotnews_th_8458f530",
-    "date": "2026-10-22",
-    "ts": 1792663200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.5dac3ecb524b4d67b9810848a96e85c5_T1.png",
-    "title": "โป๊ปฟรานซิสเชิญชวนเยาวชนร่วมงาน World Youth Day 2027 ที่กรุงโซล",
-    "link": "https://www.koreaherald.com/article/10911561"
-  },
-  {
-    "id": "hotnews_th_3772b008",
-    "date": "2026-10-22",
-    "ts": 1792661956000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022064213_62_e.jpg",
-    "title": "ศาลรัฐธรรมนูญเกาหลีใต้คงโทษหนักสำหรับคดีปิตาฆาต",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205060"
-  },
-  {
-    "id": "hotnews_th_6639cac3",
-    "date": "2026-10-22",
-    "ts": 1792660454000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.7114dc87bf6046119abb01f36995493a_T1.jpg",
-    "title": "อูรา ศิลปินเกาหลี ขึ้นแสดงปิดท้ายงานเทศกาลดนตรีในอินเดีย",
-    "link": "https://www.koreaherald.com/article/10911885"
-  },
-  {
-    "id": "hotnews_th_0c6fa989",
-    "date": "2026-10-22",
-    "ts": 1792658858000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.f3b90ca040b04d5f9d4664c3d1da31f0_T1.png",
-    "title": "โนบุแบงก์ในอินโดนีเซียที่ฮัน화หนุน ครองแชมป์ชำระเงิน QR",
-    "link": "https://www.koreaherald.com/article/10911871"
-  },
-  {
-    "id": "hotnews_th_116d37eb",
-    "date": "2026-10-22",
-    "ts": 1792658741000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022060944_86_e.jpg",
-    "title": "กระทรวงต่างประเทศยูเครนยังไม่ตอบสนองเรื่องการถอนจนท.สถานทูตบางส่วน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205058"
-  },
-  {
-    "id": "hotnews_th_bd8e209c",
-    "date": "2026-10-22",
-    "ts": 1792658675000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20260309.ae0068c71e6b47a8afc63f8b87c2856a_T1.png",
-    "title": "เกาหลีใต้ปรับปรุงวีซ่า E-7-4 เอื้อแรงงานต่างชาติทำงานระยะยาว",
-    "link": "https://www.koreaherald.com/article/10911868"
-  },
-  {
-    "id": "hotnews_th_00188881",
-    "date": "2026-10-22",
-    "ts": 1792658181000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.81be57177cc74c45abf1090ae28e02d7_T1.png",
-    "title": "ศาลรัฐธรรมนูญเกาหลีคงโทษหนัก คดีฆ่าพ่อแม่หรือบุพการี",
-    "link": "https://www.koreaherald.com/article/10911862"
   }
 ]

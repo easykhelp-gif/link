@@ -1,5 +1,13 @@
 [
   {
+    "id": "hotnews_en_04fc7729",
+    "date": "2026-10-23",
+    "ts": 1792781655000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000500315_02_i_P2.jpg",
+    "title": "U.S. Army activates air defense battalion in Guam amid N. Korean, Chinese missile threats: report",
+    "link": "https://en.yna.co.kr/view/AEN20261024000500315"
+  },
+  {
     "id": "hotnews_en_3f7e0a71",
     "date": "2026-10-23",
     "ts": 1792775822000,
@@ -40,12 +48,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261024000200315"
   },
   {
+    "id": "hotnews_en_12ffa8ad",
+    "date": "2026-10-23",
+    "ts": 1792759314000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.b5966ce189b14d33bbc0cb8b1c4ac080_T1.png",
+    "title": "Merz to visit Seoul for talks with Lee, German business forum",
+    "link": "https://www.koreaherald.com/article/10913322"
+  },
+  {
     "id": "hotnews_en_529b094e",
     "date": "2026-10-23",
     "ts": 1792759297000,
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023010100315_01_i_P2.jpg",
     "title": "German Chancellor Merz to visit S. Korea next week for summit with Lee",
     "link": "https://en.yna.co.kr/view/AEN20261023010100315"
+  },
+  {
+    "id": "hotnews_en_8e23aa05",
+    "date": "2026-10-23",
+    "ts": 1792757750000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.a1ca0a9c934643d5aa55a13ed64cd1c8_T1.png",
+    "title": "Lee calls for closer S. Korea-Japan supply chain cooperation",
+    "link": "https://www.koreaherald.com/article/10913316"
   },
   {
     "id": "hotnews_en_5aa870b3",
@@ -216,6 +240,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261023009900315"
   },
   {
+    "id": "hotnews_en_fba62c92",
+    "date": "2026-10-23",
+    "ts": 1792744158000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/rcv.YNA.20261023.PYH2026102312980001300_T1.jpg",
+    "title": "Liberals vow judicial overhaul after court acquits Seoul mayor",
+    "link": "https://www.koreaherald.com/article/10913219"
+  },
+  {
     "id": "hotnews_en_a3ad6503",
     "date": "2026-10-23",
     "ts": 1792743887000,
@@ -246,6 +278,14 @@
     "image": "",
     "title": "Summary of inter-Korean news this week",
     "link": "https://en.yna.co.kr/view/AEN20261023009700315"
+  },
+  {
+    "id": "hotnews_en_1dec8bf6",
+    "date": "2026-10-23",
+    "ts": 1792743359000,
+    "image": "",
+    "title": "Summary of external news of North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20261023009800315"
   },
   {
     "id": "hotnews_en_e316c27b",
@@ -358,45 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023040013_68_i.jpg",
     "title": "Science Minister Vows to Devise Interministerial Measures to Address PHP Security Flaw",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205077"
-  },
-  {
-    "id": "hotnews_en_4d57c257",
-    "date": "2026-10-23",
-    "ts": 1792739295000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006651320_01_i_P2.jpg",
-    "title": "Woori Financial Q3 net falls 16 pct on one-time factor",
-    "link": "https://en.yna.co.kr/view/AEN20261023006651320"
-  },
-  {
-    "id": "hotnews_en_e86d4bf7",
-    "date": "2026-10-23",
-    "ts": 1792739063000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.0be2480bd95a47159d2dd2e07ecd5f40_T1.jpg",
-    "title": "Winter is already knocking",
-    "link": "https://www.koreaherald.com/article/10913092"
-  },
-  {
-    "id": "hotnews_en_c95e923f",
-    "date": "2026-10-23",
-    "ts": 1792738593000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004451315_02_i_P2.jpg",
-    "title": "Special counsel says deceased NEC official's note cites no coercion",
-    "link": "https://en.yna.co.kr/view/AEN20261023004451315"
-  },
-  {
-    "id": "hotnews_en_4b261a46",
-    "date": "2026-10-23",
-    "ts": 1792738586000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023035947_31_k.jpg",
-    "title": "KOSPI Up 0.30% Friday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205076"
-  },
-  {
-    "id": "hotnews_en_9f7feca3",
-    "date": "2026-10-23",
-    "ts": 1792738397000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023006500315_01_i_P2.jpg",
-    "title": "Army's Ground Operations Command stages field training drills linked to counterfire warfare",
-    "link": "https://en.yna.co.kr/view/AEN20261023006500315"
   }
 ]
