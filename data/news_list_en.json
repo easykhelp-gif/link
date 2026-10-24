@@ -24,6 +24,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261024001956320"
   },
   {
+    "id": "hotnews_en_295153ad",
+    "date": "2026-10-24",
+    "ts": 1792840930000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "N. Korean leader Kim Jong-un leaves Dandong, seen off by China's top political adviser: Xinhua",
+    "link": "https://en.yna.co.kr/view/AEN20261024005800320"
+  },
+  {
     "id": "hotnews_en_90f93f64",
     "date": "2026-10-24",
     "ts": 1792840924000,
@@ -390,13 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/23/2adcbc32-fe5b-4b57-bd7a-142f6d720a33.jpeg",
     "title": "[COVER STORY] Acquittal revives Seoul mayor's presidential prospects",
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/cover-story-acquittal-revives-seoul-mayors-presidential-prospects?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_2daa750e",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/8bb11ad3-0570-432f-8181-57724aad2891.jpg",
-    "title": "Suspected N. Korean IT worker found at S. Korean firm under false identity for 1st time",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss"
   }
 ]
