@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_b6b70a42",
+    "date": "2026-10-24",
+    "ts": 1792858023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/38448600-15f0-4cdf-b353-76686c476cba.jpeg",
+    "title": "Granddaughter of Korean independence fighter brings Korean history to US schools",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261025/granddaughter-of-korean-independence-fighter-brings-korean-history-to-us-schools?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_77fe66cb",
+    "date": "2026-10-24",
+    "ts": 1792858023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/16f31ad1-eff8-4a4d-a646-f1b0b0677493.jpeg",
+    "title": "Cattle farmers in Korea reeling from solar panel policy",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261025/cattle-farmers-in-korea-reeling-from-solar-panel-policy?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_6260eeb5",
+    "date": "2026-10-24",
+    "ts": 1792844764000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024001956320_03_i_P2.jpg",
+    "title": "N. Korean leader Kim Jong-un visits China, meets senior official amid ties push",
+    "link": "https://en.yna.co.kr/view/AEN20261024001956320"
+  },
+  {
     "id": "hotnews_en_90f93f64",
     "date": "2026-10-24",
     "ts": 1792840924000,
@@ -30,6 +54,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404080001300_P2.jpg",
     "title": "FC Seoul crowned K League 1 champions",
     "link": "https://en.yna.co.kr/view/AEN20261024002051315"
+  },
+  {
+    "id": "hotnews_en_24c19653",
+    "date": "2026-10-24",
+    "ts": 1792829523000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005300315_01_i_P2.jpg",
+    "title": "Ryu Hae-ran builds 4-shot lead at LPGA event in S. Korea",
+    "link": "https://en.yna.co.kr/view/AEN20261024005300315"
   },
   {
     "id": "hotnews_en_1117d746",
@@ -366,37 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/23/8bb11ad3-0570-432f-8181-57724aad2891.jpg",
     "title": "Suspected N. Korean IT worker found at S. Korean firm under false identity for 1st time",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_943c9198",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/3df330cb-6197-4743-bfe2-8fb56e78288d.jpg",
-    "title": "Middle schooler bitten by pet cobra, spotlighting illegal exotic pet ownership",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/middle-schooler-bitten-by-pet-cobra-spotlighting-illegal-exotic-pet-ownership?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_5f67baae",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/09/14/a752ea99-2d8a-4849-8301-42fc7aa1317e.jpeg",
-    "title": "After 35 years of searching, activist still fights indifferent system for Korea's missing",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/after-35-years-of-searching-activist-still-fights-indifferent-system-for-koreas-missing?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_1fd82b0c",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/0d09a518-9688-4744-9a48-9a935afd00cf.jpeg",
-    "title": "Jeonbuk National University, KAIST researchers develop soft robot",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261023/jeonbuk-national-university-kaist-researchers-develop-soft-robot?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b899253f",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/c408b312-0e28-4da4-aec8-6a4cce6993fd.jpeg",
-    "title": "Busan emerging as Asia's next coastal destination: CNN",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261023/busan-emerging-as-asias-next-coastal-destination-cnn?utm_source=rss"
   }
 ]
