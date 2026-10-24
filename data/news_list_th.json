@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_90f93f64",
+    "date": "2026-10-24",
+    "ts": 1792840924000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/b3d29e3a-c08b-4a85-8487-ac242ec4b5d1.jpg",
+    "title": "เกาหลีเหนือเพิ่มความหลากหลายขีปนาวุธ ท้าทายระบบป้องกัน",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261024/north-koreas-diversifying-missile-arsenal-complicates-souths-defense?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_cb36c035",
+    "date": "2026-10-24",
+    "ts": 1792835700000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005700315_01_i_P2.jpg",
+    "title": "ยู แฮ-รัน ขึ้นนำเดี่ยวศึกกอล์ฟ LPGA BMW Ladies Championship",
+    "link": "https://en.yna.co.kr/view/AEN20261024005700315"
+  },
+  {
+    "id": "hotnews_th_481d1ef8",
+    "date": "2026-10-24",
+    "ts": 1792832916000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404170001300_P2.jpg",
+    "title": "โค้ช คิม กี-ดง พา FC Seoul คว้าแชมป์ K League 1 สำเร็จ",
+    "link": "https://en.yna.co.kr/view/AEN20261024005600315"
+  },
+  {
+    "id": "hotnews_th_d61d714c",
+    "date": "2026-10-24",
+    "ts": 1792829811000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404080001300_P2.jpg",
+    "title": "FC Seoul คว้าแชมป์ K League 1 สมัยแรกในรอบ 10 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261024002051315"
+  },
+  {
+    "id": "hotnews_th_1bcf6770",
+    "date": "2026-10-24",
+    "ts": 1792827558000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "คิม จองอึน เตรียมเดินทางกลับเกาหลีเหนือวันเสาร์นี้",
+    "link": "https://en.yna.co.kr/view/AEN20261024002300320"
+  },
+  {
+    "id": "hotnews_th_4d5ec673",
+    "date": "2026-10-24",
+    "ts": 1792825482000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/24/news-p.v1.20261024.7e0f97c8d2b243f6b5231bcd5b5e36eb_T1.jpg",
+    "title": "คิม จองอึนเยือนจีนอย่างกะทันหันผ่านสะพานแม่น้ำยาลูใหม่",
+    "link": "https://www.koreaherald.com/article/10913525"
+  },
+  {
+    "id": "hotnews_th_a3e9ff65",
+    "date": "2026-10-24",
+    "ts": 1792825201000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.381b42630f624a5eb9c4e3a642965367_T1.jpg",
+    "title": "ยยุคเสื้อกันหนาวสีดำในเกาหลีใต้กำลังจะสิ้นสุดลงหรือไม่",
+    "link": "https://www.koreaherald.com/article/10913273"
+  },
+  {
+    "id": "hotnews_th_f27df3a3",
+    "date": "2026-10-24",
+    "ts": 1792825200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.e93b680e3db943f09e8b93e9d6ea4381_T1.jpg",
+    "title": "ยูแจพิล จากตลกตก สู่พิธีกรงานเคป็อปชื่อดัง",
+    "link": "https://www.koreaherald.com/article/10911886"
+  },
+  {
+    "id": "hotnews_th_4dddb86e",
+    "date": "2026-10-24",
+    "ts": 1792825200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.0cfa911dd98c400d8bfa2edd1e37f327_T1.jpg",
+    "title": "กรุงโซลจัดกิจกรรมวัฒนธรรมยามค่ำคืนในฤดูใบไม้ร่วงนี้",
+    "link": "https://www.koreaherald.com/article/10911646"
+  },
+  {
+    "id": "hotnews_th_dc9d2ff2",
+    "date": "2026-10-24",
+    "ts": 1792825200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.def037945a8a4487aaaba74c43401db9_T1.jpg",
+    "title": "เกาหลีใต้ฮิตจัดพิธีฉลองหย่าร้างและเค้กโสดเพื่อเริ่มต้นชีวิตใหม่",
+    "link": "https://www.koreaherald.com/article/10911338"
+  },
+  {
     "id": "hotnews_th_ad61d4ac",
     "date": "2026-10-24",
     "ts": 1792817524000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023004451315_02_i_P2.jpg",
     "title": "ทีมพนักงานสอบสวนพิเศษระบุ บันทึกเจ้าหน้าที่ NEC ที่เสียชีวิตไม่ได้ระบุเรื่องการถูกกดดัน",
     "link": "https://en.yna.co.kr/view/AEN20261023004451315"
-  },
-  {
-    "id": "hotnews_th_3e788094",
-    "date": "2026-10-23",
-    "ts": 1792732023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/978928e7-a216-4c8f-929f-ea67a3c57fa7.jpeg",
-    "title": "ศิลปินเกาหลี Rydia ออกซิงเกิลใหม่ Saranghaeyo",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261024/korean-pop-artist-rydia-trades-verses-with-dutch-rapper-on-bilingual-single-saranghaeyo?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ccdbfedb",
-    "date": "2026-10-23",
-    "ts": 1792731666000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.a18bf14450d145498c1f10049fe8d69d_T1.jpg",
-    "title": "Riot Games จัดกิจกรรมพิเศษฉลอง LoL Worlds 2026 และ K/DA",
-    "link": "https://www.koreaherald.com/article/10912879"
-  },
-  {
-    "id": "hotnews_th_c504f2c7",
-    "date": "2026-10-23",
-    "ts": 1792731000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.88549b8f50a44165b6c020f5c4ac0bab_T1.jpg",
-    "title": "ค่าย K-pop ใหญ่ไม่ส่งศิลปินร่วมชิงรางวัล Grammy",
-    "link": "https://www.koreaherald.com/article/10912862"
-  },
-  {
-    "id": "hotnews_th_6f6695fb",
-    "date": "2026-10-23",
-    "ts": 1792724553000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305250001300_P2.jpg",
-    "title": "ครอบครัวผู้เสียชีวิตประณามผลตรวจสอบแรงงาน Coupang",
-    "link": "https://en.yna.co.kr/view/AEN20261023004300315"
-  },
-  {
-    "id": "hotnews_th_51414d5c",
-    "date": "2026-10-23",
-    "ts": 1792723786000,
-    "image": "https://img.yna.co.kr/photo/cms/2025/05/10/16/PCM20250510000016017_P2.jpg",
-    "title": "เน็ตฟลิกซ์ร่วมงานกว่า 80 บริษัทในเกาหลีใต้รอบ 10 ปี",
-    "link": "https://en.yna.co.kr/view/AEN20261023004100320"
-  },
-  {
-    "id": "hotnews_th_6d7b9bd3",
-    "date": "2026-10-23",
-    "ts": 1792723695000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.4c3976d9d684478496511e16524ae3d5_T1.jpg",
-    "title": "หญิงเกาหลีใต้ฆ่าแม่แท้ๆ ของตนเองในโซล",
-    "link": "https://www.koreaherald.com/article/10912753"
-  },
-  {
-    "id": "hotnews_th_79572407",
-    "date": "2026-10-23",
-    "ts": 1792721152000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023003600315_03_i_P2.jpg",
-    "title": "อี แจมยอง สั่งป้องกันอาชญากรรมรุนแรงสร้างสังคมปลอดภัยสูงสุด",
-    "link": "https://en.yna.co.kr/view/AEN20261023003600315"
-  },
-  {
-    "id": "hotnews_th_3f66741c",
-    "date": "2026-10-23",
-    "ts": 1792720300000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102218450001300_P2.jpg",
-    "title": "คะแนนนิยมประธานาธิบดีอีแจมยองพุ่งแตะ 40 เปอร์เซ็นต์",
-    "link": "https://en.yna.co.kr/view/AEN20261023003200315"
-  },
-  {
-    "id": "hotnews_th_f9ec4921",
-    "date": "2026-10-23",
-    "ts": 1792719645000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261023090119_17_k.jpg",
-    "title": "SK hynix ระงับกระบวนการ IPO ของ Solidigm ในสหรัฐฯ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205064"
-  },
-  {
-    "id": "hotnews_th_c535d78f",
-    "date": "2026-10-23",
-    "ts": 1792715061000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002100315_01_i_P2.jpg",
-    "title": "เกาหลีเหนือฝังทุ่นระเบิดเกือบ 1 ล้านลูกบริเวณพรมแดนตั้งแต่ปี 2024",
-    "link": "https://en.yna.co.kr/view/AEN20261023002100315"
   }
 ]
