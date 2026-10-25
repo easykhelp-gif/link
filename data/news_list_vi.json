@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_344b7ff2",
+    "date": "2026-10-25",
+    "ts": 1792904523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/46947488-a7e1-44a2-a66c-6bd1ca0b0523.png",
+    "title": "Tổng thống Lee cân nhắc bổ nhiệm bộ trưởng tư pháp mới",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261025/president-lee-mulls-picking-justice-minister-nominee-from-2-prosecutor-turned-lawmakers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_00891ba1",
+    "date": "2026-10-25",
+    "ts": 1792904523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/eea87e7b-ca0b-400a-8f9e-a30d3715c8a5.jpeg",
+    "title": "Đại học Seoul đồng tổ chức Diễn đàn Dữ liệu Lớn Seoul 2026",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261025/university-of-seoul-co-hosts-seoul-big-data-forum-to-explore-new-possibilities-for-data-use?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_318ff78b",
+    "date": "2026-10-25",
+    "ts": 1792904523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/9814f2a5-059c-412a-b278-3a71f283800e.jpeg",
+    "title": "Đại học Quốc gia Chungnam thảo luận kế hoạch phát triển",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261025/chungnam-national-university-holds-town-hall-on-future-development-plans?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_9239167c",
+    "date": "2026-10-25",
+    "ts": 1792899009000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261025125850_66_e.jpg",
+    "title": "Seoul đóng cửa cầu Jamsu để chuyển đổi thành không gian đi bộ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205100"
+  },
+  {
+    "id": "hotnews_vi_324a9307",
+    "date": "2026-10-25",
+    "ts": 1792897420000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072903500001300_P2.jpg",
+    "title": "Thặng dư bảo hiểm y tế người nước ngoài vượt 1 nghìn tỷ won",
+    "link": "https://en.yna.co.kr/view/AEN20261025002800315"
+  },
+  {
+    "id": "hotnews_vi_fabd0a2d",
+    "date": "2026-10-25",
+    "ts": 1792896761000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.eda8ed05348b4caea80b9e67311001ee_T1.jpg",
+    "title": "AIA Life Korea tổ chức đại nhạc hội K-pop tại Goyang",
+    "link": "https://www.koreaherald.com/article/10913827"
+  },
+  {
+    "id": "hotnews_vi_2dc3968d",
+    "date": "2026-10-25",
+    "ts": 1792893466000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/08/PYH2026010809900001300_P2.jpg",
+    "title": "Tai nạn của người Hàn tại 10 nước cảnh báo tăng gần 50%",
+    "link": "https://en.yna.co.kr/view/AEN20261025001800315"
+  },
+  {
+    "id": "hotnews_vi_e15ef483",
+    "date": "2026-10-25",
+    "ts": 1792889224000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261025.PAP20261025003201009_T1.jpg",
+    "title": "LIV Golf trả 15 triệu USD cho giám đốc trước khi phá sản",
+    "link": "https://www.koreaherald.com/article/10913743"
+  },
+  {
+    "id": "hotnews_vi_0b8a9909",
+    "date": "2026-10-25",
+    "ts": 1792888353000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405310006100_P2.jpg",
+    "title": "Thặng dư tài khoản vãng lai quý 2 của Hàn Quốc đứng thứ 2 thế giới",
+    "link": "https://en.yna.co.kr/view/AEN20261025000800320"
+  },
+  {
+    "id": "hotnews_vi_4f97196f",
+    "date": "2026-10-25",
+    "ts": 1792887098000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025000351315_07_i_P2.jpg",
+    "title": "Lãnh đạo Triều Tiên Kim Jong-un thăm Trung Quốc, củng cố quan hệ",
+    "link": "https://en.yna.co.kr/view/AEN20261025000351315"
+  },
+  {
     "id": "hotnews_vi_b6b70a42",
     "date": "2026-10-24",
     "ts": 1792858023000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/19/8265e383-41e3-4770-b3d8-ad3fe37eec89.jpeg",
     "title": "Giới trẻ Hàn Quốc đang say mê với thú vui ngắm chim",
     "link": "https://www.koreatimes.co.kr/southkorea/20261024/birdwatching-takes-off-among-young-koreans?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_65f48db5",
-    "date": "2026-10-23",
-    "ts": 1792776423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/63b1d7c1-d2ea-4d10-ab5e-894f11036f23.jpeg",
-    "title": "Biến đổi khí hậu làm mùa xuân đến sớm và mùa thu muộn hơn",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261024/spring-comes-earlier-autumn-foliage-later-as-climate-change-alters-forests?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a938ecef",
-    "date": "2026-10-23",
-    "ts": 1792773242000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000400315_01_i_P2.jpg",
-    "title": "Hàn Quốc tặng 8 trực thăng quân sự cho Liên Hợp Quốc tại Kenya",
-    "link": "https://en.yna.co.kr/view/AEN20261024000400315"
-  },
-  {
-    "id": "hotnews_vi_b68876d8",
-    "date": "2026-10-23",
-    "ts": 1792772154000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000300315_01_i_P2.jpg",
-    "title": "Melania Trump đạt thỏa thuận ngừng bắn nhân đạo tại Oleshky",
-    "link": "https://en.yna.co.kr/view/AEN20261024000300315"
-  },
-  {
-    "id": "hotnews_vi_743cb3cc",
-    "date": "2026-10-23",
-    "ts": 1792772125000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024000200315_01_i_P2.jpg",
-    "title": "Mỹ muốn mở rộng cấm đầu tư công nghệ nhạy cảm với Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261024000200315"
-  },
-  {
-    "id": "hotnews_vi_12ffa8ad",
-    "date": "2026-10-23",
-    "ts": 1792759314000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.b5966ce189b14d33bbc0cb8b1c4ac080_T1.png",
-    "title": "Thủ tướng Đức Friedrich Merz thăm Hàn Quốc vào cuối tháng 10",
-    "link": "https://www.koreaherald.com/article/10913322"
-  },
-  {
-    "id": "hotnews_vi_529b094e",
-    "date": "2026-10-23",
-    "ts": 1792759297000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023010100315_01_i_P2.jpg",
-    "title": "Thủ tướng Đức Friedrich Merz thăm Hàn Quốc vào tuần tới",
-    "link": "https://en.yna.co.kr/view/AEN20261023010100315"
-  },
-  {
-    "id": "hotnews_vi_5aa870b3",
-    "date": "2026-10-23",
-    "ts": 1792757093000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/23/AEN20261023002351315_02_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung thúc đẩy hợp tác kinh tế với Nhật Bản",
-    "link": "https://en.yna.co.kr/view/AEN20261023002351315"
-  },
-  {
-    "id": "hotnews_vi_e972ba5d",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/2adcbc32-fe5b-4b57-bd7a-142f6d720a33.jpeg",
-    "title": "Thị trưởng Seoul Oh Se-hoon thoát tội, giữ cơ hội tranh cử tổng thống",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261023/cover-story-acquittal-revives-seoul-mayors-presidential-prospects?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_2daa750e",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/8bb11ad3-0570-432f-8181-57724aad2891.jpg",
-    "title": "Phát hiện lao động IT Triều Tiên giả mạo danh tính tại Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_943c9198",
-    "date": "2026-10-23",
-    "ts": 1792756323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/23/3df330cb-6197-4743-bfe2-8fb56e78288d.jpg",
-    "title": "Nam sinh bị rắn hổ mang cắn khi bán trái phép",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261023/middle-schooler-bitten-by-pet-cobra-spotlighting-illegal-exotic-pet-ownership?utm_source=rss"
   }
 ]
