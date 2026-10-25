@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_th_df14a21d",
+    "date": "2026-10-25",
+    "ts": 1792962123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/f2951985-5c15-4052-9bee-7351dc5fff3a.jpeg",
+    "title": "บาร์ Lit Lounge ในอิแทวอนฉลองครบรอบ 4 ปีและวันฮาโลวีน",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261026/itaewons-lit-lounge-shines-beacon-through-dark-times-over-4-years?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e4dc6af5",
+    "date": "2026-10-25",
+    "ts": 1792960200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.b3019e7eef0c4859ab8db36ae7a8fcc0_T1.jpg",
+    "title": "คิม จองอึน เป็นผู้นำที่หลายชาติต้องการพบปะเพื่อเจรจา",
+    "link": "https://www.koreaherald.com/article/10913965"
+  },
+  {
+    "id": "hotnews_th_dc192094",
+    "date": "2026-10-25",
+    "ts": 1792960200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.eedd45f607b6444a965be3ab6086c832_T1.jpg",
+    "title": "รัฐบาลเกาหลีใต้เผชิญความท้าทายในการสร้างความเชื่อมั่นด้าน AI",
+    "link": "https://www.koreaherald.com/article/10913964"
+  },
+  {
     "id": "hotnews_th_e3e3ad38",
     "date": "2026-10-25",
     "ts": 1792933316000,
@@ -88,12 +112,68 @@
     "link": "https://www.koreaherald.com/article/10913985"
   },
   {
+    "id": "hotnews_th_8bc18c06",
+    "date": "2026-10-25",
+    "ts": 1792916131000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.7595f68da79c4445a8bf4a3f1f28b465_T1.jpg",
+    "title": "หญิงไทยดับสลดหม้อแปลงร่วงทับที่ชางวอน",
+    "link": "https://www.koreaherald.com/article/10913981"
+  },
+  {
     "id": "hotnews_th_0a314c45",
     "date": "2026-10-25",
     "ts": 1792915279000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.30689695542441a09427d11e2757f950_T1.jpg",
     "title": "อเล็กซานเดอร์ โวลคานอฟสกี้ ป้องกันแชมป์ UFC สำเร็จ",
     "link": "https://www.koreaherald.com/article/10913976"
+  },
+  {
+    "id": "hotnews_th_b655343c",
+    "date": "2026-10-25",
+    "ts": 1792915036000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.6436a598902d481f9d9cbd3f5557d3b2_T1.jpg",
+    "title": "ฮันโรรอเตรียมจัดคอนเสิร์ตใหญ่ระดับอรีนาครั้งแรกในเดือนมกราคม",
+    "link": "https://www.koreaherald.com/article/10913973"
+  },
+  {
+    "id": "hotnews_th_00cf7be5",
+    "date": "2026-10-25",
+    "ts": 1792914078000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261014.PYH2026101420300001300_T1.jpg",
+    "title": "เตือนแต่งชุดตำรวจฮาโลวีนในเกาหลี ผิดกฎหมาย",
+    "link": "https://www.koreaherald.com/article/10913972"
+  },
+  {
+    "id": "hotnews_th_3884ad5e",
+    "date": "2026-10-25",
+    "ts": 1792913926000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.f214e36b9aad470eb87a50b15d4b129d_T1.jpg",
+    "title": "จันนี อินฟันติโน เผยยังมีเสียงสนับสนุนส่วนใหญ่",
+    "link": "https://www.koreaherald.com/article/10913969"
+  },
+  {
+    "id": "hotnews_th_99d71e4f",
+    "date": "2026-10-25",
+    "ts": 1792913256000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102502560005400_P2.jpg",
+    "title": "โยริ โยชิดะ คว้าแชมป์กอล์ฟ LPGA ที่เกาหลีใต้ โดยมี รยู แฮ-รัน และ ชเว ฮเย-จิน คว้าอันดับ 2 ร่วม",
+    "link": "https://en.yna.co.kr/view/AEN20261025004400315"
+  },
+  {
+    "id": "hotnews_th_223d4f21",
+    "date": "2026-10-25",
+    "ts": 1792912566000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.5a51060215f84d3cad77c429b6bb2206_T1.jpg",
+    "title": "มูลนิธิ Posco 1% ช่วยเหลือทหารผ่านศึกและเยาวชน",
+    "link": "https://www.koreaherald.com/article/10913959"
+  },
+  {
+    "id": "hotnews_th_1266dffc",
+    "date": "2026-10-25",
+    "ts": 1792912555000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.b70ec5a445fd45e5a849e7aef993607b_T1.jpg",
+    "title": "Mercedes-Benz Korea ฉลองครบรอบ 20 ปีการฝึกอบรมช่างเทคนิค",
+    "link": "https://www.koreaherald.com/article/10913958"
   },
   {
     "id": "hotnews_th_e1c10adb",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "คิม จองอึน เตรียมเดินทางกลับเกาหลีเหนือวันเสาร์นี้",
     "link": "https://en.yna.co.kr/view/AEN20261024002300320"
-  },
-  {
-    "id": "hotnews_th_4d5ec673",
-    "date": "2026-10-24",
-    "ts": 1792825482000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/24/news-p.v1.20261024.7e0f97c8d2b243f6b5231bcd5b5e36eb_T1.jpg",
-    "title": "คิม จองอึนเยือนจีนอย่างกะทันหันผ่านสะพานแม่น้ำยาลูใหม่",
-    "link": "https://www.koreaherald.com/article/10913525"
-  },
-  {
-    "id": "hotnews_th_a3e9ff65",
-    "date": "2026-10-24",
-    "ts": 1792825201000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.381b42630f624a5eb9c4e3a642965367_T1.jpg",
-    "title": "ยยุคเสื้อกันหนาวสีดำในเกาหลีใต้กำลังจะสิ้นสุดลงหรือไม่",
-    "link": "https://www.koreaherald.com/article/10913273"
-  },
-  {
-    "id": "hotnews_th_f27df3a3",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.e93b680e3db943f09e8b93e9d6ea4381_T1.jpg",
-    "title": "ยูแจพิล จากตลกตก สู่พิธีกรงานเคป็อปชื่อดัง",
-    "link": "https://www.koreaherald.com/article/10911886"
-  },
-  {
-    "id": "hotnews_th_4dddb86e",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.0cfa911dd98c400d8bfa2edd1e37f327_T1.jpg",
-    "title": "กรุงโซลจัดกิจกรรมวัฒนธรรมยามค่ำคืนในฤดูใบไม้ร่วงนี้",
-    "link": "https://www.koreaherald.com/article/10911646"
-  },
-  {
-    "id": "hotnews_th_dc9d2ff2",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.def037945a8a4487aaaba74c43401db9_T1.jpg",
-    "title": "เกาหลีใต้ฮิตจัดพิธีฉลองหย่าร้างและเค้กโสดเพื่อเริ่มต้นชีวิตใหม่",
-    "link": "https://www.koreaherald.com/article/10911338"
-  },
-  {
-    "id": "hotnews_th_bf7bc87c",
-    "date": "2026-10-24",
-    "ts": 1792821807000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260808064632_47_k.jpg",
-    "title": "ราคาน้ำมันเบนซินในเกาหลีใต้ลดลงต่อเนื่องเป็นสัปดาห์ที่ 23",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205096"
-  },
-  {
-    "id": "hotnews_th_8ce10bef",
-    "date": "2026-10-24",
-    "ts": 1792821356000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/24/news-p.v1.20261024.32e4665b7d47427d9fe4227cecd576e7_T1.jpg",
-    "title": "แร็ปเปอร์เกาหลี Yang Hong-won ปฏิเสธข่าวฉาวนอกใจหลังแต่งงาน",
-    "link": "https://www.koreaherald.com/article/10913493"
-  },
-  {
-    "id": "hotnews_th_f8c820d2",
-    "date": "2026-10-24",
-    "ts": 1792821217000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202103/210302010037_18.jpg",
-    "title": "IAEA คาดความต้องการพลังงานนิวเคลียร์โลกพุ่งกว่า 3 เท่า",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205095"
-  },
-  {
-    "id": "hotnews_th_578bf69a",
-    "date": "2026-10-24",
-    "ts": 1792820734000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261024025116_61_e.jpg",
-    "title": "เกาหลีใต้ประชุมเจ้าหน้าที่ความมั่นคง 7 ภูมิภาคเพื่อคุ้มครองคนเกาหลีในต่างแดน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205094"
-  },
-  {
-    "id": "hotnews_th_e522e725",
-    "date": "2026-10-24",
-    "ts": 1792819464000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261024022820_2_e.jpg",
-    "title": "วอน ยู-มิน ได้รับเลือกให้เป็นคณะกรรมการนักกีฬาของ APC",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205093"
   }
 ]

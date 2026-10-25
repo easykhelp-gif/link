@@ -1,5 +1,29 @@
 [
   {
+    "id": "hotnews_en_df14a21d",
+    "date": "2026-10-25",
+    "ts": 1792962123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/f2951985-5c15-4052-9bee-7351dc5fff3a.jpeg",
+    "title": "Itaewon's Lit Lounge shines beacon through dark times over 4 years",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261026/itaewons-lit-lounge-shines-beacon-through-dark-times-over-4-years?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_e4dc6af5",
+    "date": "2026-10-25",
+    "ts": 1792960200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.b3019e7eef0c4859ab8db36ae7a8fcc0_T1.jpg",
+    "title": "[Ruth Pollard] The world courts Kim Jong-un",
+    "link": "https://www.koreaherald.com/article/10913965"
+  },
+  {
+    "id": "hotnews_en_dc192094",
+    "date": "2026-10-25",
+    "ts": 1792960200000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.eedd45f607b6444a965be3ab6086c832_T1.jpg",
+    "title": "[Yoo Choon-sik] Turning AI promises into lasting capabilities",
+    "link": "https://www.koreaherald.com/article/10913964"
+  },
+  {
     "id": "hotnews_en_e3e3ad38",
     "date": "2026-10-25",
     "ts": 1792933316000,
@@ -344,6 +368,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261025003300320"
   },
   {
+    "id": "hotnews_en_eb8ed3ea",
+    "date": "2026-10-25",
+    "ts": 1792903523000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.356eff50b2ca4e1b958a9f2d22161e1d_T1.jpg",
+    "title": "Kim Jong-un's surprise trip to China",
+    "link": "https://www.koreaherald.com/article/10913880"
+  },
+  {
     "id": "hotnews_en_295b240d",
     "date": "2026-10-25",
     "ts": 1792903247000,
@@ -366,37 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261025015826_20_e.jpg",
     "title": "Kia-Samsung Playoff Opener Moved to Monday Due to Typhoon-Driven Rain",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205103"
-  },
-  {
-    "id": "hotnews_en_5545a757",
-    "date": "2026-10-25",
-    "ts": 1792901967000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261025015549_31_e.jpg",
-    "title": "Heavy Rain to Continue on Jeju as Showers Ease Nationwide by Monday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205102"
-  },
-  {
-    "id": "hotnews_en_16aaad35",
-    "date": "2026-10-25",
-    "ts": 1792901878000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261020.PAP20261020016801009_T1.jpg",
-    "title": "California election officials frustrated, rattled by DOJ demand to sequester 'noncitizen' ballots",
-    "link": "https://www.koreaherald.com/article/10913863"
-  },
-  {
-    "id": "hotnews_en_6644bdbd",
-    "date": "2026-10-25",
-    "ts": 1792901782000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261025.PXI20261025002801009_T1.jpg",
-    "title": "Israeli forces displace Hebron families after deadly attack",
-    "link": "https://www.koreaherald.com/article/10913862"
-  },
-  {
-    "id": "hotnews_en_edae6f3c",
-    "date": "2026-10-25",
-    "ts": 1792901695000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261025.PAP20261025162401009_T1.jpg",
-    "title": "Obama assails 'cruelty' and indecency from Trump and his allies in the midterm campaign",
-    "link": "https://www.koreaherald.com/article/10913861"
   }
 ]
