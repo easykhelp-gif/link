@@ -1,5 +1,253 @@
 [
   {
+    "id": "hotnews_en_2d279c92",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/f49d5a21-a62c-4a7e-9002-62bd4d524420.jpg",
+    "title": "Nat'l health insurance fiscal balance for foreigners tops $753 mil. in surplus last year",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261025/natl-health-insurance-fiscal-balance-for-foreigners-tops-753-mil-in-surplus-last-year?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_0316b452",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/764c5d54-52e4-41d2-a6d4-12699bcc7e80.jpg",
+    "title": "Incidents involving Koreans in 10 nations under travel advisory rise 50%: data",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261025/incidents-involving-koreans-in-10-nations-under-travel-advisory-rise-50-data?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_e491d01f",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/77b7dfb9-bc35-4d9a-99f9-94f338baaf05.jpg",
+    "title": "Police step up crackdown on fake uniforms ahead of Halloween",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261025/police-step-up-crackdown-on-fake-uniforms-ahead-of-halloween?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b3632523",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/7e8c68fc-fa94-4128-a42f-8119e58421a4.jpg",
+    "title": "Korea to expand int'l flights in winter season",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261025/korea-to-expand-intl-flights-in-winter-season?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b20d7207",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/4f57ae52-7740-43c6-a645-28a31df5aa71.jpg",
+    "title": "North Korea's evolving threat goes beyond missiles as Russia ties deepen",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261025/north-koreas-evolving-threat-goes-beyond-missiles-as-russia-ties-deepen?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_6971f415",
+    "date": "2026-10-25",
+    "ts": 1792929124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/12f00eca-d5e7-4d9e-b43e-fdb1677fa0ab.png",
+    "title": "Foreign-language emergency calls more than double in Korea",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261025/foreign-language-emergency-calls-more-than-double-in-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_7d019fb9",
+    "date": "2026-10-25",
+    "ts": 1792924915000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.9503e62f513b44bda98b39ffb7dd7e26_T1.png",
+    "title": "More middle than high school students in Korea experience feelings of depression: data",
+    "link": "https://www.koreaherald.com/article/10914019"
+  },
+  {
+    "id": "hotnews_en_eafb1522",
+    "date": "2026-10-25",
+    "ts": 1792924913000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.315f8e72e6544a96aa3ce831736bebbe_T1.jpg",
+    "title": "Osong beauty expo draws nearly $100m in export deals",
+    "link": "https://www.koreaherald.com/article/10914018"
+  },
+  {
+    "id": "hotnews_en_219ac229",
+    "date": "2026-10-25",
+    "ts": 1792924245000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025000353315_07_i_P2.jpg",
+    "title": "N.K. leader vows to advance ties with China during surprise Dandong visit",
+    "link": "https://en.yna.co.kr/view/AEN20261025000353315"
+  },
+  {
+    "id": "hotnews_en_01e5feb8",
+    "date": "2026-10-25",
+    "ts": 1792923363000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025005400320_01_i_P2.jpg",
+    "title": "Lee says S. Korea emerging as global economic leader on record current account surplus",
+    "link": "https://en.yna.co.kr/view/AEN20261025005400320"
+  },
+  {
+    "id": "hotnews_en_dbea3504",
+    "date": "2026-10-25",
+    "ts": 1792919728000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.8f119622877940d7bbc210db208a8f15_T1.jpeg",
+    "title": "[팟캐스트] (823) 누리호 5차 발사 성공적 이륙",
+    "link": "https://www.koreaherald.com/article/10914001"
+  },
+  {
+    "id": "hotnews_en_50681f7b",
+    "date": "2026-10-25",
+    "ts": 1792916876000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.844d53ebb9b94973a5f2723f682cbd41_T1.jpg",
+    "title": "Jamsu Bridge hosts a 400-meter fried chicken feast",
+    "link": "https://www.koreaherald.com/article/10913987"
+  },
+  {
+    "id": "hotnews_en_cd9dbb5a",
+    "date": "2026-10-25",
+    "ts": 1792916617000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.7d37910819144b78a227486d472107f4_T1.png",
+    "title": "South Korea exceeds Asian Para Games target with 29 golds",
+    "link": "https://www.koreaherald.com/article/10913986"
+  },
+  {
+    "id": "hotnews_en_fc3879ad",
+    "date": "2026-10-25",
+    "ts": 1792916510000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.316a41b480a648c1b49e23660f29de24_T1.jpg",
+    "title": "Sparks of tradition",
+    "link": "https://www.koreaherald.com/article/10913985"
+  },
+  {
+    "id": "hotnews_en_8bc18c06",
+    "date": "2026-10-25",
+    "ts": 1792916131000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.7595f68da79c4445a8bf4a3f1f28b465_T1.jpg",
+    "title": "Woman killed by falling 60kg transformer radiator while leaving work",
+    "link": "https://www.koreaherald.com/article/10913981"
+  },
+  {
+    "id": "hotnews_en_0a314c45",
+    "date": "2026-10-25",
+    "ts": 1792915279000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.30689695542441a09427d11e2757f950_T1.jpg",
+    "title": "Volkanovski keeps promise with quick win over Evloev",
+    "link": "https://www.koreaherald.com/article/10913976"
+  },
+  {
+    "id": "hotnews_en_b655343c",
+    "date": "2026-10-25",
+    "ts": 1792915036000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.6436a598902d481f9d9cbd3f5557d3b2_T1.jpg",
+    "title": "Hanroro to hold first arena concerts in January",
+    "link": "https://www.koreaherald.com/article/10913973"
+  },
+  {
+    "id": "hotnews_en_00cf7be5",
+    "date": "2026-10-25",
+    "ts": 1792914078000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261014.PYH2026101420300001300_T1.jpg",
+    "title": "Think twice before dressing as a cop this Halloween",
+    "link": "https://www.koreaherald.com/article/10913972"
+  },
+  {
+    "id": "hotnews_en_3884ad5e",
+    "date": "2026-10-25",
+    "ts": 1792913926000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.f214e36b9aad470eb87a50b15d4b129d_T1.jpg",
+    "title": "Infantino says he has support of 'vast, vast majority'",
+    "link": "https://www.koreaherald.com/article/10913969"
+  },
+  {
+    "id": "hotnews_en_99d71e4f",
+    "date": "2026-10-25",
+    "ts": 1792913256000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102502560005400_P2.jpg",
+    "title": "2 S. Koreans finish as runners-up at LPGA event on home soil",
+    "link": "https://en.yna.co.kr/view/AEN20261025004400315"
+  },
+  {
+    "id": "hotnews_en_223d4f21",
+    "date": "2026-10-25",
+    "ts": 1792912566000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.5a51060215f84d3cad77c429b6bb2206_T1.jpg",
+    "title": "From rebuilding lives to shaping futures, Posco's 1% gives back",
+    "link": "https://www.koreaherald.com/article/10913959"
+  },
+  {
+    "id": "hotnews_en_1266dffc",
+    "date": "2026-10-25",
+    "ts": 1792912555000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.b70ec5a445fd45e5a849e7aef993607b_T1.jpg",
+    "title": "Mercedes-Benz Korea marks 20 years of technician training",
+    "link": "https://www.koreaherald.com/article/10913958"
+  },
+  {
+    "id": "hotnews_en_695aa112",
+    "date": "2026-10-25",
+    "ts": 1792909381000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.5068d9c905f945e79a8675c624e47429_T1.jpg",
+    "title": "In Dandong, Kim Jong-un invokes wartime past, eyes economic future",
+    "link": "https://www.koreaherald.com/article/10913934"
+  },
+  {
+    "id": "hotnews_en_1bd14b02",
+    "date": "2026-10-25",
+    "ts": 1792908838000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025004000315_04_i_P2.jpg",
+    "title": "Lions veteran happy to cede spotlight to younger teammates",
+    "link": "https://en.yna.co.kr/view/AEN20261025004000315"
+  },
+  {
+    "id": "hotnews_en_8eba0dd9",
+    "date": "2026-10-25",
+    "ts": 1792908265000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-a.v1.20261025.acb5511f7f8745e88a291dc0ac992903_T1.jpg",
+    "title": "Why Kospi and Korean won have parted ways",
+    "link": "https://www.koreaherald.com/article/10913918"
+  },
+  {
+    "id": "hotnews_en_335eadfe",
+    "date": "2026-10-25",
+    "ts": 1792907906000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.5c0369a15d5f4a1c8bf45ecc82aebec9_T1.jpg",
+    "title": "Seoul mayor steps forward as conservatives seek unity",
+    "link": "https://www.koreaherald.com/article/10913912"
+  },
+  {
+    "id": "hotnews_en_8455c4ef",
+    "date": "2026-10-25",
+    "ts": 1792906970000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025003800315_01_i_P2.jpg",
+    "title": "Footage released of huge S. Korean national flag on Dokdo Island",
+    "link": "https://en.yna.co.kr/view/AEN20261025003800315"
+  },
+  {
+    "id": "hotnews_en_c68f6780",
+    "date": "2026-10-25",
+    "ts": 1792905562000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025003600315_01_i_P2.jpg",
+    "title": "Tigers slugger trying not to get caught up in numbers amid postseason surge",
+    "link": "https://en.yna.co.kr/view/AEN20261025003600315"
+  },
+  {
+    "id": "hotnews_en_c5fc331e",
+    "date": "2026-10-25",
+    "ts": 1792905202000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261011.ee3b297bcddc42998ec6f0a003b07896_T1.jpg",
+    "title": "Police interpretation gaps leave foreigners lost in translation",
+    "link": "https://www.koreaherald.com/article/10913898"
+  },
+  {
+    "id": "hotnews_en_c14ca983",
+    "date": "2026-10-25",
+    "ts": 1792905004000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.45669e1b1b3e4b3f819fe4244387ae44_T1.jpg",
+    "title": "Doctor fined after patient dies from heart muscle tear during acupuncture",
+    "link": "https://www.koreaherald.com/article/10913897"
+  },
+  {
+    "id": "hotnews_en_25e1de9e",
+    "date": "2026-10-25",
+    "ts": 1792904925000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102110970001300_P2.jpg",
+    "title": "Corporate watchdog chief calls for tougher penalties for obstructing investigations",
+    "link": "https://en.yna.co.kr/view/AEN20261025003500320"
+  },
+  {
     "id": "hotnews_en_344b7ff2",
     "date": "2026-10-25",
     "ts": 1792904523000,
@@ -38,6 +286,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102308730001300_P2.jpg",
     "title": "S. Korea to expand int'l flights in winter season",
     "link": "https://en.yna.co.kr/view/AEN20261025003300320"
+  },
+  {
+    "id": "hotnews_en_9bdd5a73",
+    "date": "2026-10-25",
+    "ts": 1792902240000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261025015826_20_e.jpg",
+    "title": "Kia-Samsung Playoff Opener Moved to Monday Due to Typhoon-Driven Rain",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205103"
   },
   {
     "id": "hotnews_en_5545a757",
@@ -142,261 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.dee021a3987b4cd48700efad78256c5a_T1.jpg",
     "title": "Foreign, defense ministries had no prior communications on relocation plan: lawmaker",
     "link": "https://www.koreaherald.com/article/10913818"
-  },
-  {
-    "id": "hotnews_en_6a956dbf",
-    "date": "2026-10-25",
-    "ts": 1792894869000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.d2302b8a53ca4fe99a79dea73f56240e_T1.jpg",
-    "title": "Year after Baek Se-hee's death, her loved ones turn to writing",
-    "link": "https://www.koreaherald.com/article/10913812"
-  },
-  {
-    "id": "hotnews_en_38bd2e99",
-    "date": "2026-10-25",
-    "ts": 1792893765000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/24/PYH2026042413010001300_P2.jpg",
-    "title": "Hyundai Motor, Kia's combined China sales fall below 10,000 units in Sept.",
-    "link": "https://en.yna.co.kr/view/AEN20261025001900320"
-  },
-  {
-    "id": "hotnews_en_c655bff2",
-    "date": "2026-10-25",
-    "ts": 1792893751000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.10dda774c4314054b51a9493e735788d_T1.jpg",
-    "title": "[Contribution] Korea projects artistic soft power in London",
-    "link": "https://www.koreaherald.com/article/10913804"
-  },
-  {
-    "id": "hotnews_en_2dc3968d",
-    "date": "2026-10-25",
-    "ts": 1792893466000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/08/PYH2026010809900001300_P2.jpg",
-    "title": "Incidents involving S. Koreans in 10 nations under travel advisory rise 50 pct: data",
-    "link": "https://en.yna.co.kr/view/AEN20261025001800315"
-  },
-  {
-    "id": "hotnews_en_6ca8a167",
-    "date": "2026-10-25",
-    "ts": 1792892809000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.b8d27a05e6b0423391756c17996f5407_T1.jpg",
-    "title": "Nearly half of Koreans experience fatigue, sleep average of 6.3 hours: report",
-    "link": "https://www.koreaherald.com/article/10913792"
-  },
-  {
-    "id": "hotnews_en_134e9f3d",
-    "date": "2026-10-25",
-    "ts": 1792892413000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.c73c15f31a8e4e5c8f7e05cbb760822d_T1.jpg",
-    "title": "Samsung's Exynos 2700 outscores Qualcomm's top chip by nearly 20%",
-    "link": "https://www.koreaherald.com/article/10913791"
-  },
-  {
-    "id": "hotnews_en_60854660",
-    "date": "2026-10-25",
-    "ts": 1792892121000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025001700320_02_i_P2.jpg",
-    "title": "Tving tops new streaming app installations in Sept.",
-    "link": "https://en.yna.co.kr/view/AEN20261025001700320"
-  },
-  {
-    "id": "hotnews_en_c0f5aa16",
-    "date": "2026-10-25",
-    "ts": 1792891446000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101706360006200_P2.jpg",
-    "title": "Foreign cruise ship visitors to S. Korea near 1.3 mln in Jan.-Aug. period",
-    "link": "https://en.yna.co.kr/view/AEN20261025001400320"
-  },
-  {
-    "id": "hotnews_en_a3ef28fc",
-    "date": "2026-10-25",
-    "ts": 1792890579000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg",
-    "title": "Samsung Electronics, SK hynix set to report Q3 earnings this week",
-    "link": "https://en.yna.co.kr/view/AEN20261025001200320"
-  },
-  {
-    "id": "hotnews_en_2a84f6d2",
-    "date": "2026-10-25",
-    "ts": 1792889448000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/16/PYH2026061612910001300_P2.jpg",
-    "title": "S. Korea's temporary jobs fall to 31-year Q3 low",
-    "link": "https://en.yna.co.kr/view/AEN20261025000900320"
-  },
-  {
-    "id": "hotnews_en_e15ef483",
-    "date": "2026-10-25",
-    "ts": 1792889224000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261025.PAP20261025003201009_T1.jpg",
-    "title": "LIV Golf paid $15 million to retain executives before filing for bankruptcy, court records show",
-    "link": "https://www.koreaherald.com/article/10913743"
-  },
-  {
-    "id": "hotnews_en_0b8a9909",
-    "date": "2026-10-25",
-    "ts": 1792888353000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405310006100_P2.jpg",
-    "title": "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
-    "link": "https://en.yna.co.kr/view/AEN20261025000800320"
-  },
-  {
-    "id": "hotnews_en_6725f988",
-    "date": "2026-10-25",
-    "ts": 1792888259000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025000700315_01_i_P2.jpg",
-    "title": "What's next for Trump's Korea policy after U.S. midterms? Experts assess alliance friction, N.K. diplomacy",
-    "link": "https://en.yna.co.kr/view/AEN20261025000700315"
-  },
-  {
-    "id": "hotnews_en_4f97196f",
-    "date": "2026-10-25",
-    "ts": 1792887098000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025000351315_07_i_P2.jpg",
-    "title": "N.K. leader vows to advance ties with China during surprise Dandong visit",
-    "link": "https://en.yna.co.kr/view/AEN20261025000351315"
-  },
-  {
-    "id": "hotnews_en_8de9fad9",
-    "date": "2026-10-24",
-    "ts": 1792884600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-a.v1.20261023.43a08f0d34ab486ab411a6ecbd93b671_T1.png",
-    "title": "As Koreans eat less rice, CJ looks overseas to grow Hetbahn",
-    "link": "https://www.koreaherald.com/article/10913221"
-  },
-  {
-    "id": "hotnews_en_b6b70a42",
-    "date": "2026-10-24",
-    "ts": 1792858023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/38448600-15f0-4cdf-b353-76686c476cba.jpeg",
-    "title": "Granddaughter of Korean independence fighter brings Korean history to US schools",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261025/granddaughter-of-korean-independence-fighter-brings-korean-history-to-us-schools?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_77fe66cb",
-    "date": "2026-10-24",
-    "ts": 1792858023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/16f31ad1-eff8-4a4d-a646-f1b0b0677493.jpeg",
-    "title": "Cattle farmers in Korea reeling from solar panel policy",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261025/cattle-farmers-in-korea-reeling-from-solar-panel-policy?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_6260eeb5",
-    "date": "2026-10-24",
-    "ts": 1792844764000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024001956320_03_i_P2.jpg",
-    "title": "N. Korean leader Kim Jong-un visits China, meets senior official amid ties push",
-    "link": "https://en.yna.co.kr/view/AEN20261024001956320"
-  },
-  {
-    "id": "hotnews_en_295153ad",
-    "date": "2026-10-24",
-    "ts": 1792840930000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "N. Korean leader Kim Jong-un leaves Dandong, seen off by China's top political adviser: Xinhua",
-    "link": "https://en.yna.co.kr/view/AEN20261024005800320"
-  },
-  {
-    "id": "hotnews_en_90f93f64",
-    "date": "2026-10-24",
-    "ts": 1792840924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/b3d29e3a-c08b-4a85-8487-ac242ec4b5d1.jpg",
-    "title": "North Korea's diversifying missile arsenal complicates South's defense",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261024/north-koreas-diversifying-missile-arsenal-complicates-souths-defense?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_cb36c035",
-    "date": "2026-10-24",
-    "ts": 1792835700000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005700315_01_i_P2.jpg",
-    "title": "With LPGA title on home soil in sight, Ryu Hae-ran ready to have fun",
-    "link": "https://en.yna.co.kr/view/AEN20261024005700315"
-  },
-  {
-    "id": "hotnews_en_481d1ef8",
-    "date": "2026-10-24",
-    "ts": 1792832916000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404170001300_P2.jpg",
-    "title": "FC Seoul boss Kim Gi-dong happy to deliver on championship promise",
-    "link": "https://en.yna.co.kr/view/AEN20261024005600315"
-  },
-  {
-    "id": "hotnews_en_d61d714c",
-    "date": "2026-10-24",
-    "ts": 1792829811000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404080001300_P2.jpg",
-    "title": "FC Seoul crowned K League 1 champions",
-    "link": "https://en.yna.co.kr/view/AEN20261024002051315"
-  },
-  {
-    "id": "hotnews_en_24c19653",
-    "date": "2026-10-24",
-    "ts": 1792829523000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005300315_01_i_P2.jpg",
-    "title": "Ryu Hae-ran builds 4-shot lead at LPGA event in S. Korea",
-    "link": "https://en.yna.co.kr/view/AEN20261024005300315"
-  },
-  {
-    "id": "hotnews_en_1117d746",
-    "date": "2026-10-24",
-    "ts": 1792828688000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024004700315_01_i_P2.jpg",
-    "title": "KBO saves leader out for Lions' postseason series due to injury",
-    "link": "https://en.yna.co.kr/view/AEN20261024004700315"
-  },
-  {
-    "id": "hotnews_en_1bcf6770",
-    "date": "2026-10-24",
-    "ts": 1792827558000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "N. Korea's Kim appears to be planning to return home Saturday after visiting China's Dandong: ruling party source",
-    "link": "https://en.yna.co.kr/view/AEN20261024002300320"
-  },
-  {
-    "id": "hotnews_en_4d5ec673",
-    "date": "2026-10-24",
-    "ts": 1792825482000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/24/news-p.v1.20261024.7e0f97c8d2b243f6b5231bcd5b5e36eb_T1.jpg",
-    "title": "Kim Jong-un makes surprise visit to China via new Yalu River bridge",
-    "link": "https://www.koreaherald.com/article/10913525"
-  },
-  {
-    "id": "hotnews_en_a3e9ff65",
-    "date": "2026-10-24",
-    "ts": 1792825201000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/23/news-p.v1.20261023.381b42630f624a5eb9c4e3a642965367_T1.jpg",
-    "title": "Is Korea’s black puffer era coming to an end?",
-    "link": "https://www.koreaherald.com/article/10913273"
-  },
-  {
-    "id": "hotnews_en_f27df3a3",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261022.e93b680e3db943f09e8b93e9d6ea4381_T1.jpg",
-    "title": "K-pop's master of ceremonies",
-    "link": "https://www.koreaherald.com/article/10911886"
-  },
-  {
-    "id": "hotnews_en_4dddb86e",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.0cfa911dd98c400d8bfa2edd1e37f327_T1.jpg",
-    "title": "A quieter Seoul comes alive after dark",
-    "link": "https://www.koreaherald.com/article/10911646"
-  },
-  {
-    "id": "hotnews_en_dc9d2ff2",
-    "date": "2026-10-24",
-    "ts": 1792825200000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/22/news-p.v1.20261021.def037945a8a4487aaaba74c43401db9_T1.jpg",
-    "title": "Divorce gets a party of its own in Korea",
-    "link": "https://www.koreaherald.com/article/10911338"
-  },
-  {
-    "id": "hotnews_en_bf7bc87c",
-    "date": "2026-10-24",
-    "ts": 1792821807000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260808064632_47_k.jpg",
-    "title": "S. Korea's Gasoline Prices Fall for 23rd Consecutive Week",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205096"
   }
 ]
