@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_ad64aea2",
+    "date": "2026-10-26",
+    "ts": 1792991224000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/03e5537d-8612-4edc-a5d7-25bdfeb47819.jpg",
+    "title": "ส่งผู้ต้องหาคดียาเสพติดกลับเกาหลี หลังหนีไปกานา 22 ปี",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261026/drug-suspect-repatriated-from-ghana-after-22-years-on-the-run?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_2f68ef8f",
+    "date": "2026-10-26",
+    "ts": 1792991224000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/bf60829a-1a2b-455d-a4dc-564d0a266c6c.jpeg",
+    "title": "กลุ่มครอบครัวเกาหลีจี้รัฐบาลปรับแผนยุทธศาสตร์ประชากรใหม่",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261026/korean-family-groups-demand-overhaul-of-national-population-plan?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_4442cedb",
+    "date": "2026-10-26",
+    "ts": 1792991224000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/c106a017-ab88-4fd7-b7ab-72ae872a5029.jpg",
+    "title": "คะแนนนิยมประธานาธิบดีอีแจมยองลดลงเหลือ 35.3%",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261026/lees-approval-rating-falls-to-353-after-rebound-poll?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_0bd6330e",
+    "date": "2026-10-26",
+    "ts": 1792991224000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/b49f0a53-aa9c-49e9-9a20-b20baaf95d15.jpeg",
+    "title": "อัฐ쇄ทหารผ่านศึกฝรั่งเศสสงครามเกาหลีจะถูกฝังที่ปูซาน",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261026/french-korean-war-veterans-remains-to-be-laid-to-rest-in-busan?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_3cc0f62d",
+    "date": "2026-10-26",
+    "ts": 1792989547000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261026014159_56_e.jpg",
+    "title": "ประชากรเกาหลีใต้ 5.4% มีภูมิหลังการย้ายถิ่นหรือชาวต่างชาติ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205116"
+  },
+  {
+    "id": "hotnews_th_99e25be3",
+    "date": "2026-10-26",
+    "ts": 1792979463000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/26/news-p.v1.20261025.fc2507c67f6f46eaa9677a44ec169fe9_T1.jpg",
+    "title": "วงไอดอลเสมือนจริง Plave ประสบความสำเร็จอย่างต่อเนื่อง",
+    "link": "https://www.koreaherald.com/article/10914583"
+  },
+  {
+    "id": "hotnews_th_0c74d741",
+    "date": "2026-10-26",
+    "ts": 1792979374000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261026125535_73_e.jpg",
+    "title": "ฮอลลีวูดรีพอร์ตเก็ง จอนโดยอน อาจชิงออสการ์จากบทใน Possible Love",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205111"
+  },
+  {
+    "id": "hotnews_th_45f05a21",
+    "date": "2026-10-26",
+    "ts": 1792978935000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/26/news-p.v1.20261026.63a196d8240c4c23811caa8cdbe29565_T1.jpg",
+    "title": "ผู้ตรวจการพิเศษประธานาธิบดีคนใหม่สัญญาความเป็นกลางทางการเมือง",
+    "link": "https://www.koreaherald.com/article/10914562"
+  },
+  {
+    "id": "hotnews_th_5f24ab1e",
+    "date": "2026-10-26",
+    "ts": 1792978540000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/26/news-p.v1.20261026.2f6ff7a65ab64d35b7c8930179a143c8_T1.jpg",
+    "title": "ทีมกฎหมายพิเศษเตรียมตรวจสอบบัตรเลือกตั้ง 2.5 ล้านใบ",
+    "link": "https://www.koreaherald.com/article/10914545"
+  },
+  {
+    "id": "hotnews_th_5aeb5b95",
+    "date": "2026-10-25",
+    "ts": 1792972561000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261026085748_75_e.jpg",
+    "title": "เกาหลีเหนือส่งจดหมายถึง UNSC กล่าวหาเกาหลีใต้ปั้นเรื่องระเบิด DMZ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205106"
+  },
+  {
     "id": "hotnews_th_df14a21d",
     "date": "2026-10-25",
     "ts": 1792962123000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025000351315_07_i_P2.jpg",
     "title": "คิมจองอึนเยือนจีน พบ หวังฮู่หนิง มุ่งมั่นกระชับความสัมพันธ์",
     "link": "https://en.yna.co.kr/view/AEN20261025000351315"
-  },
-  {
-    "id": "hotnews_th_b6b70a42",
-    "date": "2026-10-24",
-    "ts": 1792858023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/38448600-15f0-4cdf-b353-76686c476cba.jpeg",
-    "title": "หลานสาวนักกู้ชาติเกาหลีเผยแพร่ประวัติศาสตร์ในสหรัฐฯ",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261025/granddaughter-of-korean-independence-fighter-brings-korean-history-to-us-schools?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_77fe66cb",
-    "date": "2026-10-24",
-    "ts": 1792858023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/16f31ad1-eff8-4a4d-a646-f1b0b0677493.jpeg",
-    "title": "เกษตรกรผู้เลี้ยงวัวในเกาหลีใต้เดือดร้อนจากแผงโซลาร์เซลล์",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261025/cattle-farmers-in-korea-reeling-from-solar-panel-policy?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6260eeb5",
-    "date": "2026-10-24",
-    "ts": 1792844764000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024001956320_03_i_P2.jpg",
-    "title": "คิม จองอึน เยือนจีนและพบกับ หวัง Huning เจ้าหน้าที่ระดับสูง",
-    "link": "https://en.yna.co.kr/view/AEN20261024001956320"
-  },
-  {
-    "id": "hotnews_th_295153ad",
-    "date": "2026-10-24",
-    "ts": 1792840930000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "คิม จองอึน ผู้นำเกาหลีเหนือ ออกเดินทางจากเมืองตานตงแล้ว",
-    "link": "https://en.yna.co.kr/view/AEN20261024005800320"
-  },
-  {
-    "id": "hotnews_th_90f93f64",
-    "date": "2026-10-24",
-    "ts": 1792840924000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/20/b3d29e3a-c08b-4a85-8487-ac242ec4b5d1.jpg",
-    "title": "เกาหลีเหนือเพิ่มความหลากหลายขีปนาวุธ ท้าทายระบบป้องกัน",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261024/north-koreas-diversifying-missile-arsenal-complicates-souths-defense?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_cb36c035",
-    "date": "2026-10-24",
-    "ts": 1792835700000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005700315_01_i_P2.jpg",
-    "title": "ยู แฮ-รัน ขึ้นนำเดี่ยวศึกกอล์ฟ LPGA BMW Ladies Championship",
-    "link": "https://en.yna.co.kr/view/AEN20261024005700315"
-  },
-  {
-    "id": "hotnews_th_481d1ef8",
-    "date": "2026-10-24",
-    "ts": 1792832916000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404170001300_P2.jpg",
-    "title": "โค้ช คิม กี-ดง พา FC Seoul คว้าแชมป์ K League 1 สำเร็จ",
-    "link": "https://en.yna.co.kr/view/AEN20261024005600315"
-  },
-  {
-    "id": "hotnews_th_d61d714c",
-    "date": "2026-10-24",
-    "ts": 1792829811000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404080001300_P2.jpg",
-    "title": "FC Seoul คว้าแชมป์ K League 1 สมัยแรกในรอบ 10 ปี",
-    "link": "https://en.yna.co.kr/view/AEN20261024002051315"
-  },
-  {
-    "id": "hotnews_th_24c19653",
-    "date": "2026-10-24",
-    "ts": 1792829523000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/24/AEN20261024005300315_01_i_P2.jpg",
-    "title": "รยู Hae-ran ขึ้นนำ 4 สโตรกศึกกอล์ฟ LPGA ที่เกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20261024005300315"
-  },
-  {
-    "id": "hotnews_th_1bcf6770",
-    "date": "2026-10-24",
-    "ts": 1792827558000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "คิม จองอึน เตรียมเดินทางกลับเกาหลีเหนือวันเสาร์นี้",
-    "link": "https://en.yna.co.kr/view/AEN20261024002300320"
   }
 ]
