@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_vi_1d570853",
+    "date": "2026-10-26",
+    "ts": 1793054823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/8bf26d44-046d-42c5-a8cd-d79e8fd7ab0a.jpeg",
+    "title": "Phim \"Doctor X\" bị yêu cầu ngừng chiếu vì phong trào Gwangju",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261027/doctor-x-faces-petition-to-halt-airing-over-gwangju-uprising-depiction?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_865d7999",
+    "date": "2026-10-26",
+    "ts": 1793054823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/d3e4599a-9048-45f2-8599-e1a59dced85f.jpeg",
+    "title": "Tiểu thương Itaewon đối mặt Halloween với nhiều kỳ vọng lẫn lo âu",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261027/4-years-on-itaewon-businesses-face-halloween-with-mixed-expectations?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_6270839d",
+    "date": "2026-10-26",
+    "ts": 1793052999000,
+    "image": "",
+    "title": "Đảng Dân chủ thúc đẩy điều tra tư pháp và bảo vệ Tổng thống",
+    "link": "https://en.yna.co.kr/view/AEN20261027001000315"
+  },
+  {
+    "id": "hotnews_vi_a1ee16a1",
+    "date": "2026-10-26",
+    "ts": 1793052982000,
+    "image": "",
+    "title": "Tin đồn thất thiệt về Triều Tiên gây ảnh hưởng an ninh",
+    "link": "https://en.yna.co.kr/view/AEN20261027000900315"
+  },
+  {
+    "id": "hotnews_vi_52dd84c9",
+    "date": "2026-10-26",
+    "ts": 1793052966000,
+    "image": "",
+    "title": "Quan hệ Triều Tiên, Trung Quốc và Nga siết chặt",
+    "link": "https://en.yna.co.kr/view/AEN20261027000800315"
+  },
+  {
+    "id": "hotnews_vi_ebe2d608",
+    "date": "2026-10-26",
+    "ts": 1793052616000,
+    "image": "",
+    "title": "Điểm tin báo chí Hàn Quốc ngày 27 tháng 10",
+    "link": "https://en.yna.co.kr/view/AEN20261027000700315"
+  },
+  {
+    "id": "hotnews_vi_ab9876dd",
+    "date": "2026-10-26",
+    "ts": 1793043887000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052701530031500_P2.jpg",
+    "title": "CĐV LAFC lăng mạ Son Heung-min bằng lời kỳ thị chủng tộc",
+    "link": "https://en.yna.co.kr/view/AEN20261027000400315"
+  },
+  {
+    "id": "hotnews_vi_547e25d5",
+    "date": "2026-10-26",
+    "ts": 1793035371000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/21/PAP20261021198101009_P2.jpg",
+    "title": "Ngoại trưởng Mỹ Marco Rubio chủ trì hội nghị G20 tại Atlanta",
+    "link": "https://en.yna.co.kr/view/AEN20261027000300315"
+  },
+  {
     "id": "hotnews_vi_2ecb5501",
     "date": "2026-10-26",
     "ts": 1793021523000,
@@ -64,6 +128,14 @@
     "link": "https://www.koreaherald.com/article/10915303"
   },
   {
+    "id": "hotnews_vi_47c81a68",
+    "date": "2026-10-26",
+    "ts": 1793003032000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261026065104_31_e.jpg",
+    "title": "Vận động viên Hàn Quốc về nước sau Asian Para Games",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205129"
+  },
+  {
     "id": "hotnews_vi_1af3339c",
     "date": "2026-10-26",
     "ts": 1793001877000,
@@ -78,6 +150,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/26/AEN20261026008600315_01_i_P2.jpg",
     "title": "Đề nghị 5 năm tù cho cựu Thứ trưởng Bộ Đất đai Kim Oh-jin",
     "link": "https://en.yna.co.kr/view/AEN20261026008600315"
+  },
+  {
+    "id": "hotnews_vi_fc758910",
+    "date": "2026-10-26",
+    "ts": 1793000883000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261026065548_74_e.jpg",
+    "title": "Bộ Giáo dục Hàn Quốc khảo sát học sinh dùng kính AI gian lận",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205127"
   },
   {
     "id": "hotnews_vi_ad64aea2",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102502560005400_P2.jpg",
     "title": "Hai golfer Hàn Quốc về nhì giải LPGA trên sân nhà",
     "link": "https://en.yna.co.kr/view/AEN20261025004400315"
-  },
-  {
-    "id": "hotnews_vi_223d4f21",
-    "date": "2026-10-25",
-    "ts": 1792912566000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.5a51060215f84d3cad77c429b6bb2206_T1.jpg",
-    "title": "Quỹ 1% của Posco hỗ trợ cựu binh và giáo dục khoa học",
-    "link": "https://www.koreaherald.com/article/10913959"
-  },
-  {
-    "id": "hotnews_vi_1266dffc",
-    "date": "2026-10-25",
-    "ts": 1792912555000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261023.b70ec5a445fd45e5a849e7aef993607b_T1.jpg",
-    "title": "Mercedes-Benz Korea kỷ niệm 20 năm đào tạo kỹ thuật viên",
-    "link": "https://www.koreaherald.com/article/10913958"
-  },
-  {
-    "id": "hotnews_vi_e1c10adb",
-    "date": "2026-10-25",
-    "ts": 1792909223000,
-    "image": "https://img.yna.co.kr/photo/cms/2019/04/30/92/PCM20190430000192990_P2.jpg",
-    "title": "Học sinh trung học cơ sở Hàn Quốc trầm cảm nhiều hơn cấp 3",
-    "link": "https://en.yna.co.kr/view/AEN20261025004200315"
-  },
-  {
-    "id": "hotnews_vi_335eadfe",
-    "date": "2026-10-25",
-    "ts": 1792907906000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.5c0369a15d5f4a1c8bf45ecc82aebec9_T1.jpg",
-    "title": "Thị trưởng Seoul Oh Se-hoon thúc đẩy đoàn kết phe bảo thủ",
-    "link": "https://www.koreaherald.com/article/10913912"
-  },
-  {
-    "id": "hotnews_vi_8455c4ef",
-    "date": "2026-10-25",
-    "ts": 1792906970000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025003800315_01_i_P2.jpg",
-    "title": "Video cờ lớn Hàn Quốc trên đảo Dokdo nhân ngày Dokdo",
-    "link": "https://en.yna.co.kr/view/AEN20261025003800315"
-  },
-  {
-    "id": "hotnews_vi_a3c53cc1",
-    "date": "2026-10-25",
-    "ts": 1792905750000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261025015928_34_e.jpg",
-    "title": "Truyền thông nước ngoài bàn về chuyến thăm Trung Quốc của Kim",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205105"
-  },
-  {
-    "id": "hotnews_vi_c5fc331e",
-    "date": "2026-10-25",
-    "ts": 1792905202000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261011.ee3b297bcddc42998ec6f0a003b07896_T1.jpg",
-    "title": "Thiếu thông tin dịch thuật cảnh sát gây khó khăn cho người nước ngoài",
-    "link": "https://www.koreaherald.com/article/10913898"
-  },
-  {
-    "id": "hotnews_vi_25e1de9e",
-    "date": "2026-10-25",
-    "ts": 1792904925000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102110970001300_P2.jpg",
-    "title": "Người đứng đầu FTC đề xuất phạt nặng công ty cản trở điều tra",
-    "link": "https://en.yna.co.kr/view/AEN20261025003500320"
-  },
-  {
-    "id": "hotnews_vi_344b7ff2",
-    "date": "2026-10-25",
-    "ts": 1792904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/46947488-a7e1-44a2-a66c-6bd1ca0b0523.png",
-    "title": "Tổng thống Lee cân nhắc bổ nhiệm bộ trưởng tư pháp mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261025/president-lee-mulls-picking-justice-minister-nominee-from-2-prosecutor-turned-lawmakers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_00891ba1",
-    "date": "2026-10-25",
-    "ts": 1792904523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/25/eea87e7b-ca0b-400a-8f9e-a30d3715c8a5.jpeg",
-    "title": "Đại học Seoul đồng tổ chức Diễn đàn Dữ liệu Lớn Seoul 2026",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261025/university-of-seoul-co-hosts-seoul-big-data-forum-to-explore-new-possibilities-for-data-use?utm_source=rss"
   }
 ]
