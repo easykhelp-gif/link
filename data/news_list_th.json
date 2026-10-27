@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_a41cb872",
+    "date": "2026-10-27",
+    "ts": 1793078650000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.dec24f8df0e7444197c5151425354214_T1.jpg",
+    "title": "LG Energy Solution เจรจาส่งมอบ ESS ให้ Energix",
+    "link": "https://www.koreaherald.com/article/10916296"
+  },
+  {
+    "id": "hotnews_th_6ce980df",
+    "date": "2026-10-27",
+    "ts": 1793078523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/b5483a8f-bd7e-4354-b10a-ffc7cf8cd6f9.jpg",
+    "title": "ประธานาธิบดีอีแจมยองระบุเกาหลีใต้ควรเรียนรู้จากการประท้วงในยุโรป",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261027/president-lee-says-korea-should-learn-from-european-protests-to-sustain-growth?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_733ba01e",
+    "date": "2026-10-27",
+    "ts": 1793078523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/041ce1fd-9ef6-4b5b-9207-791e287d7bd4.jpeg",
+    "title": "เกาหลีใต้และญี่ปุ่นร่วมมือปราบสินค้าปลีกและยาเสพติด",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/seoul-tokyo-form-united-front-against-counterfeiters-drug-traffickers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_bf327b29",
+    "date": "2026-10-27",
+    "ts": 1793078523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/f35d6663-f3fa-4b32-810f-91954be9c7c9.png",
+    "title": "ศาลสั่งระงับชั่วคราวคำสั่งห้าม LIG D&A ร่วมประมูล 2 ปี",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/court-temporarily-suspends-2-year-bidding-ban-on-lig-da?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_326d57dc",
+    "date": "2026-10-27",
+    "ts": 1793078523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/d5e6e1ee-d123-45ac-81f1-f64095148bdf.jpeg",
+    "title": "เกาหลีใต้เตรียมส่งดาวเทียมเก็บขยะอวกาศในปี 2027",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261027/korea-prepares-real-life-space-sweeper-to-hunt-orbiting-junk?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_a3ab8261",
+    "date": "2026-10-27",
+    "ts": 1793078080000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027022344_20_e.jpg",
+    "title": "คิม คอนฮี อาจถูกขยายเวลาควบคุมตัวหลังหมายจับหมดอายุวันเสาร์นี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205150"
+  },
+  {
+    "id": "hotnews_th_7000dba5",
+    "date": "2026-10-27",
+    "ts": 1793077874000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102707820001300_P2.jpg",
+    "title": "สส.พรรครัฐบาลเกาหลีใต้แสดงความเสียใจปัญหาวีซ่าสหรัฐล่าช้า",
+    "link": "https://en.yna.co.kr/view/AEN20261027007000315"
+  },
+  {
+    "id": "hotnews_th_d165daa1",
+    "date": "2026-10-27",
+    "ts": 1793076462000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/08/05/02/PCM20260805000002990_P2.jpg",
+    "title": "คณะกรรมการความปลอดภัยนิวเคลียร์พิจารณาต่ออายุเครื่องปฏิกรณ์โกริ 3 และ 4",
+    "link": "https://en.yna.co.kr/view/AEN20261027006800320"
+  },
+  {
+    "id": "hotnews_th_ab00d1d6",
+    "date": "2026-10-27",
+    "ts": 1793070487000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102617700001300_P2.jpg",
+    "title": "ทหารเกาหลีใต้เผยปืนใหญ่เกาหลีเหนือไม่ใช่ระบบอาวุธใหม่",
+    "link": "https://en.yna.co.kr/view/AEN20261027005900315"
+  },
+  {
+    "id": "hotnews_th_488b2d7e",
+    "date": "2026-10-27",
+    "ts": 1793069460000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027124942_75_e.jpg",
+    "title": "สภาคุ้มครองผู้บริโภคเตือนภัยโฆษณา AI ปลอมและหลอกลวง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205145"
+  },
+  {
     "id": "hotnews_th_1d570853",
     "date": "2026-10-26",
     "ts": 1793054823000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/25/AEN20261025005400320_01_i_P2.jpg",
     "title": "อี แจมยอง เผยเกาหลีใต้ก้าวสู่ผู้นำเศรษฐกิจโลกด้วยเกินดุลบัญชีเดินสะพัด",
     "link": "https://en.yna.co.kr/view/AEN20261025005400320"
-  },
-  {
-    "id": "hotnews_th_dbea3504",
-    "date": "2026-10-25",
-    "ts": 1792919728000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.8f119622877940d7bbc210db208a8f15_T1.jpeg",
-    "title": "จรวด누리호 (Nuri) ปล่อยขึ้นสู่อวกาศครั้งที่ 5 สำเร็จ",
-    "link": "https://www.koreaherald.com/article/10914001"
-  },
-  {
-    "id": "hotnews_th_50681f7b",
-    "date": "2026-10-25",
-    "ts": 1792916876000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.844d53ebb9b94973a5f2723f682cbd41_T1.jpg",
-    "title": "สะพานจัมซูจัดงานเลี้ยงไก่ทอดเกาหลียาว 400 เมตร",
-    "link": "https://www.koreaherald.com/article/10913987"
-  },
-  {
-    "id": "hotnews_th_cd9dbb5a",
-    "date": "2026-10-25",
-    "ts": 1792916617000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.7d37910819144b78a227486d472107f4_T1.png",
-    "title": "เกาหลีใต้คว้า 29 ทอง เกินเป้าในเอเชียนพาราเกมส์ 2026",
-    "link": "https://www.koreaherald.com/article/10913986"
-  },
-  {
-    "id": "hotnews_th_fc3879ad",
-    "date": "2026-10-25",
-    "ts": 1792916510000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.316a41b480a648c1b49e23660f29de24_T1.jpg",
-    "title": "งานเทศกาลยอจูโอ.ก๊กนารูจัดแสดงดอกไม้ไฟแบบดั้งเดิม",
-    "link": "https://www.koreaherald.com/article/10913985"
-  },
-  {
-    "id": "hotnews_th_8bc18c06",
-    "date": "2026-10-25",
-    "ts": 1792916131000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.7595f68da79c4445a8bf4a3f1f28b465_T1.jpg",
-    "title": "หญิงไทยดับสลดหม้อแปลงร่วงทับที่ชางวอน",
-    "link": "https://www.koreaherald.com/article/10913981"
-  },
-  {
-    "id": "hotnews_th_0a314c45",
-    "date": "2026-10-25",
-    "ts": 1792915279000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.30689695542441a09427d11e2757f950_T1.jpg",
-    "title": "อเล็กซานเดอร์ โวลคานอฟสกี้ ป้องกันแชมป์ UFC สำเร็จ",
-    "link": "https://www.koreaherald.com/article/10913976"
-  },
-  {
-    "id": "hotnews_th_b655343c",
-    "date": "2026-10-25",
-    "ts": 1792915036000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.6436a598902d481f9d9cbd3f5557d3b2_T1.jpg",
-    "title": "ฮันโรรอเตรียมจัดคอนเสิร์ตใหญ่ระดับอรีนาครั้งแรกในเดือนมกราคม",
-    "link": "https://www.koreaherald.com/article/10913973"
-  },
-  {
-    "id": "hotnews_th_00cf7be5",
-    "date": "2026-10-25",
-    "ts": 1792914078000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/rcv.YNA.20261014.PYH2026101420300001300_T1.jpg",
-    "title": "เตือนแต่งชุดตำรวจฮาโลวีนในเกาหลี ผิดกฎหมาย",
-    "link": "https://www.koreaherald.com/article/10913972"
-  },
-  {
-    "id": "hotnews_th_3884ad5e",
-    "date": "2026-10-25",
-    "ts": 1792913926000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/25/news-p.v1.20261025.f214e36b9aad470eb87a50b15d4b129d_T1.jpg",
-    "title": "จันนี อินฟันติโน เผยยังมีเสียงสนับสนุนส่วนใหญ่",
-    "link": "https://www.koreaherald.com/article/10913969"
-  },
-  {
-    "id": "hotnews_th_99d71e4f",
-    "date": "2026-10-25",
-    "ts": 1792913256000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102502560005400_P2.jpg",
-    "title": "โยริ โยชิดะ คว้าแชมป์กอล์ฟ LPGA ที่เกาหลีใต้ โดยมี รยู แฮ-รัน และ ชเว ฮเย-จิน คว้าอันดับ 2 ร่วม",
-    "link": "https://en.yna.co.kr/view/AEN20261025004400315"
   }
 ]
