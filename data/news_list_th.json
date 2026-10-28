@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_th_bfa6e5c1",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/cd3b9531-8dd1-4779-828f-4b5a8daceaa1.jpg",
+    "title": "Innovation Wing พื้นที่สร้างสรรค์โครงงานของนักศึกษาฮ่องกง",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/innovation-wing-provides-equipment-workspace-guidance-for-hands-on-projects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_568fbf74",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/49f8c05b-8220-4250-b7dd-a1572f01d57f.jpg",
+    "title": "รองอธิการบดี HKU ชี้แรงจูงใจสำคัญกว่าเกรดในยุค AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/grades-matter-less-than-motivation-in-ai-era-hku-vice-president-says?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_412c1809",
+    "date": "2026-10-28",
+    "ts": 1793224860000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029052201009_P2.jpg",
+    "title": "ธนาคารกลางสหรัฐฯ คงอัตราดอกเบี้ยนโยบาย",
+    "link": "https://en.yna.co.kr/view/AEN20261029000353315"
+  },
+  {
+    "id": "hotnews_th_ba55838a",
+    "date": "2026-10-28",
+    "ts": 1793224680000,
+    "image": "",
+    "title": "สถาบันการเงินเกาหลีต้องเพิ่มลงทุนความปลอดภัยไซเบอร์",
+    "link": "https://en.yna.co.kr/view/AEN20261029001000315"
+  },
+  {
+    "id": "hotnews_th_5b64b340",
+    "date": "2026-10-28",
+    "ts": 1793224669000,
+    "image": "",
+    "title": "รัฐบาล อี แจมยอง เผชิญวิกฤตความเชื่อมั่นจากเกษตรกร",
+    "link": "https://en.yna.co.kr/view/AEN20261029000900315"
+  },
+  {
+    "id": "hotnews_th_1d2d21fb",
+    "date": "2026-10-28",
+    "ts": 1793210625000,
+    "image": "https://img.yna.co.kr/photo/cms/2024/05/17/92/PCM20240517000192990_P2.jpg",
+    "title": "สสห.คว่ำบาตรบุคคลและองค์กรพัวพันไอทีเกาหลีเหนือ",
+    "link": "https://en.yna.co.kr/view/AEN20261029000400315"
+  },
+  {
+    "id": "hotnews_th_af33e8e4",
+    "date": "2026-10-28",
+    "ts": 1793198497000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101907160006300_P2.jpg",
+    "title": "ส.ส. พรรค Democratic Party เผยถูกปฏิเสธวีซ่าเข้าสหรัฐ",
+    "link": "https://en.yna.co.kr/view/AEN20261028012300315"
+  },
+  {
     "id": "hotnews_th_1a24559c",
     "date": "2026-10-28",
     "ts": 1793193423000,
@@ -24,6 +80,14 @@
     "link": "https://www.koreatimes.co.kr/southkorea/politics/20261028/lees-migrant-workers-dont-contribute-much-remarks-fall-short-of-embracing-koreas-growing-diversity?utm_source=rss"
   },
   {
+    "id": "hotnews_th_771c4296",
+    "date": "2026-10-28",
+    "ts": 1793188362000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.8b5804ee948442d8862c3671b855ac86_T1.jpg",
+    "title": "ไฟไหม้หมู่บ้านกูรยองกระตุ้นข้อพิพาทสิทธิที่อยู่อาศัย",
+    "link": "https://www.koreaherald.com/article/10918188"
+  },
+  {
     "id": "hotnews_th_03aa16bb",
     "date": "2026-10-28",
     "ts": 1793186709000,
@@ -46,6 +110,22 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "เกาหลีใต้และสหรัฐฯ เตรียมประชุมความมั่นคงต้นปีหน้า",
     "link": "https://en.yna.co.kr/view/AEN20261028011800315"
+  },
+  {
+    "id": "hotnews_th_fb138ee3",
+    "date": "2026-10-28",
+    "ts": 1793178677000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028064935_2_e.jpg",
+    "title": "วันพฤหัสบดีนี้คาดว่าจะมีอากาศหนาวเย็นอีกครั้งในเกาหลี",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205194"
+  },
+  {
+    "id": "hotnews_th_254023a1",
+    "date": "2026-10-28",
+    "ts": 1793178233000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028065108_38_e.jpg",
+    "title": "ตำรวจซองดงเปิดโต๊ะบริการชาวต่างชาติช่วงฮาโลวีน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205193"
   },
   {
     "id": "hotnews_th_8899291f",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/27/AEN20261027010700315_01_i_P2.jpg",
     "title": "นักท่องเที่ยวต่างชาติเที่ยวเกาหลีใต้ปีนี้ทำสถิติสูงสุดใหม่แล้ว",
     "link": "https://en.yna.co.kr/view/AEN20261027010700315"
-  },
-  {
-    "id": "hotnews_th_a41cb872",
-    "date": "2026-10-27",
-    "ts": 1793078650000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.dec24f8df0e7444197c5151425354214_T1.jpg",
-    "title": "LG Energy Solution เจรจาส่งมอบ ESS ให้ Energix",
-    "link": "https://www.koreaherald.com/article/10916296"
-  },
-  {
-    "id": "hotnews_th_6ce980df",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/b5483a8f-bd7e-4354-b10a-ffc7cf8cd6f9.jpg",
-    "title": "ประธานาธิบดีอีแจมยองระบุเกาหลีใต้ควรเรียนรู้จากการประท้วงในยุโรป",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261027/president-lee-says-korea-should-learn-from-european-protests-to-sustain-growth?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_733ba01e",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/041ce1fd-9ef6-4b5b-9207-791e287d7bd4.jpeg",
-    "title": "เกาหลีใต้และญี่ปุ่นร่วมมือปราบสินค้าปลีกและยาเสพติด",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/seoul-tokyo-form-united-front-against-counterfeiters-drug-traffickers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_bf327b29",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/f35d6663-f3fa-4b32-810f-91954be9c7c9.png",
-    "title": "ศาลสั่งระงับชั่วคราวคำสั่งห้าม LIG D&A ร่วมประมูล 2 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/court-temporarily-suspends-2-year-bidding-ban-on-lig-da?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_326d57dc",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/d5e6e1ee-d123-45ac-81f1-f64095148bdf.jpeg",
-    "title": "เกาหลีใต้เตรียมส่งดาวเทียมเก็บขยะอวกาศในปี 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261027/korea-prepares-real-life-space-sweeper-to-hunt-orbiting-junk?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a3ab8261",
-    "date": "2026-10-27",
-    "ts": 1793078080000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027022344_20_e.jpg",
-    "title": "คิม คอนฮี อาจถูกขยายเวลาควบคุมตัวหลังหมายจับหมดอายุวันเสาร์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205150"
-  },
-  {
-    "id": "hotnews_th_7000dba5",
-    "date": "2026-10-27",
-    "ts": 1793077874000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102707820001300_P2.jpg",
-    "title": "สส.พรรครัฐบาลเกาหลีใต้แสดงความเสียใจปัญหาวีซ่าสหรัฐล่าช้า",
-    "link": "https://en.yna.co.kr/view/AEN20261027007000315"
-  },
-  {
-    "id": "hotnews_th_d165daa1",
-    "date": "2026-10-27",
-    "ts": 1793076462000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/08/05/02/PCM20260805000002990_P2.jpg",
-    "title": "คณะกรรมการความปลอดภัยนิวเคลียร์พิจารณาต่ออายุเครื่องปฏิกรณ์โกริ 3 และ 4",
-    "link": "https://en.yna.co.kr/view/AEN20261027006800320"
-  },
-  {
-    "id": "hotnews_th_ab00d1d6",
-    "date": "2026-10-27",
-    "ts": 1793070487000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102617700001300_P2.jpg",
-    "title": "ทหารเกาหลีใต้เผยปืนใหญ่เกาหลีเหนือไม่ใช่ระบบอาวุธใหม่",
-    "link": "https://en.yna.co.kr/view/AEN20261027005900315"
-  },
-  {
-    "id": "hotnews_th_488b2d7e",
-    "date": "2026-10-27",
-    "ts": 1793069460000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027124942_75_e.jpg",
-    "title": "สภาคุ้มครองผู้บริโภคเตือนภัยโฆษณา AI ปลอมและหลอกลวง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205145"
   }
 ]

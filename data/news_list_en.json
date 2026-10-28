@@ -1,5 +1,125 @@
 [
   {
+    "id": "hotnews_en_bfa6e5c1",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/cd3b9531-8dd1-4779-828f-4b5a8daceaa1.jpg",
+    "title": "Innovation Wing provides equipment, workspace, guidance for hands-on projects",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/innovation-wing-provides-equipment-workspace-guidance-for-hands-on-projects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_568fbf74",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/49f8c05b-8220-4250-b7dd-a1572f01d57f.jpg",
+    "title": "Grades matter less than motivation in AI era, HKU vice-president says",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/grades-matter-less-than-motivation-in-ai-era-hku-vice-president-says?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_412c1809",
+    "date": "2026-10-28",
+    "ts": 1793224860000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029052201009_P2.jpg",
+    "title": "Fed holds key interest rate steady; Warsh says inflation 'too high'",
+    "link": "https://en.yna.co.kr/view/AEN20261029000353315"
+  },
+  {
+    "id": "hotnews_en_ba55838a",
+    "date": "2026-10-28",
+    "ts": 1793224680000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Oct. 29)",
+    "link": "https://en.yna.co.kr/view/AEN20261029001000315"
+  },
+  {
+    "id": "hotnews_en_5b64b340",
+    "date": "2026-10-28",
+    "ts": 1793224669000,
+    "image": "",
+    "title": "(EDITORIAL from Korea Times on Oct. 29)",
+    "link": "https://en.yna.co.kr/view/AEN20261029000900315"
+  },
+  {
+    "id": "hotnews_en_2bfe0aa6",
+    "date": "2026-10-28",
+    "ts": 1793224660000,
+    "image": "",
+    "title": "(EDITORIAL from Korea Herald on Oct. 29)",
+    "link": "https://en.yna.co.kr/view/AEN20261029000800315"
+  },
+  {
+    "id": "hotnews_en_94d94b14",
+    "date": "2026-10-28",
+    "ts": 1793224648000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20261029000700315"
+  },
+  {
+    "id": "hotnews_en_265d29dd",
+    "date": "2026-10-28",
+    "ts": 1793222886000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029000600315_01_i_P2.jpg",
+    "title": "S. Korea, U.S., partners reaffirm N. Korea denuclearization goal, back sanctions enforcement",
+    "link": "https://en.yna.co.kr/view/AEN20261029000600315"
+  },
+  {
+    "id": "hotnews_en_9eba7cb8",
+    "date": "2026-10-28",
+    "ts": 1793221216000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028007200320_01_i_P2.jpg",
+    "title": "ABS issuance falls 5.7 pct in Q3",
+    "link": "https://en.yna.co.kr/view/AEN20261028007200320"
+  },
+  {
+    "id": "hotnews_en_c9734128",
+    "date": "2026-10-28",
+    "ts": 1793221203000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109730005100_P2.jpg",
+    "title": "Biz sentiment rises to over 4-yr high in Oct. on improved outlook: BOK",
+    "link": "https://en.yna.co.kr/view/AEN20261028011700320"
+  },
+  {
+    "id": "hotnews_en_4541d002",
+    "date": "2026-10-28",
+    "ts": 1793219400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.cfbd99f1780746ecb2b219c3d5d4068e_T1.jpg",
+    "title": "[Dambisa Moyo] The specter of AI-led slowdown",
+    "link": "https://www.koreaherald.com/article/10918085"
+  },
+  {
+    "id": "hotnews_en_845a00eb",
+    "date": "2026-10-28",
+    "ts": 1793219400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.90da73eb14f5412a9a86580f027c689f_T1.jpg",
+    "title": "[Wang Son-taek] Why did Kim Jong-un visit Dandong?",
+    "link": "https://www.koreaherald.com/article/10918083"
+  },
+  {
+    "id": "hotnews_en_1d2d21fb",
+    "date": "2026-10-28",
+    "ts": 1793210625000,
+    "image": "https://img.yna.co.kr/photo/cms/2024/05/17/92/PCM20240517000192990_P2.jpg",
+    "title": "U.S. sanctions 10 individuals, entity over N. Korean IT worker fraud schemes",
+    "link": "https://en.yna.co.kr/view/AEN20261029000400315"
+  },
+  {
+    "id": "hotnews_en_d4059b6a",
+    "date": "2026-10-28",
+    "ts": 1793199600000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.5757c17b19e34b1ba90ca255384622b5_T1.jpg",
+    "title": "Korea, Turkey unearth Hellenistic-era mosaic",
+    "link": "https://www.koreaherald.com/article/10917769"
+  },
+  {
+    "id": "hotnews_en_af33e8e4",
+    "date": "2026-10-28",
+    "ts": 1793198497000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101907160006300_P2.jpg",
+    "title": "Ruling party lawmaker voices regret over U.S. visa rejection",
+    "link": "https://en.yna.co.kr/view/AEN20261028012300315"
+  },
+  {
     "id": "hotnews_en_1a24559c",
     "date": "2026-10-28",
     "ts": 1793193423000,
@@ -64,6 +184,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261028012200315"
   },
   {
+    "id": "hotnews_en_f999dcfe",
+    "date": "2026-10-28",
+    "ts": 1793190530000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.a169e3f950d84c75be45f946829de4a7_T1.jpg",
+    "title": "Families demand removal of alleged Itaewon disaster footage appears in Call of Duty",
+    "link": "https://www.koreaherald.com/article/10918197"
+  },
+  {
     "id": "hotnews_en_771c4296",
     "date": "2026-10-28",
     "ts": 1793188362000,
@@ -104,12 +232,28 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205195"
   },
   {
+    "id": "hotnews_en_1f2d0bcf",
+    "date": "2026-10-28",
+    "ts": 1793180212000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Defense chiefs of S. Korea, U.S. to meet for bilateral talks in Washington next month: Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20261028011900315"
+  },
+  {
     "id": "hotnews_en_e44a0b6a",
     "date": "2026-10-28",
     "ts": 1793180148000,
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "Defense chiefs of S. Korea, U.S. to hold key bilateral security dialogue early next year: Seoul",
     "link": "https://en.yna.co.kr/view/AEN20261028011800315"
+  },
+  {
+    "id": "hotnews_en_91dfd0df",
+    "date": "2026-10-28",
+    "ts": 1793178943000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.caf394c1cd7747fcbfc5c19d0d70fe6e_T1.jpg",
+    "title": "On this day in Korea - October 29, 2022 : Itaewon crowd crush",
+    "link": "https://www.koreaherald.com/article/10918143"
   },
   {
     "id": "hotnews_en_fb138ee3",
@@ -168,6 +312,14 @@
     "link": "https://www.koreaherald.com/article/10918103"
   },
   {
+    "id": "hotnews_en_8c7fc3b0",
+    "date": "2026-10-28",
+    "ts": 1793176852000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.f714fed13cef4f5d8928351d9f2cee5d_T1.jpg",
+    "title": "Google, Apple hit with W63.7b fine in Korea's app store crackdown",
+    "link": "https://www.koreaherald.com/article/10918101"
+  },
+  {
     "id": "hotnews_en_f19c221b",
     "date": "2026-10-28",
     "ts": 1793176691000,
@@ -176,12 +328,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261028011500315"
   },
   {
+    "id": "hotnews_en_463af38d",
+    "date": "2026-10-28",
+    "ts": 1793176618000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.3b8208f79bf0453c9fd6363285a03ecc_T1.jpg",
+    "title": "S. Korean won sharply weakens against US dollar",
+    "link": "https://www.koreaherald.com/article/10918094"
+  },
+  {
     "id": "hotnews_en_7dd95a39",
     "date": "2026-10-28",
     "ts": 1793176247000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.38afc1dca58c46e08fda04e4ee7b1852_T1.jpg",
     "title": "Man charged with 211 defamatory posts about 'comfort women'",
     "link": "https://www.koreaherald.com/article/10918086"
+  },
+  {
+    "id": "hotnews_en_51901ee7",
+    "date": "2026-10-28",
+    "ts": 1793176039000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.d448c537921543d8bd6c6464fbf78865_T1.jpg",
+    "title": "Seoul shares soar over 6% on revived AI optimism, SK hynix earnings",
+    "link": "https://www.koreaherald.com/article/10918082"
   },
   {
     "id": "hotnews_en_629c7e6b",
@@ -230,173 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.e9f97cab581e4078849ee5d266765a04_T1.jpg",
     "title": "US philanthropist gets new life after liver transplant in Seoul",
     "link": "https://www.koreaherald.com/article/10918064"
-  },
-  {
-    "id": "hotnews_en_b9b42e9b",
-    "date": "2026-10-28",
-    "ts": 1793175022000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.7d6bbeb4af624f68807d960885d31187_T1.jpg",
-    "title": "Early winter chill grips Korea",
-    "link": "https://www.koreaherald.com/article/10918059"
-  },
-  {
-    "id": "hotnews_en_65327a09",
-    "date": "2026-10-28",
-    "ts": 1793174853000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028008451320_01_i_P2.jpg",
-    "title": "Samsung C&T Q3 net falls 9.5 pct on FX losses",
-    "link": "https://en.yna.co.kr/view/AEN20261028008451320"
-  },
-  {
-    "id": "hotnews_en_147131e9",
-    "date": "2026-10-28",
-    "ts": 1793174771000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028007151315_01_i_P2.jpg",
-    "title": "Presidential office holds emergency meeting over financial-sector hacking attacks",
-    "link": "https://en.yna.co.kr/view/AEN20261028007151315"
-  },
-  {
-    "id": "hotnews_en_91a1adcf",
-    "date": "2026-10-28",
-    "ts": 1793174663000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102819480001300_P2.jpg",
-    "title": "Yonhap News Summary",
-    "link": "https://en.yna.co.kr/view/AEN20261028011100315"
-  },
-  {
-    "id": "hotnews_en_3df0d334",
-    "date": "2026-10-28",
-    "ts": 1793174438000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028030408_96_k.jpg",
-    "title": "S. Korea Accepts Defeat in Elliott Case after 8 Years",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205191"
-  },
-  {
-    "id": "hotnews_en_84e82e3b",
-    "date": "2026-10-28",
-    "ts": 1793173689000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028032647_69_e.jpg",
-    "title": "US Commander: N. Korean Troops Gaining Valuable Modern Combat Experience",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205190"
-  },
-  {
-    "id": "hotnews_en_fa835d3a",
-    "date": "2026-10-28",
-    "ts": 1793173454000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102819480001300_P2.jpg",
-    "title": "Seoul shares soar over 6 pct on revived AI optimism, SK hynix earnings",
-    "link": "https://en.yna.co.kr/view/AEN20261028008052320"
-  },
-  {
-    "id": "hotnews_en_b42bf644",
-    "date": "2026-10-28",
-    "ts": 1793173300000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028040317_74_e.jpg",
-    "title": "KOSPI Recovers to 6,000 Range after 10 Sessions",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205189"
-  },
-  {
-    "id": "hotnews_en_5f156e56",
-    "date": "2026-10-28",
-    "ts": 1793173262000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028009700315_01_i_P2.jpg",
-    "title": "Appellate court reduces ex-PSS chief's sentence to 3 years",
-    "link": "https://en.yna.co.kr/view/AEN20261028009700315"
-  },
-  {
-    "id": "hotnews_en_5683d967",
-    "date": "2026-10-28",
-    "ts": 1793172935000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102820020001300_P2.jpg",
-    "title": "S. Korean won sharply weakens against U.S. dollar",
-    "link": "https://en.yna.co.kr/view/AEN20261028009600320"
-  },
-  {
-    "id": "hotnews_en_63aeb52f",
-    "date": "2026-10-28",
-    "ts": 1793172604000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-a.v1.20261028.317e695e7cd54ed7858ee4d8b3648748_T1.jpg",
-    "title": "Inside fire-hit Guryong Village’s uncertain future",
-    "link": "https://www.koreaherald.com/article/10917968"
-  },
-  {
-    "id": "hotnews_en_ec78651f",
-    "date": "2026-10-28",
-    "ts": 1793167301000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.32153db74f8645f7b3ffed4439720328_T1.jpg",
-    "title": "Mbappe apologizes after China backlash over Mao meme remarks",
-    "link": "https://www.koreaherald.com/article/10917792"
-  },
-  {
-    "id": "hotnews_en_7782b2ad",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/ff5f8dc5-ab5b-4c55-9030-739c40a08b72.jpg",
-    "title": "Births up 13% in August to highest in 7 years",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261028/births-up-13-in-august-to-highest-in-7-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f4ea6547",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/fbc42a79-95c3-48b1-87e7-0fc0453625f7.jpeg",
-    "title": "Regulatory standoff delays debut of Seoul's 1st modern streetcar line",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261028/regulatory-standoff-delays-debut-of-seouls-1st-modern-streetcar-line?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_50281365",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/3e7c7ea3-1165-4e1f-abdb-cb31047e739b.jpeg",
-    "title": "Jeonbuk National University institute to recruit 141 schoolchildren for advanced science programs",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261028/jeonbuk-national-university-institute-to-recruit-141-schoolchildren-for-advanced-science-programs?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_ecb5eb3b",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/929b0064-8011-4c44-bfc8-1a01934608fe.jpeg",
-    "title": "Seoul rallies 1,486 volunteers to clean up Han River parks",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261028/seoul-rallies-1486-volunteers-to-clean-up-han-river-parks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_9626b721",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/4bcbd260-3d20-4033-b072-c8912a6e0b9a.jpeg",
-    "title": "Global greenhouse gas levels hit new heights in 2025: report",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261028/global-greenhouse-gas-levels-hit-new-heights-in-2025?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_bd332c24",
-    "date": "2026-10-28",
-    "ts": 1793167024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/673d2964-13f1-4ad6-b1cd-4dc0e1dc54dc.jpeg",
-    "title": "Seungri already married to pregnant girlfriend: report",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261028/seungri-already-married-to-pregnant-girlfriend-report?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_a1f8ce76",
-    "date": "2026-10-28",
-    "ts": 1793166975000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-a.v1.20261028.b7c2890371504bdea591e0599e8f94ac_T1.png",
-    "title": "Kukmin Ilbo editor Shin Jong-soo elected as Korea News Editors' Association chief",
-    "link": "https://www.koreaherald.com/article/10917784"
-  },
-  {
-    "id": "hotnews_en_7a8606c8",
-    "date": "2026-10-28",
-    "ts": 1793166830000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028006951320_01_i_P2.jpg",
-    "title": "LG Electronics Q3 net profit up 53.7 pct on new businesses",
-    "link": "https://en.yna.co.kr/view/AEN20261028006951320"
-  },
-  {
-    "id": "hotnews_en_a9a1bcf4",
-    "date": "2026-10-28",
-    "ts": 1793166623000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.991fd9d0ab194f25bc69410267d948dd_T1.jpg",
-    "title": "'Hope' leads Blue Dragon Film Awards nominations with 10 noms",
-    "link": "https://www.koreaherald.com/article/10917765"
   }
 ]

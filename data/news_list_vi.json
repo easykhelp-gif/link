@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_bfa6e5c1",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/cd3b9531-8dd1-4779-828f-4b5a8daceaa1.jpg",
+    "title": "Innovation Wing hỗ trợ sinh viên thực hiện dự án thực tế",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/innovation-wing-provides-equipment-workspace-guidance-for-hands-on-projects?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_568fbf74",
+    "date": "2026-10-28",
+    "ts": 1793227323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/49f8c05b-8220-4250-b7dd-a1572f01d57f.jpg",
+    "title": "Động lực học tập quan trọng hơn điểm số trong kỷ nguyên AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/grades-matter-less-than-motivation-in-ai-era-hku-vice-president-says?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_412c1809",
+    "date": "2026-10-28",
+    "ts": 1793224860000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029052201009_P2.jpg",
+    "title": "Fed giữ nguyên lãi suất, lạm phát vẫn ở mức cao",
+    "link": "https://en.yna.co.kr/view/AEN20261029000353315"
+  },
+  {
+    "id": "hotnews_vi_ba55838a",
+    "date": "2026-10-28",
+    "ts": 1793224680000,
+    "image": "",
+    "title": "Các công ty tài chính Hàn Quốc cần tăng đầu tư an ninh mạng",
+    "link": "https://en.yna.co.kr/view/AEN20261029001000315"
+  },
+  {
+    "id": "hotnews_vi_5b64b340",
+    "date": "2026-10-28",
+    "ts": 1793224669000,
+    "image": "",
+    "title": "Nông dân Hàn Quốc phản đối cuộc khảo sát đất nông nghiệp của Tổng thống Lee",
+    "link": "https://en.yna.co.kr/view/AEN20261029000900315"
+  },
+  {
+    "id": "hotnews_vi_1d2d21fb",
+    "date": "2026-10-28",
+    "ts": 1793210625000,
+    "image": "https://img.yna.co.kr/photo/cms/2024/05/17/92/PCM20240517000192990_P2.jpg",
+    "title": "Mỹ trừng phạt 10 cá nhân và 1 tổ chức liên quan IT Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261029000400315"
+  },
+  {
+    "id": "hotnews_vi_af33e8e4",
+    "date": "2026-10-28",
+    "ts": 1793198497000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101907160006300_P2.jpg",
+    "title": "Nghị sĩ Jin Sung-joon tiếc nuối vì bị từ chối thị thực Mỹ",
+    "link": "https://en.yna.co.kr/view/AEN20261028012300315"
+  },
+  {
     "id": "hotnews_vi_1a24559c",
     "date": "2026-10-28",
     "ts": 1793193423000,
@@ -32,6 +88,14 @@
     "link": "https://www.koreatimes.co.kr/southkorea/20261028/births-up-13-in-august-to-highest-in-7-years?utm_source=rss"
   },
   {
+    "id": "hotnews_vi_771c4296",
+    "date": "2026-10-28",
+    "ts": 1793188362000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.8b5804ee948442d8862c3671b855ac86_T1.jpg",
+    "title": "Cháy làng Guryong bùng nổ tranh chấp nhà ở",
+    "link": "https://www.koreaherald.com/article/10918188"
+  },
+  {
     "id": "hotnews_vi_03aa16bb",
     "date": "2026-10-28",
     "ts": 1793186709000,
@@ -54,6 +118,22 @@
     "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
     "title": "Bộ trưởng Quốc phòng Hàn-Mỹ họp an ninh đầu năm sau",
     "link": "https://en.yna.co.kr/view/AEN20261028011800315"
+  },
+  {
+    "id": "hotnews_vi_fb138ee3",
+    "date": "2026-10-28",
+    "ts": 1793178677000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028064935_2_e.jpg",
+    "title": "Thời tiết lạnh xuất hiện trở lại vào thứ Năm ở Hàn Quốc",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205194"
+  },
+  {
+    "id": "hotnews_vi_254023a1",
+    "date": "2026-10-28",
+    "ts": 1793178233000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028065108_38_e.jpg",
+    "title": "Cảnh sát Seongdong mở bàn tiếp nhận cho người nước ngoài",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205193"
   },
   {
     "id": "hotnews_vi_8899291f",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/27/AEN20261027010700315_01_i_P2.jpg",
     "title": "Lượng khách nước ngoài đến Hàn Quốc phá kỷ lục lịch sử",
     "link": "https://en.yna.co.kr/view/AEN20261027010700315"
-  },
-  {
-    "id": "hotnews_vi_a41cb872",
-    "date": "2026-10-27",
-    "ts": 1793078650000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.dec24f8df0e7444197c5151425354214_T1.jpg",
-    "title": "LG Energy Solution đàm phán cung cấp ESS cho Energix",
-    "link": "https://www.koreaherald.com/article/10916296"
-  },
-  {
-    "id": "hotnews_vi_6ce980df",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/b5483a8f-bd7e-4354-b10a-ffc7cf8cd6f9.jpg",
-    "title": "Tổng thống Lee: Hàn Quốc cần học hỏi từ các cuộc biểu tình ở châu Âu",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261027/president-lee-says-korea-should-learn-from-european-protests-to-sustain-growth?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_733ba01e",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/041ce1fd-9ef6-4b5b-9207-791e287d7bd4.jpeg",
-    "title": "Hàn Quốc và Nhật Bản hợp tác chống hàng giả và ma túy",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/seoul-tokyo-form-united-front-against-counterfeiters-drug-traffickers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_bf327b29",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/f35d6663-f3fa-4b32-810f-91954be9c7c9.png",
-    "title": "Tòa án tạm hoãn lệnh cấm thầu 2 năm đối với LIG D&A",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/court-temporarily-suspends-2-year-bidding-ban-on-lig-da?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_326d57dc",
-    "date": "2026-10-27",
-    "ts": 1793078523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/27/d5e6e1ee-d123-45ac-81f1-f64095148bdf.jpeg",
-    "title": "Hàn Quốc chuẩn bị phóng vệ tinh dọn rác vũ trụ vào năm 2027",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261027/korea-prepares-real-life-space-sweeper-to-hunt-orbiting-junk?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_a3ab8261",
-    "date": "2026-10-27",
-    "ts": 1793078080000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027022344_20_e.jpg",
-    "title": "Kim Keon-hee đối mặt nguy cơ kéo dài thời gian giam giữ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205150"
-  },
-  {
-    "id": "hotnews_vi_7000dba5",
-    "date": "2026-10-27",
-    "ts": 1793077874000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102707820001300_P2.jpg",
-    "title": "Nghị sĩ đảng cầm quyền tiếc nuối vì Mỹ chậm cấp visa",
-    "link": "https://en.yna.co.kr/view/AEN20261027007000315"
-  },
-  {
-    "id": "hotnews_vi_d165daa1",
-    "date": "2026-10-27",
-    "ts": 1793076462000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/08/05/02/PCM20260805000002990_P2.jpg",
-    "title": "Quyết định gia hạn hoạt động cho lò phản ứng Kori số 3 và 4",
-    "link": "https://en.yna.co.kr/view/AEN20261027006800320"
-  },
-  {
-    "id": "hotnews_vi_ab00d1d6",
-    "date": "2026-10-27",
-    "ts": 1793070487000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102617700001300_P2.jpg",
-    "title": "Pháo Triều Tiên triển khai ở biên giới không phải vũ khí mới",
-    "link": "https://en.yna.co.kr/view/AEN20261027005900315"
-  },
-  {
-    "id": "hotnews_vi_488b2d7e",
-    "date": "2026-10-27",
-    "ts": 1793069460000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027124942_75_e.jpg",
-    "title": "Cảnh báo quảng cáo AI giả mạo và lừa đảo người nổi tiếng",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205145"
   }
 ]
