@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_1a24559c",
+    "date": "2026-10-28",
+    "ts": 1793193423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/7560f97c-1651-4918-8ed4-6f62b77f51ec.jpeg",
+    "title": "ครอบครัวเหยื่อต่างชาติอิแทวอนดูคลิปวิดีโอช่วงสุดท้าย",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261028/44-minutes-before-rescuers-reached-her-families-view-footage-of-foreign-itaewon-victims-last-moments?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_5998a05a",
+    "date": "2026-10-28",
+    "ts": 1793193423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/ae158d9a-189a-44f8-9f38-b56122b4981c.jpeg",
+    "title": "ต่างชาติในเกาหลีพุ่งทุบสถิติ 2.66 ล้านคน นศ.ต่างชาติเพิ่มสูงสุด",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20261028/foreign-resident-population-in-korea-hits-record-266-mil-as-intl-student-numbers-surge?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_eec44c01",
+    "date": "2026-10-28",
+    "ts": 1793193423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/175d9f17-26fd-40cd-9b23-0d4c915c4502.jpg",
+    "title": "อีแจมยองระบุแรงงานต่างชาติไม่ค่อยช่วยเศรษฐกิจ",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261028/lees-migrant-workers-dont-contribute-much-remarks-fall-short-of-embracing-koreas-growing-diversity?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_03aa16bb",
+    "date": "2026-10-28",
+    "ts": 1793186709000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/10/22/50/PCM20261022000150990_P2.jpg",
+    "title": "อัยการเกาหลีใต้ไม่ยื่นอุทธรณ์คดีส่งตัวชาวเกาหลีเหนือกลับ",
+    "link": "https://en.yna.co.kr/view/AEN20261028012000315"
+  },
+  {
+    "id": "hotnews_th_6ec694cb",
+    "date": "2026-10-28",
+    "ts": 1793180466000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028064649_79_e.jpg",
+    "title": "รมว.ความเท่าเทียมทางเพศเผยต้องทบทวนนโยบายเกณฑ์ทหารหญิง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205195"
+  },
+  {
+    "id": "hotnews_th_e44a0b6a",
+    "date": "2026-10-28",
+    "ts": 1793180148000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "เกาหลีใต้และสหรัฐฯ เตรียมประชุมความมั่นคงต้นปีหน้า",
+    "link": "https://en.yna.co.kr/view/AEN20261028011800315"
+  },
+  {
+    "id": "hotnews_th_8899291f",
+    "date": "2026-10-28",
+    "ts": 1793178088000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.051c7a8d1c6148ecb4ce376edcfffcc2_T1.jpg",
+    "title": "ประธานาธิบดีอีแจมยองเตรียมทบทวนสิทธิประโยชน์ครอบครัวพหุวัฒนธรรม",
+    "link": "https://www.koreaherald.com/article/10918135"
+  },
+  {
+    "id": "hotnews_th_3a31a5c3",
+    "date": "2026-10-28",
+    "ts": 1793177107000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028010052320_06_i_P2.jpg",
+    "title": "เกาหลีใต้ปรับ Google และ Apple ข้อหาบังคับระบบชำระเงิน",
+    "link": "https://en.yna.co.kr/view/AEN20261028010052320"
+  },
+  {
+    "id": "hotnews_th_cfbecfae",
+    "date": "2026-10-28",
+    "ts": 1793175622000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/28/news-p.v1.20261028.26ed4f41c0784020bb0dfcb214679d16_T1.jpg",
+    "title": "เกาหลีใต้เริ่มทดลองวีซ่าท่องเที่ยวกลุ่มให้ชาวมองโกเลีย",
+    "link": "https://www.koreaherald.com/article/10918072"
+  },
+  {
+    "id": "hotnews_th_fa835d3a",
+    "date": "2026-10-28",
+    "ts": 1793173454000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102819480001300_P2.jpg",
+    "title": "หุ้นโซลพุ่งกว่าร้อยละ 6 ตามกระแส AI และผลประกอบการ SK hynix",
+    "link": "https://en.yna.co.kr/view/AEN20261028008052320"
+  },
+  {
     "id": "hotnews_th_7782b2ad",
     "date": "2026-10-28",
     "ts": 1793167024000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027124942_75_e.jpg",
     "title": "สภาคุ้มครองผู้บริโภคเตือนภัยโฆษณา AI ปลอมและหลอกลวง",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205145"
-  },
-  {
-    "id": "hotnews_th_1d570853",
-    "date": "2026-10-26",
-    "ts": 1793054823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/8bf26d44-046d-42c5-a8cd-d79e8fd7ab0a.jpeg",
-    "title": "คำร้องให้ระงับฉายซีรีส์ Doctor X ปมเหตุฉากกวางจู",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261027/doctor-x-faces-petition-to-halt-airing-over-gwangju-uprising-depiction?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_865d7999",
-    "date": "2026-10-26",
-    "ts": 1793054823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/d3e4599a-9048-45f2-8599-e1a59dced85f.jpeg",
-    "title": "ร้านค้าในอิแทวอนคาดการณ์ต่างกันในเทศกาลฮาโลวีนปีนี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261027/4-years-on-itaewon-businesses-face-halloween-with-mixed-expectations?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_6270839d",
-    "date": "2026-10-26",
-    "ts": 1793052999000,
-    "image": "",
-    "title": "พรรคประชาธิปไตยผลักดันสอบประธานศาลสูงสุดและกฎหมายพิเศษ",
-    "link": "https://en.yna.co.kr/view/AEN20261027001000315"
-  },
-  {
-    "id": "hotnews_th_a1ee16a1",
-    "date": "2026-10-26",
-    "ts": 1793052982000,
-    "image": "",
-    "title": "ข่าวลือผู้นำเกาหลีเหนือเสียชีวิตชี้อันตรายของข่าวปลอม",
-    "link": "https://en.yna.co.kr/view/AEN20261027000900315"
-  },
-  {
-    "id": "hotnews_th_52dd84c9",
-    "date": "2026-10-26",
-    "ts": 1793052966000,
-    "image": "",
-    "title": "ความร่วมมือเกาหลีเหนือ จีน และรัสเซียที่แน่นแฟ้นขึ้น",
-    "link": "https://en.yna.co.kr/view/AEN20261027000800315"
-  },
-  {
-    "id": "hotnews_th_ebe2d608",
-    "date": "2026-10-26",
-    "ts": 1793052616000,
-    "image": "",
-    "title": "สรุปข่าวเด่นหนังสือพิมพ์เกาหลีใต้ 27 ตุลาคม",
-    "link": "https://en.yna.co.kr/view/AEN20261027000700315"
-  },
-  {
-    "id": "hotnews_th_ab9876dd",
-    "date": "2026-10-26",
-    "ts": 1793043887000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/27/PYH2026052701530031500_P2.jpg",
-    "title": "แฟนบอลตะโกนเหยียดเชื้อชาติใส่ ซน ฮึง-มิน หลังจบเกม MLS",
-    "link": "https://en.yna.co.kr/view/AEN20261027000400315"
-  },
-  {
-    "id": "hotnews_th_547e25d5",
-    "date": "2026-10-26",
-    "ts": 1793035371000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/21/PAP20261021198101009_P2.jpg",
-    "title": "มาร์โก รูบิโอ เตรียมเป็นเจ้าภาพประชุมรัฐมนตรีต่างประเทศ G20 ที่แอตแลนตา",
-    "link": "https://en.yna.co.kr/view/AEN20261027000300315"
-  },
-  {
-    "id": "hotnews_th_2ecb5501",
-    "date": "2026-10-26",
-    "ts": 1793021523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/40670108-ae25-4a7e-accb-01eb813d2a23.jpeg",
-    "title": "กรุงโซลเชิญเจ้าหน้าที่รถไฟ 6 ประเทศร่วมอบรมเทคโนโลยี",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261026/seoul-courts-rail-ties-with-6-nations-to-boost-korean-exports?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_afedbe93",
-    "date": "2026-10-26",
-    "ts": 1793021523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/a7c227d7-df8d-49de-9ed3-b2344518b474.jpg",
-    "title": "เกาหลีใต้และสหรัฐฯ เริ่มซ้อมรบทางอากาศร่วมกันสัปดาห์นี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261026/korea-us-kick-off-combined-air-drills-this-week?utm_source=rss"
   }
 ]
