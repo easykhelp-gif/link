@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_c07f8cd9",
+    "date": "2026-10-29",
+    "ts": 1793254323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/29/732459e4-20bc-4022-b64e-01947fdc2f65.jpeg",
+    "title": "Đại học Kookmin thắng giải thưởng nhân vật Hàn Quốc 2026",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/kookmin-university-wins-grand-prize-in-industry-category-at-korea-character-awards-2026?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_cfd15d09",
+    "date": "2026-10-29",
+    "ts": 1793254195000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/29/news-p.v1.20261029.b684e7b49fbd4f57b42614066eeb61ad_T1.jpg",
+    "title": "Ngân sách Seoul năm 2027 chú trọng vào AI và nhà ở",
+    "link": "https://www.koreaherald.com/article/10919336"
+  },
+  {
+    "id": "hotnews_vi_7d2d19c8",
+    "date": "2026-10-29",
+    "ts": 1793253908000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/29/news-p.v1.20261029.d0bdd3a2ae2340ef8602a579070e9486_T1.jpg",
+    "title": "Samsung SDI báo lãi lớn nhờ bùng nổ trung tâm dữ liệu AI",
+    "link": "https://www.koreaherald.com/article/10919331"
+  },
+  {
+    "id": "hotnews_vi_4783bb2d",
+    "date": "2026-10-29",
+    "ts": 1793253682000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261029021859_78_e.jpg",
+    "title": "Chính phủ quy hoạch 6 khu nhà ở mới tại thủ đô Seoul",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205213"
+  },
+  {
+    "id": "hotnews_vi_ca13d7bd",
+    "date": "2026-10-29",
+    "ts": 1793253178000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029008700320_01_i_P2.jpg",
+    "title": "Doosan Enerbility ký hợp đồng cung cấp SMR với NuScale Power",
+    "link": "https://en.yna.co.kr/view/AEN20261029008700320"
+  },
+  {
+    "id": "hotnews_vi_30ef2310",
+    "date": "2026-10-29",
+    "ts": 1793252861000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261029015446_29_e.jpg",
+    "title": "Ngoại trưởng Cho yêu cầu Mỹ đẩy nhanh cấp visa cho nghị sĩ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205211"
+  },
+  {
+    "id": "hotnews_vi_4100b4f7",
+    "date": "2026-10-29",
+    "ts": 1793252480000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/29/news-p.v1.20261029.4a155f0c9f154b0ab0a45ac284d98428_T1.jpg",
+    "title": "Hàn Quốc buộc công ty gửi quỹ hưu trí ra ngoài trước 2030",
+    "link": "https://www.koreaherald.com/article/10919242"
+  },
+  {
+    "id": "hotnews_vi_967fe8a9",
+    "date": "2026-10-29",
+    "ts": 1793252432000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102723790001300_P2.jpg",
+    "title": "Hàn - Mỹ diễn tập quân sự kết hợp đối phó Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261029007800315"
+  },
+  {
+    "id": "hotnews_vi_b93abe0d",
+    "date": "2026-10-29",
+    "ts": 1793251930000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/14/PYH2026011416480001300_P2.jpg",
+    "title": "Đề nghị tử hình cựu Tổng thống Yoon Suk Yeol",
+    "link": "https://en.yna.co.kr/view/AEN20261029005752315"
+  },
+  {
+    "id": "hotnews_vi_79751937",
+    "date": "2026-10-29",
+    "ts": 1793251626000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029007400315_04_i_P2.jpg",
+    "title": "Lễ trao giải MAMA Awards 2024 mở rộng quy mô tại Osaka",
+    "link": "https://en.yna.co.kr/view/AEN20261029007400315"
+  },
+  {
     "id": "hotnews_vi_bfa6e5c1",
     "date": "2026-10-28",
     "ts": 1793227323000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.da2296a872334b25b54e0a85733db41b_T1.png",
     "title": "ĐBQ Hàn Quốc yêu cầu giám sát nước phái cử lao động",
     "link": "https://www.koreaherald.com/article/10916774"
-  },
-  {
-    "id": "hotnews_vi_a45fb67b",
-    "date": "2026-10-27",
-    "ts": 1793097805000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.e36698c209cb43d2aabd277fd7bc10f3_T1.png",
-    "title": "Tòa án Tối cao phát lệnh giam giữ mới đối với bà Kim Keon Hee",
-    "link": "https://www.koreaherald.com/article/10916760"
-  },
-  {
-    "id": "hotnews_vi_fe36238b",
-    "date": "2026-10-27",
-    "ts": 1793094723000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027071312_28_e.jpg",
-    "title": "Phê duyệt gia hạn 2 lò phản ứng hạt nhân ở Busan",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205166"
-  },
-  {
-    "id": "hotnews_vi_1c0bfac1",
-    "date": "2026-10-27",
-    "ts": 1793094430000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261027071058_48_e.jpg",
-    "title": "Nâng báo động cháy cấp 2 tại Guryong Village",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205165"
-  },
-  {
-    "id": "hotnews_vi_a72d2d85",
-    "date": "2026-10-27",
-    "ts": 1793093842000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/27/AEN20261027012200320_02_i_P2.jpg",
-    "title": "3 cựu quan chức Hàn Quốc kháng cáo lên Tòa án Tối cao",
-    "link": "https://en.yna.co.kr/view/AEN20261027012200320"
-  },
-  {
-    "id": "hotnews_vi_8e38ef45",
-    "date": "2026-10-27",
-    "ts": 1793091452000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.f49485875a0245a5ac62b98e44359309_T1.jpg",
-    "title": "Sửa đổi sách hướng dẫn lao động di cư sau tranh cãi",
-    "link": "https://www.koreaherald.com/article/10916679"
-  },
-  {
-    "id": "hotnews_vi_cc3bf183",
-    "date": "2026-10-27",
-    "ts": 1793090763000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/10/14/09/PCM20261014000009990_P2.jpg",
-    "title": "Bộ trưởng Quốc phòng Hàn Quốc và Mỹ sắp hội đàm tại Philippines",
-    "link": "https://en.yna.co.kr/view/AEN20261027003851315"
-  },
-  {
-    "id": "hotnews_vi_13229b6c",
-    "date": "2026-10-27",
-    "ts": 1793090528000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.ff6b9d7f691348e6b1b3d482b5da8e62_T1.jpg",
-    "title": "Naver ký hợp đồng 9 tỷ USD với Brookfield làm nhà máy AI",
-    "link": "https://www.koreaherald.com/article/10916658"
-  },
-  {
-    "id": "hotnews_vi_69ad3d27",
-    "date": "2026-10-27",
-    "ts": 1793090442000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/news-p.v1.20261027.53d8fccb46314b0aa87b4d390d1d2916_T1.jpg",
-    "title": "Kim Kyoung-ho nhậm chức tổng giám đốc Citibank Korea",
-    "link": "https://www.koreaherald.com/article/10916655"
-  },
-  {
-    "id": "hotnews_vi_95728926",
-    "date": "2026-10-27",
-    "ts": 1793088627000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/27/rcv.YNA.20261027.PYH2026102720000005100_T1.jpg",
-    "title": "Gia hạn hoạt động thêm 10 năm cho lò phản ứng Kori 3 và 4",
-    "link": "https://www.koreaherald.com/article/10916620"
-  },
-  {
-    "id": "hotnews_vi_602cfe88",
-    "date": "2026-10-27",
-    "ts": 1793088409000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/27/AEN20261027010700315_01_i_P2.jpg",
-    "title": "Lượng khách nước ngoài đến Hàn Quốc phá kỷ lục lịch sử",
-    "link": "https://en.yna.co.kr/view/AEN20261027010700315"
   }
 ]
