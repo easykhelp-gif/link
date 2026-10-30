@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_e9277e54",
+    "date": "2026-10-30",
+    "ts": 1793366223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/b94ed4ef-491b-436e-b83d-4fbb25de97e5.jpg",
+    "title": "AI การแพทย์เกาหลีใต้ก้าวหน้า แต่การใช้จริงในโรงพยาบาลยังช้า",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261030/koreas-medical-ai-advances-but-clinical-adoption-remains-slow?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_7b5f7ad2",
+    "date": "2026-10-30",
+    "ts": 1793366223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/fccccc8c-57b6-49fb-8136-348915f35c72.jpeg",
+    "title": "อาคารดีไซน์ใหม่ในโซลจะผลิตไฟฟ้าพลังงานสะอาดได้ร้อยละ 8",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261030/newly-designed-buildings-to-supply-8-of-electricity-in-seoul?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_d6cec381",
+    "date": "2026-10-30",
+    "ts": 1793352914000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261030.b7e9f26039cd44d5951fac9dae1c5299_T1.jpg",
+    "title": "อีแจมยองเน้นความยุติธรรมในนโยบายสนับสนุนครอบครัวพหุวัฒนธรรม",
+    "link": "https://www.koreaherald.com/article/10921013"
+  },
+  {
+    "id": "hotnews_th_cc502a33",
+    "date": "2026-10-30",
+    "ts": 1793350993000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103012410031500_P2.jpg",
+    "title": "ระบบเช็คอินสนามบินอินชอนกลับมาใช้งานได้ปกติแล้ว",
+    "link": "https://en.yna.co.kr/view/AEN20261030010751315"
+  },
+  {
+    "id": "hotnews_th_144e005c",
+    "date": "2026-10-30",
+    "ts": 1793347880000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103000100001300_P2.jpg",
+    "title": "ชเว บุ-แอม นักแสดงอาวุโสชื่อดังของเกาหลีใต้ เสียชีวิตในวัย 87 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261030000253315"
+  },
+  {
+    "id": "hotnews_th_f88f220b",
+    "date": "2026-10-30",
+    "ts": 1793347234000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030012400315_01_i_P2.jpg",
+    "title": "หนังพ้นเรื่องสั้น Heartbeat ของอีชางดงจะสตรีมบน Netflix",
+    "link": "https://en.yna.co.kr/view/AEN20261030012400315"
+  },
+  {
+    "id": "hotnews_th_0a0a709f",
+    "date": "2026-10-30",
+    "ts": 1793346209000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261030.cb7c5c9332e54c0b93f041d6de2a700e_T1.jpg",
+    "title": "เกาหลีใต้เตรียมฝึกอบรมบุคลากรทางการแพทย์จากมองโกเลีย",
+    "link": "https://www.koreaherald.com/article/10920880"
+  },
+  {
+    "id": "hotnews_th_a7e64ffa",
+    "date": "2026-10-30",
+    "ts": 1793345875000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103013810001300_P2.jpg",
+    "title": "หุ้นโซลร่วงกว่า 3 เปอร์เซ็นต์จากแรงขายหุ้นเทคโนโลยีและกังวล AI",
+    "link": "https://en.yna.co.kr/view/AEN20261030008652320"
+  },
+  {
+    "id": "hotnews_th_2a0747d0",
+    "date": "2026-10-30",
+    "ts": 1793344719000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261030.6c6806fe2d4942e9bc2cade2d4c66f98_T1.jpg",
+    "title": "รัฐมนตรีต่างประเทศสวิสเยือนเปียงยาง เปิดสำนักงานทูต",
+    "link": "https://www.koreaherald.com/article/10920831"
+  },
+  {
+    "id": "hotnews_th_ee6b43a0",
+    "date": "2026-10-30",
+    "ts": 1793343852000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102614710001300_P2.jpg",
+    "title": "เกาหลีเหนือประณามการซ้อมรบทางอากาศสหรัฐฯ-เกาหลีใต้",
+    "link": "https://en.yna.co.kr/view/AEN20261030009800315"
+  },
+  {
     "id": "hotnews_th_3a9448bf",
     "date": "2026-10-30",
     "ts": 1793340723000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029007400315_04_i_P2.jpg",
     "title": "งาน MAMA Awards ปีนี้ขยายจัดแฟนเฟสติวัลและโชว์พิเศษที่โอซาก้า",
     "link": "https://en.yna.co.kr/view/AEN20261029007400315"
-  },
-  {
-    "id": "hotnews_th_bfa6e5c1",
-    "date": "2026-10-28",
-    "ts": 1793227323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/cd3b9531-8dd1-4779-828f-4b5a8daceaa1.jpg",
-    "title": "Innovation Wing พื้นที่สร้างสรรค์โครงงานของนักศึกษาฮ่องกง",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/innovation-wing-provides-equipment-workspace-guidance-for-hands-on-projects?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_568fbf74",
-    "date": "2026-10-28",
-    "ts": 1793227323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/21/49f8c05b-8220-4250-b7dd-a1572f01d57f.jpg",
-    "title": "รองอธิการบดี HKU ชี้แรงจูงใจสำคัญกว่าเกรดในยุค AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/grades-matter-less-than-motivation-in-ai-era-hku-vice-president-says?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_412c1809",
-    "date": "2026-10-28",
-    "ts": 1793224860000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029052201009_P2.jpg",
-    "title": "ธนาคารกลางสหรัฐฯ คงอัตราดอกเบี้ยนโยบาย",
-    "link": "https://en.yna.co.kr/view/AEN20261029000353315"
-  },
-  {
-    "id": "hotnews_th_ba55838a",
-    "date": "2026-10-28",
-    "ts": 1793224680000,
-    "image": "",
-    "title": "สถาบันการเงินเกาหลีต้องเพิ่มลงทุนความปลอดภัยไซเบอร์",
-    "link": "https://en.yna.co.kr/view/AEN20261029001000315"
-  },
-  {
-    "id": "hotnews_th_5b64b340",
-    "date": "2026-10-28",
-    "ts": 1793224669000,
-    "image": "",
-    "title": "รัฐบาล อี แจมยอง เผชิญวิกฤตความเชื่อมั่นจากเกษตรกร",
-    "link": "https://en.yna.co.kr/view/AEN20261029000900315"
-  },
-  {
-    "id": "hotnews_th_1d2d21fb",
-    "date": "2026-10-28",
-    "ts": 1793210625000,
-    "image": "https://img.yna.co.kr/photo/cms/2024/05/17/92/PCM20240517000192990_P2.jpg",
-    "title": "สสห.คว่ำบาตรบุคคลและองค์กรพัวพันไอทีเกาหลีเหนือ",
-    "link": "https://en.yna.co.kr/view/AEN20261029000400315"
-  },
-  {
-    "id": "hotnews_th_af33e8e4",
-    "date": "2026-10-28",
-    "ts": 1793198497000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101907160006300_P2.jpg",
-    "title": "ส.ส. พรรค Democratic Party เผยถูกปฏิเสธวีซ่าเข้าสหรัฐ",
-    "link": "https://en.yna.co.kr/view/AEN20261028012300315"
-  },
-  {
-    "id": "hotnews_th_1a24559c",
-    "date": "2026-10-28",
-    "ts": 1793193423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/7560f97c-1651-4918-8ed4-6f62b77f51ec.jpeg",
-    "title": "ครอบครัวเหยื่อต่างชาติอิแทวอนดูคลิปวิดีโอช่วงสุดท้าย",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261028/44-minutes-before-rescuers-reached-her-families-view-footage-of-foreign-itaewon-victims-last-moments?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_5998a05a",
-    "date": "2026-10-28",
-    "ts": 1793193423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/ae158d9a-189a-44f8-9f38-b56122b4981c.jpeg",
-    "title": "ต่างชาติในเกาหลีพุ่งทุบสถิติ 2.66 ล้านคน นศ.ต่างชาติเพิ่มสูงสุด",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261028/foreign-resident-population-in-korea-hits-record-266-mil-as-intl-student-numbers-surge?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_eec44c01",
-    "date": "2026-10-28",
-    "ts": 1793193423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/175d9f17-26fd-40cd-9b23-0d4c915c4502.jpg",
-    "title": "อีแจมยองระบุแรงงานต่างชาติไม่ค่อยช่วยเศรษฐกิจ",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261028/lees-migrant-workers-dont-contribute-much-remarks-fall-short-of-embracing-koreas-growing-diversity?utm_source=rss"
   }
 ]
