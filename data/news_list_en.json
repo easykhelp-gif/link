@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_en_867e70f5",
+    "date": "2026-10-30",
+    "ts": 1793399524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/9cdc7f85-ceb6-449b-9cf5-9490b0379792.jpeg",
+    "title": "Korea expands benefits for retired working dogs to help them find forever homes",
+    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261031/korea-expands-benefits-for-retired-working-dogs-to-help-them-find-forever-homes?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_113ad246",
+    "date": "2026-10-30",
+    "ts": 1793399524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/4d41b7c9-5e27-40cc-ac71-134f1c09defc.jpeg",
+    "title": "'Assume everything is being recorded': Korea's Gen Z rewrites the rules of office life",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261031/assume-everything-is-being-recorded-koreas-gen-z-rewrites-the-rules-of-office-life?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_cb179ebf",
+    "date": "2026-10-30",
+    "ts": 1793399524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/21541f0d-d915-4af9-859d-cdb294a88721.jpg",
+    "title": "Once shunned, prisons become sought-after facilities for local communities",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261031/once-shunned-prisons-become-sought-after-facilities-for-local-communities?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b9399d0a",
+    "date": "2026-10-30",
+    "ts": 1793399524000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/63508e62-a7ca-4824-9ea7-532b42701554.jpeg",
+    "title": "Is it really just the autumn blues?",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261031/is-it-really-just-the-autumn-blues?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_678a698c",
+    "date": "2026-10-30",
+    "ts": 1793394808000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000252315_02_i_P2.jpg",
+    "title": "N. Korean hackers blamed for record US$6.36 bln Binance cryptocurrency theft: U.S. firm",
+    "link": "https://en.yna.co.kr/view/AEN20261031000252315"
+  },
+  {
+    "id": "hotnews_en_cb0eaf40",
+    "date": "2026-10-30",
+    "ts": 1793388820000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000400315_01_i_P2.jpg",
+    "title": "S. Korean envoy to U.S. vows support for bilateral investment at Hyundai's Alabama plant",
+    "link": "https://en.yna.co.kr/view/AEN20261031000400315"
+  },
+  {
+    "id": "hotnews_en_cc921ef9",
+    "date": "2026-10-30",
+    "ts": 1793378419000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000300315_01_i_P2.jpg",
+    "title": "Hanwha Defense USA wins US$269 mln U.S. Navy shipbuilding contract",
+    "link": "https://en.yna.co.kr/view/AEN20261031000300315"
+  },
+  {
+    "id": "hotnews_en_0922c0f7",
+    "date": "2026-10-30",
+    "ts": 1793369165000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030013300315_01_i_P2.jpg",
+    "title": "Swiss FM briefs Seoul on Pyongyang trip after reopening diplomatic office",
+    "link": "https://en.yna.co.kr/view/AEN20261030013300315"
+  },
+  {
+    "id": "hotnews_en_53517064",
+    "date": "2026-10-30",
+    "ts": 1793367610000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103019510005400_P2.jpg",
+    "title": "Designated hitter delivers clutch knocks to keep Tigers alive in KBO postseason",
+    "link": "https://en.yna.co.kr/view/AEN20261030013200315"
+  },
+  {
     "id": "hotnews_en_e9277e54",
     "date": "2026-10-30",
     "ts": 1793366223000,
@@ -54,6 +126,22 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261030.b7e9f26039cd44d5951fac9dae1c5299_T1.jpg",
     "title": "Lee says ‘fairness’ must guide support for multicultural families",
     "link": "https://www.koreaherald.com/article/10921013"
+  },
+  {
+    "id": "hotnews_en_10f13c52",
+    "date": "2026-10-30",
+    "ts": 1793351302000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261030051647_77_e.jpg",
+    "title": "Switzerland’s Top Diplomat Arrives in Pyongyang",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205249"
+  },
+  {
+    "id": "hotnews_en_cc502a33",
+    "date": "2026-10-30",
+    "ts": 1793350993000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103012410031500_P2.jpg",
+    "title": "Check-in system at Incheon airport restored after hourslong disruption",
+    "link": "https://en.yna.co.kr/view/AEN20261030010751315"
   },
   {
     "id": "hotnews_en_a7b7bab9",
@@ -256,6 +344,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261030012000315"
   },
   {
+    "id": "hotnews_en_0a26e8f9",
+    "date": "2026-10-30",
+    "ts": 1793345556000,
+    "image": "",
+    "title": "Summary of domestic news in North Korea this week",
+    "link": "https://en.yna.co.kr/view/AEN20261030011700315"
+  },
+  {
     "id": "hotnews_en_75dee6f2",
     "date": "2026-10-30",
     "ts": 1793345292000,
@@ -302,101 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030010500315_01_i_P2.jpg",
     "title": "Marine Corps commanders of S. Korea, Thailand discuss cooperation in drills, exchanges",
     "link": "https://en.yna.co.kr/view/AEN20261030010500315"
-  },
-  {
-    "id": "hotnews_en_6922e64b",
-    "date": "2026-10-30",
-    "ts": 1793343630000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261030042456_25_e.jpg",
-    "title": "KOSPI Down 3.48% Friday",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205246"
-  },
-  {
-    "id": "hotnews_en_e27e4476",
-    "date": "2026-10-30",
-    "ts": 1793343600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261028.36e6b0928c6045fd83f183fd1e1315c5_T1.jpg",
-    "title": "Water ghost, two sisters and the long work of grief",
-    "link": "https://www.koreaherald.com/article/10919251"
-  },
-  {
-    "id": "hotnews_en_17a0714e",
-    "date": "2026-10-30",
-    "ts": 1793343378000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103012410031500_P2.jpg",
-    "title": "Check-in system malfunction at Incheon airport causes major delays",
-    "link": "https://en.yna.co.kr/view/AEN20261030010700315"
-  },
-  {
-    "id": "hotnews_en_3030aae4",
-    "date": "2026-10-30",
-    "ts": 1793343222000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103009100001300_P2.jpg",
-    "title": "Court acquits PPP lawmaker over luxury gift to ex-first lady",
-    "link": "https://en.yna.co.kr/view/AEN20261030009152315"
-  },
-  {
-    "id": "hotnews_en_3a9448bf",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/a3d29f86-fafc-41c2-8210-caa85d0b7e9e.jpg",
-    "title": "President Lee extends deep condolences over death of veteran actor Choi Bool-am",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261030/president-lee-extends-deep-condolences-over-death-of-veteran-actor-choi-bool-am?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_54429e78",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/6f916bdb-621b-4286-90b5-c9934f7884f7.jpg",
-    "title": "President Lee's approval rating falls back to 39%: poll",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261030/president-lees-approval-rating-falls-back-to-39-poll?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_01b10233",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/29/8bc48abe-3c9a-4789-842a-a36e24eb591e.jpeg",
-    "title": "More Korean workers rushing to paid AI classes",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261030/more-korean-workers-rushing-to-paid-ai-classes?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_7835e38d",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/83edbfdf-f98e-4390-8346-9dce0c753100.jpeg",
-    "title": "Sejong University professor to co-organize int'l workshop on AI chip technologies in Athens",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261030/sejong-university-professor-to-co-organize-intl-workshop-on-ai-chip-technologies-in-athens?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_96ea024f",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/d770cb11-ef90-4c2a-8c2c-0ea2a4ef19b6.jpeg",
-    "title": "Seoul converts underused section of subway station into sports lounge",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261030/seoul-converts-underused-section-of-subway-station-into-sports-lounge?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_f61b92ba",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/28/000ec537-7a7c-4919-a034-c7e2ec8549f9.png",
-    "title": "[WEEKENDER] Iranian physicist turns scientific journey into new life in Korea",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261030/weekender-iranian-physicist-turns-scientific-journey-into-new-life-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_faca43d1",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/b90dc33c-08c5-4933-8de2-e2d879947209.jpeg",
-    "title": "Fearing stalkers and violent exes, Korean women are hiring their own bodyguards",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261030/fearing-stalkers-and-violent-exes-korean-women-are-hiring-their-own-bodyguards?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_e8e7bd22",
-    "date": "2026-10-30",
-    "ts": 1793340723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/aca7f4d1-f5a0-4775-84a6-b3b5f96d467a.jpeg",
-    "title": "Paradise backs campaign to combat youth gambling addiction",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261030/paradise-backs-campaign-to-combat-youth-gambling-addiction?utm_source=rss"
   }
 ]
