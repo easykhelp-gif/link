@@ -1,5 +1,61 @@
 [
   {
+    "id": "hotnews_vi_481d3f58",
+    "date": "2026-10-31",
+    "ts": 1793451124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/31/f775ad95-36c6-418b-9915-094a715389ce.jpeg",
+    "title": "Khách nước ngoài đến các sân bay địa phương tăng 37,4%",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261031/foreign-arrivals-at-regional-airports-surge-374-percent?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_fbf817f8",
+    "date": "2026-10-31",
+    "ts": 1793444496000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/23/PYH2026062319170006300_P2.jpg",
+    "title": "KBO yêu cầu MLB cho phép chuyển nhượng cầu thủ Roh Si-hwan",
+    "link": "https://en.yna.co.kr/view/AEN20261031003000315"
+  },
+  {
+    "id": "hotnews_vi_876d8bfe",
+    "date": "2026-10-31",
+    "ts": 1793443988000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031002900320_01_i_P2.jpg",
+    "title": "140.000 người tập trung ở Hongdae và Itaewon dịp Halloween",
+    "link": "https://en.yna.co.kr/view/AEN20261031002900320"
+  },
+  {
+    "id": "hotnews_vi_d52ccb17",
+    "date": "2026-10-31",
+    "ts": 1793442648000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102705660001300_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung thị sát thu nhập cơ bản ở tỉnh",
+    "link": "https://en.yna.co.kr/view/AEN20261031002551315"
+  },
+  {
+    "id": "hotnews_vi_fa1ba629",
+    "date": "2026-10-31",
+    "ts": 1793435666000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031002651315_01_i_P2.jpg",
+    "title": "Lãnh đạo Samsung hội họp với CEO Sam Altman của OpenAI",
+    "link": "https://en.yna.co.kr/view/AEN20261031002651315"
+  },
+  {
+    "id": "hotnews_vi_bad28afc",
+    "date": "2026-10-31",
+    "ts": 1793431368000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261030.1217e7ac2b794e069a393e554d373fa4_T1.jpg",
+    "title": "Siemens vạch ra lộ trình đưa AI vào các nhà máy nhỏ",
+    "link": "https://www.koreaherald.com/article/10921341"
+  },
+  {
+    "id": "hotnews_vi_f76af715",
+    "date": "2026-10-31",
+    "ts": 1793430005000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/29/news-p.v1.20261028.426ce1c8c40e4238b97bec74fe7f9d8d_T1.jpg",
+    "title": "Yoo Yeon-seok và Seo Hyeon-jin tái hợp sau 10 năm",
+    "link": "https://www.koreaherald.com/article/10919182"
+  },
+  {
     "id": "hotnews_vi_f1782baa",
     "date": "2026-10-31",
     "ts": 1793424061000,
@@ -14,6 +70,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102705660001300_P2.jpg",
     "title": "Tổng thống Lee Jae Myung thăm dự án thu nhập cơ bản",
     "link": "https://en.yna.co.kr/view/AEN20261031002500315"
+  },
+  {
+    "id": "hotnews_vi_f2a335e8",
+    "date": "2026-10-31",
+    "ts": 1793423185000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.f1edc3801e17452995fee5e20d83b591_T1.jpg",
+    "title": "Tổng thống Lee Jae Myung yêu cầu xem xét lại chính sách đa văn hóa",
+    "link": "https://www.koreaherald.com/article/10921290"
   },
   {
     "id": "hotnews_vi_1b2ef51e",
@@ -40,12 +104,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261031001500315"
   },
   {
+    "id": "hotnews_vi_904d3f62",
+    "date": "2026-10-31",
+    "ts": 1793416814000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.2ce2c55b0cfb4f67aeccf06e7b312b39_T1.jpg",
+    "title": "Nghị sĩ cầm quyền được cấp thị thực Mỹ sau vài ngày bị từ chối",
+    "link": "https://www.koreaherald.com/article/10921260"
+  },
+  {
     "id": "hotnews_vi_5c742e77",
     "date": "2026-10-31",
     "ts": 1793415799000,
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.51451dcaf466427aae31884e0e6dd25b_T1.jpg",
     "title": "Hanwha thắng hợp đồng đóng tàu Hải quân Mỹ 269 triệu USD",
     "link": "https://www.koreaherald.com/article/10921252"
+  },
+  {
+    "id": "hotnews_vi_93a5654d",
+    "date": "2026-10-31",
+    "ts": 1793411427000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.367ea276c8664319bf58412cf3cab366_T1.jpg",
+    "title": "Hàn, Mỹ, Nhật tái khẳng định mục tiêu phi hạt nhân hóa Triều Tiên",
+    "link": "https://www.koreaherald.com/article/10921218"
   },
   {
     "id": "hotnews_vi_0e0b245a",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/30/news-p.v1.20261030.713fcd5a39ca4b11afa23b84c34fdcd1_T1.jpg",
     "title": "Yuhan và Boehringer Ingelheim mở rộng hợp tác y tế tại Hàn Quốc",
     "link": "https://www.koreaherald.com/article/10920510"
-  },
-  {
-    "id": "hotnews_vi_20ca2f29",
-    "date": "2026-10-29",
-    "ts": 1793314323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/c3e1e9b2-53d2-4355-8704-07b1bf4039b8.jpg",
-    "title": "Doanh nhân nước ngoài biến văn hóa Hàn Quốc thành kinh doanh",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261030/weekender-beyond-korea-foreign-entrepreneurs-turn-korean-culture-into-business-opportunities?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_095ef75e",
-    "date": "2026-10-29",
-    "ts": 1793314323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/22/32de5da2-dfa0-4a13-9138-16799a3f1ba9.jpg",
-    "title": "Nhập tịch đặc biệt cho nhân tài nước ngoài tại Hàn Quốc",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261030/how-koreas-special-citizenship-for-outstanding-foreign-talent-works?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d18a3e52",
-    "date": "2026-10-29",
-    "ts": 1793314323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/19/26ae265c-097a-411c-ba79-6e57cd09ed1b.jpeg",
-    "title": "Kỷ niệm Halloween tại học viện tiếng Anh ở Seoul năm 1991",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261030/morning-calm-tales-carving-jack-o-lanterns-at-an-english-academy-and-the-great-pumpkin-showdown-of-1991?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_2c3125f5",
-    "date": "2026-10-29",
-    "ts": 1793311571000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030000600315_02_i_P2.jpg",
-    "title": "Triều Tiên thử nghiệm vũ khí gồm tên lửa và máy bay không người lái",
-    "link": "https://en.yna.co.kr/view/AEN20261030000600315"
-  },
-  {
-    "id": "hotnews_vi_b5a9f607",
-    "date": "2026-10-29",
-    "ts": 1793311218000,
-    "image": "",
-    "title": "Trì hoãn đối thoại an ninh Hàn-Mỹ làm lộ vết rạn nứt đồng minh",
-    "link": "https://en.yna.co.kr/view/AEN20261030000800315"
-  },
-  {
-    "id": "hotnews_vi_ad9154c4",
-    "date": "2026-10-29",
-    "ts": 1793307601000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029014200320_01_i_P2.jpg",
-    "title": "Khối ngoại bán ròng cổ phiếu Hàn Quốc trong tháng 9",
-    "link": "https://en.yna.co.kr/view/AEN20261029014200320"
-  },
-  {
-    "id": "hotnews_vi_877f398e",
-    "date": "2026-10-29",
-    "ts": 1793305124000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030000400315_01_i_P2.jpg",
-    "title": "Mỹ khẳng định vụ phóng tên lửa của Triều Tiên chưa gây đe dọa",
-    "link": "https://en.yna.co.kr/view/AEN20261030000400315"
-  },
-  {
-    "id": "hotnews_vi_c3330b98",
-    "date": "2026-10-29",
-    "ts": 1793297401000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103000100001300_P2.jpg",
-    "title": "Diễn viên gạo cội Hàn Quốc Choi Bool-am qua đời ở tuổi 87",
-    "link": "https://en.yna.co.kr/view/AEN20261030000200315"
-  },
-  {
-    "id": "hotnews_vi_a870ccca",
-    "date": "2026-10-29",
-    "ts": 1793280723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/29/8bfbe0ff-fac0-40e1-a6f3-2d9669157927.jpeg",
-    "title": "Chủ tịch Đại học Gachon gặp gỡ sinh viên quốc tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261029/gachon-university-president-hosts-120-international-students-at-traditional-hanok?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_52c4363b",
-    "date": "2026-10-29",
-    "ts": 1793280723000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/29/dde0068a-f051-41d0-a9fb-7da80ee32146.jpeg",
-    "title": "Seongdong lập quầy một cửa hỗ trợ cư dân nước ngoài",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261029/seongdong-district-opens-one-stop-service-counter-for-foreign-residents?utm_source=rss"
   }
 ]
