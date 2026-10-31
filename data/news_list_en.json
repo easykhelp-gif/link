@@ -1,5 +1,37 @@
 [
   {
+    "id": "hotnews_en_f6c83087",
+    "date": "2026-10-31",
+    "ts": 1793483223000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/14464c34-5381-4958-8c55-45ff562b168c.jpeg",
+    "title": "Love hotteok? Here's how the sugary, oil-fried snack can affect your diet",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261101/love-hotteok-heres-how-the-sugary-oil-fried-snack-can-affect-your-diet?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_fa9d35b0",
+    "date": "2026-10-31",
+    "ts": 1793472453000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/11/01/PAP20261101039901009_P2.jpg",
+    "title": "Trump open to talks with N. Korean leader but no meeting scheduled: Rubio",
+    "link": "https://en.yna.co.kr/view/AEN20261101000251315"
+  },
+  {
+    "id": "hotnews_en_bb34b8ab",
+    "date": "2026-10-31",
+    "ts": 1793454846000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/31/PYH2026103104300032000_P2.jpg",
+    "title": "Up to 125,000 gather in Seoul's Hongdae area on Halloween; 30,000 in Itaewon: data",
+    "link": "https://en.yna.co.kr/view/AEN20261031002951320"
+  },
+  {
+    "id": "hotnews_en_fad5d082",
+    "date": "2026-10-31",
+    "ts": 1793452564000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031003100320_03_i_P2.jpg",
+    "title": "S. Korea's top diplomat discusses ties with German, Polish counterparts",
+    "link": "https://en.yna.co.kr/view/AEN20261031003100320"
+  },
+  {
     "id": "hotnews_en_481d3f58",
     "date": "2026-10-31",
     "ts": 1793451124000,
@@ -120,6 +152,14 @@
     "link": "https://www.koreaherald.com/article/10918895"
   },
   {
+    "id": "hotnews_en_53aa2271",
+    "date": "2026-10-31",
+    "ts": 1793427215000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.392c38590a804decb0f4a6d24bc4b3df_T1.jpg",
+    "title": "Samsung executives meet OpenAI's Altman to discuss AI strategy",
+    "link": "https://www.koreaherald.com/article/10921312"
+  },
+  {
     "id": "hotnews_en_a40fae53",
     "date": "2026-10-31",
     "ts": 1793426523000,
@@ -184,6 +224,14 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205257"
   },
   {
+    "id": "hotnews_en_fd6a9ee1",
+    "date": "2026-10-31",
+    "ts": 1793420643000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202603/260305120835_70_e.jpg",
+    "title": "Lee Reaffirms Opposition against Reverse Discrimination in Supporting Multicultural Families",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205256"
+  },
+  {
     "id": "hotnews_en_1b2ef51e",
     "date": "2026-10-31",
     "ts": 1793420338000,
@@ -238,6 +286,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.51451dcaf466427aae31884e0e6dd25b_T1.jpg",
     "title": "Hanwha wins first US Navy shipbuilding contract in $269 million deal",
     "link": "https://www.koreaherald.com/article/10921252"
+  },
+  {
+    "id": "hotnews_en_c29e7a9d",
+    "date": "2026-10-31",
+    "ts": 1793415767000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261031120423_63_e.jpg",
+    "title": "S. Korea, US, Japan Reaffirm Commitment to N. Korea's Complete Denuclearization",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205251"
   },
   {
     "id": "hotnews_en_79daa348",
@@ -342,61 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/10/30/4d41b7c9-5e27-40cc-ac71-134f1c09defc.jpeg",
     "title": "'Assume everything is being recorded': Korea's Gen Z rewrites the rules of office life",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261031/assume-everything-is-being-recorded-koreas-gen-z-rewrites-the-rules-of-office-life?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_cb179ebf",
-    "date": "2026-10-30",
-    "ts": 1793399524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/21541f0d-d915-4af9-859d-cdb294a88721.jpg",
-    "title": "Once shunned, prisons become sought-after facilities for local communities",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261031/once-shunned-prisons-become-sought-after-facilities-for-local-communities?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_b9399d0a",
-    "date": "2026-10-30",
-    "ts": 1793399524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/63508e62-a7ca-4824-9ea7-532b42701554.jpeg",
-    "title": "Is it really just the autumn blues?",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261031/is-it-really-just-the-autumn-blues?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_678a698c",
-    "date": "2026-10-30",
-    "ts": 1793394808000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000252315_02_i_P2.jpg",
-    "title": "N. Korean hackers blamed for record US$6.36 bln Binance cryptocurrency theft: U.S. firm",
-    "link": "https://en.yna.co.kr/view/AEN20261031000252315"
-  },
-  {
-    "id": "hotnews_en_cb0eaf40",
-    "date": "2026-10-30",
-    "ts": 1793388820000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000400315_01_i_P2.jpg",
-    "title": "S. Korean envoy to U.S. vows support for bilateral investment at Hyundai's Alabama plant",
-    "link": "https://en.yna.co.kr/view/AEN20261031000400315"
-  },
-  {
-    "id": "hotnews_en_cc921ef9",
-    "date": "2026-10-30",
-    "ts": 1793378419000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000300315_01_i_P2.jpg",
-    "title": "Hanwha Defense USA wins US$269 mln U.S. Navy shipbuilding contract",
-    "link": "https://en.yna.co.kr/view/AEN20261031000300315"
-  },
-  {
-    "id": "hotnews_en_0922c0f7",
-    "date": "2026-10-30",
-    "ts": 1793369165000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/30/AEN20261030013300315_01_i_P2.jpg",
-    "title": "Swiss FM briefs Seoul on Pyongyang trip after reopening diplomatic office",
-    "link": "https://en.yna.co.kr/view/AEN20261030013300315"
-  },
-  {
-    "id": "hotnews_en_53517064",
-    "date": "2026-10-30",
-    "ts": 1793367610000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103019510005400_P2.jpg",
-    "title": "Designated hitter delivers clutch knocks to keep Tigers alive in KBO postseason",
-    "link": "https://en.yna.co.kr/view/AEN20261030013200315"
   }
 ]
