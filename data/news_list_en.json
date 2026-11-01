@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_en_fbc4ae0d",
+    "date": "2026-11-01",
+    "ts": 1793571124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/01/800fb7f4-824a-4837-9938-8d90a70fae49.jpg",
+    "title": "Gov't tightens grip on illegal foreign delivery riders amid nearly 17-fold surge in cases",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261102/govt-tightens-grip-on-illegal-foreign-delivery-riders-amid-nearly-17-fold-surge-in-cases?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_b188d155",
+    "date": "2026-11-01",
+    "ts": 1793570729000,
+    "image": "",
+    "title": "(EDITORIAL from Korea JoongAng Daily on Nov. 2)",
+    "link": "https://en.yna.co.kr/view/AEN20261102000600315"
+  },
+  {
+    "id": "hotnews_en_58446745",
+    "date": "2026-11-01",
+    "ts": 1793570707000,
+    "image": "",
+    "title": "(EDITORIAL from Korea Times on Nov. 2)",
+    "link": "https://en.yna.co.kr/view/AEN20261102000500315"
+  },
+  {
+    "id": "hotnews_en_121628ee",
+    "date": "2026-11-01",
+    "ts": 1793570689000,
+    "image": "",
+    "title": "(EDITORIAL from Korea Herald on Nov. 2)",
+    "link": "https://en.yna.co.kr/view/AEN20261102000400315"
+  },
+  {
+    "id": "hotnews_en_50afdc9b",
+    "date": "2026-11-01",
+    "ts": 1793570467000,
+    "image": "",
+    "title": "Top headlines in major S. Korean newspapers",
+    "link": "https://en.yna.co.kr/view/AEN20261102000300315"
+  },
+  {
+    "id": "hotnews_en_0cdd3e0e",
+    "date": "2026-11-01",
+    "ts": 1793569512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/02/news-p.v1.20261102.e880644d74644021b6c0c3ebf962ff98_T1.jpg",
+    "title": "BTS Jimin's father's cafe announces closure in one year",
+    "link": "https://www.koreaherald.com/article/10921962"
+  },
+  {
+    "id": "hotnews_en_e12fc09c",
+    "date": "2026-11-01",
+    "ts": 1793566860000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029014800315_08_i_P2.jpg",
+    "title": "Erdogan seeks stronger S. Korea partnership in energy, tech, logistics amid global uncertainties",
+    "link": "https://en.yna.co.kr/view/AEN20261029014800315"
+  },
+  {
+    "id": "hotnews_en_8fe71d7c",
+    "date": "2026-11-01",
+    "ts": 1793566804000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101002900320_01_i_P2.jpg",
+    "title": "Seoul to launch emergency response system for Czech nuclear project",
+    "link": "https://en.yna.co.kr/view/AEN20261101002900320"
+  },
+  {
+    "id": "hotnews_en_966865f9",
+    "date": "2026-11-01",
+    "ts": 1793565000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.d8aa00f52c4f47df9dfc9fdb985cdc39_T1.jpg",
+    "title": "[Lee Kyong-hee] Urgency of addressing MDL border discrepancies",
+    "link": "https://www.koreaherald.com/article/10921853"
+  },
+  {
+    "id": "hotnews_en_8f27ad21",
+    "date": "2026-11-01",
+    "ts": 1793565000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.79ea82f6c66c401892e244af12658e86_T1.jpg",
+    "title": "[Man-Ki Kim] Strategic composure in US ties",
+    "link": "https://www.koreaherald.com/article/10921852"
+  },
+  {
     "id": "hotnews_en_18c8649d",
     "date": "2026-11-01",
     "ts": 1793555822000,
@@ -16,6 +96,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261101004500315"
   },
   {
+    "id": "hotnews_en_b217eac1",
+    "date": "2026-11-01",
+    "ts": 1793532772000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.bbe5739cd4ac499ebbfec56cf69231c3_T1.png",
+    "title": "Samsung chief Lee visits Japan chip packaging lab",
+    "link": "https://www.koreaherald.com/article/10921887"
+  },
+  {
     "id": "hotnews_en_398ab5d9",
     "date": "2026-11-01",
     "ts": 1793526548000,
@@ -24,12 +112,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261101004100315"
   },
   {
+    "id": "hotnews_en_b773ccbf",
+    "date": "2026-11-01",
+    "ts": 1793526421000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.a506ec4e1e8b4c94a0e9e322ce827d01_T1.jpg",
+    "title": "Lee to receive leaders from Turkey, East Timor this week",
+    "link": "https://www.koreaherald.com/article/10921866"
+  },
+  {
     "id": "hotnews_en_36d3377b",
     "date": "2026-11-01",
     "ts": 1793525300000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110104210001300_P2.jpg",
     "title": "Ageless wonder looking forward to yet another Korean Series trip with Lions",
     "link": "https://en.yna.co.kr/view/AEN20261101004000315"
+  },
+  {
+    "id": "hotnews_en_e2768fa0",
+    "date": "2026-11-01",
+    "ts": 1793523329000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110107510001300_P2.jpg",
+    "title": "Lions manager hoping for better defense with team off to Korean Series",
+    "link": "https://en.yna.co.kr/view/AEN20261101003900315"
   },
   {
     "id": "hotnews_en_58a46736",
@@ -294,109 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261031.PRU20261031011601009_T1.jpg",
     "title": "UK king to address Commonwealth with 'unflinching honesty' amid slavery focus",
     "link": "https://www.koreaherald.com/article/10921719"
-  },
-  {
-    "id": "hotnews_en_45a0831f",
-    "date": "2026-11-01",
-    "ts": 1793508308000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.f16133d8bc394788880119b2c4540343_T1.jpg",
-    "title": "APR doubles Q3 revenue as US, European sales soar",
-    "link": "https://www.koreaherald.com/article/10921716"
-  },
-  {
-    "id": "hotnews_en_4b82d8ef",
-    "date": "2026-11-01",
-    "ts": 1793508267000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.373a4afa532d40729a2faf979edd7ddf_T1.jpeg",
-    "title": "Korean entertainment expands its presence on global TV screens",
-    "link": "https://www.koreaherald.com/article/10921714"
-  },
-  {
-    "id": "hotnews_en_6054d062",
-    "date": "2026-11-01",
-    "ts": 1793506679000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261031.7b22f21b36b748c7a81832936eb896ab_T1.jpg",
-    "title": "[APK 2026] 'Tech beats tariffs': German industry chiefs demand faster reforms",
-    "link": "https://www.koreaherald.com/article/10921705"
-  },
-  {
-    "id": "hotnews_en_ace0ca7d",
-    "date": "2026-11-01",
-    "ts": 1793506668000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261030.f369c0b246074ebda3e9d31a3d16b202_T1.jpg",
-    "title": "[APK 2026] Korean PM urges deeper high-tech ties with Germany in AI, chips",
-    "link": "https://www.koreaherald.com/article/10921704"
-  },
-  {
-    "id": "hotnews_en_b20ea90d",
-    "date": "2026-11-01",
-    "ts": 1793506660000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261030.9fc58db9b9bb474792ac7ccbe469169b_T1.jpg",
-    "title": "[APK 2026] Merz calls for global alliance to defend rules-based trade",
-    "link": "https://www.koreaherald.com/article/10921703"
-  },
-  {
-    "id": "hotnews_en_406146a9",
-    "date": "2026-11-01",
-    "ts": 1793506633000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.26561df36ca84fde9d85c93329690a11_T1.jpg",
-    "title": "[APK 2026] Korea, Germany deepen AI, supply chain ties amid global turmoil",
-    "link": "https://www.koreaherald.com/article/10921701"
-  },
-  {
-    "id": "hotnews_en_54a838d7",
-    "date": "2026-11-01",
-    "ts": 1793506602000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261031.PAF20261031210301009_T1.jpg",
-    "title": "Spanish village holds memorial mass",
-    "link": "https://www.koreaherald.com/article/10921700"
-  },
-  {
-    "id": "hotnews_en_edf5c1bf",
-    "date": "2026-11-01",
-    "ts": 1793506597000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261031.dd8ab2aa2cd9437c8ddc4340f8aac6b3_T1.jpg",
-    "title": "[APK 2026] Siemens, Naver CEOs push industrial AI beyond pilot projects",
-    "link": "https://www.koreaherald.com/article/10921699"
-  },
-  {
-    "id": "hotnews_en_4a0223ec",
-    "date": "2026-11-01",
-    "ts": 1793506282000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261101.PEP20261031125101009_T1.jpg",
-    "title": "Iran warns US, Israel against new attacks",
-    "link": "https://www.koreaherald.com/article/10921696"
-  },
-  {
-    "id": "hotnews_en_1a14f6ed",
-    "date": "2026-11-01",
-    "ts": 1793506250000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.1ea6ea8106804b53be6ec8ced7490c2a_T1.png",
-    "title": "Finding peace, one click at a time: AI-made virtual sanctuaries draw young Koreans",
-    "link": "https://www.koreaherald.com/article/10921693"
-  },
-  {
-    "id": "hotnews_en_4a54379f",
-    "date": "2026-11-01",
-    "ts": 1793506184000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261101010721_61_e.jpg",
-    "title": "N. Korea Tests Cluster Bomb Warhead for Tactical Ballistic Missiles",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205262"
-  },
-  {
-    "id": "hotnews_en_47850540",
-    "date": "2026-11-01",
-    "ts": 1793506169000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261031.PRU20261031203101009_T1.jpg",
-    "title": "US midterm campaign enters final weekend",
-    "link": "https://www.koreaherald.com/article/10921692"
-  },
-  {
-    "id": "hotnews_en_2f21bd77",
-    "date": "2026-11-01",
-    "ts": 1793506131000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261101.PAP20261101039601009_T1.jpg",
-    "title": "Rubio says he spoke to Lavrov about potential Trump-Putin interaction at APEC",
-    "link": "https://www.koreaherald.com/article/10921690"
   }
 ]

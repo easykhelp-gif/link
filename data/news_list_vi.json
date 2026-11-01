@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_fbc4ae0d",
+    "date": "2026-11-01",
+    "ts": 1793571124000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/01/800fb7f4-824a-4837-9938-8d90a70fae49.jpg",
+    "title": "Hàn Quốc siết chặt lao động giao hàng nước ngoài trái phép",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261102/govt-tightens-grip-on-illegal-foreign-delivery-riders-amid-nearly-17-fold-surge-in-cases?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b188d155",
+    "date": "2026-11-01",
+    "ts": 1793570729000,
+    "image": "",
+    "title": "Quốc hội Hàn Quốc cần cắt giảm ngân sách lãng phí năm 2027",
+    "link": "https://en.yna.co.kr/view/AEN20261102000600315"
+  },
+  {
+    "id": "hotnews_vi_58446745",
+    "date": "2026-11-01",
+    "ts": 1793570707000,
+    "image": "",
+    "title": "Phát ngôn về lao động nước ngoài của Tổng thống Lee Jae Myung",
+    "link": "https://en.yna.co.kr/view/AEN20261102000500315"
+  },
+  {
+    "id": "hotnews_vi_121628ee",
+    "date": "2026-11-01",
+    "ts": 1793570689000,
+    "image": "",
+    "title": "Quốc hội Hàn Quốc xem xét ngân sách quốc gia năm 2027",
+    "link": "https://en.yna.co.kr/view/AEN20261102000400315"
+  },
+  {
+    "id": "hotnews_vi_50afdc9b",
+    "date": "2026-11-01",
+    "ts": 1793570467000,
+    "image": "",
+    "title": "Tin tức hàng đầu trên các báo lớn Hàn Quốc ngày 2 tháng 11",
+    "link": "https://en.yna.co.kr/view/AEN20261102000300315"
+  },
+  {
+    "id": "hotnews_vi_0cdd3e0e",
+    "date": "2026-11-01",
+    "ts": 1793569512000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/02/news-p.v1.20261102.e880644d74644021b6c0c3ebf962ff98_T1.jpg",
+    "title": "Quán cà phê của bố Jimin (BTS) thông báo đóng cửa sau 1 năm",
+    "link": "https://www.koreaherald.com/article/10921962"
+  },
+  {
+    "id": "hotnews_vi_e12fc09c",
+    "date": "2026-11-01",
+    "ts": 1793566860000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029014800315_08_i_P2.jpg",
+    "title": "Erdogan muốn tăng cường hợp tác năng lượng và công nghệ với Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261029014800315"
+  },
+  {
+    "id": "hotnews_vi_8fe71d7c",
+    "date": "2026-11-01",
+    "ts": 1793566804000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101002900320_01_i_P2.jpg",
+    "title": "Seoul lập hệ thống khẩn cấp cho dự án điện hạt nhân Séc",
+    "link": "https://en.yna.co.kr/view/AEN20261101002900320"
+  },
+  {
+    "id": "hotnews_vi_966865f9",
+    "date": "2026-11-01",
+    "ts": 1793565000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.d8aa00f52c4f47df9dfc9fdb985cdc39_T1.jpg",
+    "title": "Cần giải quyết chênh lệch ranh giới tại MDL",
+    "link": "https://www.koreaherald.com/article/10921853"
+  },
+  {
+    "id": "hotnews_vi_8f27ad21",
+    "date": "2026-11-01",
+    "ts": 1793565000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.79ea82f6c66c401892e244af12658e86_T1.jpg",
+    "title": "Giữ vững sự bình tĩnh chiến lược trong quan hệ Hàn-Mỹ",
+    "link": "https://www.koreaherald.com/article/10921852"
+  },
+  {
     "id": "hotnews_vi_18c8649d",
     "date": "2026-11-01",
     "ts": 1793555822000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261031010613_95_e.jpg",
     "title": "Mỹ cấp thị thực cho Đại biểu Jin Sung-joon",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205255"
-  },
-  {
-    "id": "hotnews_vi_27834658",
-    "date": "2026-10-31",
-    "ts": 1793419649000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202410/241023015157_17_i.jpg",
-    "title": "Giá dầu thế giới tăng vọt do lo ngại xung đột Mỹ - Iran",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205254"
-  },
-  {
-    "id": "hotnews_vi_a3cec631",
-    "date": "2026-10-31",
-    "ts": 1793417269000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031001500315_01_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung yêu cầu xem lại hỗ trợ đa văn hóa",
-    "link": "https://en.yna.co.kr/view/AEN20261031001500315"
-  },
-  {
-    "id": "hotnews_vi_904d3f62",
-    "date": "2026-10-31",
-    "ts": 1793416814000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.2ce2c55b0cfb4f67aeccf06e7b312b39_T1.jpg",
-    "title": "Nghị sĩ cầm quyền được cấp thị thực Mỹ sau vài ngày bị từ chối",
-    "link": "https://www.koreaherald.com/article/10921260"
-  },
-  {
-    "id": "hotnews_vi_5c742e77",
-    "date": "2026-10-31",
-    "ts": 1793415799000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.51451dcaf466427aae31884e0e6dd25b_T1.jpg",
-    "title": "Hanwha thắng hợp đồng đóng tàu Hải quân Mỹ 269 triệu USD",
-    "link": "https://www.koreaherald.com/article/10921252"
-  },
-  {
-    "id": "hotnews_vi_93a5654d",
-    "date": "2026-10-31",
-    "ts": 1793411427000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/31/news-p.v1.20261031.367ea276c8664319bf58412cf3cab366_T1.jpg",
-    "title": "Hàn, Mỹ, Nhật tái khẳng định mục tiêu phi hạt nhân hóa Triều Tiên",
-    "link": "https://www.koreaherald.com/article/10921218"
-  },
-  {
-    "id": "hotnews_vi_0e0b245a",
-    "date": "2026-10-31",
-    "ts": 1793410720000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031001300315_01_i_P2.jpg",
-    "title": "Triều Tiên chỉ trích tuyên bố trừng phạt là thất bại chiến lược",
-    "link": "https://en.yna.co.kr/view/AEN20261031001300315"
-  },
-  {
-    "id": "hotnews_vi_3f11bfba",
-    "date": "2026-10-31",
-    "ts": 1793408080000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031001100315_01_i_P2.jpg",
-    "title": "Nghị sĩ Jin Sung-joon được cấp thị thực Mỹ sau khi bị từ chối",
-    "link": "https://en.yna.co.kr/view/AEN20261031001100315"
-  },
-  {
-    "id": "hotnews_vi_0e450599",
-    "date": "2026-10-31",
-    "ts": 1793406792000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031001000315_01_i_P2.jpg",
-    "title": "Ngoại trưởng Thụy Sĩ thăm Bình Nhưỡng và gặp gỡ quan chức Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261031001000315"
-  },
-  {
-    "id": "hotnews_vi_dc77b531",
-    "date": "2026-10-31",
-    "ts": 1793404943000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000553315_03_i_P2.jpg",
-    "title": "Ngoại trưởng Hàn, Mỹ, Nhật tái khẳng định phi hạt nhân hóa Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261031000553315"
-  },
-  {
-    "id": "hotnews_vi_867e70f5",
-    "date": "2026-10-30",
-    "ts": 1793399524000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/30/9cdc7f85-ceb6-449b-9cf5-9490b0379792.jpeg",
-    "title": "Hàn Quốc tăng ưu đãi cho chó nghiệp vụ nghỉ hưu tìm chủ mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261031/korea-expands-benefits-for-retired-working-dogs-to-help-them-find-forever-homes?utm_source=rss"
   }
 ]
