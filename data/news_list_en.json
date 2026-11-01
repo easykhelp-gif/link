@@ -1,5 +1,93 @@
 [
   {
+    "id": "hotnews_en_18c8649d",
+    "date": "2026-11-01",
+    "ts": 1793555822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/31/2f1606fc-45f7-4f7f-ba53-bc8944debcc4.jpeg",
+    "title": "Ji So-yun brings wisdom, experience and winning spirit to Korean women's football",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261102/ji-so-yun-brings-wisdom-experience-and-winning-spirit-to-korean-womens-football?utm_source=rss"
+  },
+  {
+    "id": "hotnews_en_4a6619cd",
+    "date": "2026-11-01",
+    "ts": 1793537955000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2024/04/23/PYH2024042317690001300_P2.jpg",
+    "title": "2 Air Force training aircraft collide mid-air in Sept.; no casualties reported",
+    "link": "https://en.yna.co.kr/view/AEN20261101004500315"
+  },
+  {
+    "id": "hotnews_en_398ab5d9",
+    "date": "2026-11-01",
+    "ts": 1793526548000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101004100315_01_i_P2.jpg",
+    "title": "Turkish, East Timorese presidents to visit S. Korea this week for talks with Lee",
+    "link": "https://en.yna.co.kr/view/AEN20261101004100315"
+  },
+  {
+    "id": "hotnews_en_36d3377b",
+    "date": "2026-11-01",
+    "ts": 1793525300000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110104210001300_P2.jpg",
+    "title": "Ageless wonder looking forward to yet another Korean Series trip with Lions",
+    "link": "https://en.yna.co.kr/view/AEN20261101004000315"
+  },
+  {
+    "id": "hotnews_en_58a46736",
+    "date": "2026-11-01",
+    "ts": 1793521761000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110105400001300_P2.jpg",
+    "title": "Tigers skipper vows to come back stronger in '27 after KBO postseason exit",
+    "link": "https://en.yna.co.kr/view/AEN20261101003800315"
+  },
+  {
+    "id": "hotnews_en_02e0fd80",
+    "date": "2026-11-01",
+    "ts": 1793521092000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261006.9e18fd8242e64c1c80a9bdae4e482a5c_T1.jpg",
+    "title": "Plays post their best third quarter in five years even as Korea’s overall ticket sales slip",
+    "link": "https://www.koreaherald.com/article/10921836"
+  },
+  {
+    "id": "hotnews_en_d2cfb666",
+    "date": "2026-11-01",
+    "ts": 1793520056000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.13df680a678249cfaea9373028dd961b_T1.png",
+    "title": "K-pop album sales set to top 100 million as merchandise-style formats spread",
+    "link": "https://www.koreaherald.com/article/10921822"
+  },
+  {
+    "id": "hotnews_en_7e589967",
+    "date": "2026-11-01",
+    "ts": 1793519729000,
+    "image": "https://img.yna.co.kr/photo/reuters/2026/11/01/PRU20261101284501009_P2.jpg",
+    "title": "Trump says U.S. will talk to N. Korea if it is behind Binance hack",
+    "link": "https://en.yna.co.kr/view/AEN20261101000351315"
+  },
+  {
+    "id": "hotnews_en_77e319c1",
+    "date": "2026-11-01",
+    "ts": 1793518154000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101003000320_02_i_P2.jpg",
+    "title": "Samsung chief visits Advanced Package Lab in Japan",
+    "link": "https://en.yna.co.kr/view/AEN20261101003000320"
+  },
+  {
+    "id": "hotnews_en_ef47a9c7",
+    "date": "2026-11-01",
+    "ts": 1793517362000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101002500315_01_i_P2.jpg",
+    "title": "Relatives from a family separated by the Korean War meet for first time in third country",
+    "link": "https://en.yna.co.kr/view/AEN20261101002500315"
+  },
+  {
+    "id": "hotnews_en_11ae8631",
+    "date": "2026-11-01",
+    "ts": 1793516026000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.acd3e189465d46c3968ad1c04fc7dd75_T1.jpg",
+    "title": "Spat over president's social media activities intensifies",
+    "link": "https://www.koreaherald.com/article/10921790"
+  },
+  {
     "id": "hotnews_en_a694c63a",
     "date": "2026-11-01",
     "ts": 1793514847000,
@@ -56,6 +144,14 @@
     "link": "https://www.koreaherald.com/article/10921771"
   },
   {
+    "id": "hotnews_en_c781ff7d",
+    "date": "2026-11-01",
+    "ts": 1793513244000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.426d5edfd700408e86c00b975feb9d57_T1.png",
+    "title": "Choi Min-jeong wins second straight 1,000-meter gold",
+    "link": "https://www.koreaherald.com/article/10921770"
+  },
+  {
     "id": "hotnews_en_28408676",
     "date": "2026-11-01",
     "ts": 1793513234000,
@@ -78,6 +174,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.52dafe8dff5148f3b6792a5fc3c0cf22_T1.jpg",
     "title": "Subway car breaks down at Boramae Station; operation resumed after 2 p.m.",
     "link": "https://www.koreaherald.com/article/10921753"
+  },
+  {
+    "id": "hotnews_en_5ef07e13",
+    "date": "2026-11-01",
+    "ts": 1793511379000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101001351320_01_i_P2.jpg",
+    "title": "HD Hyundai Robotics partners with Palantir on AI solutions",
+    "link": "https://en.yna.co.kr/view/AEN20261101001351320"
   },
   {
     "id": "hotnews_en_b7b5e40b",
@@ -126,6 +230,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.b57ed4eb4055434888f227480811d7e8_T1.jpg",
     "title": "KB Kookmin to lead record W10.7tr loan for Naver AI project",
     "link": "https://www.koreaherald.com/article/10921731"
+  },
+  {
+    "id": "hotnews_en_1eae16f9",
+    "date": "2026-11-01",
+    "ts": 1793510056000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261101012058_12_e.jpg",
+    "title": "Foreign Minister Holds Talks with EU, UK, India and Mexico at G20",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205265"
   },
   {
     "id": "hotnews_en_17ee09e1",
@@ -208,6 +320,14 @@
     "link": "https://www.koreaherald.com/article/10921705"
   },
   {
+    "id": "hotnews_en_ace0ca7d",
+    "date": "2026-11-01",
+    "ts": 1793506668000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261030.f369c0b246074ebda3e9d31a3d16b202_T1.jpg",
+    "title": "[APK 2026] Korean PM urges deeper high-tech ties with Germany in AI, chips",
+    "link": "https://www.koreaherald.com/article/10921704"
+  },
+  {
     "id": "hotnews_en_b20ea90d",
     "date": "2026-11-01",
     "ts": 1793506660000,
@@ -278,125 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261101.PAP20261101039601009_T1.jpg",
     "title": "Rubio says he spoke to Lavrov about potential Trump-Putin interaction at APEC",
     "link": "https://www.koreaherald.com/article/10921690"
-  },
-  {
-    "id": "hotnews_en_43b39ece",
-    "date": "2026-11-01",
-    "ts": 1793506083000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/rcv.YNA.20261101.PRU20261101082601009_T1.jpg",
-    "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
-    "link": "https://www.koreaherald.com/article/10921689"
-  },
-  {
-    "id": "hotnews_en_2c4a22e7",
-    "date": "2026-11-01",
-    "ts": 1793505987000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.aafa8028a2eb460a8c3a63d4433939a4_T1.jpg",
-    "title": "Snowfall greets November",
-    "link": "https://www.koreaherald.com/article/10921688"
-  },
-  {
-    "id": "hotnews_en_17a560c6",
-    "date": "2026-11-01",
-    "ts": 1793505831000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261028.3458cee2c18644baa58bbe0337c56bb5_T1.jpg",
-    "title": "[World Class] Hoseo turns regional industry links into global strategy",
-    "link": "https://www.koreaherald.com/article/10921687"
-  },
-  {
-    "id": "hotnews_en_8fdf77ca",
-    "date": "2026-11-01",
-    "ts": 1793505796000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.7ec21bdd6bc241b682a096e1e5617ca3_T1.png",
-    "title": "Inmate gets added term for false accusation out of spite",
-    "link": "https://www.koreaherald.com/article/10921685"
-  },
-  {
-    "id": "hotnews_en_1f1c7d2a",
-    "date": "2026-11-01",
-    "ts": 1793505190000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.8669c8891e314f848abe0fc42bf97958_T1.jpg",
-    "title": "7 out of 10 Koreans experienced mental issues in past year: report",
-    "link": "https://www.koreaherald.com/article/10921679"
-  },
-  {
-    "id": "hotnews_en_eb4770aa",
-    "date": "2026-11-01",
-    "ts": 1793504961000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261101012230_28_e.jpg",
-    "title": "October Exports Hit Second-Highest Monthly Total on Record",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205261"
-  },
-  {
-    "id": "hotnews_en_f6c83087",
-    "date": "2026-10-31",
-    "ts": 1793483223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/26/14464c34-5381-4958-8c55-45ff562b168c.jpeg",
-    "title": "Love hotteok? Here's how the sugary, oil-fried snack can affect your diet",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261101/love-hotteok-heres-how-the-sugary-oil-fried-snack-can-affect-your-diet?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_fa9d35b0",
-    "date": "2026-10-31",
-    "ts": 1793472453000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/11/01/PAP20261101039901009_P2.jpg",
-    "title": "Trump open to talks with N. Korean leader but no meeting scheduled: Rubio",
-    "link": "https://en.yna.co.kr/view/AEN20261101000251315"
-  },
-  {
-    "id": "hotnews_en_bb34b8ab",
-    "date": "2026-10-31",
-    "ts": 1793454846000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/31/PYH2026103104300032000_P2.jpg",
-    "title": "Up to 125,000 gather in Seoul's Hongdae area on Halloween; 30,000 in Itaewon: data",
-    "link": "https://en.yna.co.kr/view/AEN20261031002951320"
-  },
-  {
-    "id": "hotnews_en_fad5d082",
-    "date": "2026-10-31",
-    "ts": 1793452564000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031003100320_03_i_P2.jpg",
-    "title": "S. Korea's top diplomat discusses ties with German, Polish counterparts",
-    "link": "https://en.yna.co.kr/view/AEN20261031003100320"
-  },
-  {
-    "id": "hotnews_en_481d3f58",
-    "date": "2026-10-31",
-    "ts": 1793451124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/10/31/f775ad95-36c6-418b-9915-094a715389ce.jpeg",
-    "title": "Foreign arrivals at regional airports surge 37.4 percent",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261031/foreign-arrivals-at-regional-airports-surge-374-percent?utm_source=rss"
-  },
-  {
-    "id": "hotnews_en_fbf817f8",
-    "date": "2026-10-31",
-    "ts": 1793444496000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/23/PYH2026062319170006300_P2.jpg",
-    "title": "KBO asks MLB to post All-Star slugger Roh Si-hwan",
-    "link": "https://en.yna.co.kr/view/AEN20261031003000315"
-  },
-  {
-    "id": "hotnews_en_876d8bfe",
-    "date": "2026-10-31",
-    "ts": 1793443988000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031002900320_01_i_P2.jpg",
-    "title": "120,000 gather in Seoul's Hongdae area for Halloween; 20,000 in Itaewon: data",
-    "link": "https://en.yna.co.kr/view/AEN20261031002900320"
-  },
-  {
-    "id": "hotnews_en_d52ccb17",
-    "date": "2026-10-31",
-    "ts": 1793442648000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102705660001300_P2.jpg",
-    "title": "Lee visits southeastern province to inspect pilot basic income scheme",
-    "link": "https://en.yna.co.kr/view/AEN20261031002551315"
-  },
-  {
-    "id": "hotnews_en_fa1ba629",
-    "date": "2026-10-31",
-    "ts": 1793435666000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031002651315_01_i_P2.jpg",
-    "title": "Samsung execs meet Open AI's Sam Altman to discuss AI transformation",
-    "link": "https://en.yna.co.kr/view/AEN20261031002651315"
   }
 ]
