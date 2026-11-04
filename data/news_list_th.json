@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_80b3e42c",
+    "date": "2026-11-04",
+    "ts": 1793774823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/04/29405049-3945-4db0-b7d8-39a8c450b4dd.jpeg",
+    "title": "ผู้จัดการโรงแรมปูซานโกงแฟนคลับ BTS ยกเลิกห้องพักเพื่อขายแพงขึ้น",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261104/hotel-manager-accused-of-tricking-bts-fan-into-canceling-booking-reselling-rooms-at-7-times-the-price?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_624156cb",
+    "date": "2026-11-04",
+    "ts": 1793774823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/04/1e0a1dfd-f3c5-44fe-87db-0bf0e2a307c5.jpeg",
+    "title": "ศิษย์เก่ามหาวิทยาลัยชนบุกได้เป็นผู้ช่วยศาสตราจารย์ในสหรัฐฯ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261104/jeonbuk-national-university-alumna-appointed-assistant-professor-at-university-of-central-florida?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_494730f9",
+    "date": "2026-11-04",
+    "ts": 1793774823000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/03/be810963-1092-4cf7-9be2-a23347770a07.jpg",
+    "title": "IES Global เตรียมขยายโครงการศึกษาต่อและฝึกงานในเกาหลี",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261104/ies-global-eyes-expansion-of-study-abroad-internship-programs-in-korea?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c54c2a32",
+    "date": "2026-11-04",
+    "ts": 1793774496000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-p.v1.20261104.e66115cf4fc94c5cbf64da391dd58183_T1.jpg",
+    "title": "นโยบายแก้ปัญหาบ้านของโซลต่างกันตามพื้นที่",
+    "link": "https://www.koreaherald.com/article/10925866"
+  },
+  {
+    "id": "hotnews_th_c7d83273",
+    "date": "2026-11-04",
+    "ts": 1793774368000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-p.v1.20261104.0c7c48d926b5482a9e2c8e39c06bbf1a_T1.jpg",
+    "title": "พรรคประชาธิปไตยเสนอเลื่อนเก็บภาษีคริปโต",
+    "link": "https://www.koreaherald.com/article/10925862"
+  },
+  {
+    "id": "hotnews_th_6e26f2de",
+    "date": "2026-11-04",
+    "ts": 1793773323000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/rcv.YNA.20261104.PYH2026110407220001300_T1.jpg",
+    "title": "พรรคการเมืองเกาหลีใต้ถกเดือดงบปี 2027 และกองทุนอนาคต",
+    "link": "https://www.koreaherald.com/article/10925840"
+  },
+  {
+    "id": "hotnews_th_30dd57d9",
+    "date": "2026-11-04",
+    "ts": 1793773056000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-a.v1.20261104.6a2649f0a30d4fed911e5f44b381f7a2_T1.jpg",
+    "title": "เบื้องหลังความสำเร็จซีรีส์เกาหลีกับสภาพการทำงานที่หนักหน่วง",
+    "link": "https://www.koreaherald.com/article/10925835"
+  },
+  {
+    "id": "hotnews_th_9f445a31",
+    "date": "2026-11-04",
+    "ts": 1793772500000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/rcv.YNA.20261104.PYH2026110411090006500_T1.jpg",
+    "title": "ม.ยอนเซอัปเกรดคอมพิวเตอร์ควอนตัมด้วยชิป IBM",
+    "link": "https://www.koreaherald.com/article/10925829"
+  },
+  {
+    "id": "hotnews_th_c056b833",
+    "date": "2026-11-04",
+    "ts": 1793772114000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/04/AEN20261104001651315_01_i_P2.jpg",
+    "title": "ศาลอุทธรณ์ยืนโทษจำคุกรอการลงโทษอดีตประธานาธิบดี ยุน ซอกยอล",
+    "link": "https://en.yna.co.kr/view/AEN20261104001651315"
+  },
+  {
+    "id": "hotnews_th_1fd210b9",
+    "date": "2026-11-04",
+    "ts": 1793770674000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/04/AEN20261104005200315_01_i_P2.jpg",
+    "title": "เกาหลีใต้ประกาศตั้งคณะแพทย์ใหม่ 2 แห่งในซุนชอนและอัน동",
+    "link": "https://en.yna.co.kr/view/AEN20261104005200315"
+  },
+  {
     "id": "hotnews_th_151fc0f1",
     "date": "2026-11-03",
     "ts": 1793701516000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/02/rcv.YNA.20261026.PYH2026102610740005100_T1.jpg",
     "title": "คนเกาหลีอายุร้อยละ 15-29 อยู่คนเดียวเผชิญความยากจนสูง",
     "link": "https://www.koreaherald.com/article/10922831"
-  },
-  {
-    "id": "hotnews_th_fbc4ae0d",
-    "date": "2026-11-01",
-    "ts": 1793571124000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/01/800fb7f4-824a-4837-9938-8d90a70fae49.jpg",
-    "title": "เกาหลีใต้กวาดล้างแรงงานต่างชาติส่งของผิดกฎหมายพุ่ง 17 เท่า",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261102/govt-tightens-grip-on-illegal-foreign-delivery-riders-amid-nearly-17-fold-surge-in-cases?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_b188d155",
-    "date": "2026-11-01",
-    "ts": 1793570729000,
-    "image": "",
-    "title": "รัฐสภาเกาหลีต้องตรวจสอบงบประมาณปี 2027 เพื่อป้องกันหนี้สาธารณะ",
-    "link": "https://en.yna.co.kr/view/AEN20261102000600315"
-  },
-  {
-    "id": "hotnews_th_58446745",
-    "date": "2026-11-01",
-    "ts": 1793570707000,
-    "image": "",
-    "title": "เสียงวิจารณ์ประธานาธิบดีอีแจมยอง ปมความหลากหลายทางวัฒนธรรม",
-    "link": "https://en.yna.co.kr/view/AEN20261102000500315"
-  },
-  {
-    "id": "hotnews_th_121628ee",
-    "date": "2026-11-01",
-    "ts": 1793570689000,
-    "image": "",
-    "title": "สภาเกาหลีเริ่มตรวจสอบงบประมาณปี 2027 ท่ามกลางความกังวลเรื่องรายได้ชั่วคราว",
-    "link": "https://en.yna.co.kr/view/AEN20261102000400315"
-  },
-  {
-    "id": "hotnews_th_50afdc9b",
-    "date": "2026-11-01",
-    "ts": 1793570467000,
-    "image": "",
-    "title": "พาดหัวข่าวหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 2 พฤศจิกายน",
-    "link": "https://en.yna.co.kr/view/AEN20261102000300315"
-  },
-  {
-    "id": "hotnews_th_0cdd3e0e",
-    "date": "2026-11-01",
-    "ts": 1793569512000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/02/news-p.v1.20261102.e880644d74644021b6c0c3ebf962ff98_T1.jpg",
-    "title": "คาเฟ่ของพ่อจีมิน BTS ในปูซานประกาศปิดตัวในอีกหนึ่งปี",
-    "link": "https://www.koreaherald.com/article/10921962"
-  },
-  {
-    "id": "hotnews_th_e12fc09c",
-    "date": "2026-11-01",
-    "ts": 1793566860000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029014800315_08_i_P2.jpg",
-    "title": "ผู้นำตุรกีชวนเกาหลีใต้ร่วมมือด้านพลังงานและเทคโนโลยี",
-    "link": "https://en.yna.co.kr/view/AEN20261029014800315"
-  },
-  {
-    "id": "hotnews_th_8fe71d7c",
-    "date": "2026-11-01",
-    "ts": 1793566804000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101002900320_01_i_P2.jpg",
-    "title": "เกาหลีใต้เตรียมตั้งระบบฉุกเฉินรับมือโครงการนิวเคลียร์เช็ก",
-    "link": "https://en.yna.co.kr/view/AEN20261101002900320"
-  },
-  {
-    "id": "hotnews_th_966865f9",
-    "date": "2026-11-01",
-    "ts": 1793565000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.d8aa00f52c4f47df9dfc9fdb985cdc39_T1.jpg",
-    "title": "ความเร่งด่วนในการแก้ปัญหาแนวเขตเส้นแบ่งเขตทหาร DMZ",
-    "link": "https://www.koreaherald.com/article/10921853"
-  },
-  {
-    "id": "hotnews_th_8f27ad21",
-    "date": "2026-11-01",
-    "ts": 1793565000000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/01/news-p.v1.20261101.79ea82f6c66c401892e244af12658e86_T1.jpg",
-    "title": "ความสัมพันธ์เกาหลี-สหรัฐฯ: ความมั่นคงและการลงทุน",
-    "link": "https://www.koreaherald.com/article/10921852"
   }
 ]
