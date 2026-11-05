@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_4415111f",
+    "date": "2026-11-05",
+    "ts": 1793894785000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106000200315_02_i_P2.jpg",
+    "title": "ผบ.กองกำลังสหรัฐฯ ในเกาหลีหารือรัฐมนตรีกลาโหมญี่ปุ่น",
+    "link": "https://en.yna.co.kr/view/AEN20261106000200315"
+  },
+  {
+    "id": "hotnews_th_aa93a023",
+    "date": "2026-11-05",
+    "ts": 1793888093000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105011100315_01_i_P2.jpg",
+    "title": "เดฟ มิน สส. อเมริกันเชื้อสายเกาหลี ชนะเลือกตั้งสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20261105011100315"
+  },
+  {
+    "id": "hotnews_th_54761a1a",
+    "date": "2026-11-05",
+    "ts": 1793882551000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101212090001300_P2.jpg",
+    "title": "ทำเนียบขาวเกาหลีใต้ระบุผลเลือกตั้งสหรัฐไม่กระทบพันธมิตร",
+    "link": "https://en.yna.co.kr/view/AEN20261105005352315"
+  },
+  {
+    "id": "hotnews_th_f395ff31",
+    "date": "2026-11-05",
+    "ts": 1793871817000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105010600320_01_i_P2.jpg",
+    "title": "ศาลเกาหลีใต้ปัดคำร้องคูพังคดีค่าปรับข้อมูลรั่วไหล",
+    "link": "https://en.yna.co.kr/view/AEN20261105010600320"
+  },
+  {
+    "id": "hotnews_th_b9578f10",
+    "date": "2026-11-05",
+    "ts": 1793869204000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110512120001300_P2.jpg",
+    "title": "รัฐมนตรีคลังเกาหลีใต้ผลักดันการเติบโตเศรษฐกิจอย่างยั่งยืน",
+    "link": "https://en.yna.co.kr/view/AEN20261105010400320"
+  },
+  {
+    "id": "hotnews_th_3cfbd833",
+    "date": "2026-11-05",
+    "ts": 1793867326000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261105042202_80_e.jpg",
+    "title": "ร่างกฎหมายพิเศษสอบสวนข้อกล่าวหาฟ้องร้องโดยมิชอบเข้าสู่ที่ประชุมใหญ่",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205379"
+  },
+  {
+    "id": "hotnews_th_b06c64d1",
+    "date": "2026-11-05",
+    "ts": 1793864310000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110515130001300_P2.jpg",
+    "title": "หหุ้นโซลร่วงกว่า 5 เปอร์เซ็นต์หลังกังวลกฎระเบียบ AI",
+    "link": "https://en.yna.co.kr/view/AEN20261105007252320"
+  },
+  {
+    "id": "hotnews_th_d68b3ee3",
+    "date": "2026-11-05",
+    "ts": 1793864219000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/05/rcv.YNA.20261028.PYH2026102812310001300_T1.jpg",
+    "title": "เกาหลีใต้เตรียมเลื่อนเก็บภาษีคริปโตออกไปถึงปี 2029",
+    "link": "https://www.koreaherald.com/article/10927485"
+  },
+  {
+    "id": "hotnews_th_adfa7631",
+    "date": "2026-11-05",
+    "ts": 1793863714000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105002051315_02_i_P2.jpg",
+    "title": "กระทรวงต่างประเทศเกาหลีถูกวิจารณ์ ปมล่าช้าแก้ปัญหาหลอกงานกัมพูชา",
+    "link": "https://en.yna.co.kr/view/AEN20261105002051315"
+  },
+  {
+    "id": "hotnews_th_d9e9a504",
+    "date": "2026-11-05",
+    "ts": 1793862935000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105005751320_01_i_P2.jpg",
+    "title": "เกาหลีใต้เตรียมเลื่อนเก็บภาษีคริปโตออกไปอีก 2 ปี เป็นปี 2029",
+    "link": "https://en.yna.co.kr/view/AEN20261105005751320"
+  },
+  {
     "id": "hotnews_th_d60152de",
     "date": "2026-11-05",
     "ts": 1793862422000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110318310001300_P2.jpg",
     "title": "หหุ้นเกาหลีใต้ร่วงกว่า 3 เปอร์เซ็นต์จากความกังวลเรื่อง AI",
     "link": "https://en.yna.co.kr/view/AEN20261103007952320"
-  },
-  {
-    "id": "hotnews_th_4d0f3a61",
-    "date": "2026-11-03",
-    "ts": 1793689323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/03/12212716-b06d-428c-9e5e-380c2c3cd7ac.jpg",
-    "title": "ดัชนีราคาผู้บริโภคเกาหลีใต้เดือนตุลาคมพุ่ง 2.8%",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261103/consumer-prices-up-28-in-october-remain-in-2-range-for-2nd-month?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_0a41a0dd",
-    "date": "2026-11-03",
-    "ts": 1793689323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/02/1a9d376c-982f-4e91-ad9e-1b4a965e7cd8.jpg",
-    "title": "ม.ควางอุนมุ่งสู่ผู้นำด้าน AI และหุ่นยนต์",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261103/kwangwoon-university-sets-sights-on-becoming-ai-robotics-powerhouse?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_2d754e7f",
-    "date": "2026-11-03",
-    "ts": 1793689323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/03/bbbfc68b-68af-4588-83c5-e68cdfd82ef1.jpeg",
-    "title": "ศาสตราจารย์มหาวิทยาลัย Kookmin ติดกลุ่มนักวิทยาศาสตร์ชั้นนำของโลก",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261103/kookmin-university-professor-recognized-among-worlds-top-2-scientists?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_d01318d8",
-    "date": "2026-11-03",
-    "ts": 1793689323000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/02/abbaab5b-2b7e-4cd1-917f-46ad6a303dde.jpg",
-    "title": "IES Global เตรียมขยายโครงการเรียนต่อและฝึกงานในเกาหลี",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261103/ies-global-eyes-expansion-of-study-abroad-internship-programs-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_8785b665",
-    "date": "2026-11-03",
-    "ts": 1793689016000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/03/AEN20261103009600315_02_i_P2.jpg",
-    "title": "เกาหลีใต้จัดพิธีรำลึกแรงงานเกาะซาโดแยกจากญี่ปุ่นปีนี้",
-    "link": "https://en.yna.co.kr/view/AEN20261103009600315"
-  },
-  {
-    "id": "hotnews_th_9b889726",
-    "date": "2026-11-03",
-    "ts": 1793688064000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/03/AEN20261103008200315_01_i_P2.jpg",
-    "title": "UN เผยแพร่จดหมายเกาหลีใต้ประณามเกาหลีเหนือกรณีระเบิดทุ่นระเบิด DMZ",
-    "link": "https://en.yna.co.kr/view/AEN20261103008200315"
-  },
-  {
-    "id": "hotnews_th_dfb4cc9a",
-    "date": "2026-11-03",
-    "ts": 1793686092000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/rcv.YNA.20261103.PYH2026110308580001300_T1.jpg",
-    "title": "อี แจ-มยอง เน้นย้ำความยุติธรรมหลังถูกวิจารณ์เรื่องครอบครัวพหุวัฒนธรรม",
-    "link": "https://www.koreaherald.com/article/10924275"
-  },
-  {
-    "id": "hotnews_th_07823512",
-    "date": "2026-11-03",
-    "ts": 1793685592000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/rcv.YNA.20261103.PYH2026110311840001300_T1.jpg",
-    "title": "กลุ่มปกป้องผู้อพยพวิจารณ์ อี แจมยอง ปลุกกระแสเกลียดชัง",
-    "link": "https://www.koreaherald.com/article/10924256"
-  },
-  {
-    "id": "hotnews_th_00426d13",
-    "date": "2026-11-03",
-    "ts": 1793685031000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/news-p.v1.20261103.65a004b665a24d1c93c9748e7ed8cd55_T1.jpg",
-    "title": "ตำรวจบุกทลายแหล่งผลิตยาบ้าจากยAาแก้หวัดในพยองแทก",
-    "link": "https://www.koreaherald.com/article/10924237"
-  },
-  {
-    "id": "hotnews_th_5a504ecd",
-    "date": "2026-11-03",
-    "ts": 1793684490000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/news-p.v1.20261103.07f1b818f8634d0ca76d2d6b4b07e7ce_T1.jpg",
-    "title": "การหยุดงานประท้วงทำให้การผลิตรถยนต์ Genesis ของ Hyundai หยุดชะงักเป็นวันที่สอง",
-    "link": "https://www.koreaherald.com/article/10924213"
   }
 ]
