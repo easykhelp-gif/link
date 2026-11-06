@@ -26,13 +26,13 @@ From 1 January 2027 the minimum wage in Korea is 10,700 won an hour, the same fo
 
 ## 10,700 won an hour, 2,236,300 won a month
 
-| Won | 2026 | 2027 |
-| --- | --- | --- |
-| Hour | 10,320 | **10,700** |
-| Day (8h) | 82,560 | **85,600** |
-| Month (209h) | 2,156,880 | **2,236,300** |
+| Won | 2027 (increase from 2026) |
+| --- | --- |
+| Hour | **10,700** (+380) |
+| Day (8h) | **85,600** (+3,040) |
+| Month (209h) | **2,236,300** (+79,420) |
 
-The hourly rate rises by 380 won, or 3.7%. It is the same in every industry and every region. It applies to work done from 1 January 2027, so hours you work in January must be paid at the new rate even if payday is in February.
+The hourly rate rises by 380 won, or 3.7%, from 10,320 won in 2026. It is the same in every industry and every region. It applies to work done from 1 January 2027, so hours you work in January must be paid at the new rate even if payday is in February.
 
 The monthly figure is based on 209 hours: 40 working hours a week plus 8 paid hours for the weekly day off, averaged over a month. You get that paid day off (주휴수당, juhyu sudang) if your contract is for at least 15 hours a week and you work all your scheduled days that week. For a full-time worker, monthly pay below 2,236,300 won is a reason to check your payslip.
 
@@ -211,13 +211,13 @@ These words appear on your documents and at the counter. Each card shows the Kor
 
 ## ชั่วโมงละ 10,700 วอน เดือนละ 2,236,300 วอน
 
-| วอน | 2026 | 2027 |
-| --- | --- | --- |
-| ชั่วโมง | 10,320 | **10,700** |
-| วัน (8 ชม.) | 82,560 | **85,600** |
-| เดือน (209 ชม.) | 2,156,880 | **2,236,300** |
+| วอน | 2027 (เพิ่มจากปี 2026) |
+| --- | --- |
+| ชั่วโมง | **10,700** (+380) |
+| วัน (8 ชม.) | **85,600** (+3,040) |
+| เดือน (209 ชม.) | **2,236,300** (+79,420) |
 
-ค่าแรงต่อชั่วโมงเพิ่มขึ้น 380 วอน หรือ 3.7% ทุกอุตสาหกรรมและทุกพื้นที่ใช้อัตราเดียวกัน อัตรานี้ใช้กับงานที่ทำตั้งแต่ 1 มกราคม 2027 ดังนั้นชั่วโมงที่คุณทำในเดือนมกราคมต้องได้อัตราใหม่ แม้วันจ่ายเงินจะเป็นเดือนกุมภาพันธ์ก็ตาม
+ค่าแรงต่อชั่วโมงเพิ่มขึ้น 380 วอน หรือ 3.7% จาก 10,320 วอนในปี 2026 ทุกอุตสาหกรรมและทุกพื้นที่ใช้อัตราเดียวกัน อัตรานี้ใช้กับงานที่ทำตั้งแต่ 1 มกราคม 2027 ดังนั้นชั่วโมงที่คุณทำในเดือนมกราคมต้องได้อัตราใหม่ แม้วันจ่ายเงินจะเป็นเดือนกุมภาพันธ์ก็ตาม
 
 ยอดรายเดือนคิดจาก 209 ชั่วโมง คือชั่วโมงทำงานสัปดาห์ละ 40 ชั่วโมง บวกค่าจ้างวันหยุดประจำสัปดาห์อีก 8 ชั่วโมง แล้วเฉลี่ยเป็นรายเดือน คุณจะได้วันหยุดที่ได้รับค่าจ้างนี้ (주휴수당, juhyu sudang) ถ้าสัญญาจ้างกำหนดให้ทำงานอย่างน้อยสัปดาห์ละ 15 ชั่วโมง และคุณมาทำงานครบทุกวันตามที่กำหนดในสัปดาห์นั้น สำหรับคนทำงานเต็มเวลา ถ้าเงินเดือนต่ำกว่า 2,236,300 วอน ให้ตรวจสลิปเงินเดือนของคุณ
 
@@ -396,13 +396,13 @@ Từ ngày 1/1/2027, lương tối thiểu ở Hàn Quốc là 10.700 won một 
 
 ## 10.700 won một giờ, 2.236.300 won một tháng
 
-| Won | 2026 | 2027 |
-| --- | --- | --- |
-| Giờ | 10.320 | **10.700** |
-| Ngày (8 giờ) | 82.560 | **85.600** |
-| Tháng (209 giờ) | 2.156.880 | **2.236.300** |
+| Won | 2027 (tăng so với 2026) |
+| --- | --- |
+| Giờ | **10.700** (+380) |
+| Ngày (8 giờ) | **85.600** (+3.040) |
+| Tháng (209 giờ) | **2.236.300** (+79.420) |
 
-Lương theo giờ tăng 380 won, tức 3,7%. Mọi ngành nghề và mọi khu vực đều áp dụng cùng một mức. Mức này áp dụng cho công việc làm từ ngày 1/1/2027, nên những giờ bạn làm trong tháng 1 phải được trả theo mức mới, kể cả khi ngày trả lương rơi vào tháng 2.
+Lương theo giờ tăng 380 won, tức 3,7%, từ mức 10.320 won của năm 2026. Mọi ngành nghề và mọi khu vực đều áp dụng cùng một mức. Mức này áp dụng cho công việc làm từ ngày 1/1/2027, nên những giờ bạn làm trong tháng 1 phải được trả theo mức mới, kể cả khi ngày trả lương rơi vào tháng 2.
 
 Con số hằng tháng dựa trên 209 giờ: 40 giờ làm việc mỗi tuần cộng 8 giờ có lương của ngày nghỉ hằng tuần, tính trung bình theo tháng. Bạn được ngày nghỉ có lương này (주휴수당, juhyu sudang) nếu hợp đồng quy định ít nhất 15 giờ một tuần và bạn đi làm đủ các ngày đã định trong tuần đó. Với người làm toàn thời gian, nếu lương tháng thấp hơn 2.236.300 won thì nên kiểm tra lại phiếu lương.
 
