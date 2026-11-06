@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_136de3c0",
+    "date": "2026-11-06",
+    "ts": 1793948822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/12/c277af3c-de43-4668-8857-90aeeff01803.jpeg",
+    "title": "Enkostay giúp người nước ngoài thuê nhà tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261106/foreign-residents-first-hurdle-is-housing-enkostay-says-it-can-clear-it?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d626238a",
+    "date": "2026-11-06",
+    "ts": 1793948822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/06/b4ecd79c-bfa9-43fd-b4b2-cb9ea52f1b2e.jpeg",
+    "title": "Hàn Quốc cấp visa và quyền làm việc cho con trẻ kiện nhận cha",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261106/korea-grants-temporary-stay-and-work-permits-to-foreign-children-seeking-paternal-recognition?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_cde4ca3b",
+    "date": "2026-11-06",
+    "ts": 1793948822000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/10/29/21f6442f-b56f-44f9-9c32-29c777925a86.jpeg",
+    "title": "Tình nguyện viên Peace Corps giúp người khiếm thính tại Hàn Quốc",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261106/friends-of-korea-how-one-peace-corps-volunteer-helped-deaf-koreans-find-their-voice?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_4ad24a23",
+    "date": "2026-11-06",
+    "ts": 1793948517000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110603570001300_P2.jpg",
+    "title": "Chứng khoán Seoul giảm mạnh phiên thứ hai liên tiếp",
+    "link": "https://en.yna.co.kr/view/AEN20261106007851320"
+  },
+  {
+    "id": "hotnews_vi_42ec9d1f",
+    "date": "2026-11-06",
+    "ts": 1793948133000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106008000315_01_i_P2.jpg",
+    "title": "Tòa án tạm đình chỉ khoản phạt 201,1 tỷ won đối với Coupang",
+    "link": "https://en.yna.co.kr/view/AEN20261106008000315"
+  },
+  {
+    "id": "hotnews_vi_491aaa70",
+    "date": "2026-11-06",
+    "ts": 1793947553000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106009700315_02_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung đề cử Bộ trưởng Tư pháp mới",
+    "link": "https://en.yna.co.kr/view/AEN20261106009700315"
+  },
+  {
+    "id": "hotnews_vi_8a7ae1ac",
+    "date": "2026-11-06",
+    "ts": 1793946653000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261106022011_62_k.jpg",
+    "title": "Hàn Quốc và Đông Timor nhất trí mở rộng quan hệ đối tác",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205396"
+  },
+  {
+    "id": "hotnews_vi_c19eec4e",
+    "date": "2026-11-06",
+    "ts": 1793946569000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/05/PYH2026100503740001300_P2.jpg",
+    "title": "Gần một nửa người Hàn Quốc không tin tưởng tòa án",
+    "link": "https://en.yna.co.kr/view/AEN20261106008100315"
+  },
+  {
+    "id": "hotnews_vi_2ee09bcf",
+    "date": "2026-11-06",
+    "ts": 1793943148000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/rcv.YNA.20261005.PYH2026100504370001300_T1.jpg",
+    "title": "7 trên 10 hôn nhân đa văn hóa tại Hàn Quốc gồm vợ nước ngoài",
+    "link": "https://www.koreaherald.com/article/10928631"
+  },
+  {
+    "id": "hotnews_vi_00285569",
+    "date": "2026-11-06",
+    "ts": 1793942662000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261106023139_10_e.jpg",
+    "title": "Phó cảnh sát trưởng Kim Jong-chul dẫn dắt cơ quan cảnh sát",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205394"
+  },
+  {
     "id": "hotnews_vi_4415111f",
     "date": "2026-11-05",
     "ts": 1793894785000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/04/AEN20261104005200315_01_i_P2.jpg",
     "title": "Hai trường đại học mới được chọn mở khoa y",
     "link": "https://en.yna.co.kr/view/AEN20261104005200315"
-  },
-  {
-    "id": "hotnews_vi_151fc0f1",
-    "date": "2026-11-03",
-    "ts": 1793701516000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/rcv.YNA.20261013.PYH2026101312030001300_T1.jpg",
-    "title": "Tòa án Hàn Quốc hủy bảo lãnh lãnh đạo Giáo hội Thống nhất",
-    "link": "https://www.koreaherald.com/article/10924566"
-  },
-  {
-    "id": "hotnews_vi_88e95dbb",
-    "date": "2026-11-03",
-    "ts": 1793698605000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261102032012_54_e.jpg",
-    "title": "Tin tức công nghệ và giải trí tại Hàn Quốc",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205323"
-  },
-  {
-    "id": "hotnews_vi_ef1780b3",
-    "date": "2026-11-03",
-    "ts": 1793698509000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/03/AEN20261103011151315_02_i_P2.jpg",
-    "title": "Hàn Quốc và Thổ Nhĩ Kỳ tăng cường hợp tác năng lượng hạt nhân",
-    "link": "https://en.yna.co.kr/view/AEN20261103011151315"
-  },
-  {
-    "id": "hotnews_vi_54ef76d1",
-    "date": "2026-11-03",
-    "ts": 1793698259000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/03/AEN20261103008952320_01_i_P2.jpg",
-    "title": "Hybe đạt doanh thu quý kỷ lục nhờ chuyến lưu diễn của BTS",
-    "link": "https://en.yna.co.kr/view/AEN20261103008952320"
-  },
-  {
-    "id": "hotnews_vi_c61a7a99",
-    "date": "2026-11-03",
-    "ts": 1793697745000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261103045836_94_e.jpg",
-    "title": "Chi tiêu thẻ tín dụng của người nước ngoài tại Seoul đạt 8,8 nghìn tỷ won",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205322"
-  },
-  {
-    "id": "hotnews_vi_ce62bbf2",
-    "date": "2026-11-03",
-    "ts": 1793696292000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/news-p.v1.20261103.aef3499a1643422cb5a59e0d017e07ae_T1.jpg",
-    "title": "Bài hát cũ của Bestie bỗng nổi tiếng trở lại nhờ mạng xã hội",
-    "link": "https://www.koreaherald.com/article/10924511"
-  },
-  {
-    "id": "hotnews_vi_537a80f8",
-    "date": "2026-11-03",
-    "ts": 1793695245000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/03/news-p.v1.20261103.352dd4d53b8f4de4942441951c1336de_T1.jpg",
-    "title": "Kim Yo-jong bác bỏ cáo buộc trộm tiền mã hóa, để ngỏ ngoại giao",
-    "link": "https://www.koreaherald.com/article/10924492"
-  },
-  {
-    "id": "hotnews_vi_aed8716d",
-    "date": "2026-11-03",
-    "ts": 1793694312000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110315270001300_P2.jpg",
-    "title": "Đảng Dân chủ đẩy nhanh dự luật công tố viên đặc biệt trong tuần này",
-    "link": "https://en.yna.co.kr/view/AEN20261103011800315"
-  },
-  {
-    "id": "hotnews_vi_cf0c25d3",
-    "date": "2026-11-03",
-    "ts": 1793691994000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/02/PYH2026110200970001300_P2.jpg",
-    "title": "PPP chỉ trích Phủ Tổng thống vì vụ rò rỉ dữ liệu cá nhân",
-    "link": "https://en.yna.co.kr/view/AEN20261103010400315"
-  },
-  {
-    "id": "hotnews_vi_0173983f",
-    "date": "2026-11-03",
-    "ts": 1793691011000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110318310001300_P2.jpg",
-    "title": "Chứng khoán Seoul giảm hơn 3% do lo ngại về AI",
-    "link": "https://en.yna.co.kr/view/AEN20261103007952320"
   }
 ]
