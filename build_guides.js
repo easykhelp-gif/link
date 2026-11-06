@@ -205,7 +205,12 @@ function buildGuides() {
       if (description.length > 165) {
         const cut = description.slice(0, 165);
         const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('。'), cut.lastIndexOf(', '));
-        description = (stop > 90 ? cut.slice(0, stop + 1) : cut).trim();
+        // 태국어는 마침표를 쓰지 않아 문장 끝을 못 찾는다. 그때는 마지막 띄어쓰기에서 자른다
+        // (165번째 글자 바로 뒤가 띄어쓰기면 이미 단어 끝이므로 그 자리에서 자른다)
+        const space = description.lastIndexOf(' ', 165);
+        if (stop > 90) description = cut.slice(0, stop + 1).trim();
+        else if (space > 90) description = description.slice(0, space).trim();
+        else description = cut.trim();
       }
       html = html.replace(/\{\{DESCRIPTION\}\}/g, escAttr(description));
       html = html.replace(/\{\{DESCRIPTION_JSON\}\}/g, escJson(description));
