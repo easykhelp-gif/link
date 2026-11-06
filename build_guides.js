@@ -18,9 +18,11 @@ const GUIDES_SITEMAP_PATH = path.join(DATA_DIR, 'guides_sitemap.json');
 const RELATED = {
   // 임금 — 못 받은 돈은 월급·퇴직금·출국만기보험이 한 덩어리다
   // 체불금은 본인 명의 계좌로만 나온다. 통장·유심 사기가 그 자리에서 맞닿는다
-  guide_unpaid_wages:        ['severance_pay', 'departure_insurance', 'scam_prevention_bank_sim'],
+  guide_unpaid_wages:        ['severance_pay', 'departure_insurance', 'scam_prevention_bank_sim', 'minimum_wage'],
   severance_pay:             ['departure_insurance', 'guide_unpaid_wages'],
   departure_insurance:       ['severance_pay', 'guide_unpaid_wages'],
+  // 최저임금보다 적게 받은 차액은 체불이다. 퇴직금은 임금에서 계산된다
+  minimum_wage:              ['guide_unpaid_wages', 'severance_pay'],
   // 다침과 죽음 — 같은 산재보험 안의 앞뒤
   industrial_accident:       ['guide_work_death_survivor', 'guide_unpaid_wages'],
   guide_work_death_survivor: ['industrial_accident'],

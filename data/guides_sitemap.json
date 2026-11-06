@@ -312,6 +312,45 @@
     ]
   },
   {
+    "loc": "https://www.koricare.kr/link/en/guides/korea/minimum_wage/",
+    "lastmod": "2026-11-06",
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "images": [
+      "https://www.koricare.kr/link/news/images/guide_minimum_wage_hero_en.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_en_1.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_en_2.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_en_3.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_en_4.webp"
+    ]
+  },
+  {
+    "loc": "https://www.koricare.kr/link/th/guides/korea/minimum_wage/",
+    "lastmod": "2026-11-06",
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "images": [
+      "https://www.koricare.kr/link/news/images/guide_minimum_wage_hero_th.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_th_1.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_th_2.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_th_3.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_th_4.webp"
+    ]
+  },
+  {
+    "loc": "https://www.koricare.kr/link/vi/guides/korea/minimum_wage/",
+    "lastmod": "2026-11-06",
+    "changefreq": "monthly",
+    "priority": 0.7,
+    "images": [
+      "https://www.koricare.kr/link/news/images/guide_minimum_wage_hero_vi.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_vi_1.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_vi_2.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_vi_3.webp",
+      "https://www.koricare.kr/link/news/images/terms_minwage_vi_4.webp"
+    ]
+  },
+  {
     "loc": "https://www.koricare.kr/link/en/guides/travel/travel_incheon_ocean/",
     "lastmod": "2026-08-17",
     "changefreq": "monthly",
@@ -436,19 +475,19 @@
   },
   {
     "loc": "https://www.koricare.kr/link/en/guides/",
-    "lastmod": "2026-09-14",
+    "lastmod": "2026-11-06",
     "changefreq": "weekly",
     "priority": 0.8
   },
   {
     "loc": "https://www.koricare.kr/link/th/guides/",
-    "lastmod": "2026-09-14",
+    "lastmod": "2026-11-06",
     "changefreq": "weekly",
     "priority": 0.8
   },
   {
     "loc": "https://www.koricare.kr/link/vi/guides/",
-    "lastmod": "2026-09-14",
+    "lastmod": "2026-11-06",
     "changefreq": "weekly",
     "priority": 0.8
   }
