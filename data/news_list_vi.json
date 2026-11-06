@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_93d6dfe3",
+    "date": "2026-11-06",
+    "ts": 1793972607000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110616910005300_P2.jpg",
+    "title": "Đội trưởng Koo Ja-wook giúp Samsung Lions thắng trận",
+    "link": "https://en.yna.co.kr/view/AEN20261106012200315"
+  },
+  {
+    "id": "hotnews_vi_e709a79e",
+    "date": "2026-11-06",
+    "ts": 1793961721000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/19/PYH2026061915080001300_P2.jpg",
+    "title": "Ứng cử viên Bộ trưởng Tư pháp Lee Yong-cheol",
+    "link": "https://en.yna.co.kr/view/AEN20261106011051315"
+  },
+  {
+    "id": "hotnews_vi_c948e1f8",
+    "date": "2026-11-06",
+    "ts": 1793960608000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261106072559_20_e.jpg",
+    "title": "Chủ tịch đảng cầm quyền ứng phó sự sụt giảm của KOSPI",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205410"
+  },
+  {
+    "id": "hotnews_vi_3dabcc72",
+    "date": "2026-11-06",
+    "ts": 1793956845000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/rcv.YNA.20261106.PYH2026110614600001300_T1.jpg",
+    "title": "Quốc hội Hàn Quốc thông qua luật điều tra viện kiểm sát",
+    "link": "https://www.koreaherald.com/article/10928951"
+  },
+  {
+    "id": "hotnews_vi_c1546c67",
+    "date": "2026-11-06",
+    "ts": 1793955982000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028090454_64_k.jpg",
+    "title": "Trời quang mây tạnh và lạnh vào thứ Bảy",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205406"
+  },
+  {
+    "id": "hotnews_vi_8452a155",
+    "date": "2026-11-06",
+    "ts": 1793953092000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/news-p.v1.20261106.67b5e0f5af054a51a8edc42305ac0c65_T1.jpg",
+    "title": "Sân bay Incheon tăng cường an ninh sau đe dọa đánh bom ở châu Âu",
+    "link": "https://www.koreaherald.com/article/10928889"
+  },
+  {
+    "id": "hotnews_vi_93f7bf18",
+    "date": "2026-11-06",
+    "ts": 1793951596000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106004051320_01_i_P2.jpg",
+    "title": "TPG mua lại toàn bộ cổ phần để hủy niêm yết Lotte Rental",
+    "link": "https://en.yna.co.kr/view/AEN20261106004051320"
+  },
+  {
+    "id": "hotnews_vi_0749606d",
+    "date": "2026-11-06",
+    "ts": 1793951403000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106010800315_01_i_P2.jpg",
+    "title": "HLV Samsung Lions không lo ngại thể lực cầu thủ ở hậu mùa giải",
+    "link": "https://en.yna.co.kr/view/AEN20261106010800315"
+  },
+  {
+    "id": "hotnews_vi_7cbbab11",
+    "date": "2026-11-06",
+    "ts": 1793951181000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106010400320_01_i_P2.jpg",
+    "title": "Ông Ahn Duk-su được bổ nhiệm làm người đứng đầu Cơ quan Thuế Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261106010400320"
+  },
+  {
+    "id": "hotnews_vi_b5538b82",
+    "date": "2026-11-06",
+    "ts": 1793950561000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110613320001300_P2.jpg",
+    "title": "Thị trường chứng khoán Seoul lao dốc phiên thứ hai liên tiếp",
+    "link": "https://en.yna.co.kr/view/AEN20261106007852320"
+  },
+  {
     "id": "hotnews_vi_136de3c0",
     "date": "2026-11-06",
     "ts": 1793948822000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/04/PYH2026110415720001300_P2.jpg",
     "title": "Chứng khoán Seoul tăng nhờ kết quả bầu cử Mỹ",
     "link": "https://en.yna.co.kr/view/AEN20261104006852320"
-  },
-  {
-    "id": "hotnews_vi_80b3e42c",
-    "date": "2026-11-04",
-    "ts": 1793774823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/04/29405049-3945-4db0-b7d8-39a8c450b4dd.jpeg",
-    "title": "Quản lý khách sạn Busan bị chuyển giao vì lừa đảo vé BTS",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261104/hotel-manager-accused-of-tricking-bts-fan-into-canceling-booking-reselling-rooms-at-7-times-the-price?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_624156cb",
-    "date": "2026-11-04",
-    "ts": 1793774823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/04/1e0a1dfd-f3c5-44fe-87db-0bf0e2a307c5.jpeg",
-    "title": "Cựu sinh viên Đại học Jeonbuk làm giáo sư tại Mỹ",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261104/jeonbuk-national-university-alumna-appointed-assistant-professor-at-university-of-central-florida?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_494730f9",
-    "date": "2026-11-04",
-    "ts": 1793774823000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/03/be810963-1092-4cf7-9be2-a23347770a07.jpg",
-    "title": "IES Global muốn mở rộng chương trình du học và thực tập tại Hàn",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261104/ies-global-eyes-expansion-of-study-abroad-internship-programs-in-korea?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c54c2a32",
-    "date": "2026-11-04",
-    "ts": 1793774496000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-p.v1.20261104.e66115cf4fc94c5cbf64da391dd58183_T1.jpg",
-    "title": "Giá nhà Seoul giảm ở Gangnam nhưng tăng ở nơi khác",
-    "link": "https://www.koreaherald.com/article/10925866"
-  },
-  {
-    "id": "hotnews_vi_c7d83273",
-    "date": "2026-11-04",
-    "ts": 1793774368000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-p.v1.20261104.0c7c48d926b5482a9e2c8e39c06bbf1a_T1.jpg",
-    "title": "Đảng cầm quyền đề xuất hoãn đánh thuế tiền điện tử",
-    "link": "https://www.koreaherald.com/article/10925862"
-  },
-  {
-    "id": "hotnews_vi_6e26f2de",
-    "date": "2026-11-04",
-    "ts": 1793773323000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/rcv.YNA.20261104.PYH2026110407220001300_T1.jpg",
-    "title": "Các đảng tranh cãi gay gắt về ngân sách năm 2027 và quỹ tương lai",
-    "link": "https://www.koreaherald.com/article/10925840"
-  },
-  {
-    "id": "hotnews_vi_30dd57d9",
-    "date": "2026-11-04",
-    "ts": 1793773056000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-a.v1.20261104.6a2649f0a30d4fed911e5f44b381f7a2_T1.jpg",
-    "title": "Thực trạng khắc nghiệt đằng sau sự bùng nổ phim truyền hình Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10925835"
-  },
-  {
-    "id": "hotnews_vi_9f445a31",
-    "date": "2026-11-04",
-    "ts": 1793772500000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/04/rcv.YNA.20261104.PYH2026110411090006500_T1.jpg",
-    "title": "Đại học Yonsei nâng cấp nghiên cứu máy tính lượng tử IBM",
-    "link": "https://www.koreaherald.com/article/10925829"
-  },
-  {
-    "id": "hotnews_vi_c056b833",
-    "date": "2026-11-04",
-    "ts": 1793772114000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/04/AEN20261104001651315_01_i_P2.jpg",
-    "title": "Tòa phúc thẩm giữ nguyên án tù treo của cựu Tổng thống Yoon Suk Yeol",
-    "link": "https://en.yna.co.kr/view/AEN20261104001651315"
-  },
-  {
-    "id": "hotnews_vi_1fd210b9",
-    "date": "2026-11-04",
-    "ts": 1793770674000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/04/AEN20261104005200315_01_i_P2.jpg",
-    "title": "Hai trường đại học mới được chọn mở khoa y",
-    "link": "https://en.yna.co.kr/view/AEN20261104005200315"
   }
 ]
