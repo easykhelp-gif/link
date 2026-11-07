@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_th_caa6599f",
+    "date": "2026-11-07",
+    "ts": 1794057612000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/08/PYH2026060802320001301_P2.jpg",
+    "title": "ลูกสาวซีอีโอ Nvidia ยกเลิกแผนเดินทางเยือนเกาหลีใต้กะทันหัน",
+    "link": "https://en.yna.co.kr/view/AEN20261107003400315"
+  },
+  {
+    "id": "hotnews_th_ca101f07",
+    "date": "2026-11-07",
+    "ts": 1794049000000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110703000001300_P2.jpg",
+    "title": "ศาลออกหมายจับหญิงแทงแพทย์โรงพยาบาลเซฟเวอร์แรนซ์",
+    "link": "https://en.yna.co.kr/view/AEN20261107003200315"
+  },
+  {
+    "id": "hotnews_th_a4e2a0c5",
+    "date": "2026-11-07",
+    "ts": 1794047432000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.857a3db3757d48598df1305dab30d913_T1.jpg",
+    "title": "เกาหลีใต้ส่งออกลูกพลับไปจีนครั้งแรกในรอบ 17 ปี",
+    "link": "https://www.koreaherald.com/article/10929338"
+  },
+  {
+    "id": "hotnews_th_917515e2",
+    "date": "2026-11-07",
+    "ts": 1794043508000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.1a04713bed624a8ea5bb84a5f2a71b65_T1.jpg",
+    "title": "เกาหลีเหนือและจีนกระชับความสัมพันธ์ผ่านการประชุมระดับสูง",
+    "link": "https://www.koreaherald.com/article/10929317"
+  },
+  {
+    "id": "hotnews_th_a2cd4ead",
+    "date": "2026-11-07",
+    "ts": 1794043371000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107002500315_01_i_P2.jpg",
+    "title": "สภาพนักงาน POSCO ลงมติคว่ำข้อตกลงขึ้นค่าแรงชั่วคราว",
+    "link": "https://en.yna.co.kr/view/AEN20261107002500315"
+  },
+  {
+    "id": "hotnews_th_668223ea",
+    "date": "2026-11-07",
+    "ts": 1794042838000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110706330005300_P2.jpg",
+    "title": "ซムスン ลิออนส์ นำ 3-1 เกม ศึกโคเรียนซีรีส์",
+    "link": "https://en.yna.co.kr/view/AEN20261107002300315"
+  },
+  {
+    "id": "hotnews_th_5b8e0c06",
+    "date": "2026-11-07",
+    "ts": 1794039906000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.dcd1d47342db433bbe1c35bd82b420b9_T1.jpg",
+    "title": "ทีม Black Eagles บินแสดงโชว์ทางอากาศที่ปูซาน",
+    "link": "https://www.koreaherald.com/article/10929288"
+  },
+  {
+    "id": "hotnews_th_ae487ba9",
+    "date": "2026-11-07",
+    "ts": 1794035871000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.29ce69d7130744f5bf8a7a61f7c5cbcf_T1.jpg",
+    "title": "รมว.แรงงานเกาหลีประกาศใช้นโยบายเด็ดขาดกับอุบัติเหตุซ้ำซาก",
+    "link": "https://www.koreaherald.com/article/10929253"
+  },
+  {
     "id": "hotnews_th_e267da45",
     "date": "2026-11-07",
     "ts": 1794032523000,
@@ -48,6 +112,14 @@
     "link": "https://en.yna.co.kr/view/AEN20261107000800315"
   },
   {
+    "id": "hotnews_th_7a59ae05",
+    "date": "2026-11-07",
+    "ts": 1794018531000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261030095947_75_j.jpg",
+    "title": "Mirae Asset เผยข้อมูลลูกจ้างและลูกค้าถูกเจาะระบบ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205411"
+  },
+  {
     "id": "hotnews_th_26b69718",
     "date": "2026-11-07",
     "ts": 1794018529000,
@@ -70,6 +142,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000400315_01_i_P2.jpg",
     "title": "Mirae Asset เผยข้อมูลลูกจ้างและลูกค้าหลุดจากเหตุไซเบอร์",
     "link": "https://en.yna.co.kr/view/AEN20261107000400315"
+  },
+  {
+    "id": "hotnews_th_a950aa26",
+    "date": "2026-11-06",
+    "ts": 1793999595000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000300315_01_i_P2.jpg",
+    "title": "เลขาธิการ UN จี้รื้อฟื้นช่องทางสื่อสารสองเกาหลี",
+    "link": "https://en.yna.co.kr/view/AEN20261107000300315"
   },
   {
     "id": "hotnews_th_93d6dfe3",
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105005751320_01_i_P2.jpg",
     "title": "เกาหลีใต้เตรียมเลื่อนเก็บภาษีคริปโตออกไปอีก 2 ปี เป็นปี 2029",
     "link": "https://en.yna.co.kr/view/AEN20261105005751320"
-  },
-  {
-    "id": "hotnews_th_d60152de",
-    "date": "2026-11-05",
-    "ts": 1793862422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/04/1926d2b3-83fd-42d9-a273-68f292cd55f8.jpg",
-    "title": "เกาหลีใต้เตรียมส่งหน่วยชองเฮไปน่านน้ำโอมานเพื่อปราบโจรสลัด",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261105/cover-story-seoul-to-send-anti-piracy-unit-closer-to-hormuz-add-mine-clearing-team?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_310dc0ad",
-    "date": "2026-11-05",
-    "ts": 1793862422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/05/9345ab45-fe0f-4c69-857b-6d8fdf26432a.jpg",
-    "title": "หน่วยงานรัฐส่วนใหญ่ปฏิเสธใช้ VirusTotal ปมข้อมูลรั่วไหล",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261105/most-govt-agencies-deny-using-virustotal-deepening-questions-over-presidential-data-leak?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_522d1e65",
-    "date": "2026-11-05",
-    "ts": 1793862072000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202410/241003121843_15_k.jpg",
-    "title": "เลื่อนการเก็บภาษีคริปโตออกไปอีกครั้ง กำหนดใหม่เป็นปี 2029",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205372"
-  },
-  {
-    "id": "hotnews_th_4e771c7f",
-    "date": "2026-11-05",
-    "ts": 1793861564000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105006051315_03_i_P2.jpg",
-    "title": "รัฐบาลยังไม่ถกมาตรการคว่ำบาตรเกาหลีเหนือปมแฮก Binance",
-    "link": "https://en.yna.co.kr/view/AEN20261105006051315"
-  },
-  {
-    "id": "hotnews_th_79e5336e",
-    "date": "2026-11-05",
-    "ts": 1793861322000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261105122447_21_k.jpg",
-    "title": "คู่แต่งงานพหุวัฒนธรรมคิดเป็น 9% ของคู่แต่งงานใหม่ในปี 2025",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205371"
-  },
-  {
-    "id": "hotnews_th_e412f0b4",
-    "date": "2026-11-05",
-    "ts": 1793860604000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105006300315_01_i_P2.jpg",
-    "title": "ศาลพิพากษาจำคุก 3 ปี อดีตหัวหน้า PSS ขัดขวางการจับกุม Yoon",
-    "link": "https://en.yna.co.kr/view/AEN20261105006300315"
-  },
-  {
-    "id": "hotnews_th_2e4fe910",
-    "date": "2026-11-05",
-    "ts": 1793859401000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/05/news-p.v1.20261105.1265e2656dac4d13b012075e092253f1_T1.jpg",
-    "title": "ทรัมป์อาจรื้อฟื้นการทูตกับ คิม จองอึน หลังพ่ายแพ้เลือกตั้งกลางเทอม",
-    "link": "https://www.koreaherald.com/article/10927323"
-  },
-  {
-    "id": "hotnews_th_aeaf7817",
-    "date": "2026-11-05",
-    "ts": 1793859045000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102911270006100_P2.jpg",
-    "title": "ซัมซุง อิเล็กทรอนิกส์ เผชิญการจัดตั้งสหภาพแรงงานแห่งที่ 6",
-    "link": "https://en.yna.co.kr/view/AEN20261105006700320"
-  },
-  {
-    "id": "hotnews_th_6c6e579b",
-    "date": "2026-11-05",
-    "ts": 1793858626000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110509040001300_P2.jpg",
-    "title": "คณะจัดงาน World Youth Day 2027 ย้ำความปลอดภัยสูงสุด",
-    "link": "https://en.yna.co.kr/view/AEN20261105006400315"
-  },
-  {
-    "id": "hotnews_th_8fdf5370",
-    "date": "2026-11-05",
-    "ts": 1793858605000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/05/AEN20261105006500315_01_i_P2.jpg",
-    "title": "เกาหลีใต้ร่วมเป็นผู้ร่วมเสนอญัตติสิทธิมนุษยชนเกาหลีเหนือของ UN",
-    "link": "https://en.yna.co.kr/view/AEN20261105006500315"
   }
 ]
