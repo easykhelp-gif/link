@@ -1,5 +1,53 @@
 [
   {
+    "id": "hotnews_th_ed2eba4d",
+    "date": "2026-11-08",
+    "ts": 1794175095000,
+    "image": "",
+    "title": "แผนเรือดำน้ำนิวเคลียร์เกาหลีใต้เผชิญอุปสรรคและความท้าทาย",
+    "link": "https://en.yna.co.kr/view/AEN20261109000600320"
+  },
+  {
+    "id": "hotnews_th_ebc5951c",
+    "date": "2026-11-08",
+    "ts": 1794175076000,
+    "image": "",
+    "title": "ตลาดหุ้นเกาหลีเผชิญวิกฤต หุ้น KOSPI ดิ่งหนักกว่าร้อยละ 6",
+    "link": "https://en.yna.co.kr/view/AEN20261109000500320"
+  },
+  {
+    "id": "hotnews_th_8510ba30",
+    "date": "2026-11-08",
+    "ts": 1794175059000,
+    "image": "",
+    "title": "ดัชนี Kospi ของเกาหลีใต้ร่วงลง 6.02% หลังได้รับผลกระทบจากตลาดหุ้นสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20261109000400320"
+  },
+  {
+    "id": "hotnews_th_338b61a6",
+    "date": "2026-11-08",
+    "ts": 1794175031000,
+    "image": "",
+    "title": "สรุปข่าวเด่นหนังสือพิมพ์เกาหลีใต้ประจำวันที่ 9 พฤศจิกายน",
+    "link": "https://en.yna.co.kr/view/AEN20261109000300320"
+  },
+  {
+    "id": "hotnews_th_f797fd34",
+    "date": "2026-11-08",
+    "ts": 1794169800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.93319c359a094a29a401e8d573a11fda_T1.jpg",
+    "title": "ผลเลือกตั้งกลางเทอมสหรัฐฯ ชี้ประชาชนกังวลเรื่องประชาธิปไตย",
+    "link": "https://www.koreaherald.com/article/10929752"
+  },
+  {
+    "id": "hotnews_th_5ae44366",
+    "date": "2026-11-08",
+    "ts": 1794169800000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.a4f8cbc19f8047d7be07445bae8fe504_T1.jpg",
+    "title": "งานมหกรรมเกาะโลกยอซูสิ้นสุดลงแล้วท่ามกลางปัญหาและข้อกังขา",
+    "link": "https://www.koreaherald.com/article/10929751"
+  },
+  {
     "id": "hotnews_th_fc734a57",
     "date": "2026-11-08",
     "ts": 1794145622000,
@@ -64,12 +112,44 @@
     "link": "https://www.koreaherald.com/article/10929796"
   },
   {
+    "id": "hotnews_th_b9bac987",
+    "date": "2026-11-08",
+    "ts": 1794135945000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110810420001300_P2.jpg",
+    "title": "รัฐบาลเตรียมพิจารณาเงินสนับสนุนด้านดับเพลิง 2 ล้านล้านวอน",
+    "link": "https://en.yna.co.kr/view/AEN20261108003251315"
+  },
+  {
     "id": "hotnews_th_9d078b32",
     "date": "2026-11-08",
     "ts": 1794134010000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110812950005300_P2.jpg",
     "title": "คัง มิน-โฮ คว้าแชมป์แรกในชีวิตการเล่นเบสบอล 23 ปี",
     "link": "https://en.yna.co.kr/view/AEN20261108003700315"
+  },
+  {
+    "id": "hotnews_th_b88aa4f8",
+    "date": "2026-11-08",
+    "ts": 1794133298000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110814350001300_P2.jpg",
+    "title": "คู จา-อุค กัปตัน Samsung Lions คว้า MVP เกาหลีซีรีส์",
+    "link": "https://en.yna.co.kr/view/AEN20261108003151315"
+  },
+  {
+    "id": "hotnews_th_c12d2e89",
+    "date": "2026-11-08",
+    "ts": 1794132597000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110808040005300_P2.jpg",
+    "title": "วอน แทอิน พาทีม Samsung Lions คว้าแชมป์ KBO",
+    "link": "https://en.yna.co.kr/view/AEN20261108003400315"
+  },
+  {
+    "id": "hotnews_th_4eac65a4",
+    "date": "2026-11-08",
+    "ts": 1794131246000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110813430001300_P2.jpg",
+    "title": "คริส แพดดัค พาทีม ซัมซุง ไลออนส์ คว้าแชมป์เกาหลีซีรีส์",
+    "link": "https://en.yna.co.kr/view/AEN20261108003300315"
   },
   {
     "id": "hotnews_th_cfc115b9",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/07/a810bf3c-4885-45d6-94ce-0ba68e17dcba.jpeg",
     "title": "เฮชเชอมอยอ (Hechyeomoyeo) จัดนิทรรศการศิลปะครั้งที่ 18 ที่ KOTE",
     "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261107/hechyeomoyeo-opens-18th-mass-exhibition-at-kote-featuring-over-500-artists?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_794c44a2",
-    "date": "2026-11-07",
-    "ts": 1794032523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/07/d50c0a40-bebd-4da6-9497-911e1310d6c0.jpeg",
-    "title": "พัคฮันบยอลเผยการเปลี่ยนแชมพูช่วยแก้ปัญหาผมร่วง",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261107/park-han-byul-says-changing-shampoo-helped-her-hair-loss-but-does-it-really-work?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_ebc6a039",
-    "date": "2026-11-07",
-    "ts": 1794029733000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107001800315_01_i_P2.jpg",
-    "title": "เจ้าหน้าที่ระดับสูงเกาหลีเหนือเยือนจีนพบปะหารือผู้นำ",
-    "link": "https://en.yna.co.kr/view/AEN20261107001800315"
-  },
-  {
-    "id": "hotnews_th_0715dc78",
-    "date": "2026-11-07",
-    "ts": 1794027782000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202601/260131045206_95_k.jpg",
-    "title": "ราคาน้ำมันเบนซินและดีเซลเฉลี่ยในเกาหลีลดลงต่อเนื่อง 25 สัปดาห์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205418"
-  },
-  {
-    "id": "hotnews_th_82305a31",
-    "date": "2026-11-07",
-    "ts": 1794027600000,
-    "image": "",
-    "title": "เหตุการณ์สำคัญในประวัติศาสตร์เกาหลีใต้ที่เกิดขึ้นในวันนี้",
-    "link": "https://en.yna.co.kr/view/AEN20261107000800315"
-  },
-  {
-    "id": "hotnews_th_7a59ae05",
-    "date": "2026-11-07",
-    "ts": 1794018531000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261030095947_75_j.jpg",
-    "title": "Mirae Asset เผยข้อมูลลูกจ้างและลูกค้าถูกเจาะระบบ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205411"
-  },
-  {
-    "id": "hotnews_th_26b69718",
-    "date": "2026-11-07",
-    "ts": 1794018529000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107001400315_01_i_P2.jpg",
-    "title": "รมว.แรงงานเกาหลีใต้จี้เพิ่มมาตรการเข้มงวดป้องกันอุบัติเหตุในโรงงาน",
-    "link": "https://en.yna.co.kr/view/AEN20261107001400315"
-  },
-  {
-    "id": "hotnews_th_b3a7b62d",
-    "date": "2026-11-07",
-    "ts": 1794011608000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110615610001300_P2.jpg",
-    "title": "Sam Hilliard ใช้การฝึกตีลูกยางช่วยพัฒนาฟอร์มใน KBO",
-    "link": "https://en.yna.co.kr/view/AEN20261107000900315"
-  },
-  {
-    "id": "hotnews_th_883fa60a",
-    "date": "2026-11-06",
-    "ts": 1794006870000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000400315_01_i_P2.jpg",
-    "title": "Mirae Asset เผยข้อมูลลูกจ้างและลูกค้าหลุดจากเหตุไซเบอร์",
-    "link": "https://en.yna.co.kr/view/AEN20261107000400315"
-  },
-  {
-    "id": "hotnews_th_a950aa26",
-    "date": "2026-11-06",
-    "ts": 1793999595000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000300315_01_i_P2.jpg",
-    "title": "เลขาธิการ UN จี้รื้อฟื้นช่องทางสื่อสารสองเกาหลี",
-    "link": "https://en.yna.co.kr/view/AEN20261107000300315"
-  },
-  {
-    "id": "hotnews_th_93d6dfe3",
-    "date": "2026-11-06",
-    "ts": 1793972607000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110616910005300_P2.jpg",
-    "title": "กoo Ja-wook นำ Samsung Lions คว,ชัยชนะใน Korean Series",
-    "link": "https://en.yna.co.kr/view/AEN20261106012200315"
   }
 ]
