@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_fc734a57",
+    "date": "2026-11-08",
+    "ts": 1794145622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/08/2108355e-8153-4e2a-8efa-20028240bc13.jpg",
+    "title": "รบ.เกาหลีใต้จ่อคุมโซเชียลเด็ก ห้ามต่ำกว่า 14 ปีสมัคร",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261108/govt-weighs-tighter-social-media-restrictions-for-minors-targeting-addictive-features?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_efe65c54",
+    "date": "2026-11-08",
+    "ts": 1794145622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/08/4b3e53cf-a58a-4709-bfd5-57413b92bcf5.jpg",
+    "title": "โครงการเรือดำน้ำนิวเคลียร์เกาหลีใต้เผชิญอุปสรรคจัดหาเชื้อเพลิง",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261108/koreas-nuclear-submarine-project-faces-hurdles-despite-key-approval?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_01741dee",
+    "date": "2026-11-08",
+    "ts": 1794145622000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/08/09f67211-dfa6-47e8-b77e-11d69dafbe03.jpg",
+    "title": "ยืนยันข้อตกลงโอนสิทธิ์ OPCON ไม่เปลี่ยนหลังเลือกตั้งสหรัฐฯ",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261108/defense-committee-chair-says-opcon-agreement-stands-despite-us-midterm-outcome?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9e7df44e",
+    "date": "2026-11-08",
+    "ts": 1794140742000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.7c982c295a7d4939b30e66ead5952382_T1.jpg",
+    "title": "ตึก Aramco ในกรุงริยาดถูกโจมตีเสียหายเล็กน้อย",
+    "link": "https://www.koreaherald.com/article/10929808"
+  },
+  {
+    "id": "hotnews_th_b2f57966",
+    "date": "2026-11-08",
+    "ts": 1794140409000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.6cd4bf48741e4338ba4e27999439aa15_T1.jpg",
+    "title": "ชาวโปแลนด์ไว้อาลัยเหตุกราดยิงในคราคูว์หลังมือปืนแนวคิดขวาจัดก่อเหตุ",
+    "link": "https://www.koreaherald.com/article/10929805"
+  },
+  {
+    "id": "hotnews_th_c17ba294",
+    "date": "2026-11-08",
+    "ts": 1794138075000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/08/AEN20261108003800315_01_i_P2.jpg",
+    "title": "เจ้าหน้าที่ทหารสหรัฐฯ เยี่ยมชมอู่ต่อเรือ HD Hyundai",
+    "link": "https://en.yna.co.kr/view/AEN20261108003800315"
+  },
+  {
+    "id": "hotnews_th_63c47b97",
+    "date": "2026-11-08",
+    "ts": 1794137706000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.c97e4e08de024d558033e5378de52671_T1.jpg",
+    "title": "คู่แข่งเนทันยาฮูได้รับโอกาสจัดตั้งรัฐบาลใหม่ของอิสราเอล",
+    "link": "https://www.koreaherald.com/article/10929799"
+  },
+  {
+    "id": "hotnews_th_6b5f6243",
+    "date": "2026-11-08",
+    "ts": 1794136992000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.dd42d8474f1d448f9f1353851644c231_T1.jpg",
+    "title": "เกาหลีใoออกประกาศเตือนภัยหิมะตกหนักรอบแรกของฤดูกาล",
+    "link": "https://www.koreaherald.com/article/10929796"
+  },
+  {
+    "id": "hotnews_th_9d078b32",
+    "date": "2026-11-08",
+    "ts": 1794134010000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110812950005300_P2.jpg",
+    "title": "คัง มิน-โฮ คว้าแชมป์แรกในชีวิตการเล่นเบสบอล 23 ปี",
+    "link": "https://en.yna.co.kr/view/AEN20261108003700315"
+  },
+  {
+    "id": "hotnews_th_cfc115b9",
+    "date": "2026-11-08",
+    "ts": 1794120650000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/08/AEN20261108002151315_02_i_P2.jpg",
+    "title": "อัน เซ-ยอง คว้าแชมป์แบดมินตันโคเรีย โอเพ่น เป็นรายการที่ 11 ของปี",
+    "link": "https://en.yna.co.kr/view/AEN20261108002151315"
+  },
+  {
     "id": "hotnews_th_8133fe04",
     "date": "2026-11-08",
     "ts": 1794119222000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110616910005300_P2.jpg",
     "title": "กoo Ja-wook นำ Samsung Lions คว,ชัยชนะใน Korean Series",
     "link": "https://en.yna.co.kr/view/AEN20261106012200315"
-  },
-  {
-    "id": "hotnews_th_e709a79e",
-    "date": "2026-11-06",
-    "ts": 1793961721000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/19/PYH2026061915080001300_P2.jpg",
-    "title": "อี ยอง-ชอล ได้รับการเสนอชื่อเป็นรัฐมนตรีว่าการกระทรวงยุติธรรม",
-    "link": "https://en.yna.co.kr/view/AEN20261106011051315"
-  },
-  {
-    "id": "hotnews_th_c948e1f8",
-    "date": "2026-11-06",
-    "ts": 1793960608000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261106072559_20_e.jpg",
-    "title": "หัวหน้าพรรคจัดระเบียบตลาดหุ้น KOSPI ดิ่ง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205410"
-  },
-  {
-    "id": "hotnews_th_edb3b69c",
-    "date": "2026-11-06",
-    "ts": 1793960333000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/news-p.v1.20261106.e32c6cd1d9c54606842d6f555ee5dcd9_T1.jpg",
-    "title": "แตตั้ง อัน ดอก-ซู ผู้อำนวยการสำนักงานภาษีแห่งใหม่",
-    "link": "https://www.koreaherald.com/article/10928986"
-  },
-  {
-    "id": "hotnews_th_3dabcc72",
-    "date": "2026-11-06",
-    "ts": 1793956845000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/rcv.YNA.20261106.PYH2026110614600001300_T1.jpg",
-    "title": "รัฐสเกาหลีใต้ผ่านกฎหมายสอบสวนอัยการยุคยุน ซอก-ยอล",
-    "link": "https://www.koreaherald.com/article/10928951"
-  },
-  {
-    "id": "hotnews_th_c1546c67",
-    "date": "2026-11-06",
-    "ts": 1793955982000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261028090454_64_k.jpg",
-    "title": "เกาหลีใต้ท้องฟ้าแจ่มใสแต่อากาศหนาวในวันเสาร์",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205406"
-  },
-  {
-    "id": "hotnews_th_8452a155",
-    "date": "2026-11-06",
-    "ts": 1793953092000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/06/news-p.v1.20261106.67b5e0f5af054a51a8edc42305ac0c65_T1.jpg",
-    "title": "สนามบินอินชอนคุมเข้มความปลอดภัย หลังมีขู่ระเบิดเครื่องบินในยุโรป",
-    "link": "https://www.koreaherald.com/article/10928889"
-  },
-  {
-    "id": "hotnews_th_93f7bf18",
-    "date": "2026-11-06",
-    "ts": 1793951596000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106004051320_01_i_P2.jpg",
-    "title": "TPG เตรียมซื้อหุ้น Lotte Rental ทั้งหมดเพื่อถอนตัวจากตลาดหุ้น",
-    "link": "https://en.yna.co.kr/view/AEN20261106004051320"
-  },
-  {
-    "id": "hotnews_th_0749606d",
-    "date": "2026-11-06",
-    "ts": 1793951403000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106010800315_01_i_P2.jpg",
-    "title": "พัคจินมันกุนซือ Samsung Lions ไม่กังวลเรื่องความเหนื่อยล้าของนักกีฬา",
-    "link": "https://en.yna.co.kr/view/AEN20261106010800315"
-  },
-  {
-    "id": "hotnews_th_7cbbab11",
-    "date": "2026-11-06",
-    "ts": 1793951181000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/06/AEN20261106010400320_01_i_P2.jpg",
-    "title": "อัน ด็อก-ซู นั่งเก้าอี้หัวหน้าสำนักงานภาษีแห่งชาติเกาหลีใต้",
-    "link": "https://en.yna.co.kr/view/AEN20261106010400320"
-  },
-  {
-    "id": "hotnews_th_b5538b82",
-    "date": "2026-11-06",
-    "ts": 1793950561000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110613320001300_P2.jpg",
-    "title": "หุ้นโซลร่วงวันที่สองจากความกังวลเรื่อง AI ในสหรัฐฯ",
-    "link": "https://en.yna.co.kr/view/AEN20261106007852320"
   }
 ]
