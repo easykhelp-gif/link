@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_9d96768f",
+    "date": "2026-11-09",
+    "ts": 1794207422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/09/cc1c8b9c-7d72-44a0-bde2-9ef5da97ae78.jpeg",
+    "title": "Hàn Quốc kiểm tra trang trại ven biển bảo vệ lao động di cư",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261109/korea-inspects-coastal-farms-to-protect-migrant-fishing-workers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e9e3ec2e",
+    "date": "2026-11-09",
+    "ts": 1794207422000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/07/aea0e859-efe4-4d20-9dec-ce911b00c570.jpeg",
+    "title": "Sự kiện Community Closet tại Itaewon hỗ trợ người nước ngoài",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261109/community-closet-event-in-itaewon-offers-free-medical-check-ups-clothing-donations-for-foreign-residents-in-need?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_d9370596",
+    "date": "2026-11-09",
+    "ts": 1794205380000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090705420001301_P2.jpg",
+    "title": "Khám xét công ty máy kiểm phiếu do nghi ngờ thông thầu",
+    "link": "https://en.yna.co.kr/view/AEN20261109006200315"
+  },
+  {
+    "id": "hotnews_vi_7c471685",
+    "date": "2026-11-09",
+    "ts": 1794204862000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.e629e30f29194da4aceedb185f7285ca_T1.png",
+    "title": "Công ty nhỏ ra mắt 90% nhóm K-pop nhưng khó duy trì hoạt động",
+    "link": "https://www.koreaherald.com/article/10930889"
+  },
+  {
+    "id": "hotnews_vi_749b1f1b",
+    "date": "2026-11-09",
+    "ts": 1794204399000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/06/24/64/PCM20260624000364011_P2.jpg",
+    "title": "Phát hiện 92 vi phạm an toàn và lao động tại Ourhome",
+    "link": "https://en.yna.co.kr/view/AEN20261109005900315"
+  },
+  {
+    "id": "hotnews_vi_e7f8997a",
+    "date": "2026-11-09",
+    "ts": 1794203212000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.d9b5b013045e42a7b80f19e64a87b010_T1.jpg",
+    "title": "Sốt mì tôm Hàn Quốc: Địa phương biến nhà máy thành lễ hội",
+    "link": "https://www.koreaherald.com/article/10930835"
+  },
+  {
+    "id": "hotnews_vi_6c69ecb0",
+    "date": "2026-11-09",
+    "ts": 1794202421000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.a68d4de9b97c44b0bf33a9ecfa6c3978_T1.jpg",
+    "title": "Tổng thống Lee hứa bảo vệ lính cứu hỏa",
+    "link": "https://www.koreaherald.com/article/10930814"
+  },
+  {
+    "id": "hotnews_vi_68b6249b",
+    "date": "2026-11-09",
+    "ts": 1794202313000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/09/AEN20261109005500315_01_i_P2.jpg",
+    "title": "Hwang Woo-suk mất quốc tịch Hàn Quốc sau khi có quốc tịch UAE",
+    "link": "https://en.yna.co.kr/view/AEN20261109005500315"
+  },
+  {
+    "id": "hotnews_vi_b3928d5b",
+    "date": "2026-11-09",
+    "ts": 1794201499000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.f5a0a7c1ea114ef998203c862d73dfa0_T1.jpg",
+    "title": "Baemin và Coupang Eats nhận án phạt chống độc quyền kỷ lục",
+    "link": "https://www.koreaherald.com/article/10930770"
+  },
+  {
+    "id": "hotnews_vi_e6059f11",
+    "date": "2026-11-09",
+    "ts": 1794200400000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110910000001300_P2.jpg",
+    "title": "Nvidia, SK Telecom và Rebellions hợp tác phát triển hệ thống AI",
+    "link": "https://en.yna.co.kr/view/AEN20261109005400320"
+  },
+  {
     "id": "hotnews_vi_ed2eba4d",
     "date": "2026-11-08",
     "ts": 1794175095000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110706330005300_P2.jpg",
     "title": "HLV Park Jin-man thận trọng dù Samsung Lions dẫn 3-1",
     "link": "https://en.yna.co.kr/view/AEN20261107002300315"
-  },
-  {
-    "id": "hotnews_vi_5b8e0c06",
-    "date": "2026-11-07",
-    "ts": 1794039906000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.dcd1d47342db433bbe1c35bd82b420b9_T1.jpg",
-    "title": "Đội bay Black Eagles biểu diễn tại Busan",
-    "link": "https://www.koreaherald.com/article/10929288"
-  },
-  {
-    "id": "hotnews_vi_d9bd8a8f",
-    "date": "2026-11-07",
-    "ts": 1794038253000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.acb3f93971aa46f2a8767ae2ff299c40_T1.jpg",
-    "title": "Tổng thư ký UN kêu gọi khôi phục liên lạc Nam-Bắc Triều Tiên",
-    "link": "https://www.koreaherald.com/article/10929277"
-  },
-  {
-    "id": "hotnews_vi_ae487ba9",
-    "date": "2026-11-07",
-    "ts": 1794035871000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.29ce69d7130744f5bf8a7a61f7c5cbcf_T1.jpg",
-    "title": "Bộ trưởng Lao động Hàn Quốc cam kết xử lý nghiêm tai nạn lao động",
-    "link": "https://www.koreaherald.com/article/10929253"
-  },
-  {
-    "id": "hotnews_vi_2729e059",
-    "date": "2026-11-07",
-    "ts": 1794034800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/05/news-a.v1.20261105.177352cf9b754a89b1ed49792e8e2fa3_T1.jpg",
-    "title": "Các hãng bán lẻ Hàn Quốc mở rộng ra ngoài Seoul",
-    "link": "https://www.koreaherald.com/article/10927608"
-  },
-  {
-    "id": "hotnews_vi_9ebfc59f",
-    "date": "2026-11-07",
-    "ts": 1794034800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.a3dc80d31fef4780baa5968435eff4de_T1.jpg",
-    "title": "Trải nghiệm tàu hỏa du lịch ngắm cảnh chậm rãi tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10927351"
-  },
-  {
-    "id": "hotnews_vi_9c08a552",
-    "date": "2026-11-07",
-    "ts": 1794034800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/05/news-p.v1.20261105.67ea8f425be2493cb195cb3ef6e020a8_T1.png",
-    "title": "Giá buffet khách sạn lớn ở Seoul tăng dịp cuối năm",
-    "link": "https://www.koreaherald.com/article/10927023"
-  },
-  {
-    "id": "hotnews_vi_268de1a8",
-    "date": "2026-11-07",
-    "ts": 1794034800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/07/news-p.v1.20261107.f766525822c24f24aa37c413d9669399_T1.png",
-    "title": "Bơ đang trở thành xu hướng ẩm thực hot tại Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10926968"
-  },
-  {
-    "id": "hotnews_vi_44c7bfcd",
-    "date": "2026-11-07",
-    "ts": 1794034800000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/05/news-p.v1.20261102.423357f7452f4dd394464a8d0d2ada59_T1.jpg",
-    "title": "Lớp học yoga kết hợp chó cứu hộ tại Seoul mang lại niềm vui",
-    "link": "https://www.koreaherald.com/article/10926965"
-  },
-  {
-    "id": "hotnews_vi_e267da45",
-    "date": "2026-11-07",
-    "ts": 1794032523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/06/5181564e-ec62-43a9-9f58-2b40396a3de2.jpg",
-    "title": "Chủ tịch Kim Min-seok xin lỗi vì cáo buộc Shincheonji sai sự thật",
-    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261107/cover-story-ruling-party-leaders-credibility-put-on-line-as-shincheonji-claims-backfire?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_499b83a9",
-    "date": "2026-11-07",
-    "ts": 1794032523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/07/a810bf3c-4885-45d6-94ce-0ba68e17dcba.jpeg",
-    "title": "Triển lãm nghệ thuật Hechyeomoyeo khai mạc tại Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261107/hechyeomoyeo-opens-18th-mass-exhibition-at-kote-featuring-over-500-artists?utm_source=rss"
   }
 ]
