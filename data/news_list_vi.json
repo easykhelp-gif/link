@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_24401d08",
+    "date": "2026-11-10",
+    "ts": 1794334958000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111000300315_01_i_P2.jpg",
+    "title": "HRW thúc giục Liên Hợp Quốc gắn nhân quyền Triều Tiên với an ninh",
+    "link": "https://en.yna.co.kr/view/AEN20261111000300315"
+  },
+  {
+    "id": "hotnews_vi_53a995e2",
+    "date": "2026-11-10",
+    "ts": 1794328551000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111000200315_01_i_P2.jpg",
+    "title": "Ứng viên Tổng thư ký Liên Hợp Quốc nhấn mạnh vai trò hòa giải",
+    "link": "https://en.yna.co.kr/view/AEN20261111000200315"
+  },
+  {
+    "id": "hotnews_vi_e3ad909c",
+    "date": "2026-11-10",
+    "ts": 1794318892000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110010800315_01_i_P2.jpg",
+    "title": "Ngoại trưởng Hàn Quốc và Canada thảo luận hợp tác tại Paris",
+    "link": "https://en.yna.co.kr/view/AEN20261110010800315"
+  },
+  {
+    "id": "hotnews_vi_56048404",
+    "date": "2026-11-10",
+    "ts": 1794314981000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110009351315_01_i_P2.jpg",
+    "title": "Pháo tự hành quân đội đâm xe ô tô trên quốc lộ",
+    "link": "https://en.yna.co.kr/view/AEN20261110009351315"
+  },
+  {
+    "id": "hotnews_vi_3023f56f",
+    "date": "2026-11-10",
+    "ts": 1794304845000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110040346_42_e.jpg",
+    "title": "KIST lập khu thử nghiệm nghiên cứu khí hậu rừng",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205482"
+  },
+  {
+    "id": "hotnews_vi_a3cf240d",
+    "date": "2026-11-10",
+    "ts": 1794304802000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102214290001300_P2.jpg",
+    "title": "Thống đốc BOK Shin Hyun-song làm chủ tịch ủy ban BIS",
+    "link": "https://en.yna.co.kr/view/AEN20261110003700320"
+  },
+  {
+    "id": "hotnews_vi_0bc4b62f",
+    "date": "2026-11-10",
+    "ts": 1794304144000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110064840_18_e.jpg",
+    "title": "Công đoàn Seoul Metro dọa đình công nếu không đạt thỏa thuận",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205480"
+  },
+  {
+    "id": "hotnews_vi_a0288d72",
+    "date": "2026-11-10",
+    "ts": 1794303551000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110064658_17_e.jpg",
+    "title": "Ủy ban Giáo dục không lấy ý kiến về giờ học",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205479"
+  },
+  {
+    "id": "hotnews_vi_fce8e7dd",
+    "date": "2026-11-10",
+    "ts": 1794302092000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110043515_0_e.jpg",
+    "title": "Nội các mở rộng nhiệm vụ đơn vị Cheonghae",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205477"
+  },
+  {
     "id": "hotnews_vi_3524259a",
     "date": "2026-11-10",
     "ts": 1794296223000,
@@ -46,6 +118,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111015420001300_P2.jpg",
     "title": "Chứng khoán Seoul tăng mạnh hơn 4% nhờ cổ phiếu công nghệ",
     "link": "https://en.yna.co.kr/view/AEN20261110007352320"
+  },
+  {
+    "id": "hotnews_vi_3089b539",
+    "date": "2026-11-10",
+    "ts": 1794295413000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/10/news-p.v1.20261110.5db53ecddc844be69ecea7f8534a11e8_T1.jpg",
+    "title": "Chứng khoán Seoul tăng mạnh hơn 4% nhờ cổ phiếu công nghệ và giá dầu giảm",
+    "link": "https://www.koreaherald.com/article/10932499"
   },
   {
     "id": "hotnews_vi_af2a7722",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.7c982c295a7d4939b30e66ead5952382_T1.jpg",
     "title": "Tòa nhà Aramco tại Riyadh bị tấn công bằng tên lửa",
     "link": "https://www.koreaherald.com/article/10929808"
-  },
-  {
-    "id": "hotnews_vi_b2f57966",
-    "date": "2026-11-08",
-    "ts": 1794140409000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.6cd4bf48741e4338ba4e27999439aa15_T1.jpg",
-    "title": "Ba Lan quốc tang sau vụ xả súng hiếm hoi ở Krakow",
-    "link": "https://www.koreaherald.com/article/10929805"
-  },
-  {
-    "id": "hotnews_vi_c17ba294",
-    "date": "2026-11-08",
-    "ts": 1794138075000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/08/AEN20261108003800315_01_i_P2.jpg",
-    "title": "Quan chức Mỹ thăm xưởng đóng tàu HD Hyundai tại Ulsan",
-    "link": "https://en.yna.co.kr/view/AEN20261108003800315"
-  },
-  {
-    "id": "hotnews_vi_63c47b97",
-    "date": "2026-11-08",
-    "ts": 1794137706000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.c97e4e08de024d558033e5378de52671_T1.jpg",
-    "title": "Đối thủ của Netanyahu nhận cơ hội lập chính phủ mới",
-    "link": "https://www.koreaherald.com/article/10929799"
-  },
-  {
-    "id": "hotnews_vi_6b5f6243",
-    "date": "2026-11-08",
-    "ts": 1794136992000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/08/news-p.v1.20261108.dd42d8474f1d448f9f1353851644c231_T1.jpg",
-    "title": "Hàn Quốc ban hành cảnh báo bão tuyết đầu tiên trong mùa",
-    "link": "https://www.koreaherald.com/article/10929796"
-  },
-  {
-    "id": "hotnews_vi_b9bac987",
-    "date": "2026-11-08",
-    "ts": 1794135945000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110810420001300_P2.jpg",
-    "title": "Chính phủ Hàn Quốc xem xét hỗ trợ 2 nghìn tỷ won cho PCCC",
-    "link": "https://en.yna.co.kr/view/AEN20261108003251315"
-  },
-  {
-    "id": "hotnews_vi_9d078b32",
-    "date": "2026-11-08",
-    "ts": 1794134010000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110812950005300_P2.jpg",
-    "title": "Cầu thủ Kang Min-ho lần đầu vô địch sau 23 năm sự nghiệp",
-    "link": "https://en.yna.co.kr/view/AEN20261108003700315"
-  },
-  {
-    "id": "hotnews_vi_b88aa4f8",
-    "date": "2026-11-08",
-    "ts": 1794133298000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110814350001300_P2.jpg",
-    "title": "Koo Ja-wook nhận giải MVP Korean Series dù bị chấn thương",
-    "link": "https://en.yna.co.kr/view/AEN20261108003151315"
-  },
-  {
-    "id": "hotnews_vi_c12d2e89",
-    "date": "2026-11-08",
-    "ts": 1794132597000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110808040005300_P2.jpg",
-    "title": "Won Tae-in tỏa sáng giúp Samsung Lions vô địch KBO",
-    "link": "https://en.yna.co.kr/view/AEN20261108003400315"
-  },
-  {
-    "id": "hotnews_vi_4eac65a4",
-    "date": "2026-11-08",
-    "ts": 1794131246000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110813430001300_P2.jpg",
-    "title": "Chris Paddack giúp Samsung Lions vô địch bóng chày Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261108003300315"
-  },
-  {
-    "id": "hotnews_vi_cfc115b9",
-    "date": "2026-11-08",
-    "ts": 1794120650000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/08/AEN20261108002151315_02_i_P2.jpg",
-    "title": "An Se-young vô địch Korea Open, san bằng kỷ lục 11 danh hiệu",
-    "link": "https://en.yna.co.kr/view/AEN20261108002151315"
   }
 ]
