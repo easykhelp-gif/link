@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_7dd74374",
+    "date": "2026-11-11",
+    "ts": 1794399975000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/11/rcv.YNA.20261111.PRU20261111075801009_T1.jpg",
+    "title": "Đại học Trung Quốc mua chip Nvidia H200 bất chấp lệnh trừng phạt",
+    "link": "https://www.koreaherald.com/article/10934237"
+  },
+  {
+    "id": "hotnews_vi_88eb02b4",
+    "date": "2026-11-11",
+    "ts": 1794399451000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111006651315_01_i_P2.jpg",
+    "title": "Ca khúc 'Swim' của BTS lọt top Bài hát hay nhất 2026 của Apple Music",
+    "link": "https://en.yna.co.kr/view/AEN20261111006651315"
+  },
+  {
+    "id": "hotnews_vi_6feafca7",
+    "date": "2026-11-11",
+    "ts": 1794394833000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111011000320_01_i_P2.jpg",
+    "title": "Các đảng lâm thời đồng ý hoãn thuế tài sản số sang 2029",
+    "link": "https://en.yna.co.kr/view/AEN20261111011000320"
+  },
+  {
+    "id": "hotnews_vi_de11c426",
+    "date": "2026-11-11",
+    "ts": 1794393551000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/10/15/78/PCM20261015000078990_P2.jpg",
+    "title": "Hàn Quốc cho phép mang thuốc giảm cân nước ngoài về nước",
+    "link": "https://en.yna.co.kr/view/AEN20261111010900315"
+  },
+  {
+    "id": "hotnews_vi_f4bcc3b9",
+    "date": "2026-11-11",
+    "ts": 1794393476000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261111073738_88_e.jpg",
+    "title": "Bộ Quốc phòng sửa đổi kế hoạch học viện quân sự tích hợp",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205518"
+  },
+  {
+    "id": "hotnews_vi_55339cfa",
+    "date": "2026-11-11",
+    "ts": 1794386790000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261111035520_71_e.jpg",
+    "title": "Chính phủ ra mắt hệ thống y tế công cộng trực tuyến",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205515"
+  },
+  {
+    "id": "hotnews_vi_87930e0b",
+    "date": "2026-11-11",
+    "ts": 1794383498000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261111031906_77_e.jpg",
+    "title": "1 trong 6 người đi bộ vừa sang đường vừa nhìn điện thoại",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205512"
+  },
+  {
+    "id": "hotnews_vi_ca892680",
+    "date": "2026-11-11",
+    "ts": 1794383354000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111009300320_01_i_P2.jpg",
+    "title": "POSCO và GS hợp tác làm trung tâm dữ liệu AI ở nước ngoài",
+    "link": "https://en.yna.co.kr/view/AEN20261111009300320"
+  },
+  {
+    "id": "hotnews_vi_ae064574",
+    "date": "2026-11-11",
+    "ts": 1794383210000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261111122013_54_k.jpg",
+    "title": "Tai nạn liên hoàn 33 xe ở Bundang, 57 người bị thương",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205511"
+  },
+  {
     "id": "hotnews_vi_82aaae1d",
     "date": "2026-11-11",
     "ts": 1794380233000,
@@ -38,6 +110,14 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/11/c92b2ec5-b906-4c97-9500-3da645cc5b9d.jpeg",
     "title": "5 cựu quân nhân Seoul vào đội tuyển Invictus Games",
     "link": "https://www.koreatimes.co.kr/southkorea/20261111/5-seoul-veterans-center-members-named-to-koreas-invictus-games-team?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_b9e7a001",
+    "date": "2026-11-11",
+    "ts": 1794379912000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111017730001300_P2.jpg",
+    "title": "Chính phủ Hàn Quốc định dời Học viện Lục quân khỏi Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20261111007800315"
   },
   {
     "id": "hotnews_vi_96cba4a6",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.8557b519c8d34409a5a5430d5329e323_T1.jpg",
     "title": "Các nhà lập pháp kêu gọi quy định tiền mã hóa rõ ràng hơn",
     "link": "https://www.koreaherald.com/article/10931104"
-  },
-  {
-    "id": "hotnews_vi_9d96768f",
-    "date": "2026-11-09",
-    "ts": 1794207422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/09/cc1c8b9c-7d72-44a0-bde2-9ef5da97ae78.jpeg",
-    "title": "Hàn Quốc kiểm tra trang trại ven biển bảo vệ lao động di cư",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261109/korea-inspects-coastal-farms-to-protect-migrant-fishing-workers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e9e3ec2e",
-    "date": "2026-11-09",
-    "ts": 1794207422000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/07/aea0e859-efe4-4d20-9dec-ce911b00c570.jpeg",
-    "title": "Sự kiện Community Closet tại Itaewon hỗ trợ người nước ngoài",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261109/community-closet-event-in-itaewon-offers-free-medical-check-ups-clothing-donations-for-foreign-residents-in-need?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d9370596",
-    "date": "2026-11-09",
-    "ts": 1794205380000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/07/PYH2026090705420001301_P2.jpg",
-    "title": "Khám xét công ty máy kiểm phiếu do nghi ngờ thông thầu",
-    "link": "https://en.yna.co.kr/view/AEN20261109006200315"
-  },
-  {
-    "id": "hotnews_vi_7c471685",
-    "date": "2026-11-09",
-    "ts": 1794204862000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.e629e30f29194da4aceedb185f7285ca_T1.png",
-    "title": "Công ty nhỏ ra mắt 90% nhóm K-pop nhưng khó duy trì hoạt động",
-    "link": "https://www.koreaherald.com/article/10930889"
-  },
-  {
-    "id": "hotnews_vi_749b1f1b",
-    "date": "2026-11-09",
-    "ts": 1794204399000,
-    "image": "https://img.yna.co.kr/photo/cms/2026/06/24/64/PCM20260624000364011_P2.jpg",
-    "title": "Phát hiện 92 vi phạm an toàn và lao động tại Ourhome",
-    "link": "https://en.yna.co.kr/view/AEN20261109005900315"
-  },
-  {
-    "id": "hotnews_vi_e7f8997a",
-    "date": "2026-11-09",
-    "ts": 1794203212000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.d9b5b013045e42a7b80f19e64a87b010_T1.jpg",
-    "title": "Sốt mì tôm Hàn Quốc: Địa phương biến nhà máy thành lễ hội",
-    "link": "https://www.koreaherald.com/article/10930835"
-  },
-  {
-    "id": "hotnews_vi_6c69ecb0",
-    "date": "2026-11-09",
-    "ts": 1794202421000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.a68d4de9b97c44b0bf33a9ecfa6c3978_T1.jpg",
-    "title": "Tổng thống Lee hứa bảo vệ lính cứu hỏa",
-    "link": "https://www.koreaherald.com/article/10930814"
-  },
-  {
-    "id": "hotnews_vi_68b6249b",
-    "date": "2026-11-09",
-    "ts": 1794202313000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/09/AEN20261109005500315_01_i_P2.jpg",
-    "title": "Hwang Woo-suk mất quốc tịch Hàn Quốc sau khi có quốc tịch UAE",
-    "link": "https://en.yna.co.kr/view/AEN20261109005500315"
-  },
-  {
-    "id": "hotnews_vi_b3928d5b",
-    "date": "2026-11-09",
-    "ts": 1794201499000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.f5a0a7c1ea114ef998203c862d73dfa0_T1.jpg",
-    "title": "Baemin và Coupang Eats nhận án phạt chống độc quyền kỷ lục",
-    "link": "https://www.koreaherald.com/article/10930770"
-  },
-  {
-    "id": "hotnews_vi_e6059f11",
-    "date": "2026-11-09",
-    "ts": 1794200400000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110910000001300_P2.jpg",
-    "title": "Nvidia, SK Telecom và Rebellions hợp tác phát triển hệ thống AI",
-    "link": "https://en.yna.co.kr/view/AEN20261109005400320"
   }
 ]
