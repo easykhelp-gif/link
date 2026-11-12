@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_8d38aab2",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/8016f32d-2d03-4f78-8439-5e524ff86272.jpeg",
+    "title": "Hàn Quốc mở đợt cấp giấy phép lao động E-9 cuối năm 2026",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261112/korea-opens-final-2026-round-of-foreign-worker-permits?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_593ba23a",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/484a94eb-1c47-48f4-898e-feba16d44bc1.jpeg",
+    "title": "Kính thực tế ảo mỏng mới giúp nhìn rõ ngoài trời",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261112/korean-researchers-shrink-augmented-reality-lenses-to-fit-everyday-eyewear?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_49bd3512",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/c0758e0e-bec7-473c-8c04-ccb6accc7a69.jpeg",
+    "title": "Viện HUFS tổ chức đối thoại chính sách tại Singapore và Malaysia",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261112/hufs-institute-hosts-policy-dialogues-on-diplomatic-strategies-in-singapore-malaysia?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_0889697e",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/d6fd1b0c-a995-4571-82d5-204a2d640378.jpeg",
+    "title": "Chế tạo thành công đèn LED perovskite hiệu suất cao mới",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261112/joint-research-team-develops-new-method-to-produce-high-efficiency-perovskite-leds?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_63d15c4e",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/11/ef74c410-bcce-4a15-9f21-45b4227b1c2c.jpg",
+    "title": "Việc thu hồi quyền tác chiến là cách Hàn Quốc ứng phó với Mỹ",
+    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261112/the-old-america-is-gone-opcon-transfer-is-koreas-answer-to-changing-us-moon-chung-in-says?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_2ba0f8ba",
+    "date": "2026-11-12",
+    "ts": 1794469023000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/73d62408-9e3e-4c3b-8885-7ba73b8c0795.jpg",
+    "title": "Tổng thống Lee Jae Myung kêu gọi đoàn kết tại bữa tối với DPK",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261112/lee-calls-for-unity-at-dinner-meeting-with-dpk-leaders?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_8dcb081e",
+    "date": "2026-11-12",
+    "ts": 1794467568000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111205460001300_P2.jpg",
+    "title": "Samsung biến cơ sở Onyang thành trung tâm chip HBM",
+    "link": "https://en.yna.co.kr/view/AEN20261112009700320"
+  },
+  {
+    "id": "hotnews_vi_f1c5d378",
+    "date": "2026-11-12",
+    "ts": 1794466361000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261112041121_98_e.jpg",
+    "title": "Ngoại trưởng Trung - Mỹ điện đàm trước hội nghị APEC",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205538"
+  },
+  {
+    "id": "hotnews_vi_7a057171",
+    "date": "2026-11-12",
+    "ts": 1794465862000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260929081325_49_k.jpg",
+    "title": "Các đảng tranh cãi về Chánh án Tòa án Tối cao và Bộ trưởng Tư pháp",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205535"
+  },
+  {
+    "id": "hotnews_vi_f7088003",
+    "date": "2026-11-12",
+    "ts": 1794465398000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261112.5b95bed0cb944bc7bc7db5c3f0e79acd_T1.jpg",
+    "title": "Ngân hàng và công ty chứng khoán tranh giành thị phần hưu trí",
+    "link": "https://www.koreaherald.com/article/10935345"
+  },
+  {
     "id": "hotnews_vi_7dd74374",
     "date": "2026-11-11",
     "ts": 1794399975000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110024457_34_e.jpg",
     "title": "Ngoại trưởng Hàn - Pháp thảo luận quan hệ song phương",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205472"
-  },
-  {
-    "id": "hotnews_vi_4c125efb",
-    "date": "2026-11-09",
-    "ts": 1794263822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/09/f2ee66ed-99e0-4667-8752-6d64d1b7ea7d.jpg",
-    "title": "Tội phạm ma túy tại Hàn Quốc gia tăng đáng báo động",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261110/string-of-drug-busts-shatters-koreas-drug-free-myth?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_bfcc4f49",
-    "date": "2026-11-09",
-    "ts": 1794263822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/09/a8a4aec6-228a-459a-80cf-4d6d04229ad5.jpeg",
-    "title": "Seoul Players tổ chức Lễ hội kịch 10 phút lần thứ 13",
-    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261110/16-short-form-playwrights-to-face-off-in-seoul-players-10-minute-play-festival?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c5d54285",
-    "date": "2026-11-09",
-    "ts": 1794260438000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110000551315_01_i_P2.jpg",
-    "title": "Triều Tiên đòi công nhận hạt nhân khiến khó có hội nghị thượng đỉnh",
-    "link": "https://en.yna.co.kr/view/AEN20261110000551315"
-  },
-  {
-    "id": "hotnews_vi_23e7a2b3",
-    "date": "2026-11-09",
-    "ts": 1794228152000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.d06fa1b5b3e744ebb27f404eef1885df_T1.jpg",
-    "title": "21 người di cư thiệt mạng khi đến đảo Crete của Hy Lạp",
-    "link": "https://www.koreaherald.com/article/10931223"
-  },
-  {
-    "id": "hotnews_vi_f2346f0e",
-    "date": "2026-11-09",
-    "ts": 1794225684000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.5362f20dbda5438e9b8105f9fc14036d_T1.jpg",
-    "title": "Thuyền chở người di cư lật ở Senegal, 39 người tử vong",
-    "link": "https://www.koreaherald.com/article/10931212"
-  },
-  {
-    "id": "hotnews_vi_aea228ed",
-    "date": "2026-11-09",
-    "ts": 1794224122000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/09/AEN20261109009800315_02_i_P2.jpg",
-    "title": "Đại sứ Mỹ nhấn mạnh tầm quan trọng của lòng tin trong liên minh",
-    "link": "https://en.yna.co.kr/view/AEN20261109009800315"
-  },
-  {
-    "id": "hotnews_vi_464cf128",
-    "date": "2026-11-09",
-    "ts": 1794222433000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.992eb566eecb4fe1a7f3cce22640a01a_T1.jpg",
-    "title": "Hiệp hội K-pop phản đối bài báo của New York Times",
-    "link": "https://www.koreaherald.com/article/10931196"
-  },
-  {
-    "id": "hotnews_vi_fdd14e44",
-    "date": "2026-11-09",
-    "ts": 1794212756000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.da756653a6c247a6927eccde8d2fd3cf_T1.png",
-    "title": "Jisoo của Blackpink ký hợp đồng với WME để quản lý toàn cầu",
-    "link": "https://www.koreaherald.com/article/10931114"
-  },
-  {
-    "id": "hotnews_vi_e30bd638",
-    "date": "2026-11-09",
-    "ts": 1794212438000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110913030001300_P2.jpg",
-    "title": "Bộ trưởng Quốc phòng Hàn Quốc nói về việc mở rộng lực lượng Cheonghae",
-    "link": "https://en.yna.co.kr/view/AEN20261109008800315"
-  },
-  {
-    "id": "hotnews_vi_38b13e35",
-    "date": "2026-11-09",
-    "ts": 1794212360000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.8557b519c8d34409a5a5430d5329e323_T1.jpg",
-    "title": "Các nhà lập pháp kêu gọi quy định tiền mã hóa rõ ràng hơn",
-    "link": "https://www.koreaherald.com/article/10931104"
   }
 ]
