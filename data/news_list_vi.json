@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_f514cef6",
+    "date": "2026-11-12",
+    "ts": 1794514323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/6d87ed38-5b03-47d2-b019-64f0c6b5afd4.jpeg",
+    "title": "Bạn thân của Jeon Tae-il tiếp tục duy trì di sản lao động",
+    "link": "https://www.koreatimes.co.kr/southkorea/20261113/how-a-close-friend-of-labor-activist-jeon-tae-il-keeps-his-legacy-alive?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_2c87dd6f",
+    "date": "2026-11-12",
+    "ts": 1794514323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/d7f64bc1-7a53-4de3-ba49-8eae8bd6b96d.jpeg",
+    "title": "Giới trẻ Gen Z Hàn Quốc thích làm thực tập sinh, ngại thăng tiến",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261113/id-rather-stay-an-intern-why-some-gen-z-workers-in-korea-are-choosing-less-responsibility?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_280665b6",
+    "date": "2026-11-12",
+    "ts": 1794512438000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/13/AEN20261113000200315_01_i_P2.jpg",
+    "title": "Binance bồi thường toàn bộ tổn thất do hacker Triều Tiên tấn công",
+    "link": "https://en.yna.co.kr/view/AEN20261113000200315"
+  },
+  {
+    "id": "hotnews_vi_6820c02e",
+    "date": "2026-11-12",
+    "ts": 1794495624000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/12/AEN20261112012600315_01_i_P2.jpg",
+    "title": "Hạ viện Mỹ thông qua dự luật bảo vệ doanh nghiệp nhỏ khỏi Triều Tiên",
+    "link": "https://en.yna.co.kr/view/AEN20261112012600315"
+  },
+  {
+    "id": "hotnews_vi_fe706ccf",
+    "date": "2026-11-12",
+    "ts": 1794494850000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111220850001300_P2.jpg",
+    "title": "HLV Robert Moreno tự hào vì các cầu thủ giải quyết bất hòa",
+    "link": "https://en.yna.co.kr/view/AEN20261112012500315"
+  },
+  {
+    "id": "hotnews_vi_65d806c5",
+    "date": "2026-11-12",
+    "ts": 1794475793000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/12/AEN20261112012100315_06_i_P2.jpg",
+    "title": "Nhóm nhạc Ateez phát hành album mới \"Golden Hour: Part. 6\"",
+    "link": "https://en.yna.co.kr/view/AEN20261112012100315"
+  },
+  {
+    "id": "hotnews_vi_4c55d547",
+    "date": "2026-11-12",
+    "ts": 1794474999000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261111.bd5e09cd341542518b705ae165f98f6e_T1.jpg",
+    "title": "Kumho Petrochemical đẩy mạnh an toàn và xanh hóa",
+    "link": "https://www.koreaherald.com/article/10935563"
+  },
+  {
+    "id": "hotnews_vi_e24abedc",
+    "date": "2026-11-12",
+    "ts": 1794472581000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111214510001301_P2.jpg",
+    "title": "Số lượng khách nước ngoài đến Hàn Quốc vượt mốc 20 triệu",
+    "link": "https://en.yna.co.kr/view/AEN20261112012000315"
+  },
+  {
+    "id": "hotnews_vi_16b1d441",
+    "date": "2026-11-12",
+    "ts": 1794471647000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/12/AEN20261112011700315_01_i_P2.jpg",
+    "title": "Đội tuyển nữ Hàn Quốc đối đầu Bắc Triều Tiên tại vòng loại Olympic",
+    "link": "https://en.yna.co.kr/view/AEN20261112011700315"
+  },
+  {
+    "id": "hotnews_vi_86a9c232",
+    "date": "2026-11-12",
+    "ts": 1794470399000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261112.70876af2ec6d4fda94a7894e1cba9f9a_T1.png",
+    "title": "Lim Yunchan và Lee Hanurij thắng giải thưởng âm nhạc quốc tế",
+    "link": "https://www.koreaherald.com/article/10935492"
+  },
+  {
     "id": "hotnews_vi_8d38aab2",
     "date": "2026-11-12",
     "ts": 1794469023000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/10/98589886-0f0e-4faa-b463-c344960d5854.jpg",
     "title": "Chuyển giao OPCON có thể chậm do thiếu đồng thuận tại Mỹ",
     "link": "https://www.koreatimes.co.kr/southkorea/defense/20261110/ex-us-diplomat-says-opcon-transfer-may-not-move-rapidly-cites-no-consensus-in-washington?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_211691aa",
-    "date": "2026-11-10",
-    "ts": 1794296223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/be8d3a7d-a67e-421f-8cbc-fdba1af31b1f.jpeg",
-    "title": "Bệnh viện cây cảnh tại Seoul đã tiếp nhận hơn 10.000 ca điều trị",
-    "link": "https://www.koreatimes.co.kr/southkorea/health/20261110/seoul-plant-hospital-admits-10000-potted-patients-since-2023-opening?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d368f646",
-    "date": "2026-11-10",
-    "ts": 1794296223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/102ef3ac-4933-4a45-bbea-b5269311d348.jpeg",
-    "title": "ĐH Sogang phát triển vật liệu quang học hiệu suất cao mới",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261110/sogang-university-team-develops-new-strategy-for-designing-high-performance-optical-materials?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ee9c5bfc",
-    "date": "2026-11-10",
-    "ts": 1794296223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/9a6c7795-286a-4898-b3d7-f325f44d8a93.jpeg",
-    "title": "Đại học Chungnam tổ chức lễ cam kết chống tham nhũng",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261110/chungnam-national-university-holds-anti-corruption-integrity-pledge-ceremony?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_37f15f24",
-    "date": "2026-11-10",
-    "ts": 1794296223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/a7323e87-4b02-4c0a-860e-d51d041fe985.jpeg",
-    "title": "Học sinh 30 nước hoàn thành trại hè tiếng Hàn tại Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261110/students-from-30-countries-gather-in-seoul-to-learn-korean-language-and-culture?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ddcf5d25",
-    "date": "2026-11-10",
-    "ts": 1794295979000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111015420001300_P2.jpg",
-    "title": "Chứng khoán Seoul tăng mạnh hơn 4% nhờ cổ phiếu công nghệ",
-    "link": "https://en.yna.co.kr/view/AEN20261110007352320"
-  },
-  {
-    "id": "hotnews_vi_3089b539",
-    "date": "2026-11-10",
-    "ts": 1794295413000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/10/news-p.v1.20261110.5db53ecddc844be69ecea7f8534a11e8_T1.jpg",
-    "title": "Chứng khoán Seoul tăng mạnh hơn 4% nhờ cổ phiếu công nghệ và giá dầu giảm",
-    "link": "https://www.koreaherald.com/article/10932499"
-  },
-  {
-    "id": "hotnews_vi_af2a7722",
-    "date": "2026-11-10",
-    "ts": 1794295077000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110008500315_02_i_P2.jpg",
-    "title": "Seoul Metro đối mặt nguy cơ đình công từ ngày 25 tháng 11",
-    "link": "https://en.yna.co.kr/view/AEN20261110008500315"
-  },
-  {
-    "id": "hotnews_vi_f19f6788",
-    "date": "2026-11-10",
-    "ts": 1794290401000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2024/11/06/PYH2024110603350001300_P2.jpg",
-    "title": "Hàn Quốc dùng AI quét nội dung tình dục trẻ em trực tuyến",
-    "link": "https://en.yna.co.kr/view/AEN20261110006700315"
-  },
-  {
-    "id": "hotnews_vi_7143c00f",
-    "date": "2026-11-10",
-    "ts": 1794289039000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/10/news-p.v1.20261110.614df1e3e03c4399bf49ab1d34aca129_T1.jpg",
-    "title": "Tổng thống Lee Jae-myung thúc đẩy hợp tác chặt chẽ với Mỹ",
-    "link": "https://www.koreaherald.com/article/10932273"
-  },
-  {
-    "id": "hotnews_vi_f093c59a",
-    "date": "2026-11-10",
-    "ts": 1794288956000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110024457_34_e.jpg",
-    "title": "Ngoại trưởng Hàn - Pháp thảo luận quan hệ song phương",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205472"
   }
 ]
