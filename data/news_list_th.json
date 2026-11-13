@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_abd343ae",
+    "date": "2026-11-13",
+    "ts": 1794553323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/13/7d58e11d-2a5e-47c3-92c4-115956cc9df6.jpeg",
+    "title": "กรุงโซลแจ้งความ 5 คนโทรป่วน 119 รวมกว่า 8,000 ครั้ง",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261113/seoul-files-criminal-complaints-against-5-serial-119-prank-callers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_63bc08ab",
+    "date": "2026-11-13",
+    "ts": 1794553323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/13/9368b7f6-7ced-4c09-9121-85bb271a3764.jpeg",
+    "title": "ศัลยแพทย์เกาหลีเตือน โซจูราคาถูกและดีกรีแรงเสี่ยงทำให้ติดแอลกอฮอล์",
+    "link": "https://www.koreatimes.co.kr/southkorea/health/20261113/soju-should-not-exist-surgeon-warns-of-addiction-risk-from-cheap-strong-alcohol?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_9a9b509a",
+    "date": "2026-11-13",
+    "ts": 1794553323000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/15a699cf-602e-4743-bece-c92e0e7e83f9.png",
+    "title": "โรงเรียนสุนัขนำทาง Samsung ฉลองครบรอบ 33 ปี",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261113/weekender-samsung-guide-dog-school-marks-33-years-of-changing-lives?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_d63511cf",
+    "date": "2026-11-13",
+    "ts": 1794550775000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202508/250822091909_66_k.jpg",
+    "title": "โช ชี้จีนไม่น่าเชิญเกาหลีเหนือร่วมประชุมสุดยอด APEC",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205561"
+  },
+  {
+    "id": "hotnews_th_18f6a37b",
+    "date": "2026-11-13",
+    "ts": 1794550310000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-a.v1.20261113.9d49dbe5494044b3b1e8a4721055c4e4_T1.jpg",
+    "title": "ลี แจมยองชี้การฮุบกิจการช่วยแก้ปัญหากลุ่มหุ้นราคาต่ำ",
+    "link": "https://www.koreaherald.com/article/10936499"
+  },
+  {
+    "id": "hotnews_th_be0cf62a",
+    "date": "2026-11-13",
+    "ts": 1794549924000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-p.v1.20261113.317d4d38d29848269bbc2483d1801145_T1.jpg",
+    "title": "สสห. Samsung Biologics เตรียมลงมติเข้า FKTU",
+    "link": "https://www.koreaherald.com/article/10936486"
+  },
+  {
+    "id": "hotnews_th_35ca890a",
+    "date": "2026-11-13",
+    "ts": 1794548994000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-p.v1.20261113.87db9e88cd7d4acb963ad2e363a80b0a_T1.jpg",
+    "title": "การลาออกจาก Nvidia ของ Jensen Huang ส่งผลต่อผู้ผลิต HBM เกาหลี",
+    "link": "https://www.koreaherald.com/article/10936449"
+  },
+  {
+    "id": "hotnews_th_a47dbca6",
+    "date": "2026-11-13",
+    "ts": 1794547820000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/13/AEN20261113004251320_01_i_P2.jpg",
+    "title": "รัฐบาลเผย Google ปฏิบัติตามข้อกำหนดความปลอดภัยแผนที่แล้ว",
+    "link": "https://en.yna.co.kr/view/AEN20261113004251320"
+  },
+  {
+    "id": "hotnews_th_1d8f1316",
+    "date": "2026-11-13",
+    "ts": 1794546852000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/13/AEN20261113004300315_01_i_P2.jpg",
+    "title": "เกาหลีใต้จี้ญี่ปุ่นยอมรับประวัติศาสตร์เหมืองซาโด",
+    "link": "https://en.yna.co.kr/view/AEN20261113004300315"
+  },
+  {
+    "id": "hotnews_th_a9d88b4b",
+    "date": "2026-11-13",
+    "ts": 1794539776000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261113090733_98_k.jpg",
+    "title": "คะแนนนิยมของอีลดลงเหลือ 39% จากข้อพิพาทร่างกฎหมายพิเศษ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205555"
+  },
+  {
     "id": "hotnews_th_f514cef6",
     "date": "2026-11-12",
     "ts": 1794514323000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111006600315_01_i_P2.jpg",
     "title": "เพลง Swim ของ BTS ติดอันดับเพลงยอดเยี่ยมปี 2026 ของ Apple Music",
     "link": "https://en.yna.co.kr/view/AEN20261111006600315"
-  },
-  {
-    "id": "hotnews_th_24401d08",
-    "date": "2026-11-10",
-    "ts": 1794334958000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111000300315_01_i_P2.jpg",
-    "title": "HRW จี้ UN ถกสิทธิมนุษยชนเกาหลีเหนือคู่ความมั่นคง",
-    "link": "https://en.yna.co.kr/view/AEN20261111000300315"
-  },
-  {
-    "id": "hotnews_th_53a995e2",
-    "date": "2026-11-10",
-    "ts": 1794328551000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/11/AEN20261111000200315_01_i_P2.jpg",
-    "title": "ผู้ชิงตำแหน่งเลขาธิการยูเอN เน้นการไกล่เกลี่ยลดตึงเครียดคาบสมุทรเกาหลี",
-    "link": "https://en.yna.co.kr/view/AEN20261111000200315"
-  },
-  {
-    "id": "hotnews_th_9c8671cd",
-    "date": "2026-11-10",
-    "ts": 1794322150000,
-    "image": "https://img.yna.co.kr/photo/cms/2020/05/06/60/PCM20200506000060990_P2.jpg",
-    "title": "สถาบันความมั่นคงทางการเงินเกาหลีใต้โดนแฮกข้อมูลรั่วไหล",
-    "link": "https://en.yna.co.kr/view/AEN20261110010651315"
-  },
-  {
-    "id": "hotnews_th_e3ad909c",
-    "date": "2026-11-10",
-    "ts": 1794318892000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110010800315_01_i_P2.jpg",
-    "title": "รัฐมนตรีต่างประเทศเกาหลีใต้และแคนาดาหารือความร่วมมือในปารีส",
-    "link": "https://en.yna.co.kr/view/AEN20261110010800315"
-  },
-  {
-    "id": "hotnews_th_56048404",
-    "date": "2026-11-10",
-    "ts": 1794314981000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/10/AEN20261110009351315_01_i_P2.jpg",
-    "title": "ปืนใหญ่อัตตาจรทหารชนรถยนต์ เสียชีวิต 1 รายในชอรวอน",
-    "link": "https://en.yna.co.kr/view/AEN20261110009351315"
-  },
-  {
-    "id": "hotnews_th_a3cf240d",
-    "date": "2026-11-10",
-    "ts": 1794304802000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102214290001300_P2.jpg",
-    "title": "ผู้ว่าแบงก์ชาติเกาหลี ชิน ฮยอน-ซอง นั่งแท่นประธานคณะกรรมการ BIS",
-    "link": "https://en.yna.co.kr/view/AEN20261110003700320"
-  },
-  {
-    "id": "hotnews_th_0bc4b62f",
-    "date": "2026-11-10",
-    "ts": 1794304144000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110064840_18_e.jpg",
-    "title": "สสหภาพแรงงาน Seoul Metro อาจหยุดงานประท้วงใหญ่",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205480"
-  },
-  {
-    "id": "hotnews_th_a0288d72",
-    "date": "2026-11-10",
-    "ts": 1794303551000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110064658_17_e.jpg",
-    "title": "คณะกรรมการการศึกษาตัดสินใจไม่ทำประชาพิจารณ์ข้อเสนอขยายเวลาเรียน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205479"
-  },
-  {
-    "id": "hotnews_th_fce8e7dd",
-    "date": "2026-11-10",
-    "ts": 1794302092000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261110043515_0_e.jpg",
-    "title": "ครม.เกาหลีกำลังผลักดันขยายภารกิจหน่วยชองแฮ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205477"
-  },
-  {
-    "id": "hotnews_th_3524259a",
-    "date": "2026-11-10",
-    "ts": 1794296223000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/98589886-0f0e-4faa-b463-c344960d5854.jpg",
-    "title": "โจเซ프 ยุนชี้การโอนย้าย OPCON อาจไม่รวดเร็วเนื่องจากวอชิงตันยังไม่มีฉันทามติ",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261110/ex-us-diplomat-says-opcon-transfer-may-not-move-rapidly-cites-no-consensus-in-washington?utm_source=rss"
   }
 ]
