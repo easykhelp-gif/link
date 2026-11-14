@@ -372,6 +372,13 @@ input[type=date],input[type=time]{min-width:0}
 /* 언어 버튼: 첫 화면 맨 위 줄 오른쪽, 결과 화면 고정 막대 오른쪽 */
 .hrow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 14px}
 .hrow .kicker{margin:0;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+a.kicker{display:inline-flex;align-items:center;gap:7px;text-decoration:none;padding:4px 13px 4px 10px;transition:background .15s}
+a.kicker:hover,a.kicker:focus-visible{background:rgba(224,189,99,.12)}
+a.kicker #kicker{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.kmini{width:14px;height:14px;flex:none}
+.kcnav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 16px}
+.kcnav a{font-size:13px;color:var(--ink2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:7px 14px;transition:border-color .15s,color .15s}
+.kcnav a:hover,.kcnav a:focus-visible{color:var(--gold);border-color:var(--gold2)}
 .lang{position:relative;flex:none}
 .lang-btn{position:relative;display:inline-flex;align-items:center;gap:5px;height:32px;padding:0 10px 0 9px;border-radius:999px;border:1px solid var(--line);background:rgba(27,34,64,.85);color:var(--ink);font:inherit;font-size:12.5px;font-weight:700;letter-spacing:.6px;cursor:pointer;transition:border-color .2s,background .2s}
 .lang-btn::after{content:'';position:absolute;inset:-6px -2px}
@@ -407,7 +414,7 @@ html:not([lang="ko"]) .kicker{letter-spacing:1px}
 <main>
 <section id="start">
   <div class="hero">
-    <div class="hrow"><span class="kicker" id="kicker"></span><div class="lslot" id="langSlot1"><div class="lang" id="lang"><button type="button" class="lang-btn" id="langBtn" aria-haspopup="menu" aria-expanded="false" aria-controls="langMenu" translate="no"><svg class="gl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9s-1.3 6.2-3.9 9c-2.6-2.8-3.9-5.8-3.9-9S9.4 5.8 12 3z"/></svg><span id="langCode">KO</span><svg class="cv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ul class="lang-menu" id="langMenu" role="menu" hidden translate="no"></ul></div></div></div>
+    <div class="hrow"><a class="kicker" id="kickerLink" href="https://www.koricare.kr/"><svg class="kmini" viewBox="14 10 80 80" aria-hidden="true"><g fill="none" stroke="currentColor"><rect x="20.5" y="14" width="18" height="72" rx="9" fill="currentColor" stroke="none"/><line x1="31" y1="46" x2="71" y2="22" stroke-width="17" stroke-linecap="round"/><rect transform="rotate(45 55.5 59)" x="40.5" y="50.5" width="30" height="17" rx="8.5" stroke-width="7"/><rect transform="rotate(45 69.5 74)" x="54.5" y="65.5" width="30" height="17" rx="8.5" stroke-width="7"/></g></svg><span id="kicker"></span></a><div class="lslot" id="langSlot1"><div class="lang" id="lang"><button type="button" class="lang-btn" id="langBtn" aria-haspopup="menu" aria-expanded="false" aria-controls="langMenu" translate="no"><svg class="gl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9s-1.3 6.2-3.9 9c-2.6-2.8-3.9-5.8-3.9-9S9.4 5.8 12 3z"/></svg><span id="langCode">KO</span><svg class="cv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ul class="lang-menu" id="langMenu" role="menu" hidden translate="no"></ul></div></div></div>
     <h1 id="h1"></h1>
     <p class="sub" id="sub"></p>
     <div class="horbs" id="horbs" aria-hidden="true"></div>
@@ -441,7 +448,7 @@ html:not([lang="ko"]) .kicker{letter-spacing:1px}
   <button class="btn ghost" id="again" type="button"></button>
 </section>
 </main>
-<footer class="copy" translate="no">© 2026 Kori Care. All rights reserved.</footer>
+<footer class="copy" translate="no"><nav class="kcnav" aria-label="Kori Care"><a id="navMain" href="https://www.koricare.kr/"></a><a id="navPortal" href="https://www.koricare.kr/link/"></a><a id="navCalc" href="https://www.koricare.kr/link/severance-calculator"></a></nav>© 2026 Kori Care. All rights reserved.</footer>
 <div id="loading" aria-live="polite"><div><div class="cards" id="ldCards"></div><div class="msg" id="ldMsg"></div></div></div>
 
 <script>/* ../../궁합계산/engine.js */
@@ -1800,6 +1807,7 @@ window.SajuLang = function ({ G, hz }) {
     lCountry: 'Country of birth', lCity2: 'City of birth',
     cityHint: 'If your city is not listed, choose the nearest one.',
     home: 'Back to the start to enter again',
+    kcHome: 'Go to Kori Care home', navMain: 'Kori Care home', navPortal: 'Useful Links', navCalc: 'Severance Pay Calculator',
     lSex: 'Gender', sex: { f: 'Female', m: 'Male' },
     lCal: 'Solar or lunar calendar', cal: { solar: 'Solar', lunar: 'Lunar' },
     lBd: 'Date of birth', lLeap: 'Leap month',
@@ -1974,6 +1982,7 @@ window.SajuLang = function ({ G, hz }) {
     lCountry: 'ประเทศที่เกิด', lCity2: 'เมืองที่เกิด',
     cityHint: 'ถ้าไม่มีเมืองของคุณ ให้เลือกเมืองที่ใกล้ที่สุด',
     home: 'กลับไปหน้าแรกเพื่อกรอกใหม่',
+    kcHome: 'ไปหน้าแรก Kori Care', navMain: 'หน้าแรก Kori Care', navPortal: 'ศูนย์รวมลิงก์สำคัญ', navCalc: 'คำนวณเงินชดเชย',
     lSex: 'เพศ', sex: { f: 'หญิง', m: 'ชาย' },
     lCal: 'ปฏิทินสากล หรือ ปฏิทินจันทรคติจีน', cal: { solar: 'สากล', lunar: 'จันทรคติจีน' },
     lBd: 'วันเกิด', lLeap: 'เดือนอธิกมาส',
@@ -2149,6 +2158,7 @@ window.SajuLang = function ({ G, hz }) {
     lCountry: 'Quốc gia nơi sinh', lCity2: 'Thành phố nơi sinh',
     cityHint: 'Nếu không có thành phố của bạn, hãy chọn thành phố gần nhất.',
     home: 'Về trang đầu để nhập lại',
+    kcHome: 'Về trang chủ Kori Care', navMain: 'Trang chủ Kori Care', navPortal: 'Cổng liên kết thiết yếu', navCalc: 'Tính trợ cấp thôi việc',
     lSex: 'Giới tính', sex: { f: 'Nữ', m: 'Nam' },
     lCal: 'Dương lịch hoặc âm lịch', cal: { solar: 'Dương lịch', lunar: 'Âm lịch' },
     lBd: 'Ngày sinh', lLeap: 'Tháng nhuận',
@@ -2347,6 +2357,7 @@ const KO = {
   lCountry: '태어난 나라', lCity2: '태어난 도시',
   cityHint: '목록에 없는 도시라면 가장 가까운 도시를 고르세요.',
   home: '처음 화면으로 가서 다시 입력하기',
+  kcHome: '코리케어 홈으로', navMain: '코리케어 소개', navPortal: '생활 정보 링크', navCalc: '퇴직금 계산기',
   lSex: '성별', sex: { f: '여자', m: '남자' },
   lCal: '양력 또는 음력', cal: { solar: '양력', lunar: '음력' },
   lBd: '태어난 날', lLeap: '윤달',
@@ -2561,7 +2572,15 @@ function fillCities() {
 function applyStatic() {
   document.title = T.brand;
   $('brand').textContent = T.bar || T.brand; // 위 고정 막대는 폭이 좁아 짧은 제목이 있으면 그것을 쓴다
-  $('home').setAttribute('aria-label', T.home); $('home').title = T.home; $('kicker').innerHTML = T.kicker; $('h1').innerHTML = T.h1; $('sub').innerHTML = T.sub;
+  $('home').setAttribute('aria-label', T.home); $('home').title = T.home; $('kicker').innerHTML = T.kicker;
+  // 코리케어 다른 곳으로 가는 길: 위 알약은 홈, 맨 아래 줄은 홈·링크 모음·계산기
+  const KC = 'https://www.koricare.kr/', KL = KC + 'link/';
+  const go = { ko: [KL + 'ko/', KL, KL + 'severance-calculator'], en: [KC, KL, KL + 'severance-calculator'],
+    th: [KC + 'th', KL + 'th/', KL + 'th/severance-calculator'], vi: [KC + 'vi', KL + 'vi/', KL + 'vi/severance-calculator'] }[lang];
+  $('kickerLink').href = go[0]; $('kickerLink').setAttribute('aria-label', T.kcHome); $('kickerLink').title = T.kcHome;
+  $('navMain').href = go[0]; $('navMain').textContent = T.navMain;
+  $('navPortal').href = go[1]; $('navPortal').textContent = T.navPortal;
+  $('navCalc').href = go[2]; $('navCalc').textContent = T.navCalc; $('h1').innerHTML = T.h1; $('sub').innerHTML = T.sub;
   $('ntHint').textContent = T.ntHint;
   $('bdHint').textContent = T.bdHint; $('bdHint').hidden = !T.bdHint;
   $('lSex').textContent = T.lSex; $('cal').setAttribute('aria-label', T.lCal); $('lOpt').textContent = T.lOpt; $('lBd').textContent = T.lBd; $('lLeap').textContent = T.lLeap;
