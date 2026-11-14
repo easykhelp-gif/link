@@ -152,12 +152,28 @@
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205571"
   },
   {
+    "id": "hotnews_en_ee4948f6",
+    "date": "2026-11-14",
+    "ts": 1794630290000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114120336_51_e.jpg",
+    "title": "S. Korea Fall to Saudi Arabia 2-3 in Football Friendly in Qatar",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205570"
+  },
+  {
     "id": "hotnews_en_666f628b",
     "date": "2026-11-14",
     "ts": 1794628088000,
     "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261016090044_11_k.jpg",
     "title": "S. Korea, Nepal Sign Framework Deal to Coordinate Climate Change Response Efforts",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205575"
+  },
+  {
+    "id": "hotnews_en_d5c7674c",
+    "date": "2026-11-14",
+    "ts": 1794627305000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114123146_18_e.jpg",
+    "title": "Trump to Meet Xi and Putin in China, but Not Kim Jong-un",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205569"
   },
   {
     "id": "hotnews_en_57e5763a",
@@ -382,21 +398,5 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/13/AEN20261113008500315_01_i_P2.jpg",
     "title": "Personal data of startup support program participants leaked in cyber attack",
     "link": "https://en.yna.co.kr/view/AEN20261113008500315"
-  },
-  {
-    "id": "hotnews_en_f8297179",
-    "date": "2026-11-13",
-    "ts": 1794560796000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-p.v1.20261113.76a7d90037e2482ba693bb2acdf71851_T1.jpg",
-    "title": "Why ruling party feud erupts into open challenge to its leader",
-    "link": "https://www.koreaherald.com/article/10936699"
-  },
-  {
-    "id": "hotnews_en_1fd03ab6",
-    "date": "2026-11-13",
-    "ts": 1794560695000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202608/260831012133_83_a.jpg",
-    "title": "SK hynix Shares Plunge More than 3% as Nvidia Fallout Continues",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205567"
   }
 ]
