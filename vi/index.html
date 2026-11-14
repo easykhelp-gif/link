@@ -154,6 +154,27 @@
     background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center;
     font-size: 14px; color: #fff; font-weight: 800; flex-shrink: 0;
   }
+  /* 계산기 + 1:1 상담 2칸. 두 칸 모두 아이콘 위, 글자 아래로 세운다 */
+  .kc-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 20px 0 16px; }
+  .kc-duo .kc-calc-card { margin: 0; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px; padding: 16px; }
+  .kc-duo .kc-calc-tx { justify-content: flex-start; }
+  .kc-duo .kc-calc-tx .sub { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .kc-duo .kc-calc-arrow { display: none; }
+  .kc-help-card { background: linear-gradient(135deg, #0b4fb3 0%, #2f7bea 100%); box-shadow: 0 8px 24px rgba(11,79,179,0.25); }
+  .kc-help-card:hover { box-shadow: 0 12px 28px rgba(11,79,179,0.35); }
+  /* 아래 3칸의 첫 칸: 한국 이름. 파란 채움 카드와 같은 틀에 은은한 금색만 바꾼다 */
+  .kc-trio-primary.kc-trio-name { background: linear-gradient(150deg, #b08a36 0%, #c9a24f 52%, #dcbc6e 100%); text-shadow: 0 1px 3px rgba(90,60,10,0.4);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 2px 6px rgba(120,90,30,0.25), 0 14px 30px -8px rgba(120,90,30,0.4); }
+  .kc-trio-primary.kc-trio-name .sub { color: #fff6e0; }
+  .kc-trio-primary.kc-trio-name .btn { color: #7a5a1a; text-shadow: none; }
+  .kc-trio-primary.kc-trio-name:hover { box-shadow: inset 0 1px 0 rgba(255,255,255,0.34), 0 3px 8px rgba(120,90,30,0.3), 0 22px 40px -10px rgba(120,90,30,0.45); }
+  @media (max-width: 600px) {
+    .kc-duo { gap: 8px; }
+    .kc-duo .kc-calc-card { padding: 14px 12px; border-radius: 14px; gap: 8px; }
+    .kc-duo .kc-calc-ic { width: 38px; height: 38px; border-radius: 12px; }
+    .kc-duo .kc-calc-tx .t { font-size: 14.5px; }
+    .kc-duo .kc-calc-tx .sub { display: none; }
+  }
   
 /* 계산기 카드 아래 3칸.
      1칸은 코리케어 서비스(파란 채움), 2·3칸은 제휴 자리(흰 카드)로 나눈다.
@@ -305,7 +326,7 @@
 
 <header>
   <div class="wrap hrow">
-    <a href="https://www.koricare.kr/link/vi/" class="logo">
+    <a href="https://www.koricare.kr/vi" class="logo">
       <img src="https://www.koricare.kr/link/koricare_main_logo_nobg.webp" alt="Kori Care Logo" class="logo-img">
       <div class="logo-text">
         <b>Kori Care</b>
@@ -353,6 +374,7 @@
 
 <div class="wrap">
   <!-- Severance Pay Calculator Card -->
+  <div class="kc-duo">
   <a class="kc-calc-card" href="severance-calculator">
     <span class="kc-calc-ic">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -371,16 +393,31 @@
     </span>
     <span class="kc-calc-arrow">➔</span>
   </a>
+  <a class="kc-calc-card kc-help-card" href="https://m.me/theokoricare" target="_blank" rel="noopener">
+    <span class="kc-calc-ic">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z" />
+        <line x1="8.5" y1="10.5" x2="15.5" y2="10.5" />
+        <line x1="8.5" y1="14" x2="13" y2="14" />
+      </svg>
+    </span>
+    <span class="kc-calc-tx">
+      <span class="t">Tư vấn Kori Care 1:1</span>
+      <span class="sub">Visa, quyền lao động, pháp luật — hỏi trực tiếp</span>
+    </span>
+    <span class="kc-calc-arrow">➔</span>
+  </a>
+  </div>
 
   <!-- 3칸: 코리케어 상담 · 디렉토리 · 제휴 자리
        Ô tìm kiếm dịch vụ cũ đã bỏ. Danh bạ bên dưới có tìm kiếm riêng.
        원래 있던 서비스 검색창은 정부·서비스 링크 44건만 뒤졌다.
        바로 아래 로컬 디렉토리가 훨씬 큰 목록을 검색한다. -->
   <div class="kc-trio">
-    <a class="kc-trio-card kc-trio-primary" href="https://m.me/theokoricare" target="_blank" rel="noopener">
-      <span class="t">Tư vấn Kori Care 1:1</span>
-      <span class="sub">Visa, quyền lao động, pháp luật — hỏi trực tiếp</span>
-      <span class="btn"><span class="lb">Bắt đầu chat</span>➔</span>
+    <a class="kc-trio-card kc-trio-primary kc-trio-name" href="korean-name/?ref=portal">
+      <span class="t">Tên Hàn của bạn</span>
+      <span class="sub">Tên đẹp hợp mệnh, theo Tứ trụ của bạn</span>
+      <span class="btn"><span class="lb">Nhận tên của tôi</span>➔</span>
     </a>
     <a class="kc-trio-card kc-trio-slot" href="#localDirectory">
       <span class="t">Bệnh viện / nhà thuốc</span>
