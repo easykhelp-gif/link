@@ -502,13 +502,13 @@ async function writeAngle(ai, item, langName) {
 
 // 화면 문구
 const NEWS_UI = {
-  en: { summary: 'Summary', source: 'Original report',
+  en: { summary: 'Summary', source: 'Original report', by: 'Summarized by Kori Care',
         cta: 'Visa, labour rights, or legal trouble in Korea? Talk to a specialist.',
         btn: 'Kori Care 1:1 Help', back: 'Back to Kori Care' },
-  th: { summary: 'สรุปข่าว', source: 'ข่าวต้นฉบับ',
+  th: { summary: 'สรุปข่าว', source: 'ข่าวต้นฉบับ', by: 'สรุปโดย Kori Care',
         cta: 'มีปัญหาเรื่องวีซ่า สิทธิแรงงาน หรือกฎหมายในเกาหลี? ปรึกษาผู้เชี่ยวชาญ',
         btn: 'Kori Care ปรึกษา 1:1', back: 'กลับสู่ Kori Care' },
-  vi: { summary: 'Tóm tắt', source: 'Bài gốc',
+  vi: { summary: 'Tóm tắt', source: 'Bài gốc', by: 'Kori Care tóm tắt',
         cta: 'Gặp vấn đề về visa, quyền lao động hay pháp lý ở Hàn Quốc? Hỏi chuyên gia.',
         btn: 'Kori Care Hỗ trợ 1:1', back: 'Quay lại Kori Care' }
 };
@@ -622,6 +622,7 @@ function buildArticleHtml(newsItem, lang) {
 
   .back-btn-minimal { display: flex; align-items: center; justify-content: center; font-size: 13.5px; font-weight: 600; color: #475569; background: #ffffff; border: 1px solid var(--line); padding: 13px; border-radius: 999px; margin-top: 20px; transition: all 0.2s; }
   .back-btn-minimal:hover { color: var(--navy); border-color: #c7d7f5; }
+  .copy { margin-top: 22px; text-align: center; font-size: 11.5px; color: #94a3b8; }
 
   @media (max-width: 600px) {
     .post-card { padding: 22px 18px; border-radius: 16px; }
@@ -656,12 +657,13 @@ function buildArticleHtml(newsItem, lang) {
 
     ${newsItem.angle ? `<p class="angle">${escapeHtml(newsItem.angle)}</p>` : ''}
 
-    <p class="src-note"><a href="${safeUrl(newsItem.link)}" target="_blank" rel="nofollow noopener">${escapeHtml(t.source)}</a></p>
+    <p class="src-note">${escapeHtml(t.by)} · <a href="${safeUrl(newsItem.link)}" target="_blank" rel="nofollow noopener">${escapeHtml(t.source)}</a></p>
 
     ${bannerHtml}
   </article>
 
   <a href="${backHref}" class="back-btn-minimal">${escapeHtml(t.back)}</a>
+  <p class="copy">© ${dateStr.slice(0, 4)} Kori Care. All rights reserved.</p>
 </main>
 </body>
 </html>`;
