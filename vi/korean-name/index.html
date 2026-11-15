@@ -93,6 +93,7 @@ input:focus,select:focus,.seg button:focus-visible{outline:2px solid var(--gold)
 .seg button{font:inherit;font-size:16px;font-weight:700;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink2);cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--gold);color:#1d1a12;border-color:var(--gold)}
 .chk{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink2)}
+.chk[hidden]{display:none}
 .chk input{width:18px;height:18px}
 .inline{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
 .err{color:#ff9b8a;font-size:14px;min-height:1.2em}
@@ -238,7 +239,12 @@ form .seg button[aria-pressed="true"]{font-weight:900}
 .opt{font-size:11px;font-weight:700;color:var(--ink2);border:1px solid var(--line);border-radius:999px;padding:0 8px;margin-left:4px;vertical-align:1px}
 .exl{margin:14px 0 -4px}
 .exl span{font-size:11.5px;font-weight:700;letter-spacing:1px;color:var(--gold);border:1px solid var(--gold2);border-radius:999px;padding:1px 10px}
-input[type=date],input[type=time]{min-width:0}
+/* 생년월일·시각: 고르기 상자. 날짜는 연·월·일 세 칸, 시각은 시·분 두 칸 */
+.row2.dt{grid-template-columns:1fr}
+.dsel{display:grid;grid-template-columns:1.5fr 1.2fr 1fr;gap:8px}
+.dsel.t{grid-template-columns:1fr 1fr}
+.dsel select{min-width:0;padding:12px 8px}
+.dsel select:disabled{opacity:.45}
 /* 생일에서 이름까지 */
 .blk{margin:56px 0 0}
 .lead{font-size:15.5px;color:var(--ink2);line-height:1.8;margin:0 0 4px}
@@ -421,9 +427,9 @@ html:not([lang="ko"]) .kicker{letter-spacing:1px}
   </div>
   <form id="f" autocomplete="off" novalidate>
     <div class="row"><span class="l" id="lSex"></span><div class="seg" role="group" id="sex"><button type="button" data-v="f"></button><button type="button" data-v="m"></button></div></div>
-    <div class="row2">
-      <div class="row"><div class="lh" id="lhBd"><label class="l" for="bd" id="lBd"></label><div class="seg mini" role="group" id="cal"><button type="button" data-v="solar" aria-pressed="true"></button><button type="button" data-v="lunar" aria-pressed="false"></button></div></div><input type="date" id="bd" min="1900-01-01" max="2100-12-31"><div class="callow" id="calLow" hidden></div><label class="chk" id="leapWrap" hidden><input type="checkbox" id="leap"> <span id="lLeap"></span></label></div>
-      <div class="row"><label class="l" for="bt" id="lBt"></label><input type="time" id="bt" value="12:00"><label class="chk"><input type="checkbox" id="nt"> <span id="lNt"></span></label></div>
+    <div class="row2 dt">
+      <div class="row"><div class="lh" id="lhBd"><label class="l" for="bdY" id="lBd"></label><div class="seg mini" role="group" id="cal"><button type="button" data-v="solar" aria-pressed="true"></button><button type="button" data-v="lunar" aria-pressed="false"></button></div></div><input type="hidden" id="bd"><div class="dsel"><select id="bdY"></select><select id="bdM"></select><select id="bdD"></select></div><div class="callow" id="calLow" hidden></div><label class="chk" id="leapWrap" hidden><input type="checkbox" id="leap"> <span id="lLeap"></span></label></div>
+      <div class="row"><label class="l" for="btH" id="lBt"></label><input type="hidden" id="bt" value="12:00"><div class="dsel t"><select id="btH"></select><select id="btMi"></select></div><label class="chk"><input type="checkbox" id="nt"> <span id="lNt"></span></label></div>
     </div>
     <p class="tiny" id="ntHint" hidden style="margin:-6px 0 0"></p>
     <p class="tiny" id="bdHint" hidden style="margin:-6px 0 0"></p>
@@ -1978,7 +1984,7 @@ window.SajuLang = function ({ G, hz }) {
     srcPre: 'ที่มา: สารานุกรมวัฒนธรรมเกาหลี',
     endP: 'รับชื่อเกาหลีที่ตั้งจากวันและเวลาเกิดของคุณ',
     ntHint: 'ถ้าไม่ทราบเวลาเกิด จะอ่านซาจูจากปี เดือน และวันเท่านั้น และยังได้ชื่อ 3 ชื่อเหมือนเดิม',
-    bdHint: 'กรอกปี ค.ศ. ถ้ากรอกปี พ.ศ. ระบบจะแปลงให้เอง',
+    bdHint: '',
     lCountry: 'ประเทศที่เกิด', lCity2: 'เมืองที่เกิด',
     cityHint: 'ถ้าไม่มีเมืองของคุณ ให้เลือกเมืองที่ใกล้ที่สุด',
     home: 'กลับไปหน้าแรกเพื่อกรอกใหม่',
@@ -2584,6 +2590,7 @@ function applyStatic() {
   $('ntHint').textContent = T.ntHint;
   $('bdHint').textContent = T.bdHint; $('bdHint').hidden = !T.bdHint;
   $('lSex').textContent = T.lSex; $('cal').setAttribute('aria-label', T.lCal); $('lOpt').textContent = T.lOpt; $('lBd').textContent = T.lBd; $('lLeap').textContent = T.lLeap;
+  fillDT();
   $('lBt').textContent = T.lBt; $('lNt').textContent = T.lNt; $('lCountry').textContent = T.lCountry; $('lCity').textContent = T.lCity2; $('cityHint').textContent = T.cityHint; $('lSn').textContent = T.lSn;
   $('go').textContent = T.go; $('again').textContent = T.again; $('privacy').textContent = T.privacy;
   document.querySelectorAll('#sex button').forEach((b) => { b.textContent = T.sex[b.dataset.v]; });
@@ -2668,6 +2675,47 @@ function buildIntro(now) {
   reveal($('start'), now);
 }
 
+/* 생년월일·시각 고르기 상자. 휴대폰 날짜 칸은 휴대폰 언어로만 보이고 아이폰에서 칸이 어긋나서,
+   고른 언어로 글자를 직접 단다. 계산은 숨은 칸 bd(YYYY-MM-DD)·bt(HH:MM)을 그대로 읽는다 */
+const pad2 = (n) => String(n).padStart(2, '0');
+const MON_EN = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MON_TH = ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'];
+const DT = {
+  ko: { y: '연도', m: '월', d: '일', h: '시', mi: '분', yl: (y) => `${y}년`, ml: (m) => `${m}월`, dl: (d) => `${d}일`,
+    hl: (h) => `${h < 12 ? '오전' : '오후'} ${h % 12 || 12}시`, mil: (m) => `${pad2(m)}분` },
+  en: { y: 'Year', m: 'Month', d: 'Day', h: 'Hour', mi: 'Minute', yl: (y) => `${y}`, ml: (m, lunar) => (lunar ? `Month ${m}` : MON_EN[m - 1]), dl: (d) => `${d}`,
+    hl: (h) => `${h % 12 || 12} ${h < 12 ? 'AM' : 'PM'}`, mil: (m) => `${pad2(m)} min` },
+  // 태국은 불기를 많이 쓴다: 서기와 불기(서기+543)를 같이 보여 준다
+  th: { y: 'ปี', m: 'เดือน', d: 'วัน', h: 'ชั่วโมง', mi: 'นาที', yl: (y) => `${y} / ${y + 543}`, ml: (m, lunar) => (lunar ? `เดือน ${m}` : MON_TH[m - 1]), dl: (d) => `${d}`,
+    hl: (h) => `${h} นาฬิกา`, mil: (m) => `${pad2(m)} นาที` },
+  // 베트남은 날짜를 숫자로 적는다(07/03/1990). 칸 이름이 "Tháng"이라 숫자만 둔다
+  vi: { y: 'Năm', m: 'Tháng', d: 'Ngày', h: 'Giờ', mi: 'Phút', yl: (y) => `${y}`, ml: (m) => `${m}`, dl: (d) => `${d}`,
+    hl: (h) => `${h} giờ`, mil: (m) => `${pad2(m)} phút` },
+};
+function syncDT() {
+  const y = +$('bdY').value, m = +$('bdM').value, d = +$('bdD').value;
+  $('bd').value = y && m && d ? `${y}-${pad2(m)}-${pad2(d)}` : '';
+  $('bt').value = `${pad2(+$('btH').value)}:${pad2(+$('btMi').value)}`;
+}
+function fillDT() {
+  const L = DT[lang] || DT.en, lunar = cal === 'lunar';
+  const keep = { y: $('bdY').value, m: $('bdM').value, d: $('bdD').value, h: $('btH').value, mi: $('btMi').value };
+  const opts = (el, ph, list, val) => {
+    el.innerHTML = (ph ? `<option value="">${esc(ph)}</option>` : '') + list.map(([v, t]) => `<option value="${v}">${esc(t)}</option>`).join('');
+    if (val !== '' && [...el.options].some((o) => o.value === String(val))) el.value = String(val);
+  };
+  const ys = []; for (let y = new Date().getFullYear() + 1; y >= 1900; y--) ys.push([y, L.yl(y)]);
+  opts($('bdY'), L.y, ys, keep.y);
+  opts($('bdM'), L.m, Array.from({ length: 12 }, (_, i) => [i + 1, L.ml(i + 1, lunar)]), keep.m);
+  const y = +$('bdY').value, m = +$('bdM').value;
+  const nd = lunar ? 30 : y && m ? new Date(y, m, 0).getDate() : 31;
+  opts($('bdD'), L.d, Array.from({ length: nd }, (_, i) => [i + 1, L.dl(i + 1)]), keep.d && +keep.d > nd ? nd : keep.d);
+  opts($('btH'), '', Array.from({ length: 24 }, (_, h) => [h, L.hl(h)]), keep.h || 12);
+  opts($('btMi'), '', Array.from({ length: 60 }, (_, i) => [i, L.mil(i)]), keep.mi || 0);
+  [['bdY', L.y], ['bdM', L.m], ['bdD', L.d], ['btH', L.h], ['btMi', L.mi]].forEach(([id, t]) => $(id).setAttribute('aria-label', t));
+  syncDT();
+}
+
 let sex = null, cal = 'solar', lastOut = null;
 const seg = (id, set) => document.querySelectorAll(`#${id} button`).forEach((b) => b.addEventListener('click', () => {
   document.querySelectorAll(`#${id} button`).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
@@ -2676,8 +2724,10 @@ const seg = (id, set) => document.querySelectorAll(`#${id} button`).forEach((b) 
 // 성별을 고르기 전에는 버튼이 흐리고, 눌러도 결과가 나오지 않는다
 $('go').classList.add('off');
 seg('sex', (v) => { sex = v; $('go').classList.remove('off'); $('err').textContent = ''; });
-seg('cal', (v) => { cal = v; $('leapWrap').hidden = v !== 'lunar'; });
-$('nt').addEventListener('change', () => { $('bt').disabled = $('nt').checked; $('ntHint').hidden = !$('nt').checked; });
+seg('cal', (v) => { cal = v; $('leapWrap').hidden = v !== 'lunar'; fillDT(); });
+$('nt').addEventListener('change', () => { $('btH').disabled = $('btMi').disabled = $('nt').checked; $('ntHint').hidden = !$('nt').checked; });
+['bdY', 'bdM'].forEach((id) => $(id).addEventListener('change', fillDT));
+['bdD', 'btH', 'btMi'].forEach((id) => $(id).addEventListener('change', syncDT));
 
 /* ───────── 계산 ───────── */
 function compute() {
