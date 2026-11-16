@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_e9022184",
+    "date": "2026-11-16",
+    "ts": 1794867723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/15/e7de7619-1a1c-4bbd-94ac-743fe66d545e.jpg",
+    "title": "ม.ชนนัมเตรียมปั้นบุคลากรรับคลัสเตอร์เซมิคอนดักเตอร์ที่ 2",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/chonnam-national-university-positions-itself-as-key-partner-in-koreas-2nd-semiconductor-cluster?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_800ec1a7",
+    "date": "2026-11-16",
+    "ts": 1794867723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/13/628b912c-1266-4fbd-9d6c-a39eabbc6e23.png",
+    "title": "งานประชุม THE Innovation & Impact Summit 2026 เริ่มแล้วที่เกาหลี",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/the-innovation-impact-summit-2026-to-explore-higher-educations-role-in-driving-innovation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_beb195e8",
+    "date": "2026-11-16",
+    "ts": 1794867723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/14/5756bf24-919a-4cba-b50e-d6cf8e5697e5.jpg",
+    "title": "ม.อินชอนดันงานวิจัยสู่การค้าและการศึกษา AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/inu-spurs-research-innovation-commercialization?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_efb64195",
+    "date": "2026-11-16",
+    "ts": 1794867723000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/16/ada078f3-4655-4275-aca5-3ddfadf452f8.jpg",
+    "title": "ม.เกาหลีเด่นภาคอุตสาหกรรมแต่ยังอ่อนความร่วมมือระดับโลก",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/korean-universities-lead-in-industry-ties-lag-in-global-collaboration-the?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c6909a7c",
+    "date": "2026-11-16",
+    "ts": 1794866586000,
+    "image": "",
+    "title": "ผู้สอบบัญชีภาษีอากรรับสารภาพโกงสอบด้วย AI รัฐเร่งหามาตรการป้องกัน",
+    "link": "https://en.yna.co.kr/view/AEN20261117000500315"
+  },
+  {
+    "id": "hotnews_th_8d946334",
+    "date": "2026-11-16",
+    "ts": 1794866574000,
+    "image": "",
+    "title": "ผู้สอบบัญชีรับอนุญาตสารภาพใช้ AI และกล้องจิ๋วโกงข้อสอบ",
+    "link": "https://en.yna.co.kr/view/AEN20261117000400315"
+  },
+  {
+    "id": "hotnews_th_22c3bf52",
+    "date": "2026-11-16",
+    "ts": 1794841326000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116010000315_01_i_P2.jpg",
+    "title": "ทรัมป์เผยอาจพบกับ คิม จองอุน ระหว่างเยือนจีน",
+    "link": "https://en.yna.co.kr/view/AEN20261116010000315"
+  },
+  {
+    "id": "hotnews_th_36f1176f",
+    "date": "2026-11-16",
+    "ts": 1794837125000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116009651315_02_i_P2.jpg",
+    "title": "เจนนี่ BLACKPINK และศิลปินกลุ่ม K-pop มีชื่อเข้าชิงรางวัล Grammy Awards",
+    "link": "https://en.yna.co.kr/view/AEN20261116009651315"
+  },
+  {
+    "id": "hotnews_th_0d7ff8b0",
+    "date": "2026-11-16",
+    "ts": 1794835261000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/16/news-p.v1.20261116.532438c13f8a40a896b042eafa53f412_T1.jpg",
+    "title": "วง Riize และ Plave จะปล่อยซิงเกิลร่วมกันชื่อ Lowkey วันที่ 30 พ.ย.นี้",
+    "link": "https://www.koreaherald.com/article/10939050"
+  },
+  {
+    "id": "hotnews_th_44866be2",
+    "date": "2026-11-16",
+    "ts": 1794820166000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090417570005500_P2.jpg",
+    "title": "จังหวัดช็อลลาเหนือจะเสนอตัวเป็นเจ้าภาพกีฬาโอลิมปิกปี 2036 เพียงลำพัง",
+    "link": "https://en.yna.co.kr/view/AEN20261116008900315"
+  },
+  {
     "id": "hotnews_th_cbe433a3",
     "date": "2026-11-16",
     "ts": 1794812523000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/12/a9a226b9-0ff1-49c5-a179-0715768905cb.jpg",
     "title": "เกาหลีใต้เร่งดูแลและบันทึกเรื่องราวทหารผ่านศึก",
     "link": "https://www.koreatimes.co.kr/southkorea/defense/20261114/with-only-20000-korean-war-veterans-still-alive-govt-steps-up-efforts-to-preserve-their-stories?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_df7f76eb",
-    "date": "2026-11-14",
-    "ts": 1794639123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/8585f8b9-e58c-43f7-8032-f8c874a0f981.jpg",
-    "title": "ทหารผ่านศึกเกาหลีเยือนค่ายฮัมฟรีส์ในรอบ 70 ปี",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261114/cover-story-it-feels-like-coming-home-korean-war-veterans-revisit-us-army-base-after-70-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_d19767e7",
-    "date": "2026-11-14",
-    "ts": 1794638559000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114033113_84_e.jpg",
-    "title": "พรรค PPP จัดชุมนุมที่ปูซานคัดค้านร่างกฎหมายแต่งตั้งที่ปรึกษาพิเศษ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205574"
-  },
-  {
-    "id": "hotnews_th_bebedfde",
-    "date": "2026-11-14",
-    "ts": 1794638453000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114033903_11_e.jpg",
-    "title": "พรรคประชาธิปไตยวิจารณ์การชุมนุมของพรรคพลังประชาชน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205576"
-  },
-  {
-    "id": "hotnews_th_f35cf711",
-    "date": "2026-11-14",
-    "ts": 1794637664000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114115859_52_e.jpg",
-    "title": "KBS เตรียมออกอากาศซีรีส์ใหม่เรื่อง มุนมู (Munmu) วันเสาร์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205573"
-  },
-  {
-    "id": "hotnews_th_534c8237",
-    "date": "2026-11-14",
-    "ts": 1794635344000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260915111816_46_k.jpg",
-    "title": "เที่ยวบินไปสหรัฐฯ กลับมาบินปกติหลังยกเลิกคำสั่งระงับฉุกเฉิน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205572"
-  },
-  {
-    "id": "hotnews_th_33e25092",
-    "date": "2026-11-14",
-    "ts": 1794634040000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.7f5f4c49868a435fa627f7ce088e631d_T1.jpg",
-    "title": "ฤดูกาลทำกิมจิเริ่มต้นขึ้นแล้วพร้อมเทศกาลที่อิมซิล",
-    "link": "https://www.koreaherald.com/article/10937014"
-  },
-  {
-    "id": "hotnews_th_b017d730",
-    "date": "2026-11-14",
-    "ts": 1794632401000,
-    "image": "",
-    "title": "เหตุการณ์สำคัญในประวัติศาสตร์เกาหลีวันนี้",
-    "link": "https://en.yna.co.kr/view/AEN20261114001000315"
-  },
-  {
-    "id": "hotnews_th_7e0fa6c9",
-    "date": "2026-11-14",
-    "ts": 1794631870000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114020029_42_e.jpg",
-    "title": "ฝนตกทั่วประเทศจะเริ่มเบาลงตั้งแต่ช่วงค่ำวันเสาร์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205571"
-  },
-  {
-    "id": "hotnews_th_666f628b",
-    "date": "2026-11-14",
-    "ts": 1794628088000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261016090044_11_k.jpg",
-    "title": "เกาหลีใต้และเนปาลลงนามข้อตกลงร่วมมือด้านการเปลี่ยนแปลงสภาพภูมิอากาศ",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205575"
-  },
-  {
-    "id": "hotnews_th_d5c7674c",
-    "date": "2026-11-14",
-    "ts": 1794627305000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114123146_18_e.jpg",
-    "title": "ทรัมป์เตรียมพบสีจิ้นผิงและปูตินที่จีนแต่ไม่พบกับคิมจองอุน",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205569"
   }
 ]
