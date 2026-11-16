@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_cbe433a3",
+    "date": "2026-11-16",
+    "ts": 1794812523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/16/17abfac3-de20-4587-a004-476e79de2040.jpg",
+    "title": "Cảnh sát điều tra công ty nhượng quyền Myeong Ryun Dang",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261116/major-crimes-units-seoul-office-raids-restaurant-franchisor-in-1st-search-operation?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_75d3b8cc",
+    "date": "2026-11-16",
+    "ts": 1794812523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/16/3392d58d-bac8-43e3-a359-36719cfe5a5e.jpeg",
+    "title": "Ảo thuật gia Jiwan Kim biểu diễn \"Beyond Belief\" vào thứ Bảy",
+    "link": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261116/magician-weaves-mind-reading-b-boying-gayageum-together?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_8a3e4462",
+    "date": "2026-11-16",
+    "ts": 1794812523000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/16/5377f6ce-c6e9-47ec-ba32-8cb5dbada8da.jpg",
+    "title": "Quốc hội Hàn Quốc thúc đẩy sửa đổi Hiến pháp nhiệm kỳ tổng thống",
+    "link": "https://www.koreatimes.co.kr/southkorea/politics/20261116/assembly-to-lead-constitutional-amendment-speaker-rules-out-lees-reelection?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_320b8765",
+    "date": "2026-11-16",
+    "ts": 1794811531000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/16/news-p.v1.20261116.ece7391f2df54c728c4d2b9ca498405b_T1.jpg",
+    "title": "BTS thắng lớn 6 giải tại Melon Music Awards 2026",
+    "link": "https://www.koreaherald.com/article/10938797"
+  },
+  {
+    "id": "hotnews_vi_92bf90aa",
+    "date": "2026-11-16",
+    "ts": 1794810877000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261116032203_23_e.jpg",
+    "title": "Chính phủ yêu cầu nộp thiết bị thông minh tại điểm thi CSAT",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205602"
+  },
+  {
+    "id": "hotnews_vi_d39d1ce7",
+    "date": "2026-11-16",
+    "ts": 1794810040000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116005551315_02_i_P2.jpg",
+    "title": "Hàn Quốc siết chặt gian lận thi cử bằng AI trước kỳ thi Suneung",
+    "link": "https://en.yna.co.kr/view/AEN20261116005551315"
+  },
+  {
+    "id": "hotnews_vi_59dd45e6",
+    "date": "2026-11-16",
+    "ts": 1794809464000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022022425_76_k.jpg",
+    "title": "Tỷ lệ sở hữu nhà tại Hàn Quốc đạt mức cao kỷ lục 57,6%",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205599"
+  },
+  {
+    "id": "hotnews_vi_06b07116",
+    "date": "2026-11-16",
+    "ts": 1794807725000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2025/09/30/PYH2025093006330031500_P2.jpg",
+    "title": "Tòa tối cao tuyên án cựu Thủ tướng Han Duck-soo vào thứ Năm",
+    "link": "https://en.yna.co.kr/view/AEN20261116002952315"
+  },
+  {
+    "id": "hotnews_vi_d8b71a27",
+    "date": "2026-11-16",
+    "ts": 1794807711000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/16/news-p.v1.20261116.619551f546f24c89b9afa334be16e4d4_T1.jpg",
+    "title": "Khoảng cách lương và năng suất tại Hàn Quốc ngày càng rộng",
+    "link": "https://www.koreaherald.com/article/10938715"
+  },
+  {
+    "id": "hotnews_vi_c64e8fb2",
+    "date": "2026-11-16",
+    "ts": 1794805081000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116000853315_03_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung đến Manila dự hội nghị cấp cao ASEAN",
+    "link": "https://en.yna.co.kr/view/AEN20261116000853315"
+  },
+  {
     "id": "hotnews_vi_1f6bd4e0",
     "date": "2026-11-15",
     "ts": 1794748834000,
@@ -318,85 +398,5 @@
     "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261114123146_18_e.jpg",
     "title": "Trump gặp Tập Cận Bình và Putin ở Trung Quốc",
     "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205569"
-  },
-  {
-    "id": "hotnews_vi_57e5763a",
-    "date": "2026-11-14",
-    "ts": 1794625499000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.7ca5fdcbdf1841f697ddafcd5520bba3_T1.jpg",
-    "title": "Microsoft xin lỗi vì sự cố gián đoạn dịch vụ toàn cầu",
-    "link": "https://www.koreaherald.com/article/10936977"
-  },
-  {
-    "id": "hotnews_vi_7b4f0eb8",
-    "date": "2026-11-14",
-    "ts": 1794621913000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.018be81135144b9684ea672c24a26002_T1.png",
-    "title": "Diễn viên Ko Kyung-pyo bị điều tra vì lái xe khi say rượu",
-    "link": "https://www.koreaherald.com/article/10936946"
-  },
-  {
-    "id": "hotnews_vi_a4b1686f",
-    "date": "2026-11-14",
-    "ts": 1794621370000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.1b38c2c5eac44f4b8cd3c8606631b702_T1.jpg",
-    "title": "Trump gặp Tập Cận Bình và Putin vào tuần tới",
-    "link": "https://www.koreaherald.com/article/10936945"
-  },
-  {
-    "id": "hotnews_vi_334b1860",
-    "date": "2026-11-14",
-    "ts": 1794620336000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/14/AEN20261114001200315_01_i_P2.jpg",
-    "title": "Diễn viên Ko Kyung-pyo bị bắt vì lái xe khi say rượu",
-    "link": "https://en.yna.co.kr/view/AEN20261114001200315"
-  },
-  {
-    "id": "hotnews_vi_292c84b9",
-    "date": "2026-11-14",
-    "ts": 1794620174000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.632e23ce999c4ba9b39f95d54f071859_T1.jpg",
-    "title": "Lệnh dừng bay tại Mỹ làm chậm chuyến từ sân bay Incheon",
-    "link": "https://www.koreaherald.com/article/10936928"
-  },
-  {
-    "id": "hotnews_vi_96eb0221",
-    "date": "2026-11-14",
-    "ts": 1794619802000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/14/AEN20261114001151315_01_i_P2.jpg",
-    "title": "Trump sắp gặp Tập Cận Bình và Putin, chưa rõ kế hoạch với Triều Tiên",
-    "link": "https://en.yna.co.kr/view/AEN20261114001151315"
-  },
-  {
-    "id": "hotnews_vi_ab141544",
-    "date": "2026-11-14",
-    "ts": 1794619358000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261114.208d5bb9d4ee44fbbe20b753dd791902_T1.png",
-    "title": "Mỹ tạm dừng toàn bộ chuyến bay do lỗi liên lạc",
-    "link": "https://www.koreaherald.com/article/10936914"
-  },
-  {
-    "id": "hotnews_vi_1407c247",
-    "date": "2026-11-13",
-    "ts": 1794595964000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111400340001300_P2.jpg",
-    "title": "Đội tuyển bóng đá Hàn Quốc thua 3-2 trước Saudi Arabia",
-    "link": "https://en.yna.co.kr/view/AEN20261114000451315"
-  },
-  {
-    "id": "hotnews_vi_a998fc1a",
-    "date": "2026-11-13",
-    "ts": 1794594171000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111400640001300_P2.jpg",
-    "title": "Son Heung-min tiếc nuối sau trận thua Saudi Arabia",
-    "link": "https://en.yna.co.kr/view/AEN20261114000700315"
-  },
-  {
-    "id": "hotnews_vi_7c9d0a31",
-    "date": "2026-11-13",
-    "ts": 1794592423000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111400790001300_P2.jpg",
-    "title": "HLV Robert Moreno thừa nhận tuyển Hàn Quốc cần cải thiện toàn diện",
-    "link": "https://en.yna.co.kr/view/AEN20261114000500315"
   }
 ]
