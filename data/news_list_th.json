@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_7ebf8482",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/9435d653-3dc0-47a1-b3f7-49fd9c5a26f5.jpg",
+    "title": "ครูและนักเรียนกังวลการโกงข้อสอบ CSAT ด้วย AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261117/how-could-we-possibly-detect-them-teachers-fear-ai-cheating-students-urge-tougher-checks?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_3eb3bdc9",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/8359a22c-5256-4a68-bb2f-5e8395b0fd33.jpeg",
+    "title": "มินฮีจินปฏิเสธหนุนนิวจีนส์ยกเลิกสัญญาหลังตำรวจส่งอัยการ",
+    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261117/min-hee-jin-denies-influencing-newjeans-contract-termination-after-police-refer-breach-of-trust-case-to-prosecutors?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_5884f826",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/0c3a4ecb-f440-4423-b65b-5b45c2c9216a.jpg",
+    "title": "งานประชุม THE Summit 2026 ผลักดันมหาวิทยาลัยเกาหลีเปลี่ยนงานวิจัยเป็นธุรกิจ",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/the-summit-calls-on-universities-to-bring-research-discoveries-to-market?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e7985892",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/9a85e737-4b0a-4c25-9771-9dc4f13aca60.jpeg",
+    "title": "เกาหลีใต้สั่งงดเที่ยวบิน 35 นาทีช่วงสอบ CSAT วันพฤหัสบดีนี้",
+    "link": "https://www.koreatimes.co.kr/southkorea/others/20261117/korea-to-ground-flights-for-35-minutes-during-csat-english-test-thursday?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_c2c0c244",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/e9e4d34a-497f-4b51-b7fb-ea7856e76419.jpeg",
+    "title": "ผู้บริหารมหาวิทยาลัยเกาหลีชี้งานวิจัยต้องสร้างผลลัพธ์จริง",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/impact-begins-where-paper-ends-korean-university-execs-say?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_1aebd0d6",
+    "date": "2026-11-17",
+    "ts": 1794903423000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/96467ca0-bcf0-47b1-9c7e-f8714228c755.jpeg",
+    "title": "ม.เซจองคว้าอันดับ 1 ของเกาหลีใต้ด้านงานวิจัยอ้างอิงสูง",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/sejong-university-ranks-no-1-in-korea-for-top-10-most-cited-papers?utm_source=rss"
+  },
+  {
+    "id": "hotnews_th_e85a6de2",
+    "date": "2026-11-17",
+    "ts": 1794901419000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022100321_6_k.jpg",
+    "title": "ธนาคารกลางเกาหลีเผย AI ช่วยลดเวลาทำงานลง 3.7 ชั่วโมง",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205635"
+  },
+  {
+    "id": "hotnews_th_51d01c14",
+    "date": "2026-11-17",
+    "ts": 1794899162000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111712000001301_P2.jpg",
+    "title": "IMF ปรับเพิ่มคาดการณ์เศรษฐกิจเกาหลีใต้ปี 2026 สู่ระดับ 3.9%",
+    "link": "https://en.yna.co.kr/view/AEN20261117005651320"
+  },
+  {
+    "id": "hotnews_th_ab827201",
+    "date": "2026-11-17",
+    "ts": 1794897095000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/news-p.v1.20261117.2e97ad15efab43b8a81bce7bf4716df2_T1.jpg",
+    "title": "เจนนี่สร้างความหวังใหม่ให้ K-pop ลุ้นรางวัลแกรมปี 2027",
+    "link": "https://www.koreaherald.com/article/10940044"
+  },
+  {
+    "id": "hotnews_th_8793c4db",
+    "date": "2026-11-17",
+    "ts": 1794896545000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/rcv.YNA.20261117.PYH2026111709550001300_T1.jpg",
+    "title": "รัฐบาลเกาหลีใต้คุมเข้ม ป้องกันการโกงข้อสอบซูนึงด้วย AI",
+    "link": "https://www.koreaherald.com/article/10940033"
+  },
+  {
     "id": "hotnews_th_e9022184",
     "date": "2026-11-16",
     "ts": 1794867723000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/15/PYH2026111500860004200_P2.jpg",
     "title": "โช ยอง-วอน ผู้ช่วยคิม จองอึน เยือนรัสเซียกระชับสัมพันธ์",
     "link": "https://en.yna.co.kr/view/AEN20261115000600315"
-  },
-  {
-    "id": "hotnews_th_bd057857",
-    "date": "2026-11-14",
-    "ts": 1794680523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/10/894c6677-d3f1-4571-8b3d-41dab0ab6a31.jpeg",
-    "title": "ติวเตอร์ดังจวกคurriculum เตรียมสอบแพทย์เด็ก 4 ขวบคือการทารุณกรรม",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261115/medical-school-prep-at-age-4-korean-math-tutor-calls-it-child-abuse?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_308cbff3",
-    "date": "2026-11-14",
-    "ts": 1794680523000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/11/f1201880-788c-495d-946b-76749c549a77.jpeg",
-    "title": "ครูเกาหลีใช้นิทานภาพช่วยเหลือนักเรียนออทิสติก",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261115/how-a-picture-book-helped-a-troubled-student-find-her-way?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_658be54a",
-    "date": "2026-11-14",
-    "ts": 1794661715000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/11/14/PAP20261114224101009_P2.jpg",
-    "title": "เกาหลีใต้ชนะไต้หวันผ่านเข้าชิงเบสบอลกับญี่ปุ่น",
-    "link": "https://en.yna.co.kr/view/AEN20261114003400315"
-  },
-  {
-    "id": "hotnews_th_04937f81",
-    "date": "2026-11-14",
-    "ts": 1794642056000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2022/02/10/PYH2022021012660001300_P2.jpg",
-    "title": "กระทรวงไอซีทีเกาหลีใต้เตรียมตรวจสอบระบบ Microsoft ขัดข้อง",
-    "link": "https://en.yna.co.kr/view/AEN20261114002000315"
-  },
-  {
-    "id": "hotnews_th_59953a49",
-    "date": "2026-11-14",
-    "ts": 1794639600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/14/news-p.v1.20261111.682020907b1c46d9b8f84fef8baea5ab_T1.png",
-    "title": "Sri Lanka เชิญผู้ซื้อและผู้ผลิตเกาหลีร่วมงาน Expo 2027",
-    "link": "https://www.koreaherald.com/article/10935512"
-  },
-  {
-    "id": "hotnews_th_1c088b1e",
-    "date": "2026-11-14",
-    "ts": 1794639600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261111.048699eb84044f68b3e618e39fa40576_T1.jpg",
-    "title": "ทัวร์อาหาร Kkokkio Gyorae พาชิมไก่พื้นเมืองเจจู",
-    "link": "https://www.koreaherald.com/article/10935218"
-  },
-  {
-    "id": "hotnews_th_cc1e6170",
-    "date": "2026-11-14",
-    "ts": 1794639600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261112.89501eee20894746bb1c1536a274b5f7_T1.jpg",
-    "title": "จิตรกรเกาหลี Paek Yunzo จัดนิทรรศการคู่ในโซลหลังโชว์ผลงานที่ Louvre-Lens",
-    "link": "https://www.koreaherald.com/article/10935111"
-  },
-  {
-    "id": "hotnews_th_45e32dde",
-    "date": "2026-11-14",
-    "ts": 1794639600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261103.909aeb1a67374382930008846a7e265b_T1.jpg",
-    "title": "เทรนด์แฟชั่น \"ฮยอนแพคคอร์\" และความหลงใหลในความร่ำรวยในเกาหลี",
-    "link": "https://www.koreaherald.com/article/10935042"
-  },
-  {
-    "id": "hotnews_th_89bda598",
-    "date": "2026-11-14",
-    "ts": 1794639600000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/12/news-p.v1.20261111.3e4f493cddb14584afad8bb33e5da6e5_T1.jpg",
-    "title": "พิธีขอพรสอบ Suneung ปรับเปลี่ยนตามยุคสมัย",
-    "link": "https://www.koreaherald.com/article/10935013"
-  },
-  {
-    "id": "hotnews_th_20f7dcdf",
-    "date": "2026-11-14",
-    "ts": 1794639123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/12/a9a226b9-0ff1-49c5-a179-0715768905cb.jpg",
-    "title": "เกาหลีใต้เร่งดูแลและบันทึกเรื่องราวทหารผ่านศึก",
-    "link": "https://www.koreatimes.co.kr/southkorea/defense/20261114/with-only-20000-korean-war-veterans-still-alive-govt-steps-up-efforts-to-preserve-their-stories?utm_source=rss"
   }
 ]
