@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_b8ae25d1",
+    "date": "2026-11-17",
+    "ts": 1794949211000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/17/AEN20261117005900320_01_i_P2.jpg",
+    "title": "Tỷ lệ nợ quá hạn tại các ngân hàng Hàn Quốc giảm trong tháng 9",
+    "link": "https://en.yna.co.kr/view/AEN20261117005900320"
+  },
+  {
+    "id": "hotnews_vi_00da13aa",
+    "date": "2026-11-17",
+    "ts": 1794947400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/news-p.v1.20261117.f4f0c22338b64d5cbfb67497a8205bc1_T1.jpg",
+    "title": "Bài học sức khỏe và cuộc sống từ một thí sinh Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10940218"
+  },
+  {
+    "id": "hotnews_vi_580d4e7e",
+    "date": "2026-11-17",
+    "ts": 1794935560000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/18/PYH2026111800070001300_P2.jpg",
+    "title": "HLV tạm quyền Robert Moreno sẵn sàng tiếp tục dẫn dắt Hàn Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261118000400315"
+  },
+  {
+    "id": "hotnews_vi_9464bc26",
+    "date": "2026-11-17",
+    "ts": 1794927154000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/17/AEN20261117010900320_01_i_P2.jpg",
+    "title": "Động đất mạnh 3.6 độ richter xảy ra ở tỉnh Gyeongsangbuk",
+    "link": "https://en.yna.co.kr/view/AEN20261117010900320"
+  },
+  {
+    "id": "hotnews_vi_d3dcb6c6",
+    "date": "2026-11-17",
+    "ts": 1794924922000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/17/AEN20261117010151315_01_i_P2.jpg",
+    "title": "Trump nói Kim Jong-un muốn dự hội nghị APEC tại Trung Quốc",
+    "link": "https://en.yna.co.kr/view/AEN20261117010151315"
+  },
+  {
+    "id": "hotnews_vi_aa9d4fc3",
+    "date": "2026-11-17",
+    "ts": 1794924645000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/17/AEN20261117003151315_02_i_P2.jpg",
+    "title": "Cảnh sát hoàn tất thẩm vấn thủ khoa thi kế toán thuế gian lận",
+    "link": "https://en.yna.co.kr/view/AEN20261117003151315"
+  },
+  {
+    "id": "hotnews_vi_47c2a693",
+    "date": "2026-11-17",
+    "ts": 1794918087000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111710920001300_P2.jpg",
+    "title": "Học sinh nộp đơn kiện hiến pháp hoãn kỳ thi CSAT",
+    "link": "https://en.yna.co.kr/view/AEN20261117010300320"
+  },
+  {
+    "id": "hotnews_vi_b25d7598",
+    "date": "2026-11-17",
+    "ts": 1794908402000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261117065611_62_e.jpg",
+    "title": "Hàn Quốc viện trợ 2 triệu USD giúp Peru ứng phó El Niño",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205642"
+  },
+  {
+    "id": "hotnews_vi_dd303986",
+    "date": "2026-11-17",
+    "ts": 1794907901000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261117065148_62_e.jpg",
+    "title": "Dự báo có mưa hoặc tuyết trên cả nước từ chiều thứ Tư",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205641"
+  },
+  {
+    "id": "hotnews_vi_ac34d580",
+    "date": "2026-11-17",
+    "ts": 1794904124000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110704220005400_P2.jpg",
+    "title": "Cựu Bộ trưởng Tư pháp Cho Kuk bị từ chối nhập cảnh Nhật Bản",
+    "link": "https://en.yna.co.kr/view/AEN20261117009000315"
+  },
+  {
     "id": "hotnews_vi_7ebf8482",
     "date": "2026-11-17",
     "ts": 1794903423000,
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/15/4a68441a-bdfc-48e8-9de7-739becb17263.jpeg",
     "title": "Nam diễn viên Ko Kyung-pyo lái xe khi say rượu bị nhà đài cắt sóng",
     "link": "https://www.koreatimes.co.kr/southkorea/society/20261115/actor-ko-kyung-pyos-drunk-driving-prompts-broadcasters-to-edit-him-out?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_0afb0ccd",
-    "date": "2026-11-15",
-    "ts": 1794725822000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/15/384c8772-224f-491f-8bb1-9a1d67bb9b89.jpeg",
-    "title": "Biển ấm lên khiến sản lượng mực ở đảo Ulleung giảm 99%",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261115/warming-seas-slash-ulleungs-squid-catch-by-99-percent-in-25-years?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_d683b809",
-    "date": "2026-11-15",
-    "ts": 1794724583000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/15/AEN20261115001300315_01_i_P2.jpg",
-    "title": "Người Uzbekistan ở Hàn Quốc bị kết án 16 tháng tù vì tài trợ khủng bố",
-    "link": "https://en.yna.co.kr/view/AEN20261115001300315"
-  },
-  {
-    "id": "hotnews_vi_5f944bc3",
-    "date": "2026-11-15",
-    "ts": 1794720650000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261115020157_22_e.jpg",
-    "title": "Chính phủ đình chỉ chứng nhận thủ khoa thi thừa nhận gian lận",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205584"
-  },
-  {
-    "id": "hotnews_vi_4fda17c5",
-    "date": "2026-11-15",
-    "ts": 1794719608000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261115015329_25_e.jpg",
-    "title": "Ca cấp cứu nhẹ chiếm 30% số lượt khám phòng cấp cứu năm ngoái",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205582"
-  },
-  {
-    "id": "hotnews_vi_e1d5eb28",
-    "date": "2026-11-15",
-    "ts": 1794717895000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261115015118_28_e.jpg",
-    "title": "Trợ lý thân cận của Kim Jong-un thăm Nga trước hội đàm",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205581"
-  },
-  {
-    "id": "hotnews_vi_985ccd9c",
-    "date": "2026-11-15",
-    "ts": 1794717407000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261115124715_73_e.jpg",
-    "title": "Hàng không Mỹ dự kiến trở lại bình thường vào Chủ Nhật",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205580"
-  },
-  {
-    "id": "hotnews_vi_21cd6b20",
-    "date": "2026-11-15",
-    "ts": 1794716458000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261115014806_52_e.jpg",
-    "title": "Seoul thử nghiệm xe buýt nhanh giảm ùn tắc giao thông",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205579"
-  },
-  {
-    "id": "hotnews_vi_2c6a835d",
-    "date": "2026-11-15",
-    "ts": 1794716337000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/15/news-p.v1.20261115.a0178a11460647e48e0a9061e65a85f8_T1.jpg",
-    "title": "Các bộ sưu tập thời trang hợp tác nổi bật mùa này",
-    "link": "https://www.koreaherald.com/article/10937465"
-  },
-  {
-    "id": "hotnews_vi_c7c6fc5d",
-    "date": "2026-11-15",
-    "ts": 1794711720000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/13/news-p.v1.20261113.7145b199bc934fee8735e7b4c7cf0bc1_T1.jpg",
-    "title": "HD Hyundai hạ thủy tàu tự hành 600 tấn cùng Anduril",
-    "link": "https://www.koreaherald.com/article/10936725"
-  },
-  {
-    "id": "hotnews_vi_2e04ee43",
-    "date": "2026-11-15",
-    "ts": 1794708431000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/15/PYH2026111500860004200_P2.jpg",
-    "title": "Quan chức thân cận của Triều Tiên thăm Nga",
-    "link": "https://en.yna.co.kr/view/AEN20261115000600315"
   }
 ]
