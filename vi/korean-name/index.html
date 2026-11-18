@@ -177,6 +177,7 @@ html:not([lang="ko"]) .headline b,html:not([lang="ko"]) .headline .hn{font-size:
 .namecard .ro{font-size:15.5px;font-weight:700;color:#5a4a2a}
 .namecard .hj{font-size:15px;color:#7a6a4a;margin-top:2px}
 .namecard .why{font-size:14.5px;margin:10px 0 0;text-align:left;background:#fff8ea;border-radius:12px;padding:10px 12px;line-height:1.6}
+.namecard .why .gain{display:block;margin-top:8px;padding-top:8px;border-top:1px dashed rgba(138,122,90,.35);font-weight:600}
 .chips{display:grid;grid-template-columns:1fr;gap:6px;margin-top:6px}
 .chips .c0{background:#cfe9d9}.chips .c1{background:#f8d1c4}.chips .c2{background:#f3e0a6}.chips .c3{background:#e2e6ea}.chips .c4{background:#cfe0f3}
 .namecard .act{display:flex;gap:8px;justify-content:center;margin-top:12px}
@@ -413,6 +414,505 @@ html:not([lang="ko"]) .hero h1{font-size:27px;line-height:1.28}
 html:not([lang="ko"]) .hero h1 br,html:not([lang="ko"]) .hero .sub br{display:none}
 html:not([lang="ko"]) .hero .sub{font-size:14.5px;line-height:1.6;margin-top:8px}
 html:not([lang="ko"]) .kicker{letter-spacing:1px}
+
+/* ───────── v4: 밝은 바탕 · 큰 글자 · 강조색 하나(이름에 넣을 기운 색) ───────── */
+:root{
+  --bg:#f6f4ef; --bg2:#ffffff; --panel:#ffffff; --line:#e4e0d6;
+  --ink:#141310; --ink2:#4d4a43; --ink3:#8a867c;
+  --gold:#141310; --gold2:#d9d4c7; --cream:#141310; --brown:#141310;
+  --e0:#2f7d5b; --e1:#c8402f; --e2:#a77a1e; --e3:#6f7c88; --e4:#1f4e79;
+}
+html,body{background:var(--bg)}
+body{background:var(--bg)}
+.hero h1,.tt{background:none;-webkit-text-fill-color:currentColor;color:var(--ink);animation:none}
+.hero .sub,.story,.lead,.blk p{color:var(--ink2)}
+.lamp,.story b,.blk p b{color:var(--ink)}
+.kicker{color:var(--ink2);border-color:var(--line)}
+a.kicker:hover,a.kicker:focus-visible{background:#efece4}
+.no{background:var(--ink);color:#fff}
+.btn{background:var(--ink);color:#fff;border-radius:999px;letter-spacing:.02em}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+input,select{background:#fff;color:var(--ink);border-color:var(--line)}
+input:focus,select:focus,.seg button:focus-visible{outline-color:var(--ink)}
+.seg button{background:#fff;color:var(--ink2);border-color:var(--line)}
+.seg button[aria-pressed="true"],.seg.mini button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.seg.mini{background:#fff;border-color:var(--line)}
+.seg.mini button{color:var(--ink2)}
+form label.l,form span.l{color:var(--ink)}
+.opt{color:var(--ink3);border-color:var(--line)}
+.cta,.stat,.steps3 div,.basis div,.fs,.use,.acc,.dchip,details,.panel{background:#fff;border-color:var(--line)}
+.stat .big,.basis b,.fs .cap b{color:var(--ink)}
+.fs .n{background:var(--ink);color:#fff}
+.fs .lab,.ih small,.acch{color:var(--ink3)}
+.use .ic{color:var(--ink);background:#f0ede5;border-color:var(--line)}
+.acc .t,.tagc{background:#efece4;color:var(--ink2)}
+.acc .r.hl .t{background:var(--ink);color:#fff}
+.acc .r.hl b,.exl span{color:var(--ink)}
+.exl span{border-color:var(--line)}
+.horbs span,.orb,.icb{background:#fff;box-shadow:none}
+.horbs span:nth-child(1){color:#2f7d5b!important;border-color:#2f7d5b!important}.horbs span:nth-child(2){color:#c8402f!important;border-color:#c8402f!important}.horbs span:nth-child(3){color:#a77a1e!important;border-color:#a77a1e!important}.horbs span:nth-child(4){color:#6f7c88!important;border-color:#6f7c88!important}.horbs span:nth-child(5){color:#1f4e79!important;border-color:#1f4e79!important}
+.farr{color:var(--ink3)}
+.top{background:rgba(246,244,239,.92);border-bottom-color:var(--line)}
+.brand{background:none;-webkit-text-fill-color:currentColor;color:var(--ink);filter:none}
+.home:hover .brand{filter:none}
+.klogo{filter:none}
+.lang-btn{background:#fff;border-color:var(--line);color:var(--ink)}
+.lang-btn:hover,.lang-btn[aria-expanded="true"]{background:#f0ede5;border-color:var(--ink3)}
+.lang-btn .gl{color:var(--ink)}
+.lang-menu{background:#fff;border-color:var(--line);box-shadow:0 16px 32px rgba(0,0,0,.12)}
+.lang-menu button{color:var(--ink)}
+.lang-menu button:hover,.lang-menu button:focus-visible{background:#f0ede5}
+.lang-menu button[aria-checked="true"],.lang-menu button[aria-checked="true"] small{color:var(--ink)}
+#loading{background:rgba(246,244,239,.97)}
+#loading .msg{color:var(--ink)}
+.kcnav a{color:var(--ink2);border-color:var(--line)}
+.err{color:#c8402f}
+.ob.zero .ost i{background:#f8e3dc;color:#c8402f}
+.metag,.tile .tag{background:var(--ink);color:#fff}
+.tile{background:#f3f0e8}
+.tile.me{border-color:var(--ink)}
+.sb{background:#ece8de}.sb .a{background:var(--acc,#2f7d5b)}
+.pl span:first-child,.pl span:last-child{color:var(--ink2)}
+.yy .y{background:#efe6cf;color:var(--ink)}.yy .n{background:#2a2925;color:#eee;border:0}
+.pairs div{background:#f3f0e8;color:var(--ink3)}.pairs b{color:var(--ink)}
+.dolist b{color:var(--ink3)}
+.sbtn.save{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.sbtn.send{background:var(--ink);color:#fff;box-shadow:none}
+.share img{box-shadow:0 24px 48px -20px rgba(0,0,0,.35)}
+
+/* 결과: 장면마다 한 가지 */
+#result{--acc:#141310}
+.v4s{position:relative;padding:64px 2px 4px;text-align:center}
+.v4k{font-size:12px;letter-spacing:.32em;color:var(--ink3);font-weight:700;margin:0 0 20px}
+html:not([lang="ko"]) .v4k{letter-spacing:.18em;text-transform:uppercase}
+.v4hero{padding-top:24px}
+.v4hero::before{content:'';position:absolute;left:50%;top:-30px;width:520px;max-width:120vw;height:440px;transform:translateX(-50%);background:radial-gradient(closest-side,color-mix(in srgb,var(--c) 20%,transparent),transparent);z-index:-1;pointer-events:none}
+.v4hero.in::before{animation:wash 2.2s ease both}
+@keyframes wash{from{opacity:0;transform:translateX(-50%) scale(.5)}to{opacity:1;transform:translateX(-50%) scale(1)}}
+.v4card{display:grid;place-items:center}
+.v4card svg{width:min(52vw,210px);filter:drop-shadow(0 26px 34px rgba(20,19,16,.22))}
+.v4hero.in .v4card svg{animation:pop .9s cubic-bezier(.2,.8,.2,1.2) both}
+.v4name{font-family:'Noto Serif KR',serif;font-size:clamp(44px,13vw,64px);font-weight:900;letter-spacing:-.02em;line-height:1.1;margin:22px 0 0;color:var(--ink)}
+.v4name span{font-size:.42em;font-weight:500;color:var(--c);margin-left:.35em;letter-spacing:.06em;vertical-align:.4em}
+.v4mean{font-size:18px;font-weight:800;color:var(--c);margin:8px 0 0}
+.v4body{font-size:16.5px;line-height:1.9;color:var(--ink2);text-align:left;margin:16px 0 0;word-break:keep-all}
+.v4body.v4c{text-align:center;max-width:30em;margin-left:auto;margin-right:auto}
+.v4body b[class^="e"]{font-weight:800}
+.v4orbs{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:0 0 8px;padding:22px 0 16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.v4o{position:relative;display:grid;justify-items:center;gap:3px;color:var(--c)}
+.v4oi .ei{width:22px;height:22px}
+.v4on{font-family:'Noto Serif KR',serif;font-size:46px;font-weight:900;line-height:1.05;color:var(--c);font-variant-numeric:tabular-nums}
+.v4ow{font-size:13px;font-weight:700;color:var(--ink2)}
+.v4o.zero{opacity:.38}
+.v4o.many .v4ow::after{content:'';display:block;width:24px;height:3px;border-radius:2px;background:var(--c);margin:5px auto 0}
+.v4ot{position:absolute;top:-16px;font-size:10.5px;font-weight:800;letter-spacing:.08em;color:#fff;background:var(--ink);border-radius:999px;padding:0 8px;line-height:1.7}
+.v4o{opacity:0;transform:translateY(14px)}
+.in .v4o{animation:letter .7s cubic-bezier(.2,.8,.2,1) both}
+.in .v4o:nth-child(2){animation-delay:.08s}.in .v4o:nth-child(3){animation-delay:.16s}.in .v4o:nth-child(4){animation-delay:.24s}.in .v4o:nth-child(5){animation-delay:.32s}
+.v4big{display:flex;align-items:center;justify-content:center;gap:16px;margin:0 0 4px}
+.v4bi{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 12%,#fff);color:var(--c)}
+.v4bi .ei{width:40px;height:40px}
+.v4bw{font-family:'Noto Serif KR',serif;font-size:clamp(60px,18vw,92px);font-weight:900;color:var(--c);letter-spacing:-.03em;line-height:1}
+.v4need.in .v4bw{animation:grow 1.2s cubic-bezier(.2,.8,.2,1) both}
+.v4need.in .v4bi{animation:pop .8s cubic-bezier(.2,.8,.2,1.3) .2s both}
+@keyframes grow{from{opacity:0;letter-spacing:.35em;filter:blur(8px)}to{opacity:1;letter-spacing:-.03em;filter:none}}
+@keyframes letter{to{opacity:1;transform:none}}
+.v4h{font-family:'Noto Serif KR',serif;font-size:26px;font-weight:900;margin:0 0 16px;color:var(--ink)}
+.v4life .dolist{text-align:left}
+.v4life .tiny{margin-top:14px}
+.v4more{margin:48px 0 8px;border-radius:16px;padding:14px 16px;text-align:left}
+.v4more summary{color:var(--ink2)}
+.v4more h3{font-size:15px;margin:22px 0 6px;color:var(--ink)}
+.v4more .pillars{margin-top:8px}
+
+/* 이름 카드 */
+.names{gap:28px;margin-top:24px}
+.namecard{background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:26px;box-shadow:0 30px 60px -36px rgba(20,19,16,.35);padding:24px 20px 18px;animation:none}
+.namecard.sel{outline:2px solid var(--acc);outline-offset:4px}
+.nctop{display:flex;justify-content:space-between;align-items:center}
+.namecard .rank,.namecard .kind{position:static}
+.namecard .rank{font-size:12px;letter-spacing:.22em;color:var(--ink3);font-weight:800}
+.namecard .kind{background:none;color:var(--ink3);border:1px solid var(--line);font-size:11.5px;font-weight:800;border-radius:999px;padding:1px 10px}
+.namecard .kind.w{background:none;color:var(--acc);border-color:var(--acc)}
+.namecard .ko{font-family:'Noto Serif KR',serif;font-size:clamp(50px,15vw,70px);font-weight:900;letter-spacing:.06em;line-height:1.15;margin-top:16px;color:var(--ink)}
+.namecard .ko span{display:inline-block;opacity:0;transform:translateY(20px)}
+.namecard.in .ko span{animation:letter .8s cubic-bezier(.2,.8,.2,1) calc(.15s + var(--j) * .13s) both}
+.namecard .ro{color:var(--ink3);font-weight:600;font-size:15px}
+.glyphs{gap:12px;margin-top:16px}
+.glyph{background:#f6f4ef;border:0;border-radius:16px;padding:10px 14px}
+.glyph.c0{background:#e6f2ea}.glyph.c1{background:#f8e3dc}.glyph.c2{background:#f5ecd3}.glyph.c3{background:#eceef0}.glyph.c4{background:#e1eaf4}
+.glyph .g{color:var(--ink);font-size:38px}
+.glyph .gm,.glyph .gm i{color:var(--ink2)}
+.namecard.in .glyph .g{animation:inkin 1.2s cubic-bezier(.4,0,.2,1) .55s both}
+@keyframes inkin{from{clip-path:inset(0 0 100% 0);opacity:.2}to{clip-path:inset(0 0 0 0);opacity:1}}
+.namecard .why{background:none;padding:0;color:var(--ink2);font-size:15.5px;line-height:1.8;margin-top:18px}
+.v4meter{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px 0 0;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,var(--c) 8%,#fff)}
+.v4meter .mw{font-weight:800;color:var(--c);font-size:14px}
+.v4meter .md{display:flex;gap:6px}
+.v4meter i{width:14px;height:14px;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--c) 40%,#fff)}
+.v4meter i.f{background:color-mix(in srgb,var(--c) 40%,#fff);border-color:transparent}
+.v4meter i.a{background:var(--c);border-color:var(--c);transform:scale(0)}
+.namecard.in .v4meter i.a{animation:dot .55s cubic-bezier(.3,1.7,.5,1) calc(1.2s + var(--j) * .2s) both}
+@keyframes dot{to{transform:scale(1)}}
+.v4meter .mn{font-size:14px;color:var(--ink3);font-variant-numeric:tabular-nums;white-space:nowrap}
+.v4meter .mn b{color:var(--c);font-size:18px}
+.gainp{font-size:15px;font-weight:600;color:var(--ink);margin:12px 0 0;text-align:left;line-height:1.75}
+.gainp b[class^="e"]{font-weight:800}
+.ncmore{background:none;border:0;border-top:1px solid var(--line);border-radius:0;padding:12px 0 0;margin:18px 0 0;text-align:left}
+.ncmore summary{font-size:13px;color:var(--ink3);font-weight:700;cursor:pointer}
+.chips button{background:#f6f4ef;color:var(--ink);border:1px solid var(--line);box-shadow:none}
+.chips button small{color:var(--ink3)}
+.chips button::after{background:var(--ink)}
+.chips button[aria-expanded="true"]{border-color:var(--ink);box-shadow:none}
+.chips .c0{background:#e6f2ea}.chips .c1{background:#f8e3dc}.chips .c2{background:#f5ecd3}.chips .c3{background:#eceef0}.chips .c4{background:#e1eaf4}
+.chipnote{background:#f6f4ef;border-left-color:var(--acc)}
+.namecard .act button{border:1px solid var(--line);background:#fff;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){.v4o,.namecard .ko span{opacity:1;transform:none}.v4meter i.a{transform:none}}
+
+/* 첫 장면: 한 폭의 그림 */
+.v4hero{padding-top:0}
+.v4scene{position:relative;margin:0 -16px;aspect-ratio:400/520;max-height:80vh;overflow:hidden;border-radius:0 0 30px 30px;background:#e9e3d6}
+@media (min-width:560px){.v4scene{margin:12px 0 0;border-radius:30px}}
+.v4scene::after{content:'';position:absolute;left:0;right:0;bottom:0;height:22%;background:linear-gradient(rgba(246,244,239,0),var(--bg));pointer-events:none}
+.v4scene .scene{display:block;width:100%;height:100%;will-change:transform}
+.v4hero.in .v4scene{animation:paintin 2.6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes paintin{from{opacity:0;transform:scale(1.14);filter:blur(18px) saturate(.15)}to{opacity:1;transform:none;filter:none}}
+.v4hero .v4k{position:relative;margin:-6px 0 14px}
+.scene .sway{animation:sway 7s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+.scene .swing{animation:swing 5.5s ease-in-out infinite}
+@keyframes swing{0%,100%{transform:rotate(-2.4deg)}50%{transform:rotate(2.4deg)}}
+.scene .glow{transform-box:fill-box;transform-origin:center;animation:sglow 5s ease-in-out infinite}
+@keyframes sglow{0%,100%{opacity:.72;transform:scale(.95)}50%{opacity:1;transform:scale(1.06)}}
+.scene .flicker{animation:flicker 2.3s ease-in-out infinite}
+@keyframes flicker{0%,100%{opacity:.85}30%{opacity:1}55%{opacity:.68}80%{opacity:.95}}
+.scene .rays{animation:spin 90s linear infinite}.scene .rays.slow{animation-duration:150s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.scene .fall{transform-box:fill-box;transform-origin:center;animation:fall linear infinite}
+@keyframes fall{from{transform:translate(0,-60px) rotate(0)}to{transform:translate(-80px,580px) rotate(400deg)}}
+.scene .rise{animation:srise linear infinite}
+@keyframes srise{0%{transform:translate(0,0);opacity:0}15%{opacity:1}100%{transform:translate(24px,-320px);opacity:0}}
+.scene .twinkle{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.scene .spark{transform-box:fill-box;transform-origin:center;animation:spark 3s ease-in-out infinite}
+@keyframes spark{0%,100%{opacity:0;transform:scale(.2) rotate(0)}50%{opacity:1;transform:scale(1) rotate(45deg)}}
+.scene .drift{animation:drift 30s ease-in-out infinite alternate}.scene .drift.slow{animation-duration:46s}
+@keyframes drift{from{transform:translateX(-50px)}to{transform:translateX(50px)}}
+.scene .wave{animation:swave 7s ease-in-out infinite}
+@keyframes swave{0%,100%{transform:translateX(0)}50%{transform:translateX(-40px)}}
+.scene .bloom{animation:bloom 4s ease-in-out infinite}
+@keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+.scene .float{animation:floaty 6s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(-7px)}50%{transform:translateY(7px)}}
+.scene .ripple{transform-box:fill-box;transform-origin:center;animation:ripple 3.6s ease-out infinite}
+@keyframes ripple{from{transform:scale(.2);opacity:.9}to{transform:scale(2.3);opacity:0}}
+.scene .rain{animation:rain linear infinite}
+@keyframes rain{from{transform:translate(0,-80px)}to{transform:translate(-22px,540px)}}
+.v4cue{display:inline-flex;flex-direction:column;align-items:center;gap:6px;margin:30px 0 0;font-size:12.5px;font-weight:700;letter-spacing:.22em;color:var(--ink3);text-decoration:none}
+.v4cue svg{width:22px;height:22px;animation:bob 1.8s ease-in-out infinite}
+
+/* 다섯 기운: 여덟 글자가 기운별 기둥에 떨어져 쌓인다 */
+.v4five{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;align-items:end;margin:28px 0 8px;padding:0 0 16px;border-bottom:1px solid var(--line)}
+.v4col{display:grid;justify-items:center;gap:8px}
+.v4stack{display:flex;flex-direction:column-reverse;align-items:center;gap:7px;min-height:150px}
+.seal{position:relative;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--c);color:#fff;font-family:'Noto Serif KR',serif;font-weight:700;font-size:21px;line-height:1;box-shadow:inset 0 -3px 0 rgba(0,0,0,.16),0 10px 18px -10px var(--c)}
+.seal.me{outline:2.5px solid var(--ink);outline-offset:2.5px}
+.seal.me::after{content:attr(data-me);position:absolute;top:-10px;right:-14px;font-family:'Noto Sans KR',sans-serif;font-size:10.5px;font-weight:800;background:var(--ink);color:#fff;border-radius:999px;padding:0 6px;line-height:1.65}
+.seal.empty{background:transparent;border:1.5px dashed var(--c);box-shadow:none}
+.v4cn{font-family:'Noto Serif KR',serif;font-size:32px;font-weight:900;color:var(--c);line-height:1}
+.v4col.zero .v4cn{opacity:.4}
+.v4cw{font-size:13px;font-weight:700;color:var(--ink2)}
+.v4col.many .v4cw::after{content:'';display:block;width:22px;height:3px;border-radius:2px;background:var(--c);margin:5px auto 0}
+.seal{opacity:0;transform:translateY(-170px)}
+.in .seal{animation:drop .9s cubic-bezier(.3,1.35,.5,1) calc(.25s + var(--i) * .16s) both}
+.in .seal.empty{animation:fadein .7s ease 1.5s both}
+@keyframes drop{0%{opacity:0;transform:translateY(-170px)}55%{opacity:1}100%{opacity:1;transform:none}}
+@keyframes fadein{to{opacity:.65;transform:none}}
+@media (max-width:360px){.seal{width:38px;height:38px;font-size:18px}}
+@media (prefers-reduced-motion:reduce){.seal{opacity:1;transform:none}}
+
+/* ───────── v4.1 시인성: 미술관 벽 같은 먹색 바탕 + 크고 굵은 상아색 글자 + 칸 구획 ───────── */
+:root{
+  --bg:#151413; --bg2:#1f1d1b; --panel:#1f1d1b; --line:#3a3631;
+  --ink:#f5f0e6; --ink2:#e2dbcd; --ink3:#b3aa9b;
+  --gold:#f5f0e6; --gold2:#4a453e; --cream:#f5f0e6; --brown:#151413;
+  --e0:#5fd39b; --e1:#ff8a5c; --e2:#f0c35a; --e3:#dfe6ee; --e4:#6cb4f5;
+}
+html,body{background:var(--bg)}
+.top{background:rgba(21,20,19,.94);border-bottom-color:var(--line)}
+.btn{background:var(--ink);color:#151413}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+input,select,.seg button,.seg.mini,.lang-btn,.lang-menu{background:var(--bg2);color:var(--ink);border-color:var(--line)}
+.seg button[aria-pressed="true"],.seg.mini button[aria-pressed="true"]{background:var(--ink);color:#151413;border-color:var(--ink)}
+.lang-btn:hover,.lang-btn[aria-expanded="true"],.lang-menu button:hover,.lang-menu button:focus-visible,a.kicker:hover{background:#2a2724}
+.cta,.stat,.steps3 div,.basis div,.fs,.use,.acc,.dchip,details,.panel{background:var(--panel);border-color:var(--line)}
+.fs .n,.no,.metag,.tile .tag,.acc .r.hl .t,.v4ot{background:var(--ink);color:#151413}
+.use .ic,.acc .t,.tagc{background:#2a2724;color:var(--ink2);border-color:var(--line)}
+.horbs span,.orb,.icb{background:var(--bg2)}
+.tile{background:#26231f}.tile.me{border-color:var(--ink)}
+.sb{background:#2a2724}
+.yy .y{background:#efe6cf;color:#151413}.yy .n{background:#0c0b0a;color:#eee;border:1px solid var(--line)}
+.pairs div{background:#26231f;color:var(--ink3)}.pairs b{color:var(--ink)}
+.sbtn.save{background:var(--bg2);color:var(--ink);border-color:var(--line)}.sbtn.send{background:var(--ink);color:#151413}
+#loading{background:rgba(21,20,19,.97)}
+.hero h1,.tt,.brand{color:var(--ink)}
+/* 결과 글자: 크고 굵게, 흐린 회색을 쓰지 않는다 */
+.v4s{padding:44px 0 6px}
+.v4k{font-size:15px;letter-spacing:.06em;font-weight:800;color:var(--ink);margin:0 0 14px}
+.v4k::before{content:'';display:block;width:28px;height:3px;border-radius:2px;background:var(--acc,var(--ink));margin:0 auto 12px}
+html:not([lang="ko"]) .v4k{letter-spacing:.06em;text-transform:none}
+.v4body{font-size:17px;line-height:1.85;color:var(--ink2);font-weight:500}
+.v4body b[class^="e"]{font-weight:900}
+.v4name{color:var(--ink);font-size:clamp(46px,13vw,62px);margin-top:18px}
+.v4mean{font-size:19px}
+/* 칸 구획: 장면마다 한 장의 판 */
+.v4s:not(.v4hero){margin-top:22px;padding:28px 18px 24px;border-radius:22px;background:var(--panel);border:1px solid var(--line)}
+.v4names{background:transparent!important;border:0!important;padding:28px 2px 0!important}
+/* 첫 장면 그림: 화면 폭의 4분의 3, 액자처럼 */
+.v4hero{padding-top:18px}
+.v4scene{margin:8px auto 0;width:min(74vw,320px);aspect-ratio:4/5;max-height:none;border-radius:20px;background:#0f0e0d;box-shadow:0 0 0 1px #2e2a25,0 30px 60px -30px rgba(0,0,0,.9)}
+.v4scene::after{display:none}
+.v4hero.in .v4scene{animation:none}
+.v4scene .scene{width:100%;height:100%}
+.v4hero .v4k{margin:26px 0 0}
+.v4cue{color:var(--ink2);font-size:14px;letter-spacing:.04em}
+/* 다섯 기운: 한 줄에 하나 */
+.v4rows{display:grid;gap:12px;margin:22px 0 18px;text-align:left}
+.v4row{display:grid;grid-template-columns:44px 1fr 30px 40px;align-items:center;gap:10px;font-size:17px}
+.v4row .rw{font-weight:800;color:var(--c)}
+.v4row .rd{display:flex;gap:6px;flex-wrap:nowrap}
+.v4row .rd i{width:16px;height:16px;border-radius:50%;border:1.5px solid #4a453e;flex:none}
+.v4row .rd i.on{background:var(--c);border-color:var(--c);transform:scale(0)}
+.in .v4row .rd i.on{animation:dot .5s cubic-bezier(.3,1.6,.5,1) calc(.2s + var(--j) * .09s) both}
+.v4row .rn{font-family:'Noto Serif KR',serif;font-size:24px;font-weight:900;color:var(--c);text-align:right}
+.v4row .rt{font-size:12.5px;font-weight:800;color:var(--ink3)}
+.v4row.zero .rw,.v4row.zero .rn{opacity:.55}
+.v4row.many .rt{color:var(--c)}
+@media (max-width:360px){.v4row .rd i{width:12px;height:12px}.v4row{grid-template-columns:40px 1fr 26px 34px;gap:8px}}
+@media (prefers-reduced-motion:reduce){.v4row .rd i.on{transform:none}}
+/* 넣을 기운 */
+.v4bi{background:color-mix(in srgb,var(--c) 18%,#151413)}
+/* 이름 카드 */
+.namecard{background:var(--panel);color:var(--ink);border-color:var(--line);box-shadow:0 30px 60px -36px rgba(0,0,0,.9)}
+.namecard .ko{color:var(--ink)}
+.namecard .ro,.namecard .rank{color:var(--ink2)}
+.namecard .kind{color:var(--ink2);border-color:var(--line)}
+.glyph{background:#26231f}
+.glyph.c0{background:#1d3328}.glyph.c1{background:#3a2219}.glyph.c2{background:#3a301a}.glyph.c3{background:#2b2f34}.glyph.c4{background:#1b2a3b}
+.glyph .g{color:var(--ink)}.glyph .gm,.glyph .gm i{color:var(--ink2)}
+.namecard .why{color:var(--ink2);font-size:16.5px;font-weight:500}
+.v4meter{background:color-mix(in srgb,var(--c) 14%,#151413)}
+.v4meter i{border-color:color-mix(in srgb,var(--c) 45%,#151413)}
+.v4meter i.f{background:color-mix(in srgb,var(--c) 45%,#151413)}
+.v4meter .mn{color:var(--ink2)}
+.gainp{color:var(--ink);font-size:16px}
+.ncmore{border-top-color:var(--line)}.ncmore summary{color:var(--ink2)}
+.chips button{background:#26231f;color:var(--ink);border-color:var(--line)}
+.chips button small{color:var(--ink2)}
+.chips button::after{background:var(--ink);color:#151413}
+.chips .c0{background:#1d3328}.chips .c1{background:#3a2219}.chips .c2{background:#3a301a}.chips .c3{background:#2b2f34}.chips .c4{background:#1b2a3b}
+.chipnote{background:#26231f;color:var(--ink2)}
+.namecard .act button{background:var(--bg2);color:var(--ink);border-color:var(--line)}
+.v4h,.v4more summary,.v4more h3{color:var(--ink)}
+.tiny{color:var(--ink3)}
+details li{color:var(--ink2)}
+.horbs span:nth-child(1){color:#5fd39b!important;border-color:#5fd39b!important}.horbs span:nth-child(2){color:#ff8a5c!important;border-color:#ff8a5c!important}.horbs span:nth-child(3){color:#f0c35a!important;border-color:#f0c35a!important}.horbs span:nth-child(4){color:#dfe6ee!important;border-color:#dfe6ee!important}.horbs span:nth-child(5){color:#6cb4f5!important;border-color:#6cb4f5!important}
+/* 이름 받기 버튼: 금색 + 글자 + 화살표, 가끔 빛이 한 번 지나간다 */
+#go{position:relative;display:flex;align-items:center;justify-content:center;gap:14px;height:62px;padding:0 22px;border-radius:18px;font-size:18.5px;font-weight:800;letter-spacing:.01em;color:#151413;
+  background:linear-gradient(110deg,transparent 42%,rgba(255,250,228,.8) 50%,transparent 58%) 100% 0/260% 100%,linear-gradient(180deg,#f4d684 0%,#e0bd63 55%,#c8973c 100%);
+  box-shadow:0 18px 34px -16px rgba(224,189,99,.55),inset 0 1px 0 rgba(255,248,220,.7),inset 0 -3px 0 rgba(120,80,20,.25);animation:goshine 5s ease-in-out 1.2s infinite;transition:transform .15s,box-shadow .2s}
+/* v3 처럼 고른 칸·보내기 버튼도 금색 */
+.seg button[aria-pressed="true"],.seg.mini button[aria-pressed="true"],.sbtn.send{background:linear-gradient(180deg,#f0cf78,#d9ae52);color:#1d1a12;border-color:#d9ae52}
+#go::before{content:none}
+#go::after{content:'';flex:none;width:22px;height:22px;background:currentColor;transition:transform .25s;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E") center/contain no-repeat}
+#go:hover::after,#go:focus-visible::after{transform:translateX(5px)}
+#go:active{transform:translateY(1px) scale(.99)}
+#go.off{opacity:.5;animation:none;background:linear-gradient(180deg,#f4d684 0%,#e0bd63 55%,#c8973c 100%);box-shadow:none}
+@keyframes goshine{0%,72%{background-position:100% 0}100%{background-position:0 0}}
+/* 안내 문구: 자물쇠 표시와 함께, 읽히는 크기로 */
+#privacy{display:flex;align-items:flex-start;justify-content:center;gap:7px;margin:12px 0 0;font-size:13.5px;line-height:1.55;color:var(--ink2);text-align:left}
+#privacy::before{content:'';flex:none;width:15px;height:15px;margin-top:2px;background:var(--ink2);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center/contain no-repeat}
+@media (prefers-reduced-motion:reduce){#go{animation:none}}
+/* v4.2 보정 */
+.v4card{display:grid;place-items:center;margin-top:8px}
+.v4card svg{width:min(56vw,230px);filter:drop-shadow(0 26px 40px rgba(0,0,0,.6))}
+.v4hero.in .v4card svg{animation:pop .9s cubic-bezier(.2,.8,.2,1.2) both}
+.acc .r b{font-weight:600;line-height:1.6}
+.acc .r{align-items:flex-start}
+.acc .ck{flex:none;width:20px;height:20px;margin-top:2px;border-radius:50%;background:var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23151413' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12.5 4 4 8-9'/%3E%3C/svg%3E") center/13px no-repeat}
+.v4row{grid-template-columns:42px 38px 1fr 26px 34px;gap:10px}
+.v4row .ob{display:block}
+.v4row .orb{width:42px;height:42px;border-width:2px;border-color:var(--c);color:var(--c);background:var(--bg2)}
+.v4row .orb .ei{width:20px;height:20px}
+.v4row .orb .lv{background:linear-gradient(180deg,var(--c),transparent 150%);opacity:.55}
+.v4row.many .orb{box-shadow:0 0 18px -2px var(--c)}
+.v4row.zero .orb{border-style:dashed;opacity:.6}
+@media (max-width:360px){.v4row{grid-template-columns:38px 34px 1fr 22px 30px;gap:7px}.v4row .orb{width:38px;height:38px}}
+.v4need .keyc{margin:18px 0 6px;text-align:left;border-color:var(--c);background:radial-gradient(120% 140% at 0% 0%,color-mix(in srgb,var(--c) 20%,transparent),transparent 60%),var(--bg2)}
+.v4need .keyc .big{border-color:var(--c);color:var(--c);box-shadow:0 0 26px -4px var(--c);background:var(--bg2)}
+.v4need .keyc .k1{font-size:14px;color:var(--ink2);font-weight:700}
+.v4need .keyc .k2{font-size:30px;color:var(--c)}
+/* 분까지 계산: 번호 1·2·3 금색 원 */
+.acc .r .t{flex:none;display:grid;place-items:center;width:24px;height:24px;padding:0;border-radius:50%;font-size:12.5px;font-weight:900;letter-spacing:0;background:linear-gradient(180deg,#f0cf78,#d9ae52);color:#1d1a12}
+.acc .r.hl .t{background:linear-gradient(180deg,#f0cf78,#d9ae52);color:#1d1a12}
+.acc .r.hl b{color:var(--ink)}
+/* 끝 안내: 금테 판, 위에 다섯 기운이 떠 있다 */
+.endcta{position:relative;margin:48px 0 0;padding:30px 20px 26px;border-radius:26px;border:1px solid rgba(224,189,99,.5);background:radial-gradient(120% 90% at 50% 0%,rgba(224,189,99,.18),transparent 62%),var(--panel);box-shadow:0 30px 60px -36px rgba(224,189,99,.35)}
+.endcta .horbs{margin:0 0 16px}
+.endcta p{font-size:21px;line-height:1.5;margin:0 auto 22px;max-width:16em;text-wrap:balance;color:var(--ink)}
+/* 이름 받기 버튼 둘 다: 금색 + 빛이 지나가고 + 둘레가 은은하게 숨 쉬고 + 별빛 두 개 */
+#go,#goTop{position:relative;display:flex;align-items:center;justify-content:center;gap:14px;width:100%;height:62px;padding:0 22px;border:0;border-radius:18px;font-size:18.5px;font-weight:800;color:#1d1a12;
+  background:linear-gradient(110deg,transparent 40%,rgba(255,251,232,.9) 50%,transparent 60%) 100% 0/260% 100%,linear-gradient(180deg,#f7dc8e 0%,#e6c169 45%,#c8973c 100%);
+  box-shadow:0 18px 34px -16px rgba(224,189,99,.6),inset 0 1px 0 rgba(255,248,220,.8),inset 0 -3px 0 rgba(120,80,20,.25);
+  animation:goshine 3.6s ease-in-out 1s infinite,aura 2.8s ease-in-out infinite}
+#goTop::after{content:'';flex:none;width:22px;height:22px;background:currentColor;transition:transform .25s;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E") center/contain no-repeat}
+#goTop:hover::after{transform:translateX(5px)}
+#go::before,#goTop::before{content:'';position:absolute;top:-9px;right:26px;width:18px;height:18px;background:#fff6d6;filter:drop-shadow(0 0 6px rgba(255,230,160,.9));
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z'/%3E%3C/svg%3E") center/contain no-repeat;
+  animation:twk 2.4s ease-in-out infinite}
+@keyframes aura{0%,100%{box-shadow:0 0 0 0 rgba(240,205,120,0),0 18px 34px -16px rgba(224,189,99,.6),inset 0 1px 0 rgba(255,248,220,.8),inset 0 -3px 0 rgba(120,80,20,.25)}50%{box-shadow:0 0 26px 3px rgba(240,205,120,.42),0 18px 34px -16px rgba(224,189,99,.6),inset 0 1px 0 rgba(255,248,220,.8),inset 0 -3px 0 rgba(120,80,20,.25)}}
+@keyframes twk{0%,100%{opacity:0;transform:scale(.3) rotate(0)}45%{opacity:1;transform:scale(1) rotate(45deg)}70%{opacity:.2;transform:scale(.6) rotate(70deg)}}
+#go.off{animation:none}#go.off::before{display:none}
+@media (prefers-reduced-motion:reduce){#go,#goTop,#go::before,#goTop::before{animation:none}}
+/* v4.3 덜어내기: 작은 글자, 가는 선, 샴페인 금색에 잔별이 반짝이는 버튼 */
+.endcta{padding:24px 20px 22px;border-radius:22px;border-color:rgba(224,189,99,.32);background:radial-gradient(120% 80% at 50% 0%,rgba(224,189,99,.10),transparent 60%),var(--panel);box-shadow:none}
+.endcta .horbs{gap:14px;margin:0 0 14px}
+.endcta .horbs span{width:26px;height:26px;border-width:1px;box-shadow:none;background:transparent;animation:none;opacity:.85}
+.endcta .horbs .ei{width:13px;height:13px}
+.endcta p{font-family:'Noto Sans KR',sans-serif;font-size:15.5px;font-weight:500;line-height:1.6;color:var(--ink2);margin:0 auto 18px;max-width:20em}
+#go,#goTop{height:52px;border-radius:999px;font-size:16px;font-weight:700;letter-spacing:.02em;gap:10px;color:#2a2112;
+  background:linear-gradient(110deg,transparent 38%,rgba(255,255,255,.85) 50%,transparent 62%) 100% 0/280% 100%,linear-gradient(135deg,#fbf0d2 0%,#ecd39a 38%,#d8b26a 70%,#f3e2b4 100%);
+  box-shadow:0 10px 26px -14px rgba(236,211,154,.7),inset 0 1px 0 rgba(255,255,255,.75),inset 0 -1px 0 rgba(120,80,20,.2);
+  animation:goshine 2.8s ease-in-out .6s infinite,aura2 3s ease-in-out infinite}
+#goTop{width:auto;min-width:220px;margin:0 auto;padding:0 30px}
+#go::after,#goTop::after{width:18px;height:18px}
+/* 잔별: 버튼 위 여러 자리에서 번갈아 반짝인다 */
+#go::before,#goTop::before{top:0;left:0;right:0;bottom:0;width:auto;height:auto;border-radius:inherit;pointer-events:none;-webkit-mask:none;mask:none;filter:none;
+  background:radial-gradient(circle at 12% 30%,#fff 0 1.2px,transparent 1.8px),radial-gradient(circle at 26% 72%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 74% 26%,#fff 0 1.3px,transparent 1.9px),radial-gradient(circle at 88% 66%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 56% 18%,#fff 0 .9px,transparent 1.5px),radial-gradient(circle at 40% 84%,#fff 0 .9px,transparent 1.5px);
+  animation:glitter 1.8s steps(2,end) infinite}
+#go::before{animation-delay:.3s}
+@keyframes glitter{0%{opacity:.95;transform:translateX(0)}50%{opacity:.25;transform:translateX(1px)}100%{opacity:.95;transform:translateX(0)}}
+@keyframes aura2{0%,100%{box-shadow:0 10px 26px -14px rgba(236,211,154,.7),0 0 0 0 rgba(246,226,170,0),inset 0 1px 0 rgba(255,255,255,.75),inset 0 -1px 0 rgba(120,80,20,.2)}50%{box-shadow:0 10px 26px -14px rgba(236,211,154,.7),0 0 18px 2px rgba(246,226,170,.35),inset 0 1px 0 rgba(255,255,255,.75),inset 0 -1px 0 rgba(120,80,20,.2)}}
+#go.off{opacity:.45;animation:none;box-shadow:none}
+/* 1·2·3: 동그라미 대신 가는 금색 숫자 */
+.acc .r .t,.acc .r.hl .t{width:auto;height:auto;min-width:18px;background:none;border-radius:0;color:#e3c27a;font-family:'Noto Serif KR',serif;font-size:15px;font-weight:600;line-height:1.6;margin-top:0}
+.acc .r b{font-weight:500;color:var(--ink2)}
+.acc .r.hl b{color:var(--ink2)}
+.acc .r{gap:12px;padding:12px 0}
+.acch{font-size:13.5px;letter-spacing:.04em;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){#go::before,#goTop::before{animation:none;opacity:.6}}
+/* v4.4 또렷하게: 진한 금색, 짙은 글자, 명조 제목 */
+#go,#goTop{color:#1a1408;font-size:17px;font-weight:800;letter-spacing:.01em;
+  background:linear-gradient(110deg,transparent 38%,rgba(255,252,236,.95) 50%,transparent 62%) 100% 0/280% 100%,linear-gradient(180deg,#fbe39a 0%,#efc65f 40%,#d9a83f 75%,#c08d2c 100%);
+  box-shadow:0 12px 28px -12px rgba(232,186,80,.75),inset 0 1px 0 rgba(255,250,225,.95),inset 0 -2px 0 rgba(110,70,10,.35)}
+@keyframes aura2{0%,100%{box-shadow:0 12px 28px -12px rgba(232,186,80,.75),0 0 0 0 rgba(245,205,110,0),inset 0 1px 0 rgba(255,250,225,.95),inset 0 -2px 0 rgba(110,70,10,.35)}50%{box-shadow:0 12px 28px -12px rgba(232,186,80,.75),0 0 22px 3px rgba(245,205,110,.45),inset 0 1px 0 rgba(255,250,225,.95),inset 0 -2px 0 rgba(110,70,10,.35)}}
+.endcta p{font-family:'Noto Serif KR',serif;font-size:17.5px;font-weight:700;color:var(--ink);line-height:1.55}
+.acc .r b,.acc .r.hl b{font-weight:600;color:var(--ink)}
+.acc .r .t,.acc .r.hl .t{color:#f0c35a;font-weight:800}
+.endcta .horbs span{opacity:1;border-width:1.5px}
+/* v4.5 요즘 글꼴: Pretendard(OFL-1.1) 본문·버튼, 이름과 큰 제목만 명조. 금색은 거의 단색 */
+@font-face{font-family:'Pretendard';src:url('/link/korean-name/fonts/PretendardVariable.woff2') format('woff2');font-weight:45 920;font-style:normal;font-display:swap}
+html,body,button,input,select{font-family:'Pretendard','Noto Sans KR',system-ui,sans-serif}
+body{letter-spacing:-.01em}
+.v4k,.acch,.ih small,form label.l,form span.l{font-family:'Pretendard','Noto Sans KR',sans-serif}
+.endcta p{font-family:'Pretendard','Noto Sans KR',sans-serif;font-size:18px;font-weight:600;letter-spacing:-.02em}
+.acc .r b,.acc .r.hl b{font-weight:500;letter-spacing:-.01em}
+.acc .r .t,.acc .r.hl .t{font-family:'Pretendard',sans-serif;font-weight:700;font-variant-numeric:tabular-nums}
+.v4body,.gainp,.namecard .why{letter-spacing:-.01em}
+#go,#goTop{font-family:'Pretendard',sans-serif;font-weight:600;font-size:17px;letter-spacing:-.01em;color:#1b1406;
+  background:linear-gradient(110deg,transparent 38%,rgba(255,252,236,.6) 50%,transparent 62%) 100% 0/280% 100%,#e9c264;
+  box-shadow:0 10px 24px -12px rgba(233,194,100,.65);animation:goshine 2.8s ease-in-out .6s infinite,aura3 3s ease-in-out infinite}
+@keyframes aura3{0%,100%{box-shadow:0 10px 24px -12px rgba(233,194,100,.65),0 0 0 0 rgba(233,194,100,0)}50%{box-shadow:0 10px 24px -12px rgba(233,194,100,.65),0 0 18px 2px rgba(233,194,100,.35)}}
+#go.off{animation:none;box-shadow:none}
+.seg button[aria-pressed="true"],.seg.mini button[aria-pressed="true"],.sbtn.send{background:#e9c264;color:#1b1406;border-color:#e9c264;font-weight:600}
+.seg button,.btn{font-weight:600}
+/* v4.6 끝 안내 글자는 작게, 버튼은 크기 대신 흐르는 금빛으로 부각, 다섯 기운은 통통 움직인다 */
+.endcta p{font-size:15.5px;font-weight:500;color:var(--ink2);margin:0 auto 18px}
+#go,#goTop{color:#1b1406;
+  background:linear-gradient(115deg,#b9862e 0%,#e9c264 18%,#fff1c2 32%,#e9c264 46%,#c8973c 60%,#f6d98a 76%,#fff6d8 86%,#d9ab4a 100%) 0 0/300% 100%;
+  box-shadow:0 10px 26px -12px rgba(233,194,100,.75),inset 0 0 0 1px rgba(255,240,200,.35);
+  animation:goldflow 4.5s linear infinite,aura3 3s ease-in-out infinite}
+@keyframes goldflow{from{background-position:0% 0}to{background-position:-300% 0}}
+#go.off{animation:none;background:#e9c264;opacity:.45}
+/* 잔별은 더 또렷하게, 자리마다 따로 반짝 */
+#go::before,#goTop::before{background:radial-gradient(circle at 10% 32%,#fff 0 1.4px,transparent 2.2px),radial-gradient(circle at 24% 70%,#fff 0 1.1px,transparent 1.8px),radial-gradient(circle at 70% 24%,#fff 0 1.6px,transparent 2.4px),radial-gradient(circle at 86% 64%,#fff 0 1.2px,transparent 2px),radial-gradient(circle at 52% 20%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 38% 82%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 93% 30%,#fff 0 1px,transparent 1.6px);
+  animation:glitter 1.4s steps(2,end) infinite}
+/* 다섯 기운: 하나씩 차례로 통통 */
+.endcta .horbs span{animation:hop 2.6s cubic-bezier(.3,.7,.4,1) infinite}
+.endcta .horbs span:nth-child(2){animation-delay:.18s}.endcta .horbs span:nth-child(3){animation-delay:.36s}.endcta .horbs span:nth-child(4){animation-delay:.54s}.endcta .horbs span:nth-child(5){animation-delay:.72s}
+@keyframes hop{0%,60%,100%{transform:translateY(0)}20%{transform:translateY(-7px)}35%{transform:translateY(0)}45%{transform:translateY(-2px)}}
+@media (prefers-reduced-motion:reduce){#go,#goTop,.endcta .horbs span{animation:none}}
+/* 버튼 잔별 없음 */
+#go::before,#goTop::before{content:none!important;display:none!important}
+/* v4.6 */
+.v4need .keyc .k2 .kh{font-size:.62em;font-weight:700;color:var(--c);opacity:.85;margin-left:4px;vertical-align:.2em}
+.chiphint{color:var(--ink2)}
+.chiphint::before{background:var(--ink);color:#151413}
+.namecard .act{flex-wrap:wrap}
+.pick{font:inherit;font-size:14px;font-weight:700;border-radius:999px;padding:7px 16px;cursor:pointer;border:1px solid #e9c264;background:transparent;color:#e9c264}
+.pick[aria-pressed="true"]{background:#e9c264;color:#1b1406}
+.pick[aria-pressed="true"]::before{content:'';display:inline-block;width:12px;height:12px;margin-right:6px;vertical-align:-1px;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7'/%3E%3C/svg%3E") center/contain no-repeat}
+.namecard.sel{outline:2px solid #e9c264;outline-offset:4px;border-color:#e9c264}
+.share{margin-top:34px;padding:24px 16px 22px;border-radius:22px;border:1px solid var(--line);background:var(--panel)}
+.share .v4k{margin:0}
+.sharehint{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink2);text-align:center}
+.v4more,#more details{margin:12px 0 0!important}
+#more{margin-top:0}
+#p2 .v4more{margin-top:28px!important}
+#again{margin-top:18px}
+/* v4.7 밤하늘 남색 + 추천 탭 + 이름 뜻 */
+:root{--bg:#0b1020;--bg2:#141b34;--panel:#141b34;--line:#2b3659;--ink:#f5f0e6;--ink2:#dfe3ee;--ink3:#aab3cc}
+html{background:#0b1020}
+body{background:radial-gradient(900px 520px at 50% -120px,#1c2750 0%,#0b1020 62%) no-repeat,#0b1020}
+.top{background:rgba(11,16,32,.94)}
+#loading{background:rgba(11,16,32,.97)}
+.lang-btn:hover,.lang-btn[aria-expanded="true"],.lang-menu button:hover,.lang-menu button:focus-visible,a.kicker:hover{background:#202a4c}
+.use .ic,.acc .t,.tagc,.sb{background:#202a4c}
+.tile,.pairs div,.glyph,.chips button,.chipnote{background:#1b2442}
+.glyph.c0,.chips .c0{background:#17352f}.glyph.c1,.chips .c1{background:#3a2430}.glyph.c2,.chips .c2{background:#37301f}.glyph.c3,.chips .c3{background:#283149}.glyph.c4,.chips .c4{background:#16304f}
+.yy .n{background:#070a14}
+.ntabs{position:sticky;top:58px;z-index:15;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:6px;margin:18px 0 8px;border-radius:16px;background:rgba(20,27,52,.97);border:1px solid var(--line)}
+.ntab{font:inherit;min-height:58px;border:0;border-radius:11px;padding:8px 4px 7px;cursor:pointer;background:transparent;color:var(--ink);transition:background .2s,color .2s}
+.ntab small{display:block;font-size:12px;font-weight:600;color:var(--ink2);line-height:1.3}
+.ntab b{display:block;font-size:17px;font-weight:700;line-height:1.35}
+.ntab.on{background:#e9c264;color:#1b1406}
+.ntab.on small{color:#1b1406}
+.ntab:focus-visible{outline:2px solid #e9c264;outline-offset:2px}
+.ntabhint{margin:0 0 14px;font-size:13.5px;color:var(--ink2);text-align:center}
+.names{margin-top:0}
+.namecard[hidden]{display:none}
+.namecard.sel{outline:0}
+.nmean{margin:18px 0 0;font-size:17.5px;font-weight:700;line-height:1.55;color:#f0cf78;text-align:center;word-break:keep-all;text-wrap:balance}
+html[lang="th"] .nmean,html[lang="vi"] .nmean,html[lang="en"] .nmean{word-break:normal}
+/* v4.8 이름 제목을 크게, 추천 탭은 눌러 볼 수 있게 보이도록 */
+.v4names{text-align:center}
+.v4names .v4k{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;margin:0 0 14px;padding:0;font-family:'Noto Serif KR',serif;font-size:clamp(27px,7.4vw,34px);font-weight:800;line-height:1.3;letter-spacing:-.01em;color:#f0cf78;text-shadow:0 0 22px rgba(233,194,100,.38)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){.v4names .v4k span{color:transparent;text-shadow:none;background:linear-gradient(115deg,#d9ab4a 0%,#fff1c2 28%,#e9c264 50%,#fff6d8 72%,#d9ab4a 100%) 0 0/250% 100%;-webkit-background-clip:text;background-clip:text;animation:titleflow 6s linear infinite;filter:drop-shadow(0 0 12px rgba(233,194,100,.32))}}
+.v4names .v4k::before,.v4names .v4k::after{content:'';display:block;position:static;flex:1 1 20px;min-width:14px;max-width:72px;width:auto;height:1.5px;margin:0;border-radius:2px;background:linear-gradient(90deg,transparent,#e9c264);transform:none;opacity:1}
+.v4names .v4k::after{background:linear-gradient(90deg,#e9c264,transparent)}
+@keyframes titleflow{from{background-position:0 0}to{background-position:-250% 0}}
+.ntabhint{display:flex;align-items:center;justify-content:center;gap:7px;margin:20px 0 10px;font-size:15px;font-weight:700;line-height:1.4;color:#f0cf78;text-align:center}
+.ntabhint svg{flex:none;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ntabs{gap:8px;padding:7px;margin:0 0 20px;border:0;border-radius:20px;background:rgba(11,16,32,.96);box-shadow:0 12px 22px -16px #000}
+.ntab{position:relative;min-height:74px;padding:9px 4px 8px;border:1.5px solid transparent;border-radius:15px;background:linear-gradient(180deg,#222d55,#151c38) padding-box,linear-gradient(135deg,#fff1c2 0%,#c8973c 48%,#f6d98a 100%) border-box;transition:transform .15s,box-shadow .2s;animation:tabcall 2.4s ease-in-out infinite}
+.ntab:nth-child(2){animation-delay:.35s}.ntab:nth-child(3){animation-delay:.7s}
+.ntabs.seen .ntab:not(.on){animation:none}
+@keyframes tabcall{0%,100%{box-shadow:0 0 0 0 rgba(233,194,100,0)}50%{box-shadow:0 0 15px 1px rgba(233,194,100,.5)}}
+.ntab small{font-size:12.5px;font-weight:700;color:#f0cf78}
+.ntab b{margin-top:2px;font-size:19.5px;font-weight:800;color:#fff}
+.ntab:hover{transform:translateY(-1px)}
+.ntab:active{transform:scale(.96)}
+.ntab.on{border-color:transparent;background:linear-gradient(115deg,#b9862e 0%,#e9c264 18%,#fff1c2 32%,#e9c264 46%,#c8973c 60%,#f6d98a 76%,#fff6d8 86%,#d9ab4a 100%) 0 0/300% 100%;box-shadow:0 8px 22px -8px rgba(233,194,100,.85);animation:goldflow 4.5s linear infinite}
+.ntab.on small,.ntab.on b{color:#1b1406}
+.ntab.on::after{content:'';position:absolute;left:50%;bottom:-7px;width:13px;height:13px;margin-left:-6.5px;background:#e0b450;border-radius:0 0 3px 0;transform:rotate(45deg)}
+@media (prefers-reduced-motion:reduce){.v4names .v4k span,.ntab,.ntab.on{animation:none}}
 </style>
 </head>
 <body>
@@ -457,7 +957,7 @@ html:not([lang="ko"]) .kicker{letter-spacing:1px}
 <footer class="copy" translate="no"><nav class="kcnav" aria-label="Kori Care"><a id="navMain" href="https://www.koricare.kr/"></a><a id="navPortal" href="https://www.koricare.kr/link/"></a><a id="navCalc" href="https://www.koricare.kr/link/severance-calculator"></a></nav>© 2026 Kori Care. All rights reserved.</footer>
 <div id="loading" aria-live="polite"><div><div class="cards" id="ldCards"></div><div class="msg" id="ldMsg"></div></div></div>
 
-<script>/* ../../궁합계산/engine.js */
+<script>/* engine.js */
 // 국제커플 궁합 계산 엔진 (검증용. 배포 전, 승인 후 화면에 붙인다)
 // 생년월일시는 이 파일 안에서만 계산한다. 저장·전송 코드 없음.
 'use strict';
@@ -956,7 +1456,7 @@ if (typeof module !== 'undefined' && module.exports) module.exports = API;
 else window.Gunghap = API;
 
 </script>
-<script>/* ../naming_engine.js */
+<script>/* naming_engine.js */
 // 사주 풀이 + 한국 이름 작명 계산 (궁합계산/engine.js 위에 얹는다)
 // 단계와 규칙은 한국작명원 성명학 이론(irum.com/Resource/Theory) 순서를 따른다. 근거는 기획안 참고
 (function (root, factory) {
@@ -1272,6 +1772,53 @@ else window.Gunghap = API;
 if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || window.NAME_DATA;
 
 </script>
+<script>/* name_quality.js */
+// name_quality.js: 기운만 맞는 이름을 거르는 자료
+// OLD: 1940~1990년 출생자 상위 10위에 있고 2004년 이후 상위 10위에는 없는 이름 + '미' 로 시작하는 1960~70년대식 이름
+// BAD: 혼자서는 뜻이 좋아도 이름 글자로 어색한 한자
+// GROUP: 두 글자 뜻이 한 장면으로 이어지는지 보려고 한자를 뜻 갈래로 묶는다
+(function (root) {
+  'use strict';
+  const OLD = {
+    f: '영자 영숙 경자 정숙 숙자 정자 순자 순희 정순 춘자 옥자 명자 화자 영희 정희 명숙 현숙 경숙 인숙 경희 경옥 미경 미숙 미영 영미 지영 현정 은정 현주 은영 은주 은경 선영 지혜 혜진 지은 수진 지연 은지 유진 슬기 지현 미선 미연 미정 미진 미현 미주 미란'.split(' '),
+    m: '영호 종수 병호 영기 일성 영식 경수 영철 성기 종열 영수 정웅 영길 영일 정수 정남 광수 중수 성수 정호 성호 병철 영환 상철 영진 진호 상훈 정훈 성진 성훈 준호 성민 민호 준영 성현 민수 민규 승현'.split(' '),
+  };
+  const BAD = [...'沚汀洙洲濱渼鈴玧溵泳鉉錫鎬鍵壎畯垌埴畦蔘萊稷棋柄株棟蕓芮墺垓境垠壇坮岱堯秦荀鎭琥珩環然在時洵現甫奇堪'];
+  const GROUPS = {
+    water: '河湖源沅沇淵涓池潭澤溟浩澔洪瀚濤濬浚津',
+    clear: '潤淑潔淸淳潾澈善泫',
+    sky: '雨霞雯',
+    gem: '玹珉玟瑨琮珠琳鈺璘玗璟珽琇瑗璃璇璿瑄琦琪瑜珹珂琗玭玲瑢瑩璨珪',
+    vir: '瑞理敏銘鈞鍾',
+    mtn: '埈峻峨峰峯岡岷嵋崇崙峴',
+    land: '基址坰垕岸培坡堉埰',
+    light: '炫煥炳晟晙明昭炤景暻炅煜昱熙曦映暉昀爀燦炯燏燾晧',
+    dawn: '旭曙旦曉晨晸昶昇',
+    tree: '桐樹林楨梓檀桂筠榛枝根材柱栗',
+    flower: '莉英華荷芝苑芸蕙芳茶蓮薇薰蓁芽',
+  };
+  const GROUP = {};
+  for (const [g, s] of Object.entries(GROUPS)) for (const h of s) GROUP[h] = g;
+  // 뜻이 한 장면으로 이어지는 조합 24가지 (가운데 글자 갈래_끝 글자 갈래). 문장은 화면 언어 자료에 있다
+  const PAIRS = new Set(['water_gem', 'water_vir', 'clear_gem', 'clear_vir', 'sky_gem', 'sky_vir', 'gem_mtn', 'gem_land', 'vir_mtn', 'vir_land', 'mtn_light', 'mtn_dawn', 'land_light', 'land_dawn', 'light_tree', 'light_flower', 'dawn_tree', 'dawn_flower', 'tree_water', 'tree_clear', 'tree_sky', 'flower_water', 'flower_clear', 'flower_sky']);
+  const pairKey = (a, b) => { const k = `${GROUP[a]}_${GROUP[b]}`; return PAIRS.has(k) ? k : null; };
+  // 화면에 보여 줄 뜻 문장 갈래. 글자 하나가 한 갈래에만 들어가고, 문장은 화면 언어 자료(meanA·meanB)에 있다
+  const MEANS = {
+    river: '河源沅沇涓津濤沚汀洙洲濱渼溵泳洵芮墺', deep: '淵潭池澤湖濬浚', wide: '浩澔洪瀚溟甫', clear: '淑潔淸潾澈泫潤', gentle: '善淳穆康旼',
+    skyhue: '雨霞雯', heaven: '昊旻', jade: '玹珉玟瑨玗琇琮琪琦珽珹珂瑜琳瑄璇圭珪玧珩琥', pearl: '珠瑗璿玭鈺璃環', gemlight: '璘璟琗瑩璨現', chime: '玲瑢鍾鈴壎',
+    luck: '瑞', wise: '智敏棋', right: '程範楷昰理鈞均銘堯', excel: '秀俊杰藝稀奇', strong: '桓秉錫鎬鍵鎭柄堪鉉', advance: '晋昌增',
+    grain: '穎穗稷秦', guard: '垣墉城堂柱棟壇坮', nest: '栖', mountain: '埈峻峨峰峯岡岷嵋崇崙峴嵐岱',
+    land: '基址坰垕岸培坡堉埰畯垌埴畦垓境垠在', sun: '炫煥炳晟晙明昭炤暻炅煜昱熙爀燦炯燏燾晧然', warm: '景曦映暉昀', dawn: '旭曙旦曉晨晸昶昇時',
+    tree: '桐樹林楨梓檀桂榛枝材栗根筠蓁株', flower: '莉英華荷蓮薇苑', scent: '芝芸蕙芳茶薰蔘萊蕓荀', sprout: '蘇芽',
+  };
+  const MEAN = {};
+  for (const [g, s] of Object.entries(MEANS)) for (const h of s) MEAN[h] = g;
+  // 한 사람의 세 이름에서 문장이 겹칠 때만 쓰는 가까운 뜻 갈래
+  const NEAR = { river: 'deep', deep: 'river', wide: 'deep', clear: 'river', gentle: 'warm', skyhue: 'heaven', heaven: 'skyhue', jade: 'gemlight', pearl: 'gemlight', gemlight: 'jade', chime: 'jade', luck: 'gentle', wise: 'right', right: 'wise', excel: 'wise', strong: 'guard', advance: 'dawn', grain: 'land', guard: 'strong', nest: 'warm', mountain: 'land', land: 'mountain', sun: 'warm', warm: 'sun', dawn: 'sun', tree: 'sprout', flower: 'scent', scent: 'flower', sprout: 'flower' };
+  root.NameQuality = { OLD, BAD, GROUP, PAIRS, pairKey, MEANS, MEAN, NEAR };
+})(typeof self !== 'undefined' ? self : this);
+
+</script>
 <script>/* naming_v3.js */
 // v3 작명: 사주에 맞춘 이름 3개를 정한다. naming_engine.js(Jakmyeong) 와 name_data.js(NAME_DATA) 위에 얹는다
 // 기준 (작명기준_v3.md 와 같다)
@@ -1291,6 +1838,11 @@ if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || wind
   const mother = (e) => mod(e - 1, 5); // e 를 낳는 기운
   const kills = (a, b) => mod(a + 2, 5) === b; // a 가 b 를 누른다
   const PT = { good: 2, flat: 1, clash: 0 };
+  // 이름 품질 자료(name_quality.js). 옛 이름과 어색한 글자를 거르고, 뜻이 이어지는 두 글자를 앞세운다
+  const Q = (typeof self !== 'undefined' ? self : globalThis).NameQuality;
+  const OLD = { f: new Set(Q.OLD.f), m: new Set(Q.OLD.m) }, BAD = new Set(Q.BAD);
+  // 같은 사주는 늘 같은 결과, 사주가 다르면 비슷한 점수의 이름이 고루 나오게 하는 값 (0~2.2점)
+  const spreadPt = (seed, name) => { let h = seed; for (const ch of name) h = (h * 33 + ch.charCodeAt(0)) % 1009; return (h / 1009) * 2.2; };
 
   // 부르기 어려운 글자: ㅎ + 이중모음(ㅑ·ㅕ·ㅛ·ㅠ·ㅒ·ㅖ) + 막히는 받침(ㄱ·ㄷ·ㅂ 계열). 예: 혁
   // 외국인이 소리 내기 어려운 글자라 뺀다. 지금 글자 목록에서 걸리는 것은 '혁' 하나다
@@ -1309,7 +1861,8 @@ if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || wind
     const main = useJohu ? jo.need : y.el;
     let second = mother(main);
     if (useJohu && !kills(y.el, main) && !kills(main, y.el)) second = y.el; // 조후를 앞에 두고 억부 기운을 뒤에
-    return { main, second, useJohu, johu: jo, yong: y, counts: s.elements.slice() };
+    const seed = ['year', 'month', 'day', 'hour'].reduce((a, k) => { const p = s.pillars[k]; return p ? (a * 31 + p.stem * 12 + p.br) % 9973 : a; }, 7);
+    return { main, second, useJohu, johu: jo, yong: y, counts: s.elements.slice(), seed };
   }
 
   // 해례본이 판정 기준, 운해본은 가산점
@@ -1334,14 +1887,15 @@ if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || wind
     list.forEach((name, idx) => {
       const [a, b] = [...name];
       if (hardSyl(a) || hardSyl(b)) return;
+      if (level < 4 && OLD[gender].has(name)) return; // 마지막 단계(4)에서만 옛 이름을 허용한다
       const A = D.bySyl[a] || [], B = D.bySyl[b] || [];
       let best = null;
       for (const h1 of A) {
         const c1 = D.hanja[h1];
-        if (c1.el !== t.main) continue;
+        if (c1.el !== t.main || (level < 4 && BAD.has(h1))) continue;
         if (c1.g !== 'c' && c1.g !== gender && level < 2) continue;
         for (const h2 of B) {
-          if (h2 === h1) continue;
+          if (h2 === h1 || (level < 4 && BAD.has(h2))) continue;
           const c2 = D.hanja[h2];
           if (c2.g !== 'c' && c2.g !== gender && level < 2) continue;
           const secondOk = c2.el === t.second ? 2 : c2.el === t.main ? 1 : level >= 1 && !kills(c2.el, t.main) && !kills(t.main, c2.el) ? 0 : -1;
@@ -1363,7 +1917,7 @@ if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || wind
           if (!snd.ok) continue;
           const suriPt = sur ? (suri.allGood ? 3 : 0) : suri.원격.good ? 2 : 0;
           const gain = balanceGain(t.counts, [c1.el, c2.el]);
-          const score = 10 + secondOk * 3 + snd.pt + suriPt + gain * 2 + (c1.g === gender) + (c2.g === gender) + (1 - idx / list.length);
+          const score = 10 + secondOk * 3 + snd.pt + suriPt + gain * 2 + (c1.g === gender) + (c2.g === gender) + (1 - idx / list.length) * 6 + (Q.pairKey(h1, h2) ? 3 : 0) + spreadPt(t.seed, name);
           if (!best || score > best.score) best = { type: 'hanja', given: name, h: h1 + h2, parts: [{ h: h1, ...c1 }, { h: h2, ...c2 }], sound: snd, suri, secondOk, gain, score };
         }
       }
@@ -1417,13 +1971,17 @@ if (typeof module !== 'undefined') module.exports = globalThis.NAME_DATA || wind
     if (level > 2) level = 2;
     let chosen = choose3(hj);
     const wr = wooriCandidates(t, gender, sur, false);
-    if (wr.length && chosen.length >= 3) chosen[2] = wr[0];
+    // 세 칸 모두 한자 이름을 먼저 채운다. 순우리말은 한자 이름이 모자랄 때만 쓴다
     if (chosen.length < 3) {
       for (const w of wooriCandidates(t, gender, sur, true)) { if (chosen.length >= 3) break; if (!chosen.some((c) => c.given === w.given)) chosen.push(w); }
     }
     if (chosen.length < 3) {
       level = 3;
       const more = hanjaCandidates(t, gender, sur, 3).filter((c) => !chosen.some((x) => x.given === c.given));
+      chosen = [...chosen, ...choose3(more)].slice(0, 3);
+    }
+    if (chosen.length < 3) { // 그래도 모자라면 거른 글자까지 풀어 세 개를 채운다
+      const more = hanjaCandidates(t, gender, sur, 4).filter((c) => !chosen.some((x) => x.given === c.given));
       chosen = [...chosen, ...choose3(more)].slice(0, 3);
     }
     return { names: chosen.slice(0, 3).map((c) => ({ ...c, roman: J.romanizeGiven(c.given), romanH: J.romanizeGiven(c.given, true) })), level, pool: hj.length, woori: wr.length };
@@ -1450,7 +2008,7 @@ const ELC_DEEP = ['#2f7d5b', '#c8402f', '#a77a1e', '#6f7c88', '#1f4e79'];
 const STEM_NAME = ['갑목', '을목', '병화', '정화', '무토', '기토', '경금', '신금', '임수', '계수'];
 const STEM_EN = ['YANG WOOD', 'YIN WOOD', 'YANG FIRE', 'YIN FIRE', 'YANG EARTH', 'YIN EARTH', 'YANG METAL', 'YIN METAL', 'YANG WATER', 'YIN WATER'];
 // 『적천수』 주석을 풀어 쓴 한 줄 (카드 그림의 주제)
-const STEM_MEAN = ['하늘로 솟은 큰 나무', '꽃처럼 부드러운 가지와 잎', '활활 타는 불', '따뜻한 불', '산과 언덕의 흙', '논밭의 흙', '가장 굳센 쇠', '따뜻하고 맑은 쇠', '모든 냇물이 모인 큰 물', '가장 여린 물'];
+const STEM_MEAN = ['하늘을 향해 곧게 자라는 큰 나무', '바람결에 춤추는 꽃과 덩굴', '세상을 환히 비추는 한낮의 태양', '어둠 속을 밝히는 따뜻한 등불', '모두를 넉넉히 품어 주는 큰 산', '생명을 길러 내는 기름진 들판', '불에 달굴수록 단단해지는 강철', '곱게 다듬어져 빛나는 보석', '모든 물줄기를 품은 드넓은 바다', '대지를 적시는 고요한 단비'];
 const NUM = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
 const ART = [
   // 甲 하늘로 솟은 큰 나무 (甲木參天, 根幹之木)
@@ -1800,14 +2358,14 @@ window.SajuLang = function ({ G, hz }) {
       items: [
         ['State', 'The Joseon royal observatory, Gwansanggam, selected officials through exams on Saju texts, and those officials chose the days and hours for royal events.'],
         ['Marriage', 'The groom’s family sent the groom’s date and time of birth, and the bride’s family checked compatibility and set the wedding day.'],
-        ['Names', 'Many families placed five-element characters into names in order, generation by generation.'],
+        ['Names', 'In Korea today, many families still choose a good day and hour for a baby’s birth, and then name the child to fit their Saju.'],
       ],
-      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132'], ['항렬', 'E0062386']],
-      accH: 'Calculated to the minute',
-      acc: [['Basic', 'Days when the zodiac year and month change (solar terms)', ''], ['Basic', 'Local time of your birth city', ''], ['Plus', 'Pronunciation and hanja stroke count', 'hl']],
+      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132']],
+      accH: 'It has to be calculated down to the minute you were born',
+      acc: [['1', 'Your zodiac year and month are read by the solar terms, set by the sun’s position, not by calendar dates.', ''], ['2', 'Birth time differs a little by country and city, so it is read by when the sun actually rises and sets where you were born.', ''], ['3', 'The sound of a name carries power too, so both the element of its sound and its hanja stroke count have to fit.', 'hl']],
     },
     srcPre: 'Source: Encyclopedia of Korean Culture',
-    endP: 'Get a Korean name made from the date and time you were born.',
+    endP: 'Get a Korean name made from your own birth date and time.',
     ntHint: 'Without a birth time, we read your Saju from the year, month and day only. You still get three names.',
     bdHint: '',
     lCountry: 'Country of birth', lCity2: 'City of birth',
@@ -1823,7 +2381,7 @@ window.SajuLang = function ({ G, hz }) {
     countries: ['South Korea', 'Vietnam', 'Thailand', 'Philippines', 'China', 'Japan', 'Cambodia', 'Indonesia', 'Mongolia', 'Uzbekistan', 'Kazakhstan', 'Nepal', 'Myanmar', 'Sri Lanka', 'Bangladesh', 'Russia', 'United States', 'Canada', 'Australia', 'United Kingdom', 'France', 'Germany'],
     cities: CITY_EN,
     go: 'Get my Korean name', again: 'Start over',
-    privacy: 'Your date is calculated only on this screen. It is never sent or stored.',
+    privacy: 'The date and details you enter are calculated only on this screen and are never stored anywhere.',
     errSex: 'Please choose a gender.', errBd: 'Please enter your date of birth.', errLunar: 'That lunar date (leap month) does not exist in that year. Please check the date.',
     loading: ['Setting up the eight characters', 'Measuring the five elements', 'Finding the element you need'],
     pos: { year: 'Year', month: 'Month', day: 'Day', hour: 'Hour' },
@@ -1912,7 +2470,10 @@ window.SajuLang = function ({ G, hz }) {
     betterSrc: (w) => `Source: 『Liji』, Monthly Ordinances <span class="hz">(${w.src})</span>`,
     pairHead: ['Color', 'Direction', 'Season', 'Number', 'Taste'],
     p3Lead: (w, w2) => `The middle syllable carries <b>${w}</b>, and the last syllable carries <b>${w2}</b>, which supports it. Each name also passes checks on sound and stroke count.`,
-    saveHint: 'Tap a name card to put that name on the save card.',
+    saveHint: 'The name you pick goes on the save card below. Save it or send it to a friend.',
+    shareH: 'Save card',
+    tabHint: 'Tap a name to compare',
+    pairMean: {"water_gem":"Deep and precious, like a jewel shining in clear water","water_vir":"Deep as clear water, with good fortune always close","clear_gem":"A clear heart that shines like a jewel","clear_vir":"A clear, upright heart where good energy stays","sky_gem":"A jewel that glows with the colors of the sky","sky_vir":"Bringing good energy, like soft light from the sky","gem_mtn":"Strong and precious, like a jewel held inside a high mountain","gem_land":"Precious, like a jewel raised by wide, open land","vir_mtn":"Steady as a mountain, where good energy stays","vir_land":"Generous as wide land, with blessings close at hand","mtn_light":"Proud and bright, like a high mountain in the sunlight","mtn_dawn":"Leading the way, like the peak that first meets the dawn","land_light":"Warm and generous, like open land full of sunlight","land_dawn":"Opening new hope, like land touched by the morning sun","light_tree":"Bright and dependable, like a tree growing straight in the sun","light_flower":"Bright and graceful, like a flower blooming in the sun","dawn_tree":"Growing strong, like a tree reaching for the morning sun","dawn_flower":"Clear and graceful, like a flower opening at dawn","tree_water":"Growing tall, like a great tree drinking clear water","tree_clear":"Growing straight, like a tree nourished by clear energy","tree_sky":"Growing green, like a tree after a welcome rain","flower_water":"Graceful, like a flower blooming beside clear water","flower_clear":"Like a flower blooming full of clear energy","flower_sky":"Like a flower in full bloom after a welcome rain"},
     kindH: 'Hanja name', kindW: 'Native Korean',
     rank: (i) => `Pick ${i + 1}`,
     listen: 'Listen', save: 'Save', saved: 'Saved',
@@ -1934,6 +2495,8 @@ window.SajuLang = function ({ G, hz }) {
     suriOneNote: (a, b, x) => `By the Kangxi Dictionary method: ${a.h} ${a.s} + ${b.h} ${b.s} = ${x.n} strokes, a lucky number in the 81-number system. Choosing a surname adds the four patterns.`,
     relText: { mother: 'gives birth to that element and supports it', same: 'adds the same element once more', calm: 'follows it with no clash' },
     whyHanja: (a, b, aEl, bEl, rel, ON) => `The middle character “${a.hun}” ${ON(a)} ${hz(a.h)} fills ${aEl}, and the last character “${b.hun}” ${ON(b)} ${hz(b.h)}, which is ${bEl}, ${rel}.`,
+    gainLine: (items, tail) => `With this name, ${items.map((x, i) => `${i ? '' : 'your '}${x.w} ${i ? '' : 'goes '}from ${x.from} to ${x.to}`).join(', and ')}. ${tail}`,
+    johuTail: (winter) => (winter ? 'It warms a cold chart first, so the other elements can do their part.' : 'It cools a hot chart first, so the other elements can do their part.'),
     wMean: wooriOf(0),
     chipW: (w) => `Meaning: ${w}`,
     noteW: (mean, w) => `It is a word meaning “${mean},” so its element is ${w}. Only words listed with that meaning in the Standard Korean Language Dictionary are used.`,
@@ -1975,14 +2538,14 @@ window.SajuLang = function ({ G, hz }) {
       items: [
         ['ราชสำนัก', 'สำนักควานซังกัมของราชวงศ์โชซอนคัดเลือกข้าราชการด้วยการสอบจากตำราซาจู และข้าราชการเหล่านี้เป็นผู้เลือกวันและเวลาของพระราชพิธี'],
         ['การแต่งงาน', 'เมื่อบ้านเจ้าบ่าวส่งวันและเวลาเกิดของเจ้าบ่าวไป บ้านเจ้าสาวจะดูดวงสมพงศ์และกำหนดวันแต่งงาน'],
-        ['ชื่อ', 'หลายตระกูลใส่อักษรของธาตุทั้งห้าลงในชื่อตามลำดับในแต่ละรุ่น'],
+        ['ชื่อ', 'ทุกวันนี้ในเกาหลี หลายครอบครัวยังเลือกวันและเวลาที่ดีสำหรับการคลอด และเมื่อลูกเกิดแล้วก็ตั้งชื่อให้เข้ากับซาจูของลูก'],
       ],
-      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132'], ['항렬', 'E0062386']],
-      accH: 'คำนวณละเอียดถึงระดับนาที',
-      acc: [['พื้นฐาน', 'วันที่ปีนักษัตรและเดือนเปลี่ยน (ตามตำแหน่งดวงอาทิตย์)', ''], ['พื้นฐาน', 'เวลาท้องถิ่นของเมืองที่เกิด', ''], ['เพิ่มเติม', 'การออกเสียงชื่อและจำนวนขีดของอักษรจีน', 'hl']],
+      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132']],
+      accH: 'ต้องคำนวณละเอียดถึงนาทีที่คุณเกิด',
+      acc: [['1', 'ปีนักษัตรและเดือนตีความตามช่วงฤดูที่กำหนดจากตำแหน่งดวงอาทิตย์ ไม่ใช่ตามวันที่ในปฏิทิน', ''], ['2', 'เวลาเกิดต่างกันเล็กน้อยตามประเทศและเมือง จึงตีความตามเวลาที่ดวงอาทิตย์ขึ้นและตกจริงในที่ที่คุณเกิด', ''], ['3', 'เสียงที่ใช้เรียกชื่อก็มีพลัง จึงต้องให้ธาตุของเสียงและจำนวนขีดของอักษรจีนเข้ากันด้วย', 'hl']],
     },
     srcPre: 'ที่มา: สารานุกรมวัฒนธรรมเกาหลี',
-    endP: 'รับชื่อเกาหลีที่ตั้งจากวันและเวลาเกิดของคุณ',
+    endP: 'รับชื่อเกาหลีที่ตั้งจากวันและเวลาเกิดของคุณเอง',
     ntHint: 'ถ้าไม่ทราบเวลาเกิด จะอ่านซาจูจากปี เดือน และวันเท่านั้น และยังได้ชื่อ 3 ชื่อเหมือนเดิม',
     bdHint: '',
     lCountry: 'ประเทศที่เกิด', lCity2: 'เมืองที่เกิด',
@@ -1998,7 +2561,7 @@ window.SajuLang = function ({ G, hz }) {
     countries: ['เกาหลีใต้', 'เวียดนาม', 'ไทย', 'ฟิลิปปินส์', 'จีน', 'ญี่ปุ่น', 'กัมพูชา', 'อินโดนีเซีย', 'มองโกเลีย', 'อุซเบกิสถาน', 'คาซัคสถาน', 'เนปาล', 'เมียนมา', 'ศรีลังกา', 'บังกลาเทศ', 'รัสเซีย', 'สหรัฐอเมริกา', 'แคนาดา', 'ออสเตรเลีย', 'สหราชอาณาจักร', 'ฝรั่งเศส', 'เยอรมนี'],
     cities: CITY_TH,
     go: 'รับชื่อเกาหลี', again: 'กรอกใหม่',
-    privacy: 'วันที่ที่กรอกจะคำนวณบนหน้านี้เท่านั้น ไม่มีการส่งหรือบันทึกไปที่ใด',
+    privacy: 'วันที่และข้อมูลที่คุณกรอกจะคำนวณบนหน้าจอนี้เท่านั้น และจะไม่ถูกบันทึกไว้ที่ใดเลย',
     errSex: 'กรุณาเลือกเพศ', errBd: 'กรุณากรอกวันเกิด', errLunar: 'ปีนั้นไม่มีวันที่ตามจันทรคติ (เดือนอธิกมาส) นี้ กรุณาตรวจสอบวันที่อีกครั้ง',
     loading: ['กำลังตั้งอักษรทั้งแปด', 'กำลังวัดธาตุทั้งห้า', 'กำลังหาธาตุที่คุณต้องการ'],
     pos: { year: 'ปี', month: 'เดือน', day: 'วัน', hour: 'เวลา' },
@@ -2087,7 +2650,10 @@ window.SajuLang = function ({ G, hz }) {
     betterSrc: (w) => `ที่มา: 『หลี่จี้』 บทเยว่ลิ่ง <span class="hz">(${w.src})</span>`,
     pairHead: ['สี', 'ทิศ', 'ฤดู', 'ตัวเลข', 'รส'],
     p3Lead: (w, w2) => `พยางค์กลางใส่<b>ธาตุ${w}</b> และพยางค์ท้ายใส่<b>ธาตุ${w2}</b>ที่ช่วยหนุน ทุกชื่อผ่านการตรวจเสียงและจำนวนขีดแล้ว`,
-    saveHint: 'แตะการ์ดชื่อเพื่อเปลี่ยนการ์ดบันทึกเป็นชื่อนั้น',
+    saveHint: 'ชื่อที่คุณเลือกจะอยู่บนการ์ดด้านล่าง บันทึกไว้หรือส่งให้เพื่อนได้เลย',
+    shareH: 'การ์ดบันทึก',
+    tabHint: 'แตะชื่อเพื่อเปรียบเทียบ',
+    pairMean: {"water_gem":"ล้ำค่าและลึกซึ้ง ดั่งอัญมณีที่ส่องประกายในน้ำใส","water_vir":"ลึกซึ้งดั่งน้ำใส และมีสิ่งดีงามอยู่ใกล้เสมอ","clear_gem":"ใจที่ใสสะอาด เปล่งประกายดั่งอัญมณี","clear_vir":"ใจที่ใสและเที่ยงตรง เป็นที่อยู่ของพลังดีงาม","sky_gem":"อัญมณีที่เปล่งประกายด้วยสีสันของท้องฟ้า","sky_vir":"ส่งต่อพลังดีงาม ดั่งแสงอ่อนโยนจากท้องฟ้า","gem_mtn":"มั่นคงและล้ำค่า ดั่งอัญมณีในขุนเขาสูง","gem_land":"ล้ำค่าดั่งอัญมณีที่ผืนดินกว้างฟูมฟักไว้","vir_mtn":"มั่นคงดั่งขุนเขา เป็นที่อยู่ของพลังดีงาม","vir_land":"ใจกว้างดั่งผืนดิน และมีสิริมงคลอยู่ใกล้","mtn_light":"สง่างามดั่งขุนเขาสูงที่ต้องแสงอาทิตย์","mtn_dawn":"ก้าวนำหน้า ดั่งยอดเขาที่รับแสงอรุณก่อนใคร","land_light":"อบอุ่นและใจกว้าง ดั่งผืนดินที่อาบแสงแดด","land_dawn":"เปิดทางสู่ความหวังใหม่ ดั่งผืนดินยามต้องแสงเช้า","light_tree":"สดใสและเป็นที่พึ่งได้ ดั่งต้นไม้ที่เติบโตตรงใต้แสงแดด","light_flower":"สดใสและงดงาม ดั่งดอกไม้ที่บานใต้แสงแดด","dawn_tree":"เติบโตอย่างแข็งแรง ดั่งต้นไม้ที่เหยียดสู่แสงอรุณ","dawn_flower":"ใสและงดงาม ดั่งดอกไม้ที่บานยามรุ่งอรุณ","tree_water":"เติบใหญ่ ดั่งต้นไม้ใหญ่ที่ดื่มน้ำใส","tree_clear":"เติบโตตรง ดั่งต้นไม้ที่ได้รับพลังอันใสบริสุทธิ์","tree_sky":"เขียวขจี ดั่งต้นไม้ที่ได้รับฝนชุ่มฉ่ำ","flower_water":"งดงามอ่อนช้อย ดั่งดอกไม้ที่บานริมน้ำใส","flower_clear":"ดั่งดอกไม้ที่เบ่งบานด้วยพลังอันใสบริสุทธิ์","flower_sky":"ดั่งดอกไม้ที่บานสะพรั่งหลังฝนชุ่มฉ่ำ"},
     kindH: 'ชื่ออักษรจีน', kindW: 'ภาษาเกาหลีแท้',
     rank: (i) => `แนะนำ ${i + 1}`,
     listen: 'ฟังการออกเสียง', save: 'บันทึก', saved: 'บันทึกแล้ว',
@@ -2109,6 +2675,8 @@ window.SajuLang = function ({ G, hz }) {
     suriOneNote: (a, b, x) => `นับตามวิธีพจนานุกรมคังซี: ${a.h} ${a.s} ขีด + ${b.h} ${b.s} ขีด = ${x.n} ขีด ซึ่งเป็นเลขดีในระบบเลข 81 ถ้าเลือกนามสกุลจะดูครบทั้งสี่แบบ`,
     relText: { mother: 'ให้กำเนิดและหนุนธาตุนั้น', same: 'เติมธาตุเดียวกันอีกครั้ง', calm: 'ต่อกันโดยไม่ขัดกัน' },
     whyHanja: (a, b, aEl, bEl, rel, ON) => `อักษรกลาง “${a.hun}” ${ON(a)} ${hz(a.h)} เติมธาตุ${aEl} และอักษรท้าย “${b.hun}” ${ON(b)} ${hz(b.h)} ซึ่งเป็นธาตุ${bEl} ${rel}`,
+    gainLine: (items, tail) => `เมื่อใช้ชื่อนี้ ${items.map((x) => `ธาตุ${x.w}จะเพิ่มจาก ${x.from} เป็น ${x.to}`).join(' และ')} ${tail}`,
+    johuTail: (winter) => (winter ? 'ช่วยอุ่นดวงที่หนาวก่อน ธาตุอื่นจึงทำหน้าที่ของตัวเองได้' : 'ช่วยให้ดวงที่ร้อนเย็นลงก่อน ธาตุอื่นจึงทำหน้าที่ของตัวเองได้'),
     wMean: wooriOf(1),
     chipW: (w) => `ความหมาย: ธาตุ${w}`,
     noteW: (mean, w) => `เป็นคำที่แปลว่า “${mean}” จึงถือเป็นธาตุ${w} ใช้เฉพาะคำที่มีความหมายนี้ในพจนานุกรมภาษาเกาหลีมาตรฐาน`,
@@ -2151,14 +2719,14 @@ window.SajuLang = function ({ G, hz }) {
       items: [
         ['Triều đình', 'Quan Tượng Giám (Gwansanggam) của triều Joseon tuyển quan lại bằng kỳ thi dựa trên sách Saju, và các quan này chọn ngày giờ cho nghi lễ hoàng gia.'],
         ['Hôn nhân', 'Khi nhà trai gửi ngày giờ sinh của chú rể, nhà gái xem hợp tuổi rồi định ngày cưới.'],
-        ['Tên', 'Nhiều dòng họ lần lượt đặt chữ thuộc ngũ hành vào tên theo từng thế hệ.'],
+        ['Tên', 'Ngày nay ở Hàn Quốc, nhiều gia đình vẫn chọn ngày giờ tốt để em bé chào đời, rồi đặt tên cho con hợp với Tứ trụ.'],
       ],
-      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132'], ['항렬', 'E0062386']],
-      accH: 'Tính đến từng phút',
-      acc: [['Cơ bản', 'Ngày đổi năm con giáp và tháng (tiết khí)', ''], ['Cơ bản', 'Giờ địa phương của thành phố nơi sinh', ''], ['Thêm', 'Cách phát âm tên và số nét chữ Hán', 'hl']],
+      src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132']],
+      accH: 'Phải tính đến từng phút bạn chào đời',
+      acc: [['1', 'Năm con giáp và tháng được luận theo tiết khí, tính bằng vị trí mặt trời chứ không theo ngày trên lịch.', ''], ['2', 'Giờ sinh chênh nhau đôi chút theo quốc gia và thành phố, nên được luận theo giờ mặt trời mọc và lặn thực tế nơi bạn sinh.', ''], ['3', 'Âm thanh khi gọi tên cũng có sức mạnh, nên cả hành của âm đọc lẫn số nét chữ Hán đều phải hợp.', 'hl']],
     },
     srcPre: 'Nguồn: Bách khoa toàn thư Văn hóa Hàn Quốc',
-    endP: 'Nhận tên tiếng Hàn đặt từ ngày giờ sinh của bạn.',
+    endP: 'Nhận tên tiếng Hàn được đặt từ chính ngày giờ sinh của bạn.',
     ntHint: 'Nếu không biết giờ sinh, chúng tôi xem Saju chỉ theo năm, tháng, ngày. Bạn vẫn nhận ba cái tên.',
     bdHint: '',
     lCountry: 'Quốc gia nơi sinh', lCity2: 'Thành phố nơi sinh',
@@ -2174,7 +2742,7 @@ window.SajuLang = function ({ G, hz }) {
     countries: ['Hàn Quốc', 'Việt Nam', 'Thái Lan', 'Philippines', 'Trung Quốc', 'Nhật Bản', 'Campuchia', 'Indonesia', 'Mông Cổ', 'Uzbekistan', 'Kazakhstan', 'Nepal', 'Myanmar', 'Sri Lanka', 'Bangladesh', 'Nga', 'Mỹ', 'Canada', 'Úc', 'Anh', 'Pháp', 'Đức'],
     cities: CITY_VI,
     go: 'Nhận tên tiếng Hàn', again: 'Nhập lại',
-    privacy: 'Ngày bạn nhập chỉ được tính trên màn hình này, không gửi hay lưu ở bất cứ đâu.',
+    privacy: 'Ngày và thông tin bạn nhập chỉ được tính trên màn hình này và không được lưu lại ở bất kỳ đâu.',
     errSex: 'Vui lòng chọn giới tính.', errBd: 'Vui lòng nhập ngày sinh.', errLunar: 'Năm đó không có ngày âm lịch (tháng nhuận) này. Vui lòng kiểm tra lại.',
     loading: ['Đang lập tám chữ', 'Đang đo ngũ hành', 'Đang tìm hành bạn cần'],
     pos: { year: 'Năm', month: 'Tháng', day: 'Ngày', hour: 'Giờ' },
@@ -2263,7 +2831,10 @@ window.SajuLang = function ({ G, hz }) {
     betterSrc: (w) => `Nguồn: 『Lễ Ký』, thiên Nguyệt lệnh <span class="hz">(${w.src})</span>`,
     pairHead: ['Màu', 'Hướng', 'Mùa', 'Số', 'Vị'],
     p3Lead: (w, w2) => `Chữ giữa mang <b>hành ${w}</b>, chữ cuối mang <b>hành ${w2}</b> để nâng đỡ. Mỗi tên đều đã qua kiểm tra âm thanh và số nét.`,
-    saveHint: 'Chạm vào thẻ tên để đổi thẻ lưu sang tên đó.',
+    saveHint: 'Tên bạn chọn sẽ nằm trên thẻ lưu bên dưới. Hãy lưu lại hoặc gửi cho bạn bè.',
+    shareH: 'Thẻ lưu',
+    tabHint: 'Chạm vào tên để so sánh',
+    pairMean: {"water_gem":"Sâu sắc và quý giá như viên ngọc tỏa sáng trong làn nước trong","water_vir":"Sâu lắng như nước trong, luôn có điều lành ở bên","clear_gem":"Tấm lòng trong sáng, tỏa sáng như ngọc quý","clear_vir":"Tấm lòng trong sáng, ngay thẳng, nơi điều lành lưu lại","sky_gem":"Viên ngọc lấp lánh sắc trời","sky_vir":"Mang điều lành đến, như ánh sáng dịu từ bầu trời","gem_mtn":"Vững vàng và quý giá như viên ngọc trong lòng núi cao","gem_land":"Quý giá như viên ngọc được đất rộng nuôi dưỡng","vir_mtn":"Vững chãi như núi, nơi điều lành lưu lại","vir_land":"Rộng lượng như đất lành, phúc khí luôn ở gần","mtn_light":"Hiên ngang như núi cao dưới ánh mặt trời","mtn_dawn":"Đi trước dẫn đường, như đỉnh núi đón bình minh đầu tiên","land_light":"Ấm áp và rộng lượng như cánh đồng đầy nắng","land_dawn":"Mở ra hy vọng mới, như mảnh đất đón nắng sớm","light_tree":"Tươi sáng và đáng tin cậy như cây vươn thẳng dưới nắng","light_flower":"Tươi sáng và dịu dàng như đóa hoa nở dưới nắng","dawn_tree":"Lớn lên mạnh mẽ như cây vươn về phía mặt trời buổi sớm","dawn_flower":"Trong trẻo và dịu dàng như đóa hoa nở lúc bình minh","tree_water":"Vươn cao như đại thụ uống dòng nước trong","tree_clear":"Lớn lên ngay thẳng như cây được khí lành nuôi dưỡng","tree_sky":"Xanh tươi như cây gặp cơn mưa lành","flower_water":"Dịu dàng như đóa hoa nở bên dòng nước trong","flower_clear":"Như đóa hoa nở rộ trong khí lành trong trẻo","flower_sky":"Như đóa hoa bừng nở sau cơn mưa lành"},
     kindH: 'Tên chữ Hán', kindW: 'Thuần Hàn',
     rank: (i) => `Gợi ý ${i + 1}`,
     listen: 'Nghe phát âm', save: 'Lưu ảnh', saved: 'Đã lưu',
@@ -2285,6 +2856,8 @@ window.SajuLang = function ({ G, hz }) {
     suriOneNote: (a, b, x) => `Đếm theo Khang Hy tự điển: ${a.h} ${a.s} nét + ${b.h} ${b.s} nét = ${x.n} nét, là số tốt trong hệ 81 số. Nếu chọn họ, sẽ xét đủ bốn cách.`,
     relText: { mother: 'sinh ra và nâng đỡ hành đó', same: 'bổ sung thêm cùng hành một lần nữa', calm: 'nối tiếp mà không xung khắc' },
     whyHanja: (a, b, aEl, bEl, rel, ON) => `Chữ giữa “${a.hun}” ${ON(a)} ${hz(a.h)} bổ sung hành ${aEl}, và chữ cuối “${b.hun}” ${ON(b)} ${hz(b.h)} thuộc hành ${bEl} ${rel}.`,
+    gainLine: (items, tail) => `Với tên này, ${items.map((x) => `hành ${x.w} tăng từ ${x.from} lên ${x.to}`).join(', ')}. ${tail}`,
+    johuTail: (winter) => (winter ? 'Nó sưởi ấm lá số lạnh trước để các hành khác phát huy được.' : 'Nó làm mát lá số nóng trước để các hành khác phát huy được.'),
     wMean: wooriOf(2),
     chipW: (w) => `Nghĩa: hành ${w}`,
     noteW: (mean, w) => `Là từ có nghĩa “${mean}”, nên thuộc hành ${w}. Chỉ dùng từ có nghĩa này trong Từ điển tiếng Hàn chuẩn.`,
@@ -2304,6 +2877,230 @@ window.SajuLang = function ({ G, hz }) {
       '<b>Tên thuần Hàn.</b> Chỉ chọn từ trong từ điển có nghĩa trùng với hành cần thêm, và điều kiện âm thanh được xét chặt hơn tên chữ Hán.',
     ],
   };
+  /* v4.8 결과 화면 풀이·일간 문구·이름 뜻 문장 */
+  const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  Object.assign(en, {
+    stemMean: ['A great tree growing straight toward the sky', 'Flowers and vines dancing in the breeze', 'The midday sun lighting the whole world', 'A warm lamp glowing in the dark', 'A great mountain that shelters all', 'Rich fields that nurture life', 'Steel that grows stronger in the fire', 'A finely cut jewel that shines', 'A vast sea that gathers every river', 'Gentle rain soaking into the earth'],
+    dmRead: [
+      'Like the first tree in the forest to touch the sky, you clear the way ahead and rarely bend once you have chosen a direction.',
+      'Like a vine that blooms even between rocks, you find a way to grow wherever you are.',
+      'Like the sun high above the clouds, you are open and bright, and the people near you brighten too.',
+      'Like a lamp that keeps watch through the night, you notice the small things and light the way for those you love.',
+      'Like a great mountain that stands firm through every season, you rarely waver, and you welcome everyone who comes to you.',
+      'Like a field that turns seeds into harvest, you patiently grow people and work, and you make every effort count.',
+      'Like steel that hardens in the fire, you decide clearly and stay loyal to the end.',
+      'Like a finely cut jewel, you have a delicate eye and standards that never slip.',
+      'Like the sea that receives every river, you take in the world widely and keep moving toward what lies far ahead.',
+      'Like gentle rain soaking into dry ground, you quietly read hearts and reach first where you are needed.',
+    ],
+    tabHint: 'Three names for you. Tap each one to compare',
+    p8Lead: 'Saju means “four pillars”: the year, month, day and hour of your birth. Each pillar has two characters, which makes eight in all. The upper character of your birth day, marked “Me,” stands for you.',
+    hSec: { me: 'Your true nature', five: 'Your five elements', need: 'The element for your name', names: 'Names chosen for you', life: 'Add it to daily life', more: 'See how this reading was made', detail: 'Element, sound and strokes in detail' },
+    hTeach: {
+      me: (name) => `You were born with the energy of ${name}.`,
+      five: 'At birth, a person receives eight characters, and each one holds one of five elements: Wood, Fire, Earth, Metal or Water. Here are yours, gathered by element.',
+      need: 'When the five elements are uneven, a name can fill what is short. You hear your name all your life, so you carry its energy with you every day.',
+      cue: 'Your eight characters',
+    },
+    meanJoin: (a, b) => `${cap(a)} and ${b}`,
+    meanA: { river: 'free as a flowing stream', deep: 'deep as a quiet lake', wide: 'open-hearted as the sea', clear: 'pure as morning dew', gentle: 'gentle as a spring breeze', skyhue: 'lovely as the colors of the sky', heaven: 'vast as the high sky', jade: 'graceful as jade', pearl: 'radiant as a pearl', gemlight: 'softly glowing like jade', chime: 'clear as the chime of jade', luck: 'blessed with good energy', wise: 'sharp of mind', right: 'true to what is right', excel: 'gifted beyond others', strong: 'firm of will', advance: 'always moving forward', grain: 'full as ripened grain', guard: 'steady as a fortress wall', nest: 'cozy as a warm nest', mountain: 'steady as a high mountain', land: 'generous as the open land', sun: 'bright as sunlight', warm: 'soft as warm sunshine', dawn: 'strong as the morning sun', tree: 'upright as a great tree', flower: 'lovely as a flower', scent: 'carrying a quiet fragrance', sprout: 'lively as a new sprout' },
+    meanB: { river: 'ever flowing like clear water', deep: 'deep-hearted as a still lake', wide: 'generous as the wide ocean', clear: 'spotless at heart', gentle: 'warmhearted to everyone', skyhue: 'soft as the colors of the sky', heaven: 'with dreams as high as the sky', jade: 'precious as jade', pearl: 'glowing like a bright pearl', gemlight: 'shining bright as a jewel', chime: 'with a voice that moves the heart', luck: 'bringing good things to others', wise: 'bright with wisdom', right: 'a model for everyone around', excel: 'outstanding beyond compare', strong: 'steadfast to the very end', advance: 'growing greater every day', grain: 'bearing a rich harvest like golden grain', guard: 'a steady guard of what matters', nest: 'a warm place where others want to rest', mountain: 'dependable as a mountain', land: 'embracing others like the wide earth', sun: 'lighting up the world', warm: 'warm as the sun on a spring day', dawn: 'opening each new morning', tree: 'growing tall like a tree', flower: 'blooming gracefully like a flower', scent: 'as subtle as a sweet fragrance', sprout: 'blooming anew like spring' },
+    wooriLine: { 이슬: 'Clear and bright as morning dew', 시내: 'Clear as a stream that never stops flowing', 가람: 'Moving far and calmly like a great river', 단비: 'Like welcome rain that comes just when it is needed', 바다: 'With a heart as wide as the sea', 새봄: 'Opening new beginnings like early spring', 한솔: 'Evergreen and upright like a great pine', 노을: 'Coloring the world softly like the evening glow', 여름: 'Warm and full of life like summer sunshine', 한빛: 'Lighting the way like one great ray of light', 누리: 'Embracing the whole wide world', 마루: 'Climbing toward the heights like a mountain ridge', 가을: 'Bearing a rich harvest like autumn', 구슬: 'Round and radiant like a bead of jade' },
+    reading: (x) => {
+      const MEAN = { 재성: 'what you earn and manage: work and money', 관성: 'what holds you to account: your job, duties and rules', 식상: 'what you put out into the world: words, talent and action', 인성: 'what nurtures you: learning and support', 비겁: 'strength of your own kind: pride, independence and rivalry' };
+      const CONSEQ = {
+        재성: ['This chart has a large capacity for work and wealth, but not yet the strength to carry it. If you take on everything you want to, you tire quickly, and your body and mind wear down first.', 'This chart has a large capacity for work and wealth, and the strength to carry it. The clearer your goal, the more you bring in.'],
+        관성: ['Responsibility and pressure are heavy here, and the strength to bear them is short. Expectations and rules can press down on what you want to do, and mental fatigue builds easily.', 'There are many duties and rules here, and also the strength to bear them. This structure earns recognition in organizations and positions.'],
+        식상: ['You have many talents and much to say, but too little strength behind them. Your energy scatters easily, and your body runs out first.', 'Talent and expression overflow here, with the strength to push them forward. You shine when you bring what you want to do out into the world.'],
+        인성: ['Support and learning are plentiful, but pressed by the season of your birth, your strength to stand on your own is still weak.', 'Support and ideas overflow here. Too much thinking can slow your action and let chances slip by.'],
+        비겁: ['Several characters share your element, but pressed by the season of your birth, your strength has not fully formed.', 'Your own strength and will run high. You push hard, but without a place to use that strength, you may clash with people or lose money.'],
+      };
+      const TAIL = { 재성: 'build what is yours and keep the wealth that comes in', 관성: 'hold your ground under heavy responsibility', 식상: 'use your talents to the fullest' };
+      const SKIP = {
+        w: { 식상: 'draws your strength outward, so adding it while your strength is short would tire you more.', 재성: 'must be earned with effort, so adding it while your strength is short would be hard to handle.', 관성: 'presses and disciplines you, so adding it while your strength is short would weigh you down further.' },
+        s: { 인성: 'makes you even stronger, so adding it now would tip an already strong chart further.', 비겁: 'is the same as your own element, so adding it now would only increase stubbornness and friction.' },
+      };
+      const { k, w } = x;
+      const lackW = x.lack.map(w).join(', ');
+      let a;
+      if (x.dom >= 0) a = `Your chart holds ${x.domCnt} ${k(x.dom)}, ${x.domCnt >= 4 ? 'a very large share' : 'a large share'}. ${x.meCnt === 1 ? `${k(x.me)}, your own element, appears only in you.` : `${k(x.me)}, your own element, appears ${x.meCnt} times, counting you.`}`;
+      else if (x.meMany) a = `Your own element, ${k(x.me)}, appears ${x.meCnt} times, which is a lot.`;
+      else a = `The five elements in your chart do not lean heavily to one side.${x.lack.length ? ` But ${lackW} ${x.lack.length > 1 ? 'are' : 'is'} missing.` : ''}`;
+      const b = x.johu
+        ? `You were born in ${x.johu.winter ? 'winter' : 'summer'} with no ${k(x.main)}, so ${k(x.main)} is needed above all.`
+        : !x.weak
+          ? `A chart with abundant strength needs ${k(x.main)} ${{ 식상: 'to put that strength to use', 재성: 'to turn that strength into results', 관성: 'to give that strength direction' }[x.mainRole] || 'as a place to use that strength'}.`
+          : `${x.dom >= 0 ? `A chart with this much ${k(x.dom)}` : 'This chart'} needs ${k(x.main)}.`;
+      const role = x.dom >= 0 ? x.domRole : x.meMany ? '비겁' : null;
+      const c = role ? (role === '비겁' ? `In Saju, your own element stands for ${MEAN.비겁}.` : `In Saju, for ${w(x.me)}, ${k(x.dom)} stands for ${MEAN[role]}.`) : '';
+      const d = role ? CONSEQ[role][x.weak ? 0 : 1] : (x.weak ? 'Overall, more elements drain your strength than support it, so you tend to tire easily.' : 'Overall, more elements support you, so your strength runs high. It needs somewhere to go.');
+      let skip = '';
+      if (x.skip >= 0) {
+        const why = (x.weak ? SKIP.w : SKIP.s)[x.skipRole];
+        skip = why ? `${k(x.skip)} is missing, but we do not add it now. ${k(x.skip)} ${why}` : `${k(x.skip)} is missing, but ${k(x.main)} is more urgent right now.`;
+      }
+      const tail = TAIL[x.domRole] || 'see your work through to the end';
+      const mainWhy = x.johu
+        ? (x.johu.winter ? 'In a cold chart no element can do its part, so warming it with Fire comes first.' : 'In a hot, dry chart no element can do its part, so cooling it with Water comes first.')
+        : {
+          비겁: `First, add ${k(x.main)} to build the strength to hold on. Once that strength stands, you can ${tail}.`,
+          인성: `${k(x.main)} nurtures you. Once your roots grow thick, you stay steady and can ${tail}.`,
+          식상: `${k(x.main)} lets your abundant strength flow outward. When it flows into talent and activity, nothing stays blocked and results follow.`,
+          재성: `${k(x.main)} is what you earn with your strength. Your strength becomes useful when it turns into work and wealth.`,
+          관성: `${k(x.main)} disciplines strong energy. With direction and rules, your strength does not scatter, and you earn a position and a name.`,
+        }[x.mainRole];
+      const lead = `So the middle syllable of your name carries ${k(x.main)}, and the last syllable carries ${x.secondIsMother ? `${k(x.second)}, which nurtures that ${k(x.main)}` : k(x.second)}.`;
+      return { p1: [a + ' ' + b, [c, d].filter(Boolean).join(' ')], p2: [skip, mainWhy].filter(Boolean), lead };
+    },
+  });
+  Object.assign(th, {
+    stemMean: ['ต้นไม้ใหญ่ เติบโตตรงสู่ฟ้า', 'ดอกไม้และเถาวัลย์ ร่ายรำในสายลม', 'ดวงอาทิตย์ยามเที่ยง ส่องสว่างทั่วโลก', 'ตะเกียงอุ่น ส่องแสงในความมืด', 'ภูเขาใหญ่ โอบอุ้มทุกสรรพสิ่ง', 'ทุ่งนาอุดม หล่อเลี้ยงชีวิต', 'เหล็กกล้า ยิ่งหลอมยิ่งแกร่ง', 'อัญมณีเจียระไน ส่องประกายงดงาม', 'ทะเลกว้าง รวมทุกสายน้ำ', 'สายฝนอ่อนโยน ซึมซาบสู่ผืนดิน'],
+    dmRead: [
+      'ดั่งต้นไม้ต้นแรกในป่าที่แตะถึงฟ้า คุณเป็นคนที่เดินนำหน้า เปิดทางให้ผู้อื่น และไม่เปลี่ยนใจง่าย ๆ เมื่อเลือกทางแล้ว',
+      'ดั่งเถาวัลย์ที่ออกดอกได้แม้ในซอกหิน คุณหาทางเติบโตได้เสมอไม่ว่าจะอยู่ที่ใด',
+      'ดั่งดวงอาทิตย์เหนือหมู่เมฆ คุณเปิดเผย สดใส และทำให้คนรอบข้างสว่างไสวไปด้วย',
+      'ดั่งตะเกียงที่เฝ้ายามค่ำคืน คุณใส่ใจในรายละเอียด และคอยส่องทางให้คนที่คุณรักเสมอ',
+      'ดั่งภูเขาใหญ่ที่ตั้งมั่นทุกฤดูกาล คุณไม่หวั่นไหวง่าย และโอบรับทุกคนที่เข้ามาหา',
+      'ดั่งทุ่งนาที่เปลี่ยนเมล็ดพันธุ์เป็นผลผลิต คุณดูแลคนและงานด้วยความใส่ใจ และทำทุกอย่างให้เกิดผลจริง',
+      'ดั่งเหล็กกล้าที่ยิ่งหลอมยิ่งแกร่ง คุณตัดสินใจเด็ดขาดและซื่อสัตย์จนถึงที่สุด',
+      'ดั่งอัญมณีที่เจียระไนอย่างประณีต คุณมีสายตาละเอียดอ่อนและมาตรฐานที่ไม่เคยหย่อน',
+      'ดั่งทะเลที่รับทุกสายน้ำ คุณเปิดรับโลกอย่างกว้างขวาง และมุ่งหน้าไปสู่จุดหมายที่ไกลออกไป',
+      'ดั่งสายฝนอ่อนโยนที่ซึมสู่ผืนดินแห้ง คุณอ่านใจคนได้อย่างเงียบ ๆ และไปถึงก่อนในที่ที่มีคนต้องการ',
+    ],
+    tabHint: 'มี 3 ชื่อสำหรับคุณ แตะเพื่อเปรียบเทียบ',
+    p8Lead: 'ซาจูแปลว่า “สี่เสาหลัก” คือปี เดือน วัน และเวลาเกิด แต่ละเสามีอักษรสองตัว รวมเป็นแปดตัว อักษรตัวบนของวันเกิดที่มีป้าย “คุณ” คือตัวแทนของคุณ',
+    hSec: { me: 'ตัวตนที่แท้จริงของคุณ', five: 'ธาตุทั้งห้าของคุณ', need: 'ธาตุที่จะใส่ในชื่อ', names: 'ชื่อสำหรับคุณ', life: 'เสริมในชีวิตประจำวัน', more: 'ดูที่มาของคำทำนาย', detail: 'รายละเอียดธาตุ เสียง และจำนวนขีด' },
+    hTeach: {
+      me: (name) => `คุณเกิดมาพร้อมพลังของ${name}`,
+      five: 'เมื่อเกิดมา แต่ละคนจะได้รับอักษรแปดตัว และแต่ละตัวมีธาตุหนึ่งในห้า ได้แก่ ไม้ ไฟ ดิน ทอง น้ำ เมื่อรวมอักษรของคุณตามธาตุจะเป็นดังนี้',
+      need: 'เมื่อธาตุทั้งห้าไม่สมดุล ชื่อช่วยเติมส่วนที่ขาดได้ เพราะคุณได้ยินชื่อของตัวเองไปตลอดชีวิต จึงมีพลังนั้นติดตัวอยู่ทุกวัน',
+      cue: 'อักษรทั้งแปดของคุณ',
+    },
+    meanJoin: (a, b) => `${a} และ${b}`,
+    meanA: { river: 'ลื่นไหลดั่งสายน้ำ', deep: 'ลึกซึ้งดั่งทะเลสาบอันสงบ', wide: 'ใจกว้างดั่งมหาสมุทร', clear: 'บริสุทธิ์ดั่งหยาดน้ำค้าง', gentle: 'อ่อนโยนดั่งสายลมฤดูใบไม้ผลิ', skyhue: 'งดงามดั่งสีสันของท้องฟ้า', heaven: 'กว้างไกลดั่งท้องฟ้า', jade: 'งดงามดั่งหยก', pearl: 'เปล่งประกายดั่งไข่มุก', gemlight: 'เรืองรองอย่างนุ่มนวลดั่งแสงหยก', chime: 'ใสกังวานดั่งเสียงหยก', luck: 'เปี่ยมด้วยพลังดี ๆ', wise: 'เฉลียวฉลาดและว่องไว', right: 'ยึดมั่นในสิ่งที่ถูกต้อง', excel: 'มีความสามารถโดดเด่น', strong: 'มีความตั้งใจแน่วแน่', advance: 'ก้าวไปข้างหน้าเสมอ', grain: 'เต็มเปี่ยมดั่งรวงข้าวที่สุกงอม', guard: 'มั่นคงดั่งกำแพงเมือง', nest: 'อบอุ่นดั่งรังนก', mountain: 'หนักแน่นดั่งภูเขาสูง', land: 'ใจกว้างดั่งผืนแผ่นดิน', sun: 'สดใสดั่งแสงอาทิตย์', warm: 'นุ่มนวลดั่งแดดอุ่น', dawn: 'มีพลังดั่งตะวันยามเช้า', tree: 'เที่ยงตรงดั่งต้นไม้ใหญ่', flower: 'งดงามดั่งดอกไม้', scent: 'มีกลิ่นอายหอมละมุน', sprout: 'สดชื่นดั่งต้นอ่อน' },
+    meanB: { river: 'ไหลไปไม่หยุดดั่งสายน้ำใส', deep: 'มีจิตใจลึกซึ้งดั่งทะเลสาบ', wide: 'เอื้อเฟื้อดั่งทะเลกว้าง', clear: 'มีใจใสสะอาดไร้มลทิน', gentle: 'อบอุ่นและมีเมตตาต่อทุกคน', skyhue: 'อ่อนหวานดั่งแสงสีบนฟากฟ้า', heaven: 'มีความฝันสูงส่งดั่งท้องฟ้า', jade: 'ล้ำค่าดั่งหยก', pearl: 'ส่องแสงนวลดั่งไข่มุก', gemlight: 'ส่องประกายเจิดจ้าดั่งอัญมณี', chime: 'มีน้ำเสียงที่ตราตรึงใจผู้คน', luck: 'นำสิ่งดี ๆ มาสู่ผู้คน', wise: 'มีสติปัญญาเฉียบแหลม', right: 'เป็นแบบอย่างที่ดีของทุกคน', excel: 'โดดเด่นหาใครเทียบได้ยาก', strong: 'ยืนหยัดมั่นคงจนถึงที่สุด', advance: 'เจริญรุ่งเรืองขึ้นทุกวัน', grain: 'ออกผลงดงามดั่งรวงข้าวสีทอง', guard: 'ปกป้องสิ่งสำคัญไว้อย่างมั่นคง', nest: 'เป็นที่พักใจอันอบอุ่นของผู้คน', mountain: 'สูงส่งและน่าเชื่อถือดั่งภูเขา', land: 'โอบอุ้มผู้คนดั่งแผ่นดินกว้าง', sun: 'ส่องสว่างให้โลกนี้', warm: 'อบอุ่นดั่งแสงแดด', dawn: 'เปิดรับวันใหม่ด้วยความสดใส', tree: 'เติบโตสูงตรงดั่งต้นไม้', flower: 'เบ่งบานงดงามดั่งดอกไม้', scent: 'หอมละมุนดั่งกลิ่นดอกไม้', sprout: 'ผลิบานใหม่ดั่งฤดูใบไม้ผลิ' },
+    wooriLine: { 이슬: 'ใสและเปล่งประกายดั่งหยาดน้ำค้างยามเช้า', 시내: 'ใสดั่งลำธารที่ไหลไม่หยุด', 가람: 'มุ่งไปไกลอย่างสงบดั่งแม่น้ำใหญ่', 단비: 'ดั่งฝนที่มาในเวลาที่ต้องการที่สุด', 바다: 'มีหัวใจกว้างดั่งทะเล', 새봄: 'เปิดการเริ่มต้นใหม่ดั่งต้นฤดูใบไม้ผลิ', 한솔: 'เขียวขจีและเที่ยงตรงดั่งต้นสนใหญ่', 노을: 'แต่งแต้มโลกอย่างอ่อนโยนดั่งแสงยามเย็น', 여름: 'อบอุ่นและเปี่ยมชีวิตชีวาดั่งแดดฤดูร้อน', 한빛: 'ส่องทางข้างหน้าดั่งลำแสงอันยิ่งใหญ่', 누리: 'โอบอุ้มโลกทั้งใบ', 마루: 'มุ่งสู่ที่สูงดั่งยอดสันเขา', 가을: 'เก็บเกี่ยวผลอันอุดมดั่งฤดูใบไม้ร่วง', 구슬: 'กลมกลึงและเปล่งประกายดั่งลูกปัดหยก' },
+    reading: (x) => {
+      const MEAN = { 재성: 'สิ่งที่คุณต้องลงแรงเก็บเกี่ยว คือการงานและทรัพย์สิน', 관성: 'แรงที่กำกับตัวคุณ คือหน้าที่การงาน ความรับผิดชอบ และกฎเกณฑ์', 식상: 'พลังที่คุณแสดงออกมา คือคำพูด พรสวรรค์ และการลงมือทำ', 인성: 'พลังที่หล่อเลี้ยงคุณ คือการเรียนรู้และความช่วยเหลือ', 비겁: 'พลังแบบเดียวกับคุณ คือศักดิ์ศรี ความเป็นตัวของตัวเอง และการแข่งขัน' };
+      const CONSEQ = {
+        재성: ['ดวงนี้รองรับงานและทรัพย์ได้มาก แต่แรงที่จะแบกรับยังไม่พอ หากเริ่มงานมากเท่าที่อยากทำจะเหนื่อยเร็ว และร่างกายกับจิตใจจะล้าก่อน', 'ดวงนี้รองรับงานและทรัพย์ได้มาก และมีแรงแบกรับได้ ยิ่งมีเป้าหมายชัดเจน ก็ยิ่งเก็บเกี่ยวได้มาก'],
+        관성: ['ความรับผิดชอบและแรงกดดันมีมาก แต่แรงที่จะทนรับยังไม่พอ ความคาดหวังและกฎเกณฑ์อาจกดทับความตั้งใจของคุณ และความเหนื่อยล้าทางใจสะสมได้ง่าย', 'มีความรับผิดชอบและกฎเกณฑ์มาก แต่ก็มีแรงทนรับได้ เป็นโครงสร้างที่ได้รับการยอมรับในองค์กรและตำแหน่งหน้าที่'],
+        식상: ['มีพรสวรรค์และเรื่องที่อยากพูดมากมาย แต่แรงหนุนยังไม่พอ พลังจึงกระจายได้ง่าย และร่างกายมักหมดแรงก่อน', 'พรสวรรค์และการแสดงออกล้นเหลือ และมีแรงผลักดันด้วย คุณจะโดดเด่นเมื่อได้นำสิ่งที่อยากทำออกมาสู่โลกภายนอก'],
+        인성: ['มีผู้ช่วยเหลือและการเรียนรู้มาก แต่ถูกพลังของฤดูเกิดกดไว้ แรงที่จะยืนด้วยตัวเองจึงยังอ่อนอยู่', 'มีผู้ช่วยเหลือและความคิดล้นเหลือ เมื่อคิดมากเกินไป การลงมือทำจะช้าลงและอาจพลาดโอกาส'],
+        비겁: ['มีอักษรธาตุเดียวกับคุณหลายตัว แต่ถูกพลังของฤดูเกิดกดไว้ พลังจึงยังตั้งมั่นได้ไม่เต็มที่', 'พลังและความมุ่งมั่นของตัวเองสูง ผลักดันได้ดี แต่ถ้าไม่มีที่ให้ใช้พลังนั้น อาจขัดแย้งกับผู้คนหรือเสียทรัพย์ได้ง่าย'],
+      };
+      const TAIL = { 재성: 'สร้างสิ่งที่เป็นของตัวเองและรักษาทรัพย์ที่เข้ามาได้', 관성: 'รักษาจุดยืนของตัวเองได้แม้มีความรับผิดชอบหนัก', 식상: 'ใช้พรสวรรค์ของคุณได้อย่างเต็มที่' };
+      const SKIP = {
+        w: { 식상: 'เป็นธาตุที่ดึงพลังของคุณออกไป หากเติมตอนที่พลังยังน้อยจะยิ่งเหนื่อย', 재성: 'เป็นธาตุที่ต้องลงแรงจึงจะได้มา หากเติมตอนที่พลังยังน้อยจะรับมือได้ยาก', 관성: 'เป็นธาตุที่กดและควบคุมคุณ หากเติมตอนที่พลังยังน้อยจะยิ่งถูกกดทับ' },
+        s: { 인성: 'เป็นธาตุที่เสริมให้คุณแข็งแกร่งขึ้นอีก หากเติมตอนนี้ดวงที่แข็งอยู่แล้วจะยิ่งเอียง', 비겁: 'เป็นธาตุเดียวกับคุณ หากเติมตอนนี้จะมีแต่ความดื้อรั้นและการปะทะกันมากขึ้น' },
+      };
+      const k = (e) => `ธาตุ${x.k(e)}`, w = (e) => `ธาตุ${x.w(e)}`;
+      const lackW = x.lack.map(w).join(' ');
+      let a;
+      if (x.dom >= 0) a = `ดวงของคุณมี${k(x.dom)} ${x.domCnt} ตัว ซึ่ง${x.domCnt >= 4 ? 'มากเป็นพิเศษ' : 'ค่อนข้างมาก'} ส่วน${k(x.me)}ซึ่งเป็นธาตุเดียวกับคุณ${x.meCnt === 1 ? 'มีเพียงตัวคุณเอง' : `มี ${x.meCnt} ตัว รวมตัวคุณด้วย`}`;
+      else if (x.meMany) a = `ดวงของคุณมี${k(x.me)}ซึ่งเป็นธาตุเดียวกับคุณถึง ${x.meCnt} ตัว`;
+      else a = `ธาตุทั้งห้าในดวงของคุณไม่เอียงไปทางใดทางหนึ่งมากนัก${x.lack.length ? ` แต่ไม่มี${lackW}เลย` : ''}`;
+      const b = x.johu
+        ? `คุณเกิดในฤดู${x.johu.winter ? 'หนาว' : 'ร้อน'} แต่ไม่มี${k(x.main)}เลย จึงต้องการ${k(x.main)}มากที่สุด`
+        : !x.weak
+          ? `ดวงที่มีพลังล้นเหลือต้องการ${k(x.main)}${{ 식상: 'เพื่อนำพลังนั้นออกมาใช้', 재성: 'เพื่อเปลี่ยนพลังนั้นเป็นผลลัพธ์', 관성: 'เพื่อกำหนดทิศทางให้พลังนั้น' }[x.mainRole] || 'เป็นที่ให้ใช้พลังนั้น'}`
+          : `${x.dom >= 0 ? `ดวงที่มี${k(x.dom)}มาก` : 'ดวงนี้'}ต้องการ${k(x.main)}`;
+      const role = x.dom >= 0 ? x.domRole : x.meMany ? '비겁' : null;
+      const c = role ? (role === '비겁' ? `ในศาสตร์ซาจู ธาตุเดียวกับคุณหมายถึง${MEAN.비겁}` : `ในศาสตร์ซาจู สำหรับ${w(x.me)} ${k(x.dom)}หมายถึง${MEAN[role]}`) : '';
+      const d = role ? CONSEQ[role][x.weak ? 0 : 1] : (x.weak ? 'โดยรวมแล้วธาตุที่ดึงพลังมีมากกว่าธาตุที่หนุนคุณ คุณจึงเหนื่อยล้าได้ง่าย' : 'โดยรวมแล้วธาตุที่หนุนคุณมีมาก พลังจึงล้นเหลือ และต้องการที่ให้ใช้พลังนั้น');
+      let skip = '';
+      if (x.skip >= 0) {
+        const why = (x.weak ? SKIP.w : SKIP.s)[x.skipRole];
+        skip = why ? `ดวงนี้ไม่มี${k(x.skip)} แต่ตอนนี้เรายังไม่เติม เพราะ${k(x.skip)}${why}` : `ดวงนี้ไม่มี${k(x.skip)} แต่ตอนนี้${k(x.main)}เร่งด่วนกว่า`;
+      }
+      const tail = TAIL[x.domRole] || 'ทำสิ่งที่รับผิดชอบได้จนสำเร็จ';
+      const mainWhy = x.johu
+        ? (x.johu.winter ? 'ในดวงที่หนาวเย็น ไม่มีธาตุใดทำหน้าที่ได้เต็มที่ จึงต้องเติมไฟให้อบอุ่นก่อน' : 'ในดวงที่ร้อนและแห้ง ไม่มีธาตุใดทำหน้าที่ได้เต็มที่ จึงต้องเติมน้ำให้เย็นลงก่อน')
+        : {
+          비겁: `ก่อนอื่นต้องเติม${k(x.main)}เพื่อสร้างแรงยืนหยัด เมื่อมีแรงแล้วคุณจะ${tail}`,
+          인성: `${k(x.main)}เป็นธาตุที่หล่อเลี้ยงคุณ เมื่อรากแข็งแรง คุณจะไม่หวั่นไหวและ${tail}`,
+          식상: `${k(x.main)}ช่วยให้พลังที่ล้นเหลือไหลออกไป เมื่อพลังกลายเป็นพรสวรรค์และการลงมือทำ ทุกอย่างจะไม่ติดขัดและเกิดผล`,
+          재성: `${k(x.main)}คือสิ่งที่คุณใช้พลังเก็บเกี่ยว พลังจะมีคุณค่าเมื่อกลายเป็นการงานและทรัพย์สิน`,
+          관성: `${k(x.main)}ช่วยควบคุมพลังที่แรงกล้า เมื่อมีทิศทางและกฎเกณฑ์ พลังจะไม่กระจาย และคุณจะได้ทั้งตำแหน่งและชื่อเสียง`,
+        }[x.mainRole];
+      const lead = `เราจึงใส่${k(x.main)}ไว้ในพยางค์กลางของชื่อ และใส่${k(x.second)}${x.secondIsMother ? `ซึ่งหล่อเลี้ยง${k(x.main)}` : ''}ไว้ในพยางค์สุดท้าย`;
+      return { p1: [a + ' ' + b, [c, d].filter(Boolean).join(' ')], p2: [skip, mainWhy].filter(Boolean), lead };
+    },
+  });
+  Object.assign(vi, {
+    stemMean: ['Cây lớn vươn thẳng lên trời', 'Hoa và dây leo múa trong gió', 'Mặt trời giữa trưa soi sáng muôn nơi', 'Ngọn đèn ấm sáng trong đêm', 'Núi lớn che chở muôn loài', 'Cánh đồng màu mỡ nuôi dưỡng sự sống', 'Thép càng tôi càng cứng', 'Viên ngọc được mài giũa tỏa sáng', 'Biển rộng đón mọi dòng sông', 'Cơn mưa dịu thấm vào đất'],
+    dmRead: [
+      'Như cây đầu tiên trong rừng chạm tới bầu trời, bạn đi trước mở đường và hiếm khi đổi hướng khi đã chọn.',
+      'Như dây leo nở hoa ngay cả giữa khe đá, ở đâu bạn cũng tìm được cách để lớn lên.',
+      'Như mặt trời trên những tầng mây, bạn cởi mở, rạng rỡ và làm sáng cả những người xung quanh.',
+      'Như ngọn đèn thức cùng đêm dài, bạn để ý từng điều nhỏ và soi đường cho những người mình thương.',
+      'Như ngọn núi lớn đứng vững qua bốn mùa, bạn ít khi dao động và rộng lòng đón nhận mọi người tìm đến.',
+      'Như cánh đồng biến hạt giống thành mùa vàng, bạn chăm chút con người và công việc, làm gì cũng có kết quả.',
+      'Như thép càng tôi càng cứng, bạn quyết đoán rõ ràng và giữ trọn nghĩa tình đến cùng.',
+      'Như viên ngọc được mài giũa tinh xảo, bạn có con mắt tinh tế và những chuẩn mực không bao giờ lơi lỏng.',
+      'Như biển lớn đón nhận mọi dòng sông, bạn mở lòng với thế giới và không ngừng tiến về phía xa.',
+      'Như cơn mưa dịu thấm vào đất khô, bạn lặng lẽ thấu hiểu lòng người và có mặt trước tiên nơi cần mình.',
+    ],
+    tabHint: '3 tên dành cho bạn. Chạm để so sánh',
+    p8Lead: 'Saju (Tứ trụ) nghĩa là “bốn trụ”: năm, tháng, ngày và giờ sinh. Mỗi trụ có hai chữ, tổng cộng tám chữ. Chữ trên của ngày sinh, có nhãn “Bạn”, đại diện cho chính bạn.',
+    hSec: { me: 'Bản chất của bạn', five: 'Ngũ hành của bạn', need: 'Hành cần đưa vào tên', names: 'Tên dành cho bạn', life: 'Bổ sung trong đời sống', more: 'Xem căn cứ luận giải', detail: 'Chi tiết về hành, âm thanh và số nét' },
+    hTeach: {
+      me: (name) => `Bạn sinh ra mang năng lượng của ${name}.`,
+      five: 'Khi sinh ra, mỗi người nhận tám chữ, và mỗi chữ mang một trong năm hành: Mộc, Hỏa, Thổ, Kim, Thủy. Gom các chữ của bạn theo từng hành sẽ được như sau.',
+      need: 'Khi ngũ hành không đều, cái tên có thể bù vào phần còn thiếu. Bạn được gọi bằng tên ấy suốt đời, nên năng lượng của tên luôn ở bên bạn mỗi ngày.',
+      cue: 'Tám chữ của bạn',
+    },
+    meanJoin: (a, b) => `${cap(a)}, ${b}`,
+    meanA: { river: 'thông suốt như dòng nước chảy', deep: 'sâu lắng như mặt hồ yên ả', wide: 'rộng lòng như biển cả', clear: 'tinh khôi như giọt sương', gentle: 'dịu dàng như gió xuân', skyhue: 'đẹp như sắc trời', heaven: 'bao la như bầu trời', jade: 'thanh nhã như ngọc', pearl: 'long lanh như ngọc trai', gemlight: 'tỏa ánh dịu như sắc ngọc', chime: 'trong trẻo như tiếng ngọc', luck: 'mang nhiều phúc khí', wise: 'thông minh và nhanh nhạy', right: 'giữ vững điều đúng đắn', excel: 'tài năng xuất chúng', strong: 'ý chí kiên cường', advance: 'luôn tiến về phía trước', grain: 'đầy đặn như bông lúa chín', guard: 'vững chãi như tường thành', nest: 'ấm êm như tổ ấm', mountain: 'vững vàng như núi cao', land: 'hào phóng như đất rộng', sun: 'rạng rỡ như ánh nắng', warm: 'dịu êm như nắng ấm', dawn: 'mạnh mẽ như mặt trời buổi sớm', tree: 'ngay thẳng như cây lớn', flower: 'xinh đẹp như hoa', scent: 'mang hương thơm thanh khiết', sprout: 'tràn sức sống như mầm non' },
+    meanB: { river: 'không ngừng chảy như dòng nước trong', deep: 'có tấm lòng sâu sắc như hồ nước', wide: 'bao dung như đại dương', clear: 'có tâm hồn trong sáng', gentle: 'ấm áp và nhân hậu với mọi người', skyhue: 'dịu dàng như ánh trời', heaven: 'mang hoài bão cao như trời xanh', jade: 'quý giá như ngọc', pearl: 'tỏa sáng như viên ngọc trai', gemlight: 'rực rỡ như châu báu', chime: 'có giọng nói chạm đến lòng người', luck: 'đem điều tốt lành đến cho mọi người', wise: 'trí tuệ và sáng suốt', right: 'là tấm gương cho mọi người', excel: 'nổi bật hiếm có trên đời', strong: 'bền bỉ giữ vững đến cùng', advance: 'ngày càng hưng thịnh', grain: 'kết trái ngọt như mùa lúa vàng', guard: 'bảo vệ vững vàng những điều quý giá', nest: 'là chốn bình yên cho mọi người', mountain: 'cao lớn và đáng tin như núi', land: 'ôm ấp mọi người như đất mẹ', sun: 'thắp sáng thế gian', warm: 'ấm áp như ánh mặt trời', dawn: 'mở ra một ngày mới', tree: 'vươn cao như cây xanh', flower: 'nở rộ dịu dàng như đóa hoa', scent: 'thanh tao như hương thơm', sprout: 'nở rộ như mùa xuân' },
+    wooriLine: { 이슬: 'Trong trẻo và long lanh như sương mai', 시내: 'Trong như dòng suối không ngừng chảy', 가람: 'Thong dong đi xa như dòng sông lớn', 단비: 'Như cơn mưa đến đúng lúc cần nhất', 바다: 'Có tấm lòng rộng như biển', 새봄: 'Mở ra khởi đầu mới như đầu xuân', 한솔: 'Xanh tươi và ngay thẳng như cây thông lớn', 노을: 'Nhuộm thế gian dịu dàng như ánh hoàng hôn', 여름: 'Ấm áp và tràn sức sống như nắng hè', 한빛: 'Soi đường phía trước như một tia sáng lớn', 누리: 'Ôm trọn cả thế gian rộng lớn', 마루: 'Vươn tới nơi cao như đỉnh núi', 가을: 'Gặt hái thành quả dồi dào như mùa thu', 구슬: 'Tròn đầy và long lanh như hạt ngọc' },
+    reading: (x) => {
+      const MEAN = { 재성: 'những gì bạn dùng sức để gặt hái, tức công việc và tiền bạc', 관성: 'sức mạnh kỷ luật bạn, tức công việc, trách nhiệm và quy tắc', 식상: 'sức mạnh bạn thể hiện ra ngoài, tức lời nói, tài năng và hoạt động', 인성: 'sức mạnh nuôi dưỡng bạn, tức học vấn và sự giúp đỡ', 비겁: 'sức mạnh cùng loại với bạn, tức lòng tự trọng, sự độc lập và cạnh tranh' };
+      const CONSEQ = {
+        재성: ['Lá số này có sức chứa lớn về công việc và tiền bạc, nhưng sức gánh vác còn thiếu. Nếu làm nhiều như mong muốn, bạn dễ kiệt sức, thân và tâm hao mòn trước.', 'Lá số này có sức chứa lớn về công việc và tiền bạc, và cũng đủ sức gánh vác. Mục tiêu càng rõ ràng, thành quả càng lớn.'],
+        관성: ['Trách nhiệm và áp lực lớn, nhưng sức chịu đựng còn thiếu. Kỳ vọng và quy tắc dễ đè nén ý muốn của bạn, tinh thần dễ mệt mỏi.', 'Trách nhiệm và quy tắc nhiều, nhưng bạn đủ sức chịu đựng. Đây là cấu trúc dễ được công nhận trong tổ chức và vị trí công việc.'],
+        식상: ['Bạn có nhiều tài năng và điều muốn nói, nhưng sức nâng đỡ còn thiếu. Năng lượng dễ phân tán và cơ thể thường cạn sức trước.', 'Tài năng và khả năng thể hiện dồi dào, lại đủ sức đẩy chúng đi xa. Bạn tỏa sáng khi đưa điều mình muốn làm ra thế giới.'],
+        인성: ['Sự giúp đỡ và học vấn nhiều, nhưng bị khí của mùa sinh lấn át, nên sức tự đứng vững vẫn còn yếu.', 'Sự giúp đỡ và ý tưởng dồi dào. Suy nghĩ quá nhiều có thể làm chậm hành động và bỏ lỡ cơ hội.'],
+        비겁: ['Có nhiều chữ cùng hành với bạn, nhưng bị khí của mùa sinh lấn át, nên sức mạnh chưa thật sự vững.', 'Sức mạnh và ý chí của bạn rất lớn. Bạn đẩy việc đi tốt, nhưng nếu không có chỗ dùng sức, dễ va chạm với người khác hoặc hao tổn tiền bạc.'],
+      };
+      const TAIL = { 재성: 'gây dựng phần của mình và giữ được tiền bạc làm ra', 관성: 'giữ vững vị trí của mình dù trách nhiệm nặng nề', 식상: 'phát huy trọn vẹn tài năng của mình' };
+      const SKIP = {
+        w: { 식상: 'kéo sức của bạn ra ngoài, nên thêm vào lúc sức còn thiếu sẽ càng mệt.', 재성: 'phải dùng sức mới có được, nên thêm vào lúc sức còn thiếu sẽ khó gánh vác.', 관성: 'đè nén và kỷ luật bạn, nên thêm vào lúc sức còn thiếu sẽ càng bị đè nặng.' },
+        s: { 인성: 'làm bạn mạnh thêm nữa, nên thêm vào lúc này sẽ khiến lá số vốn đã mạnh càng lệch.', 비겁: 'cùng hành với bạn, nên thêm vào lúc này chỉ làm tăng sự cố chấp và va chạm.' },
+      };
+      const k = (e) => `hành ${x.k(e)}`, w = (e) => `hành ${x.w(e)}`;
+      const lackW = x.lack.map(w).join(', ');
+      let a;
+      if (x.dom >= 0) a = `Lá số của bạn có ${x.domCnt} chữ ${k(x.dom)}, ${x.domCnt >= 4 ? 'chiếm phần rất lớn' : 'chiếm phần lớn'}. Còn ${k(x.me)}, cùng hành với bạn, ${x.meCnt === 1 ? 'chỉ có một mình bạn' : `có ${x.meCnt} chữ, tính cả bạn`}.`;
+      else if (x.meMany) a = `Lá số của bạn có tới ${x.meCnt} chữ ${k(x.me)}, cùng hành với bạn.`;
+      else a = `Ngũ hành trong lá số của bạn không nghiêng hẳn về một phía.${x.lack.length ? ` Tuy nhiên, hoàn toàn không có ${lackW}.` : ''}`;
+      const b = x.johu
+        ? `Bạn sinh vào mùa ${x.johu.winter ? 'đông' : 'hè'} nhưng không có ${k(x.main)}, nên trước hết cần ${k(x.main)}.`
+        : !x.weak
+          ? `Lá số dồi dào sức mạnh cần ${k(x.main)} ${{ 식상: 'để đưa sức mạnh đó ra sử dụng', 재성: 'để biến sức mạnh đó thành kết quả', 관성: 'để định hướng cho sức mạnh đó' }[x.mainRole] || 'làm nơi dùng sức mạnh đó'}.`
+          : `${x.dom >= 0 ? `Lá số có nhiều ${k(x.dom)}` : 'Lá số này'} cần ${k(x.main)}.`;
+      const role = x.dom >= 0 ? x.domRole : x.meMany ? '비겁' : null;
+      const c = role ? (role === '비겁' ? `Trong Tứ trụ, hành giống bạn tượng trưng cho ${MEAN.비겁}.` : `Trong Tứ trụ, với ${w(x.me)}, ${k(x.dom)} tượng trưng cho ${MEAN[role]}.`) : '';
+      const d = role ? CONSEQ[role][x.weak ? 0 : 1] : (x.weak ? 'Nhìn chung, các hành làm hao sức nhiều hơn các hành nâng đỡ bạn, nên bạn dễ mệt mỏi.' : 'Nhìn chung, các hành nâng đỡ bạn nhiều nên sức mạnh dồi dào, và cần có nơi để dùng sức.');
+      let skip = '';
+      if (x.skip >= 0) {
+        const why = (x.weak ? SKIP.w : SKIP.s)[x.skipRole];
+        skip = why ? `Lá số không có ${k(x.skip)}, nhưng lúc này chưa thêm vào. ${cap(k(x.skip))} ${why}` : `Lá số không có ${k(x.skip)}, nhưng lúc này ${k(x.main)} cấp thiết hơn.`;
+      }
+      const tail = TAIL[x.domRole] || 'hoàn thành việc mình đảm nhận đến cùng';
+      const mainWhy = x.johu
+        ? (x.johu.winter ? 'Trong lá số lạnh, không hành nào phát huy được, nên trước hết phải sưởi ấm bằng Hỏa.' : 'Trong lá số nóng và khô, không hành nào phát huy được, nên trước hết phải làm mát bằng Thủy.')
+        : {
+          비겁: `Trước hết cần thêm ${k(x.main)} để có sức đứng vững. Có sức rồi, bạn mới ${tail}.`,
+          인성: `${cap(k(x.main))} nuôi dưỡng bạn. Khi gốc rễ vững chắc, bạn không dao động và có thể ${tail}.`,
+          식상: `${cap(k(x.main))} giúp sức mạnh dồi dào của bạn chảy ra ngoài. Khi sức mạnh thành tài năng và hành động, mọi việc thông suốt và có kết quả.`,
+          재성: `${cap(k(x.main))} là thứ bạn dùng sức để gặt hái. Sức mạnh có ích khi trở thành công việc và tiền bạc.`,
+          관성: `${cap(k(x.main))} kỷ luật nguồn sức mạnh lớn. Có phương hướng và quy tắc, sức mạnh không phân tán, và bạn có được vị trí cùng danh tiếng.`,
+        }[x.mainRole];
+      const lead = `Vì vậy, âm tiết giữa của tên mang ${k(x.main)}, và âm tiết cuối mang ${k(x.second)}${x.secondIsMother ? `, hành nuôi dưỡng ${k(x.main)}` : ''}.`;
+      return { p1: [a + ' ' + b, [c, d].filter(Boolean).join(' ')], p2: [skip, mainWhy].filter(Boolean), lead };
+    },
+  });
   return { en, th, vi };
 };
 
@@ -2350,14 +3147,14 @@ const KO = {
     items: [
       ['나라', '조선의 관청 관상감은 사주 책으로 시험을 쳐 관원을 뽑았고, 이 관원들이 왕실 행사의 날과 시각을 골랐습니다.'],
       ['혼인', '신랑 집이 신랑의 태어난 날과 시각을 적어 보내면, 신부 집이 궁합을 보고 혼례 날을 잡았습니다.'],
-      ['이름', '많은 집안이 세대마다 다섯 기운의 글자를 차례로 이름에 넣었습니다.'],
+      ['이름', '지금도 한국에서는 아이가 태어날 좋은 날과 시각을 고르고, 태어나면 사주에 맞춰 이름을 짓는 일이 많습니다.'],
     ],
-    src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132'], ['항렬', 'E0062386']],
-    accH: '분 단위까지 맞춥니다',
-    acc: [['기본', '띠와 월이 바뀌는 날(절기)', ''], ['기본', '태어난 도시의 시각', ''], ['더해서', '이름의 발음과 한자 획수', 'hl']],
+    src: [['음양과', 'E0043029'], ['명과학', 'E0080897'], ['사주단자', 'E0025959'], ['택일', 'E0059132']],
+    accH: '태어난 분까지 따져 계산해야 합니다',
+    acc: [['1', '띠와 달은 달력 날짜가 아니라, 태양의 위치로 정한 절기에 맞춰 해석합니다.', ''], ['2', '시각은 태어난 나라와 도시에 따라 조금씩 달라지기 때문에, 해가 실제로 뜨고 지는 시각에 맞춰 해석합니다.', ''], ['3', '이름을 부르는 소리에도 힘이 있습니다. 소리의 기운과 한자 획수까지 맞춰야 합니다.', 'hl']],
   },
   srcPre: '출처: 한국민족문화대백과',
-  endP: '태어난 날과 시각으로 지은 한국 이름을 받아 보세요.',
+  endP: '당신의 태어난 날과 시각으로 지은 한국 이름을 받아 보세요.',
   ntHint: '태어난 시각을 모르면 연·월·일만으로 사주를 풉니다. 이름은 그대로 세 개를 받습니다.',
   bdHint: '',
   lCountry: '태어난 나라', lCity2: '태어난 도시',
@@ -2372,7 +3169,7 @@ const KO = {
   surLabel: (s) => `${s.ko} (${s.h})`,
   countries: null, cities: null, // null 이면 COUNTRIES 의 한국어 이름을 쓴다
   go: '한국 이름 받기', again: '다시 입력하기',
-  privacy: '입력한 날짜는 이 화면 안에서만 계산합니다. 어디에도 보내거나 저장하지 않습니다.',
+  privacy: '입력하신 날짜와 정보는 이 화면에서만 계산되며, 어디에도 저장되지 않습니다.',
   errSex: '성별을 골라 주세요.', errBd: '태어난 날을 넣어 주세요.', errLunar: '그해에는 그 음력 날짜(윤달)가 없습니다. 날짜를 다시 확인해 주세요.',
   loading: ['여덟 글자를 세우는 중', '다섯 기운을 재는 중', '필요한 기운을 찾는 중'],
   pos: { year: '태어난 해', month: '태어난 달', day: '태어난 날', hour: '태어난 시각' },
@@ -2387,8 +3184,8 @@ const KO = {
   keyLine: '이름에 넣을 기운:',
   dmTag: (w) => `${w} 기운의 사람`,
   headline: (mostW, max, lackW) => `${mostW} 기운이 ${max}개로 가장 많고, ${lackW ? `${lackW} 기운은 하나도 없습니다.` : '다섯 기운이 모두 들어 있습니다.'}`,
-  p8h: '여덟 글자',
-  p8Lead: '위는 하늘 글자, 아래는 땅 글자입니다. 금색 테두리 칸이 ‘나’입니다.',
+  p8h: '여덟 글자 (사주팔자)',
+  p8Lead: '사주(四柱)는 ‘네 기둥’이라는 뜻입니다. 태어난 해·달·날·시각이 네 기둥이고, 기둥마다 위아래로 한자 두 글자가 있어 모두 여덟 글자가 됩니다. 흔히 말하는 ‘사주팔자’가 바로 이것입니다. 이 가운데 ‘나’ 표시가 붙은 태어난 날의 위 글자를 당신 자신으로 봅니다.',
   rel: { 비겁: '나와 같은 기운', 인성: '나를 낳는 기운', 식상: '내가 낳는 기운', 재성: '내가 다스리는 기운', 관성: '나를 누르는 기운' },
   many: '많음', none: '없음',
   // 한 줄 판정. 많은 기운이 판정과 반대쪽이거나 빈 기운이 없으면 '많지만'
@@ -2396,16 +3193,16 @@ const KO = {
   dmPrefix: '나',
   // 날의 위 글자(일간) 10가지 풀이: 『적천수』 십간론의 그림을 따라 쓴 성정
   dmRead: [
-    '곧게 위로 뻗는 큰 나무입니다. 앞장서서 길을 내고, 한번 정한 방향을 쉽게 굽히지 않는 기질로 풉니다.',
-    '덩굴과 꽃처럼 부드럽게 뻗는 나무입니다. 어떤 자리에서도 틈을 찾아 자라는 유연함과 끈기로 풉니다.',
-    '하늘의 해처럼 밝고 거센 불입니다. 숨김없이 드러나는 따뜻함과 사람을 끌어당기는 힘으로 풉니다.',
-    '등불처럼 안에서 밝히는 불입니다. 섬세하게 살피고 오래 곁을 지키는 따뜻함으로 풉니다.',
-    '산과 언덕처럼 단단하고 무거운 흙입니다. 쉽게 흔들리지 않는 믿음직함과 넓게 품는 힘으로 풉니다.',
-    '논밭처럼 촉촉하고 기름진 흙입니다. 길러 내고 돌보는 힘, 실속 있는 꼼꼼함으로 풉니다.',
-    '다듬기 전의 단단한 쇠입니다. 맺고 끊음이 분명한 결단력과 의리로 풉니다.',
-    '부드럽고 맑게 빛나는 쇠입니다. 예민한 감각과 흐트러지지 않는 기준으로 풉니다.',
-    '모든 냇물이 모인 큰 물입니다. 넓게 받아들이고 멀리 흘러가는 지혜와 추진력으로 풉니다.',
-    '비와 이슬처럼 가장 여린 물입니다. 조용히 스며들어 마음을 읽는 직관과 배려로 풉니다.',
+    '숲에서 가장 먼저 하늘에 닿는 큰 나무처럼, 앞장서서 길을 내고 한번 정한 뜻을 쉽게 굽히지 않는 사람입니다.',
+    '바위틈에서도 꽃을 피우는 덩굴처럼, 어떤 자리에서든 길을 찾아 끝내 자라나는 사람입니다.',
+    '구름 위로 떠오른 한낮의 해처럼, 숨김없이 밝고 주변 사람까지 환하게 만드는 사람입니다.',
+    '깊은 밤을 지키는 등불처럼, 작은 것까지 세심하게 살피고 소중한 사람의 앞길을 오래 밝혀 주는 사람입니다.',
+    '사계절 그 자리를 지키는 큰 산처럼, 쉽게 흔들리지 않고 찾아오는 이를 넉넉히 품어 주는 사람입니다.',
+    '씨앗을 품어 열매로 돌려주는 들판처럼, 사람과 일을 정성껏 길러 내고 알찬 결실을 맺는 사람입니다.',
+    '불에 달굴수록 단단해지는 강철처럼, 맺고 끊음이 분명하고 의리를 끝까지 지키는 사람입니다.',
+    '곱게 다듬어져 빛나는 보석처럼, 감각이 섬세하고 자기만의 기준이 흐트러지지 않는 사람입니다.',
+    '모든 물줄기를 받아 안는 바다처럼, 넓게 받아들이고 먼 곳을 향해 힘차게 나아가는 사람입니다.',
+    '메마른 땅에 스며드는 단비처럼, 조용히 마음을 읽고 필요한 곳을 먼저 적셔 주는 사람입니다.',
   ],
   rowHead: (w, n, rel) => `${w} 기운 ${n}개 · ${rel}`,
   // 기운별 풀이: 나와의 관계(같은·낳는·이기는)와 개수만으로 단정한다. w·me 는 'X 기운'
@@ -2425,11 +3222,11 @@ const KO = {
   // 많은 기운이 판정과 반대쪽이면 한 줄 덧붙인다 (예: 같은 기운이 많아도 달의 땅 글자가 두 번 세어져 약한 사주)
   turnAgainst: (weak) => (weak ? ' 그래도 나를 약하게 하는 글자가 더 많아, 나의 힘은 약한 편입니다.' : ' 그래도 나를 받쳐 주는 글자가 더 많아, 나의 힘은 센 편입니다.'),
   turnSame: ' 그 힘을 쓸 곳이 필요한 사주입니다.',
-  powerH: '나의 힘',
-  powerL: (h, d) => [`나를 받쳐 주는 글자 ${h}`, `나를 약하게 하는 글자 ${d}`],
-  verdict: (weak) => `나의 힘은 ${weak ? '약한' : '센'} 편`,
-  balanced: '두 쪽이 같아, 글자가 놓인 자리의 힘까지 따져 판정했습니다.',
-  powerP: '나와 같은 글자와 나를 낳는 글자는 나를 받쳐 주고, 내가 낳거나 다스리는 글자와 나를 누르는 글자는 나를 약하게 합니다. 태어난 달의 땅 글자는 계절을 정하는 자리라 두 번 셉니다.',
+  powerH: '나를 돕는 기운과 힘을 빼는 기운',
+  powerL: (h, d) => [`돕는 기운 ${h}`, `힘을 빼는 기운 ${d}`],
+  verdict: (weak) => (weak ? '돕는 기운이 적어, 힘이 약한 사주입니다' : '돕는 기운이 많아, 힘이 센 사주입니다'),
+  balanced: '두 쪽 수가 같아, 글자가 놓인 자리의 힘까지 따져 보았습니다.',
+  powerP: '나와 같은 기운, 그리고 나를 길러 주는 기운은 나를 돕습니다. 나머지 기운은 내 힘을 씁니다. 태어난 달은 계절을 정해 힘이 크므로 두 번 셉니다.',
   keyK1: '그래서 이름에 넣은 기운',
   season: (s) => s,
   whyJohu: (season, needHtml, mainHtml, winter) => `${season}에 태어났는데 ${needHtml} 기운이 하나도 없습니다. ${winter ? '차가운 사주는 먼저 덥혀야' : '뜨거운 사주는 먼저 식혀야'} 다른 기운도 제 몫을 하므로, ${mainHtml} 기운을 가장 먼저 넣습니다.`,
@@ -2449,7 +3246,7 @@ const KO = {
   skipLine: (eHtml, w, wy, mainW) => `${eHtml} 기운은 비어 있지만 넣지 않습니다. ${josa(w, '은', '는')} ${wy || `${mainW} 기운보다 이 사주의 균형에 덜 급한 기운입니다`}. 비어 있는 기운을 무조건 채우지 않고, 나를 살리는 기운을 채웁니다.`,
   yyH: '음과 양',
   yyL: (y, n) => [`양 기운 ${y}`, `음 기운 ${n}`],
-  yyRead: (y, n) => `양 기운은 밝고 움직이고, 음 기운은 어둡고 고요합니다. ${y === n ? '이 사주는 음과 양의 수가 같습니다.' : `${y > n ? '양' : '음'} 기운이 더 많습니다.`}`,
+  yyRead: (y, n) => `양은 밝고 움직이는 기운, 음은 차분하고 고요한 기운입니다. ${y === n ? '이 사주는 음과 양이 같은 수로 고르게 섞여 있습니다.' : `이 사주는 ${y > n ? '양이 많아 밖으로 드러나고 움직이는 쪽' : '음이 많아 안으로 깊고 차분한 쪽'}입니다.`}`,
   src2: '풀이의 근거: 날의 하늘 글자 풀이는 명리 고전 『적천수』 십간론을, 낳고 이기는 관계는 한국민족문화대백과 ‘오행론’을, 강약은 ‘사주’ 항목의 일간 중심 생극·강약 판단을 따랐습니다. 많음은 3개 이상, 없음은 0개입니다.',
   wol: null, // 다른 언어에서 [ {season, dir, color, taste} x5 ]
   betterTitle: (w) => `${w} 기운을 채우는 생활`,
@@ -2459,7 +3256,27 @@ const KO = {
   betterSrc: (w) => `출처: 『예기』 월령 <span class="hz">(${w.src})</span>`,
   pairHead: ['색', '방향', '계절', '숫자', '맛'],
   p3Lead: (w, w2) => `가운데 글자에 <b>${w} 기운</b>을, 끝 글자에 그 기운을 받쳐 주는 <b>${w2} 기운</b>을 담았습니다. 소리와 획수까지 맞춘 이름입니다.`,
-  saveHint: '이름 카드를 누르시면 저장 카드가 그 이름으로 바뀝니다.',
+  saveHint: '고른 이름이 아래 저장 카드에 들어갑니다. 저장하거나 친구에게 보내 보세요.',
+  shareH: '저장 카드',
+  tabHint: '추천 이름 3개, 눌러서 비교해 보세요',
+  // 두 글자 뜻을 이어 한 문장으로 만든다: 가운데 글자(meanA) + 끝 글자(meanB)
+  meanJoin: (a, b) => `${a} ${b}`,
+  meanA: { river: '흐르는 물처럼 막힘없고', deep: '고요한 호수처럼 깊고', wide: '바다처럼 마음이 넓고', clear: '아침 이슬처럼 맑고', gentle: '봄바람처럼 온화하고', skyhue: '하늘빛처럼 곱고', heaven: '드높은 하늘처럼 넓고', jade: '옥처럼 곱고', pearl: '구슬처럼 영롱하고', gemlight: '옥빛처럼 은은하게 빛나고', chime: '옥 소리처럼 맑게 울리고', luck: '좋은 기운을 품고', wise: '슬기롭고 총명하며', right: '바른 뜻을 지키고', excel: '재주가 빼어나고', strong: '뜻이 굳세고', advance: '날마다 앞으로 나아가고', grain: '잘 여문 이삭처럼 알차고', guard: '성벽처럼 든든하고', nest: '포근한 둥지처럼 편안하고', mountain: '높은 산처럼 듬직하고', land: '너른 땅처럼 넉넉하고', sun: '햇살처럼 밝고', warm: '따스한 볕처럼 포근하고', dawn: '아침 해처럼 힘차고', tree: '큰 나무처럼 곧고', flower: '꽃처럼 곱고', scent: '그윽한 향기를 품고', sprout: '새싹처럼 생기 있고' },
+  meanB: { river: '맑은 물처럼 쉼 없이 흐르는 사람', deep: '호수처럼 마음이 깊은 사람', wide: '큰 바다처럼 너그러운 사람', clear: '티 없이 맑은 사람', gentle: '누구에게나 따뜻하고 어진 사람', skyhue: '하늘빛처럼 고운 사람', heaven: '하늘처럼 높은 뜻을 품은 사람', jade: '옥처럼 귀한 사람', pearl: '구슬처럼 영롱하게 빛나는 사람', gemlight: '보석처럼 환하게 빛나는 사람', chime: '맑은 소리로 마음을 울리는 사람', luck: '좋은 일을 불러오는 사람', wise: '지혜롭고 총명한 사람', right: '누구에게나 본보기가 되는 사람', excel: '세상에 드물게 빼어난 사람', strong: '뜻을 끝까지 지키는 굳센 사람', advance: '날로 크게 뻗어 가는 사람', grain: '이삭처럼 알찬 결실을 맺는 사람', guard: '소중한 것을 든든히 지키는 사람', nest: '누구나 깃들고 싶은 포근한 사람', mountain: '산처럼 높고 듬직한 사람', land: '땅처럼 넉넉하게 품어 주는 사람', sun: '세상을 환하게 비추는 사람', warm: '햇볕처럼 따뜻한 사람', dawn: '새 아침을 여는 사람', tree: '나무처럼 곧게 자라는 사람', flower: '꽃처럼 곱게 피어나는 사람', scent: '향기처럼 그윽한 사람', sprout: '새봄처럼 다시 피어나는 사람' },
+  wooriLine: { 이슬: '아침 이슬처럼 맑고 영롱한 사람', 시내: '시냇물처럼 맑고 쉼 없이 흐르는 사람', 가람: '큰 강처럼 유유히 멀리 나아가는 사람', 단비: '꼭 필요한 때 찾아오는 단비 같은 사람', 바다: '바다처럼 모두를 품는 넓은 마음의 사람', 새봄: '새봄처럼 새로운 시작을 여는 사람', 한솔: '큰 소나무처럼 사계절 푸르고 곧은 사람', 노을: '저녁노을처럼 세상을 곱게 물들이는 사람', 여름: '여름 햇살처럼 뜨겁고 생기 넘치는 사람', 한빛: '한 줄기 큰 빛처럼 앞을 밝히는 사람', 누리: '온 세상을 넓게 품는 사람', 마루: '산마루처럼 높은 곳을 향해 오르는 사람', 가을: '가을처럼 풍성한 결실을 맺는 사람', 구슬: '구슬처럼 둥글고 영롱한 사람' },
+  pairMean: {
+    water_gem: '맑은 물속에서 빛나는 보석처럼 깊고 귀한 사람', water_vir: '맑은 물처럼 깊고, 좋은 기운이 늘 따르는 사람',
+    clear_gem: '티 없이 맑은 마음에 보석 같은 빛을 지닌 사람', clear_vir: '맑고 바른 마음에 좋은 기운이 깃든 사람',
+    sky_gem: '하늘빛을 머금어 반짝이는 보석 같은 사람', sky_vir: '하늘의 고운 빛처럼 좋은 기운을 전하는 사람',
+    gem_mtn: '높은 산이 품은 보석처럼 단단하고 귀한 사람', gem_land: '너른 땅이 길러 낸 보석처럼 귀한 사람',
+    vir_mtn: '산처럼 듬직하고 좋은 기운이 머무는 사람', vir_land: '너른 땅처럼 넉넉하고 복이 깃든 사람',
+    mtn_light: '햇살 받아 빛나는 높은 산처럼 당당한 사람', mtn_dawn: '새벽빛이 먼저 닿는 산봉우리처럼 앞서가는 사람',
+    land_light: '햇살 가득한 너른 땅처럼 따뜻하고 넉넉한 사람', land_dawn: '아침 해가 비추는 땅처럼 새 희망을 여는 사람',
+    light_tree: '햇빛을 받아 곧게 자라는 나무처럼 밝고 든든한 사람', light_flower: '햇살 아래 피어난 꽃처럼 밝고 고운 사람',
+    dawn_tree: '아침 해를 향해 뻗는 나무처럼 힘차게 자라는 사람', dawn_flower: '새벽빛에 피어나는 꽃처럼 맑고 고운 사람',
+    tree_water: '맑은 물을 머금고 크게 자라는 나무 같은 사람', tree_clear: '맑은 기운을 먹고 곧게 자라는 나무 같은 사람', tree_sky: '단비를 맞아 푸르게 자라는 나무 같은 사람',
+    flower_water: '맑은 물가에 피어난 꽃처럼 곱고 단아한 사람', flower_clear: '맑은 기운을 머금고 피어난 꽃 같은 사람', flower_sky: '단비를 맞고 활짝 피어난 꽃 같은 사람',
+  },
   kindH: '한자 이름', kindW: '순우리말',
   rank: (i) => `추천 ${i + 1}`,
   listen: '발음 듣기', save: '저장', send: '보내기', saved: '저장 완료',
@@ -2481,6 +3298,66 @@ const KO = {
   suriOneNote: (a, b, x) => `강희자전 원획법으로 세면 ${a.ko} ${a.s}획 + ${b.ko} ${b.s}획 = ${x.n}획입니다. 81수에서 ${x.n}획은 ‘${x.name}’으로 분류되는 길한 수입니다. 성을 고르면 네 격(원·형·이·정)으로 봅니다.`,
   relText: { mother: '그 기운을 낳아 받쳐 줍니다', same: '같은 기운으로 한 번 더 채웁니다', calm: '부딪힘 없이 이어 줍니다' },
   whyHanja: (a, b, aEl, bEl, rel, ON) => `가운데 ‘${a.hun}’ ${ON(a)} ${hz(a.h)}${pt(a.ko, '이', '가')} ${aEl} 기운을 채우고, 끝 ‘${b.hun}’ ${ON(b)} ${hz(b.h)}의 ${bEl} 기운이 ${rel}.`,
+  // 이름 기운을 그 사람의 여덟 글자에 더했을 때 숫자가 어떻게 바뀌는지 (작명기준 3-1과 같은 셈)
+  gainLine: (items, tail) => `이 이름이 더해지면 ${items.map((x) => `${x.w} 기운이 ${x.from}에서 ${x.to}${[0, 3, 6, 10].includes(x.to) ? '으로' : '로'}`).join(', ')} 늘어납니다. ${tail}`,
+  johuTail: (winter) => `${winter ? '차가운 사주를 덥혀' : '뜨거운 사주를 식혀'} 다른 기운이 제 몫을 하게 합니다.`,
+  // v4 풀이: 사주 구성 → 그 뜻 → 넣지 않는 기운과 넣는 기운의 이유 → 이름. x 는 render 가 만든다
+  //  k(e,a,b): 색 입힌 기운 이름 + 조사, w(e): 색 입힌 기운 이름, 역할은 일간 기준 십신 묶음
+  //  풀이 문장은 명리에서 널리 쓰는 십신 풀이를 따른다(재성 재물·일, 관성 직장·책임, 식상 표현·활동, 인성 배움·도움, 비겁 자존심·경쟁)
+  hTeach: {
+    me: (name) => `사주에서는 태어난 날의 첫 글자를 ‘나’로 봅니다. 당신은 ${name}의 기운을 품고 태어났습니다.`,
+    five: '사람은 태어난 순간 여덟 글자를 받고, 글자마다 나무·불·흙·쇠·물 다섯 기운 가운데 하나를 품습니다. 당신의 여덟 글자를 기운별로 모으면 이렇습니다.',
+    need: '다섯 기운이 고르지 않으면 모자란 쪽을 이름으로 채웁니다. 이름은 평생 불리는 만큼, 그 기운을 늘 지니게 되기 때문입니다.',
+    cue: '당신의 여덟 글자',
+  },
+  hSec: { me: '당신이 타고난 본성', five: '타고난 다섯 기운', need: '이름에 넣을 기운', names: '당신을 위한 이름', life: '생활에서 더하기', more: '풀이 근거 자세히 보기', detail: '글자 기운·소리·획수 자세히' },
+  reading: (x) => {
+    const MEAN = { 재성: '거두어 들일 몫, 곧 일과 재물', 관성: '자신을 다잡는 힘, 곧 직장·책임·규칙', 식상: '자신이 밖으로 펼치는 힘, 곧 말·재능·활동', 인성: '자신을 길러 주는 힘, 곧 배움·도움', 비겁: '자신과 같은 힘, 곧 자존심·독립심·경쟁' };
+    const CONSEQ = {
+      재성: ['맡을 일과 재물의 그릇은 큰데 그것을 감당할 힘이 부족한 사주(재다신약)로 봅니다. 이런 사주는 의욕만큼 일을 벌이면 쉽게 지치고, 몸과 마음이 먼저 닳기 쉽습니다.', '일과 재물의 그릇이 크고 그것을 감당할 힘도 갖춘 사주로 봅니다. 힘을 쓸 곳이 분명할수록 거두는 것도 커집니다.'],
+      관성: ['책임과 압박은 큰데 버틸 힘이 부족한 사주로 봅니다. 남의 기대와 규칙에 눌려 내 뜻을 펴기 어렵고, 마음의 피로가 쌓이기 쉽습니다.', '책임과 규칙이 많지만 그것을 견딜 힘도 있는 사주로 봅니다. 조직과 자리에서 인정받기 좋은 구조입니다.'],
+      식상: ['재능과 하고 싶은 말은 많은데 그것을 받쳐 줄 힘이 부족한 사주로 봅니다. 이것저것 벌이다 힘이 흩어지기 쉽고, 체력이 먼저 바닥나기 쉽습니다.', '재능과 표현이 넘치고 그것을 밀어붙일 힘도 있는 사주로 봅니다. 하고 싶은 일을 밖으로 펼칠 때 빛납니다.'],
+      인성: ['돕는 손길과 배움은 많지만, 태어난 계절의 기운에 눌려 스스로 서는 힘은 아직 약한 사주로 봅니다.', '돕는 손길과 생각이 넘치는 사주로 봅니다. 생각이 많아 실행이 늦어지고, 기회를 흘려보내기 쉽습니다.'],
+      비겁: ['나와 같은 기운이 여럿이지만, 태어난 계절의 기운에 눌려 힘이 충분히 서지 못한 사주로 봅니다.', '자기 힘과 고집이 센 사주로 봅니다. 밀어붙이는 힘은 좋지만, 그 힘을 쓸 곳이 없으면 사람과 부딪히거나 재물이 새기 쉽습니다.'],
+    };
+    const TAIL = { 재성: '넓은 몫을 일구고 들어온 재물도 지킬 수 있습니다', 관성: '무거운 책임 속에서도 내 자리를 지킬 수 있습니다', 식상: '가진 재능을 끝까지 펼칠 수 있습니다' };
+    const SKIP = {
+      w: { 식상: '당신의 힘을 밖으로 꺼내 쓰게 하는 기운이라, 힘이 모자란 지금 넣으면 더 지칩니다.', 재성: '힘을 써서 거둬야 하는 기운이라, 힘이 모자란 지금 넣으면 감당하기 어렵습니다.', 관성: '당신을 누르고 다잡는 기운이라, 힘이 모자란 지금 넣으면 더 눌립니다.' },
+      s: { 인성: '당신을 더 키워 주는 기운이라, 이미 힘이 센 지금 넣으면 한쪽으로 더 기웁니다.', 비겁: '당신과 같은 기운이라, 이미 힘이 센 지금 넣으면 고집과 부딪힘만 커집니다.' },
+    };
+    const { k, w } = x;
+    const lackW = x.lack.map(w).join('·'), lackLast = x.lack.length ? EL[x.lack[x.lack.length - 1]] : '';
+    let a;
+    if (x.dom >= 0) a = `당신의 사주는 ${k(x.dom, '이', '가')} ${x.domCnt}개로 ${x.domCnt >= 4 ? '매우 ' : ''}많고, 당신과 같은 ${k(x.me, '은', '는')} ${x.meCnt === 1 ? '당신 하나뿐입니다' : `당신을 포함해 ${x.meCnt}개입니다`}.`;
+    else if (x.meMany) a = `당신의 사주는 당신과 같은 ${k(x.me, '이', '가')} ${x.meCnt}개로 많습니다.`;
+    else a = `당신의 사주는 다섯 기운이 한쪽으로 크게 쏠리지 않았습니다.${x.lack.length ? ` 다만 ${lackW}${josa(lackLast, '은', '는').slice(lackLast.length)} 하나도 없습니다.` : ''}`;
+    const b = x.johu
+      ? `${x.johu.winter ? '겨울' : '여름'}에 태어났는데 ${k(x.main, '이', '가')} 하나도 없어, 무엇보다 ${k(x.main, '이', '가')} 필요합니다.`
+      : !x.weak
+        ? `힘이 넘치는 사주에는 그 힘을 ${{ 식상: '밖으로 쓰게 할', 재성: '써서 거둘', 관성: '다잡아 줄' }[x.mainRole] || '쓸 곳이 될'} ${k(x.main, '이', '가')} 필요합니다.`
+        : `${x.dom >= 0 ? `${k(x.dom, '이', '가')} 많은 사주에는 ` : '이 사주에는 '}${k(x.main, '이', '가')} 필요합니다.`;
+    const role = x.dom >= 0 ? x.domRole : x.meMany ? '비겁' : null;
+    const c = role ? (role === '비겁' ? `명리에서 나와 같은 기운은 ${MEAN.비겁}을 뜻합니다.` : `명리에서 ${w(x.me)}에게 ${k(x.dom, '은', '는')} ${MEAN[role]}을 뜻합니다.`) : '';
+    const d = role ? CONSEQ[role][x.weak ? 0 : 1] : (x.weak ? '전체로 보면 당신을 받쳐 주는 기운보다 힘을 빼는 기운이 많아, 쉽게 지치는 쪽으로 봅니다.' : '전체로 보면 당신을 받쳐 주는 기운이 많아 힘이 넘치는 쪽으로 봅니다. 그 힘을 쓸 곳이 필요합니다.');
+    let skip = '';
+    if (x.skip >= 0) {
+      const why = (x.weak ? SKIP.w : SKIP.s)[x.skipRole];
+      skip = why ? `${k(x.skip, '은', '는')} 하나도 없지만 지금 ${k(x.skip, '을', '를')} 채우지는 않습니다. ${k(x.skip, '은', '는')} ${why}` : `${k(x.skip, '은', '는')} 하나도 없지만, 지금은 ${k(x.main, '이', '가')} 더 급합니다.`;
+    }
+    const tail = TAIL[x.domRole] || '맡은 일을 끝까지 해낼 수 있습니다';
+    const mainWhy = x.johu
+      ? (x.johu.winter ? '차가운 사주에서는 어떤 기운도 제 몫을 하기 어려워, 먼저 불로 덥히는 것이 순서입니다.' : '뜨겁고 마른 사주에서는 어떤 기운도 제 몫을 하기 어려워, 먼저 물로 식히는 것이 순서입니다.')
+      : {
+        비겁: `먼저 ${k(x.main, '을', '를')} 더해 버틸 힘을 세우는 것이 순서입니다. 힘이 서야 ${tail}.`,
+        인성: `${k(x.main, '은', '는')} 당신을 길러 주는 기운입니다. 뿌리가 굵어져야 흔들리지 않고 ${tail}.`,
+        식상: `${k(x.main, '은', '는')} 당신의 넘치는 힘을 밖으로 펼치게 하는 기운입니다. 힘이 재능과 활동으로 흘러 나가야 막히지 않고 결실이 생깁니다.`,
+        재성: `${k(x.main, '은', '는')} 당신이 힘을 써서 거두는 기운입니다. 센 힘이 일과 재물로 이어져야 쓸모가 생깁니다.`,
+        관성: `${k(x.main, '은', '는')} 센 힘을 다잡아 주는 기운입니다. 방향과 규칙이 생겨야 힘이 흩어지지 않고 자리와 이름을 얻습니다.`,
+      }[x.mainRole];
+    const lead = `그래서 이름 가운데 글자에 ${k(x.main, '을', '를')}, 끝 글자에 ${x.secondIsMother ? `그 ${k(x.main, '을', '를')} 길러 주는 ` : ''}${k(x.second, '을', '를')} 담았습니다.`;
+    return { p1: [a + ' ' + b, [c, d].filter(Boolean).join(' ')], p2: [skip, mainWhy].filter(Boolean), lead };
+  },
+  meterAdd: '이 이름으로',
   wMean: (c) => c.mean,
   chipW: (w) => `뜻: ${w} 기운`,
   noteW: (mean, w) => `‘${mean}’을 뜻하는 낱말이라 기운을 ${ro(w)} 봅니다. 표준국어대사전에 그 뜻으로 오른 낱말만 씁니다.`,
@@ -2491,15 +3368,15 @@ const KO = {
   shareMe: '사주 속 나의 모습',
   shareWoori: '순우리말',
   shareFill: (w, lack) => `${lack ? '부족한' : '필요한'} ${w} 기운을 채운 이름입니다`,
-  moreTitle: '우리가 이름을 짓는 기준',
+  moreTitle: '좋은 이름의 기준',
   more: [
-    '<b>사주 세우기.</b> 해와 달의 경계는 달력 날짜가 아니라 태양의 실제 위치로 정한 절기로 나눕니다(띠는 입춘부터 바뀝니다). 날과 시는 태어난 곳의 경도로 고친 시각으로 세우고, 밤 11시부터는 다음 날로 봅니다.',
-    '<b>넣을 기운.</b> 나를 받쳐 주는 글자와 나를 약하게 하는 글자를 세어 약한 사주는 받쳐 주는 기운을, 강한 사주는 힘을 쓰게 하는 기운을 넣습니다. 겨울에 태어나 불이 하나도 없거나 여름에 태어나 물이 하나도 없으면, 그 계절을 먼저 푸는 기운을 앞에 둡니다.',
-    '<b>글자 자리.</b> 한국 작명 전통대로 모자란 기운은 이름 가운데 글자에 싣고, 끝 글자에는 그 기운을 낳아 받쳐 주는 기운을 둡니다. 한자의 기운은 글자의 뿌리(부수)와 뜻으로 정합니다.',
-    '<b>소리.</b> 세종이 펴낸 『훈민정음』 해례본(1446)의 소리 오행을 기준으로, 성부터 끝 글자까지 소리가 서로 부딪히지 않는 이름만 냅니다. 작명계에서 오래 써 온 1750년 『훈민정음운해』의 분류는 ㅇ·ㅎ과 ㅁ·ㅂ·ㅍ의 기운이 원전과 반대여서, 원전을 따릅니다. 지어 드리는 한자 이름의 약 90%는 두 분류 모두에서 부딪힘이 없습니다.',
-    '<b>획수.</b> 강희자전 원획법으로 셉니다(氵는 물 수 4획, 王은 구슬 옥 5획처럼 부수를 원래 글자로). 성을 고르면 원격·형격·이격·정격 네 격을 81수로 보고, 성이 없으면 이름 두 글자의 합을 봅니다.',
-    '<b>글자 고르기.</b> 대법원 인명용 한자 9,389자 안의 글자만 씁니다. 맏이에게만 쓴다는 글자, 맏이에게 쓰지 않는다는 글자, 이름에 쓰지 않는다는 불용문자는 처음부터 뺐습니다.',
-    '<b>순우리말 이름.</b> 사전에 오른 낱말 가운데 뜻이 넣을 기운과 같은 것만 고르고, 소리 조건은 한자 이름보다 엄격하게 봅니다.',
+    '<b>1.</b> 사주를 보고, 그 사람에게 필요한 기운을 찾습니다.',
+    '<b>2.</b> 한자 이름으로 지을지, 순우리말 이름으로 지을지 정합니다.',
+    '<b>3.</b> 한자에는 필요한 기운을 담습니다. 한자마다 품은 기운이 있습니다.',
+    '<b>4.</b> 획수를 셉니다. 획수를 더한 수에도 좋고 나쁨이 있습니다.',
+    '<b>5.</b> 이름을 부르는 소리에도 힘이 있습니다. 소리의 기운까지 맞춥니다.',
+    '<b>6.</b> 출생신고에 쓸 수 있는 한자여야 합니다. 대법원이 정한 9,389자 안에서 고릅니다.',
+    '<b>7.</b> 그 안에서도 첫째에게만 쓴다는 글자, 첫째에게는 쓰지 않는다는 글자, 뜻이 좋지 않아 이름에 피하는 글자는 처음부터 뺐습니다.',
   ],
 };
 
@@ -2667,9 +3544,9 @@ function buildIntro(now) {
     </div></div>
   <div class="blk">${ihead(U)}
     <div class="uses" data-stag>${U.items.map(([t, p], i) => `<div class="use"><div class="ic">${USE_IC[i]}</div><div><b>${t}</b><p>${p}</p></div></div>`).join('')}</div>
-    <div class="acc rv"><div class="acch">${U.accH}</div>${U.acc.map(([t, b, c]) => `<div class="r ${c}"><span class="t">${t}</span><b>${b}</b></div>`).join('')}</div>
+    <div class="acc rv"><div class="acch">${U.accH}</div>${U.acc.map(([t, b, c]) => `<div class="r ${c}">${t ? `<span class="t">${t}</span>` : '<span class="ck" aria-hidden="true"></span>'}<b>${b}</b></div>`).join('')}</div>
     <div class="rv">${srcLine(U.src)}</div></div>
-  <div class="endcta rv"><p>${T.endP}</p><button class="btn" type="button" id="goTop">${T.go}</button></div>`;
+  <div class="endcta rv"><div class="horbs" aria-hidden="true">${[0, 1, 2, 3, 4].map((i) => `<span style="--c:${E.EC[i]};--d:${(i * 0.35).toFixed(2)}s">${E.icon(i)}</span>`).join('')}</div><p>${T.endP}</p><button class="btn" type="button" id="goTop">${T.go}</button></div>`;
   $('goTop').addEventListener('click', () => $('f').scrollIntoView({ behavior: 'smooth', block: 'start' }));
   document.querySelector('.hero').classList.add('rv');
   reveal($('start'), now);
@@ -2809,21 +3686,67 @@ function render({ s, sur, r }, keep) {
   const lack = cnt.map((n, i) => (n === 0 ? i : -1)).filter((i) => i >= 0);
   const most = cnt.map((n, i) => (n === max ? i : -1)).filter((i) => i >= 0);
 
-  // ① 기운 구슬: 많음(3개 이상)·없음(0개)을 한눈에. 구슬이 찬 높이 = 개수(4개 이상이면 가득)
-  // 기운 이름은 그 기운 색, 개수는 금색으로 키워 한 줄이 먼저 읽히게 한다
-  const wordsH = (list) => list.map((e) => elSpan(e)).join('·');
-  const headline = T.headline(wordsH(most), `<span class="hn">${max}</span>`, lack.length ? wordsH(lack) : '');
-  const orbs = cnt.map((n, i) => {
-    const cls = `${i === dmEl ? ' me' : ''}${n === 0 ? ' zero' : ''}${n >= 3 ? ' many' : ''}`;
-    return `<div class="ob${cls}" style="--c:${E.EC[i]};--f:${Math.min(1, n / 4)};--d:${(0.2 + i * 0.12).toFixed(2)}s">
-      <div class="orb">${i === dmEl ? `<span class="metag">${T.me}</span>` : ''}<div class="lq"><div class="lv"></div></div>${E.icon(i)}</div>
-      <div class="ow">${EL[i]}<span class="on">${n}</span></div>
-      <div class="ost">${n === 0 ? `<i>${T.none}</i>` : n >= 3 ? `<i>${T.many}</i>` : ''}</div>
-      <div class="orl">${T.rel[relOf(i)]}</div></div>`;
+  // v4 순서: ① 나 → ② 타고난 다섯 기운과 풀이 → ③ 이름에 넣을 기운과 이유 (p1) / ④ 이름 (p3) / ⑤ 생활·근거 자세히 (p2)
+  // 화면 색은 밝은 바탕에 맞춘 진한 기운 색(C.ELC_DEEP). 강조색 하나 = 이름에 넣을 기운의 색
+  const DC = ['#5fd39b', '#ff8a5c', '#f0c35a', '#dfe6ee', '#6cb4f5'];
+  const weak = st.verdict === '신약';
+  const mainW = EL[t.main];
+  $('result').style.setProperty('--acc', DC[t.main]);
+  // 한국어 조사: 기운 이름 끝 받침으로 고른다. 다른 언어는 조사가 없어 이름만
+  const kj = (e, a, b) => `<b class="e${e}">${EL[e]}</b>${josa(EL[e], a, b).slice(EL[e].length)}`;
+  const others = many.filter((e) => e !== dmEl).sort((a, b) => cnt[b] - cnt[a]);
+  const dom = others.length ? others[0] : -1;
+  const skipList = lack.filter((e) => e !== t.main && e !== t.second);
+  const x = {
+    k: lang === 'ko' ? kj : (e) => elSpan(e), w: (e) => elSpan(e),
+    me: dmEl, meCnt: cnt[dmEl], meMany: cnt[dmEl] >= 3,
+    dom, domCnt: dom >= 0 ? cnt[dom] : 0, domRole: dom >= 0 ? relOf(dom) : null,
+    lack, weak, main: t.main, mainRole: t.yong.role,
+    johu: t.useJohu ? { winter: t.johu.season === '겨울' } : null,
+    skip: skipList.length ? skipList[0] : -1, skipRole: skipList.length ? relOf(skipList[0]) : null,
+    second: t.second, secondIsMother: t.second === mother(t.main),
+  };
+  const rd = T.reading(x);
+  // 여덟 글자를 기운별 기둥에 쌓는다: 글자 하나 = 도장 하나. 태어난 순서대로 떨어져 쌓인다
+  const chars = [];
+  ['year', 'month', 'day', 'hour'].forEach((k) => {
+    const p = P[k]; if (!p) return;
+    chars.push({ h: G.STEM_H[p.stem], el: G.stemEl(p.stem), me: k === 'day' });
+    chars.push({ h: G.BR_H[p.br], el: G.BR_EL[p.br], me: false });
+  });
+  chars.forEach((c, i) => { c.i = i; });
+  const dotsN = Math.max(5, ...cnt);
+  const five = [0, 1, 2, 3, 4].map((e) => {
+    const n = cnt[e];
+    const dots = Array.from({ length: dotsN }, (_, j) => `<i class="${j < n ? 'on' : ''}" style="--j:${j}"></i>`).join('');
+    return `<div class="v4row${n === 0 ? ' zero' : ''}${n >= 3 ? ' many' : ''}" style="--c:${DC[e]}">
+      <span class="ob" style="--f:${Math.min(1, n / 4)};--d:${(0.15 + e * 0.12).toFixed(2)}s"><span class="orb"><span class="lq"><span class="lv"></span></span>${E.icon(e)}</span></span><span class="rw">${EL[e]}</span><span class="rd">${dots}</span><span class="rn">${n}</span><span class="rt">${e === dmEl ? T.me : n >= 3 ? T.many : n === 0 ? T.none : ''}</span></div>`;
   }).join('');
+  $('p1').innerHTML = `
+    <section class="v4s v4hero rv" style="--c:${DC[dmEl]}">
+      <div class="v4card">${stemCard(dm)}</div>
+      <p class="v4k">${T.hSec.me}</p>
+      <h1 class="v4name" translate="no">${T.stemName[dm]}<span>${G.STEM_H[dm] + C.EL_H[dmEl]}</span></h1>
+      <p class="v4mean">${T.stemMean[dm]}</p>
+      <p class="v4body v4c">${T.dmRead[dm]}</p>
+    </section>
+    <section class="v4s rv" id="v4five">
+      <p class="v4k">${T.hSec.five}</p>
+      <p class="v4body v4c">${T.hTeach.five}</p>
+      <div class="v4rows">${five}</div>
+      ${rd.p1.map((p) => `<p class="v4body">${p}</p>`).join('')}
+    </section>
+    <section class="v4s v4need rv" style="--c:${DC[t.main]}">
+      <p class="v4k">${T.hSec.need}</p>
+      <p class="v4body v4c">${T.hTeach.need}</p>
+      <div class="keyc"><div class="big">${E.icon(t.main)}</div><div><div class="k1">${T.keyK1}</div><div class="k2">${mainW} <span class="kh" translate="no">${C.EL_H[t.main]}</span></div></div></div>
+      ${rd.p2.map((p) => `<p class="v4body">${p}</p>`).join('')}
+    </section>`;
+
+  // 근거 자세히: 여덟 글자·나의 힘·음양 (궁금한 사람만 펼친다)
   const tileHtml = (k, part, el, idx) => {
-    const me = k === 'day' && part === 'stem';
-    return `<div class="tile${me ? ' me' : ''}" style="--c:${E.EC[el]}">${me ? `<span class="tag">${T.me}</span>` : ''}${E.icon(el)}<div class="k">${EL[el]}</div><div class="snd" translate="no">${T.snd(part === 'stem', idx)}</div></div>`;
+    const isMe = k === 'day' && part === 'stem';
+    return `<div class="tile${isMe ? ' me' : ''}" style="--c:${DC[el]}">${isMe ? `<span class="tag">${T.me}</span>` : ''}${E.icon(el)}<div class="k">${EL[el]}</div><div class="snd" translate="no">${T.snd(part === 'stem', idx)}</div></div>`;
   };
   const col = (k) => {
     const p = P[k];
@@ -2832,68 +3755,33 @@ function render({ s, sur, r }, keep) {
       ${tileHtml(k, 'stem', G.stemEl(p.stem), p.stem)}
       ${tileHtml(k, 'br', G.BR_EL[p.br], p.br)}</div>`;
   };
-  $('p1').innerHTML = `<h2 id="p1h" class="rv"><span class="no" translate="no">1</span><span class="tt">${T.p1}</span></h2>
-    <div class="mycard rv" style="--c:${E.EC[dmEl]}">${stemCard(dm)}<div class="mi"><div class="ml">${T.meLabel}</div><div class="nm" translate="no">${T.stemName[dm]}<span class="nmh">${G.STEM_H[dm] + C.EL_H[dmEl]}</span></div>
-    <p class="mm">${T.stemMean[dm]}</p>
-    <div class="tags"><span class="tagc">${T.dmTag(EL[dmEl])}</span><span class="tagc">${T.animal(T.animals[P.year.br])}</span></div></div></div>
-    <div class="cntbox rv"><p class="headline">${headline}</p>
-    <div class="orbs">${orbs}</div></div>
-    <div class="keyline rv" style="--c:${E.EC[r.target.main]}">${T.keyLine}${E.icon(r.target.main)}<b>${EL[r.target.main]}</b></div>`;
-  const p8 = `<h3 class="p8h rv">${T.p8h}</h3><p class="muted rv" style="margin:0;font-size:14px">${T.p8Lead}</p>
-    <div class="pillars rv">${['year', 'month', 'day', 'hour'].map(col).join('')}</div>`;
-
-  // ② 풀이: 한 줄 판정 → 여덟 글자 → 나 → 많고 빈 기운 → 나의 힘 → 넣을 기운 → 음양 → 생활
-  const weak = st.verdict === '신약';
-  const me = EL[dmEl];
-  // 많은 기운이 판정과 반대쪽(예: 같은 기운이 많은데 약한 사주)이거나 빈 기운이 없으면 '많지만'
-  const against = many.some((e) => HELP_SIDE.includes(relOf(e)) === weak);
-  const soft = !!(lack.length && !against);
-  const thesis = T.thesis(many.length ? words(many) : '', soft, lack.length ? words(lack) : '', weak);
-  const rows = [0, 1, 2, 3, 4].map((e) => {
-    const rl = relOf(e), other = e === dmEl ? cnt[e] - 1 : cnt[e];
-    const state = other === 0 ? 'none' : cnt[e] >= 3 ? 'many' : null;
-    if (!state) return '';
-    return `<div class="rrow ${state}" style="--c:${E.EC[e]}"><div class="icb">${E.icon(e)}</div><div>
-      <div class="rh">${T.rowHead(EL[e], cnt[e], T.rel[rl])} <i>${state === 'none' ? T.none : T.many}</i></div>
-      <p>${T.read[rl][state](T.elW(EL[e]), cnt[e], T.elW(me))}${state === 'many' ? turnNote(rl, weak) : ''}</p></div></div>`;
-  }).join('');
   const hp = Math.round((st.help / (st.help + st.drain)) * 100);
-  const mainW = EL[t.main];
-  let why;
-  if (t.useJohu) {
-    const season = t.johu.season;
-    why = T.whyJohu(T.season(season), elSpan(t.johu.need), elSpan(t.main), season === '겨울');
-  } else why = `${T.roleRead[t.yong.role](mainW, me)}. ${T.whyTail(weak)}`;
-  // 비어 있는데 넣지 않는 기운이 있으면 이유를 한 줄로 (사용자가 가장 먼저 묻는 곳)
-  let skipLine = '';
-  const skip = lack.filter((e) => e !== t.main && e !== t.second);
-  if (skip.length) {
-    const e = skip[0], rl = J.role(dmEl, e);
-    const wy = (weak ? T.skipWhy.weak : T.skipWhy.strong)[rl];
-    skipLine = T.skipLine(elSpan(e), EL[e], wy, mainW);
-  }
   const yy = J.yinYang(s);
   const wv = Object.assign({}, W[t.main], T.wol ? T.wol[t.main] : {});
   const [pl1, pl2] = T.powerL(st.help, st.drain);
   const [yl1, yl2] = T.yyL(yy.yang, yy.yin);
-  $('p2').innerHTML = `<h2 id="p2h" class="rv"><span class="no" translate="no">3</span><span class="tt">${T.p2}</span></h2>
-    <p class="thesis rv">${thesis}</p>${p8}
-    <div class="panel rv dmread" style="--c:${E.EC[dmEl]}"><div class="icb">${E.icon(dmEl)}</div><div><b>${T.dmPrefix} · <span translate="no">${T.stemName[dm]}</span></b><p>${T.dmRead[dm]}</p></div></div>
-    ${rows ? `<div class="rrows" data-stag>${rows}</div>` : ''}
-    <div class="panel power rv"><h3>${T.powerH}</h3>
+  $('p2').innerHTML = `
+    <section class="v4s v4life rv" style="--c:${DC[t.main]}">
+      <p class="v4k">${T.hSec.life}</p>
+      <h2 class="v4h">${T.betterTitle(mainW)}</h2>
+      <div class="pairs">${[[`<span class="swatch" style="background:${wv.colorHex}"></span>${wv.color}`], [wv.dir], [wv.season], [wv.num], [wv.taste]].map(([v], i) => `<div>${T.pairHead[i]}<b>${v}</b></div>`).join('')}</div>
+      <div class="dolist">${T.doLine(wv).map((v, i) => `<p><b>${T.doHead[i]}</b><span>${v}</span></p>`).join('')}</div>
+      <p class="tiny">${T.betterSrc(wv)}</p>
+    </section>
+    <details class="v4more"><summary>${T.hSec.more}</summary>
+      <h3>${T.p8h}</h3><p class="tiny">${T.p8Lead}</p>
+      <div class="pillars">${['year', 'month', 'day', 'hour'].map(col).join('')}</div>
+      <h3>${T.powerH}</h3>
       <div class="pl"><span>${pl1}</span><span>${pl2}</span></div>
-      <div class="sb"><div class="a" style="--w:${hp}%"></div></div>
-      <p style="margin:0"><span class="verdict">${T.verdict(weak)}</span>${st.balanced ? `<span class="tiny">${T.balanced}</span>` : ''}</p>
-      <p class="tiny" style="margin:8px 0 0">${T.powerP}</p></div>
-    <div class="keyc rv" style="--c:${E.EC[t.main]}"><div class="big">${E.icon(t.main)}</div><div><div class="k1">${T.keyK1}</div><div class="k2">${mainW}</div></div></div>
-    <p class="keyp rv">${why}</p>${skipLine ? `<p class="keyp rv muted">${skipLine}</p>` : ''}
-    <div class="panel rv"><h3>${T.yyH}</h3><div class="yy"><div class="y" style="flex:${yy.yang || 0.001}"></div><div class="n" style="flex:${yy.yin || 0.001}"></div></div><div class="pl"><span>${yl1}</span><span>${yl2}</span></div>
-    <p class="yyread">${T.yyRead(yy.yang, yy.yin)}</p></div>
-    <div class="better rv"><h3>${T.betterTitle(mainW)}</h3><p>${T.betterLead}</p>
-    <div class="pairs">${[[`<span class="swatch" style="background:${wv.colorHex}"></span>${wv.color}`], [wv.dir], [wv.season], [wv.num], [wv.taste]].map(([v], i) => `<div>${T.pairHead[i]}<b>${v}</b></div>`).join('')}</div>
-    <div class="dolist">${T.doLine(wv).map((v, i) => `<p><b>${T.doHead[i]}</b><span>${v}</span></p>`).join('')}</div>
-    <p class="tiny" style="color:#8a7a5a;margin-top:10px">${T.betterSrc(wv)}</p></div>
-    <p class="src rv">${T.src2}</p>`;
+      <div class="sb"><div class="a" style="width:${hp}%"></div></div>
+      <p class="tiny">${T.verdict(weak)}${st.balanced ? ` · ${T.balanced}` : ''}</p>
+      <p class="tiny">${T.powerP}</p>
+      <h3>${T.yyH}</h3>
+      <div class="yy"><div class="y" style="flex:${yy.yang || 0.001}"></div><div class="n" style="flex:${yy.yin || 0.001}"></div></div><div class="pl"><span>${yl1}</span><span>${yl2}</span></div>
+      <p class="tiny">${T.yyRead(yy.yang, yy.yin)}</p>
+      <p class="tiny">${T.src2}</p>
+    </details>`;
+
 
   // ③ 이름 3개
   const names = r.names;
@@ -2908,6 +3796,19 @@ function render({ s, sur, r }, keep) {
   const sndNote = (c) => T.sndNote(soundPath(full0(c), c.sound.ha), c.sound.ha === 'good');
   // 한자 음(소·영 등)은 번역기가 낱말(cow 등)로 옮기므로 번역하지 않게 묶는다
   const ON = (x) => `<span translate="no">${x.ko}</span>`;
+  const usedMean = new Set();
+  const meanOf = (c) => {
+    const opts = [];
+    if (c.type === 'hanja') {
+      const [a, b] = [c.parts[0].h, c.parts[1].h], Q = window.NameQuality, pk = Q.pairKey(a, b);
+      if (pk) opts.push(T.pairMean[pk]);
+      opts.push(T.meanJoin(T.meanA[Q.MEAN[a]], T.meanB[Q.MEAN[b]]), T.meanJoin(T.meanA[Q.MEAN[b]], T.meanB[Q.MEAN[a]]), T.meanJoin(T.meanA[Q.MEAN[a]], T.meanB[Q.NEAR[Q.MEAN[b]]]));
+    } else opts.push(T.wooriLine[c.given]);
+    const pick = opts.find((m) => !usedMean.has(m)) || opts[0];
+    usedMean.add(pick);
+    return pick;
+  };
+  const nameMeans = names.map(meanOf);
   const cardHtml = (c, i) => {
     const chips = [];
     let why, hjLine = '';
@@ -2929,21 +3830,29 @@ function render({ s, sur, r }, keep) {
         chip('', T.noHanja, T.noHanjaNote));
       why = T.whyW(mean, elSpan(c.el));
     }
+    const nmean = nameMeans[i];
     const full = (sur ? sur.ko : '') + c.given;
-    return `<article class="namecard${i === 0 ? ' sel' : ''}" data-i="${i}" tabindex="0">
-      <span class="rank">${T.rank(i)}</span><span class="kind${c.type === 'woori' ? ' w' : ''}">${c.type === 'woori' ? T.kindW : T.kindH}</span>
-      <div class="ko" translate="no">${esc(full)}</div><div class="ro" translate="no">${c.roman} (${c.romanH})</div>${hjLine}
-      <p class="chiphint">${T.chipHint}</p><div class="chips">${chips.join('')}</div><p class="chipnote" hidden></p>
+    return `<article class="namecard rv${i === 0 ? ' sel' : ''}" data-i="${i}" id="ncard${i}" role="tabpanel"${i ? ' hidden' : ''}>
+      <div class="nctop"><span class="rank">${T.rank(i)}</span><span class="kind${c.type === 'woori' ? ' w' : ''}">${c.type === 'woori' ? T.kindW : T.kindH}</span></div>
+      <div class="ko" translate="no">${[...full].map((ch, j) => `<span style="--j:${j}">${esc(ch)}</span>`).join('')}</div><div class="ro" translate="no">${c.roman} (${c.romanH})</div>${hjLine}
+      ${nmean ? `<p class="nmean">${nmean}</p>` : ''}
       <p class="why">${why}</p>
+      <p class="chiphint">${T.chipHint}</p><div class="chips">${chips.join('')}</div><p class="chipnote" hidden></p>
       <div class="act"><button type="button" data-say="${esc(full)}">${T.listen}</button></div></article>`;
   };
-  $('p3').innerHTML = `<h2 id="p3h" class="rv"><span class="no" translate="no">2</span><span class="tt">${T.p3}</span></h2>
-    <p class="muted rv">${T.p3Lead(mainW, EL[t.second])}</p>
+  $('p3').innerHTML = `<section class="v4s v4names" style="--c:${DC[t.main]}"><p class="v4k rv"><span>${T.hSec.names}</span></p>
+    <p class="v4body rv">${rd.lead}</p></section>
+    <p class="ntabhint"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 14a8 8 0 0 1-8 8"/><path d="M18 11v-1a2 2 0 0 0-4 0"/><path d="M14 10V9a2 2 0 0 0-4 0v1"/><path d="M10 9.5V4a2 2 0 0 0-4 0v10"/><path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-6-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg><span>${T.tabHint}</span></p>
+    <div class="ntabs" role="tablist">${names.map((c, i) => `<button type="button" class="ntab${i === 0 ? ' on' : ''}" role="tab" data-tab="${i}" aria-controls="ncard${i}" aria-selected="${i === 0}"><small>${T.rank(i)}</small><b translate="no">${esc(c.given)}</b></button>`).join('')}</div>
     <div class="names">${names.map(cardHtml).join('')}</div>
-    <div class="share"><p class="tiny" style="margin:0">${T.saveHint}</p><img id="shareimg" alt="">
+    <div class="share" id="shareBox"><p class="v4k">${T.shareH}</p><p class="sharehint">${T.saveHint}</p><img id="shareimg" alt="">
       <div class="sharebtns"><button class="sbtn save" type="button" id="saveBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0-4.5-4.5M12 14l4.5-4.5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>${T.save}</span></button><button class="sbtn send" type="button" id="sendBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 20.4 21 12 3.4 3.6 3.4 10.1 15 12 3.4 13.9z" fill="currentColor"/></svg><span>${T.send}</span></button></div></div>`;
   const setShare = (i) => {
-    document.querySelectorAll('.namecard').forEach((el) => el.classList.toggle('sel', +el.dataset.i === i));
+    document.querySelectorAll('.ntab').forEach((b) => { const on = +b.dataset.tab === i; b.classList.toggle('on', on); b.setAttribute('aria-selected', String(on)); });
+    document.querySelectorAll('.namecard').forEach((el) => {
+      const on = +el.dataset.i === i; el.hidden = !on; el.classList.toggle('sel', on);
+      if (on) { el.classList.remove('in'); void el.offsetWidth; el.classList.add('in'); }
+    });
     const c = names[i];
     const svg = shareSvg(c, sur, dm, t.main, t.counts[t.main] <= 1);
     $('shareimg').src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
@@ -2959,12 +3868,10 @@ function render({ s, sur, r }, keep) {
         const open = b.getAttribute('aria-expanded') === 'true', note = el.querySelector('.chipnote');
         el.querySelectorAll('.chips button').forEach((x) => x.setAttribute('aria-expanded', 'false'));
         if (!open) { b.setAttribute('aria-expanded', 'true'); note.textContent = b.dataset.note; note.hidden = false; } else note.hidden = true;
-        return;
       }
-      setShare(+el.dataset.i);
     });
-    el.addEventListener('keydown', (e) => { if (e.key === 'Enter') setShare(+el.dataset.i); });
   });
+  document.querySelectorAll('.ntab').forEach((b) => b.addEventListener('click', () => { document.querySelector('.ntabs').classList.add('seen'); setShare(+b.dataset.tab); }));
   document.querySelectorAll('[data-say]').forEach((b) => b.addEventListener('click', () => {
     if (!('speechSynthesis' in window)) return;
     const u = new SpeechSynthesisUtterance(b.dataset.say); u.lang = 'ko-KR'; u.rate = 0.85;
@@ -2973,8 +3880,17 @@ function render({ s, sur, r }, keep) {
   setShare(0);
 
   // 더 알아보기: 우리가 정한 기준
-  $('more').innerHTML = `<details><summary>${T.moreTitle}</summary><ol>${T.more.map((li) => `<li>${li}</li>`).join('')}</ol></details>`;
+  $('more').innerHTML = `<details class="v4more"><summary>${T.moreTitle}</summary><ol style="list-style:none;padding-left:0">${T.more.map((li) => `<li>${li}</li>`).join('')}</ol></details>`;
   reveal($('result'), keep);
+  // 그림이 스크롤에 따라 천천히 내려가며 커진다 (그림 전체만 움직여 휴대폰에서도 가볍게)
+  if (false) {
+    window.__v4px = true;
+    addEventListener('scroll', () => {
+      const sc = document.querySelector('.v4scene .scene'); if (!sc) return;
+      const p = Math.min(1, Math.max(0, window.scrollY / sc.parentNode.offsetHeight));
+      sc.style.transform = `translateY(${(p * 70).toFixed(1)}px) scale(${(1 + p * 0.1).toFixed(3)})`;
+    }, { passive: true });
+  }
   if (keep) window.scrollTo(0, y0);
 }
 
@@ -2995,21 +3911,21 @@ function shareSvg(c, sur, dm, main, lack) {
   // 위: 남색 머리(코리케어 + 문장) / 가운데: 이름 / 아래: 사주 속 나의 모습
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" width="480" height="800">
   <defs><clipPath id="scClip"><rect x="4" y="4" width="472" height="792" rx="30"/></clipPath>
-  <linearGradient id="scHead" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262f5a"/><stop offset="1" stop-color="#151a35"/></linearGradient></defs>
-  <g clip-path="url(#scClip)"><rect width="480" height="800" fill="#f8f1e2"/><rect width="480" height="156" fill="url(#scHead)"/><rect y="156" width="480" height="5" fill="${col}"/></g>
-  <rect x="4" y="4" width="472" height="792" rx="30" fill="none" stroke="#c9a457" stroke-width="6"/>
+  <linearGradient id="scHead" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c2750"/><stop offset="1" stop-color="#101730"/></linearGradient></defs>
+  <g clip-path="url(#scClip)"><rect width="480" height="800" fill="#0f1730"/><rect width="480" height="156" fill="url(#scHead)"/><rect y="156" width="480" height="5" fill="${col}"/></g>
+  <rect x="4" y="4" width="472" height="792" rx="30" fill="none" stroke="#e0bd63" stroke-width="6"/>
   <text x="240" y="64" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="15" font-weight="800" fill="#e0bd63" letter-spacing="6">KORI CARE</text>
   <text x="240" y="112" text-anchor="middle" font-family="Noto Serif KR,serif" font-size="${titleSize}" font-weight="700" fill="#f6eddb" letter-spacing="${lang === 'ko' ? 1 : 0}">${esc(T.shareTitle)}</text>
-  <text x="240" y="${full.length > 3 ? 292 : 300}" text-anchor="middle" font-family="Noto Serif KR,serif" font-size="${nameSize}" font-weight="900" fill="#1f1a10" letter-spacing="8">${esc(full)}</text>
-  <text x="240" y="354" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${romanLine.length > 20 ? 25 : 28}" font-weight="800" fill="#2f2614">${esc(c.roman)} <tspan font-family="Noto Serif KR,serif" font-weight="500" fill="#5a4a2a">(${esc(sub)})</tspan></text>
-  <text x="240" y="396" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${mean.length > 22 ? 19 : 22}" font-weight="600" fill="#4a3c22">${esc(mean)}</text>
-  <rect x="44" y="424" width="392" height="52" rx="26" fill="${col}"/>
-  <text x="240" y="457" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${fill.length > 34 ? 16 : fill.length > 24 ? 18 : 21}" font-weight="800" fill="#fff">${esc(fill)}</text>
-  <rect x="44" y="510" width="392" height="196" rx="18" fill="#efe4cc"/>
+  <text x="240" y="${full.length > 3 ? 292 : 300}" text-anchor="middle" font-family="Noto Serif KR,serif" font-size="${nameSize}" font-weight="900" fill="#f5f0e6" letter-spacing="8">${esc(full)}</text>
+  <text x="240" y="354" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${romanLine.length > 20 ? 25 : 28}" font-weight="800" fill="#e9e2d4">${esc(c.roman)} <tspan font-family="Noto Serif KR,serif" font-weight="500" fill="#b3aa9b">(${esc(sub)})</tspan></text>
+  <text x="240" y="396" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${mean.length > 22 ? 19 : 22}" font-weight="600" fill="#d9d2c5">${esc(mean)}</text>
+  <rect x="44" y="424" width="392" height="52" rx="26" fill="#e0bd63"/>
+  <text x="240" y="457" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="${fill.length > 34 ? 16 : fill.length > 24 ? 18 : 21}" font-weight="800" fill="#1b1406">${esc(fill)}</text>
+  <rect x="44" y="510" width="392" height="196" rx="18" fill="#1b2442"/>
   <g transform="translate(66 528) scale(.4)">${E.still(E.card(dm, T.stemName[dm], '')).replace('<svg ', '<svg width="240" height="400" ')}</g>
-  <text x="188" y="${meLines.length > 1 ? 576 : 590}" font-family="Noto Sans KR,sans-serif" font-size="16" font-weight="800" fill="#8a6a2a" letter-spacing="${lang === 'ko' ? 1 : 0}">${esc(T.shareMe)}</text>
-  ${meLines.map((l, i) => `<text x="188" y="${(meLines.length > 1 ? 612 : 626) + i * 32}" font-family="Noto Serif KR,serif" font-size="${meSize}" font-weight="800" fill="#1f1a10">${esc(l)}</text>`).join('')}
-  <text x="240" y="752" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="17" font-weight="600" fill="#8a7448" letter-spacing="1">koricare.kr</text></svg>`;
+  <text x="188" y="${meLines.length > 1 ? 576 : 590}" font-family="Noto Sans KR,sans-serif" font-size="16" font-weight="800" fill="#e0bd63" letter-spacing="${lang === 'ko' ? 1 : 0}">${esc(T.shareMe)}</text>
+  ${meLines.map((l, i) => `<text x="188" y="${(meLines.length > 1 ? 612 : 626) + i * 32}" font-family="Noto Serif KR,serif" font-size="${meSize}" font-weight="800" fill="#f5f0e6">${esc(l)}</text>`).join('')}
+  <text x="240" y="752" text-anchor="middle" font-family="Noto Sans KR,sans-serif" font-size="17" font-weight="600" fill="#b3aa9b" letter-spacing="1">koricare.kr</text></svg>`;
 }
 // 한 줄이 길면 가운데에 가까운 빈칸에서 두 줄로 나눈다 (빈칸이 없는 말은 한 줄 그대로)
 function wrap2(s, max) {
