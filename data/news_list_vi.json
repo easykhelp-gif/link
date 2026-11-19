@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_751a05e5",
+    "date": "2026-11-19",
+    "ts": 1795074123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/13f079a5-593c-4551-bd61-b714513f8c14.jpeg",
+    "title": "Học sinh Hàn Quốc thi CSAT trong lo lắng về gian lận AI",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261119/cover-story-students-take-koreas-biggest-college-exam-amid-ai-cheating-fears?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_95bc2f16",
+    "date": "2026-11-19",
+    "ts": 1795074123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/72a120c3-0459-4781-bb05-3c476fed6649.jpeg",
+    "title": "Đại học Kookmin và UNU lập trung tâm nghiên cứu AI tại Seoul",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/kookmin-university-united-nations-university-launch-research-hub-on-ai-driven-digital-governance?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_74a03fb8",
+    "date": "2026-11-19",
+    "ts": 1795074123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/41bfa7ea-f4d5-4d63-a2a8-d3f8e3e8a7b2.jpeg",
+    "title": "ĐH Hàn Quốc cần hợp tác chặt chẽ hơn để nâng cao nghiên cứu",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/koreas-research-rising-but-universities-must-break-down-silos-wun-chief?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e82f3757",
+    "date": "2026-11-19",
+    "ts": 1795074123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/7f369569-8b76-4f31-b6a7-bed804ee6b0b.jpg",
+    "title": "Bài học từ hệ thống 10 trường đại học của California",
+    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/what-korea-can-learn-from-californias-10-flagship-university-system?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_e90c8f5b",
+    "date": "2026-11-19",
+    "ts": 1795074123000,
+    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/b66b9adc-219b-460a-a677-08943059f0b1.jpeg",
+    "title": "Người Việt Nam nhận giải thưởng đặc biệt Global Korea Awards",
+    "link": "https://www.koreatimes.co.kr/southkorea/society/20261119/winners-of-15th-global-korea-awards?utm_source=rss"
+  },
+  {
+    "id": "hotnews_vi_08eadcba",
+    "date": "2026-11-19",
+    "ts": 1795070198000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.e68aed72a3214b9c9876b0648740bac5_T1.jpg",
+    "title": "Vụ việc ở sân bay của nhóm Riize thổi bùng tranh cãi bảo an thái quá",
+    "link": "https://www.koreaherald.com/article/10942926"
+  },
+  {
+    "id": "hotnews_vi_3bda378f",
+    "date": "2026-11-19",
+    "ts": 1795070058000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261116.2c3cb00991c64d91afb928671238b3d5_T1.jpg",
+    "title": "Phát hiện camera và tai nghe nhỏ tại phòng thi Suneung ở Yongin",
+    "link": "https://www.koreaherald.com/article/10942924"
+  },
+  {
+    "id": "hotnews_vi_cc4e8eff",
+    "date": "2026-11-19",
+    "ts": 1795070054000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111917940001300_P2.jpg",
+    "title": "Trình dự luật công nhận thêm nạn nhân phong trào dân chủ",
+    "link": "https://en.yna.co.kr/view/AEN20261119006100315"
+  },
+  {
+    "id": "hotnews_vi_5c260956",
+    "date": "2026-11-19",
+    "ts": 1795068266000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-a.v1.20261119.a45081bae3e0433fa8843f24a63a2171_T1.jpg",
+    "title": "Crimson Desert của Pearl Abyss càn quét Korea Game Awards",
+    "link": "https://www.koreaherald.com/article/10942878"
+  },
+  {
+    "id": "hotnews_vi_b3ecf81b",
+    "date": "2026-11-19",
+    "ts": 1795067609000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/rcv.YNA.20261117.PYH2026111717380001300_T1.jpg",
+    "title": "Xuất khẩu Hàn Quốc vượt 1.000 tỷ USD nhờ ngành chip",
+    "link": "https://www.koreaherald.com/article/10942838"
+  },
+  {
     "id": "hotnews_vi_bba9a75d",
     "date": "2026-11-18",
     "ts": 1795033806000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/news-p.v1.20261117.2e97ad15efab43b8a81bce7bf4716df2_T1.jpg",
     "title": "Jennie (Blackpink) nhận 2 đề cử giải Grammy 2027",
     "link": "https://www.koreaherald.com/article/10940044"
-  },
-  {
-    "id": "hotnews_vi_e9022184",
-    "date": "2026-11-16",
-    "ts": 1794868023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/15/e7de7619-1a1c-4bbd-94ac-743fe66d545e.jpg",
-    "title": "Đại học Chonnam thúc đẩy nhân lực cho cụm bán dẫn tại Gwangju",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/chonnam-national-university-positions-itself-as-key-partner-in-koreas-2nd-semiconductor-cluster?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_800ec1a7",
-    "date": "2026-11-16",
-    "ts": 1794868023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/13/628b912c-1266-4fbd-9d6c-a39eabbc6e23.png",
-    "title": "Hội nghị thượng đỉnh THE Innovation & Impact Summit 2026 tại Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/the-innovation-impact-summit-2026-to-explore-higher-educations-role-in-driving-innovation?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_beb195e8",
-    "date": "2026-11-16",
-    "ts": 1794868023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/14/5756bf24-919a-4cba-b50e-d6cf8e5697e5.jpg",
-    "title": "Đại học Quốc gia Incheon đẩy mạnh nghiên cứu và thương mại hóa",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/inu-spurs-research-innovation-commercialization?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_efb64195",
-    "date": "2026-11-16",
-    "ts": 1794868023000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/16/ada078f3-4655-4275-aca5-3ddfadf452f8.jpg",
-    "title": "Các trường đại học Hàn Quốc mạnh về công nghiệp nhưng kém hợp tác quốc tế",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/korean-universities-lead-in-industry-ties-lag-in-global-collaboration-the?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_c6909a7c",
-    "date": "2026-11-16",
-    "ts": 1794866586000,
-    "image": "",
-    "title": "Gian lận thi cử bằng AI gây chấn động Hàn Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261117000500315"
-  },
-  {
-    "id": "hotnews_vi_8d946334",
-    "date": "2026-11-16",
-    "ts": 1794866574000,
-    "image": "",
-    "title": "Thủ khoa kỳ thi kế toán thú nhận gian lận bằng AI",
-    "link": "https://en.yna.co.kr/view/AEN20261117000400315"
-  },
-  {
-    "id": "hotnews_vi_22c3bf52",
-    "date": "2026-11-16",
-    "ts": 1794841326000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116010000315_01_i_P2.jpg",
-    "title": "Trump có thể gặp Kim Jong-un khi thăm Trung Quốc",
-    "link": "https://en.yna.co.kr/view/AEN20261116010000315"
-  },
-  {
-    "id": "hotnews_vi_36f1176f",
-    "date": "2026-11-16",
-    "ts": 1794837125000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116009651315_02_i_P2.jpg",
-    "title": "Jennie và Tame Impala được đề cử giải Grammy 2027",
-    "link": "https://en.yna.co.kr/view/AEN20261116009651315"
-  },
-  {
-    "id": "hotnews_vi_0d7ff8b0",
-    "date": "2026-11-16",
-    "ts": 1794835261000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/16/news-p.v1.20261116.532438c13f8a40a896b042eafa53f412_T1.jpg",
-    "title": "Riize và Plave phát hành đĩa đơn chung 'Lowkey' ngày 30/11",
-    "link": "https://www.koreaherald.com/article/10939050"
-  },
-  {
-    "id": "hotnews_vi_44866be2",
-    "date": "2026-11-16",
-    "ts": 1794820166000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090417570005500_P2.jpg",
-    "title": "Jeolla Bắc tự ứng cử Olympic Mùa hè 2036",
-    "link": "https://en.yna.co.kr/view/AEN20261116008900315"
   }
 ]
