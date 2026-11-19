@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_d62bea93",
+    "date": "2026-11-19",
+    "ts": 1795088734000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/19/PAF20261119152701009_P2.jpg",
+    "title": "ทรัมป์ สี จิ้นผิง และปูตินเห็นชอบหารือลดความเสี่ยงนิวเคลียร์",
+    "link": "https://en.yna.co.kr/view/AEN20261119001357315"
+  },
+  {
+    "id": "hotnews_th_26715f51",
+    "date": "2026-11-19",
+    "ts": 1795087668000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.77872cc92d4d4977ae87bb10834ef6e4_T1.jpg",
+    "title": "ค่ายเพลง K-pop ระมัดระวังหลังการประชุม APEC จุดประกายความหวังผ่อนคลายมาตรการในจีน",
+    "link": "https://www.koreaherald.com/article/10943242"
+  },
+  {
+    "id": "hotnews_th_a569ad7a",
+    "date": "2026-11-19",
+    "ts": 1795084924000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119010251315_02_i_P2.jpg",
+    "title": "พบผู้เข้าสอบ CSAT โกงข้อสอบ 98 ราย หลังใช้มาตรการคุมเข้ม",
+    "link": "https://en.yna.co.kr/view/AEN20261119010251315"
+  },
+  {
+    "id": "hotnews_th_ff2c517f",
+    "date": "2026-11-19",
+    "ts": 1795082775000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119005352315_05_i_P2.jpg",
+    "title": "ผู้ได้คะแนนสูงสุดสอบ LEET ถูกพบเสียชีวิตในโรงแรม",
+    "link": "https://en.yna.co.kr/view/AEN20261119005352315"
+  },
+  {
+    "id": "hotnews_th_fca08da3",
+    "date": "2026-11-19",
+    "ts": 1795080547000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119001252315_02_i_P2.jpg",
+    "title": "ศาลสูงสุดเกาหลีใต้พลิกคำพิพากษาคุก 15 ปี อดีตนายกฯ ฮัน ด็อก-ซู",
+    "link": "https://en.yna.co.kr/view/AEN20261119001252315"
+  },
+  {
+    "id": "hotnews_th_317fbd4a",
+    "date": "2026-11-19",
+    "ts": 1795079990000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119092729_3_k.jpg",
+    "title": "ศาลสูงสุดส่งคืนคดีกบฏของอดีตนายกรัฐมนตรี ฮัน ด็อก-ซู",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205698"
+  },
+  {
+    "id": "hotnews_th_8811b3db",
+    "date": "2026-11-19",
+    "ts": 1795078476000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119055615_57_e.jpg",
+    "title": "พบสมาร์ทโฟนซ่อนอยู่ 22 เครื่องก่อนสอบ Suneung สิ้นสุด",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205697"
+  },
+  {
+    "id": "hotnews_th_1eb3a20e",
+    "date": "2026-11-19",
+    "ts": 1795077623000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.e4eeeceef3f44b3682bb6c6bbefbc14f_T1.jpg",
+    "title": "ควอนโฮจินเป็นชาวเกาหลีคนแรกที่ได้นั่งคณะที่ปรึกษา Monte-Carlo TV Festival",
+    "link": "https://www.koreaherald.com/article/10943110"
+  },
+  {
+    "id": "hotnews_th_0c73fa74",
+    "date": "2026-11-19",
+    "ts": 1795076816000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.247557123c9a4598befec101b9502664_T1.jpg",
+    "title": "สหภาพรถไฟใต้ดินโซลผันวันศุกร์นี้อาจทำให้รถไฟล่าช้า",
+    "link": "https://www.koreaherald.com/article/10943088"
+  },
+  {
+    "id": "hotnews_th_99965d52",
+    "date": "2026-11-19",
+    "ts": 1795076490000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.0865a52f23a348dba87472f66b61274f_T1.jpg",
+    "title": "BTS เริ่มทัวร์เอเชียแปซิฟิกในเกาสง",
+    "link": "https://www.koreaherald.com/article/10943078"
+  },
+  {
     "id": "hotnews_th_751a05e5",
     "date": "2026-11-19",
     "ts": 1795074123000,
@@ -318,85 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110704220005400_P2.jpg",
     "title": "โชกุก อดีตรัฐมนตรีเกาหลีใต้ ถูกปฏิเสธเข้าญี่ปุ่น",
     "link": "https://en.yna.co.kr/view/AEN20261117009000315"
-  },
-  {
-    "id": "hotnews_th_7ebf8482",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/9435d653-3dc0-47a1-b3f7-49fd9c5a26f5.jpg",
-    "title": "ครูและนักเรียนกังวลการโกงข้อสอบ CSAT ด้วย AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261117/how-could-we-possibly-detect-them-teachers-fear-ai-cheating-students-urge-tougher-checks?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_3eb3bdc9",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/8359a22c-5256-4a68-bb2f-5e8395b0fd33.jpeg",
-    "title": "มินฮีจินปฏิเสธหนุนนิวจีนส์ยกเลิกสัญญาหลังตำรวจส่งอัยการ",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261117/min-hee-jin-denies-influencing-newjeans-contract-termination-after-police-refer-breach-of-trust-case-to-prosecutors?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_5884f826",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/0c3a4ecb-f440-4423-b65b-5b45c2c9216a.jpg",
-    "title": "งานประชุม THE Summit 2026 ผลักดันมหาวิทยาลัยเกาหลีเปลี่ยนงานวิจัยเป็นธุรกิจ",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/the-summit-calls-on-universities-to-bring-research-discoveries-to-market?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_e7985892",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/9a85e737-4b0a-4c25-9771-9dc4f13aca60.jpeg",
-    "title": "เกาหลีใต้สั่งงดเที่ยวบิน 35 นาทีช่วงสอบ CSAT วันพฤหัสบดีนี้",
-    "link": "https://www.koreatimes.co.kr/southkorea/others/20261117/korea-to-ground-flights-for-35-minutes-during-csat-english-test-thursday?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_c2c0c244",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/e9e4d34a-497f-4b51-b7fb-ea7856e76419.jpeg",
-    "title": "ผู้บริหารมหาวิทยาลัยเกาหลีชี้งานวิจัยต้องสร้างผลลัพธ์จริง",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/impact-begins-where-paper-ends-korean-university-execs-say?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_1aebd0d6",
-    "date": "2026-11-17",
-    "ts": 1794903423000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/96467ca0-bcf0-47b1-9c7e-f8714228c755.jpeg",
-    "title": "ม.เซจองคว้าอันดับ 1 ของเกาหลีใต้ด้านงานวิจัยอ้างอิงสูง",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261117/sejong-university-ranks-no-1-in-korea-for-top-10-most-cited-papers?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_e85a6de2",
-    "date": "2026-11-17",
-    "ts": 1794901419000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022100321_6_k.jpg",
-    "title": "ธนาคารกลางเกาหลีเผย AI ช่วยลดเวลาทำงานลง 3.7 ชั่วโมง",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205635"
-  },
-  {
-    "id": "hotnews_th_51d01c14",
-    "date": "2026-11-17",
-    "ts": 1794899162000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111712000001301_P2.jpg",
-    "title": "IMF ปรับเพิ่มคาดการณ์เศรษฐกิจเกาหลีใต้ปี 2026 สู่ระดับ 3.9%",
-    "link": "https://en.yna.co.kr/view/AEN20261117005651320"
-  },
-  {
-    "id": "hotnews_th_ab827201",
-    "date": "2026-11-17",
-    "ts": 1794897095000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/news-p.v1.20261117.2e97ad15efab43b8a81bce7bf4716df2_T1.jpg",
-    "title": "เจนนี่สร้างความหวังใหม่ให้ K-pop ลุ้นรางวัลแกรมปี 2027",
-    "link": "https://www.koreaherald.com/article/10940044"
-  },
-  {
-    "id": "hotnews_th_8793c4db",
-    "date": "2026-11-17",
-    "ts": 1794896545000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/17/rcv.YNA.20261117.PYH2026111709550001300_T1.jpg",
-    "title": "รัฐบาลเกาหลีใต้คุมเข้ม ป้องกันการโกงข้อสอบซูนึงด้วย AI",
-    "link": "https://www.koreaherald.com/article/10940033"
   }
 ]
