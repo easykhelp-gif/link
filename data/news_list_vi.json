@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_62e53f86",
+    "date": "2026-11-20",
+    "ts": 1795172674000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/rcv.YNA.20261120.PYH2026112008240001300_T1.jpg",
+    "title": "Đệ nhất phu nhân Kim muốn đưa kim chi vươn tầm thế giới",
+    "link": "https://www.koreaherald.com/article/10944467"
+  },
+  {
+    "id": "hotnews_vi_b14f1586",
+    "date": "2026-11-20",
+    "ts": 1795170301000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112001810001300_P2.jpg",
+    "title": "Đảng Dân chủ cầm quyền quyết định luận tội Chánh án Cho Hee-dae",
+    "link": "https://en.yna.co.kr/view/AEN20261120008800315"
+  },
+  {
+    "id": "hotnews_vi_a0817aec",
+    "date": "2026-11-20",
+    "ts": 1795166223000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261120033149_92_e.jpg",
+    "title": "Tổng thống Lee chỉ đạo xử lý triệt để gian lận thi cử",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205722"
+  },
+  {
+    "id": "hotnews_vi_1af1f0e3",
+    "date": "2026-11-20",
+    "ts": 1795162745000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/20/AEN20261120005253315_02_i_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung yêu cầu cải tổ kỳ thi quốc gia",
+    "link": "https://en.yna.co.kr/view/AEN20261120005253315"
+  },
+  {
+    "id": "hotnews_vi_65bf7504",
+    "date": "2026-11-20",
+    "ts": 1795162722000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/news-p.v1.20261120.7fab3f46854c43ce961d2a9393901942_T1.jpg",
+    "title": "Lễ hội văn học Singapore lần thứ 29 thu hút các nhà văn Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10944368"
+  },
+  {
+    "id": "hotnews_vi_1543d83b",
+    "date": "2026-11-20",
+    "ts": 1795162080000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119007252315_01_i_P2.jpg",
+    "title": "Bộ trưởng Thống nhất Hàn Quốc hội đàm với Đại sứ Mỹ Michelle Steel",
+    "link": "https://en.yna.co.kr/view/AEN20261119007252315"
+  },
+  {
+    "id": "hotnews_vi_049f696a",
+    "date": "2026-11-20",
+    "ts": 1795161699000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/04/PYH2026110416490001300_P2.jpg",
+    "title": "Quốc hội thông qua luật công nhận nhà nước cho nhà hoạt động dân chủ",
+    "link": "https://en.yna.co.kr/view/AEN20261120007500315"
+  },
+  {
+    "id": "hotnews_vi_a5e2963b",
+    "date": "2026-11-20",
+    "ts": 1795161529000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/rcv.YNA.20261116.PYH2026111607840001300_T1.jpg",
+    "title": "Bộ trưởng Giáo dục vắng mặt trong vụ gian lận thi Suneung",
+    "link": "https://www.koreaherald.com/article/10944343"
+  },
+  {
+    "id": "hotnews_vi_a8e0101c",
+    "date": "2026-11-20",
+    "ts": 1795160228000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112014050001300_P2.jpg",
+    "title": "Chứng khoán Seoul giảm hơn 5% do lo ngại về trí tuệ nhân tạo AI",
+    "link": "https://en.yna.co.kr/view/AEN20261120005652320"
+  },
+  {
     "id": "hotnews_vi_7ee20e4a",
     "date": "2026-11-20",
     "ts": 1795160222000,
@@ -38,6 +110,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/20/AEN20261120007000315_01_i_P2.jpg",
     "title": "Đệ nhất phu nhân Kim hy vọng kim chi vươn tầm thế giới",
     "link": "https://en.yna.co.kr/view/AEN20261120007000315"
+  },
+  {
+    "id": "hotnews_vi_f235a61a",
+    "date": "2026-11-20",
+    "ts": 1795159273000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/20/AEN20261120007100320_02_i_P2.jpg",
+    "title": "Hàn Quốc từ chối xem xét miễn trừ FSD của Tesla",
+    "link": "https://en.yna.co.kr/view/AEN20261120007100320"
   },
   {
     "id": "hotnews_vi_ba297084",
@@ -318,85 +398,5 @@
     "image": "https://newsimg.koreatimes.co.kr/2026/11/18/e2d6589c-4dd4-4491-bb61-a38a0801e63d.jpeg",
     "title": "Đại học Sejong giới thiệu nghiên cứu MRI tim bằng AI tại Pháp",
     "link": "https://www.koreatimes.co.kr/southkorea/education/20261118/sejong-university-team-presents-ai-based-cardiac-mri-research-at-global-conference?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_6cf52c34",
-    "date": "2026-11-18",
-    "ts": 1794988024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/cf246df3-f25e-40c0-a6bd-151a0570d8fd.jpg",
-    "title": "Hàn Quốc cảnh báo an ninh mạng do lỗi nền tảng Java",
-    "link": "https://www.koreatimes.co.kr/southkorea/20261118/korea-issues-cybersecurity-advisory-after-flaws-discovered-in-java-platform?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_ea9a6e78",
-    "date": "2026-11-18",
-    "ts": 1794988024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/c7eaeac1-a09c-486e-85e3-cd5474728aa3.jpg",
-    "title": "THE có thể giảm trọng số trích dẫn trong bảng xếp hạng 2028",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261118/the-weighs-halving-citation-impact-share-to-75-in-2028-rankings?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_34fb621e",
-    "date": "2026-11-18",
-    "ts": 1794988024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/ec734585-986e-4e13-a25b-35d942efc2f8.jpeg",
-    "title": "Giáo sư Đại học Seoul trúng cử vào hội đồng ICOMOS",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261118/university-of-seoul-korean-history-professor-elected-to-icomos-board?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_add88723",
-    "date": "2026-11-18",
-    "ts": 1794987822000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261118041916_4_e.jpg",
-    "title": "Tòa án giữ nguyên phán quyết về sân bay Saemangeum",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205668"
-  },
-  {
-    "id": "hotnews_vi_8b0231ff",
-    "date": "2026-11-18",
-    "ts": 1794987561000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/18/AEN20261118006351320_05_i_P2.jpg",
-    "title": "Lotte Biologics hoàn thành nhà máy sản xuất tại Incheon",
-    "link": "https://en.yna.co.kr/view/AEN20261118006351320"
-  },
-  {
-    "id": "hotnews_vi_1d8d2d74",
-    "date": "2026-11-18",
-    "ts": 1794987438000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/18/PYH2026111816380001300_P2.jpg",
-    "title": "Thị trưởng Daegu Choo Kyung-ho được tuyên trắng án vụ thiết quân luật",
-    "link": "https://en.yna.co.kr/view/AEN20261118008600315"
-  },
-  {
-    "id": "hotnews_vi_c27533db",
-    "date": "2026-11-18",
-    "ts": 1794987320000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/18/PYH2026111819300001300_P2.jpg",
-    "title": "Chứng khoán Hàn Quốc tăng 2% nhờ lợi nhuận Nvidia",
-    "link": "https://en.yna.co.kr/view/AEN20261118007252320"
-  },
-  {
-    "id": "hotnews_vi_032d8660",
-    "date": "2026-11-18",
-    "ts": 1794984860000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261118035353_71_e.jpg",
-    "title": "Thị trưởng Daegu Choo được tuyên trắng án vụ thiết quân luật",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205665"
-  },
-  {
-    "id": "hotnews_vi_e4d83c09",
-    "date": "2026-11-18",
-    "ts": 1794984060000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/rcv.YNA.20261118.PYH2026111802420001300_T1.jpg",
-    "title": "Học viện quân sự thống nhất tuyển học viên khóa đầu năm 2029",
-    "link": "https://www.koreaherald.com/article/10941520"
-  },
-  {
-    "id": "hotnews_vi_3e06c274",
-    "date": "2026-11-18",
-    "ts": 1794982521000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/news-p.v1.20261118.41f0de956eab4ef282b8e322042d3311_T1.jpg",
-    "title": "Tổng thống Lee gặp Chủ tịch Tập Cận Bình tại Thâm Quyến",
-    "link": "https://www.koreaherald.com/article/10941418"
   }
 ]
