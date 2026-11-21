@@ -1,5 +1,77 @@
 [
   {
+    "id": "hotnews_vi_186c14e8",
+    "date": "2026-11-21",
+    "ts": 1795264470000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.b55fcd75a5034e76aab3b4f54471c7fc_T1.jpg",
+    "title": "BTS thắng lớn với 5 giải thưởng tại MAMA Awards 2026",
+    "link": "https://www.koreaherald.com/article/10944819"
+  },
+  {
+    "id": "hotnews_vi_69c17d34",
+    "date": "2026-11-21",
+    "ts": 1795263015000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121002151315_02_i_P2.jpg",
+    "title": "Xe buýt đâm lên vỉa hè gần ga Hongik làm 6 người bị thương",
+    "link": "https://en.yna.co.kr/view/AEN20261121002151315"
+  },
+  {
+    "id": "hotnews_vi_f72ed9f2",
+    "date": "2026-11-21",
+    "ts": 1795259821000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121000452315_01_i_P2.jpg",
+    "title": "Tàu hàng trật bánh ở Sejong, tạm dừng dịch vụ Saemaeul và Mugunghwa",
+    "link": "https://en.yna.co.kr/view/AEN20261121000452315"
+  },
+  {
+    "id": "hotnews_vi_248426ee",
+    "date": "2026-11-21",
+    "ts": 1795255036000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121001800315_01_i_P2.jpg",
+    "title": "BTS thắng lớn 5 giải tại lễ trao giải MAMA Awards 2026",
+    "link": "https://en.yna.co.kr/view/AEN20261121001800315"
+  },
+  {
+    "id": "hotnews_vi_6c75cf8b",
+    "date": "2026-11-21",
+    "ts": 1795252044000,
+    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/21/PAF20261121145701009_P2.jpg",
+    "title": "Choi Min-jeong vô địch trượt băng 1.000m tại Seoul",
+    "link": "https://en.yna.co.kr/view/AEN20261121001700315"
+  },
+  {
+    "id": "hotnews_vi_1eae6221",
+    "date": "2026-11-21",
+    "ts": 1795248032000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/rcv.YNA.20261121.PRU20261121025301009_T1.jpg",
+    "title": "Anthropic IPO thành công mở đường cho OpenAI lên sàn chứng khoán",
+    "link": "https://www.koreaherald.com/article/10944733"
+  },
+  {
+    "id": "hotnews_vi_465f94f1",
+    "date": "2026-11-21",
+    "ts": 1795247323000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.2bb6633f386f470baa2a2399808b5f0d_T1.jpg",
+    "title": "Cổ phiếu Samsung và SK hynix giảm mạnh do lo ngại thị trường chip",
+    "link": "https://www.koreaherald.com/article/10944729"
+  },
+  {
+    "id": "hotnews_vi_6482e8c2",
+    "date": "2026-11-21",
+    "ts": 1795246667000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.f68ff22c75a94fbbbf2abc64758236a9_T1.jpg",
+    "title": "Kona I mở cửa hàng pop-up thẻ thanh toán độc đáo tại Seoul",
+    "link": "https://www.koreaherald.com/article/10944725"
+  },
+  {
+    "id": "hotnews_vi_61964994",
+    "date": "2026-11-21",
+    "ts": 1795246430000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112011070001300_P2.jpg",
+    "title": "Lee Jae Myung treo thưởng 100 triệu won cho người tố cáo gian lận CSAT",
+    "link": "https://en.yna.co.kr/view/AEN20261121001300320"
+  },
+  {
     "id": "hotnews_vi_80fe2a28",
     "date": "2026-11-21",
     "ts": 1795244400000,
@@ -30,6 +102,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261118.449b7385489c4db3a090913bed8032bf_T1.jpg",
     "title": "Cuộc chiến bánh Giáng sinh tại các khách sạn lớn ở Hàn Quốc",
     "link": "https://www.koreaherald.com/article/10942858"
+  },
+  {
+    "id": "hotnews_vi_3bd60c18",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.752e7271e31c4d849b8d515f0a749b6e_T1.jpg",
+    "title": "Triển lãm nghệ thuật cuối năm tại các phòng tranh Seoul",
+    "link": "https://www.koreaherald.com/article/10942855"
   },
   {
     "id": "hotnews_vi_ff2cf82b",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.0865a52f23a348dba87472f66b61274f_T1.jpg",
     "title": "BTS khởi động tour diễn Arirang tại châu Á - Thái Bình Dương",
     "link": "https://www.koreaherald.com/article/10943078"
-  },
-  {
-    "id": "hotnews_vi_751a05e5",
-    "date": "2026-11-19",
-    "ts": 1795074123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/13f079a5-593c-4551-bd61-b714513f8c14.jpeg",
-    "title": "Học sinh Hàn Quốc thi CSAT trong lo lắng về gian lận AI",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261119/cover-story-students-take-koreas-biggest-college-exam-amid-ai-cheating-fears?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_95bc2f16",
-    "date": "2026-11-19",
-    "ts": 1795074123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/72a120c3-0459-4781-bb05-3c476fed6649.jpeg",
-    "title": "Đại học Kookmin và UNU lập trung tâm nghiên cứu AI tại Seoul",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/kookmin-university-united-nations-university-launch-research-hub-on-ai-driven-digital-governance?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_74a03fb8",
-    "date": "2026-11-19",
-    "ts": 1795074123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/41bfa7ea-f4d5-4d63-a2a8-d3f8e3e8a7b2.jpeg",
-    "title": "ĐH Hàn Quốc cần hợp tác chặt chẽ hơn để nâng cao nghiên cứu",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/koreas-research-rising-but-universities-must-break-down-silos-wun-chief?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e82f3757",
-    "date": "2026-11-19",
-    "ts": 1795074123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/19/7f369569-8b76-4f31-b6a7-bed804ee6b0b.jpg",
-    "title": "Bài học từ hệ thống 10 trường đại học của California",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261119/what-korea-can-learn-from-californias-10-flagship-university-system?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_e90c8f5b",
-    "date": "2026-11-19",
-    "ts": 1795074123000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/b66b9adc-219b-460a-a677-08943059f0b1.jpeg",
-    "title": "Người Việt Nam nhận giải thưởng đặc biệt Global Korea Awards",
-    "link": "https://www.koreatimes.co.kr/southkorea/society/20261119/winners-of-15th-global-korea-awards?utm_source=rss"
-  },
-  {
-    "id": "hotnews_vi_08eadcba",
-    "date": "2026-11-19",
-    "ts": 1795070198000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.e68aed72a3214b9c9876b0648740bac5_T1.jpg",
-    "title": "Vụ việc ở sân bay của nhóm Riize thổi bùng tranh cãi bảo an thái quá",
-    "link": "https://www.koreaherald.com/article/10942926"
-  },
-  {
-    "id": "hotnews_vi_3bda378f",
-    "date": "2026-11-19",
-    "ts": 1795070058000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261116.2c3cb00991c64d91afb928671238b3d5_T1.jpg",
-    "title": "Phát hiện camera và tai nghe nhỏ tại phòng thi Suneung ở Yongin",
-    "link": "https://www.koreaherald.com/article/10942924"
-  },
-  {
-    "id": "hotnews_vi_cc4e8eff",
-    "date": "2026-11-19",
-    "ts": 1795070054000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111917940001300_P2.jpg",
-    "title": "Trình dự luật công nhận thêm nạn nhân phong trào dân chủ",
-    "link": "https://en.yna.co.kr/view/AEN20261119006100315"
-  },
-  {
-    "id": "hotnews_vi_5c260956",
-    "date": "2026-11-19",
-    "ts": 1795068266000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-a.v1.20261119.a45081bae3e0433fa8843f24a63a2171_T1.jpg",
-    "title": "Crimson Desert của Pearl Abyss càn quét Korea Game Awards",
-    "link": "https://www.koreaherald.com/article/10942878"
-  },
-  {
-    "id": "hotnews_vi_b3ecf81b",
-    "date": "2026-11-19",
-    "ts": 1795067609000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/rcv.YNA.20261117.PYH2026111717380001300_T1.jpg",
-    "title": "Xuất khẩu Hàn Quốc vượt 1.000 tỷ USD nhờ ngành chip",
-    "link": "https://www.koreaherald.com/article/10942838"
   }
 ]
