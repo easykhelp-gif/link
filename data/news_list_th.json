@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_80fe2a28",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.71973c807591484d908669b340bfe7ea_T1.jpg",
+    "title": "ผู้ผลิตเครื่องสำอางเกาหลีเติบโตพุ่งตามกระแส K-beauty ทั่วโลก",
+    "link": "https://www.koreaherald.com/article/10942887"
+  },
+  {
+    "id": "hotnews_th_c43b7076",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261113.1f12607180c74e4d881ab26176e3653a_T1.png",
+    "title": "กาแฟมากกว่าเครื่องดื่ม: สื่อกลางเชื่อมโยงผู้คนทั่วโลก",
+    "link": "https://www.koreaherald.com/article/10942866"
+  },
+  {
+    "id": "hotnews_th_0eb1632a",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.36278d396f5e4fe2a81f88db8f8232ad_T1.png",
+    "title": "Korea Investment Holdings สนใจซื้อ Cardif Life หลังดีล KDB ล้มเหลว",
+    "link": "https://www.koreaherald.com/article/10942860"
+  },
+  {
+    "id": "hotnews_th_146535cc",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261118.449b7385489c4db3a090913bed8032bf_T1.jpg",
+    "title": "โรงแรมหรูในเกาหลีเปิดตัวเค้กคริสต์มาสและของหวานต้อนรับเทศกาล",
+    "link": "https://www.koreaherald.com/article/10942858"
+  },
+  {
+    "id": "hotnews_th_3bd60c18",
+    "date": "2026-11-21",
+    "ts": 1795244400000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.752e7271e31c4d849b8d515f0a749b6e_T1.jpg",
+    "title": "งานนิทรรศการศิลปะส่งท้ายปีในโซลที่น่าสนใจ",
+    "link": "https://www.koreaherald.com/article/10942855"
+  },
+  {
+    "id": "hotnews_th_ff2cf82b",
+    "date": "2026-11-21",
+    "ts": 1795235797000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121001200315_01_i_P2.jpg",
+    "title": "พรรคเดโมแครตจ่อถอดถอนประธานศาลสูงสุด 3 ธ.ค.นี้",
+    "link": "https://en.yna.co.kr/view/AEN20261121001200315"
+  },
+  {
+    "id": "hotnews_th_98a095da",
+    "date": "2026-11-21",
+    "ts": 1795234978000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261118092821_97_k.jpg",
+    "title": "FSS ยื่นฟ้องผู้สอบได้คะแนนสูงสุดสอบภาษีข้อหาโกงด้วย AI",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205729"
+  },
+  {
+    "id": "hotnews_th_a094413c",
+    "date": "2026-11-21",
+    "ts": 1795230500000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261121123342_30_e.jpg",
+    "title": "อีอนุมัติแต่งตั้ง คิม จงชอล เป็นผู้บัญชาการตำรวจแห่งชาติ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205725"
+  },
+  {
+    "id": "hotnews_th_cd3cb563",
+    "date": "2026-11-21",
+    "ts": 1795228657000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121000451315_01_i_P2.jpg",
+    "title": "รถไฟสินค้าตกรางใกล้เซจง ส่งผลให้รถไฟเซมาอึลและมูกุงฮวาต้องระงับบริการ",
+    "link": "https://en.yna.co.kr/view/AEN20261121000451315"
+  },
+  {
+    "id": "hotnews_th_f4acc5be",
+    "date": "2026-11-21",
+    "ts": 1795223176000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121000700315_02_i_P2.jpg",
+    "title": "ทรัมป์เผยหารือภัยคุกคามในคาบสมุทรเกาหลีกับ สี จิ้นผิง และ ปูติน",
+    "link": "https://en.yna.co.kr/view/AEN20261121000700315"
+  },
+  {
     "id": "hotnews_th_62e53f86",
     "date": "2026-11-20",
     "ts": 1795172674000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/rcv.YNA.20261117.PYH2026111717380001300_T1.jpg",
     "title": "ยอดส่งออกเกาหลีใต้ทะลุ 1 ล้านล้านดอลลาร์ครั้งแรก",
     "link": "https://www.koreaherald.com/article/10942838"
-  },
-  {
-    "id": "hotnews_th_bba9a75d",
-    "date": "2026-11-18",
-    "ts": 1795033806000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/news-p.v1.20261118.da501afe26ac4795b59af2300c4739dc_T1.jpg",
-    "title": "การเปรียบเทียบซัมมิทเซินเจิ้น 2026 กับยาลตา 1945",
-    "link": "https://www.koreaherald.com/article/10941652"
-  },
-  {
-    "id": "hotnews_th_59efcec3",
-    "date": "2026-11-18",
-    "ts": 1795033805000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/news-p.v1.20261118.42929d09bda9449c95c82c76a99bb5e4_T1.jpg",
-    "title": "เกาหลีใต้เตรียมขยายภารกิจหน่วยช็องเฮใกล้ช่องแคบฮอร์มุซ",
-    "link": "https://www.koreaherald.com/article/10941651"
-  },
-  {
-    "id": "hotnews_th_d0214aec",
-    "date": "2026-11-18",
-    "ts": 1795013344000,
-    "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/18/PEP20261118228901009_P2.jpg",
-    "title": "ทรัมป์ สี จิ้นผิง และปูติน ทักทายกันก่อนการประชุมสุดยอด",
-    "link": "https://en.yna.co.kr/view/AEN20261118010300315"
-  },
-  {
-    "id": "hotnews_th_06bc9d84",
-    "date": "2026-11-18",
-    "ts": 1794997412000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/18/AEN20261118009751320_01_i_P2.jpg",
-    "title": "เกาหลีใต้และจีนบรรลุข้อตกลง FTA ด้านบริการและ",
-    "link": "https://en.yna.co.kr/view/AEN20261118009751320"
-  },
-  {
-    "id": "hotnews_th_22c54826",
-    "date": "2026-11-18",
-    "ts": 1794994682000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261118061421_67_e.jpg",
-    "title": "คลื่นความหนาวเย็นแผ่ปกคลุมเกาหลี ทำให้อุณหภูมิลดฮวบในวันสอบ CSAT",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205676"
-  },
-  {
-    "id": "hotnews_th_2f7ff633",
-    "date": "2026-11-18",
-    "ts": 1794994416000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/18/AEN20261118009600315_01_i_P2.jpg",
-    "title": "อีแจมยองเรียกร้องกลุ่ม APEC ร่วมมือสร้างเสถียรภาพแร่ธาตุและพลังงาน",
-    "link": "https://en.yna.co.kr/view/AEN20261118009600315"
-  },
-  {
-    "id": "hotnews_th_5952d9a8",
-    "date": "2026-11-18",
-    "ts": 1794991281000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/news-p.v1.20261118.510e42494bfa4c74b24f04f57b3f2c1d_T1.jpg",
-    "title": "ไอดอลเกาหลีให้กำลังใจผู้สอบ ซาน Ateez เตือนเรื่องโกงด้วย AI",
-    "link": "https://www.koreaherald.com/article/10941731"
-  },
-  {
-    "id": "hotnews_th_f56091ea",
-    "date": "2026-11-18",
-    "ts": 1794990253000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/18/AEN20261118008900315_02_i_P2.jpg",
-    "title": "ทีมกฎหมายพิเศษเกาหลีขอหมายจับเจ้าหน้าที่ NEC 8 ราย",
-    "link": "https://en.yna.co.kr/view/AEN20261118008900315"
-  },
-  {
-    "id": "hotnews_th_6ad5fc06",
-    "date": "2026-11-18",
-    "ts": 1794988024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/bbf490ce-874f-49e8-bcd8-d78d528f2533.jpg",
-    "title": "ศาลสูงสุดเกาหลีพิพากษาจำคุกอดีตหัวหน้า NIS 2 ปีครึ่ง",
-    "link": "https://www.koreatimes.co.kr/southkorea/law-crime/20261118/supreme-court-finalizes-2-12-year-prison-term-for-ex-spy-chief-in-martial-law-trial?utm_source=rss"
-  },
-  {
-    "id": "hotnews_th_a577dac9",
-    "date": "2026-11-18",
-    "ts": 1794988024000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/18/e2d6589c-4dd4-4491-bb61-a38a0801e63d.jpeg",
-    "title": "ทีมวิจัยมหาวิทยาลัยเซจองนำเสนอAIตรวจหัวใจงานประชุมโลก",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261118/sejong-university-team-presents-ai-based-cardiac-mri-research-at-global-conference?utm_source=rss"
   }
 ]
