@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_th_fdfdb8a7",
+    "date": "2026-11-22",
+    "ts": 1795329202000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.457f8daa785b4ec8a9301787ee2813bd_T1.jpg",
+    "title": "ศาลเกาหลีพิพากษาคดีขโมยสายรัดข้อมือคอนเสิร์ต BTS",
+    "link": "https://www.koreaherald.com/article/10945149"
+  },
+  {
+    "id": "hotnews_th_71150cda",
+    "date": "2026-11-22",
+    "ts": 1795328575000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/06/05/PAP20260605041701009_P2.jpg",
+    "title": "ประมุขสเกตโลกเผยแผนขยายทัวร์นาเมนต์ชอร์ตแทร็ก",
+    "link": "https://en.yna.co.kr/view/AEN20261122002000315"
+  },
+  {
+    "id": "hotnews_th_30db5afa",
+    "date": "2026-11-22",
+    "ts": 1795328546000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001900315_01_i_P2.jpg",
+    "title": "SSG Landers ต่อสัญญากับพิทเชอร์ Moon Seung-won",
+    "link": "https://en.yna.co.kr/view/AEN20261122001900315"
+  },
+  {
+    "id": "hotnews_th_146a1936",
+    "date": "2026-11-22",
+    "ts": 1795328019000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a7b3b964a22e498088efc93886f0ac34_T1.jpg",
+    "title": "ฮันฮวาเตรียมตั้งฐานในอาบูดาบีรุกธุรกิจการเงินตะวันออกกลาง",
+    "link": "https://www.koreaherald.com/article/10945134"
+  },
+  {
+    "id": "hotnews_th_6c425d3f",
+    "date": "2026-11-22",
+    "ts": 1795326841000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.7f5977cecee44900a099ba2a0cc49d5f_T1.jpg",
+    "title": "โอกาสจัดประชุมทรัมป์-คิมยังเปิดกว้าง แม้ไร้เงาพบกันที่เอเปค",
+    "link": "https://www.koreaherald.com/article/10945124"
+  },
+  {
+    "id": "hotnews_th_77538091",
+    "date": "2026-11-22",
+    "ts": 1795325663000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261122020537_97_e.jpg",
+    "title": "พยากรณ์ฝนและหิมะทั่วเกาหลีใต้ในวันจันทร์นี้",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205741"
+  },
+  {
+    "id": "hotnews_th_1379bb2c",
+    "date": "2026-11-22",
+    "ts": 1795317179000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001000315_01_i_P2.jpg",
+    "title": "รมว.ศึกษาธิการเกาหลีใต้ประกาศลาออกจากความวุ่นวายสอบ Suneung",
+    "link": "https://en.yna.co.kr/view/AEN20261122001000315"
+  },
+  {
+    "id": "hotnews_th_54523923",
+    "date": "2026-11-22",
+    "ts": 1795316936000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122000600315_01_i_P2.jpg",
+    "title": "ยามฝั่งพบวัตถุคล้ายเรือใต้ทะเล เร่งค้นหาเรือประมงสูญหาย",
+    "link": "https://en.yna.co.kr/view/AEN20261122000600315"
+  },
+  {
+    "id": "hotnews_th_54db1d04",
+    "date": "2026-11-22",
+    "ts": 1795314852000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261104.d071799b8b9e49d78598410e1d786fd1_T1.jpg",
+    "title": "มelling ม.โซลตั้งแผนกใหม่เพื่อดึงดูดนักศึกษาต่างชาติ",
+    "link": "https://www.koreaherald.com/article/10945018"
+  },
+  {
+    "id": "hotnews_th_3e55a734",
+    "date": "2026-11-22",
+    "ts": 1795313665000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.95cba407e22a4ad4a46eecd9baa38abd_T1.jpg",
+    "title": "ฮานาไฟแนนเชียลกรุ๊ปเพิ่มความช่วยเหลือผู้สูงอายุช่วงฤดูหนาว",
+    "link": "https://www.koreaherald.com/article/10945008"
+  },
+  {
     "id": "hotnews_th_186c14e8",
     "date": "2026-11-21",
     "ts": 1795264470000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/news-p.v1.20261120.ba126f802a3a410296156d32394fae10_T1.jpg",
     "title": "นักลงทุนต่างชาติขายหุ้นเกาหลีใต้ 26 ล้านล้านวอนในเดือนตุลาคม",
     "link": "https://www.koreaherald.com/article/10944123"
-  },
-  {
-    "id": "hotnews_th_d62bea93",
-    "date": "2026-11-19",
-    "ts": 1795088734000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/19/PAF20261119152701009_P2.jpg",
-    "title": "ทรัมป์ สี จิ้นผิง และปูตินเห็นชอบหารือลดความเสี่ยงนิวเคลียร์",
-    "link": "https://en.yna.co.kr/view/AEN20261119001357315"
-  },
-  {
-    "id": "hotnews_th_26715f51",
-    "date": "2026-11-19",
-    "ts": 1795087668000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.77872cc92d4d4977ae87bb10834ef6e4_T1.jpg",
-    "title": "ค่ายเพลง K-pop ระมัดระวังหลังการประชุม APEC จุดประกายความหวังผ่อนคลายมาตรการในจีน",
-    "link": "https://www.koreaherald.com/article/10943242"
-  },
-  {
-    "id": "hotnews_th_a569ad7a",
-    "date": "2026-11-19",
-    "ts": 1795084924000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119010251315_02_i_P2.jpg",
-    "title": "พบผู้เข้าสอบ CSAT โกงข้อสอบ 98 ราย หลังใช้มาตรการคุมเข้ม",
-    "link": "https://en.yna.co.kr/view/AEN20261119010251315"
-  },
-  {
-    "id": "hotnews_th_ff2c517f",
-    "date": "2026-11-19",
-    "ts": 1795082775000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119005352315_05_i_P2.jpg",
-    "title": "ผู้ได้คะแนนสูงสุดสอบ LEET ถูกพบเสียชีวิตในโรงแรม",
-    "link": "https://en.yna.co.kr/view/AEN20261119005352315"
-  },
-  {
-    "id": "hotnews_th_fca08da3",
-    "date": "2026-11-19",
-    "ts": 1795080547000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119001252315_02_i_P2.jpg",
-    "title": "ศาลสูงสุดเกาหลีใต้พลิกคำพิพากษาคุก 15 ปี อดีตนายกฯ ฮัน ด็อก-ซู",
-    "link": "https://en.yna.co.kr/view/AEN20261119001252315"
-  },
-  {
-    "id": "hotnews_th_317fbd4a",
-    "date": "2026-11-19",
-    "ts": 1795079990000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119092729_3_k.jpg",
-    "title": "ศาลสูงสุดส่งคืนคดีกบฏของอดีตนายกรัฐมนตรี ฮัน ด็อก-ซู",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205698"
-  },
-  {
-    "id": "hotnews_th_8811b3db",
-    "date": "2026-11-19",
-    "ts": 1795078476000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119055615_57_e.jpg",
-    "title": "พบสมาร์ทโฟนซ่อนอยู่ 22 เครื่องก่อนสอบ Suneung สิ้นสุด",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205697"
-  },
-  {
-    "id": "hotnews_th_1eb3a20e",
-    "date": "2026-11-19",
-    "ts": 1795077623000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.e4eeeceef3f44b3682bb6c6bbefbc14f_T1.jpg",
-    "title": "ควอนโฮจินเป็นชาวเกาหลีคนแรกที่ได้นั่งคณะที่ปรึกษา Monte-Carlo TV Festival",
-    "link": "https://www.koreaherald.com/article/10943110"
-  },
-  {
-    "id": "hotnews_th_0c73fa74",
-    "date": "2026-11-19",
-    "ts": 1795076816000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.247557123c9a4598befec101b9502664_T1.jpg",
-    "title": "สหภาพรถไฟใต้ดินโซลผันวันศุกร์นี้อาจทำให้รถไฟล่าช้า",
-    "link": "https://www.koreaherald.com/article/10943088"
-  },
-  {
-    "id": "hotnews_th_99965d52",
-    "date": "2026-11-19",
-    "ts": 1795076490000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.0865a52f23a348dba87472f66b61274f_T1.jpg",
-    "title": "BTS เริ่มทัวร์เอเชียแปซิฟิกในเกาสง",
-    "link": "https://www.koreaherald.com/article/10943078"
   }
 ]

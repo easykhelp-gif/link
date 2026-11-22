@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_fdfdb8a7",
+    "date": "2026-11-22",
+    "ts": 1795329202000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.457f8daa785b4ec8a9301787ee2813bd_T1.jpg",
+    "title": "Tù treo kẻ trộm vòng vào cửa concert BTS tại Busan",
+    "link": "https://www.koreaherald.com/article/10945149"
+  },
+  {
+    "id": "hotnews_vi_71150cda",
+    "date": "2026-11-22",
+    "ts": 1795328575000,
+    "image": "https://img.yna.co.kr/photo/ap/2026/06/05/PAP20260605041701009_P2.jpg",
+    "title": "Chủ tịch ISU muốn mở rộng Short Track World Tour",
+    "link": "https://en.yna.co.kr/view/AEN20261122002000315"
+  },
+  {
+    "id": "hotnews_vi_30db5afa",
+    "date": "2026-11-22",
+    "ts": 1795328546000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001900315_01_i_P2.jpg",
+    "title": "SSG Landers giữ chân thành công cầu thủ Moon Seung-won",
+    "link": "https://en.yna.co.kr/view/AEN20261122001900315"
+  },
+  {
+    "id": "hotnews_vi_146a1936",
+    "date": "2026-11-22",
+    "ts": 1795328019000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a7b3b964a22e498088efc93886f0ac34_T1.jpg",
+    "title": "Hanwha đẩy mạnh tài chính tại Abu Dhabi",
+    "link": "https://www.koreaherald.com/article/10945134"
+  },
+  {
+    "id": "hotnews_vi_6c425d3f",
+    "date": "2026-11-22",
+    "ts": 1795326841000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.7f5977cecee44900a099ba2a0cc49d5f_T1.jpg",
+    "title": "Hội nghị Trump-Kim vẫn có thể diễn ra dù gặp trở ngại",
+    "link": "https://www.koreaherald.com/article/10945124"
+  },
+  {
+    "id": "hotnews_vi_77538091",
+    "date": "2026-11-22",
+    "ts": 1795325663000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261122020537_97_e.jpg",
+    "title": "Dự báo có mưa và tuyết trên toàn quốc vào thứ Hai",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205741"
+  },
+  {
+    "id": "hotnews_vi_1379bb2c",
+    "date": "2026-11-22",
+    "ts": 1795317179000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001000315_01_i_P2.jpg",
+    "title": "Bộ trưởng Giáo dục Hàn Quốc xin từ chức vì lùm xùm kỳ thi Suneung",
+    "link": "https://en.yna.co.kr/view/AEN20261122001000315"
+  },
+  {
+    "id": "hotnews_vi_54523923",
+    "date": "2026-11-22",
+    "ts": 1795316936000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122000600315_01_i_P2.jpg",
+    "title": "Lực lượng Cảnh sát biển phát hiện vật thể nghi là tàu chìm",
+    "link": "https://en.yna.co.kr/view/AEN20261122000600315"
+  },
+  {
+    "id": "hotnews_vi_54db1d04",
+    "date": "2026-11-22",
+    "ts": 1795314852000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261104.d071799b8b9e49d78598410e1d786fd1_T1.jpg",
+    "title": "SNU lập khoa mới cho sinh viên quốc tế vào tháng 9/2027",
+    "link": "https://www.koreaherald.com/article/10945018"
+  },
+  {
+    "id": "hotnews_vi_3e55a734",
+    "date": "2026-11-22",
+    "ts": 1795313665000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.95cba407e22a4ad4a46eecd9baa38abd_T1.jpg",
+    "title": "Hana Financial Group hỗ trợ người cao tuổi khó khăn dịp mùa đông",
+    "link": "https://www.koreaherald.com/article/10945008"
+  },
+  {
     "id": "hotnews_vi_186c14e8",
     "date": "2026-11-21",
     "ts": 1795264470000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/news-p.v1.20261120.ba126f802a3a410296156d32394fae10_T1.jpg",
     "title": "Khối ngoại bán ròng 26 nghìn tỷ won cổ phiếu Hàn Quốc tháng 10",
     "link": "https://www.koreaherald.com/article/10944123"
-  },
-  {
-    "id": "hotnews_vi_d62bea93",
-    "date": "2026-11-19",
-    "ts": 1795088734000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/19/PAF20261119152701009_P2.jpg",
-    "title": "Trump, Xi, Putin họp tại Thâm Quyến về rủi ro hạt nhân",
-    "link": "https://en.yna.co.kr/view/AEN20261119001357315"
-  },
-  {
-    "id": "hotnews_vi_26715f51",
-    "date": "2026-11-19",
-    "ts": 1795087668000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.77872cc92d4d4977ae87bb10834ef6e4_T1.jpg",
-    "title": "Hy vọng nới lỏng hạn chế giải trí tại Trung Quốc sau hội nghị APEC",
-    "link": "https://www.koreaherald.com/article/10943242"
-  },
-  {
-    "id": "hotnews_vi_a569ad7a",
-    "date": "2026-11-19",
-    "ts": 1795084924000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119010251315_02_i_P2.jpg",
-    "title": "98 thí sinh bị bắt quả tang gian lận kỳ thi CSAT",
-    "link": "https://en.yna.co.kr/view/AEN20261119010251315"
-  },
-  {
-    "id": "hotnews_vi_ff2c517f",
-    "date": "2026-11-19",
-    "ts": 1795082775000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119005352315_05_i_P2.jpg",
-    "title": "Thủ khoa LEET bị nghi gian lận AI được phát hiện đã tử vong",
-    "link": "https://en.yna.co.kr/view/AEN20261119005352315"
-  },
-  {
-    "id": "hotnews_vi_fca08da3",
-    "date": "2026-11-19",
-    "ts": 1795080547000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119001252315_02_i_P2.jpg",
-    "title": "Tòa tối cao hủy án tù của cựu Thủ tướng Han Duck-soo",
-    "link": "https://en.yna.co.kr/view/AEN20261119001252315"
-  },
-  {
-    "id": "hotnews_vi_317fbd4a",
-    "date": "2026-11-19",
-    "ts": 1795079990000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119092729_3_k.jpg",
-    "title": "Tòa án Tối cao trả lại vụ án bạo loạn của cựu Thủ tướng Han Duck-soo",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205698"
-  },
-  {
-    "id": "hotnews_vi_8811b3db",
-    "date": "2026-11-19",
-    "ts": 1795078476000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261119055615_57_e.jpg",
-    "title": "Phát hiện ít nhất 22 điện thoại giấu trước khi thi Suneung",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205697"
-  },
-  {
-    "id": "hotnews_vi_1eb3a20e",
-    "date": "2026-11-19",
-    "ts": 1795077623000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.e4eeeceef3f44b3682bb6c6bbefbc14f_T1.jpg",
-    "title": "Kwon Ho-jin là người Hàn Quốc đầu tiên vào hội đồng cố vấn",
-    "link": "https://www.koreaherald.com/article/10943110"
-  },
-  {
-    "id": "hotnews_vi_0c73fa74",
-    "date": "2026-11-19",
-    "ts": 1795076816000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.247557123c9a4598befec101b9502664_T1.jpg",
-    "title": "Công đoàn Seoul Metro đình chậm, giờ cao điểm ngày mai dễ trễ",
-    "link": "https://www.koreaherald.com/article/10943088"
-  },
-  {
-    "id": "hotnews_vi_99965d52",
-    "date": "2026-11-19",
-    "ts": 1795076490000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.0865a52f23a348dba87472f66b61274f_T1.jpg",
-    "title": "BTS khởi động tour diễn Arirang tại châu Á - Thái Bình Dương",
-    "link": "https://www.koreaherald.com/article/10943078"
   }
 ]
