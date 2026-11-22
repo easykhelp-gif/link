@@ -1,5 +1,125 @@
 [
   {
+    "id": "hotnews_en_9a88b6e4",
+    "date": "2026-11-22",
+    "ts": 1795349902000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502360004200_P2.jpg",
+    "title": "N. Korean leader receives credentials from Russian ambassador in protocol shift after 30 yrs",
+    "link": "https://en.yna.co.kr/view/AEN20261122002900315"
+  },
+  {
+    "id": "hotnews_en_e00665b6",
+    "date": "2026-11-22",
+    "ts": 1795349653000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.2eef28ccdc364677bc879f499b52d4ad_T1.jpg",
+    "title": "Confusion at climate talks as final deal offered doesn't mention fossil fuels",
+    "link": "https://www.koreaherald.com/article/10945295"
+  },
+  {
+    "id": "hotnews_en_85c83522",
+    "date": "2026-11-22",
+    "ts": 1795346243000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001052315_02_i_P2.jpg",
+    "title": "Education minister resigns over college exam chaos amid AI cheating fears",
+    "link": "https://en.yna.co.kr/view/AEN20261122001052315"
+  },
+  {
+    "id": "hotnews_en_3018ee93",
+    "date": "2026-11-22",
+    "ts": 1795346161000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122000652315_01_i_P2.jpg",
+    "title": "Coast Guard to focus on search for 7 missing crew after finding boat's hull",
+    "link": "https://en.yna.co.kr/view/AEN20261122000652315"
+  },
+  {
+    "id": "hotnews_en_4f86f77d",
+    "date": "2026-11-22",
+    "ts": 1795344781000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122002651315_01_i_P2.jpg",
+    "title": "Rail union postpones threatened labor action following train derailment",
+    "link": "https://en.yna.co.kr/view/AEN20261122002651315"
+  },
+  {
+    "id": "hotnews_en_22e42e1e",
+    "date": "2026-11-22",
+    "ts": 1795344158000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.8cb508ac58b24121b6563d3470be4dbe_T1.jpg",
+    "title": "KEPCO reports another massive data breach, exposing info of 1.52 million people",
+    "link": "https://www.koreaherald.com/article/10945222"
+  },
+  {
+    "id": "hotnews_en_12ba80de",
+    "date": "2026-11-22",
+    "ts": 1795342333000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/22/PYH2026112208120001300_P2.jpg",
+    "title": "Host S. Korea wins men's relay gold on final day of Short Track World Tour",
+    "link": "https://en.yna.co.kr/view/AEN20261122002451315"
+  },
+  {
+    "id": "hotnews_en_6054bd33",
+    "date": "2026-11-22",
+    "ts": 1795337845000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a01404d5238245e98770a4abcae55012_T1.jpg",
+    "title": "N. Korea moves April marathon honoring founder’s birthday to October",
+    "link": "https://www.koreaherald.com/article/10945197"
+  },
+  {
+    "id": "hotnews_en_264c06f1",
+    "date": "2026-11-22",
+    "ts": 1795337235000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.e250f6ed284d4333bec5588d5e6d5ddc_T1.png",
+    "title": "Jessica Chastain on Jeon Do-yeon: 'One of the best there is'",
+    "link": "https://www.koreaherald.com/article/10945196"
+  },
+  {
+    "id": "hotnews_en_7b5359a0",
+    "date": "2026-11-22",
+    "ts": 1795335710000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.59556c077b364d81a4bddbb323f4eef3_T1.jpg",
+    "title": "Viviz wins contract termination lawsuit against Big Planet Made",
+    "link": "https://www.koreaherald.com/article/10945193"
+  },
+  {
+    "id": "hotnews_en_a3305148",
+    "date": "2026-11-22",
+    "ts": 1795335358000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122002300315_01_i_P2.jpg",
+    "title": "N. Korea to hold int'l Pyongyang marathon in Oct. 2027: tour agency",
+    "link": "https://en.yna.co.kr/view/AEN20261122002300315"
+  },
+  {
+    "id": "hotnews_en_97770485",
+    "date": "2026-11-22",
+    "ts": 1795334881000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a198bba45faf45338af9cbb560becd17_T1.png",
+    "title": "'Chiikawa' becomes Korea's most-watched animated film of 2026",
+    "link": "https://www.koreaherald.com/article/10945190"
+  },
+  {
+    "id": "hotnews_en_4563e6df",
+    "date": "2026-11-22",
+    "ts": 1795333229000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261117.2924d5ef51064a97abdd17a6215ff2f6_T1.jpg",
+    "title": "In South Korea, 'Swedish massage' can mean more than a massage",
+    "link": "https://www.koreaherald.com/article/10945182"
+  },
+  {
+    "id": "hotnews_en_6d47d807",
+    "date": "2026-11-22",
+    "ts": 1795332692000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.ea0572afc677454c883dfae5e0a38299_T1.jpg",
+    "title": "Major corporations' profits jump, but donations decrease",
+    "link": "https://www.koreaherald.com/article/10945179"
+  },
+  {
+    "id": "hotnews_en_295045dc",
+    "date": "2026-11-22",
+    "ts": 1795332454000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.6b0fd02e944840e9865694075b189327_T1.png",
+    "title": "Twice's Dahyun faces online insults over appearance",
+    "link": "https://www.koreaherald.com/article/10945177"
+  },
+  {
     "id": "hotnews_en_fdfdb8a7",
     "date": "2026-11-22",
     "ts": 1795329202000,
@@ -94,6 +214,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261120.1c93c6574c8b4b2284405ec4ff10d193_T1.png",
     "title": "[Contribution] Staying invested as the equity bull market matures",
     "link": "https://www.koreaherald.com/article/10945106"
+  },
+  {
+    "id": "hotnews_en_54c2222c",
+    "date": "2026-11-22",
+    "ts": 1795324724000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261122012302_87_e.jpg",
+    "title": "WSJ: Trump-Kim Summit Plan Collapsed Over N. Korean Demands",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205740"
   },
   {
     "id": "hotnews_en_d6ac51b7",
@@ -270,133 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.ab8d61bd11674f57a2b1051732d68d5b_T1.jpg",
     "title": "Rain delays RSM Classic, pushes PGA Tour season finale back a day",
     "link": "https://www.koreaherald.com/article/10945033"
-  },
-  {
-    "id": "hotnews_en_0313f9bc",
-    "date": "2026-11-22",
-    "ts": 1795316121000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.8244166150514b948a892b6aed362fd2_T1.jpg",
-    "title": "Young adults in need of care are up to 9 times as likely to use tranquilizers: report",
-    "link": "https://www.koreaherald.com/article/10945032"
-  },
-  {
-    "id": "hotnews_en_37e53689",
-    "date": "2026-11-22",
-    "ts": 1795315769000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/15/PYH2026041501050008300_P2.jpg",
-    "title": "S. Korea's car trade deficit with China hits record on Tesla EV imports",
-    "link": "https://en.yna.co.kr/view/AEN20261122000700320"
-  },
-  {
-    "id": "hotnews_en_cc985832",
-    "date": "2026-11-22",
-    "ts": 1795315703000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.0ad07b1f81054098aec83d771f924ed4_T1.png",
-    "title": "Kim A-lim retains lead at LPGA Tour Championship, eyes $4 million prize",
-    "link": "https://www.koreaherald.com/article/10945025"
-  },
-  {
-    "id": "hotnews_en_ffa3b52a",
-    "date": "2026-11-22",
-    "ts": 1795315161000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111919970005100_P2.jpg",
-    "title": "S. Korea expected to become world's 4th-largest exporter this year",
-    "link": "https://en.yna.co.kr/view/AEN20261122000500320"
-  },
-  {
-    "id": "hotnews_en_54db1d04",
-    "date": "2026-11-22",
-    "ts": 1795314852000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261104.d071799b8b9e49d78598410e1d786fd1_T1.jpg",
-    "title": "[World Class] SNU brings global push home with new international student division",
-    "link": "https://www.koreaherald.com/article/10945018"
-  },
-  {
-    "id": "hotnews_en_fe578d7b",
-    "date": "2026-11-22",
-    "ts": 1795314781000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.9363458d036c455aa5c9399065b388f9_T1.png",
-    "title": "Judo world champion Lee Hyun-ji wins silver at junior world championships",
-    "link": "https://www.koreaherald.com/article/10945017"
-  },
-  {
-    "id": "hotnews_en_3e55a734",
-    "date": "2026-11-22",
-    "ts": 1795313665000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.95cba407e22a4ad4a46eecd9baa38abd_T1.jpg",
-    "title": "Hana Financial Group steps up winter support for vulnerable seniors",
-    "link": "https://www.koreaherald.com/article/10945008"
-  },
-  {
-    "id": "hotnews_en_da7e77f9",
-    "date": "2026-11-22",
-    "ts": 1795311143000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122000400320_02_i_P2.jpg",
-    "title": "Samsung Electronics, SK hynix dividend payout ratios surge through Q3 amid AI boom",
-    "link": "https://en.yna.co.kr/view/AEN20261122000400320"
-  },
-  {
-    "id": "hotnews_en_186c14e8",
-    "date": "2026-11-21",
-    "ts": 1795264470000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.b55fcd75a5034e76aab3b4f54471c7fc_T1.jpg",
-    "title": "BTS dominates 2026 MAMAs with five wins",
-    "link": "https://www.koreaherald.com/article/10944819"
-  },
-  {
-    "id": "hotnews_en_69c17d34",
-    "date": "2026-11-21",
-    "ts": 1795263015000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121002151315_02_i_P2.jpg",
-    "title": "Bus rams into pavement near Hongik University Station, injuring 6",
-    "link": "https://en.yna.co.kr/view/AEN20261121002151315"
-  },
-  {
-    "id": "hotnews_en_f72ed9f2",
-    "date": "2026-11-21",
-    "ts": 1795259821000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121000452315_01_i_P2.jpg",
-    "title": "Freight train derails near Sejong, leaving Saemaeul, Mugunghwa services suspended",
-    "link": "https://en.yna.co.kr/view/AEN20261121000452315"
-  },
-  {
-    "id": "hotnews_en_248426ee",
-    "date": "2026-11-21",
-    "ts": 1795255036000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121001800315_01_i_P2.jpg",
-    "title": "BTS wins 5 MAMA awards as Enhypen takes Fans' Choice of the Year",
-    "link": "https://en.yna.co.kr/view/AEN20261121001800315"
-  },
-  {
-    "id": "hotnews_en_6c75cf8b",
-    "date": "2026-11-21",
-    "ts": 1795252044000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/21/PAF20261121145701009_P2.jpg",
-    "title": "Short tracker Choi Min-jeong captures 3rd straight World Tour title in 1,000m on home ice",
-    "link": "https://en.yna.co.kr/view/AEN20261121001700315"
-  },
-  {
-    "id": "hotnews_en_1eae6221",
-    "date": "2026-11-21",
-    "ts": 1795248032000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/rcv.YNA.20261121.PRU20261121025301009_T1.jpg",
-    "title": "Anthropic IPO success boosts hopes for OpenAI listing",
-    "link": "https://www.koreaherald.com/article/10944733"
-  },
-  {
-    "id": "hotnews_en_465f94f1",
-    "date": "2026-11-21",
-    "ts": 1795247323000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.2bb6633f386f470baa2a2399808b5f0d_T1.jpg",
-    "title": "Samsung, SK hynix tumble as analysts split on chip outlook",
-    "link": "https://www.koreaherald.com/article/10944729"
-  },
-  {
-    "id": "hotnews_en_6482e8c2",
-    "date": "2026-11-21",
-    "ts": 1795246667000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.f68ff22c75a94fbbbf2abc64758236a9_T1.jpg",
-    "title": "Kona I turns payment cards into lifestyle accessories with first pop-up",
-    "link": "https://www.koreaherald.com/article/10944725"
   }
 ]
