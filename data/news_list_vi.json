@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_c277702f",
+    "date": "2026-11-23",
+    "ts": 1795420567000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/news-p.v1.20261123.62b2caed19604e2e96bafe9e58069701_T1.jpg",
+    "title": "Sách của Lee Jin-woo tăng giá mạnh sau khi ông qua đời",
+    "link": "https://www.koreaherald.com/article/10946471"
+  },
+  {
+    "id": "hotnews_vi_097dd3c9",
+    "date": "2026-11-23",
+    "ts": 1795419630000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/11/23/92/PCM20261123000192990_P2.jpg",
+    "title": "Tổng thống Lee Jae Myung cải tổ nội thất, bổ nhiệm ngoại trưởng mới",
+    "link": "https://en.yna.co.kr/view/AEN20261123006751315"
+  },
+  {
+    "id": "hotnews_vi_4834dba4",
+    "date": "2026-11-23",
+    "ts": 1795419419000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/23/AEN20261123006652320_03_i_P2.jpg",
+    "title": "Chứng khoán Seoul giảm mạnh hơn 3% do lo ngại về AI",
+    "link": "https://en.yna.co.kr/view/AEN20261123006652320"
+  },
+  {
+    "id": "hotnews_vi_6ca1eda7",
+    "date": "2026-11-23",
+    "ts": 1795415832000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/news-p.v1.20261123.72f159c29fdb47a0b9b3f6588f8aadb6_T1.jpg",
+    "title": "Giải thưởng Điện ảnh Rồng Xanh 2026 chuẩn bị diễn ra",
+    "link": "https://www.koreaherald.com/article/10946357"
+  },
+  {
+    "id": "hotnews_vi_f1bc8eb2",
+    "date": "2026-11-23",
+    "ts": 1795414881000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/news-p.v1.20261123.dffe70fb68f34140b97f7feadf56cf8c_T1.jpg",
+    "title": "Nhóm nhạc Ateez vươn lên dẫn đầu bảng xếp hạng Billboard",
+    "link": "https://www.koreaherald.com/article/10946331"
+  },
+  {
+    "id": "hotnews_vi_0abe5130",
+    "date": "2026-11-23",
+    "ts": 1795414499000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261123014700_86_e.jpg",
+    "title": "8 quan chức bầu cử đối mặt lệnh bắt giữ vì làm giả hồ sơ",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205759"
+  },
+  {
+    "id": "hotnews_vi_09438fcd",
+    "date": "2026-11-23",
+    "ts": 1795414318000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/news-p.v1.20261123.2e7bbdd085fb401ba4100afaa855c08e_T1.jpg",
+    "title": "Tranh chấp lao động làm chậm kế hoạch công nghiệp khu vực",
+    "link": "https://www.koreaherald.com/article/10946311"
+  },
+  {
+    "id": "hotnews_vi_c9481c4b",
+    "date": "2026-11-23",
+    "ts": 1795414061000,
+    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+    "title": "Ông Lee chọn ông Hong Ihk-pyo và bà Kang làm bộ trưởng",
+    "link": "https://en.yna.co.kr/view/AEN20261123006300315"
+  },
+  {
+    "id": "hotnews_vi_9815c5f8",
+    "date": "2026-11-23",
+    "ts": 1795413247000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261123030353_70_e.jpg",
+    "title": "Felix của Stray Kids quảng bá Hanbok toàn cầu",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205758"
+  },
+  {
+    "id": "hotnews_vi_f92fdcb8",
+    "date": "2026-11-23",
+    "ts": 1795413041000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/23/AEN20261123005700320_01_i_P2.jpg",
+    "title": "Hàn Quốc bỏ giới hạn mua lại cổ phiếu trong 3 tháng",
+    "link": "https://en.yna.co.kr/view/AEN20261123005700320"
+  },
+  {
     "id": "hotnews_vi_9a88b6e4",
     "date": "2026-11-22",
     "ts": 1795349902000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/rcv.YNA.20261120.PYH2026112008240001300_T1.jpg",
     "title": "Đệ nhất phu nhân Kim muốn đưa kim chi vươn tầm thế giới",
     "link": "https://www.koreaherald.com/article/10944467"
-  },
-  {
-    "id": "hotnews_vi_b14f1586",
-    "date": "2026-11-20",
-    "ts": 1795170301000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112001810001300_P2.jpg",
-    "title": "Đảng Dân chủ cầm quyền quyết định luận tội Chánh án Cho Hee-dae",
-    "link": "https://en.yna.co.kr/view/AEN20261120008800315"
-  },
-  {
-    "id": "hotnews_vi_3c75e390",
-    "date": "2026-11-20",
-    "ts": 1795167424000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261120062614_73_e.jpg",
-    "title": "Thủ tướng cam kết điều tra gian lận kỳ thi CSAT",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205723"
-  },
-  {
-    "id": "hotnews_vi_a0817aec",
-    "date": "2026-11-20",
-    "ts": 1795166223000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261120033149_92_e.jpg",
-    "title": "Tổng thống Lee chỉ đạo xử lý triệt để gian lận thi cử",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205722"
-  },
-  {
-    "id": "hotnews_vi_1af1f0e3",
-    "date": "2026-11-20",
-    "ts": 1795162745000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/20/AEN20261120005253315_02_i_P2.jpg",
-    "title": "Tổng thống Lee Jae Myung yêu cầu cải tổ kỳ thi quốc gia",
-    "link": "https://en.yna.co.kr/view/AEN20261120005253315"
-  },
-  {
-    "id": "hotnews_vi_65bf7504",
-    "date": "2026-11-20",
-    "ts": 1795162722000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/news-p.v1.20261120.7fab3f46854c43ce961d2a9393901942_T1.jpg",
-    "title": "Lễ hội văn học Singapore lần thứ 29 thu hút các nhà văn Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10944368"
-  },
-  {
-    "id": "hotnews_vi_1543d83b",
-    "date": "2026-11-20",
-    "ts": 1795162080000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119007252315_01_i_P2.jpg",
-    "title": "Bộ trưởng Thống nhất Hàn Quốc hội đàm với Đại sứ Mỹ Michelle Steel",
-    "link": "https://en.yna.co.kr/view/AEN20261119007252315"
-  },
-  {
-    "id": "hotnews_vi_049f696a",
-    "date": "2026-11-20",
-    "ts": 1795161699000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/04/PYH2026110416490001300_P2.jpg",
-    "title": "Quốc hội thông qua luật công nhận nhà nước cho nhà hoạt động dân chủ",
-    "link": "https://en.yna.co.kr/view/AEN20261120007500315"
-  },
-  {
-    "id": "hotnews_vi_a5e2963b",
-    "date": "2026-11-20",
-    "ts": 1795161529000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/20/rcv.YNA.20261116.PYH2026111607840001300_T1.jpg",
-    "title": "Bộ trưởng Giáo dục vắng mặt trong vụ gian lận thi Suneung",
-    "link": "https://www.koreaherald.com/article/10944343"
-  },
-  {
-    "id": "hotnews_vi_a8e0101c",
-    "date": "2026-11-20",
-    "ts": 1795160228000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112014050001300_P2.jpg",
-    "title": "Chứng khoán Seoul giảm hơn 5% do lo ngại về trí tuệ nhân tạo AI",
-    "link": "https://en.yna.co.kr/view/AEN20261120005652320"
-  },
-  {
-    "id": "hotnews_vi_7ee20e4a",
-    "date": "2026-11-20",
-    "ts": 1795160222000,
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/20/22f8cd9e-cbc1-401a-8723-646dc73d5132.jpeg",
-    "title": "Sinh viên Đại học Seoul thắng giải AI của Ngân hàng Thế giới",
-    "link": "https://www.koreatimes.co.kr/southkorea/education/20261120/university-of-seoul-student-wins-agriculture-category-of-world-bank-group-ai-hackathon?utm_source=rss"
   }
 ]
