@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_525f5500",
+    "date": "2026-11-24",
+    "ts": 1795512929000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261124033912_62_e.jpg",
+    "title": "Cựu lãnh đạo đảng DP bị chuyển giao cho bên công tố",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205793"
+  },
+  {
+    "id": "hotnews_vi_fb6c55a2",
+    "date": "2026-11-24",
+    "ts": 1795512769000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124006151315_01_i_P2.jpg",
+    "title": "Seoul Metro đàm phán phút chót bế tắc trước nguy cơ đình công",
+    "link": "https://en.yna.co.kr/view/AEN20261124006151315"
+  },
+  {
+    "id": "hotnews_vi_cef94cab",
+    "date": "2026-11-24",
+    "ts": 1795506366000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124008600315_02_i_P2.jpg",
+    "title": "Lim Ji-yeon và Lee Do-hyun chia tay sau 4 năm",
+    "link": "https://en.yna.co.kr/view/AEN20261124008600315"
+  },
+  {
+    "id": "hotnews_vi_af937e0a",
+    "date": "2026-11-24",
+    "ts": 1795505729000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124002254315_06_i_P2.jpg",
+    "title": "Hàn Quốc báo động do máy bay Nga áp sát đảo Ulleung",
+    "link": "https://en.yna.co.kr/view/AEN20261124002254315"
+  },
+  {
+    "id": "hotnews_vi_f4ba9f38",
+    "date": "2026-11-24",
+    "ts": 1795505696000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124006752320_03_i_P2.jpg",
+    "title": "Chứng khoán Seoul tăng hơn 6% nhờ sự trở lại của Jensen Huang",
+    "link": "https://en.yna.co.kr/view/AEN20261124006752320"
+  },
+  {
+    "id": "hotnews_vi_cf1fc5b6",
+    "date": "2026-11-24",
+    "ts": 1795505566000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124008300315_02_i_P2.jpg",
+    "title": "Ca sĩ IU bắt đầu chuyến lưu diễn thế giới mới từ tháng 1",
+    "link": "https://en.yna.co.kr/view/AEN20261124008300315"
+  },
+  {
+    "id": "hotnews_vi_a880bf8b",
+    "date": "2026-11-24",
+    "ts": 1795501622000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124006400315_01_i_P2.jpg",
+    "title": "Thủ tướng cam kết điều tra gian lận thi cử quốc gia",
+    "link": "https://en.yna.co.kr/view/AEN20261124006400315"
+  },
+  {
+    "id": "hotnews_vi_3a46fb7a",
+    "date": "2026-11-24",
+    "ts": 1795501457000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.55e3a16db6f9462d943857564e7cb307_T1.jpg",
+    "title": "Jensen Huang tái nhiệm giúp giảm lo ngại về HBM tại Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10947677"
+  },
+  {
+    "id": "hotnews_vi_14c17508",
+    "date": "2026-11-24",
+    "ts": 1795500337000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261124025911_89_e.jpg",
+    "title": "Học sinh dùng thiết bị thông minh khi thi sẽ nhận điểm 0",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205784"
+  },
+  {
+    "id": "hotnews_vi_77cf443b",
+    "date": "2026-11-24",
+    "ts": 1795500044000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.d7700a5ae283489e84726c6aee276831_T1.jpg",
+    "title": "Ứng cử viên Bộ trưởng Tư pháp chưa loại trừ khả năng hủy cáo buộc",
+    "link": "https://www.koreaherald.com/article/10947640"
+  },
+  {
     "id": "hotnews_vi_4d2460b3",
     "date": "2026-11-24",
     "ts": 1795479057000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.95cba407e22a4ad4a46eecd9baa38abd_T1.jpg",
     "title": "Hana Financial Group hỗ trợ người cao tuổi khó khăn dịp mùa đông",
     "link": "https://www.koreaherald.com/article/10945008"
-  },
-  {
-    "id": "hotnews_vi_186c14e8",
-    "date": "2026-11-21",
-    "ts": 1795264470000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.b55fcd75a5034e76aab3b4f54471c7fc_T1.jpg",
-    "title": "BTS thắng lớn với 5 giải thưởng tại MAMA Awards 2026",
-    "link": "https://www.koreaherald.com/article/10944819"
-  },
-  {
-    "id": "hotnews_vi_69c17d34",
-    "date": "2026-11-21",
-    "ts": 1795263015000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121002151315_02_i_P2.jpg",
-    "title": "Xe buýt đâm lên vỉa hè gần ga Hongik làm 6 người bị thương",
-    "link": "https://en.yna.co.kr/view/AEN20261121002151315"
-  },
-  {
-    "id": "hotnews_vi_f72ed9f2",
-    "date": "2026-11-21",
-    "ts": 1795259821000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121000452315_01_i_P2.jpg",
-    "title": "Tàu hàng trật bánh ở Sejong, tạm dừng dịch vụ Saemaeul và Mugunghwa",
-    "link": "https://en.yna.co.kr/view/AEN20261121000452315"
-  },
-  {
-    "id": "hotnews_vi_248426ee",
-    "date": "2026-11-21",
-    "ts": 1795255036000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/21/AEN20261121001800315_01_i_P2.jpg",
-    "title": "BTS thắng lớn 5 giải tại lễ trao giải MAMA Awards 2026",
-    "link": "https://en.yna.co.kr/view/AEN20261121001800315"
-  },
-  {
-    "id": "hotnews_vi_6c75cf8b",
-    "date": "2026-11-21",
-    "ts": 1795252044000,
-    "image": "https://img.yna.co.kr/photo/etc/af/2026/11/21/PAF20261121145701009_P2.jpg",
-    "title": "Choi Min-jeong vô địch trượt băng 1.000m tại Seoul",
-    "link": "https://en.yna.co.kr/view/AEN20261121001700315"
-  },
-  {
-    "id": "hotnews_vi_1eae6221",
-    "date": "2026-11-21",
-    "ts": 1795248032000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/rcv.YNA.20261121.PRU20261121025301009_T1.jpg",
-    "title": "Anthropic IPO thành công mở đường cho OpenAI lên sàn chứng khoán",
-    "link": "https://www.koreaherald.com/article/10944733"
-  },
-  {
-    "id": "hotnews_vi_465f94f1",
-    "date": "2026-11-21",
-    "ts": 1795247323000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.2bb6633f386f470baa2a2399808b5f0d_T1.jpg",
-    "title": "Cổ phiếu Samsung và SK hynix giảm mạnh do lo ngại thị trường chip",
-    "link": "https://www.koreaherald.com/article/10944729"
-  },
-  {
-    "id": "hotnews_vi_6482e8c2",
-    "date": "2026-11-21",
-    "ts": 1795246667000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/21/news-p.v1.20261121.f68ff22c75a94fbbbf2abc64758236a9_T1.jpg",
-    "title": "Kona I mở cửa hàng pop-up thẻ thanh toán độc đáo tại Seoul",
-    "link": "https://www.koreaherald.com/article/10944725"
-  },
-  {
-    "id": "hotnews_vi_61964994",
-    "date": "2026-11-21",
-    "ts": 1795246430000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112011070001300_P2.jpg",
-    "title": "Lee Jae Myung treo thưởng 100 triệu won cho người tố cáo gian lận CSAT",
-    "link": "https://en.yna.co.kr/view/AEN20261121001300320"
-  },
-  {
-    "id": "hotnews_vi_80fe2a28",
-    "date": "2026-11-21",
-    "ts": 1795244400000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/19/news-p.v1.20261119.71973c807591484d908669b340bfe7ea_T1.jpg",
-    "title": "Ngành mỹ phẩm Hàn Quốc bùng nổ nhờ các công ty ODM toàn cầu",
-    "link": "https://www.koreaherald.com/article/10942887"
   }
 ]
