@@ -1,5 +1,69 @@
 [
   {
+    "id": "hotnews_th_69c8e492",
+    "date": "2026-11-24",
+    "ts": 1795557651000,
+    "image": "",
+    "title": "หนังสือพิมพ์เกาหลีรายงานข่าวเด่นประจำวันที่ 25 พฤศจิกายน",
+    "link": "https://en.yna.co.kr/view/AEN20261125000600320"
+  },
+  {
+    "id": "hotnews_th_31b23f02",
+    "date": "2026-11-24",
+    "ts": 1795557600000,
+    "image": "",
+    "title": "ดัชนี Kospi ฟื้นตัวหลัง Jensen Huang กลับมารับตำแหน่ง",
+    "link": "https://en.yna.co.kr/view/AEN20261125000700320"
+  },
+  {
+    "id": "hotnews_th_7c134dc1",
+    "date": "2026-11-24",
+    "ts": 1795557600000,
+    "image": "",
+    "title": "การปรับคณะรัฐมนตรีของประธานาธิบดีอี แจ-มยอง สะท้อนการกระชับความสัมพันธ์กับสหรัฐฯ",
+    "link": "https://en.yna.co.kr/view/AEN20261125000800320"
+  },
+  {
+    "id": "hotnews_th_8d81d2a5",
+    "date": "2026-11-24",
+    "ts": 1795554280000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/25/AEN20261125000451315_02_i_P2.jpg",
+    "title": "โซลเมโทรบรรลุข้อตกลงเลี่ยงการนัดหยุดงานได้ทันเวลา",
+    "link": "https://en.yna.co.kr/view/AEN20261125000451315"
+  },
+  {
+    "id": "hotnews_th_d1cc81a6",
+    "date": "2026-11-24",
+    "ts": 1795554011000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124006200320_01_i_P2.jpg",
+    "title": "กำไรสุทธิบริษัทประกันเกาหลีใต้ลดลงเกือบ 8% ในช่วง 9 เดือนแรก",
+    "link": "https://en.yna.co.kr/view/AEN20261124006200320"
+  },
+  {
+    "id": "hotnews_th_72a809ba",
+    "date": "2026-11-24",
+    "ts": 1795529442000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124002255315_06_i_P2.jpg",
+    "title": "เกาหลีใต้ประกาศแจ้งเตือนภัยบนเกาะอุลรึนโด หลังเครื่องบินรัสเซียบินใกล้",
+    "link": "https://en.yna.co.kr/view/AEN20261124002255315"
+  },
+  {
+    "id": "hotnews_th_8e3ffa13",
+    "date": "2026-11-24",
+    "ts": 1795519515000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.37599ecd375f4c01acfb541f9244ec0f_T1.jpg",
+    "title": "ผู้สอบ TEPS ต้องใส่ชุดคลุมและผ้ากันเปื้อนป้องกันโกงด้วย AI",
+    "link": "https://www.koreaherald.com/article/10948018"
+  },
+  {
+    "id": "hotnews_th_9fb7b6ef",
+    "date": "2026-11-24",
+    "ts": 1795517326000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261124075122_58_e.jpg",
+    "title": "ข้อมูลใหม่เกาหลีใต้มีผู้ดูแลครอบครัวราว 2.77 ล้านคน",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205799"
+  },
+  {
     "id": "hotnews_th_525f5500",
     "date": "2026-11-24",
     "ts": 1795512929000,
@@ -14,6 +78,22 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124006151315_01_i_P2.jpg",
     "title": "เจรจาสุดท้ายโซลเมโทรล่ม เสี่ยงรถไฟใต้ดินหยุดวิ่ง",
     "link": "https://en.yna.co.kr/view/AEN20261124006151315"
+  },
+  {
+    "id": "hotnews_th_33f048c3",
+    "date": "2026-11-24",
+    "ts": 1795510547000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.2433f00066b2459184f4587a8cd61cf1_T1.jpg",
+    "title": "เจ้าหน้าที่วง Riize ถูกแจ้งความข้อหาทำร้ายร่างกายที่สนามบินอินชอน",
+    "link": "https://www.koreaherald.com/article/10947961"
+  },
+  {
+    "id": "hotnews_th_664f21d7",
+    "date": "2026-11-24",
+    "ts": 1795507393000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.d591a1f5a37c413081919a9ef514665b_T1.png",
+    "title": "V วง BTS กลับมาใส่เครื่องแบบทหารอีกครั้งเพื่อฝึกกำลังพลสำรอง",
+    "link": "https://www.koreaherald.com/article/10947905"
   },
   {
     "id": "hotnews_th_cef94cab",
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a198bba45faf45338af9cbb560becd17_T1.png",
     "title": "ภาพยนตร์แอนิเมชัน Chiikawa ยอดฮิตในเกาหลีปี 2026",
     "link": "https://www.koreaherald.com/article/10945190"
-  },
-  {
-    "id": "hotnews_th_fdfdb8a7",
-    "date": "2026-11-22",
-    "ts": 1795329202000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.457f8daa785b4ec8a9301787ee2813bd_T1.jpg",
-    "title": "ศาลเกาหลีพิพากษาคดีขโมยสายรัดข้อมือคอนเสิร์ต BTS",
-    "link": "https://www.koreaherald.com/article/10945149"
-  },
-  {
-    "id": "hotnews_th_71150cda",
-    "date": "2026-11-22",
-    "ts": 1795328575000,
-    "image": "https://img.yna.co.kr/photo/ap/2026/06/05/PAP20260605041701009_P2.jpg",
-    "title": "ประมุขสเกตโลกเผยแผนขยายทัวร์นาเมนต์ชอร์ตแทร็ก",
-    "link": "https://en.yna.co.kr/view/AEN20261122002000315"
-  },
-  {
-    "id": "hotnews_th_30db5afa",
-    "date": "2026-11-22",
-    "ts": 1795328546000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001900315_01_i_P2.jpg",
-    "title": "SSG Landers ต่อสัญญากับพิทเชอร์ Moon Seung-won",
-    "link": "https://en.yna.co.kr/view/AEN20261122001900315"
-  },
-  {
-    "id": "hotnews_th_146a1936",
-    "date": "2026-11-22",
-    "ts": 1795328019000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.a7b3b964a22e498088efc93886f0ac34_T1.jpg",
-    "title": "ฮันฮวาเตรียมตั้งฐานในอาบูดาบีรุกธุรกิจการเงินตะวันออกกลาง",
-    "link": "https://www.koreaherald.com/article/10945134"
-  },
-  {
-    "id": "hotnews_th_6c425d3f",
-    "date": "2026-11-22",
-    "ts": 1795326841000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.7f5977cecee44900a099ba2a0cc49d5f_T1.jpg",
-    "title": "โอกาสจัดประชุมทรัมป์-คิมยังเปิดกว้าง แม้ไร้เงาพบกันที่เอเปค",
-    "link": "https://www.koreaherald.com/article/10945124"
-  },
-  {
-    "id": "hotnews_th_77538091",
-    "date": "2026-11-22",
-    "ts": 1795325663000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261122020537_97_e.jpg",
-    "title": "พยากรณ์ฝนและหิมะทั่วเกาหลีใต้ในวันจันทร์นี้",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205741"
-  },
-  {
-    "id": "hotnews_th_1379bb2c",
-    "date": "2026-11-22",
-    "ts": 1795317179000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122001000315_01_i_P2.jpg",
-    "title": "รมว.ศึกษาธิการเกาหลีใต้ประกาศลาออกจากความวุ่นวายสอบ Suneung",
-    "link": "https://en.yna.co.kr/view/AEN20261122001000315"
-  },
-  {
-    "id": "hotnews_th_54523923",
-    "date": "2026-11-22",
-    "ts": 1795316936000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/22/AEN20261122000600315_01_i_P2.jpg",
-    "title": "ยามฝั่งพบวัตถุคล้ายเรือใต้ทะเล เร่งค้นหาเรือประมงสูญหาย",
-    "link": "https://en.yna.co.kr/view/AEN20261122000600315"
-  },
-  {
-    "id": "hotnews_th_54db1d04",
-    "date": "2026-11-22",
-    "ts": 1795314852000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261104.d071799b8b9e49d78598410e1d786fd1_T1.jpg",
-    "title": "มelling ม.โซลตั้งแผนกใหม่เพื่อดึงดูดนักศึกษาต่างชาติ",
-    "link": "https://www.koreaherald.com/article/10945018"
-  },
-  {
-    "id": "hotnews_th_3e55a734",
-    "date": "2026-11-22",
-    "ts": 1795313665000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/22/news-p.v1.20261122.95cba407e22a4ad4a46eecd9baa38abd_T1.jpg",
-    "title": "ฮานาไฟแนนเชียลกรุ๊ปเพิ่มความช่วยเหลือผู้สูงอายุช่วงฤดูหนาว",
-    "link": "https://www.koreaherald.com/article/10945008"
   }
 ]
