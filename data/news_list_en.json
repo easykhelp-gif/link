@@ -1,5 +1,101 @@
 [
   {
+    "id": "hotnews_en_44a2d228",
+    "date": "2026-11-26",
+    "ts": 1795726814000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126007200320_01_i_P2.jpg",
+    "title": "Banks' earnings edge up through Sept. on rise in interest income",
+    "link": "https://en.yna.co.kr/view/AEN20261126007200320"
+  },
+  {
+    "id": "hotnews_en_53e3425f",
+    "date": "2026-11-26",
+    "ts": 1795726813000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126007300320_01_i_P2.jpg",
+    "title": "Insurance firms' lending down in Q3: data",
+    "link": "https://en.yna.co.kr/view/AEN20261126007300320"
+  },
+  {
+    "id": "hotnews_en_1b9b0c52",
+    "date": "2026-11-26",
+    "ts": 1795725000000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.e8f819984ebb4289a7ed0a7620e0460d_T1.jpg",
+    "title": "[Robert J. Fouser] AI and the translator’s Judgment",
+    "link": "https://www.koreaherald.com/article/10950862"
+  },
+  {
+    "id": "hotnews_en_dd12be27",
+    "date": "2026-11-26",
+    "ts": 1795693606000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.dda29e03ed014acf92db0b6816bfa27f_T1.jpg",
+    "title": "[팟캐스트] (828) 사치 누리는 평양 엘리트, 서민은 살인적 물가에 고통",
+    "link": "https://www.koreaherald.com/article/10950981"
+  },
+  {
+    "id": "hotnews_en_97b59341",
+    "date": "2026-11-26",
+    "ts": 1795692193000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.36f8e80bcfa443b2a238decc7cb43b63_T1.jpg",
+    "title": "Student suspended after urinating in classmate’s tumbler, victim quits school",
+    "link": "https://www.koreaherald.com/article/10950974"
+  },
+  {
+    "id": "hotnews_en_2955e13d",
+    "date": "2026-11-26",
+    "ts": 1795691766000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126011751315_01_i_P2.jpg",
+    "title": "Lee touts new deposit system as effective in curbing illegal fishing by Chinese vessels",
+    "link": "https://en.yna.co.kr/view/AEN20261126011751315"
+  },
+  {
+    "id": "hotnews_en_510017e3",
+    "date": "2026-11-26",
+    "ts": 1795689671000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/11/26/85/PCM20261126000085004_P2.jpg",
+    "title": "Police seek arrest warrant for top scorer of tax accountant exam accused of AI-assisted cheating",
+    "link": "https://en.yna.co.kr/view/AEN20261126011900315"
+  },
+  {
+    "id": "hotnews_en_1b1703a0",
+    "date": "2026-11-26",
+    "ts": 1795689552000,
+    "image": "https://img.yna.co.kr/photo/cms/2026/11/24/46/PCM20261124000146990_P2.jpg",
+    "title": "Lee approves confirmation hearing requests for ministerial, spy chief nominees",
+    "link": "https://en.yna.co.kr/view/AEN20261126012000320"
+  },
+  {
+    "id": "hotnews_en_5293f875",
+    "date": "2026-11-26",
+    "ts": 1795685993000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112602130005500_P2.jpg",
+    "title": "Unionized rail workers launch work-to-rule campaign; 4 train services canceled",
+    "link": "https://en.yna.co.kr/view/AEN20261126002452315"
+  },
+  {
+    "id": "hotnews_en_97cee88f",
+    "date": "2026-11-26",
+    "ts": 1795684367000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261126032610_45_i.jpg",
+    "title": "Parliamentary Defense Committee Passes Motion to Expand Cheonghae Unit’s Operational Area",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205853"
+  },
+  {
+    "id": "hotnews_en_0f7eb04f",
+    "date": "2026-11-26",
+    "ts": 1795684115000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/rcv.YNA.20261126.PYH2026112613550001300_T1.jpg",
+    "title": "Can foreigners talk politics in Korea? Landmark ruling challenges blanket ban",
+    "link": "https://www.koreaherald.com/article/10950928"
+  },
+  {
+    "id": "hotnews_en_4abcbab1",
+    "date": "2026-11-26",
+    "ts": 1795682738000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261126070642_88_e.jpg",
+    "title": "BOK Raises Benchmark Interest Rate to 3.25%, Boosts 2027 Growth Forecast to 4.1%",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205852"
+  },
+  {
     "id": "hotnews_en_9577ffca",
     "date": "2026-11-26",
     "ts": 1795682219000,
@@ -30,6 +126,14 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.df6125a68c734adcaadb180613ee768a_T1.jpeg",
     "title": "Culture minister nominee Kang Yu-jung on China: 'Ice has begun to melt'",
     "link": "https://www.koreaherald.com/article/10950866"
+  },
+  {
+    "id": "hotnews_en_fc4c20f6",
+    "date": "2026-11-26",
+    "ts": 1795680521000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261001095534_72_k.jpg",
+    "title": "S. Korea Wins Second ISDS Case against Dayyani Family",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205850"
   },
   {
     "id": "hotnews_en_3658824c",
@@ -80,6 +184,22 @@
     "link": "https://en.yna.co.kr/view/AEN20261126010600315"
   },
   {
+    "id": "hotnews_en_38ac0d95",
+    "date": "2026-11-26",
+    "ts": 1795679528000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110614890001300_P2.jpg",
+    "title": "PPP refuses to recommend special counsel candidate to probe alleged fabricated indictments",
+    "link": "https://en.yna.co.kr/view/AEN20261126009900315"
+  },
+  {
+    "id": "hotnews_en_93bc38e0",
+    "date": "2026-11-26",
+    "ts": 1795679355000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261106090718_15_k.jpg",
+    "title": "Foreign Tourist Arrivals Top 2 Million for Fourth Straight Month in October",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205849"
+  },
+  {
     "id": "hotnews_en_b1816b86",
     "date": "2026-11-26",
     "ts": 1795678753000,
@@ -102,6 +222,14 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112617960001300_P2.jpg",
     "title": "Eagles catcher Heo In-seo voted KBO's top rookie for 2026",
     "link": "https://en.yna.co.kr/view/AEN20261126007851315"
+  },
+  {
+    "id": "hotnews_en_926bc9cd",
+    "date": "2026-11-26",
+    "ts": 1795678481000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112619600001300_P2.jpg",
+    "title": "Tigers superstar Kim Do-yeong claims 2nd KBO MVP award",
+    "link": "https://en.yna.co.kr/view/AEN20261126008151315"
   },
   {
     "id": "hotnews_en_0141232b",
@@ -136,12 +264,28 @@
     "link": "https://en.yna.co.kr/view/AEN20261126003351320"
   },
   {
+    "id": "hotnews_en_ad2584c5",
+    "date": "2026-11-26",
+    "ts": 1795677789000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202609/260930023034_48_k.jpg",
+    "title": "Gov’t Source: Proposal from China May Have Caused S. Korea-US Intelligence Rift",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205848"
+  },
+  {
     "id": "hotnews_en_493825fb",
     "date": "2026-11-26",
     "ts": 1795677482000,
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112611370001300_P2.jpg",
     "title": "Chip boom prompts BOK to deliver 3rd rate hike, revise up 2027 forecast",
     "link": "https://en.yna.co.kr/view/AEN20261126009300320"
+  },
+  {
+    "id": "hotnews_en_5b27aa87",
+    "date": "2026-11-26",
+    "ts": 1795677267000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022041816_82_k.jpg",
+    "title": "Court Rules Ban on Political Activities by Foreigners Incompatible with Constitution",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205846"
   },
   {
     "id": "hotnews_en_e3153b99",
@@ -190,6 +334,14 @@
     "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126008600315_05_i_P2.jpg",
     "title": "S. Korea to hold meeting of overseas missions to discuss 'pragmatic' diplomacy",
     "link": "https://en.yna.co.kr/view/AEN20261126008600315"
+  },
+  {
+    "id": "hotnews_en_72dfd887",
+    "date": "2026-11-26",
+    "ts": 1795675628000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261126035032_15_e.jpg",
+    "title": "Foreign Minister Nominee Says Both S. Korea-US Alliance, Ties With China Important",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205843"
   },
   {
     "id": "hotnews_en_b4e3ec6b",
@@ -246,157 +398,5 @@
     "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112607730001300_P2.jpg",
     "title": "PPP files complaint against special counsel for 'legal distortion' following Daegu mayor's acquittal",
     "link": "https://en.yna.co.kr/view/AEN20261126007600315"
-  },
-  {
-    "id": "hotnews_en_5103a920",
-    "date": "2026-11-26",
-    "ts": 1795674057000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.ebe3e817c77d47c98ce8a9ab936b0107_T1.jpg",
-    "title": "Is Japan becoming less important to K-pop?",
-    "link": "https://www.koreaherald.com/article/10950632"
-  },
-  {
-    "id": "hotnews_en_30f91feb",
-    "date": "2026-11-26",
-    "ts": 1795674031000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.07e573538fc4497b981a8c948b0489ab_T1.jpg",
-    "title": "Hanwha Ocean loses preferred bidder status as Thailand scraps frigate tender",
-    "link": "https://www.koreaherald.com/article/10950630"
-  },
-  {
-    "id": "hotnews_en_74eb4a3f",
-    "date": "2026-11-26",
-    "ts": 1795673853000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126007551315_02_i_P2.jpg",
-    "title": "Court decides immigration law banning political activities of foreigners unconstitutional",
-    "link": "https://en.yna.co.kr/view/AEN20261126007551315"
-  },
-  {
-    "id": "hotnews_en_30699061",
-    "date": "2026-11-26",
-    "ts": 1795673649000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/201808/180826045319_71.jpg",
-    "title": "Q3 Real Household Income Drops 2.1% On-Year",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205842"
-  },
-  {
-    "id": "hotnews_en_51641388",
-    "date": "2026-11-26",
-    "ts": 1795673467000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022090610_61_k.jpg",
-    "title": "Mild Conditions to Continue Friday before Brief Weekend Chill",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205841"
-  },
-  {
-    "id": "hotnews_en_49c145ba",
-    "date": "2026-11-26",
-    "ts": 1795673314000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.240f2d061bb04b0fb0a78c0442953a0d_T1.png",
-    "title": "Digital assets could make Korea an Asian financial hub: Tiger Research CEO",
-    "link": "https://www.koreaherald.com/article/10950597"
-  },
-  {
-    "id": "hotnews_en_a8306ce9",
-    "date": "2026-11-26",
-    "ts": 1795672939000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.f4b41a156a644e5bacddf611a827189d_T1.jpg",
-    "title": "Police raid late LEET top scorer's home in AI cheating probe",
-    "link": "https://www.koreaherald.com/article/10950541"
-  },
-  {
-    "id": "hotnews_en_d8369028",
-    "date": "2026-11-26",
-    "ts": 1795672933000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-a.v1.20261126.d591b272f38d4232aaa7cb3af456c2a1_T1.jpg",
-    "title": "Killing a parent: When family tragedy meets criminal justice",
-    "link": "https://www.koreaherald.com/article/10950540"
-  },
-  {
-    "id": "hotnews_en_b5b162b6",
-    "date": "2026-11-26",
-    "ts": 1795672902000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/rcv.YNA.20261120.PYH2026112004070005300_T1.jpg",
-    "title": "Why Suneung's perfect scorers are keeping quiet this year",
-    "link": "https://www.koreaherald.com/article/10950538"
-  },
-  {
-    "id": "hotnews_en_6c6ae335",
-    "date": "2026-11-26",
-    "ts": 1795672733000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126007400315_01_i_P2.jpg",
-    "title": "PM expresses gratitude to CSAT supervisors, promises to look for ways to lessen burden next year",
-    "link": "https://en.yna.co.kr/view/AEN20261126007400315"
-  },
-  {
-    "id": "hotnews_en_c11e7d02",
-    "date": "2026-11-25",
-    "ts": 1795641701000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "N. Korean leader inspects nuclear facility, calls attention to use of tactical nukes in diverse areas: KCNA",
-    "link": "https://en.yna.co.kr/view/AEN20261126000400315"
-  },
-  {
-    "id": "hotnews_en_fd53393d",
-    "date": "2026-11-25",
-    "ts": 1795640413000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/25/AEN20261125008800320_01_i_P2.jpg",
-    "title": "Banks' bad-loan ratio down in Q3",
-    "link": "https://en.yna.co.kr/view/AEN20261125008800320"
-  },
-  {
-    "id": "hotnews_en_f4367923",
-    "date": "2026-11-25",
-    "ts": 1795638603000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/25/news-p.v1.20261125.c4e27758ce3d4f3793b73694e7b0e414_T1.jpg",
-    "title": "[Wang Son-taek] Looking beyond another Kim-Trump summit",
-    "link": "https://www.koreaherald.com/article/10949371"
-  },
-  {
-    "id": "hotnews_en_a168ce4d",
-    "date": "2026-11-25",
-    "ts": 1795630225000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126000200315_01_i_P2.jpg",
-    "title": "U.S. proposes excess capacity tariffs on S. Korean goods within agreed 15 pct ceiling",
-    "link": "https://en.yna.co.kr/view/AEN20261126000200315"
-  },
-  {
-    "id": "hotnews_en_16c099d1",
-    "date": "2026-11-25",
-    "ts": 1795617379000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/25/news-p.v1.20261125.6a4a98bb4b894f6ab360d8c23db2de0c_T1.png",
-    "title": "'Hope' wins best film at 47th Blue Dragon Film Awards",
-    "link": "https://www.koreaherald.com/article/10949515"
-  },
-  {
-    "id": "hotnews_en_79b393b0",
-    "date": "2026-11-25",
-    "ts": 1795615737000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/25/news-p.v1.20261125.b3e6840e30c54b278d22691eef2e7388_T1.jpg",
-    "title": "Korea to retain 15% tariff cap under new US tariff proposal",
-    "link": "https://www.koreaherald.com/article/10949511"
-  },
-  {
-    "id": "hotnews_en_981dd056",
-    "date": "2026-11-25",
-    "ts": 1795608819000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/25/news-p.v1.20261125.6cb058619eeb4b20b5abbca055f206f1_T1.jpg",
-    "title": "Remains of Korean soldier return home after 59 years",
-    "link": "https://www.koreaherald.com/article/10949469"
-  },
-  {
-    "id": "hotnews_en_46c7d739",
-    "date": "2026-11-25",
-    "ts": 1795607551000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/25/news-p.v1.20261111.e06f726086614a2488311cbbc1fab8fa_T1.jpg",
-    "title": "Railway union to launch work-to-rule action from Thursday",
-    "link": "https://www.koreaherald.com/article/10949465"
-  },
-  {
-    "id": "hotnews_en_99b749c6",
-    "date": "2026-11-25",
-    "ts": 1795605474000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/25/AEN20261125010400320_01_i_P2.jpg",
-    "title": "Additional personal info leaked from Bithumb in hacks",
-    "link": "https://en.yna.co.kr/view/AEN20261125010400320"
   }
 ]
