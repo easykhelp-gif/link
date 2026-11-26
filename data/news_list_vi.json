@@ -1,5 +1,85 @@
 [
   {
+    "id": "hotnews_vi_9577ffca",
+    "date": "2026-11-26",
+    "ts": 1795682219000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261125.6401a1756cf7402584f2be7edf9d8480_T1.jpg",
+    "title": "Hiểu đúng về K-pop trước khi đưa ra chỉ trích",
+    "link": "https://www.koreaherald.com/article/10950901"
+  },
+  {
+    "id": "hotnews_vi_e947c940",
+    "date": "2026-11-26",
+    "ts": 1795682210000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.49a66b86456c4145b906c0159ba53c55_T1.jpg",
+    "title": "Công ty mỹ phẩm APR mua lại thương hiệu Dr. Melaxin",
+    "link": "https://www.koreaherald.com/article/10950900"
+  },
+  {
+    "id": "hotnews_vi_e7795e8d",
+    "date": "2026-11-26",
+    "ts": 1795680586000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102905910001300_P2.jpg",
+    "title": "Tóm tắt tin tức Hàn Quốc ngày 26 tháng 11",
+    "link": "https://en.yna.co.kr/view/AEN20261126011600315"
+  },
+  {
+    "id": "hotnews_vi_81fa4d51",
+    "date": "2026-11-26",
+    "ts": 1795680530000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.df6125a68c734adcaadb180613ee768a_T1.jpeg",
+    "title": "Đề cử Bộ trưởng Văn hóa Kang Yu-jung nói về Trung Quốc",
+    "link": "https://www.koreaherald.com/article/10950866"
+  },
+  {
+    "id": "hotnews_vi_c214328b",
+    "date": "2026-11-26",
+    "ts": 1795679966000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.0bd68d5d993c4d93b623d55f6f56cd74_T1.jpg",
+    "title": "Gangnam Festival 2026 thu hút lượng khách kỷ lục",
+    "link": "https://www.koreaherald.com/article/10950844"
+  },
+  {
+    "id": "hotnews_vi_493825fb",
+    "date": "2026-11-26",
+    "ts": 1795677482000,
+    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112611370001300_P2.jpg",
+    "title": "Ngân hàng Trung ương Hàn Quốc tăng lãi suất lần thứ ba",
+    "link": "https://en.yna.co.kr/view/AEN20261126009300320"
+  },
+  {
+    "id": "hotnews_vi_5103a920",
+    "date": "2026-11-26",
+    "ts": 1795674057000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-p.v1.20261126.ebe3e817c77d47c98ce8a9ab936b0107_T1.jpg",
+    "title": "Tầm quan trọng của Nhật Bản đối với K-pop đang thay đổi",
+    "link": "https://www.koreaherald.com/article/10950632"
+  },
+  {
+    "id": "hotnews_vi_74eb4a3f",
+    "date": "2026-11-26",
+    "ts": 1795673853000,
+    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126007551315_02_i_P2.jpg",
+    "title": "Tòa án Hàn Quốc tuyên luật cấm hoạt động chính trị của người ngoại quốc là vi hiến",
+    "link": "https://en.yna.co.kr/view/AEN20261126007551315"
+  },
+  {
+    "id": "hotnews_vi_51641388",
+    "date": "2026-11-26",
+    "ts": 1795673467000,
+    "image": "https://worldimg.kbs.co.kr/src/images/news/202610/261022090610_61_k.jpg",
+    "title": "Thời tiết ấm áp tiếp tục duy trì vào thứ Sáu",
+    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205841"
+  },
+  {
+    "id": "hotnews_vi_d8369028",
+    "date": "2026-11-26",
+    "ts": 1795672933000,
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/26/news-a.v1.20261126.d591b272f38d4232aaa7cb3af456c2a1_T1.jpg",
+    "title": "Tranh cãi về tội sát hại cha mẹ tại Hàn Quốc",
+    "link": "https://www.koreaherald.com/article/10950540"
+  },
+  {
     "id": "hotnews_vi_c11e7d02",
     "date": "2026-11-25",
     "ts": 1795641701000,
@@ -318,85 +398,5 @@
     "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-p.v1.20261124.d7700a5ae283489e84726c6aee276831_T1.jpg",
     "title": "Ứng cử viên Bộ trưởng Tư pháp chưa loại trừ khả năng hủy cáo buộc",
     "link": "https://www.koreaherald.com/article/10947640"
-  },
-  {
-    "id": "hotnews_vi_4d2460b3",
-    "date": "2026-11-24",
-    "ts": 1795479057000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/24/news-a.v1.20261124.21ea5872a58c4859badd91bd47a1c885_T1.jpg",
-    "title": "Thị trường chứng khoán Seoul tăng mạnh sau sự trở lại của Jensen Huang",
-    "link": "https://www.koreaherald.com/article/10946957"
-  },
-  {
-    "id": "hotnews_vi_2cb63796",
-    "date": "2026-11-24",
-    "ts": 1795478784000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112317000001300_P2.jpg",
-    "title": "Chứng khoán Seoul tăng mạnh sau khi Jensen Huang trở lại Nvidia",
-    "link": "https://en.yna.co.kr/view/AEN20261124001600320"
-  },
-  {
-    "id": "hotnews_vi_3e15992f",
-    "date": "2026-11-24",
-    "ts": 1795478474000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261124080952_77_k.jpg",
-    "title": "Phát lệnh bắt giữ quan chức bầu cử vì gian lận kiểm phiếu",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205771"
-  },
-  {
-    "id": "hotnews_vi_0f32a23d",
-    "date": "2026-11-23",
-    "ts": 1795478254000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124001100315_04_i_P2.jpg",
-    "title": "Triều Tiên đe dọa đóng cửa văn phòng ngoại giao Thụy Sĩ ở Bình Nhưỡng",
-    "link": "https://en.yna.co.kr/view/AEN20261124001100315"
-  },
-  {
-    "id": "hotnews_vi_9931855f",
-    "date": "2026-11-23",
-    "ts": 1795477192000,
-    "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-    "title": "Hàn Quốc phát cảnh báo khẩn cấp tại đảo Ulleung do máy bay Nga",
-    "link": "https://en.yna.co.kr/view/AEN20261124001400315"
-  },
-  {
-    "id": "hotnews_vi_48c4630d",
-    "date": "2026-11-23",
-    "ts": 1795473695000,
-    "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102503400005400_P2.jpg",
-    "title": "3 nữ golfer Hàn Quốc giành vé thi đấu LPGA Tour",
-    "link": "https://en.yna.co.kr/view/AEN20261124001000315"
-  },
-  {
-    "id": "hotnews_vi_b2f959a5",
-    "date": "2026-11-23",
-    "ts": 1795471891000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/24/AEN20261124000800315_01_i_P2.jpg",
-    "title": "Mỹ thu hồi 1,1 tỷ USD tiền mã hóa do Triều Tiên đánh cắp",
-    "link": "https://en.yna.co.kr/view/AEN20261124000800315"
-  },
-  {
-    "id": "hotnews_vi_63d73994",
-    "date": "2026-11-23",
-    "ts": 1795436275000,
-    "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/23/AEN20261123010052315_02_i_P2.jpg",
-    "title": "Diễn viên Ko Kyung-pyo điều trần vụ lái xe khi uống rượu",
-    "link": "https://en.yna.co.kr/view/AEN20261123010052315"
-  },
-  {
-    "id": "hotnews_vi_fb9431b3",
-    "date": "2026-11-23",
-    "ts": 1795426704000,
-    "image": "https://worldimg.kbs.co.kr/src/images/news/202611/261123064658_87_e.jpg",
-    "title": "Cảnh sát: Cần điều tra bắt buộc vụ thí sinh LEET",
-    "link": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205770"
-  },
-  {
-    "id": "hotnews_vi_1b9a32fd",
-    "date": "2026-11-23",
-    "ts": 1795424223000,
-    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/rcv.YNA.20261123.PYH2026112314080001300_T1.jpg",
-    "title": "Kang Yu-jung được đề cử làm Bộ trưởng Bộ Văn hóa Hàn Quốc",
-    "link": "https://www.koreaherald.com/article/10946545"
   }
 ]
